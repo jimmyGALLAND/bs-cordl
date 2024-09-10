@@ -34,63 +34,63 @@ class P2T;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::ProBuilder::Poly2Tri::P2T);
 // Type: UnityEngine.ProBuilder.Poly2Tri::P2T
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::Poly2Tri {
 // Is value type: false
 // CS Name: ::UnityEngine.ProBuilder.Poly2Tri::P2T*
 class CORDL_TYPE P2T : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field _defaultAlgorithm, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF__defaultAlgorithm, put = setStaticF__defaultAlgorithm))::UnityEngine::ProBuilder::Poly2Tri::TriangulationAlgorithm _defaultAlgorithm;
+// Declarations
+/// @brief Field _defaultAlgorithm, offset 0xffffffff, size 0x4 
+static __declspec(property(get=getStaticF__defaultAlgorithm, put=setStaticF__defaultAlgorithm)) ::UnityEngine::ProBuilder::Poly2Tri::TriangulationAlgorithm  _defaultAlgorithm;
 
-  /// @brief Method CreateContext, addr 0x329f0d4, size 0x58, virtual false, abstract: false, final false
-  static inline ::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext* CreateContext(::UnityEngine::ProBuilder::Poly2Tri::TriangulationAlgorithm algorithm);
+/// @brief Method CreateContext, addr 0x4664a80, size 0x50, virtual false, abstract: false, final false
+static inline ::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext* CreateContext(::UnityEngine::ProBuilder::Poly2Tri::TriangulationAlgorithm  algorithm) ;
 
-  /// @brief Method Triangulate, addr 0x329f1f8, size 0x3c, virtual false, abstract: false, final false
-  static inline void Triangulate(::UnityEngine::ProBuilder::Poly2Tri::TriangulationAlgorithm algorithm, ::UnityEngine::ProBuilder::Poly2Tri::Triangulatable* t);
+/// @brief Method Triangulate, addr 0x4664b9c, size 0x3c, virtual false, abstract: false, final false
+static inline void Triangulate(::UnityEngine::ProBuilder::Poly2Tri::TriangulationAlgorithm  algorithm, ::UnityEngine::ProBuilder::Poly2Tri::Triangulatable*  t) ;
 
-  /// @brief Method Triangulate, addr 0x329f234, size 0x3c, virtual false, abstract: false, final false
-  static inline void Triangulate(::UnityEngine::ProBuilder::Poly2Tri::ConstrainedPointSet* cps);
+/// @brief Method Triangulate, addr 0x4664bd8, size 0x3c, virtual false, abstract: false, final false
+static inline void Triangulate(::UnityEngine::ProBuilder::Poly2Tri::ConstrainedPointSet*  cps) ;
 
-  /// @brief Method Triangulate, addr 0x329f1bc, size 0x3c, virtual false, abstract: false, final false
-  static inline void Triangulate(::UnityEngine::ProBuilder::Poly2Tri::Polygon* p);
+/// @brief Method Triangulate, addr 0x4664b60, size 0x3c, virtual false, abstract: false, final false
+static inline void Triangulate(::UnityEngine::ProBuilder::Poly2Tri::Polygon*  p) ;
 
-  /// @brief Method Triangulate, addr 0x329f270, size 0x3c, virtual false, abstract: false, final false
-  static inline void Triangulate(::UnityEngine::ProBuilder::Poly2Tri::PointSet* ps);
+/// @brief Method Triangulate, addr 0x4664c14, size 0x3c, virtual false, abstract: false, final false
+static inline void Triangulate(::UnityEngine::ProBuilder::Poly2Tri::PointSet*  ps) ;
 
-  /// @brief Method Triangulate, addr 0x329edb0, size 0x324, virtual false, abstract: false, final false
-  static inline void Triangulate(::UnityEngine::ProBuilder::Poly2Tri::PolygonSet* ps);
+/// @brief Method Triangulate, addr 0x4664760, size 0x320, virtual false, abstract: false, final false
+static inline void Triangulate(::UnityEngine::ProBuilder::Poly2Tri::PolygonSet*  ps) ;
 
-  /// @brief Method Triangulate, addr 0x329f12c, size 0x90, virtual false, abstract: false, final false
-  static inline void Triangulate(::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext* tcx);
+/// @brief Method Triangulate, addr 0x4664ad0, size 0x90, virtual false, abstract: false, final false
+static inline void Triangulate(::UnityEngine::ProBuilder::Poly2Tri::TriangulationContext*  tcx) ;
 
-  /// @brief Method Warmup, addr 0x329f3d8, size 0x4, virtual false, abstract: false, final false
-  static inline void Warmup();
+/// @brief Method Warmup, addr 0x4664d74, size 0x4, virtual false, abstract: false, final false
+static inline void Warmup() ;
 
-  static inline ::UnityEngine::ProBuilder::Poly2Tri::TriangulationAlgorithm getStaticF__defaultAlgorithm();
+static inline ::UnityEngine::ProBuilder::Poly2Tri::TriangulationAlgorithm getStaticF__defaultAlgorithm() ;
 
-  static inline void setStaticF__defaultAlgorithm(::UnityEngine::ProBuilder::Poly2Tri::TriangulationAlgorithm value);
+static inline void setStaticF__defaultAlgorithm(::UnityEngine::ProBuilder::Poly2Tri::TriangulationAlgorithm  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr P2T();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr P2T() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "P2T", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  P2T(P2T&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "P2T", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  P2T(P2T const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "P2T", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+P2T(P2T && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "P2T", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+P2T(P2T const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::Poly2Tri::P2T, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine::ProBuilder::Poly2Tri
+} // namespace end def UnityEngine::ProBuilder::Poly2Tri
 NEED_NO_BOX(::UnityEngine::ProBuilder::Poly2Tri::P2T);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::Poly2Tri::P2T*, "UnityEngine.ProBuilder.Poly2Tri", "P2T");

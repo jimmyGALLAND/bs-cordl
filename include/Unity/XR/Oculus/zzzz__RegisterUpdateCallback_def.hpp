@@ -12,41 +12,41 @@ class RegisterUpdateCallback;
 // Write type traits
 MARK_REF_PTR_T(::Unity::XR::Oculus::RegisterUpdateCallback);
 // Type: Unity.XR.Oculus::RegisterUpdateCallback
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Unity::XR::Oculus {
 // Is value type: false
 // CS Name: ::Unity.XR.Oculus::RegisterUpdateCallback*
 class CORDL_TYPE RegisterUpdateCallback : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method Deinitialize, addr 0x33e4da4, size 0x7c, virtual false, abstract: false, final false
-  static inline void Deinitialize();
+// Declarations
+/// @brief Method Deinitialize, addr 0x47a21b4, size 0xa0, virtual false, abstract: false, final false
+static inline void Deinitialize() ;
 
-  /// @brief Method Initialize, addr 0x33e4b44, size 0x7c, virtual false, abstract: false, final false
-  static inline void Initialize();
+/// @brief Method Initialize, addr 0x47a1fa0, size 0xa0, virtual false, abstract: false, final false
+static inline void Initialize() ;
 
-  /// @brief Method Update, addr 0x33e84b4, size 0x10, virtual false, abstract: false, final false
-  static inline void Update();
+/// @brief Method Update, addr 0x47a5950, size 0x10, virtual false, abstract: false, final false
+static inline void Update() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr RegisterUpdateCallback();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr RegisterUpdateCallback() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RegisterUpdateCallback", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  RegisterUpdateCallback(RegisterUpdateCallback&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RegisterUpdateCallback", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  RegisterUpdateCallback(RegisterUpdateCallback const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "RegisterUpdateCallback", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+RegisterUpdateCallback(RegisterUpdateCallback && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "RegisterUpdateCallback", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+RegisterUpdateCallback(RegisterUpdateCallback const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Unity::XR::Oculus::RegisterUpdateCallback, 0x10>, "Size mismatch!");
 
-} // namespace Unity::XR::Oculus
+} // namespace end def Unity::XR::Oculus
 NEED_NO_BOX(::Unity::XR::Oculus::RegisterUpdateCallback);
 DEFINE_IL2CPP_ARG_TYPE(::Unity::XR::Oculus::RegisterUpdateCallback*, "Unity.XR.Oculus", "RegisterUpdateCallback");

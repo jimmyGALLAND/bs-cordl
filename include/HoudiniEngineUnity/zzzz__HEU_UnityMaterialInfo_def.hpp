@@ -14,69 +14,69 @@ class HEU_UnityMaterialInfo;
 // Write type traits
 MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_UnityMaterialInfo);
 // Type: HoudiniEngineUnity::HEU_UnityMaterialInfo
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
 // CS Name: ::HoudiniEngineUnity::HEU_UnityMaterialInfo*
 class CORDL_TYPE HEU_UnityMaterialInfo : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field _substanceIndex, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get__substanceIndex, put = __cordl_internal_set__substanceIndex)) int32_t _substanceIndex;
+// Declarations
+/// @brief Field _substanceIndex, offset 0x20, size 0x4 
+ __declspec(property(get=__cordl_internal_get__substanceIndex, put=__cordl_internal_set__substanceIndex)) int32_t  _substanceIndex;
 
-  /// @brief Field _substancePath, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__substancePath, put = __cordl_internal_set__substancePath))::StringW _substancePath;
+/// @brief Field _substancePath, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get__substancePath, put=__cordl_internal_set__substancePath)) ::StringW  _substancePath;
 
-  /// @brief Field _unityMaterialPath, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__unityMaterialPath, put = __cordl_internal_set__unityMaterialPath))::StringW _unityMaterialPath;
+/// @brief Field _unityMaterialPath, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get__unityMaterialPath, put=__cordl_internal_set__unityMaterialPath)) ::StringW  _unityMaterialPath;
 
-  static inline ::HoudiniEngineUnity::HEU_UnityMaterialInfo* New_ctor(::StringW unityMaterialPath, ::StringW substancePath, int32_t substanceIndex);
+static inline ::HoudiniEngineUnity::HEU_UnityMaterialInfo* New_ctor(::StringW  unityMaterialPath, ::StringW  substancePath, int32_t  substanceIndex) ;
 
-  constexpr int32_t const& __cordl_internal_get__substanceIndex() const;
+constexpr int32_t const& __cordl_internal_get__substanceIndex() const;
 
-  constexpr int32_t& __cordl_internal_get__substanceIndex();
+constexpr int32_t& __cordl_internal_get__substanceIndex() ;
 
-  constexpr ::StringW const& __cordl_internal_get__substancePath() const;
+constexpr ::StringW const& __cordl_internal_get__substancePath() const;
 
-  constexpr ::StringW& __cordl_internal_get__substancePath();
+constexpr ::StringW& __cordl_internal_get__substancePath() ;
 
-  constexpr ::StringW const& __cordl_internal_get__unityMaterialPath() const;
+constexpr ::StringW const& __cordl_internal_get__unityMaterialPath() const;
 
-  constexpr ::StringW& __cordl_internal_get__unityMaterialPath();
+constexpr ::StringW& __cordl_internal_get__unityMaterialPath() ;
 
-  constexpr void __cordl_internal_set__substanceIndex(int32_t value);
+constexpr void __cordl_internal_set__substanceIndex(int32_t  value) ;
 
-  constexpr void __cordl_internal_set__substancePath(::StringW value);
+constexpr void __cordl_internal_set__substancePath(::StringW  value) ;
 
-  constexpr void __cordl_internal_set__unityMaterialPath(::StringW value);
+constexpr void __cordl_internal_set__unityMaterialPath(::StringW  value) ;
 
-  /// @brief Method .ctor, addr 0x25b2ac4, size 0x3c, virtual false, abstract: false, final false
-  inline void _ctor(::StringW unityMaterialPath, ::StringW substancePath, int32_t substanceIndex);
+/// @brief Method .ctor, addr 0x39d4c64, size 0x3c, virtual false, abstract: false, final false
+inline void _ctor(::StringW  unityMaterialPath, ::StringW  substancePath, int32_t  substanceIndex) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HEU_UnityMaterialInfo();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr HEU_UnityMaterialInfo() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HEU_UnityMaterialInfo", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  HEU_UnityMaterialInfo(HEU_UnityMaterialInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HEU_UnityMaterialInfo", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  HEU_UnityMaterialInfo(HEU_UnityMaterialInfo const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "HEU_UnityMaterialInfo", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+HEU_UnityMaterialInfo(HEU_UnityMaterialInfo && ) = delete;
 
-  /// @brief Field _unityMaterialPath, offset: 0x10, size: 0x8, def value: None
-  ::StringW ____unityMaterialPath;
+// Ctor Parameters [CppParam { name: "", ty: "HEU_UnityMaterialInfo", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+HEU_UnityMaterialInfo(HEU_UnityMaterialInfo const& ) = delete;
 
-  /// @brief Field _substancePath, offset: 0x18, size: 0x8, def value: None
-  ::StringW ____substancePath;
+/// @brief Field _unityMaterialPath, offset: 0x10, size: 0x8, def value: None
+ ::StringW  ____unityMaterialPath;
 
-  /// @brief Field _substanceIndex, offset: 0x20, size: 0x4, def value: None
-  int32_t ____substanceIndex;
+/// @brief Field _substancePath, offset: 0x18, size: 0x8, def value: None
+ ::StringW  ____substancePath;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _substanceIndex, offset: 0x20, size: 0x4, def value: None
+ int32_t  ____substanceIndex;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_UnityMaterialInfo, 0x28>, "Size mismatch!");
@@ -87,6 +87,6 @@ static_assert(offsetof(::HoudiniEngineUnity::HEU_UnityMaterialInfo, ____substanc
 
 static_assert(offsetof(::HoudiniEngineUnity::HEU_UnityMaterialInfo, ____substanceIndex) == 0x20, "Offset mismatch!");
 
-} // namespace HoudiniEngineUnity
+} // namespace end def HoudiniEngineUnity
 NEED_NO_BOX(::HoudiniEngineUnity::HEU_UnityMaterialInfo);
 DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_UnityMaterialInfo*, "HoudiniEngineUnity", "HEU_UnityMaterialInfo");

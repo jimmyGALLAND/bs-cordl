@@ -17,10 +17,12 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(UIRVEShaderInfoAllocator)
 namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
+template<typename T>
+struct NativeArray_1;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeSlice_1;
+template<typename T>
+struct NativeSlice_1;
 }
 namespace UnityEngine::UIElements::UIR {
 struct BMPAlloc;
@@ -65,293 +67,282 @@ struct UIRVEShaderInfoAllocator;
 // Write type traits
 MARK_VAL_T(::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator);
 // Type: UnityEngine.UIElements.UIR::UIRVEShaderInfoAllocator
-// SizeInfo { instance_size: 208, native_size: -1, calculated_instance_size: 208, calculated_native_size: 224, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 208, native_size: -1, calculated_instance_size: 208, calculated_native_size: 224, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::UIR {
 // Is value type: true
 // CS Name: ::UnityEngine.UIElements.UIR::UIRVEShaderInfoAllocator
 struct CORDL_TYPE UIRVEShaderInfoAllocator {
 public:
-  // Declarations
-  __declspec(property(get = get_atlas))::UnityW<::UnityEngine::Texture> atlas;
+// Declarations
+ __declspec(property(get=get_atlas)) ::UnityW<::UnityEngine::Texture>  atlas;
 
-  /// @brief Field clearColor, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_clearColor, put = setStaticF_clearColor))::UnityEngine::UIElements::UIR::BMPAlloc clearColor;
+/// @brief Field clearColor, offset 0xffffffff, size 0x8 
+static __declspec(property(get=getStaticF_clearColor, put=setStaticF_clearColor)) ::UnityEngine::UIElements::UIR::BMPAlloc  clearColor;
 
-  /// @brief Field clearColorTexel, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_clearColorTexel, put = setStaticF_clearColorTexel))::UnityEngine::Vector2Int clearColorTexel;
+/// @brief Field clearColorTexel, offset 0xffffffff, size 0x8 
+static __declspec(property(get=getStaticF_clearColorTexel, put=setStaticF_clearColorTexel)) ::UnityEngine::Vector2Int  clearColorTexel;
 
-  /// @brief Field clearColorValue, offset 0xffffffff, size 0x10
-  static __declspec(property(get = getStaticF_clearColorValue, put = setStaticF_clearColorValue))::UnityEngine::Vector4 clearColorValue;
+/// @brief Field clearColorValue, offset 0xffffffff, size 0x10 
+static __declspec(property(get=getStaticF_clearColorValue, put=setStaticF_clearColorValue)) ::UnityEngine::Vector4  clearColorValue;
 
-  __declspec(property(get = get_clipRectConstants))::Unity::Collections::NativeSlice_1<::UnityEngine::Vector4> clipRectConstants;
+ __declspec(property(get=get_clipRectConstants)) ::Unity::Collections::NativeSlice_1<::UnityEngine::Vector4>  clipRectConstants;
 
-  /// @brief Field defaultTextCoreSettings, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_defaultTextCoreSettings, put = setStaticF_defaultTextCoreSettings))::UnityEngine::UIElements::UIR::BMPAlloc defaultTextCoreSettings;
+/// @brief Field defaultTextCoreSettings, offset 0xffffffff, size 0x8 
+static __declspec(property(get=getStaticF_defaultTextCoreSettings, put=setStaticF_defaultTextCoreSettings)) ::UnityEngine::UIElements::UIR::BMPAlloc  defaultTextCoreSettings;
 
-  /// @brief Field defaultTextCoreSettingsTexel, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_defaultTextCoreSettingsTexel, put = setStaticF_defaultTextCoreSettingsTexel))::UnityEngine::Vector2Int defaultTextCoreSettingsTexel;
+/// @brief Field defaultTextCoreSettingsTexel, offset 0xffffffff, size 0x8 
+static __declspec(property(get=getStaticF_defaultTextCoreSettingsTexel, put=setStaticF_defaultTextCoreSettingsTexel)) ::UnityEngine::Vector2Int  defaultTextCoreSettingsTexel;
 
-  /// @brief Field defaultTextCoreSettingsValue, offset 0xffffffff, size 0x40
-  static __declspec(property(get = getStaticF_defaultTextCoreSettingsValue,
-                             put = setStaticF_defaultTextCoreSettingsValue))::UnityEngine::UIElements::UIR::TextCoreSettings defaultTextCoreSettingsValue;
+/// @brief Field defaultTextCoreSettingsValue, offset 0xffffffff, size 0x40 
+static __declspec(property(get=getStaticF_defaultTextCoreSettingsValue, put=setStaticF_defaultTextCoreSettingsValue)) ::UnityEngine::UIElements::UIR::TextCoreSettings  defaultTextCoreSettingsValue;
 
-  /// @brief Field fullOpacity, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_fullOpacity, put = setStaticF_fullOpacity))::UnityEngine::UIElements::UIR::BMPAlloc fullOpacity;
+/// @brief Field fullOpacity, offset 0xffffffff, size 0x8 
+static __declspec(property(get=getStaticF_fullOpacity, put=setStaticF_fullOpacity)) ::UnityEngine::UIElements::UIR::BMPAlloc  fullOpacity;
 
-  /// @brief Field fullOpacityTexel, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_fullOpacityTexel, put = setStaticF_fullOpacityTexel))::UnityEngine::Vector2Int fullOpacityTexel;
+/// @brief Field fullOpacityTexel, offset 0xffffffff, size 0x8 
+static __declspec(property(get=getStaticF_fullOpacityTexel, put=setStaticF_fullOpacityTexel)) ::UnityEngine::Vector2Int  fullOpacityTexel;
 
-  /// @brief Field fullOpacityValue, offset 0xffffffff, size 0x10
-  static __declspec(property(get = getStaticF_fullOpacityValue, put = setStaticF_fullOpacityValue))::UnityEngine::Vector4 fullOpacityValue;
+/// @brief Field fullOpacityValue, offset 0xffffffff, size 0x10 
+static __declspec(property(get=getStaticF_fullOpacityValue, put=setStaticF_fullOpacityValue)) ::UnityEngine::Vector4  fullOpacityValue;
 
-  /// @brief Field identityTransform, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_identityTransform, put = setStaticF_identityTransform))::UnityEngine::UIElements::UIR::BMPAlloc identityTransform;
+/// @brief Field identityTransform, offset 0xffffffff, size 0x8 
+static __declspec(property(get=getStaticF_identityTransform, put=setStaticF_identityTransform)) ::UnityEngine::UIElements::UIR::BMPAlloc  identityTransform;
 
-  /// @brief Field identityTransformRow0Value, offset 0xffffffff, size 0x10
-  static __declspec(property(get = getStaticF_identityTransformRow0Value, put = setStaticF_identityTransformRow0Value))::UnityEngine::Vector4 identityTransformRow0Value;
+/// @brief Field identityTransformRow0Value, offset 0xffffffff, size 0x10 
+static __declspec(property(get=getStaticF_identityTransformRow0Value, put=setStaticF_identityTransformRow0Value)) ::UnityEngine::Vector4  identityTransformRow0Value;
 
-  /// @brief Field identityTransformRow1Value, offset 0xffffffff, size 0x10
-  static __declspec(property(get = getStaticF_identityTransformRow1Value, put = setStaticF_identityTransformRow1Value))::UnityEngine::Vector4 identityTransformRow1Value;
+/// @brief Field identityTransformRow1Value, offset 0xffffffff, size 0x10 
+static __declspec(property(get=getStaticF_identityTransformRow1Value, put=setStaticF_identityTransformRow1Value)) ::UnityEngine::Vector4  identityTransformRow1Value;
 
-  /// @brief Field identityTransformRow2Value, offset 0xffffffff, size 0x10
-  static __declspec(property(get = getStaticF_identityTransformRow2Value, put = setStaticF_identityTransformRow2Value))::UnityEngine::Vector4 identityTransformRow2Value;
+/// @brief Field identityTransformRow2Value, offset 0xffffffff, size 0x10 
+static __declspec(property(get=getStaticF_identityTransformRow2Value, put=setStaticF_identityTransformRow2Value)) ::UnityEngine::Vector4  identityTransformRow2Value;
 
-  /// @brief Field identityTransformTexel, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_identityTransformTexel, put = setStaticF_identityTransformTexel))::UnityEngine::Vector2Int identityTransformTexel;
+/// @brief Field identityTransformTexel, offset 0xffffffff, size 0x8 
+static __declspec(property(get=getStaticF_identityTransformTexel, put=setStaticF_identityTransformTexel)) ::UnityEngine::Vector2Int  identityTransformTexel;
 
-  /// @brief Field identityTransformValue, offset 0xffffffff, size 0x40
-  static __declspec(property(get = getStaticF_identityTransformValue, put = setStaticF_identityTransformValue))::UnityEngine::Matrix4x4 identityTransformValue;
+/// @brief Field identityTransformValue, offset 0xffffffff, size 0x40 
+static __declspec(property(get=getStaticF_identityTransformValue, put=setStaticF_identityTransformValue)) ::UnityEngine::Matrix4x4  identityTransformValue;
 
-  /// @brief Field infiniteClipRect, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_infiniteClipRect, put = setStaticF_infiniteClipRect))::UnityEngine::UIElements::UIR::BMPAlloc infiniteClipRect;
+/// @brief Field infiniteClipRect, offset 0xffffffff, size 0x8 
+static __declspec(property(get=getStaticF_infiniteClipRect, put=setStaticF_infiniteClipRect)) ::UnityEngine::UIElements::UIR::BMPAlloc  infiniteClipRect;
 
-  /// @brief Field infiniteClipRectTexel, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_infiniteClipRectTexel, put = setStaticF_infiniteClipRectTexel))::UnityEngine::Vector2Int infiniteClipRectTexel;
+/// @brief Field infiniteClipRectTexel, offset 0xffffffff, size 0x8 
+static __declspec(property(get=getStaticF_infiniteClipRectTexel, put=setStaticF_infiniteClipRectTexel)) ::UnityEngine::Vector2Int  infiniteClipRectTexel;
 
-  /// @brief Field infiniteClipRectValue, offset 0xffffffff, size 0x10
-  static __declspec(property(get = getStaticF_infiniteClipRectValue, put = setStaticF_infiniteClipRectValue))::UnityEngine::Vector4 infiniteClipRectValue;
+/// @brief Field infiniteClipRectValue, offset 0xffffffff, size 0x10 
+static __declspec(property(get=getStaticF_infiniteClipRectValue, put=setStaticF_infiniteClipRectValue)) ::UnityEngine::Vector4  infiniteClipRectValue;
 
-  __declspec(property(get = get_transformConstants))::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::UIR::Transform3x4> transformConstants;
+ __declspec(property(get=get_transformConstants)) ::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::UIR::Transform3x4>  transformConstants;
 
-  /// @brief Method AllocClipRect, addr 0x361fec4, size 0xe8, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::UIR::BMPAlloc AllocClipRect();
+/// @brief Method AllocClipRect, addr 0x491d2a0, size 0x100, virtual false, abstract: false, final false
+inline ::UnityEngine::UIElements::UIR::BMPAlloc AllocClipRect() ;
 
-  /// @brief Method AllocColor, addr 0x361ffd4, size 0x28, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::UIR::BMPAlloc AllocColor();
+/// @brief Method AllocColor, addr 0x491d408, size 0x68, virtual false, abstract: false, final false
+inline ::UnityEngine::UIElements::UIR::BMPAlloc AllocColor() ;
 
-  /// @brief Method AllocOpacity, addr 0x361ffac, size 0x28, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::UIR::BMPAlloc AllocOpacity();
+/// @brief Method AllocOpacity, addr 0x491d3a0, size 0x68, virtual false, abstract: false, final false
+inline ::UnityEngine::UIElements::UIR::BMPAlloc AllocOpacity() ;
 
-  /// @brief Method AllocTextCoreSettings, addr 0x361fffc, size 0x28, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::UIR::BMPAlloc AllocTextCoreSettings(::UnityEngine::UIElements::UIR::TextCoreSettings settings);
+/// @brief Method AllocTextCoreSettings, addr 0x491d470, size 0x68, virtual false, abstract: false, final false
+inline ::UnityEngine::UIElements::UIR::BMPAlloc AllocTextCoreSettings(::UnityEngine::UIElements::UIR::TextCoreSettings  settings) ;
 
-  /// @brief Method AllocToConstantBufferIndex, addr 0x361ebb0, size 0x68, virtual false, abstract: false, final false
-  static inline int32_t AllocToConstantBufferIndex(::UnityEngine::UIElements::UIR::BMPAlloc alloc);
+/// @brief Method AllocToConstantBufferIndex, addr 0x491b648, size 0x60, virtual false, abstract: false, final false
+static inline int32_t AllocToConstantBufferIndex(::UnityEngine::UIElements::UIR::BMPAlloc  alloc) ;
 
-  /// @brief Method AllocToTexelCoord, addr 0x361eb60, size 0x50, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Vector2Int AllocToTexelCoord(ByRef<::UnityEngine::UIElements::UIR::BitmapAllocator32> allocator, ::UnityEngine::UIElements::UIR::BMPAlloc alloc);
+/// @brief Method AllocToTexelCoord, addr 0x491b5f8, size 0x50, virtual false, abstract: false, final false
+static inline ::UnityEngine::Vector2Int AllocToTexelCoord(ByRef<::UnityEngine::UIElements::UIR::BitmapAllocator32>  allocator, ::UnityEngine::UIElements::UIR::BMPAlloc  alloc) ;
 
-  /// @brief Method AllocTransform, addr 0x361fddc, size 0xe8, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::UIR::BMPAlloc AllocTransform();
+/// @brief Method AllocTransform, addr 0x491d1a0, size 0x100, virtual false, abstract: false, final false
+inline ::UnityEngine::UIElements::UIR::BMPAlloc AllocTransform() ;
 
-  /// @brief Method AtlasRectMatchesPage, addr 0x361ec18, size 0xf8, virtual false, abstract: false, final false
-  static inline bool AtlasRectMatchesPage(ByRef<::UnityEngine::UIElements::UIR::BitmapAllocator32> allocator, ::UnityEngine::UIElements::UIR::BMPAlloc defAlloc, ::UnityEngine::RectInt atlasRect);
+/// @brief Method AtlasRectMatchesPage, addr 0x491b6a8, size 0x168, virtual false, abstract: false, final false
+static inline bool AtlasRectMatchesPage(ByRef<::UnityEngine::UIElements::UIR::BitmapAllocator32>  allocator, ::UnityEngine::UIElements::UIR::BMPAlloc  defAlloc, ::UnityEngine::RectInt  atlasRect) ;
 
-  /// @brief Method ClipRectAllocToVertexData, addr 0x3620388, size 0x120, virtual false, abstract: false, final false
-  inline ::UnityEngine::Color32 ClipRectAllocToVertexData(::UnityEngine::UIElements::UIR::BMPAlloc alloc);
+/// @brief Method ClipRectAllocToVertexData, addr 0x491d8e0, size 0x110, virtual false, abstract: false, final false
+inline ::UnityEngine::Color32 ClipRectAllocToVertexData(::UnityEngine::UIElements::UIR::BMPAlloc  alloc) ;
 
-  /// @brief Method ColorAllocToVertexData, addr 0x36205a4, size 0xfc, virtual false, abstract: false, final false
-  inline ::UnityEngine::Color32 ColorAllocToVertexData(::UnityEngine::UIElements::UIR::BMPAlloc alloc);
+/// @brief Method ColorAllocToVertexData, addr 0x491daec, size 0xfc, virtual false, abstract: false, final false
+inline ::UnityEngine::Color32 ColorAllocToVertexData(::UnityEngine::UIElements::UIR::BMPAlloc  alloc) ;
 
-  /// @brief Method Construct, addr 0x361ee30, size 0x288, virtual false, abstract: false, final false
-  inline void Construct();
+/// @brief Method Construct, addr 0x491bf90, size 0x278, virtual false, abstract: false, final false
+inline void Construct() ;
 
-  /// @brief Method Dispose, addr 0x361fc88, size 0xd0, virtual false, abstract: false, final false
-  inline void Dispose();
+/// @brief Method Dispose, addr 0x491d0e0, size 0xa8, virtual false, abstract: false, final false
+inline void Dispose() ;
 
-  /// @brief Method FreeClipRect, addr 0x3620098, size 0x74, virtual false, abstract: false, final false
-  inline void FreeClipRect(::UnityEngine::UIElements::UIR::BMPAlloc alloc);
+/// @brief Method FreeClipRect, addr 0x491d570, size 0x98, virtual false, abstract: false, final false
+inline void FreeClipRect(::UnityEngine::UIElements::UIR::BMPAlloc  alloc) ;
 
-  /// @brief Method FreeColor, addr 0x3620180, size 0x74, virtual false, abstract: false, final false
-  inline void FreeColor(::UnityEngine::UIElements::UIR::BMPAlloc alloc);
+/// @brief Method FreeColor, addr 0x491d6a0, size 0x98, virtual false, abstract: false, final false
+inline void FreeColor(::UnityEngine::UIElements::UIR::BMPAlloc  alloc) ;
 
-  /// @brief Method FreeOpacity, addr 0x362010c, size 0x74, virtual false, abstract: false, final false
-  inline void FreeOpacity(::UnityEngine::UIElements::UIR::BMPAlloc alloc);
+/// @brief Method FreeOpacity, addr 0x491d608, size 0x98, virtual false, abstract: false, final false
+inline void FreeOpacity(::UnityEngine::UIElements::UIR::BMPAlloc  alloc) ;
 
-  /// @brief Method FreeTextCoreSettings, addr 0x36201f4, size 0x74, virtual false, abstract: false, final false
-  inline void FreeTextCoreSettings(::UnityEngine::UIElements::UIR::BMPAlloc alloc);
+/// @brief Method FreeTextCoreSettings, addr 0x491d738, size 0x98, virtual false, abstract: false, final false
+inline void FreeTextCoreSettings(::UnityEngine::UIElements::UIR::BMPAlloc  alloc) ;
 
-  /// @brief Method FreeTransform, addr 0x3620024, size 0x74, virtual false, abstract: false, final false
-  inline void FreeTransform(::UnityEngine::UIElements::UIR::BMPAlloc alloc);
+/// @brief Method FreeTransform, addr 0x491d4d8, size 0x98, virtual false, abstract: false, final false
+inline void FreeTransform(::UnityEngine::UIElements::UIR::BMPAlloc  alloc) ;
 
-  /// @brief Method IssuePendingStorageChanges, addr 0x361fdc4, size 0x18, virtual false, abstract: false, final false
-  inline void IssuePendingStorageChanges();
+/// @brief Method IssuePendingStorageChanges, addr 0x491d188, size 0x18, virtual false, abstract: false, final false
+inline void IssuePendingStorageChanges() ;
 
-  /// @brief Method OpacityAllocToVertexData, addr 0x36204a8, size 0xfc, virtual false, abstract: false, final false
-  inline ::UnityEngine::Color32 OpacityAllocToVertexData(::UnityEngine::UIElements::UIR::BMPAlloc alloc);
+/// @brief Method OpacityAllocToVertexData, addr 0x491d9f0, size 0xfc, virtual false, abstract: false, final false
+inline ::UnityEngine::Color32 OpacityAllocToVertexData(::UnityEngine::UIElements::UIR::BMPAlloc  alloc) ;
 
-  /// @brief Method ReallyCreateStorage, addr 0x361f0b8, size 0x42c, virtual false, abstract: false, final false
-  inline void ReallyCreateStorage();
+/// @brief Method ReallyCreateStorage, addr 0x491c3e4, size 0x404, virtual false, abstract: false, final false
+inline void ReallyCreateStorage() ;
 
-  /// @brief Method SetClipRectValue, addr 0x361f820, size 0x138, virtual false, abstract: false, final false
-  inline void SetClipRectValue(::UnityEngine::UIElements::UIR::BMPAlloc alloc, ::UnityEngine::Vector4 clipRect);
+/// @brief Method SetClipRectValue, addr 0x491ca24, size 0x15c, virtual false, abstract: false, final false
+inline void SetClipRectValue(::UnityEngine::UIElements::UIR::BMPAlloc  alloc, ::UnityEngine::Vector4  clipRect) ;
 
-  /// @brief Method SetColorValue, addr 0x361fa34, size 0xf0, virtual false, abstract: false, final false
-  inline void SetColorValue(::UnityEngine::UIElements::UIR::BMPAlloc alloc, ::UnityEngine::Color color);
+/// @brief Method SetColorValue, addr 0x491cc80, size 0x188, virtual false, abstract: false, final false
+inline void SetColorValue(::UnityEngine::UIElements::UIR::BMPAlloc  alloc, ::UnityEngine::Color  color, bool  isEditorContext) ;
 
-  /// @brief Method SetOpacityValue, addr 0x361f958, size 0xdc, virtual false, abstract: false, final false
-  inline void SetOpacityValue(::UnityEngine::UIElements::UIR::BMPAlloc alloc, float_t opacity);
+/// @brief Method SetOpacityValue, addr 0x491cb80, size 0x100, virtual false, abstract: false, final false
+inline void SetOpacityValue(::UnityEngine::UIElements::UIR::BMPAlloc  alloc, float_t  opacity) ;
 
-  /// @brief Method SetTextCoreSettingValue, addr 0x361fb24, size 0x164, virtual false, abstract: false, final false
-  inline void SetTextCoreSettingValue(::UnityEngine::UIElements::UIR::BMPAlloc alloc, ::UnityEngine::UIElements::UIR::TextCoreSettings settings);
+/// @brief Method SetTextCoreSettingValue, addr 0x491ce08, size 0x2d8, virtual false, abstract: false, final false
+inline void SetTextCoreSettingValue(::UnityEngine::UIElements::UIR::BMPAlloc  alloc, ::UnityEngine::UIElements::UIR::TextCoreSettings  settings, bool  isEditorContext) ;
 
-  /// @brief Method SetTransformValue, addr 0x361f60c, size 0x214, virtual false, abstract: false, final false
-  inline void SetTransformValue(::UnityEngine::UIElements::UIR::BMPAlloc alloc, ::UnityEngine::Matrix4x4 xform);
+/// @brief Method SetTransformValue, addr 0x491c7e8, size 0x23c, virtual false, abstract: false, final false
+inline void SetTransformValue(::UnityEngine::UIElements::UIR::BMPAlloc  alloc, ::UnityEngine::Matrix4x4  xform) ;
 
-  /// @brief Method TextCoreSettingsToVertexData, addr 0x36206a0, size 0xfc, virtual false, abstract: false, final false
-  inline ::UnityEngine::Color32 TextCoreSettingsToVertexData(::UnityEngine::UIElements::UIR::BMPAlloc alloc);
+/// @brief Method TextCoreSettingsToVertexData, addr 0x491dbe8, size 0xfc, virtual false, abstract: false, final false
+inline ::UnityEngine::Color32 TextCoreSettingsToVertexData(::UnityEngine::UIElements::UIR::BMPAlloc  alloc) ;
 
-  /// @brief Method TransformAllocToVertexData, addr 0x3620268, size 0x120, virtual false, abstract: false, final false
-  inline ::UnityEngine::Color32 TransformAllocToVertexData(::UnityEngine::UIElements::UIR::BMPAlloc alloc);
+/// @brief Method TransformAllocToVertexData, addr 0x491d7d0, size 0x110, virtual false, abstract: false, final false
+inline ::UnityEngine::Color32 TransformAllocToVertexData(::UnityEngine::UIElements::UIR::BMPAlloc  alloc) ;
 
-  static inline ::UnityEngine::UIElements::UIR::BMPAlloc getStaticF_clearColor();
+static inline ::UnityEngine::UIElements::UIR::BMPAlloc getStaticF_clearColor() ;
 
-  static inline ::UnityEngine::Vector2Int getStaticF_clearColorTexel();
+static inline ::UnityEngine::Vector2Int getStaticF_clearColorTexel() ;
 
-  static inline ::UnityEngine::Vector4 getStaticF_clearColorValue();
+static inline ::UnityEngine::Vector4 getStaticF_clearColorValue() ;
 
-  static inline ::UnityEngine::UIElements::UIR::BMPAlloc getStaticF_defaultTextCoreSettings();
+static inline ::UnityEngine::UIElements::UIR::BMPAlloc getStaticF_defaultTextCoreSettings() ;
 
-  static inline ::UnityEngine::Vector2Int getStaticF_defaultTextCoreSettingsTexel();
+static inline ::UnityEngine::Vector2Int getStaticF_defaultTextCoreSettingsTexel() ;
 
-  static inline ::UnityEngine::UIElements::UIR::TextCoreSettings getStaticF_defaultTextCoreSettingsValue();
+static inline ::UnityEngine::UIElements::UIR::TextCoreSettings getStaticF_defaultTextCoreSettingsValue() ;
 
-  static inline ::UnityEngine::UIElements::UIR::BMPAlloc getStaticF_fullOpacity();
+static inline ::UnityEngine::UIElements::UIR::BMPAlloc getStaticF_fullOpacity() ;
 
-  static inline ::UnityEngine::Vector2Int getStaticF_fullOpacityTexel();
+static inline ::UnityEngine::Vector2Int getStaticF_fullOpacityTexel() ;
 
-  static inline ::UnityEngine::Vector4 getStaticF_fullOpacityValue();
+static inline ::UnityEngine::Vector4 getStaticF_fullOpacityValue() ;
 
-  static inline ::UnityEngine::UIElements::UIR::BMPAlloc getStaticF_identityTransform();
+static inline ::UnityEngine::UIElements::UIR::BMPAlloc getStaticF_identityTransform() ;
 
-  static inline ::UnityEngine::Vector4 getStaticF_identityTransformRow0Value();
+static inline ::UnityEngine::Vector4 getStaticF_identityTransformRow0Value() ;
 
-  static inline ::UnityEngine::Vector4 getStaticF_identityTransformRow1Value();
+static inline ::UnityEngine::Vector4 getStaticF_identityTransformRow1Value() ;
 
-  static inline ::UnityEngine::Vector4 getStaticF_identityTransformRow2Value();
+static inline ::UnityEngine::Vector4 getStaticF_identityTransformRow2Value() ;
 
-  static inline ::UnityEngine::Vector2Int getStaticF_identityTransformTexel();
+static inline ::UnityEngine::Vector2Int getStaticF_identityTransformTexel() ;
 
-  static inline ::UnityEngine::Matrix4x4 getStaticF_identityTransformValue();
+static inline ::UnityEngine::Matrix4x4 getStaticF_identityTransformValue() ;
 
-  static inline ::UnityEngine::UIElements::UIR::BMPAlloc getStaticF_infiniteClipRect();
+static inline ::UnityEngine::UIElements::UIR::BMPAlloc getStaticF_infiniteClipRect() ;
 
-  static inline ::UnityEngine::Vector2Int getStaticF_infiniteClipRectTexel();
+static inline ::UnityEngine::Vector2Int getStaticF_infiniteClipRectTexel() ;
 
-  static inline ::UnityEngine::Vector4 getStaticF_infiniteClipRectValue();
+static inline ::UnityEngine::Vector4 getStaticF_infiniteClipRectValue() ;
 
-  /// @brief Method get_atlas, addr 0x361eda0, size 0x90, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::Texture> get_atlas();
+/// @brief Method get_atlas, addr 0x491b8a0, size 0x90, virtual false, abstract: false, final false
+inline ::UnityW<::UnityEngine::Texture> get_atlas() ;
 
-  /// @brief Method get_clipRectConstants, addr 0x361ed58, size 0x48, virtual false, abstract: false, final false
-  inline ::Unity::Collections::NativeSlice_1<::UnityEngine::Vector4> get_clipRectConstants();
+/// @brief Method get_clipRectConstants, addr 0x491b858, size 0x48, virtual false, abstract: false, final false
+inline ::Unity::Collections::NativeSlice_1<::UnityEngine::Vector4> get_clipRectConstants() ;
 
-  /// @brief Method get_pageHeight, addr 0x361eb58, size 0x8, virtual false, abstract: false, final false
-  static inline int32_t get_pageHeight();
+/// @brief Method get_pageHeight, addr 0x491b5f0, size 0x8, virtual false, abstract: false, final false
+static inline int32_t get_pageHeight() ;
 
-  /// @brief Method get_pageWidth, addr 0x361eb50, size 0x8, virtual false, abstract: false, final false
-  static inline int32_t get_pageWidth();
+/// @brief Method get_pageWidth, addr 0x491b5e8, size 0x8, virtual false, abstract: false, final false
+static inline int32_t get_pageWidth() ;
 
-  /// @brief Method get_transformConstants, addr 0x361ed10, size 0x48, virtual false, abstract: false, final false
-  inline ::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::UIR::Transform3x4> get_transformConstants();
+/// @brief Method get_transformConstants, addr 0x491b810, size 0x48, virtual false, abstract: false, final false
+inline ::Unity::Collections::NativeSlice_1<::UnityEngine::UIElements::UIR::Transform3x4> get_transformConstants() ;
 
-  static inline void setStaticF_clearColor(::UnityEngine::UIElements::UIR::BMPAlloc value);
+static inline void setStaticF_clearColor(::UnityEngine::UIElements::UIR::BMPAlloc  value) ;
 
-  static inline void setStaticF_clearColorTexel(::UnityEngine::Vector2Int value);
+static inline void setStaticF_clearColorTexel(::UnityEngine::Vector2Int  value) ;
 
-  static inline void setStaticF_clearColorValue(::UnityEngine::Vector4 value);
+static inline void setStaticF_clearColorValue(::UnityEngine::Vector4  value) ;
 
-  static inline void setStaticF_defaultTextCoreSettings(::UnityEngine::UIElements::UIR::BMPAlloc value);
+static inline void setStaticF_defaultTextCoreSettings(::UnityEngine::UIElements::UIR::BMPAlloc  value) ;
 
-  static inline void setStaticF_defaultTextCoreSettingsTexel(::UnityEngine::Vector2Int value);
+static inline void setStaticF_defaultTextCoreSettingsTexel(::UnityEngine::Vector2Int  value) ;
 
-  static inline void setStaticF_defaultTextCoreSettingsValue(::UnityEngine::UIElements::UIR::TextCoreSettings value);
+static inline void setStaticF_defaultTextCoreSettingsValue(::UnityEngine::UIElements::UIR::TextCoreSettings  value) ;
 
-  static inline void setStaticF_fullOpacity(::UnityEngine::UIElements::UIR::BMPAlloc value);
+static inline void setStaticF_fullOpacity(::UnityEngine::UIElements::UIR::BMPAlloc  value) ;
 
-  static inline void setStaticF_fullOpacityTexel(::UnityEngine::Vector2Int value);
+static inline void setStaticF_fullOpacityTexel(::UnityEngine::Vector2Int  value) ;
 
-  static inline void setStaticF_fullOpacityValue(::UnityEngine::Vector4 value);
+static inline void setStaticF_fullOpacityValue(::UnityEngine::Vector4  value) ;
 
-  static inline void setStaticF_identityTransform(::UnityEngine::UIElements::UIR::BMPAlloc value);
+static inline void setStaticF_identityTransform(::UnityEngine::UIElements::UIR::BMPAlloc  value) ;
 
-  static inline void setStaticF_identityTransformRow0Value(::UnityEngine::Vector4 value);
+static inline void setStaticF_identityTransformRow0Value(::UnityEngine::Vector4  value) ;
 
-  static inline void setStaticF_identityTransformRow1Value(::UnityEngine::Vector4 value);
+static inline void setStaticF_identityTransformRow1Value(::UnityEngine::Vector4  value) ;
 
-  static inline void setStaticF_identityTransformRow2Value(::UnityEngine::Vector4 value);
+static inline void setStaticF_identityTransformRow2Value(::UnityEngine::Vector4  value) ;
 
-  static inline void setStaticF_identityTransformTexel(::UnityEngine::Vector2Int value);
+static inline void setStaticF_identityTransformTexel(::UnityEngine::Vector2Int  value) ;
 
-  static inline void setStaticF_identityTransformValue(::UnityEngine::Matrix4x4 value);
+static inline void setStaticF_identityTransformValue(::UnityEngine::Matrix4x4  value) ;
 
-  static inline void setStaticF_infiniteClipRect(::UnityEngine::UIElements::UIR::BMPAlloc value);
+static inline void setStaticF_infiniteClipRect(::UnityEngine::UIElements::UIR::BMPAlloc  value) ;
 
-  static inline void setStaticF_infiniteClipRectTexel(::UnityEngine::Vector2Int value);
+static inline void setStaticF_infiniteClipRectTexel(::UnityEngine::Vector2Int  value) ;
 
-  static inline void setStaticF_infiniteClipRectValue(::UnityEngine::Vector4 value);
+static inline void setStaticF_infiniteClipRectValue(::UnityEngine::Vector4  value) ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr UIRVEShaderInfoAllocator();
+// Ctor Parameters []
+// @brief default ctor
+constexpr UIRVEShaderInfoAllocator() ;
 
-  // Ctor Parameters [CppParam { name: "m_Storage", ty: "::UnityEngine::UIElements::UIR::BaseShaderInfoStorage*", modifiers: "", def_value: None }, CppParam { name: "m_TransformAllocator", ty:
-  // "::UnityEngine::UIElements::UIR::BitmapAllocator32", modifiers: "", def_value: None }, CppParam { name: "m_ClipRectAllocator", ty: "::UnityEngine::UIElements::UIR::BitmapAllocator32", modifiers:
-  // "", def_value: None }, CppParam { name: "m_OpacityAllocator", ty: "::UnityEngine::UIElements::UIR::BitmapAllocator32", modifiers: "", def_value: None }, CppParam { name: "m_ColorAllocator", ty:
-  // "::UnityEngine::UIElements::UIR::BitmapAllocator32", modifiers: "", def_value: None }, CppParam { name: "m_TextSettingsAllocator", ty: "::UnityEngine::UIElements::UIR::BitmapAllocator32",
-  // modifiers: "", def_value: None }, CppParam { name: "m_StorageReallyCreated", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "m_VertexTexturingEnabled", ty: "bool", modifiers: "",
-  // def_value: None }, CppParam { name: "m_Transforms", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::UIElements::UIR::Transform3x4>", modifiers: "", def_value: None }, CppParam { name:
-  // "m_ClipRects", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Vector4>", modifiers: "", def_value: None }]
-  constexpr UIRVEShaderInfoAllocator(::UnityEngine::UIElements::UIR::BaseShaderInfoStorage* m_Storage, ::UnityEngine::UIElements::UIR::BitmapAllocator32 m_TransformAllocator,
-                                     ::UnityEngine::UIElements::UIR::BitmapAllocator32 m_ClipRectAllocator, ::UnityEngine::UIElements::UIR::BitmapAllocator32 m_OpacityAllocator,
-                                     ::UnityEngine::UIElements::UIR::BitmapAllocator32 m_ColorAllocator, ::UnityEngine::UIElements::UIR::BitmapAllocator32 m_TextSettingsAllocator,
-                                     bool m_StorageReallyCreated, bool m_VertexTexturingEnabled, ::Unity::Collections::NativeArray_1<::UnityEngine::UIElements::UIR::Transform3x4> m_Transforms,
-                                     ::Unity::Collections::NativeArray_1<::UnityEngine::Vector4> m_ClipRects) noexcept;
+// Ctor Parameters [CppParam { name: "m_Storage", ty: "::UnityEngine::UIElements::UIR::BaseShaderInfoStorage*", modifiers: "", def_value: None }, CppParam { name: "m_TransformAllocator", ty: "::UnityEngine::UIElements::UIR::BitmapAllocator32", modifiers: "", def_value: None }, CppParam { name: "m_ClipRectAllocator", ty: "::UnityEngine::UIElements::UIR::BitmapAllocator32", modifiers: "", def_value: None }, CppParam { name: "m_OpacityAllocator", ty: "::UnityEngine::UIElements::UIR::BitmapAllocator32", modifiers: "", def_value: None }, CppParam { name: "m_ColorAllocator", ty: "::UnityEngine::UIElements::UIR::BitmapAllocator32", modifiers: "", def_value: None }, CppParam { name: "m_TextSettingsAllocator", ty: "::UnityEngine::UIElements::UIR::BitmapAllocator32", modifiers: "", def_value: None }, CppParam { name: "m_StorageReallyCreated", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "m_VertexTexturingEnabled", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "m_Transforms", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::UIElements::UIR::Transform3x4>", modifiers: "", def_value: None }, CppParam { name: "m_ClipRects", ty: "::Unity::Collections::NativeArray_1<::UnityEngine::Vector4>", modifiers: "", def_value: None }]
+constexpr UIRVEShaderInfoAllocator(::UnityEngine::UIElements::UIR::BaseShaderInfoStorage*  m_Storage, ::UnityEngine::UIElements::UIR::BitmapAllocator32  m_TransformAllocator, ::UnityEngine::UIElements::UIR::BitmapAllocator32  m_ClipRectAllocator, ::UnityEngine::UIElements::UIR::BitmapAllocator32  m_OpacityAllocator, ::UnityEngine::UIElements::UIR::BitmapAllocator32  m_ColorAllocator, ::UnityEngine::UIElements::UIR::BitmapAllocator32  m_TextSettingsAllocator, bool  m_StorageReallyCreated, bool  m_VertexTexturingEnabled, ::Unity::Collections::NativeArray_1<::UnityEngine::UIElements::UIR::Transform3x4>  m_Transforms, ::Unity::Collections::NativeArray_1<::UnityEngine::Vector4>  m_ClipRects) noexcept;
 
-  /// @brief Field m_Storage, offset: 0x0, size: 0x8, def value: None
-  ::UnityEngine::UIElements::UIR::BaseShaderInfoStorage* m_Storage;
+/// @brief Field m_Storage, offset: 0x0, size: 0x8, def value: None
+ ::UnityEngine::UIElements::UIR::BaseShaderInfoStorage*  m_Storage;
 
-  /// @brief Field m_TransformAllocator, offset: 0x8, size: 0x20, def value: None
-  ::UnityEngine::UIElements::UIR::BitmapAllocator32 m_TransformAllocator;
+/// @brief Field m_TransformAllocator, offset: 0x8, size: 0x20, def value: None
+ ::UnityEngine::UIElements::UIR::BitmapAllocator32  m_TransformAllocator;
 
-  /// @brief Field m_ClipRectAllocator, offset: 0x28, size: 0x20, def value: None
-  ::UnityEngine::UIElements::UIR::BitmapAllocator32 m_ClipRectAllocator;
+/// @brief Field m_ClipRectAllocator, offset: 0x28, size: 0x20, def value: None
+ ::UnityEngine::UIElements::UIR::BitmapAllocator32  m_ClipRectAllocator;
 
-  /// @brief Field m_OpacityAllocator, offset: 0x48, size: 0x20, def value: None
-  ::UnityEngine::UIElements::UIR::BitmapAllocator32 m_OpacityAllocator;
+/// @brief Field m_OpacityAllocator, offset: 0x48, size: 0x20, def value: None
+ ::UnityEngine::UIElements::UIR::BitmapAllocator32  m_OpacityAllocator;
 
-  /// @brief Field m_ColorAllocator, offset: 0x68, size: 0x20, def value: None
-  ::UnityEngine::UIElements::UIR::BitmapAllocator32 m_ColorAllocator;
+/// @brief Field m_ColorAllocator, offset: 0x68, size: 0x20, def value: None
+ ::UnityEngine::UIElements::UIR::BitmapAllocator32  m_ColorAllocator;
 
-  /// @brief Field m_TextSettingsAllocator, offset: 0x88, size: 0x20, def value: None
-  ::UnityEngine::UIElements::UIR::BitmapAllocator32 m_TextSettingsAllocator;
+/// @brief Field m_TextSettingsAllocator, offset: 0x88, size: 0x20, def value: None
+ ::UnityEngine::UIElements::UIR::BitmapAllocator32  m_TextSettingsAllocator;
 
-  /// @brief Field m_StorageReallyCreated, offset: 0xa8, size: 0x1, def value: None
-  bool m_StorageReallyCreated;
+/// @brief Field m_StorageReallyCreated, offset: 0xa8, size: 0x1, def value: None
+ bool  m_StorageReallyCreated;
 
-  /// @brief Field m_VertexTexturingEnabled, offset: 0xa9, size: 0x1, def value: None
-  bool m_VertexTexturingEnabled;
+/// @brief Field m_VertexTexturingEnabled, offset: 0xa9, size: 0x1, def value: None
+ bool  m_VertexTexturingEnabled;
 
-  /// @brief Field m_Transforms, offset: 0xb0, size: 0x10, def value: None
-  ::Unity::Collections::NativeArray_1<::UnityEngine::UIElements::UIR::Transform3x4> m_Transforms;
+/// @brief Field m_Transforms, offset: 0xb0, size: 0x10, def value: None
+ ::Unity::Collections::NativeArray_1<::UnityEngine::UIElements::UIR::Transform3x4>  m_Transforms;
 
-  /// @brief Field m_ClipRects, offset: 0xc0, size: 0x10, def value: None
-  ::Unity::Collections::NativeArray_1<::UnityEngine::Vector4> m_ClipRects;
+/// @brief Field m_ClipRects, offset: 0xc0, size: 0x10, def value: None
+ ::Unity::Collections::NativeArray_1<::UnityEngine::Vector4>  m_ClipRects;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xd0 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0xd0};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator, 0xd0>, "Size mismatch!");
@@ -376,5 +367,5 @@ static_assert(offsetof(::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator,
 
 static_assert(offsetof(::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator, m_ClipRects) == 0xc0, "Offset mismatch!");
 
-} // namespace UnityEngine::UIElements::UIR
+} // namespace end def UnityEngine::UIElements::UIR
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::UIR::UIRVEShaderInfoAllocator, "UnityEngine.UIElements.UIR", "UIRVEShaderInfoAllocator");

@@ -30,123 +30,122 @@ class SliderParticleInteractionEffect;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::SliderParticleInteractionEffect);
 // Type: ::SliderParticleInteractionEffect
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::SliderParticleInteractionEffect*
 class CORDL_TYPE SliderParticleInteractionEffect : public ::GlobalNamespace::SliderInteractionEffect {
 public:
-  // Declarations
-  /// @brief Field _colorManager, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__colorManager, put = __cordl_internal_set__colorManager))::GlobalNamespace::ColorManager* _colorManager;
+// Declarations
+/// @brief Field _colorManager, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get__colorManager, put=__cordl_internal_set__colorManager)) ::GlobalNamespace::ColorManager*  _colorManager;
 
-  /// @brief Field _particleSystems, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__particleSystems,
-                      put = __cordl_internal_set__particleSystems))::ArrayW<::UnityW<::UnityEngine::ParticleSystem>, ::Array<::UnityW<::UnityEngine::ParticleSystem>>*> _particleSystems;
+/// @brief Field _particleSystems, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get__particleSystems, put=__cordl_internal_set__particleSystems)) ::ArrayW<::UnityW<::UnityEngine::ParticleSystem>,::Array<::UnityW<::UnityEngine::ParticleSystem>>*>  _particleSystems;
 
-  /// @brief Field _saber, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__saber, put = __cordl_internal_set__saber))::UnityW<::GlobalNamespace::Saber> _saber;
+/// @brief Field _saber, offset 0x50, size 0x8 
+ __declspec(property(get=__cordl_internal_get__saber, put=__cordl_internal_set__saber)) ::UnityW<::GlobalNamespace::Saber>  _saber;
 
-  /// @brief Field _saberManager, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__saberManager, put = __cordl_internal_set__saberManager))::UnityW<::GlobalNamespace::SaberManager> _saberManager;
+/// @brief Field _saberManager, offset 0x38, size 0x8 
+ __declspec(property(get=__cordl_internal_get__saberManager, put=__cordl_internal_set__saberManager)) ::UnityW<::GlobalNamespace::SaberManager>  _saberManager;
 
-  /// @brief Field _startColor, offset 0x38, size 0x10
-  __declspec(property(get = __cordl_internal_get__startColor, put = __cordl_internal_set__startColor))::UnityEngine::Color _startColor;
+/// @brief Field _startColor, offset 0x40, size 0x10 
+ __declspec(property(get=__cordl_internal_get__startColor, put=__cordl_internal_set__startColor)) ::UnityEngine::Color  _startColor;
 
-  /// @brief Method EndEffect, addr 0x26dfcc0, size 0x94, virtual true, abstract: false, final false
-  inline void EndEffect();
+/// @brief Method EndEffect, addr 0x3ae7260, size 0x94, virtual true, abstract: false, final false
+inline void EndEffect() ;
 
-  static inline ::GlobalNamespace::SliderParticleInteractionEffect* New_ctor();
+static inline ::GlobalNamespace::SliderParticleInteractionEffect* New_ctor() ;
 
-  /// @brief Method SetPSStartColor, addr 0x26dfac8, size 0xd4, virtual false, abstract: false, final false
-  inline void SetPSStartColor(::UnityEngine::Color color);
+/// @brief Method SetPSStartColor, addr 0x3ae7050, size 0xd4, virtual false, abstract: false, final false
+inline void SetPSStartColor(::UnityEngine::Color  color) ;
 
-  /// @brief Method Start, addr 0x26dfa30, size 0x98, virtual true, abstract: false, final false
-  inline void Start();
+/// @brief Method Start, addr 0x3ae6fac, size 0xa4, virtual true, abstract: false, final false
+inline void Start() ;
 
-  /// @brief Method StartEffect, addr 0x26dfc08, size 0xb8, virtual true, abstract: false, final false
-  inline void StartEffect(float_t saberInteractionParam);
+/// @brief Method StartEffect, addr 0x3ae71a8, size 0xb8, virtual true, abstract: false, final false
+inline void StartEffect(float_t  saberInteractionParam) ;
 
-  /// @brief Method Update, addr 0x26dfb9c, size 0x6c, virtual false, abstract: false, final false
-  inline void Update();
+/// @brief Method Update, addr 0x3ae7124, size 0x84, virtual false, abstract: false, final false
+inline void Update() ;
 
-  constexpr ::GlobalNamespace::ColorManager*& __cordl_internal_get__colorManager();
+constexpr ::GlobalNamespace::ColorManager*& __cordl_internal_get__colorManager() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorManager*> const& __cordl_internal_get__colorManager() const;
+constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorManager*> const& __cordl_internal_get__colorManager() const;
 
-  constexpr ::ArrayW<::UnityW<::UnityEngine::ParticleSystem>, ::Array<::UnityW<::UnityEngine::ParticleSystem>>*> const& __cordl_internal_get__particleSystems() const;
+constexpr ::ArrayW<::UnityW<::UnityEngine::ParticleSystem>,::Array<::UnityW<::UnityEngine::ParticleSystem>>*> const& __cordl_internal_get__particleSystems() const;
 
-  constexpr ::ArrayW<::UnityW<::UnityEngine::ParticleSystem>, ::Array<::UnityW<::UnityEngine::ParticleSystem>>*>& __cordl_internal_get__particleSystems();
+constexpr ::ArrayW<::UnityW<::UnityEngine::ParticleSystem>,::Array<::UnityW<::UnityEngine::ParticleSystem>>*>& __cordl_internal_get__particleSystems() ;
 
-  constexpr ::UnityW<::GlobalNamespace::Saber> const& __cordl_internal_get__saber() const;
+constexpr ::UnityW<::GlobalNamespace::Saber> const& __cordl_internal_get__saber() const;
 
-  constexpr ::UnityW<::GlobalNamespace::Saber>& __cordl_internal_get__saber();
+constexpr ::UnityW<::GlobalNamespace::Saber>& __cordl_internal_get__saber() ;
 
-  constexpr ::UnityW<::GlobalNamespace::SaberManager> const& __cordl_internal_get__saberManager() const;
+constexpr ::UnityW<::GlobalNamespace::SaberManager> const& __cordl_internal_get__saberManager() const;
 
-  constexpr ::UnityW<::GlobalNamespace::SaberManager>& __cordl_internal_get__saberManager();
+constexpr ::UnityW<::GlobalNamespace::SaberManager>& __cordl_internal_get__saberManager() ;
 
-  constexpr ::UnityEngine::Color const& __cordl_internal_get__startColor() const;
+constexpr ::UnityEngine::Color const& __cordl_internal_get__startColor() const;
 
-  constexpr ::UnityEngine::Color& __cordl_internal_get__startColor();
+constexpr ::UnityEngine::Color& __cordl_internal_get__startColor() ;
 
-  constexpr void __cordl_internal_set__colorManager(::GlobalNamespace::ColorManager* value);
+constexpr void __cordl_internal_set__colorManager(::GlobalNamespace::ColorManager*  value) ;
 
-  constexpr void __cordl_internal_set__particleSystems(::ArrayW<::UnityW<::UnityEngine::ParticleSystem>, ::Array<::UnityW<::UnityEngine::ParticleSystem>>*> value);
+constexpr void __cordl_internal_set__particleSystems(::ArrayW<::UnityW<::UnityEngine::ParticleSystem>,::Array<::UnityW<::UnityEngine::ParticleSystem>>*>  value) ;
 
-  constexpr void __cordl_internal_set__saber(::UnityW<::GlobalNamespace::Saber> value);
+constexpr void __cordl_internal_set__saber(::UnityW<::GlobalNamespace::Saber>  value) ;
 
-  constexpr void __cordl_internal_set__saberManager(::UnityW<::GlobalNamespace::SaberManager> value);
+constexpr void __cordl_internal_set__saberManager(::UnityW<::GlobalNamespace::SaberManager>  value) ;
 
-  constexpr void __cordl_internal_set__startColor(::UnityEngine::Color value);
+constexpr void __cordl_internal_set__startColor(::UnityEngine::Color  value) ;
 
-  /// @brief Method .ctor, addr 0x26dfd54, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x3ae72f4, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SliderParticleInteractionEffect();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr SliderParticleInteractionEffect() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SliderParticleInteractionEffect", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  SliderParticleInteractionEffect(SliderParticleInteractionEffect&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SliderParticleInteractionEffect", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  SliderParticleInteractionEffect(SliderParticleInteractionEffect const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "SliderParticleInteractionEffect", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+SliderParticleInteractionEffect(SliderParticleInteractionEffect && ) = delete;
 
-  /// @brief Field _particleSystems, offset: 0x20, size: 0x8, def value: None
-  ::ArrayW<::UnityW<::UnityEngine::ParticleSystem>, ::Array<::UnityW<::UnityEngine::ParticleSystem>>*> ____particleSystems;
+// Ctor Parameters [CppParam { name: "", ty: "SliderParticleInteractionEffect", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+SliderParticleInteractionEffect(SliderParticleInteractionEffect const& ) = delete;
 
-  /// @brief Field _colorManager, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::ColorManager* ____colorManager;
+/// @brief Field _particleSystems, offset: 0x28, size: 0x8, def value: None
+ ::ArrayW<::UnityW<::UnityEngine::ParticleSystem>,::Array<::UnityW<::UnityEngine::ParticleSystem>>*>  ____particleSystems;
 
-  /// @brief Field _saberManager, offset: 0x30, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::SaberManager> ____saberManager;
+/// @brief Field _colorManager, offset: 0x30, size: 0x8, def value: None
+ ::GlobalNamespace::ColorManager*  ____colorManager;
 
-  /// @brief Field _startColor, offset: 0x38, size: 0x10, def value: None
-  ::UnityEngine::Color ____startColor;
+/// @brief Field _saberManager, offset: 0x38, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::SaberManager>  ____saberManager;
 
-  /// @brief Field _saber, offset: 0x48, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::Saber> ____saber;
+/// @brief Field _startColor, offset: 0x40, size: 0x10, def value: None
+ ::UnityEngine::Color  ____startColor;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _saber, offset: 0x50, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::Saber>  ____saber;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SliderParticleInteractionEffect, 0x50>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SliderParticleInteractionEffect, 0x58>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SliderParticleInteractionEffect, ____particleSystems) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SliderParticleInteractionEffect, ____particleSystems) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SliderParticleInteractionEffect, ____colorManager) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SliderParticleInteractionEffect, ____colorManager) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SliderParticleInteractionEffect, ____saberManager) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SliderParticleInteractionEffect, ____saberManager) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SliderParticleInteractionEffect, ____startColor) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SliderParticleInteractionEffect, ____startColor) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SliderParticleInteractionEffect, ____saber) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SliderParticleInteractionEffect, ____saber) == 0x50, "Offset mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SliderParticleInteractionEffect);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SliderParticleInteractionEffect*, "", "SliderParticleInteractionEffect");

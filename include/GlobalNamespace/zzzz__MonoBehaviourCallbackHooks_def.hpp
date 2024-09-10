@@ -8,7 +8,8 @@ CORDL_MODULE_INIT
 #include <cmath>
 CORDL_MODULE_EXPORT(MonoBehaviourCallbackHooks)
 namespace System {
-template <typename T> class Action_1;
+template<typename T>
+class Action_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -17,63 +18,86 @@ class MonoBehaviourCallbackHooks;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MonoBehaviourCallbackHooks);
 // Type: ::MonoBehaviourCallbackHooks
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::MonoBehaviourCallbackHooks*
 class CORDL_TYPE MonoBehaviourCallbackHooks : public ::UnityEngine::ResourceManagement::Util::ComponentSingleton_1<::UnityW<::GlobalNamespace::MonoBehaviourCallbackHooks>> {
 public:
-  // Declarations
-  /// @brief Field m_OnUpdateDelegate, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_OnUpdateDelegate, put = __cordl_internal_set_m_OnUpdateDelegate))::System::Action_1<float_t>* m_OnUpdateDelegate;
+// Declarations
+/// @brief Field m_OnLateUpdateDelegate, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_OnLateUpdateDelegate, put=__cordl_internal_set_m_OnLateUpdateDelegate)) ::System::Action_1<float_t>*  m_OnLateUpdateDelegate;
 
-  /// @brief Method GetGameObjectName, addr 0x3338020, size 0x40, virtual true, abstract: false, final false
-  inline ::StringW GetGameObjectName();
+/// @brief Field m_OnUpdateDelegate, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_OnUpdateDelegate, put=__cordl_internal_set_m_OnUpdateDelegate)) ::System::Action_1<float_t>*  m_OnUpdateDelegate;
 
-  static inline ::GlobalNamespace::MonoBehaviourCallbackHooks* New_ctor();
+/// @brief Method GetGameObjectName, addr 0x46f9cd4, size 0x40, virtual true, abstract: false, final false
+inline ::StringW GetGameObjectName() ;
 
-  /// @brief Method Update, addr 0x3338060, size 0x30, virtual false, abstract: false, final false
-  inline void Update();
+/// @brief Method LateUpdate, addr 0x46f9d44, size 0x30, virtual false, abstract: false, final false
+inline void LateUpdate() ;
 
-  constexpr ::System::Action_1<float_t>*& __cordl_internal_get_m_OnUpdateDelegate();
+static inline ::GlobalNamespace::MonoBehaviourCallbackHooks* New_ctor() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_1<float_t>*> const& __cordl_internal_get_m_OnUpdateDelegate() const;
+/// @brief Method Update, addr 0x46f9d14, size 0x30, virtual false, abstract: false, final false
+inline void Update() ;
 
-  constexpr void __cordl_internal_set_m_OnUpdateDelegate(::System::Action_1<float_t>* value);
+constexpr ::System::Action_1<float_t>*& __cordl_internal_get_m_OnLateUpdateDelegate() ;
 
-  /// @brief Method .ctor, addr 0x3338090, size 0x48, virtual false, abstract: false, final false
-  inline void _ctor();
+constexpr ::cordl_internals::to_const_pointer<::System::Action_1<float_t>*> const& __cordl_internal_get_m_OnLateUpdateDelegate() const;
 
-  /// @brief Method add_OnUpdateDelegate, addr 0x3337ed0, size 0xa8, virtual false, abstract: false, final false
-  inline void add_OnUpdateDelegate(::System::Action_1<float_t>* value);
+constexpr ::System::Action_1<float_t>*& __cordl_internal_get_m_OnUpdateDelegate() ;
 
-  /// @brief Method remove_OnUpdateDelegate, addr 0x3337f78, size 0xa8, virtual false, abstract: false, final false
-  inline void remove_OnUpdateDelegate(::System::Action_1<float_t>* value);
+constexpr ::cordl_internals::to_const_pointer<::System::Action_1<float_t>*> const& __cordl_internal_get_m_OnUpdateDelegate() const;
+
+constexpr void __cordl_internal_set_m_OnLateUpdateDelegate(::System::Action_1<float_t>*  value) ;
+
+constexpr void __cordl_internal_set_m_OnUpdateDelegate(::System::Action_1<float_t>*  value) ;
+
+/// @brief Method .ctor, addr 0x46f9d74, size 0x48, virtual false, abstract: false, final false
+inline void _ctor() ;
+
+/// @brief Method add_OnLateUpdateDelegate, addr 0x46f9b84, size 0xa8, virtual false, abstract: false, final false
+inline void add_OnLateUpdateDelegate(::System::Action_1<float_t>*  value) ;
+
+/// @brief Method add_OnUpdateDelegate, addr 0x46f9a34, size 0xa8, virtual false, abstract: false, final false
+inline void add_OnUpdateDelegate(::System::Action_1<float_t>*  value) ;
+
+/// @brief Method remove_OnLateUpdateDelegate, addr 0x46f9c2c, size 0xa8, virtual false, abstract: false, final false
+inline void remove_OnLateUpdateDelegate(::System::Action_1<float_t>*  value) ;
+
+/// @brief Method remove_OnUpdateDelegate, addr 0x46f9adc, size 0xa8, virtual false, abstract: false, final false
+inline void remove_OnUpdateDelegate(::System::Action_1<float_t>*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MonoBehaviourCallbackHooks();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr MonoBehaviourCallbackHooks() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MonoBehaviourCallbackHooks", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  MonoBehaviourCallbackHooks(MonoBehaviourCallbackHooks&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MonoBehaviourCallbackHooks", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  MonoBehaviourCallbackHooks(MonoBehaviourCallbackHooks const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "MonoBehaviourCallbackHooks", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+MonoBehaviourCallbackHooks(MonoBehaviourCallbackHooks && ) = delete;
 
-  /// @brief Field m_OnUpdateDelegate, offset: 0x18, size: 0x8, def value: None
-  ::System::Action_1<float_t>* ___m_OnUpdateDelegate;
+// Ctor Parameters [CppParam { name: "", ty: "MonoBehaviourCallbackHooks", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+MonoBehaviourCallbackHooks(MonoBehaviourCallbackHooks const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field m_OnUpdateDelegate, offset: 0x20, size: 0x8, def value: None
+ ::System::Action_1<float_t>*  ___m_OnUpdateDelegate;
+
+/// @brief Field m_OnLateUpdateDelegate, offset: 0x28, size: 0x8, def value: None
+ ::System::Action_1<float_t>*  ___m_OnLateUpdateDelegate;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MonoBehaviourCallbackHooks, 0x20>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MonoBehaviourCallbackHooks, 0x30>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MonoBehaviourCallbackHooks, ___m_OnUpdateDelegate) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MonoBehaviourCallbackHooks, ___m_OnUpdateDelegate) == 0x20, "Offset mismatch!");
 
-} // namespace GlobalNamespace
+static_assert(offsetof(::GlobalNamespace::MonoBehaviourCallbackHooks, ___m_OnLateUpdateDelegate) == 0x28, "Offset mismatch!");
+
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MonoBehaviourCallbackHooks);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MonoBehaviourCallbackHooks*, "", "MonoBehaviourCallbackHooks");

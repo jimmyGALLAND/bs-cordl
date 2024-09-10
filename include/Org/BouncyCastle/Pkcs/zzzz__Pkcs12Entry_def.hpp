@@ -28,75 +28,75 @@ class Pkcs12Entry;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Pkcs::Pkcs12Entry);
 // Type: Org.BouncyCastle.Pkcs::Pkcs12Entry
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Pkcs {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Pkcs::Pkcs12Entry*
 class CORDL_TYPE Pkcs12Entry : public ::System::Object {
 public:
-  // Declarations
-  __declspec(property(get = get_BagAttributeKeys))::System::Collections::IEnumerable* BagAttributeKeys;
+// Declarations
+ __declspec(property(get=get_BagAttributeKeys)) ::System::Collections::IEnumerable*  BagAttributeKeys;
 
-  __declspec(property(get = get_Item))::Org::BouncyCastle::Asn1::Asn1Encodable* Item[];
+ __declspec(property(get=get_Item)) ::Org::BouncyCastle::Asn1::Asn1Encodable*  Item[];
 
-  __declspec(property(get = get_Item))::Org::BouncyCastle::Asn1::Asn1Encodable* Item[];
+ __declspec(property(get=get_Item)) ::Org::BouncyCastle::Asn1::Asn1Encodable*  Item[];
 
-  /// @brief Field attributes, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_attributes, put = __cordl_internal_set_attributes))::System::Collections::IDictionary* attributes;
+/// @brief Field attributes, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_attributes, put=__cordl_internal_set_attributes)) ::System::Collections::IDictionary*  attributes;
 
-  /// @brief Method GetBagAttribute, addr 0x1348c90, size 0xfc, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Asn1Encodable* GetBagAttribute(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
+/// @brief Method GetBagAttribute, addr 0x2508654, size 0xfc, virtual false, abstract: false, final false
+inline ::Org::BouncyCastle::Asn1::Asn1Encodable* GetBagAttribute(::Org::BouncyCastle::Asn1::DerObjectIdentifier*  oid) ;
 
-  /// @brief Method GetBagAttribute, addr 0x1348d8c, size 0xf4, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Asn1Encodable* GetBagAttribute(::StringW oid);
+/// @brief Method GetBagAttribute, addr 0x2508750, size 0xf4, virtual false, abstract: false, final false
+inline ::Org::BouncyCastle::Asn1::Asn1Encodable* GetBagAttribute(::StringW  oid) ;
 
-  /// @brief Method GetBagAttributeKeys, addr 0x1348e80, size 0x118, virtual false, abstract: false, final false
-  inline ::System::Collections::IEnumerator* GetBagAttributeKeys();
+/// @brief Method GetBagAttributeKeys, addr 0x2508844, size 0x118, virtual false, abstract: false, final false
+inline ::System::Collections::IEnumerator* GetBagAttributeKeys() ;
 
-  static inline ::Org::BouncyCastle::Pkcs::Pkcs12Entry* New_ctor(::System::Collections::IDictionary* attributes);
+static inline ::Org::BouncyCastle::Pkcs::Pkcs12Entry* New_ctor(::System::Collections::IDictionary*  attributes) ;
 
-  constexpr ::System::Collections::IDictionary*& __cordl_internal_get_attributes();
+constexpr ::System::Collections::IDictionary*& __cordl_internal_get_attributes() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IDictionary*> const& __cordl_internal_get_attributes() const;
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::IDictionary*> const& __cordl_internal_get_attributes() const;
 
-  constexpr void __cordl_internal_set_attributes(::System::Collections::IDictionary* value);
+constexpr void __cordl_internal_set_attributes(::System::Collections::IDictionary*  value) ;
 
-  /// @brief Method .ctor, addr 0x1348744, size 0x54c, virtual false, abstract: false, final false
-  inline void _ctor(::System::Collections::IDictionary* attributes);
+/// @brief Method .ctor, addr 0x2508114, size 0x540, virtual false, abstract: false, final false
+inline void _ctor(::System::Collections::IDictionary*  attributes) ;
 
-  /// @brief Method get_BagAttributeKeys, addr 0x1349188, size 0xe4, virtual false, abstract: false, final false
-  inline ::System::Collections::IEnumerable* get_BagAttributeKeys();
+/// @brief Method get_BagAttributeKeys, addr 0x2508b4c, size 0xe0, virtual false, abstract: false, final false
+inline ::System::Collections::IEnumerable* get_BagAttributeKeys() ;
 
-  /// @brief Method get_Item, addr 0x1348f98, size 0xfc, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Asn1Encodable* get_Item(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
+/// @brief Method get_Item, addr 0x250895c, size 0xfc, virtual false, abstract: false, final false
+inline ::Org::BouncyCastle::Asn1::Asn1Encodable* get_Item(::Org::BouncyCastle::Asn1::DerObjectIdentifier*  oid) ;
 
-  /// @brief Method get_Item, addr 0x1349094, size 0xf4, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Asn1Encodable* get_Item(::StringW oid);
+/// @brief Method get_Item, addr 0x2508a58, size 0xf4, virtual false, abstract: false, final false
+inline ::Org::BouncyCastle::Asn1::Asn1Encodable* get_Item(::StringW  oid) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Pkcs12Entry();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr Pkcs12Entry() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Pkcs12Entry", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  Pkcs12Entry(Pkcs12Entry&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Pkcs12Entry", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  Pkcs12Entry(Pkcs12Entry const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "Pkcs12Entry", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+Pkcs12Entry(Pkcs12Entry && ) = delete;
 
-  /// @brief Field attributes, offset: 0x10, size: 0x8, def value: None
-  ::System::Collections::IDictionary* ___attributes;
+// Ctor Parameters [CppParam { name: "", ty: "Pkcs12Entry", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+Pkcs12Entry(Pkcs12Entry const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field attributes, offset: 0x10, size: 0x8, def value: None
+ ::System::Collections::IDictionary*  ___attributes;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Pkcs::Pkcs12Entry, 0x18>, "Size mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Pkcs::Pkcs12Entry, ___attributes) == 0x10, "Offset mismatch!");
 
-} // namespace Org::BouncyCastle::Pkcs
+} // namespace end def Org::BouncyCastle::Pkcs
 NEED_NO_BOX(::Org::BouncyCastle::Pkcs::Pkcs12Entry);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Pkcs::Pkcs12Entry*, "Org.BouncyCastle.Pkcs", "Pkcs12Entry");

@@ -60,63 +60,63 @@ MARK_REF_PTR_T(::System::Data::__XmlToDatasetMap__TableSchemaInfo);
 MARK_REF_PTR_T(::System::Data::__XmlToDatasetMap__XmlNodeIdHashtable);
 MARK_REF_PTR_T(::System::Data::__XmlToDatasetMap__XmlNodeIdentety);
 // Type: ::XmlNodeIdentety
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Data {
 // Is value type: false
 // CS Name: ::XmlToDatasetMap::XmlNodeIdentety*
 class CORDL_TYPE __XmlToDatasetMap__XmlNodeIdentety : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field LocalName, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_LocalName, put = __cordl_internal_set_LocalName))::StringW LocalName;
+// Declarations
+/// @brief Field LocalName, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_LocalName, put=__cordl_internal_set_LocalName)) ::StringW  LocalName;
 
-  /// @brief Field NamespaceURI, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_NamespaceURI, put = __cordl_internal_set_NamespaceURI))::StringW NamespaceURI;
+/// @brief Field NamespaceURI, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_NamespaceURI, put=__cordl_internal_set_NamespaceURI)) ::StringW  NamespaceURI;
 
-  /// @brief Method Equals, addr 0x2d34b04, size 0x9c, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* obj);
+/// @brief Method Equals, addr 0x4117ec4, size 0x9c, virtual true, abstract: false, final false
+inline bool Equals(::System::Object*  obj) ;
 
-  /// @brief Method GetHashCode, addr 0x2d34ae4, size 0x20, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
+/// @brief Method GetHashCode, addr 0x4117ea4, size 0x20, virtual true, abstract: false, final false
+inline int32_t GetHashCode() ;
 
-  static inline ::System::Data::__XmlToDatasetMap__XmlNodeIdentety* New_ctor(::StringW localName, ::StringW namespaceURI);
+static inline ::System::Data::__XmlToDatasetMap__XmlNodeIdentety* New_ctor(::StringW  localName, ::StringW  namespaceURI) ;
 
-  constexpr ::StringW const& __cordl_internal_get_LocalName() const;
+constexpr ::StringW const& __cordl_internal_get_LocalName() const;
 
-  constexpr ::StringW& __cordl_internal_get_LocalName();
+constexpr ::StringW& __cordl_internal_get_LocalName() ;
 
-  constexpr ::StringW const& __cordl_internal_get_NamespaceURI() const;
+constexpr ::StringW const& __cordl_internal_get_NamespaceURI() const;
 
-  constexpr ::StringW& __cordl_internal_get_NamespaceURI();
+constexpr ::StringW& __cordl_internal_get_NamespaceURI() ;
 
-  constexpr void __cordl_internal_set_LocalName(::StringW value);
+constexpr void __cordl_internal_set_LocalName(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_NamespaceURI(::StringW value);
+constexpr void __cordl_internal_set_NamespaceURI(::StringW  value) ;
 
-  /// @brief Method .ctor, addr 0x2d340a8, size 0x2c, virtual false, abstract: false, final false
-  inline void _ctor(::StringW localName, ::StringW namespaceURI);
+/// @brief Method .ctor, addr 0x411747c, size 0x2c, virtual false, abstract: false, final false
+inline void _ctor(::StringW  localName, ::StringW  namespaceURI) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __XmlToDatasetMap__XmlNodeIdentety();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __XmlToDatasetMap__XmlNodeIdentety() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__XmlToDatasetMap__XmlNodeIdentety", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __XmlToDatasetMap__XmlNodeIdentety(__XmlToDatasetMap__XmlNodeIdentety&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__XmlToDatasetMap__XmlNodeIdentety", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __XmlToDatasetMap__XmlNodeIdentety(__XmlToDatasetMap__XmlNodeIdentety const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__XmlToDatasetMap__XmlNodeIdentety", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__XmlToDatasetMap__XmlNodeIdentety(__XmlToDatasetMap__XmlNodeIdentety && ) = delete;
 
-  /// @brief Field LocalName, offset: 0x10, size: 0x8, def value: None
-  ::StringW ___LocalName;
+// Ctor Parameters [CppParam { name: "", ty: "__XmlToDatasetMap__XmlNodeIdentety", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__XmlToDatasetMap__XmlNodeIdentety(__XmlToDatasetMap__XmlNodeIdentety const& ) = delete;
 
-  /// @brief Field NamespaceURI, offset: 0x18, size: 0x8, def value: None
-  ::StringW ___NamespaceURI;
+/// @brief Field LocalName, offset: 0x10, size: 0x8, def value: None
+ ::StringW  ___LocalName;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field NamespaceURI, offset: 0x18, size: 0x8, def value: None
+ ::StringW  ___NamespaceURI;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Data::__XmlToDatasetMap__XmlNodeIdentety, 0x20>, "Size mismatch!");
@@ -125,126 +125,126 @@ static_assert(offsetof(::System::Data::__XmlToDatasetMap__XmlNodeIdentety, ___Lo
 
 static_assert(offsetof(::System::Data::__XmlToDatasetMap__XmlNodeIdentety, ___NamespaceURI) == 0x18, "Offset mismatch!");
 
-} // namespace System::Data
+} // namespace end def System::Data
 // Type: ::XmlNodeIdHashtable
-// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Data {
 // Is value type: false
 // CS Name: ::XmlToDatasetMap::XmlNodeIdHashtable*
 class CORDL_TYPE __XmlToDatasetMap__XmlNodeIdHashtable : public ::System::Collections::Hashtable {
 public:
-  // Declarations
-  __declspec(property(get = get_Item))::System::Object* Item[];
+// Declarations
+ __declspec(property(get=get_Item)) ::System::Object*  Item[];
 
-  __declspec(property(get = get_Item))::System::Object* Item[];
+ __declspec(property(get=get_Item)) ::System::Object*  Item[];
 
-  __declspec(property(get = get_Item))::System::Object* Item[];
+ __declspec(property(get=get_Item)) ::System::Object*  Item[];
 
-  __declspec(property(get = get_Item))::System::Object* Item[];
+ __declspec(property(get=get_Item)) ::System::Object*  Item[];
 
-  /// @brief Field _id, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get__id, put = __cordl_internal_set__id))::System::Data::__XmlToDatasetMap__XmlNodeIdentety* _id;
+/// @brief Field _id, offset 0x50, size 0x8 
+ __declspec(property(get=__cordl_internal_get__id, put=__cordl_internal_set__id)) ::System::Data::__XmlToDatasetMap__XmlNodeIdentety*  _id;
 
-  static inline ::System::Data::__XmlToDatasetMap__XmlNodeIdHashtable* New_ctor(int32_t capacity);
+static inline ::System::Data::__XmlToDatasetMap__XmlNodeIdHashtable* New_ctor(int32_t  capacity) ;
 
-  constexpr ::System::Data::__XmlToDatasetMap__XmlNodeIdentety*& __cordl_internal_get__id();
+constexpr ::System::Data::__XmlToDatasetMap__XmlNodeIdentety*& __cordl_internal_get__id() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Data::__XmlToDatasetMap__XmlNodeIdentety*> const& __cordl_internal_get__id() const;
+constexpr ::cordl_internals::to_const_pointer<::System::Data::__XmlToDatasetMap__XmlNodeIdentety*> const& __cordl_internal_get__id() const;
 
-  constexpr void __cordl_internal_set__id(::System::Data::__XmlToDatasetMap__XmlNodeIdentety* value);
+constexpr void __cordl_internal_set__id(::System::Data::__XmlToDatasetMap__XmlNodeIdentety*  value) ;
 
-  /// @brief Method .ctor, addr 0x2d34ba0, size 0xa0, virtual false, abstract: false, final false
-  inline void _ctor(int32_t capacity);
+/// @brief Method .ctor, addr 0x4117f60, size 0x98, virtual false, abstract: false, final false
+inline void _ctor(int32_t  capacity) ;
 
-  /// @brief Method get_Item, addr 0x2d34cb8, size 0x70, virtual false, abstract: false, final false
-  inline ::System::Object* get_Item(::System::Xml::XmlReader* dataReader);
+/// @brief Method get_Item, addr 0x4118070, size 0x70, virtual false, abstract: false, final false
+inline ::System::Object* get_Item(::System::Xml::XmlReader*  dataReader) ;
 
-  /// @brief Method get_Item, addr 0x2d34d90, size 0x74, virtual false, abstract: false, final false
-  inline ::System::Object* get_Item(::StringW name);
+/// @brief Method get_Item, addr 0x4118148, size 0x74, virtual false, abstract: false, final false
+inline ::System::Object* get_Item(::StringW  name) ;
 
-  /// @brief Method get_Item, addr 0x2d34c40, size 0x78, virtual false, abstract: false, final false
-  inline ::System::Object* get_Item(::System::Xml::XmlNode* node);
+/// @brief Method get_Item, addr 0x4117ff8, size 0x78, virtual false, abstract: false, final false
+inline ::System::Object* get_Item(::System::Xml::XmlNode*  node) ;
 
-  /// @brief Method get_Item, addr 0x2d34d28, size 0x68, virtual false, abstract: false, final false
-  inline ::System::Object* get_Item(::System::Data::DataTable* table);
+/// @brief Method get_Item, addr 0x41180e0, size 0x68, virtual false, abstract: false, final false
+inline ::System::Object* get_Item(::System::Data::DataTable*  table) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __XmlToDatasetMap__XmlNodeIdHashtable();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __XmlToDatasetMap__XmlNodeIdHashtable() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__XmlToDatasetMap__XmlNodeIdHashtable", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __XmlToDatasetMap__XmlNodeIdHashtable(__XmlToDatasetMap__XmlNodeIdHashtable&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__XmlToDatasetMap__XmlNodeIdHashtable", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __XmlToDatasetMap__XmlNodeIdHashtable(__XmlToDatasetMap__XmlNodeIdHashtable const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__XmlToDatasetMap__XmlNodeIdHashtable", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__XmlToDatasetMap__XmlNodeIdHashtable(__XmlToDatasetMap__XmlNodeIdHashtable && ) = delete;
 
-  /// @brief Field _id, offset: 0x50, size: 0x8, def value: None
-  ::System::Data::__XmlToDatasetMap__XmlNodeIdentety* ____id;
+// Ctor Parameters [CppParam { name: "", ty: "__XmlToDatasetMap__XmlNodeIdHashtable", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__XmlToDatasetMap__XmlNodeIdHashtable(__XmlToDatasetMap__XmlNodeIdHashtable const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _id, offset: 0x50, size: 0x8, def value: None
+ ::System::Data::__XmlToDatasetMap__XmlNodeIdentety*  ____id;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Data::__XmlToDatasetMap__XmlNodeIdHashtable, 0x58>, "Size mismatch!");
 
 static_assert(offsetof(::System::Data::__XmlToDatasetMap__XmlNodeIdHashtable, ____id) == 0x50, "Offset mismatch!");
 
-} // namespace System::Data
+} // namespace end def System::Data
 // Type: ::TableSchemaInfo
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Data {
 // Is value type: false
 // CS Name: ::XmlToDatasetMap::TableSchemaInfo*
 class CORDL_TYPE __XmlToDatasetMap__TableSchemaInfo : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field ColumnsSchemaMap, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_ColumnsSchemaMap, put = __cordl_internal_set_ColumnsSchemaMap))::System::Data::__XmlToDatasetMap__XmlNodeIdHashtable* ColumnsSchemaMap;
+// Declarations
+/// @brief Field ColumnsSchemaMap, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_ColumnsSchemaMap, put=__cordl_internal_set_ColumnsSchemaMap)) ::System::Data::__XmlToDatasetMap__XmlNodeIdHashtable*  ColumnsSchemaMap;
 
-  /// @brief Field TableSchema, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_TableSchema, put = __cordl_internal_set_TableSchema))::System::Data::DataTable* TableSchema;
+/// @brief Field TableSchema, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_TableSchema, put=__cordl_internal_set_TableSchema)) ::System::Data::DataTable*  TableSchema;
 
-  static inline ::System::Data::__XmlToDatasetMap__TableSchemaInfo* New_ctor(::System::Data::DataTable* tableSchema);
+static inline ::System::Data::__XmlToDatasetMap__TableSchemaInfo* New_ctor(::System::Data::DataTable*  tableSchema) ;
 
-  constexpr ::System::Data::__XmlToDatasetMap__XmlNodeIdHashtable*& __cordl_internal_get_ColumnsSchemaMap();
+constexpr ::System::Data::__XmlToDatasetMap__XmlNodeIdHashtable*& __cordl_internal_get_ColumnsSchemaMap() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Data::__XmlToDatasetMap__XmlNodeIdHashtable*> const& __cordl_internal_get_ColumnsSchemaMap() const;
+constexpr ::cordl_internals::to_const_pointer<::System::Data::__XmlToDatasetMap__XmlNodeIdHashtable*> const& __cordl_internal_get_ColumnsSchemaMap() const;
 
-  constexpr ::System::Data::DataTable*& __cordl_internal_get_TableSchema();
+constexpr ::System::Data::DataTable*& __cordl_internal_get_TableSchema() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Data::DataTable*> const& __cordl_internal_get_TableSchema() const;
+constexpr ::cordl_internals::to_const_pointer<::System::Data::DataTable*> const& __cordl_internal_get_TableSchema() const;
 
-  constexpr void __cordl_internal_set_ColumnsSchemaMap(::System::Data::__XmlToDatasetMap__XmlNodeIdHashtable* value);
+constexpr void __cordl_internal_set_ColumnsSchemaMap(::System::Data::__XmlToDatasetMap__XmlNodeIdHashtable*  value) ;
 
-  constexpr void __cordl_internal_set_TableSchema(::System::Data::DataTable* value);
+constexpr void __cordl_internal_set_TableSchema(::System::Data::DataTable*  value) ;
 
-  /// @brief Method .ctor, addr 0x2d34e04, size 0x94, virtual false, abstract: false, final false
-  inline void _ctor(::System::Data::DataTable* tableSchema);
+/// @brief Method .ctor, addr 0x41181bc, size 0x90, virtual false, abstract: false, final false
+inline void _ctor(::System::Data::DataTable*  tableSchema) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __XmlToDatasetMap__TableSchemaInfo();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __XmlToDatasetMap__TableSchemaInfo() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__XmlToDatasetMap__TableSchemaInfo", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __XmlToDatasetMap__TableSchemaInfo(__XmlToDatasetMap__TableSchemaInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__XmlToDatasetMap__TableSchemaInfo", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __XmlToDatasetMap__TableSchemaInfo(__XmlToDatasetMap__TableSchemaInfo const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__XmlToDatasetMap__TableSchemaInfo", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__XmlToDatasetMap__TableSchemaInfo(__XmlToDatasetMap__TableSchemaInfo && ) = delete;
 
-  /// @brief Field TableSchema, offset: 0x10, size: 0x8, def value: None
-  ::System::Data::DataTable* ___TableSchema;
+// Ctor Parameters [CppParam { name: "", ty: "__XmlToDatasetMap__TableSchemaInfo", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__XmlToDatasetMap__TableSchemaInfo(__XmlToDatasetMap__TableSchemaInfo const& ) = delete;
 
-  /// @brief Field ColumnsSchemaMap, offset: 0x18, size: 0x8, def value: None
-  ::System::Data::__XmlToDatasetMap__XmlNodeIdHashtable* ___ColumnsSchemaMap;
+/// @brief Field TableSchema, offset: 0x10, size: 0x8, def value: None
+ ::System::Data::DataTable*  ___TableSchema;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field ColumnsSchemaMap, offset: 0x18, size: 0x8, def value: None
+ ::System::Data::__XmlToDatasetMap__XmlNodeIdHashtable*  ___ColumnsSchemaMap;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Data::__XmlToDatasetMap__TableSchemaInfo, 0x20>, "Size mismatch!");
@@ -253,125 +253,125 @@ static_assert(offsetof(::System::Data::__XmlToDatasetMap__TableSchemaInfo, ___Ta
 
 static_assert(offsetof(::System::Data::__XmlToDatasetMap__TableSchemaInfo, ___ColumnsSchemaMap) == 0x18, "Offset mismatch!");
 
-} // namespace System::Data
+} // namespace end def System::Data
 // Type: System.Data::XmlToDatasetMap
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Data {
 // Is value type: false
 // CS Name: ::System.Data::XmlToDatasetMap*
 class CORDL_TYPE XmlToDatasetMap : public ::System::Object {
 public:
-  // Declarations
-  using TableSchemaInfo = ::System::Data::__XmlToDatasetMap__TableSchemaInfo;
+// Declarations
+using TableSchemaInfo = ::System::Data::__XmlToDatasetMap__TableSchemaInfo;
 
-  using XmlNodeIdHashtable = ::System::Data::__XmlToDatasetMap__XmlNodeIdHashtable;
+using XmlNodeIdHashtable = ::System::Data::__XmlToDatasetMap__XmlNodeIdHashtable;
 
-  using XmlNodeIdentety = ::System::Data::__XmlToDatasetMap__XmlNodeIdentety;
+using XmlNodeIdentety = ::System::Data::__XmlToDatasetMap__XmlNodeIdentety;
 
-  /// @brief Field _lastTableSchemaInfo, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__lastTableSchemaInfo, put = __cordl_internal_set__lastTableSchemaInfo))::System::Data::__XmlToDatasetMap__TableSchemaInfo* _lastTableSchemaInfo;
+/// @brief Field _lastTableSchemaInfo, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get__lastTableSchemaInfo, put=__cordl_internal_set__lastTableSchemaInfo)) ::System::Data::__XmlToDatasetMap__TableSchemaInfo*  _lastTableSchemaInfo;
 
-  /// @brief Field _tableSchemaMap, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__tableSchemaMap, put = __cordl_internal_set__tableSchemaMap))::System::Data::__XmlToDatasetMap__XmlNodeIdHashtable* _tableSchemaMap;
+/// @brief Field _tableSchemaMap, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get__tableSchemaMap, put=__cordl_internal_set__tableSchemaMap)) ::System::Data::__XmlToDatasetMap__XmlNodeIdHashtable*  _tableSchemaMap;
 
-  /// @brief Method AddColumnSchema, addr 0x2d34250, size 0x138, virtual false, abstract: false, final false
-  inline bool AddColumnSchema(::System::Data::DataColumn* col, ::System::Xml::XmlNameTable* nameTable, ::System::Data::__XmlToDatasetMap__XmlNodeIdHashtable* columns);
+/// @brief Method AddColumnSchema, addr 0x411761c, size 0x134, virtual false, abstract: false, final false
+inline bool AddColumnSchema(::System::Data::DataColumn*  col, ::System::Xml::XmlNameTable*  nameTable, ::System::Data::__XmlToDatasetMap__XmlNodeIdHashtable*  columns) ;
 
-  /// @brief Method AddColumnSchema, addr 0x2d344e8, size 0x1b0, virtual false, abstract: false, final false
-  inline bool AddColumnSchema(::System::Xml::XmlNameTable* nameTable, ::System::Data::DataColumn* col, ::System::Data::__XmlToDatasetMap__XmlNodeIdHashtable* columns);
+/// @brief Method AddColumnSchema, addr 0x41178ac, size 0x1ac, virtual false, abstract: false, final false
+inline bool AddColumnSchema(::System::Xml::XmlNameTable*  nameTable, ::System::Data::DataColumn*  col, ::System::Data::__XmlToDatasetMap__XmlNodeIdHashtable*  columns) ;
 
-  /// @brief Method AddTableSchema, addr 0x2d340d4, size 0x17c, virtual false, abstract: false, final false
-  inline ::System::Data::__XmlToDatasetMap__TableSchemaInfo* AddTableSchema(::System::Xml::XmlNameTable* nameTable, ::System::Data::DataTable* table);
+/// @brief Method AddTableSchema, addr 0x41174a8, size 0x174, virtual false, abstract: false, final false
+inline ::System::Data::__XmlToDatasetMap__TableSchemaInfo* AddTableSchema(::System::Xml::XmlNameTable*  nameTable, ::System::Data::DataTable*  table) ;
 
-  /// @brief Method AddTableSchema, addr 0x2d33f7c, size 0x12c, virtual false, abstract: false, final false
-  inline ::System::Data::__XmlToDatasetMap__TableSchemaInfo* AddTableSchema(::System::Data::DataTable* table, ::System::Xml::XmlNameTable* nameTable);
+/// @brief Method AddTableSchema, addr 0x4117358, size 0x124, virtual false, abstract: false, final false
+inline ::System::Data::__XmlToDatasetMap__TableSchemaInfo* AddTableSchema(::System::Data::DataTable*  table, ::System::Xml::XmlNameTable*  nameTable) ;
 
-  /// @brief Method BuildIdentityMap, addr 0x2d31f90, size 0x620, virtual false, abstract: false, final false
-  inline void BuildIdentityMap(::System::Data::DataSet* dataSet, ::System::Xml::XmlNameTable* nameTable);
+/// @brief Method BuildIdentityMap, addr 0x4115394, size 0x61c, virtual false, abstract: false, final false
+inline void BuildIdentityMap(::System::Data::DataSet*  dataSet, ::System::Xml::XmlNameTable*  nameTable) ;
 
-  /// @brief Method BuildIdentityMap, addr 0x2d330fc, size 0x368, virtual false, abstract: false, final false
-  inline void BuildIdentityMap(::System::Data::DataTable* dataTable, ::System::Xml::XmlNameTable* nameTable);
+/// @brief Method BuildIdentityMap, addr 0x41164ec, size 0x364, virtual false, abstract: false, final false
+inline void BuildIdentityMap(::System::Data::DataTable*  dataTable, ::System::Xml::XmlNameTable*  nameTable) ;
 
-  /// @brief Method BuildIdentityMap, addr 0x2d325b0, size 0xb4c, virtual false, abstract: false, final false
-  inline void BuildIdentityMap(::System::Xml::XmlNameTable* nameTable, ::System::Data::DataSet* dataSet);
+/// @brief Method BuildIdentityMap, addr 0x41159b0, size 0xb3c, virtual false, abstract: false, final false
+inline void BuildIdentityMap(::System::Xml::XmlNameTable*  nameTable, ::System::Data::DataSet*  dataSet) ;
 
-  /// @brief Method BuildIdentityMap, addr 0x2d33464, size 0xb18, virtual false, abstract: false, final false
-  inline void BuildIdentityMap(::System::Xml::XmlNameTable* nameTable, ::System::Data::DataTable* dataTable);
+/// @brief Method BuildIdentityMap, addr 0x4116850, size 0xb08, virtual false, abstract: false, final false
+inline void BuildIdentityMap(::System::Xml::XmlNameTable*  nameTable, ::System::Data::DataTable*  dataTable) ;
 
-  /// @brief Method GetColumnSchema, addr 0x2d2df40, size 0x1e4, virtual false, abstract: false, final false
-  inline ::System::Object* GetColumnSchema(::System::Xml::XmlNode* node, bool fIgnoreNamespace);
+/// @brief Method GetColumnSchema, addr 0x4111364, size 0x1e4, virtual false, abstract: false, final false
+inline ::System::Object* GetColumnSchema(::System::Xml::XmlNode*  node, bool  fIgnoreNamespace) ;
 
-  /// @brief Method GetColumnSchema, addr 0x2d31548, size 0x130, virtual false, abstract: false, final false
-  inline ::System::Object* GetColumnSchema(::System::Data::DataTable* table, ::System::Xml::XmlReader* dataReader, bool fIgnoreNamespace);
+/// @brief Method GetColumnSchema, addr 0x4114944, size 0x12c, virtual false, abstract: false, final false
+inline ::System::Object* GetColumnSchema(::System::Data::DataTable*  table, ::System::Xml::XmlReader*  dataReader, bool  fIgnoreNamespace) ;
 
-  /// @brief Method GetSchemaForNode, addr 0x2d2e500, size 0xf0, virtual false, abstract: false, final false
-  inline ::System::Object* GetSchemaForNode(::System::Xml::XmlNode* node, bool fIgnoreNamespace);
+/// @brief Method GetSchemaForNode, addr 0x4111924, size 0xf0, virtual false, abstract: false, final false
+inline ::System::Object* GetSchemaForNode(::System::Xml::XmlNode*  node, bool  fIgnoreNamespace) ;
 
-  /// @brief Method GetSelfAndDescendants, addr 0x2d34698, size 0x44c, virtual false, abstract: false, final false
-  inline ::System::Collections::ArrayList* GetSelfAndDescendants(::System::Data::DataTable* dt);
+/// @brief Method GetSelfAndDescendants, addr 0x4117a58, size 0x44c, virtual false, abstract: false, final false
+inline ::System::Collections::ArrayList* GetSelfAndDescendants(::System::Data::DataTable*  dt) ;
 
-  /// @brief Method GetTableForNode, addr 0x2d30560, size 0xc0, virtual false, abstract: false, final false
-  inline ::System::Data::DataTable* GetTableForNode(::System::Xml::XmlReader* node, bool fIgnoreNamespace);
+/// @brief Method GetTableForNode, addr 0x4113988, size 0xc0, virtual false, abstract: false, final false
+inline ::System::Data::DataTable* GetTableForNode(::System::Xml::XmlReader*  node, bool  fIgnoreNamespace) ;
 
-  /// @brief Method HandleSpecialColumn, addr 0x2d34388, size 0x160, virtual false, abstract: false, final false
-  inline void HandleSpecialColumn(::System::Data::DataColumn* col, ::System::Xml::XmlNameTable* nameTable, ::System::Data::__XmlToDatasetMap__XmlNodeIdHashtable* columns);
+/// @brief Method HandleSpecialColumn, addr 0x4117750, size 0x15c, virtual false, abstract: false, final false
+inline void HandleSpecialColumn(::System::Data::DataColumn*  col, ::System::Xml::XmlNameTable*  nameTable, ::System::Data::__XmlToDatasetMap__XmlNodeIdHashtable*  columns) ;
 
-  /// @brief Method IsMappedColumn, addr 0x2d2f5f8, size 0x28, virtual false, abstract: false, final false
-  static inline bool IsMappedColumn(::System::Data::DataColumn* c);
+/// @brief Method IsMappedColumn, addr 0x4112a24, size 0x28, virtual false, abstract: false, final false
+static inline bool IsMappedColumn(::System::Data::DataColumn*  c) ;
 
-  static inline ::System::Data::XmlToDatasetMap* New_ctor(::System::Data::DataSet* dataSet, ::System::Xml::XmlNameTable* nameTable);
+static inline ::System::Data::XmlToDatasetMap* New_ctor(::System::Data::DataSet*  dataSet, ::System::Xml::XmlNameTable*  nameTable) ;
 
-  static inline ::System::Data::XmlToDatasetMap* New_ctor(::System::Data::DataTable* dataTable, ::System::Xml::XmlNameTable* nameTable);
+static inline ::System::Data::XmlToDatasetMap* New_ctor(::System::Data::DataTable*  dataTable, ::System::Xml::XmlNameTable*  nameTable) ;
 
-  static inline ::System::Data::XmlToDatasetMap* New_ctor(::System::Xml::XmlNameTable* nameTable, ::System::Data::DataSet* dataSet);
+static inline ::System::Data::XmlToDatasetMap* New_ctor(::System::Xml::XmlNameTable*  nameTable, ::System::Data::DataSet*  dataSet) ;
 
-  static inline ::System::Data::XmlToDatasetMap* New_ctor(::System::Xml::XmlNameTable* nameTable, ::System::Data::DataTable* dataTable);
+static inline ::System::Data::XmlToDatasetMap* New_ctor(::System::Xml::XmlNameTable*  nameTable, ::System::Data::DataTable*  dataTable) ;
 
-  constexpr ::System::Data::__XmlToDatasetMap__TableSchemaInfo*& __cordl_internal_get__lastTableSchemaInfo();
+constexpr ::System::Data::__XmlToDatasetMap__TableSchemaInfo*& __cordl_internal_get__lastTableSchemaInfo() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Data::__XmlToDatasetMap__TableSchemaInfo*> const& __cordl_internal_get__lastTableSchemaInfo() const;
+constexpr ::cordl_internals::to_const_pointer<::System::Data::__XmlToDatasetMap__TableSchemaInfo*> const& __cordl_internal_get__lastTableSchemaInfo() const;
 
-  constexpr ::System::Data::__XmlToDatasetMap__XmlNodeIdHashtable*& __cordl_internal_get__tableSchemaMap();
+constexpr ::System::Data::__XmlToDatasetMap__XmlNodeIdHashtable*& __cordl_internal_get__tableSchemaMap() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Data::__XmlToDatasetMap__XmlNodeIdHashtable*> const& __cordl_internal_get__tableSchemaMap() const;
+constexpr ::cordl_internals::to_const_pointer<::System::Data::__XmlToDatasetMap__XmlNodeIdHashtable*> const& __cordl_internal_get__tableSchemaMap() const;
 
-  constexpr void __cordl_internal_set__lastTableSchemaInfo(::System::Data::__XmlToDatasetMap__TableSchemaInfo* value);
+constexpr void __cordl_internal_set__lastTableSchemaInfo(::System::Data::__XmlToDatasetMap__TableSchemaInfo*  value) ;
 
-  constexpr void __cordl_internal_set__tableSchemaMap(::System::Data::__XmlToDatasetMap__XmlNodeIdHashtable* value);
+constexpr void __cordl_internal_set__tableSchemaMap(::System::Data::__XmlToDatasetMap__XmlNodeIdHashtable*  value) ;
 
-  /// @brief Method .ctor, addr 0x2d2e4cc, size 0x34, virtual false, abstract: false, final false
-  inline void _ctor(::System::Data::DataSet* dataSet, ::System::Xml::XmlNameTable* nameTable);
+/// @brief Method .ctor, addr 0x41118f0, size 0x34, virtual false, abstract: false, final false
+inline void _ctor(::System::Data::DataSet*  dataSet, ::System::Xml::XmlNameTable*  nameTable) ;
 
-  /// @brief Method .ctor, addr 0x2d2e498, size 0x34, virtual false, abstract: false, final false
-  inline void _ctor(::System::Data::DataTable* dataTable, ::System::Xml::XmlNameTable* nameTable);
+/// @brief Method .ctor, addr 0x41118bc, size 0x34, virtual false, abstract: false, final false
+inline void _ctor(::System::Data::DataTable*  dataTable, ::System::Xml::XmlNameTable*  nameTable) ;
 
-  /// @brief Method .ctor, addr 0x2d2fbb4, size 0x34, virtual false, abstract: false, final false
-  inline void _ctor(::System::Xml::XmlNameTable* nameTable, ::System::Data::DataSet* dataSet);
+/// @brief Method .ctor, addr 0x4112fe0, size 0x34, virtual false, abstract: false, final false
+inline void _ctor(::System::Xml::XmlNameTable*  nameTable, ::System::Data::DataSet*  dataSet) ;
 
-  /// @brief Method .ctor, addr 0x2d2fbe8, size 0x34, virtual false, abstract: false, final false
-  inline void _ctor(::System::Xml::XmlNameTable* nameTable, ::System::Data::DataTable* dataTable);
+/// @brief Method .ctor, addr 0x4113014, size 0x34, virtual false, abstract: false, final false
+inline void _ctor(::System::Xml::XmlNameTable*  nameTable, ::System::Data::DataTable*  dataTable) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr XmlToDatasetMap();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr XmlToDatasetMap() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlToDatasetMap", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  XmlToDatasetMap(XmlToDatasetMap&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlToDatasetMap", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  XmlToDatasetMap(XmlToDatasetMap const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "XmlToDatasetMap", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+XmlToDatasetMap(XmlToDatasetMap && ) = delete;
 
-  /// @brief Field _tableSchemaMap, offset: 0x10, size: 0x8, def value: None
-  ::System::Data::__XmlToDatasetMap__XmlNodeIdHashtable* ____tableSchemaMap;
+// Ctor Parameters [CppParam { name: "", ty: "XmlToDatasetMap", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+XmlToDatasetMap(XmlToDatasetMap const& ) = delete;
 
-  /// @brief Field _lastTableSchemaInfo, offset: 0x18, size: 0x8, def value: None
-  ::System::Data::__XmlToDatasetMap__TableSchemaInfo* ____lastTableSchemaInfo;
+/// @brief Field _tableSchemaMap, offset: 0x10, size: 0x8, def value: None
+ ::System::Data::__XmlToDatasetMap__XmlNodeIdHashtable*  ____tableSchemaMap;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _lastTableSchemaInfo, offset: 0x18, size: 0x8, def value: None
+ ::System::Data::__XmlToDatasetMap__TableSchemaInfo*  ____lastTableSchemaInfo;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Data::XmlToDatasetMap, 0x20>, "Size mismatch!");
@@ -380,7 +380,7 @@ static_assert(offsetof(::System::Data::XmlToDatasetMap, ____tableSchemaMap) == 0
 
 static_assert(offsetof(::System::Data::XmlToDatasetMap, ____lastTableSchemaInfo) == 0x18, "Offset mismatch!");
 
-} // namespace System::Data
+} // namespace end def System::Data
 NEED_NO_BOX(::System::Data::XmlToDatasetMap);
 DEFINE_IL2CPP_ARG_TYPE(::System::Data::XmlToDatasetMap*, "System.Data", "XmlToDatasetMap");
 NEED_NO_BOX(::System::Data::__XmlToDatasetMap__TableSchemaInfo);

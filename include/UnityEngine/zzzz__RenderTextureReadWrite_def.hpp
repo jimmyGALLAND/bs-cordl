@@ -13,60 +13,60 @@ struct RenderTextureReadWrite;
 // Write type traits
 MARK_VAL_T(::UnityEngine::RenderTextureReadWrite);
 // Type: UnityEngine::RenderTextureReadWrite
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
 // CS Name: ::UnityEngine::RenderTextureReadWrite
 struct CORDL_TYPE RenderTextureReadWrite {
 public:
-  // Declarations
-  using __CORDL_BACKING_ENUM_TYPE = int32_t;
+// Declarations
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct __RenderTextureReadWrite_Unwrapped
-  enum struct __RenderTextureReadWrite_Unwrapped : int32_t {
-    __E_Default = static_cast<int32_t>(0x0),
-    __E_Linear = static_cast<int32_t>(0x1),
-    __E_sRGB = static_cast<int32_t>(0x2),
-  };
+/// @brief Nested struct __RenderTextureReadWrite_Unwrapped
+enum struct __RenderTextureReadWrite_Unwrapped : int32_t {
+__E_Default = static_cast<int32_t>(0x0),
+__E_Linear = static_cast<int32_t>(0x1),
+__E_sRGB = static_cast<int32_t>(0x2),
+};
 
-  /// @brief Conversion into unwrapped enum value
-  constexpr operator __RenderTextureReadWrite_Unwrapped() const noexcept {
-    return static_cast<__RenderTextureReadWrite_Unwrapped>(this->value__);
-  }
+/// @brief Conversion into unwrapped enum value
+constexpr operator __RenderTextureReadWrite_Unwrapped () const noexcept {
+return static_cast<__RenderTextureReadWrite_Unwrapped>(this->value__);
+}
 
-  /// @brief Conversion into unwrapped enum value
-  constexpr explicit operator int32_t() const noexcept {
-    return static_cast<int32_t>(this->value__);
-  }
+/// @brief Conversion into unwrapped enum value
+constexpr explicit operator int32_t () const noexcept {
+return static_cast<int32_t>(this->value__);
+}
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr RenderTextureReadWrite();
+// Ctor Parameters []
+// @brief default ctor
+constexpr RenderTextureReadWrite() ;
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr RenderTextureReadWrite(int32_t value__) noexcept;
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr RenderTextureReadWrite(int32_t  value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+/// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+ int32_t  value__;
 
-  /// @brief Field Default value: static_cast<int32_t>(0x0)
-  static ::UnityEngine::RenderTextureReadWrite const Default;
+/// @brief Field Default value: static_cast<int32_t>(0x0)
+static ::UnityEngine::RenderTextureReadWrite const Default;
 
-  /// @brief Field Linear value: static_cast<int32_t>(0x1)
-  static ::UnityEngine::RenderTextureReadWrite const Linear;
+/// @brief Field Linear value: static_cast<int32_t>(0x1)
+static ::UnityEngine::RenderTextureReadWrite const Linear;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x4};
 
-  /// @brief Field sRGB value: static_cast<int32_t>(0x2)
-  static ::UnityEngine::RenderTextureReadWrite const sRGB;
+/// @brief Field sRGB value: static_cast<int32_t>(0x2)
+static ::UnityEngine::RenderTextureReadWrite const sRGB;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::RenderTextureReadWrite, 0x4>, "Size mismatch!");
 
 static_assert(offsetof(::UnityEngine::RenderTextureReadWrite, value__) == 0x0, "Offset mismatch!");
 
-} // namespace UnityEngine
+} // namespace end def UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::RenderTextureReadWrite, "UnityEngine", "RenderTextureReadWrite");

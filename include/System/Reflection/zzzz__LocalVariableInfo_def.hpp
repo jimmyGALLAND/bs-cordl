@@ -17,72 +17,72 @@ class LocalVariableInfo;
 // Write type traits
 MARK_REF_PTR_T(::System::Reflection::LocalVariableInfo);
 // Type: System.Reflection::LocalVariableInfo
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Reflection {
 // Is value type: false
 // CS Name: ::System.Reflection::LocalVariableInfo*
 class CORDL_TYPE LocalVariableInfo : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field is_pinned, offset 0x18, size 0x1
-  __declspec(property(get = __cordl_internal_get_is_pinned, put = __cordl_internal_set_is_pinned)) bool is_pinned;
+// Declarations
+/// @brief Field is_pinned, offset 0x18, size 0x1 
+ __declspec(property(get=__cordl_internal_get_is_pinned, put=__cordl_internal_set_is_pinned)) bool  is_pinned;
 
-  /// @brief Field position, offset 0x1a, size 0x2
-  __declspec(property(get = __cordl_internal_get_position, put = __cordl_internal_set_position)) uint16_t position;
+/// @brief Field position, offset 0x1a, size 0x2 
+ __declspec(property(get=__cordl_internal_get_position, put=__cordl_internal_set_position)) uint16_t  position;
 
-  /// @brief Field type, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type))::System::Type* type;
+/// @brief Field type, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_type, put=__cordl_internal_set_type)) ::System::Type*  type;
 
-  static inline ::System::Reflection::LocalVariableInfo* New_ctor();
+static inline ::System::Reflection::LocalVariableInfo* New_ctor() ;
 
-  /// @brief Method ToString, addr 0x289ffd4, size 0xac, virtual true, abstract: false, final false
-  inline ::StringW ToString();
+/// @brief Method ToString, addr 0x3c9d630, size 0xb8, virtual true, abstract: false, final false
+inline ::StringW ToString() ;
 
-  constexpr bool const& __cordl_internal_get_is_pinned() const;
+constexpr bool const& __cordl_internal_get_is_pinned() const;
 
-  constexpr bool& __cordl_internal_get_is_pinned();
+constexpr bool& __cordl_internal_get_is_pinned() ;
 
-  constexpr uint16_t const& __cordl_internal_get_position() const;
+constexpr uint16_t const& __cordl_internal_get_position() const;
 
-  constexpr uint16_t& __cordl_internal_get_position();
+constexpr uint16_t& __cordl_internal_get_position() ;
 
-  constexpr ::System::Type*& __cordl_internal_get_type();
+constexpr ::System::Type*& __cordl_internal_get_type() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get_type() const;
+constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get_type() const;
 
-  constexpr void __cordl_internal_set_is_pinned(bool value);
+constexpr void __cordl_internal_set_is_pinned(bool  value) ;
 
-  constexpr void __cordl_internal_set_position(uint16_t value);
+constexpr void __cordl_internal_set_position(uint16_t  value) ;
 
-  constexpr void __cordl_internal_set_type(::System::Type* value);
+constexpr void __cordl_internal_set_type(::System::Type*  value) ;
 
-  /// @brief Method .ctor, addr 0x289ffcc, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x3c9d628, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LocalVariableInfo();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr LocalVariableInfo() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LocalVariableInfo", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  LocalVariableInfo(LocalVariableInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LocalVariableInfo", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  LocalVariableInfo(LocalVariableInfo const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "LocalVariableInfo", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+LocalVariableInfo(LocalVariableInfo && ) = delete;
 
-  /// @brief Field type, offset: 0x10, size: 0x8, def value: None
-  ::System::Type* ___type;
+// Ctor Parameters [CppParam { name: "", ty: "LocalVariableInfo", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+LocalVariableInfo(LocalVariableInfo const& ) = delete;
 
-  /// @brief Field is_pinned, offset: 0x18, size: 0x1, def value: None
-  bool ___is_pinned;
+/// @brief Field type, offset: 0x10, size: 0x8, def value: None
+ ::System::Type*  ___type;
 
-  /// @brief Field position, offset: 0x1a, size: 0x2, def value: None
-  uint16_t ___position;
+/// @brief Field is_pinned, offset: 0x18, size: 0x1, def value: None
+ bool  ___is_pinned;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field position, offset: 0x1a, size: 0x2, def value: None
+ uint16_t  ___position;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Reflection::LocalVariableInfo, 0x20>, "Size mismatch!");
@@ -93,6 +93,6 @@ static_assert(offsetof(::System::Reflection::LocalVariableInfo, ___is_pinned) ==
 
 static_assert(offsetof(::System::Reflection::LocalVariableInfo, ___position) == 0x1a, "Offset mismatch!");
 
-} // namespace System::Reflection
+} // namespace end def System::Reflection
 NEED_NO_BOX(::System::Reflection::LocalVariableInfo);
 DEFINE_IL2CPP_ARG_TYPE(::System::Reflection::LocalVariableInfo*, "System.Reflection", "LocalVariableInfo");

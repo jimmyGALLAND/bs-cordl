@@ -27,41 +27,40 @@ class FloatFxEventBoxGroupConverter;
 // Write type traits
 MARK_REF_PTR_T(::BeatmapDataLoaderVersion4::FloatFxEventBoxGroupConverter);
 // Type: BeatmapDataLoaderVersion4::FloatFxEventBoxGroupConverter
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace BeatmapDataLoaderVersion4 {
 // Is value type: false
 // CS Name: ::BeatmapDataLoaderVersion4::FloatFxEventBoxGroupConverter*
 class CORDL_TYPE FloatFxEventBoxGroupConverter : public ::BeatmapDataLoaderVersion4::EventBoxGroupConverter {
 public:
-  // Declarations
-  /// @brief Method ConvertEvents, addr 0x1509788, size 0x220, virtual true, abstract: false, final false
-  inline ::GlobalNamespace::BeatmapEventDataBox* ConvertEvents(::BeatmapSaveDataVersion4::EventBox eventBox, ::GlobalNamespace::IndexFilter* indexFilter);
+// Declarations
+/// @brief Method ConvertEvents, addr 0x26c1660, size 0x21c, virtual true, abstract: false, final false
+inline ::GlobalNamespace::BeatmapEventDataBox* ConvertEvents(::BeatmapSaveDataVersion4::EventBox  eventBox, ::GlobalNamespace::IndexFilter*  indexFilter) ;
 
-  static inline ::BeatmapDataLoaderVersion4::FloatFxEventBoxGroupConverter* New_ctor(::BeatmapSaveDataVersion4::LightshowSaveData* lightshowSaveData,
-                                                                                     ::GlobalNamespace::IEnvironmentLightGroups* lightGroups);
+static inline ::BeatmapDataLoaderVersion4::FloatFxEventBoxGroupConverter* New_ctor(::BeatmapSaveDataVersion4::LightshowSaveData*  lightshowSaveData, ::GlobalNamespace::IEnvironmentLightGroups*  lightGroups) ;
 
-  /// @brief Method .ctor, addr 0x1508728, size 0x30, virtual false, abstract: false, final false
-  inline void _ctor(::BeatmapSaveDataVersion4::LightshowSaveData* lightshowSaveData, ::GlobalNamespace::IEnvironmentLightGroups* lightGroups);
+/// @brief Method .ctor, addr 0x26c05f8, size 0x30, virtual false, abstract: false, final false
+inline void _ctor(::BeatmapSaveDataVersion4::LightshowSaveData*  lightshowSaveData, ::GlobalNamespace::IEnvironmentLightGroups*  lightGroups) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr FloatFxEventBoxGroupConverter();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr FloatFxEventBoxGroupConverter() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FloatFxEventBoxGroupConverter", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  FloatFxEventBoxGroupConverter(FloatFxEventBoxGroupConverter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FloatFxEventBoxGroupConverter", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  FloatFxEventBoxGroupConverter(FloatFxEventBoxGroupConverter const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "FloatFxEventBoxGroupConverter", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+FloatFxEventBoxGroupConverter(FloatFxEventBoxGroupConverter && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "FloatFxEventBoxGroupConverter", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+FloatFxEventBoxGroupConverter(FloatFxEventBoxGroupConverter const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::BeatmapDataLoaderVersion4::FloatFxEventBoxGroupConverter, 0x28>, "Size mismatch!");
 
-} // namespace BeatmapDataLoaderVersion4
+} // namespace end def BeatmapDataLoaderVersion4
 NEED_NO_BOX(::BeatmapDataLoaderVersion4::FloatFxEventBoxGroupConverter);
 DEFINE_IL2CPP_ARG_TYPE(::BeatmapDataLoaderVersion4::FloatFxEventBoxGroupConverter*, "BeatmapDataLoaderVersion4", "FloatFxEventBoxGroupConverter");

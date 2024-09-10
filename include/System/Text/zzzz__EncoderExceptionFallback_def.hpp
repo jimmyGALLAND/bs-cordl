@@ -19,51 +19,51 @@ class EncoderExceptionFallback;
 // Write type traits
 MARK_REF_PTR_T(::System::Text::EncoderExceptionFallback);
 // Type: System.Text::EncoderExceptionFallback
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Text {
 // Is value type: false
 // CS Name: ::System.Text::EncoderExceptionFallback*
 class CORDL_TYPE EncoderExceptionFallback : public ::System::Text::EncoderFallback {
 public:
-  // Declarations
-  __declspec(property(get = get_MaxCharCount)) int32_t MaxCharCount;
+// Declarations
+ __declspec(property(get=get_MaxCharCount)) int32_t  MaxCharCount;
 
-  /// @brief Method CreateFallbackBuffer, addr 0x27e281c, size 0x5c, virtual true, abstract: false, final false
-  inline ::System::Text::EncoderFallbackBuffer* CreateFallbackBuffer();
+/// @brief Method CreateFallbackBuffer, addr 0x3be8524, size 0x54, virtual true, abstract: false, final false
+inline ::System::Text::EncoderFallbackBuffer* CreateFallbackBuffer() ;
 
-  /// @brief Method Equals, addr 0x27e2888, size 0x5c, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* value);
+/// @brief Method Equals, addr 0x3be8588, size 0x5c, virtual true, abstract: false, final false
+inline bool Equals(::System::Object*  value) ;
 
-  /// @brief Method GetHashCode, addr 0x27e28e4, size 0x8, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
+/// @brief Method GetHashCode, addr 0x3be85e4, size 0x8, virtual true, abstract: false, final false
+inline int32_t GetHashCode() ;
 
-  static inline ::System::Text::EncoderExceptionFallback* New_ctor();
+static inline ::System::Text::EncoderExceptionFallback* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x27e2814, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x3be851c, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_MaxCharCount, addr 0x27e2880, size 0x8, virtual true, abstract: false, final false
-  inline int32_t get_MaxCharCount();
+/// @brief Method get_MaxCharCount, addr 0x3be8580, size 0x8, virtual true, abstract: false, final false
+inline int32_t get_MaxCharCount() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr EncoderExceptionFallback();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr EncoderExceptionFallback() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EncoderExceptionFallback", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  EncoderExceptionFallback(EncoderExceptionFallback&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EncoderExceptionFallback", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  EncoderExceptionFallback(EncoderExceptionFallback const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "EncoderExceptionFallback", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+EncoderExceptionFallback(EncoderExceptionFallback && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "EncoderExceptionFallback", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+EncoderExceptionFallback(EncoderExceptionFallback const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Text::EncoderExceptionFallback, 0x10>, "Size mismatch!");
 
-} // namespace System::Text
+} // namespace end def System::Text
 NEED_NO_BOX(::System::Text::EncoderExceptionFallback);
 DEFINE_IL2CPP_ARG_TYPE(::System::Text::EncoderExceptionFallback*, "System.Text", "EncoderExceptionFallback");

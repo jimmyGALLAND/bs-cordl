@@ -20,91 +20,90 @@ class AdvancingFront;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::ProBuilder::Poly2Tri::AdvancingFront);
 // Type: UnityEngine.ProBuilder.Poly2Tri::AdvancingFront
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::Poly2Tri {
 // Is value type: false
 // CS Name: ::UnityEngine.ProBuilder.Poly2Tri::AdvancingFront*
 class CORDL_TYPE AdvancingFront : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field Head, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_Head, put = __cordl_internal_set_Head))::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* Head;
+// Declarations
+/// @brief Field Head, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_Head, put=__cordl_internal_set_Head)) ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*  Head;
 
-  /// @brief Field Search, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_Search, put = __cordl_internal_set_Search))::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* Search;
+/// @brief Field Search, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get_Search, put=__cordl_internal_set_Search)) ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*  Search;
 
-  /// @brief Field Tail, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_Tail, put = __cordl_internal_set_Tail))::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* Tail;
+/// @brief Field Tail, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_Tail, put=__cordl_internal_set_Tail)) ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*  Tail;
 
-  /// @brief Method AddNode, addr 0x32a2018, size 0x4, virtual false, abstract: false, final false
-  inline void AddNode(::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* node);
+/// @brief Method AddNode, addr 0x46678bc, size 0x4, virtual false, abstract: false, final false
+inline void AddNode(::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*  node) ;
 
-  /// @brief Method FindSearchNode, addr 0x32a2108, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* FindSearchNode(double_t x);
+/// @brief Method FindSearchNode, addr 0x46679b0, size 0x8, virtual false, abstract: false, final false
+inline ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* FindSearchNode(double_t  x) ;
 
-  /// @brief Method LocateNode, addr 0x32a2110, size 0x18, virtual false, abstract: false, final false
-  inline ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* LocateNode(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* point);
+/// @brief Method LocateNode, addr 0x46679b8, size 0x18, virtual false, abstract: false, final false
+inline ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* LocateNode(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*  point) ;
 
-  /// @brief Method LocateNode, addr 0x32a2128, size 0x5c, virtual false, abstract: false, final false
-  inline ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* LocateNode(double_t x);
+/// @brief Method LocateNode, addr 0x46679d0, size 0x5c, virtual false, abstract: false, final false
+inline ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* LocateNode(double_t  x) ;
 
-  /// @brief Method LocatePoint, addr 0x32a2184, size 0xf4, virtual false, abstract: false, final false
-  inline ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* LocatePoint(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint* point);
+/// @brief Method LocatePoint, addr 0x4667a2c, size 0xf0, virtual false, abstract: false, final false
+inline ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* LocatePoint(::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*  point) ;
 
-  static inline ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFront* New_ctor(::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* head,
-                                                                              ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* tail);
+static inline ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFront* New_ctor(::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*  head, ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*  tail) ;
 
-  /// @brief Method RemoveNode, addr 0x32a201c, size 0x4, virtual false, abstract: false, final false
-  inline void RemoveNode(::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* node);
+/// @brief Method RemoveNode, addr 0x46678c0, size 0x4, virtual false, abstract: false, final false
+inline void RemoveNode(::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*  node) ;
 
-  /// @brief Method ToString, addr 0x32a2020, size 0xe8, virtual true, abstract: false, final false
-  inline ::StringW ToString();
+/// @brief Method ToString, addr 0x46678c4, size 0xec, virtual true, abstract: false, final false
+inline ::StringW ToString() ;
 
-  constexpr ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*& __cordl_internal_get_Head();
+constexpr ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*& __cordl_internal_get_Head() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*> const& __cordl_internal_get_Head() const;
+constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*> const& __cordl_internal_get_Head() const;
 
-  constexpr ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*& __cordl_internal_get_Search();
+constexpr ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*& __cordl_internal_get_Search() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*> const& __cordl_internal_get_Search() const;
+constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*> const& __cordl_internal_get_Search() const;
 
-  constexpr ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*& __cordl_internal_get_Tail();
+constexpr ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*& __cordl_internal_get_Tail() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*> const& __cordl_internal_get_Tail() const;
+constexpr ::cordl_internals::to_const_pointer<::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*> const& __cordl_internal_get_Tail() const;
 
-  constexpr void __cordl_internal_set_Head(::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* value);
+constexpr void __cordl_internal_set_Head(::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*  value) ;
 
-  constexpr void __cordl_internal_set_Search(::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* value);
+constexpr void __cordl_internal_set_Search(::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*  value) ;
 
-  constexpr void __cordl_internal_set_Tail(::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* value);
+constexpr void __cordl_internal_set_Tail(::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*  value) ;
 
-  /// @brief Method .ctor, addr 0x32a1fe8, size 0x30, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* head, ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* tail);
+/// @brief Method .ctor, addr 0x466788c, size 0x30, virtual false, abstract: false, final false
+inline void _ctor(::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*  head, ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*  tail) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AdvancingFront();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr AdvancingFront() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AdvancingFront", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  AdvancingFront(AdvancingFront&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AdvancingFront", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  AdvancingFront(AdvancingFront const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "AdvancingFront", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+AdvancingFront(AdvancingFront && ) = delete;
 
-  /// @brief Field Head, offset: 0x10, size: 0x8, def value: None
-  ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* ___Head;
+// Ctor Parameters [CppParam { name: "", ty: "AdvancingFront", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+AdvancingFront(AdvancingFront const& ) = delete;
 
-  /// @brief Field Tail, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* ___Tail;
+/// @brief Field Head, offset: 0x10, size: 0x8, def value: None
+ ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*  ___Head;
 
-  /// @brief Field Search, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode* ___Search;
+/// @brief Field Tail, offset: 0x18, size: 0x8, def value: None
+ ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*  ___Tail;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field Search, offset: 0x20, size: 0x8, def value: None
+ ::UnityEngine::ProBuilder::Poly2Tri::AdvancingFrontNode*  ___Search;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::Poly2Tri::AdvancingFront, 0x28>, "Size mismatch!");
@@ -115,6 +114,6 @@ static_assert(offsetof(::UnityEngine::ProBuilder::Poly2Tri::AdvancingFront, ___T
 
 static_assert(offsetof(::UnityEngine::ProBuilder::Poly2Tri::AdvancingFront, ___Search) == 0x20, "Offset mismatch!");
 
-} // namespace UnityEngine::ProBuilder::Poly2Tri
+} // namespace end def UnityEngine::ProBuilder::Poly2Tri
 NEED_NO_BOX(::UnityEngine::ProBuilder::Poly2Tri::AdvancingFront);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::Poly2Tri::AdvancingFront*, "UnityEngine.ProBuilder.Poly2Tri", "AdvancingFront");

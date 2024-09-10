@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "HoudiniEngineUnity/ArrayExtensions.hpp"
 #include "HoudiniEngineUnity/BakedEvent.hpp"
@@ -271,5 +271,6 @@ module;
 #include "HoudiniEngineUnity/Test_TreeInstance_Extensions.hpp"
 #include "HoudiniEngineUnity/TransformData.hpp"
 #ifdef __cpp_modules
-export module HoudiniEngineUnity;
-#endif
+                    export module HoudiniEngineUnity;
+                    #endif
+                

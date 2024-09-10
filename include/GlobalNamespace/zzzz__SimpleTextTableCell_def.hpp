@@ -16,59 +16,59 @@ class SimpleTextTableCell;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::SimpleTextTableCell);
 // Type: ::SimpleTextTableCell
-// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::SimpleTextTableCell*
 class CORDL_TYPE SimpleTextTableCell : public ::HMUI::TableCell {
 public:
-  // Declarations
-  /// @brief Field _text, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get__text, put = __cordl_internal_set__text))::UnityW<::TMPro::TextMeshProUGUI> _text;
+// Declarations
+/// @brief Field _text, offset 0x68, size 0x8 
+ __declspec(property(get=__cordl_internal_get__text, put=__cordl_internal_set__text)) ::UnityW<::TMPro::TextMeshProUGUI>  _text;
 
-  __declspec(property(get = get_text, put = set_text))::StringW text;
+ __declspec(property(get=get_text, put=set_text)) ::StringW  text;
 
-  static inline ::GlobalNamespace::SimpleTextTableCell* New_ctor();
+static inline ::GlobalNamespace::SimpleTextTableCell* New_ctor() ;
 
-  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__text() const;
+constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__text() const;
 
-  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__text();
+constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__text() ;
 
-  constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TextMeshProUGUI> value);
+constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TextMeshProUGUI>  value) ;
 
-  /// @brief Method .ctor, addr 0x25262dc, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x39642e0, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_text, addr 0x25262b8, size 0x24, virtual false, abstract: false, final false
-  inline ::StringW get_text();
+/// @brief Method get_text, addr 0x39642bc, size 0x24, virtual false, abstract: false, final false
+inline ::StringW get_text() ;
 
-  /// @brief Method set_text, addr 0x2526294, size 0x24, virtual false, abstract: false, final false
-  inline void set_text(::StringW value);
+/// @brief Method set_text, addr 0x3964298, size 0x24, virtual false, abstract: false, final false
+inline void set_text(::StringW  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SimpleTextTableCell();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr SimpleTextTableCell() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SimpleTextTableCell", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  SimpleTextTableCell(SimpleTextTableCell&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SimpleTextTableCell", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  SimpleTextTableCell(SimpleTextTableCell const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "SimpleTextTableCell", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+SimpleTextTableCell(SimpleTextTableCell && ) = delete;
 
-  /// @brief Field _text, offset: 0x58, size: 0x8, def value: None
-  ::UnityW<::TMPro::TextMeshProUGUI> ____text;
+// Ctor Parameters [CppParam { name: "", ty: "SimpleTextTableCell", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+SimpleTextTableCell(SimpleTextTableCell const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _text, offset: 0x68, size: 0x8, def value: None
+ ::UnityW<::TMPro::TextMeshProUGUI>  ____text;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SimpleTextTableCell, 0x60>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SimpleTextTableCell, 0x70>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SimpleTextTableCell, ____text) == 0x58, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SimpleTextTableCell, ____text) == 0x68, "Offset mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SimpleTextTableCell);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SimpleTextTableCell*, "", "SimpleTextTableCell");

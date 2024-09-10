@@ -8,13 +8,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ColorPalette)
 namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+template<typename T>
+class IEnumerable_1;
 }
 namespace System::Collections::Generic {
-template <typename T> class List_1;
+template<typename T>
+class List_1;
 }
 namespace System::Collections::ObjectModel {
-template <typename T> class ReadOnlyCollection_1;
+template<typename T>
+class ReadOnlyCollection_1;
 }
 namespace UnityEngine::ProBuilder {
 class IHasDefault;
@@ -29,95 +32,95 @@ class ColorPalette;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::ProBuilder::ColorPalette);
 // Type: UnityEngine.ProBuilder::ColorPalette
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
 // CS Name: ::UnityEngine.ProBuilder::ColorPalette*
 class CORDL_TYPE ColorPalette : public ::UnityEngine::ScriptableObject {
 public:
-  // Declarations
-  __declspec(property(get = get_Count)) int32_t Count;
+// Declarations
+ __declspec(property(get=get_Count)) int32_t  Count;
 
-  __declspec(property(get = get_Item, put = set_Item))::UnityEngine::Color Item[];
+ __declspec(property(get=get_Item, put=set_Item)) ::UnityEngine::Color  Item[];
 
-  /// @brief Field <current>k__BackingField, offset 0x18, size 0x10
-  __declspec(property(get = __cordl_internal_get__current_k__BackingField, put = __cordl_internal_set__current_k__BackingField))::UnityEngine::Color _current_k__BackingField;
+/// @brief Field <current>k__BackingField, offset 0x18, size 0x10 
+ __declspec(property(get=__cordl_internal_get__current_k__BackingField, put=__cordl_internal_set__current_k__BackingField)) ::UnityEngine::Color  _current_k__BackingField;
 
-  __declspec(property(get = get_colors))::System::Collections::ObjectModel::ReadOnlyCollection_1<::UnityEngine::Color>* colors;
+ __declspec(property(get=get_colors)) ::System::Collections::ObjectModel::ReadOnlyCollection_1<::UnityEngine::Color>*  colors;
 
-  __declspec(property(get = get_current, put = set_current))::UnityEngine::Color current;
+ __declspec(property(get=get_current, put=set_current)) ::UnityEngine::Color  current;
 
-  /// @brief Field m_Colors, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Colors, put = __cordl_internal_set_m_Colors))::System::Collections::Generic::List_1<::UnityEngine::Color>* m_Colors;
+/// @brief Field m_Colors, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_Colors, put=__cordl_internal_set_m_Colors)) ::System::Collections::Generic::List_1<::UnityEngine::Color>*  m_Colors;
 
-  /// @brief Convert operator to "::UnityEngine::ProBuilder::IHasDefault"
-  constexpr operator ::UnityEngine::ProBuilder::IHasDefault*() noexcept;
+/// @brief Convert operator to "::UnityEngine::ProBuilder::IHasDefault"
+constexpr operator  ::UnityEngine::ProBuilder::IHasDefault*() noexcept;
 
-  static inline ::UnityEngine::ProBuilder::ColorPalette* New_ctor();
+static inline ::UnityEngine::ProBuilder::ColorPalette* New_ctor() ;
 
-  /// @brief Method SetColors, addr 0x32ade08, size 0xa4, virtual false, abstract: false, final false
-  inline void SetColors(::System::Collections::Generic::IEnumerable_1<::UnityEngine::Color>* colors);
+/// @brief Method SetColors, addr 0x4673214, size 0xa0, virtual false, abstract: false, final false
+inline void SetColors(::System::Collections::Generic::IEnumerable_1<::UnityEngine::Color>*  colors) ;
 
-  /// @brief Method SetDefaultValues, addr 0x32adeac, size 0x7c8, virtual true, abstract: false, final true
-  inline void SetDefaultValues();
+/// @brief Method SetDefaultValues, addr 0x46732b4, size 0x794, virtual true, abstract: false, final true
+inline void SetDefaultValues() ;
 
-  constexpr ::UnityEngine::Color const& __cordl_internal_get__current_k__BackingField() const;
+constexpr ::UnityEngine::Color const& __cordl_internal_get__current_k__BackingField() const;
 
-  constexpr ::UnityEngine::Color& __cordl_internal_get__current_k__BackingField();
+constexpr ::UnityEngine::Color& __cordl_internal_get__current_k__BackingField() ;
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::Color>*& __cordl_internal_get_m_Colors();
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::Color>*& __cordl_internal_get_m_Colors() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Color>*> const& __cordl_internal_get_m_Colors() const;
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::Color>*> const& __cordl_internal_get_m_Colors() const;
 
-  constexpr void __cordl_internal_set__current_k__BackingField(::UnityEngine::Color value);
+constexpr void __cordl_internal_set__current_k__BackingField(::UnityEngine::Color  value) ;
 
-  constexpr void __cordl_internal_set_m_Colors(::System::Collections::Generic::List_1<::UnityEngine::Color>* value);
+constexpr void __cordl_internal_set_m_Colors(::System::Collections::Generic::List_1<::UnityEngine::Color>*  value) ;
 
-  /// @brief Method .ctor, addr 0x32ae79c, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x4673b70, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_Count, addr 0x32ae754, size 0x48, virtual false, abstract: false, final false
-  inline int32_t get_Count();
+/// @brief Method get_Count, addr 0x4673b28, size 0x48, virtual false, abstract: false, final false
+inline int32_t get_Count() ;
 
-  /// @brief Method get_Item, addr 0x32ae674, size 0x58, virtual false, abstract: false, final false
-  inline ::UnityEngine::Color get_Item(int32_t i);
+/// @brief Method get_Item, addr 0x4673a48, size 0x58, virtual false, abstract: false, final false
+inline ::UnityEngine::Color get_Item(int32_t  i) ;
 
-  /// @brief Method get_colors, addr 0x32add8c, size 0x7c, virtual false, abstract: false, final false
-  inline ::System::Collections::ObjectModel::ReadOnlyCollection_1<::UnityEngine::Color>* get_colors();
+/// @brief Method get_colors, addr 0x4673198, size 0x7c, virtual false, abstract: false, final false
+inline ::System::Collections::ObjectModel::ReadOnlyCollection_1<::UnityEngine::Color>* get_colors() ;
 
-  /// @brief Method get_current, addr 0x32add74, size 0xc, virtual false, abstract: false, final false
-  inline ::UnityEngine::Color get_current();
+/// @brief Method get_current, addr 0x4673180, size 0xc, virtual false, abstract: false, final false
+inline ::UnityEngine::Color get_current() ;
 
-  /// @brief Convert to "::UnityEngine::ProBuilder::IHasDefault"
-  constexpr ::UnityEngine::ProBuilder::IHasDefault* i___UnityEngine__ProBuilder__IHasDefault() noexcept;
+/// @brief Convert to "::UnityEngine::ProBuilder::IHasDefault"
+constexpr ::UnityEngine::ProBuilder::IHasDefault* i___UnityEngine__ProBuilder__IHasDefault() noexcept;
 
-  /// @brief Method set_Item, addr 0x32ae6cc, size 0x88, virtual false, abstract: false, final false
-  inline void set_Item(int32_t i, ::UnityEngine::Color value);
+/// @brief Method set_Item, addr 0x4673aa0, size 0x88, virtual false, abstract: false, final false
+inline void set_Item(int32_t  i, ::UnityEngine::Color  value) ;
 
-  /// @brief Method set_current, addr 0x32add80, size 0xc, virtual false, abstract: false, final false
-  inline void set_current(::UnityEngine::Color value);
+/// @brief Method set_current, addr 0x467318c, size 0xc, virtual false, abstract: false, final false
+inline void set_current(::UnityEngine::Color  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ColorPalette();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ColorPalette() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ColorPalette", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ColorPalette(ColorPalette&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ColorPalette", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ColorPalette(ColorPalette const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ColorPalette", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ColorPalette(ColorPalette && ) = delete;
 
-  /// @brief Field <current>k__BackingField, offset: 0x18, size: 0x10, def value: None
-  ::UnityEngine::Color ____current_k__BackingField;
+// Ctor Parameters [CppParam { name: "", ty: "ColorPalette", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ColorPalette(ColorPalette const& ) = delete;
 
-  /// @brief Field m_Colors, offset: 0x28, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::UnityEngine::Color>* ___m_Colors;
+/// @brief Field <current>k__BackingField, offset: 0x18, size: 0x10, def value: None
+ ::UnityEngine::Color  ____current_k__BackingField;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field m_Colors, offset: 0x28, size: 0x8, def value: None
+ ::System::Collections::Generic::List_1<::UnityEngine::Color>*  ___m_Colors;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::ColorPalette, 0x30>, "Size mismatch!");
@@ -126,6 +129,6 @@ static_assert(offsetof(::UnityEngine::ProBuilder::ColorPalette, ____current_k__B
 
 static_assert(offsetof(::UnityEngine::ProBuilder::ColorPalette, ___m_Colors) == 0x28, "Offset mismatch!");
 
-} // namespace UnityEngine::ProBuilder
+} // namespace end def UnityEngine::ProBuilder
 NEED_NO_BOX(::UnityEngine::ProBuilder::ColorPalette);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::ColorPalette*, "UnityEngine.ProBuilder", "ColorPalette");

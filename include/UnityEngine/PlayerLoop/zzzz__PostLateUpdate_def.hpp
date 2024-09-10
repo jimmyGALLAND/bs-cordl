@@ -42,6 +42,9 @@ namespace UnityEngine::PlayerLoop {
 struct __PostLateUpdate__MemoryFrameMaintenance;
 }
 namespace UnityEngine::PlayerLoop {
+struct __PostLateUpdate__ObjectDispatcherPostLateUpdate;
+}
+namespace UnityEngine::PlayerLoop {
 struct __PostLateUpdate__ParticleSystemEndUpdateAll;
 }
 namespace UnityEngine::PlayerLoop {
@@ -52,6 +55,9 @@ struct __PostLateUpdate__PhysicsSkinnedClothFinishUpdate;
 }
 namespace UnityEngine::PlayerLoop {
 struct __PostLateUpdate__PlayerEmitCanvasGeometry;
+}
+namespace UnityEngine::PlayerLoop {
+struct __PostLateUpdate__PlayerRenderUIEBatchModeOffscreen;
 }
 namespace UnityEngine::PlayerLoop {
 struct __PostLateUpdate__PlayerSendFrameComplete;
@@ -184,6 +190,9 @@ namespace UnityEngine::PlayerLoop {
 struct __PostLateUpdate__MemoryFrameMaintenance;
 }
 namespace UnityEngine::PlayerLoop {
+struct __PostLateUpdate__ObjectDispatcherPostLateUpdate;
+}
+namespace UnityEngine::PlayerLoop {
 struct __PostLateUpdate__ParticleSystemEndUpdateAll;
 }
 namespace UnityEngine::PlayerLoop {
@@ -194,6 +203,9 @@ struct __PostLateUpdate__PhysicsSkinnedClothFinishUpdate;
 }
 namespace UnityEngine::PlayerLoop {
 struct __PostLateUpdate__PlayerEmitCanvasGeometry;
+}
+namespace UnityEngine::PlayerLoop {
+struct __PostLateUpdate__PlayerRenderUIEBatchModeOffscreen;
 }
 namespace UnityEngine::PlayerLoop {
 struct __PostLateUpdate__PlayerSendFrameComplete;
@@ -299,10 +311,12 @@ MARK_VAL_T(::UnityEngine::PlayerLoop::__PostLateUpdate__GUIClearEvents);
 MARK_VAL_T(::UnityEngine::PlayerLoop::__PostLateUpdate__GraphicsWarmupPreloadedShaders);
 MARK_VAL_T(::UnityEngine::PlayerLoop::__PostLateUpdate__InputEndFrame);
 MARK_VAL_T(::UnityEngine::PlayerLoop::__PostLateUpdate__MemoryFrameMaintenance);
+MARK_VAL_T(::UnityEngine::PlayerLoop::__PostLateUpdate__ObjectDispatcherPostLateUpdate);
 MARK_VAL_T(::UnityEngine::PlayerLoop::__PostLateUpdate__ParticleSystemEndUpdateAll);
 MARK_VAL_T(::UnityEngine::PlayerLoop::__PostLateUpdate__PhysicsSkinnedClothBeginUpdate);
 MARK_VAL_T(::UnityEngine::PlayerLoop::__PostLateUpdate__PhysicsSkinnedClothFinishUpdate);
 MARK_VAL_T(::UnityEngine::PlayerLoop::__PostLateUpdate__PlayerEmitCanvasGeometry);
+MARK_VAL_T(::UnityEngine::PlayerLoop::__PostLateUpdate__PlayerRenderUIEBatchModeOffscreen);
 MARK_VAL_T(::UnityEngine::PlayerLoop::__PostLateUpdate__PlayerSendFrameComplete);
 MARK_VAL_T(::UnityEngine::PlayerLoop::__PostLateUpdate__PlayerSendFramePostPresent);
 MARK_VAL_T(::UnityEngine::PlayerLoop::__PostLateUpdate__PlayerSendFrameStarted);
@@ -334,1319 +348,1375 @@ MARK_VAL_T(::UnityEngine::PlayerLoop::__PostLateUpdate__XRPostLateUpdate);
 MARK_VAL_T(::UnityEngine::PlayerLoop::__PostLateUpdate__XRPostPresent);
 MARK_VAL_T(::UnityEngine::PlayerLoop::__PostLateUpdate__XRPreEndFrame);
 // Type: ::PlayerSendFrameStarted
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: ::PostLateUpdate::PlayerSendFrameStarted
 #pragma pack(push, 0)
 struct CORDL_TYPE __PostLateUpdate__PlayerSendFrameStarted {
 public:
-  // Declarations
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __PostLateUpdate__PlayerSendFrameStarted();
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr __PostLateUpdate__PlayerSendFrameStarted() ;
 
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+/// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+ uint8_t  _cordl_size_padding[0x1];
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x1};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostLateUpdate__PlayerSendFrameStarted, 0x1>, "Size mismatch!");
 
-} // namespace UnityEngine::PlayerLoop
+} // namespace end def UnityEngine::PlayerLoop
 // Type: ::UpdateRectTransform
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: ::PostLateUpdate::UpdateRectTransform
 #pragma pack(push, 0)
 struct CORDL_TYPE __PostLateUpdate__UpdateRectTransform {
 public:
-  // Declarations
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __PostLateUpdate__UpdateRectTransform();
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr __PostLateUpdate__UpdateRectTransform() ;
 
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+/// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+ uint8_t  _cordl_size_padding[0x1];
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x1};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostLateUpdate__UpdateRectTransform, 0x1>, "Size mismatch!");
 
-} // namespace UnityEngine::PlayerLoop
+} // namespace end def UnityEngine::PlayerLoop
 // Type: ::UpdateCanvasRectTransform
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: ::PostLateUpdate::UpdateCanvasRectTransform
 #pragma pack(push, 0)
 struct CORDL_TYPE __PostLateUpdate__UpdateCanvasRectTransform {
 public:
-  // Declarations
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __PostLateUpdate__UpdateCanvasRectTransform();
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr __PostLateUpdate__UpdateCanvasRectTransform() ;
 
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+/// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+ uint8_t  _cordl_size_padding[0x1];
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x1};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostLateUpdate__UpdateCanvasRectTransform, 0x1>, "Size mismatch!");
 
-} // namespace UnityEngine::PlayerLoop
+} // namespace end def UnityEngine::PlayerLoop
 // Type: ::PlayerUpdateCanvases
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: ::PostLateUpdate::PlayerUpdateCanvases
 #pragma pack(push, 0)
 struct CORDL_TYPE __PostLateUpdate__PlayerUpdateCanvases {
 public:
-  // Declarations
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __PostLateUpdate__PlayerUpdateCanvases();
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr __PostLateUpdate__PlayerUpdateCanvases() ;
 
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+/// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+ uint8_t  _cordl_size_padding[0x1];
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x1};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostLateUpdate__PlayerUpdateCanvases, 0x1>, "Size mismatch!");
 
-} // namespace UnityEngine::PlayerLoop
+} // namespace end def UnityEngine::PlayerLoop
 // Type: ::UpdateAudio
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: ::PostLateUpdate::UpdateAudio
 #pragma pack(push, 0)
 struct CORDL_TYPE __PostLateUpdate__UpdateAudio {
 public:
-  // Declarations
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __PostLateUpdate__UpdateAudio();
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr __PostLateUpdate__UpdateAudio() ;
 
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+/// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+ uint8_t  _cordl_size_padding[0x1];
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x1};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostLateUpdate__UpdateAudio, 0x1>, "Size mismatch!");
 
-} // namespace UnityEngine::PlayerLoop
+} // namespace end def UnityEngine::PlayerLoop
 // Type: ::UpdateVideo
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: ::PostLateUpdate::UpdateVideo
 #pragma pack(push, 0)
 struct CORDL_TYPE __PostLateUpdate__UpdateVideo {
 public:
-  // Declarations
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __PostLateUpdate__UpdateVideo();
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr __PostLateUpdate__UpdateVideo() ;
 
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+/// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+ uint8_t  _cordl_size_padding[0x1];
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x1};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostLateUpdate__UpdateVideo, 0x1>, "Size mismatch!");
 
-} // namespace UnityEngine::PlayerLoop
+} // namespace end def UnityEngine::PlayerLoop
 // Type: ::DirectorLateUpdate
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: ::PostLateUpdate::DirectorLateUpdate
 #pragma pack(push, 0)
 struct CORDL_TYPE __PostLateUpdate__DirectorLateUpdate {
 public:
-  // Declarations
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __PostLateUpdate__DirectorLateUpdate();
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr __PostLateUpdate__DirectorLateUpdate() ;
 
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+/// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+ uint8_t  _cordl_size_padding[0x1];
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x1};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostLateUpdate__DirectorLateUpdate, 0x1>, "Size mismatch!");
 
-} // namespace UnityEngine::PlayerLoop
+} // namespace end def UnityEngine::PlayerLoop
 // Type: ::ScriptRunDelayedDynamicFrameRate
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: ::PostLateUpdate::ScriptRunDelayedDynamicFrameRate
 #pragma pack(push, 0)
 struct CORDL_TYPE __PostLateUpdate__ScriptRunDelayedDynamicFrameRate {
 public:
-  // Declarations
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __PostLateUpdate__ScriptRunDelayedDynamicFrameRate();
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr __PostLateUpdate__ScriptRunDelayedDynamicFrameRate() ;
 
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+/// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+ uint8_t  _cordl_size_padding[0x1];
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x1};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostLateUpdate__ScriptRunDelayedDynamicFrameRate, 0x1>, "Size mismatch!");
 
-} // namespace UnityEngine::PlayerLoop
+} // namespace end def UnityEngine::PlayerLoop
 // Type: ::VFXUpdate
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: ::PostLateUpdate::VFXUpdate
 #pragma pack(push, 0)
 struct CORDL_TYPE __PostLateUpdate__VFXUpdate {
 public:
-  // Declarations
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __PostLateUpdate__VFXUpdate();
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr __PostLateUpdate__VFXUpdate() ;
 
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+/// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+ uint8_t  _cordl_size_padding[0x1];
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x1};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostLateUpdate__VFXUpdate, 0x1>, "Size mismatch!");
 
-} // namespace UnityEngine::PlayerLoop
+} // namespace end def UnityEngine::PlayerLoop
 // Type: ::ParticleSystemEndUpdateAll
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: ::PostLateUpdate::ParticleSystemEndUpdateAll
 #pragma pack(push, 0)
 struct CORDL_TYPE __PostLateUpdate__ParticleSystemEndUpdateAll {
 public:
-  // Declarations
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __PostLateUpdate__ParticleSystemEndUpdateAll();
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr __PostLateUpdate__ParticleSystemEndUpdateAll() ;
 
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+/// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+ uint8_t  _cordl_size_padding[0x1];
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x1};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostLateUpdate__ParticleSystemEndUpdateAll, 0x1>, "Size mismatch!");
 
-} // namespace UnityEngine::PlayerLoop
+} // namespace end def UnityEngine::PlayerLoop
 // Type: ::EndGraphicsJobsAfterScriptLateUpdate
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: ::PostLateUpdate::EndGraphicsJobsAfterScriptLateUpdate
 #pragma pack(push, 0)
 struct CORDL_TYPE __PostLateUpdate__EndGraphicsJobsAfterScriptLateUpdate {
 public:
-  // Declarations
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __PostLateUpdate__EndGraphicsJobsAfterScriptLateUpdate();
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr __PostLateUpdate__EndGraphicsJobsAfterScriptLateUpdate() ;
 
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+/// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+ uint8_t  _cordl_size_padding[0x1];
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x1};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostLateUpdate__EndGraphicsJobsAfterScriptLateUpdate, 0x1>, "Size mismatch!");
 
-} // namespace UnityEngine::PlayerLoop
+} // namespace end def UnityEngine::PlayerLoop
 // Type: ::UpdateSubstance
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: ::PostLateUpdate::UpdateSubstance
 #pragma pack(push, 0)
 struct CORDL_TYPE __PostLateUpdate__UpdateSubstance {
 public:
-  // Declarations
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __PostLateUpdate__UpdateSubstance();
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr __PostLateUpdate__UpdateSubstance() ;
 
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+/// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+ uint8_t  _cordl_size_padding[0x1];
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x1};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostLateUpdate__UpdateSubstance, 0x1>, "Size mismatch!");
 
-} // namespace UnityEngine::PlayerLoop
+} // namespace end def UnityEngine::PlayerLoop
 // Type: ::UpdateCustomRenderTextures
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: ::PostLateUpdate::UpdateCustomRenderTextures
 #pragma pack(push, 0)
 struct CORDL_TYPE __PostLateUpdate__UpdateCustomRenderTextures {
 public:
-  // Declarations
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __PostLateUpdate__UpdateCustomRenderTextures();
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr __PostLateUpdate__UpdateCustomRenderTextures() ;
 
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+/// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+ uint8_t  _cordl_size_padding[0x1];
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x1};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostLateUpdate__UpdateCustomRenderTextures, 0x1>, "Size mismatch!");
 
-} // namespace UnityEngine::PlayerLoop
+} // namespace end def UnityEngine::PlayerLoop
 // Type: ::XRPostLateUpdate
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: ::PostLateUpdate::XRPostLateUpdate
 #pragma pack(push, 0)
 struct CORDL_TYPE __PostLateUpdate__XRPostLateUpdate {
 public:
-  // Declarations
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __PostLateUpdate__XRPostLateUpdate();
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr __PostLateUpdate__XRPostLateUpdate() ;
 
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+/// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+ uint8_t  _cordl_size_padding[0x1];
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x1};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostLateUpdate__XRPostLateUpdate, 0x1>, "Size mismatch!");
 
-} // namespace UnityEngine::PlayerLoop
+} // namespace end def UnityEngine::PlayerLoop
 // Type: ::UpdateAllRenderers
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: ::PostLateUpdate::UpdateAllRenderers
 #pragma pack(push, 0)
 struct CORDL_TYPE __PostLateUpdate__UpdateAllRenderers {
 public:
-  // Declarations
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __PostLateUpdate__UpdateAllRenderers();
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr __PostLateUpdate__UpdateAllRenderers() ;
 
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+/// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+ uint8_t  _cordl_size_padding[0x1];
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x1};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostLateUpdate__UpdateAllRenderers, 0x1>, "Size mismatch!");
 
-} // namespace UnityEngine::PlayerLoop
+} // namespace end def UnityEngine::PlayerLoop
 // Type: ::UpdateLightProbeProxyVolumes
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: ::PostLateUpdate::UpdateLightProbeProxyVolumes
 #pragma pack(push, 0)
 struct CORDL_TYPE __PostLateUpdate__UpdateLightProbeProxyVolumes {
 public:
-  // Declarations
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __PostLateUpdate__UpdateLightProbeProxyVolumes();
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr __PostLateUpdate__UpdateLightProbeProxyVolumes() ;
 
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+/// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+ uint8_t  _cordl_size_padding[0x1];
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x1};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostLateUpdate__UpdateLightProbeProxyVolumes, 0x1>, "Size mismatch!");
 
-} // namespace UnityEngine::PlayerLoop
+} // namespace end def UnityEngine::PlayerLoop
 // Type: ::EnlightenRuntimeUpdate
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: ::PostLateUpdate::EnlightenRuntimeUpdate
 #pragma pack(push, 0)
 struct CORDL_TYPE __PostLateUpdate__EnlightenRuntimeUpdate {
 public:
-  // Declarations
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __PostLateUpdate__EnlightenRuntimeUpdate();
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr __PostLateUpdate__EnlightenRuntimeUpdate() ;
 
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+/// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+ uint8_t  _cordl_size_padding[0x1];
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x1};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostLateUpdate__EnlightenRuntimeUpdate, 0x1>, "Size mismatch!");
 
-} // namespace UnityEngine::PlayerLoop
+} // namespace end def UnityEngine::PlayerLoop
 // Type: ::UpdateAllSkinnedMeshes
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: ::PostLateUpdate::UpdateAllSkinnedMeshes
 #pragma pack(push, 0)
 struct CORDL_TYPE __PostLateUpdate__UpdateAllSkinnedMeshes {
 public:
-  // Declarations
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __PostLateUpdate__UpdateAllSkinnedMeshes();
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr __PostLateUpdate__UpdateAllSkinnedMeshes() ;
 
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+/// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+ uint8_t  _cordl_size_padding[0x1];
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x1};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostLateUpdate__UpdateAllSkinnedMeshes, 0x1>, "Size mismatch!");
 
-} // namespace UnityEngine::PlayerLoop
+} // namespace end def UnityEngine::PlayerLoop
 // Type: ::ProcessWebSendMessages
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: ::PostLateUpdate::ProcessWebSendMessages
 #pragma pack(push, 0)
 struct CORDL_TYPE __PostLateUpdate__ProcessWebSendMessages {
 public:
-  // Declarations
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __PostLateUpdate__ProcessWebSendMessages();
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr __PostLateUpdate__ProcessWebSendMessages() ;
 
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+/// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+ uint8_t  _cordl_size_padding[0x1];
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x1};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostLateUpdate__ProcessWebSendMessages, 0x1>, "Size mismatch!");
 
-} // namespace UnityEngine::PlayerLoop
+} // namespace end def UnityEngine::PlayerLoop
 // Type: ::SortingGroupsUpdate
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: ::PostLateUpdate::SortingGroupsUpdate
 #pragma pack(push, 0)
 struct CORDL_TYPE __PostLateUpdate__SortingGroupsUpdate {
 public:
-  // Declarations
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __PostLateUpdate__SortingGroupsUpdate();
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr __PostLateUpdate__SortingGroupsUpdate() ;
 
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+/// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+ uint8_t  _cordl_size_padding[0x1];
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x1};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostLateUpdate__SortingGroupsUpdate, 0x1>, "Size mismatch!");
 
-} // namespace UnityEngine::PlayerLoop
+} // namespace end def UnityEngine::PlayerLoop
 // Type: ::UpdateVideoTextures
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: ::PostLateUpdate::UpdateVideoTextures
 #pragma pack(push, 0)
 struct CORDL_TYPE __PostLateUpdate__UpdateVideoTextures {
 public:
-  // Declarations
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __PostLateUpdate__UpdateVideoTextures();
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr __PostLateUpdate__UpdateVideoTextures() ;
 
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+/// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+ uint8_t  _cordl_size_padding[0x1];
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x1};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostLateUpdate__UpdateVideoTextures, 0x1>, "Size mismatch!");
 
-} // namespace UnityEngine::PlayerLoop
+} // namespace end def UnityEngine::PlayerLoop
 // Type: ::DirectorRenderImage
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: ::PostLateUpdate::DirectorRenderImage
 #pragma pack(push, 0)
 struct CORDL_TYPE __PostLateUpdate__DirectorRenderImage {
 public:
-  // Declarations
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __PostLateUpdate__DirectorRenderImage();
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr __PostLateUpdate__DirectorRenderImage() ;
 
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+/// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+ uint8_t  _cordl_size_padding[0x1];
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x1};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostLateUpdate__DirectorRenderImage, 0x1>, "Size mismatch!");
 
-} // namespace UnityEngine::PlayerLoop
+} // namespace end def UnityEngine::PlayerLoop
 // Type: ::PlayerEmitCanvasGeometry
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: ::PostLateUpdate::PlayerEmitCanvasGeometry
 #pragma pack(push, 0)
 struct CORDL_TYPE __PostLateUpdate__PlayerEmitCanvasGeometry {
 public:
-  // Declarations
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __PostLateUpdate__PlayerEmitCanvasGeometry();
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr __PostLateUpdate__PlayerEmitCanvasGeometry() ;
 
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+/// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+ uint8_t  _cordl_size_padding[0x1];
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x1};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostLateUpdate__PlayerEmitCanvasGeometry, 0x1>, "Size mismatch!");
 
-} // namespace UnityEngine::PlayerLoop
+} // namespace end def UnityEngine::PlayerLoop
+// Type: ::PlayerRenderUIEBatchModeOffscreen
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
+namespace UnityEngine::PlayerLoop {
+// Is value type: true
+// CS Name: ::PostLateUpdate::PlayerRenderUIEBatchModeOffscreen
+#pragma pack(push, 0)
+struct CORDL_TYPE __PostLateUpdate__PlayerRenderUIEBatchModeOffscreen {
+public:
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr __PostLateUpdate__PlayerRenderUIEBatchModeOffscreen() ;
+
+/// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+ uint8_t  _cordl_size_padding[0x1];
+
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x1};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+};
+#pragma pack(pop)
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostLateUpdate__PlayerRenderUIEBatchModeOffscreen, 0x1>, "Size mismatch!");
+
+} // namespace end def UnityEngine::PlayerLoop
 // Type: ::FinishFrameRendering
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: ::PostLateUpdate::FinishFrameRendering
 #pragma pack(push, 0)
 struct CORDL_TYPE __PostLateUpdate__FinishFrameRendering {
 public:
-  // Declarations
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __PostLateUpdate__FinishFrameRendering();
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr __PostLateUpdate__FinishFrameRendering() ;
 
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+/// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+ uint8_t  _cordl_size_padding[0x1];
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x1};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostLateUpdate__FinishFrameRendering, 0x1>, "Size mismatch!");
 
-} // namespace UnityEngine::PlayerLoop
+} // namespace end def UnityEngine::PlayerLoop
 // Type: ::BatchModeUpdate
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: ::PostLateUpdate::BatchModeUpdate
 #pragma pack(push, 0)
 struct CORDL_TYPE __PostLateUpdate__BatchModeUpdate {
 public:
-  // Declarations
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __PostLateUpdate__BatchModeUpdate();
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr __PostLateUpdate__BatchModeUpdate() ;
 
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+/// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+ uint8_t  _cordl_size_padding[0x1];
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x1};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostLateUpdate__BatchModeUpdate, 0x1>, "Size mismatch!");
 
-} // namespace UnityEngine::PlayerLoop
+} // namespace end def UnityEngine::PlayerLoop
 // Type: ::PlayerSendFrameComplete
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: ::PostLateUpdate::PlayerSendFrameComplete
 #pragma pack(push, 0)
 struct CORDL_TYPE __PostLateUpdate__PlayerSendFrameComplete {
 public:
-  // Declarations
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __PostLateUpdate__PlayerSendFrameComplete();
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr __PostLateUpdate__PlayerSendFrameComplete() ;
 
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+/// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+ uint8_t  _cordl_size_padding[0x1];
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x1};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostLateUpdate__PlayerSendFrameComplete, 0x1>, "Size mismatch!");
 
-} // namespace UnityEngine::PlayerLoop
+} // namespace end def UnityEngine::PlayerLoop
 // Type: ::UpdateCaptureScreenshot
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: ::PostLateUpdate::UpdateCaptureScreenshot
 #pragma pack(push, 0)
 struct CORDL_TYPE __PostLateUpdate__UpdateCaptureScreenshot {
 public:
-  // Declarations
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __PostLateUpdate__UpdateCaptureScreenshot();
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr __PostLateUpdate__UpdateCaptureScreenshot() ;
 
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+/// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+ uint8_t  _cordl_size_padding[0x1];
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x1};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostLateUpdate__UpdateCaptureScreenshot, 0x1>, "Size mismatch!");
 
-} // namespace UnityEngine::PlayerLoop
+} // namespace end def UnityEngine::PlayerLoop
 // Type: ::PresentAfterDraw
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: ::PostLateUpdate::PresentAfterDraw
 #pragma pack(push, 0)
 struct CORDL_TYPE __PostLateUpdate__PresentAfterDraw {
 public:
-  // Declarations
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __PostLateUpdate__PresentAfterDraw();
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr __PostLateUpdate__PresentAfterDraw() ;
 
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+/// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+ uint8_t  _cordl_size_padding[0x1];
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x1};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostLateUpdate__PresentAfterDraw, 0x1>, "Size mismatch!");
 
-} // namespace UnityEngine::PlayerLoop
+} // namespace end def UnityEngine::PlayerLoop
 // Type: ::ClearImmediateRenderers
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: ::PostLateUpdate::ClearImmediateRenderers
 #pragma pack(push, 0)
 struct CORDL_TYPE __PostLateUpdate__ClearImmediateRenderers {
 public:
-  // Declarations
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __PostLateUpdate__ClearImmediateRenderers();
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr __PostLateUpdate__ClearImmediateRenderers() ;
 
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+/// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+ uint8_t  _cordl_size_padding[0x1];
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x1};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostLateUpdate__ClearImmediateRenderers, 0x1>, "Size mismatch!");
 
-} // namespace UnityEngine::PlayerLoop
+} // namespace end def UnityEngine::PlayerLoop
 // Type: ::XRPostPresent
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: ::PostLateUpdate::XRPostPresent
 #pragma pack(push, 0)
 struct CORDL_TYPE __PostLateUpdate__XRPostPresent {
 public:
-  // Declarations
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __PostLateUpdate__XRPostPresent();
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr __PostLateUpdate__XRPostPresent() ;
 
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+/// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+ uint8_t  _cordl_size_padding[0x1];
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x1};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostLateUpdate__XRPostPresent, 0x1>, "Size mismatch!");
 
-} // namespace UnityEngine::PlayerLoop
+} // namespace end def UnityEngine::PlayerLoop
 // Type: ::UpdateResolution
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: ::PostLateUpdate::UpdateResolution
 #pragma pack(push, 0)
 struct CORDL_TYPE __PostLateUpdate__UpdateResolution {
 public:
-  // Declarations
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __PostLateUpdate__UpdateResolution();
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr __PostLateUpdate__UpdateResolution() ;
 
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+/// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+ uint8_t  _cordl_size_padding[0x1];
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x1};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostLateUpdate__UpdateResolution, 0x1>, "Size mismatch!");
 
-} // namespace UnityEngine::PlayerLoop
+} // namespace end def UnityEngine::PlayerLoop
 // Type: ::InputEndFrame
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: ::PostLateUpdate::InputEndFrame
 #pragma pack(push, 0)
 struct CORDL_TYPE __PostLateUpdate__InputEndFrame {
 public:
-  // Declarations
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __PostLateUpdate__InputEndFrame();
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr __PostLateUpdate__InputEndFrame() ;
 
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+/// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+ uint8_t  _cordl_size_padding[0x1];
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x1};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostLateUpdate__InputEndFrame, 0x1>, "Size mismatch!");
 
-} // namespace UnityEngine::PlayerLoop
+} // namespace end def UnityEngine::PlayerLoop
 // Type: ::GUIClearEvents
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: ::PostLateUpdate::GUIClearEvents
 #pragma pack(push, 0)
 struct CORDL_TYPE __PostLateUpdate__GUIClearEvents {
 public:
-  // Declarations
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __PostLateUpdate__GUIClearEvents();
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr __PostLateUpdate__GUIClearEvents() ;
 
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+/// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+ uint8_t  _cordl_size_padding[0x1];
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x1};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostLateUpdate__GUIClearEvents, 0x1>, "Size mismatch!");
 
-} // namespace UnityEngine::PlayerLoop
+} // namespace end def UnityEngine::PlayerLoop
 // Type: ::ShaderHandleErrors
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: ::PostLateUpdate::ShaderHandleErrors
 #pragma pack(push, 0)
 struct CORDL_TYPE __PostLateUpdate__ShaderHandleErrors {
 public:
-  // Declarations
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __PostLateUpdate__ShaderHandleErrors();
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr __PostLateUpdate__ShaderHandleErrors() ;
 
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+/// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+ uint8_t  _cordl_size_padding[0x1];
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x1};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostLateUpdate__ShaderHandleErrors, 0x1>, "Size mismatch!");
 
-} // namespace UnityEngine::PlayerLoop
+} // namespace end def UnityEngine::PlayerLoop
 // Type: ::ResetInputAxis
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: ::PostLateUpdate::ResetInputAxis
 #pragma pack(push, 0)
 struct CORDL_TYPE __PostLateUpdate__ResetInputAxis {
 public:
-  // Declarations
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __PostLateUpdate__ResetInputAxis();
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr __PostLateUpdate__ResetInputAxis() ;
 
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+/// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+ uint8_t  _cordl_size_padding[0x1];
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x1};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostLateUpdate__ResetInputAxis, 0x1>, "Size mismatch!");
 
-} // namespace UnityEngine::PlayerLoop
+} // namespace end def UnityEngine::PlayerLoop
 // Type: ::ThreadedLoadingDebug
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: ::PostLateUpdate::ThreadedLoadingDebug
 #pragma pack(push, 0)
 struct CORDL_TYPE __PostLateUpdate__ThreadedLoadingDebug {
 public:
-  // Declarations
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __PostLateUpdate__ThreadedLoadingDebug();
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr __PostLateUpdate__ThreadedLoadingDebug() ;
 
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+/// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+ uint8_t  _cordl_size_padding[0x1];
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x1};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostLateUpdate__ThreadedLoadingDebug, 0x1>, "Size mismatch!");
 
-} // namespace UnityEngine::PlayerLoop
+} // namespace end def UnityEngine::PlayerLoop
 // Type: ::ProfilerSynchronizeStats
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: ::PostLateUpdate::ProfilerSynchronizeStats
 #pragma pack(push, 0)
 struct CORDL_TYPE __PostLateUpdate__ProfilerSynchronizeStats {
 public:
-  // Declarations
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __PostLateUpdate__ProfilerSynchronizeStats();
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr __PostLateUpdate__ProfilerSynchronizeStats() ;
 
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+/// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+ uint8_t  _cordl_size_padding[0x1];
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x1};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostLateUpdate__ProfilerSynchronizeStats, 0x1>, "Size mismatch!");
 
-} // namespace UnityEngine::PlayerLoop
+} // namespace end def UnityEngine::PlayerLoop
 // Type: ::MemoryFrameMaintenance
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: ::PostLateUpdate::MemoryFrameMaintenance
 #pragma pack(push, 0)
 struct CORDL_TYPE __PostLateUpdate__MemoryFrameMaintenance {
 public:
-  // Declarations
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __PostLateUpdate__MemoryFrameMaintenance();
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr __PostLateUpdate__MemoryFrameMaintenance() ;
 
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+/// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+ uint8_t  _cordl_size_padding[0x1];
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x1};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostLateUpdate__MemoryFrameMaintenance, 0x1>, "Size mismatch!");
 
-} // namespace UnityEngine::PlayerLoop
+} // namespace end def UnityEngine::PlayerLoop
 // Type: ::ExecuteGameCenterCallbacks
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: ::PostLateUpdate::ExecuteGameCenterCallbacks
 #pragma pack(push, 0)
 struct CORDL_TYPE __PostLateUpdate__ExecuteGameCenterCallbacks {
 public:
-  // Declarations
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __PostLateUpdate__ExecuteGameCenterCallbacks();
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr __PostLateUpdate__ExecuteGameCenterCallbacks() ;
 
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+/// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+ uint8_t  _cordl_size_padding[0x1];
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x1};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostLateUpdate__ExecuteGameCenterCallbacks, 0x1>, "Size mismatch!");
 
-} // namespace UnityEngine::PlayerLoop
+} // namespace end def UnityEngine::PlayerLoop
 // Type: ::XRPreEndFrame
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: ::PostLateUpdate::XRPreEndFrame
 #pragma pack(push, 0)
 struct CORDL_TYPE __PostLateUpdate__XRPreEndFrame {
 public:
-  // Declarations
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __PostLateUpdate__XRPreEndFrame();
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr __PostLateUpdate__XRPreEndFrame() ;
 
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+/// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+ uint8_t  _cordl_size_padding[0x1];
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x1};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostLateUpdate__XRPreEndFrame, 0x1>, "Size mismatch!");
 
-} // namespace UnityEngine::PlayerLoop
+} // namespace end def UnityEngine::PlayerLoop
 // Type: ::ProfilerEndFrame
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: ::PostLateUpdate::ProfilerEndFrame
 #pragma pack(push, 0)
 struct CORDL_TYPE __PostLateUpdate__ProfilerEndFrame {
 public:
-  // Declarations
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __PostLateUpdate__ProfilerEndFrame();
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr __PostLateUpdate__ProfilerEndFrame() ;
 
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+/// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+ uint8_t  _cordl_size_padding[0x1];
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x1};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostLateUpdate__ProfilerEndFrame, 0x1>, "Size mismatch!");
 
-} // namespace UnityEngine::PlayerLoop
+} // namespace end def UnityEngine::PlayerLoop
 // Type: ::GraphicsWarmupPreloadedShaders
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: ::PostLateUpdate::GraphicsWarmupPreloadedShaders
 #pragma pack(push, 0)
 struct CORDL_TYPE __PostLateUpdate__GraphicsWarmupPreloadedShaders {
 public:
-  // Declarations
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __PostLateUpdate__GraphicsWarmupPreloadedShaders();
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr __PostLateUpdate__GraphicsWarmupPreloadedShaders() ;
 
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+/// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+ uint8_t  _cordl_size_padding[0x1];
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x1};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostLateUpdate__GraphicsWarmupPreloadedShaders, 0x1>, "Size mismatch!");
 
-} // namespace UnityEngine::PlayerLoop
+} // namespace end def UnityEngine::PlayerLoop
 // Type: ::PlayerSendFramePostPresent
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: ::PostLateUpdate::PlayerSendFramePostPresent
 #pragma pack(push, 0)
 struct CORDL_TYPE __PostLateUpdate__PlayerSendFramePostPresent {
 public:
-  // Declarations
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __PostLateUpdate__PlayerSendFramePostPresent();
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr __PostLateUpdate__PlayerSendFramePostPresent() ;
 
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+/// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+ uint8_t  _cordl_size_padding[0x1];
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x1};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostLateUpdate__PlayerSendFramePostPresent, 0x1>, "Size mismatch!");
 
-} // namespace UnityEngine::PlayerLoop
+} // namespace end def UnityEngine::PlayerLoop
 // Type: ::PhysicsSkinnedClothBeginUpdate
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: ::PostLateUpdate::PhysicsSkinnedClothBeginUpdate
 #pragma pack(push, 0)
 struct CORDL_TYPE __PostLateUpdate__PhysicsSkinnedClothBeginUpdate {
 public:
-  // Declarations
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __PostLateUpdate__PhysicsSkinnedClothBeginUpdate();
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr __PostLateUpdate__PhysicsSkinnedClothBeginUpdate() ;
 
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+/// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+ uint8_t  _cordl_size_padding[0x1];
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x1};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostLateUpdate__PhysicsSkinnedClothBeginUpdate, 0x1>, "Size mismatch!");
 
-} // namespace UnityEngine::PlayerLoop
+} // namespace end def UnityEngine::PlayerLoop
 // Type: ::PhysicsSkinnedClothFinishUpdate
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: ::PostLateUpdate::PhysicsSkinnedClothFinishUpdate
 #pragma pack(push, 0)
 struct CORDL_TYPE __PostLateUpdate__PhysicsSkinnedClothFinishUpdate {
 public:
-  // Declarations
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __PostLateUpdate__PhysicsSkinnedClothFinishUpdate();
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr __PostLateUpdate__PhysicsSkinnedClothFinishUpdate() ;
 
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+/// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+ uint8_t  _cordl_size_padding[0x1];
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x1};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostLateUpdate__PhysicsSkinnedClothFinishUpdate, 0x1>, "Size mismatch!");
 
-} // namespace UnityEngine::PlayerLoop
+} // namespace end def UnityEngine::PlayerLoop
 // Type: ::TriggerEndOfFrameCallbacks
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: ::PostLateUpdate::TriggerEndOfFrameCallbacks
 #pragma pack(push, 0)
 struct CORDL_TYPE __PostLateUpdate__TriggerEndOfFrameCallbacks {
 public:
-  // Declarations
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __PostLateUpdate__TriggerEndOfFrameCallbacks();
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr __PostLateUpdate__TriggerEndOfFrameCallbacks() ;
 
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+/// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+ uint8_t  _cordl_size_padding[0x1];
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x1};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostLateUpdate__TriggerEndOfFrameCallbacks, 0x1>, "Size mismatch!");
 
-} // namespace UnityEngine::PlayerLoop
+} // namespace end def UnityEngine::PlayerLoop
+// Type: ::ObjectDispatcherPostLateUpdate
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
+namespace UnityEngine::PlayerLoop {
+// Is value type: true
+// CS Name: ::PostLateUpdate::ObjectDispatcherPostLateUpdate
+#pragma pack(push, 0)
+struct CORDL_TYPE __PostLateUpdate__ObjectDispatcherPostLateUpdate {
+public:
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr __PostLateUpdate__ObjectDispatcherPostLateUpdate() ;
+
+/// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+ uint8_t  _cordl_size_padding[0x1];
+
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x1};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+};
+#pragma pack(pop)
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__PostLateUpdate__ObjectDispatcherPostLateUpdate, 0x1>, "Size mismatch!");
+
+} // namespace end def UnityEngine::PlayerLoop
 // Type: UnityEngine.PlayerLoop::PostLateUpdate
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: ::UnityEngine.PlayerLoop::PostLateUpdate
 #pragma pack(push, 0)
 struct CORDL_TYPE PostLateUpdate {
 public:
-  // Declarations
-  using BatchModeUpdate = ::UnityEngine::PlayerLoop::__PostLateUpdate__BatchModeUpdate;
+// Declarations
+using BatchModeUpdate = ::UnityEngine::PlayerLoop::__PostLateUpdate__BatchModeUpdate;
 
-  using ClearImmediateRenderers = ::UnityEngine::PlayerLoop::__PostLateUpdate__ClearImmediateRenderers;
+using ClearImmediateRenderers = ::UnityEngine::PlayerLoop::__PostLateUpdate__ClearImmediateRenderers;
 
-  using DirectorLateUpdate = ::UnityEngine::PlayerLoop::__PostLateUpdate__DirectorLateUpdate;
+using DirectorLateUpdate = ::UnityEngine::PlayerLoop::__PostLateUpdate__DirectorLateUpdate;
 
-  using DirectorRenderImage = ::UnityEngine::PlayerLoop::__PostLateUpdate__DirectorRenderImage;
+using DirectorRenderImage = ::UnityEngine::PlayerLoop::__PostLateUpdate__DirectorRenderImage;
 
-  using EndGraphicsJobsAfterScriptLateUpdate = ::UnityEngine::PlayerLoop::__PostLateUpdate__EndGraphicsJobsAfterScriptLateUpdate;
+using EndGraphicsJobsAfterScriptLateUpdate = ::UnityEngine::PlayerLoop::__PostLateUpdate__EndGraphicsJobsAfterScriptLateUpdate;
 
-  using EnlightenRuntimeUpdate = ::UnityEngine::PlayerLoop::__PostLateUpdate__EnlightenRuntimeUpdate;
+using EnlightenRuntimeUpdate = ::UnityEngine::PlayerLoop::__PostLateUpdate__EnlightenRuntimeUpdate;
 
-  using ExecuteGameCenterCallbacks = ::UnityEngine::PlayerLoop::__PostLateUpdate__ExecuteGameCenterCallbacks;
+using ExecuteGameCenterCallbacks = ::UnityEngine::PlayerLoop::__PostLateUpdate__ExecuteGameCenterCallbacks;
 
-  using FinishFrameRendering = ::UnityEngine::PlayerLoop::__PostLateUpdate__FinishFrameRendering;
+using FinishFrameRendering = ::UnityEngine::PlayerLoop::__PostLateUpdate__FinishFrameRendering;
 
-  using GUIClearEvents = ::UnityEngine::PlayerLoop::__PostLateUpdate__GUIClearEvents;
+using GUIClearEvents = ::UnityEngine::PlayerLoop::__PostLateUpdate__GUIClearEvents;
 
-  using GraphicsWarmupPreloadedShaders = ::UnityEngine::PlayerLoop::__PostLateUpdate__GraphicsWarmupPreloadedShaders;
+using GraphicsWarmupPreloadedShaders = ::UnityEngine::PlayerLoop::__PostLateUpdate__GraphicsWarmupPreloadedShaders;
 
-  using InputEndFrame = ::UnityEngine::PlayerLoop::__PostLateUpdate__InputEndFrame;
+using InputEndFrame = ::UnityEngine::PlayerLoop::__PostLateUpdate__InputEndFrame;
 
-  using MemoryFrameMaintenance = ::UnityEngine::PlayerLoop::__PostLateUpdate__MemoryFrameMaintenance;
+using MemoryFrameMaintenance = ::UnityEngine::PlayerLoop::__PostLateUpdate__MemoryFrameMaintenance;
 
-  using ParticleSystemEndUpdateAll = ::UnityEngine::PlayerLoop::__PostLateUpdate__ParticleSystemEndUpdateAll;
+using ObjectDispatcherPostLateUpdate = ::UnityEngine::PlayerLoop::__PostLateUpdate__ObjectDispatcherPostLateUpdate;
 
-  using PhysicsSkinnedClothBeginUpdate = ::UnityEngine::PlayerLoop::__PostLateUpdate__PhysicsSkinnedClothBeginUpdate;
+using ParticleSystemEndUpdateAll = ::UnityEngine::PlayerLoop::__PostLateUpdate__ParticleSystemEndUpdateAll;
 
-  using PhysicsSkinnedClothFinishUpdate = ::UnityEngine::PlayerLoop::__PostLateUpdate__PhysicsSkinnedClothFinishUpdate;
+using PhysicsSkinnedClothBeginUpdate = ::UnityEngine::PlayerLoop::__PostLateUpdate__PhysicsSkinnedClothBeginUpdate;
 
-  using PlayerEmitCanvasGeometry = ::UnityEngine::PlayerLoop::__PostLateUpdate__PlayerEmitCanvasGeometry;
+using PhysicsSkinnedClothFinishUpdate = ::UnityEngine::PlayerLoop::__PostLateUpdate__PhysicsSkinnedClothFinishUpdate;
 
-  using PlayerSendFrameComplete = ::UnityEngine::PlayerLoop::__PostLateUpdate__PlayerSendFrameComplete;
+using PlayerEmitCanvasGeometry = ::UnityEngine::PlayerLoop::__PostLateUpdate__PlayerEmitCanvasGeometry;
 
-  using PlayerSendFramePostPresent = ::UnityEngine::PlayerLoop::__PostLateUpdate__PlayerSendFramePostPresent;
+using PlayerRenderUIEBatchModeOffscreen = ::UnityEngine::PlayerLoop::__PostLateUpdate__PlayerRenderUIEBatchModeOffscreen;
 
-  using PlayerSendFrameStarted = ::UnityEngine::PlayerLoop::__PostLateUpdate__PlayerSendFrameStarted;
+using PlayerSendFrameComplete = ::UnityEngine::PlayerLoop::__PostLateUpdate__PlayerSendFrameComplete;
 
-  using PlayerUpdateCanvases = ::UnityEngine::PlayerLoop::__PostLateUpdate__PlayerUpdateCanvases;
+using PlayerSendFramePostPresent = ::UnityEngine::PlayerLoop::__PostLateUpdate__PlayerSendFramePostPresent;
 
-  using PresentAfterDraw = ::UnityEngine::PlayerLoop::__PostLateUpdate__PresentAfterDraw;
+using PlayerSendFrameStarted = ::UnityEngine::PlayerLoop::__PostLateUpdate__PlayerSendFrameStarted;
 
-  using ProcessWebSendMessages = ::UnityEngine::PlayerLoop::__PostLateUpdate__ProcessWebSendMessages;
+using PlayerUpdateCanvases = ::UnityEngine::PlayerLoop::__PostLateUpdate__PlayerUpdateCanvases;
 
-  using ProfilerEndFrame = ::UnityEngine::PlayerLoop::__PostLateUpdate__ProfilerEndFrame;
+using PresentAfterDraw = ::UnityEngine::PlayerLoop::__PostLateUpdate__PresentAfterDraw;
 
-  using ProfilerSynchronizeStats = ::UnityEngine::PlayerLoop::__PostLateUpdate__ProfilerSynchronizeStats;
+using ProcessWebSendMessages = ::UnityEngine::PlayerLoop::__PostLateUpdate__ProcessWebSendMessages;
 
-  using ResetInputAxis = ::UnityEngine::PlayerLoop::__PostLateUpdate__ResetInputAxis;
+using ProfilerEndFrame = ::UnityEngine::PlayerLoop::__PostLateUpdate__ProfilerEndFrame;
 
-  using ScriptRunDelayedDynamicFrameRate = ::UnityEngine::PlayerLoop::__PostLateUpdate__ScriptRunDelayedDynamicFrameRate;
+using ProfilerSynchronizeStats = ::UnityEngine::PlayerLoop::__PostLateUpdate__ProfilerSynchronizeStats;
 
-  using ShaderHandleErrors = ::UnityEngine::PlayerLoop::__PostLateUpdate__ShaderHandleErrors;
+using ResetInputAxis = ::UnityEngine::PlayerLoop::__PostLateUpdate__ResetInputAxis;
 
-  using SortingGroupsUpdate = ::UnityEngine::PlayerLoop::__PostLateUpdate__SortingGroupsUpdate;
+using ScriptRunDelayedDynamicFrameRate = ::UnityEngine::PlayerLoop::__PostLateUpdate__ScriptRunDelayedDynamicFrameRate;
 
-  using ThreadedLoadingDebug = ::UnityEngine::PlayerLoop::__PostLateUpdate__ThreadedLoadingDebug;
+using ShaderHandleErrors = ::UnityEngine::PlayerLoop::__PostLateUpdate__ShaderHandleErrors;
 
-  using TriggerEndOfFrameCallbacks = ::UnityEngine::PlayerLoop::__PostLateUpdate__TriggerEndOfFrameCallbacks;
+using SortingGroupsUpdate = ::UnityEngine::PlayerLoop::__PostLateUpdate__SortingGroupsUpdate;
 
-  using UpdateAllRenderers = ::UnityEngine::PlayerLoop::__PostLateUpdate__UpdateAllRenderers;
+using ThreadedLoadingDebug = ::UnityEngine::PlayerLoop::__PostLateUpdate__ThreadedLoadingDebug;
 
-  using UpdateAllSkinnedMeshes = ::UnityEngine::PlayerLoop::__PostLateUpdate__UpdateAllSkinnedMeshes;
+using TriggerEndOfFrameCallbacks = ::UnityEngine::PlayerLoop::__PostLateUpdate__TriggerEndOfFrameCallbacks;
 
-  using UpdateAudio = ::UnityEngine::PlayerLoop::__PostLateUpdate__UpdateAudio;
+using UpdateAllRenderers = ::UnityEngine::PlayerLoop::__PostLateUpdate__UpdateAllRenderers;
 
-  using UpdateCanvasRectTransform = ::UnityEngine::PlayerLoop::__PostLateUpdate__UpdateCanvasRectTransform;
+using UpdateAllSkinnedMeshes = ::UnityEngine::PlayerLoop::__PostLateUpdate__UpdateAllSkinnedMeshes;
 
-  using UpdateCaptureScreenshot = ::UnityEngine::PlayerLoop::__PostLateUpdate__UpdateCaptureScreenshot;
+using UpdateAudio = ::UnityEngine::PlayerLoop::__PostLateUpdate__UpdateAudio;
 
-  using UpdateCustomRenderTextures = ::UnityEngine::PlayerLoop::__PostLateUpdate__UpdateCustomRenderTextures;
+using UpdateCanvasRectTransform = ::UnityEngine::PlayerLoop::__PostLateUpdate__UpdateCanvasRectTransform;
 
-  using UpdateLightProbeProxyVolumes = ::UnityEngine::PlayerLoop::__PostLateUpdate__UpdateLightProbeProxyVolumes;
+using UpdateCaptureScreenshot = ::UnityEngine::PlayerLoop::__PostLateUpdate__UpdateCaptureScreenshot;
 
-  using UpdateRectTransform = ::UnityEngine::PlayerLoop::__PostLateUpdate__UpdateRectTransform;
+using UpdateCustomRenderTextures = ::UnityEngine::PlayerLoop::__PostLateUpdate__UpdateCustomRenderTextures;
 
-  using UpdateResolution = ::UnityEngine::PlayerLoop::__PostLateUpdate__UpdateResolution;
+using UpdateLightProbeProxyVolumes = ::UnityEngine::PlayerLoop::__PostLateUpdate__UpdateLightProbeProxyVolumes;
 
-  using UpdateSubstance = ::UnityEngine::PlayerLoop::__PostLateUpdate__UpdateSubstance;
+using UpdateRectTransform = ::UnityEngine::PlayerLoop::__PostLateUpdate__UpdateRectTransform;
 
-  using UpdateVideo = ::UnityEngine::PlayerLoop::__PostLateUpdate__UpdateVideo;
+using UpdateResolution = ::UnityEngine::PlayerLoop::__PostLateUpdate__UpdateResolution;
 
-  using UpdateVideoTextures = ::UnityEngine::PlayerLoop::__PostLateUpdate__UpdateVideoTextures;
+using UpdateSubstance = ::UnityEngine::PlayerLoop::__PostLateUpdate__UpdateSubstance;
 
-  using VFXUpdate = ::UnityEngine::PlayerLoop::__PostLateUpdate__VFXUpdate;
+using UpdateVideo = ::UnityEngine::PlayerLoop::__PostLateUpdate__UpdateVideo;
 
-  using XRPostLateUpdate = ::UnityEngine::PlayerLoop::__PostLateUpdate__XRPostLateUpdate;
+using UpdateVideoTextures = ::UnityEngine::PlayerLoop::__PostLateUpdate__UpdateVideoTextures;
 
-  using XRPostPresent = ::UnityEngine::PlayerLoop::__PostLateUpdate__XRPostPresent;
+using VFXUpdate = ::UnityEngine::PlayerLoop::__PostLateUpdate__VFXUpdate;
 
-  using XRPreEndFrame = ::UnityEngine::PlayerLoop::__PostLateUpdate__XRPreEndFrame;
+using XRPostLateUpdate = ::UnityEngine::PlayerLoop::__PostLateUpdate__XRPostLateUpdate;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PostLateUpdate();
+using XRPostPresent = ::UnityEngine::PlayerLoop::__PostLateUpdate__XRPostPresent;
 
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+using XRPreEndFrame = ::UnityEngine::PlayerLoop::__PostLateUpdate__XRPreEndFrame;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+// Ctor Parameters []
+// @brief default ctor
+constexpr PostLateUpdate() ;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+/// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+ uint8_t  _cordl_size_padding[0x1];
+
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x1};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::PostLateUpdate, 0x1>, "Size mismatch!");
 
-} // namespace UnityEngine::PlayerLoop
+} // namespace end def UnityEngine::PlayerLoop
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::PostLateUpdate, "UnityEngine.PlayerLoop", "PostLateUpdate");
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::__PostLateUpdate__BatchModeUpdate, "UnityEngine.PlayerLoop", "PostLateUpdate/BatchModeUpdate");
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::__PostLateUpdate__ClearImmediateRenderers, "UnityEngine.PlayerLoop", "PostLateUpdate/ClearImmediateRenderers");
@@ -1660,10 +1730,12 @@ DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::__PostLateUpdate__GUIClearEven
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::__PostLateUpdate__GraphicsWarmupPreloadedShaders, "UnityEngine.PlayerLoop", "PostLateUpdate/GraphicsWarmupPreloadedShaders");
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::__PostLateUpdate__InputEndFrame, "UnityEngine.PlayerLoop", "PostLateUpdate/InputEndFrame");
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::__PostLateUpdate__MemoryFrameMaintenance, "UnityEngine.PlayerLoop", "PostLateUpdate/MemoryFrameMaintenance");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::__PostLateUpdate__ObjectDispatcherPostLateUpdate, "UnityEngine.PlayerLoop", "PostLateUpdate/ObjectDispatcherPostLateUpdate");
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::__PostLateUpdate__ParticleSystemEndUpdateAll, "UnityEngine.PlayerLoop", "PostLateUpdate/ParticleSystemEndUpdateAll");
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::__PostLateUpdate__PhysicsSkinnedClothBeginUpdate, "UnityEngine.PlayerLoop", "PostLateUpdate/PhysicsSkinnedClothBeginUpdate");
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::__PostLateUpdate__PhysicsSkinnedClothFinishUpdate, "UnityEngine.PlayerLoop", "PostLateUpdate/PhysicsSkinnedClothFinishUpdate");
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::__PostLateUpdate__PlayerEmitCanvasGeometry, "UnityEngine.PlayerLoop", "PostLateUpdate/PlayerEmitCanvasGeometry");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::__PostLateUpdate__PlayerRenderUIEBatchModeOffscreen, "UnityEngine.PlayerLoop", "PostLateUpdate/PlayerRenderUIEBatchModeOffscreen");
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::__PostLateUpdate__PlayerSendFrameComplete, "UnityEngine.PlayerLoop", "PostLateUpdate/PlayerSendFrameComplete");
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::__PostLateUpdate__PlayerSendFramePostPresent, "UnityEngine.PlayerLoop", "PostLateUpdate/PlayerSendFramePostPresent");
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::__PostLateUpdate__PlayerSendFrameStarted, "UnityEngine.PlayerLoop", "PostLateUpdate/PlayerSendFrameStarted");

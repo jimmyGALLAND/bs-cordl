@@ -21,80 +21,79 @@ class MissionNodeGizmos;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MissionNodeGizmos);
 // Type: ::MissionNodeGizmos
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::MissionNodeGizmos*
 class CORDL_TYPE MissionNodeGizmos : public ::UnityEngine::MonoBehaviour {
 public:
-  // Declarations
-  /// @brief Field _gameplayModifiersModel, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__gameplayModifiersModel,
-                      put = __cordl_internal_set__gameplayModifiersModel))::UnityW<::GlobalNamespace::GameplayModifiersModelSO> _gameplayModifiersModel;
+// Declarations
+/// @brief Field _gameplayModifiersModel, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get__gameplayModifiersModel, put=__cordl_internal_set__gameplayModifiersModel)) ::UnityW<::GlobalNamespace::GameplayModifiersModelSO>  _gameplayModifiersModel;
 
-  /// @brief Field _missionNode, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__missionNode, put = __cordl_internal_set__missionNode))::UnityW<::GlobalNamespace::MissionNode> _missionNode;
+/// @brief Field _missionNode, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get__missionNode, put=__cordl_internal_set__missionNode)) ::UnityW<::GlobalNamespace::MissionNode>  _missionNode;
 
-  /// @brief Field _missionProgressModel, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__missionProgressModel, put = __cordl_internal_set__missionProgressModel))::UnityW<::GlobalNamespace::CampaignProgressModel> _missionProgressModel;
+/// @brief Field _missionProgressModel, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get__missionProgressModel, put=__cordl_internal_set__missionProgressModel)) ::UnityW<::GlobalNamespace::CampaignProgressModel>  _missionProgressModel;
 
-  static inline ::GlobalNamespace::MissionNodeGizmos* New_ctor();
+static inline ::GlobalNamespace::MissionNodeGizmos* New_ctor() ;
 
-  constexpr ::UnityW<::GlobalNamespace::GameplayModifiersModelSO> const& __cordl_internal_get__gameplayModifiersModel() const;
+constexpr ::UnityW<::GlobalNamespace::GameplayModifiersModelSO> const& __cordl_internal_get__gameplayModifiersModel() const;
 
-  constexpr ::UnityW<::GlobalNamespace::GameplayModifiersModelSO>& __cordl_internal_get__gameplayModifiersModel();
+constexpr ::UnityW<::GlobalNamespace::GameplayModifiersModelSO>& __cordl_internal_get__gameplayModifiersModel() ;
 
-  constexpr ::UnityW<::GlobalNamespace::MissionNode> const& __cordl_internal_get__missionNode() const;
+constexpr ::UnityW<::GlobalNamespace::MissionNode> const& __cordl_internal_get__missionNode() const;
 
-  constexpr ::UnityW<::GlobalNamespace::MissionNode>& __cordl_internal_get__missionNode();
+constexpr ::UnityW<::GlobalNamespace::MissionNode>& __cordl_internal_get__missionNode() ;
 
-  constexpr ::UnityW<::GlobalNamespace::CampaignProgressModel> const& __cordl_internal_get__missionProgressModel() const;
+constexpr ::UnityW<::GlobalNamespace::CampaignProgressModel> const& __cordl_internal_get__missionProgressModel() const;
 
-  constexpr ::UnityW<::GlobalNamespace::CampaignProgressModel>& __cordl_internal_get__missionProgressModel();
+constexpr ::UnityW<::GlobalNamespace::CampaignProgressModel>& __cordl_internal_get__missionProgressModel() ;
 
-  constexpr void __cordl_internal_set__gameplayModifiersModel(::UnityW<::GlobalNamespace::GameplayModifiersModelSO> value);
+constexpr void __cordl_internal_set__gameplayModifiersModel(::UnityW<::GlobalNamespace::GameplayModifiersModelSO>  value) ;
 
-  constexpr void __cordl_internal_set__missionNode(::UnityW<::GlobalNamespace::MissionNode> value);
+constexpr void __cordl_internal_set__missionNode(::UnityW<::GlobalNamespace::MissionNode>  value) ;
 
-  constexpr void __cordl_internal_set__missionProgressModel(::UnityW<::GlobalNamespace::CampaignProgressModel> value);
+constexpr void __cordl_internal_set__missionProgressModel(::UnityW<::GlobalNamespace::CampaignProgressModel>  value) ;
 
-  /// @brief Method .ctor, addr 0x265551c, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x3b74da8, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MissionNodeGizmos();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr MissionNodeGizmos() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MissionNodeGizmos", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  MissionNodeGizmos(MissionNodeGizmos&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MissionNodeGizmos", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  MissionNodeGizmos(MissionNodeGizmos const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "MissionNodeGizmos", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+MissionNodeGizmos(MissionNodeGizmos && ) = delete;
 
-  /// @brief Field _missionNode, offset: 0x18, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::MissionNode> ____missionNode;
+// Ctor Parameters [CppParam { name: "", ty: "MissionNodeGizmos", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+MissionNodeGizmos(MissionNodeGizmos const& ) = delete;
 
-  /// @brief Field _gameplayModifiersModel, offset: 0x20, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::GameplayModifiersModelSO> ____gameplayModifiersModel;
+/// @brief Field _missionNode, offset: 0x20, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::MissionNode>  ____missionNode;
 
-  /// @brief Field _missionProgressModel, offset: 0x28, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::CampaignProgressModel> ____missionProgressModel;
+/// @brief Field _gameplayModifiersModel, offset: 0x28, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::GameplayModifiersModelSO>  ____gameplayModifiersModel;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _missionProgressModel, offset: 0x30, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::CampaignProgressModel>  ____missionProgressModel;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MissionNodeGizmos, 0x30>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MissionNodeGizmos, 0x38>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MissionNodeGizmos, ____missionNode) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MissionNodeGizmos, ____missionNode) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MissionNodeGizmos, ____gameplayModifiersModel) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MissionNodeGizmos, ____gameplayModifiersModel) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MissionNodeGizmos, ____missionProgressModel) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MissionNodeGizmos, ____missionProgressModel) == 0x30, "Offset mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MissionNodeGizmos);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MissionNodeGizmos*, "", "MissionNodeGizmos");

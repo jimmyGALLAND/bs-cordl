@@ -15,67 +15,74 @@ struct Vector2;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
-template <typename T> class FixedHeightVirtualizationController_1;
+template<typename T>
+class FixedHeightVirtualizationController_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::UnityEngine::UIElements::FixedHeightVirtualizationController_1);
 // Type: UnityEngine.UIElements::FixedHeightVirtualizationController`1
-// SizeInfo { instance_size: 96, native_size: 96, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 96, native_size: 96, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // cpp template
-template <typename T>
+template<typename T>
 // Is value type: false
 // CS Name: ::UnityEngine.UIElements::FixedHeightVirtualizationController`1<T>*
 class CORDL_TYPE FixedHeightVirtualizationController_1 : public ::UnityEngine::UIElements::VerticalVirtualizationController_1<T> {
 public:
-  // Declarations
-  __declspec(property(get = get_resolvedItemHeight)) float_t resolvedItemHeight;
+// Declarations
+ __declspec(property(get=get_resolvedItemHeight)) float_t  resolvedItemHeight;
 
-  /// @brief Method GetIndexFromPosition, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline int32_t GetIndexFromPosition(::UnityEngine::Vector2 position);
+/// @brief Method EndDrag, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline void EndDrag(int32_t  dropIndex) ;
 
-  /// @brief Method GetItemHeight, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline float_t GetItemHeight(int32_t index);
+/// @brief Method GetExpectedContentHeight, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline float_t GetExpectedContentHeight() ;
 
-  /// @brief Method GetOrMakeItem, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline T GetOrMakeItem();
+/// @brief Method GetExpectedItemHeight, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline float_t GetExpectedItemHeight(int32_t  index) ;
 
-  static inline ::UnityEngine::UIElements::FixedHeightVirtualizationController_1<T>* New_ctor(::UnityEngine::UIElements::BaseVerticalCollectionView* collectionView);
+/// @brief Method GetIndexFromPosition, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline int32_t GetIndexFromPosition(::UnityEngine::Vector2  position) ;
 
-  /// @brief Method OnScroll, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void OnScroll(::UnityEngine::Vector2 scrollOffset);
+/// @brief Method GetOrMakeItemAtIndex, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline T GetOrMakeItemAtIndex(int32_t  activeItemIndex, int32_t  scrollViewIndex) ;
 
-  /// @brief Method Resize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void Resize(::UnityEngine::Vector2 size, int32_t layoutPass);
+static inline ::UnityEngine::UIElements::FixedHeightVirtualizationController_1<T>* New_ctor(::UnityEngine::UIElements::BaseVerticalCollectionView*  collectionView) ;
 
-  /// @brief Method ScrollToItem, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void ScrollToItem(int32_t index);
+/// @brief Method OnScroll, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline void OnScroll(::UnityEngine::Vector2  scrollOffset) ;
 
-  /// @brief Method VisibleItemPredicate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline bool VisibleItemPredicate(T i);
+/// @brief Method Resize, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline void Resize(::UnityEngine::Vector2  size) ;
 
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::UIElements::BaseVerticalCollectionView* collectionView);
+/// @brief Method ScrollToItem, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline void ScrollToItem(int32_t  index) ;
 
-  /// @brief Method get_resolvedItemHeight, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline float_t get_resolvedItemHeight();
+/// @brief Method VisibleItemPredicate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline bool VisibleItemPredicate(T  i) ;
+
+/// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+inline void _ctor(::UnityEngine::UIElements::BaseVerticalCollectionView*  collectionView) ;
+
+/// @brief Method get_resolvedItemHeight, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+inline float_t get_resolvedItemHeight() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr FixedHeightVirtualizationController_1();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr FixedHeightVirtualizationController_1() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FixedHeightVirtualizationController_1", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  FixedHeightVirtualizationController_1(FixedHeightVirtualizationController_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FixedHeightVirtualizationController_1", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  FixedHeightVirtualizationController_1(FixedHeightVirtualizationController_1 const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "FixedHeightVirtualizationController_1", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+FixedHeightVirtualizationController_1(FixedHeightVirtualizationController_1 && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "FixedHeightVirtualizationController_1", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+FixedHeightVirtualizationController_1(FixedHeightVirtualizationController_1 const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-} // namespace UnityEngine::UIElements
+} // namespace end def UnityEngine::UIElements
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::UnityEngine::UIElements::FixedHeightVirtualizationController_1, "UnityEngine.UIElements", "FixedHeightVirtualizationController`1");

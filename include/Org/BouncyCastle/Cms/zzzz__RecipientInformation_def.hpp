@@ -36,116 +36,116 @@ class RecipientInformation;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Cms::RecipientInformation);
 // Type: Org.BouncyCastle.Cms::RecipientInformation
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Cms {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Cms::RecipientInformation*
 class CORDL_TYPE RecipientInformation : public ::System::Object {
 public:
-  // Declarations
-  __declspec(property(get = get_KeyEncryptionAlgOid))::StringW KeyEncryptionAlgOid;
+// Declarations
+ __declspec(property(get=get_KeyEncryptionAlgOid)) ::StringW  KeyEncryptionAlgOid;
 
-  __declspec(property(get = get_KeyEncryptionAlgParams))::Org::BouncyCastle::Asn1::Asn1Object* KeyEncryptionAlgParams;
+ __declspec(property(get=get_KeyEncryptionAlgParams)) ::Org::BouncyCastle::Asn1::Asn1Object*  KeyEncryptionAlgParams;
 
-  __declspec(property(get = get_KeyEncryptionAlgorithmID))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* KeyEncryptionAlgorithmID;
+ __declspec(property(get=get_KeyEncryptionAlgorithmID)) ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*  KeyEncryptionAlgorithmID;
 
-  __declspec(property(get = get_RecipientID))::Org::BouncyCastle::Cms::RecipientID* RecipientID;
+ __declspec(property(get=get_RecipientID)) ::Org::BouncyCastle::Cms::RecipientID*  RecipientID;
 
-  /// @brief Field keyEncAlg, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_keyEncAlg, put = __cordl_internal_set_keyEncAlg))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* keyEncAlg;
+/// @brief Field keyEncAlg, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_keyEncAlg, put=__cordl_internal_set_keyEncAlg)) ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*  keyEncAlg;
 
-  /// @brief Field resultMac, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_resultMac, put = __cordl_internal_set_resultMac))::ArrayW<uint8_t, ::Array<uint8_t>*> resultMac;
+/// @brief Field resultMac, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get_resultMac, put=__cordl_internal_set_resultMac)) ::ArrayW<uint8_t,::Array<uint8_t>*>  resultMac;
 
-  /// @brief Field rid, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_rid, put = __cordl_internal_set_rid))::Org::BouncyCastle::Cms::RecipientID* rid;
+/// @brief Field rid, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_rid, put=__cordl_internal_set_rid)) ::Org::BouncyCastle::Cms::RecipientID*  rid;
 
-  /// @brief Field secureReadable, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_secureReadable, put = __cordl_internal_set_secureReadable))::Org::BouncyCastle::Cms::CmsSecureReadable* secureReadable;
+/// @brief Field secureReadable, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get_secureReadable, put=__cordl_internal_set_secureReadable)) ::Org::BouncyCastle::Cms::CmsSecureReadable*  secureReadable;
 
-  /// @brief Method GetContent, addr 0x14757d8, size 0x104, virtual false, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetContent(::Org::BouncyCastle::Crypto::ICipherParameters* key);
+/// @brief Method GetContent, addr 0x262b410, size 0xfc, virtual false, abstract: false, final false
+inline ::ArrayW<uint8_t,::Array<uint8_t>*> GetContent(::Org::BouncyCastle::Crypto::ICipherParameters*  key) ;
 
-  /// @brief Method GetContentAlgorithmName, addr 0x147547c, size 0xbc, virtual false, abstract: false, final false
-  inline ::StringW GetContentAlgorithmName();
+/// @brief Method GetContentAlgorithmName, addr 0x262b0c4, size 0xbc, virtual false, abstract: false, final false
+inline ::StringW GetContentAlgorithmName() ;
 
-  /// @brief Method GetContentFromSessionKey, addr 0x14755ac, size 0x22c, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Cms::CmsTypedStream* GetContentFromSessionKey(::Org::BouncyCastle::Crypto::Parameters::KeyParameter* sKey);
+/// @brief Method GetContentFromSessionKey, addr 0x262b1f4, size 0x21c, virtual false, abstract: false, final false
+inline ::Org::BouncyCastle::Cms::CmsTypedStream* GetContentFromSessionKey(::Org::BouncyCastle::Crypto::Parameters::KeyParameter*  sKey) ;
 
-  /// @brief Method GetContentStream, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::Org::BouncyCastle::Cms::CmsTypedStream* GetContentStream(::Org::BouncyCastle::Crypto::ICipherParameters* key);
+/// @brief Method GetContentStream, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+inline ::Org::BouncyCastle::Cms::CmsTypedStream* GetContentStream(::Org::BouncyCastle::Crypto::ICipherParameters*  key) ;
 
-  /// @brief Method GetMac, addr 0x14758dc, size 0x168, virtual false, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetMac();
+/// @brief Method GetMac, addr 0x262b50c, size 0x168, virtual false, abstract: false, final false
+inline ::ArrayW<uint8_t,::Array<uint8_t>*> GetMac() ;
 
-  static inline ::Org::BouncyCastle::Cms::RecipientInformation* New_ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* keyEncAlg, ::Org::BouncyCastle::Cms::CmsSecureReadable* secureReadable);
+static inline ::Org::BouncyCastle::Cms::RecipientInformation* New_ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*  keyEncAlg, ::Org::BouncyCastle::Cms::CmsSecureReadable*  secureReadable) ;
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __cordl_internal_get_keyEncAlg();
+constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __cordl_internal_get_keyEncAlg() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*> const& __cordl_internal_get_keyEncAlg() const;
+constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*> const& __cordl_internal_get_keyEncAlg() const;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_resultMac() const;
+constexpr ::ArrayW<uint8_t,::Array<uint8_t>*> const& __cordl_internal_get_resultMac() const;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_resultMac();
+constexpr ::ArrayW<uint8_t,::Array<uint8_t>*>& __cordl_internal_get_resultMac() ;
 
-  constexpr ::Org::BouncyCastle::Cms::RecipientID*& __cordl_internal_get_rid();
+constexpr ::Org::BouncyCastle::Cms::RecipientID*& __cordl_internal_get_rid() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Cms::RecipientID*> const& __cordl_internal_get_rid() const;
+constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Cms::RecipientID*> const& __cordl_internal_get_rid() const;
 
-  constexpr ::Org::BouncyCastle::Cms::CmsSecureReadable*& __cordl_internal_get_secureReadable();
+constexpr ::Org::BouncyCastle::Cms::CmsSecureReadable*& __cordl_internal_get_secureReadable() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Cms::CmsSecureReadable*> const& __cordl_internal_get_secureReadable() const;
+constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Cms::CmsSecureReadable*> const& __cordl_internal_get_secureReadable() const;
 
-  constexpr void __cordl_internal_set_keyEncAlg(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
+constexpr void __cordl_internal_set_keyEncAlg(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*  value) ;
 
-  constexpr void __cordl_internal_set_resultMac(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+constexpr void __cordl_internal_set_resultMac(::ArrayW<uint8_t,::Array<uint8_t>*>  value) ;
 
-  constexpr void __cordl_internal_set_rid(::Org::BouncyCastle::Cms::RecipientID* value);
+constexpr void __cordl_internal_set_rid(::Org::BouncyCastle::Cms::RecipientID*  value) ;
 
-  constexpr void __cordl_internal_set_secureReadable(::Org::BouncyCastle::Cms::CmsSecureReadable* value);
+constexpr void __cordl_internal_set_secureReadable(::Org::BouncyCastle::Cms::CmsSecureReadable*  value) ;
 
-  /// @brief Method .ctor, addr 0x14753e4, size 0x88, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* keyEncAlg, ::Org::BouncyCastle::Cms::CmsSecureReadable* secureReadable);
+/// @brief Method .ctor, addr 0x262b034, size 0x80, virtual false, abstract: false, final false
+inline void _ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*  keyEncAlg, ::Org::BouncyCastle::Cms::CmsSecureReadable*  secureReadable) ;
 
-  /// @brief Method get_KeyEncryptionAlgOid, addr 0x1475548, size 0x2c, virtual false, abstract: false, final false
-  inline ::StringW get_KeyEncryptionAlgOid();
+/// @brief Method get_KeyEncryptionAlgOid, addr 0x262b190, size 0x2c, virtual false, abstract: false, final false
+inline ::StringW get_KeyEncryptionAlgOid() ;
 
-  /// @brief Method get_KeyEncryptionAlgParams, addr 0x1475574, size 0x38, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Asn1Object* get_KeyEncryptionAlgParams();
+/// @brief Method get_KeyEncryptionAlgParams, addr 0x262b1bc, size 0x38, virtual false, abstract: false, final false
+inline ::Org::BouncyCastle::Asn1::Asn1Object* get_KeyEncryptionAlgParams() ;
 
-  /// @brief Method get_KeyEncryptionAlgorithmID, addr 0x1475540, size 0x8, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_KeyEncryptionAlgorithmID();
+/// @brief Method get_KeyEncryptionAlgorithmID, addr 0x262b188, size 0x8, virtual false, abstract: false, final false
+inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_KeyEncryptionAlgorithmID() ;
 
-  /// @brief Method get_RecipientID, addr 0x1475538, size 0x8, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Cms::RecipientID* get_RecipientID();
+/// @brief Method get_RecipientID, addr 0x262b180, size 0x8, virtual false, abstract: false, final false
+inline ::Org::BouncyCastle::Cms::RecipientID* get_RecipientID() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr RecipientInformation();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr RecipientInformation() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RecipientInformation", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  RecipientInformation(RecipientInformation&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RecipientInformation", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  RecipientInformation(RecipientInformation const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "RecipientInformation", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+RecipientInformation(RecipientInformation && ) = delete;
 
-  /// @brief Field rid, offset: 0x10, size: 0x8, def value: None
-  ::Org::BouncyCastle::Cms::RecipientID* ___rid;
+// Ctor Parameters [CppParam { name: "", ty: "RecipientInformation", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+RecipientInformation(RecipientInformation const& ) = delete;
 
-  /// @brief Field keyEncAlg, offset: 0x18, size: 0x8, def value: None
-  ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* ___keyEncAlg;
+/// @brief Field rid, offset: 0x10, size: 0x8, def value: None
+ ::Org::BouncyCastle::Cms::RecipientID*  ___rid;
 
-  /// @brief Field secureReadable, offset: 0x20, size: 0x8, def value: None
-  ::Org::BouncyCastle::Cms::CmsSecureReadable* ___secureReadable;
+/// @brief Field keyEncAlg, offset: 0x18, size: 0x8, def value: None
+ ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*  ___keyEncAlg;
 
-  /// @brief Field resultMac, offset: 0x28, size: 0x8, def value: None
-  ::ArrayW<uint8_t, ::Array<uint8_t>*> ___resultMac;
+/// @brief Field secureReadable, offset: 0x20, size: 0x8, def value: None
+ ::Org::BouncyCastle::Cms::CmsSecureReadable*  ___secureReadable;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field resultMac, offset: 0x28, size: 0x8, def value: None
+ ::ArrayW<uint8_t,::Array<uint8_t>*>  ___resultMac;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Cms::RecipientInformation, 0x30>, "Size mismatch!");
@@ -158,6 +158,6 @@ static_assert(offsetof(::Org::BouncyCastle::Cms::RecipientInformation, ___secure
 
 static_assert(offsetof(::Org::BouncyCastle::Cms::RecipientInformation, ___resultMac) == 0x28, "Offset mismatch!");
 
-} // namespace Org::BouncyCastle::Cms
+} // namespace end def Org::BouncyCastle::Cms
 NEED_NO_BOX(::Org::BouncyCastle::Cms::RecipientInformation);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Cms::RecipientInformation*, "Org.BouncyCastle.Cms", "RecipientInformation");

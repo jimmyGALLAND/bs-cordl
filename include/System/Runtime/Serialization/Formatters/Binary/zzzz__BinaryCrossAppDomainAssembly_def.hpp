@@ -16,63 +16,63 @@ class BinaryCrossAppDomainAssembly;
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Serialization::Formatters::Binary::BinaryCrossAppDomainAssembly);
 // Type: System.Runtime.Serialization.Formatters.Binary::BinaryCrossAppDomainAssembly
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: false
 // CS Name: ::System.Runtime.Serialization.Formatters.Binary::BinaryCrossAppDomainAssembly*
 class CORDL_TYPE BinaryCrossAppDomainAssembly : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field assemId, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_assemId, put = __cordl_internal_set_assemId)) int32_t assemId;
+// Declarations
+/// @brief Field assemId, offset 0x10, size 0x4 
+ __declspec(property(get=__cordl_internal_get_assemId, put=__cordl_internal_set_assemId)) int32_t  assemId;
 
-  /// @brief Field assemblyIndex, offset 0x14, size 0x4
-  __declspec(property(get = __cordl_internal_get_assemblyIndex, put = __cordl_internal_set_assemblyIndex)) int32_t assemblyIndex;
+/// @brief Field assemblyIndex, offset 0x14, size 0x4 
+ __declspec(property(get=__cordl_internal_get_assemblyIndex, put=__cordl_internal_set_assemblyIndex)) int32_t  assemblyIndex;
 
-  /// @brief Method Dump, addr 0x286fa50, size 0x4, virtual false, abstract: false, final false
-  inline void Dump();
+/// @brief Method Dump, addr 0x3c701a0, size 0x4, virtual false, abstract: false, final false
+inline void Dump() ;
 
-  static inline ::System::Runtime::Serialization::Formatters::Binary::BinaryCrossAppDomainAssembly* New_ctor();
+static inline ::System::Runtime::Serialization::Formatters::Binary::BinaryCrossAppDomainAssembly* New_ctor() ;
 
-  /// @brief Method Read, addr 0x286fa0c, size 0x44, virtual true, abstract: false, final true
-  inline void Read(::System::Runtime::Serialization::Formatters::Binary::__BinaryParser* input);
+/// @brief Method Read, addr 0x3c7015c, size 0x44, virtual true, abstract: false, final true
+inline void Read(::System::Runtime::Serialization::Formatters::Binary::__BinaryParser*  input) ;
 
-  constexpr int32_t const& __cordl_internal_get_assemId() const;
+constexpr int32_t const& __cordl_internal_get_assemId() const;
 
-  constexpr int32_t& __cordl_internal_get_assemId();
+constexpr int32_t& __cordl_internal_get_assemId() ;
 
-  constexpr int32_t const& __cordl_internal_get_assemblyIndex() const;
+constexpr int32_t const& __cordl_internal_get_assemblyIndex() const;
 
-  constexpr int32_t& __cordl_internal_get_assemblyIndex();
+constexpr int32_t& __cordl_internal_get_assemblyIndex() ;
 
-  constexpr void __cordl_internal_set_assemId(int32_t value);
+constexpr void __cordl_internal_set_assemId(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_assemblyIndex(int32_t value);
+constexpr void __cordl_internal_set_assemblyIndex(int32_t  value) ;
 
-  /// @brief Method .ctor, addr 0x286fa04, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x3c70154, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BinaryCrossAppDomainAssembly();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr BinaryCrossAppDomainAssembly() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BinaryCrossAppDomainAssembly", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  BinaryCrossAppDomainAssembly(BinaryCrossAppDomainAssembly&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BinaryCrossAppDomainAssembly", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  BinaryCrossAppDomainAssembly(BinaryCrossAppDomainAssembly const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "BinaryCrossAppDomainAssembly", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+BinaryCrossAppDomainAssembly(BinaryCrossAppDomainAssembly && ) = delete;
 
-  /// @brief Field assemId, offset: 0x10, size: 0x4, def value: None
-  int32_t ___assemId;
+// Ctor Parameters [CppParam { name: "", ty: "BinaryCrossAppDomainAssembly", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+BinaryCrossAppDomainAssembly(BinaryCrossAppDomainAssembly const& ) = delete;
 
-  /// @brief Field assemblyIndex, offset: 0x14, size: 0x4, def value: None
-  int32_t ___assemblyIndex;
+/// @brief Field assemId, offset: 0x10, size: 0x4, def value: None
+ int32_t  ___assemId;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field assemblyIndex, offset: 0x14, size: 0x4, def value: None
+ int32_t  ___assemblyIndex;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::Formatters::Binary::BinaryCrossAppDomainAssembly, 0x18>, "Size mismatch!");
@@ -81,6 +81,6 @@ static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::Bin
 
 static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::BinaryCrossAppDomainAssembly, ___assemblyIndex) == 0x14, "Offset mismatch!");
 
-} // namespace System::Runtime::Serialization::Formatters::Binary
+} // namespace end def System::Runtime::Serialization::Formatters::Binary
 NEED_NO_BOX(::System::Runtime::Serialization::Formatters::Binary::BinaryCrossAppDomainAssembly);
 DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::Formatters::Binary::BinaryCrossAppDomainAssembly*, "System.Runtime.Serialization.Formatters.Binary", "BinaryCrossAppDomainAssembly");

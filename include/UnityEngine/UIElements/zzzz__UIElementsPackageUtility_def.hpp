@@ -13,46 +13,61 @@ class UIElementsPackageUtility;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::UIElementsPackageUtility);
 // Type: UnityEngine.UIElements::UIElementsPackageUtility
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: ::UnityEngine.UIElements::UIElementsPackageUtility*
 class CORDL_TYPE UIElementsPackageUtility : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field EditorResourcesBasePath, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_EditorResourcesBasePath, put = setStaticF_EditorResourcesBasePath))::StringW EditorResourcesBasePath;
+// Declarations
+/// @brief Field <EditorResourcesBasePath>k__BackingField, offset 0xffffffff, size 0x8 
+static __declspec(property(get=getStaticF__EditorResourcesBasePath_k__BackingField, put=setStaticF__EditorResourcesBasePath_k__BackingField)) ::StringW  _EditorResourcesBasePath_k__BackingField;
 
-  /// @brief Field IsUIEPackageLoaded, offset 0xffffffff, size 0x1
-  static __declspec(property(get = getStaticF_IsUIEPackageLoaded, put = setStaticF_IsUIEPackageLoaded)) bool IsUIEPackageLoaded;
+/// @brief Field <IsUIEPackageLoaded>k__BackingField, offset 0xffffffff, size 0x1 
+static __declspec(property(get=getStaticF__IsUIEPackageLoaded_k__BackingField, put=setStaticF__IsUIEPackageLoaded_k__BackingField)) bool  _IsUIEPackageLoaded_k__BackingField;
 
-  static inline ::StringW getStaticF_EditorResourcesBasePath();
+/// @brief Method Refresh, addr 0x4a05110, size 0xd8, virtual false, abstract: false, final false
+static inline void Refresh() ;
 
-  static inline bool getStaticF_IsUIEPackageLoaded();
+static inline ::StringW getStaticF__EditorResourcesBasePath_k__BackingField() ;
 
-  static inline void setStaticF_EditorResourcesBasePath(::StringW value);
+static inline bool getStaticF__IsUIEPackageLoaded_k__BackingField() ;
 
-  static inline void setStaticF_IsUIEPackageLoaded(bool value);
+/// @brief Method get_EditorResourcesBasePath, addr 0x4a05058, size 0x58, virtual false, abstract: false, final false
+static inline ::StringW get_EditorResourcesBasePath() ;
+
+/// @brief Method get_IsUIEPackageLoaded, addr 0x4a04fa0, size 0x58, virtual false, abstract: false, final false
+static inline bool get_IsUIEPackageLoaded() ;
+
+static inline void setStaticF__EditorResourcesBasePath_k__BackingField(::StringW  value) ;
+
+static inline void setStaticF__IsUIEPackageLoaded_k__BackingField(bool  value) ;
+
+/// @brief Method set_EditorResourcesBasePath, addr 0x4a050b0, size 0x5c, virtual false, abstract: false, final false
+static inline void set_EditorResourcesBasePath(::StringW  value) ;
+
+/// @brief Method set_IsUIEPackageLoaded, addr 0x4a04ff8, size 0x60, virtual false, abstract: false, final false
+static inline void set_IsUIEPackageLoaded(bool  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr UIElementsPackageUtility();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr UIElementsPackageUtility() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UIElementsPackageUtility", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  UIElementsPackageUtility(UIElementsPackageUtility&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UIElementsPackageUtility", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  UIElementsPackageUtility(UIElementsPackageUtility const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "UIElementsPackageUtility", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+UIElementsPackageUtility(UIElementsPackageUtility && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "UIElementsPackageUtility", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+UIElementsPackageUtility(UIElementsPackageUtility const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIElementsPackageUtility, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine::UIElements
+} // namespace end def UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::UIElementsPackageUtility);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::UIElementsPackageUtility*, "UnityEngine.UIElements", "UIElementsPackageUtility");

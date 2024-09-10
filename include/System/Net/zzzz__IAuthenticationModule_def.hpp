@@ -21,35 +21,35 @@ class IAuthenticationModule;
 // Write type traits
 MARK_REF_PTR_T(::System::Net::IAuthenticationModule);
 // Type: System.Net::IAuthenticationModule
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
 // CS Name: ::System.Net::IAuthenticationModule*
 class CORDL_TYPE IAuthenticationModule {
 public:
-  // Declarations
-  __declspec(property(get = get_AuthenticationType))::StringW AuthenticationType;
+// Declarations
+ __declspec(property(get=get_AuthenticationType)) ::StringW  AuthenticationType;
 
-  /// @brief Method Authenticate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::System::Net::Authorization* Authenticate(::StringW challenge, ::System::Net::WebRequest* request, ::System::Net::ICredentials* credentials);
+/// @brief Method Authenticate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+inline ::System::Net::Authorization* Authenticate(::StringW  challenge, ::System::Net::WebRequest*  request, ::System::Net::ICredentials*  credentials) ;
 
-  /// @brief Method PreAuthenticate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::System::Net::Authorization* PreAuthenticate(::System::Net::WebRequest* request, ::System::Net::ICredentials* credentials);
+/// @brief Method PreAuthenticate, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+inline ::System::Net::Authorization* PreAuthenticate(::System::Net::WebRequest*  request, ::System::Net::ICredentials*  credentials) ;
 
-  /// @brief Method get_AuthenticationType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::StringW get_AuthenticationType();
+/// @brief Method get_AuthenticationType, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+inline ::StringW get_AuthenticationType() ;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IAuthenticationModule", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IAuthenticationModule(IAuthenticationModule&&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "IAuthenticationModule", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+IAuthenticationModule(IAuthenticationModule && ) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IAuthenticationModule", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  IAuthenticationModule(IAuthenticationModule const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "IAuthenticationModule", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+IAuthenticationModule(IAuthenticationModule const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-} // namespace System::Net
+} // namespace end def System::Net
 NEED_NO_BOX(::System::Net::IAuthenticationModule);
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::IAuthenticationModule*, "System.Net", "IAuthenticationModule");

@@ -8,7 +8,8 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(UnaryNode)
 namespace System::Collections::Generic {
-template <typename T> class List_1;
+template<typename T>
+class List_1;
 }
 namespace System::Data {
 class DataColumn;
@@ -35,90 +36,90 @@ class UnaryNode;
 // Write type traits
 MARK_REF_PTR_T(::System::Data::UnaryNode);
 // Type: System.Data::UnaryNode
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Data {
 // Is value type: false
 // CS Name: ::System.Data::UnaryNode*
 class CORDL_TYPE UnaryNode : public ::System::Data::ExpressionNode {
 public:
-  // Declarations
-  /// @brief Field _op, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get__op, put = __cordl_internal_set__op)) int32_t _op;
+// Declarations
+/// @brief Field _op, offset 0x18, size 0x4 
+ __declspec(property(get=__cordl_internal_get__op, put=__cordl_internal_set__op)) int32_t  _op;
 
-  /// @brief Field _right, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__right, put = __cordl_internal_set__right))::System::Data::ExpressionNode* _right;
+/// @brief Field _right, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get__right, put=__cordl_internal_set__right)) ::System::Data::ExpressionNode*  _right;
 
-  /// @brief Method Bind, addr 0x2d07b0c, size 0x28, virtual true, abstract: false, final false
-  inline void Bind(::System::Data::DataTable* table, ::System::Collections::Generic::List_1<::System::Data::DataColumn*>* list);
+/// @brief Method Bind, addr 0x40eb77c, size 0x28, virtual true, abstract: false, final false
+inline void Bind(::System::Data::DataTable*  table, ::System::Collections::Generic::List_1<::System::Data::DataColumn*>*  list) ;
 
-  /// @brief Method DependsOn, addr 0x2d083f8, size 0x24, virtual true, abstract: false, final false
-  inline bool DependsOn(::System::Data::DataColumn* column);
+/// @brief Method DependsOn, addr 0x40ec09c, size 0x24, virtual true, abstract: false, final false
+inline bool DependsOn(::System::Data::DataColumn*  column) ;
 
-  /// @brief Method Eval, addr 0x2d07b34, size 0x14, virtual true, abstract: false, final false
-  inline ::System::Object* Eval();
+/// @brief Method Eval, addr 0x40eb7a4, size 0x14, virtual true, abstract: false, final false
+inline ::System::Object* Eval() ;
 
-  /// @brief Method Eval, addr 0x2d08358, size 0x20, virtual true, abstract: false, final false
-  inline ::System::Object* Eval(::ArrayW<int32_t, ::Array<int32_t>*> recordNos);
+/// @brief Method Eval, addr 0x40ebffc, size 0x20, virtual true, abstract: false, final false
+inline ::System::Object* Eval(::ArrayW<int32_t,::Array<int32_t>*>  recordNos) ;
 
-  /// @brief Method Eval, addr 0x2d07b48, size 0x40, virtual true, abstract: false, final false
-  inline ::System::Object* Eval(::System::Data::DataRow* row, ::System::Data::DataRowVersion version);
+/// @brief Method Eval, addr 0x40eb7b8, size 0x40, virtual true, abstract: false, final false
+inline ::System::Object* Eval(::System::Data::DataRow*  row, ::System::Data::DataRowVersion  version) ;
 
-  /// @brief Method EvalUnaryOp, addr 0x2d07b88, size 0x7d0, virtual false, abstract: false, final false
-  inline ::System::Object* EvalUnaryOp(int32_t op, ::System::Object* vl);
+/// @brief Method EvalUnaryOp, addr 0x40eb7f8, size 0x804, virtual false, abstract: false, final false
+inline ::System::Object* EvalUnaryOp(int32_t  op, ::System::Object*  vl) ;
 
-  /// @brief Method HasLocalAggregate, addr 0x2d083b8, size 0x20, virtual true, abstract: false, final false
-  inline bool HasLocalAggregate();
+/// @brief Method HasLocalAggregate, addr 0x40ec05c, size 0x20, virtual true, abstract: false, final false
+inline bool HasLocalAggregate() ;
 
-  /// @brief Method HasRemoteAggregate, addr 0x2d083d8, size 0x20, virtual true, abstract: false, final false
-  inline bool HasRemoteAggregate();
+/// @brief Method HasRemoteAggregate, addr 0x40ec07c, size 0x20, virtual true, abstract: false, final false
+inline bool HasRemoteAggregate() ;
 
-  /// @brief Method IsConstant, addr 0x2d08378, size 0x20, virtual true, abstract: false, final false
-  inline bool IsConstant();
+/// @brief Method IsConstant, addr 0x40ec01c, size 0x20, virtual true, abstract: false, final false
+inline bool IsConstant() ;
 
-  /// @brief Method IsTableConstant, addr 0x2d08398, size 0x20, virtual true, abstract: false, final false
-  inline bool IsTableConstant();
+/// @brief Method IsTableConstant, addr 0x40ec03c, size 0x20, virtual true, abstract: false, final false
+inline bool IsTableConstant() ;
 
-  static inline ::System::Data::UnaryNode* New_ctor(::System::Data::DataTable* table, int32_t op, ::System::Data::ExpressionNode* right);
+static inline ::System::Data::UnaryNode* New_ctor(::System::Data::DataTable*  table, int32_t  op, ::System::Data::ExpressionNode*  right) ;
 
-  /// @brief Method Optimize, addr 0x2d0841c, size 0xbc, virtual true, abstract: false, final false
-  inline ::System::Data::ExpressionNode* Optimize();
+/// @brief Method Optimize, addr 0x40ec0c0, size 0xb8, virtual true, abstract: false, final false
+inline ::System::Data::ExpressionNode* Optimize() ;
 
-  constexpr int32_t const& __cordl_internal_get__op() const;
+constexpr int32_t const& __cordl_internal_get__op() const;
 
-  constexpr int32_t& __cordl_internal_get__op();
+constexpr int32_t& __cordl_internal_get__op() ;
 
-  constexpr ::System::Data::ExpressionNode*& __cordl_internal_get__right();
+constexpr ::System::Data::ExpressionNode*& __cordl_internal_get__right() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Data::ExpressionNode*> const& __cordl_internal_get__right() const;
+constexpr ::cordl_internals::to_const_pointer<::System::Data::ExpressionNode*> const& __cordl_internal_get__right() const;
 
-  constexpr void __cordl_internal_set__op(int32_t value);
+constexpr void __cordl_internal_set__op(int32_t  value) ;
 
-  constexpr void __cordl_internal_set__right(::System::Data::ExpressionNode* value);
+constexpr void __cordl_internal_set__right(::System::Data::ExpressionNode*  value) ;
 
-  /// @brief Method .ctor, addr 0x2d07adc, size 0x30, virtual false, abstract: false, final false
-  inline void _ctor(::System::Data::DataTable* table, int32_t op, ::System::Data::ExpressionNode* right);
+/// @brief Method .ctor, addr 0x40eb74c, size 0x30, virtual false, abstract: false, final false
+inline void _ctor(::System::Data::DataTable*  table, int32_t  op, ::System::Data::ExpressionNode*  right) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr UnaryNode();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr UnaryNode() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UnaryNode", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  UnaryNode(UnaryNode&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UnaryNode", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  UnaryNode(UnaryNode const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "UnaryNode", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+UnaryNode(UnaryNode && ) = delete;
 
-  /// @brief Field _op, offset: 0x18, size: 0x4, def value: None
-  int32_t ____op;
+// Ctor Parameters [CppParam { name: "", ty: "UnaryNode", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+UnaryNode(UnaryNode const& ) = delete;
 
-  /// @brief Field _right, offset: 0x20, size: 0x8, def value: None
-  ::System::Data::ExpressionNode* ____right;
+/// @brief Field _op, offset: 0x18, size: 0x4, def value: None
+ int32_t  ____op;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _right, offset: 0x20, size: 0x8, def value: None
+ ::System::Data::ExpressionNode*  ____right;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Data::UnaryNode, 0x28>, "Size mismatch!");
@@ -127,6 +128,6 @@ static_assert(offsetof(::System::Data::UnaryNode, ____op) == 0x18, "Offset misma
 
 static_assert(offsetof(::System::Data::UnaryNode, ____right) == 0x20, "Offset mismatch!");
 
-} // namespace System::Data
+} // namespace end def System::Data
 NEED_NO_BOX(::System::Data::UnaryNode);
 DEFINE_IL2CPP_ARG_TYPE(::System::Data::UnaryNode*, "System.Data", "UnaryNode");

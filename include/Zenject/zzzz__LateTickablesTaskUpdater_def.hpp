@@ -22,46 +22,46 @@ class LateTickablesTaskUpdater;
 // Write type traits
 MARK_REF_PTR_T(::Zenject::LateTickablesTaskUpdater);
 // Type: Zenject::LateTickablesTaskUpdater
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
 // CS Name: ::Zenject::LateTickablesTaskUpdater*
 class CORDL_TYPE LateTickablesTaskUpdater : public ::Zenject::TaskUpdater_1<::Zenject::ILateTickable*> {
 public:
-  // Declarations
-  static inline ::Zenject::LateTickablesTaskUpdater* New_ctor();
+// Declarations
+static inline ::Zenject::LateTickablesTaskUpdater* New_ctor() ;
 
-  /// @brief Method UpdateItem, addr 0x36b0398, size 0x9c, virtual true, abstract: false, final false
-  inline void UpdateItem(::Zenject::ILateTickable* task);
+/// @brief Method UpdateItem, addr 0x4ab873c, size 0x9c, virtual true, abstract: false, final false
+inline void UpdateItem(::Zenject::ILateTickable*  task) ;
 
-  /// @brief Method __zenCreate, addr 0x36b047c, size 0x58, virtual false, abstract: false, final false
-  static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
+/// @brief Method __zenCreate, addr 0x4ab8820, size 0x50, virtual false, abstract: false, final false
+static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*,::Array<::System::Object*>*>  P_0) ;
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x36b04d4, size 0x1c0, virtual false, abstract: false, final false
-  static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
+/// @brief Method __zenCreateInjectTypeInfo, addr 0x4ab8870, size 0x1b8, virtual false, abstract: false, final false
+static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo() ;
 
-  /// @brief Method .ctor, addr 0x36b0434, size 0x48, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x4ab87d8, size 0x48, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LateTickablesTaskUpdater();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr LateTickablesTaskUpdater() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LateTickablesTaskUpdater", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  LateTickablesTaskUpdater(LateTickablesTaskUpdater&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LateTickablesTaskUpdater", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  LateTickablesTaskUpdater(LateTickablesTaskUpdater const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "LateTickablesTaskUpdater", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+LateTickablesTaskUpdater(LateTickablesTaskUpdater && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "LateTickablesTaskUpdater", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+LateTickablesTaskUpdater(LateTickablesTaskUpdater const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Zenject::LateTickablesTaskUpdater, 0x20>, "Size mismatch!");
 
-} // namespace Zenject
+} // namespace end def Zenject
 NEED_NO_BOX(::Zenject::LateTickablesTaskUpdater);
 DEFINE_IL2CPP_ARG_TYPE(::Zenject::LateTickablesTaskUpdater*, "Zenject", "LateTickablesTaskUpdater");

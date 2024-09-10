@@ -6,11 +6,11 @@ CORDL_MODULE_INIT
 #include "HMUI/zzzz__ViewController_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(ControllersTransformSettingsViewController)
-namespace BeatSaber::GameSettings {
-class MainSettingsHandler;
-}
 namespace GlobalNamespace {
 class IVRPlatformHelper;
+}
+namespace GlobalNamespace {
+class SettingsManager;
 }
 namespace HMUI {
 class RangeValuesTextSlider;
@@ -22,170 +22,170 @@ class ControllersTransformSettingsViewController;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::ControllersTransformSettingsViewController);
 // Type: ::ControllersTransformSettingsViewController
-// SizeInfo { instance_size: 176, native_size: -1, calculated_instance_size: 176, calculated_native_size: 176, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 184, native_size: -1, calculated_instance_size: 184, calculated_native_size: 184, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::ControllersTransformSettingsViewController*
 class CORDL_TYPE ControllersTransformSettingsViewController : public ::HMUI::ViewController {
 public:
-  // Declarations
-  /// @brief Field _mainSettingsHandler, offset 0xa8, size 0x8
-  __declspec(property(get = __cordl_internal_get__mainSettingsHandler, put = __cordl_internal_set__mainSettingsHandler))::BeatSaber::GameSettings::MainSettingsHandler* _mainSettingsHandler;
+// Declarations
+/// @brief Field _posXSlider, offset 0x78, size 0x8 
+ __declspec(property(get=__cordl_internal_get__posXSlider, put=__cordl_internal_set__posXSlider)) ::UnityW<::HMUI::RangeValuesTextSlider>  _posXSlider;
 
-  /// @brief Field _posXSlider, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get__posXSlider, put = __cordl_internal_set__posXSlider))::UnityW<::HMUI::RangeValuesTextSlider> _posXSlider;
+/// @brief Field _posYSlider, offset 0x80, size 0x8 
+ __declspec(property(get=__cordl_internal_get__posYSlider, put=__cordl_internal_set__posYSlider)) ::UnityW<::HMUI::RangeValuesTextSlider>  _posYSlider;
 
-  /// @brief Field _posYSlider, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get__posYSlider, put = __cordl_internal_set__posYSlider))::UnityW<::HMUI::RangeValuesTextSlider> _posYSlider;
+/// @brief Field _posZSlider, offset 0x88, size 0x8 
+ __declspec(property(get=__cordl_internal_get__posZSlider, put=__cordl_internal_set__posZSlider)) ::UnityW<::HMUI::RangeValuesTextSlider>  _posZSlider;
 
-  /// @brief Field _posZSlider, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get__posZSlider, put = __cordl_internal_set__posZSlider))::UnityW<::HMUI::RangeValuesTextSlider> _posZSlider;
+/// @brief Field _rotXSlider, offset 0x90, size 0x8 
+ __declspec(property(get=__cordl_internal_get__rotXSlider, put=__cordl_internal_set__rotXSlider)) ::UnityW<::HMUI::RangeValuesTextSlider>  _rotXSlider;
 
-  /// @brief Field _rotXSlider, offset 0x88, size 0x8
-  __declspec(property(get = __cordl_internal_get__rotXSlider, put = __cordl_internal_set__rotXSlider))::UnityW<::HMUI::RangeValuesTextSlider> _rotXSlider;
+/// @brief Field _rotYSlider, offset 0x98, size 0x8 
+ __declspec(property(get=__cordl_internal_get__rotYSlider, put=__cordl_internal_set__rotYSlider)) ::UnityW<::HMUI::RangeValuesTextSlider>  _rotYSlider;
 
-  /// @brief Field _rotYSlider, offset 0x90, size 0x8
-  __declspec(property(get = __cordl_internal_get__rotYSlider, put = __cordl_internal_set__rotYSlider))::UnityW<::HMUI::RangeValuesTextSlider> _rotYSlider;
+/// @brief Field _rotZSlider, offset 0xa0, size 0x8 
+ __declspec(property(get=__cordl_internal_get__rotZSlider, put=__cordl_internal_set__rotZSlider)) ::UnityW<::HMUI::RangeValuesTextSlider>  _rotZSlider;
 
-  /// @brief Field _rotZSlider, offset 0x98, size 0x8
-  __declspec(property(get = __cordl_internal_get__rotZSlider, put = __cordl_internal_set__rotZSlider))::UnityW<::HMUI::RangeValuesTextSlider> _rotZSlider;
+/// @brief Field _settingsManager, offset 0xb0, size 0x8 
+ __declspec(property(get=__cordl_internal_get__settingsManager, put=__cordl_internal_set__settingsManager)) ::GlobalNamespace::SettingsManager*  _settingsManager;
 
-  /// @brief Field _vrPlatformHelper, offset 0xa0, size 0x8
-  __declspec(property(get = __cordl_internal_get__vrPlatformHelper, put = __cordl_internal_set__vrPlatformHelper))::GlobalNamespace::IVRPlatformHelper* _vrPlatformHelper;
+/// @brief Field _vrPlatformHelper, offset 0xa8, size 0x8 
+ __declspec(property(get=__cordl_internal_get__vrPlatformHelper, put=__cordl_internal_set__vrPlatformHelper)) ::GlobalNamespace::IVRPlatformHelper*  _vrPlatformHelper;
 
-  /// @brief Method DidActivate, addr 0x268b7b8, size 0x564, virtual true, abstract: false, final false
-  inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
+/// @brief Method DidActivate, addr 0x3b90c0c, size 0x520, virtual true, abstract: false, final false
+inline void DidActivate(bool  firstActivation, bool  addedToHierarchy, bool  screenSystemEnabling) ;
 
-  /// @brief Method HandlePositionSliderValueDidChange, addr 0x268bfdc, size 0x148, virtual false, abstract: false, final false
-  inline void HandlePositionSliderValueDidChange(::HMUI::RangeValuesTextSlider* slider, float_t value);
+/// @brief Method HandlePositionSliderValueDidChange, addr 0x3b913e4, size 0x124, virtual false, abstract: false, final false
+inline void HandlePositionSliderValueDidChange(::HMUI::RangeValuesTextSlider*  slider, float_t  value) ;
 
-  /// @brief Method HandleRotationSliderValueDidChange, addr 0x268c124, size 0x140, virtual false, abstract: false, final false
-  inline void HandleRotationSliderValueDidChange(::HMUI::RangeValuesTextSlider* slider, float_t value);
+/// @brief Method HandleRotationSliderValueDidChange, addr 0x3b91508, size 0x118, virtual false, abstract: false, final false
+inline void HandleRotationSliderValueDidChange(::HMUI::RangeValuesTextSlider*  slider, float_t  value) ;
 
-  static inline ::GlobalNamespace::ControllersTransformSettingsViewController* New_ctor();
+static inline ::GlobalNamespace::ControllersTransformSettingsViewController* New_ctor() ;
 
-  /// @brief Method OnDestroy, addr 0x268bd1c, size 0x2c0, virtual true, abstract: false, final false
-  inline void OnDestroy();
+/// @brief Method OnDestroy, addr 0x3b9112c, size 0x2b8, virtual true, abstract: false, final false
+inline void OnDestroy() ;
 
-  constexpr ::BeatSaber::GameSettings::MainSettingsHandler*& __cordl_internal_get__mainSettingsHandler();
+constexpr ::UnityW<::HMUI::RangeValuesTextSlider> const& __cordl_internal_get__posXSlider() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::BeatSaber::GameSettings::MainSettingsHandler*> const& __cordl_internal_get__mainSettingsHandler() const;
+constexpr ::UnityW<::HMUI::RangeValuesTextSlider>& __cordl_internal_get__posXSlider() ;
 
-  constexpr ::UnityW<::HMUI::RangeValuesTextSlider> const& __cordl_internal_get__posXSlider() const;
+constexpr ::UnityW<::HMUI::RangeValuesTextSlider> const& __cordl_internal_get__posYSlider() const;
 
-  constexpr ::UnityW<::HMUI::RangeValuesTextSlider>& __cordl_internal_get__posXSlider();
+constexpr ::UnityW<::HMUI::RangeValuesTextSlider>& __cordl_internal_get__posYSlider() ;
 
-  constexpr ::UnityW<::HMUI::RangeValuesTextSlider> const& __cordl_internal_get__posYSlider() const;
+constexpr ::UnityW<::HMUI::RangeValuesTextSlider> const& __cordl_internal_get__posZSlider() const;
 
-  constexpr ::UnityW<::HMUI::RangeValuesTextSlider>& __cordl_internal_get__posYSlider();
+constexpr ::UnityW<::HMUI::RangeValuesTextSlider>& __cordl_internal_get__posZSlider() ;
 
-  constexpr ::UnityW<::HMUI::RangeValuesTextSlider> const& __cordl_internal_get__posZSlider() const;
+constexpr ::UnityW<::HMUI::RangeValuesTextSlider> const& __cordl_internal_get__rotXSlider() const;
 
-  constexpr ::UnityW<::HMUI::RangeValuesTextSlider>& __cordl_internal_get__posZSlider();
+constexpr ::UnityW<::HMUI::RangeValuesTextSlider>& __cordl_internal_get__rotXSlider() ;
 
-  constexpr ::UnityW<::HMUI::RangeValuesTextSlider> const& __cordl_internal_get__rotXSlider() const;
+constexpr ::UnityW<::HMUI::RangeValuesTextSlider> const& __cordl_internal_get__rotYSlider() const;
 
-  constexpr ::UnityW<::HMUI::RangeValuesTextSlider>& __cordl_internal_get__rotXSlider();
+constexpr ::UnityW<::HMUI::RangeValuesTextSlider>& __cordl_internal_get__rotYSlider() ;
 
-  constexpr ::UnityW<::HMUI::RangeValuesTextSlider> const& __cordl_internal_get__rotYSlider() const;
+constexpr ::UnityW<::HMUI::RangeValuesTextSlider> const& __cordl_internal_get__rotZSlider() const;
 
-  constexpr ::UnityW<::HMUI::RangeValuesTextSlider>& __cordl_internal_get__rotYSlider();
+constexpr ::UnityW<::HMUI::RangeValuesTextSlider>& __cordl_internal_get__rotZSlider() ;
 
-  constexpr ::UnityW<::HMUI::RangeValuesTextSlider> const& __cordl_internal_get__rotZSlider() const;
+constexpr ::GlobalNamespace::SettingsManager*& __cordl_internal_get__settingsManager() ;
 
-  constexpr ::UnityW<::HMUI::RangeValuesTextSlider>& __cordl_internal_get__rotZSlider();
+constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SettingsManager*> const& __cordl_internal_get__settingsManager() const;
 
-  constexpr ::GlobalNamespace::IVRPlatformHelper*& __cordl_internal_get__vrPlatformHelper();
+constexpr ::GlobalNamespace::IVRPlatformHelper*& __cordl_internal_get__vrPlatformHelper() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IVRPlatformHelper*> const& __cordl_internal_get__vrPlatformHelper() const;
+constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IVRPlatformHelper*> const& __cordl_internal_get__vrPlatformHelper() const;
 
-  constexpr void __cordl_internal_set__mainSettingsHandler(::BeatSaber::GameSettings::MainSettingsHandler* value);
+constexpr void __cordl_internal_set__posXSlider(::UnityW<::HMUI::RangeValuesTextSlider>  value) ;
 
-  constexpr void __cordl_internal_set__posXSlider(::UnityW<::HMUI::RangeValuesTextSlider> value);
+constexpr void __cordl_internal_set__posYSlider(::UnityW<::HMUI::RangeValuesTextSlider>  value) ;
 
-  constexpr void __cordl_internal_set__posYSlider(::UnityW<::HMUI::RangeValuesTextSlider> value);
+constexpr void __cordl_internal_set__posZSlider(::UnityW<::HMUI::RangeValuesTextSlider>  value) ;
 
-  constexpr void __cordl_internal_set__posZSlider(::UnityW<::HMUI::RangeValuesTextSlider> value);
+constexpr void __cordl_internal_set__rotXSlider(::UnityW<::HMUI::RangeValuesTextSlider>  value) ;
 
-  constexpr void __cordl_internal_set__rotXSlider(::UnityW<::HMUI::RangeValuesTextSlider> value);
+constexpr void __cordl_internal_set__rotYSlider(::UnityW<::HMUI::RangeValuesTextSlider>  value) ;
 
-  constexpr void __cordl_internal_set__rotYSlider(::UnityW<::HMUI::RangeValuesTextSlider> value);
+constexpr void __cordl_internal_set__rotZSlider(::UnityW<::HMUI::RangeValuesTextSlider>  value) ;
 
-  constexpr void __cordl_internal_set__rotZSlider(::UnityW<::HMUI::RangeValuesTextSlider> value);
+constexpr void __cordl_internal_set__settingsManager(::GlobalNamespace::SettingsManager*  value) ;
 
-  constexpr void __cordl_internal_set__vrPlatformHelper(::GlobalNamespace::IVRPlatformHelper* value);
+constexpr void __cordl_internal_set__vrPlatformHelper(::GlobalNamespace::IVRPlatformHelper*  value) ;
 
-  /// @brief Method .ctor, addr 0x268c264, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x3b91620, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ControllersTransformSettingsViewController();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ControllersTransformSettingsViewController() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ControllersTransformSettingsViewController", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ControllersTransformSettingsViewController(ControllersTransformSettingsViewController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ControllersTransformSettingsViewController", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ControllersTransformSettingsViewController(ControllersTransformSettingsViewController const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ControllersTransformSettingsViewController", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ControllersTransformSettingsViewController(ControllersTransformSettingsViewController && ) = delete;
 
-  /// @brief Field _posXSlider, offset: 0x70, size: 0x8, def value: None
-  ::UnityW<::HMUI::RangeValuesTextSlider> ____posXSlider;
+// Ctor Parameters [CppParam { name: "", ty: "ControllersTransformSettingsViewController", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ControllersTransformSettingsViewController(ControllersTransformSettingsViewController const& ) = delete;
 
-  /// @brief Field _posYSlider, offset: 0x78, size: 0x8, def value: None
-  ::UnityW<::HMUI::RangeValuesTextSlider> ____posYSlider;
+/// @brief Field _posXSlider, offset: 0x78, size: 0x8, def value: None
+ ::UnityW<::HMUI::RangeValuesTextSlider>  ____posXSlider;
 
-  /// @brief Field _posZSlider, offset: 0x80, size: 0x8, def value: None
-  ::UnityW<::HMUI::RangeValuesTextSlider> ____posZSlider;
+/// @brief Field _posYSlider, offset: 0x80, size: 0x8, def value: None
+ ::UnityW<::HMUI::RangeValuesTextSlider>  ____posYSlider;
 
-  /// @brief Field _rotXSlider, offset: 0x88, size: 0x8, def value: None
-  ::UnityW<::HMUI::RangeValuesTextSlider> ____rotXSlider;
+/// @brief Field _posZSlider, offset: 0x88, size: 0x8, def value: None
+ ::UnityW<::HMUI::RangeValuesTextSlider>  ____posZSlider;
 
-  /// @brief Field _rotYSlider, offset: 0x90, size: 0x8, def value: None
-  ::UnityW<::HMUI::RangeValuesTextSlider> ____rotYSlider;
+/// @brief Field _rotXSlider, offset: 0x90, size: 0x8, def value: None
+ ::UnityW<::HMUI::RangeValuesTextSlider>  ____rotXSlider;
 
-  /// @brief Field _rotZSlider, offset: 0x98, size: 0x8, def value: None
-  ::UnityW<::HMUI::RangeValuesTextSlider> ____rotZSlider;
+/// @brief Field _rotYSlider, offset: 0x98, size: 0x8, def value: None
+ ::UnityW<::HMUI::RangeValuesTextSlider>  ____rotYSlider;
 
-  /// @brief Field _vrPlatformHelper, offset: 0xa0, size: 0x8, def value: None
-  ::GlobalNamespace::IVRPlatformHelper* ____vrPlatformHelper;
+/// @brief Field _rotZSlider, offset: 0xa0, size: 0x8, def value: None
+ ::UnityW<::HMUI::RangeValuesTextSlider>  ____rotZSlider;
 
-  /// @brief Field _mainSettingsHandler, offset: 0xa8, size: 0x8, def value: None
-  ::BeatSaber::GameSettings::MainSettingsHandler* ____mainSettingsHandler;
+/// @brief Field _vrPlatformHelper, offset: 0xa8, size: 0x8, def value: None
+ ::GlobalNamespace::IVRPlatformHelper*  ____vrPlatformHelper;
 
-  /// @brief Field kPositionMul offset 0xffffffff size 0x4
-  static constexpr float_t kPositionMul{ 100.0 };
+/// @brief Field _settingsManager, offset: 0xb0, size: 0x8, def value: None
+ ::GlobalNamespace::SettingsManager*  ____settingsManager;
 
-  /// @brief Field kPositionStep offset 0xffffffff size 0x4
-  static constexpr float_t kPositionStep{ 0.1 };
+/// @brief Field kPositionMul offset 0xffffffff size 0x4
+static constexpr float_t  kPositionMul{100.0};
 
-  /// @brief Field kRotationStep offset 0xffffffff size 0x4
-  static constexpr float_t kRotationStep{ 1.0 };
+/// @brief Field kPositionStep offset 0xffffffff size 0x4
+static constexpr float_t  kPositionStep{0.1};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field kRotationStep offset 0xffffffff size 0x4
+static constexpr float_t  kRotationStep{1.0};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ControllersTransformSettingsViewController, 0xb0>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ControllersTransformSettingsViewController, 0xb8>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ControllersTransformSettingsViewController, ____posXSlider) == 0x70, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ControllersTransformSettingsViewController, ____posXSlider) == 0x78, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ControllersTransformSettingsViewController, ____posYSlider) == 0x78, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ControllersTransformSettingsViewController, ____posYSlider) == 0x80, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ControllersTransformSettingsViewController, ____posZSlider) == 0x80, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ControllersTransformSettingsViewController, ____posZSlider) == 0x88, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ControllersTransformSettingsViewController, ____rotXSlider) == 0x88, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ControllersTransformSettingsViewController, ____rotXSlider) == 0x90, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ControllersTransformSettingsViewController, ____rotYSlider) == 0x90, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ControllersTransformSettingsViewController, ____rotYSlider) == 0x98, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ControllersTransformSettingsViewController, ____rotZSlider) == 0x98, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ControllersTransformSettingsViewController, ____rotZSlider) == 0xa0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ControllersTransformSettingsViewController, ____vrPlatformHelper) == 0xa0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ControllersTransformSettingsViewController, ____vrPlatformHelper) == 0xa8, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ControllersTransformSettingsViewController, ____mainSettingsHandler) == 0xa8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ControllersTransformSettingsViewController, ____settingsManager) == 0xb0, "Offset mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ControllersTransformSettingsViewController);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ControllersTransformSettingsViewController*, "", "ControllersTransformSettingsViewController");

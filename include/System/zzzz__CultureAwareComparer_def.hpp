@@ -36,91 +36,91 @@ class CultureAwareComparer;
 // Write type traits
 MARK_REF_PTR_T(::System::CultureAwareComparer);
 // Type: System::CultureAwareComparer
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
 // CS Name: ::System::CultureAwareComparer*
 class CORDL_TYPE CultureAwareComparer : public ::System::StringComparer {
 public:
-  // Declarations
-  /// @brief Field _compareInfo, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__compareInfo, put = __cordl_internal_set__compareInfo))::System::Globalization::CompareInfo* _compareInfo;
+// Declarations
+/// @brief Field _compareInfo, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get__compareInfo, put=__cordl_internal_set__compareInfo)) ::System::Globalization::CompareInfo*  _compareInfo;
 
-  /// @brief Field _options, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get__options, put = __cordl_internal_set__options))::System::Globalization::CompareOptions _options;
+/// @brief Field _options, offset 0x18, size 0x4 
+ __declspec(property(get=__cordl_internal_get__options, put=__cordl_internal_set__options)) ::System::Globalization::CompareOptions  _options;
 
-  /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
-  constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
+/// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
+constexpr operator  ::System::Runtime::Serialization::ISerializable*() noexcept;
 
-  /// @brief Method Compare, addr 0x297a4bc, size 0x54, virtual true, abstract: false, final false
-  inline int32_t Compare(::StringW x, ::StringW y);
+/// @brief Method Compare, addr 0x3d70a18, size 0x54, virtual true, abstract: false, final false
+inline int32_t Compare(::StringW  x, ::StringW  y) ;
 
-  /// @brief Method Equals, addr 0x297a5d4, size 0x98, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* obj);
+/// @brief Method Equals, addr 0x3d70b2c, size 0x98, virtual true, abstract: false, final false
+inline bool Equals(::System::Object*  obj) ;
 
-  /// @brief Method Equals, addr 0x297a510, size 0x50, virtual true, abstract: false, final false
-  inline bool Equals(::StringW x, ::StringW y);
+/// @brief Method Equals, addr 0x3d70a6c, size 0x50, virtual true, abstract: false, final false
+inline bool Equals(::StringW  x, ::StringW  y) ;
 
-  /// @brief Method GetHashCode, addr 0x297a66c, size 0x34, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
+/// @brief Method GetHashCode, addr 0x3d70bc4, size 0x34, virtual true, abstract: false, final false
+inline int32_t GetHashCode() ;
 
-  /// @brief Method GetHashCode, addr 0x297a560, size 0x74, virtual true, abstract: false, final false
-  inline int32_t GetHashCode(::StringW obj);
+/// @brief Method GetHashCode, addr 0x3d70abc, size 0x70, virtual true, abstract: false, final false
+inline int32_t GetHashCode(::StringW  obj) ;
 
-  /// @brief Method GetObjectData, addr 0x297a6a0, size 0xec, virtual true, abstract: false, final true
-  inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
+/// @brief Method GetObjectData, addr 0x3d70bf8, size 0xec, virtual true, abstract: false, final true
+inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context) ;
 
-  static inline ::System::CultureAwareComparer* New_ctor(::System::Globalization::CompareInfo* compareInfo, ::System::Globalization::CompareOptions options);
+static inline ::System::CultureAwareComparer* New_ctor(::System::Globalization::CompareInfo*  compareInfo, ::System::Globalization::CompareOptions  options) ;
 
-  static inline ::System::CultureAwareComparer* New_ctor(::System::Globalization::CultureInfo* culture, ::System::Globalization::CompareOptions options);
+static inline ::System::CultureAwareComparer* New_ctor(::System::Globalization::CultureInfo*  culture, ::System::Globalization::CompareOptions  options) ;
 
-  static inline ::System::CultureAwareComparer* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
+static inline ::System::CultureAwareComparer* New_ctor(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context) ;
 
-  constexpr ::System::Globalization::CompareInfo*& __cordl_internal_get__compareInfo();
+constexpr ::System::Globalization::CompareInfo*& __cordl_internal_get__compareInfo() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Globalization::CompareInfo*> const& __cordl_internal_get__compareInfo() const;
+constexpr ::cordl_internals::to_const_pointer<::System::Globalization::CompareInfo*> const& __cordl_internal_get__compareInfo() const;
 
-  constexpr ::System::Globalization::CompareOptions const& __cordl_internal_get__options() const;
+constexpr ::System::Globalization::CompareOptions const& __cordl_internal_get__options() const;
 
-  constexpr ::System::Globalization::CompareOptions& __cordl_internal_get__options();
+constexpr ::System::Globalization::CompareOptions& __cordl_internal_get__options() ;
 
-  constexpr void __cordl_internal_set__compareInfo(::System::Globalization::CompareInfo* value);
+constexpr void __cordl_internal_set__compareInfo(::System::Globalization::CompareInfo*  value) ;
 
-  constexpr void __cordl_internal_set__options(::System::Globalization::CompareOptions value);
+constexpr void __cordl_internal_set__options(::System::Globalization::CompareOptions  value) ;
 
-  /// @brief Method .ctor, addr 0x297a1cc, size 0xe4, virtual false, abstract: false, final false
-  inline void _ctor(::System::Globalization::CompareInfo* compareInfo, ::System::Globalization::CompareOptions options);
+/// @brief Method .ctor, addr 0x3d7072c, size 0xe0, virtual false, abstract: false, final false
+inline void _ctor(::System::Globalization::CompareInfo*  compareInfo, ::System::Globalization::CompareOptions  options) ;
 
-  /// @brief Method .ctor, addr 0x2979cf0, size 0x44, virtual false, abstract: false, final false
-  inline void _ctor(::System::Globalization::CultureInfo* culture, ::System::Globalization::CompareOptions options);
+/// @brief Method .ctor, addr 0x3d70264, size 0x44, virtual false, abstract: false, final false
+inline void _ctor(::System::Globalization::CultureInfo*  culture, ::System::Globalization::CompareOptions  options) ;
 
-  /// @brief Method .ctor, addr 0x297a2b0, size 0x20c, virtual false, abstract: false, final false
-  inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
+/// @brief Method .ctor, addr 0x3d7080c, size 0x20c, virtual false, abstract: false, final false
+inline void _ctor(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context) ;
 
-  /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
-  constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
+/// @brief Convert to "::System::Runtime::Serialization::ISerializable"
+constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CultureAwareComparer();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr CultureAwareComparer() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CultureAwareComparer", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  CultureAwareComparer(CultureAwareComparer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CultureAwareComparer", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  CultureAwareComparer(CultureAwareComparer const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "CultureAwareComparer", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+CultureAwareComparer(CultureAwareComparer && ) = delete;
 
-  /// @brief Field _compareInfo, offset: 0x10, size: 0x8, def value: None
-  ::System::Globalization::CompareInfo* ____compareInfo;
+// Ctor Parameters [CppParam { name: "", ty: "CultureAwareComparer", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+CultureAwareComparer(CultureAwareComparer const& ) = delete;
 
-  /// @brief Field _options, offset: 0x18, size: 0x4, def value: None
-  ::System::Globalization::CompareOptions ____options;
+/// @brief Field _compareInfo, offset: 0x10, size: 0x8, def value: None
+ ::System::Globalization::CompareInfo*  ____compareInfo;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _options, offset: 0x18, size: 0x4, def value: None
+ ::System::Globalization::CompareOptions  ____options;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::CultureAwareComparer, 0x20>, "Size mismatch!");
@@ -129,6 +129,6 @@ static_assert(offsetof(::System::CultureAwareComparer, ____compareInfo) == 0x10,
 
 static_assert(offsetof(::System::CultureAwareComparer, ____options) == 0x18, "Offset mismatch!");
 
-} // namespace System
+} // namespace end def System
 NEED_NO_BOX(::System::CultureAwareComparer);
 DEFINE_IL2CPP_ARG_TYPE(::System::CultureAwareComparer*, "System", "CultureAwareComparer");

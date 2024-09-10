@@ -18,60 +18,59 @@ class BloomPrePassBackgroundLightWithId;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::BloomPrePassBackgroundLightWithId);
 // Type: ::BloomPrePassBackgroundLightWithId
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::BloomPrePassBackgroundLightWithId*
 class CORDL_TYPE BloomPrePassBackgroundLightWithId : public ::GlobalNamespace::LightWithIdMonoBehaviour {
 public:
-  // Declarations
-  /// @brief Field _bloomPrePassBackgroundColor, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__bloomPrePassBackgroundColor,
-                      put = __cordl_internal_set__bloomPrePassBackgroundColor))::UnityW<::GlobalNamespace::BloomPrePassBackgroundColor> _bloomPrePassBackgroundColor;
+// Declarations
+/// @brief Field _bloomPrePassBackgroundColor, offset 0x38, size 0x8 
+ __declspec(property(get=__cordl_internal_get__bloomPrePassBackgroundColor, put=__cordl_internal_set__bloomPrePassBackgroundColor)) ::UnityW<::GlobalNamespace::BloomPrePassBackgroundColor>  _bloomPrePassBackgroundColor;
 
-  __declspec(property(get = get_color))::UnityEngine::Color color;
+ __declspec(property(get=get_color)) ::UnityEngine::Color  color;
 
-  /// @brief Method ColorWasSet, addr 0x251f870, size 0x20, virtual true, abstract: false, final false
-  inline void ColorWasSet(::UnityEngine::Color newColor);
+/// @brief Method ColorWasSet, addr 0x395deb0, size 0x20, virtual true, abstract: false, final false
+inline void ColorWasSet(::UnityEngine::Color  newColor) ;
 
-  static inline ::GlobalNamespace::BloomPrePassBackgroundLightWithId* New_ctor();
+static inline ::GlobalNamespace::BloomPrePassBackgroundLightWithId* New_ctor() ;
 
-  constexpr ::UnityW<::GlobalNamespace::BloomPrePassBackgroundColor> const& __cordl_internal_get__bloomPrePassBackgroundColor() const;
+constexpr ::UnityW<::GlobalNamespace::BloomPrePassBackgroundColor> const& __cordl_internal_get__bloomPrePassBackgroundColor() const;
 
-  constexpr ::UnityW<::GlobalNamespace::BloomPrePassBackgroundColor>& __cordl_internal_get__bloomPrePassBackgroundColor();
+constexpr ::UnityW<::GlobalNamespace::BloomPrePassBackgroundColor>& __cordl_internal_get__bloomPrePassBackgroundColor() ;
 
-  constexpr void __cordl_internal_set__bloomPrePassBackgroundColor(::UnityW<::GlobalNamespace::BloomPrePassBackgroundColor> value);
+constexpr void __cordl_internal_set__bloomPrePassBackgroundColor(::UnityW<::GlobalNamespace::BloomPrePassBackgroundColor>  value) ;
 
-  /// @brief Method .ctor, addr 0x251f890, size 0x10, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x395ded0, size 0x10, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_color, addr 0x251f850, size 0x20, virtual false, abstract: false, final false
-  inline ::UnityEngine::Color get_color();
+/// @brief Method get_color, addr 0x395de90, size 0x20, virtual false, abstract: false, final false
+inline ::UnityEngine::Color get_color() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BloomPrePassBackgroundLightWithId();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr BloomPrePassBackgroundLightWithId() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassBackgroundLightWithId", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  BloomPrePassBackgroundLightWithId(BloomPrePassBackgroundLightWithId&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BloomPrePassBackgroundLightWithId", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  BloomPrePassBackgroundLightWithId(BloomPrePassBackgroundLightWithId const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "BloomPrePassBackgroundLightWithId", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+BloomPrePassBackgroundLightWithId(BloomPrePassBackgroundLightWithId && ) = delete;
 
-  /// @brief Field _bloomPrePassBackgroundColor, offset: 0x30, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::BloomPrePassBackgroundColor> ____bloomPrePassBackgroundColor;
+// Ctor Parameters [CppParam { name: "", ty: "BloomPrePassBackgroundLightWithId", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+BloomPrePassBackgroundLightWithId(BloomPrePassBackgroundLightWithId const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _bloomPrePassBackgroundColor, offset: 0x38, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::BloomPrePassBackgroundColor>  ____bloomPrePassBackgroundColor;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BloomPrePassBackgroundLightWithId, 0x38>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BloomPrePassBackgroundLightWithId, 0x40>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BloomPrePassBackgroundLightWithId, ____bloomPrePassBackgroundColor) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BloomPrePassBackgroundLightWithId, ____bloomPrePassBackgroundColor) == 0x38, "Offset mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BloomPrePassBackgroundLightWithId);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BloomPrePassBackgroundLightWithId*, "", "BloomPrePassBackgroundLightWithId");

@@ -19,43 +19,43 @@ class MessageWithOrgScopedID;
 // Write type traits
 MARK_REF_PTR_T(::Oculus::Platform::MessageWithOrgScopedID);
 // Type: Oculus.Platform::MessageWithOrgScopedID
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
 // CS Name: ::Oculus.Platform::MessageWithOrgScopedID*
 class CORDL_TYPE MessageWithOrgScopedID : public ::Oculus::Platform::Message_1<::Oculus::Platform::Models::OrgScopedID*> {
 public:
-  // Declarations
-  /// @brief Method GetDataFromMessage, addr 0x2afd1f8, size 0x9c, virtual true, abstract: false, final false
-  inline ::Oculus::Platform::Models::OrgScopedID* GetDataFromMessage(::System::IntPtr c_message);
+// Declarations
+/// @brief Method GetDataFromMessage, addr 0x3eef174, size 0x94, virtual true, abstract: false, final false
+inline ::Oculus::Platform::Models::OrgScopedID* GetDataFromMessage(::System::IntPtr  c_message) ;
 
-  /// @brief Method GetOrgScopedID, addr 0x2afd1bc, size 0x3c, virtual true, abstract: false, final false
-  inline ::Oculus::Platform::Models::OrgScopedID* GetOrgScopedID();
+/// @brief Method GetOrgScopedID, addr 0x3eef138, size 0x3c, virtual true, abstract: false, final false
+inline ::Oculus::Platform::Models::OrgScopedID* GetOrgScopedID() ;
 
-  static inline ::Oculus::Platform::MessageWithOrgScopedID* New_ctor(::System::IntPtr c_message);
+static inline ::Oculus::Platform::MessageWithOrgScopedID* New_ctor(::System::IntPtr  c_message) ;
 
-  /// @brief Method .ctor, addr 0x2af9754, size 0x58, virtual false, abstract: false, final false
-  inline void _ctor(::System::IntPtr c_message);
+/// @brief Method .ctor, addr 0x3eeb8a0, size 0x58, virtual false, abstract: false, final false
+inline void _ctor(::System::IntPtr  c_message) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MessageWithOrgScopedID();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr MessageWithOrgScopedID() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MessageWithOrgScopedID", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  MessageWithOrgScopedID(MessageWithOrgScopedID&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MessageWithOrgScopedID", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  MessageWithOrgScopedID(MessageWithOrgScopedID const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "MessageWithOrgScopedID", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+MessageWithOrgScopedID(MessageWithOrgScopedID && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "MessageWithOrgScopedID", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+MessageWithOrgScopedID(MessageWithOrgScopedID const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Oculus::Platform::MessageWithOrgScopedID, 0x30>, "Size mismatch!");
 
-} // namespace Oculus::Platform
+} // namespace end def Oculus::Platform
 NEED_NO_BOX(::Oculus::Platform::MessageWithOrgScopedID);
 DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::MessageWithOrgScopedID*, "Oculus.Platform", "MessageWithOrgScopedID");

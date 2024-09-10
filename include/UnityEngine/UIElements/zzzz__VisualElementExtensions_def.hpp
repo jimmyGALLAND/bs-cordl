@@ -24,47 +24,53 @@ class VisualElementExtensions;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::VisualElementExtensions);
 // Type: UnityEngine.UIElements::VisualElementExtensions
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: ::UnityEngine.UIElements::VisualElementExtensions*
 class CORDL_TYPE VisualElementExtensions : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method AddManipulator, addr 0x355886c, size 0xac, virtual false, abstract: false, final false
-  static inline void AddManipulator(::UnityEngine::UIElements::VisualElement* ele, ::UnityEngine::UIElements::IManipulator* manipulator);
+// Declarations
+/// @brief Method AddManipulator, addr 0x490777c, size 0xac, virtual false, abstract: false, final false
+static inline void AddManipulator(::UnityEngine::UIElements::VisualElement*  ele, ::UnityEngine::UIElements::IManipulator*  manipulator) ;
 
-  /// @brief Method LocalToWorld, addr 0x3558694, size 0xec, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Vector2 LocalToWorld(::UnityEngine::UIElements::VisualElement* ele, ::UnityEngine::Vector2 p);
+/// @brief Method ChangeCoordinatesTo, addr 0x4907b88, size 0x18, virtual false, abstract: false, final false
+static inline ::UnityEngine::Vector2 ChangeCoordinatesTo(::UnityEngine::UIElements::VisualElement*  src, ::UnityEngine::UIElements::VisualElement*  dest, ::UnityEngine::Vector2  point) ;
 
-  /// @brief Method RemoveManipulator, addr 0x3558918, size 0xa8, virtual false, abstract: false, final false
-  static inline void RemoveManipulator(::UnityEngine::UIElements::VisualElement* ele, ::UnityEngine::UIElements::IManipulator* manipulator);
+/// @brief Method LocalToWorld, addr 0x49079b8, size 0xe8, virtual false, abstract: false, final false
+static inline ::UnityEngine::Vector2 LocalToWorld(::UnityEngine::UIElements::VisualElement*  ele, ::UnityEngine::Vector2  p) ;
 
-  /// @brief Method WorldToLocal, addr 0x3558780, size 0xec, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Rect WorldToLocal(::UnityEngine::UIElements::VisualElement* ele, ::UnityEngine::Rect r);
+/// @brief Method RemoveManipulator, addr 0x4907828, size 0xa8, virtual false, abstract: false, final false
+static inline void RemoveManipulator(::UnityEngine::UIElements::VisualElement*  ele, ::UnityEngine::UIElements::IManipulator*  manipulator) ;
 
-  /// @brief Method WorldToLocal, addr 0x35585a8, size 0xec, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Vector2 WorldToLocal(::UnityEngine::UIElements::VisualElement* ele, ::UnityEngine::Vector2 p);
+/// @brief Method StretchToParentSize, addr 0x4907460, size 0x31c, virtual false, abstract: false, final false
+static inline void StretchToParentSize(::UnityEngine::UIElements::VisualElement*  elem) ;
+
+/// @brief Method WorldToLocal, addr 0x4907aa0, size 0xe8, virtual false, abstract: false, final false
+static inline ::UnityEngine::Rect WorldToLocal(::UnityEngine::UIElements::VisualElement*  ele, ::UnityEngine::Rect  r) ;
+
+/// @brief Method WorldToLocal, addr 0x49078d0, size 0xe8, virtual false, abstract: false, final false
+static inline ::UnityEngine::Vector2 WorldToLocal(::UnityEngine::UIElements::VisualElement*  ele, ::UnityEngine::Vector2  p) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr VisualElementExtensions();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr VisualElementExtensions() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VisualElementExtensions", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  VisualElementExtensions(VisualElementExtensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VisualElementExtensions", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  VisualElementExtensions(VisualElementExtensions const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "VisualElementExtensions", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+VisualElementExtensions(VisualElementExtensions && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "VisualElementExtensions", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+VisualElementExtensions(VisualElementExtensions const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::VisualElementExtensions, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine::UIElements
+} // namespace end def UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::VisualElementExtensions);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::VisualElementExtensions*, "UnityEngine.UIElements", "VisualElementExtensions");

@@ -29,16 +29,20 @@ namespace Newtonsoft::Json {
 class JsonReader;
 }
 namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class IDictionary_2;
+template<typename TKey,typename TValue>
+class IDictionary_2;
 }
 namespace System::Collections::Generic {
-template <typename T> class IList_1;
+template<typename T>
+class IList_1;
 }
 namespace System::Collections::Generic {
-template <typename TKey, typename TValue> struct KeyValuePair_2;
+template<typename TKey,typename TValue>
+struct KeyValuePair_2;
 }
 namespace System {
-template <typename T> struct Nullable_1;
+template<typename T>
+struct Nullable_1;
 }
 // Forward declare root types
 namespace Newtonsoft::Json::Schema {
@@ -51,200 +55,198 @@ class __JsonSchemaBuilder____c__DisplayClass23_0;
 MARK_REF_PTR_T(::Newtonsoft::Json::Schema::JsonSchemaBuilder);
 MARK_REF_PTR_T(::Newtonsoft::Json::Schema::__JsonSchemaBuilder____c__DisplayClass23_0);
 // Type: ::<>c__DisplayClass23_0
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Schema {
 // Is value type: false
 // CS Name: ::JsonSchemaBuilder::<>c__DisplayClass23_0*
 class CORDL_TYPE __JsonSchemaBuilder____c__DisplayClass23_0 : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field type, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type))::Newtonsoft::Json::Schema::JsonSchemaType type;
+// Declarations
+/// @brief Field type, offset 0x10, size 0x4 
+ __declspec(property(get=__cordl_internal_get_type, put=__cordl_internal_set_type)) ::Newtonsoft::Json::Schema::JsonSchemaType  type;
 
-  static inline ::Newtonsoft::Json::Schema::__JsonSchemaBuilder____c__DisplayClass23_0* New_ctor();
+static inline ::Newtonsoft::Json::Schema::__JsonSchemaBuilder____c__DisplayClass23_0* New_ctor() ;
 
-  /// @brief Method <MapType>b__0, addr 0x2a825d8, size 0x48, virtual false, abstract: false, final false
-  inline bool _MapType_b__0(::System::Collections::Generic::KeyValuePair_2<::StringW, ::Newtonsoft::Json::Schema::JsonSchemaType> kv);
+/// @brief Method <MapType>b__0, addr 0x3e76884, size 0x48, virtual false, abstract: false, final false
+inline bool _MapType_b__0(::System::Collections::Generic::KeyValuePair_2<::StringW,::Newtonsoft::Json::Schema::JsonSchemaType>  kv) ;
 
-  constexpr ::Newtonsoft::Json::Schema::JsonSchemaType const& __cordl_internal_get_type() const;
+constexpr ::Newtonsoft::Json::Schema::JsonSchemaType const& __cordl_internal_get_type() const;
 
-  constexpr ::Newtonsoft::Json::Schema::JsonSchemaType& __cordl_internal_get_type();
+constexpr ::Newtonsoft::Json::Schema::JsonSchemaType& __cordl_internal_get_type() ;
 
-  constexpr void __cordl_internal_set_type(::Newtonsoft::Json::Schema::JsonSchemaType value);
+constexpr void __cordl_internal_set_type(::Newtonsoft::Json::Schema::JsonSchemaType  value) ;
 
-  /// @brief Method .ctor, addr 0x2a825d0, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x3e7687c, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __JsonSchemaBuilder____c__DisplayClass23_0();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __JsonSchemaBuilder____c__DisplayClass23_0() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__JsonSchemaBuilder____c__DisplayClass23_0", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __JsonSchemaBuilder____c__DisplayClass23_0(__JsonSchemaBuilder____c__DisplayClass23_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__JsonSchemaBuilder____c__DisplayClass23_0", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __JsonSchemaBuilder____c__DisplayClass23_0(__JsonSchemaBuilder____c__DisplayClass23_0 const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__JsonSchemaBuilder____c__DisplayClass23_0", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__JsonSchemaBuilder____c__DisplayClass23_0(__JsonSchemaBuilder____c__DisplayClass23_0 && ) = delete;
 
-  /// @brief Field type, offset: 0x10, size: 0x4, def value: None
-  ::Newtonsoft::Json::Schema::JsonSchemaType ___type;
+// Ctor Parameters [CppParam { name: "", ty: "__JsonSchemaBuilder____c__DisplayClass23_0", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__JsonSchemaBuilder____c__DisplayClass23_0(__JsonSchemaBuilder____c__DisplayClass23_0 const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field type, offset: 0x10, size: 0x4, def value: None
+ ::Newtonsoft::Json::Schema::JsonSchemaType  ___type;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Schema::__JsonSchemaBuilder____c__DisplayClass23_0, 0x18>, "Size mismatch!");
 
 static_assert(offsetof(::Newtonsoft::Json::Schema::__JsonSchemaBuilder____c__DisplayClass23_0, ___type) == 0x10, "Offset mismatch!");
 
-} // namespace Newtonsoft::Json::Schema
+} // namespace end def Newtonsoft::Json::Schema
 // Type: Newtonsoft.Json.Schema::JsonSchemaBuilder
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Schema {
 // Is value type: false
 // CS Name: ::Newtonsoft.Json.Schema::JsonSchemaBuilder*
 class CORDL_TYPE JsonSchemaBuilder : public ::System::Object {
 public:
-  // Declarations
-  using __c__DisplayClass23_0 = ::Newtonsoft::Json::Schema::__JsonSchemaBuilder____c__DisplayClass23_0;
+// Declarations
+using __c__DisplayClass23_0 = ::Newtonsoft::Json::Schema::__JsonSchemaBuilder____c__DisplayClass23_0;
 
-  __declspec(property(get = get_CurrentSchema))::Newtonsoft::Json::Schema::JsonSchema* CurrentSchema;
+ __declspec(property(get=get_CurrentSchema)) ::Newtonsoft::Json::Schema::JsonSchema*  CurrentSchema;
 
-  /// @brief Field _currentSchema, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__currentSchema, put = __cordl_internal_set__currentSchema))::Newtonsoft::Json::Schema::JsonSchema* _currentSchema;
+/// @brief Field _currentSchema, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get__currentSchema, put=__cordl_internal_set__currentSchema)) ::Newtonsoft::Json::Schema::JsonSchema*  _currentSchema;
 
-  /// @brief Field _documentSchemas, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__documentSchemas,
-                      put = __cordl_internal_set__documentSchemas))::System::Collections::Generic::IDictionary_2<::StringW, ::Newtonsoft::Json::Schema::JsonSchema*>* _documentSchemas;
+/// @brief Field _documentSchemas, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get__documentSchemas, put=__cordl_internal_set__documentSchemas)) ::System::Collections::Generic::IDictionary_2<::StringW,::Newtonsoft::Json::Schema::JsonSchema*>*  _documentSchemas;
 
-  /// @brief Field _resolver, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__resolver, put = __cordl_internal_set__resolver))::Newtonsoft::Json::Schema::JsonSchemaResolver* _resolver;
+/// @brief Field _resolver, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get__resolver, put=__cordl_internal_set__resolver)) ::Newtonsoft::Json::Schema::JsonSchemaResolver*  _resolver;
 
-  /// @brief Field _rootSchema, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__rootSchema, put = __cordl_internal_set__rootSchema))::Newtonsoft::Json::Linq::JObject* _rootSchema;
+/// @brief Field _rootSchema, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get__rootSchema, put=__cordl_internal_set__rootSchema)) ::Newtonsoft::Json::Linq::JObject*  _rootSchema;
 
-  /// @brief Field _stack, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__stack, put = __cordl_internal_set__stack))::System::Collections::Generic::IList_1<::Newtonsoft::Json::Schema::JsonSchema*>* _stack;
+/// @brief Field _stack, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get__stack, put=__cordl_internal_set__stack)) ::System::Collections::Generic::IList_1<::Newtonsoft::Json::Schema::JsonSchema*>*  _stack;
 
-  /// @brief Method BuildSchema, addr 0x2a7e7a4, size 0x3a4, virtual false, abstract: false, final false
-  inline ::Newtonsoft::Json::Schema::JsonSchema* BuildSchema(::Newtonsoft::Json::Linq::JToken* token);
+/// @brief Method BuildSchema, addr 0x3e72a18, size 0x3a0, virtual false, abstract: false, final false
+inline ::Newtonsoft::Json::Schema::JsonSchema* BuildSchema(::Newtonsoft::Json::Linq::JToken*  token) ;
 
-  /// @brief Method MapType, addr 0x2a82358, size 0x16c, virtual false, abstract: false, final false
-  static inline ::Newtonsoft::Json::Schema::JsonSchemaType MapType(::StringW type);
+/// @brief Method MapType, addr 0x3e76608, size 0x164, virtual false, abstract: false, final false
+static inline ::Newtonsoft::Json::Schema::JsonSchemaType MapType(::StringW  type) ;
 
-  /// @brief Method MapType, addr 0x2a824c4, size 0x10c, virtual false, abstract: false, final false
-  static inline ::StringW MapType(::Newtonsoft::Json::Schema::JsonSchemaType type);
+/// @brief Method MapType, addr 0x3e7676c, size 0x110, virtual false, abstract: false, final false
+static inline ::StringW MapType(::Newtonsoft::Json::Schema::JsonSchemaType  type) ;
 
-  static inline ::Newtonsoft::Json::Schema::JsonSchemaBuilder* New_ctor(::Newtonsoft::Json::Schema::JsonSchemaResolver* resolver);
+static inline ::Newtonsoft::Json::Schema::JsonSchemaBuilder* New_ctor(::Newtonsoft::Json::Schema::JsonSchemaResolver*  resolver) ;
 
-  /// @brief Method Pop, addr 0x2a7e64c, size 0x150, virtual false, abstract: false, final false
-  inline ::Newtonsoft::Json::Schema::JsonSchema* Pop();
+/// @brief Method Pop, addr 0x3e728c0, size 0x150, virtual false, abstract: false, final false
+inline ::Newtonsoft::Json::Schema::JsonSchema* Pop() ;
 
-  /// @brief Method ProcessAdditionalItems, addr 0x2a81954, size 0xac, virtual false, abstract: false, final false
-  inline void ProcessAdditionalItems(::Newtonsoft::Json::Linq::JToken* token);
+/// @brief Method ProcessAdditionalItems, addr 0x3e75bf8, size 0xac, virtual false, abstract: false, final false
+inline void ProcessAdditionalItems(::Newtonsoft::Json::Linq::JToken*  token) ;
 
-  /// @brief Method ProcessAdditionalProperties, addr 0x2a818a8, size 0xac, virtual false, abstract: false, final false
-  inline void ProcessAdditionalProperties(::Newtonsoft::Json::Linq::JToken* token);
+/// @brief Method ProcessAdditionalProperties, addr 0x3e75b4c, size 0xac, virtual false, abstract: false, final false
+inline void ProcessAdditionalProperties(::Newtonsoft::Json::Linq::JToken*  token) ;
 
-  /// @brief Method ProcessEnum, addr 0x2a81a00, size 0x4a8, virtual false, abstract: false, final false
-  inline void ProcessEnum(::Newtonsoft::Json::Linq::JToken* token);
+/// @brief Method ProcessEnum, addr 0x3e75ca4, size 0x4a0, virtual false, abstract: false, final false
+inline void ProcessEnum(::Newtonsoft::Json::Linq::JToken*  token) ;
 
-  /// @brief Method ProcessExtends, addr 0x2a81ea8, size 0x4b0, virtual false, abstract: false, final false
-  inline void ProcessExtends(::Newtonsoft::Json::Linq::JToken* token);
+/// @brief Method ProcessExtends, addr 0x3e76144, size 0x4c4, virtual false, abstract: false, final false
+inline void ProcessExtends(::Newtonsoft::Json::Linq::JToken*  token) ;
 
-  /// @brief Method ProcessItems, addr 0x2a8134c, size 0x55c, virtual false, abstract: false, final false
-  inline void ProcessItems(::Newtonsoft::Json::Linq::JToken* token);
+/// @brief Method ProcessItems, addr 0x3e755f0, size 0x55c, virtual false, abstract: false, final false
+inline void ProcessItems(::Newtonsoft::Json::Linq::JToken*  token) ;
 
-  /// @brief Method ProcessProperties, addr 0x2a80d60, size 0x5ec, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::IDictionary_2<::StringW, ::Newtonsoft::Json::Schema::JsonSchema*>* ProcessProperties(::Newtonsoft::Json::Linq::JToken* token);
+/// @brief Method ProcessProperties, addr 0x3e75008, size 0x5e8, virtual false, abstract: false, final false
+inline ::System::Collections::Generic::IDictionary_2<::StringW,::Newtonsoft::Json::Schema::JsonSchema*>* ProcessProperties(::Newtonsoft::Json::Linq::JToken*  token) ;
 
-  /// @brief Method ProcessSchemaProperties, addr 0x2a7f544, size 0x1248, virtual false, abstract: false, final false
-  inline void ProcessSchemaProperties(::Newtonsoft::Json::Linq::JObject* schemaObject);
+/// @brief Method ProcessSchemaProperties, addr 0x3e737fc, size 0x123c, virtual false, abstract: false, final false
+inline void ProcessSchemaProperties(::Newtonsoft::Json::Linq::JObject*  schemaObject) ;
 
-  /// @brief Method ProcessType, addr 0x2a8078c, size 0x5d4, virtual false, abstract: false, final false
-  inline ::System::Nullable_1<::Newtonsoft::Json::Schema::JsonSchemaType> ProcessType(::Newtonsoft::Json::Linq::JToken* token);
+/// @brief Method ProcessType, addr 0x3e74a38, size 0x5d0, virtual false, abstract: false, final false
+inline ::System::Nullable_1<::Newtonsoft::Json::Schema::JsonSchemaType> ProcessType(::Newtonsoft::Json::Linq::JToken*  token) ;
 
-  /// @brief Method Push, addr 0x2a7e49c, size 0x1b0, virtual false, abstract: false, final false
-  inline void Push(::Newtonsoft::Json::Schema::JsonSchema* value);
+/// @brief Method Push, addr 0x3e72710, size 0x1b0, virtual false, abstract: false, final false
+inline void Push(::Newtonsoft::Json::Schema::JsonSchema*  value) ;
 
-  /// @brief Method Read, addr 0x2a7cebc, size 0xd8, virtual false, abstract: false, final false
-  inline ::Newtonsoft::Json::Schema::JsonSchema* Read(::Newtonsoft::Json::JsonReader* reader);
+/// @brief Method Read, addr 0x3e71104, size 0xd8, virtual false, abstract: false, final false
+inline ::Newtonsoft::Json::Schema::JsonSchema* Read(::Newtonsoft::Json::JsonReader*  reader) ;
 
-  /// @brief Method ResolveReferences, addr 0x2a7eb48, size 0x92c, virtual false, abstract: false, final false
-  inline ::Newtonsoft::Json::Schema::JsonSchema* ResolveReferences(::Newtonsoft::Json::Schema::JsonSchema* schema);
+/// @brief Method ResolveReferences, addr 0x3e72db8, size 0x974, virtual false, abstract: false, final false
+inline ::Newtonsoft::Json::Schema::JsonSchema* ResolveReferences(::Newtonsoft::Json::Schema::JsonSchema*  schema) ;
 
-  /// @brief Method UnescapeReference, addr 0x2a7f474, size 0xd0, virtual false, abstract: false, final false
-  inline ::StringW UnescapeReference(::StringW reference);
+/// @brief Method UnescapeReference, addr 0x3e7372c, size 0xd0, virtual false, abstract: false, final false
+inline ::StringW UnescapeReference(::StringW  reference) ;
 
-  constexpr ::Newtonsoft::Json::Schema::JsonSchema*& __cordl_internal_get__currentSchema();
+constexpr ::Newtonsoft::Json::Schema::JsonSchema*& __cordl_internal_get__currentSchema() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Schema::JsonSchema*> const& __cordl_internal_get__currentSchema() const;
+constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Schema::JsonSchema*> const& __cordl_internal_get__currentSchema() const;
 
-  constexpr ::System::Collections::Generic::IDictionary_2<::StringW, ::Newtonsoft::Json::Schema::JsonSchema*>*& __cordl_internal_get__documentSchemas();
+constexpr ::System::Collections::Generic::IDictionary_2<::StringW,::Newtonsoft::Json::Schema::JsonSchema*>*& __cordl_internal_get__documentSchemas() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IDictionary_2<::StringW, ::Newtonsoft::Json::Schema::JsonSchema*>*> const&
-  __cordl_internal_get__documentSchemas() const;
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IDictionary_2<::StringW,::Newtonsoft::Json::Schema::JsonSchema*>*> const& __cordl_internal_get__documentSchemas() const;
 
-  constexpr ::Newtonsoft::Json::Schema::JsonSchemaResolver*& __cordl_internal_get__resolver();
+constexpr ::Newtonsoft::Json::Schema::JsonSchemaResolver*& __cordl_internal_get__resolver() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Schema::JsonSchemaResolver*> const& __cordl_internal_get__resolver() const;
+constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Schema::JsonSchemaResolver*> const& __cordl_internal_get__resolver() const;
 
-  constexpr ::Newtonsoft::Json::Linq::JObject*& __cordl_internal_get__rootSchema();
+constexpr ::Newtonsoft::Json::Linq::JObject*& __cordl_internal_get__rootSchema() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Linq::JObject*> const& __cordl_internal_get__rootSchema() const;
+constexpr ::cordl_internals::to_const_pointer<::Newtonsoft::Json::Linq::JObject*> const& __cordl_internal_get__rootSchema() const;
 
-  constexpr ::System::Collections::Generic::IList_1<::Newtonsoft::Json::Schema::JsonSchema*>*& __cordl_internal_get__stack();
+constexpr ::System::Collections::Generic::IList_1<::Newtonsoft::Json::Schema::JsonSchema*>*& __cordl_internal_get__stack() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IList_1<::Newtonsoft::Json::Schema::JsonSchema*>*> const& __cordl_internal_get__stack() const;
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IList_1<::Newtonsoft::Json::Schema::JsonSchema*>*> const& __cordl_internal_get__stack() const;
 
-  constexpr void __cordl_internal_set__currentSchema(::Newtonsoft::Json::Schema::JsonSchema* value);
+constexpr void __cordl_internal_set__currentSchema(::Newtonsoft::Json::Schema::JsonSchema*  value) ;
 
-  constexpr void __cordl_internal_set__documentSchemas(::System::Collections::Generic::IDictionary_2<::StringW, ::Newtonsoft::Json::Schema::JsonSchema*>* value);
+constexpr void __cordl_internal_set__documentSchemas(::System::Collections::Generic::IDictionary_2<::StringW,::Newtonsoft::Json::Schema::JsonSchema*>*  value) ;
 
-  constexpr void __cordl_internal_set__resolver(::Newtonsoft::Json::Schema::JsonSchemaResolver* value);
+constexpr void __cordl_internal_set__resolver(::Newtonsoft::Json::Schema::JsonSchemaResolver*  value) ;
 
-  constexpr void __cordl_internal_set__rootSchema(::Newtonsoft::Json::Linq::JObject* value);
+constexpr void __cordl_internal_set__rootSchema(::Newtonsoft::Json::Linq::JObject*  value) ;
 
-  constexpr void __cordl_internal_set__stack(::System::Collections::Generic::IList_1<::Newtonsoft::Json::Schema::JsonSchema*>* value);
+constexpr void __cordl_internal_set__stack(::System::Collections::Generic::IList_1<::Newtonsoft::Json::Schema::JsonSchema*>*  value) ;
 
-  /// @brief Method .ctor, addr 0x2a7cdec, size 0xd0, virtual false, abstract: false, final false
-  inline void _ctor(::Newtonsoft::Json::Schema::JsonSchemaResolver* resolver);
+/// @brief Method .ctor, addr 0x3e71038, size 0xcc, virtual false, abstract: false, final false
+inline void _ctor(::Newtonsoft::Json::Schema::JsonSchemaResolver*  resolver) ;
 
-  /// @brief Method get_CurrentSchema, addr 0x2a7e79c, size 0x8, virtual false, abstract: false, final false
-  inline ::Newtonsoft::Json::Schema::JsonSchema* get_CurrentSchema();
+/// @brief Method get_CurrentSchema, addr 0x3e72a10, size 0x8, virtual false, abstract: false, final false
+inline ::Newtonsoft::Json::Schema::JsonSchema* get_CurrentSchema() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr JsonSchemaBuilder();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr JsonSchemaBuilder() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "JsonSchemaBuilder", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  JsonSchemaBuilder(JsonSchemaBuilder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "JsonSchemaBuilder", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  JsonSchemaBuilder(JsonSchemaBuilder const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "JsonSchemaBuilder", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+JsonSchemaBuilder(JsonSchemaBuilder && ) = delete;
 
-  /// @brief Field _stack, offset: 0x10, size: 0x8, def value: None
-  ::System::Collections::Generic::IList_1<::Newtonsoft::Json::Schema::JsonSchema*>* ____stack;
+// Ctor Parameters [CppParam { name: "", ty: "JsonSchemaBuilder", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+JsonSchemaBuilder(JsonSchemaBuilder const& ) = delete;
 
-  /// @brief Field _resolver, offset: 0x18, size: 0x8, def value: None
-  ::Newtonsoft::Json::Schema::JsonSchemaResolver* ____resolver;
+/// @brief Field _stack, offset: 0x10, size: 0x8, def value: None
+ ::System::Collections::Generic::IList_1<::Newtonsoft::Json::Schema::JsonSchema*>*  ____stack;
 
-  /// @brief Field _documentSchemas, offset: 0x20, size: 0x8, def value: None
-  ::System::Collections::Generic::IDictionary_2<::StringW, ::Newtonsoft::Json::Schema::JsonSchema*>* ____documentSchemas;
+/// @brief Field _resolver, offset: 0x18, size: 0x8, def value: None
+ ::Newtonsoft::Json::Schema::JsonSchemaResolver*  ____resolver;
 
-  /// @brief Field _currentSchema, offset: 0x28, size: 0x8, def value: None
-  ::Newtonsoft::Json::Schema::JsonSchema* ____currentSchema;
+/// @brief Field _documentSchemas, offset: 0x20, size: 0x8, def value: None
+ ::System::Collections::Generic::IDictionary_2<::StringW,::Newtonsoft::Json::Schema::JsonSchema*>*  ____documentSchemas;
 
-  /// @brief Field _rootSchema, offset: 0x30, size: 0x8, def value: None
-  ::Newtonsoft::Json::Linq::JObject* ____rootSchema;
+/// @brief Field _currentSchema, offset: 0x28, size: 0x8, def value: None
+ ::Newtonsoft::Json::Schema::JsonSchema*  ____currentSchema;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _rootSchema, offset: 0x30, size: 0x8, def value: None
+ ::Newtonsoft::Json::Linq::JObject*  ____rootSchema;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Schema::JsonSchemaBuilder, 0x38>, "Size mismatch!");
@@ -259,7 +261,7 @@ static_assert(offsetof(::Newtonsoft::Json::Schema::JsonSchemaBuilder, ____curren
 
 static_assert(offsetof(::Newtonsoft::Json::Schema::JsonSchemaBuilder, ____rootSchema) == 0x30, "Offset mismatch!");
 
-} // namespace Newtonsoft::Json::Schema
+} // namespace end def Newtonsoft::Json::Schema
 NEED_NO_BOX(::Newtonsoft::Json::Schema::JsonSchemaBuilder);
 DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Schema::JsonSchemaBuilder*, "Newtonsoft.Json.Schema", "JsonSchemaBuilder");
 NEED_NO_BOX(::Newtonsoft::Json::Schema::__JsonSchemaBuilder____c__DisplayClass23_0);

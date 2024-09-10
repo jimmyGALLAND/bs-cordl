@@ -21,43 +21,43 @@ class DeclareSignalAsyncTickPriorityCopyBinder;
 // Write type traits
 MARK_REF_PTR_T(::Zenject::DeclareSignalAsyncTickPriorityCopyBinder);
 // Type: Zenject::DeclareSignalAsyncTickPriorityCopyBinder
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
 // CS Name: ::Zenject::DeclareSignalAsyncTickPriorityCopyBinder*
 class CORDL_TYPE DeclareSignalAsyncTickPriorityCopyBinder : public ::Zenject::SignalTickPriorityCopyBinder {
 public:
-  // Declarations
-  static inline ::Zenject::DeclareSignalAsyncTickPriorityCopyBinder* New_ctor(::Zenject::SignalDeclarationBindInfo* signalBindInfo);
+// Declarations
+static inline ::Zenject::DeclareSignalAsyncTickPriorityCopyBinder* New_ctor(::Zenject::SignalDeclarationBindInfo*  signalBindInfo) ;
 
-  /// @brief Method RunAsync, addr 0x36592f4, size 0x20, virtual false, abstract: false, final false
-  inline ::Zenject::SignalTickPriorityCopyBinder* RunAsync();
+/// @brief Method RunAsync, addr 0x4a64b1c, size 0x20, virtual false, abstract: false, final false
+inline ::Zenject::SignalTickPriorityCopyBinder* RunAsync() ;
 
-  /// @brief Method RunSync, addr 0x3659314, size 0x1c, virtual false, abstract: false, final false
-  inline ::Zenject::SignalCopyBinder* RunSync();
+/// @brief Method RunSync, addr 0x4a64b3c, size 0x1c, virtual false, abstract: false, final false
+inline ::Zenject::SignalCopyBinder* RunSync() ;
 
-  /// @brief Method .ctor, addr 0x36592ac, size 0x24, virtual false, abstract: false, final false
-  inline void _ctor(::Zenject::SignalDeclarationBindInfo* signalBindInfo);
+/// @brief Method .ctor, addr 0x4a64ad4, size 0x24, virtual false, abstract: false, final false
+inline void _ctor(::Zenject::SignalDeclarationBindInfo*  signalBindInfo) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DeclareSignalAsyncTickPriorityCopyBinder();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr DeclareSignalAsyncTickPriorityCopyBinder() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DeclareSignalAsyncTickPriorityCopyBinder", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  DeclareSignalAsyncTickPriorityCopyBinder(DeclareSignalAsyncTickPriorityCopyBinder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DeclareSignalAsyncTickPriorityCopyBinder", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  DeclareSignalAsyncTickPriorityCopyBinder(DeclareSignalAsyncTickPriorityCopyBinder const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "DeclareSignalAsyncTickPriorityCopyBinder", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+DeclareSignalAsyncTickPriorityCopyBinder(DeclareSignalAsyncTickPriorityCopyBinder && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "DeclareSignalAsyncTickPriorityCopyBinder", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+DeclareSignalAsyncTickPriorityCopyBinder(DeclareSignalAsyncTickPriorityCopyBinder const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Zenject::DeclareSignalAsyncTickPriorityCopyBinder, 0x20>, "Size mismatch!");
 
-} // namespace Zenject
+} // namespace end def Zenject
 NEED_NO_BOX(::Zenject::DeclareSignalAsyncTickPriorityCopyBinder);
 DEFINE_IL2CPP_ARG_TYPE(::Zenject::DeclareSignalAsyncTickPriorityCopyBinder*, "Zenject", "DeclareSignalAsyncTickPriorityCopyBinder");

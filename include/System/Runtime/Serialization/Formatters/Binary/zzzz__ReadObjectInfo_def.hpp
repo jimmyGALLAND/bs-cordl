@@ -11,7 +11,8 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(ReadObjectInfo)
 namespace System::Collections::Generic {
-template <typename T> class List_1;
+template<typename T>
+class List_1;
 }
 namespace System::Reflection {
 class MemberInfo;
@@ -53,320 +54,304 @@ class ReadObjectInfo;
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo);
 // Type: System.Runtime.Serialization.Formatters.Binary::ReadObjectInfo
-// SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: false
 // CS Name: ::System.Runtime.Serialization.Formatters.Binary::ReadObjectInfo*
 class CORDL_TYPE ReadObjectInfo : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field bSimpleAssembly, offset 0x2f, size 0x1
-  __declspec(property(get = __cordl_internal_get_bSimpleAssembly, put = __cordl_internal_set_bSimpleAssembly)) bool bSimpleAssembly;
+// Declarations
+/// @brief Field bSimpleAssembly, offset 0x2f, size 0x1 
+ __declspec(property(get=__cordl_internal_get_bSimpleAssembly, put=__cordl_internal_set_bSimpleAssembly)) bool  bSimpleAssembly;
 
-  /// @brief Field cache, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_cache, put = __cordl_internal_set_cache))::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoCache* cache;
+/// @brief Field cache, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get_cache, put=__cordl_internal_set_cache)) ::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoCache*  cache;
 
-  /// @brief Field context, offset 0x58, size 0x10
-  __declspec(property(get = __cordl_internal_get_context, put = __cordl_internal_set_context))::System::Runtime::Serialization::StreamingContext context;
+/// @brief Field context, offset 0x58, size 0x10 
+ __declspec(property(get=__cordl_internal_get_context, put=__cordl_internal_set_context)) ::System::Runtime::Serialization::StreamingContext  context;
 
-  /// @brief Field count, offset 0x28, size 0x4
-  __declspec(property(get = __cordl_internal_get_count, put = __cordl_internal_set_count)) int32_t count;
+/// @brief Field count, offset 0x28, size 0x4 
+ __declspec(property(get=__cordl_internal_get_count, put=__cordl_internal_set_count)) int32_t  count;
 
-  /// @brief Field formatterConverter, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get_formatterConverter, put = __cordl_internal_set_formatterConverter))::System::Runtime::Serialization::IFormatterConverter* formatterConverter;
+/// @brief Field formatterConverter, offset 0x78, size 0x8 
+ __declspec(property(get=__cordl_internal_get_formatterConverter, put=__cordl_internal_set_formatterConverter)) ::System::Runtime::Serialization::IFormatterConverter*  formatterConverter;
 
-  /// @brief Field isNamed, offset 0x2d, size 0x1
-  __declspec(property(get = __cordl_internal_get_isNamed, put = __cordl_internal_set_isNamed)) bool isNamed;
+/// @brief Field isNamed, offset 0x2d, size 0x1 
+ __declspec(property(get=__cordl_internal_get_isNamed, put=__cordl_internal_set_isNamed)) bool  isNamed;
 
-  /// @brief Field isSi, offset 0x2c, size 0x1
-  __declspec(property(get = __cordl_internal_get_isSi, put = __cordl_internal_set_isSi)) bool isSi;
+/// @brief Field isSi, offset 0x2c, size 0x1 
+ __declspec(property(get=__cordl_internal_get_isSi, put=__cordl_internal_set_isSi)) bool  isSi;
 
-  /// @brief Field isTyped, offset 0x2e, size 0x1
-  __declspec(property(get = __cordl_internal_get_isTyped, put = __cordl_internal_set_isTyped)) bool isTyped;
+/// @brief Field isTyped, offset 0x2e, size 0x1 
+ __declspec(property(get=__cordl_internal_get_isTyped, put=__cordl_internal_set_isTyped)) bool  isTyped;
 
-  /// @brief Field lastPosition, offset 0x48, size 0x4
-  __declspec(property(get = __cordl_internal_get_lastPosition, put = __cordl_internal_set_lastPosition)) int32_t lastPosition;
+/// @brief Field lastPosition, offset 0x48, size 0x4 
+ __declspec(property(get=__cordl_internal_get_lastPosition, put=__cordl_internal_set_lastPosition)) int32_t  lastPosition;
 
-  /// @brief Field memberTypesList, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get_memberTypesList, put = __cordl_internal_set_memberTypesList))::System::Collections::Generic::List_1<::System::Type*>* memberTypesList;
+/// @brief Field memberTypesList, offset 0x68, size 0x8 
+ __declspec(property(get=__cordl_internal_get_memberTypesList, put=__cordl_internal_set_memberTypesList)) ::System::Collections::Generic::List_1<::System::Type*>*  memberTypesList;
 
-  /// @brief Field objectInfoId, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_objectInfoId, put = __cordl_internal_set_objectInfoId)) int32_t objectInfoId;
+/// @brief Field objectInfoId, offset 0x10, size 0x4 
+ __declspec(property(get=__cordl_internal_get_objectInfoId, put=__cordl_internal_set_objectInfoId)) int32_t  objectInfoId;
 
-  /// @brief Field objectManager, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_objectManager, put = __cordl_internal_set_objectManager))::System::Runtime::Serialization::ObjectManager* objectManager;
+/// @brief Field objectManager, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get_objectManager, put=__cordl_internal_set_objectManager)) ::System::Runtime::Serialization::ObjectManager*  objectManager;
 
-  /// @brief Field objectType, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_objectType, put = __cordl_internal_set_objectType))::System::Type* objectType;
+/// @brief Field objectType, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_objectType, put=__cordl_internal_set_objectType)) ::System::Type*  objectType;
 
-  /// @brief Field readObjectInfoCounter, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_readObjectInfoCounter, put = setStaticF_readObjectInfoCounter)) int32_t readObjectInfoCounter;
+/// @brief Field readObjectInfoCounter, offset 0xffffffff, size 0x4 
+static __declspec(property(get=getStaticF_readObjectInfoCounter, put=setStaticF_readObjectInfoCounter)) int32_t  readObjectInfoCounter;
 
-  /// @brief Field serObjectInfoInit, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get_serObjectInfoInit,
-                      put = __cordl_internal_set_serObjectInfoInit))::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit* serObjectInfoInit;
+/// @brief Field serObjectInfoInit, offset 0x70, size 0x8 
+ __declspec(property(get=__cordl_internal_get_serObjectInfoInit, put=__cordl_internal_set_serObjectInfoInit)) ::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit*  serObjectInfoInit;
 
-  /// @brief Field serializationSurrogate, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_serializationSurrogate,
-                      put = __cordl_internal_set_serializationSurrogate))::System::Runtime::Serialization::ISerializationSurrogate* serializationSurrogate;
+/// @brief Field serializationSurrogate, offset 0x50, size 0x8 
+ __declspec(property(get=__cordl_internal_get_serializationSurrogate, put=__cordl_internal_set_serializationSurrogate)) ::System::Runtime::Serialization::ISerializationSurrogate*  serializationSurrogate;
 
-  /// @brief Field wireMemberNames, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_wireMemberNames, put = __cordl_internal_set_wireMemberNames))::ArrayW<::StringW, ::Array<::StringW>*> wireMemberNames;
+/// @brief Field wireMemberNames, offset 0x38, size 0x8 
+ __declspec(property(get=__cordl_internal_get_wireMemberNames, put=__cordl_internal_set_wireMemberNames)) ::ArrayW<::StringW,::Array<::StringW>*>  wireMemberNames;
 
-  /// @brief Field wireMemberTypes, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_wireMemberTypes, put = __cordl_internal_set_wireMemberTypes))::ArrayW<::System::Type*, ::Array<::System::Type*>*> wireMemberTypes;
+/// @brief Field wireMemberTypes, offset 0x40, size 0x8 
+ __declspec(property(get=__cordl_internal_get_wireMemberTypes, put=__cordl_internal_set_wireMemberTypes)) ::ArrayW<::System::Type*,::Array<::System::Type*>*>  wireMemberTypes;
 
-  /// @brief Method AddValue, addr 0x287886c, size 0x98, virtual false, abstract: false, final false
-  inline void AddValue(::StringW name, ::System::Object* value, ByRef<::System::Runtime::Serialization::SerializationInfo*> si,
-                       ByRef<::ArrayW<::System::Object*, ::Array<::System::Object*>*>> memberData);
+/// @brief Method AddValue, addr 0x3c77c64, size 0x98, virtual false, abstract: false, final false
+inline void AddValue(::StringW  name, ::System::Object*  value, ByRef<::System::Runtime::Serialization::SerializationInfo*>  si, ByRef<::ArrayW<::System::Object*,::Array<::System::Object*>*>>  memberData) ;
 
-  /// @brief Method Create, addr 0x2877e7c, size 0x9c, virtual false, abstract: false, final false
-  static inline ::System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo*
-  Create(::System::Type* objectType, ::ArrayW<::StringW, ::Array<::StringW>*> memberNames, ::ArrayW<::System::Type*, ::Array<::System::Type*>*> memberTypes,
-         ::System::Runtime::Serialization::ISurrogateSelector* surrogateSelector, ::System::Runtime::Serialization::StreamingContext context,
-         ::System::Runtime::Serialization::ObjectManager* objectManager, ::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit* serObjectInfoInit,
-         ::System::Runtime::Serialization::IFormatterConverter* converter, bool bSimpleAssembly);
+/// @brief Method Create, addr 0x3c772f0, size 0x9c, virtual false, abstract: false, final false
+static inline ::System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo* Create(::System::Type*  objectType, ::ArrayW<::StringW,::Array<::StringW>*>  memberNames, ::ArrayW<::System::Type*,::Array<::System::Type*>*>  memberTypes, ::System::Runtime::Serialization::ISurrogateSelector*  surrogateSelector, ::System::Runtime::Serialization::StreamingContext  context, ::System::Runtime::Serialization::ObjectManager*  objectManager, ::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit*  serObjectInfoInit, ::System::Runtime::Serialization::IFormatterConverter*  converter, bool  bSimpleAssembly) ;
 
-  /// @brief Method Create, addr 0x2877bcc, size 0x88, virtual false, abstract: false, final false
-  static inline ::System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo* Create(::System::Type* objectType, ::System::Runtime::Serialization::ISurrogateSelector* surrogateSelector,
-                                                                                             ::System::Runtime::Serialization::StreamingContext context,
-                                                                                             ::System::Runtime::Serialization::ObjectManager* objectManager,
-                                                                                             ::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit* serObjectInfoInit,
-                                                                                             ::System::Runtime::Serialization::IFormatterConverter* converter, bool bSimpleAssembly);
+/// @brief Method Create, addr 0x3c77044, size 0x88, virtual false, abstract: false, final false
+static inline ::System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo* Create(::System::Type*  objectType, ::System::Runtime::Serialization::ISurrogateSelector*  surrogateSelector, ::System::Runtime::Serialization::StreamingContext  context, ::System::Runtime::Serialization::ObjectManager*  objectManager, ::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit*  serObjectInfoInit, ::System::Runtime::Serialization::IFormatterConverter*  converter, bool  bSimpleAssembly) ;
 
-  /// @brief Method GetMemberInfo, addr 0x28783cc, size 0x1bc, virtual false, abstract: false, final false
-  inline ::System::Reflection::MemberInfo* GetMemberInfo(::StringW name);
+/// @brief Method GetMemberInfo, addr 0x3c7780c, size 0x190, virtual false, abstract: false, final false
+inline ::System::Reflection::MemberInfo* GetMemberInfo(::StringW  name) ;
 
-  /// @brief Method GetMemberType, addr 0x287825c, size 0x170, virtual false, abstract: false, final false
-  inline ::System::Type* GetMemberType(::System::Reflection::MemberInfo* objMember);
+/// @brief Method GetMemberType, addr 0x3c776a4, size 0x168, virtual false, abstract: false, final false
+inline ::System::Type* GetMemberType(::System::Reflection::MemberInfo*  objMember) ;
 
-  /// @brief Method GetMemberTypes, addr 0x2878b14, size 0x4d0, virtual false, abstract: false, final false
-  inline ::ArrayW<::System::Type*, ::Array<::System::Type*>*> GetMemberTypes(::ArrayW<::StringW, ::Array<::StringW>*> inMemberNames, ::System::Type* objectType);
+/// @brief Method GetMemberTypes, addr 0x3c77f08, size 0x4f8, virtual false, abstract: false, final false
+inline ::ArrayW<::System::Type*,::Array<::System::Type*>*> GetMemberTypes(::ArrayW<::StringW,::Array<::StringW>*>  inMemberNames, ::System::Type*  objectType) ;
 
-  /// @brief Method GetObjectInfo, addr 0x2877c54, size 0x70, virtual false, abstract: false, final false
-  static inline ::System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo* GetObjectInfo(::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit* serObjectInfoInit);
+/// @brief Method GetObjectInfo, addr 0x3c770cc, size 0x70, virtual false, abstract: false, final false
+static inline ::System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo* GetObjectInfo(::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit*  serObjectInfoInit) ;
 
-  /// @brief Method GetType, addr 0x28786bc, size 0x1b0, virtual false, abstract: false, final false
-  inline ::System::Type* GetType(::StringW name);
+/// @brief Method GetType, addr 0x3c77ad0, size 0x194, virtual false, abstract: false, final false
+inline ::System::Type* GetType(::StringW  name) ;
 
-  /// @brief Method Init, addr 0x2877f18, size 0x50, virtual false, abstract: false, final false
-  inline void Init(::System::Type* objectType, ::ArrayW<::StringW, ::Array<::StringW>*> memberNames, ::ArrayW<::System::Type*, ::Array<::System::Type*>*> memberTypes,
-                   ::System::Runtime::Serialization::ISurrogateSelector* surrogateSelector, ::System::Runtime::Serialization::StreamingContext context,
-                   ::System::Runtime::Serialization::ObjectManager* objectManager, ::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit* serObjectInfoInit,
-                   ::System::Runtime::Serialization::IFormatterConverter* converter, bool bSimpleAssembly);
+/// @brief Method Init, addr 0x3c7738c, size 0x50, virtual false, abstract: false, final false
+inline void Init(::System::Type*  objectType, ::ArrayW<::StringW,::Array<::StringW>*>  memberNames, ::ArrayW<::System::Type*,::Array<::System::Type*>*>  memberTypes, ::System::Runtime::Serialization::ISurrogateSelector*  surrogateSelector, ::System::Runtime::Serialization::StreamingContext  context, ::System::Runtime::Serialization::ObjectManager*  objectManager, ::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit*  serObjectInfoInit, ::System::Runtime::Serialization::IFormatterConverter*  converter, bool  bSimpleAssembly) ;
 
-  /// @brief Method Init, addr 0x2877cc4, size 0x1c, virtual false, abstract: false, final false
-  inline void Init(::System::Type* objectType, ::System::Runtime::Serialization::ISurrogateSelector* surrogateSelector, ::System::Runtime::Serialization::StreamingContext context,
-                   ::System::Runtime::Serialization::ObjectManager* objectManager, ::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit* serObjectInfoInit,
-                   ::System::Runtime::Serialization::IFormatterConverter* converter, bool bSimpleAssembly);
+/// @brief Method Init, addr 0x3c7713c, size 0x1c, virtual false, abstract: false, final false
+inline void Init(::System::Type*  objectType, ::System::Runtime::Serialization::ISurrogateSelector*  surrogateSelector, ::System::Runtime::Serialization::StreamingContext  context, ::System::Runtime::Serialization::ObjectManager*  objectManager, ::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit*  serObjectInfoInit, ::System::Runtime::Serialization::IFormatterConverter*  converter, bool  bSimpleAssembly) ;
 
-  /// @brief Method InitDataStore, addr 0x2878904, size 0xd0, virtual false, abstract: false, final false
-  inline void InitDataStore(ByRef<::System::Runtime::Serialization::SerializationInfo*> si, ByRef<::ArrayW<::System::Object*, ::Array<::System::Object*>*>> memberData);
+/// @brief Method InitDataStore, addr 0x3c77cfc, size 0xcc, virtual false, abstract: false, final false
+inline void InitDataStore(ByRef<::System::Runtime::Serialization::SerializationInfo*>  si, ByRef<::ArrayW<::System::Object*,::Array<::System::Object*>*>>  memberData) ;
 
-  /// @brief Method InitMemberInfo, addr 0x287804c, size 0x210, virtual false, abstract: false, final false
-  inline void InitMemberInfo();
+/// @brief Method InitMemberInfo, addr 0x3c774b0, size 0x1f4, virtual false, abstract: false, final false
+inline void InitMemberInfo() ;
 
-  /// @brief Method InitNoMembers, addr 0x2877f68, size 0x64, virtual false, abstract: false, final false
-  inline void InitNoMembers();
+/// @brief Method InitNoMembers, addr 0x3c773dc, size 0x5c, virtual false, abstract: false, final false
+inline void InitNoMembers() ;
 
-  /// @brief Method InitReadConstructor, addr 0x2877ce0, size 0x19c, virtual false, abstract: false, final false
-  inline void InitReadConstructor(::System::Type* objectType, ::System::Runtime::Serialization::ISurrogateSelector* surrogateSelector, ::System::Runtime::Serialization::StreamingContext context);
+/// @brief Method InitReadConstructor, addr 0x3c77158, size 0x198, virtual false, abstract: false, final false
+inline void InitReadConstructor(::System::Type*  objectType, ::System::Runtime::Serialization::ISurrogateSelector*  surrogateSelector, ::System::Runtime::Serialization::StreamingContext  context) ;
 
-  /// @brief Method InitSiRead, addr 0x2877fcc, size 0x80, virtual false, abstract: false, final false
-  inline void InitSiRead();
+/// @brief Method InitSiRead, addr 0x3c77438, size 0x78, virtual false, abstract: false, final false
+inline void InitSiRead() ;
 
-  static inline ::System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo* New_ctor();
+static inline ::System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo* New_ctor() ;
 
-  /// @brief Method ObjectEnd, addr 0x2877bc0, size 0x4, virtual false, abstract: false, final false
-  inline void ObjectEnd();
+/// @brief Method ObjectEnd, addr 0x3c77038, size 0x4, virtual false, abstract: false, final false
+inline void ObjectEnd() ;
 
-  /// @brief Method PopulateObjectMembers, addr 0x2878a78, size 0x9c, virtual false, abstract: false, final false
-  inline void PopulateObjectMembers(::System::Object* obj, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> memberData);
+/// @brief Method PopulateObjectMembers, addr 0x3c77e6c, size 0x9c, virtual false, abstract: false, final false
+inline void PopulateObjectMembers(::System::Object*  obj, ::ArrayW<::System::Object*,::Array<::System::Object*>*>  memberData) ;
 
-  /// @brief Method Position, addr 0x2878588, size 0x134, virtual false, abstract: false, final false
-  inline int32_t Position(::StringW name);
+/// @brief Method Position, addr 0x3c7799c, size 0x134, virtual false, abstract: false, final false
+inline int32_t Position(::StringW  name) ;
 
-  /// @brief Method PrepareForReuse, addr 0x2877bc4, size 0x8, virtual false, abstract: false, final false
-  inline void PrepareForReuse();
+/// @brief Method PrepareForReuse, addr 0x3c7703c, size 0x8, virtual false, abstract: false, final false
+inline void PrepareForReuse() ;
 
-  /// @brief Method RecordFixup, addr 0x28789d4, size 0xa4, virtual false, abstract: false, final false
-  inline void RecordFixup(int64_t objectId, ::StringW name, int64_t idRef);
+/// @brief Method RecordFixup, addr 0x3c77dc8, size 0xa4, virtual false, abstract: false, final false
+inline void RecordFixup(int64_t  objectId, ::StringW  name, int64_t  idRef) ;
 
-  constexpr bool const& __cordl_internal_get_bSimpleAssembly() const;
+constexpr bool const& __cordl_internal_get_bSimpleAssembly() const;
 
-  constexpr bool& __cordl_internal_get_bSimpleAssembly();
+constexpr bool& __cordl_internal_get_bSimpleAssembly() ;
 
-  constexpr ::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoCache*& __cordl_internal_get_cache();
+constexpr ::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoCache*& __cordl_internal_get_cache() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoCache*> const& __cordl_internal_get_cache() const;
+constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoCache*> const& __cordl_internal_get_cache() const;
 
-  constexpr ::System::Runtime::Serialization::StreamingContext const& __cordl_internal_get_context() const;
+constexpr ::System::Runtime::Serialization::StreamingContext const& __cordl_internal_get_context() const;
 
-  constexpr ::System::Runtime::Serialization::StreamingContext& __cordl_internal_get_context();
+constexpr ::System::Runtime::Serialization::StreamingContext& __cordl_internal_get_context() ;
 
-  constexpr int32_t const& __cordl_internal_get_count() const;
+constexpr int32_t const& __cordl_internal_get_count() const;
 
-  constexpr int32_t& __cordl_internal_get_count();
+constexpr int32_t& __cordl_internal_get_count() ;
 
-  constexpr ::System::Runtime::Serialization::IFormatterConverter*& __cordl_internal_get_formatterConverter();
+constexpr ::System::Runtime::Serialization::IFormatterConverter*& __cordl_internal_get_formatterConverter() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::IFormatterConverter*> const& __cordl_internal_get_formatterConverter() const;
+constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::IFormatterConverter*> const& __cordl_internal_get_formatterConverter() const;
 
-  constexpr bool const& __cordl_internal_get_isNamed() const;
+constexpr bool const& __cordl_internal_get_isNamed() const;
 
-  constexpr bool& __cordl_internal_get_isNamed();
+constexpr bool& __cordl_internal_get_isNamed() ;
 
-  constexpr bool const& __cordl_internal_get_isSi() const;
+constexpr bool const& __cordl_internal_get_isSi() const;
 
-  constexpr bool& __cordl_internal_get_isSi();
+constexpr bool& __cordl_internal_get_isSi() ;
 
-  constexpr bool const& __cordl_internal_get_isTyped() const;
+constexpr bool const& __cordl_internal_get_isTyped() const;
 
-  constexpr bool& __cordl_internal_get_isTyped();
+constexpr bool& __cordl_internal_get_isTyped() ;
 
-  constexpr int32_t const& __cordl_internal_get_lastPosition() const;
+constexpr int32_t const& __cordl_internal_get_lastPosition() const;
 
-  constexpr int32_t& __cordl_internal_get_lastPosition();
+constexpr int32_t& __cordl_internal_get_lastPosition() ;
 
-  constexpr ::System::Collections::Generic::List_1<::System::Type*>*& __cordl_internal_get_memberTypesList();
+constexpr ::System::Collections::Generic::List_1<::System::Type*>*& __cordl_internal_get_memberTypesList() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Type*>*> const& __cordl_internal_get_memberTypesList() const;
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::System::Type*>*> const& __cordl_internal_get_memberTypesList() const;
 
-  constexpr int32_t const& __cordl_internal_get_objectInfoId() const;
+constexpr int32_t const& __cordl_internal_get_objectInfoId() const;
 
-  constexpr int32_t& __cordl_internal_get_objectInfoId();
+constexpr int32_t& __cordl_internal_get_objectInfoId() ;
 
-  constexpr ::System::Runtime::Serialization::ObjectManager*& __cordl_internal_get_objectManager();
+constexpr ::System::Runtime::Serialization::ObjectManager*& __cordl_internal_get_objectManager() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::ObjectManager*> const& __cordl_internal_get_objectManager() const;
+constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::ObjectManager*> const& __cordl_internal_get_objectManager() const;
 
-  constexpr ::System::Type*& __cordl_internal_get_objectType();
+constexpr ::System::Type*& __cordl_internal_get_objectType() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get_objectType() const;
+constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get_objectType() const;
 
-  constexpr ::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit*& __cordl_internal_get_serObjectInfoInit();
+constexpr ::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit*& __cordl_internal_get_serObjectInfoInit() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit*> const& __cordl_internal_get_serObjectInfoInit() const;
+constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit*> const& __cordl_internal_get_serObjectInfoInit() const;
 
-  constexpr ::System::Runtime::Serialization::ISerializationSurrogate*& __cordl_internal_get_serializationSurrogate();
+constexpr ::System::Runtime::Serialization::ISerializationSurrogate*& __cordl_internal_get_serializationSurrogate() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::ISerializationSurrogate*> const& __cordl_internal_get_serializationSurrogate() const;
+constexpr ::cordl_internals::to_const_pointer<::System::Runtime::Serialization::ISerializationSurrogate*> const& __cordl_internal_get_serializationSurrogate() const;
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get_wireMemberNames() const;
+constexpr ::ArrayW<::StringW,::Array<::StringW>*> const& __cordl_internal_get_wireMemberNames() const;
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get_wireMemberNames();
+constexpr ::ArrayW<::StringW,::Array<::StringW>*>& __cordl_internal_get_wireMemberNames() ;
 
-  constexpr ::ArrayW<::System::Type*, ::Array<::System::Type*>*> const& __cordl_internal_get_wireMemberTypes() const;
+constexpr ::ArrayW<::System::Type*,::Array<::System::Type*>*> const& __cordl_internal_get_wireMemberTypes() const;
 
-  constexpr ::ArrayW<::System::Type*, ::Array<::System::Type*>*>& __cordl_internal_get_wireMemberTypes();
+constexpr ::ArrayW<::System::Type*,::Array<::System::Type*>*>& __cordl_internal_get_wireMemberTypes() ;
 
-  constexpr void __cordl_internal_set_bSimpleAssembly(bool value);
+constexpr void __cordl_internal_set_bSimpleAssembly(bool  value) ;
 
-  constexpr void __cordl_internal_set_cache(::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoCache* value);
+constexpr void __cordl_internal_set_cache(::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoCache*  value) ;
 
-  constexpr void __cordl_internal_set_context(::System::Runtime::Serialization::StreamingContext value);
+constexpr void __cordl_internal_set_context(::System::Runtime::Serialization::StreamingContext  value) ;
 
-  constexpr void __cordl_internal_set_count(int32_t value);
+constexpr void __cordl_internal_set_count(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_formatterConverter(::System::Runtime::Serialization::IFormatterConverter* value);
+constexpr void __cordl_internal_set_formatterConverter(::System::Runtime::Serialization::IFormatterConverter*  value) ;
 
-  constexpr void __cordl_internal_set_isNamed(bool value);
+constexpr void __cordl_internal_set_isNamed(bool  value) ;
 
-  constexpr void __cordl_internal_set_isSi(bool value);
+constexpr void __cordl_internal_set_isSi(bool  value) ;
 
-  constexpr void __cordl_internal_set_isTyped(bool value);
+constexpr void __cordl_internal_set_isTyped(bool  value) ;
 
-  constexpr void __cordl_internal_set_lastPosition(int32_t value);
+constexpr void __cordl_internal_set_lastPosition(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_memberTypesList(::System::Collections::Generic::List_1<::System::Type*>* value);
+constexpr void __cordl_internal_set_memberTypesList(::System::Collections::Generic::List_1<::System::Type*>*  value) ;
 
-  constexpr void __cordl_internal_set_objectInfoId(int32_t value);
+constexpr void __cordl_internal_set_objectInfoId(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_objectManager(::System::Runtime::Serialization::ObjectManager* value);
+constexpr void __cordl_internal_set_objectManager(::System::Runtime::Serialization::ObjectManager*  value) ;
 
-  constexpr void __cordl_internal_set_objectType(::System::Type* value);
+constexpr void __cordl_internal_set_objectType(::System::Type*  value) ;
 
-  constexpr void __cordl_internal_set_serObjectInfoInit(::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit* value);
+constexpr void __cordl_internal_set_serObjectInfoInit(::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit*  value) ;
 
-  constexpr void __cordl_internal_set_serializationSurrogate(::System::Runtime::Serialization::ISerializationSurrogate* value);
+constexpr void __cordl_internal_set_serializationSurrogate(::System::Runtime::Serialization::ISerializationSurrogate*  value) ;
 
-  constexpr void __cordl_internal_set_wireMemberNames(::ArrayW<::StringW, ::Array<::StringW>*> value);
+constexpr void __cordl_internal_set_wireMemberNames(::ArrayW<::StringW,::Array<::StringW>*>  value) ;
 
-  constexpr void __cordl_internal_set_wireMemberTypes(::ArrayW<::System::Type*, ::Array<::System::Type*>*> value);
+constexpr void __cordl_internal_set_wireMemberTypes(::ArrayW<::System::Type*,::Array<::System::Type*>*>  value) ;
 
-  /// @brief Method .ctor, addr 0x2877bb8, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x3c77030, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  static inline int32_t getStaticF_readObjectInfoCounter();
+static inline int32_t getStaticF_readObjectInfoCounter() ;
 
-  static inline void setStaticF_readObjectInfoCounter(int32_t value);
+static inline void setStaticF_readObjectInfoCounter(int32_t  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ReadObjectInfo();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ReadObjectInfo() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ReadObjectInfo", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ReadObjectInfo(ReadObjectInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ReadObjectInfo", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ReadObjectInfo(ReadObjectInfo const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ReadObjectInfo", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ReadObjectInfo(ReadObjectInfo && ) = delete;
 
-  /// @brief Field objectInfoId, offset: 0x10, size: 0x4, def value: None
-  int32_t ___objectInfoId;
+// Ctor Parameters [CppParam { name: "", ty: "ReadObjectInfo", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ReadObjectInfo(ReadObjectInfo const& ) = delete;
 
-  /// @brief Field objectType, offset: 0x18, size: 0x8, def value: None
-  ::System::Type* ___objectType;
+/// @brief Field objectInfoId, offset: 0x10, size: 0x4, def value: None
+ int32_t  ___objectInfoId;
 
-  /// @brief Field objectManager, offset: 0x20, size: 0x8, def value: None
-  ::System::Runtime::Serialization::ObjectManager* ___objectManager;
+/// @brief Field objectType, offset: 0x18, size: 0x8, def value: None
+ ::System::Type*  ___objectType;
 
-  /// @brief Field count, offset: 0x28, size: 0x4, def value: None
-  int32_t ___count;
+/// @brief Field objectManager, offset: 0x20, size: 0x8, def value: None
+ ::System::Runtime::Serialization::ObjectManager*  ___objectManager;
 
-  /// @brief Field isSi, offset: 0x2c, size: 0x1, def value: None
-  bool ___isSi;
+/// @brief Field count, offset: 0x28, size: 0x4, def value: None
+ int32_t  ___count;
 
-  /// @brief Field isNamed, offset: 0x2d, size: 0x1, def value: None
-  bool ___isNamed;
+/// @brief Field isSi, offset: 0x2c, size: 0x1, def value: None
+ bool  ___isSi;
 
-  /// @brief Field isTyped, offset: 0x2e, size: 0x1, def value: None
-  bool ___isTyped;
+/// @brief Field isNamed, offset: 0x2d, size: 0x1, def value: None
+ bool  ___isNamed;
 
-  /// @brief Field bSimpleAssembly, offset: 0x2f, size: 0x1, def value: None
-  bool ___bSimpleAssembly;
+/// @brief Field isTyped, offset: 0x2e, size: 0x1, def value: None
+ bool  ___isTyped;
 
-  /// @brief Field cache, offset: 0x30, size: 0x8, def value: None
-  ::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoCache* ___cache;
+/// @brief Field bSimpleAssembly, offset: 0x2f, size: 0x1, def value: None
+ bool  ___bSimpleAssembly;
 
-  /// @brief Field wireMemberNames, offset: 0x38, size: 0x8, def value: None
-  ::ArrayW<::StringW, ::Array<::StringW>*> ___wireMemberNames;
+/// @brief Field cache, offset: 0x30, size: 0x8, def value: None
+ ::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoCache*  ___cache;
 
-  /// @brief Field wireMemberTypes, offset: 0x40, size: 0x8, def value: None
-  ::ArrayW<::System::Type*, ::Array<::System::Type*>*> ___wireMemberTypes;
+/// @brief Field wireMemberNames, offset: 0x38, size: 0x8, def value: None
+ ::ArrayW<::StringW,::Array<::StringW>*>  ___wireMemberNames;
 
-  /// @brief Field lastPosition, offset: 0x48, size: 0x4, def value: None
-  int32_t ___lastPosition;
+/// @brief Field wireMemberTypes, offset: 0x40, size: 0x8, def value: None
+ ::ArrayW<::System::Type*,::Array<::System::Type*>*>  ___wireMemberTypes;
 
-  /// @brief Field serializationSurrogate, offset: 0x50, size: 0x8, def value: None
-  ::System::Runtime::Serialization::ISerializationSurrogate* ___serializationSurrogate;
+/// @brief Field lastPosition, offset: 0x48, size: 0x4, def value: None
+ int32_t  ___lastPosition;
 
-  /// @brief Field context, offset: 0x58, size: 0x10, def value: None
-  ::System::Runtime::Serialization::StreamingContext ___context;
+/// @brief Field serializationSurrogate, offset: 0x50, size: 0x8, def value: None
+ ::System::Runtime::Serialization::ISerializationSurrogate*  ___serializationSurrogate;
 
-  /// @brief Field memberTypesList, offset: 0x68, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::System::Type*>* ___memberTypesList;
+/// @brief Field context, offset: 0x58, size: 0x10, def value: None
+ ::System::Runtime::Serialization::StreamingContext  ___context;
 
-  /// @brief Field serObjectInfoInit, offset: 0x70, size: 0x8, def value: None
-  ::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit* ___serObjectInfoInit;
+/// @brief Field memberTypesList, offset: 0x68, size: 0x8, def value: None
+ ::System::Collections::Generic::List_1<::System::Type*>*  ___memberTypesList;
 
-  /// @brief Field formatterConverter, offset: 0x78, size: 0x8, def value: None
-  ::System::Runtime::Serialization::IFormatterConverter* ___formatterConverter;
+/// @brief Field serObjectInfoInit, offset: 0x70, size: 0x8, def value: None
+ ::System::Runtime::Serialization::Formatters::Binary::SerObjectInfoInit*  ___serObjectInfoInit;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field formatterConverter, offset: 0x78, size: 0x8, def value: None
+ ::System::Runtime::Serialization::IFormatterConverter*  ___formatterConverter;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo, 0x80>, "Size mismatch!");
@@ -405,6 +390,6 @@ static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::Rea
 
 static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo, ___formatterConverter) == 0x78, "Offset mismatch!");
 
-} // namespace System::Runtime::Serialization::Formatters::Binary
+} // namespace end def System::Runtime::Serialization::Formatters::Binary
 NEED_NO_BOX(::System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo);
 DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::Formatters::Binary::ReadObjectInfo*, "System.Runtime.Serialization.Formatters.Binary", "ReadObjectInfo");

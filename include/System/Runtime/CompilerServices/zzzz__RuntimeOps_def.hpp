@@ -21,47 +21,47 @@ class RuntimeOps;
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::CompilerServices::RuntimeOps);
 // Type: System.Runtime.CompilerServices::RuntimeOps
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::CompilerServices {
 // Is value type: false
 // CS Name: ::System.Runtime.CompilerServices::RuntimeOps*
 class CORDL_TYPE RuntimeOps : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method ExpandoCheckVersion, addr 0x2c80eb0, size 0x28, virtual false, abstract: false, final false
-  static inline bool ExpandoCheckVersion(::System::Dynamic::ExpandoObject* expando, ::System::Object* version);
+// Declarations
+/// @brief Method ExpandoCheckVersion, addr 0x4068f5c, size 0x28, virtual false, abstract: false, final false
+static inline bool ExpandoCheckVersion(::System::Dynamic::ExpandoObject*  expando, ::System::Object*  version) ;
 
-  /// @brief Method ExpandoPromoteClass, addr 0x2c80ef4, size 0x10, virtual false, abstract: false, final false
-  static inline void ExpandoPromoteClass(::System::Dynamic::ExpandoObject* expando, ::System::Object* oldClass, ::System::Object* newClass);
+/// @brief Method ExpandoPromoteClass, addr 0x4068fa0, size 0x10, virtual false, abstract: false, final false
+static inline void ExpandoPromoteClass(::System::Dynamic::ExpandoObject*  expando, ::System::Object*  oldClass, ::System::Object*  newClass) ;
 
-  /// @brief Method ExpandoTryDeleteValue, addr 0x2c80b04, size 0x98, virtual false, abstract: false, final false
-  static inline bool ExpandoTryDeleteValue(::System::Dynamic::ExpandoObject* expando, ::System::Object* indexClass, int32_t index, ::StringW name, bool ignoreCase);
+/// @brief Method ExpandoTryDeleteValue, addr 0x4068bb4, size 0x98, virtual false, abstract: false, final false
+static inline bool ExpandoTryDeleteValue(::System::Dynamic::ExpandoObject*  expando, ::System::Object*  indexClass, int32_t  index, ::StringW  name, bool  ignoreCase) ;
 
-  /// @brief Method ExpandoTryGetValue, addr 0x2c80604, size 0x14, virtual false, abstract: false, final false
-  static inline bool ExpandoTryGetValue(::System::Dynamic::ExpandoObject* expando, ::System::Object* indexClass, int32_t index, ::StringW name, bool ignoreCase, ByRef<::System::Object*> value);
+/// @brief Method ExpandoTryGetValue, addr 0x40686b8, size 0x14, virtual false, abstract: false, final false
+static inline bool ExpandoTryGetValue(::System::Dynamic::ExpandoObject*  expando, ::System::Object*  indexClass, int32_t  index, ::StringW  name, bool  ignoreCase, ByRef<::System::Object*>  value) ;
 
-  /// @brief Method ExpandoTrySetValue, addr 0x2c80740, size 0x28, virtual false, abstract: false, final false
-  static inline ::System::Object* ExpandoTrySetValue(::System::Dynamic::ExpandoObject* expando, ::System::Object* indexClass, int32_t index, ::System::Object* value, ::StringW name, bool ignoreCase);
+/// @brief Method ExpandoTrySetValue, addr 0x40687f4, size 0x28, virtual false, abstract: false, final false
+static inline ::System::Object* ExpandoTrySetValue(::System::Dynamic::ExpandoObject*  expando, ::System::Object*  indexClass, int32_t  index, ::System::Object*  value, ::StringW  name, bool  ignoreCase) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr RuntimeOps();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr RuntimeOps() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RuntimeOps", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  RuntimeOps(RuntimeOps&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RuntimeOps", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  RuntimeOps(RuntimeOps const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "RuntimeOps", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+RuntimeOps(RuntimeOps && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "RuntimeOps", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+RuntimeOps(RuntimeOps const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::CompilerServices::RuntimeOps, 0x10>, "Size mismatch!");
 
-} // namespace System::Runtime::CompilerServices
+} // namespace end def System::Runtime::CompilerServices
 NEED_NO_BOX(::System::Runtime::CompilerServices::RuntimeOps);
 DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::CompilerServices::RuntimeOps*, "System.Runtime.CompilerServices", "RuntimeOps");

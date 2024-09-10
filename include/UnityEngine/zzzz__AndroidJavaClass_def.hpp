@@ -17,45 +17,45 @@ class AndroidJavaClass;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::AndroidJavaClass);
 // Type: UnityEngine::AndroidJavaClass
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
 // CS Name: ::UnityEngine::AndroidJavaClass*
 class CORDL_TYPE AndroidJavaClass : public ::UnityEngine::AndroidJavaObject {
 public:
-  // Declarations
-  static inline ::UnityEngine::AndroidJavaClass* New_ctor(::StringW className);
+// Declarations
+static inline ::UnityEngine::AndroidJavaClass* New_ctor(::StringW  className) ;
 
-  static inline ::UnityEngine::AndroidJavaClass* New_ctor(::System::IntPtr jclass);
+static inline ::UnityEngine::AndroidJavaClass* New_ctor(::System::IntPtr  jclass) ;
 
-  /// @brief Method _AndroidJavaClass, addr 0x33f489c, size 0xc0, virtual false, abstract: false, final false
-  inline void _AndroidJavaClass(::StringW className);
+/// @brief Method _AndroidJavaClass, addr 0x47b767c, size 0xbc, virtual false, abstract: false, final false
+inline void _AndroidJavaClass(::StringW  className) ;
 
-  /// @brief Method .ctor, addr 0x33f1248, size 0x2c, virtual false, abstract: false, final false
-  inline void _ctor(::StringW className);
+/// @brief Method .ctor, addr 0x47b3cdc, size 0x2c, virtual false, abstract: false, final false
+inline void _ctor(::StringW  className) ;
 
-  /// @brief Method .ctor, addr 0x33f40b0, size 0xf4, virtual false, abstract: false, final false
-  inline void _ctor(::System::IntPtr jclass);
+/// @brief Method .ctor, addr 0x47b710c, size 0xc4, virtual false, abstract: false, final false
+inline void _ctor(::System::IntPtr  jclass) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AndroidJavaClass();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr AndroidJavaClass() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AndroidJavaClass", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  AndroidJavaClass(AndroidJavaClass&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AndroidJavaClass", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  AndroidJavaClass(AndroidJavaClass const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "AndroidJavaClass", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+AndroidJavaClass(AndroidJavaClass && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "AndroidJavaClass", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+AndroidJavaClass(AndroidJavaClass const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::AndroidJavaClass, 0x20>, "Size mismatch!");
 
-} // namespace UnityEngine
+} // namespace end def UnityEngine
 NEED_NO_BOX(::UnityEngine::AndroidJavaClass);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AndroidJavaClass*, "UnityEngine", "AndroidJavaClass");

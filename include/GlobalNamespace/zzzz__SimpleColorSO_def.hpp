@@ -16,59 +16,59 @@ class SimpleColorSO;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::SimpleColorSO);
 // Type: ::SimpleColorSO
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::SimpleColorSO*
 class CORDL_TYPE SimpleColorSO : public ::GlobalNamespace::ColorSO {
 public:
-  // Declarations
-  /// @brief Field _color, offset 0x18, size 0x10
-  __declspec(property(get = __cordl_internal_get__color, put = __cordl_internal_set__color))::UnityEngine::Color _color;
+// Declarations
+/// @brief Field _color, offset 0x18, size 0x10 
+ __declspec(property(get=__cordl_internal_get__color, put=__cordl_internal_set__color)) ::UnityEngine::Color  _color;
 
-  __declspec(property(get = get_color))::UnityEngine::Color color;
+ __declspec(property(get=get_color)) ::UnityEngine::Color  color;
 
-  static inline ::GlobalNamespace::SimpleColorSO* New_ctor();
+static inline ::GlobalNamespace::SimpleColorSO* New_ctor() ;
 
-  /// @brief Method SetColor, addr 0x14a0d18, size 0xc, virtual false, abstract: false, final false
-  inline void SetColor(::UnityEngine::Color c);
+/// @brief Method SetColor, addr 0x26552a8, size 0xc, virtual false, abstract: false, final false
+inline void SetColor(::UnityEngine::Color  c) ;
 
-  constexpr ::UnityEngine::Color const& __cordl_internal_get__color() const;
+constexpr ::UnityEngine::Color const& __cordl_internal_get__color() const;
 
-  constexpr ::UnityEngine::Color& __cordl_internal_get__color();
+constexpr ::UnityEngine::Color& __cordl_internal_get__color() ;
 
-  constexpr void __cordl_internal_set__color(::UnityEngine::Color value);
+constexpr void __cordl_internal_set__color(::UnityEngine::Color  value) ;
 
-  /// @brief Method .ctor, addr 0x14a0d24, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x26552b4, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_color, addr 0x14a0d0c, size 0xc, virtual true, abstract: false, final false
-  inline ::UnityEngine::Color get_color();
+/// @brief Method get_color, addr 0x265529c, size 0xc, virtual true, abstract: false, final false
+inline ::UnityEngine::Color get_color() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SimpleColorSO();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr SimpleColorSO() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SimpleColorSO", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  SimpleColorSO(SimpleColorSO&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SimpleColorSO", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  SimpleColorSO(SimpleColorSO const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "SimpleColorSO", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+SimpleColorSO(SimpleColorSO && ) = delete;
 
-  /// @brief Field _color, offset: 0x18, size: 0x10, def value: None
-  ::UnityEngine::Color ____color;
+// Ctor Parameters [CppParam { name: "", ty: "SimpleColorSO", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+SimpleColorSO(SimpleColorSO const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _color, offset: 0x18, size: 0x10, def value: None
+ ::UnityEngine::Color  ____color;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SimpleColorSO, 0x28>, "Size mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::SimpleColorSO, ____color) == 0x18, "Offset mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SimpleColorSO);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SimpleColorSO*, "", "SimpleColorSO");

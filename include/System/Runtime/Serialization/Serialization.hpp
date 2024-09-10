@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "System/Runtime/Serialization/DataContractAttribute.hpp"
 #include "System/Runtime/Serialization/DataMemberAttribute.hpp"
@@ -53,5 +53,6 @@ module;
 #include "System/Runtime/Serialization/TypeLoadExceptionHolder.hpp"
 #include "System/Runtime/Serialization/ValueTypeFixupInfo.hpp"
 #ifdef __cpp_modules
-export module Serialization;
-#endif
+                    export module Serialization;
+                    #endif
+                

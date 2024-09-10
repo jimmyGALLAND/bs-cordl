@@ -33,6 +33,9 @@ namespace UnityEngine::PlayerLoop {
 struct __EarlyUpdate__PerformanceAnalyticsUpdate;
 }
 namespace UnityEngine::PlayerLoop {
+struct __EarlyUpdate__Physics2DEarlyUpdate;
+}
+namespace UnityEngine::PlayerLoop {
 struct __EarlyUpdate__PhysicsResetInterpolatedTransformPosition;
 }
 namespace UnityEngine::PlayerLoop {
@@ -72,10 +75,16 @@ namespace UnityEngine::PlayerLoop {
 struct __EarlyUpdate__UnityWebRequestUpdate;
 }
 namespace UnityEngine::PlayerLoop {
+struct __EarlyUpdate__UpdateAsyncInstantiate;
+}
+namespace UnityEngine::PlayerLoop {
 struct __EarlyUpdate__UpdateAsyncReadbackManager;
 }
 namespace UnityEngine::PlayerLoop {
 struct __EarlyUpdate__UpdateCanvasRectTransform;
+}
+namespace UnityEngine::PlayerLoop {
+struct __EarlyUpdate__UpdateContentLoading;
 }
 namespace UnityEngine::PlayerLoop {
 struct __EarlyUpdate__UpdateInputManager;
@@ -130,6 +139,9 @@ namespace UnityEngine::PlayerLoop {
 struct __EarlyUpdate__PerformanceAnalyticsUpdate;
 }
 namespace UnityEngine::PlayerLoop {
+struct __EarlyUpdate__Physics2DEarlyUpdate;
+}
+namespace UnityEngine::PlayerLoop {
 struct __EarlyUpdate__PhysicsResetInterpolatedTransformPosition;
 }
 namespace UnityEngine::PlayerLoop {
@@ -169,10 +181,16 @@ namespace UnityEngine::PlayerLoop {
 struct __EarlyUpdate__UnityWebRequestUpdate;
 }
 namespace UnityEngine::PlayerLoop {
+struct __EarlyUpdate__UpdateAsyncInstantiate;
+}
+namespace UnityEngine::PlayerLoop {
 struct __EarlyUpdate__UpdateAsyncReadbackManager;
 }
 namespace UnityEngine::PlayerLoop {
 struct __EarlyUpdate__UpdateCanvasRectTransform;
+}
+namespace UnityEngine::PlayerLoop {
+struct __EarlyUpdate__UpdateContentLoading;
 }
 namespace UnityEngine::PlayerLoop {
 struct __EarlyUpdate__UpdateInputManager;
@@ -206,6 +224,7 @@ MARK_VAL_T(::UnityEngine::PlayerLoop::__EarlyUpdate__DispatchEventQueueEvents);
 MARK_VAL_T(::UnityEngine::PlayerLoop::__EarlyUpdate__ExecuteMainThreadJobs);
 MARK_VAL_T(::UnityEngine::PlayerLoop::__EarlyUpdate__GpuTimestamp);
 MARK_VAL_T(::UnityEngine::PlayerLoop::__EarlyUpdate__PerformanceAnalyticsUpdate);
+MARK_VAL_T(::UnityEngine::PlayerLoop::__EarlyUpdate__Physics2DEarlyUpdate);
 MARK_VAL_T(::UnityEngine::PlayerLoop::__EarlyUpdate__PhysicsResetInterpolatedTransformPosition);
 MARK_VAL_T(::UnityEngine::PlayerLoop::__EarlyUpdate__PlayerCleanupCachedData);
 MARK_VAL_T(::UnityEngine::PlayerLoop::__EarlyUpdate__PollHtcsPlayerConnection);
@@ -219,8 +238,10 @@ MARK_VAL_T(::UnityEngine::PlayerLoop::__EarlyUpdate__ScriptRunDelayedStartupFram
 MARK_VAL_T(::UnityEngine::PlayerLoop::__EarlyUpdate__SpriteAtlasManagerUpdate);
 MARK_VAL_T(::UnityEngine::PlayerLoop::__EarlyUpdate__TangoUpdate);
 MARK_VAL_T(::UnityEngine::PlayerLoop::__EarlyUpdate__UnityWebRequestUpdate);
+MARK_VAL_T(::UnityEngine::PlayerLoop::__EarlyUpdate__UpdateAsyncInstantiate);
 MARK_VAL_T(::UnityEngine::PlayerLoop::__EarlyUpdate__UpdateAsyncReadbackManager);
 MARK_VAL_T(::UnityEngine::PlayerLoop::__EarlyUpdate__UpdateCanvasRectTransform);
+MARK_VAL_T(::UnityEngine::PlayerLoop::__EarlyUpdate__UpdateContentLoading);
 MARK_VAL_T(::UnityEngine::PlayerLoop::__EarlyUpdate__UpdateInputManager);
 MARK_VAL_T(::UnityEngine::PlayerLoop::__EarlyUpdate__UpdateKinect);
 MARK_VAL_T(::UnityEngine::PlayerLoop::__EarlyUpdate__UpdateMainGameViewRect);
@@ -229,899 +250,983 @@ MARK_VAL_T(::UnityEngine::PlayerLoop::__EarlyUpdate__UpdateStreamingManager);
 MARK_VAL_T(::UnityEngine::PlayerLoop::__EarlyUpdate__UpdateTextureStreamingManager);
 MARK_VAL_T(::UnityEngine::PlayerLoop::__EarlyUpdate__XRUpdate);
 // Type: ::PollPlayerConnection
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: ::EarlyUpdate::PollPlayerConnection
 #pragma pack(push, 0)
 struct CORDL_TYPE __EarlyUpdate__PollPlayerConnection {
 public:
-  // Declarations
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __EarlyUpdate__PollPlayerConnection();
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr __EarlyUpdate__PollPlayerConnection() ;
 
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+/// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+ uint8_t  _cordl_size_padding[0x1];
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x1};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__EarlyUpdate__PollPlayerConnection, 0x1>, "Size mismatch!");
 
-} // namespace UnityEngine::PlayerLoop
+} // namespace end def UnityEngine::PlayerLoop
 // Type: ::PollHtcsPlayerConnection
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: ::EarlyUpdate::PollHtcsPlayerConnection
 #pragma pack(push, 0)
 struct CORDL_TYPE __EarlyUpdate__PollHtcsPlayerConnection {
 public:
-  // Declarations
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __EarlyUpdate__PollHtcsPlayerConnection();
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr __EarlyUpdate__PollHtcsPlayerConnection() ;
 
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+/// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+ uint8_t  _cordl_size_padding[0x1];
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x1};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__EarlyUpdate__PollHtcsPlayerConnection, 0x1>, "Size mismatch!");
 
-} // namespace UnityEngine::PlayerLoop
+} // namespace end def UnityEngine::PlayerLoop
 // Type: ::GpuTimestamp
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: ::EarlyUpdate::GpuTimestamp
 #pragma pack(push, 0)
 struct CORDL_TYPE __EarlyUpdate__GpuTimestamp {
 public:
-  // Declarations
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __EarlyUpdate__GpuTimestamp();
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr __EarlyUpdate__GpuTimestamp() ;
 
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+/// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+ uint8_t  _cordl_size_padding[0x1];
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x1};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__EarlyUpdate__GpuTimestamp, 0x1>, "Size mismatch!");
 
-} // namespace UnityEngine::PlayerLoop
+} // namespace end def UnityEngine::PlayerLoop
 // Type: ::AnalyticsCoreStatsUpdate
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: ::EarlyUpdate::AnalyticsCoreStatsUpdate
 #pragma pack(push, 0)
 struct CORDL_TYPE __EarlyUpdate__AnalyticsCoreStatsUpdate {
 public:
-  // Declarations
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __EarlyUpdate__AnalyticsCoreStatsUpdate();
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr __EarlyUpdate__AnalyticsCoreStatsUpdate() ;
 
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+/// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+ uint8_t  _cordl_size_padding[0x1];
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x1};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__EarlyUpdate__AnalyticsCoreStatsUpdate, 0x1>, "Size mismatch!");
 
-} // namespace UnityEngine::PlayerLoop
+} // namespace end def UnityEngine::PlayerLoop
 // Type: ::UnityWebRequestUpdate
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: ::EarlyUpdate::UnityWebRequestUpdate
 #pragma pack(push, 0)
 struct CORDL_TYPE __EarlyUpdate__UnityWebRequestUpdate {
 public:
-  // Declarations
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __EarlyUpdate__UnityWebRequestUpdate();
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr __EarlyUpdate__UnityWebRequestUpdate() ;
 
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+/// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+ uint8_t  _cordl_size_padding[0x1];
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x1};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__EarlyUpdate__UnityWebRequestUpdate, 0x1>, "Size mismatch!");
 
-} // namespace UnityEngine::PlayerLoop
+} // namespace end def UnityEngine::PlayerLoop
 // Type: ::UpdateStreamingManager
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: ::EarlyUpdate::UpdateStreamingManager
 #pragma pack(push, 0)
 struct CORDL_TYPE __EarlyUpdate__UpdateStreamingManager {
 public:
-  // Declarations
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __EarlyUpdate__UpdateStreamingManager();
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr __EarlyUpdate__UpdateStreamingManager() ;
 
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+/// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+ uint8_t  _cordl_size_padding[0x1];
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x1};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__EarlyUpdate__UpdateStreamingManager, 0x1>, "Size mismatch!");
 
-} // namespace UnityEngine::PlayerLoop
+} // namespace end def UnityEngine::PlayerLoop
 // Type: ::ExecuteMainThreadJobs
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: ::EarlyUpdate::ExecuteMainThreadJobs
 #pragma pack(push, 0)
 struct CORDL_TYPE __EarlyUpdate__ExecuteMainThreadJobs {
 public:
-  // Declarations
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __EarlyUpdate__ExecuteMainThreadJobs();
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr __EarlyUpdate__ExecuteMainThreadJobs() ;
 
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+/// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+ uint8_t  _cordl_size_padding[0x1];
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x1};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__EarlyUpdate__ExecuteMainThreadJobs, 0x1>, "Size mismatch!");
 
-} // namespace UnityEngine::PlayerLoop
+} // namespace end def UnityEngine::PlayerLoop
 // Type: ::ProcessMouseInWindow
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: ::EarlyUpdate::ProcessMouseInWindow
 #pragma pack(push, 0)
 struct CORDL_TYPE __EarlyUpdate__ProcessMouseInWindow {
 public:
-  // Declarations
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __EarlyUpdate__ProcessMouseInWindow();
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr __EarlyUpdate__ProcessMouseInWindow() ;
 
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+/// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+ uint8_t  _cordl_size_padding[0x1];
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x1};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__EarlyUpdate__ProcessMouseInWindow, 0x1>, "Size mismatch!");
 
-} // namespace UnityEngine::PlayerLoop
+} // namespace end def UnityEngine::PlayerLoop
 // Type: ::ClearIntermediateRenderers
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: ::EarlyUpdate::ClearIntermediateRenderers
 #pragma pack(push, 0)
 struct CORDL_TYPE __EarlyUpdate__ClearIntermediateRenderers {
 public:
-  // Declarations
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __EarlyUpdate__ClearIntermediateRenderers();
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr __EarlyUpdate__ClearIntermediateRenderers() ;
 
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+/// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+ uint8_t  _cordl_size_padding[0x1];
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x1};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__EarlyUpdate__ClearIntermediateRenderers, 0x1>, "Size mismatch!");
 
-} // namespace UnityEngine::PlayerLoop
+} // namespace end def UnityEngine::PlayerLoop
 // Type: ::ClearLines
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: ::EarlyUpdate::ClearLines
 #pragma pack(push, 0)
 struct CORDL_TYPE __EarlyUpdate__ClearLines {
 public:
-  // Declarations
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __EarlyUpdate__ClearLines();
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr __EarlyUpdate__ClearLines() ;
 
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+/// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+ uint8_t  _cordl_size_padding[0x1];
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x1};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__EarlyUpdate__ClearLines, 0x1>, "Size mismatch!");
 
-} // namespace UnityEngine::PlayerLoop
+} // namespace end def UnityEngine::PlayerLoop
 // Type: ::PresentBeforeUpdate
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: ::EarlyUpdate::PresentBeforeUpdate
 #pragma pack(push, 0)
 struct CORDL_TYPE __EarlyUpdate__PresentBeforeUpdate {
 public:
-  // Declarations
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __EarlyUpdate__PresentBeforeUpdate();
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr __EarlyUpdate__PresentBeforeUpdate() ;
 
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+/// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+ uint8_t  _cordl_size_padding[0x1];
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x1};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__EarlyUpdate__PresentBeforeUpdate, 0x1>, "Size mismatch!");
 
-} // namespace UnityEngine::PlayerLoop
+} // namespace end def UnityEngine::PlayerLoop
 // Type: ::ResetFrameStatsAfterPresent
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: ::EarlyUpdate::ResetFrameStatsAfterPresent
 #pragma pack(push, 0)
 struct CORDL_TYPE __EarlyUpdate__ResetFrameStatsAfterPresent {
 public:
-  // Declarations
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __EarlyUpdate__ResetFrameStatsAfterPresent();
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr __EarlyUpdate__ResetFrameStatsAfterPresent() ;
 
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+/// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+ uint8_t  _cordl_size_padding[0x1];
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x1};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__EarlyUpdate__ResetFrameStatsAfterPresent, 0x1>, "Size mismatch!");
 
-} // namespace UnityEngine::PlayerLoop
+} // namespace end def UnityEngine::PlayerLoop
 // Type: ::UpdateAsyncReadbackManager
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: ::EarlyUpdate::UpdateAsyncReadbackManager
 #pragma pack(push, 0)
 struct CORDL_TYPE __EarlyUpdate__UpdateAsyncReadbackManager {
 public:
-  // Declarations
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __EarlyUpdate__UpdateAsyncReadbackManager();
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr __EarlyUpdate__UpdateAsyncReadbackManager() ;
 
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+/// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+ uint8_t  _cordl_size_padding[0x1];
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x1};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__EarlyUpdate__UpdateAsyncReadbackManager, 0x1>, "Size mismatch!");
 
-} // namespace UnityEngine::PlayerLoop
+} // namespace end def UnityEngine::PlayerLoop
 // Type: ::UpdateTextureStreamingManager
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: ::EarlyUpdate::UpdateTextureStreamingManager
 #pragma pack(push, 0)
 struct CORDL_TYPE __EarlyUpdate__UpdateTextureStreamingManager {
 public:
-  // Declarations
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __EarlyUpdate__UpdateTextureStreamingManager();
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr __EarlyUpdate__UpdateTextureStreamingManager() ;
 
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+/// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+ uint8_t  _cordl_size_padding[0x1];
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x1};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__EarlyUpdate__UpdateTextureStreamingManager, 0x1>, "Size mismatch!");
 
-} // namespace UnityEngine::PlayerLoop
+} // namespace end def UnityEngine::PlayerLoop
 // Type: ::UpdatePreloading
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: ::EarlyUpdate::UpdatePreloading
 #pragma pack(push, 0)
 struct CORDL_TYPE __EarlyUpdate__UpdatePreloading {
 public:
-  // Declarations
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __EarlyUpdate__UpdatePreloading();
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr __EarlyUpdate__UpdatePreloading() ;
 
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+/// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+ uint8_t  _cordl_size_padding[0x1];
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x1};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__EarlyUpdate__UpdatePreloading, 0x1>, "Size mismatch!");
 
-} // namespace UnityEngine::PlayerLoop
+} // namespace end def UnityEngine::PlayerLoop
+// Type: ::UpdateContentLoading
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
+namespace UnityEngine::PlayerLoop {
+// Is value type: true
+// CS Name: ::EarlyUpdate::UpdateContentLoading
+#pragma pack(push, 0)
+struct CORDL_TYPE __EarlyUpdate__UpdateContentLoading {
+public:
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr __EarlyUpdate__UpdateContentLoading() ;
+
+/// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+ uint8_t  _cordl_size_padding[0x1];
+
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x1};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+};
+#pragma pack(pop)
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__EarlyUpdate__UpdateContentLoading, 0x1>, "Size mismatch!");
+
+} // namespace end def UnityEngine::PlayerLoop
+// Type: ::UpdateAsyncInstantiate
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
+namespace UnityEngine::PlayerLoop {
+// Is value type: true
+// CS Name: ::EarlyUpdate::UpdateAsyncInstantiate
+#pragma pack(push, 0)
+struct CORDL_TYPE __EarlyUpdate__UpdateAsyncInstantiate {
+public:
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr __EarlyUpdate__UpdateAsyncInstantiate() ;
+
+/// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+ uint8_t  _cordl_size_padding[0x1];
+
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x1};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+};
+#pragma pack(pop)
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__EarlyUpdate__UpdateAsyncInstantiate, 0x1>, "Size mismatch!");
+
+} // namespace end def UnityEngine::PlayerLoop
 // Type: ::RendererNotifyInvisible
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: ::EarlyUpdate::RendererNotifyInvisible
 #pragma pack(push, 0)
 struct CORDL_TYPE __EarlyUpdate__RendererNotifyInvisible {
 public:
-  // Declarations
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __EarlyUpdate__RendererNotifyInvisible();
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr __EarlyUpdate__RendererNotifyInvisible() ;
 
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+/// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+ uint8_t  _cordl_size_padding[0x1];
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x1};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__EarlyUpdate__RendererNotifyInvisible, 0x1>, "Size mismatch!");
 
-} // namespace UnityEngine::PlayerLoop
+} // namespace end def UnityEngine::PlayerLoop
 // Type: ::PlayerCleanupCachedData
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: ::EarlyUpdate::PlayerCleanupCachedData
 #pragma pack(push, 0)
 struct CORDL_TYPE __EarlyUpdate__PlayerCleanupCachedData {
 public:
-  // Declarations
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __EarlyUpdate__PlayerCleanupCachedData();
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr __EarlyUpdate__PlayerCleanupCachedData() ;
 
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+/// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+ uint8_t  _cordl_size_padding[0x1];
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x1};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__EarlyUpdate__PlayerCleanupCachedData, 0x1>, "Size mismatch!");
 
-} // namespace UnityEngine::PlayerLoop
+} // namespace end def UnityEngine::PlayerLoop
 // Type: ::UpdateMainGameViewRect
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: ::EarlyUpdate::UpdateMainGameViewRect
 #pragma pack(push, 0)
 struct CORDL_TYPE __EarlyUpdate__UpdateMainGameViewRect {
 public:
-  // Declarations
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __EarlyUpdate__UpdateMainGameViewRect();
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr __EarlyUpdate__UpdateMainGameViewRect() ;
 
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+/// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+ uint8_t  _cordl_size_padding[0x1];
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x1};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__EarlyUpdate__UpdateMainGameViewRect, 0x1>, "Size mismatch!");
 
-} // namespace UnityEngine::PlayerLoop
+} // namespace end def UnityEngine::PlayerLoop
 // Type: ::UpdateCanvasRectTransform
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: ::EarlyUpdate::UpdateCanvasRectTransform
 #pragma pack(push, 0)
 struct CORDL_TYPE __EarlyUpdate__UpdateCanvasRectTransform {
 public:
-  // Declarations
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __EarlyUpdate__UpdateCanvasRectTransform();
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr __EarlyUpdate__UpdateCanvasRectTransform() ;
 
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+/// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+ uint8_t  _cordl_size_padding[0x1];
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x1};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__EarlyUpdate__UpdateCanvasRectTransform, 0x1>, "Size mismatch!");
 
-} // namespace UnityEngine::PlayerLoop
+} // namespace end def UnityEngine::PlayerLoop
 // Type: ::UpdateInputManager
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: ::EarlyUpdate::UpdateInputManager
 #pragma pack(push, 0)
 struct CORDL_TYPE __EarlyUpdate__UpdateInputManager {
 public:
-  // Declarations
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __EarlyUpdate__UpdateInputManager();
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr __EarlyUpdate__UpdateInputManager() ;
 
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+/// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+ uint8_t  _cordl_size_padding[0x1];
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x1};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__EarlyUpdate__UpdateInputManager, 0x1>, "Size mismatch!");
 
-} // namespace UnityEngine::PlayerLoop
+} // namespace end def UnityEngine::PlayerLoop
 // Type: ::ProcessRemoteInput
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: ::EarlyUpdate::ProcessRemoteInput
 #pragma pack(push, 0)
 struct CORDL_TYPE __EarlyUpdate__ProcessRemoteInput {
 public:
-  // Declarations
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __EarlyUpdate__ProcessRemoteInput();
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr __EarlyUpdate__ProcessRemoteInput() ;
 
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+/// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+ uint8_t  _cordl_size_padding[0x1];
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x1};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__EarlyUpdate__ProcessRemoteInput, 0x1>, "Size mismatch!");
 
-} // namespace UnityEngine::PlayerLoop
+} // namespace end def UnityEngine::PlayerLoop
 // Type: ::XRUpdate
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: ::EarlyUpdate::XRUpdate
 #pragma pack(push, 0)
 struct CORDL_TYPE __EarlyUpdate__XRUpdate {
 public:
-  // Declarations
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __EarlyUpdate__XRUpdate();
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr __EarlyUpdate__XRUpdate() ;
 
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+/// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+ uint8_t  _cordl_size_padding[0x1];
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x1};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__EarlyUpdate__XRUpdate, 0x1>, "Size mismatch!");
 
-} // namespace UnityEngine::PlayerLoop
+} // namespace end def UnityEngine::PlayerLoop
 // Type: ::ScriptRunDelayedStartupFrame
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: ::EarlyUpdate::ScriptRunDelayedStartupFrame
 #pragma pack(push, 0)
 struct CORDL_TYPE __EarlyUpdate__ScriptRunDelayedStartupFrame {
 public:
-  // Declarations
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __EarlyUpdate__ScriptRunDelayedStartupFrame();
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr __EarlyUpdate__ScriptRunDelayedStartupFrame() ;
 
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+/// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+ uint8_t  _cordl_size_padding[0x1];
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x1};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__EarlyUpdate__ScriptRunDelayedStartupFrame, 0x1>, "Size mismatch!");
 
-} // namespace UnityEngine::PlayerLoop
+} // namespace end def UnityEngine::PlayerLoop
 // Type: ::UpdateKinect
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: ::EarlyUpdate::UpdateKinect
 #pragma pack(push, 0)
 struct CORDL_TYPE __EarlyUpdate__UpdateKinect {
 public:
-  // Declarations
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __EarlyUpdate__UpdateKinect();
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr __EarlyUpdate__UpdateKinect() ;
 
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+/// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+ uint8_t  _cordl_size_padding[0x1];
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x1};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__EarlyUpdate__UpdateKinect, 0x1>, "Size mismatch!");
 
-} // namespace UnityEngine::PlayerLoop
+} // namespace end def UnityEngine::PlayerLoop
 // Type: ::DeliverIosPlatformEvents
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: ::EarlyUpdate::DeliverIosPlatformEvents
 #pragma pack(push, 0)
 struct CORDL_TYPE __EarlyUpdate__DeliverIosPlatformEvents {
 public:
-  // Declarations
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __EarlyUpdate__DeliverIosPlatformEvents();
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr __EarlyUpdate__DeliverIosPlatformEvents() ;
 
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+/// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+ uint8_t  _cordl_size_padding[0x1];
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x1};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__EarlyUpdate__DeliverIosPlatformEvents, 0x1>, "Size mismatch!");
 
-} // namespace UnityEngine::PlayerLoop
+} // namespace end def UnityEngine::PlayerLoop
 // Type: ::DispatchEventQueueEvents
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: ::EarlyUpdate::DispatchEventQueueEvents
 #pragma pack(push, 0)
 struct CORDL_TYPE __EarlyUpdate__DispatchEventQueueEvents {
 public:
-  // Declarations
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __EarlyUpdate__DispatchEventQueueEvents();
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr __EarlyUpdate__DispatchEventQueueEvents() ;
 
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+/// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+ uint8_t  _cordl_size_padding[0x1];
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x1};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__EarlyUpdate__DispatchEventQueueEvents, 0x1>, "Size mismatch!");
 
-} // namespace UnityEngine::PlayerLoop
+} // namespace end def UnityEngine::PlayerLoop
+// Type: ::Physics2DEarlyUpdate
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
+namespace UnityEngine::PlayerLoop {
+// Is value type: true
+// CS Name: ::EarlyUpdate::Physics2DEarlyUpdate
+#pragma pack(push, 0)
+struct CORDL_TYPE __EarlyUpdate__Physics2DEarlyUpdate {
+public:
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr __EarlyUpdate__Physics2DEarlyUpdate() ;
+
+/// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+ uint8_t  _cordl_size_padding[0x1];
+
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x1};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+};
+#pragma pack(pop)
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__EarlyUpdate__Physics2DEarlyUpdate, 0x1>, "Size mismatch!");
+
+} // namespace end def UnityEngine::PlayerLoop
 // Type: ::PhysicsResetInterpolatedTransformPosition
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: ::EarlyUpdate::PhysicsResetInterpolatedTransformPosition
 #pragma pack(push, 0)
 struct CORDL_TYPE __EarlyUpdate__PhysicsResetInterpolatedTransformPosition {
 public:
-  // Declarations
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __EarlyUpdate__PhysicsResetInterpolatedTransformPosition();
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr __EarlyUpdate__PhysicsResetInterpolatedTransformPosition() ;
 
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+/// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+ uint8_t  _cordl_size_padding[0x1];
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x1};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__EarlyUpdate__PhysicsResetInterpolatedTransformPosition, 0x1>, "Size mismatch!");
 
-} // namespace UnityEngine::PlayerLoop
+} // namespace end def UnityEngine::PlayerLoop
 // Type: ::SpriteAtlasManagerUpdate
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: ::EarlyUpdate::SpriteAtlasManagerUpdate
 #pragma pack(push, 0)
 struct CORDL_TYPE __EarlyUpdate__SpriteAtlasManagerUpdate {
 public:
-  // Declarations
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __EarlyUpdate__SpriteAtlasManagerUpdate();
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr __EarlyUpdate__SpriteAtlasManagerUpdate() ;
 
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+/// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+ uint8_t  _cordl_size_padding[0x1];
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x1};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__EarlyUpdate__SpriteAtlasManagerUpdate, 0x1>, "Size mismatch!");
 
-} // namespace UnityEngine::PlayerLoop
+} // namespace end def UnityEngine::PlayerLoop
 // Type: ::TangoUpdate
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: ::EarlyUpdate::TangoUpdate
 #pragma pack(push, 0)
 struct CORDL_TYPE __EarlyUpdate__TangoUpdate {
 public:
-  // Declarations
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __EarlyUpdate__TangoUpdate();
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr __EarlyUpdate__TangoUpdate() ;
 
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+/// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+ uint8_t  _cordl_size_padding[0x1];
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x1};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__EarlyUpdate__TangoUpdate, 0x1>, "Size mismatch!");
 
-} // namespace UnityEngine::PlayerLoop
+} // namespace end def UnityEngine::PlayerLoop
 // Type: ::ARCoreUpdate
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: ::EarlyUpdate::ARCoreUpdate
 #pragma pack(push, 0)
 struct CORDL_TYPE __EarlyUpdate__ARCoreUpdate {
 public:
-  // Declarations
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __EarlyUpdate__ARCoreUpdate();
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr __EarlyUpdate__ARCoreUpdate() ;
 
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+/// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+ uint8_t  _cordl_size_padding[0x1];
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x1};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__EarlyUpdate__ARCoreUpdate, 0x1>, "Size mismatch!");
 
-} // namespace UnityEngine::PlayerLoop
+} // namespace end def UnityEngine::PlayerLoop
 // Type: ::PerformanceAnalyticsUpdate
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: ::EarlyUpdate::PerformanceAnalyticsUpdate
 #pragma pack(push, 0)
 struct CORDL_TYPE __EarlyUpdate__PerformanceAnalyticsUpdate {
 public:
-  // Declarations
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __EarlyUpdate__PerformanceAnalyticsUpdate();
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr __EarlyUpdate__PerformanceAnalyticsUpdate() ;
 
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+/// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+ uint8_t  _cordl_size_padding[0x1];
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x1};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::__EarlyUpdate__PerformanceAnalyticsUpdate, 0x1>, "Size mismatch!");
 
-} // namespace UnityEngine::PlayerLoop
+} // namespace end def UnityEngine::PlayerLoop
 // Type: UnityEngine.PlayerLoop::EarlyUpdate
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::PlayerLoop {
 // Is value type: true
 // CS Name: ::UnityEngine.PlayerLoop::EarlyUpdate
 #pragma pack(push, 0)
 struct CORDL_TYPE EarlyUpdate {
 public:
-  // Declarations
-  using ARCoreUpdate = ::UnityEngine::PlayerLoop::__EarlyUpdate__ARCoreUpdate;
+// Declarations
+using ARCoreUpdate = ::UnityEngine::PlayerLoop::__EarlyUpdate__ARCoreUpdate;
 
-  using AnalyticsCoreStatsUpdate = ::UnityEngine::PlayerLoop::__EarlyUpdate__AnalyticsCoreStatsUpdate;
+using AnalyticsCoreStatsUpdate = ::UnityEngine::PlayerLoop::__EarlyUpdate__AnalyticsCoreStatsUpdate;
 
-  using ClearIntermediateRenderers = ::UnityEngine::PlayerLoop::__EarlyUpdate__ClearIntermediateRenderers;
+using ClearIntermediateRenderers = ::UnityEngine::PlayerLoop::__EarlyUpdate__ClearIntermediateRenderers;
 
-  using ClearLines = ::UnityEngine::PlayerLoop::__EarlyUpdate__ClearLines;
+using ClearLines = ::UnityEngine::PlayerLoop::__EarlyUpdate__ClearLines;
 
-  using DeliverIosPlatformEvents = ::UnityEngine::PlayerLoop::__EarlyUpdate__DeliverIosPlatformEvents;
+using DeliverIosPlatformEvents = ::UnityEngine::PlayerLoop::__EarlyUpdate__DeliverIosPlatformEvents;
 
-  using DispatchEventQueueEvents = ::UnityEngine::PlayerLoop::__EarlyUpdate__DispatchEventQueueEvents;
+using DispatchEventQueueEvents = ::UnityEngine::PlayerLoop::__EarlyUpdate__DispatchEventQueueEvents;
 
-  using ExecuteMainThreadJobs = ::UnityEngine::PlayerLoop::__EarlyUpdate__ExecuteMainThreadJobs;
+using ExecuteMainThreadJobs = ::UnityEngine::PlayerLoop::__EarlyUpdate__ExecuteMainThreadJobs;
 
-  using GpuTimestamp = ::UnityEngine::PlayerLoop::__EarlyUpdate__GpuTimestamp;
+using GpuTimestamp = ::UnityEngine::PlayerLoop::__EarlyUpdate__GpuTimestamp;
 
-  using PerformanceAnalyticsUpdate = ::UnityEngine::PlayerLoop::__EarlyUpdate__PerformanceAnalyticsUpdate;
+using PerformanceAnalyticsUpdate = ::UnityEngine::PlayerLoop::__EarlyUpdate__PerformanceAnalyticsUpdate;
 
-  using PhysicsResetInterpolatedTransformPosition = ::UnityEngine::PlayerLoop::__EarlyUpdate__PhysicsResetInterpolatedTransformPosition;
+using Physics2DEarlyUpdate = ::UnityEngine::PlayerLoop::__EarlyUpdate__Physics2DEarlyUpdate;
 
-  using PlayerCleanupCachedData = ::UnityEngine::PlayerLoop::__EarlyUpdate__PlayerCleanupCachedData;
+using PhysicsResetInterpolatedTransformPosition = ::UnityEngine::PlayerLoop::__EarlyUpdate__PhysicsResetInterpolatedTransformPosition;
 
-  using PollHtcsPlayerConnection = ::UnityEngine::PlayerLoop::__EarlyUpdate__PollHtcsPlayerConnection;
+using PlayerCleanupCachedData = ::UnityEngine::PlayerLoop::__EarlyUpdate__PlayerCleanupCachedData;
 
-  using PollPlayerConnection = ::UnityEngine::PlayerLoop::__EarlyUpdate__PollPlayerConnection;
+using PollHtcsPlayerConnection = ::UnityEngine::PlayerLoop::__EarlyUpdate__PollHtcsPlayerConnection;
 
-  using PresentBeforeUpdate = ::UnityEngine::PlayerLoop::__EarlyUpdate__PresentBeforeUpdate;
+using PollPlayerConnection = ::UnityEngine::PlayerLoop::__EarlyUpdate__PollPlayerConnection;
 
-  using ProcessMouseInWindow = ::UnityEngine::PlayerLoop::__EarlyUpdate__ProcessMouseInWindow;
+using PresentBeforeUpdate = ::UnityEngine::PlayerLoop::__EarlyUpdate__PresentBeforeUpdate;
 
-  using ProcessRemoteInput = ::UnityEngine::PlayerLoop::__EarlyUpdate__ProcessRemoteInput;
+using ProcessMouseInWindow = ::UnityEngine::PlayerLoop::__EarlyUpdate__ProcessMouseInWindow;
 
-  using RendererNotifyInvisible = ::UnityEngine::PlayerLoop::__EarlyUpdate__RendererNotifyInvisible;
+using ProcessRemoteInput = ::UnityEngine::PlayerLoop::__EarlyUpdate__ProcessRemoteInput;
 
-  using ResetFrameStatsAfterPresent = ::UnityEngine::PlayerLoop::__EarlyUpdate__ResetFrameStatsAfterPresent;
+using RendererNotifyInvisible = ::UnityEngine::PlayerLoop::__EarlyUpdate__RendererNotifyInvisible;
 
-  using ScriptRunDelayedStartupFrame = ::UnityEngine::PlayerLoop::__EarlyUpdate__ScriptRunDelayedStartupFrame;
+using ResetFrameStatsAfterPresent = ::UnityEngine::PlayerLoop::__EarlyUpdate__ResetFrameStatsAfterPresent;
 
-  using SpriteAtlasManagerUpdate = ::UnityEngine::PlayerLoop::__EarlyUpdate__SpriteAtlasManagerUpdate;
+using ScriptRunDelayedStartupFrame = ::UnityEngine::PlayerLoop::__EarlyUpdate__ScriptRunDelayedStartupFrame;
 
-  using TangoUpdate = ::UnityEngine::PlayerLoop::__EarlyUpdate__TangoUpdate;
+using SpriteAtlasManagerUpdate = ::UnityEngine::PlayerLoop::__EarlyUpdate__SpriteAtlasManagerUpdate;
 
-  using UnityWebRequestUpdate = ::UnityEngine::PlayerLoop::__EarlyUpdate__UnityWebRequestUpdate;
+using TangoUpdate = ::UnityEngine::PlayerLoop::__EarlyUpdate__TangoUpdate;
 
-  using UpdateAsyncReadbackManager = ::UnityEngine::PlayerLoop::__EarlyUpdate__UpdateAsyncReadbackManager;
+using UnityWebRequestUpdate = ::UnityEngine::PlayerLoop::__EarlyUpdate__UnityWebRequestUpdate;
 
-  using UpdateCanvasRectTransform = ::UnityEngine::PlayerLoop::__EarlyUpdate__UpdateCanvasRectTransform;
+using UpdateAsyncInstantiate = ::UnityEngine::PlayerLoop::__EarlyUpdate__UpdateAsyncInstantiate;
 
-  using UpdateInputManager = ::UnityEngine::PlayerLoop::__EarlyUpdate__UpdateInputManager;
+using UpdateAsyncReadbackManager = ::UnityEngine::PlayerLoop::__EarlyUpdate__UpdateAsyncReadbackManager;
 
-  using UpdateKinect = ::UnityEngine::PlayerLoop::__EarlyUpdate__UpdateKinect;
+using UpdateCanvasRectTransform = ::UnityEngine::PlayerLoop::__EarlyUpdate__UpdateCanvasRectTransform;
 
-  using UpdateMainGameViewRect = ::UnityEngine::PlayerLoop::__EarlyUpdate__UpdateMainGameViewRect;
+using UpdateContentLoading = ::UnityEngine::PlayerLoop::__EarlyUpdate__UpdateContentLoading;
 
-  using UpdatePreloading = ::UnityEngine::PlayerLoop::__EarlyUpdate__UpdatePreloading;
+using UpdateInputManager = ::UnityEngine::PlayerLoop::__EarlyUpdate__UpdateInputManager;
 
-  using UpdateStreamingManager = ::UnityEngine::PlayerLoop::__EarlyUpdate__UpdateStreamingManager;
+using UpdateKinect = ::UnityEngine::PlayerLoop::__EarlyUpdate__UpdateKinect;
 
-  using UpdateTextureStreamingManager = ::UnityEngine::PlayerLoop::__EarlyUpdate__UpdateTextureStreamingManager;
+using UpdateMainGameViewRect = ::UnityEngine::PlayerLoop::__EarlyUpdate__UpdateMainGameViewRect;
 
-  using XRUpdate = ::UnityEngine::PlayerLoop::__EarlyUpdate__XRUpdate;
+using UpdatePreloading = ::UnityEngine::PlayerLoop::__EarlyUpdate__UpdatePreloading;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr EarlyUpdate();
+using UpdateStreamingManager = ::UnityEngine::PlayerLoop::__EarlyUpdate__UpdateStreamingManager;
 
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+using UpdateTextureStreamingManager = ::UnityEngine::PlayerLoop::__EarlyUpdate__UpdateTextureStreamingManager;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+using XRUpdate = ::UnityEngine::PlayerLoop::__EarlyUpdate__XRUpdate;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+// Ctor Parameters []
+// @brief default ctor
+constexpr EarlyUpdate() ;
+
+/// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+ uint8_t  _cordl_size_padding[0x1];
+
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x1};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::PlayerLoop::EarlyUpdate, 0x1>, "Size mismatch!");
 
-} // namespace UnityEngine::PlayerLoop
+} // namespace end def UnityEngine::PlayerLoop
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::EarlyUpdate, "UnityEngine.PlayerLoop", "EarlyUpdate");
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::__EarlyUpdate__ARCoreUpdate, "UnityEngine.PlayerLoop", "EarlyUpdate/ARCoreUpdate");
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::__EarlyUpdate__AnalyticsCoreStatsUpdate, "UnityEngine.PlayerLoop", "EarlyUpdate/AnalyticsCoreStatsUpdate");
@@ -1132,6 +1237,7 @@ DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::__EarlyUpdate__DispatchEventQu
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::__EarlyUpdate__ExecuteMainThreadJobs, "UnityEngine.PlayerLoop", "EarlyUpdate/ExecuteMainThreadJobs");
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::__EarlyUpdate__GpuTimestamp, "UnityEngine.PlayerLoop", "EarlyUpdate/GpuTimestamp");
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::__EarlyUpdate__PerformanceAnalyticsUpdate, "UnityEngine.PlayerLoop", "EarlyUpdate/PerformanceAnalyticsUpdate");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::__EarlyUpdate__Physics2DEarlyUpdate, "UnityEngine.PlayerLoop", "EarlyUpdate/Physics2DEarlyUpdate");
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::__EarlyUpdate__PhysicsResetInterpolatedTransformPosition, "UnityEngine.PlayerLoop", "EarlyUpdate/PhysicsResetInterpolatedTransformPosition");
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::__EarlyUpdate__PlayerCleanupCachedData, "UnityEngine.PlayerLoop", "EarlyUpdate/PlayerCleanupCachedData");
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::__EarlyUpdate__PollHtcsPlayerConnection, "UnityEngine.PlayerLoop", "EarlyUpdate/PollHtcsPlayerConnection");
@@ -1145,8 +1251,10 @@ DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::__EarlyUpdate__ScriptRunDelaye
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::__EarlyUpdate__SpriteAtlasManagerUpdate, "UnityEngine.PlayerLoop", "EarlyUpdate/SpriteAtlasManagerUpdate");
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::__EarlyUpdate__TangoUpdate, "UnityEngine.PlayerLoop", "EarlyUpdate/TangoUpdate");
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::__EarlyUpdate__UnityWebRequestUpdate, "UnityEngine.PlayerLoop", "EarlyUpdate/UnityWebRequestUpdate");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::__EarlyUpdate__UpdateAsyncInstantiate, "UnityEngine.PlayerLoop", "EarlyUpdate/UpdateAsyncInstantiate");
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::__EarlyUpdate__UpdateAsyncReadbackManager, "UnityEngine.PlayerLoop", "EarlyUpdate/UpdateAsyncReadbackManager");
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::__EarlyUpdate__UpdateCanvasRectTransform, "UnityEngine.PlayerLoop", "EarlyUpdate/UpdateCanvasRectTransform");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::__EarlyUpdate__UpdateContentLoading, "UnityEngine.PlayerLoop", "EarlyUpdate/UpdateContentLoading");
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::__EarlyUpdate__UpdateInputManager, "UnityEngine.PlayerLoop", "EarlyUpdate/UpdateInputManager");
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::__EarlyUpdate__UpdateKinect, "UnityEngine.PlayerLoop", "EarlyUpdate/UpdateKinect");
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::PlayerLoop::__EarlyUpdate__UpdateMainGameViewRect, "UnityEngine.PlayerLoop", "EarlyUpdate/UpdateMainGameViewRect");

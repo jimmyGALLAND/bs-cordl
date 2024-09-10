@@ -22,75 +22,75 @@ class AudioListener;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::AudioListener);
 // Type: UnityEngine::AudioListener
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
 // CS Name: ::UnityEngine::AudioListener*
 class CORDL_TYPE AudioListener : public ::UnityEngine::AudioBehaviour {
 public:
-  // Declarations
-  __declspec(property(get = get_velocityUpdateMode, put = set_velocityUpdateMode))::UnityEngine::AudioVelocityUpdateMode velocityUpdateMode;
+// Declarations
+ __declspec(property(get=get_velocityUpdateMode, put=set_velocityUpdateMode)) ::UnityEngine::AudioVelocityUpdateMode  velocityUpdateMode;
 
-  /// @brief Method GetOutputData, addr 0x34081cc, size 0x8c, virtual false, abstract: false, final false
-  static inline ::ArrayW<float_t, ::Array<float_t>*> GetOutputData(int32_t numSamples, int32_t channel);
+/// @brief Method GetOutputData, addr 0x47c7a5c, size 0x8c, virtual false, abstract: false, final false
+static inline ::ArrayW<float_t,::Array<float_t>*> GetOutputData(int32_t  numSamples, int32_t  channel) ;
 
-  /// @brief Method GetOutputData, addr 0x3408258, size 0x44, virtual false, abstract: false, final false
-  static inline void GetOutputData(::ArrayW<float_t, ::Array<float_t>*> samples, int32_t channel);
+/// @brief Method GetOutputData, addr 0x47c7ae8, size 0x44, virtual false, abstract: false, final false
+static inline void GetOutputData(::ArrayW<float_t,::Array<float_t>*>  samples, int32_t  channel) ;
 
-  /// @brief Method GetOutputDataHelper, addr 0x3407ff0, size 0x44, virtual false, abstract: false, final false
-  static inline void GetOutputDataHelper(ByRef<::ArrayW<float_t, ::Array<float_t>*>> samples, int32_t channel);
+/// @brief Method GetOutputDataHelper, addr 0x47c7880, size 0x44, virtual false, abstract: false, final false
+static inline void GetOutputDataHelper(ByRef<::ArrayW<float_t,::Array<float_t>*>>  samples, int32_t  channel) ;
 
-  /// @brief Method GetSpectrumData, addr 0x340829c, size 0x94, virtual false, abstract: false, final false
-  static inline ::ArrayW<float_t, ::Array<float_t>*> GetSpectrumData(int32_t numSamples, int32_t channel, ::UnityEngine::FFTWindow window);
+/// @brief Method GetSpectrumData, addr 0x47c7b2c, size 0x94, virtual false, abstract: false, final false
+static inline ::ArrayW<float_t,::Array<float_t>*> GetSpectrumData(int32_t  numSamples, int32_t  channel, ::UnityEngine::FFTWindow  window) ;
 
-  /// @brief Method GetSpectrumData, addr 0x3408330, size 0x54, virtual false, abstract: false, final false
-  static inline void GetSpectrumData(::ArrayW<float_t, ::Array<float_t>*> samples, int32_t channel, ::UnityEngine::FFTWindow window);
+/// @brief Method GetSpectrumData, addr 0x47c7bc0, size 0x54, virtual false, abstract: false, final false
+static inline void GetSpectrumData(::ArrayW<float_t,::Array<float_t>*>  samples, int32_t  channel, ::UnityEngine::FFTWindow  window) ;
 
-  /// @brief Method GetSpectrumDataHelper, addr 0x3408034, size 0x54, virtual false, abstract: false, final false
-  static inline void GetSpectrumDataHelper(ByRef<::ArrayW<float_t, ::Array<float_t>*>> samples, int32_t channel, ::UnityEngine::FFTWindow window);
+/// @brief Method GetSpectrumDataHelper, addr 0x47c78c4, size 0x54, virtual false, abstract: false, final false
+static inline void GetSpectrumDataHelper(ByRef<::ArrayW<float_t,::Array<float_t>*>>  samples, int32_t  channel, ::UnityEngine::FFTWindow  window) ;
 
-  static inline ::UnityEngine::AudioListener* New_ctor();
+static inline ::UnityEngine::AudioListener* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x3408384, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x47c7c14, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_pause, addr 0x34080e8, size 0x28, virtual false, abstract: false, final false
-  static inline bool get_pause();
+/// @brief Method get_pause, addr 0x47c7978, size 0x28, virtual false, abstract: false, final false
+static inline bool get_pause() ;
 
-  /// @brief Method get_velocityUpdateMode, addr 0x340814c, size 0x3c, virtual false, abstract: false, final false
-  inline ::UnityEngine::AudioVelocityUpdateMode get_velocityUpdateMode();
+/// @brief Method get_velocityUpdateMode, addr 0x47c79dc, size 0x3c, virtual false, abstract: false, final false
+inline ::UnityEngine::AudioVelocityUpdateMode get_velocityUpdateMode() ;
 
-  /// @brief Method get_volume, addr 0x3408088, size 0x28, virtual false, abstract: false, final false
-  static inline float_t get_volume();
+/// @brief Method get_volume, addr 0x47c7918, size 0x28, virtual false, abstract: false, final false
+static inline float_t get_volume() ;
 
-  /// @brief Method set_pause, addr 0x3408110, size 0x3c, virtual false, abstract: false, final false
-  static inline void set_pause(bool value);
+/// @brief Method set_pause, addr 0x47c79a0, size 0x3c, virtual false, abstract: false, final false
+static inline void set_pause(bool  value) ;
 
-  /// @brief Method set_velocityUpdateMode, addr 0x3408188, size 0x44, virtual false, abstract: false, final false
-  inline void set_velocityUpdateMode(::UnityEngine::AudioVelocityUpdateMode value);
+/// @brief Method set_velocityUpdateMode, addr 0x47c7a18, size 0x44, virtual false, abstract: false, final false
+inline void set_velocityUpdateMode(::UnityEngine::AudioVelocityUpdateMode  value) ;
 
-  /// @brief Method set_volume, addr 0x34080b0, size 0x38, virtual false, abstract: false, final false
-  static inline void set_volume(float_t value);
+/// @brief Method set_volume, addr 0x47c7940, size 0x38, virtual false, abstract: false, final false
+static inline void set_volume(float_t  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AudioListener();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr AudioListener() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AudioListener", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  AudioListener(AudioListener&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AudioListener", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  AudioListener(AudioListener const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "AudioListener", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+AudioListener(AudioListener && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "AudioListener", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+AudioListener(AudioListener const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::AudioListener, 0x18>, "Size mismatch!");
 
-} // namespace UnityEngine
+} // namespace end def UnityEngine
 NEED_NO_BOX(::UnityEngine::AudioListener);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AudioListener*, "UnityEngine", "AudioListener");

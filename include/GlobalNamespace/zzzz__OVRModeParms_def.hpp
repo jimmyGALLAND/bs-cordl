@@ -13,60 +13,60 @@ class OVRModeParms;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::OVRModeParms);
 // Type: ::OVRModeParms
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::OVRModeParms*
 class CORDL_TYPE OVRModeParms : public ::UnityEngine::MonoBehaviour {
 public:
-  // Declarations
-  /// @brief Field resetButton, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get_resetButton, put = __cordl_internal_set_resetButton))::GlobalNamespace::__OVRInput__RawButton resetButton;
+// Declarations
+/// @brief Field resetButton, offset 0x20, size 0x4 
+ __declspec(property(get=__cordl_internal_get_resetButton, put=__cordl_internal_set_resetButton)) ::GlobalNamespace::__OVRInput__RawButton  resetButton;
 
-  static inline ::GlobalNamespace::OVRModeParms* New_ctor();
+static inline ::GlobalNamespace::OVRModeParms* New_ctor() ;
 
-  /// @brief Method Start, addr 0x2bbd518, size 0x9c, virtual false, abstract: false, final false
-  inline void Start();
+/// @brief Method Start, addr 0x3faa18c, size 0x9c, virtual false, abstract: false, final false
+inline void Start() ;
 
-  /// @brief Method TestPowerStateMode, addr 0x2bbd660, size 0xa4, virtual false, abstract: false, final false
-  inline void TestPowerStateMode();
+/// @brief Method TestPowerStateMode, addr 0x3faa2d4, size 0xa4, virtual false, abstract: false, final false
+inline void TestPowerStateMode() ;
 
-  /// @brief Method Update, addr 0x2bbd5b4, size 0xac, virtual false, abstract: false, final false
-  inline void Update();
+/// @brief Method Update, addr 0x3faa228, size 0xac, virtual false, abstract: false, final false
+inline void Update() ;
 
-  constexpr ::GlobalNamespace::__OVRInput__RawButton const& __cordl_internal_get_resetButton() const;
+constexpr ::GlobalNamespace::__OVRInput__RawButton const& __cordl_internal_get_resetButton() const;
 
-  constexpr ::GlobalNamespace::__OVRInput__RawButton& __cordl_internal_get_resetButton();
+constexpr ::GlobalNamespace::__OVRInput__RawButton& __cordl_internal_get_resetButton() ;
 
-  constexpr void __cordl_internal_set_resetButton(::GlobalNamespace::__OVRInput__RawButton value);
+constexpr void __cordl_internal_set_resetButton(::GlobalNamespace::__OVRInput__RawButton  value) ;
 
-  /// @brief Method .ctor, addr 0x2bbd704, size 0x10, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x3faa378, size 0x10, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr OVRModeParms();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr OVRModeParms() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRModeParms", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  OVRModeParms(OVRModeParms&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRModeParms", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  OVRModeParms(OVRModeParms const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "OVRModeParms", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+OVRModeParms(OVRModeParms && ) = delete;
 
-  /// @brief Field resetButton, offset: 0x18, size: 0x4, def value: None
-  ::GlobalNamespace::__OVRInput__RawButton ___resetButton;
+// Ctor Parameters [CppParam { name: "", ty: "OVRModeParms", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+OVRModeParms(OVRModeParms const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field resetButton, offset: 0x20, size: 0x4, def value: None
+ ::GlobalNamespace::__OVRInput__RawButton  ___resetButton;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRModeParms, 0x20>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRModeParms, 0x28>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRModeParms, ___resetButton) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRModeParms, ___resetButton) == 0x20, "Offset mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::OVRModeParms);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRModeParms*, "", "OVRModeParms");

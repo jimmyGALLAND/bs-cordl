@@ -13,43 +13,43 @@ class NameType;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::NameType);
 // Type: Org.BouncyCastle.Crypto.Tls::NameType
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::NameType*
 class CORDL_TYPE NameType : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method IsValid, addr 0x1203288, size 0xc, virtual false, abstract: false, final false
-  static inline bool IsValid(uint8_t nameType);
+// Declarations
+/// @brief Method IsValid, addr 0x23caed0, size 0xc, virtual false, abstract: false, final false
+static inline bool IsValid(uint8_t  nameType) ;
 
-  static inline ::Org::BouncyCastle::Crypto::Tls::NameType* New_ctor();
+static inline ::Org::BouncyCastle::Crypto::Tls::NameType* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x1203294, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x23caedc, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NameType();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr NameType() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NameType", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  NameType(NameType&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NameType", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  NameType(NameType const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "NameType", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+NameType(NameType && ) = delete;
 
-  /// @brief Field host_name offset 0xffffffff size 0x1
-  static constexpr uint8_t host_name{ static_cast<uint8_t>(0x0u) };
+// Ctor Parameters [CppParam { name: "", ty: "NameType", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+NameType(NameType const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field host_name offset 0xffffffff size 0x1
+static constexpr uint8_t  host_name{static_cast<uint8_t>(0x0u)};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Tls::NameType, 0x10>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Crypto::Tls
+} // namespace end def Org::BouncyCastle::Crypto::Tls
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Tls::NameType);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Tls::NameType*, "Org.BouncyCastle.Crypto.Tls", "NameType");

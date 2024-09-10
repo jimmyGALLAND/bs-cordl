@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "UnityEngine/InputSystem/Interactions/HoldInteraction.hpp"
 #include "UnityEngine/InputSystem/Interactions/MultiTapInteraction.hpp"
@@ -10,5 +10,6 @@ module;
 #include "UnityEngine/InputSystem/Interactions/SlowTapInteraction.hpp"
 #include "UnityEngine/InputSystem/Interactions/TapInteraction.hpp"
 #ifdef __cpp_modules
-export module Interactions;
-#endif
+                    export module Interactions;
+                    #endif
+                

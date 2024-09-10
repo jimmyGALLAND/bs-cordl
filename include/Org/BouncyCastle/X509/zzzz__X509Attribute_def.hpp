@@ -26,72 +26,72 @@ class X509Attribute;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::X509::X509Attribute);
 // Type: Org.BouncyCastle.X509::X509Attribute
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::X509 {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.X509::X509Attribute*
 class CORDL_TYPE X509Attribute : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
-  // Declarations
-  __declspec(property(get = get_Oid))::StringW Oid;
+// Declarations
+ __declspec(property(get=get_Oid)) ::StringW  Oid;
 
-  /// @brief Field attr, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_attr, put = __cordl_internal_set_attr))::Org::BouncyCastle::Asn1::X509::AttributeX509* attr;
+/// @brief Field attr, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_attr, put=__cordl_internal_set_attr)) ::Org::BouncyCastle::Asn1::X509::AttributeX509*  attr;
 
-  /// @brief Method GetValues, addr 0x13ea210, size 0x110, virtual false, abstract: false, final false
-  inline ::ArrayW<::Org::BouncyCastle::Asn1::Asn1Encodable*, ::Array<::Org::BouncyCastle::Asn1::Asn1Encodable*>*> GetValues();
+/// @brief Method GetValues, addr 0x25a4890, size 0x110, virtual false, abstract: false, final false
+inline ::ArrayW<::Org::BouncyCastle::Asn1::Asn1Encodable*,::Array<::Org::BouncyCastle::Asn1::Asn1Encodable*>*> GetValues() ;
 
-  static inline ::Org::BouncyCastle::X509::X509Attribute* New_ctor(::Org::BouncyCastle::Asn1::Asn1Encodable* at);
+static inline ::Org::BouncyCastle::X509::X509Attribute* New_ctor(::Org::BouncyCastle::Asn1::Asn1Encodable*  at) ;
 
-  static inline ::Org::BouncyCastle::X509::X509Attribute* New_ctor(::StringW oid, ::Org::BouncyCastle::Asn1::Asn1Encodable* value);
+static inline ::Org::BouncyCastle::X509::X509Attribute* New_ctor(::StringW  oid, ::Org::BouncyCastle::Asn1::Asn1Encodable*  value) ;
 
-  static inline ::Org::BouncyCastle::X509::X509Attribute* New_ctor(::StringW oid, ::Org::BouncyCastle::Asn1::Asn1EncodableVector* value);
+static inline ::Org::BouncyCastle::X509::X509Attribute* New_ctor(::StringW  oid, ::Org::BouncyCastle::Asn1::Asn1EncodableVector*  value) ;
 
-  /// @brief Method ToAsn1Object, addr 0x13ea320, size 0x20, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
+/// @brief Method ToAsn1Object, addr 0x25a49a0, size 0x20, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object() ;
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::AttributeX509*& __cordl_internal_get_attr();
+constexpr ::Org::BouncyCastle::Asn1::X509::AttributeX509*& __cordl_internal_get_attr() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AttributeX509*> const& __cordl_internal_get_attr() const;
+constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AttributeX509*> const& __cordl_internal_get_attr() const;
 
-  constexpr void __cordl_internal_set_attr(::Org::BouncyCastle::Asn1::X509::AttributeX509* value);
+constexpr void __cordl_internal_set_attr(::Org::BouncyCastle::Asn1::X509::AttributeX509*  value) ;
 
-  /// @brief Method .ctor, addr 0x13e9ff0, size 0x34, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Encodable* at);
+/// @brief Method .ctor, addr 0x25a4680, size 0x34, virtual false, abstract: false, final false
+inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Encodable*  at) ;
 
-  /// @brief Method .ctor, addr 0x13ea024, size 0xe4, virtual false, abstract: false, final false
-  inline void _ctor(::StringW oid, ::Org::BouncyCastle::Asn1::Asn1Encodable* value);
+/// @brief Method .ctor, addr 0x25a46b4, size 0xdc, virtual false, abstract: false, final false
+inline void _ctor(::StringW  oid, ::Org::BouncyCastle::Asn1::Asn1Encodable*  value) ;
 
-  /// @brief Method .ctor, addr 0x13ea108, size 0xe4, virtual false, abstract: false, final false
-  inline void _ctor(::StringW oid, ::Org::BouncyCastle::Asn1::Asn1EncodableVector* value);
+/// @brief Method .ctor, addr 0x25a4790, size 0xdc, virtual false, abstract: false, final false
+inline void _ctor(::StringW  oid, ::Org::BouncyCastle::Asn1::Asn1EncodableVector*  value) ;
 
-  /// @brief Method get_Oid, addr 0x13ea1ec, size 0x24, virtual false, abstract: false, final false
-  inline ::StringW get_Oid();
+/// @brief Method get_Oid, addr 0x25a486c, size 0x24, virtual false, abstract: false, final false
+inline ::StringW get_Oid() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr X509Attribute();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr X509Attribute() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "X509Attribute", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  X509Attribute(X509Attribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "X509Attribute", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  X509Attribute(X509Attribute const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "X509Attribute", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+X509Attribute(X509Attribute && ) = delete;
 
-  /// @brief Field attr, offset: 0x10, size: 0x8, def value: None
-  ::Org::BouncyCastle::Asn1::X509::AttributeX509* ___attr;
+// Ctor Parameters [CppParam { name: "", ty: "X509Attribute", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+X509Attribute(X509Attribute const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field attr, offset: 0x10, size: 0x8, def value: None
+ ::Org::BouncyCastle::Asn1::X509::AttributeX509*  ___attr;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::X509::X509Attribute, 0x18>, "Size mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::X509::X509Attribute, ___attr) == 0x10, "Offset mismatch!");
 
-} // namespace Org::BouncyCastle::X509
+} // namespace end def Org::BouncyCastle::X509
 NEED_NO_BOX(::Org::BouncyCastle::X509::X509Attribute);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::X509::X509Attribute*, "Org.BouncyCastle.X509", "X509Attribute");

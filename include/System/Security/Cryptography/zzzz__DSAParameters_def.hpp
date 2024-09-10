@@ -14,53 +14,48 @@ struct DSAParameters;
 // Write type traits
 MARK_VAL_T(::System::Security::Cryptography::DSAParameters);
 // Type: System.Security.Cryptography::DSAParameters
-// SizeInfo { instance_size: 64, native_size: 64, calculated_instance_size: 64, calculated_native_size: 76, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: 64, calculated_instance_size: 64, calculated_native_size: 76, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: true
 // CS Name: ::System.Security.Cryptography::DSAParameters
 struct CORDL_TYPE DSAParameters {
 public:
-  // Declarations
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DSAParameters();
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr DSAParameters() ;
 
-  // Ctor Parameters [CppParam { name: "P", ty: "::ArrayW<uint8_t,::Array<uint8_t>*>", modifiers: "", def_value: None }, CppParam { name: "Q", ty: "::ArrayW<uint8_t,::Array<uint8_t>*>", modifiers: "",
-  // def_value: None }, CppParam { name: "G", ty: "::ArrayW<uint8_t,::Array<uint8_t>*>", modifiers: "", def_value: None }, CppParam { name: "Y", ty: "::ArrayW<uint8_t,::Array<uint8_t>*>", modifiers:
-  // "", def_value: None }, CppParam { name: "J", ty: "::ArrayW<uint8_t,::Array<uint8_t>*>", modifiers: "", def_value: None }, CppParam { name: "X", ty: "::ArrayW<uint8_t,::Array<uint8_t>*>",
-  // modifiers: "", def_value: None }, CppParam { name: "Seed", ty: "::ArrayW<uint8_t,::Array<uint8_t>*>", modifiers: "", def_value: None }, CppParam { name: "Counter", ty: "int32_t", modifiers: "",
-  // def_value: None }]
-  constexpr DSAParameters(::ArrayW<uint8_t, ::Array<uint8_t>*> P, ::ArrayW<uint8_t, ::Array<uint8_t>*> Q, ::ArrayW<uint8_t, ::Array<uint8_t>*> G, ::ArrayW<uint8_t, ::Array<uint8_t>*> Y,
-                          ::ArrayW<uint8_t, ::Array<uint8_t>*> J, ::ArrayW<uint8_t, ::Array<uint8_t>*> X, ::ArrayW<uint8_t, ::Array<uint8_t>*> Seed, int32_t Counter) noexcept;
+// Ctor Parameters [CppParam { name: "P", ty: "::ArrayW<uint8_t,::Array<uint8_t>*>", modifiers: "", def_value: None }, CppParam { name: "Q", ty: "::ArrayW<uint8_t,::Array<uint8_t>*>", modifiers: "", def_value: None }, CppParam { name: "G", ty: "::ArrayW<uint8_t,::Array<uint8_t>*>", modifiers: "", def_value: None }, CppParam { name: "Y", ty: "::ArrayW<uint8_t,::Array<uint8_t>*>", modifiers: "", def_value: None }, CppParam { name: "J", ty: "::ArrayW<uint8_t,::Array<uint8_t>*>", modifiers: "", def_value: None }, CppParam { name: "X", ty: "::ArrayW<uint8_t,::Array<uint8_t>*>", modifiers: "", def_value: None }, CppParam { name: "Seed", ty: "::ArrayW<uint8_t,::Array<uint8_t>*>", modifiers: "", def_value: None }, CppParam { name: "Counter", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr DSAParameters(::ArrayW<uint8_t,::Array<uint8_t>*>  P, ::ArrayW<uint8_t,::Array<uint8_t>*>  Q, ::ArrayW<uint8_t,::Array<uint8_t>*>  G, ::ArrayW<uint8_t,::Array<uint8_t>*>  Y, ::ArrayW<uint8_t,::Array<uint8_t>*>  J, ::ArrayW<uint8_t,::Array<uint8_t>*>  X, ::ArrayW<uint8_t,::Array<uint8_t>*>  Seed, int32_t  Counter) noexcept;
 
-  /// @brief Field P, offset: 0x0, size: 0x8, def value: None
-  ::ArrayW<uint8_t, ::Array<uint8_t>*> P;
+/// @brief Field P, offset: 0x0, size: 0x8, def value: None
+ ::ArrayW<uint8_t,::Array<uint8_t>*>  P;
 
-  /// @brief Field Q, offset: 0x8, size: 0x8, def value: None
-  ::ArrayW<uint8_t, ::Array<uint8_t>*> Q;
+/// @brief Field Q, offset: 0x8, size: 0x8, def value: None
+ ::ArrayW<uint8_t,::Array<uint8_t>*>  Q;
 
-  /// @brief Field G, offset: 0x10, size: 0x8, def value: None
-  ::ArrayW<uint8_t, ::Array<uint8_t>*> G;
+/// @brief Field G, offset: 0x10, size: 0x8, def value: None
+ ::ArrayW<uint8_t,::Array<uint8_t>*>  G;
 
-  /// @brief Field Y, offset: 0x18, size: 0x8, def value: None
-  ::ArrayW<uint8_t, ::Array<uint8_t>*> Y;
+/// @brief Field Y, offset: 0x18, size: 0x8, def value: None
+ ::ArrayW<uint8_t,::Array<uint8_t>*>  Y;
 
-  /// @brief Field J, offset: 0x20, size: 0x8, def value: None
-  ::ArrayW<uint8_t, ::Array<uint8_t>*> J;
+/// @brief Field J, offset: 0x20, size: 0x8, def value: None
+ ::ArrayW<uint8_t,::Array<uint8_t>*>  J;
 
-  /// @brief Field X, offset: 0x28, size: 0x8, def value: None
-  ::ArrayW<uint8_t, ::Array<uint8_t>*> X;
+/// @brief Field X, offset: 0x28, size: 0x8, def value: None
+ ::ArrayW<uint8_t,::Array<uint8_t>*>  X;
 
-  /// @brief Field Seed, offset: 0x30, size: 0x8, def value: None
-  ::ArrayW<uint8_t, ::Array<uint8_t>*> Seed;
+/// @brief Field Seed, offset: 0x30, size: 0x8, def value: None
+ ::ArrayW<uint8_t,::Array<uint8_t>*>  Seed;
 
-  /// @brief Field Counter, offset: 0x38, size: 0x4, def value: None
-  int32_t Counter;
+/// @brief Field Counter, offset: 0x38, size: 0x4, def value: None
+ int32_t  Counter;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x40};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Security::Cryptography::DSAParameters, 0x40>, "Size mismatch!");
@@ -81,5 +76,5 @@ static_assert(offsetof(::System::Security::Cryptography::DSAParameters, Seed) ==
 
 static_assert(offsetof(::System::Security::Cryptography::DSAParameters, Counter) == 0x38, "Offset mismatch!");
 
-} // namespace System::Security::Cryptography
+} // namespace end def System::Security::Cryptography
 DEFINE_IL2CPP_ARG_TYPE(::System::Security::Cryptography::DSAParameters, "System.Security.Cryptography", "DSAParameters");

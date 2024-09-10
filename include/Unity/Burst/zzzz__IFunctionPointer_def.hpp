@@ -15,27 +15,27 @@ class IFunctionPointer;
 // Write type traits
 MARK_REF_PTR_T(::Unity::Burst::IFunctionPointer);
 // Type: Unity.Burst::IFunctionPointer
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Unity::Burst {
 // Is value type: false
 // CS Name: ::Unity.Burst::IFunctionPointer*
 class CORDL_TYPE IFunctionPointer {
 public:
-  // Declarations
-  /// @brief Method FromIntPtr, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::Unity::Burst::IFunctionPointer* FromIntPtr(::System::IntPtr ptr);
+// Declarations
+/// @brief Method FromIntPtr, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+inline ::Unity::Burst::IFunctionPointer* FromIntPtr(::System::IntPtr  ptr) ;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IFunctionPointer", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IFunctionPointer(IFunctionPointer&&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "IFunctionPointer", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+IFunctionPointer(IFunctionPointer && ) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IFunctionPointer", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  IFunctionPointer(IFunctionPointer const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "IFunctionPointer", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+IFunctionPointer(IFunctionPointer const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-} // namespace Unity::Burst
+} // namespace end def Unity::Burst
 NEED_NO_BOX(::Unity::Burst::IFunctionPointer);
 DEFINE_IL2CPP_ARG_TYPE(::Unity::Burst::IFunctionPointer*, "Unity.Burst", "IFunctionPointer");

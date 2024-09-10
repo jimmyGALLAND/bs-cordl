@@ -16,7 +16,8 @@ namespace UnityEngine::UIElements {
 class EventBase;
 }
 namespace UnityEngine::UIElements {
-template <typename TEventType> class EventCallback_1;
+template<typename TEventType>
+class EventCallback_1;
 }
 namespace UnityEngine::UIElements {
 struct InvokePolicy;
@@ -26,72 +27,72 @@ struct PropagationPhase;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
-template <typename TEventType> class EventCallbackFunctor_1;
+template<typename TEventType>
+class EventCallbackFunctor_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::UnityEngine::UIElements::EventCallbackFunctor_1);
 // Type: UnityEngine.UIElements::EventCallbackFunctor`1
-// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: 40, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // cpp template
-template <typename TEventType>
+template<typename TEventType>
 // Is value type: false
 // CS Name: ::UnityEngine.UIElements::EventCallbackFunctor`1<TEventType>*
 class CORDL_TYPE EventCallbackFunctor_1 : public ::UnityEngine::UIElements::EventCallbackFunctorBase {
 public:
-  // Declarations
-  /// @brief Field m_Callback, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Callback, put = __cordl_internal_set_m_Callback))::UnityEngine::UIElements::EventCallback_1<TEventType>* m_Callback;
+// Declarations
+/// @brief Field m_Callback, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_Callback, put=__cordl_internal_set_m_Callback)) ::UnityEngine::UIElements::EventCallback_1<TEventType>*  m_Callback;
 
-  /// @brief Field m_EventTypeId, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_EventTypeId, put = __cordl_internal_set_m_EventTypeId)) int64_t m_EventTypeId;
+/// @brief Field m_EventTypeId, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_EventTypeId, put=__cordl_internal_set_m_EventTypeId)) int64_t  m_EventTypeId;
 
-  /// @brief Method Invoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline void Invoke(::UnityEngine::UIElements::EventBase* evt, ::UnityEngine::UIElements::PropagationPhase propagationPhase);
+/// @brief Method Invoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline void Invoke(::UnityEngine::UIElements::EventBase*  evt, ::UnityEngine::UIElements::PropagationPhase  propagationPhase) ;
 
-  /// @brief Method IsEquivalentTo, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
-  inline bool IsEquivalentTo(int64_t eventTypeId, ::System::Delegate* callback, ::UnityEngine::UIElements::CallbackPhase phase);
+/// @brief Method IsEquivalentTo, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: false, final false
+inline bool IsEquivalentTo(int64_t  eventTypeId, ::System::Delegate*  callback, ::UnityEngine::UIElements::CallbackPhase  phase) ;
 
-  static inline ::UnityEngine::UIElements::EventCallbackFunctor_1<TEventType>* New_ctor(::UnityEngine::UIElements::EventCallback_1<TEventType>* callback,
-                                                                                        ::UnityEngine::UIElements::CallbackPhase phase, ::UnityEngine::UIElements::InvokePolicy invokePolicy);
+static inline ::UnityEngine::UIElements::EventCallbackFunctor_1<TEventType>* New_ctor(::UnityEngine::UIElements::EventCallback_1<TEventType>*  callback, ::UnityEngine::UIElements::CallbackPhase  phase, ::UnityEngine::UIElements::InvokePolicy  invokePolicy) ;
 
-  constexpr ::UnityEngine::UIElements::EventCallback_1<TEventType>*& __cordl_internal_get_m_Callback();
+constexpr ::UnityEngine::UIElements::EventCallback_1<TEventType>*& __cordl_internal_get_m_Callback() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::EventCallback_1<TEventType>*> const& __cordl_internal_get_m_Callback() const;
+constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::EventCallback_1<TEventType>*> const& __cordl_internal_get_m_Callback() const;
 
-  constexpr int64_t const& __cordl_internal_get_m_EventTypeId() const;
+constexpr int64_t const& __cordl_internal_get_m_EventTypeId() const;
 
-  constexpr int64_t& __cordl_internal_get_m_EventTypeId();
+constexpr int64_t& __cordl_internal_get_m_EventTypeId() ;
 
-  constexpr void __cordl_internal_set_m_Callback(::UnityEngine::UIElements::EventCallback_1<TEventType>* value);
+constexpr void __cordl_internal_set_m_Callback(::UnityEngine::UIElements::EventCallback_1<TEventType>*  value) ;
 
-  constexpr void __cordl_internal_set_m_EventTypeId(int64_t value);
+constexpr void __cordl_internal_set_m_EventTypeId(int64_t  value) ;
 
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::UIElements::EventCallback_1<TEventType>* callback, ::UnityEngine::UIElements::CallbackPhase phase, ::UnityEngine::UIElements::InvokePolicy invokePolicy);
+/// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+inline void _ctor(::UnityEngine::UIElements::EventCallback_1<TEventType>*  callback, ::UnityEngine::UIElements::CallbackPhase  phase, ::UnityEngine::UIElements::InvokePolicy  invokePolicy) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr EventCallbackFunctor_1();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr EventCallbackFunctor_1() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EventCallbackFunctor_1", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  EventCallbackFunctor_1(EventCallbackFunctor_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EventCallbackFunctor_1", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  EventCallbackFunctor_1(EventCallbackFunctor_1 const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "EventCallbackFunctor_1", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+EventCallbackFunctor_1(EventCallbackFunctor_1 && ) = delete;
 
-  /// @brief Field m_Callback, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::UIElements::EventCallback_1<TEventType>* ___m_Callback;
+// Ctor Parameters [CppParam { name: "", ty: "EventCallbackFunctor_1", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+EventCallbackFunctor_1(EventCallbackFunctor_1 const& ) = delete;
 
-  /// @brief Field m_EventTypeId, offset: 0x20, size: 0x8, def value: None
-  int64_t ___m_EventTypeId;
+/// @brief Field m_Callback, offset: 0x18, size: 0x8, def value: None
+ ::UnityEngine::UIElements::EventCallback_1<TEventType>*  ___m_Callback;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field m_EventTypeId, offset: 0x20, size: 0x8, def value: None
+ int64_t  ___m_EventTypeId;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-} // namespace UnityEngine::UIElements
+} // namespace end def UnityEngine::UIElements
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::UnityEngine::UIElements::EventCallbackFunctor_1, "UnityEngine.UIElements", "EventCallbackFunctor`1");

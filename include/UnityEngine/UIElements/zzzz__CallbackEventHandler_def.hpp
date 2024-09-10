@@ -15,7 +15,12 @@ namespace UnityEngine::UIElements {
 class EventCallbackRegistry;
 }
 namespace UnityEngine::UIElements {
-template <typename TEventType> class EventCallback_1;
+template<typename TEventType>
+class EventCallback_1;
+}
+namespace UnityEngine::UIElements {
+template<typename TEventType,typename TCallbackArgs>
+class EventCallback_2;
 }
 namespace UnityEngine::UIElements {
 class IEventHandler;
@@ -33,98 +38,136 @@ class CallbackEventHandler;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::CallbackEventHandler);
 // Type: UnityEngine.UIElements::CallbackEventHandler
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: ::UnityEngine.UIElements::CallbackEventHandler*
 class CORDL_TYPE CallbackEventHandler : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field m_CallbackRegistry, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_CallbackRegistry, put = __cordl_internal_set_m_CallbackRegistry))::UnityEngine::UIElements::EventCallbackRegistry* m_CallbackRegistry;
+// Declarations
+/// @brief Field isIMGUIContainer, offset 0x10, size 0x1 
+ __declspec(property(get=__cordl_internal_get_isIMGUIContainer, put=__cordl_internal_set_isIMGUIContainer)) bool  isIMGUIContainer;
 
-  /// @brief Convert operator to "::UnityEngine::UIElements::IEventHandler"
-  constexpr operator ::UnityEngine::UIElements::IEventHandler*() noexcept;
+/// @brief Field m_CallbackRegistry, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_CallbackRegistry, put=__cordl_internal_set_m_CallbackRegistry)) ::UnityEngine::UIElements::EventCallbackRegistry*  m_CallbackRegistry;
 
-  /// @brief Method ExecuteDefaultAction, addr 0x35e6e44, size 0x4, virtual true, abstract: false, final false
-  inline void ExecuteDefaultAction(::UnityEngine::UIElements::EventBase* evt);
+/// @brief Convert operator to "::UnityEngine::UIElements::IEventHandler"
+constexpr operator  ::UnityEngine::UIElements::IEventHandler*() noexcept;
 
-  /// @brief Method ExecuteDefaultActionAtTarget, addr 0x35e6e40, size 0x4, virtual true, abstract: false, final false
-  inline void ExecuteDefaultActionAtTarget(::UnityEngine::UIElements::EventBase* evt);
+/// @brief Method AddEventCategories, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+template<typename TEventType>
+inline void AddEventCategories() ;
 
-  /// @brief Method ExecuteDefaultActionDisabled, addr 0x35e6e4c, size 0x4, virtual true, abstract: false, final false
-  inline void ExecuteDefaultActionDisabled(::UnityEngine::UIElements::EventBase* evt);
+/// @brief Method ExecuteDefaultAction, addr 0x49924ac, size 0x4, virtual true, abstract: false, final false
+inline void ExecuteDefaultAction(::UnityEngine::UIElements::EventBase*  evt) ;
 
-  /// @brief Method ExecuteDefaultActionDisabledAtTarget, addr 0x35e6e48, size 0x4, virtual true, abstract: false, final false
-  inline void ExecuteDefaultActionDisabledAtTarget(::UnityEngine::UIElements::EventBase* evt);
+/// @brief Method ExecuteDefaultActionAtTarget, addr 0x49924a8, size 0x4, virtual true, abstract: false, final false
+inline void ExecuteDefaultActionAtTarget(::UnityEngine::UIElements::EventBase*  evt) ;
 
-  /// @brief Method HandleEvent, addr 0x35e6b80, size 0x2c0, virtual true, abstract: false, final false
-  inline void HandleEvent(::UnityEngine::UIElements::EventBase* evt);
+/// @brief Method ExecuteDefaultActionDisabled, addr 0x49924b4, size 0x4, virtual true, abstract: false, final false
+inline void ExecuteDefaultActionDisabled(::UnityEngine::UIElements::EventBase*  evt) ;
 
-  /// @brief Method HandleEventAtTargetPhase, addr 0x35e3af0, size 0x6c, virtual false, abstract: false, final false
-  inline void HandleEventAtTargetPhase(::UnityEngine::UIElements::EventBase* evt);
+/// @brief Method ExecuteDefaultActionDisabledAtTarget, addr 0x49924b0, size 0x4, virtual true, abstract: false, final false
+inline void ExecuteDefaultActionDisabledAtTarget(::UnityEngine::UIElements::EventBase*  evt) ;
 
-  /// @brief Method HasBubbleUpHandlers, addr 0x35e2db0, size 0x28, virtual true, abstract: false, final true
-  inline bool HasBubbleUpHandlers();
+/// @brief Method HandleEvent, addr 0x49921b8, size 0x2a0, virtual true, abstract: false, final false
+inline void HandleEvent(::UnityEngine::UIElements::EventBase*  evt) ;
 
-  /// @brief Method HasTrickleDownHandlers, addr 0x35e2d88, size 0x28, virtual true, abstract: false, final true
-  inline bool HasTrickleDownHandlers();
+/// @brief Method HandleEventAtCurrentTargetAndPhase, addr 0x4992160, size 0xc, virtual false, abstract: false, final false
+inline void HandleEventAtCurrentTargetAndPhase(::UnityEngine::UIElements::EventBase*  evt) ;
 
-  static inline ::UnityEngine::UIElements::CallbackEventHandler* New_ctor();
+/// @brief Method HandleEventAtTargetAndDefaultPhase, addr 0x499216c, size 0x40, virtual false, abstract: false, final false
+inline void HandleEventAtTargetAndDefaultPhase(::UnityEngine::UIElements::EventBase*  evt) ;
 
-  /// @brief Method RegisterCallback, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TEventType>
-  inline void RegisterCallback(::UnityEngine::UIElements::EventCallback_1<TEventType>* callback, ::UnityEngine::UIElements::InvokePolicy invokePolicy,
-                               ::UnityEngine::UIElements::TrickleDown useTrickleDown);
+/// @brief Method HandleEventAtTargetPhase, addr 0x49920f4, size 0x6c, virtual false, abstract: false, final false
+inline void HandleEventAtTargetPhase(::UnityEngine::UIElements::EventBase*  evt) ;
 
-  /// @brief Method RegisterCallback, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TEventType> inline void RegisterCallback(::UnityEngine::UIElements::EventCallback_1<TEventType>* callback, ::UnityEngine::UIElements::TrickleDown useTrickleDown);
+/// @brief Method HasBubbleUpHandlers, addr 0x4992480, size 0x28, virtual true, abstract: false, final true
+inline bool HasBubbleUpHandlers() ;
 
-  /// @brief Method SendEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void SendEvent(::UnityEngine::UIElements::EventBase* e);
+/// @brief Method HasTrickleDownHandlers, addr 0x4992458, size 0x28, virtual true, abstract: false, final true
+inline bool HasTrickleDownHandlers() ;
 
-  /// @brief Method SendEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void SendEvent(::UnityEngine::UIElements::EventBase* e, ::UnityEngine::UIElements::DispatchMode dispatchMode);
+static inline ::UnityEngine::UIElements::CallbackEventHandler* New_ctor() ;
 
-  /// @brief Method UnregisterCallback, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TEventType> inline void UnregisterCallback(::UnityEngine::UIElements::EventCallback_1<TEventType>* callback, ::UnityEngine::UIElements::TrickleDown useTrickleDown);
+/// @brief Method RegisterCallback, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+template<typename TEventType>
+inline void RegisterCallback(::UnityEngine::UIElements::EventCallback_1<TEventType>*  callback, ::UnityEngine::UIElements::InvokePolicy  invokePolicy, ::UnityEngine::UIElements::TrickleDown  useTrickleDown) ;
 
-  constexpr ::UnityEngine::UIElements::EventCallbackRegistry*& __cordl_internal_get_m_CallbackRegistry();
+/// @brief Method RegisterCallback, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+template<typename TEventType>
+inline void RegisterCallback(::UnityEngine::UIElements::EventCallback_1<TEventType>*  callback, ::UnityEngine::UIElements::TrickleDown  useTrickleDown) ;
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::EventCallbackRegistry*> const& __cordl_internal_get_m_CallbackRegistry() const;
+/// @brief Method RegisterCallback, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+template<typename TEventType,typename TUserArgsType>
+inline void RegisterCallback(::UnityEngine::UIElements::EventCallback_2<TEventType,TUserArgsType>*  callback, TUserArgsType  userArgs, ::UnityEngine::UIElements::TrickleDown  useTrickleDown) ;
 
-  constexpr void __cordl_internal_set_m_CallbackRegistry(::UnityEngine::UIElements::EventCallbackRegistry* value);
+/// @brief Method SendEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+inline void SendEvent(::UnityEngine::UIElements::EventBase*  e) ;
 
-  /// @brief Method .ctor, addr 0x35e6e50, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method SendEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+inline void SendEvent(::UnityEngine::UIElements::EventBase*  e, ::UnityEngine::UIElements::DispatchMode  dispatchMode) ;
 
-  /// @brief Convert to "::UnityEngine::UIElements::IEventHandler"
-  constexpr ::UnityEngine::UIElements::IEventHandler* i___UnityEngine__UIElements__IEventHandler() noexcept;
+/// @brief Method UnityEngine.UIElements.IEventHandler.HandleEvent, addr 0x49921ac, size 0xc, virtual true, abstract: false, final true
+inline void UnityEngine_UIElements_IEventHandler_HandleEvent(::UnityEngine::UIElements::EventBase*  evt) ;
+
+/// @brief Method UnregisterCallback, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+template<typename TEventType>
+inline void UnregisterCallback(::UnityEngine::UIElements::EventCallback_1<TEventType>*  callback, ::UnityEngine::UIElements::TrickleDown  useTrickleDown) ;
+
+constexpr bool const& __cordl_internal_get_isIMGUIContainer() const;
+
+constexpr bool& __cordl_internal_get_isIMGUIContainer() ;
+
+constexpr ::UnityEngine::UIElements::EventCallbackRegistry*& __cordl_internal_get_m_CallbackRegistry() ;
+
+constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::EventCallbackRegistry*> const& __cordl_internal_get_m_CallbackRegistry() const;
+
+constexpr void __cordl_internal_set_isIMGUIContainer(bool  value) ;
+
+constexpr void __cordl_internal_set_m_CallbackRegistry(::UnityEngine::UIElements::EventCallbackRegistry*  value) ;
+
+/// @brief Method .ctor, addr 0x49924b8, size 0xc, virtual false, abstract: false, final false
+inline void _ctor() ;
+
+/// @brief Convert to "::UnityEngine::UIElements::IEventHandler"
+constexpr ::UnityEngine::UIElements::IEventHandler* i___UnityEngine__UIElements__IEventHandler() noexcept;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CallbackEventHandler();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr CallbackEventHandler() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CallbackEventHandler", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  CallbackEventHandler(CallbackEventHandler&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CallbackEventHandler", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  CallbackEventHandler(CallbackEventHandler const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "CallbackEventHandler", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+CallbackEventHandler(CallbackEventHandler && ) = delete;
 
-  /// @brief Field m_CallbackRegistry, offset: 0x10, size: 0x8, def value: None
-  ::UnityEngine::UIElements::EventCallbackRegistry* ___m_CallbackRegistry;
+// Ctor Parameters [CppParam { name: "", ty: "CallbackEventHandler", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+CallbackEventHandler(CallbackEventHandler const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field isIMGUIContainer, offset: 0x10, size: 0x1, def value: None
+ bool  ___isIMGUIContainer;
+
+/// @brief Field m_CallbackRegistry, offset: 0x18, size: 0x8, def value: None
+ ::UnityEngine::UIElements::EventCallbackRegistry*  ___m_CallbackRegistry;
+
+/// @brief Field ExecuteDefaultActionAtTargetName offset 0xffffffff size 0x8
+static constexpr ::ConstString  ExecuteDefaultActionAtTargetName{u"ExecuteDefaultActionAtTarget"};
+
+/// @brief Field ExecuteDefaultActionName offset 0xffffffff size 0x8
+static constexpr ::ConstString  ExecuteDefaultActionName{u"ExecuteDefaultAction"};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::CallbackEventHandler, 0x18>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::CallbackEventHandler, 0x20>, "Size mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::CallbackEventHandler, ___m_CallbackRegistry) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::CallbackEventHandler, ___isIMGUIContainer) == 0x10, "Offset mismatch!");
 
-} // namespace UnityEngine::UIElements
+static_assert(offsetof(::UnityEngine::UIElements::CallbackEventHandler, ___m_CallbackRegistry) == 0x18, "Offset mismatch!");
+
+} // namespace end def UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::CallbackEventHandler);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::CallbackEventHandler*, "UnityEngine.UIElements", "CallbackEventHandler");

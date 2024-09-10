@@ -25,65 +25,65 @@ class CaseInsensitiveHashCodeProvider;
 // Write type traits
 MARK_REF_PTR_T(::System::Collections::CaseInsensitiveHashCodeProvider);
 // Type: System.Collections::CaseInsensitiveHashCodeProvider
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Collections {
 // Is value type: false
 // CS Name: ::System.Collections::CaseInsensitiveHashCodeProvider*
 class CORDL_TYPE CaseInsensitiveHashCodeProvider : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field _compareInfo, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__compareInfo, put = __cordl_internal_set__compareInfo))::System::Globalization::CompareInfo* _compareInfo;
+// Declarations
+/// @brief Field _compareInfo, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get__compareInfo, put=__cordl_internal_set__compareInfo)) ::System::Globalization::CompareInfo*  _compareInfo;
 
-  /// @brief Convert operator to "::System::Collections::IHashCodeProvider"
-  constexpr operator ::System::Collections::IHashCodeProvider*() noexcept;
+/// @brief Convert operator to "::System::Collections::IHashCodeProvider"
+constexpr operator  ::System::Collections::IHashCodeProvider*() noexcept;
 
-  /// @brief Method GetHashCode, addr 0x2931574, size 0xd8, virtual true, abstract: false, final true
-  inline int32_t GetHashCode(::System::Object* obj);
+/// @brief Method GetHashCode, addr 0x3d29fc4, size 0xd4, virtual true, abstract: false, final true
+inline int32_t GetHashCode(::System::Object*  obj) ;
 
-  static inline ::System::Collections::CaseInsensitiveHashCodeProvider* New_ctor();
+static inline ::System::Collections::CaseInsensitiveHashCodeProvider* New_ctor() ;
 
-  static inline ::System::Collections::CaseInsensitiveHashCodeProvider* New_ctor(::System::Globalization::CultureInfo* culture);
+static inline ::System::Collections::CaseInsensitiveHashCodeProvider* New_ctor(::System::Globalization::CultureInfo*  culture) ;
 
-  constexpr ::System::Globalization::CompareInfo*& __cordl_internal_get__compareInfo();
+constexpr ::System::Globalization::CompareInfo*& __cordl_internal_get__compareInfo() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Globalization::CompareInfo*> const& __cordl_internal_get__compareInfo() const;
+constexpr ::cordl_internals::to_const_pointer<::System::Globalization::CompareInfo*> const& __cordl_internal_get__compareInfo() const;
 
-  constexpr void __cordl_internal_set__compareInfo(::System::Globalization::CompareInfo* value);
+constexpr void __cordl_internal_set__compareInfo(::System::Globalization::CompareInfo*  value) ;
 
-  /// @brief Method .ctor, addr 0x2931470, size 0x7c, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x3d29ec4, size 0x7c, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method .ctor, addr 0x29314ec, size 0x88, virtual false, abstract: false, final false
-  inline void _ctor(::System::Globalization::CultureInfo* culture);
+/// @brief Method .ctor, addr 0x3d29f40, size 0x84, virtual false, abstract: false, final false
+inline void _ctor(::System::Globalization::CultureInfo*  culture) ;
 
-  /// @brief Convert to "::System::Collections::IHashCodeProvider"
-  constexpr ::System::Collections::IHashCodeProvider* i___System__Collections__IHashCodeProvider() noexcept;
+/// @brief Convert to "::System::Collections::IHashCodeProvider"
+constexpr ::System::Collections::IHashCodeProvider* i___System__Collections__IHashCodeProvider() noexcept;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CaseInsensitiveHashCodeProvider();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr CaseInsensitiveHashCodeProvider() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CaseInsensitiveHashCodeProvider", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  CaseInsensitiveHashCodeProvider(CaseInsensitiveHashCodeProvider&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CaseInsensitiveHashCodeProvider", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  CaseInsensitiveHashCodeProvider(CaseInsensitiveHashCodeProvider const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "CaseInsensitiveHashCodeProvider", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+CaseInsensitiveHashCodeProvider(CaseInsensitiveHashCodeProvider && ) = delete;
 
-  /// @brief Field _compareInfo, offset: 0x10, size: 0x8, def value: None
-  ::System::Globalization::CompareInfo* ____compareInfo;
+// Ctor Parameters [CppParam { name: "", ty: "CaseInsensitiveHashCodeProvider", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+CaseInsensitiveHashCodeProvider(CaseInsensitiveHashCodeProvider const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _compareInfo, offset: 0x10, size: 0x8, def value: None
+ ::System::Globalization::CompareInfo*  ____compareInfo;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Collections::CaseInsensitiveHashCodeProvider, 0x18>, "Size mismatch!");
 
 static_assert(offsetof(::System::Collections::CaseInsensitiveHashCodeProvider, ____compareInfo) == 0x10, "Offset mismatch!");
 
-} // namespace System::Collections
+} // namespace end def System::Collections
 NEED_NO_BOX(::System::Collections::CaseInsensitiveHashCodeProvider);
 DEFINE_IL2CPP_ARG_TYPE(::System::Collections::CaseInsensitiveHashCodeProvider*, "System.Collections", "CaseInsensitiveHashCodeProvider");

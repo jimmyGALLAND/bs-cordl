@@ -17,51 +17,51 @@ class UserProof;
 // Write type traits
 MARK_REF_PTR_T(::Oculus::Platform::Models::UserProof);
 // Type: Oculus.Platform.Models::UserProof
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
 // CS Name: ::Oculus.Platform.Models::UserProof*
 class CORDL_TYPE UserProof : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field Value, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_Value, put = __cordl_internal_set_Value))::StringW Value;
+// Declarations
+/// @brief Field Value, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_Value, put=__cordl_internal_set_Value)) ::StringW  Value;
 
-  static inline ::Oculus::Platform::Models::UserProof* New_ctor(::System::IntPtr o);
+static inline ::Oculus::Platform::Models::UserProof* New_ctor(::System::IntPtr  o) ;
 
-  constexpr ::StringW const& __cordl_internal_get_Value() const;
+constexpr ::StringW const& __cordl_internal_get_Value() const;
 
-  constexpr ::StringW& __cordl_internal_get_Value();
+constexpr ::StringW& __cordl_internal_get_Value() ;
 
-  constexpr void __cordl_internal_set_Value(::StringW value);
+constexpr void __cordl_internal_set_Value(::StringW  value) ;
 
-  /// @brief Method .ctor, addr 0x2b13610, size 0x78, virtual false, abstract: false, final false
-  inline void _ctor(::System::IntPtr o);
+/// @brief Method .ctor, addr 0x3f034c0, size 0x78, virtual false, abstract: false, final false
+inline void _ctor(::System::IntPtr  o) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr UserProof();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr UserProof() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UserProof", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  UserProof(UserProof&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UserProof", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  UserProof(UserProof const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "UserProof", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+UserProof(UserProof && ) = delete;
 
-  /// @brief Field Value, offset: 0x10, size: 0x8, def value: None
-  ::StringW ___Value;
+// Ctor Parameters [CppParam { name: "", ty: "UserProof", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+UserProof(UserProof const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field Value, offset: 0x10, size: 0x8, def value: None
+ ::StringW  ___Value;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Oculus::Platform::Models::UserProof, 0x18>, "Size mismatch!");
 
 static_assert(offsetof(::Oculus::Platform::Models::UserProof, ___Value) == 0x10, "Offset mismatch!");
 
-} // namespace Oculus::Platform::Models
+} // namespace end def Oculus::Platform::Models
 NEED_NO_BOX(::Oculus::Platform::Models::UserProof);
 DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Models::UserProof*, "Oculus.Platform.Models", "UserProof");

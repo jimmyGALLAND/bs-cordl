@@ -13,54 +13,54 @@ class EncoderExceptionFallbackBuffer;
 // Write type traits
 MARK_REF_PTR_T(::System::Text::EncoderExceptionFallbackBuffer);
 // Type: System.Text::EncoderExceptionFallbackBuffer
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Text {
 // Is value type: false
 // CS Name: ::System.Text::EncoderExceptionFallbackBuffer*
 class CORDL_TYPE EncoderExceptionFallbackBuffer : public ::System::Text::EncoderFallbackBuffer {
 public:
-  // Declarations
-  __declspec(property(get = get_Remaining)) int32_t Remaining;
+// Declarations
+ __declspec(property(get=get_Remaining)) int32_t  Remaining;
 
-  /// @brief Method Fallback, addr 0x27e28ec, size 0xb4, virtual true, abstract: false, final false
-  inline bool Fallback(char16_t charUnknown, int32_t index);
+/// @brief Method Fallback, addr 0x3be85ec, size 0xac, virtual true, abstract: false, final false
+inline bool Fallback(char16_t  charUnknown, int32_t  index) ;
 
-  /// @brief Method Fallback, addr 0x27e29d0, size 0x260, virtual true, abstract: false, final false
-  inline bool Fallback(char16_t charUnknownHigh, char16_t charUnknownLow, int32_t index);
+/// @brief Method Fallback, addr 0x3be86c8, size 0x250, virtual true, abstract: false, final false
+inline bool Fallback(char16_t  charUnknownHigh, char16_t  charUnknownLow, int32_t  index) ;
 
-  /// @brief Method GetNextChar, addr 0x27e2e28, size 0x8, virtual true, abstract: false, final false
-  inline char16_t GetNextChar();
+/// @brief Method GetNextChar, addr 0x3be8b08, size 0x8, virtual true, abstract: false, final false
+inline char16_t GetNextChar() ;
 
-  /// @brief Method MovePrevious, addr 0x27e2e30, size 0x8, virtual true, abstract: false, final false
-  inline bool MovePrevious();
+/// @brief Method MovePrevious, addr 0x3be8b10, size 0x8, virtual true, abstract: false, final false
+inline bool MovePrevious() ;
 
-  static inline ::System::Text::EncoderExceptionFallbackBuffer* New_ctor();
+static inline ::System::Text::EncoderExceptionFallbackBuffer* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x27e2878, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x3be8578, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_Remaining, addr 0x27e2e38, size 0x8, virtual true, abstract: false, final false
-  inline int32_t get_Remaining();
+/// @brief Method get_Remaining, addr 0x3be8b18, size 0x8, virtual true, abstract: false, final false
+inline int32_t get_Remaining() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr EncoderExceptionFallbackBuffer();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr EncoderExceptionFallbackBuffer() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EncoderExceptionFallbackBuffer", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  EncoderExceptionFallbackBuffer(EncoderExceptionFallbackBuffer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EncoderExceptionFallbackBuffer", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  EncoderExceptionFallbackBuffer(EncoderExceptionFallbackBuffer const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "EncoderExceptionFallbackBuffer", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+EncoderExceptionFallbackBuffer(EncoderExceptionFallbackBuffer && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "EncoderExceptionFallbackBuffer", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+EncoderExceptionFallbackBuffer(EncoderExceptionFallbackBuffer const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Text::EncoderExceptionFallbackBuffer, 0x30>, "Size mismatch!");
 
-} // namespace System::Text
+} // namespace end def System::Text
 NEED_NO_BOX(::System::Text::EncoderExceptionFallbackBuffer);
 DEFINE_IL2CPP_ARG_TYPE(::System::Text::EncoderExceptionFallbackBuffer*, "System.Text", "EncoderExceptionFallbackBuffer");

@@ -15,7 +15,8 @@ namespace UnityEngine::Playables {
 struct Playable;
 }
 namespace UnityEngine::Playables {
-template <typename T> struct ScriptPlayable_1;
+template<typename T>
+struct ScriptPlayable_1;
 }
 namespace UnityEngine::Timeline {
 class ITimeControl;
@@ -27,73 +28,72 @@ class TimeControlPlayable;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::Timeline::TimeControlPlayable);
 // Type: UnityEngine.Timeline::TimeControlPlayable
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
 // CS Name: ::UnityEngine.Timeline::TimeControlPlayable*
 class CORDL_TYPE TimeControlPlayable : public ::UnityEngine::Playables::PlayableBehaviour {
 public:
-  // Declarations
-  /// @brief Field m_started, offset 0x18, size 0x1
-  __declspec(property(get = __cordl_internal_get_m_started, put = __cordl_internal_set_m_started)) bool m_started;
+// Declarations
+/// @brief Field m_started, offset 0x18, size 0x1 
+ __declspec(property(get=__cordl_internal_get_m_started, put=__cordl_internal_set_m_started)) bool  m_started;
 
-  /// @brief Field m_timeControl, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_timeControl, put = __cordl_internal_set_m_timeControl))::UnityEngine::Timeline::ITimeControl* m_timeControl;
+/// @brief Field m_timeControl, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_timeControl, put=__cordl_internal_set_m_timeControl)) ::UnityEngine::Timeline::ITimeControl*  m_timeControl;
 
-  /// @brief Method Create, addr 0x33da8b8, size 0xf4, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Playables::ScriptPlayable_1<::UnityEngine::Timeline::TimeControlPlayable*> Create(::UnityEngine::Playables::PlayableGraph graph,
-                                                                                                                 ::UnityEngine::Timeline::ITimeControl* timeControl);
+/// @brief Method Create, addr 0x479760c, size 0xf0, virtual false, abstract: false, final false
+static inline ::UnityEngine::Playables::ScriptPlayable_1<::UnityEngine::Timeline::TimeControlPlayable*> Create(::UnityEngine::Playables::PlayableGraph  graph, ::UnityEngine::Timeline::ITimeControl*  timeControl) ;
 
-  /// @brief Method Initialize, addr 0x33da9ac, size 0x8, virtual false, abstract: false, final false
-  inline void Initialize(::UnityEngine::Timeline::ITimeControl* timeControl);
+/// @brief Method Initialize, addr 0x47976fc, size 0x8, virtual false, abstract: false, final false
+inline void Initialize(::UnityEngine::Timeline::ITimeControl*  timeControl) ;
 
-  static inline ::UnityEngine::Timeline::TimeControlPlayable* New_ctor();
+static inline ::UnityEngine::Timeline::TimeControlPlayable* New_ctor() ;
 
-  /// @brief Method OnBehaviourPause, addr 0x33dab5c, size 0xb0, virtual true, abstract: false, final false
-  inline void OnBehaviourPause(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info);
+/// @brief Method OnBehaviourPause, addr 0x47978ac, size 0xb0, virtual true, abstract: false, final false
+inline void OnBehaviourPause(::UnityEngine::Playables::Playable  playable, ::UnityEngine::Playables::FrameData  info) ;
 
-  /// @brief Method OnBehaviourPlay, addr 0x33daaa8, size 0xb4, virtual true, abstract: false, final false
-  inline void OnBehaviourPlay(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info);
+/// @brief Method OnBehaviourPlay, addr 0x47977f8, size 0xb4, virtual true, abstract: false, final false
+inline void OnBehaviourPlay(::UnityEngine::Playables::Playable  playable, ::UnityEngine::Playables::FrameData  info) ;
 
-  /// @brief Method PrepareFrame, addr 0x33da9b4, size 0xf4, virtual true, abstract: false, final false
-  inline void PrepareFrame(::UnityEngine::Playables::Playable playable, ::UnityEngine::Playables::FrameData info);
+/// @brief Method PrepareFrame, addr 0x4797704, size 0xf4, virtual true, abstract: false, final false
+inline void PrepareFrame(::UnityEngine::Playables::Playable  playable, ::UnityEngine::Playables::FrameData  info) ;
 
-  constexpr bool const& __cordl_internal_get_m_started() const;
+constexpr bool const& __cordl_internal_get_m_started() const;
 
-  constexpr bool& __cordl_internal_get_m_started();
+constexpr bool& __cordl_internal_get_m_started() ;
 
-  constexpr ::UnityEngine::Timeline::ITimeControl*& __cordl_internal_get_m_timeControl();
+constexpr ::UnityEngine::Timeline::ITimeControl*& __cordl_internal_get_m_timeControl() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Timeline::ITimeControl*> const& __cordl_internal_get_m_timeControl() const;
+constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Timeline::ITimeControl*> const& __cordl_internal_get_m_timeControl() const;
 
-  constexpr void __cordl_internal_set_m_started(bool value);
+constexpr void __cordl_internal_set_m_started(bool  value) ;
 
-  constexpr void __cordl_internal_set_m_timeControl(::UnityEngine::Timeline::ITimeControl* value);
+constexpr void __cordl_internal_set_m_timeControl(::UnityEngine::Timeline::ITimeControl*  value) ;
 
-  /// @brief Method .ctor, addr 0x33dac0c, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x479795c, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TimeControlPlayable();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr TimeControlPlayable() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TimeControlPlayable", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  TimeControlPlayable(TimeControlPlayable&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TimeControlPlayable", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  TimeControlPlayable(TimeControlPlayable const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "TimeControlPlayable", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+TimeControlPlayable(TimeControlPlayable && ) = delete;
 
-  /// @brief Field m_timeControl, offset: 0x10, size: 0x8, def value: None
-  ::UnityEngine::Timeline::ITimeControl* ___m_timeControl;
+// Ctor Parameters [CppParam { name: "", ty: "TimeControlPlayable", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+TimeControlPlayable(TimeControlPlayable const& ) = delete;
 
-  /// @brief Field m_started, offset: 0x18, size: 0x1, def value: None
-  bool ___m_started;
+/// @brief Field m_timeControl, offset: 0x10, size: 0x8, def value: None
+ ::UnityEngine::Timeline::ITimeControl*  ___m_timeControl;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field m_started, offset: 0x18, size: 0x1, def value: None
+ bool  ___m_started;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Timeline::TimeControlPlayable, 0x20>, "Size mismatch!");
@@ -102,6 +102,6 @@ static_assert(offsetof(::UnityEngine::Timeline::TimeControlPlayable, ___m_timeCo
 
 static_assert(offsetof(::UnityEngine::Timeline::TimeControlPlayable, ___m_started) == 0x18, "Offset mismatch!");
 
-} // namespace UnityEngine::Timeline
+} // namespace end def UnityEngine::Timeline
 NEED_NO_BOX(::UnityEngine::Timeline::TimeControlPlayable);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Timeline::TimeControlPlayable*, "UnityEngine.Timeline", "TimeControlPlayable");

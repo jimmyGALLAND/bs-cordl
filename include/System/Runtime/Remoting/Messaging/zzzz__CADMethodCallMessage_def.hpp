@@ -27,70 +27,70 @@ class CADMethodCallMessage;
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Remoting::Messaging::CADMethodCallMessage);
 // Type: System.Runtime.Remoting.Messaging::CADMethodCallMessage
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: false
 // CS Name: ::System.Runtime.Remoting.Messaging::CADMethodCallMessage*
 class CORDL_TYPE CADMethodCallMessage : public ::System::Runtime::Remoting::Messaging::CADMessageBase {
 public:
-  // Declarations
-  __declspec(property(get = get_PropertiesCount)) int32_t PropertiesCount;
+// Declarations
+ __declspec(property(get=get_PropertiesCount)) int32_t  PropertiesCount;
 
-  __declspec(property(get = get_Uri))::StringW Uri;
+ __declspec(property(get=get_Uri)) ::StringW  Uri;
 
-  /// @brief Field _uri, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__uri, put = __cordl_internal_set__uri))::StringW _uri;
+/// @brief Field _uri, offset 0x38, size 0x8 
+ __declspec(property(get=__cordl_internal_get__uri, put=__cordl_internal_set__uri)) ::StringW  _uri;
 
-  /// @brief Method Create, addr 0x2850fb4, size 0x90, virtual false, abstract: false, final false
-  static inline ::System::Runtime::Remoting::Messaging::CADMethodCallMessage* Create(::System::Runtime::Remoting::Messaging::IMessage* callMsg);
+/// @brief Method Create, addr 0x3c52ecc, size 0x80, virtual false, abstract: false, final false
+static inline ::System::Runtime::Remoting::Messaging::CADMethodCallMessage* Create(::System::Runtime::Remoting::Messaging::IMessage*  callMsg) ;
 
-  /// @brief Method GetArgs, addr 0x28576e4, size 0x10, virtual false, abstract: false, final false
-  inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> GetArgs(::System::Collections::ArrayList* args);
+/// @brief Method GetArgs, addr 0x3c59518, size 0x10, virtual false, abstract: false, final false
+inline ::ArrayW<::System::Object*,::Array<::System::Object*>*> GetArgs(::System::Collections::ArrayList*  args) ;
 
-  /// @brief Method GetArguments, addr 0x28575a4, size 0x140, virtual false, abstract: false, final false
-  inline ::System::Collections::ArrayList* GetArguments();
+/// @brief Method GetArguments, addr 0x3c593e0, size 0x138, virtual false, abstract: false, final false
+inline ::System::Collections::ArrayList* GetArguments() ;
 
-  static inline ::System::Runtime::Remoting::Messaging::CADMethodCallMessage* New_ctor(::System::Runtime::Remoting::Messaging::IMethodCallMessage* callMsg);
+static inline ::System::Runtime::Remoting::Messaging::CADMethodCallMessage* New_ctor(::System::Runtime::Remoting::Messaging::IMethodCallMessage*  callMsg) ;
 
-  constexpr ::StringW const& __cordl_internal_get__uri() const;
+constexpr ::StringW const& __cordl_internal_get__uri() const;
 
-  constexpr ::StringW& __cordl_internal_get__uri();
+constexpr ::StringW& __cordl_internal_get__uri() ;
 
-  constexpr void __cordl_internal_set__uri(::StringW value);
+constexpr void __cordl_internal_set__uri(::StringW  value) ;
 
-  /// @brief Method .ctor, addr 0x28573b4, size 0x1f0, virtual false, abstract: false, final false
-  inline void _ctor(::System::Runtime::Remoting::Messaging::IMethodCallMessage* callMsg);
+/// @brief Method .ctor, addr 0x3c591f4, size 0x1ec, virtual false, abstract: false, final false
+inline void _ctor(::System::Runtime::Remoting::Messaging::IMethodCallMessage*  callMsg) ;
 
-  /// @brief Method get_PropertiesCount, addr 0x28576f4, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_PropertiesCount();
+/// @brief Method get_PropertiesCount, addr 0x3c59528, size 0x8, virtual false, abstract: false, final false
+inline int32_t get_PropertiesCount() ;
 
-  /// @brief Method get_Uri, addr 0x28573ac, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_Uri();
+/// @brief Method get_Uri, addr 0x3c591ec, size 0x8, virtual false, abstract: false, final false
+inline ::StringW get_Uri() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CADMethodCallMessage();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr CADMethodCallMessage() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CADMethodCallMessage", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  CADMethodCallMessage(CADMethodCallMessage&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CADMethodCallMessage", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  CADMethodCallMessage(CADMethodCallMessage const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "CADMethodCallMessage", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+CADMethodCallMessage(CADMethodCallMessage && ) = delete;
 
-  /// @brief Field _uri, offset: 0x38, size: 0x8, def value: None
-  ::StringW ____uri;
+// Ctor Parameters [CppParam { name: "", ty: "CADMethodCallMessage", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+CADMethodCallMessage(CADMethodCallMessage const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _uri, offset: 0x38, size: 0x8, def value: None
+ ::StringW  ____uri;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Remoting::Messaging::CADMethodCallMessage, 0x40>, "Size mismatch!");
 
 static_assert(offsetof(::System::Runtime::Remoting::Messaging::CADMethodCallMessage, ____uri) == 0x38, "Offset mismatch!");
 
-} // namespace System::Runtime::Remoting::Messaging
+} // namespace end def System::Runtime::Remoting::Messaging
 NEED_NO_BOX(::System::Runtime::Remoting::Messaging::CADMethodCallMessage);
 DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::Messaging::CADMethodCallMessage*, "System.Runtime.Remoting.Messaging", "CADMethodCallMessage");

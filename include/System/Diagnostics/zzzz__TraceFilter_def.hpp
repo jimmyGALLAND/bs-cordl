@@ -24,39 +24,38 @@ class TraceFilter;
 // Write type traits
 MARK_REF_PTR_T(::System::Diagnostics::TraceFilter);
 // Type: System.Diagnostics::TraceFilter
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Diagnostics {
 // Is value type: false
 // CS Name: ::System.Diagnostics::TraceFilter*
 class CORDL_TYPE TraceFilter : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method ShouldTrace, addr 0x2fce2e8, size 0x2c, virtual false, abstract: false, final false
-  inline bool ShouldTrace(::System::Diagnostics::TraceEventCache* cache, ::StringW source, ::System::Diagnostics::TraceEventType eventType, int32_t id, ::StringW formatOrMessage);
+// Declarations
+/// @brief Method ShouldTrace, addr 0x439a2f4, size 0x30, virtual false, abstract: false, final false
+inline bool ShouldTrace(::System::Diagnostics::TraceEventCache*  cache, ::StringW  source, ::System::Diagnostics::TraceEventType  eventType, int32_t  id, ::StringW  formatOrMessage) ;
 
-  /// @brief Method ShouldTrace, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline bool ShouldTrace(::System::Diagnostics::TraceEventCache* cache, ::StringW source, ::System::Diagnostics::TraceEventType eventType, int32_t id, ::StringW formatOrMessage,
-                          ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args, ::System::Object* data1, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> data);
+/// @brief Method ShouldTrace, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+inline bool ShouldTrace(::System::Diagnostics::TraceEventCache*  cache, ::StringW  source, ::System::Diagnostics::TraceEventType  eventType, int32_t  id, ::StringW  formatOrMessage, ::ArrayW<::System::Object*,::Array<::System::Object*>*>  args, ::System::Object*  data1, ::ArrayW<::System::Object*,::Array<::System::Object*>*>  data) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TraceFilter();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr TraceFilter() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TraceFilter", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  TraceFilter(TraceFilter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TraceFilter", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  TraceFilter(TraceFilter const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "TraceFilter", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+TraceFilter(TraceFilter && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "TraceFilter", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+TraceFilter(TraceFilter const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Diagnostics::TraceFilter, 0x10>, "Size mismatch!");
 
-} // namespace System::Diagnostics
+} // namespace end def System::Diagnostics
 NEED_NO_BOX(::System::Diagnostics::TraceFilter);
 DEFINE_IL2CPP_ARG_TYPE(::System::Diagnostics::TraceFilter*, "System.Diagnostics", "TraceFilter");

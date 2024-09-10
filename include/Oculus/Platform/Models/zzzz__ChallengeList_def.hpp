@@ -19,51 +19,51 @@ class ChallengeList;
 // Write type traits
 MARK_REF_PTR_T(::Oculus::Platform::Models::ChallengeList);
 // Type: Oculus.Platform.Models::ChallengeList
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform::Models {
 // Is value type: false
 // CS Name: ::Oculus.Platform.Models::ChallengeList*
 class CORDL_TYPE ChallengeList : public ::Oculus::Platform::Models::DeserializableList_1<::Oculus::Platform::Models::Challenge*> {
 public:
-  // Declarations
-  /// @brief Field TotalCount, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_TotalCount, put = __cordl_internal_set_TotalCount)) uint64_t TotalCount;
+// Declarations
+/// @brief Field TotalCount, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get_TotalCount, put=__cordl_internal_set_TotalCount)) uint64_t  TotalCount;
 
-  static inline ::Oculus::Platform::Models::ChallengeList* New_ctor(::System::IntPtr a);
+static inline ::Oculus::Platform::Models::ChallengeList* New_ctor(::System::IntPtr  a) ;
 
-  constexpr uint64_t const& __cordl_internal_get_TotalCount() const;
+constexpr uint64_t const& __cordl_internal_get_TotalCount() const;
 
-  constexpr uint64_t& __cordl_internal_get_TotalCount();
+constexpr uint64_t& __cordl_internal_get_TotalCount() ;
 
-  constexpr void __cordl_internal_set_TotalCount(uint64_t value);
+constexpr void __cordl_internal_set_TotalCount(uint64_t  value) ;
 
-  /// @brief Method .ctor, addr 0x2b0f7b0, size 0x27c, virtual false, abstract: false, final false
-  inline void _ctor(::System::IntPtr a);
+/// @brief Method .ctor, addr 0x3effb84, size 0x230, virtual false, abstract: false, final false
+inline void _ctor(::System::IntPtr  a) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ChallengeList();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ChallengeList() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ChallengeList", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ChallengeList(ChallengeList&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ChallengeList", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ChallengeList(ChallengeList const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ChallengeList", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ChallengeList(ChallengeList && ) = delete;
 
-  /// @brief Field TotalCount, offset: 0x28, size: 0x8, def value: None
-  uint64_t ___TotalCount;
+// Ctor Parameters [CppParam { name: "", ty: "ChallengeList", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ChallengeList(ChallengeList const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field TotalCount, offset: 0x28, size: 0x8, def value: None
+ uint64_t  ___TotalCount;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Oculus::Platform::Models::ChallengeList, 0x30>, "Size mismatch!");
 
 static_assert(offsetof(::Oculus::Platform::Models::ChallengeList, ___TotalCount) == 0x28, "Offset mismatch!");
 
-} // namespace Oculus::Platform::Models
+} // namespace end def Oculus::Platform::Models
 NEED_NO_BOX(::Oculus::Platform::Models::ChallengeList);
 DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Models::ChallengeList*, "Oculus.Platform.Models", "ChallengeList");

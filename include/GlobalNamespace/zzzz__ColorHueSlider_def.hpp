@@ -14,7 +14,8 @@ namespace HMUI {
 class CircleSlider;
 }
 namespace System {
-template <typename T1, typename T2, typename T3> class Action_3;
+template<typename T1,typename T2,typename T3>
+class Action_3;
 }
 namespace UnityEngine::EventSystems {
 class IEventSystemHandler;
@@ -32,115 +33,112 @@ class ColorHueSlider;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::ColorHueSlider);
 // Type: ::ColorHueSlider
-// SizeInfo { instance_size: 336, native_size: -1, calculated_instance_size: 336, calculated_native_size: 336, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 344, native_size: -1, calculated_instance_size: 344, calculated_native_size: 344, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::ColorHueSlider*
 class CORDL_TYPE ColorHueSlider : public ::HMUI::CircleSlider {
 public:
-  // Declarations
-  /// @brief Field _darkColor, offset 0x124, size 0x10
-  __declspec(property(get = __cordl_internal_get__darkColor, put = __cordl_internal_set__darkColor))::UnityEngine::Color _darkColor;
+// Declarations
+/// @brief Field _darkColor, offset 0x12c, size 0x10 
+ __declspec(property(get=__cordl_internal_get__darkColor, put=__cordl_internal_set__darkColor)) ::UnityEngine::Color  _darkColor;
 
-  /// @brief Field _lightColor, offset 0x134, size 0x10
-  __declspec(property(get = __cordl_internal_get__lightColor, put = __cordl_internal_set__lightColor))::UnityEngine::Color _lightColor;
+/// @brief Field _lightColor, offset 0x13c, size 0x10 
+ __declspec(property(get=__cordl_internal_get__lightColor, put=__cordl_internal_set__lightColor)) ::UnityEngine::Color  _lightColor;
 
-  /// @brief Field colorHueDidChangeEvent, offset 0x148, size 0x8
-  __declspec(property(
-      get = __cordl_internal_get_colorHueDidChangeEvent,
-      put = __cordl_internal_set_colorHueDidChangeEvent))::System::Action_3<::UnityW<::GlobalNamespace::ColorHueSlider>, float_t, ::GlobalNamespace::ColorChangeUIEventType>* colorHueDidChangeEvent;
+/// @brief Field colorHueDidChangeEvent, offset 0x150, size 0x8 
+ __declspec(property(get=__cordl_internal_get_colorHueDidChangeEvent, put=__cordl_internal_set_colorHueDidChangeEvent)) ::System::Action_3<::UnityW<::GlobalNamespace::ColorHueSlider>,float_t,::GlobalNamespace::ColorChangeUIEventType>*  colorHueDidChangeEvent;
 
-  /// @brief Convert operator to "::UnityEngine::EventSystems::IEventSystemHandler"
-  constexpr operator ::UnityEngine::EventSystems::IEventSystemHandler*() noexcept;
+/// @brief Convert operator to "::UnityEngine::EventSystems::IEventSystemHandler"
+constexpr operator  ::UnityEngine::EventSystems::IEventSystemHandler*() noexcept;
 
-  /// @brief Convert operator to "::UnityEngine::EventSystems::IPointerUpHandler"
-  constexpr operator ::UnityEngine::EventSystems::IPointerUpHandler*() noexcept;
+/// @brief Convert operator to "::UnityEngine::EventSystems::IPointerUpHandler"
+constexpr operator  ::UnityEngine::EventSystems::IPointerUpHandler*() noexcept;
 
-  /// @brief Method Awake, addr 0x278ddc8, size 0x90, virtual true, abstract: false, final false
-  inline void Awake();
+/// @brief Method Awake, addr 0x3b94ea0, size 0x90, virtual true, abstract: false, final false
+inline void Awake() ;
 
-  /// @brief Method HandleNormalizedValueDidChange, addr 0x278df90, size 0x24, virtual false, abstract: false, final false
-  inline void HandleNormalizedValueDidChange(::HMUI::CircleSlider* slider, float_t normalizedValue);
+/// @brief Method HandleNormalizedValueDidChange, addr 0x3b95068, size 0x24, virtual false, abstract: false, final false
+inline void HandleNormalizedValueDidChange(::HMUI::CircleSlider*  slider, float_t  normalizedValue) ;
 
-  static inline ::GlobalNamespace::ColorHueSlider* New_ctor();
+static inline ::GlobalNamespace::ColorHueSlider* New_ctor() ;
 
-  /// @brief Method OnDestroy, addr 0x278de58, size 0x90, virtual true, abstract: false, final false
-  inline void OnDestroy();
+/// @brief Method OnDestroy, addr 0x3b94f30, size 0x90, virtual true, abstract: false, final false
+inline void OnDestroy() ;
 
-  /// @brief Method OnPointerUp, addr 0x278dfb4, size 0x40, virtual true, abstract: false, final false
-  inline void OnPointerUp(::UnityEngine::EventSystems::PointerEventData* eventData);
+/// @brief Method OnPointerUp, addr 0x3b9508c, size 0x40, virtual true, abstract: false, final false
+inline void OnPointerUp(::UnityEngine::EventSystems::PointerEventData*  eventData) ;
 
-  /// @brief Method UpdateVisuals, addr 0x278dee8, size 0xa8, virtual true, abstract: false, final false
-  inline void UpdateVisuals();
+/// @brief Method UpdateVisuals, addr 0x3b94fc0, size 0xa8, virtual true, abstract: false, final false
+inline void UpdateVisuals() ;
 
-  constexpr ::UnityEngine::Color const& __cordl_internal_get__darkColor() const;
+constexpr ::UnityEngine::Color const& __cordl_internal_get__darkColor() const;
 
-  constexpr ::UnityEngine::Color& __cordl_internal_get__darkColor();
+constexpr ::UnityEngine::Color& __cordl_internal_get__darkColor() ;
 
-  constexpr ::UnityEngine::Color const& __cordl_internal_get__lightColor() const;
+constexpr ::UnityEngine::Color const& __cordl_internal_get__lightColor() const;
 
-  constexpr ::UnityEngine::Color& __cordl_internal_get__lightColor();
+constexpr ::UnityEngine::Color& __cordl_internal_get__lightColor() ;
 
-  constexpr ::System::Action_3<::UnityW<::GlobalNamespace::ColorHueSlider>, float_t, ::GlobalNamespace::ColorChangeUIEventType>*& __cordl_internal_get_colorHueDidChangeEvent();
+constexpr ::System::Action_3<::UnityW<::GlobalNamespace::ColorHueSlider>,float_t,::GlobalNamespace::ColorChangeUIEventType>*& __cordl_internal_get_colorHueDidChangeEvent() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action_3<::UnityW<::GlobalNamespace::ColorHueSlider>, float_t, ::GlobalNamespace::ColorChangeUIEventType>*> const&
-  __cordl_internal_get_colorHueDidChangeEvent() const;
+constexpr ::cordl_internals::to_const_pointer<::System::Action_3<::UnityW<::GlobalNamespace::ColorHueSlider>,float_t,::GlobalNamespace::ColorChangeUIEventType>*> const& __cordl_internal_get_colorHueDidChangeEvent() const;
 
-  constexpr void __cordl_internal_set__darkColor(::UnityEngine::Color value);
+constexpr void __cordl_internal_set__darkColor(::UnityEngine::Color  value) ;
 
-  constexpr void __cordl_internal_set__lightColor(::UnityEngine::Color value);
+constexpr void __cordl_internal_set__lightColor(::UnityEngine::Color  value) ;
 
-  constexpr void __cordl_internal_set_colorHueDidChangeEvent(::System::Action_3<::UnityW<::GlobalNamespace::ColorHueSlider>, float_t, ::GlobalNamespace::ColorChangeUIEventType>* value);
+constexpr void __cordl_internal_set_colorHueDidChangeEvent(::System::Action_3<::UnityW<::GlobalNamespace::ColorHueSlider>,float_t,::GlobalNamespace::ColorChangeUIEventType>*  value) ;
 
-  /// @brief Method .ctor, addr 0x278dff4, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x3b950cc, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method add_colorHueDidChangeEvent, addr 0x278dc60, size 0xb4, virtual false, abstract: false, final false
-  inline void add_colorHueDidChangeEvent(::System::Action_3<::UnityW<::GlobalNamespace::ColorHueSlider>, float_t, ::GlobalNamespace::ColorChangeUIEventType>* value);
+/// @brief Method add_colorHueDidChangeEvent, addr 0x3b94d38, size 0xb4, virtual false, abstract: false, final false
+inline void add_colorHueDidChangeEvent(::System::Action_3<::UnityW<::GlobalNamespace::ColorHueSlider>,float_t,::GlobalNamespace::ColorChangeUIEventType>*  value) ;
 
-  /// @brief Convert to "::UnityEngine::EventSystems::IEventSystemHandler"
-  constexpr ::UnityEngine::EventSystems::IEventSystemHandler* i___UnityEngine__EventSystems__IEventSystemHandler() noexcept;
+/// @brief Convert to "::UnityEngine::EventSystems::IEventSystemHandler"
+constexpr ::UnityEngine::EventSystems::IEventSystemHandler* i___UnityEngine__EventSystems__IEventSystemHandler() noexcept;
 
-  /// @brief Convert to "::UnityEngine::EventSystems::IPointerUpHandler"
-  constexpr ::UnityEngine::EventSystems::IPointerUpHandler* i___UnityEngine__EventSystems__IPointerUpHandler() noexcept;
+/// @brief Convert to "::UnityEngine::EventSystems::IPointerUpHandler"
+constexpr ::UnityEngine::EventSystems::IPointerUpHandler* i___UnityEngine__EventSystems__IPointerUpHandler() noexcept;
 
-  /// @brief Method remove_colorHueDidChangeEvent, addr 0x278dd14, size 0xb4, virtual false, abstract: false, final false
-  inline void remove_colorHueDidChangeEvent(::System::Action_3<::UnityW<::GlobalNamespace::ColorHueSlider>, float_t, ::GlobalNamespace::ColorChangeUIEventType>* value);
+/// @brief Method remove_colorHueDidChangeEvent, addr 0x3b94dec, size 0xb4, virtual false, abstract: false, final false
+inline void remove_colorHueDidChangeEvent(::System::Action_3<::UnityW<::GlobalNamespace::ColorHueSlider>,float_t,::GlobalNamespace::ColorChangeUIEventType>*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ColorHueSlider();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ColorHueSlider() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ColorHueSlider", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ColorHueSlider(ColorHueSlider&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ColorHueSlider", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ColorHueSlider(ColorHueSlider const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ColorHueSlider", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ColorHueSlider(ColorHueSlider && ) = delete;
 
-  /// @brief Field _darkColor, offset: 0x124, size: 0x10, def value: None
-  ::UnityEngine::Color ____darkColor;
+// Ctor Parameters [CppParam { name: "", ty: "ColorHueSlider", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ColorHueSlider(ColorHueSlider const& ) = delete;
 
-  /// @brief Field _lightColor, offset: 0x134, size: 0x10, def value: None
-  ::UnityEngine::Color ____lightColor;
+/// @brief Field _darkColor, offset: 0x12c, size: 0x10, def value: None
+ ::UnityEngine::Color  ____darkColor;
 
-  /// @brief Field colorHueDidChangeEvent, offset: 0x148, size: 0x8, def value: None
-  ::System::Action_3<::UnityW<::GlobalNamespace::ColorHueSlider>, float_t, ::GlobalNamespace::ColorChangeUIEventType>* ___colorHueDidChangeEvent;
+/// @brief Field _lightColor, offset: 0x13c, size: 0x10, def value: None
+ ::UnityEngine::Color  ____lightColor;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field colorHueDidChangeEvent, offset: 0x150, size: 0x8, def value: None
+ ::System::Action_3<::UnityW<::GlobalNamespace::ColorHueSlider>,float_t,::GlobalNamespace::ColorChangeUIEventType>*  ___colorHueDidChangeEvent;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ColorHueSlider, 0x150>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ColorHueSlider, 0x158>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ColorHueSlider, ____darkColor) == 0x124, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ColorHueSlider, ____darkColor) == 0x12c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ColorHueSlider, ____lightColor) == 0x134, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ColorHueSlider, ____lightColor) == 0x13c, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ColorHueSlider, ___colorHueDidChangeEvent) == 0x148, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ColorHueSlider, ___colorHueDidChangeEvent) == 0x150, "Offset mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ColorHueSlider);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ColorHueSlider*, "", "ColorHueSlider");

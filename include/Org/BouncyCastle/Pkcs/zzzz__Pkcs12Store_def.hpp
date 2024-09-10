@@ -83,158 +83,158 @@ MARK_REF_PTR_T(::Org::BouncyCastle::Pkcs::Pkcs12Store);
 MARK_REF_PTR_T(::Org::BouncyCastle::Pkcs::__Pkcs12Store__CertId);
 MARK_REF_PTR_T(::Org::BouncyCastle::Pkcs::__Pkcs12Store__IgnoresCaseHashtable);
 // Type: ::CertId
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Pkcs {
 // Is value type: false
 // CS Name: ::Pkcs12Store::CertId*
 class CORDL_TYPE __Pkcs12Store__CertId : public ::System::Object {
 public:
-  // Declarations
-  __declspec(property(get = get_Id))::ArrayW<uint8_t, ::Array<uint8_t>*> Id;
+// Declarations
+ __declspec(property(get=get_Id)) ::ArrayW<uint8_t,::Array<uint8_t>*>  Id;
 
-  /// @brief Field id, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_id, put = __cordl_internal_set_id))::ArrayW<uint8_t, ::Array<uint8_t>*> id;
+/// @brief Field id, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_id, put=__cordl_internal_set_id)) ::ArrayW<uint8_t,::Array<uint8_t>*>  id;
 
-  /// @brief Method Equals, addr 0x13579d8, size 0xd8, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* obj);
+/// @brief Method Equals, addr 0x2517044, size 0xd8, virtual true, abstract: false, final false
+inline bool Equals(::System::Object*  obj) ;
 
-  /// @brief Method GetHashCode, addr 0x135797c, size 0x5c, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
+/// @brief Method GetHashCode, addr 0x2516fe8, size 0x5c, virtual true, abstract: false, final false
+inline int32_t GetHashCode() ;
 
-  static inline ::Org::BouncyCastle::Pkcs::__Pkcs12Store__CertId* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> id);
+static inline ::Org::BouncyCastle::Pkcs::__Pkcs12Store__CertId* New_ctor(::ArrayW<uint8_t,::Array<uint8_t>*>  id) ;
 
-  static inline ::Org::BouncyCastle::Pkcs::__Pkcs12Store__CertId* New_ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* pubKey);
+static inline ::Org::BouncyCastle::Pkcs::__Pkcs12Store__CertId* New_ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*  pubKey) ;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_id() const;
+constexpr ::ArrayW<uint8_t,::Array<uint8_t>*> const& __cordl_internal_get_id() const;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_id();
+constexpr ::ArrayW<uint8_t,::Array<uint8_t>*>& __cordl_internal_get_id() ;
 
-  constexpr void __cordl_internal_set_id(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+constexpr void __cordl_internal_set_id(::ArrayW<uint8_t,::Array<uint8_t>*>  value) ;
 
-  /// @brief Method .ctor, addr 0x135794c, size 0x28, virtual false, abstract: false, final false
-  inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> id);
+/// @brief Method .ctor, addr 0x2516fb8, size 0x28, virtual false, abstract: false, final false
+inline void _ctor(::ArrayW<uint8_t,::Array<uint8_t>*>  id) ;
 
-  /// @brief Method .ctor, addr 0x1357908, size 0x44, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* pubKey);
+/// @brief Method .ctor, addr 0x2516f74, size 0x44, virtual false, abstract: false, final false
+inline void _ctor(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*  pubKey) ;
 
-  /// @brief Method get_Id, addr 0x1357974, size 0x8, virtual false, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_Id();
+/// @brief Method get_Id, addr 0x2516fe0, size 0x8, virtual false, abstract: false, final false
+inline ::ArrayW<uint8_t,::Array<uint8_t>*> get_Id() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __Pkcs12Store__CertId();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __Pkcs12Store__CertId() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__Pkcs12Store__CertId", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __Pkcs12Store__CertId(__Pkcs12Store__CertId&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__Pkcs12Store__CertId", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __Pkcs12Store__CertId(__Pkcs12Store__CertId const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__Pkcs12Store__CertId", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__Pkcs12Store__CertId(__Pkcs12Store__CertId && ) = delete;
 
-  /// @brief Field id, offset: 0x10, size: 0x8, def value: None
-  ::ArrayW<uint8_t, ::Array<uint8_t>*> ___id;
+// Ctor Parameters [CppParam { name: "", ty: "__Pkcs12Store__CertId", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__Pkcs12Store__CertId(__Pkcs12Store__CertId const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field id, offset: 0x10, size: 0x8, def value: None
+ ::ArrayW<uint8_t,::Array<uint8_t>*>  ___id;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Pkcs::__Pkcs12Store__CertId, 0x18>, "Size mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Pkcs::__Pkcs12Store__CertId, ___id) == 0x10, "Offset mismatch!");
 
-} // namespace Org::BouncyCastle::Pkcs
+} // namespace end def Org::BouncyCastle::Pkcs
 // Type: ::IgnoresCaseHashtable
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Pkcs {
 // Is value type: false
 // CS Name: ::Pkcs12Store::IgnoresCaseHashtable*
 class CORDL_TYPE __Pkcs12Store__IgnoresCaseHashtable : public ::System::Object {
 public:
-  // Declarations
-  __declspec(property(get = get_Count)) int32_t Count;
+// Declarations
+ __declspec(property(get=get_Count)) int32_t  Count;
 
-  __declspec(property(get = get_Item, put = set_Item))::System::Object* Item[];
+ __declspec(property(get=get_Item, put=set_Item)) ::System::Object*  Item[];
 
-  __declspec(property(get = get_Keys))::System::Collections::ICollection* Keys;
+ __declspec(property(get=get_Keys)) ::System::Collections::ICollection*  Keys;
 
-  __declspec(property(get = get_Values))::System::Collections::ICollection* Values;
+ __declspec(property(get=get_Values)) ::System::Collections::ICollection*  Values;
 
-  /// @brief Field keys, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_keys, put = __cordl_internal_set_keys))::System::Collections::IDictionary* keys;
+/// @brief Field keys, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_keys, put=__cordl_internal_set_keys)) ::System::Collections::IDictionary*  keys;
 
-  /// @brief Field orig, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_orig, put = __cordl_internal_set_orig))::System::Collections::IDictionary* orig;
+/// @brief Field orig, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_orig, put=__cordl_internal_set_orig)) ::System::Collections::IDictionary*  orig;
 
-  /// @brief Convert operator to "::System::Collections::IEnumerable"
-  constexpr operator ::System::Collections::IEnumerable*() noexcept;
+/// @brief Convert operator to "::System::Collections::IEnumerable"
+constexpr operator  ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Method Clear, addr 0x1357ab0, size 0x108, virtual false, abstract: false, final false
-  inline void Clear();
+/// @brief Method Clear, addr 0x251711c, size 0x108, virtual false, abstract: false, final false
+inline void Clear() ;
 
-  /// @brief Method GetEnumerator, addr 0x1357bb8, size 0xa4, virtual true, abstract: false, final true
-  inline ::System::Collections::IEnumerator* GetEnumerator();
+/// @brief Method GetEnumerator, addr 0x2517224, size 0xa4, virtual true, abstract: false, final true
+inline ::System::Collections::IEnumerator* GetEnumerator() ;
 
-  static inline ::Org::BouncyCastle::Pkcs::__Pkcs12Store__IgnoresCaseHashtable* New_ctor();
+static inline ::Org::BouncyCastle::Pkcs::__Pkcs12Store__IgnoresCaseHashtable* New_ctor() ;
 
-  /// @brief Method Remove, addr 0x1357d00, size 0x260, virtual false, abstract: false, final false
-  inline ::System::Object* Remove(::StringW alias);
+/// @brief Method Remove, addr 0x251736c, size 0x260, virtual false, abstract: false, final false
+inline ::System::Object* Remove(::StringW  alias) ;
 
-  constexpr ::System::Collections::IDictionary*& __cordl_internal_get_keys();
+constexpr ::System::Collections::IDictionary*& __cordl_internal_get_keys() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IDictionary*> const& __cordl_internal_get_keys() const;
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::IDictionary*> const& __cordl_internal_get_keys() const;
 
-  constexpr ::System::Collections::IDictionary*& __cordl_internal_get_orig();
+constexpr ::System::Collections::IDictionary*& __cordl_internal_get_orig() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IDictionary*> const& __cordl_internal_get_orig() const;
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::IDictionary*> const& __cordl_internal_get_orig() const;
 
-  constexpr void __cordl_internal_set_keys(::System::Collections::IDictionary* value);
+constexpr void __cordl_internal_set_keys(::System::Collections::IDictionary*  value) ;
 
-  constexpr void __cordl_internal_set_orig(::System::Collections::IDictionary* value);
+constexpr void __cordl_internal_set_orig(::System::Collections::IDictionary*  value) ;
 
-  /// @brief Method .ctor, addr 0x1358498, size 0x70, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x2517b04, size 0x70, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_Count, addr 0x13583f4, size 0xa4, virtual false, abstract: false, final false
-  inline int32_t get_Count();
+/// @brief Method get_Count, addr 0x2517a60, size 0xa4, virtual false, abstract: false, final false
+inline int32_t get_Count() ;
 
-  /// @brief Method get_Item, addr 0x1357f60, size 0x18c, virtual false, abstract: false, final false
-  inline ::System::Object* get_Item(::StringW alias);
+/// @brief Method get_Item, addr 0x25175cc, size 0x18c, virtual false, abstract: false, final false
+inline ::System::Object* get_Item(::StringW  alias) ;
 
-  /// @brief Method get_Keys, addr 0x1357c5c, size 0xa4, virtual false, abstract: false, final false
-  inline ::System::Collections::ICollection* get_Keys();
+/// @brief Method get_Keys, addr 0x25172c8, size 0xa4, virtual false, abstract: false, final false
+inline ::System::Collections::ICollection* get_Keys() ;
 
-  /// @brief Method get_Values, addr 0x1358350, size 0xa4, virtual false, abstract: false, final false
-  inline ::System::Collections::ICollection* get_Values();
+/// @brief Method get_Values, addr 0x25179bc, size 0xa4, virtual false, abstract: false, final false
+inline ::System::Collections::ICollection* get_Values() ;
 
-  /// @brief Convert to "::System::Collections::IEnumerable"
-  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
+/// @brief Convert to "::System::Collections::IEnumerable"
+constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
-  /// @brief Method set_Item, addr 0x13580ec, size 0x264, virtual false, abstract: false, final false
-  inline void set_Item(::StringW alias, ::System::Object* value);
+/// @brief Method set_Item, addr 0x2517758, size 0x264, virtual false, abstract: false, final false
+inline void set_Item(::StringW  alias, ::System::Object*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __Pkcs12Store__IgnoresCaseHashtable();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __Pkcs12Store__IgnoresCaseHashtable() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__Pkcs12Store__IgnoresCaseHashtable", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __Pkcs12Store__IgnoresCaseHashtable(__Pkcs12Store__IgnoresCaseHashtable&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__Pkcs12Store__IgnoresCaseHashtable", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __Pkcs12Store__IgnoresCaseHashtable(__Pkcs12Store__IgnoresCaseHashtable const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__Pkcs12Store__IgnoresCaseHashtable", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__Pkcs12Store__IgnoresCaseHashtable(__Pkcs12Store__IgnoresCaseHashtable && ) = delete;
 
-  /// @brief Field orig, offset: 0x10, size: 0x8, def value: None
-  ::System::Collections::IDictionary* ___orig;
+// Ctor Parameters [CppParam { name: "", ty: "__Pkcs12Store__IgnoresCaseHashtable", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__Pkcs12Store__IgnoresCaseHashtable(__Pkcs12Store__IgnoresCaseHashtable const& ) = delete;
 
-  /// @brief Field keys, offset: 0x18, size: 0x8, def value: None
-  ::System::Collections::IDictionary* ___keys;
+/// @brief Field orig, offset: 0x10, size: 0x8, def value: None
+ ::System::Collections::IDictionary*  ___orig;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field keys, offset: 0x18, size: 0x8, def value: None
+ ::System::Collections::IDictionary*  ___keys;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Pkcs::__Pkcs12Store__IgnoresCaseHashtable, 0x20>, "Size mismatch!");
@@ -243,273 +243,265 @@ static_assert(offsetof(::Org::BouncyCastle::Pkcs::__Pkcs12Store__IgnoresCaseHash
 
 static_assert(offsetof(::Org::BouncyCastle::Pkcs::__Pkcs12Store__IgnoresCaseHashtable, ___keys) == 0x18, "Offset mismatch!");
 
-} // namespace Org::BouncyCastle::Pkcs
+} // namespace end def Org::BouncyCastle::Pkcs
 // Type: Org.BouncyCastle.Pkcs::Pkcs12Store
-// SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Pkcs {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Pkcs::Pkcs12Store*
 class CORDL_TYPE Pkcs12Store : public ::System::Object {
 public:
-  // Declarations
-  using CertId = ::Org::BouncyCastle::Pkcs::__Pkcs12Store__CertId;
+// Declarations
+using CertId = ::Org::BouncyCastle::Pkcs::__Pkcs12Store__CertId;
 
-  using IgnoresCaseHashtable = ::Org::BouncyCastle::Pkcs::__Pkcs12Store__IgnoresCaseHashtable;
+using IgnoresCaseHashtable = ::Org::BouncyCastle::Pkcs::__Pkcs12Store__IgnoresCaseHashtable;
 
-  __declspec(property(get = get_Aliases))::System::Collections::IEnumerable* Aliases;
+ __declspec(property(get=get_Aliases)) ::System::Collections::IEnumerable*  Aliases;
 
-  __declspec(property(get = get_Count)) int32_t Count;
+ __declspec(property(get=get_Count)) int32_t  Count;
 
-  /// @brief Field certAlgorithm, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_certAlgorithm, put = __cordl_internal_set_certAlgorithm))::Org::BouncyCastle::Asn1::DerObjectIdentifier* certAlgorithm;
+/// @brief Field certAlgorithm, offset 0x48, size 0x8 
+ __declspec(property(get=__cordl_internal_get_certAlgorithm, put=__cordl_internal_set_certAlgorithm)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier*  certAlgorithm;
 
-  /// @brief Field certPrfAlgorithm, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_certPrfAlgorithm, put = __cordl_internal_set_certPrfAlgorithm))::Org::BouncyCastle::Asn1::DerObjectIdentifier* certPrfAlgorithm;
+/// @brief Field certPrfAlgorithm, offset 0x50, size 0x8 
+ __declspec(property(get=__cordl_internal_get_certPrfAlgorithm, put=__cordl_internal_set_certPrfAlgorithm)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier*  certPrfAlgorithm;
 
-  /// @brief Field certs, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_certs, put = __cordl_internal_set_certs))::Org::BouncyCastle::Pkcs::__Pkcs12Store__IgnoresCaseHashtable* certs;
+/// @brief Field certs, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get_certs, put=__cordl_internal_set_certs)) ::Org::BouncyCastle::Pkcs::__Pkcs12Store__IgnoresCaseHashtable*  certs;
 
-  /// @brief Field chainCerts, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_chainCerts, put = __cordl_internal_set_chainCerts))::System::Collections::IDictionary* chainCerts;
+/// @brief Field chainCerts, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get_chainCerts, put=__cordl_internal_set_chainCerts)) ::System::Collections::IDictionary*  chainCerts;
 
-  /// @brief Field keyAlgorithm, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_keyAlgorithm, put = __cordl_internal_set_keyAlgorithm))::Org::BouncyCastle::Asn1::DerObjectIdentifier* keyAlgorithm;
+/// @brief Field keyAlgorithm, offset 0x38, size 0x8 
+ __declspec(property(get=__cordl_internal_get_keyAlgorithm, put=__cordl_internal_set_keyAlgorithm)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier*  keyAlgorithm;
 
-  /// @brief Field keyCerts, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_keyCerts, put = __cordl_internal_set_keyCerts))::System::Collections::IDictionary* keyCerts;
+/// @brief Field keyCerts, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get_keyCerts, put=__cordl_internal_set_keyCerts)) ::System::Collections::IDictionary*  keyCerts;
 
-  /// @brief Field keyPrfAlgorithm, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_keyPrfAlgorithm, put = __cordl_internal_set_keyPrfAlgorithm))::Org::BouncyCastle::Asn1::DerObjectIdentifier* keyPrfAlgorithm;
+/// @brief Field keyPrfAlgorithm, offset 0x40, size 0x8 
+ __declspec(property(get=__cordl_internal_get_keyPrfAlgorithm, put=__cordl_internal_set_keyPrfAlgorithm)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier*  keyPrfAlgorithm;
 
-  /// @brief Field keys, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_keys, put = __cordl_internal_set_keys))::Org::BouncyCastle::Pkcs::__Pkcs12Store__IgnoresCaseHashtable* keys;
+/// @brief Field keys, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_keys, put=__cordl_internal_set_keys)) ::Org::BouncyCastle::Pkcs::__Pkcs12Store__IgnoresCaseHashtable*  keys;
 
-  /// @brief Field localIds, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_localIds, put = __cordl_internal_set_localIds))::System::Collections::IDictionary* localIds;
+/// @brief Field localIds, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_localIds, put=__cordl_internal_set_localIds)) ::System::Collections::IDictionary*  localIds;
 
-  /// @brief Field unmarkedKeyEntry, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get_unmarkedKeyEntry, put = __cordl_internal_set_unmarkedKeyEntry))::Org::BouncyCastle::Pkcs::AsymmetricKeyEntry* unmarkedKeyEntry;
+/// @brief Field unmarkedKeyEntry, offset 0x60, size 0x8 
+ __declspec(property(get=__cordl_internal_get_unmarkedKeyEntry, put=__cordl_internal_set_unmarkedKeyEntry)) ::Org::BouncyCastle::Pkcs::AsymmetricKeyEntry*  unmarkedKeyEntry;
 
-  /// @brief Field useDerEncoding, offset 0x58, size 0x1
-  __declspec(property(get = __cordl_internal_get_useDerEncoding, put = __cordl_internal_set_useDerEncoding)) bool useDerEncoding;
+/// @brief Field useDerEncoding, offset 0x58, size 0x1 
+ __declspec(property(get=__cordl_internal_get_useDerEncoding, put=__cordl_internal_set_useDerEncoding)) bool  useDerEncoding;
 
-  /// @brief Method CalculatePbeMac, addr 0x1351004, size 0x184, virtual false, abstract: false, final false
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> CalculatePbeMac(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid, ::ArrayW<uint8_t, ::Array<uint8_t>*> salt, int32_t itCount,
-                                                                     ::ArrayW<char16_t, ::Array<char16_t>*> password, bool wrongPkcs12Zero, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
+/// @brief Method CalculatePbeMac, addr 0x2510848, size 0x184, virtual false, abstract: false, final false
+static inline ::ArrayW<uint8_t,::Array<uint8_t>*> CalculatePbeMac(::Org::BouncyCastle::Asn1::DerObjectIdentifier*  oid, ::ArrayW<uint8_t,::Array<uint8_t>*>  salt, int32_t  itCount, ::ArrayW<char16_t,::Array<char16_t>*>  password, bool  wrongPkcs12Zero, ::ArrayW<uint8_t,::Array<uint8_t>*>  data) ;
 
-  /// @brief Method ContainsAlias, addr 0x1351e4c, size 0x58, virtual false, abstract: false, final false
-  inline bool ContainsAlias(::StringW alias);
+/// @brief Method ContainsAlias, addr 0x2511678, size 0x58, virtual false, abstract: false, final false
+inline bool ContainsAlias(::StringW  alias) ;
 
-  /// @brief Method CreateSubjectKeyID, addr 0x134e93c, size 0x78, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Asn1::X509::SubjectKeyIdentifier* CreateSubjectKeyID(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* pubKey);
+/// @brief Method CreateSubjectKeyID, addr 0x250e25c, size 0x70, virtual false, abstract: false, final false
+static inline ::Org::BouncyCastle::Asn1::X509::SubjectKeyIdentifier* CreateSubjectKeyID(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*  pubKey) ;
 
-  /// @brief Method CryptPbeData, addr 0x1351188, size 0x254, virtual false, abstract: false, final false
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> CryptPbeData(bool forEncryption, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* algId, ::ArrayW<char16_t, ::Array<char16_t>*> password,
-                                                                  bool wrongPkcs12Zero, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
+/// @brief Method CryptPbeData, addr 0x25109cc, size 0x24c, virtual false, abstract: false, final false
+static inline ::ArrayW<uint8_t,::Array<uint8_t>*> CryptPbeData(bool  forEncryption, ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*  algId, ::ArrayW<char16_t,::Array<char16_t>*>  password, bool  wrongPkcs12Zero, ::ArrayW<uint8_t,::Array<uint8_t>*>  data) ;
 
-  /// @brief Method DeleteEntry, addr 0x13537d0, size 0x574, virtual false, abstract: false, final false
-  inline void DeleteEntry(::StringW alias);
+/// @brief Method DeleteEntry, addr 0x2512fcc, size 0x55c, virtual false, abstract: false, final false
+inline void DeleteEntry(::StringW  alias) ;
 
-  /// @brief Method GetAliasesTable, addr 0x13515d4, size 0x78c, virtual false, abstract: false, final false
-  inline ::System::Collections::IDictionary* GetAliasesTable();
+/// @brief Method GetAliasesTable, addr 0x2510e04, size 0x78c, virtual false, abstract: false, final false
+inline ::System::Collections::IDictionary* GetAliasesTable() ;
 
-  /// @brief Method GetCertificate, addr 0x1351ea4, size 0x250, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Pkcs::X509CertificateEntry* GetCertificate(::StringW alias);
+/// @brief Method GetCertificate, addr 0x25116d0, size 0x25c, virtual false, abstract: false, final false
+inline ::Org::BouncyCastle::Pkcs::X509CertificateEntry* GetCertificate(::StringW  alias) ;
 
-  /// @brief Method GetCertificateAlias, addr 0x13520f4, size 0x76c, virtual false, abstract: false, final false
-  inline ::StringW GetCertificateAlias(::Org::BouncyCastle::X509::X509Certificate* cert);
+/// @brief Method GetCertificateAlias, addr 0x251192c, size 0x764, virtual false, abstract: false, final false
+inline ::StringW GetCertificateAlias(::Org::BouncyCastle::X509::X509Certificate*  cert) ;
 
-  /// @brief Method GetCertificateChain, addr 0x1352860, size 0xabc, virtual false, abstract: false, final false
-  inline ::ArrayW<::Org::BouncyCastle::Pkcs::X509CertificateEntry*, ::Array<::Org::BouncyCastle::Pkcs::X509CertificateEntry*>*> GetCertificateChain(::StringW alias);
+/// @brief Method GetCertificateChain, addr 0x2512090, size 0xaac, virtual false, abstract: false, final false
+inline ::ArrayW<::Org::BouncyCastle::Pkcs::X509CertificateEntry*,::Array<::Org::BouncyCastle::Pkcs::X509CertificateEntry*>*> GetCertificateChain(::StringW  alias) ;
 
-  /// @brief Method GetKey, addr 0x13513dc, size 0xe0, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Pkcs::AsymmetricKeyEntry* GetKey(::StringW alias);
+/// @brief Method GetKey, addr 0x2510c18, size 0xdc, virtual false, abstract: false, final false
+inline ::Org::BouncyCastle::Pkcs::AsymmetricKeyEntry* GetKey(::StringW  alias) ;
 
-  /// @brief Method IsCertificateEntry, addr 0x13514bc, size 0xa0, virtual false, abstract: false, final false
-  inline bool IsCertificateEntry(::StringW alias);
+/// @brief Method IsCertificateEntry, addr 0x2510cf4, size 0x9c, virtual false, abstract: false, final false
+inline bool IsCertificateEntry(::StringW  alias) ;
 
-  /// @brief Method IsEntryOfType, addr 0x1353d44, size 0x118, virtual false, abstract: false, final false
-  inline bool IsEntryOfType(::StringW alias, ::System::Type* entryType);
+/// @brief Method IsEntryOfType, addr 0x2513528, size 0x118, virtual false, abstract: false, final false
+inline bool IsEntryOfType(::StringW  alias, ::System::Type*  entryType) ;
 
-  /// @brief Method IsKeyEntry, addr 0x135155c, size 0x78, virtual false, abstract: false, final false
-  inline bool IsKeyEntry(::StringW alias);
+/// @brief Method IsKeyEntry, addr 0x2510d90, size 0x74, virtual false, abstract: false, final false
+inline bool IsKeyEntry(::StringW  alias) ;
 
-  /// @brief Method Load, addr 0x134ec5c, size 0x1a6c, virtual false, abstract: false, final false
-  inline void Load(::System::IO::Stream* input, ::ArrayW<char16_t, ::Array<char16_t>*> password);
+/// @brief Method Load, addr 0x250e55c, size 0x19e0, virtual false, abstract: false, final false
+inline void Load(::System::IO::Stream*  input, ::ArrayW<char16_t,::Array<char16_t>*>  password) ;
 
-  /// @brief Method LoadKeyBag, addr 0x13506c8, size 0x8f0, virtual true, abstract: false, final false
-  inline void LoadKeyBag(::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo* privKeyInfo, ::Org::BouncyCastle::Asn1::Asn1Set* bagAttributes);
+/// @brief Method LoadKeyBag, addr 0x250ff3c, size 0x8c0, virtual true, abstract: false, final false
+inline void LoadKeyBag(::Org::BouncyCastle::Asn1::Pkcs::PrivateKeyInfo*  privKeyInfo, ::Org::BouncyCastle::Asn1::Asn1Set*  bagAttributes) ;
 
-  /// @brief Method LoadPkcs8ShroudedKeyBag, addr 0x1350fb8, size 0x4c, virtual true, abstract: false, final false
-  inline void LoadPkcs8ShroudedKeyBag(::Org::BouncyCastle::Asn1::Pkcs::EncryptedPrivateKeyInfo* encPrivKeyInfo, ::Org::BouncyCastle::Asn1::Asn1Set* bagAttributes,
-                                      ::ArrayW<char16_t, ::Array<char16_t>*> password, bool wrongPkcs12Zero);
+/// @brief Method LoadPkcs8ShroudedKeyBag, addr 0x25107fc, size 0x4c, virtual true, abstract: false, final false
+inline void LoadPkcs8ShroudedKeyBag(::Org::BouncyCastle::Asn1::Pkcs::EncryptedPrivateKeyInfo*  encPrivKeyInfo, ::Org::BouncyCastle::Asn1::Asn1Set*  bagAttributes, ::ArrayW<char16_t,::Array<char16_t>*>  password, bool  wrongPkcs12Zero) ;
 
-  static inline ::Org::BouncyCastle::Pkcs::Pkcs12Store* New_ctor();
+static inline ::Org::BouncyCastle::Pkcs::Pkcs12Store* New_ctor() ;
 
-  static inline ::Org::BouncyCastle::Pkcs::Pkcs12Store* New_ctor(::System::IO::Stream* input, ::ArrayW<char16_t, ::Array<char16_t>*> password);
+static inline ::Org::BouncyCastle::Pkcs::Pkcs12Store* New_ctor(::System::IO::Stream*  input, ::ArrayW<char16_t,::Array<char16_t>*>  password) ;
 
-  static inline ::Org::BouncyCastle::Pkcs::Pkcs12Store* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* keyAlgorithm, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* certAlgorithm,
-                                                                 bool useDerEncoding);
+static inline ::Org::BouncyCastle::Pkcs::Pkcs12Store* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier*  keyAlgorithm, ::Org::BouncyCastle::Asn1::DerObjectIdentifier*  certAlgorithm, bool  useDerEncoding) ;
 
-  static inline ::Org::BouncyCastle::Pkcs::Pkcs12Store* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* keyAlgorithm, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* keyPrfAlgorithm,
-                                                                 ::Org::BouncyCastle::Asn1::DerObjectIdentifier* certAlgorithm, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* certPrfAlgorithm,
-                                                                 bool useDerEncoding);
+static inline ::Org::BouncyCastle::Pkcs::Pkcs12Store* New_ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier*  keyAlgorithm, ::Org::BouncyCastle::Asn1::DerObjectIdentifier*  keyPrfAlgorithm, ::Org::BouncyCastle::Asn1::DerObjectIdentifier*  certAlgorithm, ::Org::BouncyCastle::Asn1::DerObjectIdentifier*  certPrfAlgorithm, bool  useDerEncoding) ;
 
-  /// @brief Method Save, addr 0x1353f0c, size 0x39fc, virtual false, abstract: false, final false
-  inline void Save(::System::IO::Stream* stream, ::ArrayW<char16_t, ::Array<char16_t>*> password, ::Org::BouncyCastle::Security::SecureRandom* random);
+/// @brief Method Save, addr 0x25136f0, size 0x3884, virtual false, abstract: false, final false
+inline void Save(::System::IO::Stream*  stream, ::ArrayW<char16_t,::Array<char16_t>*>  password, ::Org::BouncyCastle::Security::SecureRandom*  random) ;
 
-  /// @brief Method SetCertificateEntry, addr 0x135331c, size 0x228, virtual false, abstract: false, final false
-  inline void SetCertificateEntry(::StringW alias, ::Org::BouncyCastle::Pkcs::X509CertificateEntry* certEntry);
+/// @brief Method SetCertificateEntry, addr 0x2512b3c, size 0x214, virtual false, abstract: false, final false
+inline void SetCertificateEntry(::StringW  alias, ::Org::BouncyCastle::Pkcs::X509CertificateEntry*  certEntry) ;
 
-  /// @brief Method SetKeyEntry, addr 0x1353544, size 0x28c, virtual false, abstract: false, final false
-  inline void SetKeyEntry(::StringW alias, ::Org::BouncyCastle::Pkcs::AsymmetricKeyEntry* keyEntry,
-                          ::ArrayW<::Org::BouncyCastle::Pkcs::X509CertificateEntry*, ::Array<::Org::BouncyCastle::Pkcs::X509CertificateEntry*>*> chain);
+/// @brief Method SetKeyEntry, addr 0x2512d50, size 0x27c, virtual false, abstract: false, final false
+inline void SetKeyEntry(::StringW  alias, ::Org::BouncyCastle::Pkcs::AsymmetricKeyEntry*  keyEntry, ::ArrayW<::Org::BouncyCastle::Pkcs::X509CertificateEntry*,::Array<::Org::BouncyCastle::Pkcs::X509CertificateEntry*>*>  chain) ;
 
-  /// @brief Method Size, addr 0x1353e5c, size 0x4, virtual false, abstract: false, final false
-  inline int32_t Size();
+/// @brief Method Size, addr 0x2513640, size 0x4, virtual false, abstract: false, final false
+inline int32_t Size() ;
 
-  constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& __cordl_internal_get_certAlgorithm();
+constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& __cordl_internal_get_certAlgorithm() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerObjectIdentifier*> const& __cordl_internal_get_certAlgorithm() const;
+constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerObjectIdentifier*> const& __cordl_internal_get_certAlgorithm() const;
 
-  constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& __cordl_internal_get_certPrfAlgorithm();
+constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& __cordl_internal_get_certPrfAlgorithm() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerObjectIdentifier*> const& __cordl_internal_get_certPrfAlgorithm() const;
+constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerObjectIdentifier*> const& __cordl_internal_get_certPrfAlgorithm() const;
 
-  constexpr ::Org::BouncyCastle::Pkcs::__Pkcs12Store__IgnoresCaseHashtable*& __cordl_internal_get_certs();
+constexpr ::Org::BouncyCastle::Pkcs::__Pkcs12Store__IgnoresCaseHashtable*& __cordl_internal_get_certs() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Pkcs::__Pkcs12Store__IgnoresCaseHashtable*> const& __cordl_internal_get_certs() const;
+constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Pkcs::__Pkcs12Store__IgnoresCaseHashtable*> const& __cordl_internal_get_certs() const;
 
-  constexpr ::System::Collections::IDictionary*& __cordl_internal_get_chainCerts();
+constexpr ::System::Collections::IDictionary*& __cordl_internal_get_chainCerts() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IDictionary*> const& __cordl_internal_get_chainCerts() const;
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::IDictionary*> const& __cordl_internal_get_chainCerts() const;
 
-  constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& __cordl_internal_get_keyAlgorithm();
+constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& __cordl_internal_get_keyAlgorithm() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerObjectIdentifier*> const& __cordl_internal_get_keyAlgorithm() const;
+constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerObjectIdentifier*> const& __cordl_internal_get_keyAlgorithm() const;
 
-  constexpr ::System::Collections::IDictionary*& __cordl_internal_get_keyCerts();
+constexpr ::System::Collections::IDictionary*& __cordl_internal_get_keyCerts() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IDictionary*> const& __cordl_internal_get_keyCerts() const;
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::IDictionary*> const& __cordl_internal_get_keyCerts() const;
 
-  constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& __cordl_internal_get_keyPrfAlgorithm();
+constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& __cordl_internal_get_keyPrfAlgorithm() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerObjectIdentifier*> const& __cordl_internal_get_keyPrfAlgorithm() const;
+constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerObjectIdentifier*> const& __cordl_internal_get_keyPrfAlgorithm() const;
 
-  constexpr ::Org::BouncyCastle::Pkcs::__Pkcs12Store__IgnoresCaseHashtable*& __cordl_internal_get_keys();
+constexpr ::Org::BouncyCastle::Pkcs::__Pkcs12Store__IgnoresCaseHashtable*& __cordl_internal_get_keys() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Pkcs::__Pkcs12Store__IgnoresCaseHashtable*> const& __cordl_internal_get_keys() const;
+constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Pkcs::__Pkcs12Store__IgnoresCaseHashtable*> const& __cordl_internal_get_keys() const;
 
-  constexpr ::System::Collections::IDictionary*& __cordl_internal_get_localIds();
+constexpr ::System::Collections::IDictionary*& __cordl_internal_get_localIds() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IDictionary*> const& __cordl_internal_get_localIds() const;
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::IDictionary*> const& __cordl_internal_get_localIds() const;
 
-  constexpr ::Org::BouncyCastle::Pkcs::AsymmetricKeyEntry*& __cordl_internal_get_unmarkedKeyEntry();
+constexpr ::Org::BouncyCastle::Pkcs::AsymmetricKeyEntry*& __cordl_internal_get_unmarkedKeyEntry() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Pkcs::AsymmetricKeyEntry*> const& __cordl_internal_get_unmarkedKeyEntry() const;
+constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Pkcs::AsymmetricKeyEntry*> const& __cordl_internal_get_unmarkedKeyEntry() const;
 
-  constexpr bool const& __cordl_internal_get_useDerEncoding() const;
+constexpr bool const& __cordl_internal_get_useDerEncoding() const;
 
-  constexpr bool& __cordl_internal_get_useDerEncoding();
+constexpr bool& __cordl_internal_get_useDerEncoding() ;
 
-  constexpr void __cordl_internal_set_certAlgorithm(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+constexpr void __cordl_internal_set_certAlgorithm(::Org::BouncyCastle::Asn1::DerObjectIdentifier*  value) ;
 
-  constexpr void __cordl_internal_set_certPrfAlgorithm(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+constexpr void __cordl_internal_set_certPrfAlgorithm(::Org::BouncyCastle::Asn1::DerObjectIdentifier*  value) ;
 
-  constexpr void __cordl_internal_set_certs(::Org::BouncyCastle::Pkcs::__Pkcs12Store__IgnoresCaseHashtable* value);
+constexpr void __cordl_internal_set_certs(::Org::BouncyCastle::Pkcs::__Pkcs12Store__IgnoresCaseHashtable*  value) ;
 
-  constexpr void __cordl_internal_set_chainCerts(::System::Collections::IDictionary* value);
+constexpr void __cordl_internal_set_chainCerts(::System::Collections::IDictionary*  value) ;
 
-  constexpr void __cordl_internal_set_keyAlgorithm(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+constexpr void __cordl_internal_set_keyAlgorithm(::Org::BouncyCastle::Asn1::DerObjectIdentifier*  value) ;
 
-  constexpr void __cordl_internal_set_keyCerts(::System::Collections::IDictionary* value);
+constexpr void __cordl_internal_set_keyCerts(::System::Collections::IDictionary*  value) ;
 
-  constexpr void __cordl_internal_set_keyPrfAlgorithm(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+constexpr void __cordl_internal_set_keyPrfAlgorithm(::Org::BouncyCastle::Asn1::DerObjectIdentifier*  value) ;
 
-  constexpr void __cordl_internal_set_keys(::Org::BouncyCastle::Pkcs::__Pkcs12Store__IgnoresCaseHashtable* value);
+constexpr void __cordl_internal_set_keys(::Org::BouncyCastle::Pkcs::__Pkcs12Store__IgnoresCaseHashtable*  value) ;
 
-  constexpr void __cordl_internal_set_localIds(::System::Collections::IDictionary* value);
+constexpr void __cordl_internal_set_localIds(::System::Collections::IDictionary*  value) ;
 
-  constexpr void __cordl_internal_set_unmarkedKeyEntry(::Org::BouncyCastle::Pkcs::AsymmetricKeyEntry* value);
+constexpr void __cordl_internal_set_unmarkedKeyEntry(::Org::BouncyCastle::Pkcs::AsymmetricKeyEntry*  value) ;
 
-  constexpr void __cordl_internal_set_useDerEncoding(bool value);
+constexpr void __cordl_internal_set_useDerEncoding(bool  value) ;
 
-  /// @brief Method .ctor, addr 0x134ebc4, size 0x68, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x250e4c4, size 0x68, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method .ctor, addr 0x134ec2c, size 0x30, virtual false, abstract: false, final false
-  inline void _ctor(::System::IO::Stream* input, ::ArrayW<char16_t, ::Array<char16_t>*> password);
+/// @brief Method .ctor, addr 0x250e52c, size 0x30, virtual false, abstract: false, final false
+inline void _ctor(::System::IO::Stream*  input, ::ArrayW<char16_t,::Array<char16_t>*>  password) ;
 
-  /// @brief Method .ctor, addr 0x134e9b4, size 0x100, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* keyAlgorithm, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* certAlgorithm, bool useDerEncoding);
+/// @brief Method .ctor, addr 0x250e2cc, size 0xf4, virtual false, abstract: false, final false
+inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier*  keyAlgorithm, ::Org::BouncyCastle::Asn1::DerObjectIdentifier*  certAlgorithm, bool  useDerEncoding) ;
 
-  /// @brief Method .ctor, addr 0x134eab4, size 0x110, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier* keyAlgorithm, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* keyPrfAlgorithm,
-                    ::Org::BouncyCastle::Asn1::DerObjectIdentifier* certAlgorithm, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* certPrfAlgorithm, bool useDerEncoding);
+/// @brief Method .ctor, addr 0x250e3c0, size 0x104, virtual false, abstract: false, final false
+inline void _ctor(::Org::BouncyCastle::Asn1::DerObjectIdentifier*  keyAlgorithm, ::Org::BouncyCastle::Asn1::DerObjectIdentifier*  keyPrfAlgorithm, ::Org::BouncyCastle::Asn1::DerObjectIdentifier*  certAlgorithm, ::Org::BouncyCastle::Asn1::DerObjectIdentifier*  certPrfAlgorithm, bool  useDerEncoding) ;
 
-  /// @brief Method get_Aliases, addr 0x1351d60, size 0xec, virtual false, abstract: false, final false
-  inline ::System::Collections::IEnumerable* get_Aliases();
+/// @brief Method get_Aliases, addr 0x2511590, size 0xe8, virtual false, abstract: false, final false
+inline ::System::Collections::IEnumerable* get_Aliases() ;
 
-  /// @brief Method get_Count, addr 0x1353e60, size 0xac, virtual false, abstract: false, final false
-  inline int32_t get_Count();
+/// @brief Method get_Count, addr 0x2513644, size 0xac, virtual false, abstract: false, final false
+inline int32_t get_Count() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Pkcs12Store();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr Pkcs12Store() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Pkcs12Store", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  Pkcs12Store(Pkcs12Store&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Pkcs12Store", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  Pkcs12Store(Pkcs12Store const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "Pkcs12Store", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+Pkcs12Store(Pkcs12Store && ) = delete;
 
-  /// @brief Field keys, offset: 0x10, size: 0x8, def value: None
-  ::Org::BouncyCastle::Pkcs::__Pkcs12Store__IgnoresCaseHashtable* ___keys;
+// Ctor Parameters [CppParam { name: "", ty: "Pkcs12Store", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+Pkcs12Store(Pkcs12Store const& ) = delete;
 
-  /// @brief Field localIds, offset: 0x18, size: 0x8, def value: None
-  ::System::Collections::IDictionary* ___localIds;
+/// @brief Field keys, offset: 0x10, size: 0x8, def value: None
+ ::Org::BouncyCastle::Pkcs::__Pkcs12Store__IgnoresCaseHashtable*  ___keys;
 
-  /// @brief Field certs, offset: 0x20, size: 0x8, def value: None
-  ::Org::BouncyCastle::Pkcs::__Pkcs12Store__IgnoresCaseHashtable* ___certs;
+/// @brief Field localIds, offset: 0x18, size: 0x8, def value: None
+ ::System::Collections::IDictionary*  ___localIds;
 
-  /// @brief Field chainCerts, offset: 0x28, size: 0x8, def value: None
-  ::System::Collections::IDictionary* ___chainCerts;
+/// @brief Field certs, offset: 0x20, size: 0x8, def value: None
+ ::Org::BouncyCastle::Pkcs::__Pkcs12Store__IgnoresCaseHashtable*  ___certs;
 
-  /// @brief Field keyCerts, offset: 0x30, size: 0x8, def value: None
-  ::System::Collections::IDictionary* ___keyCerts;
+/// @brief Field chainCerts, offset: 0x28, size: 0x8, def value: None
+ ::System::Collections::IDictionary*  ___chainCerts;
 
-  /// @brief Field keyAlgorithm, offset: 0x38, size: 0x8, def value: None
-  ::Org::BouncyCastle::Asn1::DerObjectIdentifier* ___keyAlgorithm;
+/// @brief Field keyCerts, offset: 0x30, size: 0x8, def value: None
+ ::System::Collections::IDictionary*  ___keyCerts;
 
-  /// @brief Field keyPrfAlgorithm, offset: 0x40, size: 0x8, def value: None
-  ::Org::BouncyCastle::Asn1::DerObjectIdentifier* ___keyPrfAlgorithm;
+/// @brief Field keyAlgorithm, offset: 0x38, size: 0x8, def value: None
+ ::Org::BouncyCastle::Asn1::DerObjectIdentifier*  ___keyAlgorithm;
 
-  /// @brief Field certAlgorithm, offset: 0x48, size: 0x8, def value: None
-  ::Org::BouncyCastle::Asn1::DerObjectIdentifier* ___certAlgorithm;
+/// @brief Field keyPrfAlgorithm, offset: 0x40, size: 0x8, def value: None
+ ::Org::BouncyCastle::Asn1::DerObjectIdentifier*  ___keyPrfAlgorithm;
 
-  /// @brief Field certPrfAlgorithm, offset: 0x50, size: 0x8, def value: None
-  ::Org::BouncyCastle::Asn1::DerObjectIdentifier* ___certPrfAlgorithm;
+/// @brief Field certAlgorithm, offset: 0x48, size: 0x8, def value: None
+ ::Org::BouncyCastle::Asn1::DerObjectIdentifier*  ___certAlgorithm;
 
-  /// @brief Field useDerEncoding, offset: 0x58, size: 0x1, def value: None
-  bool ___useDerEncoding;
+/// @brief Field certPrfAlgorithm, offset: 0x50, size: 0x8, def value: None
+ ::Org::BouncyCastle::Asn1::DerObjectIdentifier*  ___certPrfAlgorithm;
 
-  /// @brief Field unmarkedKeyEntry, offset: 0x60, size: 0x8, def value: None
-  ::Org::BouncyCastle::Pkcs::AsymmetricKeyEntry* ___unmarkedKeyEntry;
+/// @brief Field useDerEncoding, offset: 0x58, size: 0x1, def value: None
+ bool  ___useDerEncoding;
 
-  /// @brief Field IgnoreUselessPasswordProperty offset 0xffffffff size 0x8
-  static constexpr ::ConstString IgnoreUselessPasswordProperty{ u"Org.BouncyCastle.Pkcs12.IgnoreUselessPassword" };
+/// @brief Field unmarkedKeyEntry, offset: 0x60, size: 0x8, def value: None
+ ::Org::BouncyCastle::Pkcs::AsymmetricKeyEntry*  ___unmarkedKeyEntry;
 
-  /// @brief Field MinIterations offset 0xffffffff size 0x4
-  static constexpr int32_t MinIterations{ static_cast<int32_t>(0x400) };
+/// @brief Field IgnoreUselessPasswordProperty offset 0xffffffff size 0x8
+static constexpr ::ConstString  IgnoreUselessPasswordProperty{u"Org.BouncyCastle.Pkcs12.IgnoreUselessPassword"};
 
-  /// @brief Field SaltSize offset 0xffffffff size 0x4
-  static constexpr int32_t SaltSize{ static_cast<int32_t>(0x14) };
+/// @brief Field MinIterations offset 0xffffffff size 0x4
+static constexpr int32_t  MinIterations{static_cast<int32_t>(0x400)};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field SaltSize offset 0xffffffff size 0x4
+static constexpr int32_t  SaltSize{static_cast<int32_t>(0x14)};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Pkcs::Pkcs12Store, 0x68>, "Size mismatch!");
@@ -536,7 +528,7 @@ static_assert(offsetof(::Org::BouncyCastle::Pkcs::Pkcs12Store, ___useDerEncoding
 
 static_assert(offsetof(::Org::BouncyCastle::Pkcs::Pkcs12Store, ___unmarkedKeyEntry) == 0x60, "Offset mismatch!");
 
-} // namespace Org::BouncyCastle::Pkcs
+} // namespace end def Org::BouncyCastle::Pkcs
 NEED_NO_BOX(::Org::BouncyCastle::Pkcs::Pkcs12Store);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Pkcs::Pkcs12Store*, "Org.BouncyCastle.Pkcs", "Pkcs12Store");
 NEED_NO_BOX(::Org::BouncyCastle::Pkcs::__Pkcs12Store__CertId);

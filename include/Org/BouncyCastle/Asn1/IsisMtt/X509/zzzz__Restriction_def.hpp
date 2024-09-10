@@ -22,67 +22,67 @@ class Restriction;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::IsisMtt::X509::Restriction);
 // Type: Org.BouncyCastle.Asn1.IsisMtt.X509::Restriction
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::IsisMtt::X509 {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Asn1.IsisMtt.X509::Restriction*
 class CORDL_TYPE Restriction : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
-  // Declarations
-  __declspec(property(get = get_RestrictionString))::Org::BouncyCastle::Asn1::X500::DirectoryString* RestrictionString;
+// Declarations
+ __declspec(property(get=get_RestrictionString)) ::Org::BouncyCastle::Asn1::X500::DirectoryString*  RestrictionString;
 
-  /// @brief Field restriction, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_restriction, put = __cordl_internal_set_restriction))::Org::BouncyCastle::Asn1::X500::DirectoryString* restriction;
+/// @brief Field restriction, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_restriction, put=__cordl_internal_set_restriction)) ::Org::BouncyCastle::Asn1::X500::DirectoryString*  restriction;
 
-  /// @brief Method GetInstance, addr 0x11eb4f8, size 0x158, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Asn1::IsisMtt::X509::Restriction* GetInstance(::System::Object* obj);
+/// @brief Method GetInstance, addr 0x23b48a0, size 0x14c, virtual false, abstract: false, final false
+static inline ::Org::BouncyCastle::Asn1::IsisMtt::X509::Restriction* GetInstance(::System::Object*  obj) ;
 
-  static inline ::Org::BouncyCastle::Asn1::IsisMtt::X509::Restriction* New_ctor(::Org::BouncyCastle::Asn1::X500::DirectoryString* restriction);
+static inline ::Org::BouncyCastle::Asn1::IsisMtt::X509::Restriction* New_ctor(::Org::BouncyCastle::Asn1::X500::DirectoryString*  restriction) ;
 
-  static inline ::Org::BouncyCastle::Asn1::IsisMtt::X509::Restriction* New_ctor(::StringW restriction);
+static inline ::Org::BouncyCastle::Asn1::IsisMtt::X509::Restriction* New_ctor(::StringW  restriction) ;
 
-  /// @brief Method ToAsn1Object, addr 0x11eb6fc, size 0x20, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
+/// @brief Method ToAsn1Object, addr 0x23b4a90, size 0x20, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object() ;
 
-  constexpr ::Org::BouncyCastle::Asn1::X500::DirectoryString*& __cordl_internal_get_restriction();
+constexpr ::Org::BouncyCastle::Asn1::X500::DirectoryString*& __cordl_internal_get_restriction() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X500::DirectoryString*> const& __cordl_internal_get_restriction() const;
+constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X500::DirectoryString*> const& __cordl_internal_get_restriction() const;
 
-  constexpr void __cordl_internal_set_restriction(::Org::BouncyCastle::Asn1::X500::DirectoryString* value);
+constexpr void __cordl_internal_set_restriction(::Org::BouncyCastle::Asn1::X500::DirectoryString*  value) ;
 
-  /// @brief Method .ctor, addr 0x11eb650, size 0x28, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Asn1::X500::DirectoryString* restriction);
+/// @brief Method .ctor, addr 0x23b49ec, size 0x28, virtual false, abstract: false, final false
+inline void _ctor(::Org::BouncyCastle::Asn1::X500::DirectoryString*  restriction) ;
 
-  /// @brief Method .ctor, addr 0x11eb678, size 0x7c, virtual false, abstract: false, final false
-  inline void _ctor(::StringW restriction);
+/// @brief Method .ctor, addr 0x23b4a14, size 0x74, virtual false, abstract: false, final false
+inline void _ctor(::StringW  restriction) ;
 
-  /// @brief Method get_RestrictionString, addr 0x11eb6f4, size 0x8, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::X500::DirectoryString* get_RestrictionString();
+/// @brief Method get_RestrictionString, addr 0x23b4a88, size 0x8, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Asn1::X500::DirectoryString* get_RestrictionString() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Restriction();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr Restriction() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Restriction", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  Restriction(Restriction&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Restriction", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  Restriction(Restriction const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "Restriction", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+Restriction(Restriction && ) = delete;
 
-  /// @brief Field restriction, offset: 0x10, size: 0x8, def value: None
-  ::Org::BouncyCastle::Asn1::X500::DirectoryString* ___restriction;
+// Ctor Parameters [CppParam { name: "", ty: "Restriction", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+Restriction(Restriction const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field restriction, offset: 0x10, size: 0x8, def value: None
+ ::Org::BouncyCastle::Asn1::X500::DirectoryString*  ___restriction;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::IsisMtt::X509::Restriction, 0x18>, "Size mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Asn1::IsisMtt::X509::Restriction, ___restriction) == 0x10, "Offset mismatch!");
 
-} // namespace Org::BouncyCastle::Asn1::IsisMtt::X509
+} // namespace end def Org::BouncyCastle::Asn1::IsisMtt::X509
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::IsisMtt::X509::Restriction);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::IsisMtt::X509::Restriction*, "Org.BouncyCastle.Asn1.IsisMtt.X509", "Restriction");

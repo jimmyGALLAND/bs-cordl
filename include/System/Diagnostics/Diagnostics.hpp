@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "System/Diagnostics/AsyncStreamReader.hpp"
 #include "System/Diagnostics/BooleanSwitch.hpp"
@@ -44,5 +44,6 @@ module;
 #include "System/Diagnostics/TraceOptions.hpp"
 #include "System/Diagnostics/TraceSwitch.hpp"
 #ifdef __cpp_modules
-export module Diagnostics;
-#endif
+                    export module Diagnostics;
+                    #endif
+                

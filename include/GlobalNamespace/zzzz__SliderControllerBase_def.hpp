@@ -19,83 +19,82 @@ class SliderControllerBase;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::SliderControllerBase);
 // Type: ::SliderControllerBase
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 49, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::SliderControllerBase*
 class CORDL_TYPE SliderControllerBase : public ::UnityEngine::MonoBehaviour {
 public:
-  // Declarations
-  /// @brief Field _cutoutAnimateEffect, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__cutoutAnimateEffect, put = __cordl_internal_set__cutoutAnimateEffect))::UnityW<::GlobalNamespace::CutoutAnimateEffect> _cutoutAnimateEffect;
+// Declarations
+/// @brief Field _cutoutAnimateEffect, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get__cutoutAnimateEffect, put=__cordl_internal_set__cutoutAnimateEffect)) ::UnityW<::GlobalNamespace::CutoutAnimateEffect>  _cutoutAnimateEffect;
 
-  /// @brief Field _dissolving, offset 0x28, size 0x1
-  __declspec(property(get = __cordl_internal_get__dissolving, put = __cordl_internal_set__dissolving)) bool _dissolving;
+/// @brief Field _dissolving, offset 0x30, size 0x1 
+ __declspec(property(get=__cordl_internal_get__dissolving, put=__cordl_internal_set__dissolving)) bool  _dissolving;
 
-  /// @brief Field _materialPropertyBlockController, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__materialPropertyBlockController,
-                      put = __cordl_internal_set__materialPropertyBlockController))::UnityW<::GlobalNamespace::MaterialPropertyBlockController> _materialPropertyBlockController;
+/// @brief Field _materialPropertyBlockController, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get__materialPropertyBlockController, put=__cordl_internal_set__materialPropertyBlockController)) ::UnityW<::GlobalNamespace::MaterialPropertyBlockController>  _materialPropertyBlockController;
 
-  /// @brief Method AnimateCutout, addr 0x26dc600, size 0x28, virtual false, abstract: false, final false
-  inline void AnimateCutout(float_t cutoutStart, float_t cutoutEnd, float_t duration);
+/// @brief Method AnimateCutout, addr 0x3a6204c, size 0x2c, virtual false, abstract: false, final false
+inline void AnimateCutout(float_t  cutoutStart, float_t  cutoutEnd, float_t  duration) ;
 
-  static inline ::GlobalNamespace::SliderControllerBase* New_ctor();
+static inline ::GlobalNamespace::SliderControllerBase* New_ctor() ;
 
-  constexpr ::UnityW<::GlobalNamespace::CutoutAnimateEffect> const& __cordl_internal_get__cutoutAnimateEffect() const;
+constexpr ::UnityW<::GlobalNamespace::CutoutAnimateEffect> const& __cordl_internal_get__cutoutAnimateEffect() const;
 
-  constexpr ::UnityW<::GlobalNamespace::CutoutAnimateEffect>& __cordl_internal_get__cutoutAnimateEffect();
+constexpr ::UnityW<::GlobalNamespace::CutoutAnimateEffect>& __cordl_internal_get__cutoutAnimateEffect() ;
 
-  constexpr bool const& __cordl_internal_get__dissolving() const;
+constexpr bool const& __cordl_internal_get__dissolving() const;
 
-  constexpr bool& __cordl_internal_get__dissolving();
+constexpr bool& __cordl_internal_get__dissolving() ;
 
-  constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> const& __cordl_internal_get__materialPropertyBlockController() const;
+constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> const& __cordl_internal_get__materialPropertyBlockController() const;
 
-  constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockController>& __cordl_internal_get__materialPropertyBlockController();
+constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockController>& __cordl_internal_get__materialPropertyBlockController() ;
 
-  constexpr void __cordl_internal_set__cutoutAnimateEffect(::UnityW<::GlobalNamespace::CutoutAnimateEffect> value);
+constexpr void __cordl_internal_set__cutoutAnimateEffect(::UnityW<::GlobalNamespace::CutoutAnimateEffect>  value) ;
 
-  constexpr void __cordl_internal_set__dissolving(bool value);
+constexpr void __cordl_internal_set__dissolving(bool  value) ;
 
-  constexpr void __cordl_internal_set__materialPropertyBlockController(::UnityW<::GlobalNamespace::MaterialPropertyBlockController> value);
+constexpr void __cordl_internal_set__materialPropertyBlockController(::UnityW<::GlobalNamespace::MaterialPropertyBlockController>  value) ;
 
-  /// @brief Method .ctor, addr 0x26dd040, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x3a62080, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SliderControllerBase();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr SliderControllerBase() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SliderControllerBase", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  SliderControllerBase(SliderControllerBase&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SliderControllerBase", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  SliderControllerBase(SliderControllerBase const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "SliderControllerBase", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+SliderControllerBase(SliderControllerBase && ) = delete;
 
-  /// @brief Field _materialPropertyBlockController, offset: 0x18, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> ____materialPropertyBlockController;
+// Ctor Parameters [CppParam { name: "", ty: "SliderControllerBase", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+SliderControllerBase(SliderControllerBase const& ) = delete;
 
-  /// @brief Field _cutoutAnimateEffect, offset: 0x20, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::CutoutAnimateEffect> ____cutoutAnimateEffect;
+/// @brief Field _materialPropertyBlockController, offset: 0x20, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::MaterialPropertyBlockController>  ____materialPropertyBlockController;
 
-  /// @brief Field _dissolving, offset: 0x28, size: 0x1, def value: None
-  bool ____dissolving;
+/// @brief Field _cutoutAnimateEffect, offset: 0x28, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::CutoutAnimateEffect>  ____cutoutAnimateEffect;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _dissolving, offset: 0x30, size: 0x1, def value: None
+ bool  ____dissolving;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SliderControllerBase, 0x30>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SliderControllerBase, 0x38>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SliderControllerBase, ____materialPropertyBlockController) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SliderControllerBase, ____materialPropertyBlockController) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SliderControllerBase, ____cutoutAnimateEffect) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SliderControllerBase, ____cutoutAnimateEffect) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::SliderControllerBase, ____dissolving) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::SliderControllerBase, ____dissolving) == 0x30, "Offset mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SliderControllerBase);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SliderControllerBase*, "", "SliderControllerBase");

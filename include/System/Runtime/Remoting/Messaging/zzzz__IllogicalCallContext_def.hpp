@@ -19,81 +19,81 @@ class IllogicalCallContext;
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Remoting::Messaging::IllogicalCallContext);
 // Type: System.Runtime.Remoting.Messaging::IllogicalCallContext
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Messaging {
 // Is value type: false
 // CS Name: ::System.Runtime.Remoting.Messaging::IllogicalCallContext*
 class CORDL_TYPE IllogicalCallContext : public ::System::Object {
 public:
-  // Declarations
-  __declspec(property(get = get_Datastore))::System::Collections::Hashtable* Datastore;
+// Declarations
+ __declspec(property(get=get_Datastore)) ::System::Collections::Hashtable*  Datastore;
 
-  __declspec(property(get = get_HasUserData)) bool HasUserData;
+ __declspec(property(get=get_HasUserData)) bool  HasUserData;
 
-  __declspec(property(get = get_HostContext, put = set_HostContext))::System::Object* HostContext;
+ __declspec(property(get=get_HostContext, put=set_HostContext)) ::System::Object*  HostContext;
 
-  /// @brief Field m_Datastore, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Datastore, put = __cordl_internal_set_m_Datastore))::System::Collections::Hashtable* m_Datastore;
+/// @brief Field m_Datastore, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_Datastore, put=__cordl_internal_set_m_Datastore)) ::System::Collections::Hashtable*  m_Datastore;
 
-  /// @brief Field m_HostContext, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_HostContext, put = __cordl_internal_set_m_HostContext))::System::Object* m_HostContext;
+/// @brief Field m_HostContext, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_HostContext, put=__cordl_internal_set_m_HostContext)) ::System::Object*  m_HostContext;
 
-  /// @brief Method CreateCopy, addr 0x28536d8, size 0x254, virtual false, abstract: false, final false
-  inline ::System::Runtime::Remoting::Messaging::IllogicalCallContext* CreateCopy();
+/// @brief Method CreateCopy, addr 0x3c555b0, size 0x254, virtual false, abstract: false, final false
+inline ::System::Runtime::Remoting::Messaging::IllogicalCallContext* CreateCopy() ;
 
-  /// @brief Method FreeNamedDataSlot, addr 0x285356c, size 0x2c, virtual false, abstract: false, final false
-  inline void FreeNamedDataSlot(::StringW name);
+/// @brief Method FreeNamedDataSlot, addr 0x3c5544c, size 0x2c, virtual false, abstract: false, final false
+inline void FreeNamedDataSlot(::StringW  name) ;
 
-  static inline ::System::Runtime::Remoting::Messaging::IllogicalCallContext* New_ctor();
+static inline ::System::Runtime::Remoting::Messaging::IllogicalCallContext* New_ctor() ;
 
-  constexpr ::System::Collections::Hashtable*& __cordl_internal_get_m_Datastore();
+constexpr ::System::Collections::Hashtable*& __cordl_internal_get_m_Datastore() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __cordl_internal_get_m_Datastore() const;
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __cordl_internal_get_m_Datastore() const;
 
-  constexpr ::System::Object*& __cordl_internal_get_m_HostContext();
+constexpr ::System::Object*& __cordl_internal_get_m_HostContext() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_m_HostContext() const;
+constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_m_HostContext() const;
 
-  constexpr void __cordl_internal_set_m_Datastore(::System::Collections::Hashtable* value);
+constexpr void __cordl_internal_set_m_Datastore(::System::Collections::Hashtable*  value) ;
 
-  constexpr void __cordl_internal_set_m_HostContext(::System::Object* value);
+constexpr void __cordl_internal_set_m_HostContext(::System::Object*  value) ;
 
-  /// @brief Method .ctor, addr 0x285392c, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x3c55804, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_Datastore, addr 0x2853630, size 0x6c, virtual false, abstract: false, final false
-  inline ::System::Collections::Hashtable* get_Datastore();
+/// @brief Method get_Datastore, addr 0x3c55510, size 0x64, virtual false, abstract: false, final false
+inline ::System::Collections::Hashtable* get_Datastore() ;
 
-  /// @brief Method get_HasUserData, addr 0x28536ac, size 0x2c, virtual false, abstract: false, final false
-  inline bool get_HasUserData();
+/// @brief Method get_HasUserData, addr 0x3c55584, size 0x2c, virtual false, abstract: false, final false
+inline bool get_HasUserData() ;
 
-  /// @brief Method get_HostContext, addr 0x285369c, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Object* get_HostContext();
+/// @brief Method get_HostContext, addr 0x3c55574, size 0x8, virtual false, abstract: false, final false
+inline ::System::Object* get_HostContext() ;
 
-  /// @brief Method set_HostContext, addr 0x28536a4, size 0x8, virtual false, abstract: false, final false
-  inline void set_HostContext(::System::Object* value);
+/// @brief Method set_HostContext, addr 0x3c5557c, size 0x8, virtual false, abstract: false, final false
+inline void set_HostContext(::System::Object*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr IllogicalCallContext();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr IllogicalCallContext() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IllogicalCallContext", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IllogicalCallContext(IllogicalCallContext&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IllogicalCallContext", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  IllogicalCallContext(IllogicalCallContext const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "IllogicalCallContext", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+IllogicalCallContext(IllogicalCallContext && ) = delete;
 
-  /// @brief Field m_Datastore, offset: 0x10, size: 0x8, def value: None
-  ::System::Collections::Hashtable* ___m_Datastore;
+// Ctor Parameters [CppParam { name: "", ty: "IllogicalCallContext", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+IllogicalCallContext(IllogicalCallContext const& ) = delete;
 
-  /// @brief Field m_HostContext, offset: 0x18, size: 0x8, def value: None
-  ::System::Object* ___m_HostContext;
+/// @brief Field m_Datastore, offset: 0x10, size: 0x8, def value: None
+ ::System::Collections::Hashtable*  ___m_Datastore;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field m_HostContext, offset: 0x18, size: 0x8, def value: None
+ ::System::Object*  ___m_HostContext;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Remoting::Messaging::IllogicalCallContext, 0x20>, "Size mismatch!");
@@ -102,6 +102,6 @@ static_assert(offsetof(::System::Runtime::Remoting::Messaging::IllogicalCallCont
 
 static_assert(offsetof(::System::Runtime::Remoting::Messaging::IllogicalCallContext, ___m_HostContext) == 0x18, "Offset mismatch!");
 
-} // namespace System::Runtime::Remoting::Messaging
+} // namespace end def System::Runtime::Remoting::Messaging
 NEED_NO_BOX(::System::Runtime::Remoting::Messaging::IllogicalCallContext);
 DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::Messaging::IllogicalCallContext*, "System.Runtime.Remoting.Messaging", "IllogicalCallContext");

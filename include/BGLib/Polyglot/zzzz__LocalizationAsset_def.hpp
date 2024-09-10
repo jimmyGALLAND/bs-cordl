@@ -19,67 +19,67 @@ class LocalizationAsset;
 // Write type traits
 MARK_REF_PTR_T(::BGLib::Polyglot::LocalizationAsset);
 // Type: BGLib.Polyglot::LocalizationAsset
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace BGLib::Polyglot {
 // Is value type: false
 // CS Name: ::BGLib.Polyglot::LocalizationAsset*
 class CORDL_TYPE LocalizationAsset : public ::System::Object {
 public:
-  // Declarations
-  __declspec(property(get = get_Format))::BGLib::Polyglot::GoogleDriveDownloadFormat Format;
+// Declarations
+ __declspec(property(get=get_Format)) ::BGLib::Polyglot::GoogleDriveDownloadFormat  Format;
 
-  __declspec(property(get = get_TextAsset))::UnityW<::UnityEngine::TextAsset> TextAsset;
+ __declspec(property(get=get_TextAsset)) ::UnityW<::UnityEngine::TextAsset>  TextAsset;
 
-  /// @brief Field format, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get_format, put = __cordl_internal_set_format))::BGLib::Polyglot::GoogleDriveDownloadFormat format;
+/// @brief Field format, offset 0x18, size 0x4 
+ __declspec(property(get=__cordl_internal_get_format, put=__cordl_internal_set_format)) ::BGLib::Polyglot::GoogleDriveDownloadFormat  format;
 
-  /// @brief Field textAsset, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_textAsset, put = __cordl_internal_set_textAsset))::UnityW<::UnityEngine::TextAsset> textAsset;
+/// @brief Field textAsset, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_textAsset, put=__cordl_internal_set_textAsset)) ::UnityW<::UnityEngine::TextAsset>  textAsset;
 
-  static inline ::BGLib::Polyglot::LocalizationAsset* New_ctor(::UnityEngine::TextAsset* textAsset, ::BGLib::Polyglot::GoogleDriveDownloadFormat format);
+static inline ::BGLib::Polyglot::LocalizationAsset* New_ctor(::UnityEngine::TextAsset*  textAsset, ::BGLib::Polyglot::GoogleDriveDownloadFormat  format) ;
 
-  constexpr ::BGLib::Polyglot::GoogleDriveDownloadFormat const& __cordl_internal_get_format() const;
+constexpr ::BGLib::Polyglot::GoogleDriveDownloadFormat const& __cordl_internal_get_format() const;
 
-  constexpr ::BGLib::Polyglot::GoogleDriveDownloadFormat& __cordl_internal_get_format();
+constexpr ::BGLib::Polyglot::GoogleDriveDownloadFormat& __cordl_internal_get_format() ;
 
-  constexpr ::UnityW<::UnityEngine::TextAsset> const& __cordl_internal_get_textAsset() const;
+constexpr ::UnityW<::UnityEngine::TextAsset> const& __cordl_internal_get_textAsset() const;
 
-  constexpr ::UnityW<::UnityEngine::TextAsset>& __cordl_internal_get_textAsset();
+constexpr ::UnityW<::UnityEngine::TextAsset>& __cordl_internal_get_textAsset() ;
 
-  constexpr void __cordl_internal_set_format(::BGLib::Polyglot::GoogleDriveDownloadFormat value);
+constexpr void __cordl_internal_set_format(::BGLib::Polyglot::GoogleDriveDownloadFormat  value) ;
 
-  constexpr void __cordl_internal_set_textAsset(::UnityW<::UnityEngine::TextAsset> value);
+constexpr void __cordl_internal_set_textAsset(::UnityW<::UnityEngine::TextAsset>  value) ;
 
-  /// @brief Method .ctor, addr 0x108fe70, size 0x30, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::TextAsset* textAsset, ::BGLib::Polyglot::GoogleDriveDownloadFormat format);
+/// @brief Method .ctor, addr 0x22632f4, size 0x30, virtual false, abstract: false, final false
+inline void _ctor(::UnityEngine::TextAsset*  textAsset, ::BGLib::Polyglot::GoogleDriveDownloadFormat  format) ;
 
-  /// @brief Method get_Format, addr 0x108fe68, size 0x8, virtual false, abstract: false, final false
-  inline ::BGLib::Polyglot::GoogleDriveDownloadFormat get_Format();
+/// @brief Method get_Format, addr 0x22632ec, size 0x8, virtual false, abstract: false, final false
+inline ::BGLib::Polyglot::GoogleDriveDownloadFormat get_Format() ;
 
-  /// @brief Method get_TextAsset, addr 0x108fe60, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::TextAsset> get_TextAsset();
+/// @brief Method get_TextAsset, addr 0x22632e4, size 0x8, virtual false, abstract: false, final false
+inline ::UnityW<::UnityEngine::TextAsset> get_TextAsset() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LocalizationAsset();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr LocalizationAsset() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LocalizationAsset", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  LocalizationAsset(LocalizationAsset&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LocalizationAsset", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  LocalizationAsset(LocalizationAsset const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "LocalizationAsset", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+LocalizationAsset(LocalizationAsset && ) = delete;
 
-  /// @brief Field textAsset, offset: 0x10, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::TextAsset> ___textAsset;
+// Ctor Parameters [CppParam { name: "", ty: "LocalizationAsset", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+LocalizationAsset(LocalizationAsset const& ) = delete;
 
-  /// @brief Field format, offset: 0x18, size: 0x4, def value: None
-  ::BGLib::Polyglot::GoogleDriveDownloadFormat ___format;
+/// @brief Field textAsset, offset: 0x10, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::TextAsset>  ___textAsset;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field format, offset: 0x18, size: 0x4, def value: None
+ ::BGLib::Polyglot::GoogleDriveDownloadFormat  ___format;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::BGLib::Polyglot::LocalizationAsset, 0x20>, "Size mismatch!");
@@ -88,6 +88,6 @@ static_assert(offsetof(::BGLib::Polyglot::LocalizationAsset, ___textAsset) == 0x
 
 static_assert(offsetof(::BGLib::Polyglot::LocalizationAsset, ___format) == 0x18, "Offset mismatch!");
 
-} // namespace BGLib::Polyglot
+} // namespace end def BGLib::Polyglot
 NEED_NO_BOX(::BGLib::Polyglot::LocalizationAsset);
 DEFINE_IL2CPP_ARG_TYPE(::BGLib::Polyglot::LocalizationAsset*, "BGLib.Polyglot", "LocalizationAsset");

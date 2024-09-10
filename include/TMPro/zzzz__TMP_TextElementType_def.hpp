@@ -13,56 +13,56 @@ struct TMP_TextElementType;
 // Write type traits
 MARK_VAL_T(::TMPro::TMP_TextElementType);
 // Type: TMPro::TMP_TextElementType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: true
 // CS Name: ::TMPro::TMP_TextElementType
 struct CORDL_TYPE TMP_TextElementType {
 public:
-  // Declarations
-  using __CORDL_BACKING_ENUM_TYPE = int32_t;
+// Declarations
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct __TMP_TextElementType_Unwrapped
-  enum struct __TMP_TextElementType_Unwrapped : int32_t {
-    __E_Character = static_cast<int32_t>(0x0),
-    __E_Sprite = static_cast<int32_t>(0x1),
-  };
+/// @brief Nested struct __TMP_TextElementType_Unwrapped
+enum struct __TMP_TextElementType_Unwrapped : int32_t {
+__E_Character = static_cast<int32_t>(0x0),
+__E_Sprite = static_cast<int32_t>(0x1),
+};
 
-  /// @brief Conversion into unwrapped enum value
-  constexpr operator __TMP_TextElementType_Unwrapped() const noexcept {
-    return static_cast<__TMP_TextElementType_Unwrapped>(this->value__);
-  }
+/// @brief Conversion into unwrapped enum value
+constexpr operator __TMP_TextElementType_Unwrapped () const noexcept {
+return static_cast<__TMP_TextElementType_Unwrapped>(this->value__);
+}
 
-  /// @brief Conversion into unwrapped enum value
-  constexpr explicit operator int32_t() const noexcept {
-    return static_cast<int32_t>(this->value__);
-  }
+/// @brief Conversion into unwrapped enum value
+constexpr explicit operator int32_t () const noexcept {
+return static_cast<int32_t>(this->value__);
+}
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TMP_TextElementType();
+// Ctor Parameters []
+// @brief default ctor
+constexpr TMP_TextElementType() ;
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr TMP_TextElementType(int32_t value__) noexcept;
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr TMP_TextElementType(int32_t  value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+/// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+ int32_t  value__;
 
-  /// @brief Field Character value: static_cast<int32_t>(0x0)
-  static ::TMPro::TMP_TextElementType const Character;
+/// @brief Field Character value: static_cast<int32_t>(0x0)
+static ::TMPro::TMP_TextElementType const Character;
 
-  /// @brief Field Sprite value: static_cast<int32_t>(0x1)
-  static ::TMPro::TMP_TextElementType const Sprite;
+/// @brief Field Sprite value: static_cast<int32_t>(0x1)
+static ::TMPro::TMP_TextElementType const Sprite;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x4};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::TMPro::TMP_TextElementType, 0x4>, "Size mismatch!");
 
 static_assert(offsetof(::TMPro::TMP_TextElementType, value__) == 0x0, "Offset mismatch!");
 
-} // namespace TMPro
+} // namespace end def TMPro
 DEFINE_IL2CPP_ARG_TYPE(::TMPro::TMP_TextElementType, "TMPro", "TMP_TextElementType");

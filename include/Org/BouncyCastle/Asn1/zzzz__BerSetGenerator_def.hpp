@@ -16,42 +16,42 @@ class BerSetGenerator;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::BerSetGenerator);
 // Type: Org.BouncyCastle.Asn1::BerSetGenerator
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1 {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Asn1::BerSetGenerator*
 class CORDL_TYPE BerSetGenerator : public ::Org::BouncyCastle::Asn1::BerGenerator {
 public:
-  // Declarations
-  static inline ::Org::BouncyCastle::Asn1::BerSetGenerator* New_ctor(::System::IO::Stream* outStream);
+// Declarations
+static inline ::Org::BouncyCastle::Asn1::BerSetGenerator* New_ctor(::System::IO::Stream*  outStream) ;
 
-  static inline ::Org::BouncyCastle::Asn1::BerSetGenerator* New_ctor(::System::IO::Stream* outStream, int32_t tagNo, bool isExplicit);
+static inline ::Org::BouncyCastle::Asn1::BerSetGenerator* New_ctor(::System::IO::Stream*  outStream, int32_t  tagNo, bool  isExplicit) ;
 
-  /// @brief Method .ctor, addr 0x143133c, size 0x34, virtual false, abstract: false, final false
-  inline void _ctor(::System::IO::Stream* outStream);
+/// @brief Method .ctor, addr 0x25e9a74, size 0x34, virtual false, abstract: false, final false
+inline void _ctor(::System::IO::Stream*  outStream) ;
 
-  /// @brief Method .ctor, addr 0x1431370, size 0x54, virtual false, abstract: false, final false
-  inline void _ctor(::System::IO::Stream* outStream, int32_t tagNo, bool isExplicit);
+/// @brief Method .ctor, addr 0x25e9aa8, size 0x54, virtual false, abstract: false, final false
+inline void _ctor(::System::IO::Stream*  outStream, int32_t  tagNo, bool  isExplicit) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BerSetGenerator();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr BerSetGenerator() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BerSetGenerator", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  BerSetGenerator(BerSetGenerator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BerSetGenerator", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  BerSetGenerator(BerSetGenerator const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "BerSetGenerator", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+BerSetGenerator(BerSetGenerator && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "BerSetGenerator", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+BerSetGenerator(BerSetGenerator const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::BerSetGenerator, 0x20>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Asn1
+} // namespace end def Org::BouncyCastle::Asn1
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::BerSetGenerator);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::BerSetGenerator*, "Org.BouncyCastle.Asn1", "BerSetGenerator");

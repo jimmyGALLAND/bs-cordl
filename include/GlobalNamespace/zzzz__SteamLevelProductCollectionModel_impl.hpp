@@ -10,684 +10,760 @@
 #include "System/Collections/Generic/zzzz__IEnumerable_1_def.hpp"
 #include "System/Collections/Generic/zzzz__IReadOnlyList_1_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__SteamLevelProductCollectionModel__LevelDepotData._ctor
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__SteamLevelProductCollectionModel__LevelDepotData::*)()>(
-    &::GlobalNamespace::__SteamLevelProductCollectionModel__LevelDepotData::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__SteamLevelProductCollectionModel__LevelDepotData::*)()>(&::GlobalNamespace::__SteamLevelProductCollectionModel__LevelDepotData::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x14ed268;
+  constexpr static std::size_t addrs = 0x269a5d8;
 
   inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelDepotData*>::get(), ".ctor",
-                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelDepotData*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
-constexpr bool& GlobalNamespace::__SteamLevelProductCollectionModel__LevelDepotData::__cordl_internal_get_checkDepots() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___checkDepots;
+constexpr bool& GlobalNamespace::__SteamLevelProductCollectionModel__LevelDepotData::__cordl_internal_get_checkDepots()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___checkDepots;
 }
 constexpr bool const& GlobalNamespace::__SteamLevelProductCollectionModel__LevelDepotData::__cordl_internal_get_checkDepots() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___checkDepots;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___checkDepots;
 }
-constexpr void GlobalNamespace::__SteamLevelProductCollectionModel__LevelDepotData::__cordl_internal_set_checkDepots(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___checkDepots = value;
+constexpr void GlobalNamespace::__SteamLevelProductCollectionModel__LevelDepotData::__cordl_internal_set_checkDepots(bool  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___checkDepots = value;
 }
-constexpr uint32_t& GlobalNamespace::__SteamLevelProductCollectionModel__LevelDepotData::__cordl_internal_get_noEnvironmentKeywordsDepotId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___noEnvironmentKeywordsDepotId;
+constexpr uint32_t& GlobalNamespace::__SteamLevelProductCollectionModel__LevelDepotData::__cordl_internal_get_noEnvironmentKeywordsDepotId()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___noEnvironmentKeywordsDepotId;
 }
 constexpr uint32_t const& GlobalNamespace::__SteamLevelProductCollectionModel__LevelDepotData::__cordl_internal_get_noEnvironmentKeywordsDepotId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___noEnvironmentKeywordsDepotId;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___noEnvironmentKeywordsDepotId;
 }
-constexpr void GlobalNamespace::__SteamLevelProductCollectionModel__LevelDepotData::__cordl_internal_set_noEnvironmentKeywordsDepotId(uint32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___noEnvironmentKeywordsDepotId = value;
+constexpr void GlobalNamespace::__SteamLevelProductCollectionModel__LevelDepotData::__cordl_internal_set_noEnvironmentKeywordsDepotId(uint32_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___noEnvironmentKeywordsDepotId = value;
 }
-inline ::GlobalNamespace::__SteamLevelProductCollectionModel__LevelDepotData* GlobalNamespace::__SteamLevelProductCollectionModel__LevelDepotData::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelDepotData*>());
+inline ::GlobalNamespace::__SteamLevelProductCollectionModel__LevelDepotData* GlobalNamespace::__SteamLevelProductCollectionModel__LevelDepotData::New_ctor()  {
+return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelDepotData*>());
 }
-inline void GlobalNamespace::__SteamLevelProductCollectionModel__LevelDepotData::_ctor() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelDepotData*>::get(), ".ctor",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::__SteamLevelProductCollectionModel__LevelDepotData::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelDepotData*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__SteamLevelProductCollectionModel__LevelDepotData::__SteamLevelProductCollectionModel__LevelDepotData() {}
+constexpr ::GlobalNamespace::__SteamLevelProductCollectionModel__LevelDepotData::__SteamLevelProductCollectionModel__LevelDepotData()   {
+}
 //  Writing Method size for method: ::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData.get_appId
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData::*)()>(
-    &::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData::get_appId)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData::*)()>(&::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData::get_appId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x14ed270;
+  constexpr static std::size_t addrs = 0x269a5e0;
 
   inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData*>::get(), "get_appId",
-                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData*>::get(),
+                        "get_appId",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData.get_levelId
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData::*)()>(
-    &::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData::get_levelId)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData::*)()>(&::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData::get_levelId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x14ed278;
+  constexpr static std::size_t addrs = 0x269a5e8;
 
   inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData*>::get(), "get_levelId",
-                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData*>::get(),
+                        "get_levelId",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData.get_levelDepotData
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelDepotData* (
-    ::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData::*)()>(&::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData::get_levelDepotData)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelDepotData* (::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData::*)()>(&::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData::get_levelDepotData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x14ed280;
+  constexpr static std::size_t addrs = 0x269a5f0;
 
   inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData*>::get(),
-                                                 "get_levelDepotData", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData*>::get(),
+                        "get_levelDepotData",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData._ctor
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData::*)(::StringW, uint32_t)>(
-    &::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData::*)(::StringW, uint32_t)>(&::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData::_ctor)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x14ed288;
+  constexpr static std::size_t addrs = 0x269a5f8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get()}
+                    )));
     return ___internal_method;
   }
 };
 /// @brief Convert operator to "::GlobalNamespace::ILevelProductData"
-constexpr GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData::operator ::GlobalNamespace::ILevelProductData*() noexcept {
-  return static_cast<::GlobalNamespace::ILevelProductData*>(static_cast<void*>(this));
+constexpr  GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData::operator ::GlobalNamespace::ILevelProductData*() noexcept {
+return static_cast<::GlobalNamespace::ILevelProductData*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::GlobalNamespace::ILevelProductData"
 constexpr ::GlobalNamespace::ILevelProductData* GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData::i___GlobalNamespace__ILevelProductData() noexcept {
-  return static_cast<::GlobalNamespace::ILevelProductData*>(static_cast<void*>(this));
+return static_cast<::GlobalNamespace::ILevelProductData*>(static_cast<void*>(this));
 }
-constexpr ::StringW& GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData::__cordl_internal_get__levelId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____levelId;
+constexpr ::StringW& GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData::__cordl_internal_get__levelId()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____levelId;
 }
 constexpr ::StringW const& GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData::__cordl_internal_get__levelId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____levelId;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____levelId;
 }
-constexpr void GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData::__cordl_internal_set__levelId(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____levelId)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData::__cordl_internal_set__levelId(::StringW  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____levelId)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr uint32_t& GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData::__cordl_internal_get__appId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____appId;
+constexpr uint32_t& GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData::__cordl_internal_get__appId()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____appId;
 }
 constexpr uint32_t const& GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData::__cordl_internal_get__appId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____appId;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____appId;
 }
-constexpr void GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData::__cordl_internal_set__appId(uint32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____appId = value;
+constexpr void GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData::__cordl_internal_set__appId(uint32_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____appId = value;
 }
-constexpr ::GlobalNamespace::__SteamLevelProductCollectionModel__LevelDepotData*& GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData::__cordl_internal_get__levelDepotData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____levelDepotData;
+constexpr ::GlobalNamespace::__SteamLevelProductCollectionModel__LevelDepotData*& GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData::__cordl_internal_get__levelDepotData()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____levelDepotData;
 }
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelDepotData*> const&
-GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData::__cordl_internal_get__levelDepotData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____levelDepotData;
+constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelDepotData*> const& GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData::__cordl_internal_get__levelDepotData() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____levelDepotData;
 }
-constexpr void
-GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData::__cordl_internal_set__levelDepotData(::GlobalNamespace::__SteamLevelProductCollectionModel__LevelDepotData* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____levelDepotData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData::__cordl_internal_set__levelDepotData(::GlobalNamespace::__SteamLevelProductCollectionModel__LevelDepotData*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____levelDepotData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline uint32_t GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData::get_appId() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData*>::get(), "get_appId",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<uint32_t, false>(this, ___internal_method);
+inline uint32_t GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData::get_appId()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData*>::get(),
+                        "get_appId",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<uint32_t, false>(this, ___internal_method);
 }
-inline ::StringW GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData::get_levelId() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData*>::get(), "get_levelId",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+inline ::StringW GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData::get_levelId()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData*>::get(),
+                        "get_levelId",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::__SteamLevelProductCollectionModel__LevelDepotData* GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData::get_levelDepotData() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData*>::get(),
-                                               "get_levelDepotData", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelDepotData*, false>(this, ___internal_method);
+inline ::GlobalNamespace::__SteamLevelProductCollectionModel__LevelDepotData* GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData::get_levelDepotData()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData*>::get(),
+                        "get_levelDepotData",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelDepotData*, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData* GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData::New_ctor(::StringW levelId, uint32_t appId) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData*>(levelId, appId));
+inline ::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData* GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData::New_ctor(::StringW  levelId, uint32_t  appId)  {
+return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData*>(levelId, appId));
 }
-inline void GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData::_ctor(::StringW levelId, uint32_t appId) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, levelId, appId);
+inline void GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData::_ctor(::StringW  levelId, uint32_t  appId)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, levelId, appId);
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData::__SteamLevelProductCollectionModel__LevelProductData() {}
+constexpr ::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData::__SteamLevelProductCollectionModel__LevelProductData()   {
+}
 //  Writing Method size for method: ::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData.get_bundleId
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData::*)()>(
-    &::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData::get_bundleId)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData::*)()>(&::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData::get_bundleId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x14ed2b8;
+  constexpr static std::size_t addrs = 0x269a628;
 
   inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData*>::get(),
-                                                 "get_bundleId", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData*>::get(),
+                        "get_bundleId",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData.get_levelPackId
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData::*)()>(
-    &::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData::get_levelPackId)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData::*)()>(&::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData::get_levelPackId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x14ed2c0;
+  constexpr static std::size_t addrs = 0x269a630;
 
   inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData*>::get(),
-                                                 "get_levelPackId", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData*>::get(),
+                        "get_levelPackId",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData.get_levelProductsData
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData*>* (
-        ::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData::*)()>(&::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData::get_levelProductsData)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData*>* (::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData::*)()>(&::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData::get_levelProductsData)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x14ed2c8;
+  constexpr static std::size_t addrs = 0x269a638;
 
   inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData*>::get(),
-                                                 "get_levelProductsData", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData*>::get(),
+                        "get_levelProductsData",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData._ctor
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData::*)(
-    ::StringW, uint32_t, ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData*>*)>(
-    &::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData::*)(::StringW, uint32_t, ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData*>*)>(&::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData::_ctor)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x14ed2d0;
+  constexpr static std::size_t addrs = 0x269a640;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 3>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData*>*>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData*>*>::get()}
+                    )));
     return ___internal_method;
   }
 };
 /// @brief Convert operator to "::GlobalNamespace::ILevelPackProductData_1<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData*>"
-constexpr GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData::operator ::GlobalNamespace::ILevelPackProductData_1<
-    ::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData*>*() noexcept {
-  return static_cast<::GlobalNamespace::ILevelPackProductData_1<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData*>*>(static_cast<void*>(this));
+constexpr  GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData::operator ::GlobalNamespace::ILevelPackProductData_1<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData*>*() noexcept {
+return static_cast<::GlobalNamespace::ILevelPackProductData_1<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData*>*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::GlobalNamespace::ILevelPackProductData_1<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData*>"
-constexpr ::GlobalNamespace::ILevelPackProductData_1<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData*>* GlobalNamespace::
-    __SteamLevelProductCollectionModel__LevelPackProductData::i___GlobalNamespace__ILevelPackProductData_1___GlobalNamespace____SteamLevelProductCollectionModel__LevelProductData__() noexcept {
-  return static_cast<::GlobalNamespace::ILevelPackProductData_1<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData*>*>(static_cast<void*>(this));
+constexpr ::GlobalNamespace::ILevelPackProductData_1<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData*>* GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData::i___GlobalNamespace__ILevelPackProductData_1___GlobalNamespace____SteamLevelProductCollectionModel__LevelProductData__() noexcept {
+return static_cast<::GlobalNamespace::ILevelPackProductData_1<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData*>*>(static_cast<void*>(this));
 }
-constexpr ::StringW& GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData::__cordl_internal_get__levelPackId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____levelPackId;
+constexpr ::StringW& GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData::__cordl_internal_get__levelPackId()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____levelPackId;
 }
 constexpr ::StringW const& GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData::__cordl_internal_get__levelPackId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____levelPackId;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____levelPackId;
 }
-constexpr void GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData::__cordl_internal_set__levelPackId(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____levelPackId)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData::__cordl_internal_set__levelPackId(::StringW  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____levelPackId)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr uint32_t& GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData::__cordl_internal_get__bundleId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____bundleId;
+constexpr uint32_t& GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData::__cordl_internal_get__bundleId()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____bundleId;
 }
 constexpr uint32_t const& GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData::__cordl_internal_get__bundleId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____bundleId;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____bundleId;
 }
-constexpr void GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData::__cordl_internal_set__bundleId(uint32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____bundleId = value;
+constexpr void GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData::__cordl_internal_set__bundleId(uint32_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____bundleId = value;
 }
-constexpr ::ArrayW<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData*, ::Array<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData*>*>&
-GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData::__cordl_internal_get__levelProductsData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____levelProductsData;
+constexpr ::ArrayW<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData*,::Array<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData*>*>& GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData::__cordl_internal_get__levelProductsData()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____levelProductsData;
 }
-constexpr ::ArrayW<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData*, ::Array<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData*>*> const&
-GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData::__cordl_internal_get__levelProductsData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____levelProductsData;
+constexpr ::ArrayW<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData*,::Array<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData*>*> const& GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData::__cordl_internal_get__levelProductsData() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____levelProductsData;
 }
-constexpr void GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData::__cordl_internal_set__levelProductsData(
-    ::ArrayW<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData*, ::Array<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData*>*> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____levelProductsData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData::__cordl_internal_set__levelProductsData(::ArrayW<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData*,::Array<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData*>*>  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____levelProductsData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline uint32_t GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData::get_bundleId() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData*>::get(),
-                                               "get_bundleId", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<uint32_t, false>(this, ___internal_method);
+inline uint32_t GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData::get_bundleId()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData*>::get(),
+                        "get_bundleId",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<uint32_t, false>(this, ___internal_method);
 }
-inline ::StringW GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData::get_levelPackId() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData*>::get(),
-                                               "get_levelPackId", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+inline ::StringW GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData::get_levelPackId()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData*>::get(),
+                        "get_levelPackId",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData*>*
-GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData::get_levelProductsData() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData*>::get(),
-                                               "get_levelProductsData", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData*>*, false>(this,
-                                                                                                                                                                                ___internal_method);
+inline ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData*>* GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData::get_levelProductsData()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData*>::get(),
+                        "get_levelProductsData",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData*>*, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData* GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData::New_ctor(
-    ::StringW levelPackId, uint32_t bundleId, ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData*>* levelProducts) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData*>(levelPackId, bundleId, levelProducts));
+inline ::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData* GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData::New_ctor(::StringW  levelPackId, uint32_t  bundleId, ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData*>*  levelProducts)  {
+return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData*>(levelPackId, bundleId, levelProducts));
 }
-inline void GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData::_ctor(
-    ::StringW levelPackId, uint32_t bundleId, ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData*>* levelProducts) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 3>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData*>*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, levelPackId, bundleId, levelProducts);
+inline void GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData::_ctor(::StringW  levelPackId, uint32_t  bundleId, ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData*>*  levelProducts)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<uint32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData*>*>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, levelPackId, bundleId, levelProducts);
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData::__SteamLevelProductCollectionModel__LevelPackProductData() {}
+constexpr ::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData::__SteamLevelProductCollectionModel__LevelPackProductData()   {
+}
 //  Writing Method size for method: ::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData.get_targetLevelPackId
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData::*)()>(
-    &::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData::get_targetLevelPackId)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData::*)()>(&::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData::get_targetLevelPackId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x14ed350;
+  constexpr static std::size_t addrs = 0x269a6c0;
 
   inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData*>::get(),
-                                                 "get_targetLevelPackId", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData*>::get(),
+                        "get_targetLevelPackId",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData.get_shouldOwnLevelPackId
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData::*)()>(
-    &::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData::get_shouldOwnLevelPackId)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData::*)()>(&::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData::get_shouldOwnLevelPackId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x14ed358;
+  constexpr static std::size_t addrs = 0x269a6c8;
 
   inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData*>::get(),
-                                                 "get_shouldOwnLevelPackId", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData*>::get(),
+                        "get_shouldOwnLevelPackId",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData.get_redirectedBundleId
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData::*)()>(
-    &::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData::get_redirectedBundleId)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<uint32_t (::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData::*)()>(&::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData::get_redirectedBundleId)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x14ed360;
+  constexpr static std::size_t addrs = 0x269a6d0;
 
   inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData*>::get(),
-                                                 "get_redirectedBundleId", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData*>::get(),
+                        "get_redirectedBundleId",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData.get_validUntilDate
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData::*)()>(
-    &::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData::get_validUntilDate)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::StringW (::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData::*)()>(&::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData::get_validUntilDate)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x14ed368;
+  constexpr static std::size_t addrs = 0x269a6d8;
 
   inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData*>::get(),
-                                                 "get_validUntilDate", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData*>::get(),
+                        "get_validUntilDate",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData._ctor
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData::*)()>(
-    &::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData::*)()>(&::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x14ed370;
+  constexpr static std::size_t addrs = 0x269a6e0;
 
   inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData*>::get(),
-                                                 ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
-constexpr ::StringW& GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData::__cordl_internal_get__targetLevelPackId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____targetLevelPackId;
+constexpr ::StringW& GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData::__cordl_internal_get__targetLevelPackId()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____targetLevelPackId;
 }
 constexpr ::StringW const& GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData::__cordl_internal_get__targetLevelPackId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____targetLevelPackId;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____targetLevelPackId;
 }
-constexpr void GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData::__cordl_internal_set__targetLevelPackId(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____targetLevelPackId)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData::__cordl_internal_set__targetLevelPackId(::StringW  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____targetLevelPackId)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::StringW& GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData::__cordl_internal_get__shouldOwnLevelPackId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____shouldOwnLevelPackId;
+constexpr ::StringW& GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData::__cordl_internal_get__shouldOwnLevelPackId()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____shouldOwnLevelPackId;
 }
 constexpr ::StringW const& GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData::__cordl_internal_get__shouldOwnLevelPackId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____shouldOwnLevelPackId;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____shouldOwnLevelPackId;
 }
-constexpr void GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData::__cordl_internal_set__shouldOwnLevelPackId(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____shouldOwnLevelPackId)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData::__cordl_internal_set__shouldOwnLevelPackId(::StringW  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____shouldOwnLevelPackId)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr uint32_t& GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData::__cordl_internal_get__redirectedBundleId() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____redirectedBundleId;
+constexpr uint32_t& GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData::__cordl_internal_get__redirectedBundleId()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____redirectedBundleId;
 }
 constexpr uint32_t const& GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData::__cordl_internal_get__redirectedBundleId() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____redirectedBundleId;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____redirectedBundleId;
 }
-constexpr void GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData::__cordl_internal_set__redirectedBundleId(uint32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____redirectedBundleId = value;
+constexpr void GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData::__cordl_internal_set__redirectedBundleId(uint32_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____redirectedBundleId = value;
 }
-constexpr ::StringW& GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData::__cordl_internal_get__validUntilDate() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____validUntilDate;
+constexpr ::StringW& GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData::__cordl_internal_get__validUntilDate()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____validUntilDate;
 }
 constexpr ::StringW const& GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData::__cordl_internal_get__validUntilDate() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____validUntilDate;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____validUntilDate;
 }
-constexpr void GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData::__cordl_internal_set__validUntilDate(::StringW value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____validUntilDate)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData::__cordl_internal_set__validUntilDate(::StringW  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____validUntilDate)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::StringW GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData::get_targetLevelPackId() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData*>::get(),
-                                               "get_targetLevelPackId", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+inline ::StringW GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData::get_targetLevelPackId()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData*>::get(),
+                        "get_targetLevelPackId",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-inline ::StringW GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData::get_shouldOwnLevelPackId() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData*>::get(),
-                                               "get_shouldOwnLevelPackId", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+inline ::StringW GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData::get_shouldOwnLevelPackId()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData*>::get(),
+                        "get_shouldOwnLevelPackId",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-inline uint32_t GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData::get_redirectedBundleId() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData*>::get(),
-                                               "get_redirectedBundleId", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<uint32_t, false>(this, ___internal_method);
+inline uint32_t GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData::get_redirectedBundleId()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData*>::get(),
+                        "get_redirectedBundleId",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<uint32_t, false>(this, ___internal_method);
 }
-inline ::StringW GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData::get_validUntilDate() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData*>::get(),
-                                               "get_validUntilDate", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
+inline ::StringW GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData::get_validUntilDate()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData*>::get(),
+                        "get_validUntilDate",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<::StringW, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData* GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData*>());
+inline ::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData* GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData::New_ctor()  {
+return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData*>());
 }
-inline void GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData::_ctor() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData*>::get(), ".ctor",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData::__SteamLevelProductCollectionModel__LevelPackRedirectionData() {}
+constexpr ::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData::__SteamLevelProductCollectionModel__LevelPackRedirectionData()   {
+}
 //  Writing Method size for method: ::GlobalNamespace::SteamLevelProductCollectionModel.get_levelProductDataCount
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::SteamLevelProductCollectionModel::*)()>(
-    &::GlobalNamespace::SteamLevelProductCollectionModel::get_levelProductDataCount)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::SteamLevelProductCollectionModel::*)()>(&::GlobalNamespace::SteamLevelProductCollectionModel::get_levelProductDataCount)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x14ec80c;
+  constexpr static std::size_t addrs = 0x2699b94;
 
   inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SteamLevelProductCollectionModel*>::get(),
-                                                                               "get_levelProductDataCount", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SteamLevelProductCollectionModel*>::get(),
+                        "get_levelProductDataCount",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::SteamLevelProductCollectionModel._ctor
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SteamLevelProductCollectionModel::*)(
-    ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SteamLevelProductPacksSO>>*)>(&::GlobalNamespace::SteamLevelProductCollectionModel::_ctor)> {
-  constexpr static std::size_t size = 0x8fc;
-  constexpr static std::size_t addrs = 0x14ec814;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::SteamLevelProductCollectionModel::*)(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SteamLevelProductPacksSO>>*)>(&::GlobalNamespace::SteamLevelProductCollectionModel::_ctor)> {
+  constexpr static std::size_t size = 0x8e4;
+  constexpr static std::size_t addrs = 0x2699b9c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SteamLevelProductCollectionModel*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SteamLevelProductPacksSO>>*>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SteamLevelProductCollectionModel*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SteamLevelProductPacksSO>>*>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::SteamLevelProductCollectionModel.get_levelProductsData
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData*>* (::GlobalNamespace::SteamLevelProductCollectionModel::*)()>(
-        &::GlobalNamespace::SteamLevelProductCollectionModel::get_levelProductsData)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData*>* (::GlobalNamespace::SteamLevelProductCollectionModel::*)()>(&::GlobalNamespace::SteamLevelProductCollectionModel::get_levelProductsData)> {
   constexpr static std::size_t size = 0x50;
-  constexpr static std::size_t addrs = 0x14ed110;
+  constexpr static std::size_t addrs = 0x269a480;
 
   inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SteamLevelProductCollectionModel*>::get(),
-                                                                               "get_levelProductsData", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SteamLevelProductCollectionModel*>::get(),
+                        "get_levelProductsData",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::SteamLevelProductCollectionModel.GetLevelProductData
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData* (
-    ::GlobalNamespace::SteamLevelProductCollectionModel::*)(::StringW)>(&::GlobalNamespace::SteamLevelProductCollectionModel::GetLevelProductData)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData* (::GlobalNamespace::SteamLevelProductCollectionModel::*)(::StringW)>(&::GlobalNamespace::SteamLevelProductCollectionModel::GetLevelProductData)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x14ed160;
+  constexpr static std::size_t addrs = 0x269a4d0;
 
   inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SteamLevelProductCollectionModel*>::get(), "GetLevelProductData",
-                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SteamLevelProductCollectionModel*>::get(),
+                        "GetLevelProductData",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::SteamLevelProductCollectionModel.GetLevelPackProductData
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData* (
-    ::GlobalNamespace::SteamLevelProductCollectionModel::*)(::StringW)>(&::GlobalNamespace::SteamLevelProductCollectionModel::GetLevelPackProductData)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData* (::GlobalNamespace::SteamLevelProductCollectionModel::*)(::StringW)>(&::GlobalNamespace::SteamLevelProductCollectionModel::GetLevelPackProductData)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x14ed1b8;
+  constexpr static std::size_t addrs = 0x269a528;
 
   inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SteamLevelProductCollectionModel*>::get(), "GetLevelPackProductData",
-                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SteamLevelProductCollectionModel*>::get(),
+                        "GetLevelPackProductData",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::SteamLevelProductCollectionModel.GetLevelPackRedirectionData
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData* (
-    ::GlobalNamespace::SteamLevelProductCollectionModel::*)(::StringW)>(&::GlobalNamespace::SteamLevelProductCollectionModel::GetLevelPackRedirectionData)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData* (::GlobalNamespace::SteamLevelProductCollectionModel::*)(::StringW)>(&::GlobalNamespace::SteamLevelProductCollectionModel::GetLevelPackRedirectionData)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x14ed210;
+  constexpr static std::size_t addrs = 0x269a580;
 
   inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SteamLevelProductCollectionModel*>::get(), "GetLevelPackRedirectionData",
-                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SteamLevelProductCollectionModel*>::get(),
+                        "GetLevelPackRedirectionData",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
+                    )));
     return ___internal_method;
   }
 };
-constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData*>*&
-GlobalNamespace::SteamLevelProductCollectionModel::__cordl_internal_get__levelIdToProductData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____levelIdToProductData;
+constexpr ::System::Collections::Generic::Dictionary_2<::StringW,::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData*>*& GlobalNamespace::SteamLevelProductCollectionModel::__cordl_internal_get__levelIdToProductData()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____levelIdToProductData;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData*>*> const&
-GlobalNamespace::SteamLevelProductCollectionModel::__cordl_internal_get__levelIdToProductData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____levelIdToProductData;
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW,::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData*>*> const& GlobalNamespace::SteamLevelProductCollectionModel::__cordl_internal_get__levelIdToProductData() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____levelIdToProductData;
 }
-constexpr void GlobalNamespace::SteamLevelProductCollectionModel::__cordl_internal_set__levelIdToProductData(
-    ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____levelIdToProductData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::SteamLevelProductCollectionModel::__cordl_internal_set__levelIdToProductData(::System::Collections::Generic::Dictionary_2<::StringW,::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData*>*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____levelIdToProductData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData*>*&
-GlobalNamespace::SteamLevelProductCollectionModel::__cordl_internal_get__levelPackIdToProductData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____levelPackIdToProductData;
+constexpr ::System::Collections::Generic::Dictionary_2<::StringW,::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData*>*& GlobalNamespace::SteamLevelProductCollectionModel::__cordl_internal_get__levelPackIdToProductData()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____levelPackIdToProductData;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData*>*> const&
-GlobalNamespace::SteamLevelProductCollectionModel::__cordl_internal_get__levelPackIdToProductData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____levelPackIdToProductData;
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW,::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData*>*> const& GlobalNamespace::SteamLevelProductCollectionModel::__cordl_internal_get__levelPackIdToProductData() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____levelPackIdToProductData;
 }
-constexpr void GlobalNamespace::SteamLevelProductCollectionModel::__cordl_internal_set__levelPackIdToProductData(
-    ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____levelPackIdToProductData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::SteamLevelProductCollectionModel::__cordl_internal_set__levelPackIdToProductData(::System::Collections::Generic::Dictionary_2<::StringW,::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData*>*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____levelPackIdToProductData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData*>*&
-GlobalNamespace::SteamLevelProductCollectionModel::__cordl_internal_get__levelPackRedirectionData() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____levelPackRedirectionData;
+constexpr ::System::Collections::Generic::Dictionary_2<::StringW,::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData*>*& GlobalNamespace::SteamLevelProductCollectionModel::__cordl_internal_get__levelPackRedirectionData()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____levelPackRedirectionData;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData*>*> const&
-GlobalNamespace::SteamLevelProductCollectionModel::__cordl_internal_get__levelPackRedirectionData() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____levelPackRedirectionData;
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::StringW,::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData*>*> const& GlobalNamespace::SteamLevelProductCollectionModel::__cordl_internal_get__levelPackRedirectionData() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____levelPackRedirectionData;
 }
-constexpr void GlobalNamespace::SteamLevelProductCollectionModel::__cordl_internal_set__levelPackRedirectionData(
-    ::System::Collections::Generic::Dictionary_2<::StringW, ::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData*>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____levelPackRedirectionData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::SteamLevelProductCollectionModel::__cordl_internal_set__levelPackRedirectionData(::System::Collections::Generic::Dictionary_2<::StringW,::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData*>*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____levelPackRedirectionData)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr int32_t& GlobalNamespace::SteamLevelProductCollectionModel::__cordl_internal_get__maxPossibleInstalledDepots() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____maxPossibleInstalledDepots;
+constexpr int32_t& GlobalNamespace::SteamLevelProductCollectionModel::__cordl_internal_get__maxPossibleInstalledDepots()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____maxPossibleInstalledDepots;
 }
 constexpr int32_t const& GlobalNamespace::SteamLevelProductCollectionModel::__cordl_internal_get__maxPossibleInstalledDepots() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____maxPossibleInstalledDepots;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____maxPossibleInstalledDepots;
 }
-constexpr void GlobalNamespace::SteamLevelProductCollectionModel::__cordl_internal_set__maxPossibleInstalledDepots(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____maxPossibleInstalledDepots = value;
+constexpr void GlobalNamespace::SteamLevelProductCollectionModel::__cordl_internal_set__maxPossibleInstalledDepots(int32_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____maxPossibleInstalledDepots = value;
 }
-inline int32_t GlobalNamespace::SteamLevelProductCollectionModel::get_levelProductDataCount() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SteamLevelProductCollectionModel*>::get(),
-                                                                             "get_levelProductDataCount", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+inline int32_t GlobalNamespace::SteamLevelProductCollectionModel::get_levelProductDataCount()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SteamLevelProductCollectionModel*>::get(),
+                        "get_levelProductDataCount",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::SteamLevelProductCollectionModel*
-GlobalNamespace::SteamLevelProductCollectionModel::New_ctor(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SteamLevelProductPacksSO>>* levelProductsSOs) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::SteamLevelProductCollectionModel*>(levelProductsSOs));
+inline ::GlobalNamespace::SteamLevelProductCollectionModel* GlobalNamespace::SteamLevelProductCollectionModel::New_ctor(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SteamLevelProductPacksSO>>*  levelProductsSOs)  {
+return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::SteamLevelProductCollectionModel*>(levelProductsSOs));
 }
-inline void GlobalNamespace::SteamLevelProductCollectionModel::_ctor(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SteamLevelProductPacksSO>>* levelProductsSOs) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SteamLevelProductCollectionModel*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SteamLevelProductPacksSO>>*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, levelProductsSOs);
+inline void GlobalNamespace::SteamLevelProductCollectionModel::_ctor(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SteamLevelProductPacksSO>>*  levelProductsSOs)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SteamLevelProductCollectionModel*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SteamLevelProductPacksSO>>*>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, levelProductsSOs);
 }
-inline ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData*>*
-GlobalNamespace::SteamLevelProductCollectionModel::get_levelProductsData() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SteamLevelProductCollectionModel*>::get(),
-                                                                             "get_levelProductsData", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData*>*, false>(this, ___internal_method);
+inline ::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData*>* GlobalNamespace::SteamLevelProductCollectionModel::get_levelProductsData()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SteamLevelProductCollectionModel*>::get(),
+                        "get_levelProductsData",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData*>*, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData* GlobalNamespace::SteamLevelProductCollectionModel::GetLevelProductData(::StringW levelId) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SteamLevelProductCollectionModel*>::get(), "GetLevelProductData",
-                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData*, false>(this, ___internal_method, levelId);
+inline ::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData* GlobalNamespace::SteamLevelProductCollectionModel::GetLevelProductData(::StringW  levelId)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SteamLevelProductCollectionModel*>::get(),
+                        "GetLevelProductData",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelProductData*, false>(this, ___internal_method, levelId);
 }
-inline ::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData* GlobalNamespace::SteamLevelProductCollectionModel::GetLevelPackProductData(::StringW levelPackId) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SteamLevelProductCollectionModel*>::get(), "GetLevelPackProductData",
-                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData*, false>(this, ___internal_method, levelPackId);
+inline ::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData* GlobalNamespace::SteamLevelProductCollectionModel::GetLevelPackProductData(::StringW  levelPackId)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SteamLevelProductCollectionModel*>::get(),
+                        "GetLevelPackProductData",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackProductData*, false>(this, ___internal_method, levelPackId);
 }
-inline ::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData* GlobalNamespace::SteamLevelProductCollectionModel::GetLevelPackRedirectionData(::StringW levelPackId) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SteamLevelProductCollectionModel*>::get(), "GetLevelPackRedirectionData",
-                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData*, false>(this, ___internal_method, levelPackId);
+inline ::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData* GlobalNamespace::SteamLevelProductCollectionModel::GetLevelPackRedirectionData(::StringW  levelPackId)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::SteamLevelProductCollectionModel*>::get(),
+                        "GetLevelPackRedirectionData",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::StringW>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::__SteamLevelProductCollectionModel__LevelPackRedirectionData*, false>(this, ___internal_method, levelPackId);
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::SteamLevelProductCollectionModel::SteamLevelProductCollectionModel() {}
+constexpr ::GlobalNamespace::SteamLevelProductCollectionModel::SteamLevelProductCollectionModel()   {
+}

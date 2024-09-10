@@ -30,75 +30,74 @@ class ConstructorInfo;
 // Write type traits
 MARK_REF_PTR_T(::System::Reflection::ConstructorInfo);
 // Type: System.Reflection::ConstructorInfo
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Reflection {
 // Is value type: false
 // CS Name: ::System.Reflection::ConstructorInfo*
 class CORDL_TYPE ConstructorInfo : public ::System::Reflection::MethodBase {
 public:
-  // Declarations
-  /// @brief Field ConstructorName, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_ConstructorName, put = setStaticF_ConstructorName))::StringW ConstructorName;
+// Declarations
+/// @brief Field ConstructorName, offset 0xffffffff, size 0x8 
+static __declspec(property(get=getStaticF_ConstructorName, put=setStaticF_ConstructorName)) ::StringW  ConstructorName;
 
-  __declspec(property(get = get_MemberType))::System::Reflection::MemberTypes MemberType;
+ __declspec(property(get=get_MemberType)) ::System::Reflection::MemberTypes  MemberType;
 
-  /// @brief Field TypeConstructorName, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_TypeConstructorName, put = setStaticF_TypeConstructorName))::StringW TypeConstructorName;
+/// @brief Field TypeConstructorName, offset 0xffffffff, size 0x8 
+static __declspec(property(get=getStaticF_TypeConstructorName, put=setStaticF_TypeConstructorName)) ::StringW  TypeConstructorName;
 
-  /// @brief Method Equals, addr 0x2893b68, size 0x8, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* obj);
+/// @brief Method Equals, addr 0x3c91544, size 0x8, virtual true, abstract: false, final false
+inline bool Equals(::System::Object*  obj) ;
 
-  /// @brief Method GetHashCode, addr 0x2893b78, size 0x8, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
+/// @brief Method GetHashCode, addr 0x3c91554, size 0x8, virtual true, abstract: false, final false
+inline int32_t GetHashCode() ;
 
-  /// @brief Method Invoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::System::Object* Invoke(::System::Reflection::BindingFlags invokeAttr, ::System::Reflection::Binder* binder, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> parameters,
-                                  ::System::Globalization::CultureInfo* culture);
+/// @brief Method Invoke, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+inline ::System::Object* Invoke(::System::Reflection::BindingFlags  invokeAttr, ::System::Reflection::Binder*  binder, ::ArrayW<::System::Object*,::Array<::System::Object*>*>  parameters, ::System::Globalization::CultureInfo*  culture) ;
 
-  /// @brief Method Invoke, addr 0x2893b48, size 0x20, virtual false, abstract: false, final false
-  inline ::System::Object* Invoke(::ArrayW<::System::Object*, ::Array<::System::Object*>*> parameters);
+/// @brief Method Invoke, addr 0x3c91524, size 0x20, virtual false, abstract: false, final false
+inline ::System::Object* Invoke(::ArrayW<::System::Object*,::Array<::System::Object*>*>  parameters) ;
 
-  static inline ::System::Reflection::ConstructorInfo* New_ctor();
+static inline ::System::Reflection::ConstructorInfo* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x2893b30, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x3c9150c, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  static inline ::StringW getStaticF_ConstructorName();
+static inline ::StringW getStaticF_ConstructorName() ;
 
-  static inline ::StringW getStaticF_TypeConstructorName();
+static inline ::StringW getStaticF_TypeConstructorName() ;
 
-  /// @brief Method get_MemberType, addr 0x2893b40, size 0x8, virtual true, abstract: false, final false
-  inline ::System::Reflection::MemberTypes get_MemberType();
+/// @brief Method get_MemberType, addr 0x3c9151c, size 0x8, virtual true, abstract: false, final false
+inline ::System::Reflection::MemberTypes get_MemberType() ;
 
-  /// @brief Method op_Equality, addr 0x2893b88, size 0x2c, virtual false, abstract: false, final false
-  static inline bool op_Equality(::System::Reflection::ConstructorInfo* left, ::System::Reflection::ConstructorInfo* right);
+/// @brief Method op_Equality, addr 0x3c91564, size 0x2c, virtual false, abstract: false, final false
+static inline bool op_Equality(::System::Reflection::ConstructorInfo*  left, ::System::Reflection::ConstructorInfo*  right) ;
 
-  /// @brief Method op_Inequality, addr 0x2893bb4, size 0x94, virtual false, abstract: false, final false
-  static inline bool op_Inequality(::System::Reflection::ConstructorInfo* left, ::System::Reflection::ConstructorInfo* right);
+/// @brief Method op_Inequality, addr 0x3c91590, size 0x94, virtual false, abstract: false, final false
+static inline bool op_Inequality(::System::Reflection::ConstructorInfo*  left, ::System::Reflection::ConstructorInfo*  right) ;
 
-  static inline void setStaticF_ConstructorName(::StringW value);
+static inline void setStaticF_ConstructorName(::StringW  value) ;
 
-  static inline void setStaticF_TypeConstructorName(::StringW value);
+static inline void setStaticF_TypeConstructorName(::StringW  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ConstructorInfo();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ConstructorInfo() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ConstructorInfo", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ConstructorInfo(ConstructorInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ConstructorInfo", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ConstructorInfo(ConstructorInfo const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ConstructorInfo", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ConstructorInfo(ConstructorInfo && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "ConstructorInfo", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ConstructorInfo(ConstructorInfo const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Reflection::ConstructorInfo, 0x10>, "Size mismatch!");
 
-} // namespace System::Reflection
+} // namespace end def System::Reflection
 NEED_NO_BOX(::System::Reflection::ConstructorInfo);
 DEFINE_IL2CPP_ARG_TYPE(::System::Reflection::ConstructorInfo*, "System.Reflection", "ConstructorInfo");

@@ -7,7 +7,8 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(GenericIdentity)
 namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+template<typename T>
+class IEnumerable_1;
 }
 namespace System::Security::Claims {
 class Claim;
@@ -22,88 +23,88 @@ class GenericIdentity;
 // Write type traits
 MARK_REF_PTR_T(::System::Security::Principal::GenericIdentity);
 // Type: System.Security.Principal::GenericIdentity
-// SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Principal {
 // Is value type: false
 // CS Name: ::System.Security.Principal::GenericIdentity*
 class CORDL_TYPE GenericIdentity : public ::System::Security::Claims::ClaimsIdentity {
 public:
-  // Declarations
-  __declspec(property(get = get_AuthenticationType))::StringW AuthenticationType;
+// Declarations
+ __declspec(property(get=get_AuthenticationType)) ::StringW  AuthenticationType;
 
-  __declspec(property(get = get_Claims))::System::Collections::Generic::IEnumerable_1<::System::Security::Claims::Claim*>* Claims;
+ __declspec(property(get=get_Claims)) ::System::Collections::Generic::IEnumerable_1<::System::Security::Claims::Claim*>*  Claims;
 
-  __declspec(property(get = get_Name))::StringW Name;
+ __declspec(property(get=get_Name)) ::StringW  Name;
 
-  /// @brief Field m_name, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_name, put = __cordl_internal_set_m_name))::StringW m_name;
+/// @brief Field m_name, offset 0x78, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_name, put=__cordl_internal_set_m_name)) ::StringW  m_name;
 
-  /// @brief Field m_type, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_type, put = __cordl_internal_set_m_type))::StringW m_type;
+/// @brief Field m_type, offset 0x80, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_type, put=__cordl_internal_set_m_type)) ::StringW  m_type;
 
-  /// @brief Method AddNameClaim, addr 0x28243c4, size 0xd8, virtual false, abstract: false, final false
-  inline void AddNameClaim();
+/// @brief Method AddNameClaim, addr 0x3c28088, size 0xd0, virtual false, abstract: false, final false
+inline void AddNameClaim() ;
 
-  /// @brief Method Clone, addr 0x28246d8, size 0x60, virtual true, abstract: false, final false
-  inline ::System::Security::Claims::ClaimsIdentity* Clone();
+/// @brief Method Clone, addr 0x3c28398, size 0x58, virtual true, abstract: false, final false
+inline ::System::Security::Claims::ClaimsIdentity* Clone() ;
 
-  static inline ::System::Security::Principal::GenericIdentity* New_ctor();
+static inline ::System::Security::Principal::GenericIdentity* New_ctor() ;
 
-  static inline ::System::Security::Principal::GenericIdentity* New_ctor(::System::Security::Principal::GenericIdentity* identity);
+static inline ::System::Security::Principal::GenericIdentity* New_ctor(::System::Security::Principal::GenericIdentity*  identity) ;
 
-  static inline ::System::Security::Principal::GenericIdentity* New_ctor(::StringW name, ::StringW type);
+static inline ::System::Security::Principal::GenericIdentity* New_ctor(::StringW  name, ::StringW  type) ;
 
-  constexpr ::StringW const& __cordl_internal_get_m_name() const;
+constexpr ::StringW const& __cordl_internal_get_m_name() const;
 
-  constexpr ::StringW& __cordl_internal_get_m_name();
+constexpr ::StringW& __cordl_internal_get_m_name() ;
 
-  constexpr ::StringW const& __cordl_internal_get_m_type() const;
+constexpr ::StringW const& __cordl_internal_get_m_type() const;
 
-  constexpr ::StringW& __cordl_internal_get_m_type();
+constexpr ::StringW& __cordl_internal_get_m_type() ;
 
-  constexpr void __cordl_internal_set_m_name(::StringW value);
+constexpr void __cordl_internal_set_m_name(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_m_type(::StringW value);
+constexpr void __cordl_internal_set_m_type(::StringW  value) ;
 
-  /// @brief Method .ctor, addr 0x282449c, size 0x1c, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x3c28158, size 0x1c, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method .ctor, addr 0x28244b8, size 0x30, virtual false, abstract: false, final false
-  inline void _ctor(::System::Security::Principal::GenericIdentity* identity);
+/// @brief Method .ctor, addr 0x3c28174, size 0x30, virtual false, abstract: false, final false
+inline void _ctor(::System::Security::Principal::GenericIdentity*  identity) ;
 
-  /// @brief Method .ctor, addr 0x28242ec, size 0xbc, virtual false, abstract: false, final false
-  inline void _ctor(::StringW name, ::StringW type);
+/// @brief Method .ctor, addr 0x3c27fb8, size 0xb4, virtual false, abstract: false, final false
+inline void _ctor(::StringW  name, ::StringW  type) ;
 
-  /// @brief Method get_AuthenticationType, addr 0x28247bc, size 0x8, virtual true, abstract: false, final false
-  inline ::StringW get_AuthenticationType();
+/// @brief Method get_AuthenticationType, addr 0x3c2846c, size 0x8, virtual true, abstract: false, final false
+inline ::StringW get_AuthenticationType() ;
 
-  /// @brief Method get_Claims, addr 0x2824738, size 0x4, virtual true, abstract: false, final false
-  inline ::System::Collections::Generic::IEnumerable_1<::System::Security::Claims::Claim*>* get_Claims();
+/// @brief Method get_Claims, addr 0x3c283f0, size 0x4, virtual true, abstract: false, final false
+inline ::System::Collections::Generic::IEnumerable_1<::System::Security::Claims::Claim*>* get_Claims() ;
 
-  /// @brief Method get_Name, addr 0x28247b4, size 0x8, virtual true, abstract: false, final false
-  inline ::StringW get_Name();
+/// @brief Method get_Name, addr 0x3c28464, size 0x8, virtual true, abstract: false, final false
+inline ::StringW get_Name() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr GenericIdentity();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr GenericIdentity() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GenericIdentity", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  GenericIdentity(GenericIdentity&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GenericIdentity", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  GenericIdentity(GenericIdentity const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "GenericIdentity", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+GenericIdentity(GenericIdentity && ) = delete;
 
-  /// @brief Field m_name, offset: 0x78, size: 0x8, def value: None
-  ::StringW ___m_name;
+// Ctor Parameters [CppParam { name: "", ty: "GenericIdentity", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+GenericIdentity(GenericIdentity const& ) = delete;
 
-  /// @brief Field m_type, offset: 0x80, size: 0x8, def value: None
-  ::StringW ___m_type;
+/// @brief Field m_name, offset: 0x78, size: 0x8, def value: None
+ ::StringW  ___m_name;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field m_type, offset: 0x80, size: 0x8, def value: None
+ ::StringW  ___m_type;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Security::Principal::GenericIdentity, 0x88>, "Size mismatch!");
@@ -112,6 +113,6 @@ static_assert(offsetof(::System::Security::Principal::GenericIdentity, ___m_name
 
 static_assert(offsetof(::System::Security::Principal::GenericIdentity, ___m_type) == 0x80, "Offset mismatch!");
 
-} // namespace System::Security::Principal
+} // namespace end def System::Security::Principal
 NEED_NO_BOX(::System::Security::Principal::GenericIdentity);
 DEFINE_IL2CPP_ARG_TYPE(::System::Security::Principal::GenericIdentity*, "System.Security.Principal", "GenericIdentity");

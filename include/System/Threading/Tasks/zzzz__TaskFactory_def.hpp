@@ -10,7 +10,8 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(TaskFactory)
 namespace System::Collections::Generic {
-template <typename T> class IList_1;
+template<typename T>
+class IList_1;
 }
 namespace System::Threading::Tasks {
 class ITaskCompletionAction;
@@ -25,7 +26,8 @@ namespace System::Threading::Tasks {
 class TaskScheduler;
 }
 namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
+template<typename TResult>
+class Task_1;
 }
 namespace System::Threading::Tasks {
 class Task;
@@ -37,22 +39,27 @@ namespace System::Threading {
 struct CancellationToken;
 }
 namespace System {
-template <typename T> class Action_1;
+template<typename T>
+class Action_1;
 }
 namespace System {
 class AsyncCallback;
 }
 namespace System {
-template <typename TResult> class Func_1;
+template<typename TResult>
+class Func_1;
 }
 namespace System {
-template <typename T, typename TResult> class Func_2;
+template<typename T,typename TResult>
+class Func_2;
 }
 namespace System {
-template <typename T1, typename T2, typename T3, typename TResult> class Func_4;
+template<typename T1,typename T2,typename T3,typename TResult>
+class Func_4;
 }
 namespace System {
-template <typename T1, typename T2, typename T3, typename T4, typename TResult> class Func_5;
+template<typename T1,typename T2,typename T3,typename T4,typename TResult>
+class Func_5;
 }
 namespace System {
 class IAsyncResult;
@@ -71,202 +78,188 @@ class __TaskFactory__CompleteOnInvokePromise;
 MARK_REF_PTR_T(::System::Threading::Tasks::TaskFactory);
 MARK_REF_PTR_T(::System::Threading::Tasks::__TaskFactory__CompleteOnInvokePromise);
 // Type: ::CompleteOnInvokePromise
-// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading::Tasks {
 // Is value type: false
 // CS Name: ::TaskFactory::CompleteOnInvokePromise*
 class CORDL_TYPE __TaskFactory__CompleteOnInvokePromise : public ::System::Threading::Tasks::Task_1<::System::Threading::Tasks::Task*> {
 public:
-  // Declarations
-  __declspec(property(get = get_InvokeMayRunArbitraryCode)) bool InvokeMayRunArbitraryCode;
+// Declarations
+ __declspec(property(get=get_InvokeMayRunArbitraryCode)) bool  InvokeMayRunArbitraryCode;
 
-  /// @brief Field _tasks, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get__tasks, put = __cordl_internal_set__tasks))::System::Collections::Generic::IList_1<::System::Threading::Tasks::Task*>* _tasks;
+/// @brief Field _tasks, offset 0x58, size 0x8 
+ __declspec(property(get=__cordl_internal_get__tasks, put=__cordl_internal_set__tasks)) ::System::Collections::Generic::IList_1<::System::Threading::Tasks::Task*>*  _tasks;
 
-  /// @brief Convert operator to "::System::Threading::Tasks::ITaskCompletionAction"
-  constexpr operator ::System::Threading::Tasks::ITaskCompletionAction*() noexcept;
+/// @brief Convert operator to "::System::Threading::Tasks::ITaskCompletionAction"
+constexpr operator  ::System::Threading::Tasks::ITaskCompletionAction*() noexcept;
 
-  /// @brief Method Invoke, addr 0x29e7140, size 0x22c, virtual true, abstract: false, final true
-  inline void Invoke(::System::Threading::Tasks::Task* completingTask);
+/// @brief Method Invoke, addr 0x3ddac5c, size 0x22c, virtual true, abstract: false, final true
+inline void Invoke(::System::Threading::Tasks::Task*  completingTask) ;
 
-  static inline ::System::Threading::Tasks::__TaskFactory__CompleteOnInvokePromise* New_ctor(::System::Collections::Generic::IList_1<::System::Threading::Tasks::Task*>* tasks);
+static inline ::System::Threading::Tasks::__TaskFactory__CompleteOnInvokePromise* New_ctor(::System::Collections::Generic::IList_1<::System::Threading::Tasks::Task*>*  tasks) ;
 
-  constexpr ::System::Collections::Generic::IList_1<::System::Threading::Tasks::Task*>*& __cordl_internal_get__tasks();
+constexpr ::System::Collections::Generic::IList_1<::System::Threading::Tasks::Task*>*& __cordl_internal_get__tasks() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IList_1<::System::Threading::Tasks::Task*>*> const& __cordl_internal_get__tasks() const;
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IList_1<::System::Threading::Tasks::Task*>*> const& __cordl_internal_get__tasks() const;
 
-  constexpr void __cordl_internal_set__tasks(::System::Collections::Generic::IList_1<::System::Threading::Tasks::Task*>* value);
+constexpr void __cordl_internal_set__tasks(::System::Collections::Generic::IList_1<::System::Threading::Tasks::Task*>*  value) ;
 
-  /// @brief Method .ctor, addr 0x29e702c, size 0x114, virtual false, abstract: false, final false
-  inline void _ctor(::System::Collections::Generic::IList_1<::System::Threading::Tasks::Task*>* tasks);
+/// @brief Method .ctor, addr 0x3ddab48, size 0x114, virtual false, abstract: false, final false
+inline void _ctor(::System::Collections::Generic::IList_1<::System::Threading::Tasks::Task*>*  tasks) ;
 
-  /// @brief Method get_InvokeMayRunArbitraryCode, addr 0x29e736c, size 0x8, virtual true, abstract: false, final true
-  inline bool get_InvokeMayRunArbitraryCode();
+/// @brief Method get_InvokeMayRunArbitraryCode, addr 0x3ddae88, size 0x8, virtual true, abstract: false, final true
+inline bool get_InvokeMayRunArbitraryCode() ;
 
-  /// @brief Convert to "::System::Threading::Tasks::ITaskCompletionAction"
-  constexpr ::System::Threading::Tasks::ITaskCompletionAction* i___System__Threading__Tasks__ITaskCompletionAction() noexcept;
+/// @brief Convert to "::System::Threading::Tasks::ITaskCompletionAction"
+constexpr ::System::Threading::Tasks::ITaskCompletionAction* i___System__Threading__Tasks__ITaskCompletionAction() noexcept;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __TaskFactory__CompleteOnInvokePromise();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __TaskFactory__CompleteOnInvokePromise() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__TaskFactory__CompleteOnInvokePromise", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __TaskFactory__CompleteOnInvokePromise(__TaskFactory__CompleteOnInvokePromise&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__TaskFactory__CompleteOnInvokePromise", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __TaskFactory__CompleteOnInvokePromise(__TaskFactory__CompleteOnInvokePromise const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__TaskFactory__CompleteOnInvokePromise", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__TaskFactory__CompleteOnInvokePromise(__TaskFactory__CompleteOnInvokePromise && ) = delete;
 
-  /// @brief Field _tasks, offset: 0x58, size: 0x8, def value: None
-  ::System::Collections::Generic::IList_1<::System::Threading::Tasks::Task*>* ____tasks;
+// Ctor Parameters [CppParam { name: "", ty: "__TaskFactory__CompleteOnInvokePromise", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__TaskFactory__CompleteOnInvokePromise(__TaskFactory__CompleteOnInvokePromise const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _tasks, offset: 0x58, size: 0x8, def value: None
+ ::System::Collections::Generic::IList_1<::System::Threading::Tasks::Task*>*  ____tasks;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Threading::Tasks::__TaskFactory__CompleteOnInvokePromise, 0x60>, "Size mismatch!");
 
 static_assert(offsetof(::System::Threading::Tasks::__TaskFactory__CompleteOnInvokePromise, ____tasks) == 0x58, "Offset mismatch!");
 
-} // namespace System::Threading::Tasks
+} // namespace end def System::Threading::Tasks
 // Type: System.Threading.Tasks::TaskFactory
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Threading::Tasks {
 // Is value type: false
 // CS Name: ::System.Threading.Tasks::TaskFactory*
 class CORDL_TYPE TaskFactory : public ::System::Object {
 public:
-  // Declarations
-  using CompleteOnInvokePromise = ::System::Threading::Tasks::__TaskFactory__CompleteOnInvokePromise;
+// Declarations
+using CompleteOnInvokePromise = ::System::Threading::Tasks::__TaskFactory__CompleteOnInvokePromise;
 
-  /// @brief Field m_defaultCancellationToken, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_defaultCancellationToken, put = __cordl_internal_set_m_defaultCancellationToken))::System::Threading::CancellationToken m_defaultCancellationToken;
+/// @brief Field m_defaultCancellationToken, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_defaultCancellationToken, put=__cordl_internal_set_m_defaultCancellationToken)) ::System::Threading::CancellationToken  m_defaultCancellationToken;
 
-  /// @brief Field m_defaultContinuationOptions, offset 0x24, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_defaultContinuationOptions,
-                      put = __cordl_internal_set_m_defaultContinuationOptions))::System::Threading::Tasks::TaskContinuationOptions m_defaultContinuationOptions;
+/// @brief Field m_defaultContinuationOptions, offset 0x24, size 0x4 
+ __declspec(property(get=__cordl_internal_get_m_defaultContinuationOptions, put=__cordl_internal_set_m_defaultContinuationOptions)) ::System::Threading::Tasks::TaskContinuationOptions  m_defaultContinuationOptions;
 
-  /// @brief Field m_defaultCreationOptions, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_defaultCreationOptions,
-                      put = __cordl_internal_set_m_defaultCreationOptions))::System::Threading::Tasks::TaskCreationOptions m_defaultCreationOptions;
+/// @brief Field m_defaultCreationOptions, offset 0x20, size 0x4 
+ __declspec(property(get=__cordl_internal_get_m_defaultCreationOptions, put=__cordl_internal_set_m_defaultCreationOptions)) ::System::Threading::Tasks::TaskCreationOptions  m_defaultCreationOptions;
 
-  /// @brief Field m_defaultScheduler, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_defaultScheduler, put = __cordl_internal_set_m_defaultScheduler))::System::Threading::Tasks::TaskScheduler* m_defaultScheduler;
+/// @brief Field m_defaultScheduler, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_defaultScheduler, put=__cordl_internal_set_m_defaultScheduler)) ::System::Threading::Tasks::TaskScheduler*  m_defaultScheduler;
 
-  /// @brief Method CheckCreationOptions, addr 0x29e6e48, size 0x60, virtual false, abstract: false, final false
-  static inline void CheckCreationOptions(::System::Threading::Tasks::TaskCreationOptions creationOptions);
+/// @brief Method CheckCreationOptions, addr 0x3dda974, size 0x5c, virtual false, abstract: false, final false
+static inline void CheckCreationOptions(::System::Threading::Tasks::TaskCreationOptions  creationOptions) ;
 
-  /// @brief Method CheckFromAsyncOptions, addr 0x29e6f38, size 0xf4, virtual false, abstract: false, final false
-  static inline void CheckFromAsyncOptions(::System::Threading::Tasks::TaskCreationOptions creationOptions, bool hasBeginMethod);
+/// @brief Method CheckFromAsyncOptions, addr 0x3ddaa60, size 0xe8, virtual false, abstract: false, final false
+static inline void CheckFromAsyncOptions(::System::Threading::Tasks::TaskCreationOptions  creationOptions, bool  hasBeginMethod) ;
 
-  /// @brief Method CheckMultiTaskContinuationOptions, addr 0x29e6d40, size 0x108, virtual false, abstract: false, final false
-  static inline void CheckMultiTaskContinuationOptions(::System::Threading::Tasks::TaskContinuationOptions continuationOptions);
+/// @brief Method CheckMultiTaskContinuationOptions, addr 0x3dda878, size 0xfc, virtual false, abstract: false, final false
+static inline void CheckMultiTaskContinuationOptions(::System::Threading::Tasks::TaskContinuationOptions  continuationOptions) ;
 
-  /// @brief Method CommonCWAnyLogic, addr 0x29e3b40, size 0x23c, virtual false, abstract: false, final false
-  static inline ::System::Threading::Tasks::Task_1<::System::Threading::Tasks::Task*>* CommonCWAnyLogic(::System::Collections::Generic::IList_1<::System::Threading::Tasks::Task*>* tasks);
+/// @brief Method CommonCWAnyLogic, addr 0x3dd7758, size 0x238, virtual false, abstract: false, final false
+static inline ::System::Threading::Tasks::Task_1<::System::Threading::Tasks::Task*>* CommonCWAnyLogic(::System::Collections::Generic::IList_1<::System::Threading::Tasks::Task*>*  tasks) ;
 
-  /// @brief Method FromAsync, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TArg1>
-  inline ::System::Threading::Tasks::Task* FromAsync(::System::Func_4<TArg1, ::System::AsyncCallback*, ::System::Object*, ::System::IAsyncResult*>* beginMethod,
-                                                     ::System::Action_1<::System::IAsyncResult*>* endMethod, TArg1 arg1, ::System::Object* state);
+/// @brief Method FromAsync, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+template<typename TArg1>
+inline ::System::Threading::Tasks::Task* FromAsync(::System::Func_4<TArg1,::System::AsyncCallback*,::System::Object*,::System::IAsyncResult*>*  beginMethod, ::System::Action_1<::System::IAsyncResult*>*  endMethod, TArg1  arg1, ::System::Object*  state) ;
 
-  /// @brief Method FromAsync, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TArg1>
-  inline ::System::Threading::Tasks::Task* FromAsync(::System::Func_4<TArg1, ::System::AsyncCallback*, ::System::Object*, ::System::IAsyncResult*>* beginMethod,
-                                                     ::System::Action_1<::System::IAsyncResult*>* endMethod, TArg1 arg1, ::System::Object* state,
-                                                     ::System::Threading::Tasks::TaskCreationOptions creationOptions);
+/// @brief Method FromAsync, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+template<typename TArg1>
+inline ::System::Threading::Tasks::Task* FromAsync(::System::Func_4<TArg1,::System::AsyncCallback*,::System::Object*,::System::IAsyncResult*>*  beginMethod, ::System::Action_1<::System::IAsyncResult*>*  endMethod, TArg1  arg1, ::System::Object*  state, ::System::Threading::Tasks::TaskCreationOptions  creationOptions) ;
 
-  /// @brief Method FromAsync, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TArg1, typename TArg2>
-  inline ::System::Threading::Tasks::Task* FromAsync(::System::Func_5<TArg1, TArg2, ::System::AsyncCallback*, ::System::Object*, ::System::IAsyncResult*>* beginMethod,
-                                                     ::System::Action_1<::System::IAsyncResult*>* endMethod, TArg1 arg1, TArg2 arg2, ::System::Object* state);
+/// @brief Method FromAsync, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+template<typename TArg1,typename TArg2>
+inline ::System::Threading::Tasks::Task* FromAsync(::System::Func_5<TArg1,TArg2,::System::AsyncCallback*,::System::Object*,::System::IAsyncResult*>*  beginMethod, ::System::Action_1<::System::IAsyncResult*>*  endMethod, TArg1  arg1, TArg2  arg2, ::System::Object*  state) ;
 
-  /// @brief Method FromAsync, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TArg1, typename TArg2>
-  inline ::System::Threading::Tasks::Task* FromAsync(::System::Func_5<TArg1, TArg2, ::System::AsyncCallback*, ::System::Object*, ::System::IAsyncResult*>* beginMethod,
-                                                     ::System::Action_1<::System::IAsyncResult*>* endMethod, TArg1 arg1, TArg2 arg2, ::System::Object* state,
-                                                     ::System::Threading::Tasks::TaskCreationOptions creationOptions);
+/// @brief Method FromAsync, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+template<typename TArg1,typename TArg2>
+inline ::System::Threading::Tasks::Task* FromAsync(::System::Func_5<TArg1,TArg2,::System::AsyncCallback*,::System::Object*,::System::IAsyncResult*>*  beginMethod, ::System::Action_1<::System::IAsyncResult*>*  endMethod, TArg1  arg1, TArg2  arg2, ::System::Object*  state, ::System::Threading::Tasks::TaskCreationOptions  creationOptions) ;
 
-  static inline ::System::Threading::Tasks::TaskFactory* New_ctor();
+static inline ::System::Threading::Tasks::TaskFactory* New_ctor() ;
 
-  static inline ::System::Threading::Tasks::TaskFactory* New_ctor(::System::Threading::CancellationToken cancellationToken, ::System::Threading::Tasks::TaskCreationOptions creationOptions,
-                                                                  ::System::Threading::Tasks::TaskContinuationOptions continuationOptions, ::System::Threading::Tasks::TaskScheduler* scheduler);
+static inline ::System::Threading::Tasks::TaskFactory* New_ctor(::System::Threading::CancellationToken  cancellationToken, ::System::Threading::Tasks::TaskCreationOptions  creationOptions, ::System::Threading::Tasks::TaskContinuationOptions  continuationOptions, ::System::Threading::Tasks::TaskScheduler*  scheduler) ;
 
-  /// @brief Method StartNew, addr 0x29e6ea8, size 0x90, virtual false, abstract: false, final false
-  inline ::System::Threading::Tasks::Task* StartNew(::System::Action_1<::System::Object*>* action, ::System::Object* state, ::System::Threading::CancellationToken cancellationToken,
-                                                    ::System::Threading::Tasks::TaskCreationOptions creationOptions, ::System::Threading::Tasks::TaskScheduler* scheduler);
+/// @brief Method StartNew, addr 0x3dda9d0, size 0x90, virtual false, abstract: false, final false
+inline ::System::Threading::Tasks::Task* StartNew(::System::Action_1<::System::Object*>*  action, ::System::Object*  state, ::System::Threading::CancellationToken  cancellationToken, ::System::Threading::Tasks::TaskCreationOptions  creationOptions, ::System::Threading::Tasks::TaskScheduler*  scheduler) ;
 
-  /// @brief Method StartNew, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TResult>
-  inline ::System::Threading::Tasks::Task_1<TResult>* StartNew(::System::Func_1<TResult>* function, ::System::Threading::CancellationToken cancellationToken,
-                                                               ::System::Threading::Tasks::TaskCreationOptions creationOptions, ::System::Threading::Tasks::TaskScheduler* scheduler);
+/// @brief Method StartNew, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+template<typename TResult>
+inline ::System::Threading::Tasks::Task_1<TResult>* StartNew(::System::Func_1<TResult>*  function, ::System::Threading::CancellationToken  cancellationToken, ::System::Threading::Tasks::TaskCreationOptions  creationOptions, ::System::Threading::Tasks::TaskScheduler*  scheduler) ;
 
-  /// @brief Method StartNew, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TResult>
-  inline ::System::Threading::Tasks::Task_1<TResult>* StartNew(::System::Func_2<::System::Object*, TResult>* function, ::System::Object* state,
-                                                               ::System::Threading::CancellationToken cancellationToken, ::System::Threading::Tasks::TaskCreationOptions creationOptions,
-                                                               ::System::Threading::Tasks::TaskScheduler* scheduler);
+/// @brief Method StartNew, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+template<typename TResult>
+inline ::System::Threading::Tasks::Task_1<TResult>* StartNew(::System::Func_2<::System::Object*,TResult>*  function, ::System::Object*  state, ::System::Threading::CancellationToken  cancellationToken, ::System::Threading::Tasks::TaskCreationOptions  creationOptions, ::System::Threading::Tasks::TaskScheduler*  scheduler) ;
 
-  constexpr ::System::Threading::CancellationToken const& __cordl_internal_get_m_defaultCancellationToken() const;
+constexpr ::System::Threading::CancellationToken const& __cordl_internal_get_m_defaultCancellationToken() const;
 
-  constexpr ::System::Threading::CancellationToken& __cordl_internal_get_m_defaultCancellationToken();
+constexpr ::System::Threading::CancellationToken& __cordl_internal_get_m_defaultCancellationToken() ;
 
-  constexpr ::System::Threading::Tasks::TaskContinuationOptions const& __cordl_internal_get_m_defaultContinuationOptions() const;
+constexpr ::System::Threading::Tasks::TaskContinuationOptions const& __cordl_internal_get_m_defaultContinuationOptions() const;
 
-  constexpr ::System::Threading::Tasks::TaskContinuationOptions& __cordl_internal_get_m_defaultContinuationOptions();
+constexpr ::System::Threading::Tasks::TaskContinuationOptions& __cordl_internal_get_m_defaultContinuationOptions() ;
 
-  constexpr ::System::Threading::Tasks::TaskCreationOptions const& __cordl_internal_get_m_defaultCreationOptions() const;
+constexpr ::System::Threading::Tasks::TaskCreationOptions const& __cordl_internal_get_m_defaultCreationOptions() const;
 
-  constexpr ::System::Threading::Tasks::TaskCreationOptions& __cordl_internal_get_m_defaultCreationOptions();
+constexpr ::System::Threading::Tasks::TaskCreationOptions& __cordl_internal_get_m_defaultCreationOptions() ;
 
-  constexpr ::System::Threading::Tasks::TaskScheduler*& __cordl_internal_get_m_defaultScheduler();
+constexpr ::System::Threading::Tasks::TaskScheduler*& __cordl_internal_get_m_defaultScheduler() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::TaskScheduler*> const& __cordl_internal_get_m_defaultScheduler() const;
+constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::TaskScheduler*> const& __cordl_internal_get_m_defaultScheduler() const;
 
-  constexpr void __cordl_internal_set_m_defaultCancellationToken(::System::Threading::CancellationToken value);
+constexpr void __cordl_internal_set_m_defaultCancellationToken(::System::Threading::CancellationToken  value) ;
 
-  constexpr void __cordl_internal_set_m_defaultContinuationOptions(::System::Threading::Tasks::TaskContinuationOptions value);
+constexpr void __cordl_internal_set_m_defaultContinuationOptions(::System::Threading::Tasks::TaskContinuationOptions  value) ;
 
-  constexpr void __cordl_internal_set_m_defaultCreationOptions(::System::Threading::Tasks::TaskCreationOptions value);
+constexpr void __cordl_internal_set_m_defaultCreationOptions(::System::Threading::Tasks::TaskCreationOptions  value) ;
 
-  constexpr void __cordl_internal_set_m_defaultScheduler(::System::Threading::Tasks::TaskScheduler* value);
+constexpr void __cordl_internal_set_m_defaultScheduler(::System::Threading::Tasks::TaskScheduler*  value) ;
 
-  /// @brief Method .ctor, addr 0x29e47ac, size 0x14, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x3dd83a4, size 0x14, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method .ctor, addr 0x29e6cf0, size 0x50, virtual false, abstract: false, final false
-  inline void _ctor(::System::Threading::CancellationToken cancellationToken, ::System::Threading::Tasks::TaskCreationOptions creationOptions,
-                    ::System::Threading::Tasks::TaskContinuationOptions continuationOptions, ::System::Threading::Tasks::TaskScheduler* scheduler);
+/// @brief Method .ctor, addr 0x3dda828, size 0x50, virtual false, abstract: false, final false
+inline void _ctor(::System::Threading::CancellationToken  cancellationToken, ::System::Threading::Tasks::TaskCreationOptions  creationOptions, ::System::Threading::Tasks::TaskContinuationOptions  continuationOptions, ::System::Threading::Tasks::TaskScheduler*  scheduler) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TaskFactory();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr TaskFactory() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TaskFactory", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  TaskFactory(TaskFactory&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TaskFactory", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  TaskFactory(TaskFactory const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "TaskFactory", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+TaskFactory(TaskFactory && ) = delete;
 
-  /// @brief Field m_defaultCancellationToken, offset: 0x10, size: 0x8, def value: None
-  ::System::Threading::CancellationToken ___m_defaultCancellationToken;
+// Ctor Parameters [CppParam { name: "", ty: "TaskFactory", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+TaskFactory(TaskFactory const& ) = delete;
 
-  /// @brief Field m_defaultScheduler, offset: 0x18, size: 0x8, def value: None
-  ::System::Threading::Tasks::TaskScheduler* ___m_defaultScheduler;
+/// @brief Field m_defaultCancellationToken, offset: 0x10, size: 0x8, def value: None
+ ::System::Threading::CancellationToken  ___m_defaultCancellationToken;
 
-  /// @brief Field m_defaultCreationOptions, offset: 0x20, size: 0x4, def value: None
-  ::System::Threading::Tasks::TaskCreationOptions ___m_defaultCreationOptions;
+/// @brief Field m_defaultScheduler, offset: 0x18, size: 0x8, def value: None
+ ::System::Threading::Tasks::TaskScheduler*  ___m_defaultScheduler;
 
-  /// @brief Field m_defaultContinuationOptions, offset: 0x24, size: 0x4, def value: None
-  ::System::Threading::Tasks::TaskContinuationOptions ___m_defaultContinuationOptions;
+/// @brief Field m_defaultCreationOptions, offset: 0x20, size: 0x4, def value: None
+ ::System::Threading::Tasks::TaskCreationOptions  ___m_defaultCreationOptions;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field m_defaultContinuationOptions, offset: 0x24, size: 0x4, def value: None
+ ::System::Threading::Tasks::TaskContinuationOptions  ___m_defaultContinuationOptions;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Threading::Tasks::TaskFactory, 0x28>, "Size mismatch!");
@@ -279,7 +272,7 @@ static_assert(offsetof(::System::Threading::Tasks::TaskFactory, ___m_defaultCrea
 
 static_assert(offsetof(::System::Threading::Tasks::TaskFactory, ___m_defaultContinuationOptions) == 0x24, "Offset mismatch!");
 
-} // namespace System::Threading::Tasks
+} // namespace end def System::Threading::Tasks
 NEED_NO_BOX(::System::Threading::Tasks::TaskFactory);
 DEFINE_IL2CPP_ARG_TYPE(::System::Threading::Tasks::TaskFactory*, "System.Threading.Tasks", "TaskFactory");
 NEED_NO_BOX(::System::Threading::Tasks::__TaskFactory__CompleteOnInvokePromise);

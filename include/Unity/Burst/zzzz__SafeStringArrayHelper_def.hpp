@@ -14,38 +14,38 @@ class SafeStringArrayHelper;
 // Write type traits
 MARK_REF_PTR_T(::Unity::Burst::SafeStringArrayHelper);
 // Type: Unity.Burst::SafeStringArrayHelper
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Unity::Burst {
 // Is value type: false
 // CS Name: ::Unity.Burst::SafeStringArrayHelper*
 class CORDL_TYPE SafeStringArrayHelper : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method DeserialiseStringArraySafe, addr 0x3098a4c, size 0x288, virtual false, abstract: false, final false
-  static inline ::ArrayW<::StringW, ::Array<::StringW>*> DeserialiseStringArraySafe(::StringW input);
+// Declarations
+/// @brief Method DeserialiseStringArraySafe, addr 0x44734d0, size 0x28c, virtual false, abstract: false, final false
+static inline ::ArrayW<::StringW,::Array<::StringW>*> DeserialiseStringArraySafe(::StringW  input) ;
 
-  /// @brief Method SerialiseStringArraySafe, addr 0x3098854, size 0x14c, virtual false, abstract: false, final false
-  static inline ::StringW SerialiseStringArraySafe(::ArrayW<::StringW, ::Array<::StringW>*> array);
+/// @brief Method SerialiseStringArraySafe, addr 0x44732d4, size 0x150, virtual false, abstract: false, final false
+static inline ::StringW SerialiseStringArraySafe(::ArrayW<::StringW,::Array<::StringW>*>  array) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SafeStringArrayHelper();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr SafeStringArrayHelper() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SafeStringArrayHelper", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  SafeStringArrayHelper(SafeStringArrayHelper&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SafeStringArrayHelper", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  SafeStringArrayHelper(SafeStringArrayHelper const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "SafeStringArrayHelper", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+SafeStringArrayHelper(SafeStringArrayHelper && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "SafeStringArrayHelper", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+SafeStringArrayHelper(SafeStringArrayHelper const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Unity::Burst::SafeStringArrayHelper, 0x10>, "Size mismatch!");
 
-} // namespace Unity::Burst
+} // namespace end def Unity::Burst
 NEED_NO_BOX(::Unity::Burst::SafeStringArrayHelper);
 DEFINE_IL2CPP_ARG_TYPE(::Unity::Burst::SafeStringArrayHelper*, "Unity.Burst", "SafeStringArrayHelper");

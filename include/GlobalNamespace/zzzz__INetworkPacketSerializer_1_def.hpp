@@ -15,36 +15,37 @@ class NetDataWriter;
 }
 // Forward declare root types
 namespace GlobalNamespace {
-template <typename TData> class INetworkPacketSerializer_1;
+template<typename TData>
+class INetworkPacketSerializer_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::GlobalNamespace::INetworkPacketSerializer_1);
 // Type: ::INetworkPacketSerializer`1
-// SizeInfo { instance_size: 0, native_size: 0, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 0, native_size: 0, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // cpp template
-template <typename TData>
+template<typename TData>
 // Is value type: false
 // CS Name: ::INetworkPacketSerializer`1<TData>*
 class CORDL_TYPE INetworkPacketSerializer_1 {
 public:
-  // Declarations
-  /// @brief Method ProcessAllPackets, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void ProcessAllPackets(::LiteNetLib::Utils::NetDataReader* reader, TData data);
+// Declarations
+/// @brief Method ProcessAllPackets, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+inline void ProcessAllPackets(::LiteNetLib::Utils::NetDataReader*  reader, TData  data) ;
 
-  /// @brief Method SerializePacket, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void SerializePacket(::LiteNetLib::Utils::NetDataWriter* writer, ::LiteNetLib::Utils::INetSerializable* packet);
+/// @brief Method SerializePacket, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+inline void SerializePacket(::LiteNetLib::Utils::NetDataWriter*  writer, ::LiteNetLib::Utils::INetSerializable*  packet) ;
 
-  // Ctor Parameters [CppParam { name: "", ty: "INetworkPacketSerializer_1", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  INetworkPacketSerializer_1(INetworkPacketSerializer_1&&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "INetworkPacketSerializer_1", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+INetworkPacketSerializer_1(INetworkPacketSerializer_1 && ) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "INetworkPacketSerializer_1", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  INetworkPacketSerializer_1(INetworkPacketSerializer_1 const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "INetworkPacketSerializer_1", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+INetworkPacketSerializer_1(INetworkPacketSerializer_1 const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::GlobalNamespace::INetworkPacketSerializer_1, "", "INetworkPacketSerializer`1");

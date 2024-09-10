@@ -14,41 +14,41 @@ class KnownTerminals;
 // Write type traits
 MARK_REF_PTR_T(::System::KnownTerminals);
 // Type: System::KnownTerminals
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
 // CS Name: ::System::KnownTerminals*
 class CORDL_TYPE KnownTerminals : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method get_ansi, addr 0x29b034c, size 0x70, virtual false, abstract: false, final false
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_ansi();
+// Declarations
+/// @brief Method get_ansi, addr 0x3da601c, size 0x70, virtual false, abstract: false, final false
+static inline ::ArrayW<uint8_t,::Array<uint8_t>*> get_ansi() ;
 
-  /// @brief Method get_linux, addr 0x29b026c, size 0x70, virtual false, abstract: false, final false
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_linux();
+/// @brief Method get_linux, addr 0x3da5f3c, size 0x70, virtual false, abstract: false, final false
+static inline ::ArrayW<uint8_t,::Array<uint8_t>*> get_linux() ;
 
-  /// @brief Method get_xterm, addr 0x29b02dc, size 0x70, virtual false, abstract: false, final false
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_xterm();
+/// @brief Method get_xterm, addr 0x3da5fac, size 0x70, virtual false, abstract: false, final false
+static inline ::ArrayW<uint8_t,::Array<uint8_t>*> get_xterm() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr KnownTerminals();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr KnownTerminals() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "KnownTerminals", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  KnownTerminals(KnownTerminals&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "KnownTerminals", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  KnownTerminals(KnownTerminals const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "KnownTerminals", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+KnownTerminals(KnownTerminals && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "KnownTerminals", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+KnownTerminals(KnownTerminals const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::KnownTerminals, 0x10>, "Size mismatch!");
 
-} // namespace System
+} // namespace end def System
 NEED_NO_BOX(::System::KnownTerminals);
 DEFINE_IL2CPP_ARG_TYPE(::System::KnownTerminals*, "System", "KnownTerminals");

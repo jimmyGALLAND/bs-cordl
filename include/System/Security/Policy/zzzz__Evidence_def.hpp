@@ -38,86 +38,86 @@ class __Evidence__EvidenceEnumerator;
 MARK_REF_PTR_T(::System::Security::Policy::Evidence);
 MARK_REF_PTR_T(::System::Security::Policy::__Evidence__EvidenceEnumerator);
 // Type: ::EvidenceEnumerator
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Policy {
 // Is value type: false
 // CS Name: ::Evidence::EvidenceEnumerator*
 class CORDL_TYPE __Evidence__EvidenceEnumerator : public ::System::Object {
 public:
-  // Declarations
-  __declspec(property(get = get_Current))::System::Object* Current;
+// Declarations
+ __declspec(property(get=get_Current)) ::System::Object*  Current;
 
-  /// @brief Field assemblyEnum, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_assemblyEnum, put = __cordl_internal_set_assemblyEnum))::System::Collections::IEnumerator* assemblyEnum;
+/// @brief Field assemblyEnum, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get_assemblyEnum, put=__cordl_internal_set_assemblyEnum)) ::System::Collections::IEnumerator*  assemblyEnum;
 
-  /// @brief Field currentEnum, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_currentEnum, put = __cordl_internal_set_currentEnum))::System::Collections::IEnumerator* currentEnum;
+/// @brief Field currentEnum, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_currentEnum, put=__cordl_internal_set_currentEnum)) ::System::Collections::IEnumerator*  currentEnum;
 
-  /// @brief Field hostEnum, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_hostEnum, put = __cordl_internal_set_hostEnum))::System::Collections::IEnumerator* hostEnum;
+/// @brief Field hostEnum, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_hostEnum, put=__cordl_internal_set_hostEnum)) ::System::Collections::IEnumerator*  hostEnum;
 
-  /// @brief Convert operator to "::System::Collections::IEnumerator"
-  constexpr operator ::System::Collections::IEnumerator*() noexcept;
+/// @brief Convert operator to "::System::Collections::IEnumerator"
+constexpr operator  ::System::Collections::IEnumerator*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x2803b2c, size 0x128, virtual true, abstract: false, final true
-  inline bool MoveNext();
+/// @brief Method MoveNext, addr 0x3c08a00, size 0x128, virtual true, abstract: false, final true
+inline bool MoveNext() ;
 
-  static inline ::System::Security::Policy::__Evidence__EvidenceEnumerator* New_ctor(::System::Collections::IEnumerator* hostenum, ::System::Collections::IEnumerator* assemblyenum);
+static inline ::System::Security::Policy::__Evidence__EvidenceEnumerator* New_ctor(::System::Collections::IEnumerator*  hostenum, ::System::Collections::IEnumerator*  assemblyenum) ;
 
-  /// @brief Method Reset, addr 0x2803c54, size 0x120, virtual true, abstract: false, final true
-  inline void Reset();
+/// @brief Method Reset, addr 0x3c08b28, size 0x120, virtual true, abstract: false, final true
+inline void Reset() ;
 
-  constexpr ::System::Collections::IEnumerator*& __cordl_internal_get_assemblyEnum();
+constexpr ::System::Collections::IEnumerator*& __cordl_internal_get_assemblyEnum() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IEnumerator*> const& __cordl_internal_get_assemblyEnum() const;
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::IEnumerator*> const& __cordl_internal_get_assemblyEnum() const;
 
-  constexpr ::System::Collections::IEnumerator*& __cordl_internal_get_currentEnum();
+constexpr ::System::Collections::IEnumerator*& __cordl_internal_get_currentEnum() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IEnumerator*> const& __cordl_internal_get_currentEnum() const;
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::IEnumerator*> const& __cordl_internal_get_currentEnum() const;
 
-  constexpr ::System::Collections::IEnumerator*& __cordl_internal_get_hostEnum();
+constexpr ::System::Collections::IEnumerator*& __cordl_internal_get_hostEnum() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IEnumerator*> const& __cordl_internal_get_hostEnum() const;
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::IEnumerator*> const& __cordl_internal_get_hostEnum() const;
 
-  constexpr void __cordl_internal_set_assemblyEnum(::System::Collections::IEnumerator* value);
+constexpr void __cordl_internal_set_assemblyEnum(::System::Collections::IEnumerator*  value) ;
 
-  constexpr void __cordl_internal_set_currentEnum(::System::Collections::IEnumerator* value);
+constexpr void __cordl_internal_set_currentEnum(::System::Collections::IEnumerator*  value) ;
 
-  constexpr void __cordl_internal_set_hostEnum(::System::Collections::IEnumerator* value);
+constexpr void __cordl_internal_set_hostEnum(::System::Collections::IEnumerator*  value) ;
 
-  /// @brief Method .ctor, addr 0x2803afc, size 0x30, virtual false, abstract: false, final false
-  inline void _ctor(::System::Collections::IEnumerator* hostenum, ::System::Collections::IEnumerator* assemblyenum);
+/// @brief Method .ctor, addr 0x3c089d0, size 0x30, virtual false, abstract: false, final false
+inline void _ctor(::System::Collections::IEnumerator*  hostenum, ::System::Collections::IEnumerator*  assemblyenum) ;
 
-  /// @brief Method get_Current, addr 0x2803d74, size 0xa4, virtual true, abstract: false, final true
-  inline ::System::Object* get_Current();
+/// @brief Method get_Current, addr 0x3c08c48, size 0xa4, virtual true, abstract: false, final true
+inline ::System::Object* get_Current() ;
 
-  /// @brief Convert to "::System::Collections::IEnumerator"
-  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+/// @brief Convert to "::System::Collections::IEnumerator"
+constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __Evidence__EvidenceEnumerator();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __Evidence__EvidenceEnumerator() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__Evidence__EvidenceEnumerator", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __Evidence__EvidenceEnumerator(__Evidence__EvidenceEnumerator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__Evidence__EvidenceEnumerator", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __Evidence__EvidenceEnumerator(__Evidence__EvidenceEnumerator const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__Evidence__EvidenceEnumerator", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__Evidence__EvidenceEnumerator(__Evidence__EvidenceEnumerator && ) = delete;
 
-  /// @brief Field currentEnum, offset: 0x10, size: 0x8, def value: None
-  ::System::Collections::IEnumerator* ___currentEnum;
+// Ctor Parameters [CppParam { name: "", ty: "__Evidence__EvidenceEnumerator", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__Evidence__EvidenceEnumerator(__Evidence__EvidenceEnumerator const& ) = delete;
 
-  /// @brief Field hostEnum, offset: 0x18, size: 0x8, def value: None
-  ::System::Collections::IEnumerator* ___hostEnum;
+/// @brief Field currentEnum, offset: 0x10, size: 0x8, def value: None
+ ::System::Collections::IEnumerator*  ___currentEnum;
 
-  /// @brief Field assemblyEnum, offset: 0x20, size: 0x8, def value: None
-  ::System::Collections::IEnumerator* ___assemblyEnum;
+/// @brief Field hostEnum, offset: 0x18, size: 0x8, def value: None
+ ::System::Collections::IEnumerator*  ___hostEnum;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field assemblyEnum, offset: 0x20, size: 0x8, def value: None
+ ::System::Collections::IEnumerator*  ___assemblyEnum;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Security::Policy::__Evidence__EvidenceEnumerator, 0x28>, "Size mismatch!");
@@ -128,106 +128,106 @@ static_assert(offsetof(::System::Security::Policy::__Evidence__EvidenceEnumerato
 
 static_assert(offsetof(::System::Security::Policy::__Evidence__EvidenceEnumerator, ___assemblyEnum) == 0x20, "Offset mismatch!");
 
-} // namespace System::Security::Policy
+} // namespace end def System::Security::Policy
 // Type: System.Security.Policy::Evidence
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Policy {
 // Is value type: false
 // CS Name: ::System.Security.Policy::Evidence*
 class CORDL_TYPE Evidence : public ::System::Object {
 public:
-  // Declarations
-  using EvidenceEnumerator = ::System::Security::Policy::__Evidence__EvidenceEnumerator;
+// Declarations
+using EvidenceEnumerator = ::System::Security::Policy::__Evidence__EvidenceEnumerator;
 
-  __declspec(property(get = get_Count)) int32_t Count;
+ __declspec(property(get=get_Count)) int32_t  Count;
 
-  __declspec(property(get = get_IsSynchronized)) bool IsSynchronized;
+ __declspec(property(get=get_IsSynchronized)) bool  IsSynchronized;
 
-  __declspec(property(get = get_SyncRoot))::System::Object* SyncRoot;
+ __declspec(property(get=get_SyncRoot)) ::System::Object*  SyncRoot;
 
-  /// @brief Field _locked, offset 0x10, size 0x1
-  __declspec(property(get = __cordl_internal_get__locked, put = __cordl_internal_set__locked)) bool _locked;
+/// @brief Field _locked, offset 0x10, size 0x1 
+ __declspec(property(get=__cordl_internal_get__locked, put=__cordl_internal_set__locked)) bool  _locked;
 
-  /// @brief Field assemblyEvidenceList, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_assemblyEvidenceList, put = __cordl_internal_set_assemblyEvidenceList))::System::Collections::ArrayList* assemblyEvidenceList;
+/// @brief Field assemblyEvidenceList, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get_assemblyEvidenceList, put=__cordl_internal_set_assemblyEvidenceList)) ::System::Collections::ArrayList*  assemblyEvidenceList;
 
-  /// @brief Field hostEvidenceList, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_hostEvidenceList, put = __cordl_internal_set_hostEvidenceList))::System::Collections::ArrayList* hostEvidenceList;
+/// @brief Field hostEvidenceList, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_hostEvidenceList, put=__cordl_internal_set_hostEvidenceList)) ::System::Collections::ArrayList*  hostEvidenceList;
 
-  /// @brief Convert operator to "::System::Collections::ICollection"
-  constexpr operator ::System::Collections::ICollection*() noexcept;
+/// @brief Convert operator to "::System::Collections::ICollection"
+constexpr operator  ::System::Collections::ICollection*() noexcept;
 
-  /// @brief Convert operator to "::System::Collections::IEnumerable"
-  constexpr operator ::System::Collections::IEnumerable*() noexcept;
+/// @brief Convert operator to "::System::Collections::IEnumerable"
+constexpr operator  ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Method CopyTo, addr 0x2803988, size 0xc4, virtual true, abstract: false, final true
-  inline void CopyTo(::System::Array* array, int32_t index);
+/// @brief Method CopyTo, addr 0x3c08864, size 0xc4, virtual true, abstract: false, final true
+inline void CopyTo(::System::Array*  array, int32_t  index) ;
 
-  /// @brief Method GetEnumerator, addr 0x2803a4c, size 0xb0, virtual true, abstract: false, final true
-  inline ::System::Collections::IEnumerator* GetEnumerator();
+/// @brief Method GetEnumerator, addr 0x3c08928, size 0xa8, virtual true, abstract: false, final true
+inline ::System::Collections::IEnumerator* GetEnumerator() ;
 
-  static inline ::System::Security::Policy::Evidence* New_ctor();
+static inline ::System::Security::Policy::Evidence* New_ctor() ;
 
-  constexpr bool const& __cordl_internal_get__locked() const;
+constexpr bool const& __cordl_internal_get__locked() const;
 
-  constexpr bool& __cordl_internal_get__locked();
+constexpr bool& __cordl_internal_get__locked() ;
 
-  constexpr ::System::Collections::ArrayList*& __cordl_internal_get_assemblyEvidenceList();
+constexpr ::System::Collections::ArrayList*& __cordl_internal_get_assemblyEvidenceList() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& __cordl_internal_get_assemblyEvidenceList() const;
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& __cordl_internal_get_assemblyEvidenceList() const;
 
-  constexpr ::System::Collections::ArrayList*& __cordl_internal_get_hostEvidenceList();
+constexpr ::System::Collections::ArrayList*& __cordl_internal_get_hostEvidenceList() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& __cordl_internal_get_hostEvidenceList() const;
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& __cordl_internal_get_hostEvidenceList() const;
 
-  constexpr void __cordl_internal_set__locked(bool value);
+constexpr void __cordl_internal_set__locked(bool  value) ;
 
-  constexpr void __cordl_internal_set_assemblyEvidenceList(::System::Collections::ArrayList* value);
+constexpr void __cordl_internal_set_assemblyEvidenceList(::System::Collections::ArrayList*  value) ;
 
-  constexpr void __cordl_internal_set_hostEvidenceList(::System::Collections::ArrayList* value);
+constexpr void __cordl_internal_set_hostEvidenceList(::System::Collections::ArrayList*  value) ;
 
-  /// @brief Method .ctor, addr 0x2803918, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x3c087f4, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_Count, addr 0x2803920, size 0x5c, virtual true, abstract: false, final true
-  inline int32_t get_Count();
+/// @brief Method get_Count, addr 0x3c087fc, size 0x5c, virtual true, abstract: false, final true
+inline int32_t get_Count() ;
 
-  /// @brief Method get_IsSynchronized, addr 0x280397c, size 0x8, virtual true, abstract: false, final true
-  inline bool get_IsSynchronized();
+/// @brief Method get_IsSynchronized, addr 0x3c08858, size 0x8, virtual true, abstract: false, final true
+inline bool get_IsSynchronized() ;
 
-  /// @brief Method get_SyncRoot, addr 0x2803984, size 0x4, virtual true, abstract: false, final true
-  inline ::System::Object* get_SyncRoot();
+/// @brief Method get_SyncRoot, addr 0x3c08860, size 0x4, virtual true, abstract: false, final true
+inline ::System::Object* get_SyncRoot() ;
 
-  /// @brief Convert to "::System::Collections::ICollection"
-  constexpr ::System::Collections::ICollection* i___System__Collections__ICollection() noexcept;
+/// @brief Convert to "::System::Collections::ICollection"
+constexpr ::System::Collections::ICollection* i___System__Collections__ICollection() noexcept;
 
-  /// @brief Convert to "::System::Collections::IEnumerable"
-  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
+/// @brief Convert to "::System::Collections::IEnumerable"
+constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Evidence();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr Evidence() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Evidence", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  Evidence(Evidence&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Evidence", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  Evidence(Evidence const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "Evidence", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+Evidence(Evidence && ) = delete;
 
-  /// @brief Field _locked, offset: 0x10, size: 0x1, def value: None
-  bool ____locked;
+// Ctor Parameters [CppParam { name: "", ty: "Evidence", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+Evidence(Evidence const& ) = delete;
 
-  /// @brief Field hostEvidenceList, offset: 0x18, size: 0x8, def value: None
-  ::System::Collections::ArrayList* ___hostEvidenceList;
+/// @brief Field _locked, offset: 0x10, size: 0x1, def value: None
+ bool  ____locked;
 
-  /// @brief Field assemblyEvidenceList, offset: 0x20, size: 0x8, def value: None
-  ::System::Collections::ArrayList* ___assemblyEvidenceList;
+/// @brief Field hostEvidenceList, offset: 0x18, size: 0x8, def value: None
+ ::System::Collections::ArrayList*  ___hostEvidenceList;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field assemblyEvidenceList, offset: 0x20, size: 0x8, def value: None
+ ::System::Collections::ArrayList*  ___assemblyEvidenceList;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Security::Policy::Evidence, 0x28>, "Size mismatch!");
@@ -238,7 +238,7 @@ static_assert(offsetof(::System::Security::Policy::Evidence, ___hostEvidenceList
 
 static_assert(offsetof(::System::Security::Policy::Evidence, ___assemblyEvidenceList) == 0x20, "Offset mismatch!");
 
-} // namespace System::Security::Policy
+} // namespace end def System::Security::Policy
 NEED_NO_BOX(::System::Security::Policy::Evidence);
 DEFINE_IL2CPP_ARG_TYPE(::System::Security::Policy::Evidence*, "System.Security.Policy", "Evidence");
 NEED_NO_BOX(::System::Security::Policy::__Evidence__EvidenceEnumerator);

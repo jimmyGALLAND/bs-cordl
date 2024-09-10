@@ -36,19 +36,22 @@ namespace System::Net::Http {
 struct __HttpClient___SendAsyncWorker_d__47;
 }
 namespace System::Runtime::CompilerServices {
-template <typename TResult> struct AsyncTaskMethodBuilder_1;
+template<typename TResult>
+struct AsyncTaskMethodBuilder_1;
 }
 namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
-template <typename TResult> struct __ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter;
+template<typename TResult>
+struct __ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter;
 }
 namespace System::Runtime::CompilerServices {
 struct __ConfiguredTaskAwaitable__ConfiguredTaskAwaiter;
 }
 namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
+template<typename TResult>
+class Task_1;
 }
 namespace System::Threading {
 class CancellationTokenSource;
@@ -77,78 +80,66 @@ MARK_REF_PTR_T(::System::Net::Http::HttpClient);
 MARK_VAL_T(::System::Net::Http::__HttpClient___GetStringAsync_d__53);
 MARK_VAL_T(::System::Net::Http::__HttpClient___SendAsyncWorker_d__47);
 // Type: ::<SendAsyncWorker>d__47
-// SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Http {
 // Is value type: true
 // CS Name: ::HttpClient::<SendAsyncWorker>d__47
 struct CORDL_TYPE __HttpClient___SendAsyncWorker_d__47 {
 public:
-  // Declarations
-  /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-  constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+// Declarations
+/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr operator  ::System::Runtime::CompilerServices::IAsyncStateMachine*() ;
 
-  /// @brief Method MoveNext, addr 0x2d9ade0, size 0x620, virtual true, abstract: false, final true
-  inline void MoveNext();
+/// @brief Method MoveNext, addr 0x4185e04, size 0x684, virtual true, abstract: false, final true
+inline void MoveNext() ;
 
-  /// @brief Method SetStateMachine, addr 0x2d9b400, size 0x58, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+/// @brief Method SetStateMachine, addr 0x4186488, size 0x7c, virtual true, abstract: false, final true
+inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine*  stateMachine) ;
 
-  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
+/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine() ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __HttpClient___SendAsyncWorker_d__47();
+// Ctor Parameters []
+// @brief default ctor
+constexpr __HttpClient___SendAsyncWorker_d__47() ;
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Net::Http::HttpResponseMessage*>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty:
-  // "::System::Net::Http::HttpClient*", modifiers: "", def_value: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None },
-  // CppParam { name: "request", ty: "::System::Net::Http::HttpRequestMessage*", modifiers: "", def_value: None }, CppParam { name: "completionOption", ty: "::System::Net::Http::HttpCompletionOption",
-  // modifiers: "", def_value: None }, CppParam { name: "_lcts_5__2", ty: "::System::Threading::CancellationTokenSource*", modifiers: "", def_value: None }, CppParam { name: "_response_5__3", ty:
-  // "::System::Net::Http::HttpResponseMessage*", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<::System::Net::Http::HttpResponseMessage*>", modifiers: "", def_value: None }, CppParam { name: "__u__2",
-  // ty: "::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter", modifiers: "", def_value: None }]
-  constexpr __HttpClient___SendAsyncWorker_d__47(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Net::Http::HttpResponseMessage*> __t__builder,
-                                                 ::System::Net::Http::HttpClient* __4__this, ::System::Threading::CancellationToken cancellationToken, ::System::Net::Http::HttpRequestMessage* request,
-                                                 ::System::Net::Http::HttpCompletionOption completionOption, ::System::Threading::CancellationTokenSource* _lcts_5__2,
-                                                 ::System::Net::Http::HttpResponseMessage* _response_5__3,
-                                                 ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<::System::Net::Http::HttpResponseMessage*> __u__1,
-                                                 ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter __u__2) noexcept;
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty: "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Net::Http::HttpResponseMessage*>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::System::Net::Http::HttpClient*", modifiers: "", def_value: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "request", ty: "::System::Net::Http::HttpRequestMessage*", modifiers: "", def_value: None }, CppParam { name: "completionOption", ty: "::System::Net::Http::HttpCompletionOption", modifiers: "", def_value: None }, CppParam { name: "_lcts_5__2", ty: "::System::Threading::CancellationTokenSource*", modifiers: "", def_value: None }, CppParam { name: "_response_5__3", ty: "::System::Net::Http::HttpResponseMessage*", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<::System::Net::Http::HttpResponseMessage*>", modifiers: "", def_value: None }, CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter", modifiers: "", def_value: None }]
+constexpr __HttpClient___SendAsyncWorker_d__47(int32_t  __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Net::Http::HttpResponseMessage*>  __t__builder, ::System::Net::Http::HttpClient*  __4__this, ::System::Threading::CancellationToken  cancellationToken, ::System::Net::Http::HttpRequestMessage*  request, ::System::Net::Http::HttpCompletionOption  completionOption, ::System::Threading::CancellationTokenSource*  _lcts_5__2, ::System::Net::Http::HttpResponseMessage*  _response_5__3, ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<::System::Net::Http::HttpResponseMessage*>  __u__1, ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter  __u__2) noexcept;
 
-  /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
-  int32_t __1__state;
+/// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
+ int32_t  __1__state;
 
-  /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
-  ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Net::Http::HttpResponseMessage*> __t__builder;
+/// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
+ ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Net::Http::HttpResponseMessage*>  __t__builder;
 
-  /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
-  ::System::Net::Http::HttpClient* __4__this;
+/// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
+ ::System::Net::Http::HttpClient*  __4__this;
 
-  /// @brief Field cancellationToken, offset: 0x28, size: 0x8, def value: None
-  ::System::Threading::CancellationToken cancellationToken;
+/// @brief Field cancellationToken, offset: 0x28, size: 0x8, def value: None
+ ::System::Threading::CancellationToken  cancellationToken;
 
-  /// @brief Field request, offset: 0x30, size: 0x8, def value: None
-  ::System::Net::Http::HttpRequestMessage* request;
+/// @brief Field request, offset: 0x30, size: 0x8, def value: None
+ ::System::Net::Http::HttpRequestMessage*  request;
 
-  /// @brief Field completionOption, offset: 0x38, size: 0x4, def value: None
-  ::System::Net::Http::HttpCompletionOption completionOption;
+/// @brief Field completionOption, offset: 0x38, size: 0x4, def value: None
+ ::System::Net::Http::HttpCompletionOption  completionOption;
 
-  /// @brief Field <lcts>5__2, offset: 0x40, size: 0x8, def value: None
-  ::System::Threading::CancellationTokenSource* _lcts_5__2;
+/// @brief Field <lcts>5__2, offset: 0x40, size: 0x8, def value: None
+ ::System::Threading::CancellationTokenSource*  _lcts_5__2;
 
-  /// @brief Field <response>5__3, offset: 0x48, size: 0x8, def value: None
-  ::System::Net::Http::HttpResponseMessage* _response_5__3;
+/// @brief Field <response>5__3, offset: 0x48, size: 0x8, def value: None
+ ::System::Net::Http::HttpResponseMessage*  _response_5__3;
 
-  /// @brief Field <>u__1, offset: 0x50, size: 0x10, def value: None
-  ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<::System::Net::Http::HttpResponseMessage*> __u__1;
+/// @brief Field <>u__1, offset: 0x50, size: 0x10, def value: None
+ ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<::System::Net::Http::HttpResponseMessage*>  __u__1;
 
-  /// @brief Field <>u__2, offset: 0x60, size: 0x10, def value: None
-  ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter __u__2;
+/// @brief Field <>u__2, offset: 0x60, size: 0x10, def value: None
+ ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter  __u__2;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x70 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x70};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::Http::__HttpClient___SendAsyncWorker_d__47, 0x70>, "Size mismatch!");
@@ -173,67 +164,59 @@ static_assert(offsetof(::System::Net::Http::__HttpClient___SendAsyncWorker_d__47
 
 static_assert(offsetof(::System::Net::Http::__HttpClient___SendAsyncWorker_d__47, __u__2) == 0x60, "Offset mismatch!");
 
-} // namespace System::Net::Http
+} // namespace end def System::Net::Http
 // Type: ::<GetStringAsync>d__53
-// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Http {
 // Is value type: true
 // CS Name: ::HttpClient::<GetStringAsync>d__53
 struct CORDL_TYPE __HttpClient___GetStringAsync_d__53 {
 public:
-  // Declarations
-  /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-  constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+// Declarations
+/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr operator  ::System::Runtime::CompilerServices::IAsyncStateMachine*() ;
 
-  /// @brief Method MoveNext, addr 0x2d9b458, size 0x4c4, virtual true, abstract: false, final true
-  inline void MoveNext();
+/// @brief Method MoveNext, addr 0x4186504, size 0x534, virtual true, abstract: false, final true
+inline void MoveNext() ;
 
-  /// @brief Method SetStateMachine, addr 0x2d9babc, size 0x58, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+/// @brief Method SetStateMachine, addr 0x4186bc0, size 0x7c, virtual true, abstract: false, final true
+inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine*  stateMachine) ;
 
-  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
+/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine() ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __HttpClient___GetStringAsync_d__53();
+// Ctor Parameters []
+// @brief default ctor
+constexpr __HttpClient___GetStringAsync_d__53() ;
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::StringW>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::System::Net::Http::HttpClient*", modifiers: "",
-  // def_value: None }, CppParam { name: "requestUri", ty: "::System::Uri*", modifiers: "", def_value: None }, CppParam { name: "_resp_5__2", ty: "::System::Net::Http::HttpResponseMessage*",
-  // modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<::System::Net::Http::HttpResponseMessage*>", modifiers: "", def_value: None }, CppParam { name: "__u__2",
-  // ty: "::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<::StringW>", modifiers: "", def_value: None }]
-  constexpr __HttpClient___GetStringAsync_d__53(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::StringW> __t__builder, ::System::Net::Http::HttpClient* __4__this,
-                                                ::System::Uri* requestUri, ::System::Net::Http::HttpResponseMessage* _resp_5__2,
-                                                ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<::System::Net::Http::HttpResponseMessage*> __u__1,
-                                                ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<::StringW> __u__2) noexcept;
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty: "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::StringW>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::System::Net::Http::HttpClient*", modifiers: "", def_value: None }, CppParam { name: "requestUri", ty: "::System::Uri*", modifiers: "", def_value: None }, CppParam { name: "_resp_5__2", ty: "::System::Net::Http::HttpResponseMessage*", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<::System::Net::Http::HttpResponseMessage*>", modifiers: "", def_value: None }, CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<::StringW>", modifiers: "", def_value: None }]
+constexpr __HttpClient___GetStringAsync_d__53(int32_t  __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::StringW>  __t__builder, ::System::Net::Http::HttpClient*  __4__this, ::System::Uri*  requestUri, ::System::Net::Http::HttpResponseMessage*  _resp_5__2, ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<::System::Net::Http::HttpResponseMessage*>  __u__1, ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<::StringW>  __u__2) noexcept;
 
-  /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
-  int32_t __1__state;
+/// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
+ int32_t  __1__state;
 
-  /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
-  ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::StringW> __t__builder;
+/// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
+ ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::StringW>  __t__builder;
 
-  /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
-  ::System::Net::Http::HttpClient* __4__this;
+/// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
+ ::System::Net::Http::HttpClient*  __4__this;
 
-  /// @brief Field requestUri, offset: 0x28, size: 0x8, def value: None
-  ::System::Uri* requestUri;
+/// @brief Field requestUri, offset: 0x28, size: 0x8, def value: None
+ ::System::Uri*  requestUri;
 
-  /// @brief Field <resp>5__2, offset: 0x30, size: 0x8, def value: None
-  ::System::Net::Http::HttpResponseMessage* _resp_5__2;
+/// @brief Field <resp>5__2, offset: 0x30, size: 0x8, def value: None
+ ::System::Net::Http::HttpResponseMessage*  _resp_5__2;
 
-  /// @brief Field <>u__1, offset: 0x38, size: 0x10, def value: None
-  ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<::System::Net::Http::HttpResponseMessage*> __u__1;
+/// @brief Field <>u__1, offset: 0x38, size: 0x10, def value: None
+ ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<::System::Net::Http::HttpResponseMessage*>  __u__1;
 
-  /// @brief Field <>u__2, offset: 0x48, size: 0x10, def value: None
-  ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<::StringW> __u__2;
+/// @brief Field <>u__2, offset: 0x48, size: 0x10, def value: None
+ ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<::StringW>  __u__2;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x58 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x58};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::Http::__HttpClient___GetStringAsync_d__53, 0x58>, "Size mismatch!");
@@ -252,162 +235,157 @@ static_assert(offsetof(::System::Net::Http::__HttpClient___GetStringAsync_d__53,
 
 static_assert(offsetof(::System::Net::Http::__HttpClient___GetStringAsync_d__53, __u__2) == 0x48, "Offset mismatch!");
 
-} // namespace System::Net::Http
+} // namespace end def System::Net::Http
 // Type: System.Net.Http::HttpClient
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Http {
 // Is value type: false
 // CS Name: ::System.Net.Http::HttpClient*
 class CORDL_TYPE HttpClient : public ::System::Net::Http::HttpMessageInvoker {
 public:
-  // Declarations
-  using _GetStringAsync_d__53 = ::System::Net::Http::__HttpClient___GetStringAsync_d__53;
+// Declarations
+using _GetStringAsync_d__53 = ::System::Net::Http::__HttpClient___GetStringAsync_d__53;
 
-  using _SendAsyncWorker_d__47 = ::System::Net::Http::__HttpClient___SendAsyncWorker_d__47;
+using _SendAsyncWorker_d__47 = ::System::Net::Http::__HttpClient___SendAsyncWorker_d__47;
 
-  __declspec(property(get = get_MaxResponseContentBufferSize)) int64_t MaxResponseContentBufferSize;
+ __declspec(property(get=get_MaxResponseContentBufferSize)) int64_t  MaxResponseContentBufferSize;
 
-  __declspec(property(put = set_Timeout))::System::TimeSpan Timeout;
+ __declspec(property(put=set_Timeout)) ::System::TimeSpan  Timeout;
 
-  /// @brief Field TimeoutDefault, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_TimeoutDefault, put = setStaticF_TimeoutDefault))::System::TimeSpan TimeoutDefault;
+/// @brief Field TimeoutDefault, offset 0xffffffff, size 0x8 
+static __declspec(property(get=getStaticF_TimeoutDefault, put=setStaticF_TimeoutDefault)) ::System::TimeSpan  TimeoutDefault;
 
-  /// @brief Field base_address, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_base_address, put = __cordl_internal_set_base_address))::System::Uri* base_address;
+/// @brief Field base_address, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get_base_address, put=__cordl_internal_set_base_address)) ::System::Uri*  base_address;
 
-  /// @brief Field buffer_size, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_buffer_size, put = __cordl_internal_set_buffer_size)) int64_t buffer_size;
+/// @brief Field buffer_size, offset 0x40, size 0x8 
+ __declspec(property(get=__cordl_internal_get_buffer_size, put=__cordl_internal_set_buffer_size)) int64_t  buffer_size;
 
-  /// @brief Field cts, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_cts, put = __cordl_internal_set_cts))::System::Threading::CancellationTokenSource* cts;
+/// @brief Field cts, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get_cts, put=__cordl_internal_set_cts)) ::System::Threading::CancellationTokenSource*  cts;
 
-  /// @brief Field disposed, offset 0x30, size 0x1
-  __declspec(property(get = __cordl_internal_get_disposed, put = __cordl_internal_set_disposed)) bool disposed;
+/// @brief Field disposed, offset 0x30, size 0x1 
+ __declspec(property(get=__cordl_internal_get_disposed, put=__cordl_internal_set_disposed)) bool  disposed;
 
-  /// @brief Field headers, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_headers, put = __cordl_internal_set_headers))::System::Net::Http::Headers::HttpRequestHeaders* headers;
+/// @brief Field headers, offset 0x38, size 0x8 
+ __declspec(property(get=__cordl_internal_get_headers, put=__cordl_internal_set_headers)) ::System::Net::Http::Headers::HttpRequestHeaders*  headers;
 
-  /// @brief Field timeout, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_timeout, put = __cordl_internal_set_timeout))::System::TimeSpan timeout;
+/// @brief Field timeout, offset 0x48, size 0x8 
+ __declspec(property(get=__cordl_internal_get_timeout, put=__cordl_internal_set_timeout)) ::System::TimeSpan  timeout;
 
-  /// @brief Method Dispose, addr 0x2d9a384, size 0x6c, virtual true, abstract: false, final false
-  inline void Dispose(bool disposing);
+/// @brief Method Dispose, addr 0x41853f0, size 0x6c, virtual true, abstract: false, final false
+inline void Dispose(bool  disposing) ;
 
-  /// @brief Method GetAsync, addr 0x2d9a428, size 0xdc, virtual false, abstract: false, final false
-  inline ::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage*>* GetAsync(::System::Uri* requestUri, ::System::Net::Http::HttpCompletionOption completionOption);
+/// @brief Method GetAsync, addr 0x4185494, size 0xd4, virtual false, abstract: false, final false
+inline ::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage*>* GetAsync(::System::Uri*  requestUri, ::System::Net::Http::HttpCompletionOption  completionOption) ;
 
-  /// @brief Method GetStringAsync, addr 0x2d9ac24, size 0x100, virtual false, abstract: false, final false
-  inline ::System::Threading::Tasks::Task_1<::StringW>* GetStringAsync(::System::Uri* requestUri);
+/// @brief Method GetStringAsync, addr 0x4185c58, size 0xf0, virtual false, abstract: false, final false
+inline ::System::Threading::Tasks::Task_1<::StringW>* GetStringAsync(::System::Uri*  requestUri) ;
 
-  static inline ::System::Net::Http::HttpClient* New_ctor();
+static inline ::System::Net::Http::HttpClient* New_ctor() ;
 
-  static inline ::System::Net::Http::HttpClient* New_ctor(::System::Net::Http::HttpMessageHandler* handler, bool disposeHandler);
+static inline ::System::Net::Http::HttpClient* New_ctor(::System::Net::Http::HttpMessageHandler*  handler, bool  disposeHandler) ;
 
-  /// @brief Method SendAsync, addr 0x2d9a848, size 0xc, virtual true, abstract: false, final false
-  inline ::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage*>* SendAsync(::System::Net::Http::HttpRequestMessage* request,
-                                                                                                  ::System::Threading::CancellationToken cancellationToken);
+/// @brief Method SendAsync, addr 0x4185894, size 0xc, virtual true, abstract: false, final false
+inline ::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage*>* SendAsync(::System::Net::Http::HttpRequestMessage*  request, ::System::Threading::CancellationToken  cancellationToken) ;
 
-  /// @brief Method SendAsync, addr 0x2d9a540, size 0x78, virtual false, abstract: false, final false
-  inline ::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage*>* SendAsync(::System::Net::Http::HttpRequestMessage* request,
-                                                                                                  ::System::Net::Http::HttpCompletionOption completionOption);
+/// @brief Method SendAsync, addr 0x41855a4, size 0x78, virtual false, abstract: false, final false
+inline ::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage*>* SendAsync(::System::Net::Http::HttpRequestMessage*  request, ::System::Net::Http::HttpCompletionOption  completionOption) ;
 
-  /// @brief Method SendAsync, addr 0x2d9a5b8, size 0x290, virtual false, abstract: false, final false
-  inline ::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage*>*
-  SendAsync(::System::Net::Http::HttpRequestMessage* request, ::System::Net::Http::HttpCompletionOption completionOption, ::System::Threading::CancellationToken cancellationToken);
+/// @brief Method SendAsync, addr 0x418561c, size 0x278, virtual false, abstract: false, final false
+inline ::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage*>* SendAsync(::System::Net::Http::HttpRequestMessage*  request, ::System::Net::Http::HttpCompletionOption  completionOption, ::System::Threading::CancellationToken  cancellationToken) ;
 
-  /// @brief Method SendAsyncWorker, addr 0x2d9ab0c, size 0x118, virtual false, abstract: false, final false
-  inline ::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage*>*
-  SendAsyncWorker(::System::Net::Http::HttpRequestMessage* request, ::System::Net::Http::HttpCompletionOption completionOption, ::System::Threading::CancellationToken cancellationToken);
+/// @brief Method SendAsyncWorker, addr 0x4185b50, size 0x108, virtual false, abstract: false, final false
+inline ::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage*>* SendAsyncWorker(::System::Net::Http::HttpRequestMessage*  request, ::System::Net::Http::HttpCompletionOption  completionOption, ::System::Threading::CancellationToken  cancellationToken) ;
 
-  constexpr ::System::Uri*& __cordl_internal_get_base_address();
+constexpr ::System::Uri*& __cordl_internal_get_base_address() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Uri*> const& __cordl_internal_get_base_address() const;
+constexpr ::cordl_internals::to_const_pointer<::System::Uri*> const& __cordl_internal_get_base_address() const;
 
-  constexpr int64_t const& __cordl_internal_get_buffer_size() const;
+constexpr int64_t const& __cordl_internal_get_buffer_size() const;
 
-  constexpr int64_t& __cordl_internal_get_buffer_size();
+constexpr int64_t& __cordl_internal_get_buffer_size() ;
 
-  constexpr ::System::Threading::CancellationTokenSource*& __cordl_internal_get_cts();
+constexpr ::System::Threading::CancellationTokenSource*& __cordl_internal_get_cts() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::CancellationTokenSource*> const& __cordl_internal_get_cts() const;
+constexpr ::cordl_internals::to_const_pointer<::System::Threading::CancellationTokenSource*> const& __cordl_internal_get_cts() const;
 
-  constexpr bool const& __cordl_internal_get_disposed() const;
+constexpr bool const& __cordl_internal_get_disposed() const;
 
-  constexpr bool& __cordl_internal_get_disposed();
+constexpr bool& __cordl_internal_get_disposed() ;
 
-  constexpr ::System::Net::Http::Headers::HttpRequestHeaders*& __cordl_internal_get_headers();
+constexpr ::System::Net::Http::Headers::HttpRequestHeaders*& __cordl_internal_get_headers() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::Http::Headers::HttpRequestHeaders*> const& __cordl_internal_get_headers() const;
+constexpr ::cordl_internals::to_const_pointer<::System::Net::Http::Headers::HttpRequestHeaders*> const& __cordl_internal_get_headers() const;
 
-  constexpr ::System::TimeSpan const& __cordl_internal_get_timeout() const;
+constexpr ::System::TimeSpan const& __cordl_internal_get_timeout() const;
 
-  constexpr ::System::TimeSpan& __cordl_internal_get_timeout();
+constexpr ::System::TimeSpan& __cordl_internal_get_timeout() ;
 
-  constexpr void __cordl_internal_set_base_address(::System::Uri* value);
+constexpr void __cordl_internal_set_base_address(::System::Uri*  value) ;
 
-  constexpr void __cordl_internal_set_buffer_size(int64_t value);
+constexpr void __cordl_internal_set_buffer_size(int64_t  value) ;
 
-  constexpr void __cordl_internal_set_cts(::System::Threading::CancellationTokenSource* value);
+constexpr void __cordl_internal_set_cts(::System::Threading::CancellationTokenSource*  value) ;
 
-  constexpr void __cordl_internal_set_disposed(bool value);
+constexpr void __cordl_internal_set_disposed(bool  value) ;
 
-  constexpr void __cordl_internal_set_headers(::System::Net::Http::Headers::HttpRequestHeaders* value);
+constexpr void __cordl_internal_set_headers(::System::Net::Http::Headers::HttpRequestHeaders*  value) ;
 
-  constexpr void __cordl_internal_set_timeout(::System::TimeSpan value);
+constexpr void __cordl_internal_set_timeout(::System::TimeSpan  value) ;
 
-  /// @brief Method <>n__0, addr 0x2d9ada0, size 0x20, virtual false, abstract: false, final false
-  inline ::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage*>* __n__0(::System::Net::Http::HttpRequestMessage* request,
-                                                                                               ::System::Threading::CancellationToken cancellationToken);
+/// @brief Method <>n__0, addr 0x4185dc4, size 0x20, virtual false, abstract: false, final false
+inline ::System::Threading::Tasks::Task_1<::System::Net::Http::HttpResponseMessage*>* __n__0(::System::Net::Http::HttpRequestMessage*  request, ::System::Threading::CancellationToken  cancellationToken) ;
 
-  /// @brief Method .ctor, addr 0x2d9a0a4, size 0x64, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x418511c, size 0x5c, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method .ctor, addr 0x2d9a108, size 0xbc, virtual false, abstract: false, final false
-  inline void _ctor(::System::Net::Http::HttpMessageHandler* handler, bool disposeHandler);
+/// @brief Method .ctor, addr 0x4185178, size 0xb4, virtual false, abstract: false, final false
+inline void _ctor(::System::Net::Http::HttpMessageHandler*  handler, bool  disposeHandler) ;
 
-  static inline ::System::TimeSpan getStaticF_TimeoutDefault();
+static inline ::System::TimeSpan getStaticF_TimeoutDefault() ;
 
-  /// @brief Method get_MaxResponseContentBufferSize, addr 0x2d9a248, size 0x8, virtual false, abstract: false, final false
-  inline int64_t get_MaxResponseContentBufferSize();
+/// @brief Method get_MaxResponseContentBufferSize, addr 0x41852ac, size 0x8, virtual false, abstract: false, final false
+inline int64_t get_MaxResponseContentBufferSize() ;
 
-  static inline void setStaticF_TimeoutDefault(::System::TimeSpan value);
+static inline void setStaticF_TimeoutDefault(::System::TimeSpan  value) ;
 
-  /// @brief Method set_Timeout, addr 0x2d9a250, size 0x134, virtual false, abstract: false, final false
-  inline void set_Timeout(::System::TimeSpan value);
+/// @brief Method set_Timeout, addr 0x41852b4, size 0x13c, virtual false, abstract: false, final false
+inline void set_Timeout(::System::TimeSpan  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HttpClient();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr HttpClient() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HttpClient", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  HttpClient(HttpClient&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HttpClient", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  HttpClient(HttpClient const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "HttpClient", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+HttpClient(HttpClient && ) = delete;
 
-  /// @brief Field base_address, offset: 0x20, size: 0x8, def value: None
-  ::System::Uri* ___base_address;
+// Ctor Parameters [CppParam { name: "", ty: "HttpClient", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+HttpClient(HttpClient const& ) = delete;
 
-  /// @brief Field cts, offset: 0x28, size: 0x8, def value: None
-  ::System::Threading::CancellationTokenSource* ___cts;
+/// @brief Field base_address, offset: 0x20, size: 0x8, def value: None
+ ::System::Uri*  ___base_address;
 
-  /// @brief Field disposed, offset: 0x30, size: 0x1, def value: None
-  bool ___disposed;
+/// @brief Field cts, offset: 0x28, size: 0x8, def value: None
+ ::System::Threading::CancellationTokenSource*  ___cts;
 
-  /// @brief Field headers, offset: 0x38, size: 0x8, def value: None
-  ::System::Net::Http::Headers::HttpRequestHeaders* ___headers;
+/// @brief Field disposed, offset: 0x30, size: 0x1, def value: None
+ bool  ___disposed;
 
-  /// @brief Field buffer_size, offset: 0x40, size: 0x8, def value: None
-  int64_t ___buffer_size;
+/// @brief Field headers, offset: 0x38, size: 0x8, def value: None
+ ::System::Net::Http::Headers::HttpRequestHeaders*  ___headers;
 
-  /// @brief Field timeout, offset: 0x48, size: 0x8, def value: None
-  ::System::TimeSpan ___timeout;
+/// @brief Field buffer_size, offset: 0x40, size: 0x8, def value: None
+ int64_t  ___buffer_size;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field timeout, offset: 0x48, size: 0x8, def value: None
+ ::System::TimeSpan  ___timeout;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::Http::HttpClient, 0x50>, "Size mismatch!");
@@ -424,7 +402,7 @@ static_assert(offsetof(::System::Net::Http::HttpClient, ___buffer_size) == 0x40,
 
 static_assert(offsetof(::System::Net::Http::HttpClient, ___timeout) == 0x48, "Offset mismatch!");
 
-} // namespace System::Net::Http
+} // namespace end def System::Net::Http
 NEED_NO_BOX(::System::Net::Http::HttpClient);
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::Http::HttpClient*, "System.Net.Http", "HttpClient");
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::Http::__HttpClient___GetStringAsync_d__53, "System.Net.Http", "HttpClient/<GetStringAsync>d__53");

@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "System/Security/CodeAccessPermission.hpp"
 #include "System/Security/IPermission.hpp"
@@ -16,5 +16,6 @@ module;
 #include "System/Security/SecurityManager.hpp"
 #include "System/Security/XmlSyntaxException.hpp"
 #ifdef __cpp_modules
-export module Security;
-#endif
+                    export module Security;
+                    #endif
+                

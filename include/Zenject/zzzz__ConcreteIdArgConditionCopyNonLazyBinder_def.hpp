@@ -21,40 +21,40 @@ class ConcreteIdArgConditionCopyNonLazyBinder;
 // Write type traits
 MARK_REF_PTR_T(::Zenject::ConcreteIdArgConditionCopyNonLazyBinder);
 // Type: Zenject::ConcreteIdArgConditionCopyNonLazyBinder
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
 // CS Name: ::Zenject::ConcreteIdArgConditionCopyNonLazyBinder*
 class CORDL_TYPE ConcreteIdArgConditionCopyNonLazyBinder : public ::Zenject::ArgConditionCopyNonLazyBinder {
 public:
-  // Declarations
-  static inline ::Zenject::ConcreteIdArgConditionCopyNonLazyBinder* New_ctor(::Zenject::BindInfo* bindInfo);
+// Declarations
+static inline ::Zenject::ConcreteIdArgConditionCopyNonLazyBinder* New_ctor(::Zenject::BindInfo*  bindInfo) ;
 
-  /// @brief Method WithConcreteId, addr 0x365e3e0, size 0x1c, virtual false, abstract: false, final false
-  inline ::Zenject::ArgConditionCopyNonLazyBinder* WithConcreteId(::System::Object* id);
+/// @brief Method WithConcreteId, addr 0x4a69b70, size 0x1c, virtual false, abstract: false, final false
+inline ::Zenject::ArgConditionCopyNonLazyBinder* WithConcreteId(::System::Object*  id) ;
 
-  /// @brief Method .ctor, addr 0x365e3d8, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::Zenject::BindInfo* bindInfo);
+/// @brief Method .ctor, addr 0x4a69b68, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(::Zenject::BindInfo*  bindInfo) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ConcreteIdArgConditionCopyNonLazyBinder();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ConcreteIdArgConditionCopyNonLazyBinder() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ConcreteIdArgConditionCopyNonLazyBinder", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ConcreteIdArgConditionCopyNonLazyBinder(ConcreteIdArgConditionCopyNonLazyBinder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ConcreteIdArgConditionCopyNonLazyBinder", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ConcreteIdArgConditionCopyNonLazyBinder(ConcreteIdArgConditionCopyNonLazyBinder const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ConcreteIdArgConditionCopyNonLazyBinder", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ConcreteIdArgConditionCopyNonLazyBinder(ConcreteIdArgConditionCopyNonLazyBinder && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "ConcreteIdArgConditionCopyNonLazyBinder", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ConcreteIdArgConditionCopyNonLazyBinder(ConcreteIdArgConditionCopyNonLazyBinder const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Zenject::ConcreteIdArgConditionCopyNonLazyBinder, 0x20>, "Size mismatch!");
 
-} // namespace Zenject
+} // namespace end def Zenject
 NEED_NO_BOX(::Zenject::ConcreteIdArgConditionCopyNonLazyBinder);
 DEFINE_IL2CPP_ARG_TYPE(::Zenject::ConcreteIdArgConditionCopyNonLazyBinder*, "Zenject", "ConcreteIdArgConditionCopyNonLazyBinder");

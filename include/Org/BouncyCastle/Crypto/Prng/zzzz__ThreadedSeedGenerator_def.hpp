@@ -24,66 +24,66 @@ class __ThreadedSeedGenerator__SeedGenerator;
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Prng::ThreadedSeedGenerator);
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Prng::__ThreadedSeedGenerator__SeedGenerator);
 // Type: ::SeedGenerator
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 21, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 21, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Prng {
 // Is value type: false
 // CS Name: ::ThreadedSeedGenerator::SeedGenerator*
 class CORDL_TYPE __ThreadedSeedGenerator__SeedGenerator : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field counter, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_counter, put = __cordl_internal_set_counter)) int32_t counter;
+// Declarations
+/// @brief Field counter, offset 0x10, size 0x4 
+ __declspec(property(get=__cordl_internal_get_counter, put=__cordl_internal_set_counter)) int32_t  counter;
 
-  /// @brief Field stop, offset 0x14, size 0x1
-  __declspec(property(get = __cordl_internal_get_stop, put = __cordl_internal_set_stop)) bool stop;
+/// @brief Field stop, offset 0x14, size 0x1 
+ __declspec(property(get=__cordl_internal_get_stop, put=__cordl_internal_set_stop)) bool  stop;
 
-  /// @brief Method DoGenerateSeed, addr 0x11b6140, size 0x204, virtual false, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> DoGenerateSeed(int32_t numBytes, bool fast);
+/// @brief Method DoGenerateSeed, addr 0x237ff68, size 0x200, virtual false, abstract: false, final false
+inline ::ArrayW<uint8_t,::Array<uint8_t>*> DoGenerateSeed(int32_t  numBytes, bool  fast) ;
 
-  /// @brief Method GenerateSeed, addr 0x11b5fec, size 0x108, virtual false, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GenerateSeed(int32_t numBytes, bool fast);
+/// @brief Method GenerateSeed, addr 0x237fe14, size 0x108, virtual false, abstract: false, final false
+inline ::ArrayW<uint8_t,::Array<uint8_t>*> GenerateSeed(int32_t  numBytes, bool  fast) ;
 
-  static inline ::Org::BouncyCastle::Crypto::Prng::__ThreadedSeedGenerator__SeedGenerator* New_ctor();
+static inline ::Org::BouncyCastle::Crypto::Prng::__ThreadedSeedGenerator__SeedGenerator* New_ctor() ;
 
-  /// @brief Method Run, addr 0x11b60fc, size 0x44, virtual false, abstract: false, final false
-  inline void Run(::System::Object* ignored);
+/// @brief Method Run, addr 0x237ff24, size 0x44, virtual false, abstract: false, final false
+inline void Run(::System::Object*  ignored) ;
 
-  constexpr int32_t const& __cordl_internal_get_counter() const;
+constexpr int32_t const& __cordl_internal_get_counter() const;
 
-  constexpr int32_t& __cordl_internal_get_counter();
+constexpr int32_t& __cordl_internal_get_counter() ;
 
-  constexpr bool const& __cordl_internal_get_stop() const;
+constexpr bool const& __cordl_internal_get_stop() const;
 
-  constexpr bool& __cordl_internal_get_stop();
+constexpr bool& __cordl_internal_get_stop() ;
 
-  constexpr void __cordl_internal_set_counter(int32_t value);
+constexpr void __cordl_internal_set_counter(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_stop(bool value);
+constexpr void __cordl_internal_set_stop(bool  value) ;
 
-  /// @brief Method .ctor, addr 0x11b5fc4, size 0x28, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x237fdec, size 0x28, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __ThreadedSeedGenerator__SeedGenerator();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __ThreadedSeedGenerator__SeedGenerator() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__ThreadedSeedGenerator__SeedGenerator", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __ThreadedSeedGenerator__SeedGenerator(__ThreadedSeedGenerator__SeedGenerator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__ThreadedSeedGenerator__SeedGenerator", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __ThreadedSeedGenerator__SeedGenerator(__ThreadedSeedGenerator__SeedGenerator const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__ThreadedSeedGenerator__SeedGenerator", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__ThreadedSeedGenerator__SeedGenerator(__ThreadedSeedGenerator__SeedGenerator && ) = delete;
 
-  /// @brief Field counter, offset: 0x10, size: 0x4, def value: None
-  int32_t ___counter;
+// Ctor Parameters [CppParam { name: "", ty: "__ThreadedSeedGenerator__SeedGenerator", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__ThreadedSeedGenerator__SeedGenerator(__ThreadedSeedGenerator__SeedGenerator const& ) = delete;
 
-  /// @brief Field stop, offset: 0x14, size: 0x1, def value: None
-  bool ___stop;
+/// @brief Field counter, offset: 0x10, size: 0x4, def value: None
+ int32_t  ___counter;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field stop, offset: 0x14, size: 0x1, def value: None
+ bool  ___stop;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Prng::__ThreadedSeedGenerator__SeedGenerator, 0x18>, "Size mismatch!");
@@ -92,45 +92,45 @@ static_assert(offsetof(::Org::BouncyCastle::Crypto::Prng::__ThreadedSeedGenerato
 
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Prng::__ThreadedSeedGenerator__SeedGenerator, ___stop) == 0x14, "Offset mismatch!");
 
-} // namespace Org::BouncyCastle::Crypto::Prng
+} // namespace end def Org::BouncyCastle::Crypto::Prng
 // Type: Org.BouncyCastle.Crypto.Prng::ThreadedSeedGenerator
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Prng {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Prng::ThreadedSeedGenerator*
 class CORDL_TYPE ThreadedSeedGenerator : public ::System::Object {
 public:
-  // Declarations
-  using SeedGenerator = ::Org::BouncyCastle::Crypto::Prng::__ThreadedSeedGenerator__SeedGenerator;
+// Declarations
+using SeedGenerator = ::Org::BouncyCastle::Crypto::Prng::__ThreadedSeedGenerator__SeedGenerator;
 
-  /// @brief Method GenerateSeed, addr 0x11b5f3c, size 0x88, virtual false, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GenerateSeed(int32_t numBytes, bool fast);
+/// @brief Method GenerateSeed, addr 0x237fd6c, size 0x80, virtual false, abstract: false, final false
+inline ::ArrayW<uint8_t,::Array<uint8_t>*> GenerateSeed(int32_t  numBytes, bool  fast) ;
 
-  static inline ::Org::BouncyCastle::Crypto::Prng::ThreadedSeedGenerator* New_ctor();
+static inline ::Org::BouncyCastle::Crypto::Prng::ThreadedSeedGenerator* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x11b60f4, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x237ff1c, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ThreadedSeedGenerator();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ThreadedSeedGenerator() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ThreadedSeedGenerator", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ThreadedSeedGenerator(ThreadedSeedGenerator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ThreadedSeedGenerator", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ThreadedSeedGenerator(ThreadedSeedGenerator const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ThreadedSeedGenerator", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ThreadedSeedGenerator(ThreadedSeedGenerator && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "ThreadedSeedGenerator", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ThreadedSeedGenerator(ThreadedSeedGenerator const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Prng::ThreadedSeedGenerator, 0x10>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Crypto::Prng
+} // namespace end def Org::BouncyCastle::Crypto::Prng
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Prng::ThreadedSeedGenerator);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Prng::ThreadedSeedGenerator*, "Org.BouncyCastle.Crypto.Prng", "ThreadedSeedGenerator");
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Prng::__ThreadedSeedGenerator__SeedGenerator);

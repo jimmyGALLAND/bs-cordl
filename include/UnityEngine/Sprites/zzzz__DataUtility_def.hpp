@@ -21,44 +21,44 @@ class DataUtility;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::Sprites::DataUtility);
 // Type: UnityEngine.Sprites::DataUtility
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Sprites {
 // Is value type: false
 // CS Name: ::UnityEngine.Sprites::DataUtility*
 class CORDL_TYPE DataUtility : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method GetInnerUV, addr 0x345d480, size 0x10, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Vector4 GetInnerUV(::UnityEngine::Sprite* sprite);
+// Declarations
+/// @brief Method GetInnerUV, addr 0x482a29c, size 0x10, virtual false, abstract: false, final false
+static inline ::UnityEngine::Vector4 GetInnerUV(::UnityEngine::Sprite*  sprite) ;
 
-  /// @brief Method GetMinSize, addr 0x345d4b0, size 0x50, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Vector2 GetMinSize(::UnityEngine::Sprite* sprite);
+/// @brief Method GetMinSize, addr 0x482a2cc, size 0x50, virtual false, abstract: false, final false
+static inline ::UnityEngine::Vector2 GetMinSize(::UnityEngine::Sprite*  sprite) ;
 
-  /// @brief Method GetOuterUV, addr 0x345d490, size 0x10, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Vector4 GetOuterUV(::UnityEngine::Sprite* sprite);
+/// @brief Method GetOuterUV, addr 0x482a2ac, size 0x10, virtual false, abstract: false, final false
+static inline ::UnityEngine::Vector4 GetOuterUV(::UnityEngine::Sprite*  sprite) ;
 
-  /// @brief Method GetPadding, addr 0x345d4a0, size 0x10, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Vector4 GetPadding(::UnityEngine::Sprite* sprite);
+/// @brief Method GetPadding, addr 0x482a2bc, size 0x10, virtual false, abstract: false, final false
+static inline ::UnityEngine::Vector4 GetPadding(::UnityEngine::Sprite*  sprite) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DataUtility();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr DataUtility() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DataUtility", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  DataUtility(DataUtility&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DataUtility", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  DataUtility(DataUtility const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "DataUtility", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+DataUtility(DataUtility && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "DataUtility", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+DataUtility(DataUtility const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Sprites::DataUtility, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine::Sprites
+} // namespace end def UnityEngine::Sprites
 NEED_NO_BOX(::UnityEngine::Sprites::DataUtility);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Sprites::DataUtility*, "UnityEngine.Sprites", "DataUtility");

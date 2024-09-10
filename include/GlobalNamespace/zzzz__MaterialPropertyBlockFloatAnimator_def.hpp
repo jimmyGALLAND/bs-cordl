@@ -13,54 +13,54 @@ class MaterialPropertyBlockFloatAnimator;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MaterialPropertyBlockFloatAnimator);
 // Type: ::MaterialPropertyBlockFloatAnimator
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 60, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::MaterialPropertyBlockFloatAnimator*
 class CORDL_TYPE MaterialPropertyBlockFloatAnimator : public ::GlobalNamespace::MaterialPropertyBlockAnimator {
 public:
-  // Declarations
-  /// @brief Field _value, offset 0x30, size 0x4
-  __declspec(property(get = __cordl_internal_get__value, put = __cordl_internal_set__value)) float_t _value;
+// Declarations
+/// @brief Field _value, offset 0x38, size 0x4 
+ __declspec(property(get=__cordl_internal_get__value, put=__cordl_internal_set__value)) float_t  _value;
 
-  static inline ::GlobalNamespace::MaterialPropertyBlockFloatAnimator* New_ctor();
+static inline ::GlobalNamespace::MaterialPropertyBlockFloatAnimator* New_ctor() ;
 
-  /// @brief Method SetProperty, addr 0x2525140, size 0x30, virtual true, abstract: false, final false
-  inline void SetProperty();
+/// @brief Method SetProperty, addr 0x3962fdc, size 0x30, virtual true, abstract: false, final false
+inline void SetProperty() ;
 
-  constexpr float_t const& __cordl_internal_get__value() const;
+constexpr float_t const& __cordl_internal_get__value() const;
 
-  constexpr float_t& __cordl_internal_get__value();
+constexpr float_t& __cordl_internal_get__value() ;
 
-  constexpr void __cordl_internal_set__value(float_t value);
+constexpr void __cordl_internal_set__value(float_t  value) ;
 
-  /// @brief Method .ctor, addr 0x2525170, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x396300c, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MaterialPropertyBlockFloatAnimator();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr MaterialPropertyBlockFloatAnimator() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MaterialPropertyBlockFloatAnimator", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  MaterialPropertyBlockFloatAnimator(MaterialPropertyBlockFloatAnimator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MaterialPropertyBlockFloatAnimator", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  MaterialPropertyBlockFloatAnimator(MaterialPropertyBlockFloatAnimator const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "MaterialPropertyBlockFloatAnimator", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+MaterialPropertyBlockFloatAnimator(MaterialPropertyBlockFloatAnimator && ) = delete;
 
-  /// @brief Field _value, offset: 0x30, size: 0x4, def value: None
-  float_t ____value;
+// Ctor Parameters [CppParam { name: "", ty: "MaterialPropertyBlockFloatAnimator", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+MaterialPropertyBlockFloatAnimator(MaterialPropertyBlockFloatAnimator const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _value, offset: 0x38, size: 0x4, def value: None
+ float_t  ____value;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MaterialPropertyBlockFloatAnimator, 0x38>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MaterialPropertyBlockFloatAnimator, 0x40>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::MaterialPropertyBlockFloatAnimator, ____value) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::MaterialPropertyBlockFloatAnimator, ____value) == 0x38, "Offset mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MaterialPropertyBlockFloatAnimator);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MaterialPropertyBlockFloatAnimator*, "", "MaterialPropertyBlockFloatAnimator");

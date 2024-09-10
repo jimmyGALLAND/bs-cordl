@@ -18,70 +18,68 @@ class StartupErrorFlowCoordinator;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::StartupErrorFlowCoordinator);
 // Type: ::StartupErrorFlowCoordinator
-// SizeInfo { instance_size: 184, native_size: -1, calculated_instance_size: 184, calculated_native_size: 184, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 192, native_size: -1, calculated_instance_size: 192, calculated_native_size: 192, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::StartupErrorFlowCoordinator*
 class CORDL_TYPE StartupErrorFlowCoordinator : public ::HMUI::FlowCoordinator {
 public:
-  // Declarations
-  /// @brief Field _startupErrorSceneSetupData, offset 0xb0, size 0x8
-  __declspec(property(get = __cordl_internal_get__startupErrorSceneSetupData,
-                      put = __cordl_internal_set__startupErrorSceneSetupData))::GlobalNamespace::StartupErrorSceneSetupData* _startupErrorSceneSetupData;
+// Declarations
+/// @brief Field _startupErrorSceneSetupData, offset 0xb8, size 0x8 
+ __declspec(property(get=__cordl_internal_get__startupErrorSceneSetupData, put=__cordl_internal_set__startupErrorSceneSetupData)) ::GlobalNamespace::StartupErrorSceneSetupData*  _startupErrorSceneSetupData;
 
-  /// @brief Field _startupErrorViewController, offset 0xa8, size 0x8
-  __declspec(property(get = __cordl_internal_get__startupErrorViewController,
-                      put = __cordl_internal_set__startupErrorViewController))::UnityW<::GlobalNamespace::StartupErrorViewController> _startupErrorViewController;
+/// @brief Field _startupErrorViewController, offset 0xb0, size 0x8 
+ __declspec(property(get=__cordl_internal_get__startupErrorViewController, put=__cordl_internal_set__startupErrorViewController)) ::UnityW<::GlobalNamespace::StartupErrorViewController>  _startupErrorViewController;
 
-  /// @brief Method DidActivate, addr 0x2652db0, size 0x74, virtual true, abstract: false, final false
-  inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
+/// @brief Method DidActivate, addr 0x3b72a54, size 0x74, virtual true, abstract: false, final false
+inline void DidActivate(bool  firstActivation, bool  addedToHierarchy, bool  screenSystemEnabling) ;
 
-  static inline ::GlobalNamespace::StartupErrorFlowCoordinator* New_ctor();
+static inline ::GlobalNamespace::StartupErrorFlowCoordinator* New_ctor() ;
 
-  constexpr ::GlobalNamespace::StartupErrorSceneSetupData*& __cordl_internal_get__startupErrorSceneSetupData();
+constexpr ::GlobalNamespace::StartupErrorSceneSetupData*& __cordl_internal_get__startupErrorSceneSetupData() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::StartupErrorSceneSetupData*> const& __cordl_internal_get__startupErrorSceneSetupData() const;
+constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::StartupErrorSceneSetupData*> const& __cordl_internal_get__startupErrorSceneSetupData() const;
 
-  constexpr ::UnityW<::GlobalNamespace::StartupErrorViewController> const& __cordl_internal_get__startupErrorViewController() const;
+constexpr ::UnityW<::GlobalNamespace::StartupErrorViewController> const& __cordl_internal_get__startupErrorViewController() const;
 
-  constexpr ::UnityW<::GlobalNamespace::StartupErrorViewController>& __cordl_internal_get__startupErrorViewController();
+constexpr ::UnityW<::GlobalNamespace::StartupErrorViewController>& __cordl_internal_get__startupErrorViewController() ;
 
-  constexpr void __cordl_internal_set__startupErrorSceneSetupData(::GlobalNamespace::StartupErrorSceneSetupData* value);
+constexpr void __cordl_internal_set__startupErrorSceneSetupData(::GlobalNamespace::StartupErrorSceneSetupData*  value) ;
 
-  constexpr void __cordl_internal_set__startupErrorViewController(::UnityW<::GlobalNamespace::StartupErrorViewController> value);
+constexpr void __cordl_internal_set__startupErrorViewController(::UnityW<::GlobalNamespace::StartupErrorViewController>  value) ;
 
-  /// @brief Method .ctor, addr 0x2652e24, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x3b72ac8, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr StartupErrorFlowCoordinator();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr StartupErrorFlowCoordinator() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StartupErrorFlowCoordinator", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  StartupErrorFlowCoordinator(StartupErrorFlowCoordinator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StartupErrorFlowCoordinator", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  StartupErrorFlowCoordinator(StartupErrorFlowCoordinator const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "StartupErrorFlowCoordinator", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+StartupErrorFlowCoordinator(StartupErrorFlowCoordinator && ) = delete;
 
-  /// @brief Field _startupErrorViewController, offset: 0xa8, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::StartupErrorViewController> ____startupErrorViewController;
+// Ctor Parameters [CppParam { name: "", ty: "StartupErrorFlowCoordinator", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+StartupErrorFlowCoordinator(StartupErrorFlowCoordinator const& ) = delete;
 
-  /// @brief Field _startupErrorSceneSetupData, offset: 0xb0, size: 0x8, def value: None
-  ::GlobalNamespace::StartupErrorSceneSetupData* ____startupErrorSceneSetupData;
+/// @brief Field _startupErrorViewController, offset: 0xb0, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::StartupErrorViewController>  ____startupErrorViewController;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _startupErrorSceneSetupData, offset: 0xb8, size: 0x8, def value: None
+ ::GlobalNamespace::StartupErrorSceneSetupData*  ____startupErrorSceneSetupData;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::StartupErrorFlowCoordinator, 0xb8>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::StartupErrorFlowCoordinator, 0xc0>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::StartupErrorFlowCoordinator, ____startupErrorViewController) == 0xa8, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::StartupErrorFlowCoordinator, ____startupErrorViewController) == 0xb0, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::StartupErrorFlowCoordinator, ____startupErrorSceneSetupData) == 0xb0, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::StartupErrorFlowCoordinator, ____startupErrorSceneSetupData) == 0xb8, "Offset mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::StartupErrorFlowCoordinator);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::StartupErrorFlowCoordinator*, "", "StartupErrorFlowCoordinator");

@@ -18,43 +18,43 @@ class SimpleChannel;
 // Write type traits
 MARK_REF_PTR_T(::LiteNetLib::SimpleChannel);
 // Type: LiteNetLib::SimpleChannel
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace LiteNetLib {
 // Is value type: false
 // CS Name: ::LiteNetLib::SimpleChannel*
 class CORDL_TYPE SimpleChannel : public ::LiteNetLib::BaseChannel {
 public:
-  // Declarations
-  static inline ::LiteNetLib::SimpleChannel* New_ctor(::LiteNetLib::NetPeer* peer);
+// Declarations
+static inline ::LiteNetLib::SimpleChannel* New_ctor(::LiteNetLib::NetPeer*  peer) ;
 
-  /// @brief Method ProcessPacket, addr 0x2618328, size 0x8, virtual true, abstract: false, final false
-  inline bool ProcessPacket(::LiteNetLib::NetPacket* packet);
+/// @brief Method ProcessPacket, addr 0x3a38030, size 0x8, virtual true, abstract: false, final false
+inline bool ProcessPacket(::LiteNetLib::NetPacket*  packet) ;
 
-  /// @brief Method SendNextPackets, addr 0x26181b8, size 0x170, virtual true, abstract: false, final false
-  inline void SendNextPackets();
+/// @brief Method SendNextPackets, addr 0x3a37ec0, size 0x170, virtual true, abstract: false, final false
+inline void SendNextPackets() ;
 
-  /// @brief Method .ctor, addr 0x26181b4, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor(::LiteNetLib::NetPeer* peer);
+/// @brief Method .ctor, addr 0x3a37ebc, size 0x4, virtual false, abstract: false, final false
+inline void _ctor(::LiteNetLib::NetPeer*  peer) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SimpleChannel();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr SimpleChannel() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SimpleChannel", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  SimpleChannel(SimpleChannel&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SimpleChannel", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  SimpleChannel(SimpleChannel const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "SimpleChannel", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+SimpleChannel(SimpleChannel && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "SimpleChannel", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+SimpleChannel(SimpleChannel const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::LiteNetLib::SimpleChannel, 0x28>, "Size mismatch!");
 
-} // namespace LiteNetLib
+} // namespace end def LiteNetLib
 NEED_NO_BOX(::LiteNetLib::SimpleChannel);
 DEFINE_IL2CPP_ARG_TYPE(::LiteNetLib::SimpleChannel*, "LiteNetLib", "SimpleChannel");

@@ -9,13 +9,16 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(StyleSelectorHelper)
 namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class IDictionary_2;
+template<typename TKey,typename TValue>
+class IDictionary_2;
 }
 namespace System::Collections::Generic {
-template <typename T> class List_1;
+template<typename T>
+class List_1;
 }
 namespace System {
-template <typename T1, typename T2> class Action_2;
+template<typename T1,typename T2>
+class Action_2;
 }
 namespace UnityEngine::UIElements::StyleSheets {
 struct MatchResultInfo;
@@ -42,48 +45,44 @@ class StyleSelectorHelper;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::StyleSheets::StyleSelectorHelper);
 // Type: UnityEngine.UIElements.StyleSheets::StyleSelectorHelper
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::StyleSheets {
 // Is value type: false
 // CS Name: ::UnityEngine.UIElements.StyleSheets::StyleSelectorHelper*
 class CORDL_TYPE StyleSelectorHelper : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method FastLookup, addr 0x3580020, size 0x1c4, virtual false, abstract: false, final false
-  static inline void FastLookup(::System::Collections::Generic::IDictionary_2<::StringW, ::UnityEngine::UIElements::StyleComplexSelector*>* table,
-                                ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord>* matchedSelectors,
-                                ::UnityEngine::UIElements::StyleMatchingContext* context, ::StringW input, ByRef<::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord> record);
+// Declarations
+/// @brief Method FastLookup, addr 0x4943b0c, size 0x1f0, virtual false, abstract: false, final false
+static inline void FastLookup(::System::Collections::Generic::IDictionary_2<::StringW,::UnityEngine::UIElements::StyleComplexSelector*>*  table, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord>*  matchedSelectors, ::UnityEngine::UIElements::StyleMatchingContext*  context, ::StringW  input, ByRef<::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord>  record) ;
 
-  /// @brief Method FindMatches, addr 0x35801e4, size 0x358, virtual false, abstract: false, final false
-  static inline void FindMatches(::UnityEngine::UIElements::StyleMatchingContext* context,
-                                 ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord>* matchedSelectors, int32_t parentSheetIndex);
+/// @brief Method FindMatches, addr 0x4943cfc, size 0x548, virtual false, abstract: false, final false
+static inline void FindMatches(::UnityEngine::UIElements::StyleMatchingContext*  context, ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleSheets::SelectorMatchRecord>*  matchedSelectors, int32_t  parentSheetIndex) ;
 
-  /// @brief Method MatchRightToLeft, addr 0x357fe58, size 0x1c8, virtual false, abstract: false, final false
-  static inline bool MatchRightToLeft(::UnityEngine::UIElements::VisualElement* element, ::UnityEngine::UIElements::StyleComplexSelector* complexSelector,
-                                      ::System::Action_2<::UnityEngine::UIElements::VisualElement*, ::UnityEngine::UIElements::StyleSheets::MatchResultInfo>* processResult);
+/// @brief Method MatchRightToLeft, addr 0x4943944, size 0x1c8, virtual false, abstract: false, final false
+static inline bool MatchRightToLeft(::UnityEngine::UIElements::VisualElement*  element, ::UnityEngine::UIElements::StyleComplexSelector*  complexSelector, ::System::Action_2<::UnityEngine::UIElements::VisualElement*,::UnityEngine::UIElements::StyleSheets::MatchResultInfo>*  processResult) ;
 
-  /// @brief Method MatchesSelector, addr 0x357fb9c, size 0x2bc, virtual false, abstract: false, final false
-  static inline ::UnityEngine::UIElements::StyleSheets::MatchResultInfo MatchesSelector(::UnityEngine::UIElements::VisualElement* element, ::UnityEngine::UIElements::StyleSelector* selector);
+/// @brief Method MatchesSelector, addr 0x4943688, size 0x2bc, virtual false, abstract: false, final false
+static inline ::UnityEngine::UIElements::StyleSheets::MatchResultInfo MatchesSelector(::UnityEngine::UIElements::VisualElement*  element, ::UnityEngine::UIElements::StyleSelector*  selector) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr StyleSelectorHelper();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr StyleSelectorHelper() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StyleSelectorHelper", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  StyleSelectorHelper(StyleSelectorHelper&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StyleSelectorHelper", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  StyleSelectorHelper(StyleSelectorHelper const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "StyleSelectorHelper", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+StyleSelectorHelper(StyleSelectorHelper && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "StyleSelectorHelper", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+StyleSelectorHelper(StyleSelectorHelper const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::StyleSheets::StyleSelectorHelper, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine::UIElements::StyleSheets
+} // namespace end def UnityEngine::UIElements::StyleSheets
 NEED_NO_BOX(::UnityEngine::UIElements::StyleSheets::StyleSelectorHelper);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::StyleSheets::StyleSelectorHelper*, "UnityEngine.UIElements.StyleSheets", "StyleSelectorHelper");

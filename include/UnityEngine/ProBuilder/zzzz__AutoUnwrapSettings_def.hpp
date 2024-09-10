@@ -34,295 +34,290 @@ MARK_VAL_T(::UnityEngine::ProBuilder::__AutoUnwrapSettings__Anchor);
 MARK_VAL_T(::UnityEngine::ProBuilder::__AutoUnwrapSettings__Fill);
 MARK_VAL_T(::UnityEngine::ProBuilder::AutoUnwrapSettings);
 // Type: ::Anchor
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: true
 // CS Name: ::AutoUnwrapSettings::Anchor
 struct CORDL_TYPE __AutoUnwrapSettings__Anchor {
 public:
-  // Declarations
-  using __CORDL_BACKING_ENUM_TYPE = int32_t;
+// Declarations
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct ____AutoUnwrapSettings__Anchor_Unwrapped
-  enum struct ____AutoUnwrapSettings__Anchor_Unwrapped : int32_t {
-    __E_UpperLeft = static_cast<int32_t>(0x0),
-    __E_UpperCenter = static_cast<int32_t>(0x1),
-    __E_UpperRight = static_cast<int32_t>(0x2),
-    __E_MiddleLeft = static_cast<int32_t>(0x3),
-    __E_MiddleCenter = static_cast<int32_t>(0x4),
-    __E_MiddleRight = static_cast<int32_t>(0x5),
-    __E_LowerLeft = static_cast<int32_t>(0x6),
-    __E_LowerCenter = static_cast<int32_t>(0x7),
-    __E_LowerRight = static_cast<int32_t>(0x8),
-    __E_None = static_cast<int32_t>(0x9),
-  };
+/// @brief Nested struct ____AutoUnwrapSettings__Anchor_Unwrapped
+enum struct ____AutoUnwrapSettings__Anchor_Unwrapped : int32_t {
+__E_UpperLeft = static_cast<int32_t>(0x0),
+__E_UpperCenter = static_cast<int32_t>(0x1),
+__E_UpperRight = static_cast<int32_t>(0x2),
+__E_MiddleLeft = static_cast<int32_t>(0x3),
+__E_MiddleCenter = static_cast<int32_t>(0x4),
+__E_MiddleRight = static_cast<int32_t>(0x5),
+__E_LowerLeft = static_cast<int32_t>(0x6),
+__E_LowerCenter = static_cast<int32_t>(0x7),
+__E_LowerRight = static_cast<int32_t>(0x8),
+__E_None = static_cast<int32_t>(0x9),
+};
 
-  /// @brief Conversion into unwrapped enum value
-  constexpr operator ____AutoUnwrapSettings__Anchor_Unwrapped() const noexcept {
-    return static_cast<____AutoUnwrapSettings__Anchor_Unwrapped>(this->value__);
-  }
+/// @brief Conversion into unwrapped enum value
+constexpr operator ____AutoUnwrapSettings__Anchor_Unwrapped () const noexcept {
+return static_cast<____AutoUnwrapSettings__Anchor_Unwrapped>(this->value__);
+}
 
-  /// @brief Conversion into unwrapped enum value
-  constexpr explicit operator int32_t() const noexcept {
-    return static_cast<int32_t>(this->value__);
-  }
+/// @brief Conversion into unwrapped enum value
+constexpr explicit operator int32_t () const noexcept {
+return static_cast<int32_t>(this->value__);
+}
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __AutoUnwrapSettings__Anchor();
+// Ctor Parameters []
+// @brief default ctor
+constexpr __AutoUnwrapSettings__Anchor() ;
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __AutoUnwrapSettings__Anchor(int32_t value__) noexcept;
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr __AutoUnwrapSettings__Anchor(int32_t  value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+/// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+ int32_t  value__;
 
-  /// @brief Field LowerCenter value: static_cast<int32_t>(0x7)
-  static ::UnityEngine::ProBuilder::__AutoUnwrapSettings__Anchor const LowerCenter;
+/// @brief Field LowerCenter value: static_cast<int32_t>(0x7)
+static ::UnityEngine::ProBuilder::__AutoUnwrapSettings__Anchor const LowerCenter;
 
-  /// @brief Field LowerLeft value: static_cast<int32_t>(0x6)
-  static ::UnityEngine::ProBuilder::__AutoUnwrapSettings__Anchor const LowerLeft;
+/// @brief Field LowerLeft value: static_cast<int32_t>(0x6)
+static ::UnityEngine::ProBuilder::__AutoUnwrapSettings__Anchor const LowerLeft;
 
-  /// @brief Field LowerRight value: static_cast<int32_t>(0x8)
-  static ::UnityEngine::ProBuilder::__AutoUnwrapSettings__Anchor const LowerRight;
+/// @brief Field LowerRight value: static_cast<int32_t>(0x8)
+static ::UnityEngine::ProBuilder::__AutoUnwrapSettings__Anchor const LowerRight;
 
-  /// @brief Field MiddleCenter value: static_cast<int32_t>(0x4)
-  static ::UnityEngine::ProBuilder::__AutoUnwrapSettings__Anchor const MiddleCenter;
+/// @brief Field MiddleCenter value: static_cast<int32_t>(0x4)
+static ::UnityEngine::ProBuilder::__AutoUnwrapSettings__Anchor const MiddleCenter;
 
-  /// @brief Field MiddleLeft value: static_cast<int32_t>(0x3)
-  static ::UnityEngine::ProBuilder::__AutoUnwrapSettings__Anchor const MiddleLeft;
+/// @brief Field MiddleLeft value: static_cast<int32_t>(0x3)
+static ::UnityEngine::ProBuilder::__AutoUnwrapSettings__Anchor const MiddleLeft;
 
-  /// @brief Field MiddleRight value: static_cast<int32_t>(0x5)
-  static ::UnityEngine::ProBuilder::__AutoUnwrapSettings__Anchor const MiddleRight;
+/// @brief Field MiddleRight value: static_cast<int32_t>(0x5)
+static ::UnityEngine::ProBuilder::__AutoUnwrapSettings__Anchor const MiddleRight;
 
-  /// @brief Field None value: static_cast<int32_t>(0x9)
-  static ::UnityEngine::ProBuilder::__AutoUnwrapSettings__Anchor const None;
+/// @brief Field None value: static_cast<int32_t>(0x9)
+static ::UnityEngine::ProBuilder::__AutoUnwrapSettings__Anchor const None;
 
-  /// @brief Field UpperCenter value: static_cast<int32_t>(0x1)
-  static ::UnityEngine::ProBuilder::__AutoUnwrapSettings__Anchor const UpperCenter;
+/// @brief Field UpperCenter value: static_cast<int32_t>(0x1)
+static ::UnityEngine::ProBuilder::__AutoUnwrapSettings__Anchor const UpperCenter;
 
-  /// @brief Field UpperLeft value: static_cast<int32_t>(0x0)
-  static ::UnityEngine::ProBuilder::__AutoUnwrapSettings__Anchor const UpperLeft;
+/// @brief Field UpperLeft value: static_cast<int32_t>(0x0)
+static ::UnityEngine::ProBuilder::__AutoUnwrapSettings__Anchor const UpperLeft;
 
-  /// @brief Field UpperRight value: static_cast<int32_t>(0x2)
-  static ::UnityEngine::ProBuilder::__AutoUnwrapSettings__Anchor const UpperRight;
+/// @brief Field UpperRight value: static_cast<int32_t>(0x2)
+static ::UnityEngine::ProBuilder::__AutoUnwrapSettings__Anchor const UpperRight;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x4};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::__AutoUnwrapSettings__Anchor, 0x4>, "Size mismatch!");
 
 static_assert(offsetof(::UnityEngine::ProBuilder::__AutoUnwrapSettings__Anchor, value__) == 0x0, "Offset mismatch!");
 
-} // namespace UnityEngine::ProBuilder
+} // namespace end def UnityEngine::ProBuilder
 // Type: ::Fill
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: true
 // CS Name: ::AutoUnwrapSettings::Fill
 struct CORDL_TYPE __AutoUnwrapSettings__Fill {
 public:
-  // Declarations
-  using __CORDL_BACKING_ENUM_TYPE = int32_t;
+// Declarations
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct ____AutoUnwrapSettings__Fill_Unwrapped
-  enum struct ____AutoUnwrapSettings__Fill_Unwrapped : int32_t {
-    __E_Fit = static_cast<int32_t>(0x0),
-    __E_Tile = static_cast<int32_t>(0x1),
-    __E_Stretch = static_cast<int32_t>(0x2),
-  };
+/// @brief Nested struct ____AutoUnwrapSettings__Fill_Unwrapped
+enum struct ____AutoUnwrapSettings__Fill_Unwrapped : int32_t {
+__E_Fit = static_cast<int32_t>(0x0),
+__E_Tile = static_cast<int32_t>(0x1),
+__E_Stretch = static_cast<int32_t>(0x2),
+};
 
-  /// @brief Conversion into unwrapped enum value
-  constexpr operator ____AutoUnwrapSettings__Fill_Unwrapped() const noexcept {
-    return static_cast<____AutoUnwrapSettings__Fill_Unwrapped>(this->value__);
-  }
+/// @brief Conversion into unwrapped enum value
+constexpr operator ____AutoUnwrapSettings__Fill_Unwrapped () const noexcept {
+return static_cast<____AutoUnwrapSettings__Fill_Unwrapped>(this->value__);
+}
 
-  /// @brief Conversion into unwrapped enum value
-  constexpr explicit operator int32_t() const noexcept {
-    return static_cast<int32_t>(this->value__);
-  }
+/// @brief Conversion into unwrapped enum value
+constexpr explicit operator int32_t () const noexcept {
+return static_cast<int32_t>(this->value__);
+}
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __AutoUnwrapSettings__Fill();
+// Ctor Parameters []
+// @brief default ctor
+constexpr __AutoUnwrapSettings__Fill() ;
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __AutoUnwrapSettings__Fill(int32_t value__) noexcept;
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr __AutoUnwrapSettings__Fill(int32_t  value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+/// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+ int32_t  value__;
 
-  /// @brief Field Fit value: static_cast<int32_t>(0x0)
-  static ::UnityEngine::ProBuilder::__AutoUnwrapSettings__Fill const Fit;
+/// @brief Field Fit value: static_cast<int32_t>(0x0)
+static ::UnityEngine::ProBuilder::__AutoUnwrapSettings__Fill const Fit;
 
-  /// @brief Field Stretch value: static_cast<int32_t>(0x2)
-  static ::UnityEngine::ProBuilder::__AutoUnwrapSettings__Fill const Stretch;
+/// @brief Field Stretch value: static_cast<int32_t>(0x2)
+static ::UnityEngine::ProBuilder::__AutoUnwrapSettings__Fill const Stretch;
 
-  /// @brief Field Tile value: static_cast<int32_t>(0x1)
-  static ::UnityEngine::ProBuilder::__AutoUnwrapSettings__Fill const Tile;
+/// @brief Field Tile value: static_cast<int32_t>(0x1)
+static ::UnityEngine::ProBuilder::__AutoUnwrapSettings__Fill const Tile;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x4};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::__AutoUnwrapSettings__Fill, 0x4>, "Size mismatch!");
 
 static_assert(offsetof(::UnityEngine::ProBuilder::__AutoUnwrapSettings__Fill, value__) == 0x0, "Offset mismatch!");
 
-} // namespace UnityEngine::ProBuilder
+} // namespace end def UnityEngine::ProBuilder
 // Type: UnityEngine.ProBuilder::AutoUnwrapSettings
-// SizeInfo { instance_size: 32, native_size: 44, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: 44, calculated_instance_size: 32, calculated_native_size: 48, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: true
 // CS Name: ::UnityEngine.ProBuilder::AutoUnwrapSettings
 struct CORDL_TYPE AutoUnwrapSettings {
 public:
-  // Declarations
-  using Anchor = ::UnityEngine::ProBuilder::__AutoUnwrapSettings__Anchor;
+// Declarations
+using Anchor = ::UnityEngine::ProBuilder::__AutoUnwrapSettings__Anchor;
 
-  using Fill = ::UnityEngine::ProBuilder::__AutoUnwrapSettings__Fill;
+using Fill = ::UnityEngine::ProBuilder::__AutoUnwrapSettings__Fill;
 
-  __declspec(property(get = get_anchor, put = set_anchor))::UnityEngine::ProBuilder::__AutoUnwrapSettings__Anchor anchor;
+ __declspec(property(get=get_anchor, put=set_anchor)) ::UnityEngine::ProBuilder::__AutoUnwrapSettings__Anchor  anchor;
 
-  __declspec(property(get = get_fill, put = set_fill))::UnityEngine::ProBuilder::__AutoUnwrapSettings__Fill fill;
+ __declspec(property(get=get_fill, put=set_fill)) ::UnityEngine::ProBuilder::__AutoUnwrapSettings__Fill  fill;
 
-  __declspec(property(get = get_flipU, put = set_flipU)) bool flipU;
+ __declspec(property(get=get_flipU, put=set_flipU)) bool  flipU;
 
-  __declspec(property(get = get_flipV, put = set_flipV)) bool flipV;
+ __declspec(property(get=get_flipV, put=set_flipV)) bool  flipV;
 
-  __declspec(property(get = get_offset, put = set_offset))::UnityEngine::Vector2 offset;
+ __declspec(property(get=get_offset, put=set_offset)) ::UnityEngine::Vector2  offset;
 
-  __declspec(property(get = get_rotation, put = set_rotation)) float_t rotation;
+ __declspec(property(get=get_rotation, put=set_rotation)) float_t  rotation;
 
-  __declspec(property(get = get_scale, put = set_scale))::UnityEngine::Vector2 scale;
+ __declspec(property(get=get_scale, put=set_scale)) ::UnityEngine::Vector2  scale;
 
-  __declspec(property(get = get_swapUV, put = set_swapUV)) bool swapUV;
+ __declspec(property(get=get_swapUV, put=set_swapUV)) bool  swapUV;
 
-  __declspec(property(get = get_useWorldSpace, put = set_useWorldSpace)) bool useWorldSpace;
+ __declspec(property(get=get_useWorldSpace, put=set_useWorldSpace)) bool  useWorldSpace;
 
-  /// @brief Method Reset, addr 0x32a8158, size 0x18, virtual false, abstract: false, final false
-  inline void Reset();
+/// @brief Method Reset, addr 0x466d8fc, size 0x18, virtual false, abstract: false, final false
+inline void Reset() ;
 
-  /// @brief Method ToString, addr 0x32a82b4, size 0x54c, virtual true, abstract: false, final false
-  inline ::StringW ToString();
+/// @brief Method ToString, addr 0x466da58, size 0x374, virtual true, abstract: false, final false
+inline ::StringW ToString() ;
 
-  /// @brief Method .ctor, addr 0x32a8210, size 0x5c, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::ProBuilder::AutoUnwrapSettings unwrapSettings);
+/// @brief Method .ctor, addr 0x466d9b4, size 0x5c, virtual false, abstract: false, final false
+inline void _ctor(::UnityEngine::ProBuilder::AutoUnwrapSettings  unwrapSettings) ;
 
-  /// @brief Method get_anchor, addr 0x32a8200, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::ProBuilder::__AutoUnwrapSettings__Anchor get_anchor();
+/// @brief Method get_anchor, addr 0x466d9a4, size 0x8, virtual false, abstract: false, final false
+inline ::UnityEngine::ProBuilder::__AutoUnwrapSettings__Anchor get_anchor() ;
 
-  /// @brief Method get_defaultAutoUnwrapSettings, addr 0x32a8140, size 0x18, virtual false, abstract: false, final false
-  static inline ::UnityEngine::ProBuilder::AutoUnwrapSettings get_defaultAutoUnwrapSettings();
+/// @brief Method get_defaultAutoUnwrapSettings, addr 0x466d8e4, size 0x18, virtual false, abstract: false, final false
+static inline ::UnityEngine::ProBuilder::AutoUnwrapSettings get_defaultAutoUnwrapSettings() ;
 
-  /// @brief Method get_fill, addr 0x32a81c0, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::ProBuilder::__AutoUnwrapSettings__Fill get_fill();
+/// @brief Method get_fill, addr 0x466d964, size 0x8, virtual false, abstract: false, final false
+inline ::UnityEngine::ProBuilder::__AutoUnwrapSettings__Fill get_fill() ;
 
-  /// @brief Method get_fit, addr 0x32a8284, size 0x18, virtual false, abstract: false, final false
-  static inline ::UnityEngine::ProBuilder::AutoUnwrapSettings get_fit();
+/// @brief Method get_fit, addr 0x466da28, size 0x18, virtual false, abstract: false, final false
+static inline ::UnityEngine::ProBuilder::AutoUnwrapSettings get_fit() ;
 
-  /// @brief Method get_flipU, addr 0x32a8184, size 0x8, virtual false, abstract: false, final false
-  inline bool get_flipU();
+/// @brief Method get_flipU, addr 0x466d928, size 0x8, virtual false, abstract: false, final false
+inline bool get_flipU() ;
 
-  /// @brief Method get_flipV, addr 0x32a8198, size 0x8, virtual false, abstract: false, final false
-  inline bool get_flipV();
+/// @brief Method get_flipV, addr 0x466d93c, size 0x8, virtual false, abstract: false, final false
+inline bool get_flipV() ;
 
-  /// @brief Method get_offset, addr 0x32a81e0, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector2 get_offset();
+/// @brief Method get_offset, addr 0x466d984, size 0x8, virtual false, abstract: false, final false
+inline ::UnityEngine::Vector2 get_offset() ;
 
-  /// @brief Method get_rotation, addr 0x32a81f0, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_rotation();
+/// @brief Method get_rotation, addr 0x466d994, size 0x8, virtual false, abstract: false, final false
+inline float_t get_rotation() ;
 
-  /// @brief Method get_scale, addr 0x32a81d0, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector2 get_scale();
+/// @brief Method get_scale, addr 0x466d974, size 0x8, virtual false, abstract: false, final false
+inline ::UnityEngine::Vector2 get_scale() ;
 
-  /// @brief Method get_stretch, addr 0x32a829c, size 0x18, virtual false, abstract: false, final false
-  static inline ::UnityEngine::ProBuilder::AutoUnwrapSettings get_stretch();
+/// @brief Method get_stretch, addr 0x466da40, size 0x18, virtual false, abstract: false, final false
+static inline ::UnityEngine::ProBuilder::AutoUnwrapSettings get_stretch() ;
 
-  /// @brief Method get_swapUV, addr 0x32a81ac, size 0x8, virtual false, abstract: false, final false
-  inline bool get_swapUV();
+/// @brief Method get_swapUV, addr 0x466d950, size 0x8, virtual false, abstract: false, final false
+inline bool get_swapUV() ;
 
-  /// @brief Method get_tile, addr 0x32a826c, size 0x18, virtual false, abstract: false, final false
-  static inline ::UnityEngine::ProBuilder::AutoUnwrapSettings get_tile();
+/// @brief Method get_tile, addr 0x466da10, size 0x18, virtual false, abstract: false, final false
+static inline ::UnityEngine::ProBuilder::AutoUnwrapSettings get_tile() ;
 
-  /// @brief Method get_useWorldSpace, addr 0x32a8170, size 0x8, virtual false, abstract: false, final false
-  inline bool get_useWorldSpace();
+/// @brief Method get_useWorldSpace, addr 0x466d914, size 0x8, virtual false, abstract: false, final false
+inline bool get_useWorldSpace() ;
 
-  /// @brief Method set_anchor, addr 0x32a8208, size 0x8, virtual false, abstract: false, final false
-  inline void set_anchor(::UnityEngine::ProBuilder::__AutoUnwrapSettings__Anchor value);
+/// @brief Method set_anchor, addr 0x466d9ac, size 0x8, virtual false, abstract: false, final false
+inline void set_anchor(::UnityEngine::ProBuilder::__AutoUnwrapSettings__Anchor  value) ;
 
-  /// @brief Method set_fill, addr 0x32a81c8, size 0x8, virtual false, abstract: false, final false
-  inline void set_fill(::UnityEngine::ProBuilder::__AutoUnwrapSettings__Fill value);
+/// @brief Method set_fill, addr 0x466d96c, size 0x8, virtual false, abstract: false, final false
+inline void set_fill(::UnityEngine::ProBuilder::__AutoUnwrapSettings__Fill  value) ;
 
-  /// @brief Method set_flipU, addr 0x32a818c, size 0xc, virtual false, abstract: false, final false
-  inline void set_flipU(bool value);
+/// @brief Method set_flipU, addr 0x466d930, size 0xc, virtual false, abstract: false, final false
+inline void set_flipU(bool  value) ;
 
-  /// @brief Method set_flipV, addr 0x32a81a0, size 0xc, virtual false, abstract: false, final false
-  inline void set_flipV(bool value);
+/// @brief Method set_flipV, addr 0x466d944, size 0xc, virtual false, abstract: false, final false
+inline void set_flipV(bool  value) ;
 
-  /// @brief Method set_offset, addr 0x32a81e8, size 0x8, virtual false, abstract: false, final false
-  inline void set_offset(::UnityEngine::Vector2 value);
+/// @brief Method set_offset, addr 0x466d98c, size 0x8, virtual false, abstract: false, final false
+inline void set_offset(::UnityEngine::Vector2  value) ;
 
-  /// @brief Method set_rotation, addr 0x32a81f8, size 0x8, virtual false, abstract: false, final false
-  inline void set_rotation(float_t value);
+/// @brief Method set_rotation, addr 0x466d99c, size 0x8, virtual false, abstract: false, final false
+inline void set_rotation(float_t  value) ;
 
-  /// @brief Method set_scale, addr 0x32a81d8, size 0x8, virtual false, abstract: false, final false
-  inline void set_scale(::UnityEngine::Vector2 value);
+/// @brief Method set_scale, addr 0x466d97c, size 0x8, virtual false, abstract: false, final false
+inline void set_scale(::UnityEngine::Vector2  value) ;
 
-  /// @brief Method set_swapUV, addr 0x32a81b4, size 0xc, virtual false, abstract: false, final false
-  inline void set_swapUV(bool value);
+/// @brief Method set_swapUV, addr 0x466d958, size 0xc, virtual false, abstract: false, final false
+inline void set_swapUV(bool  value) ;
 
-  /// @brief Method set_useWorldSpace, addr 0x32a8178, size 0xc, virtual false, abstract: false, final false
-  inline void set_useWorldSpace(bool value);
+/// @brief Method set_useWorldSpace, addr 0x466d91c, size 0xc, virtual false, abstract: false, final false
+inline void set_useWorldSpace(bool  value) ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AutoUnwrapSettings();
+// Ctor Parameters []
+// @brief default ctor
+constexpr AutoUnwrapSettings() ;
 
-  // Ctor Parameters [CppParam { name: "m_UseWorldSpace", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "m_FlipU", ty: "bool", modifiers: "", def_value: None }, CppParam { name:
-  // "m_FlipV", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "m_SwapUV", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "m_Fill", ty:
-  // "::UnityEngine::ProBuilder::__AutoUnwrapSettings__Fill", modifiers: "", def_value: None }, CppParam { name: "m_Scale", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam {
-  // name: "m_Offset", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "m_Rotation", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_Anchor", ty:
-  // "::UnityEngine::ProBuilder::__AutoUnwrapSettings__Anchor", modifiers: "", def_value: None }]
-  constexpr AutoUnwrapSettings(bool m_UseWorldSpace, bool m_FlipU, bool m_FlipV, bool m_SwapUV, ::UnityEngine::ProBuilder::__AutoUnwrapSettings__Fill m_Fill, ::UnityEngine::Vector2 m_Scale,
-                               ::UnityEngine::Vector2 m_Offset, float_t m_Rotation, ::UnityEngine::ProBuilder::__AutoUnwrapSettings__Anchor m_Anchor) noexcept;
+// Ctor Parameters [CppParam { name: "m_UseWorldSpace", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "m_FlipU", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "m_FlipV", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "m_SwapUV", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "m_Fill", ty: "::UnityEngine::ProBuilder::__AutoUnwrapSettings__Fill", modifiers: "", def_value: None }, CppParam { name: "m_Scale", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "m_Offset", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }, CppParam { name: "m_Rotation", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_Anchor", ty: "::UnityEngine::ProBuilder::__AutoUnwrapSettings__Anchor", modifiers: "", def_value: None }]
+constexpr AutoUnwrapSettings(bool  m_UseWorldSpace, bool  m_FlipU, bool  m_FlipV, bool  m_SwapUV, ::UnityEngine::ProBuilder::__AutoUnwrapSettings__Fill  m_Fill, ::UnityEngine::Vector2  m_Scale, ::UnityEngine::Vector2  m_Offset, float_t  m_Rotation, ::UnityEngine::ProBuilder::__AutoUnwrapSettings__Anchor  m_Anchor) noexcept;
 
-  /// @brief Field m_UseWorldSpace, offset: 0x0, size: 0x1, def value: None
-  bool m_UseWorldSpace;
+/// @brief Field m_UseWorldSpace, offset: 0x0, size: 0x1, def value: None
+ bool  m_UseWorldSpace;
 
-  /// @brief Field m_FlipU, offset: 0x1, size: 0x1, def value: None
-  bool m_FlipU;
+/// @brief Field m_FlipU, offset: 0x1, size: 0x1, def value: None
+ bool  m_FlipU;
 
-  /// @brief Field m_FlipV, offset: 0x2, size: 0x1, def value: None
-  bool m_FlipV;
+/// @brief Field m_FlipV, offset: 0x2, size: 0x1, def value: None
+ bool  m_FlipV;
 
-  /// @brief Field m_SwapUV, offset: 0x3, size: 0x1, def value: None
-  bool m_SwapUV;
+/// @brief Field m_SwapUV, offset: 0x3, size: 0x1, def value: None
+ bool  m_SwapUV;
 
-  /// @brief Field m_Fill, offset: 0x4, size: 0x4, def value: None
-  ::UnityEngine::ProBuilder::__AutoUnwrapSettings__Fill m_Fill;
+/// @brief Field m_Fill, offset: 0x4, size: 0x4, def value: None
+ ::UnityEngine::ProBuilder::__AutoUnwrapSettings__Fill  m_Fill;
 
-  /// @brief Field m_Scale, offset: 0x8, size: 0x8, def value: None
-  ::UnityEngine::Vector2 m_Scale;
+/// @brief Field m_Scale, offset: 0x8, size: 0x8, def value: None
+ ::UnityEngine::Vector2  m_Scale;
 
-  /// @brief Field m_Offset, offset: 0x10, size: 0x8, def value: None
-  ::UnityEngine::Vector2 m_Offset;
+/// @brief Field m_Offset, offset: 0x10, size: 0x8, def value: None
+ ::UnityEngine::Vector2  m_Offset;
 
-  /// @brief Field m_Rotation, offset: 0x18, size: 0x4, def value: None
-  float_t m_Rotation;
+/// @brief Field m_Rotation, offset: 0x18, size: 0x4, def value: None
+ float_t  m_Rotation;
 
-  /// @brief Field m_Anchor, offset: 0x1c, size: 0x4, def value: None
-  ::UnityEngine::ProBuilder::__AutoUnwrapSettings__Anchor m_Anchor;
+/// @brief Field m_Anchor, offset: 0x1c, size: 0x4, def value: None
+ ::UnityEngine::ProBuilder::__AutoUnwrapSettings__Anchor  m_Anchor;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x20 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x20};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::AutoUnwrapSettings, 0x20>, "Size mismatch!");
@@ -345,7 +340,7 @@ static_assert(offsetof(::UnityEngine::ProBuilder::AutoUnwrapSettings, m_Rotation
 
 static_assert(offsetof(::UnityEngine::ProBuilder::AutoUnwrapSettings, m_Anchor) == 0x1c, "Offset mismatch!");
 
-} // namespace UnityEngine::ProBuilder
+} // namespace end def UnityEngine::ProBuilder
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::__AutoUnwrapSettings__Anchor, "UnityEngine.ProBuilder", "AutoUnwrapSettings/Anchor");
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::__AutoUnwrapSettings__Fill, "UnityEngine.ProBuilder", "AutoUnwrapSettings/Fill");
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::AutoUnwrapSettings, "UnityEngine.ProBuilder", "AutoUnwrapSettings");

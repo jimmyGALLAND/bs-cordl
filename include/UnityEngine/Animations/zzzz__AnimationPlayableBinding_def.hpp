@@ -25,38 +25,38 @@ class AnimationPlayableBinding;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::Animations::AnimationPlayableBinding);
 // Type: UnityEngine.Animations::AnimationPlayableBinding
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Animations {
 // Is value type: false
 // CS Name: ::UnityEngine.Animations::AnimationPlayableBinding*
 class CORDL_TYPE AnimationPlayableBinding : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method Create, addr 0x3405e38, size 0x13c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Playables::PlayableBinding Create(::StringW name, ::UnityEngine::Object* key);
+// Declarations
+/// @brief Method Create, addr 0x47c2660, size 0x12c, virtual false, abstract: false, final false
+static inline ::UnityEngine::Playables::PlayableBinding Create(::StringW  name, ::UnityEngine::Object*  key) ;
 
-  /// @brief Method CreateAnimationOutput, addr 0x3405f74, size 0x40, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Playables::PlayableOutput CreateAnimationOutput(::UnityEngine::Playables::PlayableGraph graph, ::StringW name);
+/// @brief Method CreateAnimationOutput, addr 0x47c278c, size 0x40, virtual false, abstract: false, final false
+static inline ::UnityEngine::Playables::PlayableOutput CreateAnimationOutput(::UnityEngine::Playables::PlayableGraph  graph, ::StringW  name) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AnimationPlayableBinding();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr AnimationPlayableBinding() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AnimationPlayableBinding", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  AnimationPlayableBinding(AnimationPlayableBinding&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AnimationPlayableBinding", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  AnimationPlayableBinding(AnimationPlayableBinding const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "AnimationPlayableBinding", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+AnimationPlayableBinding(AnimationPlayableBinding && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "AnimationPlayableBinding", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+AnimationPlayableBinding(AnimationPlayableBinding const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Animations::AnimationPlayableBinding, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine::Animations
+} // namespace end def UnityEngine::Animations
 NEED_NO_BOX(::UnityEngine::Animations::AnimationPlayableBinding);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Animations::AnimationPlayableBinding*, "UnityEngine.Animations", "AnimationPlayableBinding");

@@ -25,138 +25,138 @@ class XmlSchemaIdentityConstraint;
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Schema::XmlSchemaIdentityConstraint);
 // Type: System.Xml.Schema::XmlSchemaIdentityConstraint
-// SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
 // CS Name: ::System.Xml.Schema::XmlSchemaIdentityConstraint*
 class CORDL_TYPE XmlSchemaIdentityConstraint : public ::System::Xml::Schema::XmlSchemaAnnotated {
 public:
-  // Declarations
-  __declspec(property(get = get_CompiledConstraint, put = set_CompiledConstraint))::System::Xml::Schema::CompiledIdentityConstraint* CompiledConstraint;
+// Declarations
+ __declspec(property(get=get_CompiledConstraint, put=set_CompiledConstraint)) ::System::Xml::Schema::CompiledIdentityConstraint*  CompiledConstraint;
 
-  __declspec(property(get = get_Fields))::System::Xml::Schema::XmlSchemaObjectCollection* Fields;
+ __declspec(property(get=get_Fields)) ::System::Xml::Schema::XmlSchemaObjectCollection*  Fields;
 
-  __declspec(property(get = get_Name, put = set_Name))::StringW Name;
+ __declspec(property(get=get_Name, put=set_Name)) ::StringW  Name;
 
-  __declspec(property(get = get_NameAttribute, put = set_NameAttribute))::StringW NameAttribute;
+ __declspec(property(get=get_NameAttribute, put=set_NameAttribute)) ::StringW  NameAttribute;
 
-  __declspec(property(get = get_QualifiedName))::System::Xml::XmlQualifiedName* QualifiedName;
+ __declspec(property(get=get_QualifiedName)) ::System::Xml::XmlQualifiedName*  QualifiedName;
 
-  __declspec(property(get = get_Selector, put = set_Selector))::System::Xml::Schema::XmlSchemaXPath* Selector;
+ __declspec(property(get=get_Selector, put=set_Selector)) ::System::Xml::Schema::XmlSchemaXPath*  Selector;
 
-  /// @brief Field compiledConstraint, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get_compiledConstraint, put = __cordl_internal_set_compiledConstraint))::System::Xml::Schema::CompiledIdentityConstraint* compiledConstraint;
+/// @brief Field compiledConstraint, offset 0x70, size 0x8 
+ __declspec(property(get=__cordl_internal_get_compiledConstraint, put=__cordl_internal_set_compiledConstraint)) ::System::Xml::Schema::CompiledIdentityConstraint*  compiledConstraint;
 
-  /// @brief Field fields, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get_fields, put = __cordl_internal_set_fields))::System::Xml::Schema::XmlSchemaObjectCollection* fields;
+/// @brief Field fields, offset 0x60, size 0x8 
+ __declspec(property(get=__cordl_internal_get_fields, put=__cordl_internal_set_fields)) ::System::Xml::Schema::XmlSchemaObjectCollection*  fields;
 
-  /// @brief Field name, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_name, put = __cordl_internal_set_name))::StringW name;
+/// @brief Field name, offset 0x50, size 0x8 
+ __declspec(property(get=__cordl_internal_get_name, put=__cordl_internal_set_name)) ::StringW  name;
 
-  /// @brief Field qualifiedName, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get_qualifiedName, put = __cordl_internal_set_qualifiedName))::System::Xml::XmlQualifiedName* qualifiedName;
+/// @brief Field qualifiedName, offset 0x68, size 0x8 
+ __declspec(property(get=__cordl_internal_get_qualifiedName, put=__cordl_internal_set_qualifiedName)) ::System::Xml::XmlQualifiedName*  qualifiedName;
 
-  /// @brief Field selector, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get_selector, put = __cordl_internal_set_selector))::System::Xml::Schema::XmlSchemaXPath* selector;
+/// @brief Field selector, offset 0x58, size 0x8 
+ __declspec(property(get=__cordl_internal_get_selector, put=__cordl_internal_set_selector)) ::System::Xml::Schema::XmlSchemaXPath*  selector;
 
-  static inline ::System::Xml::Schema::XmlSchemaIdentityConstraint* New_ctor();
+static inline ::System::Xml::Schema::XmlSchemaIdentityConstraint* New_ctor() ;
 
-  /// @brief Method SetQualifiedName, addr 0x2e4557c, size 0x8, virtual false, abstract: false, final false
-  inline void SetQualifiedName(::System::Xml::XmlQualifiedName* value);
+/// @brief Method SetQualifiedName, addr 0x422cf80, size 0x8, virtual false, abstract: false, final false
+inline void SetQualifiedName(::System::Xml::XmlQualifiedName*  value) ;
 
-  constexpr ::System::Xml::Schema::CompiledIdentityConstraint*& __cordl_internal_get_compiledConstraint();
+constexpr ::System::Xml::Schema::CompiledIdentityConstraint*& __cordl_internal_get_compiledConstraint() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::CompiledIdentityConstraint*> const& __cordl_internal_get_compiledConstraint() const;
+constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::CompiledIdentityConstraint*> const& __cordl_internal_get_compiledConstraint() const;
 
-  constexpr ::System::Xml::Schema::XmlSchemaObjectCollection*& __cordl_internal_get_fields();
+constexpr ::System::Xml::Schema::XmlSchemaObjectCollection*& __cordl_internal_get_fields() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaObjectCollection*> const& __cordl_internal_get_fields() const;
+constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaObjectCollection*> const& __cordl_internal_get_fields() const;
 
-  constexpr ::StringW const& __cordl_internal_get_name() const;
+constexpr ::StringW const& __cordl_internal_get_name() const;
 
-  constexpr ::StringW& __cordl_internal_get_name();
+constexpr ::StringW& __cordl_internal_get_name() ;
 
-  constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_qualifiedName();
+constexpr ::System::Xml::XmlQualifiedName*& __cordl_internal_get_qualifiedName() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& __cordl_internal_get_qualifiedName() const;
+constexpr ::cordl_internals::to_const_pointer<::System::Xml::XmlQualifiedName*> const& __cordl_internal_get_qualifiedName() const;
 
-  constexpr ::System::Xml::Schema::XmlSchemaXPath*& __cordl_internal_get_selector();
+constexpr ::System::Xml::Schema::XmlSchemaXPath*& __cordl_internal_get_selector() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaXPath*> const& __cordl_internal_get_selector() const;
+constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::XmlSchemaXPath*> const& __cordl_internal_get_selector() const;
 
-  constexpr void __cordl_internal_set_compiledConstraint(::System::Xml::Schema::CompiledIdentityConstraint* value);
+constexpr void __cordl_internal_set_compiledConstraint(::System::Xml::Schema::CompiledIdentityConstraint*  value) ;
 
-  constexpr void __cordl_internal_set_fields(::System::Xml::Schema::XmlSchemaObjectCollection* value);
+constexpr void __cordl_internal_set_fields(::System::Xml::Schema::XmlSchemaObjectCollection*  value) ;
 
-  constexpr void __cordl_internal_set_name(::StringW value);
+constexpr void __cordl_internal_set_name(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_qualifiedName(::System::Xml::XmlQualifiedName* value);
+constexpr void __cordl_internal_set_qualifiedName(::System::Xml::XmlQualifiedName*  value) ;
 
-  constexpr void __cordl_internal_set_selector(::System::Xml::Schema::XmlSchemaXPath* value);
+constexpr void __cordl_internal_set_selector(::System::Xml::Schema::XmlSchemaXPath*  value) ;
 
-  /// @brief Method .ctor, addr 0x2e455a4, size 0x9c, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x422cfa8, size 0x9c, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_CompiledConstraint, addr 0x2e45584, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Xml::Schema::CompiledIdentityConstraint* get_CompiledConstraint();
+/// @brief Method get_CompiledConstraint, addr 0x422cf88, size 0x8, virtual false, abstract: false, final false
+inline ::System::Xml::Schema::CompiledIdentityConstraint* get_CompiledConstraint() ;
 
-  /// @brief Method get_Fields, addr 0x2e4556c, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Xml::Schema::XmlSchemaObjectCollection* get_Fields();
+/// @brief Method get_Fields, addr 0x422cf70, size 0x8, virtual false, abstract: false, final false
+inline ::System::Xml::Schema::XmlSchemaObjectCollection* get_Fields() ;
 
-  /// @brief Method get_Name, addr 0x2e4554c, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_Name();
+/// @brief Method get_Name, addr 0x422cf50, size 0x8, virtual false, abstract: false, final false
+inline ::StringW get_Name() ;
 
-  /// @brief Method get_NameAttribute, addr 0x2e45594, size 0x8, virtual true, abstract: false, final false
-  inline ::StringW get_NameAttribute();
+/// @brief Method get_NameAttribute, addr 0x422cf98, size 0x8, virtual true, abstract: false, final false
+inline ::StringW get_NameAttribute() ;
 
-  /// @brief Method get_QualifiedName, addr 0x2e45574, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Xml::XmlQualifiedName* get_QualifiedName();
+/// @brief Method get_QualifiedName, addr 0x422cf78, size 0x8, virtual false, abstract: false, final false
+inline ::System::Xml::XmlQualifiedName* get_QualifiedName() ;
 
-  /// @brief Method get_Selector, addr 0x2e4555c, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Xml::Schema::XmlSchemaXPath* get_Selector();
+/// @brief Method get_Selector, addr 0x422cf60, size 0x8, virtual false, abstract: false, final false
+inline ::System::Xml::Schema::XmlSchemaXPath* get_Selector() ;
 
-  /// @brief Method set_CompiledConstraint, addr 0x2e4558c, size 0x8, virtual false, abstract: false, final false
-  inline void set_CompiledConstraint(::System::Xml::Schema::CompiledIdentityConstraint* value);
+/// @brief Method set_CompiledConstraint, addr 0x422cf90, size 0x8, virtual false, abstract: false, final false
+inline void set_CompiledConstraint(::System::Xml::Schema::CompiledIdentityConstraint*  value) ;
 
-  /// @brief Method set_Name, addr 0x2e45554, size 0x8, virtual false, abstract: false, final false
-  inline void set_Name(::StringW value);
+/// @brief Method set_Name, addr 0x422cf58, size 0x8, virtual false, abstract: false, final false
+inline void set_Name(::StringW  value) ;
 
-  /// @brief Method set_NameAttribute, addr 0x2e4559c, size 0x8, virtual true, abstract: false, final false
-  inline void set_NameAttribute(::StringW value);
+/// @brief Method set_NameAttribute, addr 0x422cfa0, size 0x8, virtual true, abstract: false, final false
+inline void set_NameAttribute(::StringW  value) ;
 
-  /// @brief Method set_Selector, addr 0x2e45564, size 0x8, virtual false, abstract: false, final false
-  inline void set_Selector(::System::Xml::Schema::XmlSchemaXPath* value);
+/// @brief Method set_Selector, addr 0x422cf68, size 0x8, virtual false, abstract: false, final false
+inline void set_Selector(::System::Xml::Schema::XmlSchemaXPath*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr XmlSchemaIdentityConstraint();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr XmlSchemaIdentityConstraint() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaIdentityConstraint", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  XmlSchemaIdentityConstraint(XmlSchemaIdentityConstraint&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XmlSchemaIdentityConstraint", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  XmlSchemaIdentityConstraint(XmlSchemaIdentityConstraint const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "XmlSchemaIdentityConstraint", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+XmlSchemaIdentityConstraint(XmlSchemaIdentityConstraint && ) = delete;
 
-  /// @brief Field name, offset: 0x50, size: 0x8, def value: None
-  ::StringW ___name;
+// Ctor Parameters [CppParam { name: "", ty: "XmlSchemaIdentityConstraint", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+XmlSchemaIdentityConstraint(XmlSchemaIdentityConstraint const& ) = delete;
 
-  /// @brief Field selector, offset: 0x58, size: 0x8, def value: None
-  ::System::Xml::Schema::XmlSchemaXPath* ___selector;
+/// @brief Field name, offset: 0x50, size: 0x8, def value: None
+ ::StringW  ___name;
 
-  /// @brief Field fields, offset: 0x60, size: 0x8, def value: None
-  ::System::Xml::Schema::XmlSchemaObjectCollection* ___fields;
+/// @brief Field selector, offset: 0x58, size: 0x8, def value: None
+ ::System::Xml::Schema::XmlSchemaXPath*  ___selector;
 
-  /// @brief Field qualifiedName, offset: 0x68, size: 0x8, def value: None
-  ::System::Xml::XmlQualifiedName* ___qualifiedName;
+/// @brief Field fields, offset: 0x60, size: 0x8, def value: None
+ ::System::Xml::Schema::XmlSchemaObjectCollection*  ___fields;
 
-  /// @brief Field compiledConstraint, offset: 0x70, size: 0x8, def value: None
-  ::System::Xml::Schema::CompiledIdentityConstraint* ___compiledConstraint;
+/// @brief Field qualifiedName, offset: 0x68, size: 0x8, def value: None
+ ::System::Xml::XmlQualifiedName*  ___qualifiedName;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field compiledConstraint, offset: 0x70, size: 0x8, def value: None
+ ::System::Xml::Schema::CompiledIdentityConstraint*  ___compiledConstraint;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::XmlSchemaIdentityConstraint, 0x78>, "Size mismatch!");
@@ -171,6 +171,6 @@ static_assert(offsetof(::System::Xml::Schema::XmlSchemaIdentityConstraint, ___qu
 
 static_assert(offsetof(::System::Xml::Schema::XmlSchemaIdentityConstraint, ___compiledConstraint) == 0x70, "Offset mismatch!");
 
-} // namespace System::Xml::Schema
+} // namespace end def System::Xml::Schema
 NEED_NO_BOX(::System::Xml::Schema::XmlSchemaIdentityConstraint);
 DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::XmlSchemaIdentityConstraint*, "System.Xml.Schema", "XmlSchemaIdentityConstraint");

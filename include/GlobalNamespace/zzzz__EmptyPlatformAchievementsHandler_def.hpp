@@ -25,52 +25,52 @@ class EmptyPlatformAchievementsHandler;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::EmptyPlatformAchievementsHandler);
 // Type: ::EmptyPlatformAchievementsHandler
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::EmptyPlatformAchievementsHandler*
 class CORDL_TYPE EmptyPlatformAchievementsHandler : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Convert operator to "::GlobalNamespace::IPlatformAchievementsHandler"
-  constexpr operator ::GlobalNamespace::IPlatformAchievementsHandler*() noexcept;
+// Declarations
+/// @brief Convert operator to "::GlobalNamespace::IPlatformAchievementsHandler"
+constexpr operator  ::GlobalNamespace::IPlatformAchievementsHandler*() noexcept;
 
-  /// @brief Method GetUnlockedAchievements, addr 0x14a2690, size 0x8, virtual true, abstract: false, final true
-  inline ::GlobalNamespace::HMAsyncRequest* GetUnlockedAchievements(::GlobalNamespace::__IPlatformAchievementsHandler__GetUnlockedAchievementsCompletionHandler* completionHandler);
+/// @brief Method GetUnlockedAchievements, addr 0x2656d1c, size 0x8, virtual true, abstract: false, final true
+inline ::GlobalNamespace::HMAsyncRequest* GetUnlockedAchievements(::GlobalNamespace::__IPlatformAchievementsHandler__GetUnlockedAchievementsCompletionHandler*  completionHandler) ;
 
-  /// @brief Method Initialize, addr 0x14a2684, size 0x4, virtual true, abstract: false, final true
-  inline void Initialize();
+/// @brief Method Initialize, addr 0x2656d10, size 0x4, virtual true, abstract: false, final true
+inline void Initialize() ;
 
-  static inline ::GlobalNamespace::EmptyPlatformAchievementsHandler* New_ctor();
+static inline ::GlobalNamespace::EmptyPlatformAchievementsHandler* New_ctor() ;
 
-  /// @brief Method UnlockAchievement, addr 0x14a2688, size 0x8, virtual true, abstract: false, final true
-  inline ::GlobalNamespace::HMAsyncRequest* UnlockAchievement(::StringW achievementId, ::GlobalNamespace::__IPlatformAchievementsHandler__UnlockAchievementCompletionHandler* completionHandler);
+/// @brief Method UnlockAchievement, addr 0x2656d14, size 0x8, virtual true, abstract: false, final true
+inline ::GlobalNamespace::HMAsyncRequest* UnlockAchievement(::StringW  achievementId, ::GlobalNamespace::__IPlatformAchievementsHandler__UnlockAchievementCompletionHandler*  completionHandler) ;
 
-  /// @brief Method .ctor, addr 0x14a2698, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x2656d24, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Convert to "::GlobalNamespace::IPlatformAchievementsHandler"
-  constexpr ::GlobalNamespace::IPlatformAchievementsHandler* i___GlobalNamespace__IPlatformAchievementsHandler() noexcept;
+/// @brief Convert to "::GlobalNamespace::IPlatformAchievementsHandler"
+constexpr ::GlobalNamespace::IPlatformAchievementsHandler* i___GlobalNamespace__IPlatformAchievementsHandler() noexcept;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr EmptyPlatformAchievementsHandler();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr EmptyPlatformAchievementsHandler() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EmptyPlatformAchievementsHandler", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  EmptyPlatformAchievementsHandler(EmptyPlatformAchievementsHandler&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EmptyPlatformAchievementsHandler", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  EmptyPlatformAchievementsHandler(EmptyPlatformAchievementsHandler const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "EmptyPlatformAchievementsHandler", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+EmptyPlatformAchievementsHandler(EmptyPlatformAchievementsHandler && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "EmptyPlatformAchievementsHandler", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+EmptyPlatformAchievementsHandler(EmptyPlatformAchievementsHandler const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::EmptyPlatformAchievementsHandler, 0x10>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::EmptyPlatformAchievementsHandler);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::EmptyPlatformAchievementsHandler*, "", "EmptyPlatformAchievementsHandler");

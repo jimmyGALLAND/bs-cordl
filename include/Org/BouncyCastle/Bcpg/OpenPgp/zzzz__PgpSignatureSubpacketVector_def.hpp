@@ -30,120 +30,118 @@ class PgpSignatureSubpacketVector;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector);
 // Type: Org.BouncyCastle.Bcpg.OpenPgp::PgpSignatureSubpacketVector
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg::OpenPgp {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Bcpg.OpenPgp::PgpSignatureSubpacketVector*
 class CORDL_TYPE PgpSignatureSubpacketVector : public ::System::Object {
 public:
-  // Declarations
-  __declspec(property(get = get_Count)) int32_t Count;
+// Declarations
+ __declspec(property(get=get_Count)) int32_t  Count;
 
-  __declspec(property(get = get_Size)) int32_t Size;
+ __declspec(property(get=get_Size)) int32_t  Size;
 
-  /// @brief Field packets, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_packets,
-                      put = __cordl_internal_set_packets))::ArrayW<::Org::BouncyCastle::Bcpg::SignatureSubpacket*, ::Array<::Org::BouncyCastle::Bcpg::SignatureSubpacket*>*> packets;
+/// @brief Field packets, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_packets, put=__cordl_internal_set_packets)) ::ArrayW<::Org::BouncyCastle::Bcpg::SignatureSubpacket*,::Array<::Org::BouncyCastle::Bcpg::SignatureSubpacket*>*>  packets;
 
-  /// @brief Method GetCriticalTags, addr 0x1340610, size 0xf8, virtual false, abstract: false, final false
-  inline ::ArrayW<::Org::BouncyCastle::Bcpg::SignatureSubpacketTag, ::Array<::Org::BouncyCastle::Bcpg::SignatureSubpacketTag>*> GetCriticalTags();
+/// @brief Method GetCriticalTags, addr 0x25001dc, size 0xf8, virtual false, abstract: false, final false
+inline ::ArrayW<::Org::BouncyCastle::Bcpg::SignatureSubpacketTag,::Array<::Org::BouncyCastle::Bcpg::SignatureSubpacketTag>*> GetCriticalTags() ;
 
-  /// @brief Method GetFeatures, addr 0x1340708, size 0xac, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Bcpg::Sig::Features* GetFeatures();
+/// @brief Method GetFeatures, addr 0x25002d4, size 0x94, virtual false, abstract: false, final false
+inline ::Org::BouncyCastle::Bcpg::Sig::Features* GetFeatures() ;
 
-  /// @brief Method GetIssuerKeyId, addr 0x1340014, size 0x90, virtual false, abstract: false, final false
-  inline int64_t GetIssuerKeyId();
+/// @brief Method GetIssuerKeyId, addr 0x24ffbe4, size 0x90, virtual false, abstract: false, final false
+inline int64_t GetIssuerKeyId() ;
 
-  /// @brief Method GetKeyExpirationTime, addr 0x1340220, size 0x90, virtual false, abstract: false, final false
-  inline int64_t GetKeyExpirationTime();
+/// @brief Method GetKeyExpirationTime, addr 0x24ffdec, size 0x90, virtual false, abstract: false, final false
+inline int64_t GetKeyExpirationTime() ;
 
-  /// @brief Method GetKeyFlags, addr 0x1340460, size 0x90, virtual false, abstract: false, final false
-  inline int32_t GetKeyFlags();
+/// @brief Method GetKeyFlags, addr 0x250002c, size 0x90, virtual false, abstract: false, final false
+inline int32_t GetKeyFlags() ;
 
-  /// @brief Method GetNotationDataOccurences, addr 0x1340010, size 0x4, virtual false, abstract: false, final false
-  inline ::ArrayW<::Org::BouncyCastle::Bcpg::Sig::NotationData*, ::Array<::Org::BouncyCastle::Bcpg::Sig::NotationData*>*> GetNotationDataOccurences();
+/// @brief Method GetNotationDataOccurences, addr 0x24ffbe0, size 0x4, virtual false, abstract: false, final false
+inline ::ArrayW<::Org::BouncyCastle::Bcpg::Sig::NotationData*,::Array<::Org::BouncyCastle::Bcpg::Sig::NotationData*>*> GetNotationDataOccurences() ;
 
-  /// @brief Method GetNotationDataOccurrences, addr 0x133feac, size 0x164, virtual false, abstract: false, final false
-  inline ::ArrayW<::Org::BouncyCastle::Bcpg::Sig::NotationData*, ::Array<::Org::BouncyCastle::Bcpg::Sig::NotationData*>*> GetNotationDataOccurrences();
+/// @brief Method GetNotationDataOccurrences, addr 0x24ffa7c, size 0x164, virtual false, abstract: false, final false
+inline ::ArrayW<::Org::BouncyCastle::Bcpg::Sig::NotationData*,::Array<::Org::BouncyCastle::Bcpg::Sig::NotationData*>*> GetNotationDataOccurrences() ;
 
-  /// @brief Method GetPreferredCompressionAlgorithms, addr 0x13403d0, size 0x90, virtual false, abstract: false, final false
-  inline ::ArrayW<int32_t, ::Array<int32_t>*> GetPreferredCompressionAlgorithms();
+/// @brief Method GetPreferredCompressionAlgorithms, addr 0x24fff9c, size 0x90, virtual false, abstract: false, final false
+inline ::ArrayW<int32_t,::Array<int32_t>*> GetPreferredCompressionAlgorithms() ;
 
-  /// @brief Method GetPreferredHashAlgorithms, addr 0x13402b0, size 0x90, virtual false, abstract: false, final false
-  inline ::ArrayW<int32_t, ::Array<int32_t>*> GetPreferredHashAlgorithms();
+/// @brief Method GetPreferredHashAlgorithms, addr 0x24ffe7c, size 0x90, virtual false, abstract: false, final false
+inline ::ArrayW<int32_t,::Array<int32_t>*> GetPreferredHashAlgorithms() ;
 
-  /// @brief Method GetPreferredSymmetricAlgorithms, addr 0x1340340, size 0x90, virtual false, abstract: false, final false
-  inline ::ArrayW<int32_t, ::Array<int32_t>*> GetPreferredSymmetricAlgorithms();
+/// @brief Method GetPreferredSymmetricAlgorithms, addr 0x24fff0c, size 0x90, virtual false, abstract: false, final false
+inline ::ArrayW<int32_t,::Array<int32_t>*> GetPreferredSymmetricAlgorithms() ;
 
-  /// @brief Method GetSignatureCreationTime, addr 0x13400c0, size 0xd0, virtual false, abstract: false, final false
-  inline ::System::DateTime GetSignatureCreationTime();
+/// @brief Method GetSignatureCreationTime, addr 0x24ffc90, size 0xcc, virtual false, abstract: false, final false
+inline ::System::DateTime GetSignatureCreationTime() ;
 
-  /// @brief Method GetSignatureExpirationTime, addr 0x1340190, size 0x90, virtual false, abstract: false, final false
-  inline int64_t GetSignatureExpirationTime();
+/// @brief Method GetSignatureExpirationTime, addr 0x24ffd5c, size 0x90, virtual false, abstract: false, final false
+inline int64_t GetSignatureExpirationTime() ;
 
-  /// @brief Method GetSignerUserId, addr 0x13404f0, size 0x90, virtual false, abstract: false, final false
-  inline ::StringW GetSignerUserId();
+/// @brief Method GetSignerUserId, addr 0x25000bc, size 0x90, virtual false, abstract: false, final false
+inline ::StringW GetSignerUserId() ;
 
-  /// @brief Method GetSubpacket, addr 0x133fcfc, size 0x58, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Bcpg::SignatureSubpacket* GetSubpacket(::Org::BouncyCastle::Bcpg::SignatureSubpacketTag type);
+/// @brief Method GetSubpacket, addr 0x24ff8cc, size 0x58, virtual false, abstract: false, final false
+inline ::Org::BouncyCastle::Bcpg::SignatureSubpacket* GetSubpacket(::Org::BouncyCastle::Bcpg::SignatureSubpacketTag  type) ;
 
-  /// @brief Method GetSubpackets, addr 0x133fd6c, size 0x140, virtual false, abstract: false, final false
-  inline ::ArrayW<::Org::BouncyCastle::Bcpg::SignatureSubpacket*, ::Array<::Org::BouncyCastle::Bcpg::SignatureSubpacket*>*> GetSubpackets(::Org::BouncyCastle::Bcpg::SignatureSubpacketTag type);
+/// @brief Method GetSubpackets, addr 0x24ff93c, size 0x140, virtual false, abstract: false, final false
+inline ::ArrayW<::Org::BouncyCastle::Bcpg::SignatureSubpacket*,::Array<::Org::BouncyCastle::Bcpg::SignatureSubpacket*>*> GetSubpackets(::Org::BouncyCastle::Bcpg::SignatureSubpacketTag  type) ;
 
-  /// @brief Method HasSignatureCreationTime, addr 0x13400a4, size 0x1c, virtual false, abstract: false, final false
-  inline bool HasSignatureCreationTime();
+/// @brief Method HasSignatureCreationTime, addr 0x24ffc74, size 0x1c, virtual false, abstract: false, final false
+inline bool HasSignatureCreationTime() ;
 
-  /// @brief Method HasSubpacket, addr 0x133fd54, size 0x18, virtual false, abstract: false, final false
-  inline bool HasSubpacket(::Org::BouncyCastle::Bcpg::SignatureSubpacketTag type);
+/// @brief Method HasSubpacket, addr 0x24ff924, size 0x18, virtual false, abstract: false, final false
+inline bool HasSubpacket(::Org::BouncyCastle::Bcpg::SignatureSubpacketTag  type) ;
 
-  /// @brief Method IsPrimaryUserId, addr 0x1340580, size 0x90, virtual false, abstract: false, final false
-  inline bool IsPrimaryUserId();
+/// @brief Method IsPrimaryUserId, addr 0x250014c, size 0x90, virtual false, abstract: false, final false
+inline bool IsPrimaryUserId() ;
 
-  static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector*
-  New_ctor(::ArrayW<::Org::BouncyCastle::Bcpg::SignatureSubpacket*, ::Array<::Org::BouncyCastle::Bcpg::SignatureSubpacket*>*> packets);
+static inline ::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector* New_ctor(::ArrayW<::Org::BouncyCastle::Bcpg::SignatureSubpacket*,::Array<::Org::BouncyCastle::Bcpg::SignatureSubpacket*>*>  packets) ;
 
-  /// @brief Method ToSubpacketArray, addr 0x13407ec, size 0x8, virtual false, abstract: false, final false
-  inline ::ArrayW<::Org::BouncyCastle::Bcpg::SignatureSubpacket*, ::Array<::Org::BouncyCastle::Bcpg::SignatureSubpacket*>*> ToSubpacketArray();
+/// @brief Method ToSubpacketArray, addr 0x25003a0, size 0x8, virtual false, abstract: false, final false
+inline ::ArrayW<::Org::BouncyCastle::Bcpg::SignatureSubpacket*,::Array<::Org::BouncyCastle::Bcpg::SignatureSubpacket*>*> ToSubpacketArray() ;
 
-  constexpr ::ArrayW<::Org::BouncyCastle::Bcpg::SignatureSubpacket*, ::Array<::Org::BouncyCastle::Bcpg::SignatureSubpacket*>*> const& __cordl_internal_get_packets() const;
+constexpr ::ArrayW<::Org::BouncyCastle::Bcpg::SignatureSubpacket*,::Array<::Org::BouncyCastle::Bcpg::SignatureSubpacket*>*> const& __cordl_internal_get_packets() const;
 
-  constexpr ::ArrayW<::Org::BouncyCastle::Bcpg::SignatureSubpacket*, ::Array<::Org::BouncyCastle::Bcpg::SignatureSubpacket*>*>& __cordl_internal_get_packets();
+constexpr ::ArrayW<::Org::BouncyCastle::Bcpg::SignatureSubpacket*,::Array<::Org::BouncyCastle::Bcpg::SignatureSubpacket*>*>& __cordl_internal_get_packets() ;
 
-  constexpr void __cordl_internal_set_packets(::ArrayW<::Org::BouncyCastle::Bcpg::SignatureSubpacket*, ::Array<::Org::BouncyCastle::Bcpg::SignatureSubpacket*>*> value);
+constexpr void __cordl_internal_set_packets(::ArrayW<::Org::BouncyCastle::Bcpg::SignatureSubpacket*,::Array<::Org::BouncyCastle::Bcpg::SignatureSubpacket*>*>  value) ;
 
-  /// @brief Method .ctor, addr 0x133cc1c, size 0x28, virtual false, abstract: false, final false
-  inline void _ctor(::ArrayW<::Org::BouncyCastle::Bcpg::SignatureSubpacket*, ::Array<::Org::BouncyCastle::Bcpg::SignatureSubpacket*>*> packets);
+/// @brief Method .ctor, addr 0x24fc868, size 0x28, virtual false, abstract: false, final false
+inline void _ctor(::ArrayW<::Org::BouncyCastle::Bcpg::SignatureSubpacket*,::Array<::Org::BouncyCastle::Bcpg::SignatureSubpacket*>*>  packets) ;
 
-  /// @brief Method get_Count, addr 0x13407d0, size 0x1c, virtual false, abstract: false, final false
-  inline int32_t get_Count();
+/// @brief Method get_Count, addr 0x2500384, size 0x1c, virtual false, abstract: false, final false
+inline int32_t get_Count() ;
 
-  /// @brief Method get_Size, addr 0x13407b4, size 0x1c, virtual false, abstract: false, final false
-  inline int32_t get_Size();
+/// @brief Method get_Size, addr 0x2500368, size 0x1c, virtual false, abstract: false, final false
+inline int32_t get_Size() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PgpSignatureSubpacketVector();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr PgpSignatureSubpacketVector() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PgpSignatureSubpacketVector", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  PgpSignatureSubpacketVector(PgpSignatureSubpacketVector&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PgpSignatureSubpacketVector", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  PgpSignatureSubpacketVector(PgpSignatureSubpacketVector const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "PgpSignatureSubpacketVector", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+PgpSignatureSubpacketVector(PgpSignatureSubpacketVector && ) = delete;
 
-  /// @brief Field packets, offset: 0x10, size: 0x8, def value: None
-  ::ArrayW<::Org::BouncyCastle::Bcpg::SignatureSubpacket*, ::Array<::Org::BouncyCastle::Bcpg::SignatureSubpacket*>*> ___packets;
+// Ctor Parameters [CppParam { name: "", ty: "PgpSignatureSubpacketVector", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+PgpSignatureSubpacketVector(PgpSignatureSubpacketVector const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field packets, offset: 0x10, size: 0x8, def value: None
+ ::ArrayW<::Org::BouncyCastle::Bcpg::SignatureSubpacket*,::Array<::Org::BouncyCastle::Bcpg::SignatureSubpacket*>*>  ___packets;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector, 0x18>, "Size mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector, ___packets) == 0x10, "Offset mismatch!");
 
-} // namespace Org::BouncyCastle::Bcpg::OpenPgp
+} // namespace end def Org::BouncyCastle::Bcpg::OpenPgp
 NEED_NO_BOX(::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Bcpg::OpenPgp::PgpSignatureSubpacketVector*, "Org.BouncyCastle.Bcpg.OpenPgp", "PgpSignatureSubpacketVector");

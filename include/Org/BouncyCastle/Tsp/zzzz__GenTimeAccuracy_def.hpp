@@ -20,72 +20,72 @@ class GenTimeAccuracy;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Tsp::GenTimeAccuracy);
 // Type: Org.BouncyCastle.Tsp::GenTimeAccuracy
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Tsp {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Tsp::GenTimeAccuracy*
 class CORDL_TYPE GenTimeAccuracy : public ::System::Object {
 public:
-  // Declarations
-  __declspec(property(get = get_Micros)) int32_t Micros;
+// Declarations
+ __declspec(property(get=get_Micros)) int32_t  Micros;
 
-  __declspec(property(get = get_Millis)) int32_t Millis;
+ __declspec(property(get=get_Millis)) int32_t  Millis;
 
-  __declspec(property(get = get_Seconds)) int32_t Seconds;
+ __declspec(property(get=get_Seconds)) int32_t  Seconds;
 
-  /// @brief Field accuracy, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_accuracy, put = __cordl_internal_set_accuracy))::Org::BouncyCastle::Asn1::Tsp::Accuracy* accuracy;
+/// @brief Field accuracy, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_accuracy, put=__cordl_internal_set_accuracy)) ::Org::BouncyCastle::Asn1::Tsp::Accuracy*  accuracy;
 
-  /// @brief Method GetTimeComponent, addr 0x13c1324, size 0x18, virtual false, abstract: false, final false
-  inline int32_t GetTimeComponent(::Org::BouncyCastle::Asn1::DerInteger* time);
+/// @brief Method GetTimeComponent, addr 0x257d128, size 0x18, virtual false, abstract: false, final false
+inline int32_t GetTimeComponent(::Org::BouncyCastle::Asn1::DerInteger*  time) ;
 
-  static inline ::Org::BouncyCastle::Tsp::GenTimeAccuracy* New_ctor(::Org::BouncyCastle::Asn1::Tsp::Accuracy* accuracy);
+static inline ::Org::BouncyCastle::Tsp::GenTimeAccuracy* New_ctor(::Org::BouncyCastle::Asn1::Tsp::Accuracy*  accuracy) ;
 
-  /// @brief Method ToString, addr 0x13c1394, size 0x1bc, virtual true, abstract: false, final false
-  inline ::StringW ToString();
+/// @brief Method ToString, addr 0x257d198, size 0x1bc, virtual true, abstract: false, final false
+inline ::StringW ToString() ;
 
-  constexpr ::Org::BouncyCastle::Asn1::Tsp::Accuracy*& __cordl_internal_get_accuracy();
+constexpr ::Org::BouncyCastle::Asn1::Tsp::Accuracy*& __cordl_internal_get_accuracy() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Tsp::Accuracy*> const& __cordl_internal_get_accuracy() const;
+constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Tsp::Accuracy*> const& __cordl_internal_get_accuracy() const;
 
-  constexpr void __cordl_internal_set_accuracy(::Org::BouncyCastle::Asn1::Tsp::Accuracy* value);
+constexpr void __cordl_internal_set_accuracy(::Org::BouncyCastle::Asn1::Tsp::Accuracy*  value) ;
 
-  /// @brief Method .ctor, addr 0x13c12d0, size 0x28, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Asn1::Tsp::Accuracy* accuracy);
+/// @brief Method .ctor, addr 0x257d0d4, size 0x28, virtual false, abstract: false, final false
+inline void _ctor(::Org::BouncyCastle::Asn1::Tsp::Accuracy*  accuracy) ;
 
-  /// @brief Method get_Micros, addr 0x13c1368, size 0x2c, virtual false, abstract: false, final false
-  inline int32_t get_Micros();
+/// @brief Method get_Micros, addr 0x257d16c, size 0x2c, virtual false, abstract: false, final false
+inline int32_t get_Micros() ;
 
-  /// @brief Method get_Millis, addr 0x13c133c, size 0x2c, virtual false, abstract: false, final false
-  inline int32_t get_Millis();
+/// @brief Method get_Millis, addr 0x257d140, size 0x2c, virtual false, abstract: false, final false
+inline int32_t get_Millis() ;
 
-  /// @brief Method get_Seconds, addr 0x13c12f8, size 0x2c, virtual false, abstract: false, final false
-  inline int32_t get_Seconds();
+/// @brief Method get_Seconds, addr 0x257d0fc, size 0x2c, virtual false, abstract: false, final false
+inline int32_t get_Seconds() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr GenTimeAccuracy();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr GenTimeAccuracy() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GenTimeAccuracy", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  GenTimeAccuracy(GenTimeAccuracy&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GenTimeAccuracy", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  GenTimeAccuracy(GenTimeAccuracy const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "GenTimeAccuracy", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+GenTimeAccuracy(GenTimeAccuracy && ) = delete;
 
-  /// @brief Field accuracy, offset: 0x10, size: 0x8, def value: None
-  ::Org::BouncyCastle::Asn1::Tsp::Accuracy* ___accuracy;
+// Ctor Parameters [CppParam { name: "", ty: "GenTimeAccuracy", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+GenTimeAccuracy(GenTimeAccuracy const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field accuracy, offset: 0x10, size: 0x8, def value: None
+ ::Org::BouncyCastle::Asn1::Tsp::Accuracy*  ___accuracy;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Tsp::GenTimeAccuracy, 0x18>, "Size mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Tsp::GenTimeAccuracy, ___accuracy) == 0x10, "Offset mismatch!");
 
-} // namespace Org::BouncyCastle::Tsp
+} // namespace end def Org::BouncyCastle::Tsp
 NEED_NO_BOX(::Org::BouncyCastle::Tsp::GenTimeAccuracy);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Tsp::GenTimeAccuracy*, "Org.BouncyCastle.Tsp", "GenTimeAccuracy");

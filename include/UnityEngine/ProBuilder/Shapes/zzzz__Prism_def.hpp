@@ -27,43 +27,43 @@ class Prism;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::ProBuilder::Shapes::Prism);
 // Type: UnityEngine.ProBuilder.Shapes::Prism
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::Shapes {
 // Is value type: false
 // CS Name: ::UnityEngine.ProBuilder.Shapes::Prism*
 class CORDL_TYPE Prism : public ::UnityEngine::ProBuilder::Shapes::Shape {
 public:
-  // Declarations
-  /// @brief Method CopyShape, addr 0x32fc928, size 0x4, virtual true, abstract: false, final false
-  inline void CopyShape(::UnityEngine::ProBuilder::Shapes::Shape* shape);
+// Declarations
+/// @brief Method CopyShape, addr 0x46bfc60, size 0x4, virtual true, abstract: false, final false
+inline void CopyShape(::UnityEngine::ProBuilder::Shapes::Shape*  shape) ;
 
-  static inline ::UnityEngine::ProBuilder::Shapes::Prism* New_ctor();
+static inline ::UnityEngine::ProBuilder::Shapes::Prism* New_ctor() ;
 
-  /// @brief Method RebuildMesh, addr 0x32fc92c, size 0x814, virtual true, abstract: false, final false
-  inline ::UnityEngine::Bounds RebuildMesh(::UnityEngine::ProBuilder::ProBuilderMesh* mesh, ::UnityEngine::Vector3 size, ::UnityEngine::Quaternion rotation);
+/// @brief Method RebuildMesh, addr 0x46bfc64, size 0x794, virtual true, abstract: false, final false
+inline ::UnityEngine::Bounds RebuildMesh(::UnityEngine::ProBuilder::ProBuilderMesh*  mesh, ::UnityEngine::Vector3  size, ::UnityEngine::Quaternion  rotation) ;
 
-  /// @brief Method .ctor, addr 0x32fd140, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x46c03f8, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Prism();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr Prism() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Prism", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  Prism(Prism&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Prism", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  Prism(Prism const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "Prism", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+Prism(Prism && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "Prism", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+Prism(Prism const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::Shapes::Prism, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine::ProBuilder::Shapes
+} // namespace end def UnityEngine::ProBuilder::Shapes
 NEED_NO_BOX(::UnityEngine::ProBuilder::Shapes::Prism);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::Shapes::Prism*, "UnityEngine.ProBuilder.Shapes", "Prism");

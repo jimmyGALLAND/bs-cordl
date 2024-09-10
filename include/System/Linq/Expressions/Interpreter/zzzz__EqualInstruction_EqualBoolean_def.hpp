@@ -16,40 +16,40 @@ class __EqualInstruction__EqualBoolean;
 // Write type traits
 MARK_REF_PTR_T(::System::Linq::Expressions::Interpreter::__EqualInstruction__EqualBoolean);
 // Type: ::EqualBoolean
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Linq::Expressions::Interpreter {
 // Is value type: false
 // CS Name: ::EqualInstruction::EqualBoolean*
 class CORDL_TYPE __EqualInstruction__EqualBoolean : public ::System::Linq::Expressions::Interpreter::EqualInstruction {
 public:
-  // Declarations
-  static inline ::System::Linq::Expressions::Interpreter::__EqualInstruction__EqualBoolean* New_ctor();
+// Declarations
+static inline ::System::Linq::Expressions::Interpreter::__EqualInstruction__EqualBoolean* New_ctor() ;
 
-  /// @brief Method Run, addr 0x2c4ca18, size 0xe0, virtual true, abstract: false, final false
-  inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
+/// @brief Method Run, addr 0x4035ec8, size 0xe0, virtual true, abstract: false, final false
+inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame*  frame) ;
 
-  /// @brief Method .ctor, addr 0x2c4c9b0, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x4035e60, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __EqualInstruction__EqualBoolean();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __EqualInstruction__EqualBoolean() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__EqualInstruction__EqualBoolean", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __EqualInstruction__EqualBoolean(__EqualInstruction__EqualBoolean&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__EqualInstruction__EqualBoolean", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __EqualInstruction__EqualBoolean(__EqualInstruction__EqualBoolean const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__EqualInstruction__EqualBoolean", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__EqualInstruction__EqualBoolean(__EqualInstruction__EqualBoolean && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "__EqualInstruction__EqualBoolean", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__EqualInstruction__EqualBoolean(__EqualInstruction__EqualBoolean const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Interpreter::__EqualInstruction__EqualBoolean, 0x10>, "Size mismatch!");
 
-} // namespace System::Linq::Expressions::Interpreter
+} // namespace end def System::Linq::Expressions::Interpreter
 NEED_NO_BOX(::System::Linq::Expressions::Interpreter::__EqualInstruction__EqualBoolean);
 DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::Interpreter::__EqualInstruction__EqualBoolean*, "System.Linq.Expressions.Interpreter", "EqualInstruction/EqualBoolean");

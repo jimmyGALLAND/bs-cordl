@@ -22,50 +22,48 @@ class AvatarRandomizer;
 // Write type traits
 MARK_REF_PTR_T(::BeatSaber::BeatAvatarSDK::AvatarRandomizer);
 // Type: BeatSaber.BeatAvatarSDK::AvatarRandomizer
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace BeatSaber::BeatAvatarSDK {
 // Is value type: false
 // CS Name: ::BeatSaber.BeatAvatarSDK::AvatarRandomizer*
 class CORDL_TYPE AvatarRandomizer : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field _randomizeColorsParamsCollection, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__randomizeColorsParamsCollection,
-                             put = setStaticF__randomizeColorsParamsCollection))::ArrayW<::BeatSaber::BeatAvatarSDK::RandomizeAvatarColorMap*,
-                                                                                         ::Array<::BeatSaber::BeatAvatarSDK::RandomizeAvatarColorMap*>*> _randomizeColorsParamsCollection;
+// Declarations
+/// @brief Field _randomizeColorsParamsCollection, offset 0xffffffff, size 0x8 
+static __declspec(property(get=getStaticF__randomizeColorsParamsCollection, put=setStaticF__randomizeColorsParamsCollection)) ::ArrayW<::BeatSaber::BeatAvatarSDK::RandomizeAvatarColorMap*,::Array<::BeatSaber::BeatAvatarSDK::RandomizeAvatarColorMap*>*>  _randomizeColorsParamsCollection;
 
-  /// @brief Method RandomizeAll, addr 0x105cd7c, size 0x6c, virtual false, abstract: false, final false
-  static inline void RandomizeAll(::BeatSaber::BeatAvatarSDK::AvatarData* avatarData, ::BeatSaber::BeatAvatarSDK::AvatarPartsModel* avatarPartsModel);
+/// @brief Method RandomizeAll, addr 0x2218a64, size 0x6c, virtual false, abstract: false, final false
+static inline void RandomizeAll(::BeatSaber::BeatAvatarSDK::AvatarData*  avatarData, ::BeatSaber::BeatAvatarSDK::AvatarPartsModel*  avatarPartsModel) ;
 
-  /// @brief Method RandomizeColors, addr 0x105e4c4, size 0x29c, virtual false, abstract: false, final false
-  static inline void RandomizeColors(::BeatSaber::BeatAvatarSDK::AvatarData* avatarData);
+/// @brief Method RandomizeColors, addr 0x221a300, size 0x29c, virtual false, abstract: false, final false
+static inline void RandomizeColors(::BeatSaber::BeatAvatarSDK::AvatarData*  avatarData) ;
 
-  /// @brief Method RandomizeModels, addr 0x105e368, size 0x15c, virtual false, abstract: false, final false
-  static inline void RandomizeModels(::BeatSaber::BeatAvatarSDK::AvatarData* avatarData, ::BeatSaber::BeatAvatarSDK::AvatarPartsModel* avatarPartsModel);
+/// @brief Method RandomizeModels, addr 0x221a1a4, size 0x15c, virtual false, abstract: false, final false
+static inline void RandomizeModels(::BeatSaber::BeatAvatarSDK::AvatarData*  avatarData, ::BeatSaber::BeatAvatarSDK::AvatarPartsModel*  avatarPartsModel) ;
 
-  static inline ::ArrayW<::BeatSaber::BeatAvatarSDK::RandomizeAvatarColorMap*, ::Array<::BeatSaber::BeatAvatarSDK::RandomizeAvatarColorMap*>*> getStaticF__randomizeColorsParamsCollection();
+static inline ::ArrayW<::BeatSaber::BeatAvatarSDK::RandomizeAvatarColorMap*,::Array<::BeatSaber::BeatAvatarSDK::RandomizeAvatarColorMap*>*> getStaticF__randomizeColorsParamsCollection() ;
 
-  static inline void setStaticF__randomizeColorsParamsCollection(::ArrayW<::BeatSaber::BeatAvatarSDK::RandomizeAvatarColorMap*, ::Array<::BeatSaber::BeatAvatarSDK::RandomizeAvatarColorMap*>*> value);
+static inline void setStaticF__randomizeColorsParamsCollection(::ArrayW<::BeatSaber::BeatAvatarSDK::RandomizeAvatarColorMap*,::Array<::BeatSaber::BeatAvatarSDK::RandomizeAvatarColorMap*>*>  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AvatarRandomizer();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr AvatarRandomizer() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AvatarRandomizer", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  AvatarRandomizer(AvatarRandomizer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AvatarRandomizer", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  AvatarRandomizer(AvatarRandomizer const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "AvatarRandomizer", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+AvatarRandomizer(AvatarRandomizer && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "AvatarRandomizer", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+AvatarRandomizer(AvatarRandomizer const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::BeatSaber::BeatAvatarSDK::AvatarRandomizer, 0x10>, "Size mismatch!");
 
-} // namespace BeatSaber::BeatAvatarSDK
+} // namespace end def BeatSaber::BeatAvatarSDK
 NEED_NO_BOX(::BeatSaber::BeatAvatarSDK::AvatarRandomizer);
 DEFINE_IL2CPP_ARG_TYPE(::BeatSaber::BeatAvatarSDK::AvatarRandomizer*, "BeatSaber.BeatAvatarSDK", "AvatarRandomizer");

@@ -64,10 +64,12 @@ namespace System::Threading {
 struct CancellationToken;
 }
 namespace System {
-template <typename T> struct ReadOnlyMemory_1;
+template<typename T>
+struct ReadOnlyMemory_1;
 }
 namespace System {
-template <typename T> struct ReadOnlySpan_1;
+template<typename T>
+struct ReadOnlySpan_1;
 }
 // Forward declare root types
 namespace System::IO {
@@ -96,51 +98,48 @@ MARK_VAL_T(::System::IO::__StreamWriter___WriteAsyncInternal_d__57);
 MARK_VAL_T(::System::IO::__StreamWriter___WriteAsyncInternal_d__59);
 MARK_VAL_T(::System::IO::__StreamWriter___WriteAsyncInternal_d__62);
 // Type: ::<DisposeAsyncCore>d__33
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: true
 // CS Name: ::StreamWriter::<DisposeAsyncCore>d__33
 struct CORDL_TYPE __StreamWriter___DisposeAsyncCore_d__33 {
 public:
-  // Declarations
-  /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-  constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+// Declarations
+/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr operator  ::System::Runtime::CompilerServices::IAsyncStateMachine*() ;
 
-  /// @brief Method MoveNext, addr 0x28b4e78, size 0x28c, virtual true, abstract: false, final true
-  inline void MoveNext();
+/// @brief Method MoveNext, addr 0x3cb17b8, size 0x28c, virtual true, abstract: false, final true
+inline void MoveNext() ;
 
-  /// @brief Method SetStateMachine, addr 0x28b5104, size 0xc, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+/// @brief Method SetStateMachine, addr 0x3cb1a44, size 0xc, virtual true, abstract: false, final true
+inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine*  stateMachine) ;
 
-  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
+/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine() ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __StreamWriter___DisposeAsyncCore_d__33();
+// Ctor Parameters []
+// @brief default ctor
+constexpr __StreamWriter___DisposeAsyncCore_d__33() ;
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncValueTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::System::IO::StreamWriter*", modifiers: "", def_value:
-  // None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter", modifiers: "", def_value: None }]
-  constexpr __StreamWriter___DisposeAsyncCore_d__33(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncValueTaskMethodBuilder __t__builder, ::System::IO::StreamWriter* __4__this,
-                                                    ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter __u__1) noexcept;
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty: "::System::Runtime::CompilerServices::AsyncValueTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::System::IO::StreamWriter*", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter", modifiers: "", def_value: None }]
+constexpr __StreamWriter___DisposeAsyncCore_d__33(int32_t  __1__state, ::System::Runtime::CompilerServices::AsyncValueTaskMethodBuilder  __t__builder, ::System::IO::StreamWriter*  __4__this, ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter  __u__1) noexcept;
 
-  /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
-  int32_t __1__state;
+/// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
+ int32_t  __1__state;
 
-  /// @brief Field <>t__builder, offset: 0x8, size: 0x20, def value: None
-  ::System::Runtime::CompilerServices::AsyncValueTaskMethodBuilder __t__builder;
+/// @brief Field <>t__builder, offset: 0x8, size: 0x20, def value: None
+ ::System::Runtime::CompilerServices::AsyncValueTaskMethodBuilder  __t__builder;
 
-  /// @brief Field <>4__this, offset: 0x28, size: 0x8, def value: None
-  ::System::IO::StreamWriter* __4__this;
+/// @brief Field <>4__this, offset: 0x28, size: 0x8, def value: None
+ ::System::IO::StreamWriter*  __4__this;
 
-  /// @brief Field <>u__1, offset: 0x30, size: 0x10, def value: None
-  ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter __u__1;
+/// @brief Field <>u__1, offset: 0x30, size: 0x10, def value: None
+ ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter  __u__1;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x40};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::IO::__StreamWriter___DisposeAsyncCore_d__33, 0x40>, "Size mismatch!");
@@ -153,83 +152,74 @@ static_assert(offsetof(::System::IO::__StreamWriter___DisposeAsyncCore_d__33, __
 
 static_assert(offsetof(::System::IO::__StreamWriter___DisposeAsyncCore_d__33, __u__1) == 0x30, "Offset mismatch!");
 
-} // namespace System::IO
+} // namespace end def System::IO
 // Type: ::<WriteAsyncInternal>d__57
-// SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 116, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 116, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: true
 // CS Name: ::StreamWriter::<WriteAsyncInternal>d__57
 struct CORDL_TYPE __StreamWriter___WriteAsyncInternal_d__57 {
 public:
-  // Declarations
-  /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-  constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+// Declarations
+/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr operator  ::System::Runtime::CompilerServices::IAsyncStateMachine*() ;
 
-  /// @brief Method MoveNext, addr 0x28b5110, size 0x408, virtual true, abstract: false, final true
-  inline void MoveNext();
+/// @brief Method MoveNext, addr 0x3cb1a50, size 0x484, virtual true, abstract: false, final true
+inline void MoveNext() ;
 
-  /// @brief Method SetStateMachine, addr 0x28b5518, size 0xc, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+/// @brief Method SetStateMachine, addr 0x3cb1ed4, size 0x68, virtual true, abstract: false, final true
+inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine*  stateMachine) ;
 
-  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
+/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine() ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __StreamWriter___WriteAsyncInternal_d__57();
+// Ctor Parameters []
+// @brief default ctor
+constexpr __StreamWriter___WriteAsyncInternal_d__57() ;
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "charPos", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "charLen", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_this", ty: "::System::IO::StreamWriter*", modifiers: "", def_value: None }, CppParam { name: "charBuffer", ty:
-  // "::ArrayW<char16_t,::Array<char16_t>*>", modifiers: "", def_value: None }, CppParam { name: "value", ty: "char16_t", modifiers: "", def_value: None }, CppParam { name: "appendNewLine", ty:
-  // "bool", modifiers: "", def_value: None }, CppParam { name: "coreNewLine", ty: "::ArrayW<char16_t,::Array<char16_t>*>", modifiers: "", def_value: None }, CppParam { name: "autoFlush", ty: "bool",
-  // modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter", modifiers: "", def_value: None },
-  // CppParam { name: "_i_5__2", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __StreamWriter___WriteAsyncInternal_d__57(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, int32_t charPos, int32_t charLen,
-                                                      ::System::IO::StreamWriter* _this, ::ArrayW<char16_t, ::Array<char16_t>*> charBuffer, char16_t value, bool appendNewLine,
-                                                      ::ArrayW<char16_t, ::Array<char16_t>*> coreNewLine, bool autoFlush,
-                                                      ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter __u__1, int32_t _i_5__2) noexcept;
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty: "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "charPos", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "charLen", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_this", ty: "::System::IO::StreamWriter*", modifiers: "", def_value: None }, CppParam { name: "charBuffer", ty: "::ArrayW<char16_t,::Array<char16_t>*>", modifiers: "", def_value: None }, CppParam { name: "value", ty: "char16_t", modifiers: "", def_value: None }, CppParam { name: "appendNewLine", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "coreNewLine", ty: "::ArrayW<char16_t,::Array<char16_t>*>", modifiers: "", def_value: None }, CppParam { name: "autoFlush", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter", modifiers: "", def_value: None }, CppParam { name: "_i_5__2", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr __StreamWriter___WriteAsyncInternal_d__57(int32_t  __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder  __t__builder, int32_t  charPos, int32_t  charLen, ::System::IO::StreamWriter*  _this, ::ArrayW<char16_t,::Array<char16_t>*>  charBuffer, char16_t  value, bool  appendNewLine, ::ArrayW<char16_t,::Array<char16_t>*>  coreNewLine, bool  autoFlush, ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter  __u__1, int32_t  _i_5__2) noexcept;
 
-  /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
-  int32_t __1__state;
+/// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
+ int32_t  __1__state;
 
-  /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
-  ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder;
+/// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
+ ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder  __t__builder;
 
-  /// @brief Field charPos, offset: 0x20, size: 0x4, def value: None
-  int32_t charPos;
+/// @brief Field charPos, offset: 0x20, size: 0x4, def value: None
+ int32_t  charPos;
 
-  /// @brief Field charLen, offset: 0x24, size: 0x4, def value: None
-  int32_t charLen;
+/// @brief Field charLen, offset: 0x24, size: 0x4, def value: None
+ int32_t  charLen;
 
-  /// @brief Field _this, offset: 0x28, size: 0x8, def value: None
-  ::System::IO::StreamWriter* _this;
+/// @brief Field _this, offset: 0x28, size: 0x8, def value: None
+ ::System::IO::StreamWriter*  _this;
 
-  /// @brief Field charBuffer, offset: 0x30, size: 0x8, def value: None
-  ::ArrayW<char16_t, ::Array<char16_t>*> charBuffer;
+/// @brief Field charBuffer, offset: 0x30, size: 0x8, def value: None
+ ::ArrayW<char16_t,::Array<char16_t>*>  charBuffer;
 
-  /// @brief Field value, offset: 0x38, size: 0x2, def value: None
-  char16_t value;
+/// @brief Field value, offset: 0x38, size: 0x2, def value: None
+ char16_t  value;
 
-  /// @brief Field appendNewLine, offset: 0x3a, size: 0x1, def value: None
-  bool appendNewLine;
+/// @brief Field appendNewLine, offset: 0x3a, size: 0x1, def value: None
+ bool  appendNewLine;
 
-  /// @brief Field coreNewLine, offset: 0x40, size: 0x8, def value: None
-  ::ArrayW<char16_t, ::Array<char16_t>*> coreNewLine;
+/// @brief Field coreNewLine, offset: 0x40, size: 0x8, def value: None
+ ::ArrayW<char16_t,::Array<char16_t>*>  coreNewLine;
 
-  /// @brief Field autoFlush, offset: 0x48, size: 0x1, def value: None
-  bool autoFlush;
+/// @brief Field autoFlush, offset: 0x48, size: 0x1, def value: None
+ bool  autoFlush;
 
-  /// @brief Field <>u__1, offset: 0x50, size: 0x10, def value: None
-  ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter __u__1;
+/// @brief Field <>u__1, offset: 0x50, size: 0x10, def value: None
+ ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter  __u__1;
 
-  /// @brief Field <i>5__2, offset: 0x60, size: 0x4, def value: None
-  int32_t _i_5__2;
+/// @brief Field <i>5__2, offset: 0x60, size: 0x4, def value: None
+ int32_t  _i_5__2;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x68 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x68};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::IO::__StreamWriter___WriteAsyncInternal_d__57, 0x68>, "Size mismatch!");
@@ -258,90 +248,80 @@ static_assert(offsetof(::System::IO::__StreamWriter___WriteAsyncInternal_d__57, 
 
 static_assert(offsetof(::System::IO::__StreamWriter___WriteAsyncInternal_d__57, _i_5__2) == 0x60, "Offset mismatch!");
 
-} // namespace System::IO
+} // namespace end def System::IO
 // Type: ::<WriteAsyncInternal>d__59
-// SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 132, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 132, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: true
 // CS Name: ::StreamWriter::<WriteAsyncInternal>d__59
 struct CORDL_TYPE __StreamWriter___WriteAsyncInternal_d__59 {
 public:
-  // Declarations
-  /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-  constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+// Declarations
+/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr operator  ::System::Runtime::CompilerServices::IAsyncStateMachine*() ;
 
-  /// @brief Method MoveNext, addr 0x28b5524, size 0x460, virtual true, abstract: false, final true
-  inline void MoveNext();
+/// @brief Method MoveNext, addr 0x3cb1f3c, size 0x4d8, virtual true, abstract: false, final true
+inline void MoveNext() ;
 
-  /// @brief Method SetStateMachine, addr 0x28b5984, size 0xc, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+/// @brief Method SetStateMachine, addr 0x3cb2414, size 0x68, virtual true, abstract: false, final true
+inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine*  stateMachine) ;
 
-  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
+/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine() ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __StreamWriter___WriteAsyncInternal_d__59();
+// Ctor Parameters []
+// @brief default ctor
+constexpr __StreamWriter___WriteAsyncInternal_d__59() ;
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "value", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name:
-  // "charPos", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "charLen", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_this", ty:
-  // "::System::IO::StreamWriter*", modifiers: "", def_value: None }, CppParam { name: "charBuffer", ty: "::ArrayW<char16_t,::Array<char16_t>*>", modifiers: "", def_value: None }, CppParam { name:
-  // "appendNewLine", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "coreNewLine", ty: "::ArrayW<char16_t,::Array<char16_t>*>", modifiers: "", def_value: None }, CppParam { name:
-  // "autoFlush", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "_count_5__2", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_index_5__3", ty: "int32_t",
-  // modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter", modifiers: "", def_value: None },
-  // CppParam { name: "_i_5__4", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __StreamWriter___WriteAsyncInternal_d__59(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::StringW value, int32_t charPos, int32_t charLen,
-                                                      ::System::IO::StreamWriter* _this, ::ArrayW<char16_t, ::Array<char16_t>*> charBuffer, bool appendNewLine,
-                                                      ::ArrayW<char16_t, ::Array<char16_t>*> coreNewLine, bool autoFlush, int32_t _count_5__2, int32_t _index_5__3,
-                                                      ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter __u__1, int32_t _i_5__4) noexcept;
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty: "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "value", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "charPos", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "charLen", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_this", ty: "::System::IO::StreamWriter*", modifiers: "", def_value: None }, CppParam { name: "charBuffer", ty: "::ArrayW<char16_t,::Array<char16_t>*>", modifiers: "", def_value: None }, CppParam { name: "appendNewLine", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "coreNewLine", ty: "::ArrayW<char16_t,::Array<char16_t>*>", modifiers: "", def_value: None }, CppParam { name: "autoFlush", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "_count_5__2", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_index_5__3", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter", modifiers: "", def_value: None }, CppParam { name: "_i_5__4", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr __StreamWriter___WriteAsyncInternal_d__59(int32_t  __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder  __t__builder, ::StringW  value, int32_t  charPos, int32_t  charLen, ::System::IO::StreamWriter*  _this, ::ArrayW<char16_t,::Array<char16_t>*>  charBuffer, bool  appendNewLine, ::ArrayW<char16_t,::Array<char16_t>*>  coreNewLine, bool  autoFlush, int32_t  _count_5__2, int32_t  _index_5__3, ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter  __u__1, int32_t  _i_5__4) noexcept;
 
-  /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
-  int32_t __1__state;
+/// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
+ int32_t  __1__state;
 
-  /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
-  ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder;
+/// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
+ ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder  __t__builder;
 
-  /// @brief Field value, offset: 0x20, size: 0x8, def value: None
-  ::StringW value;
+/// @brief Field value, offset: 0x20, size: 0x8, def value: None
+ ::StringW  value;
 
-  /// @brief Field charPos, offset: 0x28, size: 0x4, def value: None
-  int32_t charPos;
+/// @brief Field charPos, offset: 0x28, size: 0x4, def value: None
+ int32_t  charPos;
 
-  /// @brief Field charLen, offset: 0x2c, size: 0x4, def value: None
-  int32_t charLen;
+/// @brief Field charLen, offset: 0x2c, size: 0x4, def value: None
+ int32_t  charLen;
 
-  /// @brief Field _this, offset: 0x30, size: 0x8, def value: None
-  ::System::IO::StreamWriter* _this;
+/// @brief Field _this, offset: 0x30, size: 0x8, def value: None
+ ::System::IO::StreamWriter*  _this;
 
-  /// @brief Field charBuffer, offset: 0x38, size: 0x8, def value: None
-  ::ArrayW<char16_t, ::Array<char16_t>*> charBuffer;
+/// @brief Field charBuffer, offset: 0x38, size: 0x8, def value: None
+ ::ArrayW<char16_t,::Array<char16_t>*>  charBuffer;
 
-  /// @brief Field appendNewLine, offset: 0x40, size: 0x1, def value: None
-  bool appendNewLine;
+/// @brief Field appendNewLine, offset: 0x40, size: 0x1, def value: None
+ bool  appendNewLine;
 
-  /// @brief Field coreNewLine, offset: 0x48, size: 0x8, def value: None
-  ::ArrayW<char16_t, ::Array<char16_t>*> coreNewLine;
+/// @brief Field coreNewLine, offset: 0x48, size: 0x8, def value: None
+ ::ArrayW<char16_t,::Array<char16_t>*>  coreNewLine;
 
-  /// @brief Field autoFlush, offset: 0x50, size: 0x1, def value: None
-  bool autoFlush;
+/// @brief Field autoFlush, offset: 0x50, size: 0x1, def value: None
+ bool  autoFlush;
 
-  /// @brief Field <count>5__2, offset: 0x54, size: 0x4, def value: None
-  int32_t _count_5__2;
+/// @brief Field <count>5__2, offset: 0x54, size: 0x4, def value: None
+ int32_t  _count_5__2;
 
-  /// @brief Field <index>5__3, offset: 0x58, size: 0x4, def value: None
-  int32_t _index_5__3;
+/// @brief Field <index>5__3, offset: 0x58, size: 0x4, def value: None
+ int32_t  _index_5__3;
 
-  /// @brief Field <>u__1, offset: 0x60, size: 0x10, def value: None
-  ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter __u__1;
+/// @brief Field <>u__1, offset: 0x60, size: 0x10, def value: None
+ ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter  __u__1;
 
-  /// @brief Field <i>5__4, offset: 0x70, size: 0x4, def value: None
-  int32_t _i_5__4;
+/// @brief Field <i>5__4, offset: 0x70, size: 0x4, def value: None
+ int32_t  _i_5__4;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x78 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x78};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::IO::__StreamWriter___WriteAsyncInternal_d__59, 0x78>, "Size mismatch!");
@@ -374,90 +354,80 @@ static_assert(offsetof(::System::IO::__StreamWriter___WriteAsyncInternal_d__59, 
 
 static_assert(offsetof(::System::IO::__StreamWriter___WriteAsyncInternal_d__59, _i_5__4) == 0x70, "Offset mismatch!");
 
-} // namespace System::IO
+} // namespace end def System::IO
 // Type: ::<WriteAsyncInternal>d__62
-// SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 140, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: true
 // CS Name: ::StreamWriter::<WriteAsyncInternal>d__62
 struct CORDL_TYPE __StreamWriter___WriteAsyncInternal_d__62 {
 public:
-  // Declarations
-  /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-  constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+// Declarations
+/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr operator  ::System::Runtime::CompilerServices::IAsyncStateMachine*() ;
 
-  /// @brief Method MoveNext, addr 0x28b5990, size 0x5e0, virtual true, abstract: false, final true
-  inline void MoveNext();
+/// @brief Method MoveNext, addr 0x3cb247c, size 0x62c, virtual true, abstract: false, final true
+inline void MoveNext() ;
 
-  /// @brief Method SetStateMachine, addr 0x28b5f70, size 0xc, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+/// @brief Method SetStateMachine, addr 0x3cb2aa8, size 0x68, virtual true, abstract: false, final true
+inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine*  stateMachine) ;
 
-  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
+/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine() ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __StreamWriter___WriteAsyncInternal_d__62();
+// Ctor Parameters []
+// @brief default ctor
+constexpr __StreamWriter___WriteAsyncInternal_d__62() ;
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "charPos", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "charLen", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_this", ty: "::System::IO::StreamWriter*", modifiers: "", def_value: None }, CppParam { name: "charBuffer", ty:
-  // "::ArrayW<char16_t,::Array<char16_t>*>", modifiers: "", def_value: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None },
-  // CppParam { name: "source", ty: "::System::ReadOnlyMemory_1<char16_t>", modifiers: "", def_value: None }, CppParam { name: "appendNewLine", ty: "bool", modifiers: "", def_value: None }, CppParam {
-  // name: "coreNewLine", ty: "::ArrayW<char16_t,::Array<char16_t>*>", modifiers: "", def_value: None }, CppParam { name: "autoFlush", ty: "bool", modifiers: "", def_value: None }, CppParam { name:
-  // "_copied_5__2", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter", modifiers:
-  // "", def_value: None }, CppParam { name: "_i_5__3", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __StreamWriter___WriteAsyncInternal_d__62(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, int32_t charPos, int32_t charLen,
-                                                      ::System::IO::StreamWriter* _this, ::ArrayW<char16_t, ::Array<char16_t>*> charBuffer, ::System::Threading::CancellationToken cancellationToken,
-                                                      ::System::ReadOnlyMemory_1<char16_t> source, bool appendNewLine, ::ArrayW<char16_t, ::Array<char16_t>*> coreNewLine, bool autoFlush,
-                                                      int32_t _copied_5__2, ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter __u__1, int32_t _i_5__3) noexcept;
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty: "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "charPos", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "charLen", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "_this", ty: "::System::IO::StreamWriter*", modifiers: "", def_value: None }, CppParam { name: "charBuffer", ty: "::ArrayW<char16_t,::Array<char16_t>*>", modifiers: "", def_value: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "source", ty: "::System::ReadOnlyMemory_1<char16_t>", modifiers: "", def_value: None }, CppParam { name: "appendNewLine", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "coreNewLine", ty: "::ArrayW<char16_t,::Array<char16_t>*>", modifiers: "", def_value: None }, CppParam { name: "autoFlush", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "_copied_5__2", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter", modifiers: "", def_value: None }, CppParam { name: "_i_5__3", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr __StreamWriter___WriteAsyncInternal_d__62(int32_t  __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder  __t__builder, int32_t  charPos, int32_t  charLen, ::System::IO::StreamWriter*  _this, ::ArrayW<char16_t,::Array<char16_t>*>  charBuffer, ::System::Threading::CancellationToken  cancellationToken, ::System::ReadOnlyMemory_1<char16_t>  source, bool  appendNewLine, ::ArrayW<char16_t,::Array<char16_t>*>  coreNewLine, bool  autoFlush, int32_t  _copied_5__2, ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter  __u__1, int32_t  _i_5__3) noexcept;
 
-  /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
-  int32_t __1__state;
+/// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
+ int32_t  __1__state;
 
-  /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
-  ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder;
+/// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
+ ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder  __t__builder;
 
-  /// @brief Field charPos, offset: 0x20, size: 0x4, def value: None
-  int32_t charPos;
+/// @brief Field charPos, offset: 0x20, size: 0x4, def value: None
+ int32_t  charPos;
 
-  /// @brief Field charLen, offset: 0x24, size: 0x4, def value: None
-  int32_t charLen;
+/// @brief Field charLen, offset: 0x24, size: 0x4, def value: None
+ int32_t  charLen;
 
-  /// @brief Field _this, offset: 0x28, size: 0x8, def value: None
-  ::System::IO::StreamWriter* _this;
+/// @brief Field _this, offset: 0x28, size: 0x8, def value: None
+ ::System::IO::StreamWriter*  _this;
 
-  /// @brief Field charBuffer, offset: 0x30, size: 0x8, def value: None
-  ::ArrayW<char16_t, ::Array<char16_t>*> charBuffer;
+/// @brief Field charBuffer, offset: 0x30, size: 0x8, def value: None
+ ::ArrayW<char16_t,::Array<char16_t>*>  charBuffer;
 
-  /// @brief Field cancellationToken, offset: 0x38, size: 0x8, def value: None
-  ::System::Threading::CancellationToken cancellationToken;
+/// @brief Field cancellationToken, offset: 0x38, size: 0x8, def value: None
+ ::System::Threading::CancellationToken  cancellationToken;
 
-  /// @brief Field source, offset: 0x40, size: 0x10, def value: None
-  ::System::ReadOnlyMemory_1<char16_t> source;
+/// @brief Field source, offset: 0x40, size: 0x10, def value: None
+ ::System::ReadOnlyMemory_1<char16_t>  source;
 
-  /// @brief Field appendNewLine, offset: 0x50, size: 0x1, def value: None
-  bool appendNewLine;
+/// @brief Field appendNewLine, offset: 0x50, size: 0x1, def value: None
+ bool  appendNewLine;
 
-  /// @brief Field coreNewLine, offset: 0x58, size: 0x8, def value: None
-  ::ArrayW<char16_t, ::Array<char16_t>*> coreNewLine;
+/// @brief Field coreNewLine, offset: 0x58, size: 0x8, def value: None
+ ::ArrayW<char16_t,::Array<char16_t>*>  coreNewLine;
 
-  /// @brief Field autoFlush, offset: 0x60, size: 0x1, def value: None
-  bool autoFlush;
+/// @brief Field autoFlush, offset: 0x60, size: 0x1, def value: None
+ bool  autoFlush;
 
-  /// @brief Field <copied>5__2, offset: 0x64, size: 0x4, def value: None
-  int32_t _copied_5__2;
+/// @brief Field <copied>5__2, offset: 0x64, size: 0x4, def value: None
+ int32_t  _copied_5__2;
 
-  /// @brief Field <>u__1, offset: 0x68, size: 0x10, def value: None
-  ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter __u__1;
+/// @brief Field <>u__1, offset: 0x68, size: 0x10, def value: None
+ ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter  __u__1;
 
-  /// @brief Field <i>5__3, offset: 0x78, size: 0x4, def value: None
-  int32_t _i_5__3;
+/// @brief Field <i>5__3, offset: 0x78, size: 0x4, def value: None
+ int32_t  _i_5__3;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x80 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x80};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::IO::__StreamWriter___WriteAsyncInternal_d__62, 0x80>, "Size mismatch!");
@@ -490,96 +460,83 @@ static_assert(offsetof(::System::IO::__StreamWriter___WriteAsyncInternal_d__62, 
 
 static_assert(offsetof(::System::IO::__StreamWriter___WriteAsyncInternal_d__62, _i_5__3) == 0x78, "Offset mismatch!");
 
-} // namespace System::IO
+} // namespace end def System::IO
 // Type: ::<FlushAsyncInternal>d__74
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 160, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: true
 // CS Name: ::StreamWriter::<FlushAsyncInternal>d__74
 struct CORDL_TYPE __StreamWriter___FlushAsyncInternal_d__74 {
 public:
-  // Declarations
-  /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-  constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+// Declarations
+/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr operator  ::System::Runtime::CompilerServices::IAsyncStateMachine*() ;
 
-  /// @brief Method MoveNext, addr 0x28b5f7c, size 0x724, virtual true, abstract: false, final true
-  inline void MoveNext();
+/// @brief Method MoveNext, addr 0x3cb2b10, size 0x8dc, virtual true, abstract: false, final true
+inline void MoveNext() ;
 
-  /// @brief Method SetStateMachine, addr 0x28b66a0, size 0xc, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+/// @brief Method SetStateMachine, addr 0x3cb33ec, size 0x68, virtual true, abstract: false, final true
+inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine*  stateMachine) ;
 
-  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
+/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine() ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __StreamWriter___FlushAsyncInternal_d__74();
+// Ctor Parameters []
+// @brief default ctor
+constexpr __StreamWriter___FlushAsyncInternal_d__74() ;
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "haveWrittenPreamble", ty: "bool", modifiers: "", def_value: None }, CppParam {
-  // name: "_this", ty: "::System::IO::StreamWriter*", modifiers: "", def_value: None }, CppParam { name: "encoding", ty: "::System::Text::Encoding*", modifiers: "", def_value: None }, CppParam {
-  // name: "stream", ty: "::System::IO::Stream*", modifiers: "", def_value: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None
-  // }, CppParam { name: "encoder", ty: "::System::Text::Encoder*", modifiers: "", def_value: None }, CppParam { name: "charBuffer", ty: "::ArrayW<char16_t,::Array<char16_t>*>", modifiers: "",
-  // def_value: None }, CppParam { name: "charPos", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "byteBuffer", ty: "::ArrayW<uint8_t,::Array<uint8_t>*>", modifiers: "", def_value:
-  // None }, CppParam { name: "flushEncoder", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "flushStream", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::__ConfiguredValueTaskAwaitable__ConfiguredValueTaskAwaiter", modifiers: "", def_value: None }, CppParam { name: "__u__2", ty:
-  // "::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter", modifiers: "", def_value: None }]
-  constexpr __StreamWriter___FlushAsyncInternal_d__74(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, bool haveWrittenPreamble,
-                                                      ::System::IO::StreamWriter* _this, ::System::Text::Encoding* encoding, ::System::IO::Stream* stream,
-                                                      ::System::Threading::CancellationToken cancellationToken, ::System::Text::Encoder* encoder, ::ArrayW<char16_t, ::Array<char16_t>*> charBuffer,
-                                                      int32_t charPos, ::ArrayW<uint8_t, ::Array<uint8_t>*> byteBuffer, bool flushEncoder, bool flushStream,
-                                                      ::System::Runtime::CompilerServices::__ConfiguredValueTaskAwaitable__ConfiguredValueTaskAwaiter __u__1,
-                                                      ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter __u__2) noexcept;
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty: "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "haveWrittenPreamble", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "_this", ty: "::System::IO::StreamWriter*", modifiers: "", def_value: None }, CppParam { name: "encoding", ty: "::System::Text::Encoding*", modifiers: "", def_value: None }, CppParam { name: "stream", ty: "::System::IO::Stream*", modifiers: "", def_value: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "encoder", ty: "::System::Text::Encoder*", modifiers: "", def_value: None }, CppParam { name: "charBuffer", ty: "::ArrayW<char16_t,::Array<char16_t>*>", modifiers: "", def_value: None }, CppParam { name: "charPos", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "byteBuffer", ty: "::ArrayW<uint8_t,::Array<uint8_t>*>", modifiers: "", def_value: None }, CppParam { name: "flushEncoder", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "flushStream", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::__ConfiguredValueTaskAwaitable__ConfiguredValueTaskAwaiter", modifiers: "", def_value: None }, CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter", modifiers: "", def_value: None }]
+constexpr __StreamWriter___FlushAsyncInternal_d__74(int32_t  __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder  __t__builder, bool  haveWrittenPreamble, ::System::IO::StreamWriter*  _this, ::System::Text::Encoding*  encoding, ::System::IO::Stream*  stream, ::System::Threading::CancellationToken  cancellationToken, ::System::Text::Encoder*  encoder, ::ArrayW<char16_t,::Array<char16_t>*>  charBuffer, int32_t  charPos, ::ArrayW<uint8_t,::Array<uint8_t>*>  byteBuffer, bool  flushEncoder, bool  flushStream, ::System::Runtime::CompilerServices::__ConfiguredValueTaskAwaitable__ConfiguredValueTaskAwaiter  __u__1, ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter  __u__2) noexcept;
 
-  /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
-  int32_t __1__state;
+/// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
+ int32_t  __1__state;
 
-  /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
-  ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder;
+/// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
+ ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder  __t__builder;
 
-  /// @brief Field haveWrittenPreamble, offset: 0x20, size: 0x1, def value: None
-  bool haveWrittenPreamble;
+/// @brief Field haveWrittenPreamble, offset: 0x20, size: 0x1, def value: None
+ bool  haveWrittenPreamble;
 
-  /// @brief Field _this, offset: 0x28, size: 0x8, def value: None
-  ::System::IO::StreamWriter* _this;
+/// @brief Field _this, offset: 0x28, size: 0x8, def value: None
+ ::System::IO::StreamWriter*  _this;
 
-  /// @brief Field encoding, offset: 0x30, size: 0x8, def value: None
-  ::System::Text::Encoding* encoding;
+/// @brief Field encoding, offset: 0x30, size: 0x8, def value: None
+ ::System::Text::Encoding*  encoding;
 
-  /// @brief Field stream, offset: 0x38, size: 0x8, def value: None
-  ::System::IO::Stream* stream;
+/// @brief Field stream, offset: 0x38, size: 0x8, def value: None
+ ::System::IO::Stream*  stream;
 
-  /// @brief Field cancellationToken, offset: 0x40, size: 0x8, def value: None
-  ::System::Threading::CancellationToken cancellationToken;
+/// @brief Field cancellationToken, offset: 0x40, size: 0x8, def value: None
+ ::System::Threading::CancellationToken  cancellationToken;
 
-  /// @brief Field encoder, offset: 0x48, size: 0x8, def value: None
-  ::System::Text::Encoder* encoder;
+/// @brief Field encoder, offset: 0x48, size: 0x8, def value: None
+ ::System::Text::Encoder*  encoder;
 
-  /// @brief Field charBuffer, offset: 0x50, size: 0x8, def value: None
-  ::ArrayW<char16_t, ::Array<char16_t>*> charBuffer;
+/// @brief Field charBuffer, offset: 0x50, size: 0x8, def value: None
+ ::ArrayW<char16_t,::Array<char16_t>*>  charBuffer;
 
-  /// @brief Field charPos, offset: 0x58, size: 0x4, def value: None
-  int32_t charPos;
+/// @brief Field charPos, offset: 0x58, size: 0x4, def value: None
+ int32_t  charPos;
 
-  /// @brief Field byteBuffer, offset: 0x60, size: 0x8, def value: None
-  ::ArrayW<uint8_t, ::Array<uint8_t>*> byteBuffer;
+/// @brief Field byteBuffer, offset: 0x60, size: 0x8, def value: None
+ ::ArrayW<uint8_t,::Array<uint8_t>*>  byteBuffer;
 
-  /// @brief Field flushEncoder, offset: 0x68, size: 0x1, def value: None
-  bool flushEncoder;
+/// @brief Field flushEncoder, offset: 0x68, size: 0x1, def value: None
+ bool  flushEncoder;
 
-  /// @brief Field flushStream, offset: 0x69, size: 0x1, def value: None
-  bool flushStream;
+/// @brief Field flushStream, offset: 0x69, size: 0x1, def value: None
+ bool  flushStream;
 
-  /// @brief Field <>u__1, offset: 0x70, size: 0x10, def value: None
-  ::System::Runtime::CompilerServices::__ConfiguredValueTaskAwaitable__ConfiguredValueTaskAwaiter __u__1;
+/// @brief Field <>u__1, offset: 0x70, size: 0x10, def value: None
+ ::System::Runtime::CompilerServices::__ConfiguredValueTaskAwaitable__ConfiguredValueTaskAwaiter  __u__1;
 
-  /// @brief Field <>u__2, offset: 0x80, size: 0x10, def value: None
-  ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter __u__2;
+/// @brief Field <>u__2, offset: 0x80, size: 0x10, def value: None
+ ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter  __u__2;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x90 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x90};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::IO::__StreamWriter___FlushAsyncInternal_d__74, 0x90>, "Size mismatch!");
@@ -614,335 +571,332 @@ static_assert(offsetof(::System::IO::__StreamWriter___FlushAsyncInternal_d__74, 
 
 static_assert(offsetof(::System::IO::__StreamWriter___FlushAsyncInternal_d__74, __u__2) == 0x80, "Offset mismatch!");
 
-} // namespace System::IO
+} // namespace end def System::IO
 // Type: System.IO::StreamWriter
-// SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: false
 // CS Name: ::System.IO::StreamWriter*
 class CORDL_TYPE StreamWriter : public ::System::IO::TextWriter {
 public:
-  // Declarations
-  using _DisposeAsyncCore_d__33 = ::System::IO::__StreamWriter___DisposeAsyncCore_d__33;
+// Declarations
+using _DisposeAsyncCore_d__33 = ::System::IO::__StreamWriter___DisposeAsyncCore_d__33;
 
-  using _FlushAsyncInternal_d__74 = ::System::IO::__StreamWriter___FlushAsyncInternal_d__74;
+using _FlushAsyncInternal_d__74 = ::System::IO::__StreamWriter___FlushAsyncInternal_d__74;
 
-  using _WriteAsyncInternal_d__57 = ::System::IO::__StreamWriter___WriteAsyncInternal_d__57;
+using _WriteAsyncInternal_d__57 = ::System::IO::__StreamWriter___WriteAsyncInternal_d__57;
 
-  using _WriteAsyncInternal_d__59 = ::System::IO::__StreamWriter___WriteAsyncInternal_d__59;
+using _WriteAsyncInternal_d__59 = ::System::IO::__StreamWriter___WriteAsyncInternal_d__59;
 
-  using _WriteAsyncInternal_d__62 = ::System::IO::__StreamWriter___WriteAsyncInternal_d__62;
+using _WriteAsyncInternal_d__62 = ::System::IO::__StreamWriter___WriteAsyncInternal_d__62;
 
-  __declspec(property(put = set_AutoFlush)) bool AutoFlush;
+ __declspec(property(put=set_AutoFlush)) bool  AutoFlush;
 
-  __declspec(property(get = get_BaseStream))::System::IO::Stream* BaseStream;
+ __declspec(property(get=get_BaseStream)) ::System::IO::Stream*  BaseStream;
 
-  __declspec(property(put = set_CharPos_Prop)) int32_t CharPos_Prop;
+ __declspec(property(put=set_CharPos_Prop)) int32_t  CharPos_Prop;
 
-  __declspec(property(get = get_Encoding))::System::Text::Encoding* Encoding;
+ __declspec(property(get=get_Encoding)) ::System::Text::Encoding*  Encoding;
 
-  __declspec(property(put = set_HaveWrittenPreamble_Prop)) bool HaveWrittenPreamble_Prop;
+ __declspec(property(put=set_HaveWrittenPreamble_Prop)) bool  HaveWrittenPreamble_Prop;
 
-  __declspec(property(get = get_LeaveOpen)) bool LeaveOpen;
+ __declspec(property(get=get_LeaveOpen)) bool  LeaveOpen;
 
-  /// @brief Field Null, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Null, put = setStaticF_Null))::System::IO::StreamWriter* Null;
+/// @brief Field Null, offset 0xffffffff, size 0x8 
+static __declspec(property(get=getStaticF_Null, put=setStaticF_Null)) ::System::IO::StreamWriter*  Null;
 
-  /// @brief Field _asyncWriteTask, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get__asyncWriteTask, put = __cordl_internal_set__asyncWriteTask))::System::Threading::Tasks::Task* _asyncWriteTask;
+/// @brief Field _asyncWriteTask, offset 0x68, size 0x8 
+ __declspec(property(get=__cordl_internal_get__asyncWriteTask, put=__cordl_internal_set__asyncWriteTask)) ::System::Threading::Tasks::Task*  _asyncWriteTask;
 
-  /// @brief Field _autoFlush, offset 0x60, size 0x1
-  __declspec(property(get = __cordl_internal_get__autoFlush, put = __cordl_internal_set__autoFlush)) bool _autoFlush;
+/// @brief Field _autoFlush, offset 0x60, size 0x1 
+ __declspec(property(get=__cordl_internal_get__autoFlush, put=__cordl_internal_set__autoFlush)) bool  _autoFlush;
 
-  /// @brief Field _byteBuffer, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__byteBuffer, put = __cordl_internal_set__byteBuffer))::ArrayW<uint8_t, ::Array<uint8_t>*> _byteBuffer;
+/// @brief Field _byteBuffer, offset 0x48, size 0x8 
+ __declspec(property(get=__cordl_internal_get__byteBuffer, put=__cordl_internal_set__byteBuffer)) ::ArrayW<uint8_t,::Array<uint8_t>*>  _byteBuffer;
 
-  /// @brief Field _charBuffer, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get__charBuffer, put = __cordl_internal_set__charBuffer))::ArrayW<char16_t, ::Array<char16_t>*> _charBuffer;
+/// @brief Field _charBuffer, offset 0x50, size 0x8 
+ __declspec(property(get=__cordl_internal_get__charBuffer, put=__cordl_internal_set__charBuffer)) ::ArrayW<char16_t,::Array<char16_t>*>  _charBuffer;
 
-  /// @brief Field _charLen, offset 0x5c, size 0x4
-  __declspec(property(get = __cordl_internal_get__charLen, put = __cordl_internal_set__charLen)) int32_t _charLen;
+/// @brief Field _charLen, offset 0x5c, size 0x4 
+ __declspec(property(get=__cordl_internal_get__charLen, put=__cordl_internal_set__charLen)) int32_t  _charLen;
 
-  /// @brief Field _charPos, offset 0x58, size 0x4
-  __declspec(property(get = __cordl_internal_get__charPos, put = __cordl_internal_set__charPos)) int32_t _charPos;
+/// @brief Field _charPos, offset 0x58, size 0x4 
+ __declspec(property(get=__cordl_internal_get__charPos, put=__cordl_internal_set__charPos)) int32_t  _charPos;
 
-  /// @brief Field _closable, offset 0x62, size 0x1
-  __declspec(property(get = __cordl_internal_get__closable, put = __cordl_internal_set__closable)) bool _closable;
+/// @brief Field _closable, offset 0x62, size 0x1 
+ __declspec(property(get=__cordl_internal_get__closable, put=__cordl_internal_set__closable)) bool  _closable;
 
-  /// @brief Field _encoder, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__encoder, put = __cordl_internal_set__encoder))::System::Text::Encoder* _encoder;
+/// @brief Field _encoder, offset 0x40, size 0x8 
+ __declspec(property(get=__cordl_internal_get__encoder, put=__cordl_internal_set__encoder)) ::System::Text::Encoder*  _encoder;
 
-  /// @brief Field _encoding, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__encoding, put = __cordl_internal_set__encoding))::System::Text::Encoding* _encoding;
+/// @brief Field _encoding, offset 0x38, size 0x8 
+ __declspec(property(get=__cordl_internal_get__encoding, put=__cordl_internal_set__encoding)) ::System::Text::Encoding*  _encoding;
 
-  /// @brief Field _haveWrittenPreamble, offset 0x61, size 0x1
-  __declspec(property(get = __cordl_internal_get__haveWrittenPreamble, put = __cordl_internal_set__haveWrittenPreamble)) bool _haveWrittenPreamble;
+/// @brief Field _haveWrittenPreamble, offset 0x61, size 0x1 
+ __declspec(property(get=__cordl_internal_get__haveWrittenPreamble, put=__cordl_internal_set__haveWrittenPreamble)) bool  _haveWrittenPreamble;
 
-  /// @brief Field _stream, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__stream, put = __cordl_internal_set__stream))::System::IO::Stream* _stream;
+/// @brief Field _stream, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get__stream, put=__cordl_internal_set__stream)) ::System::IO::Stream*  _stream;
 
-  /// @brief Method CheckAsyncTaskInProgress, addr 0x28b17f4, size 0x64, virtual false, abstract: false, final false
-  inline void CheckAsyncTaskInProgress();
+/// @brief Method CheckAsyncTaskInProgress, addr 0x3cae9d4, size 0x64, virtual false, abstract: false, final false
+inline void CheckAsyncTaskInProgress() ;
 
-  /// @brief Method Close, addr 0x28b21d0, size 0x6c, virtual true, abstract: false, final false
-  inline void Close();
+/// @brief Method Close, addr 0x3caf38c, size 0x6c, virtual true, abstract: false, final false
+inline void Close() ;
 
-  /// @brief Method CloseStreamFromDispose, addr 0x28b2680, size 0xc8, virtual false, abstract: false, final false
-  inline void CloseStreamFromDispose(bool disposing);
+/// @brief Method CloseStreamFromDispose, addr 0x3caf870, size 0xc8, virtual false, abstract: false, final false
+inline void CloseStreamFromDispose(bool  disposing) ;
 
-  /// @brief Method Dispose, addr 0x28b223c, size 0x94, virtual true, abstract: false, final false
-  inline void Dispose(bool disposing);
+/// @brief Method Dispose, addr 0x3caf3f8, size 0x94, virtual true, abstract: false, final false
+inline void Dispose(bool  disposing) ;
 
-  /// @brief Method DisposeAsync, addr 0x28b2450, size 0xbc, virtual true, abstract: false, final false
-  inline ::System::Threading::Tasks::ValueTask DisposeAsync();
+/// @brief Method DisposeAsync, addr 0x3caf608, size 0xbc, virtual true, abstract: false, final false
+inline ::System::Threading::Tasks::ValueTask DisposeAsync() ;
 
-  /// @brief Method DisposeAsyncCore, addr 0x28b250c, size 0xa8, virtual false, abstract: false, final false
-  inline ::System::Threading::Tasks::ValueTask DisposeAsyncCore();
+/// @brief Method DisposeAsyncCore, addr 0x3caf6c4, size 0xe0, virtual false, abstract: false, final false
+inline ::System::Threading::Tasks::ValueTask DisposeAsyncCore() ;
 
-  /// @brief Method Flush, addr 0x28b2758, size 0x20, virtual true, abstract: false, final false
-  inline void Flush();
+/// @brief Method Flush, addr 0x3caf948, size 0x20, virtual true, abstract: false, final false
+inline void Flush() ;
 
-  /// @brief Method Flush, addr 0x28b22d0, size 0x180, virtual false, abstract: false, final false
-  inline void Flush(bool flushStream, bool flushEncoder);
+/// @brief Method Flush, addr 0x3caf48c, size 0x17c, virtual false, abstract: false, final false
+inline void Flush(bool  flushStream, bool  flushEncoder) ;
 
-  /// @brief Method FlushAsync, addr 0x28b47dc, size 0x138, virtual true, abstract: false, final false
-  inline ::System::Threading::Tasks::Task* FlushAsync();
+/// @brief Method FlushAsync, addr 0x3cb10fc, size 0x134, virtual true, abstract: false, final false
+inline ::System::Threading::Tasks::Task* FlushAsync() ;
 
-  /// @brief Method FlushAsyncInternal, addr 0x28b4c90, size 0x134, virtual false, abstract: false, final false
-  static inline ::System::Threading::Tasks::Task* FlushAsyncInternal(::System::IO::StreamWriter* _this, bool flushStream, bool flushEncoder, ::ArrayW<char16_t, ::Array<char16_t>*> charBuffer,
-                                                                     int32_t charPos, bool haveWrittenPreamble, ::System::Text::Encoding* encoding, ::System::Text::Encoder* encoder,
-                                                                     ::ArrayW<uint8_t, ::Array<uint8_t>*> byteBuffer, ::System::IO::Stream* stream,
-                                                                     ::System::Threading::CancellationToken cancellationToken);
+/// @brief Method FlushAsyncInternal, addr 0x3cb15d4, size 0x138, virtual false, abstract: false, final false
+static inline ::System::Threading::Tasks::Task* FlushAsyncInternal(::System::IO::StreamWriter*  _this, bool  flushStream, bool  flushEncoder, ::ArrayW<char16_t,::Array<char16_t>*>  charBuffer, int32_t  charPos, bool  haveWrittenPreamble, ::System::Text::Encoding*  encoding, ::System::Text::Encoder*  encoder, ::ArrayW<uint8_t,::Array<uint8_t>*>  byteBuffer, ::System::IO::Stream*  stream, ::System::Threading::CancellationToken  cancellationToken) ;
 
-  /// @brief Method FlushAsyncInternal, addr 0x28b4b08, size 0x174, virtual false, abstract: false, final false
-  inline ::System::Threading::Tasks::Task* FlushAsyncInternal(bool flushStream, bool flushEncoder, ::ArrayW<char16_t, ::Array<char16_t>*> sCharBuffer, int32_t sCharPos,
-                                                              ::System::Threading::CancellationToken cancellationToken);
+/// @brief Method FlushAsyncInternal, addr 0x3cb1420, size 0x1a0, virtual false, abstract: false, final false
+inline ::System::Threading::Tasks::Task* FlushAsyncInternal(bool  flushStream, bool  flushEncoder, ::ArrayW<char16_t,::Array<char16_t>*>  sCharBuffer, int32_t  sCharPos, ::System::Threading::CancellationToken  cancellationToken) ;
 
-  /// @brief Method Init, addr 0x28b1cdc, size 0x13c, virtual false, abstract: false, final false
-  inline void Init(::System::IO::Stream* streamArg, ::System::Text::Encoding* encodingArg, int32_t bufferSize, bool shouldLeaveOpen);
+/// @brief Method Init, addr 0x3caeea0, size 0x13c, virtual false, abstract: false, final false
+inline void Init(::System::IO::Stream*  streamArg, ::System::Text::Encoding*  encodingArg, int32_t  bufferSize, bool  shouldLeaveOpen) ;
 
-  static inline ::System::IO::StreamWriter* New_ctor();
+static inline ::System::IO::StreamWriter* New_ctor() ;
 
-  static inline ::System::IO::StreamWriter* New_ctor(::StringW path);
+static inline ::System::IO::StreamWriter* New_ctor(::StringW  path) ;
 
-  static inline ::System::IO::StreamWriter* New_ctor(::StringW path, bool append);
+static inline ::System::IO::StreamWriter* New_ctor(::StringW  path, bool  append) ;
 
-  static inline ::System::IO::StreamWriter* New_ctor(::StringW path, bool append, ::System::Text::Encoding* encoding, int32_t bufferSize);
+static inline ::System::IO::StreamWriter* New_ctor(::StringW  path, bool  append, ::System::Text::Encoding*  encoding) ;
 
-  static inline ::System::IO::StreamWriter* New_ctor(::System::IO::Stream* stream);
+static inline ::System::IO::StreamWriter* New_ctor(::StringW  path, bool  append, ::System::Text::Encoding*  encoding, int32_t  bufferSize) ;
 
-  static inline ::System::IO::StreamWriter* New_ctor(::System::IO::Stream* stream, ::System::Text::Encoding* encoding);
+static inline ::System::IO::StreamWriter* New_ctor(::System::IO::Stream*  stream) ;
 
-  static inline ::System::IO::StreamWriter* New_ctor(::System::IO::Stream* stream, ::System::Text::Encoding* encoding, int32_t bufferSize);
+static inline ::System::IO::StreamWriter* New_ctor(::System::IO::Stream*  stream, ::System::Text::Encoding*  encoding) ;
 
-  static inline ::System::IO::StreamWriter* New_ctor(::System::IO::Stream* stream, ::System::Text::Encoding* encoding, int32_t bufferSize, bool leaveOpen);
+static inline ::System::IO::StreamWriter* New_ctor(::System::IO::Stream*  stream, ::System::Text::Encoding*  encoding, int32_t  bufferSize) ;
 
-  /// @brief Method ThrowAsyncIOInProgress, addr 0x28b1858, size 0x50, virtual false, abstract: false, final false
-  static inline void ThrowAsyncIOInProgress();
+static inline ::System::IO::StreamWriter* New_ctor(::System::IO::Stream*  stream, ::System::Text::Encoding*  encoding, int32_t  bufferSize, bool  leaveOpen) ;
 
-  /// @brief Method Write, addr 0x28b2858, size 0x268, virtual true, abstract: false, final false
-  inline void Write(::ArrayW<char16_t, ::Array<char16_t>*> buffer);
+/// @brief Method ThrowAsyncIOInProgress, addr 0x3caea38, size 0x4c, virtual false, abstract: false, final false
+static inline void ThrowAsyncIOInProgress() ;
 
-  /// @brief Method Write, addr 0x28b2ac0, size 0x3d8, virtual true, abstract: false, final false
-  inline void Write(::ArrayW<char16_t, ::Array<char16_t>*> buffer, int32_t index, int32_t count);
+/// @brief Method Write, addr 0x3cafa48, size 0x74, virtual true, abstract: false, final false
+inline void Write(::ArrayW<char16_t,::Array<char16_t>*>  buffer) ;
 
-  /// @brief Method Write, addr 0x28b3160, size 0x26c, virtual true, abstract: false, final false
-  inline void Write(::StringW value);
+/// @brief Method Write, addr 0x3cafabc, size 0x1dc, virtual true, abstract: false, final false
+inline void Write(::ArrayW<char16_t,::Array<char16_t>*>  buffer, int32_t  index, int32_t  count) ;
 
-  /// @brief Method Write, addr 0x28b27cc, size 0x8c, virtual true, abstract: false, final false
-  inline void Write(char16_t value);
+/// @brief Method Write, addr 0x3caff5c, size 0x70, virtual true, abstract: false, final false
+inline void Write(::StringW  value) ;
 
-  /// @brief Method WriteAsync, addr 0x28b4130, size 0x2fc, virtual true, abstract: false, final false
-  inline ::System::Threading::Tasks::Task* WriteAsync(::ArrayW<char16_t, ::Array<char16_t>*> buffer, int32_t index, int32_t count);
+/// @brief Method Write, addr 0x3caf9bc, size 0x8c, virtual true, abstract: false, final false
+inline void Write(char16_t  value) ;
 
-  /// @brief Method WriteAsync, addr 0x28b3bc4, size 0x200, virtual true, abstract: false, final false
-  inline ::System::Threading::Tasks::Task* WriteAsync(::StringW value);
+/// @brief Method WriteAsync, addr 0x3cb0a8c, size 0x2e8, virtual true, abstract: false, final false
+inline ::System::Threading::Tasks::Task* WriteAsync(::ArrayW<char16_t,::Array<char16_t>*>  buffer, int32_t  index, int32_t  count) ;
 
-  /// @brief Method WriteAsync, addr 0x28b36c8, size 0x198, virtual true, abstract: false, final false
-  inline ::System::Threading::Tasks::Task* WriteAsync(char16_t value);
+/// @brief Method WriteAsync, addr 0x3cb0530, size 0x1fc, virtual true, abstract: false, final false
+inline ::System::Threading::Tasks::Task* WriteAsync(::StringW  value) ;
 
-  /// @brief Method WriteAsyncInternal, addr 0x28b467c, size 0x160, virtual false, abstract: false, final false
-  static inline ::System::Threading::Tasks::Task* WriteAsyncInternal(::System::IO::StreamWriter* _this, ::System::ReadOnlyMemory_1<char16_t> source, ::ArrayW<char16_t, ::Array<char16_t>*> charBuffer,
-                                                                     int32_t charPos, int32_t charLen, ::ArrayW<char16_t, ::Array<char16_t>*> coreNewLine, bool autoFlush, bool appendNewLine,
-                                                                     ::System::Threading::CancellationToken cancellationToken);
+/// @brief Method WriteAsync, addr 0x3cb0040, size 0x194, virtual true, abstract: false, final false
+inline ::System::Threading::Tasks::Task* WriteAsync(char16_t  value) ;
 
-  /// @brief Method WriteAsyncInternal, addr 0x28b4004, size 0x12c, virtual false, abstract: false, final false
-  static inline ::System::Threading::Tasks::Task* WriteAsyncInternal(::System::IO::StreamWriter* _this, ::StringW value, ::ArrayW<char16_t, ::Array<char16_t>*> charBuffer, int32_t charPos,
-                                                                     int32_t charLen, ::ArrayW<char16_t, ::Array<char16_t>*> coreNewLine, bool autoFlush, bool appendNewLine);
+/// @brief Method WriteAsyncInternal, addr 0x3cb0fc4, size 0x138, virtual false, abstract: false, final false
+static inline ::System::Threading::Tasks::Task* WriteAsyncInternal(::System::IO::StreamWriter*  _this, ::System::ReadOnlyMemory_1<char16_t>  source, ::ArrayW<char16_t,::Array<char16_t>*>  charBuffer, int32_t  charPos, int32_t  charLen, ::ArrayW<char16_t,::Array<char16_t>*>  coreNewLine, bool  autoFlush, bool  appendNewLine, ::System::Threading::CancellationToken  cancellationToken) ;
 
-  /// @brief Method WriteAsyncInternal, addr 0x28b3aa0, size 0x124, virtual false, abstract: false, final false
-  static inline ::System::Threading::Tasks::Task* WriteAsyncInternal(::System::IO::StreamWriter* _this, char16_t value, ::ArrayW<char16_t, ::Array<char16_t>*> charBuffer, int32_t charPos,
-                                                                     int32_t charLen, ::ArrayW<char16_t, ::Array<char16_t>*> coreNewLine, bool autoFlush, bool appendNewLine);
+/// @brief Method WriteAsyncInternal, addr 0x3cb0964, size 0x128, virtual false, abstract: false, final false
+static inline ::System::Threading::Tasks::Task* WriteAsyncInternal(::System::IO::StreamWriter*  _this, ::StringW  value, ::ArrayW<char16_t,::Array<char16_t>*>  charBuffer, int32_t  charPos, int32_t  charLen, ::ArrayW<char16_t,::Array<char16_t>*>  coreNewLine, bool  autoFlush, bool  appendNewLine) ;
 
-  /// @brief Method WriteLine, addr 0x28b33cc, size 0x2fc, virtual true, abstract: false, final false
-  inline void WriteLine(::StringW value);
+/// @brief Method WriteAsyncInternal, addr 0x3cb040c, size 0x124, virtual false, abstract: false, final false
+static inline ::System::Threading::Tasks::Task* WriteAsyncInternal(::System::IO::StreamWriter*  _this, char16_t  value, ::ArrayW<char16_t,::Array<char16_t>*>  charBuffer, int32_t  charPos, int32_t  charLen, ::ArrayW<char16_t,::Array<char16_t>*>  coreNewLine, bool  autoFlush, bool  appendNewLine) ;
 
-  /// @brief Method WriteSpan, addr 0x28b2e98, size 0x2c8, virtual false, abstract: false, final false
-  inline void WriteSpan(::System::ReadOnlySpan_1<char16_t> buffer, bool appendNewLine);
+/// @brief Method WriteLine, addr 0x3caffcc, size 0x74, virtual true, abstract: false, final false
+inline void WriteLine(::StringW  value) ;
 
-  constexpr ::System::Threading::Tasks::Task*& __cordl_internal_get__asyncWriteTask();
+/// @brief Method WriteSpan, addr 0x3cafc98, size 0x2c4, virtual false, abstract: false, final false
+inline void WriteSpan(::System::ReadOnlySpan_1<char16_t>  buffer, bool  appendNewLine) ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::Task*> const& __cordl_internal_get__asyncWriteTask() const;
+constexpr ::System::Threading::Tasks::Task*& __cordl_internal_get__asyncWriteTask() ;
 
-  constexpr bool const& __cordl_internal_get__autoFlush() const;
+constexpr ::cordl_internals::to_const_pointer<::System::Threading::Tasks::Task*> const& __cordl_internal_get__asyncWriteTask() const;
 
-  constexpr bool& __cordl_internal_get__autoFlush();
+constexpr bool const& __cordl_internal_get__autoFlush() const;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get__byteBuffer() const;
+constexpr bool& __cordl_internal_get__autoFlush() ;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get__byteBuffer();
+constexpr ::ArrayW<uint8_t,::Array<uint8_t>*> const& __cordl_internal_get__byteBuffer() const;
 
-  constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& __cordl_internal_get__charBuffer() const;
+constexpr ::ArrayW<uint8_t,::Array<uint8_t>*>& __cordl_internal_get__byteBuffer() ;
 
-  constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& __cordl_internal_get__charBuffer();
+constexpr ::ArrayW<char16_t,::Array<char16_t>*> const& __cordl_internal_get__charBuffer() const;
 
-  constexpr int32_t const& __cordl_internal_get__charLen() const;
+constexpr ::ArrayW<char16_t,::Array<char16_t>*>& __cordl_internal_get__charBuffer() ;
 
-  constexpr int32_t& __cordl_internal_get__charLen();
+constexpr int32_t const& __cordl_internal_get__charLen() const;
 
-  constexpr int32_t const& __cordl_internal_get__charPos() const;
+constexpr int32_t& __cordl_internal_get__charLen() ;
 
-  constexpr int32_t& __cordl_internal_get__charPos();
+constexpr int32_t const& __cordl_internal_get__charPos() const;
 
-  constexpr bool const& __cordl_internal_get__closable() const;
+constexpr int32_t& __cordl_internal_get__charPos() ;
 
-  constexpr bool& __cordl_internal_get__closable();
+constexpr bool const& __cordl_internal_get__closable() const;
 
-  constexpr ::System::Text::Encoder*& __cordl_internal_get__encoder();
+constexpr bool& __cordl_internal_get__closable() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Text::Encoder*> const& __cordl_internal_get__encoder() const;
+constexpr ::System::Text::Encoder*& __cordl_internal_get__encoder() ;
 
-  constexpr ::System::Text::Encoding*& __cordl_internal_get__encoding();
+constexpr ::cordl_internals::to_const_pointer<::System::Text::Encoder*> const& __cordl_internal_get__encoder() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Text::Encoding*> const& __cordl_internal_get__encoding() const;
+constexpr ::System::Text::Encoding*& __cordl_internal_get__encoding() ;
 
-  constexpr bool const& __cordl_internal_get__haveWrittenPreamble() const;
+constexpr ::cordl_internals::to_const_pointer<::System::Text::Encoding*> const& __cordl_internal_get__encoding() const;
 
-  constexpr bool& __cordl_internal_get__haveWrittenPreamble();
+constexpr bool const& __cordl_internal_get__haveWrittenPreamble() const;
 
-  constexpr ::System::IO::Stream*& __cordl_internal_get__stream();
+constexpr bool& __cordl_internal_get__haveWrittenPreamble() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __cordl_internal_get__stream() const;
+constexpr ::System::IO::Stream*& __cordl_internal_get__stream() ;
 
-  constexpr void __cordl_internal_set__asyncWriteTask(::System::Threading::Tasks::Task* value);
+constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __cordl_internal_get__stream() const;
 
-  constexpr void __cordl_internal_set__autoFlush(bool value);
+constexpr void __cordl_internal_set__asyncWriteTask(::System::Threading::Tasks::Task*  value) ;
 
-  constexpr void __cordl_internal_set__byteBuffer(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+constexpr void __cordl_internal_set__autoFlush(bool  value) ;
 
-  constexpr void __cordl_internal_set__charBuffer(::ArrayW<char16_t, ::Array<char16_t>*> value);
+constexpr void __cordl_internal_set__byteBuffer(::ArrayW<uint8_t,::Array<uint8_t>*>  value) ;
 
-  constexpr void __cordl_internal_set__charLen(int32_t value);
+constexpr void __cordl_internal_set__charBuffer(::ArrayW<char16_t,::Array<char16_t>*>  value) ;
 
-  constexpr void __cordl_internal_set__charPos(int32_t value);
+constexpr void __cordl_internal_set__charLen(int32_t  value) ;
 
-  constexpr void __cordl_internal_set__closable(bool value);
+constexpr void __cordl_internal_set__charPos(int32_t  value) ;
 
-  constexpr void __cordl_internal_set__encoder(::System::Text::Encoder* value);
+constexpr void __cordl_internal_set__closable(bool  value) ;
 
-  constexpr void __cordl_internal_set__encoding(::System::Text::Encoding* value);
+constexpr void __cordl_internal_set__encoder(::System::Text::Encoder*  value) ;
 
-  constexpr void __cordl_internal_set__haveWrittenPreamble(bool value);
+constexpr void __cordl_internal_set__encoding(::System::Text::Encoding*  value) ;
 
-  constexpr void __cordl_internal_set__stream(::System::IO::Stream* value);
+constexpr void __cordl_internal_set__haveWrittenPreamble(bool  value) ;
 
-  /// @brief Method .ctor, addr 0x28b18f8, size 0xbc, virtual false, abstract: false, final false
-  inline void _ctor();
+constexpr void __cordl_internal_set__stream(::System::IO::Stream*  value) ;
 
-  /// @brief Method .ctor, addr 0x28b1e18, size 0x74, virtual false, abstract: false, final false
-  inline void _ctor(::StringW path);
+/// @brief Method .ctor, addr 0x3caead4, size 0xbc, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method .ctor, addr 0x28b20dc, size 0x78, virtual false, abstract: false, final false
-  inline void _ctor(::StringW path, bool append);
+/// @brief Method .ctor, addr 0x3caefdc, size 0x74, virtual false, abstract: false, final false
+inline void _ctor(::StringW  path) ;
 
-  /// @brief Method .ctor, addr 0x28b1e8c, size 0x250, virtual false, abstract: false, final false
-  inline void _ctor(::StringW path, bool append, ::System::Text::Encoding* encoding, int32_t bufferSize);
+/// @brief Method .ctor, addr 0x3caf28c, size 0x78, virtual false, abstract: false, final false
+inline void _ctor(::StringW  path, bool  append) ;
 
-  /// @brief Method .ctor, addr 0x28b1a3c, size 0x74, virtual false, abstract: false, final false
-  inline void _ctor(::System::IO::Stream* stream);
+/// @brief Method .ctor, addr 0x3caf304, size 0xc, virtual false, abstract: false, final false
+inline void _ctor(::StringW  path, bool  append, ::System::Text::Encoding*  encoding) ;
 
-  /// @brief Method .ctor, addr 0x28b1cc8, size 0xc, virtual false, abstract: false, final false
-  inline void _ctor(::System::IO::Stream* stream, ::System::Text::Encoding* encoding);
+/// @brief Method .ctor, addr 0x3caf050, size 0x23c, virtual false, abstract: false, final false
+inline void _ctor(::StringW  path, bool  append, ::System::Text::Encoding*  encoding, int32_t  bufferSize) ;
 
-  /// @brief Method .ctor, addr 0x28b1cd4, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::System::IO::Stream* stream, ::System::Text::Encoding* encoding, int32_t bufferSize);
+/// @brief Method .ctor, addr 0x3caec18, size 0x74, virtual false, abstract: false, final false
+inline void _ctor(::System::IO::Stream*  stream) ;
 
-  /// @brief Method .ctor, addr 0x28b1ab0, size 0x218, virtual false, abstract: false, final false
-  inline void _ctor(::System::IO::Stream* stream, ::System::Text::Encoding* encoding, int32_t bufferSize, bool leaveOpen);
+/// @brief Method .ctor, addr 0x3caee8c, size 0xc, virtual false, abstract: false, final false
+inline void _ctor(::System::IO::Stream*  stream, ::System::Text::Encoding*  encoding) ;
 
-  static inline ::System::IO::StreamWriter* getStaticF_Null();
+/// @brief Method .ctor, addr 0x3caee98, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(::System::IO::Stream*  stream, ::System::Text::Encoding*  encoding, int32_t  bufferSize) ;
 
-  /// @brief Method get_BaseStream, addr 0x28b27bc, size 0x8, virtual true, abstract: false, final false
-  inline ::System::IO::Stream* get_BaseStream();
+/// @brief Method .ctor, addr 0x3caec8c, size 0x200, virtual false, abstract: false, final false
+inline void _ctor(::System::IO::Stream*  stream, ::System::Text::Encoding*  encoding, int32_t  bufferSize, bool  leaveOpen) ;
 
-  /// @brief Method get_Encoding, addr 0x28b27c4, size 0x8, virtual true, abstract: false, final false
-  inline ::System::Text::Encoding* get_Encoding();
+static inline ::System::IO::StreamWriter* getStaticF_Null() ;
 
-  /// @brief Method get_LeaveOpen, addr 0x28b2748, size 0x10, virtual false, abstract: false, final false
-  inline bool get_LeaveOpen();
+/// @brief Method get_BaseStream, addr 0x3caf9ac, size 0x8, virtual true, abstract: false, final false
+inline ::System::IO::Stream* get_BaseStream() ;
 
-  /// @brief Method get_UTF8NoBOM, addr 0x28b18a8, size 0x50, virtual false, abstract: false, final false
-  static inline ::System::Text::Encoding* get_UTF8NoBOM();
+/// @brief Method get_Encoding, addr 0x3caf9b4, size 0x8, virtual true, abstract: false, final false
+inline ::System::Text::Encoding* get_Encoding() ;
 
-  static inline void setStaticF_Null(::System::IO::StreamWriter* value);
+/// @brief Method get_LeaveOpen, addr 0x3caf938, size 0x10, virtual false, abstract: false, final false
+inline bool get_LeaveOpen() ;
 
-  /// @brief Method set_AutoFlush, addr 0x28b2778, size 0x44, virtual true, abstract: false, final false
-  inline void set_AutoFlush(bool value);
+/// @brief Method get_UTF8NoBOM, addr 0x3caea84, size 0x50, virtual false, abstract: false, final false
+static inline ::System::Text::Encoding* get_UTF8NoBOM() ;
 
-  /// @brief Method set_CharPos_Prop, addr 0x28b4c7c, size 0x8, virtual false, abstract: false, final false
-  inline void set_CharPos_Prop(int32_t value);
+static inline void setStaticF_Null(::System::IO::StreamWriter*  value) ;
 
-  /// @brief Method set_HaveWrittenPreamble_Prop, addr 0x28b4c84, size 0xc, virtual false, abstract: false, final false
-  inline void set_HaveWrittenPreamble_Prop(bool value);
+/// @brief Method set_AutoFlush, addr 0x3caf968, size 0x44, virtual true, abstract: false, final false
+inline void set_AutoFlush(bool  value) ;
+
+/// @brief Method set_CharPos_Prop, addr 0x3cb15c0, size 0x8, virtual false, abstract: false, final false
+inline void set_CharPos_Prop(int32_t  value) ;
+
+/// @brief Method set_HaveWrittenPreamble_Prop, addr 0x3cb15c8, size 0xc, virtual false, abstract: false, final false
+inline void set_HaveWrittenPreamble_Prop(bool  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr StreamWriter();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr StreamWriter() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StreamWriter", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  StreamWriter(StreamWriter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StreamWriter", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  StreamWriter(StreamWriter const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "StreamWriter", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+StreamWriter(StreamWriter && ) = delete;
 
-  /// @brief Field _stream, offset: 0x30, size: 0x8, def value: None
-  ::System::IO::Stream* ____stream;
+// Ctor Parameters [CppParam { name: "", ty: "StreamWriter", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+StreamWriter(StreamWriter const& ) = delete;
 
-  /// @brief Field _encoding, offset: 0x38, size: 0x8, def value: None
-  ::System::Text::Encoding* ____encoding;
+/// @brief Field _stream, offset: 0x30, size: 0x8, def value: None
+ ::System::IO::Stream*  ____stream;
 
-  /// @brief Field _encoder, offset: 0x40, size: 0x8, def value: None
-  ::System::Text::Encoder* ____encoder;
+/// @brief Field _encoding, offset: 0x38, size: 0x8, def value: None
+ ::System::Text::Encoding*  ____encoding;
 
-  /// @brief Field _byteBuffer, offset: 0x48, size: 0x8, def value: None
-  ::ArrayW<uint8_t, ::Array<uint8_t>*> ____byteBuffer;
+/// @brief Field _encoder, offset: 0x40, size: 0x8, def value: None
+ ::System::Text::Encoder*  ____encoder;
 
-  /// @brief Field _charBuffer, offset: 0x50, size: 0x8, def value: None
-  ::ArrayW<char16_t, ::Array<char16_t>*> ____charBuffer;
+/// @brief Field _byteBuffer, offset: 0x48, size: 0x8, def value: None
+ ::ArrayW<uint8_t,::Array<uint8_t>*>  ____byteBuffer;
 
-  /// @brief Field _charPos, offset: 0x58, size: 0x4, def value: None
-  int32_t ____charPos;
+/// @brief Field _charBuffer, offset: 0x50, size: 0x8, def value: None
+ ::ArrayW<char16_t,::Array<char16_t>*>  ____charBuffer;
 
-  /// @brief Field _charLen, offset: 0x5c, size: 0x4, def value: None
-  int32_t ____charLen;
+/// @brief Field _charPos, offset: 0x58, size: 0x4, def value: None
+ int32_t  ____charPos;
 
-  /// @brief Field _autoFlush, offset: 0x60, size: 0x1, def value: None
-  bool ____autoFlush;
+/// @brief Field _charLen, offset: 0x5c, size: 0x4, def value: None
+ int32_t  ____charLen;
 
-  /// @brief Field _haveWrittenPreamble, offset: 0x61, size: 0x1, def value: None
-  bool ____haveWrittenPreamble;
+/// @brief Field _autoFlush, offset: 0x60, size: 0x1, def value: None
+ bool  ____autoFlush;
 
-  /// @brief Field _closable, offset: 0x62, size: 0x1, def value: None
-  bool ____closable;
+/// @brief Field _haveWrittenPreamble, offset: 0x61, size: 0x1, def value: None
+ bool  ____haveWrittenPreamble;
 
-  /// @brief Field _asyncWriteTask, offset: 0x68, size: 0x8, def value: None
-  ::System::Threading::Tasks::Task* ____asyncWriteTask;
+/// @brief Field _closable, offset: 0x62, size: 0x1, def value: None
+ bool  ____closable;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _asyncWriteTask, offset: 0x68, size: 0x8, def value: None
+ ::System::Threading::Tasks::Task*  ____asyncWriteTask;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::IO::StreamWriter, 0x70>, "Size mismatch!");
@@ -969,7 +923,7 @@ static_assert(offsetof(::System::IO::StreamWriter, ____closable) == 0x62, "Offse
 
 static_assert(offsetof(::System::IO::StreamWriter, ____asyncWriteTask) == 0x68, "Offset mismatch!");
 
-} // namespace System::IO
+} // namespace end def System::IO
 NEED_NO_BOX(::System::IO::StreamWriter);
 DEFINE_IL2CPP_ARG_TYPE(::System::IO::StreamWriter*, "System.IO", "StreamWriter");
 DEFINE_IL2CPP_ARG_TYPE(::System::IO::__StreamWriter___DisposeAsyncCore_d__33, "System.IO", "StreamWriter/<DisposeAsyncCore>d__33");

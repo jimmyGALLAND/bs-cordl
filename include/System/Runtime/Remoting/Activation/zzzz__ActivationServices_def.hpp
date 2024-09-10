@@ -35,65 +35,63 @@ class ActivationServices;
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Remoting::Activation::ActivationServices);
 // Type: System.Runtime.Remoting.Activation::ActivationServices
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Activation {
 // Is value type: false
 // CS Name: ::System.Runtime.Remoting.Activation::ActivationServices*
 class CORDL_TYPE ActivationServices : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field _constructionActivator, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__constructionActivator, put = setStaticF__constructionActivator))::System::Runtime::Remoting::Activation::IActivator* _constructionActivator;
+// Declarations
+/// @brief Field _constructionActivator, offset 0xffffffff, size 0x8 
+static __declspec(property(get=getStaticF__constructionActivator, put=setStaticF__constructionActivator)) ::System::Runtime::Remoting::Activation::IActivator*  _constructionActivator;
 
-  /// @brief Method Activate, addr 0x2848744, size 0x224, virtual false, abstract: false, final false
-  static inline ::System::Runtime::Remoting::Messaging::IMessage* Activate(::System::Runtime::Remoting::Proxies::RemotingProxy* proxy,
-                                                                           ::System::Runtime::Remoting::Messaging::ConstructionCall* ctorCall);
+/// @brief Method Activate, addr 0x3c4a830, size 0x224, virtual false, abstract: false, final false
+static inline ::System::Runtime::Remoting::Messaging::IMessage* Activate(::System::Runtime::Remoting::Proxies::RemotingProxy*  proxy, ::System::Runtime::Remoting::Messaging::ConstructionCall*  ctorCall) ;
 
-  /// @brief Method AllocateUninitializedClassInstance, addr 0x2851da0, size 0x4, virtual false, abstract: false, final false
-  static inline ::System::Object* AllocateUninitializedClassInstance(::System::Type* type);
+/// @brief Method AllocateUninitializedClassInstance, addr 0x3c53c70, size 0x4, virtual false, abstract: false, final false
+static inline ::System::Object* AllocateUninitializedClassInstance(::System::Type*  type) ;
 
-  /// @brief Method CreateConstructionCall, addr 0x2846f50, size 0x9bc, virtual false, abstract: false, final false
-  static inline ::System::Runtime::Remoting::Messaging::ConstructionCall* CreateConstructionCall(::System::Type* type, ::StringW activationUrl,
-                                                                                                 ::ArrayW<::System::Object*, ::Array<::System::Object*>*> activationAttributes);
+/// @brief Method CreateConstructionCall, addr 0x3c49044, size 0x9c8, virtual false, abstract: false, final false
+static inline ::System::Runtime::Remoting::Messaging::ConstructionCall* CreateConstructionCall(::System::Type*  type, ::StringW  activationUrl, ::ArrayW<::System::Object*,::Array<::System::Object*>*>  activationAttributes) ;
 
-  /// @brief Method CreateInstanceFromMessage, addr 0x28519a0, size 0x400, virtual false, abstract: false, final false
-  static inline ::System::Runtime::Remoting::Messaging::IMessage* CreateInstanceFromMessage(::System::Runtime::Remoting::Activation::IConstructionCallMessage* ctorCall);
+/// @brief Method CreateInstanceFromMessage, addr 0x3c53874, size 0x3fc, virtual false, abstract: false, final false
+static inline ::System::Runtime::Remoting::Messaging::IMessage* CreateInstanceFromMessage(::System::Runtime::Remoting::Activation::IConstructionCallMessage*  ctorCall) ;
 
-  /// @brief Method CreateProxyForType, addr 0x2851da4, size 0x134, virtual false, abstract: false, final false
-  static inline ::System::Object* CreateProxyForType(::System::Type* type);
+/// @brief Method CreateProxyForType, addr 0x3c53c74, size 0x134, virtual false, abstract: false, final false
+static inline ::System::Object* CreateProxyForType(::System::Type*  type) ;
 
-  /// @brief Method EnableProxyActivation, addr 0x2851ed8, size 0x8, virtual false, abstract: false, final false
-  static inline void EnableProxyActivation(::System::Type* type, bool enable);
+/// @brief Method EnableProxyActivation, addr 0x3c53da8, size 0x8, virtual false, abstract: false, final false
+static inline void EnableProxyActivation(::System::Type*  type, bool  enable) ;
 
-  /// @brief Method RemoteActivate, addr 0x2851774, size 0x1d8, virtual false, abstract: false, final false
-  static inline ::System::Runtime::Remoting::Messaging::IMessage* RemoteActivate(::System::Runtime::Remoting::Activation::IConstructionCallMessage* ctorCall);
+/// @brief Method RemoteActivate, addr 0x3c53650, size 0x1d0, virtual false, abstract: false, final false
+static inline ::System::Runtime::Remoting::Messaging::IMessage* RemoteActivate(::System::Runtime::Remoting::Activation::IConstructionCallMessage*  ctorCall) ;
 
-  static inline ::System::Runtime::Remoting::Activation::IActivator* getStaticF__constructionActivator();
+static inline ::System::Runtime::Remoting::Activation::IActivator* getStaticF__constructionActivator() ;
 
-  /// @brief Method get_ConstructionActivator, addr 0x28516d8, size 0x94, virtual false, abstract: false, final false
-  static inline ::System::Runtime::Remoting::Activation::IActivator* get_ConstructionActivator();
+/// @brief Method get_ConstructionActivator, addr 0x3c535bc, size 0x8c, virtual false, abstract: false, final false
+static inline ::System::Runtime::Remoting::Activation::IActivator* get_ConstructionActivator() ;
 
-  static inline void setStaticF__constructionActivator(::System::Runtime::Remoting::Activation::IActivator* value);
+static inline void setStaticF__constructionActivator(::System::Runtime::Remoting::Activation::IActivator*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ActivationServices();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ActivationServices() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ActivationServices", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ActivationServices(ActivationServices&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ActivationServices", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ActivationServices(ActivationServices const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ActivationServices", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ActivationServices(ActivationServices && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "ActivationServices", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ActivationServices(ActivationServices const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Remoting::Activation::ActivationServices, 0x10>, "Size mismatch!");
 
-} // namespace System::Runtime::Remoting::Activation
+} // namespace end def System::Runtime::Remoting::Activation
 NEED_NO_BOX(::System::Runtime::Remoting::Activation::ActivationServices);
 DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::Activation::ActivationServices*, "System.Runtime.Remoting.Activation", "ActivationServices");

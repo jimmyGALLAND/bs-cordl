@@ -261,1540 +261,1481 @@ MARK_REF_PTR_T(::OVR::OpenVR::__IVRApplications___SetApplicationAutoLaunch);
 MARK_REF_PTR_T(::OVR::OpenVR::__IVRApplications___SetDefaultApplicationForMimeType);
 MARK_VAL_T(::OVR::OpenVR::IVRApplications);
 // Type: ::_AddApplicationManifest
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: ::IVRApplications::_AddApplicationManifest*
 class CORDL_TYPE __IVRApplications___AddApplicationManifest : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x2bdebb0, size 0x98, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::StringW pchApplicationManifestFullPath, bool bTemporary, ::System::AsyncCallback* callback, ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x3fc9bec, size 0x98, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(::StringW  pchApplicationManifestFullPath, bool  bTemporary, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x2bdec48, size 0x28, virtual true, abstract: false, final false
-  inline ::OVR::OpenVR::EVRApplicationError EndInvoke(::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x3fc9c84, size 0x28, virtual true, abstract: false, final false
+inline ::OVR::OpenVR::EVRApplicationError EndInvoke(::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x2bdeb98, size 0x18, virtual true, abstract: false, final false
-  inline ::OVR::OpenVR::EVRApplicationError Invoke(::StringW pchApplicationManifestFullPath, bool bTemporary);
+/// @brief Method Invoke, addr 0x3fc9bd4, size 0x18, virtual true, abstract: false, final false
+inline ::OVR::OpenVR::EVRApplicationError Invoke(::StringW  pchApplicationManifestFullPath, bool  bTemporary) ;
 
-  static inline ::OVR::OpenVR::__IVRApplications___AddApplicationManifest* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::OVR::OpenVR::__IVRApplications___AddApplicationManifest* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x2bdeac0, size 0xd8, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x3fc9b34, size 0xa0, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __IVRApplications___AddApplicationManifest();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __IVRApplications___AddApplicationManifest() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___AddApplicationManifest", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __IVRApplications___AddApplicationManifest(__IVRApplications___AddApplicationManifest&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___AddApplicationManifest", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __IVRApplications___AddApplicationManifest(__IVRApplications___AddApplicationManifest const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___AddApplicationManifest", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__IVRApplications___AddApplicationManifest(__IVRApplications___AddApplicationManifest && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___AddApplicationManifest", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__IVRApplications___AddApplicationManifest(__IVRApplications___AddApplicationManifest const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRApplications___AddApplicationManifest, 0x80>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 // Type: ::_RemoveApplicationManifest
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: ::IVRApplications::_RemoveApplicationManifest*
 class CORDL_TYPE __IVRApplications___RemoveApplicationManifest : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x2bded58, size 0x20, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::StringW pchApplicationManifestFullPath, ::System::AsyncCallback* callback, ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x3fc9d5c, size 0x20, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(::StringW  pchApplicationManifestFullPath, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x2bded78, size 0x28, virtual true, abstract: false, final false
-  inline ::OVR::OpenVR::EVRApplicationError EndInvoke(::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x3fc9d7c, size 0x28, virtual true, abstract: false, final false
+inline ::OVR::OpenVR::EVRApplicationError EndInvoke(::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x2bded44, size 0x14, virtual true, abstract: false, final false
-  inline ::OVR::OpenVR::EVRApplicationError Invoke(::StringW pchApplicationManifestFullPath);
+/// @brief Method Invoke, addr 0x3fc9d48, size 0x14, virtual true, abstract: false, final false
+inline ::OVR::OpenVR::EVRApplicationError Invoke(::StringW  pchApplicationManifestFullPath) ;
 
-  static inline ::OVR::OpenVR::__IVRApplications___RemoveApplicationManifest* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::OVR::OpenVR::__IVRApplications___RemoveApplicationManifest* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x2bdec70, size 0xd4, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x3fc9cac, size 0x9c, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __IVRApplications___RemoveApplicationManifest();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __IVRApplications___RemoveApplicationManifest() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___RemoveApplicationManifest", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __IVRApplications___RemoveApplicationManifest(__IVRApplications___RemoveApplicationManifest&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___RemoveApplicationManifest", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __IVRApplications___RemoveApplicationManifest(__IVRApplications___RemoveApplicationManifest const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___RemoveApplicationManifest", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__IVRApplications___RemoveApplicationManifest(__IVRApplications___RemoveApplicationManifest && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___RemoveApplicationManifest", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__IVRApplications___RemoveApplicationManifest(__IVRApplications___RemoveApplicationManifest const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRApplications___RemoveApplicationManifest, 0x80>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 // Type: ::_IsApplicationInstalled
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: ::IVRApplications::_IsApplicationInstalled*
 class CORDL_TYPE __IVRApplications___IsApplicationInstalled : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x2bdee88, size 0x20, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::StringW pchAppKey, ::System::AsyncCallback* callback, ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x3fc9e54, size 0x20, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(::StringW  pchAppKey, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x2bdeea8, size 0x28, virtual true, abstract: false, final false
-  inline bool EndInvoke(::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x3fc9e74, size 0x28, virtual true, abstract: false, final false
+inline bool EndInvoke(::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x2bdee74, size 0x14, virtual true, abstract: false, final false
-  inline bool Invoke(::StringW pchAppKey);
+/// @brief Method Invoke, addr 0x3fc9e40, size 0x14, virtual true, abstract: false, final false
+inline bool Invoke(::StringW  pchAppKey) ;
 
-  static inline ::OVR::OpenVR::__IVRApplications___IsApplicationInstalled* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::OVR::OpenVR::__IVRApplications___IsApplicationInstalled* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x2bdeda0, size 0xd4, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x3fc9da4, size 0x9c, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __IVRApplications___IsApplicationInstalled();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __IVRApplications___IsApplicationInstalled() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___IsApplicationInstalled", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __IVRApplications___IsApplicationInstalled(__IVRApplications___IsApplicationInstalled&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___IsApplicationInstalled", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __IVRApplications___IsApplicationInstalled(__IVRApplications___IsApplicationInstalled const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___IsApplicationInstalled", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__IVRApplications___IsApplicationInstalled(__IVRApplications___IsApplicationInstalled && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___IsApplicationInstalled", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__IVRApplications___IsApplicationInstalled(__IVRApplications___IsApplicationInstalled const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRApplications___IsApplicationInstalled, 0x80>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 // Type: ::_GetApplicationCount
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: ::IVRApplications::_GetApplicationCount*
 class CORDL_TYPE __IVRApplications___GetApplicationCount : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x2bdefa0, size 0x20, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x3fc9f38, size 0x20, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x2bdefc0, size 0x28, virtual true, abstract: false, final false
-  inline uint32_t EndInvoke(::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x3fc9f58, size 0x28, virtual true, abstract: false, final false
+inline uint32_t EndInvoke(::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x2bdef8c, size 0x14, virtual true, abstract: false, final false
-  inline uint32_t Invoke();
+/// @brief Method Invoke, addr 0x3fc9f24, size 0x14, virtual true, abstract: false, final false
+inline uint32_t Invoke() ;
 
-  static inline ::OVR::OpenVR::__IVRApplications___GetApplicationCount* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::OVR::OpenVR::__IVRApplications___GetApplicationCount* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x2bdeed0, size 0xbc, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x3fc9e9c, size 0x88, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __IVRApplications___GetApplicationCount();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __IVRApplications___GetApplicationCount() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___GetApplicationCount", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __IVRApplications___GetApplicationCount(__IVRApplications___GetApplicationCount&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___GetApplicationCount", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __IVRApplications___GetApplicationCount(__IVRApplications___GetApplicationCount const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___GetApplicationCount", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__IVRApplications___GetApplicationCount(__IVRApplications___GetApplicationCount && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___GetApplicationCount", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__IVRApplications___GetApplicationCount(__IVRApplications___GetApplicationCount const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRApplications___GetApplicationCount, 0x80>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 // Type: ::_GetApplicationKeyByIndex
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: ::IVRApplications::_GetApplicationKeyByIndex*
 class CORDL_TYPE __IVRApplications___GetApplicationKeyByIndex : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x2bdf0c0, size 0xa4, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(uint32_t unApplicationIndex, ::System::Text::StringBuilder* pchAppKeyBuffer, uint32_t unAppKeyBufferLen, ::System::AsyncCallback* callback,
-                                             ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x3fca020, size 0xa8, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(uint32_t  unApplicationIndex, ::System::Text::StringBuilder*  pchAppKeyBuffer, uint32_t  unAppKeyBufferLen, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x2bdf164, size 0x28, virtual true, abstract: false, final false
-  inline ::OVR::OpenVR::EVRApplicationError EndInvoke(::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x3fca0c8, size 0x28, virtual true, abstract: false, final false
+inline ::OVR::OpenVR::EVRApplicationError EndInvoke(::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x2bdf0ac, size 0x14, virtual true, abstract: false, final false
-  inline ::OVR::OpenVR::EVRApplicationError Invoke(uint32_t unApplicationIndex, ::System::Text::StringBuilder* pchAppKeyBuffer, uint32_t unAppKeyBufferLen);
+/// @brief Method Invoke, addr 0x3fca00c, size 0x14, virtual true, abstract: false, final false
+inline ::OVR::OpenVR::EVRApplicationError Invoke(uint32_t  unApplicationIndex, ::System::Text::StringBuilder*  pchAppKeyBuffer, uint32_t  unAppKeyBufferLen) ;
 
-  static inline ::OVR::OpenVR::__IVRApplications___GetApplicationKeyByIndex* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::OVR::OpenVR::__IVRApplications___GetApplicationKeyByIndex* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x2bdefe8, size 0xc4, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x3fc9f80, size 0x8c, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __IVRApplications___GetApplicationKeyByIndex();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __IVRApplications___GetApplicationKeyByIndex() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___GetApplicationKeyByIndex", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __IVRApplications___GetApplicationKeyByIndex(__IVRApplications___GetApplicationKeyByIndex&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___GetApplicationKeyByIndex", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __IVRApplications___GetApplicationKeyByIndex(__IVRApplications___GetApplicationKeyByIndex const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___GetApplicationKeyByIndex", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__IVRApplications___GetApplicationKeyByIndex(__IVRApplications___GetApplicationKeyByIndex && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___GetApplicationKeyByIndex", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__IVRApplications___GetApplicationKeyByIndex(__IVRApplications___GetApplicationKeyByIndex const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRApplications___GetApplicationKeyByIndex, 0x80>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 // Type: ::_GetApplicationKeyByProcessId
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: ::IVRApplications::_GetApplicationKeyByProcessId*
 class CORDL_TYPE __IVRApplications___GetApplicationKeyByProcessId : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x2bdf264, size 0xa4, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(uint32_t unProcessId, ::System::Text::StringBuilder* pchAppKeyBuffer, uint32_t unAppKeyBufferLen, ::System::AsyncCallback* callback,
-                                             ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x3fca190, size 0xa8, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(uint32_t  unProcessId, ::System::Text::StringBuilder*  pchAppKeyBuffer, uint32_t  unAppKeyBufferLen, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x2bdf308, size 0x28, virtual true, abstract: false, final false
-  inline ::OVR::OpenVR::EVRApplicationError EndInvoke(::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x3fca238, size 0x28, virtual true, abstract: false, final false
+inline ::OVR::OpenVR::EVRApplicationError EndInvoke(::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x2bdf250, size 0x14, virtual true, abstract: false, final false
-  inline ::OVR::OpenVR::EVRApplicationError Invoke(uint32_t unProcessId, ::System::Text::StringBuilder* pchAppKeyBuffer, uint32_t unAppKeyBufferLen);
+/// @brief Method Invoke, addr 0x3fca17c, size 0x14, virtual true, abstract: false, final false
+inline ::OVR::OpenVR::EVRApplicationError Invoke(uint32_t  unProcessId, ::System::Text::StringBuilder*  pchAppKeyBuffer, uint32_t  unAppKeyBufferLen) ;
 
-  static inline ::OVR::OpenVR::__IVRApplications___GetApplicationKeyByProcessId* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::OVR::OpenVR::__IVRApplications___GetApplicationKeyByProcessId* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x2bdf18c, size 0xc4, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x3fca0f0, size 0x8c, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __IVRApplications___GetApplicationKeyByProcessId();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __IVRApplications___GetApplicationKeyByProcessId() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___GetApplicationKeyByProcessId", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __IVRApplications___GetApplicationKeyByProcessId(__IVRApplications___GetApplicationKeyByProcessId&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___GetApplicationKeyByProcessId", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __IVRApplications___GetApplicationKeyByProcessId(__IVRApplications___GetApplicationKeyByProcessId const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___GetApplicationKeyByProcessId", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__IVRApplications___GetApplicationKeyByProcessId(__IVRApplications___GetApplicationKeyByProcessId && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___GetApplicationKeyByProcessId", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__IVRApplications___GetApplicationKeyByProcessId(__IVRApplications___GetApplicationKeyByProcessId const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRApplications___GetApplicationKeyByProcessId, 0x80>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 // Type: ::_LaunchApplication
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: ::IVRApplications::_LaunchApplication*
 class CORDL_TYPE __IVRApplications___LaunchApplication : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x2bdf418, size 0x20, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::StringW pchAppKey, ::System::AsyncCallback* callback, ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x3fca310, size 0x20, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(::StringW  pchAppKey, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x2bdf438, size 0x28, virtual true, abstract: false, final false
-  inline ::OVR::OpenVR::EVRApplicationError EndInvoke(::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x3fca330, size 0x28, virtual true, abstract: false, final false
+inline ::OVR::OpenVR::EVRApplicationError EndInvoke(::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x2bdf404, size 0x14, virtual true, abstract: false, final false
-  inline ::OVR::OpenVR::EVRApplicationError Invoke(::StringW pchAppKey);
+/// @brief Method Invoke, addr 0x3fca2fc, size 0x14, virtual true, abstract: false, final false
+inline ::OVR::OpenVR::EVRApplicationError Invoke(::StringW  pchAppKey) ;
 
-  static inline ::OVR::OpenVR::__IVRApplications___LaunchApplication* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::OVR::OpenVR::__IVRApplications___LaunchApplication* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x2bdf330, size 0xd4, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x3fca260, size 0x9c, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __IVRApplications___LaunchApplication();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __IVRApplications___LaunchApplication() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___LaunchApplication", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __IVRApplications___LaunchApplication(__IVRApplications___LaunchApplication&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___LaunchApplication", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __IVRApplications___LaunchApplication(__IVRApplications___LaunchApplication const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___LaunchApplication", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__IVRApplications___LaunchApplication(__IVRApplications___LaunchApplication && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___LaunchApplication", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__IVRApplications___LaunchApplication(__IVRApplications___LaunchApplication const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRApplications___LaunchApplication, 0x80>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 // Type: ::_LaunchTemplateApplication
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: ::IVRApplications::_LaunchTemplateApplication*
 class CORDL_TYPE __IVRApplications___LaunchTemplateApplication : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x2bdf54c, size 0xa8, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::StringW pchTemplateAppKey, ::StringW pchNewAppKey, ByRef<::ArrayW<::OVR::OpenVR::AppOverrideKeys_t, ::Array<::OVR::OpenVR::AppOverrideKeys_t>*>> pKeys,
-                                             uint32_t unKeys, ::System::AsyncCallback* callback, ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x3fca40c, size 0xa8, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(::StringW  pchTemplateAppKey, ::StringW  pchNewAppKey, ByRef<::ArrayW<::OVR::OpenVR::AppOverrideKeys_t,::Array<::OVR::OpenVR::AppOverrideKeys_t>*>>  pKeys, uint32_t  unKeys, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x2bdf5f4, size 0x28, virtual true, abstract: false, final false
-  inline ::OVR::OpenVR::EVRApplicationError EndInvoke(::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x3fca4b4, size 0x28, virtual true, abstract: false, final false
+inline ::OVR::OpenVR::EVRApplicationError EndInvoke(::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x2bdf538, size 0x14, virtual true, abstract: false, final false
-  inline ::OVR::OpenVR::EVRApplicationError Invoke(::StringW pchTemplateAppKey, ::StringW pchNewAppKey,
-                                                   ByRef<::ArrayW<::OVR::OpenVR::AppOverrideKeys_t, ::Array<::OVR::OpenVR::AppOverrideKeys_t>*>> pKeys, uint32_t unKeys);
+/// @brief Method Invoke, addr 0x3fca3f8, size 0x14, virtual true, abstract: false, final false
+inline ::OVR::OpenVR::EVRApplicationError Invoke(::StringW  pchTemplateAppKey, ::StringW  pchNewAppKey, ByRef<::ArrayW<::OVR::OpenVR::AppOverrideKeys_t,::Array<::OVR::OpenVR::AppOverrideKeys_t>*>>  pKeys, uint32_t  unKeys) ;
 
-  static inline ::OVR::OpenVR::__IVRApplications___LaunchTemplateApplication* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::OVR::OpenVR::__IVRApplications___LaunchTemplateApplication* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x2bdf460, size 0xd8, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x3fca358, size 0xa0, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __IVRApplications___LaunchTemplateApplication();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __IVRApplications___LaunchTemplateApplication() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___LaunchTemplateApplication", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __IVRApplications___LaunchTemplateApplication(__IVRApplications___LaunchTemplateApplication&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___LaunchTemplateApplication", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __IVRApplications___LaunchTemplateApplication(__IVRApplications___LaunchTemplateApplication const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___LaunchTemplateApplication", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__IVRApplications___LaunchTemplateApplication(__IVRApplications___LaunchTemplateApplication && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___LaunchTemplateApplication", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__IVRApplications___LaunchTemplateApplication(__IVRApplications___LaunchTemplateApplication const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRApplications___LaunchTemplateApplication, 0x80>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 // Type: ::_LaunchApplicationFromMimeType
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: ::IVRApplications::_LaunchApplicationFromMimeType*
 class CORDL_TYPE __IVRApplications___LaunchApplicationFromMimeType : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x2bdf708, size 0x28, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::StringW pchMimeType, ::StringW pchArgs, ::System::AsyncCallback* callback, ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x3fca590, size 0x28, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(::StringW  pchMimeType, ::StringW  pchArgs, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x2bdf730, size 0x28, virtual true, abstract: false, final false
-  inline ::OVR::OpenVR::EVRApplicationError EndInvoke(::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x3fca5b8, size 0x28, virtual true, abstract: false, final false
+inline ::OVR::OpenVR::EVRApplicationError EndInvoke(::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x2bdf6f4, size 0x14, virtual true, abstract: false, final false
-  inline ::OVR::OpenVR::EVRApplicationError Invoke(::StringW pchMimeType, ::StringW pchArgs);
+/// @brief Method Invoke, addr 0x3fca57c, size 0x14, virtual true, abstract: false, final false
+inline ::OVR::OpenVR::EVRApplicationError Invoke(::StringW  pchMimeType, ::StringW  pchArgs) ;
 
-  static inline ::OVR::OpenVR::__IVRApplications___LaunchApplicationFromMimeType* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::OVR::OpenVR::__IVRApplications___LaunchApplicationFromMimeType* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x2bdf61c, size 0xd8, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x3fca4dc, size 0xa0, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __IVRApplications___LaunchApplicationFromMimeType();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __IVRApplications___LaunchApplicationFromMimeType() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___LaunchApplicationFromMimeType", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __IVRApplications___LaunchApplicationFromMimeType(__IVRApplications___LaunchApplicationFromMimeType&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___LaunchApplicationFromMimeType", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __IVRApplications___LaunchApplicationFromMimeType(__IVRApplications___LaunchApplicationFromMimeType const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___LaunchApplicationFromMimeType", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__IVRApplications___LaunchApplicationFromMimeType(__IVRApplications___LaunchApplicationFromMimeType && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___LaunchApplicationFromMimeType", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__IVRApplications___LaunchApplicationFromMimeType(__IVRApplications___LaunchApplicationFromMimeType const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRApplications___LaunchApplicationFromMimeType, 0x80>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 // Type: ::_LaunchDashboardOverlay
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: ::IVRApplications::_LaunchDashboardOverlay*
 class CORDL_TYPE __IVRApplications___LaunchDashboardOverlay : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x2bdf840, size 0x20, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::StringW pchAppKey, ::System::AsyncCallback* callback, ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x3fca690, size 0x20, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(::StringW  pchAppKey, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x2bdf860, size 0x28, virtual true, abstract: false, final false
-  inline ::OVR::OpenVR::EVRApplicationError EndInvoke(::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x3fca6b0, size 0x28, virtual true, abstract: false, final false
+inline ::OVR::OpenVR::EVRApplicationError EndInvoke(::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x2bdf82c, size 0x14, virtual true, abstract: false, final false
-  inline ::OVR::OpenVR::EVRApplicationError Invoke(::StringW pchAppKey);
+/// @brief Method Invoke, addr 0x3fca67c, size 0x14, virtual true, abstract: false, final false
+inline ::OVR::OpenVR::EVRApplicationError Invoke(::StringW  pchAppKey) ;
 
-  static inline ::OVR::OpenVR::__IVRApplications___LaunchDashboardOverlay* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::OVR::OpenVR::__IVRApplications___LaunchDashboardOverlay* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x2bdf758, size 0xd4, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x3fca5e0, size 0x9c, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __IVRApplications___LaunchDashboardOverlay();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __IVRApplications___LaunchDashboardOverlay() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___LaunchDashboardOverlay", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __IVRApplications___LaunchDashboardOverlay(__IVRApplications___LaunchDashboardOverlay&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___LaunchDashboardOverlay", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __IVRApplications___LaunchDashboardOverlay(__IVRApplications___LaunchDashboardOverlay const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___LaunchDashboardOverlay", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__IVRApplications___LaunchDashboardOverlay(__IVRApplications___LaunchDashboardOverlay && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___LaunchDashboardOverlay", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__IVRApplications___LaunchDashboardOverlay(__IVRApplications___LaunchDashboardOverlay const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRApplications___LaunchDashboardOverlay, 0x80>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 // Type: ::_CancelApplicationLaunch
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: ::IVRApplications::_CancelApplicationLaunch*
 class CORDL_TYPE __IVRApplications___CancelApplicationLaunch : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x2bdf970, size 0x20, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::StringW pchAppKey, ::System::AsyncCallback* callback, ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x3fca788, size 0x20, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(::StringW  pchAppKey, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x2bdf990, size 0x28, virtual true, abstract: false, final false
-  inline bool EndInvoke(::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x3fca7a8, size 0x28, virtual true, abstract: false, final false
+inline bool EndInvoke(::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x2bdf95c, size 0x14, virtual true, abstract: false, final false
-  inline bool Invoke(::StringW pchAppKey);
+/// @brief Method Invoke, addr 0x3fca774, size 0x14, virtual true, abstract: false, final false
+inline bool Invoke(::StringW  pchAppKey) ;
 
-  static inline ::OVR::OpenVR::__IVRApplications___CancelApplicationLaunch* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::OVR::OpenVR::__IVRApplications___CancelApplicationLaunch* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x2bdf888, size 0xd4, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x3fca6d8, size 0x9c, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __IVRApplications___CancelApplicationLaunch();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __IVRApplications___CancelApplicationLaunch() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___CancelApplicationLaunch", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __IVRApplications___CancelApplicationLaunch(__IVRApplications___CancelApplicationLaunch&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___CancelApplicationLaunch", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __IVRApplications___CancelApplicationLaunch(__IVRApplications___CancelApplicationLaunch const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___CancelApplicationLaunch", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__IVRApplications___CancelApplicationLaunch(__IVRApplications___CancelApplicationLaunch && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___CancelApplicationLaunch", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__IVRApplications___CancelApplicationLaunch(__IVRApplications___CancelApplicationLaunch const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRApplications___CancelApplicationLaunch, 0x80>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 // Type: ::_IdentifyApplication
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: ::IVRApplications::_IdentifyApplication*
 class CORDL_TYPE __IVRApplications___IdentifyApplication : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x2bdfa90, size 0x90, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(uint32_t unProcessId, ::StringW pchAppKey, ::System::AsyncCallback* callback, ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x3fca870, size 0x94, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(uint32_t  unProcessId, ::StringW  pchAppKey, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x2bdfb20, size 0x28, virtual true, abstract: false, final false
-  inline ::OVR::OpenVR::EVRApplicationError EndInvoke(::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x3fca904, size 0x28, virtual true, abstract: false, final false
+inline ::OVR::OpenVR::EVRApplicationError EndInvoke(::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x2bdfa7c, size 0x14, virtual true, abstract: false, final false
-  inline ::OVR::OpenVR::EVRApplicationError Invoke(uint32_t unProcessId, ::StringW pchAppKey);
+/// @brief Method Invoke, addr 0x3fca85c, size 0x14, virtual true, abstract: false, final false
+inline ::OVR::OpenVR::EVRApplicationError Invoke(uint32_t  unProcessId, ::StringW  pchAppKey) ;
 
-  static inline ::OVR::OpenVR::__IVRApplications___IdentifyApplication* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::OVR::OpenVR::__IVRApplications___IdentifyApplication* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x2bdf9b8, size 0xc4, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x3fca7d0, size 0x8c, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __IVRApplications___IdentifyApplication();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __IVRApplications___IdentifyApplication() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___IdentifyApplication", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __IVRApplications___IdentifyApplication(__IVRApplications___IdentifyApplication&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___IdentifyApplication", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __IVRApplications___IdentifyApplication(__IVRApplications___IdentifyApplication const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___IdentifyApplication", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__IVRApplications___IdentifyApplication(__IVRApplications___IdentifyApplication && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___IdentifyApplication", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__IVRApplications___IdentifyApplication(__IVRApplications___IdentifyApplication const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRApplications___IdentifyApplication, 0x80>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 // Type: ::_GetApplicationProcessId
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: ::IVRApplications::_GetApplicationProcessId*
 class CORDL_TYPE __IVRApplications___GetApplicationProcessId : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x2bdfc30, size 0x20, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::StringW pchAppKey, ::System::AsyncCallback* callback, ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x3fca9dc, size 0x20, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(::StringW  pchAppKey, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x2bdfc50, size 0x28, virtual true, abstract: false, final false
-  inline uint32_t EndInvoke(::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x3fca9fc, size 0x28, virtual true, abstract: false, final false
+inline uint32_t EndInvoke(::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x2bdfc1c, size 0x14, virtual true, abstract: false, final false
-  inline uint32_t Invoke(::StringW pchAppKey);
+/// @brief Method Invoke, addr 0x3fca9c8, size 0x14, virtual true, abstract: false, final false
+inline uint32_t Invoke(::StringW  pchAppKey) ;
 
-  static inline ::OVR::OpenVR::__IVRApplications___GetApplicationProcessId* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::OVR::OpenVR::__IVRApplications___GetApplicationProcessId* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x2bdfb48, size 0xd4, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x3fca92c, size 0x9c, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __IVRApplications___GetApplicationProcessId();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __IVRApplications___GetApplicationProcessId() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___GetApplicationProcessId", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __IVRApplications___GetApplicationProcessId(__IVRApplications___GetApplicationProcessId&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___GetApplicationProcessId", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __IVRApplications___GetApplicationProcessId(__IVRApplications___GetApplicationProcessId const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___GetApplicationProcessId", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__IVRApplications___GetApplicationProcessId(__IVRApplications___GetApplicationProcessId && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___GetApplicationProcessId", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__IVRApplications___GetApplicationProcessId(__IVRApplications___GetApplicationProcessId const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRApplications___GetApplicationProcessId, 0x80>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 // Type: ::_GetApplicationsErrorNameFromEnum
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: ::IVRApplications::_GetApplicationsErrorNameFromEnum*
 class CORDL_TYPE __IVRApplications___GetApplicationsErrorNameFromEnum : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x2bdfd50, size 0x84, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::OVR::OpenVR::EVRApplicationError error, ::System::AsyncCallback* callback, ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x3fcaac4, size 0x84, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(::OVR::OpenVR::EVRApplicationError  error, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x2bdfdd4, size 0x28, virtual true, abstract: false, final false
-  inline ::System::IntPtr EndInvoke(::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x3fcab48, size 0x28, virtual true, abstract: false, final false
+inline ::System::IntPtr EndInvoke(::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x2bdfd3c, size 0x14, virtual true, abstract: false, final false
-  inline ::System::IntPtr Invoke(::OVR::OpenVR::EVRApplicationError error);
+/// @brief Method Invoke, addr 0x3fcaab0, size 0x14, virtual true, abstract: false, final false
+inline ::System::IntPtr Invoke(::OVR::OpenVR::EVRApplicationError  error) ;
 
-  static inline ::OVR::OpenVR::__IVRApplications___GetApplicationsErrorNameFromEnum* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::OVR::OpenVR::__IVRApplications___GetApplicationsErrorNameFromEnum* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x2bdfc78, size 0xc4, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x3fcaa24, size 0x8c, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __IVRApplications___GetApplicationsErrorNameFromEnum();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __IVRApplications___GetApplicationsErrorNameFromEnum() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___GetApplicationsErrorNameFromEnum", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __IVRApplications___GetApplicationsErrorNameFromEnum(__IVRApplications___GetApplicationsErrorNameFromEnum&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___GetApplicationsErrorNameFromEnum", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __IVRApplications___GetApplicationsErrorNameFromEnum(__IVRApplications___GetApplicationsErrorNameFromEnum const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___GetApplicationsErrorNameFromEnum", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__IVRApplications___GetApplicationsErrorNameFromEnum(__IVRApplications___GetApplicationsErrorNameFromEnum && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___GetApplicationsErrorNameFromEnum", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__IVRApplications___GetApplicationsErrorNameFromEnum(__IVRApplications___GetApplicationsErrorNameFromEnum const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRApplications___GetApplicationsErrorNameFromEnum, 0x80>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 // Type: ::_GetApplicationPropertyString
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: ::IVRApplications::_GetApplicationPropertyString*
 class CORDL_TYPE __IVRApplications___GetApplicationPropertyString : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x2bdfee8, size 0xfc, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::StringW pchAppKey, ::OVR::OpenVR::EVRApplicationProperty eProperty, ::System::Text::StringBuilder* pchPropertyValueBuffer,
-                                             uint32_t unPropertyValueBufferLen, ByRef<::OVR::OpenVR::EVRApplicationError> peError, ::System::AsyncCallback* callback, ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x3fcac24, size 0x108, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(::StringW  pchAppKey, ::OVR::OpenVR::EVRApplicationProperty  eProperty, ::System::Text::StringBuilder*  pchPropertyValueBuffer, uint32_t  unPropertyValueBufferLen, ByRef<::OVR::OpenVR::EVRApplicationError>  peError, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x2bdffe4, size 0x2c, virtual true, abstract: false, final false
-  inline uint32_t EndInvoke(ByRef<::OVR::OpenVR::EVRApplicationError> peError, ::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x3fcad2c, size 0x2c, virtual true, abstract: false, final false
+inline uint32_t EndInvoke(ByRef<::OVR::OpenVR::EVRApplicationError>  peError, ::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x2bdfed4, size 0x14, virtual true, abstract: false, final false
-  inline uint32_t Invoke(::StringW pchAppKey, ::OVR::OpenVR::EVRApplicationProperty eProperty, ::System::Text::StringBuilder* pchPropertyValueBuffer, uint32_t unPropertyValueBufferLen,
-                         ByRef<::OVR::OpenVR::EVRApplicationError> peError);
+/// @brief Method Invoke, addr 0x3fcac10, size 0x14, virtual true, abstract: false, final false
+inline uint32_t Invoke(::StringW  pchAppKey, ::OVR::OpenVR::EVRApplicationProperty  eProperty, ::System::Text::StringBuilder*  pchPropertyValueBuffer, uint32_t  unPropertyValueBufferLen, ByRef<::OVR::OpenVR::EVRApplicationError>  peError) ;
 
-  static inline ::OVR::OpenVR::__IVRApplications___GetApplicationPropertyString* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::OVR::OpenVR::__IVRApplications___GetApplicationPropertyString* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x2bdfdfc, size 0xd8, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x3fcab70, size 0xa0, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __IVRApplications___GetApplicationPropertyString();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __IVRApplications___GetApplicationPropertyString() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___GetApplicationPropertyString", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __IVRApplications___GetApplicationPropertyString(__IVRApplications___GetApplicationPropertyString&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___GetApplicationPropertyString", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __IVRApplications___GetApplicationPropertyString(__IVRApplications___GetApplicationPropertyString const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___GetApplicationPropertyString", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__IVRApplications___GetApplicationPropertyString(__IVRApplications___GetApplicationPropertyString && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___GetApplicationPropertyString", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__IVRApplications___GetApplicationPropertyString(__IVRApplications___GetApplicationPropertyString const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRApplications___GetApplicationPropertyString, 0x80>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 // Type: ::_GetApplicationPropertyBool
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: ::IVRApplications::_GetApplicationPropertyBool*
 class CORDL_TYPE __IVRApplications___GetApplicationPropertyBool : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x2be00fc, size 0xc8, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::StringW pchAppKey, ::OVR::OpenVR::EVRApplicationProperty eProperty, ByRef<::OVR::OpenVR::EVRApplicationError> peError, ::System::AsyncCallback* callback,
-                                             ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x3fcae0c, size 0xc8, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(::StringW  pchAppKey, ::OVR::OpenVR::EVRApplicationProperty  eProperty, ByRef<::OVR::OpenVR::EVRApplicationError>  peError, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x2be01c4, size 0x2c, virtual true, abstract: false, final false
-  inline bool EndInvoke(ByRef<::OVR::OpenVR::EVRApplicationError> peError, ::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x3fcaed4, size 0x2c, virtual true, abstract: false, final false
+inline bool EndInvoke(ByRef<::OVR::OpenVR::EVRApplicationError>  peError, ::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x2be00e8, size 0x14, virtual true, abstract: false, final false
-  inline bool Invoke(::StringW pchAppKey, ::OVR::OpenVR::EVRApplicationProperty eProperty, ByRef<::OVR::OpenVR::EVRApplicationError> peError);
+/// @brief Method Invoke, addr 0x3fcadf8, size 0x14, virtual true, abstract: false, final false
+inline bool Invoke(::StringW  pchAppKey, ::OVR::OpenVR::EVRApplicationProperty  eProperty, ByRef<::OVR::OpenVR::EVRApplicationError>  peError) ;
 
-  static inline ::OVR::OpenVR::__IVRApplications___GetApplicationPropertyBool* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::OVR::OpenVR::__IVRApplications___GetApplicationPropertyBool* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x2be0010, size 0xd8, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x3fcad58, size 0xa0, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __IVRApplications___GetApplicationPropertyBool();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __IVRApplications___GetApplicationPropertyBool() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___GetApplicationPropertyBool", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __IVRApplications___GetApplicationPropertyBool(__IVRApplications___GetApplicationPropertyBool&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___GetApplicationPropertyBool", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __IVRApplications___GetApplicationPropertyBool(__IVRApplications___GetApplicationPropertyBool const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___GetApplicationPropertyBool", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__IVRApplications___GetApplicationPropertyBool(__IVRApplications___GetApplicationPropertyBool && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___GetApplicationPropertyBool", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__IVRApplications___GetApplicationPropertyBool(__IVRApplications___GetApplicationPropertyBool const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRApplications___GetApplicationPropertyBool, 0x80>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 // Type: ::_GetApplicationPropertyUint64
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: ::IVRApplications::_GetApplicationPropertyUint64*
 class CORDL_TYPE __IVRApplications___GetApplicationPropertyUint64 : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x2be02dc, size 0xc8, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::StringW pchAppKey, ::OVR::OpenVR::EVRApplicationProperty eProperty, ByRef<::OVR::OpenVR::EVRApplicationError> peError, ::System::AsyncCallback* callback,
-                                             ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x3fcafb4, size 0xc8, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(::StringW  pchAppKey, ::OVR::OpenVR::EVRApplicationProperty  eProperty, ByRef<::OVR::OpenVR::EVRApplicationError>  peError, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x2be03a4, size 0x2c, virtual true, abstract: false, final false
-  inline uint64_t EndInvoke(ByRef<::OVR::OpenVR::EVRApplicationError> peError, ::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x3fcb07c, size 0x2c, virtual true, abstract: false, final false
+inline uint64_t EndInvoke(ByRef<::OVR::OpenVR::EVRApplicationError>  peError, ::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x2be02c8, size 0x14, virtual true, abstract: false, final false
-  inline uint64_t Invoke(::StringW pchAppKey, ::OVR::OpenVR::EVRApplicationProperty eProperty, ByRef<::OVR::OpenVR::EVRApplicationError> peError);
+/// @brief Method Invoke, addr 0x3fcafa0, size 0x14, virtual true, abstract: false, final false
+inline uint64_t Invoke(::StringW  pchAppKey, ::OVR::OpenVR::EVRApplicationProperty  eProperty, ByRef<::OVR::OpenVR::EVRApplicationError>  peError) ;
 
-  static inline ::OVR::OpenVR::__IVRApplications___GetApplicationPropertyUint64* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::OVR::OpenVR::__IVRApplications___GetApplicationPropertyUint64* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x2be01f0, size 0xd8, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x3fcaf00, size 0xa0, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __IVRApplications___GetApplicationPropertyUint64();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __IVRApplications___GetApplicationPropertyUint64() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___GetApplicationPropertyUint64", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __IVRApplications___GetApplicationPropertyUint64(__IVRApplications___GetApplicationPropertyUint64&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___GetApplicationPropertyUint64", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __IVRApplications___GetApplicationPropertyUint64(__IVRApplications___GetApplicationPropertyUint64 const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___GetApplicationPropertyUint64", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__IVRApplications___GetApplicationPropertyUint64(__IVRApplications___GetApplicationPropertyUint64 && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___GetApplicationPropertyUint64", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__IVRApplications___GetApplicationPropertyUint64(__IVRApplications___GetApplicationPropertyUint64 const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRApplications___GetApplicationPropertyUint64, 0x80>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 // Type: ::_SetApplicationAutoLaunch
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: ::IVRApplications::_SetApplicationAutoLaunch*
 class CORDL_TYPE __IVRApplications___SetApplicationAutoLaunch : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x2be04c0, size 0x98, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::StringW pchAppKey, bool bAutoLaunch, ::System::AsyncCallback* callback, ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x3fcb160, size 0x98, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(::StringW  pchAppKey, bool  bAutoLaunch, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x2be0558, size 0x28, virtual true, abstract: false, final false
-  inline ::OVR::OpenVR::EVRApplicationError EndInvoke(::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x3fcb1f8, size 0x28, virtual true, abstract: false, final false
+inline ::OVR::OpenVR::EVRApplicationError EndInvoke(::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x2be04a8, size 0x18, virtual true, abstract: false, final false
-  inline ::OVR::OpenVR::EVRApplicationError Invoke(::StringW pchAppKey, bool bAutoLaunch);
+/// @brief Method Invoke, addr 0x3fcb148, size 0x18, virtual true, abstract: false, final false
+inline ::OVR::OpenVR::EVRApplicationError Invoke(::StringW  pchAppKey, bool  bAutoLaunch) ;
 
-  static inline ::OVR::OpenVR::__IVRApplications___SetApplicationAutoLaunch* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::OVR::OpenVR::__IVRApplications___SetApplicationAutoLaunch* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x2be03d0, size 0xd8, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x3fcb0a8, size 0xa0, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __IVRApplications___SetApplicationAutoLaunch();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __IVRApplications___SetApplicationAutoLaunch() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___SetApplicationAutoLaunch", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __IVRApplications___SetApplicationAutoLaunch(__IVRApplications___SetApplicationAutoLaunch&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___SetApplicationAutoLaunch", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __IVRApplications___SetApplicationAutoLaunch(__IVRApplications___SetApplicationAutoLaunch const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___SetApplicationAutoLaunch", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__IVRApplications___SetApplicationAutoLaunch(__IVRApplications___SetApplicationAutoLaunch && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___SetApplicationAutoLaunch", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__IVRApplications___SetApplicationAutoLaunch(__IVRApplications___SetApplicationAutoLaunch const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRApplications___SetApplicationAutoLaunch, 0x80>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 // Type: ::_GetApplicationAutoLaunch
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: ::IVRApplications::_GetApplicationAutoLaunch*
 class CORDL_TYPE __IVRApplications___GetApplicationAutoLaunch : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x2be0668, size 0x20, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::StringW pchAppKey, ::System::AsyncCallback* callback, ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x3fcb2d0, size 0x20, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(::StringW  pchAppKey, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x2be0688, size 0x28, virtual true, abstract: false, final false
-  inline bool EndInvoke(::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x3fcb2f0, size 0x28, virtual true, abstract: false, final false
+inline bool EndInvoke(::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x2be0654, size 0x14, virtual true, abstract: false, final false
-  inline bool Invoke(::StringW pchAppKey);
+/// @brief Method Invoke, addr 0x3fcb2bc, size 0x14, virtual true, abstract: false, final false
+inline bool Invoke(::StringW  pchAppKey) ;
 
-  static inline ::OVR::OpenVR::__IVRApplications___GetApplicationAutoLaunch* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::OVR::OpenVR::__IVRApplications___GetApplicationAutoLaunch* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x2be0580, size 0xd4, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x3fcb220, size 0x9c, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __IVRApplications___GetApplicationAutoLaunch();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __IVRApplications___GetApplicationAutoLaunch() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___GetApplicationAutoLaunch", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __IVRApplications___GetApplicationAutoLaunch(__IVRApplications___GetApplicationAutoLaunch&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___GetApplicationAutoLaunch", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __IVRApplications___GetApplicationAutoLaunch(__IVRApplications___GetApplicationAutoLaunch const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___GetApplicationAutoLaunch", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__IVRApplications___GetApplicationAutoLaunch(__IVRApplications___GetApplicationAutoLaunch && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___GetApplicationAutoLaunch", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__IVRApplications___GetApplicationAutoLaunch(__IVRApplications___GetApplicationAutoLaunch const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRApplications___GetApplicationAutoLaunch, 0x80>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 // Type: ::_SetDefaultApplicationForMimeType
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: ::IVRApplications::_SetDefaultApplicationForMimeType*
 class CORDL_TYPE __IVRApplications___SetDefaultApplicationForMimeType : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x2be079c, size 0x28, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::StringW pchAppKey, ::StringW pchMimeType, ::System::AsyncCallback* callback, ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x3fcb3cc, size 0x28, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(::StringW  pchAppKey, ::StringW  pchMimeType, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x2be07c4, size 0x28, virtual true, abstract: false, final false
-  inline ::OVR::OpenVR::EVRApplicationError EndInvoke(::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x3fcb3f4, size 0x28, virtual true, abstract: false, final false
+inline ::OVR::OpenVR::EVRApplicationError EndInvoke(::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x2be0788, size 0x14, virtual true, abstract: false, final false
-  inline ::OVR::OpenVR::EVRApplicationError Invoke(::StringW pchAppKey, ::StringW pchMimeType);
+/// @brief Method Invoke, addr 0x3fcb3b8, size 0x14, virtual true, abstract: false, final false
+inline ::OVR::OpenVR::EVRApplicationError Invoke(::StringW  pchAppKey, ::StringW  pchMimeType) ;
 
-  static inline ::OVR::OpenVR::__IVRApplications___SetDefaultApplicationForMimeType* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::OVR::OpenVR::__IVRApplications___SetDefaultApplicationForMimeType* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x2be06b0, size 0xd8, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x3fcb318, size 0xa0, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __IVRApplications___SetDefaultApplicationForMimeType();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __IVRApplications___SetDefaultApplicationForMimeType() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___SetDefaultApplicationForMimeType", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __IVRApplications___SetDefaultApplicationForMimeType(__IVRApplications___SetDefaultApplicationForMimeType&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___SetDefaultApplicationForMimeType", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __IVRApplications___SetDefaultApplicationForMimeType(__IVRApplications___SetDefaultApplicationForMimeType const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___SetDefaultApplicationForMimeType", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__IVRApplications___SetDefaultApplicationForMimeType(__IVRApplications___SetDefaultApplicationForMimeType && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___SetDefaultApplicationForMimeType", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__IVRApplications___SetDefaultApplicationForMimeType(__IVRApplications___SetDefaultApplicationForMimeType const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRApplications___SetDefaultApplicationForMimeType, 0x80>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 // Type: ::_GetDefaultApplicationForMimeType
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: ::IVRApplications::_GetDefaultApplicationForMimeType*
 class CORDL_TYPE __IVRApplications___GetDefaultApplicationForMimeType : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x2be08d8, size 0x98, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::StringW pchMimeType, ::System::Text::StringBuilder* pchAppKeyBuffer, uint32_t unAppKeyBufferLen, ::System::AsyncCallback* callback,
-                                             ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x3fcb4d0, size 0x98, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(::StringW  pchMimeType, ::System::Text::StringBuilder*  pchAppKeyBuffer, uint32_t  unAppKeyBufferLen, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x2be0970, size 0x28, virtual true, abstract: false, final false
-  inline bool EndInvoke(::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x3fcb568, size 0x28, virtual true, abstract: false, final false
+inline bool EndInvoke(::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x2be08c4, size 0x14, virtual true, abstract: false, final false
-  inline bool Invoke(::StringW pchMimeType, ::System::Text::StringBuilder* pchAppKeyBuffer, uint32_t unAppKeyBufferLen);
+/// @brief Method Invoke, addr 0x3fcb4bc, size 0x14, virtual true, abstract: false, final false
+inline bool Invoke(::StringW  pchMimeType, ::System::Text::StringBuilder*  pchAppKeyBuffer, uint32_t  unAppKeyBufferLen) ;
 
-  static inline ::OVR::OpenVR::__IVRApplications___GetDefaultApplicationForMimeType* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::OVR::OpenVR::__IVRApplications___GetDefaultApplicationForMimeType* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x2be07ec, size 0xd8, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x3fcb41c, size 0xa0, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __IVRApplications___GetDefaultApplicationForMimeType();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __IVRApplications___GetDefaultApplicationForMimeType() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___GetDefaultApplicationForMimeType", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __IVRApplications___GetDefaultApplicationForMimeType(__IVRApplications___GetDefaultApplicationForMimeType&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___GetDefaultApplicationForMimeType", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __IVRApplications___GetDefaultApplicationForMimeType(__IVRApplications___GetDefaultApplicationForMimeType const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___GetDefaultApplicationForMimeType", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__IVRApplications___GetDefaultApplicationForMimeType(__IVRApplications___GetDefaultApplicationForMimeType && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___GetDefaultApplicationForMimeType", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__IVRApplications___GetDefaultApplicationForMimeType(__IVRApplications___GetDefaultApplicationForMimeType const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRApplications___GetDefaultApplicationForMimeType, 0x80>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 // Type: ::_GetApplicationSupportedMimeTypes
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: ::IVRApplications::_GetApplicationSupportedMimeTypes*
 class CORDL_TYPE __IVRApplications___GetApplicationSupportedMimeTypes : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x2be0a84, size 0x98, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::StringW pchAppKey, ::System::Text::StringBuilder* pchMimeTypesBuffer, uint32_t unMimeTypesBuffer, ::System::AsyncCallback* callback,
-                                             ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x3fcb644, size 0x98, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(::StringW  pchAppKey, ::System::Text::StringBuilder*  pchMimeTypesBuffer, uint32_t  unMimeTypesBuffer, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x2be0b1c, size 0x28, virtual true, abstract: false, final false
-  inline bool EndInvoke(::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x3fcb6dc, size 0x28, virtual true, abstract: false, final false
+inline bool EndInvoke(::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x2be0a70, size 0x14, virtual true, abstract: false, final false
-  inline bool Invoke(::StringW pchAppKey, ::System::Text::StringBuilder* pchMimeTypesBuffer, uint32_t unMimeTypesBuffer);
+/// @brief Method Invoke, addr 0x3fcb630, size 0x14, virtual true, abstract: false, final false
+inline bool Invoke(::StringW  pchAppKey, ::System::Text::StringBuilder*  pchMimeTypesBuffer, uint32_t  unMimeTypesBuffer) ;
 
-  static inline ::OVR::OpenVR::__IVRApplications___GetApplicationSupportedMimeTypes* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::OVR::OpenVR::__IVRApplications___GetApplicationSupportedMimeTypes* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x2be0998, size 0xd8, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x3fcb590, size 0xa0, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __IVRApplications___GetApplicationSupportedMimeTypes();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __IVRApplications___GetApplicationSupportedMimeTypes() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___GetApplicationSupportedMimeTypes", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __IVRApplications___GetApplicationSupportedMimeTypes(__IVRApplications___GetApplicationSupportedMimeTypes&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___GetApplicationSupportedMimeTypes", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __IVRApplications___GetApplicationSupportedMimeTypes(__IVRApplications___GetApplicationSupportedMimeTypes const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___GetApplicationSupportedMimeTypes", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__IVRApplications___GetApplicationSupportedMimeTypes(__IVRApplications___GetApplicationSupportedMimeTypes && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___GetApplicationSupportedMimeTypes", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__IVRApplications___GetApplicationSupportedMimeTypes(__IVRApplications___GetApplicationSupportedMimeTypes const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRApplications___GetApplicationSupportedMimeTypes, 0x80>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 // Type: ::_GetApplicationsThatSupportMimeType
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: ::IVRApplications::_GetApplicationsThatSupportMimeType*
 class CORDL_TYPE __IVRApplications___GetApplicationsThatSupportMimeType : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x2be0c30, size 0x98, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::StringW pchMimeType, ::System::Text::StringBuilder* pchAppKeysThatSupportBuffer, uint32_t unAppKeysThatSupportBuffer, ::System::AsyncCallback* callback,
-                                             ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x3fcb7b8, size 0x98, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(::StringW  pchMimeType, ::System::Text::StringBuilder*  pchAppKeysThatSupportBuffer, uint32_t  unAppKeysThatSupportBuffer, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x2be0cc8, size 0x28, virtual true, abstract: false, final false
-  inline uint32_t EndInvoke(::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x3fcb850, size 0x28, virtual true, abstract: false, final false
+inline uint32_t EndInvoke(::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x2be0c1c, size 0x14, virtual true, abstract: false, final false
-  inline uint32_t Invoke(::StringW pchMimeType, ::System::Text::StringBuilder* pchAppKeysThatSupportBuffer, uint32_t unAppKeysThatSupportBuffer);
+/// @brief Method Invoke, addr 0x3fcb7a4, size 0x14, virtual true, abstract: false, final false
+inline uint32_t Invoke(::StringW  pchMimeType, ::System::Text::StringBuilder*  pchAppKeysThatSupportBuffer, uint32_t  unAppKeysThatSupportBuffer) ;
 
-  static inline ::OVR::OpenVR::__IVRApplications___GetApplicationsThatSupportMimeType* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::OVR::OpenVR::__IVRApplications___GetApplicationsThatSupportMimeType* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x2be0b44, size 0xd8, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x3fcb704, size 0xa0, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __IVRApplications___GetApplicationsThatSupportMimeType();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __IVRApplications___GetApplicationsThatSupportMimeType() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___GetApplicationsThatSupportMimeType", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __IVRApplications___GetApplicationsThatSupportMimeType(__IVRApplications___GetApplicationsThatSupportMimeType&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___GetApplicationsThatSupportMimeType", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __IVRApplications___GetApplicationsThatSupportMimeType(__IVRApplications___GetApplicationsThatSupportMimeType const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___GetApplicationsThatSupportMimeType", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__IVRApplications___GetApplicationsThatSupportMimeType(__IVRApplications___GetApplicationsThatSupportMimeType && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___GetApplicationsThatSupportMimeType", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__IVRApplications___GetApplicationsThatSupportMimeType(__IVRApplications___GetApplicationsThatSupportMimeType const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRApplications___GetApplicationsThatSupportMimeType, 0x80>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 // Type: ::_GetApplicationLaunchArguments
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: ::IVRApplications::_GetApplicationLaunchArguments*
 class CORDL_TYPE __IVRApplications___GetApplicationLaunchArguments : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x2be0dc8, size 0xa4, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(uint32_t unHandle, ::System::Text::StringBuilder* pchArgs, uint32_t unArgs, ::System::AsyncCallback* callback, ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x3fcb918, size 0xa8, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(uint32_t  unHandle, ::System::Text::StringBuilder*  pchArgs, uint32_t  unArgs, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x2be0e6c, size 0x28, virtual true, abstract: false, final false
-  inline uint32_t EndInvoke(::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x3fcb9c0, size 0x28, virtual true, abstract: false, final false
+inline uint32_t EndInvoke(::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x2be0db4, size 0x14, virtual true, abstract: false, final false
-  inline uint32_t Invoke(uint32_t unHandle, ::System::Text::StringBuilder* pchArgs, uint32_t unArgs);
+/// @brief Method Invoke, addr 0x3fcb904, size 0x14, virtual true, abstract: false, final false
+inline uint32_t Invoke(uint32_t  unHandle, ::System::Text::StringBuilder*  pchArgs, uint32_t  unArgs) ;
 
-  static inline ::OVR::OpenVR::__IVRApplications___GetApplicationLaunchArguments* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::OVR::OpenVR::__IVRApplications___GetApplicationLaunchArguments* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x2be0cf0, size 0xc4, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x3fcb878, size 0x8c, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __IVRApplications___GetApplicationLaunchArguments();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __IVRApplications___GetApplicationLaunchArguments() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___GetApplicationLaunchArguments", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __IVRApplications___GetApplicationLaunchArguments(__IVRApplications___GetApplicationLaunchArguments&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___GetApplicationLaunchArguments", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __IVRApplications___GetApplicationLaunchArguments(__IVRApplications___GetApplicationLaunchArguments const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___GetApplicationLaunchArguments", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__IVRApplications___GetApplicationLaunchArguments(__IVRApplications___GetApplicationLaunchArguments && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___GetApplicationLaunchArguments", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__IVRApplications___GetApplicationLaunchArguments(__IVRApplications___GetApplicationLaunchArguments const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRApplications___GetApplicationLaunchArguments, 0x80>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 // Type: ::_GetStartingApplication
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: ::IVRApplications::_GetStartingApplication*
 class CORDL_TYPE __IVRApplications___GetStartingApplication : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x2be0f80, size 0x94, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::System::Text::StringBuilder* pchAppKeyBuffer, uint32_t unAppKeyBufferLen, ::System::AsyncCallback* callback, ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x3fcba9c, size 0x94, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(::System::Text::StringBuilder*  pchAppKeyBuffer, uint32_t  unAppKeyBufferLen, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x2be1014, size 0x28, virtual true, abstract: false, final false
-  inline ::OVR::OpenVR::EVRApplicationError EndInvoke(::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x3fcbb30, size 0x28, virtual true, abstract: false, final false
+inline ::OVR::OpenVR::EVRApplicationError EndInvoke(::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x2be0f6c, size 0x14, virtual true, abstract: false, final false
-  inline ::OVR::OpenVR::EVRApplicationError Invoke(::System::Text::StringBuilder* pchAppKeyBuffer, uint32_t unAppKeyBufferLen);
+/// @brief Method Invoke, addr 0x3fcba88, size 0x14, virtual true, abstract: false, final false
+inline ::OVR::OpenVR::EVRApplicationError Invoke(::System::Text::StringBuilder*  pchAppKeyBuffer, uint32_t  unAppKeyBufferLen) ;
 
-  static inline ::OVR::OpenVR::__IVRApplications___GetStartingApplication* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::OVR::OpenVR::__IVRApplications___GetStartingApplication* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x2be0e94, size 0xd8, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x3fcb9e8, size 0xa0, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __IVRApplications___GetStartingApplication();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __IVRApplications___GetStartingApplication() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___GetStartingApplication", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __IVRApplications___GetStartingApplication(__IVRApplications___GetStartingApplication&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___GetStartingApplication", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __IVRApplications___GetStartingApplication(__IVRApplications___GetStartingApplication const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___GetStartingApplication", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__IVRApplications___GetStartingApplication(__IVRApplications___GetStartingApplication && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___GetStartingApplication", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__IVRApplications___GetStartingApplication(__IVRApplications___GetStartingApplication const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRApplications___GetStartingApplication, 0x80>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 // Type: ::_GetTransitionState
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: ::IVRApplications::_GetTransitionState*
 class CORDL_TYPE __IVRApplications___GetTransitionState : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x2be110c, size 0x20, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x3fcbbf4, size 0x20, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x2be112c, size 0x28, virtual true, abstract: false, final false
-  inline ::OVR::OpenVR::EVRApplicationTransitionState EndInvoke(::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x3fcbc14, size 0x28, virtual true, abstract: false, final false
+inline ::OVR::OpenVR::EVRApplicationTransitionState EndInvoke(::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x2be10f8, size 0x14, virtual true, abstract: false, final false
-  inline ::OVR::OpenVR::EVRApplicationTransitionState Invoke();
+/// @brief Method Invoke, addr 0x3fcbbe0, size 0x14, virtual true, abstract: false, final false
+inline ::OVR::OpenVR::EVRApplicationTransitionState Invoke() ;
 
-  static inline ::OVR::OpenVR::__IVRApplications___GetTransitionState* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::OVR::OpenVR::__IVRApplications___GetTransitionState* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x2be103c, size 0xbc, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x3fcbb58, size 0x88, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __IVRApplications___GetTransitionState();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __IVRApplications___GetTransitionState() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___GetTransitionState", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __IVRApplications___GetTransitionState(__IVRApplications___GetTransitionState&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___GetTransitionState", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __IVRApplications___GetTransitionState(__IVRApplications___GetTransitionState const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___GetTransitionState", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__IVRApplications___GetTransitionState(__IVRApplications___GetTransitionState && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___GetTransitionState", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__IVRApplications___GetTransitionState(__IVRApplications___GetTransitionState const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRApplications___GetTransitionState, 0x80>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 // Type: ::_PerformApplicationPrelaunchCheck
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: ::IVRApplications::_PerformApplicationPrelaunchCheck*
 class CORDL_TYPE __IVRApplications___PerformApplicationPrelaunchCheck : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x2be123c, size 0x20, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::StringW pchAppKey, ::System::AsyncCallback* callback, ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x3fcbcec, size 0x20, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(::StringW  pchAppKey, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x2be125c, size 0x28, virtual true, abstract: false, final false
-  inline ::OVR::OpenVR::EVRApplicationError EndInvoke(::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x3fcbd0c, size 0x28, virtual true, abstract: false, final false
+inline ::OVR::OpenVR::EVRApplicationError EndInvoke(::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x2be1228, size 0x14, virtual true, abstract: false, final false
-  inline ::OVR::OpenVR::EVRApplicationError Invoke(::StringW pchAppKey);
+/// @brief Method Invoke, addr 0x3fcbcd8, size 0x14, virtual true, abstract: false, final false
+inline ::OVR::OpenVR::EVRApplicationError Invoke(::StringW  pchAppKey) ;
 
-  static inline ::OVR::OpenVR::__IVRApplications___PerformApplicationPrelaunchCheck* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::OVR::OpenVR::__IVRApplications___PerformApplicationPrelaunchCheck* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x2be1154, size 0xd4, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x3fcbc3c, size 0x9c, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __IVRApplications___PerformApplicationPrelaunchCheck();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __IVRApplications___PerformApplicationPrelaunchCheck() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___PerformApplicationPrelaunchCheck", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __IVRApplications___PerformApplicationPrelaunchCheck(__IVRApplications___PerformApplicationPrelaunchCheck&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___PerformApplicationPrelaunchCheck", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __IVRApplications___PerformApplicationPrelaunchCheck(__IVRApplications___PerformApplicationPrelaunchCheck const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___PerformApplicationPrelaunchCheck", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__IVRApplications___PerformApplicationPrelaunchCheck(__IVRApplications___PerformApplicationPrelaunchCheck && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___PerformApplicationPrelaunchCheck", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__IVRApplications___PerformApplicationPrelaunchCheck(__IVRApplications___PerformApplicationPrelaunchCheck const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRApplications___PerformApplicationPrelaunchCheck, 0x80>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 // Type: ::_GetApplicationsTransitionStateNameFromEnum
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: ::IVRApplications::_GetApplicationsTransitionStateNameFromEnum*
 class CORDL_TYPE __IVRApplications___GetApplicationsTransitionStateNameFromEnum : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x2be135c, size 0x84, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::OVR::OpenVR::EVRApplicationTransitionState state, ::System::AsyncCallback* callback, ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x3fcbdd4, size 0x84, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(::OVR::OpenVR::EVRApplicationTransitionState  state, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x2be13e0, size 0x28, virtual true, abstract: false, final false
-  inline ::System::IntPtr EndInvoke(::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x3fcbe58, size 0x28, virtual true, abstract: false, final false
+inline ::System::IntPtr EndInvoke(::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x2be1348, size 0x14, virtual true, abstract: false, final false
-  inline ::System::IntPtr Invoke(::OVR::OpenVR::EVRApplicationTransitionState state);
+/// @brief Method Invoke, addr 0x3fcbdc0, size 0x14, virtual true, abstract: false, final false
+inline ::System::IntPtr Invoke(::OVR::OpenVR::EVRApplicationTransitionState  state) ;
 
-  static inline ::OVR::OpenVR::__IVRApplications___GetApplicationsTransitionStateNameFromEnum* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::OVR::OpenVR::__IVRApplications___GetApplicationsTransitionStateNameFromEnum* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x2be1284, size 0xc4, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x3fcbd34, size 0x8c, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __IVRApplications___GetApplicationsTransitionStateNameFromEnum();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __IVRApplications___GetApplicationsTransitionStateNameFromEnum() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___GetApplicationsTransitionStateNameFromEnum", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __IVRApplications___GetApplicationsTransitionStateNameFromEnum(__IVRApplications___GetApplicationsTransitionStateNameFromEnum&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___GetApplicationsTransitionStateNameFromEnum", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __IVRApplications___GetApplicationsTransitionStateNameFromEnum(__IVRApplications___GetApplicationsTransitionStateNameFromEnum const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___GetApplicationsTransitionStateNameFromEnum", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__IVRApplications___GetApplicationsTransitionStateNameFromEnum(__IVRApplications___GetApplicationsTransitionStateNameFromEnum && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___GetApplicationsTransitionStateNameFromEnum", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__IVRApplications___GetApplicationsTransitionStateNameFromEnum(__IVRApplications___GetApplicationsTransitionStateNameFromEnum const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRApplications___GetApplicationsTransitionStateNameFromEnum, 0x80>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 // Type: ::_IsQuitUserPromptRequested
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: ::IVRApplications::_IsQuitUserPromptRequested*
 class CORDL_TYPE __IVRApplications___IsQuitUserPromptRequested : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x2be14d8, size 0x20, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x3fcbf1c, size 0x20, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x2be14f8, size 0x28, virtual true, abstract: false, final false
-  inline bool EndInvoke(::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x3fcbf3c, size 0x28, virtual true, abstract: false, final false
+inline bool EndInvoke(::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x2be14c4, size 0x14, virtual true, abstract: false, final false
-  inline bool Invoke();
+/// @brief Method Invoke, addr 0x3fcbf08, size 0x14, virtual true, abstract: false, final false
+inline bool Invoke() ;
 
-  static inline ::OVR::OpenVR::__IVRApplications___IsQuitUserPromptRequested* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::OVR::OpenVR::__IVRApplications___IsQuitUserPromptRequested* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x2be1408, size 0xbc, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x3fcbe80, size 0x88, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __IVRApplications___IsQuitUserPromptRequested();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __IVRApplications___IsQuitUserPromptRequested() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___IsQuitUserPromptRequested", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __IVRApplications___IsQuitUserPromptRequested(__IVRApplications___IsQuitUserPromptRequested&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___IsQuitUserPromptRequested", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __IVRApplications___IsQuitUserPromptRequested(__IVRApplications___IsQuitUserPromptRequested const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___IsQuitUserPromptRequested", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__IVRApplications___IsQuitUserPromptRequested(__IVRApplications___IsQuitUserPromptRequested && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___IsQuitUserPromptRequested", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__IVRApplications___IsQuitUserPromptRequested(__IVRApplications___IsQuitUserPromptRequested const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRApplications___IsQuitUserPromptRequested, 0x80>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 // Type: ::_LaunchInternalProcess
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: ::IVRApplications::_LaunchInternalProcess*
 class CORDL_TYPE __IVRApplications___LaunchInternalProcess : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x2be160c, size 0x2c, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::StringW pchBinaryPath, ::StringW pchArguments, ::StringW pchWorkingDirectory, ::System::AsyncCallback* callback, ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x3fcc018, size 0x2c, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(::StringW  pchBinaryPath, ::StringW  pchArguments, ::StringW  pchWorkingDirectory, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x2be1638, size 0x28, virtual true, abstract: false, final false
-  inline ::OVR::OpenVR::EVRApplicationError EndInvoke(::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x3fcc044, size 0x28, virtual true, abstract: false, final false
+inline ::OVR::OpenVR::EVRApplicationError EndInvoke(::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x2be15f8, size 0x14, virtual true, abstract: false, final false
-  inline ::OVR::OpenVR::EVRApplicationError Invoke(::StringW pchBinaryPath, ::StringW pchArguments, ::StringW pchWorkingDirectory);
+/// @brief Method Invoke, addr 0x3fcc004, size 0x14, virtual true, abstract: false, final false
+inline ::OVR::OpenVR::EVRApplicationError Invoke(::StringW  pchBinaryPath, ::StringW  pchArguments, ::StringW  pchWorkingDirectory) ;
 
-  static inline ::OVR::OpenVR::__IVRApplications___LaunchInternalProcess* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::OVR::OpenVR::__IVRApplications___LaunchInternalProcess* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x2be1520, size 0xd8, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x3fcbf64, size 0xa0, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __IVRApplications___LaunchInternalProcess();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __IVRApplications___LaunchInternalProcess() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___LaunchInternalProcess", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __IVRApplications___LaunchInternalProcess(__IVRApplications___LaunchInternalProcess&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___LaunchInternalProcess", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __IVRApplications___LaunchInternalProcess(__IVRApplications___LaunchInternalProcess const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___LaunchInternalProcess", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__IVRApplications___LaunchInternalProcess(__IVRApplications___LaunchInternalProcess && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___LaunchInternalProcess", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__IVRApplications___LaunchInternalProcess(__IVRApplications___LaunchInternalProcess const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRApplications___LaunchInternalProcess, 0x80>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 // Type: ::_GetCurrentSceneProcessId
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: ::IVRApplications::_GetCurrentSceneProcessId*
 class CORDL_TYPE __IVRApplications___GetCurrentSceneProcessId : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x2be1730, size 0x20, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x3fcc108, size 0x20, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x2be1750, size 0x28, virtual true, abstract: false, final false
-  inline uint32_t EndInvoke(::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x3fcc128, size 0x28, virtual true, abstract: false, final false
+inline uint32_t EndInvoke(::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x2be171c, size 0x14, virtual true, abstract: false, final false
-  inline uint32_t Invoke();
+/// @brief Method Invoke, addr 0x3fcc0f4, size 0x14, virtual true, abstract: false, final false
+inline uint32_t Invoke() ;
 
-  static inline ::OVR::OpenVR::__IVRApplications___GetCurrentSceneProcessId* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::OVR::OpenVR::__IVRApplications___GetCurrentSceneProcessId* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x2be1660, size 0xbc, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x3fcc06c, size 0x88, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __IVRApplications___GetCurrentSceneProcessId();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __IVRApplications___GetCurrentSceneProcessId() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___GetCurrentSceneProcessId", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __IVRApplications___GetCurrentSceneProcessId(__IVRApplications___GetCurrentSceneProcessId&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___GetCurrentSceneProcessId", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __IVRApplications___GetCurrentSceneProcessId(__IVRApplications___GetCurrentSceneProcessId const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___GetCurrentSceneProcessId", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__IVRApplications___GetCurrentSceneProcessId(__IVRApplications___GetCurrentSceneProcessId && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRApplications___GetCurrentSceneProcessId", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__IVRApplications___GetCurrentSceneProcessId(__IVRApplications___GetCurrentSceneProcessId const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRApplications___GetCurrentSceneProcessId, 0x80>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 // Type: OVR.OpenVR::IVRApplications
-// SizeInfo { instance_size: 248, native_size: 248, calculated_instance_size: 248, calculated_native_size: 264, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 248, native_size: 248, calculated_instance_size: 248, calculated_native_size: 264, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
 // CS Name: ::OVR.OpenVR::IVRApplications
 struct CORDL_TYPE IVRApplications {
 public:
-  // Declarations
-  using _AddApplicationManifest = ::OVR::OpenVR::__IVRApplications___AddApplicationManifest;
+// Declarations
+using _AddApplicationManifest = ::OVR::OpenVR::__IVRApplications___AddApplicationManifest;
 
-  using _CancelApplicationLaunch = ::OVR::OpenVR::__IVRApplications___CancelApplicationLaunch;
+using _CancelApplicationLaunch = ::OVR::OpenVR::__IVRApplications___CancelApplicationLaunch;
 
-  using _GetApplicationAutoLaunch = ::OVR::OpenVR::__IVRApplications___GetApplicationAutoLaunch;
+using _GetApplicationAutoLaunch = ::OVR::OpenVR::__IVRApplications___GetApplicationAutoLaunch;
 
-  using _GetApplicationCount = ::OVR::OpenVR::__IVRApplications___GetApplicationCount;
+using _GetApplicationCount = ::OVR::OpenVR::__IVRApplications___GetApplicationCount;
 
-  using _GetApplicationKeyByIndex = ::OVR::OpenVR::__IVRApplications___GetApplicationKeyByIndex;
+using _GetApplicationKeyByIndex = ::OVR::OpenVR::__IVRApplications___GetApplicationKeyByIndex;
 
-  using _GetApplicationKeyByProcessId = ::OVR::OpenVR::__IVRApplications___GetApplicationKeyByProcessId;
+using _GetApplicationKeyByProcessId = ::OVR::OpenVR::__IVRApplications___GetApplicationKeyByProcessId;
 
-  using _GetApplicationLaunchArguments = ::OVR::OpenVR::__IVRApplications___GetApplicationLaunchArguments;
+using _GetApplicationLaunchArguments = ::OVR::OpenVR::__IVRApplications___GetApplicationLaunchArguments;
 
-  using _GetApplicationProcessId = ::OVR::OpenVR::__IVRApplications___GetApplicationProcessId;
+using _GetApplicationProcessId = ::OVR::OpenVR::__IVRApplications___GetApplicationProcessId;
 
-  using _GetApplicationPropertyBool = ::OVR::OpenVR::__IVRApplications___GetApplicationPropertyBool;
+using _GetApplicationPropertyBool = ::OVR::OpenVR::__IVRApplications___GetApplicationPropertyBool;
 
-  using _GetApplicationPropertyString = ::OVR::OpenVR::__IVRApplications___GetApplicationPropertyString;
+using _GetApplicationPropertyString = ::OVR::OpenVR::__IVRApplications___GetApplicationPropertyString;
 
-  using _GetApplicationPropertyUint64 = ::OVR::OpenVR::__IVRApplications___GetApplicationPropertyUint64;
+using _GetApplicationPropertyUint64 = ::OVR::OpenVR::__IVRApplications___GetApplicationPropertyUint64;
 
-  using _GetApplicationSupportedMimeTypes = ::OVR::OpenVR::__IVRApplications___GetApplicationSupportedMimeTypes;
+using _GetApplicationSupportedMimeTypes = ::OVR::OpenVR::__IVRApplications___GetApplicationSupportedMimeTypes;
 
-  using _GetApplicationsErrorNameFromEnum = ::OVR::OpenVR::__IVRApplications___GetApplicationsErrorNameFromEnum;
+using _GetApplicationsErrorNameFromEnum = ::OVR::OpenVR::__IVRApplications___GetApplicationsErrorNameFromEnum;
 
-  using _GetApplicationsThatSupportMimeType = ::OVR::OpenVR::__IVRApplications___GetApplicationsThatSupportMimeType;
+using _GetApplicationsThatSupportMimeType = ::OVR::OpenVR::__IVRApplications___GetApplicationsThatSupportMimeType;
 
-  using _GetApplicationsTransitionStateNameFromEnum = ::OVR::OpenVR::__IVRApplications___GetApplicationsTransitionStateNameFromEnum;
+using _GetApplicationsTransitionStateNameFromEnum = ::OVR::OpenVR::__IVRApplications___GetApplicationsTransitionStateNameFromEnum;
 
-  using _GetCurrentSceneProcessId = ::OVR::OpenVR::__IVRApplications___GetCurrentSceneProcessId;
+using _GetCurrentSceneProcessId = ::OVR::OpenVR::__IVRApplications___GetCurrentSceneProcessId;
 
-  using _GetDefaultApplicationForMimeType = ::OVR::OpenVR::__IVRApplications___GetDefaultApplicationForMimeType;
+using _GetDefaultApplicationForMimeType = ::OVR::OpenVR::__IVRApplications___GetDefaultApplicationForMimeType;
 
-  using _GetStartingApplication = ::OVR::OpenVR::__IVRApplications___GetStartingApplication;
+using _GetStartingApplication = ::OVR::OpenVR::__IVRApplications___GetStartingApplication;
 
-  using _GetTransitionState = ::OVR::OpenVR::__IVRApplications___GetTransitionState;
+using _GetTransitionState = ::OVR::OpenVR::__IVRApplications___GetTransitionState;
 
-  using _IdentifyApplication = ::OVR::OpenVR::__IVRApplications___IdentifyApplication;
+using _IdentifyApplication = ::OVR::OpenVR::__IVRApplications___IdentifyApplication;
 
-  using _IsApplicationInstalled = ::OVR::OpenVR::__IVRApplications___IsApplicationInstalled;
+using _IsApplicationInstalled = ::OVR::OpenVR::__IVRApplications___IsApplicationInstalled;
 
-  using _IsQuitUserPromptRequested = ::OVR::OpenVR::__IVRApplications___IsQuitUserPromptRequested;
+using _IsQuitUserPromptRequested = ::OVR::OpenVR::__IVRApplications___IsQuitUserPromptRequested;
 
-  using _LaunchApplication = ::OVR::OpenVR::__IVRApplications___LaunchApplication;
+using _LaunchApplication = ::OVR::OpenVR::__IVRApplications___LaunchApplication;
 
-  using _LaunchApplicationFromMimeType = ::OVR::OpenVR::__IVRApplications___LaunchApplicationFromMimeType;
+using _LaunchApplicationFromMimeType = ::OVR::OpenVR::__IVRApplications___LaunchApplicationFromMimeType;
 
-  using _LaunchDashboardOverlay = ::OVR::OpenVR::__IVRApplications___LaunchDashboardOverlay;
+using _LaunchDashboardOverlay = ::OVR::OpenVR::__IVRApplications___LaunchDashboardOverlay;
 
-  using _LaunchInternalProcess = ::OVR::OpenVR::__IVRApplications___LaunchInternalProcess;
+using _LaunchInternalProcess = ::OVR::OpenVR::__IVRApplications___LaunchInternalProcess;
 
-  using _LaunchTemplateApplication = ::OVR::OpenVR::__IVRApplications___LaunchTemplateApplication;
+using _LaunchTemplateApplication = ::OVR::OpenVR::__IVRApplications___LaunchTemplateApplication;
 
-  using _PerformApplicationPrelaunchCheck = ::OVR::OpenVR::__IVRApplications___PerformApplicationPrelaunchCheck;
+using _PerformApplicationPrelaunchCheck = ::OVR::OpenVR::__IVRApplications___PerformApplicationPrelaunchCheck;
 
-  using _RemoveApplicationManifest = ::OVR::OpenVR::__IVRApplications___RemoveApplicationManifest;
+using _RemoveApplicationManifest = ::OVR::OpenVR::__IVRApplications___RemoveApplicationManifest;
 
-  using _SetApplicationAutoLaunch = ::OVR::OpenVR::__IVRApplications___SetApplicationAutoLaunch;
+using _SetApplicationAutoLaunch = ::OVR::OpenVR::__IVRApplications___SetApplicationAutoLaunch;
 
-  using _SetDefaultApplicationForMimeType = ::OVR::OpenVR::__IVRApplications___SetDefaultApplicationForMimeType;
+using _SetDefaultApplicationForMimeType = ::OVR::OpenVR::__IVRApplications___SetDefaultApplicationForMimeType;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr IVRApplications();
+// Ctor Parameters []
+// @brief default ctor
+constexpr IVRApplications() ;
 
-  // Ctor Parameters [CppParam { name: "AddApplicationManifest", ty: "::OVR::OpenVR::__IVRApplications___AddApplicationManifest*", modifiers: "", def_value: None }, CppParam { name:
-  // "RemoveApplicationManifest", ty: "::OVR::OpenVR::__IVRApplications___RemoveApplicationManifest*", modifiers: "", def_value: None }, CppParam { name: "IsApplicationInstalled", ty:
-  // "::OVR::OpenVR::__IVRApplications___IsApplicationInstalled*", modifiers: "", def_value: None }, CppParam { name: "GetApplicationCount", ty:
-  // "::OVR::OpenVR::__IVRApplications___GetApplicationCount*", modifiers: "", def_value: None }, CppParam { name: "GetApplicationKeyByIndex", ty:
-  // "::OVR::OpenVR::__IVRApplications___GetApplicationKeyByIndex*", modifiers: "", def_value: None }, CppParam { name: "GetApplicationKeyByProcessId", ty:
-  // "::OVR::OpenVR::__IVRApplications___GetApplicationKeyByProcessId*", modifiers: "", def_value: None }, CppParam { name: "LaunchApplication", ty:
-  // "::OVR::OpenVR::__IVRApplications___LaunchApplication*", modifiers: "", def_value: None }, CppParam { name: "LaunchTemplateApplication", ty:
-  // "::OVR::OpenVR::__IVRApplications___LaunchTemplateApplication*", modifiers: "", def_value: None }, CppParam { name: "LaunchApplicationFromMimeType", ty:
-  // "::OVR::OpenVR::__IVRApplications___LaunchApplicationFromMimeType*", modifiers: "", def_value: None }, CppParam { name: "LaunchDashboardOverlay", ty:
-  // "::OVR::OpenVR::__IVRApplications___LaunchDashboardOverlay*", modifiers: "", def_value: None }, CppParam { name: "CancelApplicationLaunch", ty:
-  // "::OVR::OpenVR::__IVRApplications___CancelApplicationLaunch*", modifiers: "", def_value: None }, CppParam { name: "IdentifyApplication", ty:
-  // "::OVR::OpenVR::__IVRApplications___IdentifyApplication*", modifiers: "", def_value: None }, CppParam { name: "GetApplicationProcessId", ty:
-  // "::OVR::OpenVR::__IVRApplications___GetApplicationProcessId*", modifiers: "", def_value: None }, CppParam { name: "GetApplicationsErrorNameFromEnum", ty:
-  // "::OVR::OpenVR::__IVRApplications___GetApplicationsErrorNameFromEnum*", modifiers: "", def_value: None }, CppParam { name: "GetApplicationPropertyString", ty:
-  // "::OVR::OpenVR::__IVRApplications___GetApplicationPropertyString*", modifiers: "", def_value: None }, CppParam { name: "GetApplicationPropertyBool", ty:
-  // "::OVR::OpenVR::__IVRApplications___GetApplicationPropertyBool*", modifiers: "", def_value: None }, CppParam { name: "GetApplicationPropertyUint64", ty:
-  // "::OVR::OpenVR::__IVRApplications___GetApplicationPropertyUint64*", modifiers: "", def_value: None }, CppParam { name: "SetApplicationAutoLaunch", ty:
-  // "::OVR::OpenVR::__IVRApplications___SetApplicationAutoLaunch*", modifiers: "", def_value: None }, CppParam { name: "GetApplicationAutoLaunch", ty:
-  // "::OVR::OpenVR::__IVRApplications___GetApplicationAutoLaunch*", modifiers: "", def_value: None }, CppParam { name: "SetDefaultApplicationForMimeType", ty:
-  // "::OVR::OpenVR::__IVRApplications___SetDefaultApplicationForMimeType*", modifiers: "", def_value: None }, CppParam { name: "GetDefaultApplicationForMimeType", ty:
-  // "::OVR::OpenVR::__IVRApplications___GetDefaultApplicationForMimeType*", modifiers: "", def_value: None }, CppParam { name: "GetApplicationSupportedMimeTypes", ty:
-  // "::OVR::OpenVR::__IVRApplications___GetApplicationSupportedMimeTypes*", modifiers: "", def_value: None }, CppParam { name: "GetApplicationsThatSupportMimeType", ty:
-  // "::OVR::OpenVR::__IVRApplications___GetApplicationsThatSupportMimeType*", modifiers: "", def_value: None }, CppParam { name: "GetApplicationLaunchArguments", ty:
-  // "::OVR::OpenVR::__IVRApplications___GetApplicationLaunchArguments*", modifiers: "", def_value: None }, CppParam { name: "GetStartingApplication", ty:
-  // "::OVR::OpenVR::__IVRApplications___GetStartingApplication*", modifiers: "", def_value: None }, CppParam { name: "GetTransitionState", ty:
-  // "::OVR::OpenVR::__IVRApplications___GetTransitionState*", modifiers: "", def_value: None }, CppParam { name: "PerformApplicationPrelaunchCheck", ty:
-  // "::OVR::OpenVR::__IVRApplications___PerformApplicationPrelaunchCheck*", modifiers: "", def_value: None }, CppParam { name: "GetApplicationsTransitionStateNameFromEnum", ty:
-  // "::OVR::OpenVR::__IVRApplications___GetApplicationsTransitionStateNameFromEnum*", modifiers: "", def_value: None }, CppParam { name: "IsQuitUserPromptRequested", ty:
-  // "::OVR::OpenVR::__IVRApplications___IsQuitUserPromptRequested*", modifiers: "", def_value: None }, CppParam { name: "LaunchInternalProcess", ty:
-  // "::OVR::OpenVR::__IVRApplications___LaunchInternalProcess*", modifiers: "", def_value: None }, CppParam { name: "GetCurrentSceneProcessId", ty:
-  // "::OVR::OpenVR::__IVRApplications___GetCurrentSceneProcessId*", modifiers: "", def_value: None }]
-  constexpr IVRApplications(
-      ::OVR::OpenVR::__IVRApplications___AddApplicationManifest* AddApplicationManifest, ::OVR::OpenVR::__IVRApplications___RemoveApplicationManifest* RemoveApplicationManifest,
-      ::OVR::OpenVR::__IVRApplications___IsApplicationInstalled* IsApplicationInstalled, ::OVR::OpenVR::__IVRApplications___GetApplicationCount* GetApplicationCount,
-      ::OVR::OpenVR::__IVRApplications___GetApplicationKeyByIndex* GetApplicationKeyByIndex, ::OVR::OpenVR::__IVRApplications___GetApplicationKeyByProcessId* GetApplicationKeyByProcessId,
-      ::OVR::OpenVR::__IVRApplications___LaunchApplication* LaunchApplication, ::OVR::OpenVR::__IVRApplications___LaunchTemplateApplication* LaunchTemplateApplication,
-      ::OVR::OpenVR::__IVRApplications___LaunchApplicationFromMimeType* LaunchApplicationFromMimeType, ::OVR::OpenVR::__IVRApplications___LaunchDashboardOverlay* LaunchDashboardOverlay,
-      ::OVR::OpenVR::__IVRApplications___CancelApplicationLaunch* CancelApplicationLaunch, ::OVR::OpenVR::__IVRApplications___IdentifyApplication* IdentifyApplication,
-      ::OVR::OpenVR::__IVRApplications___GetApplicationProcessId* GetApplicationProcessId, ::OVR::OpenVR::__IVRApplications___GetApplicationsErrorNameFromEnum* GetApplicationsErrorNameFromEnum,
-      ::OVR::OpenVR::__IVRApplications___GetApplicationPropertyString* GetApplicationPropertyString, ::OVR::OpenVR::__IVRApplications___GetApplicationPropertyBool* GetApplicationPropertyBool,
-      ::OVR::OpenVR::__IVRApplications___GetApplicationPropertyUint64* GetApplicationPropertyUint64, ::OVR::OpenVR::__IVRApplications___SetApplicationAutoLaunch* SetApplicationAutoLaunch,
-      ::OVR::OpenVR::__IVRApplications___GetApplicationAutoLaunch* GetApplicationAutoLaunch, ::OVR::OpenVR::__IVRApplications___SetDefaultApplicationForMimeType* SetDefaultApplicationForMimeType,
-      ::OVR::OpenVR::__IVRApplications___GetDefaultApplicationForMimeType* GetDefaultApplicationForMimeType,
-      ::OVR::OpenVR::__IVRApplications___GetApplicationSupportedMimeTypes* GetApplicationSupportedMimeTypes,
-      ::OVR::OpenVR::__IVRApplications___GetApplicationsThatSupportMimeType* GetApplicationsThatSupportMimeType,
-      ::OVR::OpenVR::__IVRApplications___GetApplicationLaunchArguments* GetApplicationLaunchArguments, ::OVR::OpenVR::__IVRApplications___GetStartingApplication* GetStartingApplication,
-      ::OVR::OpenVR::__IVRApplications___GetTransitionState* GetTransitionState, ::OVR::OpenVR::__IVRApplications___PerformApplicationPrelaunchCheck* PerformApplicationPrelaunchCheck,
-      ::OVR::OpenVR::__IVRApplications___GetApplicationsTransitionStateNameFromEnum* GetApplicationsTransitionStateNameFromEnum,
-      ::OVR::OpenVR::__IVRApplications___IsQuitUserPromptRequested* IsQuitUserPromptRequested, ::OVR::OpenVR::__IVRApplications___LaunchInternalProcess* LaunchInternalProcess,
-      ::OVR::OpenVR::__IVRApplications___GetCurrentSceneProcessId* GetCurrentSceneProcessId) noexcept;
+// Ctor Parameters [CppParam { name: "AddApplicationManifest", ty: "::OVR::OpenVR::__IVRApplications___AddApplicationManifest*", modifiers: "", def_value: None }, CppParam { name: "RemoveApplicationManifest", ty: "::OVR::OpenVR::__IVRApplications___RemoveApplicationManifest*", modifiers: "", def_value: None }, CppParam { name: "IsApplicationInstalled", ty: "::OVR::OpenVR::__IVRApplications___IsApplicationInstalled*", modifiers: "", def_value: None }, CppParam { name: "GetApplicationCount", ty: "::OVR::OpenVR::__IVRApplications___GetApplicationCount*", modifiers: "", def_value: None }, CppParam { name: "GetApplicationKeyByIndex", ty: "::OVR::OpenVR::__IVRApplications___GetApplicationKeyByIndex*", modifiers: "", def_value: None }, CppParam { name: "GetApplicationKeyByProcessId", ty: "::OVR::OpenVR::__IVRApplications___GetApplicationKeyByProcessId*", modifiers: "", def_value: None }, CppParam { name: "LaunchApplication", ty: "::OVR::OpenVR::__IVRApplications___LaunchApplication*", modifiers: "", def_value: None }, CppParam { name: "LaunchTemplateApplication", ty: "::OVR::OpenVR::__IVRApplications___LaunchTemplateApplication*", modifiers: "", def_value: None }, CppParam { name: "LaunchApplicationFromMimeType", ty: "::OVR::OpenVR::__IVRApplications___LaunchApplicationFromMimeType*", modifiers: "", def_value: None }, CppParam { name: "LaunchDashboardOverlay", ty: "::OVR::OpenVR::__IVRApplications___LaunchDashboardOverlay*", modifiers: "", def_value: None }, CppParam { name: "CancelApplicationLaunch", ty: "::OVR::OpenVR::__IVRApplications___CancelApplicationLaunch*", modifiers: "", def_value: None }, CppParam { name: "IdentifyApplication", ty: "::OVR::OpenVR::__IVRApplications___IdentifyApplication*", modifiers: "", def_value: None }, CppParam { name: "GetApplicationProcessId", ty: "::OVR::OpenVR::__IVRApplications___GetApplicationProcessId*", modifiers: "", def_value: None }, CppParam { name: "GetApplicationsErrorNameFromEnum", ty: "::OVR::OpenVR::__IVRApplications___GetApplicationsErrorNameFromEnum*", modifiers: "", def_value: None }, CppParam { name: "GetApplicationPropertyString", ty: "::OVR::OpenVR::__IVRApplications___GetApplicationPropertyString*", modifiers: "", def_value: None }, CppParam { name: "GetApplicationPropertyBool", ty: "::OVR::OpenVR::__IVRApplications___GetApplicationPropertyBool*", modifiers: "", def_value: None }, CppParam { name: "GetApplicationPropertyUint64", ty: "::OVR::OpenVR::__IVRApplications___GetApplicationPropertyUint64*", modifiers: "", def_value: None }, CppParam { name: "SetApplicationAutoLaunch", ty: "::OVR::OpenVR::__IVRApplications___SetApplicationAutoLaunch*", modifiers: "", def_value: None }, CppParam { name: "GetApplicationAutoLaunch", ty: "::OVR::OpenVR::__IVRApplications___GetApplicationAutoLaunch*", modifiers: "", def_value: None }, CppParam { name: "SetDefaultApplicationForMimeType", ty: "::OVR::OpenVR::__IVRApplications___SetDefaultApplicationForMimeType*", modifiers: "", def_value: None }, CppParam { name: "GetDefaultApplicationForMimeType", ty: "::OVR::OpenVR::__IVRApplications___GetDefaultApplicationForMimeType*", modifiers: "", def_value: None }, CppParam { name: "GetApplicationSupportedMimeTypes", ty: "::OVR::OpenVR::__IVRApplications___GetApplicationSupportedMimeTypes*", modifiers: "", def_value: None }, CppParam { name: "GetApplicationsThatSupportMimeType", ty: "::OVR::OpenVR::__IVRApplications___GetApplicationsThatSupportMimeType*", modifiers: "", def_value: None }, CppParam { name: "GetApplicationLaunchArguments", ty: "::OVR::OpenVR::__IVRApplications___GetApplicationLaunchArguments*", modifiers: "", def_value: None }, CppParam { name: "GetStartingApplication", ty: "::OVR::OpenVR::__IVRApplications___GetStartingApplication*", modifiers: "", def_value: None }, CppParam { name: "GetTransitionState", ty: "::OVR::OpenVR::__IVRApplications___GetTransitionState*", modifiers: "", def_value: None }, CppParam { name: "PerformApplicationPrelaunchCheck", ty: "::OVR::OpenVR::__IVRApplications___PerformApplicationPrelaunchCheck*", modifiers: "", def_value: None }, CppParam { name: "GetApplicationsTransitionStateNameFromEnum", ty: "::OVR::OpenVR::__IVRApplications___GetApplicationsTransitionStateNameFromEnum*", modifiers: "", def_value: None }, CppParam { name: "IsQuitUserPromptRequested", ty: "::OVR::OpenVR::__IVRApplications___IsQuitUserPromptRequested*", modifiers: "", def_value: None }, CppParam { name: "LaunchInternalProcess", ty: "::OVR::OpenVR::__IVRApplications___LaunchInternalProcess*", modifiers: "", def_value: None }, CppParam { name: "GetCurrentSceneProcessId", ty: "::OVR::OpenVR::__IVRApplications___GetCurrentSceneProcessId*", modifiers: "", def_value: None }]
+constexpr IVRApplications(::OVR::OpenVR::__IVRApplications___AddApplicationManifest*  AddApplicationManifest, ::OVR::OpenVR::__IVRApplications___RemoveApplicationManifest*  RemoveApplicationManifest, ::OVR::OpenVR::__IVRApplications___IsApplicationInstalled*  IsApplicationInstalled, ::OVR::OpenVR::__IVRApplications___GetApplicationCount*  GetApplicationCount, ::OVR::OpenVR::__IVRApplications___GetApplicationKeyByIndex*  GetApplicationKeyByIndex, ::OVR::OpenVR::__IVRApplications___GetApplicationKeyByProcessId*  GetApplicationKeyByProcessId, ::OVR::OpenVR::__IVRApplications___LaunchApplication*  LaunchApplication, ::OVR::OpenVR::__IVRApplications___LaunchTemplateApplication*  LaunchTemplateApplication, ::OVR::OpenVR::__IVRApplications___LaunchApplicationFromMimeType*  LaunchApplicationFromMimeType, ::OVR::OpenVR::__IVRApplications___LaunchDashboardOverlay*  LaunchDashboardOverlay, ::OVR::OpenVR::__IVRApplications___CancelApplicationLaunch*  CancelApplicationLaunch, ::OVR::OpenVR::__IVRApplications___IdentifyApplication*  IdentifyApplication, ::OVR::OpenVR::__IVRApplications___GetApplicationProcessId*  GetApplicationProcessId, ::OVR::OpenVR::__IVRApplications___GetApplicationsErrorNameFromEnum*  GetApplicationsErrorNameFromEnum, ::OVR::OpenVR::__IVRApplications___GetApplicationPropertyString*  GetApplicationPropertyString, ::OVR::OpenVR::__IVRApplications___GetApplicationPropertyBool*  GetApplicationPropertyBool, ::OVR::OpenVR::__IVRApplications___GetApplicationPropertyUint64*  GetApplicationPropertyUint64, ::OVR::OpenVR::__IVRApplications___SetApplicationAutoLaunch*  SetApplicationAutoLaunch, ::OVR::OpenVR::__IVRApplications___GetApplicationAutoLaunch*  GetApplicationAutoLaunch, ::OVR::OpenVR::__IVRApplications___SetDefaultApplicationForMimeType*  SetDefaultApplicationForMimeType, ::OVR::OpenVR::__IVRApplications___GetDefaultApplicationForMimeType*  GetDefaultApplicationForMimeType, ::OVR::OpenVR::__IVRApplications___GetApplicationSupportedMimeTypes*  GetApplicationSupportedMimeTypes, ::OVR::OpenVR::__IVRApplications___GetApplicationsThatSupportMimeType*  GetApplicationsThatSupportMimeType, ::OVR::OpenVR::__IVRApplications___GetApplicationLaunchArguments*  GetApplicationLaunchArguments, ::OVR::OpenVR::__IVRApplications___GetStartingApplication*  GetStartingApplication, ::OVR::OpenVR::__IVRApplications___GetTransitionState*  GetTransitionState, ::OVR::OpenVR::__IVRApplications___PerformApplicationPrelaunchCheck*  PerformApplicationPrelaunchCheck, ::OVR::OpenVR::__IVRApplications___GetApplicationsTransitionStateNameFromEnum*  GetApplicationsTransitionStateNameFromEnum, ::OVR::OpenVR::__IVRApplications___IsQuitUserPromptRequested*  IsQuitUserPromptRequested, ::OVR::OpenVR::__IVRApplications___LaunchInternalProcess*  LaunchInternalProcess, ::OVR::OpenVR::__IVRApplications___GetCurrentSceneProcessId*  GetCurrentSceneProcessId) noexcept;
 
-  /// @brief Field AddApplicationManifest, offset: 0x0, size: 0x8, def value: None
-  ::OVR::OpenVR::__IVRApplications___AddApplicationManifest* AddApplicationManifest;
+/// @brief Field AddApplicationManifest, offset: 0x0, size: 0x8, def value: None
+ ::OVR::OpenVR::__IVRApplications___AddApplicationManifest*  AddApplicationManifest;
 
-  /// @brief Field RemoveApplicationManifest, offset: 0x8, size: 0x8, def value: None
-  ::OVR::OpenVR::__IVRApplications___RemoveApplicationManifest* RemoveApplicationManifest;
+/// @brief Field RemoveApplicationManifest, offset: 0x8, size: 0x8, def value: None
+ ::OVR::OpenVR::__IVRApplications___RemoveApplicationManifest*  RemoveApplicationManifest;
 
-  /// @brief Field IsApplicationInstalled, offset: 0x10, size: 0x8, def value: None
-  ::OVR::OpenVR::__IVRApplications___IsApplicationInstalled* IsApplicationInstalled;
+/// @brief Field IsApplicationInstalled, offset: 0x10, size: 0x8, def value: None
+ ::OVR::OpenVR::__IVRApplications___IsApplicationInstalled*  IsApplicationInstalled;
 
-  /// @brief Field GetApplicationCount, offset: 0x18, size: 0x8, def value: None
-  ::OVR::OpenVR::__IVRApplications___GetApplicationCount* GetApplicationCount;
+/// @brief Field GetApplicationCount, offset: 0x18, size: 0x8, def value: None
+ ::OVR::OpenVR::__IVRApplications___GetApplicationCount*  GetApplicationCount;
 
-  /// @brief Field GetApplicationKeyByIndex, offset: 0x20, size: 0x8, def value: None
-  ::OVR::OpenVR::__IVRApplications___GetApplicationKeyByIndex* GetApplicationKeyByIndex;
+/// @brief Field GetApplicationKeyByIndex, offset: 0x20, size: 0x8, def value: None
+ ::OVR::OpenVR::__IVRApplications___GetApplicationKeyByIndex*  GetApplicationKeyByIndex;
 
-  /// @brief Field GetApplicationKeyByProcessId, offset: 0x28, size: 0x8, def value: None
-  ::OVR::OpenVR::__IVRApplications___GetApplicationKeyByProcessId* GetApplicationKeyByProcessId;
+/// @brief Field GetApplicationKeyByProcessId, offset: 0x28, size: 0x8, def value: None
+ ::OVR::OpenVR::__IVRApplications___GetApplicationKeyByProcessId*  GetApplicationKeyByProcessId;
 
-  /// @brief Field LaunchApplication, offset: 0x30, size: 0x8, def value: None
-  ::OVR::OpenVR::__IVRApplications___LaunchApplication* LaunchApplication;
+/// @brief Field LaunchApplication, offset: 0x30, size: 0x8, def value: None
+ ::OVR::OpenVR::__IVRApplications___LaunchApplication*  LaunchApplication;
 
-  /// @brief Field LaunchTemplateApplication, offset: 0x38, size: 0x8, def value: None
-  ::OVR::OpenVR::__IVRApplications___LaunchTemplateApplication* LaunchTemplateApplication;
+/// @brief Field LaunchTemplateApplication, offset: 0x38, size: 0x8, def value: None
+ ::OVR::OpenVR::__IVRApplications___LaunchTemplateApplication*  LaunchTemplateApplication;
 
-  /// @brief Field LaunchApplicationFromMimeType, offset: 0x40, size: 0x8, def value: None
-  ::OVR::OpenVR::__IVRApplications___LaunchApplicationFromMimeType* LaunchApplicationFromMimeType;
+/// @brief Field LaunchApplicationFromMimeType, offset: 0x40, size: 0x8, def value: None
+ ::OVR::OpenVR::__IVRApplications___LaunchApplicationFromMimeType*  LaunchApplicationFromMimeType;
 
-  /// @brief Field LaunchDashboardOverlay, offset: 0x48, size: 0x8, def value: None
-  ::OVR::OpenVR::__IVRApplications___LaunchDashboardOverlay* LaunchDashboardOverlay;
+/// @brief Field LaunchDashboardOverlay, offset: 0x48, size: 0x8, def value: None
+ ::OVR::OpenVR::__IVRApplications___LaunchDashboardOverlay*  LaunchDashboardOverlay;
 
-  /// @brief Field CancelApplicationLaunch, offset: 0x50, size: 0x8, def value: None
-  ::OVR::OpenVR::__IVRApplications___CancelApplicationLaunch* CancelApplicationLaunch;
+/// @brief Field CancelApplicationLaunch, offset: 0x50, size: 0x8, def value: None
+ ::OVR::OpenVR::__IVRApplications___CancelApplicationLaunch*  CancelApplicationLaunch;
 
-  /// @brief Field IdentifyApplication, offset: 0x58, size: 0x8, def value: None
-  ::OVR::OpenVR::__IVRApplications___IdentifyApplication* IdentifyApplication;
+/// @brief Field IdentifyApplication, offset: 0x58, size: 0x8, def value: None
+ ::OVR::OpenVR::__IVRApplications___IdentifyApplication*  IdentifyApplication;
 
-  /// @brief Field GetApplicationProcessId, offset: 0x60, size: 0x8, def value: None
-  ::OVR::OpenVR::__IVRApplications___GetApplicationProcessId* GetApplicationProcessId;
+/// @brief Field GetApplicationProcessId, offset: 0x60, size: 0x8, def value: None
+ ::OVR::OpenVR::__IVRApplications___GetApplicationProcessId*  GetApplicationProcessId;
 
-  /// @brief Field GetApplicationsErrorNameFromEnum, offset: 0x68, size: 0x8, def value: None
-  ::OVR::OpenVR::__IVRApplications___GetApplicationsErrorNameFromEnum* GetApplicationsErrorNameFromEnum;
+/// @brief Field GetApplicationsErrorNameFromEnum, offset: 0x68, size: 0x8, def value: None
+ ::OVR::OpenVR::__IVRApplications___GetApplicationsErrorNameFromEnum*  GetApplicationsErrorNameFromEnum;
 
-  /// @brief Field GetApplicationPropertyString, offset: 0x70, size: 0x8, def value: None
-  ::OVR::OpenVR::__IVRApplications___GetApplicationPropertyString* GetApplicationPropertyString;
+/// @brief Field GetApplicationPropertyString, offset: 0x70, size: 0x8, def value: None
+ ::OVR::OpenVR::__IVRApplications___GetApplicationPropertyString*  GetApplicationPropertyString;
 
-  /// @brief Field GetApplicationPropertyBool, offset: 0x78, size: 0x8, def value: None
-  ::OVR::OpenVR::__IVRApplications___GetApplicationPropertyBool* GetApplicationPropertyBool;
+/// @brief Field GetApplicationPropertyBool, offset: 0x78, size: 0x8, def value: None
+ ::OVR::OpenVR::__IVRApplications___GetApplicationPropertyBool*  GetApplicationPropertyBool;
 
-  /// @brief Field GetApplicationPropertyUint64, offset: 0x80, size: 0x8, def value: None
-  ::OVR::OpenVR::__IVRApplications___GetApplicationPropertyUint64* GetApplicationPropertyUint64;
+/// @brief Field GetApplicationPropertyUint64, offset: 0x80, size: 0x8, def value: None
+ ::OVR::OpenVR::__IVRApplications___GetApplicationPropertyUint64*  GetApplicationPropertyUint64;
 
-  /// @brief Field SetApplicationAutoLaunch, offset: 0x88, size: 0x8, def value: None
-  ::OVR::OpenVR::__IVRApplications___SetApplicationAutoLaunch* SetApplicationAutoLaunch;
+/// @brief Field SetApplicationAutoLaunch, offset: 0x88, size: 0x8, def value: None
+ ::OVR::OpenVR::__IVRApplications___SetApplicationAutoLaunch*  SetApplicationAutoLaunch;
 
-  /// @brief Field GetApplicationAutoLaunch, offset: 0x90, size: 0x8, def value: None
-  ::OVR::OpenVR::__IVRApplications___GetApplicationAutoLaunch* GetApplicationAutoLaunch;
+/// @brief Field GetApplicationAutoLaunch, offset: 0x90, size: 0x8, def value: None
+ ::OVR::OpenVR::__IVRApplications___GetApplicationAutoLaunch*  GetApplicationAutoLaunch;
 
-  /// @brief Field SetDefaultApplicationForMimeType, offset: 0x98, size: 0x8, def value: None
-  ::OVR::OpenVR::__IVRApplications___SetDefaultApplicationForMimeType* SetDefaultApplicationForMimeType;
+/// @brief Field SetDefaultApplicationForMimeType, offset: 0x98, size: 0x8, def value: None
+ ::OVR::OpenVR::__IVRApplications___SetDefaultApplicationForMimeType*  SetDefaultApplicationForMimeType;
 
-  /// @brief Field GetDefaultApplicationForMimeType, offset: 0xa0, size: 0x8, def value: None
-  ::OVR::OpenVR::__IVRApplications___GetDefaultApplicationForMimeType* GetDefaultApplicationForMimeType;
+/// @brief Field GetDefaultApplicationForMimeType, offset: 0xa0, size: 0x8, def value: None
+ ::OVR::OpenVR::__IVRApplications___GetDefaultApplicationForMimeType*  GetDefaultApplicationForMimeType;
 
-  /// @brief Field GetApplicationSupportedMimeTypes, offset: 0xa8, size: 0x8, def value: None
-  ::OVR::OpenVR::__IVRApplications___GetApplicationSupportedMimeTypes* GetApplicationSupportedMimeTypes;
+/// @brief Field GetApplicationSupportedMimeTypes, offset: 0xa8, size: 0x8, def value: None
+ ::OVR::OpenVR::__IVRApplications___GetApplicationSupportedMimeTypes*  GetApplicationSupportedMimeTypes;
 
-  /// @brief Field GetApplicationsThatSupportMimeType, offset: 0xb0, size: 0x8, def value: None
-  ::OVR::OpenVR::__IVRApplications___GetApplicationsThatSupportMimeType* GetApplicationsThatSupportMimeType;
+/// @brief Field GetApplicationsThatSupportMimeType, offset: 0xb0, size: 0x8, def value: None
+ ::OVR::OpenVR::__IVRApplications___GetApplicationsThatSupportMimeType*  GetApplicationsThatSupportMimeType;
 
-  /// @brief Field GetApplicationLaunchArguments, offset: 0xb8, size: 0x8, def value: None
-  ::OVR::OpenVR::__IVRApplications___GetApplicationLaunchArguments* GetApplicationLaunchArguments;
+/// @brief Field GetApplicationLaunchArguments, offset: 0xb8, size: 0x8, def value: None
+ ::OVR::OpenVR::__IVRApplications___GetApplicationLaunchArguments*  GetApplicationLaunchArguments;
 
-  /// @brief Field GetStartingApplication, offset: 0xc0, size: 0x8, def value: None
-  ::OVR::OpenVR::__IVRApplications___GetStartingApplication* GetStartingApplication;
+/// @brief Field GetStartingApplication, offset: 0xc0, size: 0x8, def value: None
+ ::OVR::OpenVR::__IVRApplications___GetStartingApplication*  GetStartingApplication;
 
-  /// @brief Field GetTransitionState, offset: 0xc8, size: 0x8, def value: None
-  ::OVR::OpenVR::__IVRApplications___GetTransitionState* GetTransitionState;
+/// @brief Field GetTransitionState, offset: 0xc8, size: 0x8, def value: None
+ ::OVR::OpenVR::__IVRApplications___GetTransitionState*  GetTransitionState;
 
-  /// @brief Field PerformApplicationPrelaunchCheck, offset: 0xd0, size: 0x8, def value: None
-  ::OVR::OpenVR::__IVRApplications___PerformApplicationPrelaunchCheck* PerformApplicationPrelaunchCheck;
+/// @brief Field PerformApplicationPrelaunchCheck, offset: 0xd0, size: 0x8, def value: None
+ ::OVR::OpenVR::__IVRApplications___PerformApplicationPrelaunchCheck*  PerformApplicationPrelaunchCheck;
 
-  /// @brief Field GetApplicationsTransitionStateNameFromEnum, offset: 0xd8, size: 0x8, def value: None
-  ::OVR::OpenVR::__IVRApplications___GetApplicationsTransitionStateNameFromEnum* GetApplicationsTransitionStateNameFromEnum;
+/// @brief Field GetApplicationsTransitionStateNameFromEnum, offset: 0xd8, size: 0x8, def value: None
+ ::OVR::OpenVR::__IVRApplications___GetApplicationsTransitionStateNameFromEnum*  GetApplicationsTransitionStateNameFromEnum;
 
-  /// @brief Field IsQuitUserPromptRequested, offset: 0xe0, size: 0x8, def value: None
-  ::OVR::OpenVR::__IVRApplications___IsQuitUserPromptRequested* IsQuitUserPromptRequested;
+/// @brief Field IsQuitUserPromptRequested, offset: 0xe0, size: 0x8, def value: None
+ ::OVR::OpenVR::__IVRApplications___IsQuitUserPromptRequested*  IsQuitUserPromptRequested;
 
-  /// @brief Field LaunchInternalProcess, offset: 0xe8, size: 0x8, def value: None
-  ::OVR::OpenVR::__IVRApplications___LaunchInternalProcess* LaunchInternalProcess;
+/// @brief Field LaunchInternalProcess, offset: 0xe8, size: 0x8, def value: None
+ ::OVR::OpenVR::__IVRApplications___LaunchInternalProcess*  LaunchInternalProcess;
 
-  /// @brief Field GetCurrentSceneProcessId, offset: 0xf0, size: 0x8, def value: None
-  ::OVR::OpenVR::__IVRApplications___GetCurrentSceneProcessId* GetCurrentSceneProcessId;
+/// @brief Field GetCurrentSceneProcessId, offset: 0xf0, size: 0x8, def value: None
+ ::OVR::OpenVR::__IVRApplications___GetCurrentSceneProcessId*  GetCurrentSceneProcessId;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xf8 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0xf8};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVRApplications, 0xf8>, "Size mismatch!");
@@ -1861,7 +1802,7 @@ static_assert(offsetof(::OVR::OpenVR::IVRApplications, LaunchInternalProcess) ==
 
 static_assert(offsetof(::OVR::OpenVR::IVRApplications, GetCurrentSceneProcessId) == 0xf0, "Offset mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 NEED_NO_BOX(::OVR::OpenVR::__IVRApplications___AddApplicationManifest);
 DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::__IVRApplications___AddApplicationManifest*, "OVR.OpenVR", "IVRApplications/_AddApplicationManifest");
 NEED_NO_BOX(::OVR::OpenVR::__IVRApplications___CancelApplicationLaunch);

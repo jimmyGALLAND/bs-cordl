@@ -7,7 +7,8 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(TimelineCreateUtilities)
 namespace System::Collections::Generic {
-template <typename T> class List_1;
+template<typename T>
+class List_1;
 }
 namespace System {
 class Type;
@@ -45,152 +46,152 @@ MARK_REF_PTR_T(::UnityEngine::Timeline::TimelineCreateUtilities);
 MARK_REF_PTR_T(::UnityEngine::Timeline::__TimelineCreateUtilities____c__DisplayClass0_0);
 MARK_REF_PTR_T(::UnityEngine::Timeline::__TimelineCreateUtilities____c__DisplayClass0_1);
 // Type: ::<>c__DisplayClass0_0
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
 // CS Name: ::TimelineCreateUtilities::<>c__DisplayClass0_0*
 class CORDL_TYPE __TimelineCreateUtilities____c__DisplayClass0_0 : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field name, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_name, put = __cordl_internal_set_name))::StringW name;
+// Declarations
+/// @brief Field name, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_name, put=__cordl_internal_set_name)) ::StringW  name;
 
-  static inline ::UnityEngine::Timeline::__TimelineCreateUtilities____c__DisplayClass0_0* New_ctor();
+static inline ::UnityEngine::Timeline::__TimelineCreateUtilities____c__DisplayClass0_0* New_ctor() ;
 
-  /// @brief Method <GenerateUniqueActorName>b__0, addr 0x33dfbe0, size 0x30, virtual false, abstract: false, final false
-  inline bool _GenerateUniqueActorName_b__0(::UnityEngine::ScriptableObject* x);
+/// @brief Method <GenerateUniqueActorName>b__0, addr 0x479ca04, size 0x30, virtual false, abstract: false, final false
+inline bool _GenerateUniqueActorName_b__0(::UnityEngine::ScriptableObject*  x) ;
 
-  constexpr ::StringW const& __cordl_internal_get_name() const;
+constexpr ::StringW const& __cordl_internal_get_name() const;
 
-  constexpr ::StringW& __cordl_internal_get_name();
+constexpr ::StringW& __cordl_internal_get_name() ;
 
-  constexpr void __cordl_internal_set_name(::StringW value);
+constexpr void __cordl_internal_set_name(::StringW  value) ;
 
-  /// @brief Method .ctor, addr 0x33df6f8, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x479c520, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __TimelineCreateUtilities____c__DisplayClass0_0();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __TimelineCreateUtilities____c__DisplayClass0_0() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__TimelineCreateUtilities____c__DisplayClass0_0", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __TimelineCreateUtilities____c__DisplayClass0_0(__TimelineCreateUtilities____c__DisplayClass0_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__TimelineCreateUtilities____c__DisplayClass0_0", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __TimelineCreateUtilities____c__DisplayClass0_0(__TimelineCreateUtilities____c__DisplayClass0_0 const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__TimelineCreateUtilities____c__DisplayClass0_0", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__TimelineCreateUtilities____c__DisplayClass0_0(__TimelineCreateUtilities____c__DisplayClass0_0 && ) = delete;
 
-  /// @brief Field name, offset: 0x10, size: 0x8, def value: None
-  ::StringW ___name;
+// Ctor Parameters [CppParam { name: "", ty: "__TimelineCreateUtilities____c__DisplayClass0_0", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__TimelineCreateUtilities____c__DisplayClass0_0(__TimelineCreateUtilities____c__DisplayClass0_0 const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field name, offset: 0x10, size: 0x8, def value: None
+ ::StringW  ___name;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Timeline::__TimelineCreateUtilities____c__DisplayClass0_0, 0x18>, "Size mismatch!");
 
 static_assert(offsetof(::UnityEngine::Timeline::__TimelineCreateUtilities____c__DisplayClass0_0, ___name) == 0x10, "Offset mismatch!");
 
-} // namespace UnityEngine::Timeline
+} // namespace end def UnityEngine::Timeline
 // Type: ::<>c__DisplayClass0_1
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
 // CS Name: ::TimelineCreateUtilities::<>c__DisplayClass0_1*
 class CORDL_TYPE __TimelineCreateUtilities____c__DisplayClass0_1 : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field result, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_result, put = __cordl_internal_set_result))::StringW result;
+// Declarations
+/// @brief Field result, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_result, put=__cordl_internal_set_result)) ::StringW  result;
 
-  static inline ::UnityEngine::Timeline::__TimelineCreateUtilities____c__DisplayClass0_1* New_ctor();
+static inline ::UnityEngine::Timeline::__TimelineCreateUtilities____c__DisplayClass0_1* New_ctor() ;
 
-  /// @brief Method <GenerateUniqueActorName>b__1, addr 0x33dfc10, size 0x30, virtual false, abstract: false, final false
-  inline bool _GenerateUniqueActorName_b__1(::UnityEngine::ScriptableObject* x);
+/// @brief Method <GenerateUniqueActorName>b__1, addr 0x479ca34, size 0x30, virtual false, abstract: false, final false
+inline bool _GenerateUniqueActorName_b__1(::UnityEngine::ScriptableObject*  x) ;
 
-  constexpr ::StringW const& __cordl_internal_get_result() const;
+constexpr ::StringW const& __cordl_internal_get_result() const;
 
-  constexpr ::StringW& __cordl_internal_get_result();
+constexpr ::StringW& __cordl_internal_get_result() ;
 
-  constexpr void __cordl_internal_set_result(::StringW value);
+constexpr void __cordl_internal_set_result(::StringW  value) ;
 
-  /// @brief Method .ctor, addr 0x33df700, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x479c528, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __TimelineCreateUtilities____c__DisplayClass0_1();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __TimelineCreateUtilities____c__DisplayClass0_1() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__TimelineCreateUtilities____c__DisplayClass0_1", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __TimelineCreateUtilities____c__DisplayClass0_1(__TimelineCreateUtilities____c__DisplayClass0_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__TimelineCreateUtilities____c__DisplayClass0_1", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __TimelineCreateUtilities____c__DisplayClass0_1(__TimelineCreateUtilities____c__DisplayClass0_1 const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__TimelineCreateUtilities____c__DisplayClass0_1", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__TimelineCreateUtilities____c__DisplayClass0_1(__TimelineCreateUtilities____c__DisplayClass0_1 && ) = delete;
 
-  /// @brief Field result, offset: 0x10, size: 0x8, def value: None
-  ::StringW ___result;
+// Ctor Parameters [CppParam { name: "", ty: "__TimelineCreateUtilities____c__DisplayClass0_1", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__TimelineCreateUtilities____c__DisplayClass0_1(__TimelineCreateUtilities____c__DisplayClass0_1 const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field result, offset: 0x10, size: 0x8, def value: None
+ ::StringW  ___result;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Timeline::__TimelineCreateUtilities____c__DisplayClass0_1, 0x18>, "Size mismatch!");
 
 static_assert(offsetof(::UnityEngine::Timeline::__TimelineCreateUtilities____c__DisplayClass0_1, ___result) == 0x10, "Offset mismatch!");
 
-} // namespace UnityEngine::Timeline
+} // namespace end def UnityEngine::Timeline
 // Type: UnityEngine.Timeline::TimelineCreateUtilities
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Timeline {
 // Is value type: false
 // CS Name: ::UnityEngine.Timeline::TimelineCreateUtilities*
 class CORDL_TYPE TimelineCreateUtilities : public ::System::Object {
 public:
-  // Declarations
-  using __c__DisplayClass0_0 = ::UnityEngine::Timeline::__TimelineCreateUtilities____c__DisplayClass0_0;
+// Declarations
+using __c__DisplayClass0_0 = ::UnityEngine::Timeline::__TimelineCreateUtilities____c__DisplayClass0_0;
 
-  using __c__DisplayClass0_1 = ::UnityEngine::Timeline::__TimelineCreateUtilities____c__DisplayClass0_1;
+using __c__DisplayClass0_1 = ::UnityEngine::Timeline::__TimelineCreateUtilities____c__DisplayClass0_1;
 
-  /// @brief Method CreateAnimationClipForTrack, addr 0x33df708, size 0x1b8, virtual false, abstract: false, final false
-  static inline ::UnityW<::UnityEngine::AnimationClip> CreateAnimationClipForTrack(::StringW name, ::UnityEngine::Timeline::TrackAsset* track, bool isLegacy);
+/// @brief Method CreateAnimationClipForTrack, addr 0x479c530, size 0x1b8, virtual false, abstract: false, final false
+static inline ::UnityW<::UnityEngine::AnimationClip> CreateAnimationClipForTrack(::StringW  name, ::UnityEngine::Timeline::TrackAsset*  track, bool  isLegacy) ;
 
-  /// @brief Method GenerateUniqueActorName, addr 0x33df408, size 0x2f0, virtual false, abstract: false, final false
-  static inline ::StringW GenerateUniqueActorName(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::ScriptableObject>>* tracks, ::StringW name);
+/// @brief Method GenerateUniqueActorName, addr 0x479c23c, size 0x2e4, virtual false, abstract: false, final false
+static inline ::StringW GenerateUniqueActorName(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::ScriptableObject>>*  tracks, ::StringW  name) ;
 
-  /// @brief Method RemoveAssetFromObject, addr 0x33df30c, size 0x9c, virtual false, abstract: false, final false
-  static inline void RemoveAssetFromObject(::UnityEngine::Object* childAsset, ::UnityEngine::Object* masterAsset);
+/// @brief Method RemoveAssetFromObject, addr 0x479c140, size 0x9c, virtual false, abstract: false, final false
+static inline void RemoveAssetFromObject(::UnityEngine::Object*  childAsset, ::UnityEngine::Object*  masterAsset) ;
 
-  /// @brief Method SaveAssetIntoObject, addr 0x33df224, size 0xe8, virtual false, abstract: false, final false
-  static inline void SaveAssetIntoObject(::UnityEngine::Object* childAsset, ::UnityEngine::Object* masterAsset);
+/// @brief Method SaveAssetIntoObject, addr 0x479c058, size 0xe8, virtual false, abstract: false, final false
+static inline void SaveAssetIntoObject(::UnityEngine::Object*  childAsset, ::UnityEngine::Object*  masterAsset) ;
 
-  /// @brief Method ValidateParentTrack, addr 0x33df8c0, size 0x320, virtual false, abstract: false, final false
-  static inline bool ValidateParentTrack(::UnityEngine::Timeline::TrackAsset* parent, ::System::Type* childType);
+/// @brief Method ValidateParentTrack, addr 0x479c6e8, size 0x31c, virtual false, abstract: false, final false
+static inline bool ValidateParentTrack(::UnityEngine::Timeline::TrackAsset*  parent, ::System::Type*  childType) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TimelineCreateUtilities();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr TimelineCreateUtilities() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TimelineCreateUtilities", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  TimelineCreateUtilities(TimelineCreateUtilities&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TimelineCreateUtilities", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  TimelineCreateUtilities(TimelineCreateUtilities const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "TimelineCreateUtilities", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+TimelineCreateUtilities(TimelineCreateUtilities && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "TimelineCreateUtilities", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+TimelineCreateUtilities(TimelineCreateUtilities const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Timeline::TimelineCreateUtilities, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine::Timeline
+} // namespace end def UnityEngine::Timeline
 NEED_NO_BOX(::UnityEngine::Timeline::TimelineCreateUtilities);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Timeline::TimelineCreateUtilities*, "UnityEngine.Timeline", "TimelineCreateUtilities");
 NEED_NO_BOX(::UnityEngine::Timeline::__TimelineCreateUtilities____c__DisplayClass0_0);

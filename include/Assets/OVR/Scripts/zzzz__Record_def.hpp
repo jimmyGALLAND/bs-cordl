@@ -14,69 +14,69 @@ class Record;
 // Write type traits
 MARK_REF_PTR_T(::Assets::OVR::Scripts::Record);
 // Type: Assets.OVR.Scripts::Record
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Assets::OVR::Scripts {
 // Is value type: false
 // CS Name: ::Assets.OVR.Scripts::Record*
 class CORDL_TYPE Record : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field category, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_category, put = __cordl_internal_set_category))::StringW category;
+// Declarations
+/// @brief Field category, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_category, put=__cordl_internal_set_category)) ::StringW  category;
 
-  /// @brief Field message, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_message, put = __cordl_internal_set_message))::StringW message;
+/// @brief Field message, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get_message, put=__cordl_internal_set_message)) ::StringW  message;
 
-  /// @brief Field sortOrder, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_sortOrder, put = __cordl_internal_set_sortOrder)) int32_t sortOrder;
+/// @brief Field sortOrder, offset 0x10, size 0x4 
+ __declspec(property(get=__cordl_internal_get_sortOrder, put=__cordl_internal_set_sortOrder)) int32_t  sortOrder;
 
-  static inline ::Assets::OVR::Scripts::Record* New_ctor(int32_t order, ::StringW cat, ::StringW msg);
+static inline ::Assets::OVR::Scripts::Record* New_ctor(int32_t  order, ::StringW  cat, ::StringW  msg) ;
 
-  constexpr ::StringW const& __cordl_internal_get_category() const;
+constexpr ::StringW const& __cordl_internal_get_category() const;
 
-  constexpr ::StringW& __cordl_internal_get_category();
+constexpr ::StringW& __cordl_internal_get_category() ;
 
-  constexpr ::StringW const& __cordl_internal_get_message() const;
+constexpr ::StringW const& __cordl_internal_get_message() const;
 
-  constexpr ::StringW& __cordl_internal_get_message();
+constexpr ::StringW& __cordl_internal_get_message() ;
 
-  constexpr int32_t const& __cordl_internal_get_sortOrder() const;
+constexpr int32_t const& __cordl_internal_get_sortOrder() const;
 
-  constexpr int32_t& __cordl_internal_get_sortOrder();
+constexpr int32_t& __cordl_internal_get_sortOrder() ;
 
-  constexpr void __cordl_internal_set_category(::StringW value);
+constexpr void __cordl_internal_set_category(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_message(::StringW value);
+constexpr void __cordl_internal_set_message(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_sortOrder(int32_t value);
+constexpr void __cordl_internal_set_sortOrder(int32_t  value) ;
 
-  /// @brief Method .ctor, addr 0x2c01510, size 0x3c, virtual false, abstract: false, final false
-  inline void _ctor(int32_t order, ::StringW cat, ::StringW msg);
+/// @brief Method .ctor, addr 0x3fe7e08, size 0x3c, virtual false, abstract: false, final false
+inline void _ctor(int32_t  order, ::StringW  cat, ::StringW  msg) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Record();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr Record() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Record", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  Record(Record&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Record", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  Record(Record const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "Record", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+Record(Record && ) = delete;
 
-  /// @brief Field sortOrder, offset: 0x10, size: 0x4, def value: None
-  int32_t ___sortOrder;
+// Ctor Parameters [CppParam { name: "", ty: "Record", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+Record(Record const& ) = delete;
 
-  /// @brief Field category, offset: 0x18, size: 0x8, def value: None
-  ::StringW ___category;
+/// @brief Field sortOrder, offset: 0x10, size: 0x4, def value: None
+ int32_t  ___sortOrder;
 
-  /// @brief Field message, offset: 0x20, size: 0x8, def value: None
-  ::StringW ___message;
+/// @brief Field category, offset: 0x18, size: 0x8, def value: None
+ ::StringW  ___category;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field message, offset: 0x20, size: 0x8, def value: None
+ ::StringW  ___message;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Assets::OVR::Scripts::Record, 0x28>, "Size mismatch!");
@@ -87,6 +87,6 @@ static_assert(offsetof(::Assets::OVR::Scripts::Record, ___category) == 0x18, "Of
 
 static_assert(offsetof(::Assets::OVR::Scripts::Record, ___message) == 0x20, "Offset mismatch!");
 
-} // namespace Assets::OVR::Scripts
+} // namespace end def Assets::OVR::Scripts
 NEED_NO_BOX(::Assets::OVR::Scripts::Record);
 DEFINE_IL2CPP_ARG_TYPE(::Assets::OVR::Scripts::Record*, "Assets.OVR.Scripts", "Record");

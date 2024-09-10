@@ -21,39 +21,37 @@ class LightRotationGroup;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::LightRotationGroup);
 // Type: ::LightRotationGroup
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::LightRotationGroup*
-class CORDL_TYPE LightRotationGroup
-    : public ::GlobalNamespace::LightTransformGroup_3<::UnityW<::GlobalNamespace::LightGroupRotationXTransform>, ::UnityW<::GlobalNamespace::LightGroupRotationYTransform>,
-                                                      ::UnityW<::GlobalNamespace::LightGroupRotationZTransform>> {
+class CORDL_TYPE LightRotationGroup : public ::GlobalNamespace::LightTransformGroup_3<::UnityW<::GlobalNamespace::LightGroupRotationXTransform>,::UnityW<::GlobalNamespace::LightGroupRotationYTransform>,::UnityW<::GlobalNamespace::LightGroupRotationZTransform>> {
 public:
-  // Declarations
-  static inline ::GlobalNamespace::LightRotationGroup* New_ctor();
+// Declarations
+static inline ::GlobalNamespace::LightRotationGroup* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x26f63d0, size 0x48, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x3afc164, size 0x48, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LightRotationGroup();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr LightRotationGroup() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LightRotationGroup", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  LightRotationGroup(LightRotationGroup&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LightRotationGroup", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  LightRotationGroup(LightRotationGroup const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "LightRotationGroup", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+LightRotationGroup(LightRotationGroup && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "LightRotationGroup", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+LightRotationGroup(LightRotationGroup const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LightRotationGroup, 0x40>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LightRotationGroup, 0x48>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::LightRotationGroup);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LightRotationGroup*, "", "LightRotationGroup");

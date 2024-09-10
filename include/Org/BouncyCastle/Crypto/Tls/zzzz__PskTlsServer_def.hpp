@@ -32,75 +32,74 @@ class PskTlsServer;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::PskTlsServer);
 // Type: Org.BouncyCastle.Crypto.Tls::PskTlsServer
-// SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::PskTlsServer*
 class CORDL_TYPE PskTlsServer : public ::Org::BouncyCastle::Crypto::Tls::AbstractTlsServer {
 public:
-  // Declarations
-  /// @brief Field mPskIdentityManager, offset 0x90, size 0x8
-  __declspec(property(get = __cordl_internal_get_mPskIdentityManager, put = __cordl_internal_set_mPskIdentityManager))::Org::BouncyCastle::Crypto::Tls::TlsPskIdentityManager* mPskIdentityManager;
+// Declarations
+/// @brief Field mPskIdentityManager, offset 0x90, size 0x8 
+ __declspec(property(get=__cordl_internal_get_mPskIdentityManager, put=__cordl_internal_set_mPskIdentityManager)) ::Org::BouncyCastle::Crypto::Tls::TlsPskIdentityManager*  mPskIdentityManager;
 
-  /// @brief Method CreatePskKeyExchange, addr 0x1204964, size 0xd0, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Crypto::Tls::TlsKeyExchange* CreatePskKeyExchange(int32_t keyExchange);
+/// @brief Method CreatePskKeyExchange, addr 0x23cc57c, size 0xc8, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Crypto::Tls::TlsKeyExchange* CreatePskKeyExchange(int32_t  keyExchange) ;
 
-  /// @brief Method GetCipherSuites, addr 0x1204750, size 0x70, virtual true, abstract: false, final false
-  inline ::ArrayW<int32_t, ::Array<int32_t>*> GetCipherSuites();
+/// @brief Method GetCipherSuites, addr 0x23cc378, size 0x70, virtual true, abstract: false, final false
+inline ::ArrayW<int32_t,::Array<int32_t>*> GetCipherSuites() ;
 
-  /// @brief Method GetCredentials, addr 0x12047c0, size 0xdc, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Crypto::Tls::TlsCredentials* GetCredentials();
+/// @brief Method GetCredentials, addr 0x23cc3e8, size 0xd4, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Crypto::Tls::TlsCredentials* GetCredentials() ;
 
-  /// @brief Method GetDHParameters, addr 0x12046f8, size 0x58, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Crypto::Parameters::DHParameters* GetDHParameters();
+/// @brief Method GetDHParameters, addr 0x23cc320, size 0x58, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Crypto::Parameters::DHParameters* GetDHParameters() ;
 
-  /// @brief Method GetKeyExchange, addr 0x120489c, size 0xc8, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Crypto::Tls::TlsKeyExchange* GetKeyExchange();
+/// @brief Method GetKeyExchange, addr 0x23cc4bc, size 0xc0, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Crypto::Tls::TlsKeyExchange* GetKeyExchange() ;
 
-  /// @brief Method GetRsaEncryptionCredentials, addr 0x12046b4, size 0x44, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Crypto::Tls::TlsEncryptionCredentials* GetRsaEncryptionCredentials();
+/// @brief Method GetRsaEncryptionCredentials, addr 0x23cc2e4, size 0x3c, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Crypto::Tls::TlsEncryptionCredentials* GetRsaEncryptionCredentials() ;
 
-  static inline ::Org::BouncyCastle::Crypto::Tls::PskTlsServer* New_ctor(::Org::BouncyCastle::Crypto::Tls::TlsCipherFactory* cipherFactory,
-                                                                         ::Org::BouncyCastle::Crypto::Tls::TlsPskIdentityManager* pskIdentityManager);
+static inline ::Org::BouncyCastle::Crypto::Tls::PskTlsServer* New_ctor(::Org::BouncyCastle::Crypto::Tls::TlsCipherFactory*  cipherFactory, ::Org::BouncyCastle::Crypto::Tls::TlsPskIdentityManager*  pskIdentityManager) ;
 
-  static inline ::Org::BouncyCastle::Crypto::Tls::PskTlsServer* New_ctor(::Org::BouncyCastle::Crypto::Tls::TlsPskIdentityManager* pskIdentityManager);
+static inline ::Org::BouncyCastle::Crypto::Tls::PskTlsServer* New_ctor(::Org::BouncyCastle::Crypto::Tls::TlsPskIdentityManager*  pskIdentityManager) ;
 
-  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsPskIdentityManager*& __cordl_internal_get_mPskIdentityManager();
+constexpr ::Org::BouncyCastle::Crypto::Tls::TlsPskIdentityManager*& __cordl_internal_get_mPskIdentityManager() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsPskIdentityManager*> const& __cordl_internal_get_mPskIdentityManager() const;
+constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsPskIdentityManager*> const& __cordl_internal_get_mPskIdentityManager() const;
 
-  constexpr void __cordl_internal_set_mPskIdentityManager(::Org::BouncyCastle::Crypto::Tls::TlsPskIdentityManager* value);
+constexpr void __cordl_internal_set_mPskIdentityManager(::Org::BouncyCastle::Crypto::Tls::TlsPskIdentityManager*  value) ;
 
-  /// @brief Method .ctor, addr 0x120468c, size 0x28, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Crypto::Tls::TlsCipherFactory* cipherFactory, ::Org::BouncyCastle::Crypto::Tls::TlsPskIdentityManager* pskIdentityManager);
+/// @brief Method .ctor, addr 0x23cc2bc, size 0x28, virtual false, abstract: false, final false
+inline void _ctor(::Org::BouncyCastle::Crypto::Tls::TlsCipherFactory*  cipherFactory, ::Org::BouncyCastle::Crypto::Tls::TlsPskIdentityManager*  pskIdentityManager) ;
 
-  /// @brief Method .ctor, addr 0x1204610, size 0x7c, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Crypto::Tls::TlsPskIdentityManager* pskIdentityManager);
+/// @brief Method .ctor, addr 0x23cc248, size 0x74, virtual false, abstract: false, final false
+inline void _ctor(::Org::BouncyCastle::Crypto::Tls::TlsPskIdentityManager*  pskIdentityManager) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PskTlsServer();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr PskTlsServer() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PskTlsServer", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  PskTlsServer(PskTlsServer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PskTlsServer", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  PskTlsServer(PskTlsServer const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "PskTlsServer", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+PskTlsServer(PskTlsServer && ) = delete;
 
-  /// @brief Field mPskIdentityManager, offset: 0x90, size: 0x8, def value: None
-  ::Org::BouncyCastle::Crypto::Tls::TlsPskIdentityManager* ___mPskIdentityManager;
+// Ctor Parameters [CppParam { name: "", ty: "PskTlsServer", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+PskTlsServer(PskTlsServer const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field mPskIdentityManager, offset: 0x90, size: 0x8, def value: None
+ ::Org::BouncyCastle::Crypto::Tls::TlsPskIdentityManager*  ___mPskIdentityManager;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Tls::PskTlsServer, 0x98>, "Size mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::PskTlsServer, ___mPskIdentityManager) == 0x90, "Offset mismatch!");
 
-} // namespace Org::BouncyCastle::Crypto::Tls
+} // namespace end def Org::BouncyCastle::Crypto::Tls
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Tls::PskTlsServer);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Tls::PskTlsServer*, "Org.BouncyCastle.Crypto.Tls", "PskTlsServer");

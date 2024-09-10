@@ -85,421 +85,421 @@ MARK_REF_PTR_T(::GlobalNamespace::__OVRTelemetryConstants__SBB__MarkerId);
 MARK_REF_PTR_T(::GlobalNamespace::__OVRTelemetryConstants__Scene);
 MARK_REF_PTR_T(::GlobalNamespace::__OVRTelemetryConstants__Scene__MarkerId);
 // Type: ::MarkerId
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::OVRTelemetryConstants::OVRManager::MarkerId*
 class CORDL_TYPE __OVRTelemetryConstants__OVRManager__MarkerId : public ::System::Object {
 public:
-  // Declarations
+// Declarations
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __OVRTelemetryConstants__OVRManager__MarkerId();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __OVRTelemetryConstants__OVRManager__MarkerId() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__OVRTelemetryConstants__OVRManager__MarkerId", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __OVRTelemetryConstants__OVRManager__MarkerId(__OVRTelemetryConstants__OVRManager__MarkerId&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__OVRTelemetryConstants__OVRManager__MarkerId", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __OVRTelemetryConstants__OVRManager__MarkerId(__OVRTelemetryConstants__OVRManager__MarkerId const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__OVRTelemetryConstants__OVRManager__MarkerId", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__OVRTelemetryConstants__OVRManager__MarkerId(__OVRTelemetryConstants__OVRManager__MarkerId && ) = delete;
 
-  /// @brief Field Consent offset 0xffffffff size 0x4
-  static constexpr int32_t Consent{ static_cast<int32_t>(0x9b80c82) };
+// Ctor Parameters [CppParam { name: "", ty: "__OVRTelemetryConstants__OVRManager__MarkerId", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__OVRTelemetryConstants__OVRManager__MarkerId(__OVRTelemetryConstants__OVRManager__MarkerId const& ) = delete;
 
-  /// @brief Field Init offset 0xffffffff size 0x4
-  static constexpr int32_t Init{ static_cast<int32_t>(0x9b83dd9) };
+/// @brief Field Consent offset 0xffffffff size 0x4
+static constexpr int32_t  Consent{static_cast<int32_t>(0x9b80c82)};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field Init offset 0xffffffff size 0x4
+static constexpr int32_t  Init{static_cast<int32_t>(0x9b83dd9)};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRTelemetryConstants__OVRManager__MarkerId, 0x10>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 // Type: ::AnnotationTypes
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::OVRTelemetryConstants::OVRManager::AnnotationTypes*
 class CORDL_TYPE __OVRTelemetryConstants__OVRManager__AnnotationTypes : public ::System::Object {
 public:
-  // Declarations
+// Declarations
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __OVRTelemetryConstants__OVRManager__AnnotationTypes();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __OVRTelemetryConstants__OVRManager__AnnotationTypes() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__OVRTelemetryConstants__OVRManager__AnnotationTypes", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __OVRTelemetryConstants__OVRManager__AnnotationTypes(__OVRTelemetryConstants__OVRManager__AnnotationTypes&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__OVRTelemetryConstants__OVRManager__AnnotationTypes", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __OVRTelemetryConstants__OVRManager__AnnotationTypes(__OVRTelemetryConstants__OVRManager__AnnotationTypes const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__OVRTelemetryConstants__OVRManager__AnnotationTypes", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__OVRTelemetryConstants__OVRManager__AnnotationTypes(__OVRTelemetryConstants__OVRManager__AnnotationTypes && ) = delete;
 
-  /// @brief Field Origin offset 0xffffffff size 0x8
-  static constexpr ::ConstString Origin{ u"Origin" };
+// Ctor Parameters [CppParam { name: "", ty: "__OVRTelemetryConstants__OVRManager__AnnotationTypes", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__OVRTelemetryConstants__OVRManager__AnnotationTypes(__OVRTelemetryConstants__OVRManager__AnnotationTypes const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field Origin offset 0xffffffff size 0x8
+static constexpr ::ConstString  Origin{u"Origin"};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRTelemetryConstants__OVRManager__AnnotationTypes, 0x10>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 // Type: ::ConsentOrigins
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::OVRTelemetryConstants::OVRManager::ConsentOrigins
 struct CORDL_TYPE __OVRTelemetryConstants__OVRManager__ConsentOrigins {
 public:
-  // Declarations
-  using __CORDL_BACKING_ENUM_TYPE = int32_t;
+// Declarations
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct ____OVRTelemetryConstants__OVRManager__ConsentOrigins_Unwrapped
-  enum struct ____OVRTelemetryConstants__OVRManager__ConsentOrigins_Unwrapped : int32_t {
-    __E_Popup = static_cast<int32_t>(0x0),
-    __E_Settings = static_cast<int32_t>(0x1),
-    __E_Legacy = static_cast<int32_t>(0x2),
-  };
+/// @brief Nested struct ____OVRTelemetryConstants__OVRManager__ConsentOrigins_Unwrapped
+enum struct ____OVRTelemetryConstants__OVRManager__ConsentOrigins_Unwrapped : int32_t {
+__E_Popup = static_cast<int32_t>(0x0),
+__E_Settings = static_cast<int32_t>(0x1),
+__E_Legacy = static_cast<int32_t>(0x2),
+};
 
-  /// @brief Conversion into unwrapped enum value
-  constexpr operator ____OVRTelemetryConstants__OVRManager__ConsentOrigins_Unwrapped() const noexcept {
-    return static_cast<____OVRTelemetryConstants__OVRManager__ConsentOrigins_Unwrapped>(this->value__);
-  }
+/// @brief Conversion into unwrapped enum value
+constexpr operator ____OVRTelemetryConstants__OVRManager__ConsentOrigins_Unwrapped () const noexcept {
+return static_cast<____OVRTelemetryConstants__OVRManager__ConsentOrigins_Unwrapped>(this->value__);
+}
 
-  /// @brief Conversion into unwrapped enum value
-  constexpr explicit operator int32_t() const noexcept {
-    return static_cast<int32_t>(this->value__);
-  }
+/// @brief Conversion into unwrapped enum value
+constexpr explicit operator int32_t () const noexcept {
+return static_cast<int32_t>(this->value__);
+}
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __OVRTelemetryConstants__OVRManager__ConsentOrigins();
+// Ctor Parameters []
+// @brief default ctor
+constexpr __OVRTelemetryConstants__OVRManager__ConsentOrigins() ;
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __OVRTelemetryConstants__OVRManager__ConsentOrigins(int32_t value__) noexcept;
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr __OVRTelemetryConstants__OVRManager__ConsentOrigins(int32_t  value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+/// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+ int32_t  value__;
 
-  /// @brief Field Legacy value: static_cast<int32_t>(0x2)
-  static ::GlobalNamespace::__OVRTelemetryConstants__OVRManager__ConsentOrigins const Legacy;
+/// @brief Field Legacy value: static_cast<int32_t>(0x2)
+static ::GlobalNamespace::__OVRTelemetryConstants__OVRManager__ConsentOrigins const Legacy;
 
-  /// @brief Field Popup value: static_cast<int32_t>(0x0)
-  static ::GlobalNamespace::__OVRTelemetryConstants__OVRManager__ConsentOrigins const Popup;
+/// @brief Field Popup value: static_cast<int32_t>(0x0)
+static ::GlobalNamespace::__OVRTelemetryConstants__OVRManager__ConsentOrigins const Popup;
 
-  /// @brief Field Settings value: static_cast<int32_t>(0x1)
-  static ::GlobalNamespace::__OVRTelemetryConstants__OVRManager__ConsentOrigins const Settings;
+/// @brief Field Settings value: static_cast<int32_t>(0x1)
+static ::GlobalNamespace::__OVRTelemetryConstants__OVRManager__ConsentOrigins const Settings;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x4};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRTelemetryConstants__OVRManager__ConsentOrigins, 0x4>, "Size mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::__OVRTelemetryConstants__OVRManager__ConsentOrigins, value__) == 0x0, "Offset mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 // Type: ::OVRManager
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::OVRTelemetryConstants::OVRManager*
 class CORDL_TYPE __OVRTelemetryConstants__OVRManager : public ::System::Object {
 public:
-  // Declarations
-  using AnnotationTypes = ::GlobalNamespace::__OVRTelemetryConstants__OVRManager__AnnotationTypes;
+// Declarations
+using AnnotationTypes = ::GlobalNamespace::__OVRTelemetryConstants__OVRManager__AnnotationTypes;
 
-  using ConsentOrigins = ::GlobalNamespace::__OVRTelemetryConstants__OVRManager__ConsentOrigins;
+using ConsentOrigins = ::GlobalNamespace::__OVRTelemetryConstants__OVRManager__ConsentOrigins;
 
-  using MarkerId = ::GlobalNamespace::__OVRTelemetryConstants__OVRManager__MarkerId;
+using MarkerId = ::GlobalNamespace::__OVRTelemetryConstants__OVRManager__MarkerId;
 
-  /// @brief Field InitPermissionRequest, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_InitPermissionRequest, put = setStaticF_InitPermissionRequest))::GlobalNamespace::__OVRTelemetry__MarkerPoint InitPermissionRequest;
+/// @brief Field InitPermissionRequest, offset 0xffffffff, size 0x4 
+static __declspec(property(get=getStaticF_InitPermissionRequest, put=setStaticF_InitPermissionRequest)) ::GlobalNamespace::__OVRTelemetry__MarkerPoint  InitPermissionRequest;
 
-  /// @brief Field InitializeInsightPassthrough, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_InitializeInsightPassthrough, put = setStaticF_InitializeInsightPassthrough))::GlobalNamespace::__OVRTelemetry__MarkerPoint InitializeInsightPassthrough;
+/// @brief Field InitializeInsightPassthrough, offset 0xffffffff, size 0x4 
+static __declspec(property(get=getStaticF_InitializeInsightPassthrough, put=setStaticF_InitializeInsightPassthrough)) ::GlobalNamespace::__OVRTelemetry__MarkerPoint  InitializeInsightPassthrough;
 
-  static inline ::GlobalNamespace::__OVRTelemetry__MarkerPoint getStaticF_InitPermissionRequest();
+static inline ::GlobalNamespace::__OVRTelemetry__MarkerPoint getStaticF_InitPermissionRequest() ;
 
-  static inline ::GlobalNamespace::__OVRTelemetry__MarkerPoint getStaticF_InitializeInsightPassthrough();
+static inline ::GlobalNamespace::__OVRTelemetry__MarkerPoint getStaticF_InitializeInsightPassthrough() ;
 
-  static inline void setStaticF_InitPermissionRequest(::GlobalNamespace::__OVRTelemetry__MarkerPoint value);
+static inline void setStaticF_InitPermissionRequest(::GlobalNamespace::__OVRTelemetry__MarkerPoint  value) ;
 
-  static inline void setStaticF_InitializeInsightPassthrough(::GlobalNamespace::__OVRTelemetry__MarkerPoint value);
+static inline void setStaticF_InitializeInsightPassthrough(::GlobalNamespace::__OVRTelemetry__MarkerPoint  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __OVRTelemetryConstants__OVRManager();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __OVRTelemetryConstants__OVRManager() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__OVRTelemetryConstants__OVRManager", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __OVRTelemetryConstants__OVRManager(__OVRTelemetryConstants__OVRManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__OVRTelemetryConstants__OVRManager", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __OVRTelemetryConstants__OVRManager(__OVRTelemetryConstants__OVRManager const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__OVRTelemetryConstants__OVRManager", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__OVRTelemetryConstants__OVRManager(__OVRTelemetryConstants__OVRManager && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "__OVRTelemetryConstants__OVRManager", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__OVRTelemetryConstants__OVRManager(__OVRTelemetryConstants__OVRManager const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRTelemetryConstants__OVRManager, 0x10>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 // Type: ::MarkerId
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::OVRTelemetryConstants::Scene::MarkerId*
 class CORDL_TYPE __OVRTelemetryConstants__Scene__MarkerId : public ::System::Object {
 public:
-  // Declarations
+// Declarations
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __OVRTelemetryConstants__Scene__MarkerId();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __OVRTelemetryConstants__Scene__MarkerId() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__OVRTelemetryConstants__Scene__MarkerId", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __OVRTelemetryConstants__Scene__MarkerId(__OVRTelemetryConstants__Scene__MarkerId&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__OVRTelemetryConstants__Scene__MarkerId", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __OVRTelemetryConstants__Scene__MarkerId(__OVRTelemetryConstants__Scene__MarkerId const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__OVRTelemetryConstants__Scene__MarkerId", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__OVRTelemetryConstants__Scene__MarkerId(__OVRTelemetryConstants__Scene__MarkerId && ) = delete;
 
-  /// @brief Field SpatialAnchorCreate offset 0xffffffff size 0x4
-  static constexpr int32_t SpatialAnchorCreate{ static_cast<int32_t>(0x9b83ae1) };
+// Ctor Parameters [CppParam { name: "", ty: "__OVRTelemetryConstants__Scene__MarkerId", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__OVRTelemetryConstants__Scene__MarkerId(__OVRTelemetryConstants__Scene__MarkerId const& ) = delete;
 
-  /// @brief Field SpatialAnchorErase offset 0xffffffff size 0x4
-  static constexpr int32_t SpatialAnchorErase{ static_cast<int32_t>(0x9b81686) };
+/// @brief Field SpatialAnchorCreate offset 0xffffffff size 0x4
+static constexpr int32_t  SpatialAnchorCreate{static_cast<int32_t>(0x9b83ae1)};
 
-  /// @brief Field SpatialAnchorQuery offset 0xffffffff size 0x4
-  static constexpr int32_t SpatialAnchorQuery{ static_cast<int32_t>(0x9b810ce) };
+/// @brief Field SpatialAnchorErase offset 0xffffffff size 0x4
+static constexpr int32_t  SpatialAnchorErase{static_cast<int32_t>(0x9b81686)};
 
-  /// @brief Field SpatialAnchorSave offset 0xffffffff size 0x4
-  static constexpr int32_t SpatialAnchorSave{ static_cast<int32_t>(0x9b80987) };
+/// @brief Field SpatialAnchorQuery offset 0xffffffff size 0x4
+static constexpr int32_t  SpatialAnchorQuery{static_cast<int32_t>(0x9b810ce)};
 
-  /// @brief Field SpatialAnchorSetComponentStatus offset 0xffffffff size 0x4
-  static constexpr int32_t SpatialAnchorSetComponentStatus{ static_cast<int32_t>(0x9b8087e) };
+/// @brief Field SpatialAnchorSave offset 0xffffffff size 0x4
+static constexpr int32_t  SpatialAnchorSave{static_cast<int32_t>(0x9b80987)};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field SpatialAnchorSetComponentStatus offset 0xffffffff size 0x4
+static constexpr int32_t  SpatialAnchorSetComponentStatus{static_cast<int32_t>(0x9b8087e)};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRTelemetryConstants__Scene__MarkerId, 0x10>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 // Type: ::Scene
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::OVRTelemetryConstants::Scene*
 class CORDL_TYPE __OVRTelemetryConstants__Scene : public ::System::Object {
 public:
-  // Declarations
-  using MarkerId = ::GlobalNamespace::__OVRTelemetryConstants__Scene__MarkerId;
+// Declarations
+using MarkerId = ::GlobalNamespace::__OVRTelemetryConstants__Scene__MarkerId;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __OVRTelemetryConstants__Scene();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __OVRTelemetryConstants__Scene() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__OVRTelemetryConstants__Scene", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __OVRTelemetryConstants__Scene(__OVRTelemetryConstants__Scene&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__OVRTelemetryConstants__Scene", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __OVRTelemetryConstants__Scene(__OVRTelemetryConstants__Scene const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__OVRTelemetryConstants__Scene", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__OVRTelemetryConstants__Scene(__OVRTelemetryConstants__Scene && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "__OVRTelemetryConstants__Scene", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__OVRTelemetryConstants__Scene(__OVRTelemetryConstants__Scene const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRTelemetryConstants__Scene, 0x10>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 // Type: ::Editor
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::OVRTelemetryConstants::Editor*
 class CORDL_TYPE __OVRTelemetryConstants__Editor : public ::System::Object {
 public:
-  // Declarations
+// Declarations
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __OVRTelemetryConstants__Editor();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __OVRTelemetryConstants__Editor() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__OVRTelemetryConstants__Editor", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __OVRTelemetryConstants__Editor(__OVRTelemetryConstants__Editor&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__OVRTelemetryConstants__Editor", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __OVRTelemetryConstants__Editor(__OVRTelemetryConstants__Editor const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__OVRTelemetryConstants__Editor", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__OVRTelemetryConstants__Editor(__OVRTelemetryConstants__Editor && ) = delete;
 
-  /// @brief Field Start offset 0xffffffff size 0x4
-  static constexpr int32_t Start{ static_cast<int32_t>(0x9b83563) };
+// Ctor Parameters [CppParam { name: "", ty: "__OVRTelemetryConstants__Editor", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__OVRTelemetryConstants__Editor(__OVRTelemetryConstants__Editor const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field Start offset 0xffffffff size 0x4
+static constexpr int32_t  Start{static_cast<int32_t>(0x9b83563)};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRTelemetryConstants__Editor, 0x10>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 // Type: ::MarkerId
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::OVRTelemetryConstants::SBB::MarkerId*
 class CORDL_TYPE __OVRTelemetryConstants__SBB__MarkerId : public ::System::Object {
 public:
-  // Declarations
+// Declarations
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __OVRTelemetryConstants__SBB__MarkerId();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __OVRTelemetryConstants__SBB__MarkerId() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__OVRTelemetryConstants__SBB__MarkerId", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __OVRTelemetryConstants__SBB__MarkerId(__OVRTelemetryConstants__SBB__MarkerId&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__OVRTelemetryConstants__SBB__MarkerId", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __OVRTelemetryConstants__SBB__MarkerId(__OVRTelemetryConstants__SBB__MarkerId const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__OVRTelemetryConstants__SBB__MarkerId", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__OVRTelemetryConstants__SBB__MarkerId(__OVRTelemetryConstants__SBB__MarkerId && ) = delete;
 
-  /// @brief Field AddBlock offset 0xffffffff size 0x4
-  static constexpr int32_t AddBlock{ static_cast<int32_t>(0x9b81ac4) };
+// Ctor Parameters [CppParam { name: "", ty: "__OVRTelemetryConstants__SBB__MarkerId", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__OVRTelemetryConstants__SBB__MarkerId(__OVRTelemetryConstants__SBB__MarkerId const& ) = delete;
 
-  /// @brief Field InstallSDK offset 0xffffffff size 0x4
-  static constexpr int32_t InstallSDK{ static_cast<int32_t>(0x9b83799) };
+/// @brief Field AddBlock offset 0xffffffff size 0x4
+static constexpr int32_t  AddBlock{static_cast<int32_t>(0x9b81ac4)};
 
-  /// @brief Field OpenWindow offset 0xffffffff size 0x4
-  static constexpr int32_t OpenWindow{ static_cast<int32_t>(0x9b82479) };
+/// @brief Field InstallSDK offset 0xffffffff size 0x4
+static constexpr int32_t  InstallSDK{static_cast<int32_t>(0x9b83799)};
 
-  /// @brief Field RemoveSDK offset 0xffffffff size 0x4
-  static constexpr int32_t RemoveSDK{ static_cast<int32_t>(0x9b836a8) };
+/// @brief Field OpenWindow offset 0xffffffff size 0x4
+static constexpr int32_t  OpenWindow{static_cast<int32_t>(0x9b82479)};
 
-  /// @brief Field RunBlock offset 0xffffffff size 0x4
-  static constexpr int32_t RunBlock{ static_cast<int32_t>(0x9b82868) };
+/// @brief Field RemoveSDK offset 0xffffffff size 0x4
+static constexpr int32_t  RemoveSDK{static_cast<int32_t>(0x9b836a8)};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field RunBlock offset 0xffffffff size 0x4
+static constexpr int32_t  RunBlock{static_cast<int32_t>(0x9b82868)};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRTelemetryConstants__SBB__MarkerId, 0x10>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 // Type: ::AnnotationType
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::OVRTelemetryConstants::SBB::AnnotationType*
 class CORDL_TYPE __OVRTelemetryConstants__SBB__AnnotationType : public ::System::Object {
 public:
-  // Declarations
+// Declarations
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __OVRTelemetryConstants__SBB__AnnotationType();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __OVRTelemetryConstants__SBB__AnnotationType() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__OVRTelemetryConstants__SBB__AnnotationType", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __OVRTelemetryConstants__SBB__AnnotationType(__OVRTelemetryConstants__SBB__AnnotationType&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__OVRTelemetryConstants__SBB__AnnotationType", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __OVRTelemetryConstants__SBB__AnnotationType(__OVRTelemetryConstants__SBB__AnnotationType const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__OVRTelemetryConstants__SBB__AnnotationType", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__OVRTelemetryConstants__SBB__AnnotationType(__OVRTelemetryConstants__SBB__AnnotationType && ) = delete;
 
-  /// @brief Field BlockId offset 0xffffffff size 0x8
-  static constexpr ::ConstString BlockId{ u"BlockId" };
+// Ctor Parameters [CppParam { name: "", ty: "__OVRTelemetryConstants__SBB__AnnotationType", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__OVRTelemetryConstants__SBB__AnnotationType(__OVRTelemetryConstants__SBB__AnnotationType const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field BlockId offset 0xffffffff size 0x8
+static constexpr ::ConstString  BlockId{u"BlockId"};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRTelemetryConstants__SBB__AnnotationType, 0x10>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 // Type: ::SBB
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::OVRTelemetryConstants::SBB*
 class CORDL_TYPE __OVRTelemetryConstants__SBB : public ::System::Object {
 public:
-  // Declarations
-  using AnnotationType = ::GlobalNamespace::__OVRTelemetryConstants__SBB__AnnotationType;
+// Declarations
+using AnnotationType = ::GlobalNamespace::__OVRTelemetryConstants__SBB__AnnotationType;
 
-  using MarkerId = ::GlobalNamespace::__OVRTelemetryConstants__SBB__MarkerId;
+using MarkerId = ::GlobalNamespace::__OVRTelemetryConstants__SBB__MarkerId;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __OVRTelemetryConstants__SBB();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __OVRTelemetryConstants__SBB() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__OVRTelemetryConstants__SBB", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __OVRTelemetryConstants__SBB(__OVRTelemetryConstants__SBB&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__OVRTelemetryConstants__SBB", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __OVRTelemetryConstants__SBB(__OVRTelemetryConstants__SBB const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__OVRTelemetryConstants__SBB", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__OVRTelemetryConstants__SBB(__OVRTelemetryConstants__SBB && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "__OVRTelemetryConstants__SBB", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__OVRTelemetryConstants__SBB(__OVRTelemetryConstants__SBB const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OVRTelemetryConstants__SBB, 0x10>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 // Type: ::OVRTelemetryConstants
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::OVRTelemetryConstants*
 class CORDL_TYPE OVRTelemetryConstants : public ::System::Object {
 public:
-  // Declarations
-  using Editor = ::GlobalNamespace::__OVRTelemetryConstants__Editor;
+// Declarations
+using Editor = ::GlobalNamespace::__OVRTelemetryConstants__Editor;
 
-  using OVRManager = ::GlobalNamespace::__OVRTelemetryConstants__OVRManager;
+using OVRManager = ::GlobalNamespace::__OVRTelemetryConstants__OVRManager;
 
-  using SBB = ::GlobalNamespace::__OVRTelemetryConstants__SBB;
+using SBB = ::GlobalNamespace::__OVRTelemetryConstants__SBB;
 
-  using Scene = ::GlobalNamespace::__OVRTelemetryConstants__Scene;
+using Scene = ::GlobalNamespace::__OVRTelemetryConstants__Scene;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr OVRTelemetryConstants();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr OVRTelemetryConstants() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRTelemetryConstants", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  OVRTelemetryConstants(OVRTelemetryConstants&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRTelemetryConstants", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  OVRTelemetryConstants(OVRTelemetryConstants const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "OVRTelemetryConstants", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+OVRTelemetryConstants(OVRTelemetryConstants && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "OVRTelemetryConstants", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+OVRTelemetryConstants(OVRTelemetryConstants const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRTelemetryConstants, 0x10>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__OVRTelemetryConstants__OVRManager__ConsentOrigins, "", "OVRTelemetryConstants/OVRManager/ConsentOrigins");
 NEED_NO_BOX(::GlobalNamespace::OVRTelemetryConstants);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRTelemetryConstants*, "", "OVRTelemetryConstants");

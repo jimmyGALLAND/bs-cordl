@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "System/ComponentModel/AddingNewEventArgs.hpp"
 #include "System/ComponentModel/AddingNewEventHandler.hpp"
@@ -111,5 +111,6 @@ module;
 #include "System/ComponentModel/WeakHashtable.hpp"
 #include "System/ComponentModel/Win32Exception.hpp"
 #ifdef __cpp_modules
-export module ComponentModel;
-#endif
+                    export module ComponentModel;
+                    #endif
+                

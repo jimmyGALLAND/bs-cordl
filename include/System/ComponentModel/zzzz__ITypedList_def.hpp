@@ -19,31 +19,30 @@ class ITypedList;
 // Write type traits
 MARK_REF_PTR_T(::System::ComponentModel::ITypedList);
 // Type: System.ComponentModel::ITypedList
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::ComponentModel {
 // Is value type: false
 // CS Name: ::System.ComponentModel::ITypedList*
 class CORDL_TYPE ITypedList {
 public:
-  // Declarations
-  /// @brief Method GetItemProperties, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::System::ComponentModel::PropertyDescriptorCollection*
-  GetItemProperties(::ArrayW<::System::ComponentModel::PropertyDescriptor*, ::Array<::System::ComponentModel::PropertyDescriptor*>*> listAccessors);
+// Declarations
+/// @brief Method GetItemProperties, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+inline ::System::ComponentModel::PropertyDescriptorCollection* GetItemProperties(::ArrayW<::System::ComponentModel::PropertyDescriptor*,::Array<::System::ComponentModel::PropertyDescriptor*>*>  listAccessors) ;
 
-  /// @brief Method GetListName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::StringW GetListName(::ArrayW<::System::ComponentModel::PropertyDescriptor*, ::Array<::System::ComponentModel::PropertyDescriptor*>*> listAccessors);
+/// @brief Method GetListName, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+inline ::StringW GetListName(::ArrayW<::System::ComponentModel::PropertyDescriptor*,::Array<::System::ComponentModel::PropertyDescriptor*>*>  listAccessors) ;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ITypedList", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ITypedList(ITypedList&&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ITypedList", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ITypedList(ITypedList && ) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ITypedList", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ITypedList(ITypedList const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ITypedList", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ITypedList(ITypedList const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-} // namespace System::ComponentModel
+} // namespace end def System::ComponentModel
 NEED_NO_BOX(::System::ComponentModel::ITypedList);
 DEFINE_IL2CPP_ARG_TYPE(::System::ComponentModel::ITypedList*, "System.ComponentModel", "ITypedList");

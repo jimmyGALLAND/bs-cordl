@@ -132,749 +132,720 @@ class HEU_SessionBase;
 // Write type traits
 MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_SessionBase);
 // Type: HoudiniEngineUnity::HEU_SessionBase
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
 // CS Name: ::HoudiniEngineUnity::HEU_SessionBase*
 class CORDL_TYPE HEU_SessionBase : public ::System::Object {
 public:
-  // Declarations
-  __declspec(property(get = get_ConnectionState, put = set_ConnectionState))::HoudiniEngineUnity::SessionConnectionState ConnectionState;
+// Declarations
+ __declspec(property(get=get_ConnectionState, put=set_ConnectionState)) ::HoudiniEngineUnity::SessionConnectionState  ConnectionState;
 
-  __declspec(property(get = get_LastCallResultCode, put = set_LastCallResultCode))::HoudiniEngineUnity::HAPI_Result LastCallResultCode;
+ __declspec(property(get=get_LastCallResultCode, put=set_LastCallResultCode)) ::HoudiniEngineUnity::HAPI_Result  LastCallResultCode;
 
-  __declspec(property(get = get_LogErrorOverride, put = set_LogErrorOverride)) bool LogErrorOverride;
+ __declspec(property(get=get_LogErrorOverride, put=set_LogErrorOverride)) bool  LogErrorOverride;
 
-  __declspec(property(get = get_ThisSessionMode, put = set_ThisSessionMode))::HoudiniEngineUnity::SessionMode ThisSessionMode;
+ __declspec(property(get=get_ThisSessionMode, put=set_ThisSessionMode)) ::HoudiniEngineUnity::SessionMode  ThisSessionMode;
 
-  __declspec(property(get = get_ThrowErrorOverride, put = set_ThrowErrorOverride)) bool ThrowErrorOverride;
+ __declspec(property(get=get_ThrowErrorOverride, put=set_ThrowErrorOverride)) bool  ThrowErrorOverride;
 
-  __declspec(property(get = get_UserNotifiedSessionInvalid, put = set_UserNotifiedSessionInvalid)) bool UserNotifiedSessionInvalid;
+ __declspec(property(get=get_UserNotifiedSessionInvalid, put=set_UserNotifiedSessionInvalid)) bool  UserNotifiedSessionInvalid;
 
-  /// @brief Field <LastCallResultCode>k__BackingField, offset 0x2c, size 0x4
-  __declspec(property(get = __cordl_internal_get__LastCallResultCode_k__BackingField,
-                      put = __cordl_internal_set__LastCallResultCode_k__BackingField))::HoudiniEngineUnity::HAPI_Result _LastCallResultCode_k__BackingField;
+/// @brief Field <LastCallResultCode>k__BackingField, offset 0x2c, size 0x4 
+ __declspec(property(get=__cordl_internal_get__LastCallResultCode_k__BackingField, put=__cordl_internal_set__LastCallResultCode_k__BackingField)) ::HoudiniEngineUnity::HAPI_Result  _LastCallResultCode_k__BackingField;
 
-  /// @brief Field <LogErrorOverride>k__BackingField, offset 0x28, size 0x1
-  __declspec(property(get = __cordl_internal_get__LogErrorOverride_k__BackingField, put = __cordl_internal_set__LogErrorOverride_k__BackingField)) bool _LogErrorOverride_k__BackingField;
+/// @brief Field <LogErrorOverride>k__BackingField, offset 0x28, size 0x1 
+ __declspec(property(get=__cordl_internal_get__LogErrorOverride_k__BackingField, put=__cordl_internal_set__LogErrorOverride_k__BackingField)) bool  _LogErrorOverride_k__BackingField;
 
-  /// @brief Field <ThrowErrorOverride>k__BackingField, offset 0x29, size 0x1
-  __declspec(property(get = __cordl_internal_get__ThrowErrorOverride_k__BackingField, put = __cordl_internal_set__ThrowErrorOverride_k__BackingField)) bool _ThrowErrorOverride_k__BackingField;
+/// @brief Field <ThrowErrorOverride>k__BackingField, offset 0x29, size 0x1 
+ __declspec(property(get=__cordl_internal_get__ThrowErrorOverride_k__BackingField, put=__cordl_internal_set__ThrowErrorOverride_k__BackingField)) bool  _ThrowErrorOverride_k__BackingField;
 
-  /// @brief Field <UserNotifiedSessionInvalid>k__BackingField, offset 0x18, size 0x1
-  __declspec(property(get = __cordl_internal_get__UserNotifiedSessionInvalid_k__BackingField,
-                      put = __cordl_internal_set__UserNotifiedSessionInvalid_k__BackingField)) bool _UserNotifiedSessionInvalid_k__BackingField;
+/// @brief Field <UserNotifiedSessionInvalid>k__BackingField, offset 0x18, size 0x1 
+ __declspec(property(get=__cordl_internal_get__UserNotifiedSessionInvalid_k__BackingField, put=__cordl_internal_set__UserNotifiedSessionInvalid_k__BackingField)) bool  _UserNotifiedSessionInvalid_k__BackingField;
 
-  /// @brief Field _sessionData, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__sessionData, put = __cordl_internal_set__sessionData))::HoudiniEngineUnity::HEU_SessionData* _sessionData;
+/// @brief Field _sessionData, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get__sessionData, put=__cordl_internal_set__sessionData)) ::HoudiniEngineUnity::HEU_SessionData*  _sessionData;
 
-  /// @brief Field _sessionErrorMsg, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__sessionErrorMsg, put = __cordl_internal_set__sessionErrorMsg))::StringW _sessionErrorMsg;
+/// @brief Field _sessionErrorMsg, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get__sessionErrorMsg, put=__cordl_internal_set__sessionErrorMsg)) ::StringW  _sessionErrorMsg;
 
-  /// @brief Method AddAttribute, addr 0x25b33c8, size 0x8, virtual true, abstract: false, final false
-  inline bool AddAttribute(int32_t nodeID, int32_t partID, ::StringW name, ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo> attrInfo);
+/// @brief Method AddAttribute, addr 0x39d5568, size 0x8, virtual true, abstract: false, final false
+inline bool AddAttribute(int32_t  nodeID, int32_t  partID, ::StringW  name, ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo>  attrInfo) ;
 
-  /// @brief Method AddGroup, addr 0x25b33d0, size 0x8, virtual true, abstract: false, final false
-  inline bool AddGroup(int32_t nodeID, int32_t partID, ::HoudiniEngineUnity::HAPI_GroupType groupType, ::StringW groupName);
+/// @brief Method AddGroup, addr 0x39d5570, size 0x8, virtual true, abstract: false, final false
+inline bool AddGroup(int32_t  nodeID, int32_t  partID, ::HoudiniEngineUnity::HAPI_GroupType  groupType, ::StringW  groupName) ;
 
-  /// @brief Method CheckAndCloseExistingSession, addr 0x25b2fcc, size 0x8, virtual true, abstract: false, final false
-  inline bool CheckAndCloseExistingSession();
+/// @brief Method CheckAndCloseExistingSession, addr 0x39d516c, size 0x8, virtual true, abstract: false, final false
+inline bool CheckAndCloseExistingSession() ;
 
-  /// @brief Method CheckForSpecificErrors, addr 0x25b315c, size 0x8, virtual true, abstract: false, final false
-  inline int32_t CheckForSpecificErrors(int32_t nodeID, int32_t errorsToCheck);
+/// @brief Method CheckForSpecificErrors, addr 0x39d52fc, size 0x8, virtual true, abstract: false, final false
+inline int32_t CheckForSpecificErrors(int32_t  nodeID, int32_t  errorsToCheck) ;
 
-  /// @brief Method CheckVersionMatch, addr 0x25b3064, size 0x8, virtual true, abstract: false, final false
-  inline bool CheckVersionMatch();
+/// @brief Method CheckVersionMatch, addr 0x39d5204, size 0x8, virtual true, abstract: false, final false
+inline bool CheckVersionMatch() ;
 
-  /// @brief Method ClearSessionInfo, addr 0x25b2fd4, size 0x20, virtual true, abstract: false, final false
-  inline void ClearSessionInfo();
+/// @brief Method ClearSessionInfo, addr 0x39d5174, size 0x20, virtual true, abstract: false, final false
+inline void ClearSessionInfo() ;
 
-  /// @brief Method CloseSession, addr 0x25b2fc4, size 0x8, virtual true, abstract: false, final false
-  inline bool CloseSession();
+/// @brief Method CloseSession, addr 0x39d5164, size 0x8, virtual true, abstract: false, final false
+inline bool CloseSession() ;
 
-  /// @brief Method CommitGeo, addr 0x25b33e8, size 0x8, virtual true, abstract: false, final false
-  inline bool CommitGeo(int32_t nodeID);
+/// @brief Method CommitGeo, addr 0x39d5588, size 0x8, virtual true, abstract: false, final false
+inline bool CommitGeo(int32_t  nodeID) ;
 
-  /// @brief Method ComposeChildNodeList, addr 0x25b322c, size 0x8, virtual true, abstract: false, final false
-  inline bool ComposeChildNodeList(int32_t parentNodeID, int32_t nodeTypeFilter, int32_t nodeFlagFilter, bool bRecursive, ByRef<int32_t> count);
+/// @brief Method ComposeChildNodeList, addr 0x39d53cc, size 0x8, virtual true, abstract: false, final false
+inline bool ComposeChildNodeList(int32_t  parentNodeID, int32_t  nodeTypeFilter, int32_t  nodeFlagFilter, bool  bRecursive, ByRef<int32_t>  count) ;
 
-  /// @brief Method ComposeNodeCookResult, addr 0x25b30fc, size 0x40, virtual true, abstract: false, final false
-  inline ::StringW ComposeNodeCookResult(int32_t nodeId, ::HoudiniEngineUnity::HAPI_StatusVerbosity verbosity);
+/// @brief Method ComposeNodeCookResult, addr 0x39d529c, size 0x40, virtual true, abstract: false, final false
+inline ::StringW ComposeNodeCookResult(int32_t  nodeId, ::HoudiniEngineUnity::HAPI_StatusVerbosity  verbosity) ;
 
-  /// @brief Method ComposeObjectList, addr 0x25b3264, size 0xc, virtual true, abstract: false, final false
-  inline bool ComposeObjectList(int32_t nodeID, ByRef<int32_t> objectCount);
+/// @brief Method ComposeObjectList, addr 0x39d5404, size 0xc, virtual true, abstract: false, final false
+inline bool ComposeObjectList(int32_t  nodeID, ByRef<int32_t>  objectCount) ;
 
-  /// @brief Method ConnectNodeInput, addr 0x25b31c8, size 0x8, virtual true, abstract: false, final false
-  inline bool ConnectNodeInput(int32_t nodeID, int32_t inputIndex, int32_t nodeIDToConnect, int32_t outputIndex);
+/// @brief Method ConnectNodeInput, addr 0x39d5368, size 0x8, virtual true, abstract: false, final false
+inline bool ConnectNodeInput(int32_t  nodeID, int32_t  inputIndex, int32_t  nodeIDToConnect, int32_t  outputIndex) ;
 
-  /// @brief Method ConnectThriftPipeSession, addr 0x25b2fbc, size 0x8, virtual true, abstract: false, final false
-  inline bool ConnectThriftPipeSession(bool bIsDefaultSession, ::StringW pipeName, bool autoClose, float_t timeout, bool logError, bool autoInitialize);
+/// @brief Method ConnectThriftPipeSession, addr 0x39d515c, size 0x8, virtual true, abstract: false, final false
+inline bool ConnectThriftPipeSession(bool  bIsDefaultSession, ::StringW  pipeName, bool  autoClose, float_t  timeout, bool  logError, bool  autoInitialize) ;
 
-  /// @brief Method ConnectThriftSocketSession, addr 0x25b2fb4, size 0x8, virtual true, abstract: false, final false
-  inline bool ConnectThriftSocketSession(bool bIsDefaultSession, ::StringW hostName, int32_t serverPort, bool autoClose, float_t timeout, bool logError, bool autoInitialize);
+/// @brief Method ConnectThriftSocketSession, addr 0x39d5154, size 0x8, virtual true, abstract: false, final false
+inline bool ConnectThriftSocketSession(bool  bIsDefaultSession, ::StringW  hostName, int32_t  serverPort, bool  autoClose, float_t  timeout, bool  logError, bool  autoInitialize) ;
 
-  /// @brief Method ConvertTransform, addr 0x25b379c, size 0x14, virtual true, abstract: false, final false
-  inline bool ConvertTransform(ByRef<::HoudiniEngineUnity::HAPI_TransformEuler> inTransform, ::HoudiniEngineUnity::HAPI_RSTOrder RSTOrder, ::HoudiniEngineUnity::HAPI_XYZOrder ROTOrder,
-                               ByRef<::HoudiniEngineUnity::HAPI_TransformEuler> outTransform);
+/// @brief Method ConvertTransform, addr 0x39d593c, size 0x14, virtual true, abstract: false, final false
+inline bool ConvertTransform(ByRef<::HoudiniEngineUnity::HAPI_TransformEuler>  inTransform, ::HoudiniEngineUnity::HAPI_RSTOrder  RSTOrder, ::HoudiniEngineUnity::HAPI_XYZOrder  ROTOrder, ByRef<::HoudiniEngineUnity::HAPI_TransformEuler>  outTransform) ;
 
-  /// @brief Method CookNode, addr 0x25b31b0, size 0x8, virtual true, abstract: false, final false
-  inline bool CookNode(int32_t nodeID, bool bCookTemplatedGeos, bool bSplitGeosByGroup);
+/// @brief Method CookNode, addr 0x39d5350, size 0x8, virtual true, abstract: false, final false
+inline bool CookNode(int32_t  nodeID, bool  bCookTemplatedGeos, bool  bSplitGeosByGroup) ;
 
-  /// @brief Method CookNodeWithOptions, addr 0x25b31b8, size 0x8, virtual true, abstract: false, final false
-  inline bool CookNodeWithOptions(int32_t nodeID, ::HoudiniEngineUnity::HAPI_CookOptions cookOptions);
+/// @brief Method CookNodeWithOptions, addr 0x39d5358, size 0x8, virtual true, abstract: false, final false
+inline bool CookNodeWithOptions(int32_t  nodeID, ::HoudiniEngineUnity::HAPI_CookOptions  cookOptions) ;
 
-  /// @brief Method CreateCustomSession, addr 0x25b2fac, size 0x8, virtual true, abstract: false, final false
-  inline bool CreateCustomSession(bool bIsDefaultSession);
+/// @brief Method CreateCustomSession, addr 0x39d514c, size 0x8, virtual true, abstract: false, final false
+inline bool CreateCustomSession(bool  bIsDefaultSession) ;
 
-  /// @brief Method CreateHeightFieldInput, addr 0x25b3604, size 0x20, virtual true, abstract: false, final false
-  inline bool CreateHeightFieldInput(int32_t parentNodeID, ::StringW name, int32_t xSize, int32_t ySize, float_t voxelSize, ::HoudiniEngineUnity::HAPI_HeightFieldSampling sampling,
-                                     ByRef<int32_t> heightfieldNodeID, ByRef<int32_t> heightNodeID, ByRef<int32_t> maskNodeID, ByRef<int32_t> mergeNodeID);
+/// @brief Method CreateHeightFieldInput, addr 0x39d57a4, size 0x20, virtual true, abstract: false, final false
+inline bool CreateHeightFieldInput(int32_t  parentNodeID, ::StringW  name, int32_t  xSize, int32_t  ySize, float_t  voxelSize, ::HoudiniEngineUnity::HAPI_HeightFieldSampling  sampling, ByRef<int32_t>  heightfieldNodeID, ByRef<int32_t>  heightNodeID, ByRef<int32_t>  maskNodeID, ByRef<int32_t>  mergeNodeID) ;
 
-  /// @brief Method CreateHeightfieldInputVolumeNode, addr 0x25b3624, size 0x10, virtual true, abstract: false, final false
-  inline bool CreateHeightfieldInputVolumeNode(int32_t parentNodeID, ByRef<int32_t> newNodeID, ::StringW name, int32_t xSize, int32_t ySize, float_t voxelSize);
+/// @brief Method CreateHeightfieldInputVolumeNode, addr 0x39d57c4, size 0x10, virtual true, abstract: false, final false
+inline bool CreateHeightfieldInputVolumeNode(int32_t  parentNodeID, ByRef<int32_t>  newNodeID, ::StringW  name, int32_t  xSize, int32_t  ySize, float_t  voxelSize) ;
 
-  /// @brief Method CreateInProcessSession, addr 0x25b2f94, size 0x8, virtual true, abstract: false, final false
-  inline bool CreateInProcessSession(bool bIsDefaultSession);
+/// @brief Method CreateInProcessSession, addr 0x39d5134, size 0x8, virtual true, abstract: false, final false
+inline bool CreateInProcessSession(bool  bIsDefaultSession) ;
 
-  /// @brief Method CreateInputNode, addr 0x25b35f4, size 0x10, virtual true, abstract: false, final false
-  inline bool CreateInputNode(ByRef<int32_t> nodeID, ::StringW name);
+/// @brief Method CreateInputNode, addr 0x39d5794, size 0x10, virtual true, abstract: false, final false
+inline bool CreateInputNode(ByRef<int32_t>  nodeID, ::StringW  name) ;
 
-  /// @brief Method CreateNode, addr 0x25b319c, size 0x10, virtual true, abstract: false, final false
-  inline bool CreateNode(int32_t parentNodeID, ::StringW operatorName, ::StringW nodeLabel, bool bCookOnCreation, ByRef<int32_t> newNodeID);
+/// @brief Method CreateNode, addr 0x39d533c, size 0x10, virtual true, abstract: false, final false
+inline bool CreateNode(int32_t  parentNodeID, ::StringW  operatorName, ::StringW  nodeLabel, bool  bCookOnCreation, ByRef<int32_t>  newNodeID) ;
 
-  /// @brief Method CreateSessionData, addr 0x25b2f8c, size 0x8, virtual true, abstract: false, final false
-  inline bool CreateSessionData(bool bOverwriteExisting, bool bIsDefaultSession);
+/// @brief Method CreateSessionData, addr 0x39d512c, size 0x8, virtual true, abstract: false, final false
+inline bool CreateSessionData(bool  bOverwriteExisting, bool  bIsDefaultSession) ;
 
-  /// @brief Method CreateThriftPipeSession, addr 0x25b2fa4, size 0x8, virtual true, abstract: false, final false
-  inline bool CreateThriftPipeSession(bool bIsDefaultSession, ::StringW pipeName, bool autoClose, float_t timeout, bool bLogError);
+/// @brief Method CreateThriftPipeSession, addr 0x39d5144, size 0x8, virtual true, abstract: false, final false
+inline bool CreateThriftPipeSession(bool  bIsDefaultSession, ::StringW  pipeName, bool  autoClose, float_t  timeout, bool  bLogError) ;
 
-  /// @brief Method CreateThriftSocketSession, addr 0x25b2f9c, size 0x8, virtual true, abstract: false, final false
-  inline bool CreateThriftSocketSession(bool bIsDefaultSession, ::StringW hostName, int32_t serverPort, bool autoClose, float_t timeout, bool bLogError);
+/// @brief Method CreateThriftSocketSession, addr 0x39d513c, size 0x8, virtual true, abstract: false, final false
+inline bool CreateThriftSocketSession(bool  bIsDefaultSession, ::StringW  hostName, int32_t  serverPort, bool  autoClose, float_t  timeout, bool  bLogError) ;
 
-  /// @brief Method DeleteGroup, addr 0x25b33d8, size 0x8, virtual true, abstract: false, final false
-  inline bool DeleteGroup(int32_t nodeID, int32_t partID, ::HoudiniEngineUnity::HAPI_GroupType groupType, ::StringW groupName);
+/// @brief Method DeleteGroup, addr 0x39d5578, size 0x8, virtual true, abstract: false, final false
+inline bool DeleteGroup(int32_t  nodeID, int32_t  partID, ::HoudiniEngineUnity::HAPI_GroupType  groupType, ::StringW  groupName) ;
 
-  /// @brief Method DeleteNode, addr 0x25b31ac, size 0x4, virtual true, abstract: false, final false
-  inline void DeleteNode(int32_t nodeID);
+/// @brief Method DeleteNode, addr 0x39d534c, size 0x4, virtual true, abstract: false, final false
+inline void DeleteNode(int32_t  nodeID) ;
 
-  /// @brief Method DisconnectNodeInput, addr 0x25b31d0, size 0x8, virtual true, abstract: false, final false
-  inline bool DisconnectNodeInput(int32_t nodeID, int32_t inputIndex, bool bLogError);
+/// @brief Method DisconnectNodeInput, addr 0x39d5370, size 0x8, virtual true, abstract: false, final false
+inline bool DisconnectNodeInput(int32_t  nodeID, int32_t  inputIndex, bool  bLogError) ;
 
-  /// @brief Method ExtractImageToFile, addr 0x25b34f0, size 0xc, virtual true, abstract: false, final false
-  inline bool ExtractImageToFile(int32_t nodeID, ::StringW fileFormat, ::StringW imagePlanes, ::StringW destinationFolderPath, ByRef<::StringW> destinationFilePath);
+/// @brief Method ExtractImageToFile, addr 0x39d5690, size 0xc, virtual true, abstract: false, final false
+inline bool ExtractImageToFile(int32_t  nodeID, ::StringW  fileFormat, ::StringW  imagePlanes, ::StringW  destinationFolderPath, ByRef<::StringW>  destinationFilePath) ;
 
-  /// @brief Method ExtractImageToMemory, addr 0x25b3450, size 0x54, virtual true, abstract: false, final false
-  inline bool ExtractImageToMemory(int32_t nodeID, ::StringW fileFormat, ::StringW imagePlanes, ByRef<::ArrayW<uint8_t, ::Array<uint8_t>*>> buffer);
+/// @brief Method ExtractImageToMemory, addr 0x39d55f0, size 0x54, virtual true, abstract: false, final false
+inline bool ExtractImageToMemory(int32_t  nodeID, ::StringW  fileFormat, ::StringW  imagePlanes, ByRef<::ArrayW<uint8_t,::Array<uint8_t>*>>  buffer) ;
 
-  /// @brief Method GetActiveCacheCount, addr 0x25b3730, size 0xc, virtual true, abstract: false, final false
-  inline bool GetActiveCacheCount(ByRef<int32_t> activeCacheCount);
+/// @brief Method GetActiveCacheCount, addr 0x39d58d0, size 0xc, virtual true, abstract: false, final false
+inline bool GetActiveCacheCount(ByRef<int32_t>  activeCacheCount) ;
 
-  /// @brief Method GetActiveCacheNames, addr 0x25b373c, size 0x8, virtual true, abstract: false, final false
-  inline bool GetActiveCacheNames(ByRef<::ArrayW<int32_t, ::Array<int32_t>*>> cacheNamesArray, int32_t activeCacheCount);
+/// @brief Method GetActiveCacheNames, addr 0x39d58dc, size 0x8, virtual true, abstract: false, final false
+inline bool GetActiveCacheNames(ByRef<::ArrayW<int32_t,::Array<int32_t>*>>  cacheNamesArray, int32_t  activeCacheCount) ;
 
-  /// @brief Method GetAssetInfo, addr 0x25b3208, size 0x8, virtual true, abstract: false, final false
-  inline bool GetAssetInfo(int32_t nodeID, ByRef<::HoudiniEngineUnity::HAPI_AssetInfo> assetInfo);
+/// @brief Method GetAssetInfo, addr 0x39d53a8, size 0x8, virtual true, abstract: false, final false
+inline bool GetAssetInfo(int32_t  nodeID, ByRef<::HoudiniEngineUnity::HAPI_AssetInfo>  assetInfo) ;
 
-  /// @brief Method GetAttributeFloat64Data, addr 0x25b32b8, size 0x8, virtual true, abstract: false, final false
-  inline bool GetAttributeFloat64Data(int32_t nodeID, int32_t partID, ::StringW name, ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo> attributeInfo, ByRef<::ArrayW<double_t, ::Array<double_t>*>> data,
-                                      int32_t start, int32_t length);
+/// @brief Method GetAttributeFloat64Data, addr 0x39d5458, size 0x8, virtual true, abstract: false, final false
+inline bool GetAttributeFloat64Data(int32_t  nodeID, int32_t  partID, ::StringW  name, ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo>  attributeInfo, ByRef<::ArrayW<double_t,::Array<double_t>*>>  data, int32_t  start, int32_t  length) ;
 
-  /// @brief Method GetAttributeFloatData, addr 0x25b32b0, size 0x8, virtual true, abstract: false, final false
-  inline bool GetAttributeFloatData(int32_t nodeID, int32_t partID, ::StringW name, ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo> attributeInfo, ByRef<::ArrayW<float_t, ::Array<float_t>*>> data,
-                                    int32_t start, int32_t length);
+/// @brief Method GetAttributeFloatData, addr 0x39d5450, size 0x8, virtual true, abstract: false, final false
+inline bool GetAttributeFloatData(int32_t  nodeID, int32_t  partID, ::StringW  name, ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo>  attributeInfo, ByRef<::ArrayW<float_t,::Array<float_t>*>>  data, int32_t  start, int32_t  length) ;
 
-  /// @brief Method GetAttributeInfo, addr 0x25b3298, size 0x8, virtual true, abstract: false, final false
-  inline bool GetAttributeInfo(int32_t nodeID, int32_t partID, ::StringW name, ::HoudiniEngineUnity::HAPI_AttributeOwner owner, ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo> attributeInfo);
+/// @brief Method GetAttributeInfo, addr 0x39d5438, size 0x8, virtual true, abstract: false, final false
+inline bool GetAttributeInfo(int32_t  nodeID, int32_t  partID, ::StringW  name, ::HoudiniEngineUnity::HAPI_AttributeOwner  owner, ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo>  attributeInfo) ;
 
-  /// @brief Method GetAttributeInt16Data, addr 0x25b32d8, size 0x8, virtual true, abstract: false, final false
-  inline bool GetAttributeInt16Data(int32_t nodeID, int32_t partID, ::StringW name, ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo> attributeInfo, ByRef<::ArrayW<int16_t, ::Array<int16_t>*>> data,
-                                    int32_t start, int32_t length);
+/// @brief Method GetAttributeInt16Data, addr 0x39d5478, size 0x8, virtual true, abstract: false, final false
+inline bool GetAttributeInt16Data(int32_t  nodeID, int32_t  partID, ::StringW  name, ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo>  attributeInfo, ByRef<::ArrayW<int16_t,::Array<int16_t>*>>  data, int32_t  start, int32_t  length) ;
 
-  /// @brief Method GetAttributeInt64Data, addr 0x25b32e0, size 0x8, virtual true, abstract: false, final false
-  inline bool GetAttributeInt64Data(int32_t nodeID, int32_t partID, ::StringW name, ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo> attributeInfo, ByRef<::ArrayW<int64_t, ::Array<int64_t>*>> data,
-                                    int32_t start, int32_t length);
+/// @brief Method GetAttributeInt64Data, addr 0x39d5480, size 0x8, virtual true, abstract: false, final false
+inline bool GetAttributeInt64Data(int32_t  nodeID, int32_t  partID, ::StringW  name, ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo>  attributeInfo, ByRef<::ArrayW<int64_t,::Array<int64_t>*>>  data, int32_t  start, int32_t  length) ;
 
-  /// @brief Method GetAttributeInt8Data, addr 0x25b32d0, size 0x8, virtual true, abstract: false, final false
-  inline bool GetAttributeInt8Data(int32_t nodeID, int32_t partID, ::StringW name, ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo> attributeInfo, ByRef<::ArrayW<int8_t, ::Array<int8_t>*>> data,
-                                   int32_t start, int32_t length);
+/// @brief Method GetAttributeInt8Data, addr 0x39d5470, size 0x8, virtual true, abstract: false, final false
+inline bool GetAttributeInt8Data(int32_t  nodeID, int32_t  partID, ::StringW  name, ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo>  attributeInfo, ByRef<::ArrayW<int8_t,::Array<int8_t>*>>  data, int32_t  start, int32_t  length) ;
 
-  /// @brief Method GetAttributeIntData, addr 0x25b32c0, size 0x8, virtual true, abstract: false, final false
-  inline bool GetAttributeIntData(int32_t nodeID, int32_t partID, ::StringW name, ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo> attributeInfo, ByRef<::ArrayW<int32_t, ::Array<int32_t>*>> data,
-                                  int32_t start, int32_t length);
+/// @brief Method GetAttributeIntData, addr 0x39d5460, size 0x8, virtual true, abstract: false, final false
+inline bool GetAttributeIntData(int32_t  nodeID, int32_t  partID, ::StringW  name, ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo>  attributeInfo, ByRef<::ArrayW<int32_t,::Array<int32_t>*>>  data, int32_t  start, int32_t  length) ;
 
-  /// @brief Method GetAttributeNames, addr 0x25b32a0, size 0x8, virtual true, abstract: false, final false
-  inline bool GetAttributeNames(int32_t nodeID, int32_t partID, ::HoudiniEngineUnity::HAPI_AttributeOwner owner, ByRef<::ArrayW<::StringW, ::Array<::StringW>*>> attributeNames, int32_t count);
+/// @brief Method GetAttributeNames, addr 0x39d5440, size 0x8, virtual true, abstract: false, final false
+inline bool GetAttributeNames(int32_t  nodeID, int32_t  partID, ::HoudiniEngineUnity::HAPI_AttributeOwner  owner, ByRef<::ArrayW<::StringW,::Array<::StringW>*>>  attributeNames, int32_t  count) ;
 
-  /// @brief Method GetAttributeStringData, addr 0x25b32a8, size 0x8, virtual true, abstract: false, final false
-  inline bool GetAttributeStringData(int32_t nodeID, int32_t partID, ::StringW name, ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo> attributeInfo,
-                                     ByRef<::ArrayW<int32_t, ::Array<int32_t>*>> dataArray, int32_t start, int32_t length);
+/// @brief Method GetAttributeStringData, addr 0x39d5448, size 0x8, virtual true, abstract: false, final false
+inline bool GetAttributeStringData(int32_t  nodeID, int32_t  partID, ::StringW  name, ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo>  attributeInfo, ByRef<::ArrayW<int32_t,::Array<int32_t>*>>  dataArray, int32_t  start, int32_t  length) ;
 
-  /// @brief Method GetAttributeUInt8Data, addr 0x25b32c8, size 0x8, virtual true, abstract: false, final false
-  inline bool GetAttributeUInt8Data(int32_t nodeID, int32_t partID, ::StringW name, ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo> attributeInfo, ByRef<::ArrayW<uint8_t, ::Array<uint8_t>*>> data,
-                                    int32_t start, int32_t length);
+/// @brief Method GetAttributeUInt8Data, addr 0x39d5468, size 0x8, virtual true, abstract: false, final false
+inline bool GetAttributeUInt8Data(int32_t  nodeID, int32_t  partID, ::StringW  name, ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo>  attributeInfo, ByRef<::ArrayW<uint8_t,::Array<uint8_t>*>>  data, int32_t  start, int32_t  length) ;
 
-  /// @brief Method GetAvailableAssetCount, addr 0x25b31f4, size 0xc, virtual true, abstract: false, final false
-  inline bool GetAvailableAssetCount(int32_t libraryID, ByRef<int32_t> assetCount);
+/// @brief Method GetAvailableAssetCount, addr 0x39d5394, size 0xc, virtual true, abstract: false, final false
+inline bool GetAvailableAssetCount(int32_t  libraryID, ByRef<int32_t>  assetCount) ;
 
-  /// @brief Method GetAvailableAssets, addr 0x25b3200, size 0x8, virtual true, abstract: false, final false
-  inline bool GetAvailableAssets(int32_t libraryID, ByRef<::ArrayW<int32_t, ::Array<int32_t>*>> assetNames, int32_t assetCount);
+/// @brief Method GetAvailableAssets, addr 0x39d53a0, size 0x8, virtual true, abstract: false, final false
+inline bool GetAvailableAssets(int32_t  libraryID, ByRef<::ArrayW<int32_t,::Array<int32_t>*>>  assetNames, int32_t  assetCount) ;
 
-  /// @brief Method GetBoxInfo, addr 0x25b3350, size 0x8, virtual true, abstract: false, final false
-  inline bool GetBoxInfo(int32_t nodeID, int32_t partID, ByRef<::HoudiniEngineUnity::HAPI_BoxInfo> boxInfo);
+/// @brief Method GetBoxInfo, addr 0x39d54f0, size 0x8, virtual true, abstract: false, final false
+inline bool GetBoxInfo(int32_t  nodeID, int32_t  partID, ByRef<::HoudiniEngineUnity::HAPI_BoxInfo>  boxInfo) ;
 
-  /// @brief Method GetCacheProperty, addr 0x25b3744, size 0xc, virtual true, abstract: false, final false
-  inline bool GetCacheProperty(::StringW cacheName, ::HoudiniEngineUnity::HAPI_CacheProperty cacheProperty, ByRef<int32_t> propertyValue);
+/// @brief Method GetCacheProperty, addr 0x39d58e4, size 0xc, virtual true, abstract: false, final false
+inline bool GetCacheProperty(::StringW  cacheName, ::HoudiniEngineUnity::HAPI_CacheProperty  cacheProperty, ByRef<int32_t>  propertyValue) ;
 
-  /// @brief Method GetCallResult, addr 0x25b3098, size 0xc, virtual true, abstract: false, final false
-  inline bool GetCallResult(ByRef<::HoudiniEngineUnity::HAPI_Result> result);
+/// @brief Method GetCallResult, addr 0x39d5238, size 0xc, virtual true, abstract: false, final false
+inline bool GetCallResult(ByRef<::HoudiniEngineUnity::HAPI_Result>  result) ;
 
-  /// @brief Method GetComposedChildNodeList, addr 0x25b3234, size 0x8, virtual true, abstract: false, final false
-  inline bool GetComposedChildNodeList(int32_t parentNodeID, ::ArrayW<int32_t, ::Array<int32_t>*> childNodeIDs, int32_t count);
+/// @brief Method GetComposedChildNodeList, addr 0x39d53d4, size 0x8, virtual true, abstract: false, final false
+inline bool GetComposedChildNodeList(int32_t  parentNodeID, ::ArrayW<int32_t,::Array<int32_t>*>  childNodeIDs, int32_t  count) ;
 
-  /// @brief Method GetComposedObjectList, addr 0x25b3270, size 0x8, virtual true, abstract: false, final false
-  inline bool GetComposedObjectList(int32_t nodeID, ByRef<::ArrayW<::HoudiniEngineUnity::HAPI_ObjectInfo, ::Array<::HoudiniEngineUnity::HAPI_ObjectInfo>*>> objectInfos, int32_t start, int32_t length);
+/// @brief Method GetComposedObjectList, addr 0x39d5410, size 0x8, virtual true, abstract: false, final false
+inline bool GetComposedObjectList(int32_t  nodeID, ByRef<::ArrayW<::HoudiniEngineUnity::HAPI_ObjectInfo,::Array<::HoudiniEngineUnity::HAPI_ObjectInfo>*>>  objectInfos, int32_t  start, int32_t  length) ;
 
-  /// @brief Method GetComposedObjectTransforms, addr 0x25b3278, size 0x8, virtual true, abstract: false, final false
-  inline bool GetComposedObjectTransforms(int32_t nodeID, ::HoudiniEngineUnity::HAPI_RSTOrder rstOrder,
-                                          ByRef<::ArrayW<::HoudiniEngineUnity::HAPI_Transform, ::Array<::HoudiniEngineUnity::HAPI_Transform>*>> transforms, int32_t start, int32_t length);
+/// @brief Method GetComposedObjectTransforms, addr 0x39d5418, size 0x8, virtual true, abstract: false, final false
+inline bool GetComposedObjectTransforms(int32_t  nodeID, ::HoudiniEngineUnity::HAPI_RSTOrder  rstOrder, ByRef<::ArrayW<::HoudiniEngineUnity::HAPI_Transform,::Array<::HoudiniEngineUnity::HAPI_Transform>*>>  transforms, int32_t  start, int32_t  length) ;
 
-  /// @brief Method GetCookResult, addr 0x25b30a4, size 0xc, virtual true, abstract: false, final false
-  inline bool GetCookResult(ByRef<::HoudiniEngineUnity::HAPI_Result> result);
+/// @brief Method GetCookResult, addr 0x39d5244, size 0xc, virtual true, abstract: false, final false
+inline bool GetCookResult(ByRef<::HoudiniEngineUnity::HAPI_Result>  result) ;
 
-  /// @brief Method GetCookState, addr 0x25b30b0, size 0xc, virtual true, abstract: false, final false
-  inline bool GetCookState(ByRef<::HoudiniEngineUnity::HAPI_State> state);
+/// @brief Method GetCookState, addr 0x39d5250, size 0xc, virtual true, abstract: false, final false
+inline bool GetCookState(ByRef<::HoudiniEngineUnity::HAPI_State>  state) ;
 
-  /// @brief Method GetCurveCounts, addr 0x25b3368, size 0x8, virtual true, abstract: false, final false
-  inline bool GetCurveCounts(int32_t nodeID, int32_t partID, ByRef<::ArrayW<int32_t, ::Array<int32_t>*>> counts, int32_t start, int32_t length);
+/// @brief Method GetCurveCounts, addr 0x39d5508, size 0x8, virtual true, abstract: false, final false
+inline bool GetCurveCounts(int32_t  nodeID, int32_t  partID, ByRef<::ArrayW<int32_t,::Array<int32_t>*>>  counts, int32_t  start, int32_t  length) ;
 
-  /// @brief Method GetCurveInfo, addr 0x25b3360, size 0x8, virtual true, abstract: false, final false
-  inline bool GetCurveInfo(int32_t nodeID, int32_t partID, ByRef<::HoudiniEngineUnity::HAPI_CurveInfo> curveInfo);
+/// @brief Method GetCurveInfo, addr 0x39d5500, size 0x8, virtual true, abstract: false, final false
+inline bool GetCurveInfo(int32_t  nodeID, int32_t  partID, ByRef<::HoudiniEngineUnity::HAPI_CurveInfo>  curveInfo) ;
 
-  /// @brief Method GetCurveKnots, addr 0x25b3378, size 0x8, virtual true, abstract: false, final false
-  inline bool GetCurveKnots(int32_t nodeID, int32_t partID, ByRef<::ArrayW<float_t, ::Array<float_t>*>> knots, int32_t start, int32_t length);
+/// @brief Method GetCurveKnots, addr 0x39d5518, size 0x8, virtual true, abstract: false, final false
+inline bool GetCurveKnots(int32_t  nodeID, int32_t  partID, ByRef<::ArrayW<float_t,::Array<float_t>*>>  knots, int32_t  start, int32_t  length) ;
 
-  /// @brief Method GetCurveOrders, addr 0x25b3370, size 0x8, virtual true, abstract: false, final false
-  inline bool GetCurveOrders(int32_t nodeID, int32_t partID, ByRef<::ArrayW<int32_t, ::Array<int32_t>*>> orders, int32_t start, int32_t length);
+/// @brief Method GetCurveOrders, addr 0x39d5510, size 0x8, virtual true, abstract: false, final false
+inline bool GetCurveOrders(int32_t  nodeID, int32_t  partID, ByRef<::ArrayW<int32_t,::Array<int32_t>*>>  orders, int32_t  start, int32_t  length) ;
 
-  /// @brief Method GetDisplayGeoInfo, addr 0x25b3280, size 0x8, virtual true, abstract: false, final false
-  inline bool GetDisplayGeoInfo(int32_t nodeID, ByRef<::HoudiniEngineUnity::HAPI_GeoInfo> geoInfo, bool bLogError);
+/// @brief Method GetDisplayGeoInfo, addr 0x39d5420, size 0x8, virtual true, abstract: false, final false
+inline bool GetDisplayGeoInfo(int32_t  nodeID, ByRef<::HoudiniEngineUnity::HAPI_GeoInfo>  geoInfo, bool  bLogError) ;
 
-  /// @brief Method GetEnvInt, addr 0x25b313c, size 0x8, virtual true, abstract: false, final false
-  inline int32_t GetEnvInt(::HoudiniEngineUnity::HAPI_EnvIntType intType);
+/// @brief Method GetEnvInt, addr 0x39d52dc, size 0x8, virtual true, abstract: false, final false
+inline int32_t GetEnvInt(::HoudiniEngineUnity::HAPI_EnvIntType  intType) ;
 
-  /// @brief Method GetFaceCounts, addr 0x25b3338, size 0x8, virtual true, abstract: false, final false
-  inline bool GetFaceCounts(int32_t nodeID, int32_t partID, ByRef<::ArrayW<int32_t, ::Array<int32_t>*>> faceCounts, int32_t start, int32_t length);
+/// @brief Method GetFaceCounts, addr 0x39d54d8, size 0x8, virtual true, abstract: false, final false
+inline bool GetFaceCounts(int32_t  nodeID, int32_t  partID, ByRef<::ArrayW<int32_t,::Array<int32_t>*>>  faceCounts, int32_t  start, int32_t  length) ;
 
-  /// @brief Method GetFaceCounts, addr 0x25b3340, size 0x8, virtual true, abstract: false, final false
-  inline bool GetFaceCounts(int32_t nodeID, int32_t partID, ByRef<::ArrayW<int32_t, ::Array<int32_t>*>> faceCounts, int32_t start, int32_t length, bool bLogError);
+/// @brief Method GetFaceCounts, addr 0x39d54e0, size 0x8, virtual true, abstract: false, final false
+inline bool GetFaceCounts(int32_t  nodeID, int32_t  partID, ByRef<::ArrayW<int32_t,::Array<int32_t>*>>  faceCounts, int32_t  start, int32_t  length, bool  bLogError) ;
 
-  /// @brief Method GetGeoInfo, addr 0x25b3288, size 0x8, virtual true, abstract: false, final false
-  inline bool GetGeoInfo(int32_t nodeID, ByRef<::HoudiniEngineUnity::HAPI_GeoInfo> geoInfo, bool bLogError);
+/// @brief Method GetGeoInfo, addr 0x39d5428, size 0x8, virtual true, abstract: false, final false
+inline bool GetGeoInfo(int32_t  nodeID, ByRef<::HoudiniEngineUnity::HAPI_GeoInfo>  geoInfo, bool  bLogError) ;
 
-  /// @brief Method GetGeoSize, addr 0x25b3780, size 0xc, virtual true, abstract: false, final false
-  inline bool GetGeoSize(int32_t nodeID, ::StringW format, ByRef<int32_t> size);
+/// @brief Method GetGeoSize, addr 0x39d5920, size 0xc, virtual true, abstract: false, final false
+inline bool GetGeoSize(int32_t  nodeID, ::StringW  format, ByRef<int32_t>  size) ;
 
-  /// @brief Method GetGroupCountOnPackedInstancePart, addr 0x25b32f8, size 0x10, virtual true, abstract: false, final false
-  inline bool GetGroupCountOnPackedInstancePart(int32_t nodeID, int32_t partID, ByRef<int32_t> pointGroupCount, ByRef<int32_t> primitiveGroupCount);
+/// @brief Method GetGroupCountOnPackedInstancePart, addr 0x39d5498, size 0x10, virtual true, abstract: false, final false
+inline bool GetGroupCountOnPackedInstancePart(int32_t  nodeID, int32_t  partID, ByRef<int32_t>  pointGroupCount, ByRef<int32_t>  primitiveGroupCount) ;
 
-  /// @brief Method GetGroupMembership, addr 0x25b32f0, size 0x8, virtual true, abstract: false, final false
-  inline bool GetGroupMembership(int32_t nodeID, int32_t partID, ::HoudiniEngineUnity::HAPI_GroupType groupType, ::StringW groupName, ByRef<bool> membershipArrayAllEqual,
-                                 ByRef<::ArrayW<int32_t, ::Array<int32_t>*>> membershipArray, int32_t start, int32_t length);
+/// @brief Method GetGroupMembership, addr 0x39d5490, size 0x8, virtual true, abstract: false, final false
+inline bool GetGroupMembership(int32_t  nodeID, int32_t  partID, ::HoudiniEngineUnity::HAPI_GroupType  groupType, ::StringW  groupName, ByRef<bool>  membershipArrayAllEqual, ByRef<::ArrayW<int32_t,::Array<int32_t>*>>  membershipArray, int32_t  start, int32_t  length) ;
 
-  /// @brief Method GetGroupMembershipOnPackedInstancePart, addr 0x25b3310, size 0x8, virtual true, abstract: false, final false
-  inline bool GetGroupMembershipOnPackedInstancePart(int32_t nodeID, int32_t partID, ::HoudiniEngineUnity::HAPI_GroupType groupType, ::StringW groupName, ByRef<bool> membershipArrayAllEqual,
-                                                     ByRef<::ArrayW<int32_t, ::Array<int32_t>*>> membershipArray, int32_t start, int32_t length);
+/// @brief Method GetGroupMembershipOnPackedInstancePart, addr 0x39d54b0, size 0x8, virtual true, abstract: false, final false
+inline bool GetGroupMembershipOnPackedInstancePart(int32_t  nodeID, int32_t  partID, ::HoudiniEngineUnity::HAPI_GroupType  groupType, ::StringW  groupName, ByRef<bool>  membershipArrayAllEqual, ByRef<::ArrayW<int32_t,::Array<int32_t>*>>  membershipArray, int32_t  start, int32_t  length) ;
 
-  /// @brief Method GetGroupNames, addr 0x25b32e8, size 0x8, virtual true, abstract: false, final false
-  inline bool GetGroupNames(int32_t nodeID, ::HoudiniEngineUnity::HAPI_GroupType groupType, ByRef<::ArrayW<int32_t, ::Array<int32_t>*>> names, int32_t count);
+/// @brief Method GetGroupNames, addr 0x39d5488, size 0x8, virtual true, abstract: false, final false
+inline bool GetGroupNames(int32_t  nodeID, ::HoudiniEngineUnity::HAPI_GroupType  groupType, ByRef<::ArrayW<int32_t,::Array<int32_t>*>>  names, int32_t  count) ;
 
-  /// @brief Method GetGroupNamesOnPackedInstancePart, addr 0x25b3308, size 0x8, virtual true, abstract: false, final false
-  inline bool GetGroupNamesOnPackedInstancePart(int32_t nodeID, int32_t partID, ::HoudiniEngineUnity::HAPI_GroupType groupType, ByRef<::ArrayW<int32_t, ::Array<int32_t>*>> groupNamesArray,
-                                                int32_t groupCount);
+/// @brief Method GetGroupNamesOnPackedInstancePart, addr 0x39d54a8, size 0x8, virtual true, abstract: false, final false
+inline bool GetGroupNamesOnPackedInstancePart(int32_t  nodeID, int32_t  partID, ::HoudiniEngineUnity::HAPI_GroupType  groupType, ByRef<::ArrayW<int32_t,::Array<int32_t>*>>  groupNamesArray, int32_t  groupCount) ;
 
-  /// @brief Method GetHandleBindingInfo, addr 0x25b3794, size 0x8, virtual true, abstract: false, final false
-  inline bool GetHandleBindingInfo(int32_t nodeID, int32_t handleIndex,
-                                   ByRef<::ArrayW<::HoudiniEngineUnity::HAPI_HandleBindingInfo, ::Array<::HoudiniEngineUnity::HAPI_HandleBindingInfo>*>> handleBindingInfos, int32_t start,
-                                   int32_t length);
+/// @brief Method GetHandleBindingInfo, addr 0x39d5934, size 0x8, virtual true, abstract: false, final false
+inline bool GetHandleBindingInfo(int32_t  nodeID, int32_t  handleIndex, ByRef<::ArrayW<::HoudiniEngineUnity::HAPI_HandleBindingInfo,::Array<::HoudiniEngineUnity::HAPI_HandleBindingInfo>*>>  handleBindingInfos, int32_t  start, int32_t  length) ;
 
-  /// @brief Method GetHandleInfo, addr 0x25b378c, size 0x8, virtual true, abstract: false, final false
-  inline bool GetHandleInfo(int32_t nodeID, ByRef<::ArrayW<::HoudiniEngineUnity::HAPI_HandleInfo, ::Array<::HoudiniEngineUnity::HAPI_HandleInfo>*>> handleInfos, int32_t start, int32_t length);
+/// @brief Method GetHandleInfo, addr 0x39d592c, size 0x8, virtual true, abstract: false, final false
+inline bool GetHandleInfo(int32_t  nodeID, ByRef<::ArrayW<::HoudiniEngineUnity::HAPI_HandleInfo,::Array<::HoudiniEngineUnity::HAPI_HandleInfo>*>>  handleInfos, int32_t  start, int32_t  length) ;
 
-  /// @brief Method GetHeightFieldData, addr 0x25b3698, size 0x8, virtual true, abstract: false, final false
-  inline bool GetHeightFieldData(int32_t nodeID, int32_t partID, ::ArrayW<float_t, ::Array<float_t>*> valuesArray, int32_t start, int32_t length);
+/// @brief Method GetHeightFieldData, addr 0x39d5838, size 0x8, virtual true, abstract: false, final false
+inline bool GetHeightFieldData(int32_t  nodeID, int32_t  partID, ::ArrayW<float_t,::Array<float_t>*>  valuesArray, int32_t  start, int32_t  length) ;
 
-  /// @brief Method GetImageInfo, addr 0x25b3430, size 0x8, virtual true, abstract: false, final false
-  inline bool GetImageInfo(int32_t materialNodeID, ByRef<::HoudiniEngineUnity::HAPI_ImageInfo> imageInfo);
+/// @brief Method GetImageInfo, addr 0x39d55d0, size 0x8, virtual true, abstract: false, final false
+inline bool GetImageInfo(int32_t  materialNodeID, ByRef<::HoudiniEngineUnity::HAPI_ImageInfo>  imageInfo) ;
 
-  /// @brief Method GetImagePlanes, addr 0x25b34a4, size 0x4c, virtual true, abstract: false, final false
-  inline bool GetImagePlanes(int32_t nodeID, ByRef<::ArrayW<int32_t, ::Array<int32_t>*>> imagePlanes, int32_t numImagePlanes);
+/// @brief Method GetImagePlanes, addr 0x39d5644, size 0x4c, virtual true, abstract: false, final false
+inline bool GetImagePlanes(int32_t  nodeID, ByRef<::ArrayW<int32_t,::Array<int32_t>*>>  imagePlanes, int32_t  numImagePlanes) ;
 
-  /// @brief Method GetInstanceTransformsOnPart, addr 0x25b3328, size 0x8, virtual true, abstract: false, final false
-  inline bool GetInstanceTransformsOnPart(int32_t nodeID, int32_t partID, ::HoudiniEngineUnity::HAPI_RSTOrder rstOrder,
-                                          ByRef<::ArrayW<::HoudiniEngineUnity::HAPI_Transform, ::Array<::HoudiniEngineUnity::HAPI_Transform>*>> transformsArray, int32_t start, int32_t length);
+/// @brief Method GetInstanceTransformsOnPart, addr 0x39d54c8, size 0x8, virtual true, abstract: false, final false
+inline bool GetInstanceTransformsOnPart(int32_t  nodeID, int32_t  partID, ::HoudiniEngineUnity::HAPI_RSTOrder  rstOrder, ByRef<::ArrayW<::HoudiniEngineUnity::HAPI_Transform,::Array<::HoudiniEngineUnity::HAPI_Transform>*>>  transformsArray, int32_t  start, int32_t  length) ;
 
-  /// @brief Method GetInstancedObjectIds, addr 0x25b3330, size 0x8, virtual true, abstract: false, final false
-  inline bool GetInstancedObjectIds(int32_t nodeID, ByRef<::ArrayW<int32_t, ::Array<int32_t>*>> instanced_node_id_array, int32_t start, int32_t length);
+/// @brief Method GetInstancedObjectIds, addr 0x39d54d0, size 0x8, virtual true, abstract: false, final false
+inline bool GetInstancedObjectIds(int32_t  nodeID, ByRef<::ArrayW<int32_t,::Array<int32_t>*>>  instanced_node_id_array, int32_t  start, int32_t  length) ;
 
-  /// @brief Method GetInstancedPartIds, addr 0x25b3318, size 0x8, virtual true, abstract: false, final false
-  inline bool GetInstancedPartIds(int32_t nodeID, int32_t partID, ByRef<::ArrayW<int32_t, ::Array<int32_t>*>> instancedPartsArray, int32_t start, int32_t length);
+/// @brief Method GetInstancedPartIds, addr 0x39d54b8, size 0x8, virtual true, abstract: false, final false
+inline bool GetInstancedPartIds(int32_t  nodeID, int32_t  partID, ByRef<::ArrayW<int32_t,::Array<int32_t>*>>  instancedPartsArray, int32_t  start, int32_t  length) ;
 
-  /// @brief Method GetInstancerPartTransforms, addr 0x25b3320, size 0x8, virtual true, abstract: false, final false
-  inline bool GetInstancerPartTransforms(int32_t nodeID, int32_t partID, ::HoudiniEngineUnity::HAPI_RSTOrder rstOrder,
-                                         ByRef<::ArrayW<::HoudiniEngineUnity::HAPI_Transform, ::Array<::HoudiniEngineUnity::HAPI_Transform>*>> transformsArray, int32_t start, int32_t length);
+/// @brief Method GetInstancerPartTransforms, addr 0x39d54c0, size 0x8, virtual true, abstract: false, final false
+inline bool GetInstancerPartTransforms(int32_t  nodeID, int32_t  partID, ::HoudiniEngineUnity::HAPI_RSTOrder  rstOrder, ByRef<::ArrayW<::HoudiniEngineUnity::HAPI_Transform,::Array<::HoudiniEngineUnity::HAPI_Transform>*>>  transformsArray, int32_t  start, int32_t  length) ;
 
-  /// @brief Method GetLastSessionError, addr 0x25b305c, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW GetLastSessionError();
+/// @brief Method GetLastSessionError, addr 0x39d51fc, size 0x8, virtual false, abstract: false, final false
+inline ::StringW GetLastSessionError() ;
 
-  /// @brief Method GetMaterialInfo, addr 0x25b3428, size 0x8, virtual true, abstract: false, final false
-  inline bool GetMaterialInfo(int32_t materialNodeID, ByRef<::HoudiniEngineUnity::HAPI_MaterialInfo> materialInfo, bool bLogError);
+/// @brief Method GetMaterialInfo, addr 0x39d55c8, size 0x8, virtual true, abstract: false, final false
+inline bool GetMaterialInfo(int32_t  materialNodeID, ByRef<::HoudiniEngineUnity::HAPI_MaterialInfo>  materialInfo, bool  bLogError) ;
 
-  /// @brief Method GetMaterialNodeIDsOnFaces, addr 0x25b3420, size 0x8, virtual true, abstract: false, final false
-  inline bool GetMaterialNodeIDsOnFaces(int32_t nodeID, int32_t partID, ByRef<bool> bSingleFaceMaterial, ByRef<::ArrayW<int32_t, ::Array<int32_t>*>> materialNodeIDs, int32_t faceCount);
+/// @brief Method GetMaterialNodeIDsOnFaces, addr 0x39d55c0, size 0x8, virtual true, abstract: false, final false
+inline bool GetMaterialNodeIDsOnFaces(int32_t  nodeID, int32_t  partID, ByRef<bool>  bSingleFaceMaterial, ByRef<::ArrayW<int32_t,::Array<int32_t>*>>  materialNodeIDs, int32_t  faceCount) ;
 
-  /// @brief Method GetMaterialOnPart, addr 0x25b3418, size 0x8, virtual true, abstract: false, final false
-  inline bool GetMaterialOnPart(int32_t nodeID, int32_t partID, ByRef<::HoudiniEngineUnity::HAPI_MaterialInfo> materialInfo);
+/// @brief Method GetMaterialOnPart, addr 0x39d55b8, size 0x8, virtual true, abstract: false, final false
+inline bool GetMaterialOnPart(int32_t  nodeID, int32_t  partID, ByRef<::HoudiniEngineUnity::HAPI_MaterialInfo>  materialInfo) ;
 
-  /// @brief Method GetNodeInfo, addr 0x25b3210, size 0x8, virtual true, abstract: false, final false
-  inline bool GetNodeInfo(int32_t nodeID, ByRef<::HoudiniEngineUnity::HAPI_NodeInfo> nodeInfo, bool bLogError);
+/// @brief Method GetNodeInfo, addr 0x39d53b0, size 0x8, virtual true, abstract: false, final false
+inline bool GetNodeInfo(int32_t  nodeID, ByRef<::HoudiniEngineUnity::HAPI_NodeInfo>  nodeInfo, bool  bLogError) ;
 
-  /// @brief Method GetNodeInputName, addr 0x25b31e8, size 0xc, virtual true, abstract: false, final false
-  inline bool GetNodeInputName(int32_t nodeID, int32_t inputIndex, ByRef<int32_t> nodeNameIndex);
+/// @brief Method GetNodeInputName, addr 0x39d5388, size 0xc, virtual true, abstract: false, final false
+inline bool GetNodeInputName(int32_t  nodeID, int32_t  inputIndex, ByRef<int32_t>  nodeNameIndex) ;
 
-  /// @brief Method GetNodePath, addr 0x25b3218, size 0xc, virtual true, abstract: false, final false
-  inline bool GetNodePath(int32_t nodeID, int32_t relativeNodeID, ByRef<::StringW> path);
+/// @brief Method GetNodePath, addr 0x39d53b8, size 0xc, virtual true, abstract: false, final false
+inline bool GetNodePath(int32_t  nodeID, int32_t  relativeNodeID, ByRef<::StringW>  path) ;
 
-  /// @brief Method GetObjectInfo, addr 0x25b324c, size 0x8, virtual true, abstract: false, final false
-  inline bool GetObjectInfo(int32_t nodeID, ByRef<::HoudiniEngineUnity::HAPI_ObjectInfo> objectInfo);
+/// @brief Method GetObjectInfo, addr 0x39d53ec, size 0x8, virtual true, abstract: false, final false
+inline bool GetObjectInfo(int32_t  nodeID, ByRef<::HoudiniEngineUnity::HAPI_ObjectInfo>  objectInfo) ;
 
-  /// @brief Method GetObjectTransform, addr 0x25b3254, size 0x8, virtual true, abstract: false, final false
-  inline bool GetObjectTransform(int32_t nodeID, int32_t relativeToNodeID, ::HoudiniEngineUnity::HAPI_RSTOrder rstOrder, ByRef<::HoudiniEngineUnity::HAPI_Transform> hapiTransform);
+/// @brief Method GetObjectTransform, addr 0x39d53f4, size 0x8, virtual true, abstract: false, final false
+inline bool GetObjectTransform(int32_t  nodeID, int32_t  relativeToNodeID, ::HoudiniEngineUnity::HAPI_RSTOrder  rstOrder, ByRef<::HoudiniEngineUnity::HAPI_Transform>  hapiTransform) ;
 
-  /// @brief Method GetParamChoiceValues, addr 0x25b3570, size 0x8, virtual true, abstract: false, final false
-  inline bool GetParamChoiceValues(int32_t nodeID, ByRef<::ArrayW<::HoudiniEngineUnity::HAPI_ParmChoiceInfo, ::Array<::HoudiniEngineUnity::HAPI_ParmChoiceInfo>*>> values, int32_t start,
-                                   int32_t length);
+/// @brief Method GetParamChoiceValues, addr 0x39d5710, size 0x8, virtual true, abstract: false, final false
+inline bool GetParamChoiceValues(int32_t  nodeID, ByRef<::ArrayW<::HoudiniEngineUnity::HAPI_ParmChoiceInfo,::Array<::HoudiniEngineUnity::HAPI_ParmChoiceInfo>*>>  values, int32_t  start, int32_t  length) ;
 
-  /// @brief Method GetParamFloatValue, addr 0x25b3540, size 0xc, virtual true, abstract: false, final false
-  inline bool GetParamFloatValue(int32_t nodeID, ::StringW parmName, int32_t index, ByRef<float_t> value);
+/// @brief Method GetParamFloatValue, addr 0x39d56e0, size 0xc, virtual true, abstract: false, final false
+inline bool GetParamFloatValue(int32_t  nodeID, ::StringW  parmName, int32_t  index, ByRef<float_t>  value) ;
 
-  /// @brief Method GetParamFloatValues, addr 0x25b3538, size 0x8, virtual true, abstract: false, final false
-  inline bool GetParamFloatValues(int32_t nodeID, ByRef<::ArrayW<float_t, ::Array<float_t>*>> values, int32_t start, int32_t length);
+/// @brief Method GetParamFloatValues, addr 0x39d56d8, size 0x8, virtual true, abstract: false, final false
+inline bool GetParamFloatValues(int32_t  nodeID, ByRef<::ArrayW<float_t,::Array<float_t>*>>  values, int32_t  start, int32_t  length) ;
 
-  /// @brief Method GetParamIntValue, addr 0x25b352c, size 0xc, virtual true, abstract: false, final false
-  inline bool GetParamIntValue(int32_t nodeID, ::StringW parmName, int32_t index, ByRef<int32_t> value);
+/// @brief Method GetParamIntValue, addr 0x39d56cc, size 0xc, virtual true, abstract: false, final false
+inline bool GetParamIntValue(int32_t  nodeID, ::StringW  parmName, int32_t  index, ByRef<int32_t>  value) ;
 
-  /// @brief Method GetParamIntValues, addr 0x25b3524, size 0x8, virtual true, abstract: false, final false
-  inline bool GetParamIntValues(int32_t nodeID, ByRef<::ArrayW<int32_t, ::Array<int32_t>*>> values, int32_t start, int32_t length);
+/// @brief Method GetParamIntValues, addr 0x39d56c4, size 0x8, virtual true, abstract: false, final false
+inline bool GetParamIntValues(int32_t  nodeID, ByRef<::ArrayW<int32_t,::Array<int32_t>*>>  values, int32_t  start, int32_t  length) ;
 
-  /// @brief Method GetParamNodeValue, addr 0x25b3560, size 0x10, virtual true, abstract: false, final false
-  inline bool GetParamNodeValue(int32_t nodeID, ::StringW paramName, ByRef<int32_t> nodeValue);
+/// @brief Method GetParamNodeValue, addr 0x39d5700, size 0x10, virtual true, abstract: false, final false
+inline bool GetParamNodeValue(int32_t  nodeID, ::StringW  paramName, ByRef<int32_t>  nodeValue) ;
 
-  /// @brief Method GetParamStringValue, addr 0x25b3554, size 0xc, virtual true, abstract: false, final false
-  inline bool GetParamStringValue(int32_t nodeID, ::StringW parmName, int32_t index, ByRef<int32_t> value);
+/// @brief Method GetParamStringValue, addr 0x39d56f4, size 0xc, virtual true, abstract: false, final false
+inline bool GetParamStringValue(int32_t  nodeID, ::StringW  parmName, int32_t  index, ByRef<int32_t>  value) ;
 
-  /// @brief Method GetParamStringValues, addr 0x25b354c, size 0x8, virtual true, abstract: false, final false
-  inline bool GetParamStringValues(int32_t nodeID, ByRef<::ArrayW<int32_t, ::Array<int32_t>*>> values, int32_t start, int32_t length);
+/// @brief Method GetParamStringValues, addr 0x39d56ec, size 0x8, virtual true, abstract: false, final false
+inline bool GetParamStringValues(int32_t  nodeID, ByRef<::ArrayW<int32_t,::Array<int32_t>*>>  values, int32_t  start, int32_t  length) ;
 
-  /// @brief Method GetParams, addr 0x25b34fc, size 0x8, virtual true, abstract: false, final false
-  inline bool GetParams(int32_t nodeID, ByRef<::ArrayW<::HoudiniEngineUnity::HAPI_ParmInfo, ::Array<::HoudiniEngineUnity::HAPI_ParmInfo>*>> parmInfos, int32_t start, int32_t length);
+/// @brief Method GetParams, addr 0x39d569c, size 0x8, virtual true, abstract: false, final false
+inline bool GetParams(int32_t  nodeID, ByRef<::ArrayW<::HoudiniEngineUnity::HAPI_ParmInfo,::Array<::HoudiniEngineUnity::HAPI_ParmInfo>*>>  parmInfos, int32_t  start, int32_t  length) ;
 
-  /// @brief Method GetParmIDFromName, addr 0x25b35d8, size 0x10, virtual true, abstract: false, final false
-  inline bool GetParmIDFromName(int32_t nodeID, ::StringW parmName, ByRef<int32_t> parmID);
+/// @brief Method GetParmIDFromName, addr 0x39d5778, size 0x10, virtual true, abstract: false, final false
+inline bool GetParmIDFromName(int32_t  nodeID, ::StringW  parmName, ByRef<int32_t>  parmID) ;
 
-  /// @brief Method GetParmStringValue, addr 0x25b35e8, size 0xc, virtual true, abstract: false, final false
-  inline bool GetParmStringValue(int32_t nodeID, ::StringW parmName, int32_t index, bool evaluate, ByRef<int32_t> value);
+/// @brief Method GetParmStringValue, addr 0x39d5788, size 0xc, virtual true, abstract: false, final false
+inline bool GetParmStringValue(int32_t  nodeID, ::StringW  parmName, int32_t  index, bool  evaluate, ByRef<int32_t>  value) ;
 
-  /// @brief Method GetParmTagName, addr 0x25b3504, size 0xc, virtual true, abstract: false, final false
-  inline bool GetParmTagName(int32_t nodeID, int32_t parmID, int32_t tagIndex, ByRef<int32_t> tagName);
+/// @brief Method GetParmTagName, addr 0x39d56a4, size 0xc, virtual true, abstract: false, final false
+inline bool GetParmTagName(int32_t  nodeID, int32_t  parmID, int32_t  tagIndex, ByRef<int32_t>  tagName) ;
 
-  /// @brief Method GetParmTagValue, addr 0x25b3510, size 0xc, virtual true, abstract: false, final false
-  inline bool GetParmTagValue(int32_t nodeID, int32_t parmID, ::StringW tagName, ByRef<int32_t> tagValue);
+/// @brief Method GetParmTagValue, addr 0x39d56b0, size 0xc, virtual true, abstract: false, final false
+inline bool GetParmTagValue(int32_t  nodeID, int32_t  parmID, ::StringW  tagName, ByRef<int32_t>  tagValue) ;
 
-  /// @brief Method GetParmWithTag, addr 0x25b35c0, size 0x8, virtual true, abstract: false, final false
-  inline bool GetParmWithTag(int32_t nodeID, ::StringW tagName, ByRef<int32_t> parmID);
+/// @brief Method GetParmWithTag, addr 0x39d5760, size 0x8, virtual true, abstract: false, final false
+inline bool GetParmWithTag(int32_t  nodeID, ::StringW  tagName, ByRef<int32_t>  parmID) ;
 
-  /// @brief Method GetPartInfo, addr 0x25b3290, size 0x8, virtual true, abstract: false, final false
-  inline bool GetPartInfo(int32_t nodeID, int32_t partID, ByRef<::HoudiniEngineUnity::HAPI_PartInfo> partInfo);
+/// @brief Method GetPartInfo, addr 0x39d5430, size 0x8, virtual true, abstract: false, final false
+inline bool GetPartInfo(int32_t  nodeID, int32_t  partID, ByRef<::HoudiniEngineUnity::HAPI_PartInfo>  partInfo) ;
 
-  /// @brief Method GetPreset, addr 0x25b3634, size 0x54, virtual true, abstract: false, final false
-  inline bool GetPreset(int32_t nodeID, ByRef<::ArrayW<uint8_t, ::Array<uint8_t>*>> presetData);
+/// @brief Method GetPreset, addr 0x39d57d4, size 0x54, virtual true, abstract: false, final false
+inline bool GetPreset(int32_t  nodeID, ByRef<::ArrayW<uint8_t,::Array<uint8_t>*>>  presetData) ;
 
-  /// @brief Method GetRegisteredAssetFromID, addr 0x25b2bd4, size 0x8, virtual true, abstract: false, final false
-  inline ::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset> GetRegisteredAssetFromID(int32_t id);
+/// @brief Method GetRegisteredAssetFromID, addr 0x39d4d74, size 0x8, virtual true, abstract: false, final false
+inline ::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset> GetRegisteredAssetFromID(int32_t  id) ;
 
-  /// @brief Method GetServerEnvString, addr 0x25b3080, size 0xc, virtual true, abstract: false, final false
-  inline bool GetServerEnvString(::StringW name, ByRef<::StringW> value);
+/// @brief Method GetServerEnvString, addr 0x39d5220, size 0xc, virtual true, abstract: false, final false
+inline bool GetServerEnvString(::StringW  name, ByRef<::StringW>  value) ;
 
-  /// @brief Method GetServerEnvVarCount, addr 0x25b308c, size 0xc, virtual true, abstract: false, final false
-  inline bool GetServerEnvVarCount(ByRef<int32_t> env_count);
+/// @brief Method GetServerEnvVarCount, addr 0x39d522c, size 0xc, virtual true, abstract: false, final false
+inline bool GetServerEnvVarCount(ByRef<int32_t>  env_count) ;
 
-  /// @brief Method GetSessionData, addr 0x25b3004, size 0x8, virtual false, abstract: false, final false
-  inline ::HoudiniEngineUnity::HEU_SessionData* GetSessionData();
+/// @brief Method GetSessionData, addr 0x39d51a4, size 0x8, virtual false, abstract: false, final false
+inline ::HoudiniEngineUnity::HEU_SessionData* GetSessionData() ;
 
-  /// @brief Method GetSessionEnvInt, addr 0x25b3144, size 0x8, virtual true, abstract: false, final false
-  inline int32_t GetSessionEnvInt(::HoudiniEngineUnity::HAPI_SessionEnvIntType intType, bool bLogError);
+/// @brief Method GetSessionEnvInt, addr 0x39d52e4, size 0x8, virtual true, abstract: false, final false
+inline int32_t GetSessionEnvInt(::HoudiniEngineUnity::HAPI_SessionEnvIntType  intType, bool  bLogError) ;
 
-  /// @brief Method GetSessionErrorMsg, addr 0x25b2b64, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW GetSessionErrorMsg();
+/// @brief Method GetSessionErrorMsg, addr 0x39d4d04, size 0x8, virtual false, abstract: false, final false
+inline ::StringW GetSessionErrorMsg() ;
 
-  /// @brief Method GetSessionInfo, addr 0x25b300c, size 0x40, virtual true, abstract: false, final false
-  inline ::StringW GetSessionInfo();
+/// @brief Method GetSessionInfo, addr 0x39d51ac, size 0x40, virtual true, abstract: false, final false
+inline ::StringW GetSessionInfo() ;
 
-  /// @brief Method GetSessionSyncInfo, addr 0x25b37d4, size 0x8, virtual true, abstract: false, final false
-  inline bool GetSessionSyncInfo(ByRef<::HoudiniEngineUnity::HAPI_SessionSyncInfo> syncInfo);
+/// @brief Method GetSessionSyncInfo, addr 0x39d5974, size 0x8, virtual true, abstract: false, final false
+inline bool GetSessionSyncInfo(ByRef<::HoudiniEngineUnity::HAPI_SessionSyncInfo>  syncInfo) ;
 
-  /// @brief Method GetSphereInfo, addr 0x25b3358, size 0x8, virtual true, abstract: false, final false
-  inline bool GetSphereInfo(int32_t nodeID, int32_t partID, ByRef<::HoudiniEngineUnity::HAPI_SphereInfo> sphereInfo);
+/// @brief Method GetSphereInfo, addr 0x39d54f8, size 0x8, virtual true, abstract: false, final false
+inline bool GetSphereInfo(int32_t  nodeID, int32_t  partID, ByRef<::HoudiniEngineUnity::HAPI_SphereInfo>  sphereInfo) ;
 
-  /// @brief Method GetStatusString, addr 0x25b30bc, size 0x40, virtual true, abstract: false, final false
-  inline ::StringW GetStatusString(::HoudiniEngineUnity::HAPI_StatusType statusType, ::HoudiniEngineUnity::HAPI_StatusVerbosity verbosity);
+/// @brief Method GetStatusString, addr 0x39d525c, size 0x40, virtual true, abstract: false, final false
+inline ::StringW GetStatusString(::HoudiniEngineUnity::HAPI_StatusType  statusType, ::HoudiniEngineUnity::HAPI_StatusVerbosity  verbosity) ;
 
-  /// @brief Method GetString, addr 0x25b314c, size 0x8, virtual true, abstract: false, final false
-  inline bool GetString(int32_t stringHandle, ByRef<::StringW> resultString, int32_t bufferLength);
+/// @brief Method GetString, addr 0x39d52ec, size 0x8, virtual true, abstract: false, final false
+inline bool GetString(int32_t  stringHandle, ByRef<::StringW>  resultString, int32_t  bufferLength) ;
 
-  /// @brief Method GetStringBufferLength, addr 0x25b3154, size 0x8, virtual true, abstract: false, final false
-  inline int32_t GetStringBufferLength(int32_t stringHandle);
+/// @brief Method GetStringBufferLength, addr 0x39d52f4, size 0x8, virtual true, abstract: false, final false
+inline int32_t GetStringBufferLength(int32_t  stringHandle) ;
 
-  /// @brief Method GetTime, addr 0x25b3164, size 0x8, virtual true, abstract: false, final false
-  inline float_t GetTime();
+/// @brief Method GetTime, addr 0x39d5304, size 0x8, virtual true, abstract: false, final false
+inline float_t GetTime() ;
 
-  /// @brief Method GetTotalCookCount, addr 0x25b37b0, size 0xc, virtual true, abstract: false, final false
-  inline bool GetTotalCookCount(int32_t nodeID, int32_t nodeTypeFilter, int32_t nodeFlagFilter, bool includeChildren, ByRef<int32_t> count);
+/// @brief Method GetTotalCookCount, addr 0x39d5950, size 0xc, virtual true, abstract: false, final false
+inline bool GetTotalCookCount(int32_t  nodeID, int32_t  nodeTypeFilter, int32_t  nodeFlagFilter, bool  includeChildren, ByRef<int32_t>  count) ;
 
-  /// @brief Method GetUseHoudiniTime, addr 0x25b3174, size 0x8, virtual true, abstract: false, final false
-  inline bool GetUseHoudiniTime();
+/// @brief Method GetUseHoudiniTime, addr 0x39d5314, size 0x8, virtual true, abstract: false, final false
+inline bool GetUseHoudiniTime() ;
 
-  /// @brief Method GetVertexList, addr 0x25b3348, size 0x8, virtual true, abstract: false, final false
-  inline bool GetVertexList(int32_t nodeID, int32_t partID, ByRef<::ArrayW<int32_t, ::Array<int32_t>*>> vertexList, int32_t start, int32_t length);
+/// @brief Method GetVertexList, addr 0x39d54e8, size 0x8, virtual true, abstract: false, final false
+inline bool GetVertexList(int32_t  nodeID, int32_t  partID, ByRef<::ArrayW<int32_t,::Array<int32_t>*>>  vertexList, int32_t  start, int32_t  length) ;
 
-  /// @brief Method GetViewport, addr 0x25b37c4, size 0x8, virtual true, abstract: false, final false
-  inline bool GetViewport(ByRef<::HoudiniEngineUnity::HAPI_Viewport> viewport);
+/// @brief Method GetViewport, addr 0x39d5964, size 0x8, virtual true, abstract: false, final false
+inline bool GetViewport(ByRef<::HoudiniEngineUnity::HAPI_Viewport>  viewport) ;
 
-  /// @brief Method GetVolumeBounds, addr 0x25b36f4, size 0x34, virtual true, abstract: false, final false
-  inline bool GetVolumeBounds(int32_t nodeID, int32_t partID, ByRef<float_t> x_min, ByRef<float_t> y_min, ByRef<float_t> z_min, ByRef<float_t> x_max, ByRef<float_t> y_max, ByRef<float_t> z_max,
-                              ByRef<float_t> x_center, ByRef<float_t> y_center, ByRef<float_t> z_center);
+/// @brief Method GetVolumeBounds, addr 0x39d5894, size 0x34, virtual true, abstract: false, final false
+inline bool GetVolumeBounds(int32_t  nodeID, int32_t  partID, ByRef<float_t>  x_min, ByRef<float_t>  y_min, ByRef<float_t>  z_min, ByRef<float_t>  x_max, ByRef<float_t>  y_max, ByRef<float_t>  z_max, ByRef<float_t>  x_center, ByRef<float_t>  y_center, ByRef<float_t>  z_center) ;
 
-  /// @brief Method GetVolumeInfo, addr 0x25b3690, size 0x8, virtual true, abstract: false, final false
-  inline bool GetVolumeInfo(int32_t nodeID, int32_t partID, ByRef<::HoudiniEngineUnity::HAPI_VolumeInfo> volumeInfo);
+/// @brief Method GetVolumeInfo, addr 0x39d5830, size 0x8, virtual true, abstract: false, final false
+inline bool GetVolumeInfo(int32_t  nodeID, int32_t  partID, ByRef<::HoudiniEngineUnity::HAPI_VolumeInfo>  volumeInfo) ;
 
-  /// @brief Method HandleStatusResult, addr 0x25b3074, size 0x8, virtual true, abstract: false, final false
-  inline bool HandleStatusResult(::HoudiniEngineUnity::HAPI_Result result, ::StringW prependMsg, bool bThrowError, bool bLogError);
+/// @brief Method HandleStatusResult, addr 0x39d5214, size 0x8, virtual true, abstract: false, final false
+inline bool HandleStatusResult(::HoudiniEngineUnity::HAPI_Result  result, ::StringW  prependMsg, bool  bThrowError, bool  bLogError) ;
 
-  /// @brief Method InitializeSession, addr 0x25b306c, size 0x8, virtual true, abstract: false, final false
-  inline bool InitializeSession(::HoudiniEngineUnity::HEU_SessionData* sessionData);
+/// @brief Method InitializeSession, addr 0x39d520c, size 0x8, virtual true, abstract: false, final false
+inline bool InitializeSession(::HoudiniEngineUnity::HEU_SessionData*  sessionData) ;
 
-  /// @brief Method InsertMultiparmInstance, addr 0x25b35b0, size 0x8, virtual true, abstract: false, final false
-  inline bool InsertMultiparmInstance(int32_t nodeID, int32_t parmID, int32_t instancePosition);
+/// @brief Method InsertMultiparmInstance, addr 0x39d5750, size 0x8, virtual true, abstract: false, final false
+inline bool InsertMultiparmInstance(int32_t  nodeID, int32_t  parmID, int32_t  instancePosition) ;
 
-  /// @brief Method IsAssetRegistered, addr 0x25b2bdc, size 0x8, virtual true, abstract: false, final false
-  inline bool IsAssetRegistered(::HoudiniEngineUnity::HEU_HoudiniAsset* asset);
+/// @brief Method IsAssetRegistered, addr 0x39d4d7c, size 0x8, virtual true, abstract: false, final false
+inline bool IsAssetRegistered(::HoudiniEngineUnity::HEU_HoudiniAsset*  asset) ;
 
-  /// @brief Method IsNodeValid, addr 0x25b3224, size 0x8, virtual true, abstract: false, final false
-  inline bool IsNodeValid(int32_t nodeID, int32_t uniqueNodeID);
+/// @brief Method IsNodeValid, addr 0x39d53c4, size 0x8, virtual true, abstract: false, final false
+inline bool IsNodeValid(int32_t  nodeID, int32_t  uniqueNodeID) ;
 
-  /// @brief Method IsSessionSync, addr 0x25b2b94, size 0x20, virtual false, abstract: false, final false
-  inline bool IsSessionSync();
+/// @brief Method IsSessionSync, addr 0x39d4d34, size 0x20, virtual false, abstract: false, final false
+inline bool IsSessionSync() ;
 
-  /// @brief Method IsSessionValid, addr 0x25b304c, size 0x8, virtual true, abstract: false, final false
-  inline bool IsSessionValid();
+/// @brief Method IsSessionValid, addr 0x39d51ec, size 0x8, virtual true, abstract: false, final false
+inline bool IsSessionValid() ;
 
-  /// @brief Method LoadAssetLibraryFromFile, addr 0x25b3184, size 0xc, virtual true, abstract: false, final false
-  inline bool LoadAssetLibraryFromFile(::StringW assetPath, bool bAllowOverwrite, ByRef<int32_t> libraryID);
+/// @brief Method LoadAssetLibraryFromFile, addr 0x39d5324, size 0xc, virtual true, abstract: false, final false
+inline bool LoadAssetLibraryFromFile(::StringW  assetPath, bool  bAllowOverwrite, ByRef<int32_t>  libraryID) ;
 
-  /// @brief Method LoadAssetLibraryFromMemory, addr 0x25b3190, size 0xc, virtual true, abstract: false, final false
-  inline bool LoadAssetLibraryFromMemory(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, bool bAllowOverwrite, ByRef<int32_t> libraryID);
+/// @brief Method LoadAssetLibraryFromMemory, addr 0x39d5330, size 0xc, virtual true, abstract: false, final false
+inline bool LoadAssetLibraryFromMemory(::ArrayW<uint8_t,::Array<uint8_t>*>  buffer, bool  bAllowOverwrite, ByRef<int32_t>  libraryID) ;
 
-  /// @brief Method LoadGeoFromFile, addr 0x25b3760, size 0x8, virtual true, abstract: false, final false
-  inline bool LoadGeoFromFile(int32_t nodeID, ::StringW file_name);
+/// @brief Method LoadGeoFromFile, addr 0x39d5900, size 0x8, virtual true, abstract: false, final false
+inline bool LoadGeoFromFile(int32_t  nodeID, ::StringW  file_name) ;
 
-  /// @brief Method LoadHIPFile, addr 0x25b323c, size 0x8, virtual true, abstract: false, final false
-  inline bool LoadHIPFile(::StringW fileName, bool bCookOnLoad);
+/// @brief Method LoadHIPFile, addr 0x39d53dc, size 0x8, virtual true, abstract: false, final false
+inline bool LoadHIPFile(::StringW  fileName, bool  bCookOnLoad) ;
 
-  /// @brief Method LoadNodeFromFile, addr 0x25b3770, size 0x10, virtual true, abstract: false, final false
-  inline bool LoadNodeFromFile(::StringW file_name, int32_t parentNodeID, ::StringW nodeLabel, bool cook_on_load, ByRef<int32_t> newNodeID);
+/// @brief Method LoadNodeFromFile, addr 0x39d5910, size 0x10, virtual true, abstract: false, final false
+inline bool LoadNodeFromFile(::StringW  file_name, int32_t  parentNodeID, ::StringW  nodeLabel, bool  cook_on_load, ByRef<int32_t>  newNodeID) ;
 
-  static inline ::HoudiniEngineUnity::HEU_SessionBase* New_ctor();
+static inline ::HoudiniEngineUnity::HEU_SessionBase* New_ctor() ;
 
-  /// @brief Method ParmHasTag, addr 0x25b351c, size 0x8, virtual true, abstract: false, final false
-  inline bool ParmHasTag(int32_t nodeID, int32_t parmID, ::StringW tagName, ByRef<bool> hasTag);
+/// @brief Method ParmHasTag, addr 0x39d56bc, size 0x8, virtual true, abstract: false, final false
+inline bool ParmHasTag(int32_t  nodeID, int32_t  parmID, ::StringW  tagName, ByRef<bool>  hasTag) ;
 
-  /// @brief Method QueryNodeInput, addr 0x25b31d8, size 0x10, virtual true, abstract: false, final false
-  inline bool QueryNodeInput(int32_t nodeID, int32_t inputIndex, ByRef<int32_t> connectedNodeID, bool bLogError);
+/// @brief Method QueryNodeInput, addr 0x39d5378, size 0x10, virtual true, abstract: false, final false
+inline bool QueryNodeInput(int32_t  nodeID, int32_t  inputIndex, ByRef<int32_t>  connectedNodeID, bool  bLogError) ;
 
-  /// @brief Method RegisterAsset, addr 0x25b2be4, size 0x4, virtual true, abstract: false, final false
-  inline void RegisterAsset(::HoudiniEngineUnity::HEU_HoudiniAsset* asset);
+/// @brief Method RegisterAsset, addr 0x39d4d84, size 0x4, virtual true, abstract: false, final false
+inline void RegisterAsset(::HoudiniEngineUnity::HEU_HoudiniAsset*  asset) ;
 
-  /// @brief Method RemoveMultiParmInstance, addr 0x25b35b8, size 0x8, virtual true, abstract: false, final false
-  inline bool RemoveMultiParmInstance(int32_t nodeID, int32_t parmID, int32_t instancePosition);
+/// @brief Method RemoveMultiParmInstance, addr 0x39d5758, size 0x8, virtual true, abstract: false, final false
+inline bool RemoveMultiParmInstance(int32_t  nodeID, int32_t  parmID, int32_t  instancePosition) ;
 
-  /// @brief Method RenameNode, addr 0x25b31c0, size 0x8, virtual true, abstract: false, final false
-  inline bool RenameNode(int32_t nodeID, ::StringW newName);
+/// @brief Method RenameNode, addr 0x39d5360, size 0x8, virtual true, abstract: false, final false
+inline bool RenameNode(int32_t  nodeID, ::StringW  newName) ;
 
-  /// @brief Method RenderCOPToImage, addr 0x25b3448, size 0x8, virtual true, abstract: false, final false
-  inline bool RenderCOPToImage(int32_t copNodeID);
+/// @brief Method RenderCOPToImage, addr 0x39d55e8, size 0x8, virtual true, abstract: false, final false
+inline bool RenderCOPToImage(int32_t  copNodeID) ;
 
-  /// @brief Method RenderTextureToImage, addr 0x25b3440, size 0x8, virtual true, abstract: false, final false
-  inline bool RenderTextureToImage(int32_t materialNodeID, int32_t parmID, bool bLogError);
+/// @brief Method RenderTextureToImage, addr 0x39d55e0, size 0x8, virtual true, abstract: false, final false
+inline bool RenderTextureToImage(int32_t  materialNodeID, int32_t  parmID, bool  bLogError) ;
 
-  /// @brief Method ReregisterOnAwake, addr 0x25b2bec, size 0x4, virtual true, abstract: false, final false
-  inline void ReregisterOnAwake(::HoudiniEngineUnity::HEU_HoudiniAsset* asset);
+/// @brief Method ReregisterOnAwake, addr 0x39d4d8c, size 0x4, virtual true, abstract: false, final false
+inline void ReregisterOnAwake(::HoudiniEngineUnity::HEU_HoudiniAsset*  asset) ;
 
-  /// @brief Method RestartSession, addr 0x25b3054, size 0x8, virtual true, abstract: false, final false
-  inline bool RestartSession();
+/// @brief Method RestartSession, addr 0x39d51f4, size 0x8, virtual true, abstract: false, final false
+inline bool RestartSession() ;
 
-  /// @brief Method RevertGeo, addr 0x25b33f0, size 0x8, virtual true, abstract: false, final false
-  inline bool RevertGeo(int32_t nodeID);
+/// @brief Method RevertGeo, addr 0x39d5590, size 0x8, virtual true, abstract: false, final false
+inline bool RevertGeo(int32_t  nodeID) ;
 
-  /// @brief Method RevertParmToDefault, addr 0x25b35c8, size 0x8, virtual true, abstract: false, final false
-  inline bool RevertParmToDefault(int32_t nodeID, ::StringW parm_name, int32_t index);
+/// @brief Method RevertParmToDefault, addr 0x39d5768, size 0x8, virtual true, abstract: false, final false
+inline bool RevertParmToDefault(int32_t  nodeID, ::StringW  parm_name, int32_t  index) ;
 
-  /// @brief Method RevertParmToDefaults, addr 0x25b35d0, size 0x8, virtual true, abstract: false, final false
-  inline bool RevertParmToDefaults(int32_t nodeID, ::StringW parm_name);
+/// @brief Method RevertParmToDefaults, addr 0x39d5770, size 0x8, virtual true, abstract: false, final false
+inline bool RevertParmToDefaults(int32_t  nodeID, ::StringW  parm_name) ;
 
-  /// @brief Method SaveGeoToFile, addr 0x25b3758, size 0x8, virtual true, abstract: false, final false
-  inline bool SaveGeoToFile(int32_t nodeID, ::StringW fileName);
+/// @brief Method SaveGeoToFile, addr 0x39d58f8, size 0x8, virtual true, abstract: false, final false
+inline bool SaveGeoToFile(int32_t  nodeID, ::StringW  fileName) ;
 
-  /// @brief Method SaveHIPFile, addr 0x25b3244, size 0x8, virtual true, abstract: false, final false
-  inline bool SaveHIPFile(::StringW fileName, bool bLockNodes);
+/// @brief Method SaveHIPFile, addr 0x39d53e4, size 0x8, virtual true, abstract: false, final false
+inline bool SaveHIPFile(::StringW  fileName, bool  bLockNodes) ;
 
-  /// @brief Method SaveNodeToFile, addr 0x25b3768, size 0x8, virtual true, abstract: false, final false
-  inline bool SaveNodeToFile(int32_t nodeID, ::StringW fileName);
+/// @brief Method SaveNodeToFile, addr 0x39d5908, size 0x8, virtual true, abstract: false, final false
+inline bool SaveNodeToFile(int32_t  nodeID, ::StringW  fileName) ;
 
-  /// @brief Method SetAttributeFloatData, addr 0x25b33b8, size 0x8, virtual true, abstract: false, final false
-  inline bool SetAttributeFloatData(int32_t nodeID, int32_t partID, ::StringW name, ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo> attrInfo, ::ArrayW<float_t, ::Array<float_t>*> data, int32_t start,
-                                    int32_t length);
+/// @brief Method SetAttributeFloatData, addr 0x39d5558, size 0x8, virtual true, abstract: false, final false
+inline bool SetAttributeFloatData(int32_t  nodeID, int32_t  partID, ::StringW  name, ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo>  attrInfo, ::ArrayW<float_t,::Array<float_t>*>  data, int32_t  start, int32_t  length) ;
 
-  /// @brief Method SetAttributeInt16Data, addr 0x25b33a8, size 0x8, virtual true, abstract: false, final false
-  inline bool SetAttributeInt16Data(int32_t nodeID, int32_t partID, ::StringW name, ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo> attrInfo, ::ArrayW<int16_t, ::Array<int16_t>*> data, int32_t start,
-                                    int32_t length);
+/// @brief Method SetAttributeInt16Data, addr 0x39d5548, size 0x8, virtual true, abstract: false, final false
+inline bool SetAttributeInt16Data(int32_t  nodeID, int32_t  partID, ::StringW  name, ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo>  attrInfo, ::ArrayW<int16_t,::Array<int16_t>*>  data, int32_t  start, int32_t  length) ;
 
-  /// @brief Method SetAttributeInt64Data, addr 0x25b33b0, size 0x8, virtual true, abstract: false, final false
-  inline bool SetAttributeInt64Data(int32_t nodeID, int32_t partID, ::StringW name, ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo> attrInfo, ::ArrayW<int64_t, ::Array<int64_t>*> data, int32_t start,
-                                    int32_t length);
+/// @brief Method SetAttributeInt64Data, addr 0x39d5550, size 0x8, virtual true, abstract: false, final false
+inline bool SetAttributeInt64Data(int32_t  nodeID, int32_t  partID, ::StringW  name, ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo>  attrInfo, ::ArrayW<int64_t,::Array<int64_t>*>  data, int32_t  start, int32_t  length) ;
 
-  /// @brief Method SetAttributeInt8Data, addr 0x25b33a0, size 0x8, virtual true, abstract: false, final false
-  inline bool SetAttributeInt8Data(int32_t nodeID, int32_t partID, ::StringW name, ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo> attrInfo, ::ArrayW<int8_t, ::Array<int8_t>*> data, int32_t start,
-                                   int32_t length);
+/// @brief Method SetAttributeInt8Data, addr 0x39d5540, size 0x8, virtual true, abstract: false, final false
+inline bool SetAttributeInt8Data(int32_t  nodeID, int32_t  partID, ::StringW  name, ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo>  attrInfo, ::ArrayW<int8_t,::Array<int8_t>*>  data, int32_t  start, int32_t  length) ;
 
-  /// @brief Method SetAttributeIntData, addr 0x25b3398, size 0x8, virtual true, abstract: false, final false
-  inline bool SetAttributeIntData(int32_t nodeID, int32_t partID, ::StringW name, ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo> attrInfo, ::ArrayW<int32_t, ::Array<int32_t>*> data, int32_t start,
-                                  int32_t length);
+/// @brief Method SetAttributeIntData, addr 0x39d5538, size 0x8, virtual true, abstract: false, final false
+inline bool SetAttributeIntData(int32_t  nodeID, int32_t  partID, ::StringW  name, ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo>  attrInfo, ::ArrayW<int32_t,::Array<int32_t>*>  data, int32_t  start, int32_t  length) ;
 
-  /// @brief Method SetAttributeStringData, addr 0x25b33c0, size 0x8, virtual true, abstract: false, final false
-  inline bool SetAttributeStringData(int32_t nodeID, int32_t partID, ::StringW name, ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo> attrInfo, ::ArrayW<::StringW, ::Array<::StringW>*> data,
-                                     int32_t start, int32_t length);
+/// @brief Method SetAttributeStringData, addr 0x39d5560, size 0x8, virtual true, abstract: false, final false
+inline bool SetAttributeStringData(int32_t  nodeID, int32_t  partID, ::StringW  name, ByRef<::HoudiniEngineUnity::HAPI_AttributeInfo>  attrInfo, ::ArrayW<::StringW,::Array<::StringW>*>  data, int32_t  start, int32_t  length) ;
 
-  /// @brief Method SetCacheProperty, addr 0x25b3750, size 0x8, virtual true, abstract: false, final false
-  inline bool SetCacheProperty(::StringW cacheName, ::HoudiniEngineUnity::HAPI_CacheProperty cacheProperty, int32_t propertyValue);
+/// @brief Method SetCacheProperty, addr 0x39d58f0, size 0x8, virtual true, abstract: false, final false
+inline bool SetCacheProperty(::StringW  cacheName, ::HoudiniEngineUnity::HAPI_CacheProperty  cacheProperty, int32_t  propertyValue) ;
 
-  /// @brief Method SetCurveCounts, addr 0x25b3400, size 0x8, virtual true, abstract: false, final false
-  inline bool SetCurveCounts(int32_t nodeID, int32_t partID, ::ArrayW<int32_t, ::Array<int32_t>*> counts, int32_t start, int32_t length);
+/// @brief Method SetCurveCounts, addr 0x39d55a0, size 0x8, virtual true, abstract: false, final false
+inline bool SetCurveCounts(int32_t  nodeID, int32_t  partID, ::ArrayW<int32_t,::Array<int32_t>*>  counts, int32_t  start, int32_t  length) ;
 
-  /// @brief Method SetCurveInfo, addr 0x25b33f8, size 0x8, virtual true, abstract: false, final false
-  inline bool SetCurveInfo(int32_t nodeID, int32_t partID, ByRef<::HoudiniEngineUnity::HAPI_CurveInfo> curveInfo);
+/// @brief Method SetCurveInfo, addr 0x39d5598, size 0x8, virtual true, abstract: false, final false
+inline bool SetCurveInfo(int32_t  nodeID, int32_t  partID, ByRef<::HoudiniEngineUnity::HAPI_CurveInfo>  curveInfo) ;
 
-  /// @brief Method SetCurveKnots, addr 0x25b3410, size 0x8, virtual true, abstract: false, final false
-  inline bool SetCurveKnots(int32_t nodeID, int32_t partID, ::ArrayW<float_t, ::Array<float_t>*> knots, int32_t start, int32_t length);
+/// @brief Method SetCurveKnots, addr 0x39d55b0, size 0x8, virtual true, abstract: false, final false
+inline bool SetCurveKnots(int32_t  nodeID, int32_t  partID, ::ArrayW<float_t,::Array<float_t>*>  knots, int32_t  start, int32_t  length) ;
 
-  /// @brief Method SetCurveOrders, addr 0x25b3408, size 0x8, virtual true, abstract: false, final false
-  inline bool SetCurveOrders(int32_t nodeID, int32_t partID, ::ArrayW<int32_t, ::Array<int32_t>*> orders, int32_t start, int32_t length);
+/// @brief Method SetCurveOrders, addr 0x39d55a8, size 0x8, virtual true, abstract: false, final false
+inline bool SetCurveOrders(int32_t  nodeID, int32_t  partID, ::ArrayW<int32_t,::Array<int32_t>*>  orders, int32_t  start, int32_t  length) ;
 
-  /// @brief Method SetFaceCount, addr 0x25b3388, size 0x8, virtual true, abstract: false, final false
-  inline bool SetFaceCount(int32_t nodeID, int32_t partID, ::ArrayW<int32_t, ::Array<int32_t>*> faceCounts, int32_t start, int32_t length);
+/// @brief Method SetFaceCount, addr 0x39d5528, size 0x8, virtual true, abstract: false, final false
+inline bool SetFaceCount(int32_t  nodeID, int32_t  partID, ::ArrayW<int32_t,::Array<int32_t>*>  faceCounts, int32_t  start, int32_t  length) ;
 
-  /// @brief Method SetGroupMembership, addr 0x25b33e0, size 0x8, virtual true, abstract: false, final false
-  inline bool SetGroupMembership(int32_t nodeID, int32_t partID, ::HoudiniEngineUnity::HAPI_GroupType groupType, ::StringW groupName, ByRef<::ArrayW<int32_t, ::Array<int32_t>*>> membershipArray,
-                                 int32_t start, int32_t length);
+/// @brief Method SetGroupMembership, addr 0x39d5580, size 0x8, virtual true, abstract: false, final false
+inline bool SetGroupMembership(int32_t  nodeID, int32_t  partID, ::HoudiniEngineUnity::HAPI_GroupType  groupType, ::StringW  groupName, ByRef<::ArrayW<int32_t,::Array<int32_t>*>>  membershipArray, int32_t  start, int32_t  length) ;
 
-  /// @brief Method SetHeightFieldData, addr 0x25b3728, size 0x8, virtual true, abstract: false, final false
-  inline bool SetHeightFieldData(int32_t nodeID, int32_t partID, ::StringW name, ::ArrayW<float_t, ::Array<float_t>*> valuesArray, int32_t start, int32_t length);
+/// @brief Method SetHeightFieldData, addr 0x39d58c8, size 0x8, virtual true, abstract: false, final false
+inline bool SetHeightFieldData(int32_t  nodeID, int32_t  partID, ::StringW  name, ::ArrayW<float_t,::Array<float_t>*>  valuesArray, int32_t  start, int32_t  length) ;
 
-  /// @brief Method SetImageInfo, addr 0x25b3438, size 0x8, virtual true, abstract: false, final false
-  inline bool SetImageInfo(int32_t materialNodeID, ByRef<::HoudiniEngineUnity::HAPI_ImageInfo> imageInfo);
+/// @brief Method SetImageInfo, addr 0x39d55d8, size 0x8, virtual true, abstract: false, final false
+inline bool SetImageInfo(int32_t  materialNodeID, ByRef<::HoudiniEngineUnity::HAPI_ImageInfo>  imageInfo) ;
 
-  /// @brief Method SetLibraryErrorMsg, addr 0x25b2ed4, size 0xb8, virtual true, abstract: false, final false
-  inline void SetLibraryErrorMsg(bool bLogError);
+/// @brief Method SetLibraryErrorMsg, addr 0x39d5074, size 0xb8, virtual true, abstract: false, final false
+inline void SetLibraryErrorMsg(bool  bLogError) ;
 
-  /// @brief Method SetNodeDisplay, addr 0x25b37e4, size 0x8, virtual true, abstract: false, final false
-  inline bool SetNodeDisplay(int32_t node_id, int32_t onOff);
+/// @brief Method SetNodeDisplay, addr 0x39d5984, size 0x8, virtual true, abstract: false, final false
+inline bool SetNodeDisplay(int32_t  node_id, int32_t  onOff) ;
 
-  /// @brief Method SetObjectTransform, addr 0x25b325c, size 0x8, virtual true, abstract: false, final false
-  inline bool SetObjectTransform(int32_t nodeID, ByRef<::HoudiniEngineUnity::HAPI_TransformEuler> hapiTransform);
+/// @brief Method SetObjectTransform, addr 0x39d53fc, size 0x8, virtual true, abstract: false, final false
+inline bool SetObjectTransform(int32_t  nodeID, ByRef<::HoudiniEngineUnity::HAPI_TransformEuler>  hapiTransform) ;
 
-  /// @brief Method SetParamFloatValue, addr 0x25b3590, size 0x8, virtual true, abstract: false, final false
-  inline bool SetParamFloatValue(int32_t nodeID, ::StringW paramName, int32_t index, float_t value);
+/// @brief Method SetParamFloatValue, addr 0x39d5730, size 0x8, virtual true, abstract: false, final false
+inline bool SetParamFloatValue(int32_t  nodeID, ::StringW  paramName, int32_t  index, float_t  value) ;
 
-  /// @brief Method SetParamFloatValues, addr 0x25b3588, size 0x8, virtual true, abstract: false, final false
-  inline bool SetParamFloatValues(int32_t nodeID, ByRef<::ArrayW<float_t, ::Array<float_t>*>> values, int32_t start, int32_t length);
+/// @brief Method SetParamFloatValues, addr 0x39d5728, size 0x8, virtual true, abstract: false, final false
+inline bool SetParamFloatValues(int32_t  nodeID, ByRef<::ArrayW<float_t,::Array<float_t>*>>  values, int32_t  start, int32_t  length) ;
 
-  /// @brief Method SetParamIntValue, addr 0x25b3580, size 0x8, virtual true, abstract: false, final false
-  inline bool SetParamIntValue(int32_t nodeID, ::StringW paramName, int32_t index, int32_t value);
+/// @brief Method SetParamIntValue, addr 0x39d5720, size 0x8, virtual true, abstract: false, final false
+inline bool SetParamIntValue(int32_t  nodeID, ::StringW  paramName, int32_t  index, int32_t  value) ;
 
-  /// @brief Method SetParamIntValues, addr 0x25b3578, size 0x8, virtual true, abstract: false, final false
-  inline bool SetParamIntValues(int32_t nodeID, ByRef<::ArrayW<int32_t, ::Array<int32_t>*>> values, int32_t start, int32_t length);
+/// @brief Method SetParamIntValues, addr 0x39d5718, size 0x8, virtual true, abstract: false, final false
+inline bool SetParamIntValues(int32_t  nodeID, ByRef<::ArrayW<int32_t,::Array<int32_t>*>>  values, int32_t  start, int32_t  length) ;
 
-  /// @brief Method SetParamNodeValue, addr 0x25b35a8, size 0x8, virtual true, abstract: false, final false
-  inline bool SetParamNodeValue(int32_t nodeID, ::StringW paramName, int32_t nodeValueID);
+/// @brief Method SetParamNodeValue, addr 0x39d5748, size 0x8, virtual true, abstract: false, final false
+inline bool SetParamNodeValue(int32_t  nodeID, ::StringW  paramName, int32_t  nodeValueID) ;
 
-  /// @brief Method SetParamStringValue, addr 0x25b35a0, size 0x8, virtual true, abstract: false, final false
-  inline bool SetParamStringValue(int32_t nodeID, ::StringW parmName, ::StringW parmValue, int32_t index);
+/// @brief Method SetParamStringValue, addr 0x39d5740, size 0x8, virtual true, abstract: false, final false
+inline bool SetParamStringValue(int32_t  nodeID, ::StringW  parmName, ::StringW  parmValue, int32_t  index) ;
 
-  /// @brief Method SetParamStringValue, addr 0x25b3598, size 0x8, virtual true, abstract: false, final false
-  inline bool SetParamStringValue(int32_t nodeID, ::StringW strValue, int32_t parmID, int32_t index);
+/// @brief Method SetParamStringValue, addr 0x39d5738, size 0x8, virtual true, abstract: false, final false
+inline bool SetParamStringValue(int32_t  nodeID, ::StringW  strValue, int32_t  parmID, int32_t  index) ;
 
-  /// @brief Method SetPartInfo, addr 0x25b3380, size 0x8, virtual true, abstract: false, final false
-  inline bool SetPartInfo(int32_t nodeID, int32_t partID, ByRef<::HoudiniEngineUnity::HAPI_PartInfo> partInfo);
+/// @brief Method SetPartInfo, addr 0x39d5520, size 0x8, virtual true, abstract: false, final false
+inline bool SetPartInfo(int32_t  nodeID, int32_t  partID, ByRef<::HoudiniEngineUnity::HAPI_PartInfo>  partInfo) ;
 
-  /// @brief Method SetPreset, addr 0x25b3688, size 0x8, virtual true, abstract: false, final false
-  inline bool SetPreset(int32_t nodeID, ::ArrayW<uint8_t, ::Array<uint8_t>*> presetData);
+/// @brief Method SetPreset, addr 0x39d5828, size 0x8, virtual true, abstract: false, final false
+inline bool SetPreset(int32_t  nodeID, ::ArrayW<uint8_t,::Array<uint8_t>*>  presetData) ;
 
-  /// @brief Method SetServerEnvString, addr 0x25b307c, size 0x4, virtual true, abstract: false, final false
-  inline void SetServerEnvString(::StringW name, ::StringW value);
+/// @brief Method SetServerEnvString, addr 0x39d521c, size 0x4, virtual true, abstract: false, final false
+inline void SetServerEnvString(::StringW  name, ::StringW  value) ;
 
-  /// @brief Method SetSessionConnectionErrorMsg, addr 0x25b2c30, size 0x264, virtual true, abstract: false, final false
-  inline void SetSessionConnectionErrorMsg(::StringW introMsg, ::HoudiniEngineUnity::HAPI_Result result, bool bIsHARSRunning, bool bLogError);
+/// @brief Method SetSessionConnectionErrorMsg, addr 0x39d4dd0, size 0x264, virtual true, abstract: false, final false
+inline void SetSessionConnectionErrorMsg(::StringW  introMsg, ::HoudiniEngineUnity::HAPI_Result  result, bool  bIsHARSRunning, bool  bLogError) ;
 
-  /// @brief Method SetSessionData, addr 0x25b2ffc, size 0x8, virtual false, abstract: false, final false
-  inline void SetSessionData(::HoudiniEngineUnity::HEU_SessionData* sessionData);
+/// @brief Method SetSessionData, addr 0x39d519c, size 0x8, virtual false, abstract: false, final false
+inline void SetSessionData(::HoudiniEngineUnity::HEU_SessionData*  sessionData) ;
 
-  /// @brief Method SetSessionErrorMsg, addr 0x25b2c10, size 0x20, virtual true, abstract: false, final false
-  inline void SetSessionErrorMsg(::StringW msg, bool bLogError);
+/// @brief Method SetSessionErrorMsg, addr 0x39d4db0, size 0x20, virtual true, abstract: false, final false
+inline void SetSessionErrorMsg(::StringW  msg, bool  bLogError) ;
 
-  /// @brief Method SetSessionSync, addr 0x25b37bc, size 0x8, virtual true, abstract: false, final false
-  inline bool SetSessionSync(bool enable);
+/// @brief Method SetSessionSync, addr 0x39d595c, size 0x8, virtual true, abstract: false, final false
+inline bool SetSessionSync(bool  enable) ;
 
-  /// @brief Method SetSessionSyncInfo, addr 0x25b37dc, size 0x8, virtual true, abstract: false, final false
-  inline bool SetSessionSyncInfo(ByRef<::HoudiniEngineUnity::HAPI_SessionSyncInfo> syncInfo);
+/// @brief Method SetSessionSyncInfo, addr 0x39d597c, size 0x8, virtual true, abstract: false, final false
+inline bool SetSessionSyncInfo(ByRef<::HoudiniEngineUnity::HAPI_SessionSyncInfo>  syncInfo) ;
 
-  /// @brief Method SetTime, addr 0x25b316c, size 0x8, virtual true, abstract: false, final false
-  inline bool SetTime(float_t time);
+/// @brief Method SetTime, addr 0x39d530c, size 0x8, virtual true, abstract: false, final false
+inline bool SetTime(float_t  time) ;
 
-  /// @brief Method SetUseHoudiniTime, addr 0x25b317c, size 0x8, virtual true, abstract: false, final false
-  inline bool SetUseHoudiniTime(bool enable);
+/// @brief Method SetUseHoudiniTime, addr 0x39d531c, size 0x8, virtual true, abstract: false, final false
+inline bool SetUseHoudiniTime(bool  enable) ;
 
-  /// @brief Method SetVertexList, addr 0x25b3390, size 0x8, virtual true, abstract: false, final false
-  inline bool SetVertexList(int32_t nodeID, int32_t partID, ::ArrayW<int32_t, ::Array<int32_t>*> vertexList, int32_t start, int32_t length);
+/// @brief Method SetVertexList, addr 0x39d5530, size 0x8, virtual true, abstract: false, final false
+inline bool SetVertexList(int32_t  nodeID, int32_t  partID, ::ArrayW<int32_t,::Array<int32_t>*>  vertexList, int32_t  start, int32_t  length) ;
 
-  /// @brief Method SetViewport, addr 0x25b37cc, size 0x8, virtual true, abstract: false, final false
-  inline bool SetViewport(ByRef<::HoudiniEngineUnity::HAPI_Viewport> viewport);
+/// @brief Method SetViewport, addr 0x39d596c, size 0x8, virtual true, abstract: false, final false
+inline bool SetViewport(ByRef<::HoudiniEngineUnity::HAPI_Viewport>  viewport) ;
 
-  /// @brief Method SetVolumeInfo, addr 0x25b36a0, size 0x8, virtual true, abstract: false, final false
-  inline bool SetVolumeInfo(int32_t nodeID, int32_t partID, ByRef<::HoudiniEngineUnity::HAPI_VolumeInfo> volumeInfo);
+/// @brief Method SetVolumeInfo, addr 0x39d5840, size 0x8, virtual true, abstract: false, final false
+inline bool SetVolumeInfo(int32_t  nodeID, int32_t  partID, ByRef<::HoudiniEngineUnity::HAPI_VolumeInfo>  volumeInfo) ;
 
-  /// @brief Method SetVolumeTileFloatData, addr 0x25b36a8, size 0x4c, virtual true, abstract: false, final false
-  inline bool SetVolumeTileFloatData(int32_t nodeID, int32_t partID, ByRef<::HoudiniEngineUnity::HAPI_VolumeTileInfo> tileInfo, ::ArrayW<float_t, ::Array<float_t>*> valuesArray, int32_t length);
+/// @brief Method SetVolumeTileFloatData, addr 0x39d5848, size 0x4c, virtual true, abstract: false, final false
+inline bool SetVolumeTileFloatData(int32_t  nodeID, int32_t  partID, ByRef<::HoudiniEngineUnity::HAPI_VolumeTileInfo>  tileInfo, ::ArrayW<float_t,::Array<float_t>*>  valuesArray, int32_t  length) ;
 
-  /// @brief Method UnregisterAsset, addr 0x25b2be8, size 0x4, virtual true, abstract: false, final false
-  inline void UnregisterAsset(int32_t id);
+/// @brief Method UnregisterAsset, addr 0x39d4d88, size 0x4, virtual true, abstract: false, final false
+inline void UnregisterAsset(int32_t  id) ;
 
-  constexpr ::HoudiniEngineUnity::HAPI_Result const& __cordl_internal_get__LastCallResultCode_k__BackingField() const;
+constexpr ::HoudiniEngineUnity::HAPI_Result const& __cordl_internal_get__LastCallResultCode_k__BackingField() const;
 
-  constexpr ::HoudiniEngineUnity::HAPI_Result& __cordl_internal_get__LastCallResultCode_k__BackingField();
+constexpr ::HoudiniEngineUnity::HAPI_Result& __cordl_internal_get__LastCallResultCode_k__BackingField() ;
 
-  constexpr bool const& __cordl_internal_get__LogErrorOverride_k__BackingField() const;
+constexpr bool const& __cordl_internal_get__LogErrorOverride_k__BackingField() const;
 
-  constexpr bool& __cordl_internal_get__LogErrorOverride_k__BackingField();
+constexpr bool& __cordl_internal_get__LogErrorOverride_k__BackingField() ;
 
-  constexpr bool const& __cordl_internal_get__ThrowErrorOverride_k__BackingField() const;
+constexpr bool const& __cordl_internal_get__ThrowErrorOverride_k__BackingField() const;
 
-  constexpr bool& __cordl_internal_get__ThrowErrorOverride_k__BackingField();
+constexpr bool& __cordl_internal_get__ThrowErrorOverride_k__BackingField() ;
 
-  constexpr bool const& __cordl_internal_get__UserNotifiedSessionInvalid_k__BackingField() const;
+constexpr bool const& __cordl_internal_get__UserNotifiedSessionInvalid_k__BackingField() const;
 
-  constexpr bool& __cordl_internal_get__UserNotifiedSessionInvalid_k__BackingField();
+constexpr bool& __cordl_internal_get__UserNotifiedSessionInvalid_k__BackingField() ;
 
-  constexpr ::HoudiniEngineUnity::HEU_SessionData*& __cordl_internal_get__sessionData();
+constexpr ::HoudiniEngineUnity::HEU_SessionData*& __cordl_internal_get__sessionData() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::HEU_SessionData*> const& __cordl_internal_get__sessionData() const;
+constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::HEU_SessionData*> const& __cordl_internal_get__sessionData() const;
 
-  constexpr ::StringW const& __cordl_internal_get__sessionErrorMsg() const;
+constexpr ::StringW const& __cordl_internal_get__sessionErrorMsg() const;
 
-  constexpr ::StringW& __cordl_internal_get__sessionErrorMsg();
+constexpr ::StringW& __cordl_internal_get__sessionErrorMsg() ;
 
-  constexpr void __cordl_internal_set__LastCallResultCode_k__BackingField(::HoudiniEngineUnity::HAPI_Result value);
+constexpr void __cordl_internal_set__LastCallResultCode_k__BackingField(::HoudiniEngineUnity::HAPI_Result  value) ;
 
-  constexpr void __cordl_internal_set__LogErrorOverride_k__BackingField(bool value);
+constexpr void __cordl_internal_set__LogErrorOverride_k__BackingField(bool  value) ;
 
-  constexpr void __cordl_internal_set__ThrowErrorOverride_k__BackingField(bool value);
+constexpr void __cordl_internal_set__ThrowErrorOverride_k__BackingField(bool  value) ;
 
-  constexpr void __cordl_internal_set__UserNotifiedSessionInvalid_k__BackingField(bool value);
+constexpr void __cordl_internal_set__UserNotifiedSessionInvalid_k__BackingField(bool  value) ;
 
-  constexpr void __cordl_internal_set__sessionData(::HoudiniEngineUnity::HEU_SessionData* value);
+constexpr void __cordl_internal_set__sessionData(::HoudiniEngineUnity::HEU_SessionData*  value) ;
 
-  constexpr void __cordl_internal_set__sessionErrorMsg(::StringW value);
+constexpr void __cordl_internal_set__sessionErrorMsg(::StringW  value) ;
 
-  /// @brief Method .ctor, addr 0x25b2bf0, size 0x20, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x39d4d90, size 0x20, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_ConnectionState, addr 0x25b2b14, size 0x18, virtual false, abstract: false, final false
-  inline ::HoudiniEngineUnity::SessionConnectionState get_ConnectionState();
+/// @brief Method get_ConnectionState, addr 0x39d4cb4, size 0x18, virtual false, abstract: false, final false
+inline ::HoudiniEngineUnity::SessionConnectionState get_ConnectionState() ;
 
-  /// @brief Method get_LastCallResultCode, addr 0x25b2bc4, size 0x8, virtual false, abstract: false, final false
-  inline ::HoudiniEngineUnity::HAPI_Result get_LastCallResultCode();
+/// @brief Method get_LastCallResultCode, addr 0x39d4d64, size 0x8, virtual false, abstract: false, final false
+inline ::HoudiniEngineUnity::HAPI_Result get_LastCallResultCode() ;
 
-  /// @brief Method get_LogErrorOverride, addr 0x25b2b6c, size 0x8, virtual false, abstract: false, final false
-  inline bool get_LogErrorOverride();
+/// @brief Method get_LogErrorOverride, addr 0x39d4d0c, size 0x8, virtual false, abstract: false, final false
+inline bool get_LogErrorOverride() ;
 
-  /// @brief Method get_ThisSessionMode, addr 0x25b2b3c, size 0x18, virtual false, abstract: false, final false
-  inline ::HoudiniEngineUnity::SessionMode get_ThisSessionMode();
+/// @brief Method get_ThisSessionMode, addr 0x39d4cdc, size 0x18, virtual false, abstract: false, final false
+inline ::HoudiniEngineUnity::SessionMode get_ThisSessionMode() ;
 
-  /// @brief Method get_ThrowErrorOverride, addr 0x25b2b80, size 0x8, virtual false, abstract: false, final false
-  inline bool get_ThrowErrorOverride();
+/// @brief Method get_ThrowErrorOverride, addr 0x39d4d20, size 0x8, virtual false, abstract: false, final false
+inline bool get_ThrowErrorOverride() ;
 
-  /// @brief Method get_UserNotifiedSessionInvalid, addr 0x25b2b00, size 0x8, virtual false, abstract: false, final false
-  inline bool get_UserNotifiedSessionInvalid();
+/// @brief Method get_UserNotifiedSessionInvalid, addr 0x39d4ca0, size 0x8, virtual false, abstract: false, final false
+inline bool get_UserNotifiedSessionInvalid() ;
 
-  /// @brief Method set_ConnectionState, addr 0x25b2b2c, size 0x10, virtual false, abstract: false, final false
-  inline void set_ConnectionState(::HoudiniEngineUnity::SessionConnectionState value);
+/// @brief Method set_ConnectionState, addr 0x39d4ccc, size 0x10, virtual false, abstract: false, final false
+inline void set_ConnectionState(::HoudiniEngineUnity::SessionConnectionState  value) ;
 
-  /// @brief Method set_LastCallResultCode, addr 0x25b2bcc, size 0x8, virtual false, abstract: false, final false
-  inline void set_LastCallResultCode(::HoudiniEngineUnity::HAPI_Result value);
+/// @brief Method set_LastCallResultCode, addr 0x39d4d6c, size 0x8, virtual false, abstract: false, final false
+inline void set_LastCallResultCode(::HoudiniEngineUnity::HAPI_Result  value) ;
 
-  /// @brief Method set_LogErrorOverride, addr 0x25b2b74, size 0xc, virtual false, abstract: false, final false
-  inline void set_LogErrorOverride(bool value);
+/// @brief Method set_LogErrorOverride, addr 0x39d4d14, size 0xc, virtual false, abstract: false, final false
+inline void set_LogErrorOverride(bool  value) ;
 
-  /// @brief Method set_ThisSessionMode, addr 0x25b2b54, size 0x10, virtual false, abstract: false, final false
-  inline void set_ThisSessionMode(::HoudiniEngineUnity::SessionMode value);
+/// @brief Method set_ThisSessionMode, addr 0x39d4cf4, size 0x10, virtual false, abstract: false, final false
+inline void set_ThisSessionMode(::HoudiniEngineUnity::SessionMode  value) ;
 
-  /// @brief Method set_ThrowErrorOverride, addr 0x25b2b88, size 0xc, virtual false, abstract: false, final false
-  inline void set_ThrowErrorOverride(bool value);
+/// @brief Method set_ThrowErrorOverride, addr 0x39d4d28, size 0xc, virtual false, abstract: false, final false
+inline void set_ThrowErrorOverride(bool  value) ;
 
-  /// @brief Method set_UserNotifiedSessionInvalid, addr 0x25b2b08, size 0xc, virtual false, abstract: false, final false
-  inline void set_UserNotifiedSessionInvalid(bool value);
+/// @brief Method set_UserNotifiedSessionInvalid, addr 0x39d4ca8, size 0xc, virtual false, abstract: false, final false
+inline void set_UserNotifiedSessionInvalid(bool  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HEU_SessionBase();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr HEU_SessionBase() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HEU_SessionBase", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  HEU_SessionBase(HEU_SessionBase&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HEU_SessionBase", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  HEU_SessionBase(HEU_SessionBase const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "HEU_SessionBase", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+HEU_SessionBase(HEU_SessionBase && ) = delete;
 
-  /// @brief Field _sessionData, offset: 0x10, size: 0x8, def value: None
-  ::HoudiniEngineUnity::HEU_SessionData* ____sessionData;
+// Ctor Parameters [CppParam { name: "", ty: "HEU_SessionBase", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+HEU_SessionBase(HEU_SessionBase const& ) = delete;
 
-  /// @brief Field <UserNotifiedSessionInvalid>k__BackingField, offset: 0x18, size: 0x1, def value: None
-  bool ____UserNotifiedSessionInvalid_k__BackingField;
+/// @brief Field _sessionData, offset: 0x10, size: 0x8, def value: None
+ ::HoudiniEngineUnity::HEU_SessionData*  ____sessionData;
 
-  /// @brief Field _sessionErrorMsg, offset: 0x20, size: 0x8, def value: None
-  ::StringW ____sessionErrorMsg;
+/// @brief Field <UserNotifiedSessionInvalid>k__BackingField, offset: 0x18, size: 0x1, def value: None
+ bool  ____UserNotifiedSessionInvalid_k__BackingField;
 
-  /// @brief Field <LogErrorOverride>k__BackingField, offset: 0x28, size: 0x1, def value: None
-  bool ____LogErrorOverride_k__BackingField;
+/// @brief Field _sessionErrorMsg, offset: 0x20, size: 0x8, def value: None
+ ::StringW  ____sessionErrorMsg;
 
-  /// @brief Field <ThrowErrorOverride>k__BackingField, offset: 0x29, size: 0x1, def value: None
-  bool ____ThrowErrorOverride_k__BackingField;
+/// @brief Field <LogErrorOverride>k__BackingField, offset: 0x28, size: 0x1, def value: None
+ bool  ____LogErrorOverride_k__BackingField;
 
-  /// @brief Field <LastCallResultCode>k__BackingField, offset: 0x2c, size: 0x4, def value: None
-  ::HoudiniEngineUnity::HAPI_Result ____LastCallResultCode_k__BackingField;
+/// @brief Field <ThrowErrorOverride>k__BackingField, offset: 0x29, size: 0x1, def value: None
+ bool  ____ThrowErrorOverride_k__BackingField;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field <LastCallResultCode>k__BackingField, offset: 0x2c, size: 0x4, def value: None
+ ::HoudiniEngineUnity::HAPI_Result  ____LastCallResultCode_k__BackingField;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_SessionBase, 0x30>, "Size mismatch!");
@@ -891,6 +862,6 @@ static_assert(offsetof(::HoudiniEngineUnity::HEU_SessionBase, ____ThrowErrorOver
 
 static_assert(offsetof(::HoudiniEngineUnity::HEU_SessionBase, ____LastCallResultCode_k__BackingField) == 0x2c, "Offset mismatch!");
 
-} // namespace HoudiniEngineUnity
+} // namespace end def HoudiniEngineUnity
 NEED_NO_BOX(::HoudiniEngineUnity::HEU_SessionBase);
 DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_SessionBase*, "HoudiniEngineUnity", "HEU_SessionBase");

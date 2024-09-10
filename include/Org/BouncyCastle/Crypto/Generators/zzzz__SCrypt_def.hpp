@@ -17,65 +17,64 @@ class SCrypt;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Generators::SCrypt);
 // Type: Org.BouncyCastle.Crypto.Generators::SCrypt
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Generators {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Generators::SCrypt*
 class CORDL_TYPE SCrypt : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method BlockMix, addr 0x1178094, size 0x11c, virtual false, abstract: false, final false
-  static inline void BlockMix(::ArrayW<uint32_t, ::Array<uint32_t>*> B, ::ArrayW<uint32_t, ::Array<uint32_t>*> X1, ::ArrayW<uint32_t, ::Array<uint32_t>*> X2, ::ArrayW<uint32_t, ::Array<uint32_t>*> Y,
-                              int32_t r);
+// Declarations
+/// @brief Method BlockMix, addr 0x2344a54, size 0x11c, virtual false, abstract: false, final false
+static inline void BlockMix(::ArrayW<uint32_t,::Array<uint32_t>*>  B, ::ArrayW<uint32_t,::Array<uint32_t>*>  X1, ::ArrayW<uint32_t,::Array<uint32_t>*>  X2, ::ArrayW<uint32_t,::Array<uint32_t>*>  Y, int32_t  r) ;
 
-  /// @brief Method Clear, addr 0x1178230, size 0x30, virtual false, abstract: false, final false
-  static inline void Clear(::System::Array* array);
+/// @brief Method Clear, addr 0x2344c08, size 0x30, virtual false, abstract: false, final false
+static inline void Clear(::System::Array*  array) ;
 
-  /// @brief Method ClearAll, addr 0x1178260, size 0x5c, virtual false, abstract: false, final false
-  static inline void ClearAll(::ArrayW<::System::Array*, ::Array<::System::Array*>*> arrays);
+/// @brief Method ClearAll, addr 0x2344c38, size 0x5c, virtual false, abstract: false, final false
+static inline void ClearAll(::ArrayW<::System::Array*,::Array<::System::Array*>*>  arrays) ;
 
-  /// @brief Method Generate, addr 0x1177690, size 0x334, virtual false, abstract: false, final false
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Generate(::ArrayW<uint8_t, ::Array<uint8_t>*> P, ::ArrayW<uint8_t, ::Array<uint8_t>*> S, int32_t N, int32_t r, int32_t p, int32_t dkLen);
+/// @brief Method Generate, addr 0x2344090, size 0x314, virtual false, abstract: false, final false
+static inline ::ArrayW<uint8_t,::Array<uint8_t>*> Generate(::ArrayW<uint8_t,::Array<uint8_t>*>  P, ::ArrayW<uint8_t,::Array<uint8_t>*>  S, int32_t  N, int32_t  r, int32_t  p, int32_t  dkLen) ;
 
-  /// @brief Method IsPowerOf2, addr 0x11779c4, size 0x10, virtual false, abstract: false, final false
-  static inline bool IsPowerOf2(int32_t x);
+/// @brief Method IsPowerOf2, addr 0x23443a4, size 0x10, virtual false, abstract: false, final false
+static inline bool IsPowerOf2(int32_t  x) ;
 
-  /// @brief Method MFcrypt, addr 0x11779d4, size 0x1e8, virtual false, abstract: false, final false
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> MFcrypt(::ArrayW<uint8_t, ::Array<uint8_t>*> P, ::ArrayW<uint8_t, ::Array<uint8_t>*> S, int32_t N, int32_t r, int32_t p, int32_t dkLen);
+/// @brief Method MFcrypt, addr 0x23443b4, size 0x1e8, virtual false, abstract: false, final false
+static inline ::ArrayW<uint8_t,::Array<uint8_t>*> MFcrypt(::ArrayW<uint8_t,::Array<uint8_t>*>  P, ::ArrayW<uint8_t,::Array<uint8_t>*>  S, int32_t  N, int32_t  r, int32_t  p, int32_t  dkLen) ;
 
-  static inline ::Org::BouncyCastle::Crypto::Generators::SCrypt* New_ctor();
+static inline ::Org::BouncyCastle::Crypto::Generators::SCrypt* New_ctor() ;
 
-  /// @brief Method SMix, addr 0x1177cd0, size 0x3c4, virtual false, abstract: false, final false
-  static inline void SMix(::ArrayW<uint32_t, ::Array<uint32_t>*> B, int32_t BOff, int32_t N, int32_t d, int32_t r);
+/// @brief Method SMix, addr 0x23446b4, size 0x3a0, virtual false, abstract: false, final false
+static inline void SMix(::ArrayW<uint32_t,::Array<uint32_t>*>  B, int32_t  BOff, int32_t  N, int32_t  d, int32_t  r) ;
 
-  /// @brief Method SingleIterationPBKDF2, addr 0x1177bbc, size 0x114, virtual false, abstract: false, final false
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> SingleIterationPBKDF2(::ArrayW<uint8_t, ::Array<uint8_t>*> P, ::ArrayW<uint8_t, ::Array<uint8_t>*> S, int32_t dkLen);
+/// @brief Method SingleIterationPBKDF2, addr 0x234459c, size 0x118, virtual false, abstract: false, final false
+static inline ::ArrayW<uint8_t,::Array<uint8_t>*> SingleIterationPBKDF2(::ArrayW<uint8_t,::Array<uint8_t>*>  P, ::ArrayW<uint8_t,::Array<uint8_t>*>  S, int32_t  dkLen) ;
 
-  /// @brief Method Xor, addr 0x11781b0, size 0x80, virtual false, abstract: false, final false
-  static inline void Xor(::ArrayW<uint32_t, ::Array<uint32_t>*> a, ::ArrayW<uint32_t, ::Array<uint32_t>*> b, int32_t bOff, ::ArrayW<uint32_t, ::Array<uint32_t>*> output);
+/// @brief Method Xor, addr 0x2344b70, size 0x98, virtual false, abstract: false, final false
+static inline void Xor(::ArrayW<uint32_t,::Array<uint32_t>*>  a, ::ArrayW<uint32_t,::Array<uint32_t>*>  b, int32_t  bOff, ::ArrayW<uint32_t,::Array<uint32_t>*>  output) ;
 
-  /// @brief Method .ctor, addr 0x11782bc, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x2344c94, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SCrypt();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr SCrypt() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SCrypt", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  SCrypt(SCrypt&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SCrypt", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  SCrypt(SCrypt const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "SCrypt", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+SCrypt(SCrypt && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "SCrypt", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+SCrypt(SCrypt const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Generators::SCrypt, 0x10>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Crypto::Generators
+} // namespace end def Org::BouncyCastle::Crypto::Generators
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Generators::SCrypt);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Generators::SCrypt*, "Org.BouncyCastle.Crypto.Generators", "SCrypt");

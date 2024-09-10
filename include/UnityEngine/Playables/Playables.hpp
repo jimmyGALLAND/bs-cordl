@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "UnityEngine/Playables/DirectorUpdateMode.hpp"
 #include "UnityEngine/Playables/DirectorWrapMode.hpp"
@@ -30,5 +30,6 @@ module;
 #include "UnityEngine/Playables/ScriptPlayableOutput.hpp"
 #include "UnityEngine/Playables/ScriptPlayable_1.hpp"
 #ifdef __cpp_modules
-export module Playables;
-#endif
+                    export module Playables;
+                    #endif
+                

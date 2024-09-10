@@ -26,46 +26,46 @@ class ZenInjectMethod;
 // Write type traits
 MARK_REF_PTR_T(::Zenject::ZenInjectMethod);
 // Type: Zenject::ZenInjectMethod
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
 // CS Name: ::Zenject::ZenInjectMethod*
 class CORDL_TYPE ZenInjectMethod : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x3650964, size 0x28, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::System::Object* obj, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args, ::System::AsyncCallback* callback, ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x4a5c33c, size 0x28, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(::System::Object*  obj, ::ArrayW<::System::Object*,::Array<::System::Object*>*>  args, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x365098c, size 0xc, virtual true, abstract: false, final false
-  inline void EndInvoke(::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x4a5c364, size 0xc, virtual true, abstract: false, final false
+inline void EndInvoke(::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x3650950, size 0x14, virtual true, abstract: false, final false
-  inline void Invoke(::System::Object* obj, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
+/// @brief Method Invoke, addr 0x4a5c328, size 0x14, virtual true, abstract: false, final false
+inline void Invoke(::System::Object*  obj, ::ArrayW<::System::Object*,::Array<::System::Object*>*>  args) ;
 
-  static inline ::Zenject::ZenInjectMethod* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::Zenject::ZenInjectMethod* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x3650820, size 0x130, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x4a5c224, size 0x104, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ZenInjectMethod();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ZenInjectMethod() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ZenInjectMethod", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ZenInjectMethod(ZenInjectMethod&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ZenInjectMethod", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ZenInjectMethod(ZenInjectMethod const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ZenInjectMethod", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ZenInjectMethod(ZenInjectMethod && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "ZenInjectMethod", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ZenInjectMethod(ZenInjectMethod const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Zenject::ZenInjectMethod, 0x80>, "Size mismatch!");
 
-} // namespace Zenject
+} // namespace end def Zenject
 NEED_NO_BOX(::Zenject::ZenInjectMethod);
 DEFINE_IL2CPP_ARG_TYPE(::Zenject::ZenInjectMethod*, "Zenject", "ZenInjectMethod");

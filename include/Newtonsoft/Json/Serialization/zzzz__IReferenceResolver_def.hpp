@@ -15,36 +15,36 @@ class IReferenceResolver;
 // Write type traits
 MARK_REF_PTR_T(::Newtonsoft::Json::Serialization::IReferenceResolver);
 // Type: Newtonsoft.Json.Serialization::IReferenceResolver
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Serialization {
 // Is value type: false
 // CS Name: ::Newtonsoft.Json.Serialization::IReferenceResolver*
 class CORDL_TYPE IReferenceResolver {
 public:
-  // Declarations
-  /// @brief Method AddReference, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void AddReference(::System::Object* context, ::StringW reference, ::System::Object* value);
+// Declarations
+/// @brief Method AddReference, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+inline void AddReference(::System::Object*  context, ::StringW  reference, ::System::Object*  value) ;
 
-  /// @brief Method GetReference, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::StringW GetReference(::System::Object* context, ::System::Object* value);
+/// @brief Method GetReference, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+inline ::StringW GetReference(::System::Object*  context, ::System::Object*  value) ;
 
-  /// @brief Method IsReferenced, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline bool IsReferenced(::System::Object* context, ::System::Object* value);
+/// @brief Method IsReferenced, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+inline bool IsReferenced(::System::Object*  context, ::System::Object*  value) ;
 
-  /// @brief Method ResolveReference, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::System::Object* ResolveReference(::System::Object* context, ::StringW reference);
+/// @brief Method ResolveReference, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+inline ::System::Object* ResolveReference(::System::Object*  context, ::StringW  reference) ;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IReferenceResolver", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IReferenceResolver(IReferenceResolver&&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "IReferenceResolver", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+IReferenceResolver(IReferenceResolver && ) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IReferenceResolver", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  IReferenceResolver(IReferenceResolver const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "IReferenceResolver", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+IReferenceResolver(IReferenceResolver const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-} // namespace Newtonsoft::Json::Serialization
+} // namespace end def Newtonsoft::Json::Serialization
 NEED_NO_BOX(::Newtonsoft::Json::Serialization::IReferenceResolver);
 DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Serialization::IReferenceResolver*, "Newtonsoft.Json.Serialization", "IReferenceResolver");

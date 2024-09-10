@@ -24,63 +24,63 @@ class Gost3410KeyPairGenerator;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Generators::Gost3410KeyPairGenerator);
 // Type: Org.BouncyCastle.Crypto.Generators::Gost3410KeyPairGenerator
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Generators {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Generators::Gost3410KeyPairGenerator*
 class CORDL_TYPE Gost3410KeyPairGenerator : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field param, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_param, put = __cordl_internal_set_param))::Org::BouncyCastle::Crypto::Parameters::Gost3410KeyGenerationParameters* param;
+// Declarations
+/// @brief Field param, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_param, put=__cordl_internal_set_param)) ::Org::BouncyCastle::Crypto::Parameters::Gost3410KeyGenerationParameters*  param;
 
-  /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator"
-  constexpr operator ::Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator*() noexcept;
+/// @brief Convert operator to "::Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator"
+constexpr operator  ::Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator*() noexcept;
 
-  /// @brief Method GenerateKeyPair, addr 0x116bb1c, size 0x224, virtual true, abstract: false, final true
-  inline ::Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair* GenerateKeyPair();
+/// @brief Method GenerateKeyPair, addr 0x23387f0, size 0x20c, virtual true, abstract: false, final true
+inline ::Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair* GenerateKeyPair() ;
 
-  /// @brief Method Init, addr 0x116b9fc, size 0x120, virtual true, abstract: false, final true
-  inline void Init(::Org::BouncyCastle::Crypto::KeyGenerationParameters* parameters);
+/// @brief Method Init, addr 0x23386d0, size 0x120, virtual true, abstract: false, final true
+inline void Init(::Org::BouncyCastle::Crypto::KeyGenerationParameters*  parameters) ;
 
-  static inline ::Org::BouncyCastle::Crypto::Generators::Gost3410KeyPairGenerator* New_ctor();
+static inline ::Org::BouncyCastle::Crypto::Generators::Gost3410KeyPairGenerator* New_ctor() ;
 
-  constexpr ::Org::BouncyCastle::Crypto::Parameters::Gost3410KeyGenerationParameters*& __cordl_internal_get_param();
+constexpr ::Org::BouncyCastle::Crypto::Parameters::Gost3410KeyGenerationParameters*& __cordl_internal_get_param() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Parameters::Gost3410KeyGenerationParameters*> const& __cordl_internal_get_param() const;
+constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Parameters::Gost3410KeyGenerationParameters*> const& __cordl_internal_get_param() const;
 
-  constexpr void __cordl_internal_set_param(::Org::BouncyCastle::Crypto::Parameters::Gost3410KeyGenerationParameters* value);
+constexpr void __cordl_internal_set_param(::Org::BouncyCastle::Crypto::Parameters::Gost3410KeyGenerationParameters*  value) ;
 
-  /// @brief Method .ctor, addr 0x116bd40, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x23389fc, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Convert to "::Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator"
-  constexpr ::Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator* i___Org__BouncyCastle__Crypto__IAsymmetricCipherKeyPairGenerator() noexcept;
+/// @brief Convert to "::Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator"
+constexpr ::Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator* i___Org__BouncyCastle__Crypto__IAsymmetricCipherKeyPairGenerator() noexcept;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Gost3410KeyPairGenerator();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr Gost3410KeyPairGenerator() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Gost3410KeyPairGenerator", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  Gost3410KeyPairGenerator(Gost3410KeyPairGenerator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Gost3410KeyPairGenerator", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  Gost3410KeyPairGenerator(Gost3410KeyPairGenerator const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "Gost3410KeyPairGenerator", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+Gost3410KeyPairGenerator(Gost3410KeyPairGenerator && ) = delete;
 
-  /// @brief Field param, offset: 0x10, size: 0x8, def value: None
-  ::Org::BouncyCastle::Crypto::Parameters::Gost3410KeyGenerationParameters* ___param;
+// Ctor Parameters [CppParam { name: "", ty: "Gost3410KeyPairGenerator", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+Gost3410KeyPairGenerator(Gost3410KeyPairGenerator const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field param, offset: 0x10, size: 0x8, def value: None
+ ::Org::BouncyCastle::Crypto::Parameters::Gost3410KeyGenerationParameters*  ___param;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Generators::Gost3410KeyPairGenerator, 0x18>, "Size mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Generators::Gost3410KeyPairGenerator, ___param) == 0x10, "Offset mismatch!");
 
-} // namespace Org::BouncyCastle::Crypto::Generators
+} // namespace end def Org::BouncyCastle::Crypto::Generators
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Generators::Gost3410KeyPairGenerator);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Generators::Gost3410KeyPairGenerator*, "Org.BouncyCastle.Crypto.Generators", "Gost3410KeyPairGenerator");

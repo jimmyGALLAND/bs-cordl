@@ -15,37 +15,37 @@ class NoteDataFromNoteSpawnInfoNetSerializable;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::NoteDataFromNoteSpawnInfoNetSerializable);
 // Type: ::NoteDataFromNoteSpawnInfoNetSerializable
-// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 86, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 90, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::NoteDataFromNoteSpawnInfoNetSerializable*
 class CORDL_TYPE NoteDataFromNoteSpawnInfoNetSerializable : public ::GlobalNamespace::NoteData {
 public:
-  // Declarations
-  static inline ::GlobalNamespace::NoteDataFromNoteSpawnInfoNetSerializable* New_ctor(::GlobalNamespace::NoteSpawnInfoNetSerializable* noteSpawnInfo);
+// Declarations
+static inline ::GlobalNamespace::NoteDataFromNoteSpawnInfoNetSerializable* New_ctor(::GlobalNamespace::NoteSpawnInfoNetSerializable*  noteSpawnInfo) ;
 
-  /// @brief Method .ctor, addr 0x271c6b4, size 0x50, virtual false, abstract: false, final false
-  inline void _ctor(::GlobalNamespace::NoteSpawnInfoNetSerializable* noteSpawnInfo);
+/// @brief Method .ctor, addr 0x3b25494, size 0x50, virtual false, abstract: false, final false
+inline void _ctor(::GlobalNamespace::NoteSpawnInfoNetSerializable*  noteSpawnInfo) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NoteDataFromNoteSpawnInfoNetSerializable();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr NoteDataFromNoteSpawnInfoNetSerializable() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NoteDataFromNoteSpawnInfoNetSerializable", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  NoteDataFromNoteSpawnInfoNetSerializable(NoteDataFromNoteSpawnInfoNetSerializable&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NoteDataFromNoteSpawnInfoNetSerializable", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  NoteDataFromNoteSpawnInfoNetSerializable(NoteDataFromNoteSpawnInfoNetSerializable const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "NoteDataFromNoteSpawnInfoNetSerializable", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+NoteDataFromNoteSpawnInfoNetSerializable(NoteDataFromNoteSpawnInfoNetSerializable && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "NoteDataFromNoteSpawnInfoNetSerializable", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+NoteDataFromNoteSpawnInfoNetSerializable(NoteDataFromNoteSpawnInfoNetSerializable const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::NoteDataFromNoteSpawnInfoNetSerializable, 0x58>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::NoteDataFromNoteSpawnInfoNetSerializable, 0x60>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::NoteDataFromNoteSpawnInfoNetSerializable);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::NoteDataFromNoteSpawnInfoNetSerializable*, "", "NoteDataFromNoteSpawnInfoNetSerializable");

@@ -14,81 +14,81 @@ class IdRefNode;
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Schema::IdRefNode);
 // Type: System.Xml.Schema::IdRefNode
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
 // CS Name: ::System.Xml.Schema::IdRefNode*
 class CORDL_TYPE IdRefNode : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field Id, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_Id, put = __cordl_internal_set_Id))::StringW Id;
+// Declarations
+/// @brief Field Id, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_Id, put=__cordl_internal_set_Id)) ::StringW  Id;
 
-  /// @brief Field LineNo, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get_LineNo, put = __cordl_internal_set_LineNo)) int32_t LineNo;
+/// @brief Field LineNo, offset 0x18, size 0x4 
+ __declspec(property(get=__cordl_internal_get_LineNo, put=__cordl_internal_set_LineNo)) int32_t  LineNo;
 
-  /// @brief Field LinePos, offset 0x1c, size 0x4
-  __declspec(property(get = __cordl_internal_get_LinePos, put = __cordl_internal_set_LinePos)) int32_t LinePos;
+/// @brief Field LinePos, offset 0x1c, size 0x4 
+ __declspec(property(get=__cordl_internal_get_LinePos, put=__cordl_internal_set_LinePos)) int32_t  LinePos;
 
-  /// @brief Field Next, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_Next, put = __cordl_internal_set_Next))::System::Xml::Schema::IdRefNode* Next;
+/// @brief Field Next, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get_Next, put=__cordl_internal_set_Next)) ::System::Xml::Schema::IdRefNode*  Next;
 
-  static inline ::System::Xml::Schema::IdRefNode* New_ctor(::System::Xml::Schema::IdRefNode* next, ::StringW id, int32_t lineNo, int32_t linePos);
+static inline ::System::Xml::Schema::IdRefNode* New_ctor(::System::Xml::Schema::IdRefNode*  next, ::StringW  id, int32_t  lineNo, int32_t  linePos) ;
 
-  constexpr ::StringW const& __cordl_internal_get_Id() const;
+constexpr ::StringW const& __cordl_internal_get_Id() const;
 
-  constexpr ::StringW& __cordl_internal_get_Id();
+constexpr ::StringW& __cordl_internal_get_Id() ;
 
-  constexpr int32_t const& __cordl_internal_get_LineNo() const;
+constexpr int32_t const& __cordl_internal_get_LineNo() const;
 
-  constexpr int32_t& __cordl_internal_get_LineNo();
+constexpr int32_t& __cordl_internal_get_LineNo() ;
 
-  constexpr int32_t const& __cordl_internal_get_LinePos() const;
+constexpr int32_t const& __cordl_internal_get_LinePos() const;
 
-  constexpr int32_t& __cordl_internal_get_LinePos();
+constexpr int32_t& __cordl_internal_get_LinePos() ;
 
-  constexpr ::System::Xml::Schema::IdRefNode*& __cordl_internal_get_Next();
+constexpr ::System::Xml::Schema::IdRefNode*& __cordl_internal_get_Next() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::IdRefNode*> const& __cordl_internal_get_Next() const;
+constexpr ::cordl_internals::to_const_pointer<::System::Xml::Schema::IdRefNode*> const& __cordl_internal_get_Next() const;
 
-  constexpr void __cordl_internal_set_Id(::StringW value);
+constexpr void __cordl_internal_set_Id(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_LineNo(int32_t value);
+constexpr void __cordl_internal_set_LineNo(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_LinePos(int32_t value);
+constexpr void __cordl_internal_set_LinePos(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_Next(::System::Xml::Schema::IdRefNode* value);
+constexpr void __cordl_internal_set_Next(::System::Xml::Schema::IdRefNode*  value) ;
 
-  /// @brief Method .ctor, addr 0x2e511ec, size 0x44, virtual false, abstract: false, final false
-  inline void _ctor(::System::Xml::Schema::IdRefNode* next, ::StringW id, int32_t lineNo, int32_t linePos);
+/// @brief Method .ctor, addr 0x4238a68, size 0x44, virtual false, abstract: false, final false
+inline void _ctor(::System::Xml::Schema::IdRefNode*  next, ::StringW  id, int32_t  lineNo, int32_t  linePos) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr IdRefNode();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr IdRefNode() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IdRefNode", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IdRefNode(IdRefNode&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IdRefNode", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  IdRefNode(IdRefNode const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "IdRefNode", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+IdRefNode(IdRefNode && ) = delete;
 
-  /// @brief Field Id, offset: 0x10, size: 0x8, def value: None
-  ::StringW ___Id;
+// Ctor Parameters [CppParam { name: "", ty: "IdRefNode", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+IdRefNode(IdRefNode const& ) = delete;
 
-  /// @brief Field LineNo, offset: 0x18, size: 0x4, def value: None
-  int32_t ___LineNo;
+/// @brief Field Id, offset: 0x10, size: 0x8, def value: None
+ ::StringW  ___Id;
 
-  /// @brief Field LinePos, offset: 0x1c, size: 0x4, def value: None
-  int32_t ___LinePos;
+/// @brief Field LineNo, offset: 0x18, size: 0x4, def value: None
+ int32_t  ___LineNo;
 
-  /// @brief Field Next, offset: 0x20, size: 0x8, def value: None
-  ::System::Xml::Schema::IdRefNode* ___Next;
+/// @brief Field LinePos, offset: 0x1c, size: 0x4, def value: None
+ int32_t  ___LinePos;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field Next, offset: 0x20, size: 0x8, def value: None
+ ::System::Xml::Schema::IdRefNode*  ___Next;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::IdRefNode, 0x28>, "Size mismatch!");
@@ -101,6 +101,6 @@ static_assert(offsetof(::System::Xml::Schema::IdRefNode, ___LinePos) == 0x1c, "O
 
 static_assert(offsetof(::System::Xml::Schema::IdRefNode, ___Next) == 0x20, "Offset mismatch!");
 
-} // namespace System::Xml::Schema
+} // namespace end def System::Xml::Schema
 NEED_NO_BOX(::System::Xml::Schema::IdRefNode);
 DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::IdRefNode*, "System.Xml.Schema", "IdRefNode");

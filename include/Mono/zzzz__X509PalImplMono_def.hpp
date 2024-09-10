@@ -29,47 +29,46 @@ class X509PalImplMono;
 // Write type traits
 MARK_REF_PTR_T(::Mono::X509PalImplMono);
 // Type: Mono::X509PalImplMono
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Mono {
 // Is value type: false
 // CS Name: ::Mono::X509PalImplMono*
 class CORDL_TYPE X509PalImplMono : public ::Mono::X509PalImpl {
 public:
-  // Declarations
-  /// @brief Method Import, addr 0x2c91650, size 0x8, virtual true, abstract: false, final false
-  inline ::System::Security::Cryptography::X509Certificates::X509Certificate2Impl* Import(::System::Security::Cryptography::X509Certificates::X509Certificate* cert);
+// Declarations
+/// @brief Method Import, addr 0x4077da4, size 0x8, virtual true, abstract: false, final false
+inline ::System::Security::Cryptography::X509Certificates::X509Certificate2Impl* Import(::System::Security::Cryptography::X509Certificates::X509Certificate*  cert) ;
 
-  /// @brief Method Import, addr 0x2c9164c, size 0x4, virtual true, abstract: false, final false
-  inline ::System::Security::Cryptography::X509Certificates::X509Certificate2Impl* Import(::ArrayW<uint8_t, ::Array<uint8_t>*> data, ::Microsoft::Win32::SafeHandles::SafePasswordHandle* password,
-                                                                                          ::System::Security::Cryptography::X509Certificates::X509KeyStorageFlags keyStorageFlags);
+/// @brief Method Import, addr 0x4077da0, size 0x4, virtual true, abstract: false, final false
+inline ::System::Security::Cryptography::X509Certificates::X509Certificate2Impl* Import(::ArrayW<uint8_t,::Array<uint8_t>*>  data, ::Microsoft::Win32::SafeHandles::SafePasswordHandle*  password, ::System::Security::Cryptography::X509Certificates::X509KeyStorageFlags  keyStorageFlags) ;
 
-  /// @brief Method Import, addr 0x2c91648, size 0x4, virtual true, abstract: false, final false
-  inline ::System::Security::Cryptography::X509Certificates::X509CertificateImpl* Import(::ArrayW<uint8_t, ::Array<uint8_t>*> data);
+/// @brief Method Import, addr 0x4077d9c, size 0x4, virtual true, abstract: false, final false
+inline ::System::Security::Cryptography::X509Certificates::X509CertificateImpl* Import(::ArrayW<uint8_t,::Array<uint8_t>*>  data) ;
 
-  static inline ::Mono::X509PalImplMono* New_ctor();
+static inline ::Mono::X509PalImplMono* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x2c90be8, size 0x58, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x4077370, size 0x58, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr X509PalImplMono();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr X509PalImplMono() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "X509PalImplMono", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  X509PalImplMono(X509PalImplMono&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "X509PalImplMono", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  X509PalImplMono(X509PalImplMono const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "X509PalImplMono", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+X509PalImplMono(X509PalImplMono && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "X509PalImplMono", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+X509PalImplMono(X509PalImplMono const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Mono::X509PalImplMono, 0x10>, "Size mismatch!");
 
-} // namespace Mono
+} // namespace end def Mono
 NEED_NO_BOX(::Mono::X509PalImplMono);
 DEFINE_IL2CPP_ARG_TYPE(::Mono::X509PalImplMono*, "Mono", "X509PalImplMono");

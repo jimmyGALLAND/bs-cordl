@@ -11,10 +11,12 @@ namespace GlobalNamespace {
 struct __BindingRestrictions__TestBuilder__AndNode;
 }
 namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
+template<typename T>
+class HashSet_1;
 }
 namespace System::Collections::Generic {
-template <typename T> class Stack_1;
+template<typename T>
+class Stack_1;
 }
 namespace System::Dynamic {
 class DynamicMetaObject;
@@ -65,31 +67,30 @@ MARK_REF_PTR_T(::System::Dynamic::__BindingRestrictions__BindingRestrictionsProx
 MARK_REF_PTR_T(::System::Dynamic::__BindingRestrictions__TestBuilder);
 MARK_VAL_T(::GlobalNamespace::__BindingRestrictions__TestBuilder__AndNode);
 // Type: ::AndNode
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::BindingRestrictions::TestBuilder::AndNode
 struct CORDL_TYPE __BindingRestrictions__TestBuilder__AndNode {
 public:
-  // Declarations
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __BindingRestrictions__TestBuilder__AndNode();
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr __BindingRestrictions__TestBuilder__AndNode() ;
 
-  // Ctor Parameters [CppParam { name: "Depth", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "Node", ty: "::System::Linq::Expressions::Expression*", modifiers: "", def_value: None
-  // }]
-  constexpr __BindingRestrictions__TestBuilder__AndNode(int32_t Depth, ::System::Linq::Expressions::Expression* Node) noexcept;
+// Ctor Parameters [CppParam { name: "Depth", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "Node", ty: "::System::Linq::Expressions::Expression*", modifiers: "", def_value: None }]
+constexpr __BindingRestrictions__TestBuilder__AndNode(int32_t  Depth, ::System::Linq::Expressions::Expression*  Node) noexcept;
 
-  /// @brief Field Depth, offset: 0x0, size: 0x4, def value: None
-  int32_t Depth;
+/// @brief Field Depth, offset: 0x0, size: 0x4, def value: None
+ int32_t  Depth;
 
-  /// @brief Field Node, offset: 0x8, size: 0x8, def value: None
-  ::System::Linq::Expressions::Expression* Node;
+/// @brief Field Node, offset: 0x8, size: 0x8, def value: None
+ ::System::Linq::Expressions::Expression*  Node;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x10};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__BindingRestrictions__TestBuilder__AndNode, 0x10>, "Size mismatch!");
@@ -98,71 +99,70 @@ static_assert(offsetof(::GlobalNamespace::__BindingRestrictions__TestBuilder__An
 
 static_assert(offsetof(::GlobalNamespace::__BindingRestrictions__TestBuilder__AndNode, Node) == 0x8, "Offset mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 // Type: ::TestBuilder
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Dynamic {
 // Is value type: false
 // CS Name: ::BindingRestrictions::TestBuilder*
 class CORDL_TYPE __BindingRestrictions__TestBuilder : public ::System::Object {
 public:
-  // Declarations
-  using AndNode = ::GlobalNamespace::__BindingRestrictions__TestBuilder__AndNode;
+// Declarations
+using AndNode = ::GlobalNamespace::__BindingRestrictions__TestBuilder__AndNode;
 
-  /// @brief Field _tests, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__tests,
-                      put = __cordl_internal_set__tests))::System::Collections::Generic::Stack_1<::GlobalNamespace::__BindingRestrictions__TestBuilder__AndNode>* _tests;
+/// @brief Field _tests, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get__tests, put=__cordl_internal_set__tests)) ::System::Collections::Generic::Stack_1<::GlobalNamespace::__BindingRestrictions__TestBuilder__AndNode>*  _tests;
 
-  /// @brief Field _unique, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__unique, put = __cordl_internal_set__unique))::System::Collections::Generic::HashSet_1<::System::Dynamic::BindingRestrictions*>* _unique;
+/// @brief Field _unique, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get__unique, put=__cordl_internal_set__unique)) ::System::Collections::Generic::HashSet_1<::System::Dynamic::BindingRestrictions*>*  _unique;
 
-  /// @brief Method Append, addr 0x2c81920, size 0x8c, virtual false, abstract: false, final false
-  inline void Append(::System::Dynamic::BindingRestrictions* restrictions);
+/// @brief Method Append, addr 0x40699ac, size 0x8c, virtual false, abstract: false, final false
+inline void Append(::System::Dynamic::BindingRestrictions*  restrictions) ;
 
-  static inline ::System::Dynamic::__BindingRestrictions__TestBuilder* New_ctor();
+static inline ::System::Dynamic::__BindingRestrictions__TestBuilder* New_ctor() ;
 
-  /// @brief Method Push, addr 0x2c819ac, size 0x134, virtual false, abstract: false, final false
-  inline void Push(::System::Linq::Expressions::Expression* node, int32_t depth);
+/// @brief Method Push, addr 0x4069a38, size 0x134, virtual false, abstract: false, final false
+inline void Push(::System::Linq::Expressions::Expression*  node, int32_t  depth) ;
 
-  /// @brief Method ToExpression, addr 0x2c81ae0, size 0xd4, virtual false, abstract: false, final false
-  inline ::System::Linq::Expressions::Expression* ToExpression();
+/// @brief Method ToExpression, addr 0x4069b6c, size 0xd4, virtual false, abstract: false, final false
+inline ::System::Linq::Expressions::Expression* ToExpression() ;
 
-  constexpr ::System::Collections::Generic::Stack_1<::GlobalNamespace::__BindingRestrictions__TestBuilder__AndNode>*& __cordl_internal_get__tests();
+constexpr ::System::Collections::Generic::Stack_1<::GlobalNamespace::__BindingRestrictions__TestBuilder__AndNode>*& __cordl_internal_get__tests() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Stack_1<::GlobalNamespace::__BindingRestrictions__TestBuilder__AndNode>*> const& __cordl_internal_get__tests() const;
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Stack_1<::GlobalNamespace::__BindingRestrictions__TestBuilder__AndNode>*> const& __cordl_internal_get__tests() const;
 
-  constexpr ::System::Collections::Generic::HashSet_1<::System::Dynamic::BindingRestrictions*>*& __cordl_internal_get__unique();
+constexpr ::System::Collections::Generic::HashSet_1<::System::Dynamic::BindingRestrictions*>*& __cordl_internal_get__unique() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::System::Dynamic::BindingRestrictions*>*> const& __cordl_internal_get__unique() const;
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::System::Dynamic::BindingRestrictions*>*> const& __cordl_internal_get__unique() const;
 
-  constexpr void __cordl_internal_set__tests(::System::Collections::Generic::Stack_1<::GlobalNamespace::__BindingRestrictions__TestBuilder__AndNode>* value);
+constexpr void __cordl_internal_set__tests(::System::Collections::Generic::Stack_1<::GlobalNamespace::__BindingRestrictions__TestBuilder__AndNode>*  value) ;
 
-  constexpr void __cordl_internal_set__unique(::System::Collections::Generic::HashSet_1<::System::Dynamic::BindingRestrictions*>* value);
+constexpr void __cordl_internal_set__unique(::System::Collections::Generic::HashSet_1<::System::Dynamic::BindingRestrictions*>*  value) ;
 
-  /// @brief Method .ctor, addr 0x2c81bb4, size 0xc0, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x4069c40, size 0xc4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __BindingRestrictions__TestBuilder();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __BindingRestrictions__TestBuilder() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__BindingRestrictions__TestBuilder", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __BindingRestrictions__TestBuilder(__BindingRestrictions__TestBuilder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__BindingRestrictions__TestBuilder", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __BindingRestrictions__TestBuilder(__BindingRestrictions__TestBuilder const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__BindingRestrictions__TestBuilder", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__BindingRestrictions__TestBuilder(__BindingRestrictions__TestBuilder && ) = delete;
 
-  /// @brief Field _unique, offset: 0x10, size: 0x8, def value: None
-  ::System::Collections::Generic::HashSet_1<::System::Dynamic::BindingRestrictions*>* ____unique;
+// Ctor Parameters [CppParam { name: "", ty: "__BindingRestrictions__TestBuilder", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__BindingRestrictions__TestBuilder(__BindingRestrictions__TestBuilder const& ) = delete;
 
-  /// @brief Field _tests, offset: 0x18, size: 0x8, def value: None
-  ::System::Collections::Generic::Stack_1<::GlobalNamespace::__BindingRestrictions__TestBuilder__AndNode>* ____tests;
+/// @brief Field _unique, offset: 0x10, size: 0x8, def value: None
+ ::System::Collections::Generic::HashSet_1<::System::Dynamic::BindingRestrictions*>*  ____unique;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _tests, offset: 0x18, size: 0x8, def value: None
+ ::System::Collections::Generic::Stack_1<::GlobalNamespace::__BindingRestrictions__TestBuilder__AndNode>*  ____tests;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Dynamic::__BindingRestrictions__TestBuilder, 0x20>, "Size mismatch!");
@@ -171,105 +171,105 @@ static_assert(offsetof(::System::Dynamic::__BindingRestrictions__TestBuilder, __
 
 static_assert(offsetof(::System::Dynamic::__BindingRestrictions__TestBuilder, ____tests) == 0x18, "Offset mismatch!");
 
-} // namespace System::Dynamic
+} // namespace end def System::Dynamic
 // Type: ::BindingRestrictionsProxy
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Dynamic {
 // Is value type: false
 // CS Name: ::BindingRestrictions::BindingRestrictionsProxy*
 class CORDL_TYPE __BindingRestrictions__BindingRestrictionsProxy : public ::System::Object {
 public:
-  // Declarations
+// Declarations
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __BindingRestrictions__BindingRestrictionsProxy();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __BindingRestrictions__BindingRestrictionsProxy() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__BindingRestrictions__BindingRestrictionsProxy", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __BindingRestrictions__BindingRestrictionsProxy(__BindingRestrictions__BindingRestrictionsProxy&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__BindingRestrictions__BindingRestrictionsProxy", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __BindingRestrictions__BindingRestrictionsProxy(__BindingRestrictions__BindingRestrictionsProxy const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__BindingRestrictions__BindingRestrictionsProxy", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__BindingRestrictions__BindingRestrictionsProxy(__BindingRestrictions__BindingRestrictionsProxy && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "__BindingRestrictions__BindingRestrictionsProxy", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__BindingRestrictions__BindingRestrictionsProxy(__BindingRestrictions__BindingRestrictionsProxy const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Dynamic::__BindingRestrictions__BindingRestrictionsProxy, 0x10>, "Size mismatch!");
 
-} // namespace System::Dynamic
+} // namespace end def System::Dynamic
 // Type: System.Dynamic::BindingRestrictions
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Dynamic {
 // Is value type: false
 // CS Name: ::System.Dynamic::BindingRestrictions*
 class CORDL_TYPE BindingRestrictions : public ::System::Object {
 public:
-  // Declarations
-  using BindingRestrictionsProxy = ::System::Dynamic::__BindingRestrictions__BindingRestrictionsProxy;
+// Declarations
+using BindingRestrictionsProxy = ::System::Dynamic::__BindingRestrictions__BindingRestrictionsProxy;
 
-  using CustomRestriction = ::System::Dynamic::__BindingRestrictions__CustomRestriction;
+using CustomRestriction = ::System::Dynamic::__BindingRestrictions__CustomRestriction;
 
-  using InstanceRestriction = ::System::Dynamic::__BindingRestrictions__InstanceRestriction;
+using InstanceRestriction = ::System::Dynamic::__BindingRestrictions__InstanceRestriction;
 
-  using MergedRestriction = ::System::Dynamic::__BindingRestrictions__MergedRestriction;
+using MergedRestriction = ::System::Dynamic::__BindingRestrictions__MergedRestriction;
 
-  using TestBuilder = ::System::Dynamic::__BindingRestrictions__TestBuilder;
+using TestBuilder = ::System::Dynamic::__BindingRestrictions__TestBuilder;
 
-  using TypeRestriction = ::System::Dynamic::__BindingRestrictions__TypeRestriction;
+using TypeRestriction = ::System::Dynamic::__BindingRestrictions__TypeRestriction;
 
-  /// @brief Field Empty, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Empty, put = setStaticF_Empty))::System::Dynamic::BindingRestrictions* Empty;
+/// @brief Field Empty, offset 0xffffffff, size 0x8 
+static __declspec(property(get=getStaticF_Empty, put=setStaticF_Empty)) ::System::Dynamic::BindingRestrictions*  Empty;
 
-  /// @brief Method GetExpression, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::System::Linq::Expressions::Expression* GetExpression();
+/// @brief Method GetExpression, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+inline ::System::Linq::Expressions::Expression* GetExpression() ;
 
-  /// @brief Method GetInstanceRestriction, addr 0x2c816c0, size 0x94, virtual false, abstract: false, final false
-  static inline ::System::Dynamic::BindingRestrictions* GetInstanceRestriction(::System::Linq::Expressions::Expression* expression, ::System::Object* instance);
+/// @brief Method GetInstanceRestriction, addr 0x406975c, size 0x8c, virtual false, abstract: false, final false
+static inline ::System::Dynamic::BindingRestrictions* GetInstanceRestriction(::System::Linq::Expressions::Expression*  expression, ::System::Object*  instance) ;
 
-  /// @brief Method GetTypeRestriction, addr 0x2c81448, size 0xc0, virtual false, abstract: false, final false
-  static inline ::System::Dynamic::BindingRestrictions* GetTypeRestriction(::System::Linq::Expressions::Expression* expression, ::System::Type* type);
+/// @brief Method GetTypeRestriction, addr 0x40694ec, size 0xb8, virtual false, abstract: false, final false
+static inline ::System::Dynamic::BindingRestrictions* GetTypeRestriction(::System::Linq::Expressions::Expression*  expression, ::System::Type*  type) ;
 
-  /// @brief Method GetTypeRestriction, addr 0x2c81578, size 0xbc, virtual false, abstract: false, final false
-  static inline ::System::Dynamic::BindingRestrictions* GetTypeRestriction(::System::Dynamic::DynamicMetaObject* obj);
+/// @brief Method GetTypeRestriction, addr 0x4069614, size 0xbc, virtual false, abstract: false, final false
+static inline ::System::Dynamic::BindingRestrictions* GetTypeRestriction(::System::Dynamic::DynamicMetaObject*  obj) ;
 
-  /// @brief Method Merge, addr 0x2c812e0, size 0xf8, virtual false, abstract: false, final false
-  inline ::System::Dynamic::BindingRestrictions* Merge(::System::Dynamic::BindingRestrictions* restrictions);
+/// @brief Method Merge, addr 0x406938c, size 0xf0, virtual false, abstract: false, final false
+inline ::System::Dynamic::BindingRestrictions* Merge(::System::Dynamic::BindingRestrictions*  restrictions) ;
 
-  static inline ::System::Dynamic::BindingRestrictions* New_ctor();
+static inline ::System::Dynamic::BindingRestrictions* New_ctor() ;
 
-  /// @brief Method ToExpression, addr 0x2c817f8, size 0xc, virtual false, abstract: false, final false
-  inline ::System::Linq::Expressions::Expression* ToExpression();
+/// @brief Method ToExpression, addr 0x406988c, size 0xc, virtual false, abstract: false, final false
+inline ::System::Linq::Expressions::Expression* ToExpression() ;
 
-  /// @brief Method .ctor, addr 0x2c812d8, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x4069384, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  static inline ::System::Dynamic::BindingRestrictions* getStaticF_Empty();
+static inline ::System::Dynamic::BindingRestrictions* getStaticF_Empty() ;
 
-  static inline void setStaticF_Empty(::System::Dynamic::BindingRestrictions* value);
+static inline void setStaticF_Empty(::System::Dynamic::BindingRestrictions*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BindingRestrictions();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr BindingRestrictions() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BindingRestrictions", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  BindingRestrictions(BindingRestrictions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BindingRestrictions", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  BindingRestrictions(BindingRestrictions const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "BindingRestrictions", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+BindingRestrictions(BindingRestrictions && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "BindingRestrictions", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+BindingRestrictions(BindingRestrictions const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Dynamic::BindingRestrictions, 0x10>, "Size mismatch!");
 
-} // namespace System::Dynamic
+} // namespace end def System::Dynamic
 NEED_NO_BOX(::System::Dynamic::BindingRestrictions);
 DEFINE_IL2CPP_ARG_TYPE(::System::Dynamic::BindingRestrictions*, "System.Dynamic", "BindingRestrictions");
 NEED_NO_BOX(::System::Dynamic::__BindingRestrictions__BindingRestrictionsProxy);

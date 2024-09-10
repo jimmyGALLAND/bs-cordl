@@ -13,54 +13,54 @@ class OVRResetOrientation;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::OVRResetOrientation);
 // Type: ::OVRResetOrientation
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::OVRResetOrientation*
 class CORDL_TYPE OVRResetOrientation : public ::UnityEngine::MonoBehaviour {
 public:
-  // Declarations
-  /// @brief Field resetButton, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get_resetButton, put = __cordl_internal_set_resetButton))::GlobalNamespace::__OVRInput__RawButton resetButton;
+// Declarations
+/// @brief Field resetButton, offset 0x20, size 0x4 
+ __declspec(property(get=__cordl_internal_get_resetButton, put=__cordl_internal_set_resetButton)) ::GlobalNamespace::__OVRInput__RawButton  resetButton;
 
-  static inline ::GlobalNamespace::OVRResetOrientation* New_ctor();
+static inline ::GlobalNamespace::OVRResetOrientation* New_ctor() ;
 
-  /// @brief Method Update, addr 0x2bc3abc, size 0xe0, virtual false, abstract: false, final false
-  inline void Update();
+/// @brief Method Update, addr 0x3fb07e8, size 0xe0, virtual false, abstract: false, final false
+inline void Update() ;
 
-  constexpr ::GlobalNamespace::__OVRInput__RawButton const& __cordl_internal_get_resetButton() const;
+constexpr ::GlobalNamespace::__OVRInput__RawButton const& __cordl_internal_get_resetButton() const;
 
-  constexpr ::GlobalNamespace::__OVRInput__RawButton& __cordl_internal_get_resetButton();
+constexpr ::GlobalNamespace::__OVRInput__RawButton& __cordl_internal_get_resetButton() ;
 
-  constexpr void __cordl_internal_set_resetButton(::GlobalNamespace::__OVRInput__RawButton value);
+constexpr void __cordl_internal_set_resetButton(::GlobalNamespace::__OVRInput__RawButton  value) ;
 
-  /// @brief Method .ctor, addr 0x2bc3b9c, size 0x10, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x3fb08c8, size 0x10, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr OVRResetOrientation();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr OVRResetOrientation() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRResetOrientation", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  OVRResetOrientation(OVRResetOrientation&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRResetOrientation", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  OVRResetOrientation(OVRResetOrientation const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "OVRResetOrientation", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+OVRResetOrientation(OVRResetOrientation && ) = delete;
 
-  /// @brief Field resetButton, offset: 0x18, size: 0x4, def value: None
-  ::GlobalNamespace::__OVRInput__RawButton ___resetButton;
+// Ctor Parameters [CppParam { name: "", ty: "OVRResetOrientation", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+OVRResetOrientation(OVRResetOrientation const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field resetButton, offset: 0x20, size: 0x4, def value: None
+ ::GlobalNamespace::__OVRInput__RawButton  ___resetButton;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRResetOrientation, 0x20>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OVRResetOrientation, 0x28>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::OVRResetOrientation, ___resetButton) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::OVRResetOrientation, ___resetButton) == 0x20, "Offset mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::OVRResetOrientation);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OVRResetOrientation*, "", "OVRResetOrientation");

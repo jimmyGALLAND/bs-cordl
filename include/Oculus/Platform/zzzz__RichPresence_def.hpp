@@ -9,7 +9,8 @@ namespace Oculus::Platform::Models {
 class DestinationList;
 }
 namespace Oculus::Platform {
-template <typename T> class Request_1;
+template<typename T>
+class Request_1;
 }
 namespace Oculus::Platform {
 class Request;
@@ -24,44 +25,44 @@ class RichPresence;
 // Write type traits
 MARK_REF_PTR_T(::Oculus::Platform::RichPresence);
 // Type: Oculus.Platform::RichPresence
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
 // CS Name: ::Oculus.Platform::RichPresence*
 class CORDL_TYPE RichPresence : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method Clear, addr 0x2b09300, size 0x144, virtual false, abstract: false, final false
-  static inline ::Oculus::Platform::Request* Clear();
+// Declarations
+/// @brief Method Clear, addr 0x3efac00, size 0x13c, virtual false, abstract: false, final false
+static inline ::Oculus::Platform::Request* Clear() ;
 
-  /// @brief Method GetDestinations, addr 0x2ad6790, size 0x158, virtual false, abstract: false, final false
-  static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::DestinationList*>* GetDestinations();
+/// @brief Method GetDestinations, addr 0x3ec8d0c, size 0x150, virtual false, abstract: false, final false
+static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::DestinationList*>* GetDestinations() ;
 
-  /// @brief Method GetNextDestinationListPage, addr 0x2b09628, size 0x1dc, virtual false, abstract: false, final false
-  static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::DestinationList*>* GetNextDestinationListPage(::Oculus::Platform::Models::DestinationList* list);
+/// @brief Method GetNextDestinationListPage, addr 0x3efae94, size 0x1d8, virtual false, abstract: false, final false
+static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::DestinationList*>* GetNextDestinationListPage(::Oculus::Platform::Models::DestinationList*  list) ;
 
-  /// @brief Method Set, addr 0x2b09444, size 0x18c, virtual false, abstract: false, final false
-  static inline ::Oculus::Platform::Request* Set(::Oculus::Platform::RichPresenceOptions* richPresenceOptions);
+/// @brief Method Set, addr 0x3efad3c, size 0x14c, virtual false, abstract: false, final false
+static inline ::Oculus::Platform::Request* Set(::Oculus::Platform::RichPresenceOptions*  richPresenceOptions) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr RichPresence();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr RichPresence() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RichPresence", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  RichPresence(RichPresence&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RichPresence", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  RichPresence(RichPresence const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "RichPresence", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+RichPresence(RichPresence && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "RichPresence", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+RichPresence(RichPresence const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Oculus::Platform::RichPresence, 0x10>, "Size mismatch!");
 
-} // namespace Oculus::Platform
+} // namespace end def Oculus::Platform
 NEED_NO_BOX(::Oculus::Platform::RichPresence);
 DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::RichPresence*, "Oculus.Platform", "RichPresence");

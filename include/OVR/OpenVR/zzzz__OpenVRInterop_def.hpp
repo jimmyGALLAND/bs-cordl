@@ -24,64 +24,64 @@ class OpenVRInterop;
 // Write type traits
 MARK_REF_PTR_T(::OVR::OpenVR::OpenVRInterop);
 // Type: OVR.OpenVR::OpenVRInterop
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: ::OVR.OpenVR::OpenVRInterop*
 class CORDL_TYPE OpenVRInterop : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method GetGenericInterface, addr 0x2bff534, size 0x9c, virtual false, abstract: false, final false
-  static inline ::System::IntPtr GetGenericInterface(ByRefConst<::StringW> pchInterfaceVersion, ByRef<::OVR::OpenVR::EVRInitError> peError);
+// Declarations
+/// @brief Method GetGenericInterface, addr 0x3fe5fb4, size 0x9c, virtual false, abstract: false, final false
+static inline ::System::IntPtr GetGenericInterface(ByRefConst<::StringW>  pchInterfaceVersion, ByRef<::OVR::OpenVR::EVRInitError>  peError) ;
 
-  /// @brief Method GetInitToken, addr 0x2bff668, size 0x68, virtual false, abstract: false, final false
-  static inline uint32_t GetInitToken();
+/// @brief Method GetInitToken, addr 0x3fe60e8, size 0x68, virtual false, abstract: false, final false
+static inline uint32_t GetInitToken() ;
 
-  /// @brief Method GetStringForHmdError, addr 0x2bff4b8, size 0x7c, virtual false, abstract: false, final false
-  static inline ::System::IntPtr GetStringForHmdError(::OVR::OpenVR::EVRInitError error);
+/// @brief Method GetStringForHmdError, addr 0x3fe5f38, size 0x7c, virtual false, abstract: false, final false
+static inline ::System::IntPtr GetStringForHmdError(::OVR::OpenVR::EVRInitError  error) ;
 
-  /// @brief Method InitInternal, addr 0x2bff240, size 0x84, virtual false, abstract: false, final false
-  static inline uint32_t InitInternal(ByRef<::OVR::OpenVR::EVRInitError> peError, ::OVR::OpenVR::EVRApplicationType eApplicationType);
+/// @brief Method InitInternal, addr 0x3fe5cc0, size 0x84, virtual false, abstract: false, final false
+static inline uint32_t InitInternal(ByRef<::OVR::OpenVR::EVRInitError>  peError, ::OVR::OpenVR::EVRApplicationType  eApplicationType) ;
 
-  /// @brief Method InitInternal2, addr 0x2bff2c4, size 0xb0, virtual false, abstract: false, final false
-  static inline uint32_t InitInternal2(ByRef<::OVR::OpenVR::EVRInitError> peError, ::OVR::OpenVR::EVRApplicationType eApplicationType, ByRefConst<::StringW> pStartupInfo);
+/// @brief Method InitInternal2, addr 0x3fe5d44, size 0xb0, virtual false, abstract: false, final false
+static inline uint32_t InitInternal2(ByRef<::OVR::OpenVR::EVRInitError>  peError, ::OVR::OpenVR::EVRApplicationType  eApplicationType, ByRefConst<::StringW>  pStartupInfo) ;
 
-  /// @brief Method IsHmdPresent, addr 0x2bff3d8, size 0x70, virtual false, abstract: false, final false
-  static inline bool IsHmdPresent();
+/// @brief Method IsHmdPresent, addr 0x3fe5e58, size 0x70, virtual false, abstract: false, final false
+static inline bool IsHmdPresent() ;
 
-  /// @brief Method IsInterfaceVersionValid, addr 0x2bff5d0, size 0x98, virtual false, abstract: false, final false
-  static inline bool IsInterfaceVersionValid(ByRefConst<::StringW> pchInterfaceVersion);
+/// @brief Method IsInterfaceVersionValid, addr 0x3fe6050, size 0x98, virtual false, abstract: false, final false
+static inline bool IsInterfaceVersionValid(ByRefConst<::StringW>  pchInterfaceVersion) ;
 
-  /// @brief Method IsRuntimeInstalled, addr 0x2bff448, size 0x70, virtual false, abstract: false, final false
-  static inline bool IsRuntimeInstalled();
+/// @brief Method IsRuntimeInstalled, addr 0x3fe5ec8, size 0x70, virtual false, abstract: false, final false
+static inline bool IsRuntimeInstalled() ;
 
-  static inline ::OVR::OpenVR::OpenVRInterop* New_ctor();
+static inline ::OVR::OpenVR::OpenVRInterop* New_ctor() ;
 
-  /// @brief Method ShutdownInternal, addr 0x2bff374, size 0x64, virtual false, abstract: false, final false
-  static inline void ShutdownInternal();
+/// @brief Method ShutdownInternal, addr 0x3fe5df4, size 0x64, virtual false, abstract: false, final false
+static inline void ShutdownInternal() ;
 
-  /// @brief Method .ctor, addr 0x2bff6d0, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x3fe6150, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr OpenVRInterop();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr OpenVRInterop() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OpenVRInterop", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  OpenVRInterop(OpenVRInterop&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OpenVRInterop", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  OpenVRInterop(OpenVRInterop const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "OpenVRInterop", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+OpenVRInterop(OpenVRInterop && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "OpenVRInterop", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+OpenVRInterop(OpenVRInterop const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::OpenVRInterop, 0x10>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 NEED_NO_BOX(::OVR::OpenVR::OpenVRInterop);
 DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::OpenVRInterop*, "OVR.OpenVR", "OpenVRInterop");

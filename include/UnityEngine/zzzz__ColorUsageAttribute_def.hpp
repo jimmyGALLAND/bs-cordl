@@ -13,110 +13,110 @@ class ColorUsageAttribute;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::ColorUsageAttribute);
 // Type: UnityEngine::ColorUsageAttribute
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
 // CS Name: ::UnityEngine::ColorUsageAttribute*
 class CORDL_TYPE ColorUsageAttribute : public ::UnityEngine::PropertyAttribute {
 public:
-  // Declarations
-  /// @brief Field hdr, offset 0x11, size 0x1
-  __declspec(property(get = __cordl_internal_get_hdr, put = __cordl_internal_set_hdr)) bool hdr;
+// Declarations
+/// @brief Field hdr, offset 0x11, size 0x1 
+ __declspec(property(get=__cordl_internal_get_hdr, put=__cordl_internal_set_hdr)) bool  hdr;
 
-  /// @brief Field maxBrightness, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get_maxBrightness, put = __cordl_internal_set_maxBrightness)) float_t maxBrightness;
+/// @brief Field maxBrightness, offset 0x18, size 0x4 
+ __declspec(property(get=__cordl_internal_get_maxBrightness, put=__cordl_internal_set_maxBrightness)) float_t  maxBrightness;
 
-  /// @brief Field maxExposureValue, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get_maxExposureValue, put = __cordl_internal_set_maxExposureValue)) float_t maxExposureValue;
+/// @brief Field maxExposureValue, offset 0x20, size 0x4 
+ __declspec(property(get=__cordl_internal_get_maxExposureValue, put=__cordl_internal_set_maxExposureValue)) float_t  maxExposureValue;
 
-  /// @brief Field minBrightness, offset 0x14, size 0x4
-  __declspec(property(get = __cordl_internal_get_minBrightness, put = __cordl_internal_set_minBrightness)) float_t minBrightness;
+/// @brief Field minBrightness, offset 0x14, size 0x4 
+ __declspec(property(get=__cordl_internal_get_minBrightness, put=__cordl_internal_set_minBrightness)) float_t  minBrightness;
 
-  /// @brief Field minExposureValue, offset 0x1c, size 0x4
-  __declspec(property(get = __cordl_internal_get_minExposureValue, put = __cordl_internal_set_minExposureValue)) float_t minExposureValue;
+/// @brief Field minExposureValue, offset 0x1c, size 0x4 
+ __declspec(property(get=__cordl_internal_get_minExposureValue, put=__cordl_internal_set_minExposureValue)) float_t  minExposureValue;
 
-  /// @brief Field showAlpha, offset 0x10, size 0x1
-  __declspec(property(get = __cordl_internal_get_showAlpha, put = __cordl_internal_set_showAlpha)) bool showAlpha;
+/// @brief Field showAlpha, offset 0x10, size 0x1 
+ __declspec(property(get=__cordl_internal_get_showAlpha, put=__cordl_internal_set_showAlpha)) bool  showAlpha;
 
-  static inline ::UnityEngine::ColorUsageAttribute* New_ctor(bool showAlpha);
+static inline ::UnityEngine::ColorUsageAttribute* New_ctor(bool  showAlpha) ;
 
-  static inline ::UnityEngine::ColorUsageAttribute* New_ctor(bool showAlpha, bool hdr);
+static inline ::UnityEngine::ColorUsageAttribute* New_ctor(bool  showAlpha, bool  hdr) ;
 
-  constexpr bool const& __cordl_internal_get_hdr() const;
+constexpr bool const& __cordl_internal_get_hdr() const;
 
-  constexpr bool& __cordl_internal_get_hdr();
+constexpr bool& __cordl_internal_get_hdr() ;
 
-  constexpr float_t const& __cordl_internal_get_maxBrightness() const;
+constexpr float_t const& __cordl_internal_get_maxBrightness() const;
 
-  constexpr float_t& __cordl_internal_get_maxBrightness();
+constexpr float_t& __cordl_internal_get_maxBrightness() ;
 
-  constexpr float_t const& __cordl_internal_get_maxExposureValue() const;
+constexpr float_t const& __cordl_internal_get_maxExposureValue() const;
 
-  constexpr float_t& __cordl_internal_get_maxExposureValue();
+constexpr float_t& __cordl_internal_get_maxExposureValue() ;
 
-  constexpr float_t const& __cordl_internal_get_minBrightness() const;
+constexpr float_t const& __cordl_internal_get_minBrightness() const;
 
-  constexpr float_t& __cordl_internal_get_minBrightness();
+constexpr float_t& __cordl_internal_get_minBrightness() ;
 
-  constexpr float_t const& __cordl_internal_get_minExposureValue() const;
+constexpr float_t const& __cordl_internal_get_minExposureValue() const;
 
-  constexpr float_t& __cordl_internal_get_minExposureValue();
+constexpr float_t& __cordl_internal_get_minExposureValue() ;
 
-  constexpr bool const& __cordl_internal_get_showAlpha() const;
+constexpr bool const& __cordl_internal_get_showAlpha() const;
 
-  constexpr bool& __cordl_internal_get_showAlpha();
+constexpr bool& __cordl_internal_get_showAlpha() ;
 
-  constexpr void __cordl_internal_set_hdr(bool value);
+constexpr void __cordl_internal_set_hdr(bool  value) ;
 
-  constexpr void __cordl_internal_set_maxBrightness(float_t value);
+constexpr void __cordl_internal_set_maxBrightness(float_t  value) ;
 
-  constexpr void __cordl_internal_set_maxExposureValue(float_t value);
+constexpr void __cordl_internal_set_maxExposureValue(float_t  value) ;
 
-  constexpr void __cordl_internal_set_minBrightness(float_t value);
+constexpr void __cordl_internal_set_minBrightness(float_t  value) ;
 
-  constexpr void __cordl_internal_set_minExposureValue(float_t value);
+constexpr void __cordl_internal_set_minExposureValue(float_t  value) ;
 
-  constexpr void __cordl_internal_set_showAlpha(bool value);
+constexpr void __cordl_internal_set_showAlpha(bool  value) ;
 
-  /// @brief Method .ctor, addr 0x3442644, size 0x3c, virtual false, abstract: false, final false
-  inline void _ctor(bool showAlpha);
+/// @brief Method .ctor, addr 0x481433c, size 0x3c, virtual false, abstract: false, final false
+inline void _ctor(bool  showAlpha) ;
 
-  /// @brief Method .ctor, addr 0x3442680, size 0x44, virtual false, abstract: false, final false
-  inline void _ctor(bool showAlpha, bool hdr);
+/// @brief Method .ctor, addr 0x4814378, size 0x44, virtual false, abstract: false, final false
+inline void _ctor(bool  showAlpha, bool  hdr) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ColorUsageAttribute();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ColorUsageAttribute() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ColorUsageAttribute", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ColorUsageAttribute(ColorUsageAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ColorUsageAttribute", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ColorUsageAttribute(ColorUsageAttribute const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ColorUsageAttribute", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ColorUsageAttribute(ColorUsageAttribute && ) = delete;
 
-  /// @brief Field showAlpha, offset: 0x10, size: 0x1, def value: None
-  bool ___showAlpha;
+// Ctor Parameters [CppParam { name: "", ty: "ColorUsageAttribute", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ColorUsageAttribute(ColorUsageAttribute const& ) = delete;
 
-  /// @brief Field hdr, offset: 0x11, size: 0x1, def value: None
-  bool ___hdr;
+/// @brief Field showAlpha, offset: 0x10, size: 0x1, def value: None
+ bool  ___showAlpha;
 
-  /// @brief Field minBrightness, offset: 0x14, size: 0x4, def value: None
-  float_t ___minBrightness;
+/// @brief Field hdr, offset: 0x11, size: 0x1, def value: None
+ bool  ___hdr;
 
-  /// @brief Field maxBrightness, offset: 0x18, size: 0x4, def value: None
-  float_t ___maxBrightness;
+/// @brief Field minBrightness, offset: 0x14, size: 0x4, def value: None
+ float_t  ___minBrightness;
 
-  /// @brief Field minExposureValue, offset: 0x1c, size: 0x4, def value: None
-  float_t ___minExposureValue;
+/// @brief Field maxBrightness, offset: 0x18, size: 0x4, def value: None
+ float_t  ___maxBrightness;
 
-  /// @brief Field maxExposureValue, offset: 0x20, size: 0x4, def value: None
-  float_t ___maxExposureValue;
+/// @brief Field minExposureValue, offset: 0x1c, size: 0x4, def value: None
+ float_t  ___minExposureValue;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field maxExposureValue, offset: 0x20, size: 0x4, def value: None
+ float_t  ___maxExposureValue;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ColorUsageAttribute, 0x28>, "Size mismatch!");
@@ -133,6 +133,6 @@ static_assert(offsetof(::UnityEngine::ColorUsageAttribute, ___minExposureValue) 
 
 static_assert(offsetof(::UnityEngine::ColorUsageAttribute, ___maxExposureValue) == 0x20, "Offset mismatch!");
 
-} // namespace UnityEngine
+} // namespace end def UnityEngine
 NEED_NO_BOX(::UnityEngine::ColorUsageAttribute);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ColorUsageAttribute*, "UnityEngine", "ColorUsageAttribute");

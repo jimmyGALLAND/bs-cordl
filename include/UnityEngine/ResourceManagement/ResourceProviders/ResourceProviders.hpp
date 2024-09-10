@@ -1,13 +1,15 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "UnityEngine/ResourceManagement/ResourceProviders/AssetBundleProvider.hpp"
 #include "UnityEngine/ResourceManagement/ResourceProviders/AssetBundleRequestOptions.hpp"
 #include "UnityEngine/ResourceManagement/ResourceProviders/AssetBundleResource.hpp"
 #include "UnityEngine/ResourceManagement/ResourceProviders/AssetLoadMode.hpp"
 #include "UnityEngine/ResourceManagement/ResourceProviders/AtlasSpriteProvider.hpp"
+#include "UnityEngine/ResourceManagement/ResourceProviders/BinaryAssetProvider_1.hpp"
+#include "UnityEngine/ResourceManagement/ResourceProviders/BinaryDataProvider.hpp"
 #include "UnityEngine/ResourceManagement/ResourceProviders/BundledAssetProvider.hpp"
 #include "UnityEngine/ResourceManagement/ResourceProviders/DownloadOnlyLocation.hpp"
 #include "UnityEngine/ResourceManagement/ResourceProviders/IAssetBundleResource.hpp"
@@ -28,5 +30,6 @@ module;
 #include "UnityEngine/ResourceManagement/ResourceProviders/SceneProviderExtensions.hpp"
 #include "UnityEngine/ResourceManagement/ResourceProviders/TextDataProvider.hpp"
 #ifdef __cpp_modules
-export module ResourceProviders;
-#endif
+                    export module ResourceProviders;
+                    #endif
+                

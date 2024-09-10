@@ -13,51 +13,51 @@ class GetXPlatformAccessTokenResponse;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::GetXPlatformAccessTokenResponse);
 // Type: ::GetXPlatformAccessTokenResponse
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::GetXPlatformAccessTokenResponse*
 class CORDL_TYPE GetXPlatformAccessTokenResponse : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field accessToken, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_accessToken, put = __cordl_internal_set_accessToken))::StringW accessToken;
+// Declarations
+/// @brief Field accessToken, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_accessToken, put=__cordl_internal_set_accessToken)) ::StringW  accessToken;
 
-  static inline ::GlobalNamespace::GetXPlatformAccessTokenResponse* New_ctor(::StringW accessToken);
+static inline ::GlobalNamespace::GetXPlatformAccessTokenResponse* New_ctor(::StringW  accessToken) ;
 
-  constexpr ::StringW const& __cordl_internal_get_accessToken() const;
+constexpr ::StringW const& __cordl_internal_get_accessToken() const;
 
-  constexpr ::StringW& __cordl_internal_get_accessToken();
+constexpr ::StringW& __cordl_internal_get_accessToken() ;
 
-  constexpr void __cordl_internal_set_accessToken(::StringW value);
+constexpr void __cordl_internal_set_accessToken(::StringW  value) ;
 
-  /// @brief Method .ctor, addr 0x2c07578, size 0x28, virtual false, abstract: false, final false
-  inline void _ctor(::StringW accessToken);
+/// @brief Method .ctor, addr 0x3fee9b8, size 0x28, virtual false, abstract: false, final false
+inline void _ctor(::StringW  accessToken) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr GetXPlatformAccessTokenResponse();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr GetXPlatformAccessTokenResponse() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GetXPlatformAccessTokenResponse", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  GetXPlatformAccessTokenResponse(GetXPlatformAccessTokenResponse&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GetXPlatformAccessTokenResponse", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  GetXPlatformAccessTokenResponse(GetXPlatformAccessTokenResponse const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "GetXPlatformAccessTokenResponse", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+GetXPlatformAccessTokenResponse(GetXPlatformAccessTokenResponse && ) = delete;
 
-  /// @brief Field accessToken, offset: 0x10, size: 0x8, def value: None
-  ::StringW ___accessToken;
+// Ctor Parameters [CppParam { name: "", ty: "GetXPlatformAccessTokenResponse", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+GetXPlatformAccessTokenResponse(GetXPlatformAccessTokenResponse const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field accessToken, offset: 0x10, size: 0x8, def value: None
+ ::StringW  ___accessToken;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::GetXPlatformAccessTokenResponse, 0x18>, "Size mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::GetXPlatformAccessTokenResponse, ___accessToken) == 0x10, "Offset mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::GetXPlatformAccessTokenResponse);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::GetXPlatformAccessTokenResponse*, "", "GetXPlatformAccessTokenResponse");

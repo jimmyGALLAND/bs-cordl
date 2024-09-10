@@ -16,40 +16,40 @@ class __RightShiftInstruction__RightShiftSByte;
 // Write type traits
 MARK_REF_PTR_T(::System::Linq::Expressions::Interpreter::__RightShiftInstruction__RightShiftSByte);
 // Type: ::RightShiftSByte
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Linq::Expressions::Interpreter {
 // Is value type: false
 // CS Name: ::RightShiftInstruction::RightShiftSByte*
 class CORDL_TYPE __RightShiftInstruction__RightShiftSByte : public ::System::Linq::Expressions::Interpreter::RightShiftInstruction {
 public:
-  // Declarations
-  static inline ::System::Linq::Expressions::Interpreter::__RightShiftInstruction__RightShiftSByte* New_ctor();
+// Declarations
+static inline ::System::Linq::Expressions::Interpreter::__RightShiftInstruction__RightShiftSByte* New_ctor() ;
 
-  /// @brief Method Run, addr 0x2c7b380, size 0xf8, virtual true, abstract: false, final false
-  inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
+/// @brief Method Run, addr 0x4063464, size 0xf8, virtual true, abstract: false, final false
+inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame*  frame) ;
 
-  /// @brief Method .ctor, addr 0x2c7b340, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x4063424, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __RightShiftInstruction__RightShiftSByte();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __RightShiftInstruction__RightShiftSByte() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__RightShiftInstruction__RightShiftSByte", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __RightShiftInstruction__RightShiftSByte(__RightShiftInstruction__RightShiftSByte&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__RightShiftInstruction__RightShiftSByte", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __RightShiftInstruction__RightShiftSByte(__RightShiftInstruction__RightShiftSByte const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__RightShiftInstruction__RightShiftSByte", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__RightShiftInstruction__RightShiftSByte(__RightShiftInstruction__RightShiftSByte && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "__RightShiftInstruction__RightShiftSByte", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__RightShiftInstruction__RightShiftSByte(__RightShiftInstruction__RightShiftSByte const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Interpreter::__RightShiftInstruction__RightShiftSByte, 0x10>, "Size mismatch!");
 
-} // namespace System::Linq::Expressions::Interpreter
+} // namespace end def System::Linq::Expressions::Interpreter
 NEED_NO_BOX(::System::Linq::Expressions::Interpreter::__RightShiftInstruction__RightShiftSByte);
 DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::Interpreter::__RightShiftInstruction__RightShiftSByte*, "System.Linq.Expressions.Interpreter", "RightShiftInstruction/RightShiftSByte");

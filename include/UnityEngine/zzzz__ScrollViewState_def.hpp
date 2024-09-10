@@ -12,37 +12,37 @@ class ScrollViewState;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::ScrollViewState);
 // Type: UnityEngine::ScrollViewState
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
 // CS Name: ::UnityEngine::ScrollViewState*
 class CORDL_TYPE ScrollViewState : public ::System::Object {
 public:
-  // Declarations
-  static inline ::UnityEngine::ScrollViewState* New_ctor();
+// Declarations
+static inline ::UnityEngine::ScrollViewState* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x347f10c, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x484f35c, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ScrollViewState();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ScrollViewState() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ScrollViewState", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ScrollViewState(ScrollViewState&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ScrollViewState", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ScrollViewState(ScrollViewState const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ScrollViewState", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ScrollViewState(ScrollViewState && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "ScrollViewState", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ScrollViewState(ScrollViewState const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ScrollViewState, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine
+} // namespace end def UnityEngine
 NEED_NO_BOX(::UnityEngine::ScrollViewState);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ScrollViewState*, "UnityEngine", "ScrollViewState");

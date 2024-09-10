@@ -32,172 +32,170 @@ class DataRelationCollection;
 // Write type traits
 MARK_REF_PTR_T(::System::Data::DataRelationCollection);
 // Type: System.Data::DataRelationCollection
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Data {
 // Is value type: false
 // CS Name: ::System.Data::DataRelationCollection*
 class CORDL_TYPE DataRelationCollection : public ::System::Data::InternalDataCollectionBase {
 public:
-  // Declarations
-  using DataSetRelationCollection = ::System::Data::__DataRelationCollection__DataSetRelationCollection;
+// Declarations
+using DataSetRelationCollection = ::System::Data::__DataRelationCollection__DataSetRelationCollection;
 
-  using DataTableRelationCollection = ::System::Data::__DataRelationCollection__DataTableRelationCollection;
+using DataTableRelationCollection = ::System::Data::__DataRelationCollection__DataTableRelationCollection;
 
-  __declspec(property(get = get_Item))::System::Data::DataRelation* Item[];
+ __declspec(property(get=get_Item)) ::System::Data::DataRelation*  Item[];
 
-  __declspec(property(get = get_Item))::System::Data::DataRelation* Item[];
+ __declspec(property(get=get_Item)) ::System::Data::DataRelation*  Item[];
 
-  __declspec(property(get = get_ObjectID)) int32_t ObjectID;
+ __declspec(property(get=get_ObjectID)) int32_t  ObjectID;
 
-  /// @brief Field _defaultNameIndex, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get__defaultNameIndex, put = __cordl_internal_set__defaultNameIndex)) int32_t _defaultNameIndex;
+/// @brief Field _defaultNameIndex, offset 0x18, size 0x4 
+ __declspec(property(get=__cordl_internal_get__defaultNameIndex, put=__cordl_internal_set__defaultNameIndex)) int32_t  _defaultNameIndex;
 
-  /// @brief Field _inTransition, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__inTransition, put = __cordl_internal_set__inTransition))::System::Data::DataRelation* _inTransition;
+/// @brief Field _inTransition, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get__inTransition, put=__cordl_internal_set__inTransition)) ::System::Data::DataRelation*  _inTransition;
 
-  /// @brief Field _objectID, offset 0x30, size 0x4
-  __declspec(property(get = __cordl_internal_get__objectID, put = __cordl_internal_set__objectID)) int32_t _objectID;
+/// @brief Field _objectID, offset 0x30, size 0x4 
+ __declspec(property(get=__cordl_internal_get__objectID, put=__cordl_internal_set__objectID)) int32_t  _objectID;
 
-  /// @brief Field _onCollectionChangedDelegate, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__onCollectionChangedDelegate,
-                      put = __cordl_internal_set__onCollectionChangedDelegate))::System::ComponentModel::CollectionChangeEventHandler* _onCollectionChangedDelegate;
+/// @brief Field _onCollectionChangedDelegate, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get__onCollectionChangedDelegate, put=__cordl_internal_set__onCollectionChangedDelegate)) ::System::ComponentModel::CollectionChangeEventHandler*  _onCollectionChangedDelegate;
 
-  /// @brief Field _onCollectionChangingDelegate, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__onCollectionChangingDelegate,
-                      put = __cordl_internal_set__onCollectionChangingDelegate))::System::ComponentModel::CollectionChangeEventHandler* _onCollectionChangingDelegate;
+/// @brief Field _onCollectionChangingDelegate, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get__onCollectionChangingDelegate, put=__cordl_internal_set__onCollectionChangingDelegate)) ::System::ComponentModel::CollectionChangeEventHandler*  _onCollectionChangingDelegate;
 
-  /// @brief Field s_objectTypeCount, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_s_objectTypeCount, put = setStaticF_s_objectTypeCount)) int32_t s_objectTypeCount;
+/// @brief Field s_objectTypeCount, offset 0xffffffff, size 0x4 
+static __declspec(property(get=getStaticF_s_objectTypeCount, put=setStaticF_s_objectTypeCount)) int32_t  s_objectTypeCount;
 
-  /// @brief Method Add, addr 0x2cd9828, size 0x298, virtual false, abstract: false, final false
-  inline void Add(::System::Data::DataRelation* relation);
+/// @brief Method Add, addr 0x40ced7c, size 0x288, virtual false, abstract: false, final false
+inline void Add(::System::Data::DataRelation*  relation) ;
 
-  /// @brief Method AddCore, addr 0x2cd9ac0, size 0x2b0, virtual true, abstract: false, final false
-  inline void AddCore(::System::Data::DataRelation* relation);
+/// @brief Method AddCore, addr 0x40cf004, size 0x2a8, virtual true, abstract: false, final false
+inline void AddCore(::System::Data::DataRelation*  relation) ;
 
-  /// @brief Method AssignName, addr 0x2cd9f60, size 0x24, virtual false, abstract: false, final false
-  inline ::StringW AssignName();
+/// @brief Method AssignName, addr 0x40cf49c, size 0x24, virtual false, abstract: false, final false
+inline ::StringW AssignName() ;
 
-  /// @brief Method Clear, addr 0x2cda03c, size 0x23c, virtual true, abstract: false, final false
-  inline void Clear();
+/// @brief Method Clear, addr 0x40cf578, size 0x244, virtual true, abstract: false, final false
+inline void Clear() ;
 
-  /// @brief Method Contains, addr 0x2cda278, size 0x18, virtual true, abstract: false, final false
-  inline bool Contains(::StringW name);
+/// @brief Method Contains, addr 0x40cf7bc, size 0x18, virtual true, abstract: false, final false
+inline bool Contains(::StringW  name) ;
 
-  /// @brief Method GetDataSet, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::System::Data::DataSet* GetDataSet();
+/// @brief Method GetDataSet, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+inline ::System::Data::DataSet* GetDataSet() ;
 
-  /// @brief Method InternalIndexOf, addr 0x2cda290, size 0x180, virtual false, abstract: false, final false
-  inline int32_t InternalIndexOf(::StringW name);
+/// @brief Method InternalIndexOf, addr 0x40cf7d4, size 0x178, virtual false, abstract: false, final false
+inline int32_t InternalIndexOf(::StringW  name) ;
 
-  /// @brief Method MakeName, addr 0x2cd9f84, size 0xb8, virtual false, abstract: false, final false
-  inline ::StringW MakeName(int32_t index);
+/// @brief Method MakeName, addr 0x40cf4c0, size 0xb8, virtual false, abstract: false, final false
+inline ::StringW MakeName(int32_t  index) ;
 
-  static inline ::System::Data::DataRelationCollection* New_ctor();
+static inline ::System::Data::DataRelationCollection* New_ctor() ;
 
-  /// @brief Method OnCollectionChanged, addr 0x2cda410, size 0xd0, virtual true, abstract: false, final false
-  inline void OnCollectionChanged(::System::ComponentModel::CollectionChangeEventArgs* ccevent);
+/// @brief Method OnCollectionChanged, addr 0x40cf94c, size 0xd0, virtual true, abstract: false, final false
+inline void OnCollectionChanged(::System::ComponentModel::CollectionChangeEventArgs*  ccevent) ;
 
-  /// @brief Method OnCollectionChanging, addr 0x2cda4e0, size 0xd0, virtual true, abstract: false, final false
-  inline void OnCollectionChanging(::System::ComponentModel::CollectionChangeEventArgs* ccevent);
+/// @brief Method OnCollectionChanging, addr 0x40cfa1c, size 0xd0, virtual true, abstract: false, final false
+inline void OnCollectionChanging(::System::ComponentModel::CollectionChangeEventArgs*  ccevent) ;
 
-  /// @brief Method RegisterName, addr 0x2cda5b0, size 0x1c4, virtual false, abstract: false, final false
-  inline void RegisterName(::StringW name);
+/// @brief Method RegisterName, addr 0x40cfaec, size 0x1bc, virtual false, abstract: false, final false
+inline void RegisterName(::StringW  name) ;
 
-  /// @brief Method Remove, addr 0x2cda774, size 0x1c4, virtual false, abstract: false, final false
-  inline void Remove(::System::Data::DataRelation* relation);
+/// @brief Method Remove, addr 0x40cfca8, size 0x1ac, virtual false, abstract: false, final false
+inline void Remove(::System::Data::DataRelation*  relation) ;
 
-  /// @brief Method RemoveAt, addr 0x2cda938, size 0x74, virtual false, abstract: false, final false
-  inline void RemoveAt(int32_t index);
+/// @brief Method RemoveAt, addr 0x40cfe54, size 0x74, virtual false, abstract: false, final false
+inline void RemoveAt(int32_t  index) ;
 
-  /// @brief Method RemoveCore, addr 0x2cda9ac, size 0x1e8, virtual true, abstract: false, final false
-  inline void RemoveCore(::System::Data::DataRelation* relation);
+/// @brief Method RemoveCore, addr 0x40cfec8, size 0x1e8, virtual true, abstract: false, final false
+inline void RemoveCore(::System::Data::DataRelation*  relation) ;
 
-  /// @brief Method UnregisterName, addr 0x2cdab94, size 0x12c, virtual false, abstract: false, final false
-  inline void UnregisterName(::StringW name);
+/// @brief Method UnregisterName, addr 0x40d00b0, size 0x12c, virtual false, abstract: false, final false
+inline void UnregisterName(::StringW  name) ;
 
-  constexpr int32_t const& __cordl_internal_get__defaultNameIndex() const;
+constexpr int32_t const& __cordl_internal_get__defaultNameIndex() const;
 
-  constexpr int32_t& __cordl_internal_get__defaultNameIndex();
+constexpr int32_t& __cordl_internal_get__defaultNameIndex() ;
 
-  constexpr ::System::Data::DataRelation*& __cordl_internal_get__inTransition();
+constexpr ::System::Data::DataRelation*& __cordl_internal_get__inTransition() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Data::DataRelation*> const& __cordl_internal_get__inTransition() const;
+constexpr ::cordl_internals::to_const_pointer<::System::Data::DataRelation*> const& __cordl_internal_get__inTransition() const;
 
-  constexpr int32_t const& __cordl_internal_get__objectID() const;
+constexpr int32_t const& __cordl_internal_get__objectID() const;
 
-  constexpr int32_t& __cordl_internal_get__objectID();
+constexpr int32_t& __cordl_internal_get__objectID() ;
 
-  constexpr ::System::ComponentModel::CollectionChangeEventHandler*& __cordl_internal_get__onCollectionChangedDelegate();
+constexpr ::System::ComponentModel::CollectionChangeEventHandler*& __cordl_internal_get__onCollectionChangedDelegate() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::ComponentModel::CollectionChangeEventHandler*> const& __cordl_internal_get__onCollectionChangedDelegate() const;
+constexpr ::cordl_internals::to_const_pointer<::System::ComponentModel::CollectionChangeEventHandler*> const& __cordl_internal_get__onCollectionChangedDelegate() const;
 
-  constexpr ::System::ComponentModel::CollectionChangeEventHandler*& __cordl_internal_get__onCollectionChangingDelegate();
+constexpr ::System::ComponentModel::CollectionChangeEventHandler*& __cordl_internal_get__onCollectionChangingDelegate() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::ComponentModel::CollectionChangeEventHandler*> const& __cordl_internal_get__onCollectionChangingDelegate() const;
+constexpr ::cordl_internals::to_const_pointer<::System::ComponentModel::CollectionChangeEventHandler*> const& __cordl_internal_get__onCollectionChangingDelegate() const;
 
-  constexpr void __cordl_internal_set__defaultNameIndex(int32_t value);
+constexpr void __cordl_internal_set__defaultNameIndex(int32_t  value) ;
 
-  constexpr void __cordl_internal_set__inTransition(::System::Data::DataRelation* value);
+constexpr void __cordl_internal_set__inTransition(::System::Data::DataRelation*  value) ;
 
-  constexpr void __cordl_internal_set__objectID(int32_t value);
+constexpr void __cordl_internal_set__objectID(int32_t  value) ;
 
-  constexpr void __cordl_internal_set__onCollectionChangedDelegate(::System::ComponentModel::CollectionChangeEventHandler* value);
+constexpr void __cordl_internal_set__onCollectionChangedDelegate(::System::ComponentModel::CollectionChangeEventHandler*  value) ;
 
-  constexpr void __cordl_internal_set__onCollectionChangingDelegate(::System::ComponentModel::CollectionChangeEventHandler* value);
+constexpr void __cordl_internal_set__onCollectionChangingDelegate(::System::ComponentModel::CollectionChangeEventHandler*  value) ;
 
-  /// @brief Method .ctor, addr 0x2cdacc0, size 0x90, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x40d01dc, size 0x90, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method add_CollectionChanged, addr 0x2cd9d70, size 0xf8, virtual false, abstract: false, final false
-  inline void add_CollectionChanged(::System::ComponentModel::CollectionChangeEventHandler* value);
+/// @brief Method add_CollectionChanged, addr 0x40cf2ac, size 0xf8, virtual false, abstract: false, final false
+inline void add_CollectionChanged(::System::ComponentModel::CollectionChangeEventHandler*  value) ;
 
-  static inline int32_t getStaticF_s_objectTypeCount();
+static inline int32_t getStaticF_s_objectTypeCount() ;
 
-  /// @brief Method get_Item, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::System::Data::DataRelation* get_Item(int32_t index);
+/// @brief Method get_Item, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+inline ::System::Data::DataRelation* get_Item(int32_t  index) ;
 
-  /// @brief Method get_Item, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::System::Data::DataRelation* get_Item(::StringW name);
+/// @brief Method get_Item, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+inline ::System::Data::DataRelation* get_Item(::StringW  name) ;
 
-  /// @brief Method get_ObjectID, addr 0x2cd9820, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_ObjectID();
+/// @brief Method get_ObjectID, addr 0x40ced74, size 0x8, virtual false, abstract: false, final false
+inline int32_t get_ObjectID() ;
 
-  /// @brief Method remove_CollectionChanged, addr 0x2cd9e68, size 0xf8, virtual false, abstract: false, final false
-  inline void remove_CollectionChanged(::System::ComponentModel::CollectionChangeEventHandler* value);
+/// @brief Method remove_CollectionChanged, addr 0x40cf3a4, size 0xf8, virtual false, abstract: false, final false
+inline void remove_CollectionChanged(::System::ComponentModel::CollectionChangeEventHandler*  value) ;
 
-  static inline void setStaticF_s_objectTypeCount(int32_t value);
+static inline void setStaticF_s_objectTypeCount(int32_t  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DataRelationCollection();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr DataRelationCollection() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DataRelationCollection", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  DataRelationCollection(DataRelationCollection&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DataRelationCollection", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  DataRelationCollection(DataRelationCollection const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "DataRelationCollection", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+DataRelationCollection(DataRelationCollection && ) = delete;
 
-  /// @brief Field _inTransition, offset: 0x10, size: 0x8, def value: None
-  ::System::Data::DataRelation* ____inTransition;
+// Ctor Parameters [CppParam { name: "", ty: "DataRelationCollection", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+DataRelationCollection(DataRelationCollection const& ) = delete;
 
-  /// @brief Field _defaultNameIndex, offset: 0x18, size: 0x4, def value: None
-  int32_t ____defaultNameIndex;
+/// @brief Field _inTransition, offset: 0x10, size: 0x8, def value: None
+ ::System::Data::DataRelation*  ____inTransition;
 
-  /// @brief Field _onCollectionChangedDelegate, offset: 0x20, size: 0x8, def value: None
-  ::System::ComponentModel::CollectionChangeEventHandler* ____onCollectionChangedDelegate;
+/// @brief Field _defaultNameIndex, offset: 0x18, size: 0x4, def value: None
+ int32_t  ____defaultNameIndex;
 
-  /// @brief Field _onCollectionChangingDelegate, offset: 0x28, size: 0x8, def value: None
-  ::System::ComponentModel::CollectionChangeEventHandler* ____onCollectionChangingDelegate;
+/// @brief Field _onCollectionChangedDelegate, offset: 0x20, size: 0x8, def value: None
+ ::System::ComponentModel::CollectionChangeEventHandler*  ____onCollectionChangedDelegate;
 
-  /// @brief Field _objectID, offset: 0x30, size: 0x4, def value: None
-  int32_t ____objectID;
+/// @brief Field _onCollectionChangingDelegate, offset: 0x28, size: 0x8, def value: None
+ ::System::ComponentModel::CollectionChangeEventHandler*  ____onCollectionChangingDelegate;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _objectID, offset: 0x30, size: 0x4, def value: None
+ int32_t  ____objectID;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Data::DataRelationCollection, 0x38>, "Size mismatch!");
@@ -212,6 +210,6 @@ static_assert(offsetof(::System::Data::DataRelationCollection, ____onCollectionC
 
 static_assert(offsetof(::System::Data::DataRelationCollection, ____objectID) == 0x30, "Offset mismatch!");
 
-} // namespace System::Data
+} // namespace end def System::Data
 NEED_NO_BOX(::System::Data::DataRelationCollection);
 DEFINE_IL2CPP_ARG_TYPE(::System::Data::DataRelationCollection*, "System.Data", "DataRelationCollection");

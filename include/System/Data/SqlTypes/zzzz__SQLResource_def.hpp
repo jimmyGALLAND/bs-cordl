@@ -13,80 +13,80 @@ class SQLResource;
 // Write type traits
 MARK_REF_PTR_T(::System::Data::SqlTypes::SQLResource);
 // Type: System.Data.SqlTypes::SQLResource
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Data::SqlTypes {
 // Is value type: false
 // CS Name: ::System.Data.SqlTypes::SQLResource*
 class CORDL_TYPE SQLResource : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method InvalidOpStreamClosed, addr 0x2d48d10, size 0x4c, virtual false, abstract: false, final false
-  static inline ::StringW InvalidOpStreamClosed(::StringW method);
+// Declarations
+/// @brief Method InvalidOpStreamClosed, addr 0x412c060, size 0x4c, virtual false, abstract: false, final false
+static inline ::StringW InvalidOpStreamClosed(::StringW  method) ;
 
-  /// @brief Method InvalidOpStreamNonReadable, addr 0x2d48da8, size 0x4c, virtual false, abstract: false, final false
-  static inline ::StringW InvalidOpStreamNonReadable(::StringW method);
+/// @brief Method InvalidOpStreamNonReadable, addr 0x412c0f8, size 0x4c, virtual false, abstract: false, final false
+static inline ::StringW InvalidOpStreamNonReadable(::StringW  method) ;
 
-  /// @brief Method InvalidOpStreamNonSeekable, addr 0x2d48df4, size 0x4c, virtual false, abstract: false, final false
-  static inline ::StringW InvalidOpStreamNonSeekable(::StringW method);
+/// @brief Method InvalidOpStreamNonSeekable, addr 0x412c144, size 0x4c, virtual false, abstract: false, final false
+static inline ::StringW InvalidOpStreamNonSeekable(::StringW  method) ;
 
-  /// @brief Method InvalidOpStreamNonWritable, addr 0x2d48d5c, size 0x4c, virtual false, abstract: false, final false
-  static inline ::StringW InvalidOpStreamNonWritable(::StringW method);
+/// @brief Method InvalidOpStreamNonWritable, addr 0x412c0ac, size 0x4c, virtual false, abstract: false, final false
+static inline ::StringW InvalidOpStreamNonWritable(::StringW  method) ;
 
-  /// @brief Method get_ArithOverflowMessage, addr 0x2d48a50, size 0x40, virtual false, abstract: false, final false
-  static inline ::StringW get_ArithOverflowMessage();
+/// @brief Method get_ArithOverflowMessage, addr 0x412bda0, size 0x40, virtual false, abstract: false, final false
+static inline ::StringW get_ArithOverflowMessage() ;
 
-  /// @brief Method get_CompareDiffCollationMessage, addr 0x2d48bd0, size 0x40, virtual false, abstract: false, final false
-  static inline ::StringW get_CompareDiffCollationMessage();
+/// @brief Method get_CompareDiffCollationMessage, addr 0x412bf20, size 0x40, virtual false, abstract: false, final false
+static inline ::StringW get_CompareDiffCollationMessage() ;
 
-  /// @brief Method get_ConcatDiffCollationMessage, addr 0x2d48b90, size 0x40, virtual false, abstract: false, final false
-  static inline ::StringW get_ConcatDiffCollationMessage();
+/// @brief Method get_ConcatDiffCollationMessage, addr 0x412bee0, size 0x40, virtual false, abstract: false, final false
+static inline ::StringW get_ConcatDiffCollationMessage() ;
 
-  /// @brief Method get_ConversionOverflowMessage, addr 0x2d48c10, size 0x40, virtual false, abstract: false, final false
-  static inline ::StringW get_ConversionOverflowMessage();
+/// @brief Method get_ConversionOverflowMessage, addr 0x412bf60, size 0x40, virtual false, abstract: false, final false
+static inline ::StringW get_ConversionOverflowMessage() ;
 
-  /// @brief Method get_DateTimeOverflowMessage, addr 0x2d48b50, size 0x40, virtual false, abstract: false, final false
-  static inline ::StringW get_DateTimeOverflowMessage();
+/// @brief Method get_DateTimeOverflowMessage, addr 0x412bea0, size 0x40, virtual false, abstract: false, final false
+static inline ::StringW get_DateTimeOverflowMessage() ;
 
-  /// @brief Method get_DivideByZeroMessage, addr 0x2d48a90, size 0x40, virtual false, abstract: false, final false
-  static inline ::StringW get_DivideByZeroMessage();
+/// @brief Method get_DivideByZeroMessage, addr 0x412bde0, size 0x40, virtual false, abstract: false, final false
+static inline ::StringW get_DivideByZeroMessage() ;
 
-  /// @brief Method get_FormatMessage, addr 0x2d48cd0, size 0x40, virtual false, abstract: false, final false
-  static inline ::StringW get_FormatMessage();
+/// @brief Method get_FormatMessage, addr 0x412c020, size 0x40, virtual false, abstract: false, final false
+static inline ::StringW get_FormatMessage() ;
 
-  /// @brief Method get_InvalidPrecScaleMessage, addr 0x2d48c90, size 0x40, virtual false, abstract: false, final false
-  static inline ::StringW get_InvalidPrecScaleMessage();
+/// @brief Method get_InvalidPrecScaleMessage, addr 0x412bfe0, size 0x40, virtual false, abstract: false, final false
+static inline ::StringW get_InvalidPrecScaleMessage() ;
 
-  /// @brief Method get_NullString, addr 0x2d48a10, size 0x40, virtual false, abstract: false, final false
-  static inline ::StringW get_NullString();
+/// @brief Method get_NullString, addr 0x412bd60, size 0x40, virtual false, abstract: false, final false
+static inline ::StringW get_NullString() ;
 
-  /// @brief Method get_NullValueMessage, addr 0x2d48ad0, size 0x40, virtual false, abstract: false, final false
-  static inline ::StringW get_NullValueMessage();
+/// @brief Method get_NullValueMessage, addr 0x412be20, size 0x40, virtual false, abstract: false, final false
+static inline ::StringW get_NullValueMessage() ;
 
-  /// @brief Method get_TimeZoneSpecifiedMessage, addr 0x2d48c50, size 0x40, virtual false, abstract: false, final false
-  static inline ::StringW get_TimeZoneSpecifiedMessage();
+/// @brief Method get_TimeZoneSpecifiedMessage, addr 0x412bfa0, size 0x40, virtual false, abstract: false, final false
+static inline ::StringW get_TimeZoneSpecifiedMessage() ;
 
-  /// @brief Method get_TruncationMessage, addr 0x2d48b10, size 0x40, virtual false, abstract: false, final false
-  static inline ::StringW get_TruncationMessage();
+/// @brief Method get_TruncationMessage, addr 0x412be60, size 0x40, virtual false, abstract: false, final false
+static inline ::StringW get_TruncationMessage() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SQLResource();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr SQLResource() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SQLResource", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  SQLResource(SQLResource&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SQLResource", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  SQLResource(SQLResource const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "SQLResource", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+SQLResource(SQLResource && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "SQLResource", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+SQLResource(SQLResource const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Data::SqlTypes::SQLResource, 0x10>, "Size mismatch!");
 
-} // namespace System::Data::SqlTypes
+} // namespace end def System::Data::SqlTypes
 NEED_NO_BOX(::System::Data::SqlTypes::SQLResource);
 DEFINE_IL2CPP_ARG_TYPE(::System::Data::SqlTypes::SQLResource*, "System.Data.SqlTypes", "SQLResource");

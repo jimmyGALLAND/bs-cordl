@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "UnityEngine/Bindings/CodegenOptions.hpp"
 #include "UnityEngine/Bindings/FreeFunctionAttribute.hpp"
@@ -17,6 +17,7 @@ module;
 #include "UnityEngine/Bindings/NativeWritableSelfAttribute.hpp"
 #include "UnityEngine/Bindings/NotNullAttribute.hpp"
 #include "UnityEngine/Bindings/PreventReadOnlyInstanceModificationAttribute.hpp"
+#include "UnityEngine/Bindings/SpanAttribute.hpp"
 #include "UnityEngine/Bindings/StaticAccessorAttribute.hpp"
 #include "UnityEngine/Bindings/StaticAccessorType.hpp"
 #include "UnityEngine/Bindings/TargetType.hpp"
@@ -24,5 +25,6 @@ module;
 #include "UnityEngine/Bindings/UnmarshalledAttribute.hpp"
 #include "UnityEngine/Bindings/VisibleToOtherModulesAttribute.hpp"
 #ifdef __cpp_modules
-export module Bindings;
-#endif
+                    export module Bindings;
+                    #endif
+                

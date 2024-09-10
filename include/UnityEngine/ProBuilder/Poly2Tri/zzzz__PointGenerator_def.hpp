@@ -8,7 +8,8 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(PointGenerator)
 namespace System::Collections::Generic {
-template <typename T> class List_1;
+template<typename T>
+class List_1;
 }
 namespace System {
 class Random;
@@ -23,50 +24,50 @@ class PointGenerator;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::ProBuilder::Poly2Tri::PointGenerator);
 // Type: UnityEngine.ProBuilder.Poly2Tri::PointGenerator
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::Poly2Tri {
 // Is value type: false
 // CS Name: ::UnityEngine.ProBuilder.Poly2Tri::PointGenerator*
 class CORDL_TYPE PointGenerator : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field RNG, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_RNG, put = setStaticF_RNG))::System::Random* RNG;
+// Declarations
+/// @brief Field RNG, offset 0xffffffff, size 0x8 
+static __declspec(property(get=getStaticF_RNG, put=setStaticF_RNG)) ::System::Random*  RNG;
 
-  static inline ::UnityEngine::ProBuilder::Poly2Tri::PointGenerator* New_ctor();
+static inline ::UnityEngine::ProBuilder::Poly2Tri::PointGenerator* New_ctor() ;
 
-  /// @brief Method UniformDistribution, addr 0x32a6ea0, size 0x1c8, virtual false, abstract: false, final false
-  static inline ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>* UniformDistribution(int32_t n, double_t scale);
+/// @brief Method UniformDistribution, addr 0x466c668, size 0x1c0, virtual false, abstract: false, final false
+static inline ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>* UniformDistribution(int32_t  n, double_t  scale) ;
 
-  /// @brief Method UniformGrid, addr 0x32a7068, size 0x18c, virtual false, abstract: false, final false
-  static inline ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>* UniformGrid(int32_t n, double_t scale);
+/// @brief Method UniformGrid, addr 0x466c828, size 0x18c, virtual false, abstract: false, final false
+static inline ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::TriangulationPoint*>* UniformGrid(int32_t  n, double_t  scale) ;
 
-  /// @brief Method .ctor, addr 0x32a71f4, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x466c9b4, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  static inline ::System::Random* getStaticF_RNG();
+static inline ::System::Random* getStaticF_RNG() ;
 
-  static inline void setStaticF_RNG(::System::Random* value);
+static inline void setStaticF_RNG(::System::Random*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PointGenerator();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr PointGenerator() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PointGenerator", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  PointGenerator(PointGenerator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PointGenerator", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  PointGenerator(PointGenerator const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "PointGenerator", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+PointGenerator(PointGenerator && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "PointGenerator", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+PointGenerator(PointGenerator const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::Poly2Tri::PointGenerator, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine::ProBuilder::Poly2Tri
+} // namespace end def UnityEngine::ProBuilder::Poly2Tri
 NEED_NO_BOX(::UnityEngine::ProBuilder::Poly2Tri::PointGenerator);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::Poly2Tri::PointGenerator*, "UnityEngine.ProBuilder.Poly2Tri", "PointGenerator");

@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "Unity/XR/Oculus/Boundary.hpp"
 #include "Unity/XR/Oculus/Development.hpp"
@@ -19,5 +19,6 @@ module;
 #include "Unity/XR/Oculus/SystemHeadset.hpp"
 #include "Unity/XR/Oculus/Utils.hpp"
 #ifdef __cpp_modules
-export module Oculus;
-#endif
+                    export module Oculus;
+                    #endif
+                

@@ -27,86 +27,86 @@ class ServiceLocator;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Ocsp::ServiceLocator);
 // Type: Org.BouncyCastle.Asn1.Ocsp::ServiceLocator
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Ocsp {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Asn1.Ocsp::ServiceLocator*
 class CORDL_TYPE ServiceLocator : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
-  // Declarations
-  __declspec(property(get = get_Issuer))::Org::BouncyCastle::Asn1::X509::X509Name* Issuer;
+// Declarations
+ __declspec(property(get=get_Issuer)) ::Org::BouncyCastle::Asn1::X509::X509Name*  Issuer;
 
-  __declspec(property(get = get_Locator))::Org::BouncyCastle::Asn1::Asn1Object* Locator;
+ __declspec(property(get=get_Locator)) ::Org::BouncyCastle::Asn1::Asn1Object*  Locator;
 
-  /// @brief Field issuer, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_issuer, put = __cordl_internal_set_issuer))::Org::BouncyCastle::Asn1::X509::X509Name* issuer;
+/// @brief Field issuer, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_issuer, put=__cordl_internal_set_issuer)) ::Org::BouncyCastle::Asn1::X509::X509Name*  issuer;
 
-  /// @brief Field locator, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_locator, put = __cordl_internal_set_locator))::Org::BouncyCastle::Asn1::Asn1Object* locator;
+/// @brief Field locator, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_locator, put=__cordl_internal_set_locator)) ::Org::BouncyCastle::Asn1::Asn1Object*  locator;
 
-  /// @brief Method GetInstance, addr 0x11f3dd4, size 0x18, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Asn1::Ocsp::ServiceLocator* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
+/// @brief Method GetInstance, addr 0x23bce9c, size 0x18, virtual false, abstract: false, final false
+static inline ::Org::BouncyCastle::Asn1::Ocsp::ServiceLocator* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject*  obj, bool  explicitly) ;
 
-  /// @brief Method GetInstance, addr 0x11f3dec, size 0x188, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Asn1::Ocsp::ServiceLocator* GetInstance(::System::Object* obj);
+/// @brief Method GetInstance, addr 0x23bceb4, size 0x17c, virtual false, abstract: false, final false
+static inline ::Org::BouncyCastle::Asn1::Ocsp::ServiceLocator* GetInstance(::System::Object*  obj) ;
 
-  static inline ::Org::BouncyCastle::Asn1::Ocsp::ServiceLocator* New_ctor(::Org::BouncyCastle::Asn1::X509::X509Name* issuer);
+static inline ::Org::BouncyCastle::Asn1::Ocsp::ServiceLocator* New_ctor(::Org::BouncyCastle::Asn1::X509::X509Name*  issuer) ;
 
-  static inline ::Org::BouncyCastle::Asn1::Ocsp::ServiceLocator* New_ctor(::Org::BouncyCastle::Asn1::X509::X509Name* issuer, ::Org::BouncyCastle::Asn1::Asn1Object* locator);
+static inline ::Org::BouncyCastle::Asn1::Ocsp::ServiceLocator* New_ctor(::Org::BouncyCastle::Asn1::X509::X509Name*  issuer, ::Org::BouncyCastle::Asn1::Asn1Object*  locator) ;
 
-  static inline ::Org::BouncyCastle::Asn1::Ocsp::ServiceLocator* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
+static inline ::Org::BouncyCastle::Asn1::Ocsp::ServiceLocator* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence*  seq) ;
 
-  /// @brief Method ToAsn1Object, addr 0x11f40e0, size 0x148, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
+/// @brief Method ToAsn1Object, addr 0x23bd198, size 0x144, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object() ;
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::X509Name*& __cordl_internal_get_issuer();
+constexpr ::Org::BouncyCastle::Asn1::X509::X509Name*& __cordl_internal_get_issuer() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::X509Name*> const& __cordl_internal_get_issuer() const;
+constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::X509Name*> const& __cordl_internal_get_issuer() const;
 
-  constexpr ::Org::BouncyCastle::Asn1::Asn1Object*& __cordl_internal_get_locator();
+constexpr ::Org::BouncyCastle::Asn1::Asn1Object*& __cordl_internal_get_locator() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Object*> const& __cordl_internal_get_locator() const;
+constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Object*> const& __cordl_internal_get_locator() const;
 
-  constexpr void __cordl_internal_set_issuer(::Org::BouncyCastle::Asn1::X509::X509Name* value);
+constexpr void __cordl_internal_set_issuer(::Org::BouncyCastle::Asn1::X509::X509Name*  value) ;
 
-  constexpr void __cordl_internal_set_locator(::Org::BouncyCastle::Asn1::Asn1Object* value);
+constexpr void __cordl_internal_set_locator(::Org::BouncyCastle::Asn1::Asn1Object*  value) ;
 
-  /// @brief Method .ctor, addr 0x11f404c, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Asn1::X509::X509Name* issuer);
+/// @brief Method .ctor, addr 0x23bd108, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(::Org::BouncyCastle::Asn1::X509::X509Name*  issuer) ;
 
-  /// @brief Method .ctor, addr 0x11f4054, size 0x7c, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Asn1::X509::X509Name* issuer, ::Org::BouncyCastle::Asn1::Asn1Object* locator);
+/// @brief Method .ctor, addr 0x23bd110, size 0x78, virtual false, abstract: false, final false
+inline void _ctor(::Org::BouncyCastle::Asn1::X509::X509Name*  issuer, ::Org::BouncyCastle::Asn1::Asn1Object*  locator) ;
 
-  /// @brief Method .ctor, addr 0x11f3f74, size 0xd8, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
+/// @brief Method .ctor, addr 0x23bd030, size 0xd8, virtual false, abstract: false, final false
+inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence*  seq) ;
 
-  /// @brief Method get_Issuer, addr 0x11f40d0, size 0x8, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::X509::X509Name* get_Issuer();
+/// @brief Method get_Issuer, addr 0x23bd188, size 0x8, virtual false, abstract: false, final false
+inline ::Org::BouncyCastle::Asn1::X509::X509Name* get_Issuer() ;
 
-  /// @brief Method get_Locator, addr 0x11f40d8, size 0x8, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Asn1Object* get_Locator();
+/// @brief Method get_Locator, addr 0x23bd190, size 0x8, virtual false, abstract: false, final false
+inline ::Org::BouncyCastle::Asn1::Asn1Object* get_Locator() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ServiceLocator();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ServiceLocator() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ServiceLocator", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ServiceLocator(ServiceLocator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ServiceLocator", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ServiceLocator(ServiceLocator const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ServiceLocator", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ServiceLocator(ServiceLocator && ) = delete;
 
-  /// @brief Field issuer, offset: 0x10, size: 0x8, def value: None
-  ::Org::BouncyCastle::Asn1::X509::X509Name* ___issuer;
+// Ctor Parameters [CppParam { name: "", ty: "ServiceLocator", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ServiceLocator(ServiceLocator const& ) = delete;
 
-  /// @brief Field locator, offset: 0x18, size: 0x8, def value: None
-  ::Org::BouncyCastle::Asn1::Asn1Object* ___locator;
+/// @brief Field issuer, offset: 0x10, size: 0x8, def value: None
+ ::Org::BouncyCastle::Asn1::X509::X509Name*  ___issuer;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field locator, offset: 0x18, size: 0x8, def value: None
+ ::Org::BouncyCastle::Asn1::Asn1Object*  ___locator;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Ocsp::ServiceLocator, 0x20>, "Size mismatch!");
@@ -115,6 +115,6 @@ static_assert(offsetof(::Org::BouncyCastle::Asn1::Ocsp::ServiceLocator, ___issue
 
 static_assert(offsetof(::Org::BouncyCastle::Asn1::Ocsp::ServiceLocator, ___locator) == 0x18, "Offset mismatch!");
 
-} // namespace Org::BouncyCastle::Asn1::Ocsp
+} // namespace end def Org::BouncyCastle::Asn1::Ocsp
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Ocsp::ServiceLocator);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::Ocsp::ServiceLocator*, "Org.BouncyCastle.Asn1.Ocsp", "ServiceLocator");

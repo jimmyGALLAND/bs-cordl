@@ -17,59 +17,59 @@ class BeatmapDifficultySerializedMethods;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::BeatmapDifficultySerializedMethods);
 // Type: ::BeatmapDifficultySerializedMethods
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::BeatmapDifficultySerializedMethods*
 class CORDL_TYPE BeatmapDifficultySerializedMethods : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method BeatmapDifficultyFromSerializedName, addr 0x1044b70, size 0x164, virtual false, abstract: false, final false
-  static inline bool BeatmapDifficultyFromSerializedName(::StringW name, ByRef<::GlobalNamespace::BeatmapDifficulty> difficulty);
+// Declarations
+/// @brief Method BeatmapDifficultyFromSerializedName, addr 0x22005c0, size 0x164, virtual false, abstract: false, final false
+static inline bool BeatmapDifficultyFromSerializedName(::StringW  name, ByRef<::GlobalNamespace::BeatmapDifficulty>  difficulty) ;
 
-  /// @brief Method SerializedName, addr 0x1044acc, size 0xa4, virtual false, abstract: false, final false
-  static inline ::StringW SerializedName(::GlobalNamespace::BeatmapDifficulty difficulty);
+/// @brief Method SerializedName, addr 0x2200528, size 0x98, virtual false, abstract: false, final false
+static inline ::StringW SerializedName(::GlobalNamespace::BeatmapDifficulty  difficulty) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BeatmapDifficultySerializedMethods();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr BeatmapDifficultySerializedMethods() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapDifficultySerializedMethods", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  BeatmapDifficultySerializedMethods(BeatmapDifficultySerializedMethods&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapDifficultySerializedMethods", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapDifficultySerializedMethods(BeatmapDifficultySerializedMethods const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "BeatmapDifficultySerializedMethods", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+BeatmapDifficultySerializedMethods(BeatmapDifficultySerializedMethods && ) = delete;
 
-  /// @brief Field kDifficultyEasySerializedName offset 0xffffffff size 0x8
-  static constexpr ::ConstString kDifficultyEasySerializedName{ u"Easy" };
+// Ctor Parameters [CppParam { name: "", ty: "BeatmapDifficultySerializedMethods", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+BeatmapDifficultySerializedMethods(BeatmapDifficultySerializedMethods const& ) = delete;
 
-  /// @brief Field kDifficultyExpertPlusNameSerializedLegacy offset 0xffffffff size 0x8
-  static constexpr ::ConstString kDifficultyExpertPlusNameSerializedLegacy{ u"Expert+" };
+/// @brief Field kDifficultyEasySerializedName offset 0xffffffff size 0x8
+static constexpr ::ConstString  kDifficultyEasySerializedName{u"Easy"};
 
-  /// @brief Field kDifficultyExpertPlusSerializedName offset 0xffffffff size 0x8
-  static constexpr ::ConstString kDifficultyExpertPlusSerializedName{ u"ExpertPlus" };
+/// @brief Field kDifficultyExpertPlusNameSerializedLegacy offset 0xffffffff size 0x8
+static constexpr ::ConstString  kDifficultyExpertPlusNameSerializedLegacy{u"Expert+"};
 
-  /// @brief Field kDifficultyExpertSerializedName offset 0xffffffff size 0x8
-  static constexpr ::ConstString kDifficultyExpertSerializedName{ u"Expert" };
+/// @brief Field kDifficultyExpertPlusSerializedName offset 0xffffffff size 0x8
+static constexpr ::ConstString  kDifficultyExpertPlusSerializedName{u"ExpertPlus"};
 
-  /// @brief Field kDifficultyHardSerializedName offset 0xffffffff size 0x8
-  static constexpr ::ConstString kDifficultyHardSerializedName{ u"Hard" };
+/// @brief Field kDifficultyExpertSerializedName offset 0xffffffff size 0x8
+static constexpr ::ConstString  kDifficultyExpertSerializedName{u"Expert"};
 
-  /// @brief Field kDifficultyNormalSerializedName offset 0xffffffff size 0x8
-  static constexpr ::ConstString kDifficultyNormalSerializedName{ u"Normal" };
+/// @brief Field kDifficultyHardSerializedName offset 0xffffffff size 0x8
+static constexpr ::ConstString  kDifficultyHardSerializedName{u"Hard"};
 
-  /// @brief Field kDifficultyUnknownSerializedName offset 0xffffffff size 0x8
-  static constexpr ::ConstString kDifficultyUnknownSerializedName{ u"Unknown" };
+/// @brief Field kDifficultyNormalSerializedName offset 0xffffffff size 0x8
+static constexpr ::ConstString  kDifficultyNormalSerializedName{u"Normal"};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field kDifficultyUnknownSerializedName offset 0xffffffff size 0x8
+static constexpr ::ConstString  kDifficultyUnknownSerializedName{u"Unknown"};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BeatmapDifficultySerializedMethods, 0x10>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BeatmapDifficultySerializedMethods);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BeatmapDifficultySerializedMethods*, "", "BeatmapDifficultySerializedMethods");

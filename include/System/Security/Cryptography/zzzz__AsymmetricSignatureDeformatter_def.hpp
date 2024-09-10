@@ -18,46 +18,46 @@ class AsymmetricSignatureDeformatter;
 // Write type traits
 MARK_REF_PTR_T(::System::Security::Cryptography::AsymmetricSignatureDeformatter);
 // Type: System.Security.Cryptography::AsymmetricSignatureDeformatter
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
 // CS Name: ::System.Security.Cryptography::AsymmetricSignatureDeformatter*
 class CORDL_TYPE AsymmetricSignatureDeformatter : public ::System::Object {
 public:
-  // Declarations
-  static inline ::System::Security::Cryptography::AsymmetricSignatureDeformatter* New_ctor();
+// Declarations
+static inline ::System::Security::Cryptography::AsymmetricSignatureDeformatter* New_ctor() ;
 
-  /// @brief Method SetHashAlgorithm, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void SetHashAlgorithm(::StringW strName);
+/// @brief Method SetHashAlgorithm, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+inline void SetHashAlgorithm(::StringW  strName) ;
 
-  /// @brief Method SetKey, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void SetKey(::System::Security::Cryptography::AsymmetricAlgorithm* key);
+/// @brief Method SetKey, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+inline void SetKey(::System::Security::Cryptography::AsymmetricAlgorithm*  key) ;
 
-  /// @brief Method VerifySignature, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline bool VerifySignature(::ArrayW<uint8_t, ::Array<uint8_t>*> rgbHash, ::ArrayW<uint8_t, ::Array<uint8_t>*> rgbSignature);
+/// @brief Method VerifySignature, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+inline bool VerifySignature(::ArrayW<uint8_t,::Array<uint8_t>*>  rgbHash, ::ArrayW<uint8_t,::Array<uint8_t>*>  rgbSignature) ;
 
-  /// @brief Method .ctor, addr 0x2809e64, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x3c0e140, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AsymmetricSignatureDeformatter();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr AsymmetricSignatureDeformatter() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AsymmetricSignatureDeformatter", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  AsymmetricSignatureDeformatter(AsymmetricSignatureDeformatter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AsymmetricSignatureDeformatter", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  AsymmetricSignatureDeformatter(AsymmetricSignatureDeformatter const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "AsymmetricSignatureDeformatter", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+AsymmetricSignatureDeformatter(AsymmetricSignatureDeformatter && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "AsymmetricSignatureDeformatter", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+AsymmetricSignatureDeformatter(AsymmetricSignatureDeformatter const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Security::Cryptography::AsymmetricSignatureDeformatter, 0x10>, "Size mismatch!");
 
-} // namespace System::Security::Cryptography
+} // namespace end def System::Security::Cryptography
 NEED_NO_BOX(::System::Security::Cryptography::AsymmetricSignatureDeformatter);
 DEFINE_IL2CPP_ARG_TYPE(::System::Security::Cryptography::AsymmetricSignatureDeformatter*, "System.Security.Cryptography", "AsymmetricSignatureDeformatter");

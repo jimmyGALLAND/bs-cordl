@@ -16,47 +16,47 @@ class CrlException;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Security::Certificates::CrlException);
 // Type: Org.BouncyCastle.Security.Certificates::CrlException
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Security::Certificates {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Security.Certificates::CrlException*
 class CORDL_TYPE CrlException : public ::Org::BouncyCastle::Security::GeneralSecurityException {
 public:
-  // Declarations
-  static inline ::Org::BouncyCastle::Security::Certificates::CrlException* New_ctor();
+// Declarations
+static inline ::Org::BouncyCastle::Security::Certificates::CrlException* New_ctor() ;
 
-  static inline ::Org::BouncyCastle::Security::Certificates::CrlException* New_ctor(::StringW msg);
+static inline ::Org::BouncyCastle::Security::Certificates::CrlException* New_ctor(::StringW  msg) ;
 
-  static inline ::Org::BouncyCastle::Security::Certificates::CrlException* New_ctor(::StringW msg, ::System::Exception* e);
+static inline ::Org::BouncyCastle::Security::Certificates::CrlException* New_ctor(::StringW  msg, ::System::Exception*  e) ;
 
-  /// @brief Method .ctor, addr 0x138fd80, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x254de18, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method .ctor, addr 0x138fd88, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::StringW msg);
+/// @brief Method .ctor, addr 0x254de20, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(::StringW  msg) ;
 
-  /// @brief Method .ctor, addr 0x138fd90, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::StringW msg, ::System::Exception* e);
+/// @brief Method .ctor, addr 0x254de28, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(::StringW  msg, ::System::Exception*  e) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CrlException();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr CrlException() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CrlException", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  CrlException(CrlException&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CrlException", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  CrlException(CrlException const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "CrlException", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+CrlException(CrlException && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "CrlException", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+CrlException(CrlException const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Security::Certificates::CrlException, 0x90>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Security::Certificates
+} // namespace end def Org::BouncyCastle::Security::Certificates
 NEED_NO_BOX(::Org::BouncyCastle::Security::Certificates::CrlException);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Security::Certificates::CrlException*, "Org.BouncyCastle.Security.Certificates", "CrlException");

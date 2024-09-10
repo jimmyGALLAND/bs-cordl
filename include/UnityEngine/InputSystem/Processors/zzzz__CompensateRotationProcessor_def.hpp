@@ -23,48 +23,48 @@ class CompensateRotationProcessor;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::InputSystem::Processors::CompensateRotationProcessor);
 // Type: UnityEngine.InputSystem.Processors::CompensateRotationProcessor
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Processors {
 // Is value type: false
 // CS Name: ::UnityEngine.InputSystem.Processors::CompensateRotationProcessor*
 class CORDL_TYPE CompensateRotationProcessor : public ::UnityEngine::InputSystem::InputProcessor_1<::UnityEngine::Quaternion> {
 public:
-  // Declarations
-  __declspec(property(get = get_cachingPolicy))::UnityEngine::InputSystem::__InputProcessor__CachingPolicy cachingPolicy;
+// Declarations
+ __declspec(property(get=get_cachingPolicy)) ::UnityEngine::InputSystem::__InputProcessor__CachingPolicy  cachingPolicy;
 
-  static inline ::UnityEngine::InputSystem::Processors::CompensateRotationProcessor* New_ctor();
+static inline ::UnityEngine::InputSystem::Processors::CompensateRotationProcessor* New_ctor() ;
 
-  /// @brief Method Process, addr 0x319ddb0, size 0x210, virtual true, abstract: false, final false
-  inline ::UnityEngine::Quaternion Process(::UnityEngine::Quaternion value, ::UnityEngine::InputSystem::InputControl* control);
+/// @brief Method Process, addr 0x4586840, size 0x210, virtual true, abstract: false, final false
+inline ::UnityEngine::Quaternion Process(::UnityEngine::Quaternion  value, ::UnityEngine::InputSystem::InputControl*  control) ;
 
-  /// @brief Method ToString, addr 0x319dfc0, size 0x40, virtual true, abstract: false, final false
-  inline ::StringW ToString();
+/// @brief Method ToString, addr 0x4586a50, size 0x40, virtual true, abstract: false, final false
+inline ::StringW ToString() ;
 
-  /// @brief Method .ctor, addr 0x319e008, size 0x48, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x4586a98, size 0x48, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_cachingPolicy, addr 0x319e000, size 0x8, virtual true, abstract: false, final false
-  inline ::UnityEngine::InputSystem::__InputProcessor__CachingPolicy get_cachingPolicy();
+/// @brief Method get_cachingPolicy, addr 0x4586a90, size 0x8, virtual true, abstract: false, final false
+inline ::UnityEngine::InputSystem::__InputProcessor__CachingPolicy get_cachingPolicy() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CompensateRotationProcessor();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr CompensateRotationProcessor() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CompensateRotationProcessor", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  CompensateRotationProcessor(CompensateRotationProcessor&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CompensateRotationProcessor", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  CompensateRotationProcessor(CompensateRotationProcessor const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "CompensateRotationProcessor", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+CompensateRotationProcessor(CompensateRotationProcessor && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "CompensateRotationProcessor", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+CompensateRotationProcessor(CompensateRotationProcessor const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Processors::CompensateRotationProcessor, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine::InputSystem::Processors
+} // namespace end def UnityEngine::InputSystem::Processors
 NEED_NO_BOX(::UnityEngine::InputSystem::Processors::CompensateRotationProcessor);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Processors::CompensateRotationProcessor*, "UnityEngine.InputSystem.Processors", "CompensateRotationProcessor");

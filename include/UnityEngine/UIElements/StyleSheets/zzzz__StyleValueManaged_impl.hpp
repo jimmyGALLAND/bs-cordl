@@ -6,13 +6,12 @@
 #include "System/zzzz__Object_def.hpp"
 #include "UnityEngine/UIElements/StyleSheets/zzzz__StylePropertyId_def.hpp"
 #include "UnityEngine/UIElements/zzzz__StyleKeyword_def.hpp"
-// Ctor Parameters [CppParam { name: "id", ty: "::UnityEngine::UIElements::StyleSheets::StylePropertyId", modifiers: "", def_value: Some("{}") }, CppParam { name: "keyword", ty:
-// "::UnityEngine::UIElements::StyleKeyword", modifiers: "", def_value: Some("{}") }, CppParam { name: "value", ty: "::System::Object*", modifiers: "", def_value: Some("nullptr") }]
-constexpr ::UnityEngine::UIElements::StyleSheets::StyleValueManaged::StyleValueManaged(::UnityEngine::UIElements::StyleSheets::StylePropertyId id, ::UnityEngine::UIElements::StyleKeyword keyword,
-                                                                                       ::System::Object* value) noexcept {
-  this->id = id;
-  this->keyword = keyword;
-  this->value = value;
+// Ctor Parameters [CppParam { name: "id", ty: "::UnityEngine::UIElements::StyleSheets::StylePropertyId", modifiers: "", def_value: Some("{}") }, CppParam { name: "keyword", ty: "::UnityEngine::UIElements::StyleKeyword", modifiers: "", def_value: Some("{}") }, CppParam { name: "value", ty: "::System::Object*", modifiers: "", def_value: Some("nullptr") }]
+constexpr ::UnityEngine::UIElements::StyleSheets::StyleValueManaged::StyleValueManaged(::UnityEngine::UIElements::StyleSheets::StylePropertyId  id, ::UnityEngine::UIElements::StyleKeyword  keyword, ::System::Object*  value) noexcept  {
+this->id = id;
+this->keyword = keyword;
+this->value = value;
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::UIElements::StyleSheets::StyleValueManaged::StyleValueManaged() {}
+constexpr ::UnityEngine::UIElements::StyleSheets::StyleValueManaged::StyleValueManaged()   {
+}

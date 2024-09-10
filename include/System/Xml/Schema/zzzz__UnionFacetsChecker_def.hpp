@@ -24,43 +24,43 @@ class UnionFacetsChecker;
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Schema::UnionFacetsChecker);
 // Type: System.Xml.Schema::UnionFacetsChecker
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
 // CS Name: ::System.Xml.Schema::UnionFacetsChecker*
 class CORDL_TYPE UnionFacetsChecker : public ::System::Xml::Schema::FacetsChecker {
 public:
-  // Declarations
-  /// @brief Method CheckValueFacets, addr 0x2de73b8, size 0xfc, virtual true, abstract: false, final false
-  inline ::System::Exception* CheckValueFacets(::System::Object* value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
+// Declarations
+/// @brief Method CheckValueFacets, addr 0x41d00f4, size 0xf8, virtual true, abstract: false, final false
+inline ::System::Exception* CheckValueFacets(::System::Object*  value, ::System::Xml::Schema::XmlSchemaDatatype*  datatype) ;
 
-  /// @brief Method MatchEnumeration, addr 0x2de74b4, size 0xb8, virtual true, abstract: false, final false
-  inline bool MatchEnumeration(::System::Object* value, ::System::Collections::ArrayList* enumeration, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
+/// @brief Method MatchEnumeration, addr 0x41d01ec, size 0xbc, virtual true, abstract: false, final false
+inline bool MatchEnumeration(::System::Object*  value, ::System::Collections::ArrayList*  enumeration, ::System::Xml::Schema::XmlSchemaDatatype*  datatype) ;
 
-  static inline ::System::Xml::Schema::UnionFacetsChecker* New_ctor();
+static inline ::System::Xml::Schema::UnionFacetsChecker* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x2de756c, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x41d02a8, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr UnionFacetsChecker();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr UnionFacetsChecker() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UnionFacetsChecker", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  UnionFacetsChecker(UnionFacetsChecker&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UnionFacetsChecker", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  UnionFacetsChecker(UnionFacetsChecker const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "UnionFacetsChecker", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+UnionFacetsChecker(UnionFacetsChecker && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "UnionFacetsChecker", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+UnionFacetsChecker(UnionFacetsChecker const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::UnionFacetsChecker, 0x10>, "Size mismatch!");
 
-} // namespace System::Xml::Schema
+} // namespace end def System::Xml::Schema
 NEED_NO_BOX(::System::Xml::Schema::UnionFacetsChecker);
 DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::UnionFacetsChecker*, "System.Xml.Schema", "UnionFacetsChecker");

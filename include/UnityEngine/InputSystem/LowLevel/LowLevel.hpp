@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "UnityEngine/InputSystem/LowLevel/AccelerometerState.hpp"
 #include "UnityEngine/InputSystem/LowLevel/ActionEvent.hpp"
@@ -81,5 +81,6 @@ module;
 #include "UnityEngine/InputSystem/LowLevel/UseWindowsGamingInputCommand.hpp"
 #include "UnityEngine/InputSystem/LowLevel/WarpMousePositionCommand.hpp"
 #ifdef __cpp_modules
-export module LowLevel;
-#endif
+                    export module LowLevel;
+                    #endif
+                

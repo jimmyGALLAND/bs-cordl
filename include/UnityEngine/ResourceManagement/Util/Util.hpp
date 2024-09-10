@@ -1,9 +1,11 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "UnityEngine/ResourceManagement/Util/AsyncOpHandlesCacheKey.hpp"
+#include "UnityEngine/ResourceManagement/Util/BinaryStorageBuffer.hpp"
+#include "UnityEngine/ResourceManagement/Util/BundleSource.hpp"
 #include "UnityEngine/ResourceManagement/Util/ComponentSingleton_1.hpp"
 #include "UnityEngine/ResourceManagement/Util/DefaultAllocationStrategy.hpp"
 #include "UnityEngine/ResourceManagement/Util/DelayedActionManager.hpp"
@@ -13,7 +15,9 @@ module;
 #include "UnityEngine/ResourceManagement/Util/IInitializableObject.hpp"
 #include "UnityEngine/ResourceManagement/Util/IObjectInitializationDataProvider.hpp"
 #include "UnityEngine/ResourceManagement/Util/IOperationCacheKey.hpp"
+#include "UnityEngine/ResourceManagement/Util/IdCacheKey.hpp"
 #include "UnityEngine/ResourceManagement/Util/LRUCacheAllocationStrategy.hpp"
+#include "UnityEngine/ResourceManagement/Util/LRUCache_2.hpp"
 #include "UnityEngine/ResourceManagement/Util/LinkedListNodeCache_1.hpp"
 #include "UnityEngine/ResourceManagement/Util/LocationCacheKey.hpp"
 #include "UnityEngine/ResourceManagement/Util/LocationUtils.hpp"
@@ -25,5 +29,6 @@ module;
 #include "UnityEngine/ResourceManagement/Util/UnityWebRequestResult.hpp"
 #include "UnityEngine/ResourceManagement/Util/UnityWebRequestUtilities.hpp"
 #ifdef __cpp_modules
-export module Util;
-#endif
+                    export module Util;
+                    #endif
+                

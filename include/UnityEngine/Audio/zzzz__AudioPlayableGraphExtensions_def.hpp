@@ -20,35 +20,35 @@ class AudioPlayableGraphExtensions;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::Audio::AudioPlayableGraphExtensions);
 // Type: UnityEngine.Audio::AudioPlayableGraphExtensions
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Audio {
 // Is value type: false
 // CS Name: ::UnityEngine.Audio::AudioPlayableGraphExtensions*
 class CORDL_TYPE AudioPlayableGraphExtensions : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method InternalCreateAudioOutput, addr 0x340acb8, size 0x54, virtual false, abstract: false, final false
-  static inline bool InternalCreateAudioOutput(ByRef<::UnityEngine::Playables::PlayableGraph> graph, ::StringW name, ByRef<::UnityEngine::Playables::PlayableOutputHandle> handle);
+// Declarations
+/// @brief Method InternalCreateAudioOutput, addr 0x47cc4e4, size 0x54, virtual false, abstract: false, final false
+static inline bool InternalCreateAudioOutput(ByRef<::UnityEngine::Playables::PlayableGraph>  graph, ::StringW  name, ByRef<::UnityEngine::Playables::PlayableOutputHandle>  handle) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AudioPlayableGraphExtensions();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr AudioPlayableGraphExtensions() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AudioPlayableGraphExtensions", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  AudioPlayableGraphExtensions(AudioPlayableGraphExtensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AudioPlayableGraphExtensions", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  AudioPlayableGraphExtensions(AudioPlayableGraphExtensions const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "AudioPlayableGraphExtensions", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+AudioPlayableGraphExtensions(AudioPlayableGraphExtensions && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "AudioPlayableGraphExtensions", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+AudioPlayableGraphExtensions(AudioPlayableGraphExtensions const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Audio::AudioPlayableGraphExtensions, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine::Audio
+} // namespace end def UnityEngine::Audio
 NEED_NO_BOX(::UnityEngine::Audio::AudioPlayableGraphExtensions);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Audio::AudioPlayableGraphExtensions*, "UnityEngine.Audio", "AudioPlayableGraphExtensions");

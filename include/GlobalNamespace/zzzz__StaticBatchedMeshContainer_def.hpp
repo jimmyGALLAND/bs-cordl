@@ -12,37 +12,37 @@ class StaticBatchedMeshContainer;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::StaticBatchedMeshContainer);
 // Type: ::StaticBatchedMeshContainer
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::StaticBatchedMeshContainer*
 class CORDL_TYPE StaticBatchedMeshContainer : public ::UnityEngine::MonoBehaviour {
 public:
-  // Declarations
-  static inline ::GlobalNamespace::StaticBatchedMeshContainer* New_ctor();
+// Declarations
+static inline ::GlobalNamespace::StaticBatchedMeshContainer* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x1080bc4, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x2252e10, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr StaticBatchedMeshContainer();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr StaticBatchedMeshContainer() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StaticBatchedMeshContainer", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  StaticBatchedMeshContainer(StaticBatchedMeshContainer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StaticBatchedMeshContainer", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  StaticBatchedMeshContainer(StaticBatchedMeshContainer const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "StaticBatchedMeshContainer", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+StaticBatchedMeshContainer(StaticBatchedMeshContainer && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "StaticBatchedMeshContainer", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+StaticBatchedMeshContainer(StaticBatchedMeshContainer const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::StaticBatchedMeshContainer, 0x18>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::StaticBatchedMeshContainer, 0x20>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::StaticBatchedMeshContainer);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::StaticBatchedMeshContainer*, "", "StaticBatchedMeshContainer");

@@ -11,6 +11,9 @@ namespace UnityEngine::UIElements {
 struct CreationContext;
 }
 namespace UnityEngine::UIElements {
+class IGroupBoxOption;
+}
+namespace UnityEngine::UIElements {
 class IGroupBox;
 }
 namespace UnityEngine::UIElements {
@@ -46,169 +49,175 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::GroupBox);
 MARK_REF_PTR_T(::UnityEngine::UIElements::__GroupBox__UxmlFactory);
 MARK_REF_PTR_T(::UnityEngine::UIElements::__GroupBox__UxmlTraits);
 // Type: ::UxmlFactory
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: ::GroupBox::UxmlFactory*
-class CORDL_TYPE __GroupBox__UxmlFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::GroupBox*, ::UnityEngine::UIElements::__GroupBox__UxmlTraits*> {
+class CORDL_TYPE __GroupBox__UxmlFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::GroupBox*,::UnityEngine::UIElements::__GroupBox__UxmlTraits*> {
 public:
-  // Declarations
-  static inline ::UnityEngine::UIElements::__GroupBox__UxmlFactory* New_ctor();
+// Declarations
+static inline ::UnityEngine::UIElements::__GroupBox__UxmlFactory* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x35ceb7c, size 0x48, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x4902d58, size 0x48, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __GroupBox__UxmlFactory();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __GroupBox__UxmlFactory() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__GroupBox__UxmlFactory", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __GroupBox__UxmlFactory(__GroupBox__UxmlFactory&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__GroupBox__UxmlFactory", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __GroupBox__UxmlFactory(__GroupBox__UxmlFactory const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__GroupBox__UxmlFactory", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__GroupBox__UxmlFactory(__GroupBox__UxmlFactory && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "__GroupBox__UxmlFactory", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__GroupBox__UxmlFactory(__GroupBox__UxmlFactory const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__GroupBox__UxmlFactory, 0x18>, "Size mismatch!");
 
-} // namespace UnityEngine::UIElements
+} // namespace end def UnityEngine::UIElements
 // Type: ::UxmlTraits
-// SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: -1, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: ::GroupBox::UxmlTraits*
 class CORDL_TYPE __GroupBox__UxmlTraits : public ::UnityEngine::UIElements::__BindableElement__UxmlTraits {
 public:
-  // Declarations
-  /// @brief Field m_Text, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Text, put = __cordl_internal_set_m_Text))::UnityEngine::UIElements::UxmlStringAttributeDescription* m_Text;
+// Declarations
+/// @brief Field m_Text, offset 0x78, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_Text, put=__cordl_internal_set_m_Text)) ::UnityEngine::UIElements::UxmlStringAttributeDescription*  m_Text;
 
-  /// @brief Method Init, addr 0x35cebc4, size 0xf8, virtual true, abstract: false, final false
-  inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
+/// @brief Method Init, addr 0x4902da0, size 0xf8, virtual true, abstract: false, final false
+inline void Init(::UnityEngine::UIElements::VisualElement*  ve, ::UnityEngine::UIElements::IUxmlAttributes*  bag, ::UnityEngine::UIElements::CreationContext  cc) ;
 
-  static inline ::UnityEngine::UIElements::__GroupBox__UxmlTraits* New_ctor();
+static inline ::UnityEngine::UIElements::__GroupBox__UxmlTraits* New_ctor() ;
 
-  constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription*& __cordl_internal_get_m_Text();
+constexpr ::UnityEngine::UIElements::UxmlStringAttributeDescription*& __cordl_internal_get_m_Text() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlStringAttributeDescription*> const& __cordl_internal_get_m_Text() const;
+constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlStringAttributeDescription*> const& __cordl_internal_get_m_Text() const;
 
-  constexpr void __cordl_internal_set_m_Text(::UnityEngine::UIElements::UxmlStringAttributeDescription* value);
+constexpr void __cordl_internal_set_m_Text(::UnityEngine::UIElements::UxmlStringAttributeDescription*  value) ;
 
-  /// @brief Method .ctor, addr 0x35cecbc, size 0x84, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x4902e98, size 0x84, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __GroupBox__UxmlTraits();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __GroupBox__UxmlTraits() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__GroupBox__UxmlTraits", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __GroupBox__UxmlTraits(__GroupBox__UxmlTraits&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__GroupBox__UxmlTraits", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __GroupBox__UxmlTraits(__GroupBox__UxmlTraits const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__GroupBox__UxmlTraits", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__GroupBox__UxmlTraits(__GroupBox__UxmlTraits && ) = delete;
 
-  /// @brief Field m_Text, offset: 0x78, size: 0x8, def value: None
-  ::UnityEngine::UIElements::UxmlStringAttributeDescription* ___m_Text;
+// Ctor Parameters [CppParam { name: "", ty: "__GroupBox__UxmlTraits", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__GroupBox__UxmlTraits(__GroupBox__UxmlTraits const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field m_Text, offset: 0x78, size: 0x8, def value: None
+ ::UnityEngine::UIElements::UxmlStringAttributeDescription*  ___m_Text;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__GroupBox__UxmlTraits, 0x80>, "Size mismatch!");
 
 static_assert(offsetof(::UnityEngine::UIElements::__GroupBox__UxmlTraits, ___m_Text) == 0x78, "Offset mismatch!");
 
-} // namespace UnityEngine::UIElements
+} // namespace end def UnityEngine::UIElements
 // Type: UnityEngine.UIElements::GroupBox
-// SizeInfo { instance_size: 968, native_size: -1, calculated_instance_size: 968, calculated_native_size: 968, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 992, native_size: -1, calculated_instance_size: 992, calculated_native_size: 992, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: ::UnityEngine.UIElements::GroupBox*
 class CORDL_TYPE GroupBox : public ::UnityEngine::UIElements::BindableElement {
 public:
-  // Declarations
-  using UxmlFactory = ::UnityEngine::UIElements::__GroupBox__UxmlFactory;
+// Declarations
+using UxmlFactory = ::UnityEngine::UIElements::__GroupBox__UxmlFactory;
 
-  using UxmlTraits = ::UnityEngine::UIElements::__GroupBox__UxmlTraits;
+using UxmlTraits = ::UnityEngine::UIElements::__GroupBox__UxmlTraits;
 
-  /// @brief Field labelUssClassName, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_labelUssClassName, put = setStaticF_labelUssClassName))::StringW labelUssClassName;
+/// @brief Field labelUssClassName, offset 0xffffffff, size 0x8 
+static __declspec(property(get=getStaticF_labelUssClassName, put=setStaticF_labelUssClassName)) ::StringW  labelUssClassName;
 
-  /// @brief Field m_TitleLabel, offset 0x3c0, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_TitleLabel, put = __cordl_internal_set_m_TitleLabel))::UnityEngine::UIElements::Label* m_TitleLabel;
+/// @brief Field m_TitleLabel, offset 0x3d8, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_TitleLabel, put=__cordl_internal_set_m_TitleLabel)) ::UnityEngine::UIElements::Label*  m_TitleLabel;
 
-  __declspec(property(put = set_text))::StringW text;
+ __declspec(property(put=set_text)) ::StringW  text;
 
-  /// @brief Field ussClassName, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_ussClassName, put = setStaticF_ussClassName))::StringW ussClassName;
+/// @brief Field ussClassName, offset 0xffffffff, size 0x8 
+static __declspec(property(get=getStaticF_ussClassName, put=setStaticF_ussClassName)) ::StringW  ussClassName;
 
-  /// @brief Convert operator to "::UnityEngine::UIElements::IGroupBox"
-  constexpr operator ::UnityEngine::UIElements::IGroupBox*() noexcept;
+/// @brief Convert operator to "::UnityEngine::UIElements::IGroupBox"
+constexpr operator  ::UnityEngine::UIElements::IGroupBox*() noexcept;
 
-  static inline ::UnityEngine::UIElements::GroupBox* New_ctor();
+static inline ::UnityEngine::UIElements::GroupBox* New_ctor() ;
 
-  static inline ::UnityEngine::UIElements::GroupBox* New_ctor(::StringW text);
+static inline ::UnityEngine::UIElements::GroupBox* New_ctor(::StringW  text) ;
 
-  constexpr ::UnityEngine::UIElements::Label*& __cordl_internal_get_m_TitleLabel();
+/// @brief Method UnityEngine.UIElements.IGroupBox.OnOptionAdded, addr 0x4902cb0, size 0x4, virtual true, abstract: false, final true
+inline void UnityEngine_UIElements_IGroupBox_OnOptionAdded(::UnityEngine::UIElements::IGroupBoxOption*  option) ;
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::Label*> const& __cordl_internal_get_m_TitleLabel() const;
+/// @brief Method UnityEngine.UIElements.IGroupBox.OnOptionRemoved, addr 0x4902cb4, size 0x4, virtual true, abstract: false, final true
+inline void UnityEngine_UIElements_IGroupBox_OnOptionRemoved(::UnityEngine::UIElements::IGroupBoxOption*  option) ;
 
-  constexpr void __cordl_internal_set_m_TitleLabel(::UnityEngine::UIElements::Label* value);
+constexpr ::UnityEngine::UIElements::Label*& __cordl_internal_get_m_TitleLabel() ;
 
-  /// @brief Method .ctor, addr 0x35cea4c, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::Label*> const& __cordl_internal_get_m_TitleLabel() const;
 
-  /// @brief Method .ctor, addr 0x35cea54, size 0x88, virtual false, abstract: false, final false
-  inline void _ctor(::StringW text);
+constexpr void __cordl_internal_set_m_TitleLabel(::UnityEngine::UIElements::Label*  value) ;
 
-  static inline ::StringW getStaticF_labelUssClassName();
+/// @brief Method .ctor, addr 0x4902c20, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  static inline ::StringW getStaticF_ussClassName();
+/// @brief Method .ctor, addr 0x4902c28, size 0x88, virtual false, abstract: false, final false
+inline void _ctor(::StringW  text) ;
 
-  /// @brief Convert to "::UnityEngine::UIElements::IGroupBox"
-  constexpr ::UnityEngine::UIElements::IGroupBox* i___UnityEngine__UIElements__IGroupBox() noexcept;
+static inline ::StringW getStaticF_labelUssClassName() ;
 
-  static inline void setStaticF_labelUssClassName(::StringW value);
+static inline ::StringW getStaticF_ussClassName() ;
 
-  static inline void setStaticF_ussClassName(::StringW value);
+/// @brief Convert to "::UnityEngine::UIElements::IGroupBox"
+constexpr ::UnityEngine::UIElements::IGroupBox* i___UnityEngine__UIElements__IGroupBox() noexcept;
 
-  /// @brief Method set_text, addr 0x35ce934, size 0x118, virtual false, abstract: false, final false
-  inline void set_text(::StringW value);
+static inline void setStaticF_labelUssClassName(::StringW  value) ;
+
+static inline void setStaticF_ussClassName(::StringW  value) ;
+
+/// @brief Method set_text, addr 0x4902b08, size 0x118, virtual false, abstract: false, final false
+inline void set_text(::StringW  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr GroupBox();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr GroupBox() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GroupBox", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  GroupBox(GroupBox&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GroupBox", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  GroupBox(GroupBox const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "GroupBox", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+GroupBox(GroupBox && ) = delete;
 
-  /// @brief Field m_TitleLabel, offset: 0x3c0, size: 0x8, def value: None
-  ::UnityEngine::UIElements::Label* ___m_TitleLabel;
+// Ctor Parameters [CppParam { name: "", ty: "GroupBox", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+GroupBox(GroupBox const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field m_TitleLabel, offset: 0x3d8, size: 0x8, def value: None
+ ::UnityEngine::UIElements::Label*  ___m_TitleLabel;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::GroupBox, 0x3c8>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::GroupBox, 0x3e0>, "Size mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::GroupBox, ___m_TitleLabel) == 0x3c0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::GroupBox, ___m_TitleLabel) == 0x3d8, "Offset mismatch!");
 
-} // namespace UnityEngine::UIElements
+} // namespace end def UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::GroupBox);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::GroupBox*, "UnityEngine.UIElements", "GroupBox");
 NEED_NO_BOX(::UnityEngine::UIElements::__GroupBox__UxmlFactory);

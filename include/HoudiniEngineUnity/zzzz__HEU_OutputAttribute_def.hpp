@@ -18,129 +18,129 @@ class HEU_OutputAttribute;
 // Write type traits
 MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_OutputAttribute);
 // Type: HoudiniEngineUnity::HEU_OutputAttribute
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
 // CS Name: ::HoudiniEngineUnity::HEU_OutputAttribute*
 class CORDL_TYPE HEU_OutputAttribute : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field _class, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get__class, put = __cordl_internal_set__class))::HoudiniEngineUnity::HAPI_AttributeOwner _class;
+// Declarations
+/// @brief Field _class, offset 0x18, size 0x4 
+ __declspec(property(get=__cordl_internal_get__class, put=__cordl_internal_set__class)) ::HoudiniEngineUnity::HAPI_AttributeOwner  _class;
 
-  /// @brief Field _count, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get__count, put = __cordl_internal_set__count)) int32_t _count;
+/// @brief Field _count, offset 0x20, size 0x4 
+ __declspec(property(get=__cordl_internal_get__count, put=__cordl_internal_set__count)) int32_t  _count;
 
-  /// @brief Field _floatValues, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__floatValues, put = __cordl_internal_set__floatValues))::ArrayW<float_t, ::Array<float_t>*> _floatValues;
+/// @brief Field _floatValues, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get__floatValues, put=__cordl_internal_set__floatValues)) ::ArrayW<float_t,::Array<float_t>*>  _floatValues;
 
-  /// @brief Field _intValues, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__intValues, put = __cordl_internal_set__intValues))::ArrayW<int32_t, ::Array<int32_t>*> _intValues;
+/// @brief Field _intValues, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get__intValues, put=__cordl_internal_set__intValues)) ::ArrayW<int32_t,::Array<int32_t>*>  _intValues;
 
-  /// @brief Field _name, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__name, put = __cordl_internal_set__name))::StringW _name;
+/// @brief Field _name, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get__name, put=__cordl_internal_set__name)) ::StringW  _name;
 
-  /// @brief Field _stringValues, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__stringValues, put = __cordl_internal_set__stringValues))::ArrayW<::StringW, ::Array<::StringW>*> _stringValues;
+/// @brief Field _stringValues, offset 0x38, size 0x8 
+ __declspec(property(get=__cordl_internal_get__stringValues, put=__cordl_internal_set__stringValues)) ::ArrayW<::StringW,::Array<::StringW>*>  _stringValues;
 
-  /// @brief Field _tupleSize, offset 0x24, size 0x4
-  __declspec(property(get = __cordl_internal_get__tupleSize, put = __cordl_internal_set__tupleSize)) int32_t _tupleSize;
+/// @brief Field _tupleSize, offset 0x24, size 0x4 
+ __declspec(property(get=__cordl_internal_get__tupleSize, put=__cordl_internal_set__tupleSize)) int32_t  _tupleSize;
 
-  /// @brief Field _type, offset 0x1c, size 0x4
-  __declspec(property(get = __cordl_internal_get__type, put = __cordl_internal_set__type))::HoudiniEngineUnity::HAPI_StorageType _type;
+/// @brief Field _type, offset 0x1c, size 0x4 
+ __declspec(property(get=__cordl_internal_get__type, put=__cordl_internal_set__type)) ::HoudiniEngineUnity::HAPI_StorageType  _type;
 
-  static inline ::HoudiniEngineUnity::HEU_OutputAttribute* New_ctor();
+static inline ::HoudiniEngineUnity::HEU_OutputAttribute* New_ctor() ;
 
-  constexpr ::HoudiniEngineUnity::HAPI_AttributeOwner const& __cordl_internal_get__class() const;
+constexpr ::HoudiniEngineUnity::HAPI_AttributeOwner const& __cordl_internal_get__class() const;
 
-  constexpr ::HoudiniEngineUnity::HAPI_AttributeOwner& __cordl_internal_get__class();
+constexpr ::HoudiniEngineUnity::HAPI_AttributeOwner& __cordl_internal_get__class() ;
 
-  constexpr int32_t const& __cordl_internal_get__count() const;
+constexpr int32_t const& __cordl_internal_get__count() const;
 
-  constexpr int32_t& __cordl_internal_get__count();
+constexpr int32_t& __cordl_internal_get__count() ;
 
-  constexpr ::ArrayW<float_t, ::Array<float_t>*> const& __cordl_internal_get__floatValues() const;
+constexpr ::ArrayW<float_t,::Array<float_t>*> const& __cordl_internal_get__floatValues() const;
 
-  constexpr ::ArrayW<float_t, ::Array<float_t>*>& __cordl_internal_get__floatValues();
+constexpr ::ArrayW<float_t,::Array<float_t>*>& __cordl_internal_get__floatValues() ;
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*> const& __cordl_internal_get__intValues() const;
+constexpr ::ArrayW<int32_t,::Array<int32_t>*> const& __cordl_internal_get__intValues() const;
 
-  constexpr ::ArrayW<int32_t, ::Array<int32_t>*>& __cordl_internal_get__intValues();
+constexpr ::ArrayW<int32_t,::Array<int32_t>*>& __cordl_internal_get__intValues() ;
 
-  constexpr ::StringW const& __cordl_internal_get__name() const;
+constexpr ::StringW const& __cordl_internal_get__name() const;
 
-  constexpr ::StringW& __cordl_internal_get__name();
+constexpr ::StringW& __cordl_internal_get__name() ;
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get__stringValues() const;
+constexpr ::ArrayW<::StringW,::Array<::StringW>*> const& __cordl_internal_get__stringValues() const;
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get__stringValues();
+constexpr ::ArrayW<::StringW,::Array<::StringW>*>& __cordl_internal_get__stringValues() ;
 
-  constexpr int32_t const& __cordl_internal_get__tupleSize() const;
+constexpr int32_t const& __cordl_internal_get__tupleSize() const;
 
-  constexpr int32_t& __cordl_internal_get__tupleSize();
+constexpr int32_t& __cordl_internal_get__tupleSize() ;
 
-  constexpr ::HoudiniEngineUnity::HAPI_StorageType const& __cordl_internal_get__type() const;
+constexpr ::HoudiniEngineUnity::HAPI_StorageType const& __cordl_internal_get__type() const;
 
-  constexpr ::HoudiniEngineUnity::HAPI_StorageType& __cordl_internal_get__type();
+constexpr ::HoudiniEngineUnity::HAPI_StorageType& __cordl_internal_get__type() ;
 
-  constexpr void __cordl_internal_set__class(::HoudiniEngineUnity::HAPI_AttributeOwner value);
+constexpr void __cordl_internal_set__class(::HoudiniEngineUnity::HAPI_AttributeOwner  value) ;
 
-  constexpr void __cordl_internal_set__count(int32_t value);
+constexpr void __cordl_internal_set__count(int32_t  value) ;
 
-  constexpr void __cordl_internal_set__floatValues(::ArrayW<float_t, ::Array<float_t>*> value);
+constexpr void __cordl_internal_set__floatValues(::ArrayW<float_t,::Array<float_t>*>  value) ;
 
-  constexpr void __cordl_internal_set__intValues(::ArrayW<int32_t, ::Array<int32_t>*> value);
+constexpr void __cordl_internal_set__intValues(::ArrayW<int32_t,::Array<int32_t>*>  value) ;
 
-  constexpr void __cordl_internal_set__name(::StringW value);
+constexpr void __cordl_internal_set__name(::StringW  value) ;
 
-  constexpr void __cordl_internal_set__stringValues(::ArrayW<::StringW, ::Array<::StringW>*> value);
+constexpr void __cordl_internal_set__stringValues(::ArrayW<::StringW,::Array<::StringW>*>  value) ;
 
-  constexpr void __cordl_internal_set__tupleSize(int32_t value);
+constexpr void __cordl_internal_set__tupleSize(int32_t  value) ;
 
-  constexpr void __cordl_internal_set__type(::HoudiniEngineUnity::HAPI_StorageType value);
+constexpr void __cordl_internal_set__type(::HoudiniEngineUnity::HAPI_StorageType  value) ;
 
-  /// @brief Method .ctor, addr 0x2593ac8, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x39b6db0, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HEU_OutputAttribute();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr HEU_OutputAttribute() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HEU_OutputAttribute", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  HEU_OutputAttribute(HEU_OutputAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HEU_OutputAttribute", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  HEU_OutputAttribute(HEU_OutputAttribute const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "HEU_OutputAttribute", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+HEU_OutputAttribute(HEU_OutputAttribute && ) = delete;
 
-  /// @brief Field _name, offset: 0x10, size: 0x8, def value: None
-  ::StringW ____name;
+// Ctor Parameters [CppParam { name: "", ty: "HEU_OutputAttribute", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+HEU_OutputAttribute(HEU_OutputAttribute const& ) = delete;
 
-  /// @brief Field _class, offset: 0x18, size: 0x4, def value: None
-  ::HoudiniEngineUnity::HAPI_AttributeOwner ____class;
+/// @brief Field _name, offset: 0x10, size: 0x8, def value: None
+ ::StringW  ____name;
 
-  /// @brief Field _type, offset: 0x1c, size: 0x4, def value: None
-  ::HoudiniEngineUnity::HAPI_StorageType ____type;
+/// @brief Field _class, offset: 0x18, size: 0x4, def value: None
+ ::HoudiniEngineUnity::HAPI_AttributeOwner  ____class;
 
-  /// @brief Field _count, offset: 0x20, size: 0x4, def value: None
-  int32_t ____count;
+/// @brief Field _type, offset: 0x1c, size: 0x4, def value: None
+ ::HoudiniEngineUnity::HAPI_StorageType  ____type;
 
-  /// @brief Field _tupleSize, offset: 0x24, size: 0x4, def value: None
-  int32_t ____tupleSize;
+/// @brief Field _count, offset: 0x20, size: 0x4, def value: None
+ int32_t  ____count;
 
-  /// @brief Field _intValues, offset: 0x28, size: 0x8, def value: None
-  ::ArrayW<int32_t, ::Array<int32_t>*> ____intValues;
+/// @brief Field _tupleSize, offset: 0x24, size: 0x4, def value: None
+ int32_t  ____tupleSize;
 
-  /// @brief Field _floatValues, offset: 0x30, size: 0x8, def value: None
-  ::ArrayW<float_t, ::Array<float_t>*> ____floatValues;
+/// @brief Field _intValues, offset: 0x28, size: 0x8, def value: None
+ ::ArrayW<int32_t,::Array<int32_t>*>  ____intValues;
 
-  /// @brief Field _stringValues, offset: 0x38, size: 0x8, def value: None
-  ::ArrayW<::StringW, ::Array<::StringW>*> ____stringValues;
+/// @brief Field _floatValues, offset: 0x30, size: 0x8, def value: None
+ ::ArrayW<float_t,::Array<float_t>*>  ____floatValues;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _stringValues, offset: 0x38, size: 0x8, def value: None
+ ::ArrayW<::StringW,::Array<::StringW>*>  ____stringValues;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_OutputAttribute, 0x40>, "Size mismatch!");
@@ -161,6 +161,6 @@ static_assert(offsetof(::HoudiniEngineUnity::HEU_OutputAttribute, ____floatValue
 
 static_assert(offsetof(::HoudiniEngineUnity::HEU_OutputAttribute, ____stringValues) == 0x38, "Offset mismatch!");
 
-} // namespace HoudiniEngineUnity
+} // namespace end def HoudiniEngineUnity
 NEED_NO_BOX(::HoudiniEngineUnity::HEU_OutputAttribute);
 DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_OutputAttribute*, "HoudiniEngineUnity", "HEU_OutputAttribute");

@@ -17,59 +17,59 @@ class DateTimeObject;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Utilities::Date::DateTimeObject);
 // Type: Org.BouncyCastle.Utilities.Date::DateTimeObject
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Utilities::Date {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Utilities.Date::DateTimeObject*
 class CORDL_TYPE DateTimeObject : public ::System::Object {
 public:
-  // Declarations
-  __declspec(property(get = get_Value))::System::DateTime Value;
+// Declarations
+ __declspec(property(get=get_Value)) ::System::DateTime  Value;
 
-  /// @brief Field dt, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_dt, put = __cordl_internal_set_dt))::System::DateTime dt;
+/// @brief Field dt, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_dt, put=__cordl_internal_set_dt)) ::System::DateTime  dt;
 
-  static inline ::Org::BouncyCastle::Utilities::Date::DateTimeObject* New_ctor(::System::DateTime dt);
+static inline ::Org::BouncyCastle::Utilities::Date::DateTimeObject* New_ctor(::System::DateTime  dt) ;
 
-  /// @brief Method ToString, addr 0x13cda90, size 0x20, virtual true, abstract: false, final false
-  inline ::StringW ToString();
+/// @brief Method ToString, addr 0x25893d8, size 0x6c, virtual true, abstract: false, final false
+inline ::StringW ToString() ;
 
-  constexpr ::System::DateTime const& __cordl_internal_get_dt() const;
+constexpr ::System::DateTime const& __cordl_internal_get_dt() const;
 
-  constexpr ::System::DateTime& __cordl_internal_get_dt();
+constexpr ::System::DateTime& __cordl_internal_get_dt() ;
 
-  constexpr void __cordl_internal_set_dt(::System::DateTime value);
+constexpr void __cordl_internal_set_dt(::System::DateTime  value) ;
 
-  /// @brief Method .ctor, addr 0x13c386c, size 0x28, virtual false, abstract: false, final false
-  inline void _ctor(::System::DateTime dt);
+/// @brief Method .ctor, addr 0x257f5ac, size 0x28, virtual false, abstract: false, final false
+inline void _ctor(::System::DateTime  dt) ;
 
-  /// @brief Method get_Value, addr 0x13cda88, size 0x8, virtual false, abstract: false, final false
-  inline ::System::DateTime get_Value();
+/// @brief Method get_Value, addr 0x25893d0, size 0x8, virtual false, abstract: false, final false
+inline ::System::DateTime get_Value() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DateTimeObject();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr DateTimeObject() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DateTimeObject", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  DateTimeObject(DateTimeObject&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DateTimeObject", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  DateTimeObject(DateTimeObject const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "DateTimeObject", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+DateTimeObject(DateTimeObject && ) = delete;
 
-  /// @brief Field dt, offset: 0x10, size: 0x8, def value: None
-  ::System::DateTime ___dt;
+// Ctor Parameters [CppParam { name: "", ty: "DateTimeObject", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+DateTimeObject(DateTimeObject const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field dt, offset: 0x10, size: 0x8, def value: None
+ ::System::DateTime  ___dt;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Utilities::Date::DateTimeObject, 0x18>, "Size mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Utilities::Date::DateTimeObject, ___dt) == 0x10, "Offset mismatch!");
 
-} // namespace Org::BouncyCastle::Utilities::Date
+} // namespace end def Org::BouncyCastle::Utilities::Date
 NEED_NO_BOX(::Org::BouncyCastle::Utilities::Date::DateTimeObject);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Utilities::Date::DateTimeObject*, "Org.BouncyCastle.Utilities.Date", "DateTimeObject");

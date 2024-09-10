@@ -26,49 +26,49 @@ class BinaryFacetsChecker;
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Schema::BinaryFacetsChecker);
 // Type: System.Xml.Schema::BinaryFacetsChecker
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
 // CS Name: ::System.Xml.Schema::BinaryFacetsChecker*
 class CORDL_TYPE BinaryFacetsChecker : public ::System::Xml::Schema::FacetsChecker {
 public:
-  // Declarations
-  /// @brief Method CheckValueFacets, addr 0x2de6d60, size 0x1b8, virtual true, abstract: false, final false
-  inline ::System::Exception* CheckValueFacets(::ArrayW<uint8_t, ::Array<uint8_t>*> value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
+// Declarations
+/// @brief Method CheckValueFacets, addr 0x41cfa64, size 0x1cc, virtual true, abstract: false, final false
+inline ::System::Exception* CheckValueFacets(::ArrayW<uint8_t,::Array<uint8_t>*>  value, ::System::Xml::Schema::XmlSchemaDatatype*  datatype) ;
 
-  /// @brief Method CheckValueFacets, addr 0x2de6cd0, size 0x90, virtual true, abstract: false, final false
-  inline ::System::Exception* CheckValueFacets(::System::Object* value, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
+/// @brief Method CheckValueFacets, addr 0x41cf9d4, size 0x90, virtual true, abstract: false, final false
+inline ::System::Exception* CheckValueFacets(::System::Object*  value, ::System::Xml::Schema::XmlSchemaDatatype*  datatype) ;
 
-  /// @brief Method MatchEnumeration, addr 0x2de6f18, size 0x118, virtual false, abstract: false, final false
-  inline bool MatchEnumeration(::ArrayW<uint8_t, ::Array<uint8_t>*> value, ::System::Collections::ArrayList* enumeration, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
+/// @brief Method MatchEnumeration, addr 0x41cfc30, size 0x124, virtual false, abstract: false, final false
+inline bool MatchEnumeration(::ArrayW<uint8_t,::Array<uint8_t>*>  value, ::System::Collections::ArrayList*  enumeration, ::System::Xml::Schema::XmlSchemaDatatype*  datatype) ;
 
-  /// @brief Method MatchEnumeration, addr 0x2de7030, size 0x84, virtual true, abstract: false, final false
-  inline bool MatchEnumeration(::System::Object* value, ::System::Collections::ArrayList* enumeration, ::System::Xml::Schema::XmlSchemaDatatype* datatype);
+/// @brief Method MatchEnumeration, addr 0x41cfd54, size 0x84, virtual true, abstract: false, final false
+inline bool MatchEnumeration(::System::Object*  value, ::System::Collections::ArrayList*  enumeration, ::System::Xml::Schema::XmlSchemaDatatype*  datatype) ;
 
-  static inline ::System::Xml::Schema::BinaryFacetsChecker* New_ctor();
+static inline ::System::Xml::Schema::BinaryFacetsChecker* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x2de70b4, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x41cfdd8, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BinaryFacetsChecker();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr BinaryFacetsChecker() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BinaryFacetsChecker", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  BinaryFacetsChecker(BinaryFacetsChecker&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BinaryFacetsChecker", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  BinaryFacetsChecker(BinaryFacetsChecker const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "BinaryFacetsChecker", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+BinaryFacetsChecker(BinaryFacetsChecker && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "BinaryFacetsChecker", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+BinaryFacetsChecker(BinaryFacetsChecker const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::BinaryFacetsChecker, 0x10>, "Size mismatch!");
 
-} // namespace System::Xml::Schema
+} // namespace end def System::Xml::Schema
 NEED_NO_BOX(::System::Xml::Schema::BinaryFacetsChecker);
 DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::BinaryFacetsChecker*, "System.Xml.Schema", "BinaryFacetsChecker");

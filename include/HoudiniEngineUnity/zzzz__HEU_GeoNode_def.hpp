@@ -49,10 +49,12 @@ namespace HoudiniEngineUnity {
 class HEU_VolumeCache;
 }
 namespace HoudiniEngineUnity {
-template <typename T> class IEquivable_1;
+template<typename T>
+class IEquivable_1;
 }
 namespace System::Collections::Generic {
-template <typename T> class List_1;
+template<typename T>
+class List_1;
 }
 namespace System::Text {
 class StringBuilder;
@@ -70,324 +72,322 @@ class HEU_GeoNode;
 // Write type traits
 MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_GeoNode);
 // Type: HoudiniEngineUnity::HEU_GeoNode
-// SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 120, native_size: -1, calculated_instance_size: 120, calculated_native_size: 120, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
 // CS Name: ::HoudiniEngineUnity::HEU_GeoNode*
 class CORDL_TYPE HEU_GeoNode : public ::UnityEngine::ScriptableObject {
 public:
-  // Declarations
-  __declspec(property(get = get_Displayable)) bool Displayable;
+// Declarations
+ __declspec(property(get=get_Displayable)) bool  Displayable;
 
-  __declspec(property(get = get_Editable)) bool Editable;
+ __declspec(property(get=get_Editable)) bool  Editable;
 
-  __declspec(property(get = get_GeoID)) int32_t GeoID;
+ __declspec(property(get=get_GeoID)) int32_t  GeoID;
 
-  __declspec(property(get = get_GeoName))::StringW GeoName;
+ __declspec(property(get=get_GeoName)) ::StringW  GeoName;
 
-  __declspec(property(get = get_GeoType))::HoudiniEngineUnity::HAPI_GeoType GeoType;
+ __declspec(property(get=get_GeoType)) ::HoudiniEngineUnity::HAPI_GeoType  GeoType;
 
-  __declspec(property(get = get_ObjectNode))::UnityW<::HoudiniEngineUnity::HEU_ObjectNode> ObjectNode;
+ __declspec(property(get=get_ObjectNode)) ::UnityW<::HoudiniEngineUnity::HEU_ObjectNode>  ObjectNode;
 
-  __declspec(property(get = get_ParentAsset))::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset> ParentAsset;
+ __declspec(property(get=get_ParentAsset)) ::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset>  ParentAsset;
 
-  __declspec(property(get = get_VolumeCaches))::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_VolumeCache>>* VolumeCaches;
+ __declspec(property(get=get_VolumeCaches)) ::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_VolumeCache>>*  VolumeCaches;
 
-  /// @brief Field _containerObjectNode, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get__containerObjectNode, put = __cordl_internal_set__containerObjectNode))::UnityW<::HoudiniEngineUnity::HEU_ObjectNode> _containerObjectNode;
+/// @brief Field _containerObjectNode, offset 0x50, size 0x8 
+ __declspec(property(get=__cordl_internal_get__containerObjectNode, put=__cordl_internal_set__containerObjectNode)) ::UnityW<::HoudiniEngineUnity::HEU_ObjectNode>  _containerObjectNode;
 
-  /// @brief Field _geoCurve, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get__geoCurve, put = __cordl_internal_set__geoCurve))::UnityW<::HoudiniEngineUnity::HEU_Curve> _geoCurve;
+/// @brief Field _geoCurve, offset 0x60, size 0x8 
+ __declspec(property(get=__cordl_internal_get__geoCurve, put=__cordl_internal_set__geoCurve)) ::UnityW<::HoudiniEngineUnity::HEU_Curve>  _geoCurve;
 
-  /// @brief Field _geoInfo, offset 0x18, size 0x24
-  __declspec(property(get = __cordl_internal_get__geoInfo, put = __cordl_internal_set__geoInfo))::HoudiniEngineUnity::HAPI_GeoInfo _geoInfo;
+/// @brief Field _geoInfo, offset 0x18, size 0x24 
+ __declspec(property(get=__cordl_internal_get__geoInfo, put=__cordl_internal_set__geoInfo)) ::HoudiniEngineUnity::HAPI_GeoInfo  _geoInfo;
 
-  /// @brief Field _geoName, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__geoName, put = __cordl_internal_set__geoName))::StringW _geoName;
+/// @brief Field _geoName, offset 0x40, size 0x8 
+ __declspec(property(get=__cordl_internal_get__geoName, put=__cordl_internal_set__geoName)) ::StringW  _geoName;
 
-  /// @brief Field _inputNode, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get__inputNode, put = __cordl_internal_set__inputNode))::UnityW<::HoudiniEngineUnity::HEU_InputNode> _inputNode;
+/// @brief Field _inputNode, offset 0x58, size 0x8 
+ __declspec(property(get=__cordl_internal_get__inputNode, put=__cordl_internal_set__inputNode)) ::UnityW<::HoudiniEngineUnity::HEU_InputNode>  _inputNode;
 
-  /// @brief Field _parts, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__parts, put = __cordl_internal_set__parts))::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_PartData>>* _parts;
+/// @brief Field _parts, offset 0x48, size 0x8 
+ __declspec(property(get=__cordl_internal_get__parts, put=__cordl_internal_set__parts)) ::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_PartData>>*  _parts;
 
-  /// @brief Field _volumeCache, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get__volumeCache, put = __cordl_internal_set__volumeCache))::UnityW<::HoudiniEngineUnity::HEU_VolumeCache> _volumeCache;
+/// @brief Field _volumeCache, offset 0x68, size 0x8 
+ __declspec(property(get=__cordl_internal_get__volumeCache, put=__cordl_internal_set__volumeCache)) ::UnityW<::HoudiniEngineUnity::HEU_VolumeCache>  _volumeCache;
 
-  /// @brief Field _volumeCaches, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get__volumeCaches,
-                      put = __cordl_internal_set__volumeCaches))::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_VolumeCache>>* _volumeCaches;
+/// @brief Field _volumeCaches, offset 0x70, size 0x8 
+ __declspec(property(get=__cordl_internal_get__volumeCaches, put=__cordl_internal_set__volumeCaches)) ::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_VolumeCache>>*  _volumeCaches;
 
-  /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_GeoNode>>"
-  constexpr operator ::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_GeoNode>>*() noexcept;
+/// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_GeoNode>>"
+constexpr operator  ::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_GeoNode>>*() noexcept;
 
-  /// @brief Convert operator to "::UnityEngine::ISerializationCallbackReceiver"
-  constexpr operator ::UnityEngine::ISerializationCallbackReceiver*() noexcept;
+/// @brief Convert operator to "::UnityEngine::ISerializationCallbackReceiver"
+constexpr operator  ::UnityEngine::ISerializationCallbackReceiver*() noexcept;
 
-  /// @brief Method ApplyHAPITransform, addr 0x2569c24, size 0x154, virtual false, abstract: false, final false
-  inline void ApplyHAPITransform(ByRef<::HoudiniEngineUnity::HAPI_Transform> hapiTransform);
+/// @brief Method ApplyHAPITransform, addr 0x398e1d0, size 0x154, virtual false, abstract: false, final false
+inline void ApplyHAPITransform(ByRef<::HoudiniEngineUnity::HAPI_Transform>  hapiTransform) ;
 
-  /// @brief Method CalculateColliderState, addr 0x256b104, size 0x9c, virtual false, abstract: false, final false
-  inline void CalculateColliderState();
+/// @brief Method CalculateColliderState, addr 0x398f66c, size 0x9c, virtual false, abstract: false, final false
+inline void CalculateColliderState() ;
 
-  /// @brief Method CalculateVisiblity, addr 0x256af58, size 0x10c, virtual false, abstract: false, final false
-  inline void CalculateVisiblity(bool bParentVisibility);
+/// @brief Method CalculateVisiblity, addr 0x398f4c0, size 0x10c, virtual false, abstract: false, final false
+inline void CalculateVisiblity(bool  bParentVisibility) ;
 
-  /// @brief Method ClearObjectInstances, addr 0x2569a00, size 0x98, virtual false, abstract: false, final false
-  inline void ClearObjectInstances();
+/// @brief Method ClearObjectInstances, addr 0x398dfac, size 0x98, virtual false, abstract: false, final false
+inline void ClearObjectInstances() ;
 
-  /// @brief Method DestroyAllData, addr 0x2567788, size 0x1ac, virtual false, abstract: false, final false
-  inline void DestroyAllData(bool bIsRebuild);
+/// @brief Method DestroyAllData, addr 0x398bdb4, size 0x1ac, virtual false, abstract: false, final false
+inline void DestroyAllData(bool  bIsRebuild) ;
 
-  /// @brief Method DestroyVolumeCache, addr 0x25679e4, size 0x160, virtual false, abstract: false, final false
-  inline void DestroyVolumeCache();
+/// @brief Method DestroyVolumeCache, addr 0x398c010, size 0x160, virtual false, abstract: false, final false
+inline void DestroyVolumeCache() ;
 
-  /// @brief Method DisableAllColliders, addr 0x256b1a0, size 0xa0, virtual false, abstract: false, final false
-  inline void DisableAllColliders();
+/// @brief Method DisableAllColliders, addr 0x398f708, size 0xa0, virtual false, abstract: false, final false
+inline void DisableAllColliders() ;
 
-  /// @brief Method DoesThisRequirePotentialCook, addr 0x2567cdc, size 0x60, virtual false, abstract: false, final false
-  inline bool DoesThisRequirePotentialCook();
+/// @brief Method DoesThisRequirePotentialCook, addr 0x398c304, size 0x60, virtual false, abstract: false, final false
+inline bool DoesThisRequirePotentialCook() ;
 
-  /// @brief Method GenerateAttributesStore, addr 0x256977c, size 0xa4, virtual false, abstract: false, final false
-  inline void GenerateAttributesStore(::HoudiniEngineUnity::HEU_SessionBase* session);
+/// @brief Method GenerateAttributesStore, addr 0x398dd30, size 0xa4, virtual false, abstract: false, final false
+inline void GenerateAttributesStore(::HoudiniEngineUnity::HEU_SessionBase*  session) ;
 
-  /// @brief Method GenerateGeoCurveName, addr 0x2569b34, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW GenerateGeoCurveName();
+/// @brief Method GenerateGeoCurveName, addr 0x398e0e0, size 0x8, virtual false, abstract: false, final false
+inline ::StringW GenerateGeoCurveName() ;
 
-  /// @brief Method GeneratePartFullName, addr 0x2569384, size 0x16c, virtual false, abstract: false, final false
-  inline ::StringW GeneratePartFullName(::StringW partName);
+/// @brief Method GeneratePartFullName, addr 0x398d9d8, size 0xd0, virtual false, abstract: false, final false
+inline ::StringW GeneratePartFullName(::StringW  partName) ;
 
-  /// @brief Method GeneratePartInstances, addr 0x2569694, size 0xe8, virtual false, abstract: false, final false
-  inline void GeneratePartInstances(::HoudiniEngineUnity::HEU_SessionBase* session);
+/// @brief Method GeneratePartInstances, addr 0x398dc48, size 0xe8, virtual false, abstract: false, final false
+inline void GeneratePartInstances(::HoudiniEngineUnity::HEU_SessionBase*  session) ;
 
-  /// @brief Method GetClonableParts, addr 0x256a2a4, size 0x154, virtual false, abstract: false, final false
-  inline void GetClonableParts(::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_PartData>>* clonableParts);
+/// @brief Method GetClonableParts, addr 0x398e840, size 0x154, virtual false, abstract: false, final false
+inline void GetClonableParts(::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_PartData>>*  clonableParts) ;
 
-  /// @brief Method GetCurves, addr 0x256a918, size 0x2c4, virtual false, abstract: false, final false
-  inline void GetCurves(::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_Curve>>* curves, bool bEditableOnly);
+/// @brief Method GetCurves, addr 0x398eea0, size 0x2bc, virtual false, abstract: false, final false
+inline void GetCurves(::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_Curve>>*  curves, bool  bEditableOnly) ;
 
-  /// @brief Method GetDebugInfo, addr 0x2569d78, size 0x3ac, virtual false, abstract: false, final false
-  inline void GetDebugInfo(::System::Text::StringBuilder* sb);
+/// @brief Method GetDebugInfo, addr 0x398e324, size 0x3ac, virtual false, abstract: false, final false
+inline void GetDebugInfo(::System::Text::StringBuilder*  sb) ;
 
-  /// @brief Method GetHDAPartWithGameObject, addr 0x256a6a0, size 0x1ac, virtual false, abstract: false, final false
-  inline ::UnityW<::HoudiniEngineUnity::HEU_PartData> GetHDAPartWithGameObject(::UnityEngine::GameObject* outputGameObject);
+/// @brief Method GetHDAPartWithGameObject, addr 0x398ec3c, size 0x198, virtual false, abstract: false, final false
+inline ::UnityW<::HoudiniEngineUnity::HEU_PartData> GetHDAPartWithGameObject(::UnityEngine::GameObject*  outputGameObject) ;
 
-  /// @brief Method GetOutput, addr 0x256a54c, size 0x154, virtual false, abstract: false, final false
-  inline void GetOutput(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_GeneratedOutput*>* outputs);
+/// @brief Method GetOutput, addr 0x398eae8, size 0x154, virtual false, abstract: false, final false
+inline void GetOutput(::System::Collections::Generic::List_1<::HoudiniEngineUnity::HEU_GeneratedOutput*>*  outputs) ;
 
-  /// @brief Method GetOutputGameObjects, addr 0x256a3f8, size 0x154, virtual false, abstract: false, final false
-  inline void GetOutputGameObjects(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* outputObjects);
+/// @brief Method GetOutputGameObjects, addr 0x398e994, size 0x154, virtual false, abstract: false, final false
+inline void GetOutputGameObjects(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>*  outputObjects) ;
 
-  /// @brief Method GetPartFromPartID, addr 0x256a84c, size 0xcc, virtual false, abstract: false, final false
-  inline ::UnityW<::HoudiniEngineUnity::HEU_PartData> GetPartFromPartID(int32_t partID);
+/// @brief Method GetPartFromPartID, addr 0x398edd4, size 0xcc, virtual false, abstract: false, final false
+inline ::UnityW<::HoudiniEngineUnity::HEU_PartData> GetPartFromPartID(int32_t  partID) ;
 
-  /// @brief Method GetParts, addr 0x256abdc, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_PartData>>* GetParts();
+/// @brief Method GetParts, addr 0x398f15c, size 0x8, virtual false, abstract: false, final false
+inline ::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_PartData>>* GetParts() ;
 
-  /// @brief Method GetPartsByOutputType, addr 0x25694f8, size 0x19c, virtual false, abstract: false, final false
-  inline void GetPartsByOutputType(::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_PartData>>* meshParts,
-                                   ::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_PartData>>* volumeParts);
+/// @brief Method GetPartsByOutputType, addr 0x398dab0, size 0x198, virtual false, abstract: false, final false
+inline void GetPartsByOutputType(::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_PartData>>*  meshParts, ::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_PartData>>*  volumeParts) ;
 
-  /// @brief Method GetVolumeCacheByTileIndex, addr 0x256b8cc, size 0x164, virtual false, abstract: false, final false
-  inline ::UnityW<::HoudiniEngineUnity::HEU_VolumeCache> GetVolumeCacheByTileIndex(int32_t tileIndex);
+/// @brief Method GetVolumeCacheByTileIndex, addr 0x398fe28, size 0x16c, virtual false, abstract: false, final false
+inline ::UnityW<::HoudiniEngineUnity::HEU_VolumeCache> GetVolumeCacheByTileIndex(int32_t  tileIndex) ;
 
-  /// @brief Method HasAttribInstancer, addr 0x256abe4, size 0x170, virtual false, abstract: false, final false
-  inline bool HasAttribInstancer();
+/// @brief Method HasAttribInstancer, addr 0x398f164, size 0x158, virtual false, abstract: false, final false
+inline bool HasAttribInstancer() ;
 
-  /// @brief Method HasGeoNodeChanged, addr 0x2569b3c, size 0xe8, virtual false, abstract: false, final false
-  inline bool HasGeoNodeChanged(::HoudiniEngineUnity::HEU_SessionBase* session);
+/// @brief Method HasGeoNodeChanged, addr 0x398e0e8, size 0xe8, virtual false, abstract: false, final false
+inline bool HasGeoNodeChanged(::HoudiniEngineUnity::HEU_SessionBase*  session) ;
 
-  /// @brief Method HideAllGeometry, addr 0x256b064, size 0xa0, virtual false, abstract: false, final false
-  inline void HideAllGeometry();
+/// @brief Method HideAllGeometry, addr 0x398f5cc, size 0xa0, virtual false, abstract: false, final false
+inline void HideAllGeometry() ;
 
-  /// @brief Method Initialize, addr 0x2567ba8, size 0x134, virtual false, abstract: false, final false
-  inline void Initialize(::HoudiniEngineUnity::HEU_SessionBase* session, ::HoudiniEngineUnity::HAPI_GeoInfo geoInfo, ::HoudiniEngineUnity::HEU_ObjectNode* containerObjectNode);
+/// @brief Method Initialize, addr 0x398c1d4, size 0x130, virtual false, abstract: false, final false
+inline void Initialize(::HoudiniEngineUnity::HEU_SessionBase*  session, ::HoudiniEngineUnity::HAPI_GeoInfo  geoInfo, ::HoudiniEngineUnity::HEU_ObjectNode*  containerObjectNode) ;
 
-  /// @brief Method IsEquivalentTo, addr 0x256bb48, size 0x2a0, virtual true, abstract: false, final true
-  inline bool IsEquivalentTo(::HoudiniEngineUnity::HEU_GeoNode* other);
+/// @brief Method IsEquivalentTo, addr 0x39900ac, size 0x288, virtual true, abstract: false, final true
+inline bool IsEquivalentTo(::HoudiniEngineUnity::HEU_GeoNode*  other) ;
 
-  /// @brief Method IsGeoCurveType, addr 0x25674dc, size 0x10, virtual false, abstract: false, final false
-  inline bool IsGeoCurveType();
+/// @brief Method IsGeoCurveType, addr 0x398bb14, size 0x10, virtual false, abstract: false, final false
+inline bool IsGeoCurveType() ;
 
-  /// @brief Method IsGeoInputType, addr 0x25674bc, size 0x20, virtual false, abstract: false, final false
-  inline bool IsGeoInputType();
+/// @brief Method IsGeoInputType, addr 0x398baf4, size 0x20, virtual false, abstract: false, final false
+inline bool IsGeoInputType() ;
 
-  /// @brief Method IsIntermediate, addr 0x256747c, size 0x10, virtual false, abstract: false, final false
-  inline bool IsIntermediate();
+/// @brief Method IsIntermediate, addr 0x398bab4, size 0x10, virtual false, abstract: false, final false
+inline bool IsIntermediate() ;
 
-  /// @brief Method IsIntermediateOrEditable, addr 0x256748c, size 0x30, virtual false, abstract: false, final false
-  inline bool IsIntermediateOrEditable();
+/// @brief Method IsIntermediateOrEditable, addr 0x398bac4, size 0x30, virtual false, abstract: false, final false
+inline bool IsIntermediateOrEditable() ;
 
-  /// @brief Method IsUsingMaterial, addr 0x256a124, size 0x180, virtual false, abstract: false, final false
-  inline bool IsUsingMaterial(::HoudiniEngineUnity::HEU_MaterialData* materialData);
+/// @brief Method IsUsingMaterial, addr 0x398e6d0, size 0x170, virtual false, abstract: false, final false
+inline bool IsUsingMaterial(::HoudiniEngineUnity::HEU_MaterialData*  materialData) ;
 
-  /// @brief Method IsVisible, addr 0x2567460, size 0x1c, virtual false, abstract: false, final false
-  inline bool IsVisible();
+/// @brief Method IsVisible, addr 0x398ba98, size 0x1c, virtual false, abstract: false, final false
+inline bool IsVisible() ;
 
-  static inline ::HoudiniEngineUnity::HEU_GeoNode* New_ctor();
+static inline ::HoudiniEngineUnity::HEU_GeoNode* New_ctor() ;
 
-  /// @brief Method OnAfterDeserialize, addr 0x256764c, size 0x13c, virtual true, abstract: false, final true
-  inline void OnAfterDeserialize();
+/// @brief Method OnAfterDeserialize, addr 0x398bc7c, size 0x138, virtual true, abstract: false, final true
+inline void OnAfterDeserialize() ;
 
-  /// @brief Method OnBeforeSerialize, addr 0x2567648, size 0x4, virtual true, abstract: false, final true
-  inline void OnBeforeSerialize();
+/// @brief Method OnBeforeSerialize, addr 0x398bc78, size 0x4, virtual true, abstract: false, final true
+inline void OnBeforeSerialize() ;
 
-  /// @brief Method ProcessGeoCurve, addr 0x2568364, size 0x1c4, virtual false, abstract: false, final false
-  inline void ProcessGeoCurve(::HoudiniEngineUnity::HEU_SessionBase* session);
+/// @brief Method ProcessGeoCurve, addr 0x398c994, size 0x1b4, virtual false, abstract: false, final false
+inline void ProcessGeoCurve(::HoudiniEngineUnity::HEU_SessionBase*  session) ;
 
-  /// @brief Method ProcessPart, addr 0x2568528, size 0x910, virtual false, abstract: false, final false
-  inline void ProcessPart(::HoudiniEngineUnity::HEU_SessionBase* session, int32_t partID, ByRef<::HoudiniEngineUnity::HAPI_PartInfo> partInfo, ByRef<::HoudiniEngineUnity::HEU_PartData*> partData);
+/// @brief Method ProcessPart, addr 0x398cb48, size 0x93c, virtual false, abstract: false, final false
+inline void ProcessPart(::HoudiniEngineUnity::HEU_SessionBase*  session, int32_t  partID, ByRef<::HoudiniEngineUnity::HAPI_PartInfo>  partInfo, ByRef<::HoudiniEngineUnity::HEU_PartData*>  partData) ;
 
-  /// @brief Method ProcessUnityScriptAttribute, addr 0x2568e38, size 0x1f8, virtual false, abstract: false, final false
-  inline void ProcessUnityScriptAttribute(::HoudiniEngineUnity::HEU_SessionBase* session);
+/// @brief Method ProcessUnityScriptAttribute, addr 0x398d484, size 0x208, virtual false, abstract: false, final false
+inline void ProcessUnityScriptAttribute(::HoudiniEngineUnity::HEU_SessionBase*  session) ;
 
-  /// @brief Method ProcessVolumeParts, addr 0x256b240, size 0x68c, virtual false, abstract: false, final false
-  inline void ProcessVolumeParts(::HoudiniEngineUnity::HEU_SessionBase* session, ::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_PartData>>* volumeParts, bool bRebuild);
+/// @brief Method ProcessVolumeParts, addr 0x398f7a8, size 0x680, virtual false, abstract: false, final false
+inline void ProcessVolumeParts(::HoudiniEngineUnity::HEU_SessionBase*  session, ::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_PartData>>*  volumeParts, bool  bRebuild) ;
 
-  /// @brief Method RemoveAndDestroyPart, addr 0x2567b44, size 0x64, virtual false, abstract: false, final false
-  inline void RemoveAndDestroyPart(::HoudiniEngineUnity::HEU_PartData* part);
+/// @brief Method RemoveAndDestroyPart, addr 0x398c170, size 0x64, virtual false, abstract: false, final false
+inline void RemoveAndDestroyPart(::HoudiniEngineUnity::HEU_PartData*  part) ;
 
-  /// @brief Method Reset, addr 0x2567598, size 0xb0, virtual false, abstract: false, final false
-  inline void Reset();
+/// @brief Method Reset, addr 0x398bbd0, size 0xa8, virtual false, abstract: false, final false
+inline void Reset() ;
 
-  /// @brief Method SetAttributeModifiersOnPartOutputs, addr 0x256ad54, size 0x204, virtual false, abstract: false, final false
-  inline void SetAttributeModifiersOnPartOutputs(::HoudiniEngineUnity::HEU_SessionBase* session);
+/// @brief Method SetAttributeModifiersOnPartOutputs, addr 0x398f2bc, size 0x204, virtual false, abstract: false, final false
+inline void SetAttributeModifiersOnPartOutputs(::HoudiniEngineUnity::HEU_SessionBase*  session) ;
 
-  /// @brief Method SetGeoInfo, addr 0x2569a98, size 0x9c, virtual false, abstract: false, final false
-  inline void SetGeoInfo(::HoudiniEngineUnity::HAPI_GeoInfo geoInfo);
+/// @brief Method SetGeoInfo, addr 0x398e044, size 0x9c, virtual false, abstract: false, final false
+inline void SetGeoInfo(::HoudiniEngineUnity::HAPI_GeoInfo  geoInfo) ;
 
-  /// @brief Method SetupGameObjectAndTransform, addr 0x2569104, size 0x280, virtual false, abstract: false, final false
-  inline void SetupGameObjectAndTransform(::HoudiniEngineUnity::HEU_PartData* partData, ::HoudiniEngineUnity::HEU_HoudiniAsset* parentAsset);
+/// @brief Method SetupGameObjectAndTransform, addr 0x398d75c, size 0x27c, virtual false, abstract: false, final false
+inline void SetupGameObjectAndTransform(::HoudiniEngineUnity::HEU_PartData*  partData, ::HoudiniEngineUnity::HEU_HoudiniAsset*  parentAsset) ;
 
-  /// @brief Method SetupGeoCurveGameObjectAndTransform, addr 0x2569820, size 0x1e0, virtual false, abstract: false, final false
-  inline void SetupGeoCurveGameObjectAndTransform(::HoudiniEngineUnity::HEU_Curve* curve);
+/// @brief Method SetupGeoCurveGameObjectAndTransform, addr 0x398ddd4, size 0x1d8, virtual false, abstract: false, final false
+inline void SetupGeoCurveGameObjectAndTransform(::HoudiniEngineUnity::HEU_Curve*  curve) ;
 
-  /// @brief Method ToString, addr 0x256bad8, size 0x70, virtual true, abstract: false, final false
-  inline ::StringW ToString();
+/// @brief Method ToString, addr 0x399003c, size 0x70, virtual true, abstract: false, final false
+inline ::StringW ToString() ;
 
-  /// @brief Method UpdateGeo, addr 0x2567d3c, size 0x628, virtual false, abstract: false, final false
-  inline void UpdateGeo(::HoudiniEngineUnity::HEU_SessionBase* session);
+/// @brief Method UpdateGeo, addr 0x398c364, size 0x630, virtual false, abstract: false, final false
+inline void UpdateGeo(::HoudiniEngineUnity::HEU_SessionBase*  session) ;
 
-  constexpr ::UnityW<::HoudiniEngineUnity::HEU_ObjectNode> const& __cordl_internal_get__containerObjectNode() const;
+constexpr ::UnityW<::HoudiniEngineUnity::HEU_ObjectNode> const& __cordl_internal_get__containerObjectNode() const;
 
-  constexpr ::UnityW<::HoudiniEngineUnity::HEU_ObjectNode>& __cordl_internal_get__containerObjectNode();
+constexpr ::UnityW<::HoudiniEngineUnity::HEU_ObjectNode>& __cordl_internal_get__containerObjectNode() ;
 
-  constexpr ::UnityW<::HoudiniEngineUnity::HEU_Curve> const& __cordl_internal_get__geoCurve() const;
+constexpr ::UnityW<::HoudiniEngineUnity::HEU_Curve> const& __cordl_internal_get__geoCurve() const;
 
-  constexpr ::UnityW<::HoudiniEngineUnity::HEU_Curve>& __cordl_internal_get__geoCurve();
+constexpr ::UnityW<::HoudiniEngineUnity::HEU_Curve>& __cordl_internal_get__geoCurve() ;
 
-  constexpr ::HoudiniEngineUnity::HAPI_GeoInfo const& __cordl_internal_get__geoInfo() const;
+constexpr ::HoudiniEngineUnity::HAPI_GeoInfo const& __cordl_internal_get__geoInfo() const;
 
-  constexpr ::HoudiniEngineUnity::HAPI_GeoInfo& __cordl_internal_get__geoInfo();
+constexpr ::HoudiniEngineUnity::HAPI_GeoInfo& __cordl_internal_get__geoInfo() ;
 
-  constexpr ::StringW const& __cordl_internal_get__geoName() const;
+constexpr ::StringW const& __cordl_internal_get__geoName() const;
 
-  constexpr ::StringW& __cordl_internal_get__geoName();
+constexpr ::StringW& __cordl_internal_get__geoName() ;
 
-  constexpr ::UnityW<::HoudiniEngineUnity::HEU_InputNode> const& __cordl_internal_get__inputNode() const;
+constexpr ::UnityW<::HoudiniEngineUnity::HEU_InputNode> const& __cordl_internal_get__inputNode() const;
 
-  constexpr ::UnityW<::HoudiniEngineUnity::HEU_InputNode>& __cordl_internal_get__inputNode();
+constexpr ::UnityW<::HoudiniEngineUnity::HEU_InputNode>& __cordl_internal_get__inputNode() ;
 
-  constexpr ::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_PartData>>*& __cordl_internal_get__parts();
+constexpr ::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_PartData>>*& __cordl_internal_get__parts() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_PartData>>*> const& __cordl_internal_get__parts() const;
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_PartData>>*> const& __cordl_internal_get__parts() const;
 
-  constexpr ::UnityW<::HoudiniEngineUnity::HEU_VolumeCache> const& __cordl_internal_get__volumeCache() const;
+constexpr ::UnityW<::HoudiniEngineUnity::HEU_VolumeCache> const& __cordl_internal_get__volumeCache() const;
 
-  constexpr ::UnityW<::HoudiniEngineUnity::HEU_VolumeCache>& __cordl_internal_get__volumeCache();
+constexpr ::UnityW<::HoudiniEngineUnity::HEU_VolumeCache>& __cordl_internal_get__volumeCache() ;
 
-  constexpr ::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_VolumeCache>>*& __cordl_internal_get__volumeCaches();
+constexpr ::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_VolumeCache>>*& __cordl_internal_get__volumeCaches() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_VolumeCache>>*> const& __cordl_internal_get__volumeCaches() const;
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_VolumeCache>>*> const& __cordl_internal_get__volumeCaches() const;
 
-  constexpr void __cordl_internal_set__containerObjectNode(::UnityW<::HoudiniEngineUnity::HEU_ObjectNode> value);
+constexpr void __cordl_internal_set__containerObjectNode(::UnityW<::HoudiniEngineUnity::HEU_ObjectNode>  value) ;
 
-  constexpr void __cordl_internal_set__geoCurve(::UnityW<::HoudiniEngineUnity::HEU_Curve> value);
+constexpr void __cordl_internal_set__geoCurve(::UnityW<::HoudiniEngineUnity::HEU_Curve>  value) ;
 
-  constexpr void __cordl_internal_set__geoInfo(::HoudiniEngineUnity::HAPI_GeoInfo value);
+constexpr void __cordl_internal_set__geoInfo(::HoudiniEngineUnity::HAPI_GeoInfo  value) ;
 
-  constexpr void __cordl_internal_set__geoName(::StringW value);
+constexpr void __cordl_internal_set__geoName(::StringW  value) ;
 
-  constexpr void __cordl_internal_set__inputNode(::UnityW<::HoudiniEngineUnity::HEU_InputNode> value);
+constexpr void __cordl_internal_set__inputNode(::UnityW<::HoudiniEngineUnity::HEU_InputNode>  value) ;
 
-  constexpr void __cordl_internal_set__parts(::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_PartData>>* value);
+constexpr void __cordl_internal_set__parts(::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_PartData>>*  value) ;
 
-  constexpr void __cordl_internal_set__volumeCache(::UnityW<::HoudiniEngineUnity::HEU_VolumeCache> value);
+constexpr void __cordl_internal_set__volumeCache(::UnityW<::HoudiniEngineUnity::HEU_VolumeCache>  value) ;
 
-  constexpr void __cordl_internal_set__volumeCaches(::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_VolumeCache>>* value);
+constexpr void __cordl_internal_set__volumeCaches(::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_VolumeCache>>*  value) ;
 
-  /// @brief Method .ctor, addr 0x256757c, size 0x1c, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x398bbb4, size 0x1c, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_Displayable, addr 0x2567458, size 0x8, virtual false, abstract: false, final false
-  inline bool get_Displayable();
+/// @brief Method get_Displayable, addr 0x398ba90, size 0x8, virtual false, abstract: false, final false
+inline bool get_Displayable() ;
 
-  /// @brief Method get_Editable, addr 0x2567450, size 0x8, virtual false, abstract: false, final false
-  inline bool get_Editable();
+/// @brief Method get_Editable, addr 0x398ba88, size 0x8, virtual false, abstract: false, final false
+inline bool get_Editable() ;
 
-  /// @brief Method get_GeoID, addr 0x255cba0, size 0x8, virtual false, abstract: false, final false
-  inline int32_t get_GeoID();
+/// @brief Method get_GeoID, addr 0x3981104, size 0x8, virtual false, abstract: false, final false
+inline int32_t get_GeoID() ;
 
-  /// @brief Method get_GeoName, addr 0x2567440, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_GeoName();
+/// @brief Method get_GeoName, addr 0x398ba78, size 0x8, virtual false, abstract: false, final false
+inline ::StringW get_GeoName() ;
 
-  /// @brief Method get_GeoType, addr 0x2567448, size 0x8, virtual false, abstract: false, final false
-  inline ::HoudiniEngineUnity::HAPI_GeoType get_GeoType();
+/// @brief Method get_GeoType, addr 0x398ba80, size 0x8, virtual false, abstract: false, final false
+inline ::HoudiniEngineUnity::HAPI_GeoType get_GeoType() ;
 
-  /// @brief Method get_ObjectNode, addr 0x25674ec, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityW<::HoudiniEngineUnity::HEU_ObjectNode> get_ObjectNode();
+/// @brief Method get_ObjectNode, addr 0x398bb24, size 0x8, virtual false, abstract: false, final false
+inline ::UnityW<::HoudiniEngineUnity::HEU_ObjectNode> get_ObjectNode() ;
 
-  /// @brief Method get_ParentAsset, addr 0x25674f4, size 0x80, virtual false, abstract: false, final false
-  inline ::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset> get_ParentAsset();
+/// @brief Method get_ParentAsset, addr 0x398bb2c, size 0x80, virtual false, abstract: false, final false
+inline ::UnityW<::HoudiniEngineUnity::HEU_HoudiniAsset> get_ParentAsset() ;
 
-  /// @brief Method get_VolumeCaches, addr 0x2567574, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_VolumeCache>>* get_VolumeCaches();
+/// @brief Method get_VolumeCaches, addr 0x398bbac, size 0x8, virtual false, abstract: false, final false
+inline ::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_VolumeCache>>* get_VolumeCaches() ;
 
-  /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_GeoNode>>"
-  constexpr ::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_GeoNode>>* i___HoudiniEngineUnity__IEquivable_1___UnityW___HoudiniEngineUnity__HEU_GeoNode__() noexcept;
+/// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_GeoNode>>"
+constexpr ::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_GeoNode>>* i___HoudiniEngineUnity__IEquivable_1___UnityW___HoudiniEngineUnity__HEU_GeoNode__() noexcept;
 
-  /// @brief Convert to "::UnityEngine::ISerializationCallbackReceiver"
-  constexpr ::UnityEngine::ISerializationCallbackReceiver* i___UnityEngine__ISerializationCallbackReceiver() noexcept;
+/// @brief Convert to "::UnityEngine::ISerializationCallbackReceiver"
+constexpr ::UnityEngine::ISerializationCallbackReceiver* i___UnityEngine__ISerializationCallbackReceiver() noexcept;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HEU_GeoNode();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr HEU_GeoNode() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HEU_GeoNode", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  HEU_GeoNode(HEU_GeoNode&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HEU_GeoNode", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  HEU_GeoNode(HEU_GeoNode const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "HEU_GeoNode", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+HEU_GeoNode(HEU_GeoNode && ) = delete;
 
-  /// @brief Field _geoInfo, offset: 0x18, size: 0x24, def value: None
-  ::HoudiniEngineUnity::HAPI_GeoInfo ____geoInfo;
+// Ctor Parameters [CppParam { name: "", ty: "HEU_GeoNode", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+HEU_GeoNode(HEU_GeoNode const& ) = delete;
 
-  /// @brief Field _geoName, offset: 0x40, size: 0x8, def value: None
-  ::StringW ____geoName;
+/// @brief Field _geoInfo, offset: 0x18, size: 0x24, def value: None
+ ::HoudiniEngineUnity::HAPI_GeoInfo  ____geoInfo;
 
-  /// @brief Field _parts, offset: 0x48, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_PartData>>* ____parts;
+/// @brief Field _geoName, offset: 0x40, size: 0x8, def value: None
+ ::StringW  ____geoName;
 
-  /// @brief Field _containerObjectNode, offset: 0x50, size: 0x8, def value: None
-  ::UnityW<::HoudiniEngineUnity::HEU_ObjectNode> ____containerObjectNode;
+/// @brief Field _parts, offset: 0x48, size: 0x8, def value: None
+ ::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_PartData>>*  ____parts;
 
-  /// @brief Field _inputNode, offset: 0x58, size: 0x8, def value: None
-  ::UnityW<::HoudiniEngineUnity::HEU_InputNode> ____inputNode;
+/// @brief Field _containerObjectNode, offset: 0x50, size: 0x8, def value: None
+ ::UnityW<::HoudiniEngineUnity::HEU_ObjectNode>  ____containerObjectNode;
 
-  /// @brief Field _geoCurve, offset: 0x60, size: 0x8, def value: None
-  ::UnityW<::HoudiniEngineUnity::HEU_Curve> ____geoCurve;
+/// @brief Field _inputNode, offset: 0x58, size: 0x8, def value: None
+ ::UnityW<::HoudiniEngineUnity::HEU_InputNode>  ____inputNode;
 
-  /// @brief Field _volumeCache, offset: 0x68, size: 0x8, def value: None
-  ::UnityW<::HoudiniEngineUnity::HEU_VolumeCache> ____volumeCache;
+/// @brief Field _geoCurve, offset: 0x60, size: 0x8, def value: None
+ ::UnityW<::HoudiniEngineUnity::HEU_Curve>  ____geoCurve;
 
-  /// @brief Field _volumeCaches, offset: 0x70, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_VolumeCache>>* ____volumeCaches;
+/// @brief Field _volumeCache, offset: 0x68, size: 0x8, def value: None
+ ::UnityW<::HoudiniEngineUnity::HEU_VolumeCache>  ____volumeCache;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _volumeCaches, offset: 0x70, size: 0x8, def value: None
+ ::System::Collections::Generic::List_1<::UnityW<::HoudiniEngineUnity::HEU_VolumeCache>>*  ____volumeCaches;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_GeoNode, 0x78>, "Size mismatch!");
@@ -408,6 +408,6 @@ static_assert(offsetof(::HoudiniEngineUnity::HEU_GeoNode, ____volumeCache) == 0x
 
 static_assert(offsetof(::HoudiniEngineUnity::HEU_GeoNode, ____volumeCaches) == 0x70, "Offset mismatch!");
 
-} // namespace HoudiniEngineUnity
+} // namespace end def HoudiniEngineUnity
 NEED_NO_BOX(::HoudiniEngineUnity::HEU_GeoNode);
 DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_GeoNode*, "HoudiniEngineUnity", "HEU_GeoNode");

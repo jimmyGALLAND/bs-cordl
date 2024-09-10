@@ -30,81 +30,81 @@ class DHValidationParms;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X9::DHValidationParms);
 // Type: Org.BouncyCastle.Asn1.X9::DHValidationParms
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::X9 {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Asn1.X9::DHValidationParms*
 class CORDL_TYPE DHValidationParms : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
-  // Declarations
-  __declspec(property(get = get_PgenCounter))::Org::BouncyCastle::Asn1::DerInteger* PgenCounter;
+// Declarations
+ __declspec(property(get=get_PgenCounter)) ::Org::BouncyCastle::Asn1::DerInteger*  PgenCounter;
 
-  __declspec(property(get = get_Seed))::Org::BouncyCastle::Asn1::DerBitString* Seed;
+ __declspec(property(get=get_Seed)) ::Org::BouncyCastle::Asn1::DerBitString*  Seed;
 
-  /// @brief Field pgenCounter, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_pgenCounter, put = __cordl_internal_set_pgenCounter))::Org::BouncyCastle::Asn1::DerInteger* pgenCounter;
+/// @brief Field pgenCounter, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_pgenCounter, put=__cordl_internal_set_pgenCounter)) ::Org::BouncyCastle::Asn1::DerInteger*  pgenCounter;
 
-  /// @brief Field seed, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_seed, put = __cordl_internal_set_seed))::Org::BouncyCastle::Asn1::DerBitString* seed;
+/// @brief Field seed, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_seed, put=__cordl_internal_set_seed)) ::Org::BouncyCastle::Asn1::DerBitString*  seed;
 
-  /// @brief Method GetInstance, addr 0x141abe8, size 0x18, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Asn1::X9::DHValidationParms* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool isExplicit);
+/// @brief Method GetInstance, addr 0x25d4844, size 0x18, virtual false, abstract: false, final false
+static inline ::Org::BouncyCastle::Asn1::X9::DHValidationParms* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject*  obj, bool  isExplicit) ;
 
-  /// @brief Method GetInstance, addr 0x141a644, size 0x188, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Asn1::X9::DHValidationParms* GetInstance(::System::Object* obj);
+/// @brief Method GetInstance, addr 0x25d42c0, size 0x17c, virtual false, abstract: false, final false
+static inline ::Org::BouncyCastle::Asn1::X9::DHValidationParms* GetInstance(::System::Object*  obj) ;
 
-  static inline ::Org::BouncyCastle::Asn1::X9::DHValidationParms* New_ctor(::Org::BouncyCastle::Asn1::DerBitString* seed, ::Org::BouncyCastle::Asn1::DerInteger* pgenCounter);
+static inline ::Org::BouncyCastle::Asn1::X9::DHValidationParms* New_ctor(::Org::BouncyCastle::Asn1::DerBitString*  seed, ::Org::BouncyCastle::Asn1::DerInteger*  pgenCounter) ;
 
-  static inline ::Org::BouncyCastle::Asn1::X9::DHValidationParms* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
+static inline ::Org::BouncyCastle::Asn1::X9::DHValidationParms* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence*  seq) ;
 
-  /// @brief Method ToAsn1Object, addr 0x141ae24, size 0xf0, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
+/// @brief Method ToAsn1Object, addr 0x25d4a74, size 0xec, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object() ;
 
-  constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __cordl_internal_get_pgenCounter();
+constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __cordl_internal_get_pgenCounter() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& __cordl_internal_get_pgenCounter() const;
+constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& __cordl_internal_get_pgenCounter() const;
 
-  constexpr ::Org::BouncyCastle::Asn1::DerBitString*& __cordl_internal_get_seed();
+constexpr ::Org::BouncyCastle::Asn1::DerBitString*& __cordl_internal_get_seed() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerBitString*> const& __cordl_internal_get_seed() const;
+constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerBitString*> const& __cordl_internal_get_seed() const;
 
-  constexpr void __cordl_internal_set_pgenCounter(::Org::BouncyCastle::Asn1::DerInteger* value);
+constexpr void __cordl_internal_set_pgenCounter(::Org::BouncyCastle::Asn1::DerInteger*  value) ;
 
-  constexpr void __cordl_internal_set_seed(::Org::BouncyCastle::Asn1::DerBitString* value);
+constexpr void __cordl_internal_set_seed(::Org::BouncyCastle::Asn1::DerBitString*  value) ;
 
-  /// @brief Method .ctor, addr 0x141ad70, size 0xa4, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Asn1::DerBitString* seed, ::Org::BouncyCastle::Asn1::DerInteger* pgenCounter);
+/// @brief Method .ctor, addr 0x25d49c8, size 0x9c, virtual false, abstract: false, final false
+inline void _ctor(::Org::BouncyCastle::Asn1::DerBitString*  seed, ::Org::BouncyCastle::Asn1::DerInteger*  pgenCounter) ;
 
-  /// @brief Method .ctor, addr 0x141ac00, size 0x170, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
+/// @brief Method .ctor, addr 0x25d485c, size 0x16c, virtual false, abstract: false, final false
+inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence*  seq) ;
 
-  /// @brief Method get_PgenCounter, addr 0x141ae1c, size 0x8, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::DerInteger* get_PgenCounter();
+/// @brief Method get_PgenCounter, addr 0x25d4a6c, size 0x8, virtual false, abstract: false, final false
+inline ::Org::BouncyCastle::Asn1::DerInteger* get_PgenCounter() ;
 
-  /// @brief Method get_Seed, addr 0x141ae14, size 0x8, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::DerBitString* get_Seed();
+/// @brief Method get_Seed, addr 0x25d4a64, size 0x8, virtual false, abstract: false, final false
+inline ::Org::BouncyCastle::Asn1::DerBitString* get_Seed() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DHValidationParms();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr DHValidationParms() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DHValidationParms", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  DHValidationParms(DHValidationParms&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DHValidationParms", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  DHValidationParms(DHValidationParms const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "DHValidationParms", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+DHValidationParms(DHValidationParms && ) = delete;
 
-  /// @brief Field seed, offset: 0x10, size: 0x8, def value: None
-  ::Org::BouncyCastle::Asn1::DerBitString* ___seed;
+// Ctor Parameters [CppParam { name: "", ty: "DHValidationParms", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+DHValidationParms(DHValidationParms const& ) = delete;
 
-  /// @brief Field pgenCounter, offset: 0x18, size: 0x8, def value: None
-  ::Org::BouncyCastle::Asn1::DerInteger* ___pgenCounter;
+/// @brief Field seed, offset: 0x10, size: 0x8, def value: None
+ ::Org::BouncyCastle::Asn1::DerBitString*  ___seed;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field pgenCounter, offset: 0x18, size: 0x8, def value: None
+ ::Org::BouncyCastle::Asn1::DerInteger*  ___pgenCounter;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::X9::DHValidationParms, 0x20>, "Size mismatch!");
@@ -113,6 +113,6 @@ static_assert(offsetof(::Org::BouncyCastle::Asn1::X9::DHValidationParms, ___seed
 
 static_assert(offsetof(::Org::BouncyCastle::Asn1::X9::DHValidationParms, ___pgenCounter) == 0x18, "Offset mismatch!");
 
-} // namespace Org::BouncyCastle::Asn1::X9
+} // namespace end def Org::BouncyCastle::Asn1::X9
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::X9::DHValidationParms);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::X9::DHValidationParms*, "Org.BouncyCastle.Asn1.X9", "DHValidationParms");

@@ -25,70 +25,69 @@ class MemberPrimitiveTyped;
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveTyped);
 // Type: System.Runtime.Serialization.Formatters.Binary::MemberPrimitiveTyped
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: false
 // CS Name: ::System.Runtime.Serialization.Formatters.Binary::MemberPrimitiveTyped*
 class CORDL_TYPE MemberPrimitiveTyped : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field primitiveTypeEnum, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_primitiveTypeEnum,
-                      put = __cordl_internal_set_primitiveTypeEnum))::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE primitiveTypeEnum;
+// Declarations
+/// @brief Field primitiveTypeEnum, offset 0x10, size 0x4 
+ __declspec(property(get=__cordl_internal_get_primitiveTypeEnum, put=__cordl_internal_set_primitiveTypeEnum)) ::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE  primitiveTypeEnum;
 
-  /// @brief Field value, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_value, put = __cordl_internal_set_value))::System::Object* value;
+/// @brief Field value, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_value, put=__cordl_internal_set_value)) ::System::Object*  value;
 
-  /// @brief Method Dump, addr 0x2870088, size 0x4, virtual false, abstract: false, final false
-  inline void Dump();
+/// @brief Method Dump, addr 0x3c707d8, size 0x4, virtual false, abstract: false, final false
+inline void Dump() ;
 
-  static inline ::System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveTyped* New_ctor();
+static inline ::System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveTyped* New_ctor() ;
 
-  /// @brief Method Read, addr 0x2870040, size 0x48, virtual true, abstract: false, final true
-  inline void Read(::System::Runtime::Serialization::Formatters::Binary::__BinaryParser* input);
+/// @brief Method Read, addr 0x3c70790, size 0x48, virtual true, abstract: false, final true
+inline void Read(::System::Runtime::Serialization::Formatters::Binary::__BinaryParser*  input) ;
 
-  /// @brief Method Set, addr 0x286ffd4, size 0xc, virtual false, abstract: false, final false
-  inline void Set(::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE primitiveTypeEnum, ::System::Object* value);
+/// @brief Method Set, addr 0x3c70724, size 0xc, virtual false, abstract: false, final false
+inline void Set(::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE  primitiveTypeEnum, ::System::Object*  value) ;
 
-  /// @brief Method Write, addr 0x286ffe0, size 0x60, virtual true, abstract: false, final true
-  inline void Write(::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter* sout);
+/// @brief Method Write, addr 0x3c70730, size 0x60, virtual true, abstract: false, final true
+inline void Write(::System::Runtime::Serialization::Formatters::Binary::__BinaryWriter*  sout) ;
 
-  constexpr ::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE const& __cordl_internal_get_primitiveTypeEnum() const;
+constexpr ::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE const& __cordl_internal_get_primitiveTypeEnum() const;
 
-  constexpr ::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE& __cordl_internal_get_primitiveTypeEnum();
+constexpr ::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE& __cordl_internal_get_primitiveTypeEnum() ;
 
-  constexpr ::System::Object*& __cordl_internal_get_value();
+constexpr ::System::Object*& __cordl_internal_get_value() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_value() const;
+constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_value() const;
 
-  constexpr void __cordl_internal_set_primitiveTypeEnum(::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE value);
+constexpr void __cordl_internal_set_primitiveTypeEnum(::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE  value) ;
 
-  constexpr void __cordl_internal_set_value(::System::Object* value);
+constexpr void __cordl_internal_set_value(::System::Object*  value) ;
 
-  /// @brief Method .ctor, addr 0x286ffcc, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x3c7071c, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MemberPrimitiveTyped();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr MemberPrimitiveTyped() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MemberPrimitiveTyped", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  MemberPrimitiveTyped(MemberPrimitiveTyped&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MemberPrimitiveTyped", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  MemberPrimitiveTyped(MemberPrimitiveTyped const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "MemberPrimitiveTyped", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+MemberPrimitiveTyped(MemberPrimitiveTyped && ) = delete;
 
-  /// @brief Field primitiveTypeEnum, offset: 0x10, size: 0x4, def value: None
-  ::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE ___primitiveTypeEnum;
+// Ctor Parameters [CppParam { name: "", ty: "MemberPrimitiveTyped", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+MemberPrimitiveTyped(MemberPrimitiveTyped const& ) = delete;
 
-  /// @brief Field value, offset: 0x18, size: 0x8, def value: None
-  ::System::Object* ___value;
+/// @brief Field primitiveTypeEnum, offset: 0x10, size: 0x4, def value: None
+ ::System::Runtime::Serialization::Formatters::Binary::InternalPrimitiveTypeE  ___primitiveTypeEnum;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field value, offset: 0x18, size: 0x8, def value: None
+ ::System::Object*  ___value;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveTyped, 0x20>, "Size mismatch!");
@@ -97,6 +96,6 @@ static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::Mem
 
 static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveTyped, ___value) == 0x18, "Offset mismatch!");
 
-} // namespace System::Runtime::Serialization::Formatters::Binary
+} // namespace end def System::Runtime::Serialization::Formatters::Binary
 NEED_NO_BOX(::System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveTyped);
 DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::Formatters::Binary::MemberPrimitiveTyped*, "System.Runtime.Serialization.Formatters.Binary", "MemberPrimitiveTyped");

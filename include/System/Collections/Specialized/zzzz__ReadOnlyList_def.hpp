@@ -31,129 +31,129 @@ class ReadOnlyList;
 // Write type traits
 MARK_REF_PTR_T(::System::Collections::Specialized::ReadOnlyList);
 // Type: System.Collections.Specialized::ReadOnlyList
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Collections::Specialized {
 // Is value type: false
 // CS Name: ::System.Collections.Specialized::ReadOnlyList*
 class CORDL_TYPE ReadOnlyList : public ::System::Object {
 public:
-  // Declarations
-  __declspec(property(get = get_Count)) int32_t Count;
+// Declarations
+ __declspec(property(get=get_Count)) int32_t  Count;
 
-  __declspec(property(get = get_IsFixedSize)) bool IsFixedSize;
+ __declspec(property(get=get_IsFixedSize)) bool  IsFixedSize;
 
-  __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
+ __declspec(property(get=get_IsReadOnly)) bool  IsReadOnly;
 
-  __declspec(property(get = get_IsSynchronized)) bool IsSynchronized;
+ __declspec(property(get=get_IsSynchronized)) bool  IsSynchronized;
 
-  __declspec(property(get = get_Item, put = set_Item))::System::Object* Item[];
+ __declspec(property(get=get_Item, put=set_Item)) ::System::Object*  Item[];
 
-  __declspec(property(get = get_SyncRoot))::System::Object* SyncRoot;
+ __declspec(property(get=get_SyncRoot)) ::System::Object*  SyncRoot;
 
-  /// @brief Field _list, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__list, put = __cordl_internal_set__list))::System::Collections::IList* _list;
+/// @brief Field _list, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get__list, put=__cordl_internal_set__list)) ::System::Collections::IList*  _list;
 
-  /// @brief Convert operator to "::System::Collections::ICollection"
-  constexpr operator ::System::Collections::ICollection*() noexcept;
+/// @brief Convert operator to "::System::Collections::ICollection"
+constexpr operator  ::System::Collections::ICollection*() noexcept;
 
-  /// @brief Convert operator to "::System::Collections::IEnumerable"
-  constexpr operator ::System::Collections::IEnumerable*() noexcept;
+/// @brief Convert operator to "::System::Collections::IEnumerable"
+constexpr operator  ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Convert operator to "::System::Collections::IList"
-  constexpr operator ::System::Collections::IList*() noexcept;
+/// @brief Convert operator to "::System::Collections::IList"
+constexpr operator  ::System::Collections::IList*() noexcept;
 
-  /// @brief Method Add, addr 0x2f9fae4, size 0x50, virtual true, abstract: false, final true
-  inline int32_t Add(::System::Object* value);
+/// @brief Method Add, addr 0x43f2f04, size 0x4c, virtual true, abstract: false, final true
+inline int32_t Add(::System::Object*  value) ;
 
-  /// @brief Method Clear, addr 0x2f9fb34, size 0x50, virtual true, abstract: false, final true
-  inline void Clear();
+/// @brief Method Clear, addr 0x43f2f50, size 0x4c, virtual true, abstract: false, final true
+inline void Clear() ;
 
-  /// @brief Method Contains, addr 0x2f9fb84, size 0xac, virtual true, abstract: false, final true
-  inline bool Contains(::System::Object* value);
+/// @brief Method Contains, addr 0x43f2f9c, size 0xac, virtual true, abstract: false, final true
+inline bool Contains(::System::Object*  value) ;
 
-  /// @brief Method CopyTo, addr 0x2f9fc30, size 0xb8, virtual true, abstract: false, final true
-  inline void CopyTo(::System::Array* array, int32_t index);
+/// @brief Method CopyTo, addr 0x43f3048, size 0xb8, virtual true, abstract: false, final true
+inline void CopyTo(::System::Array*  array, int32_t  index) ;
 
-  /// @brief Method GetEnumerator, addr 0x2f9fce8, size 0xa0, virtual true, abstract: false, final true
-  inline ::System::Collections::IEnumerator* GetEnumerator();
+/// @brief Method GetEnumerator, addr 0x43f3100, size 0xa0, virtual true, abstract: false, final true
+inline ::System::Collections::IEnumerator* GetEnumerator() ;
 
-  /// @brief Method IndexOf, addr 0x2f9fd88, size 0xac, virtual true, abstract: false, final true
-  inline int32_t IndexOf(::System::Object* value);
+/// @brief Method IndexOf, addr 0x43f31a0, size 0xac, virtual true, abstract: false, final true
+inline int32_t IndexOf(::System::Object*  value) ;
 
-  /// @brief Method Insert, addr 0x2f9fe34, size 0x50, virtual true, abstract: false, final true
-  inline void Insert(int32_t index, ::System::Object* value);
+/// @brief Method Insert, addr 0x43f324c, size 0x4c, virtual true, abstract: false, final true
+inline void Insert(int32_t  index, ::System::Object*  value) ;
 
-  static inline ::System::Collections::Specialized::ReadOnlyList* New_ctor(::System::Collections::IList* list);
+static inline ::System::Collections::Specialized::ReadOnlyList* New_ctor(::System::Collections::IList*  list) ;
 
-  /// @brief Method Remove, addr 0x2f9fe84, size 0x50, virtual true, abstract: false, final true
-  inline void Remove(::System::Object* value);
+/// @brief Method Remove, addr 0x43f3298, size 0x4c, virtual true, abstract: false, final true
+inline void Remove(::System::Object*  value) ;
 
-  /// @brief Method RemoveAt, addr 0x2f9fed4, size 0x50, virtual true, abstract: false, final true
-  inline void RemoveAt(int32_t index);
+/// @brief Method RemoveAt, addr 0x43f32e4, size 0x4c, virtual true, abstract: false, final true
+inline void RemoveAt(int32_t  index) ;
 
-  constexpr ::System::Collections::IList*& __cordl_internal_get__list();
+constexpr ::System::Collections::IList*& __cordl_internal_get__list() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __cordl_internal_get__list() const;
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __cordl_internal_get__list() const;
 
-  constexpr void __cordl_internal_set__list(::System::Collections::IList* value);
+constexpr void __cordl_internal_set__list(::System::Collections::IList*  value) ;
 
-  /// @brief Method .ctor, addr 0x2f9f684, size 0x28, virtual false, abstract: false, final false
-  inline void _ctor(::System::Collections::IList* list);
+/// @brief Method .ctor, addr 0x43f2ad4, size 0x28, virtual false, abstract: false, final false
+inline void _ctor(::System::Collections::IList*  list) ;
 
-  /// @brief Method get_Count, addr 0x2f9f7f0, size 0xa4, virtual true, abstract: false, final true
-  inline int32_t get_Count();
+/// @brief Method get_Count, addr 0x43f2c14, size 0xa4, virtual true, abstract: false, final true
+inline int32_t get_Count() ;
 
-  /// @brief Method get_IsFixedSize, addr 0x2f9f89c, size 0x8, virtual true, abstract: false, final true
-  inline bool get_IsFixedSize();
+/// @brief Method get_IsFixedSize, addr 0x43f2cc0, size 0x8, virtual true, abstract: false, final true
+inline bool get_IsFixedSize() ;
 
-  /// @brief Method get_IsReadOnly, addr 0x2f9f894, size 0x8, virtual true, abstract: false, final true
-  inline bool get_IsReadOnly();
+/// @brief Method get_IsReadOnly, addr 0x43f2cb8, size 0x8, virtual true, abstract: false, final true
+inline bool get_IsReadOnly() ;
 
-  /// @brief Method get_IsSynchronized, addr 0x2f9f8a4, size 0xa4, virtual true, abstract: false, final true
-  inline bool get_IsSynchronized();
+/// @brief Method get_IsSynchronized, addr 0x43f2cc8, size 0xa4, virtual true, abstract: false, final true
+inline bool get_IsSynchronized() ;
 
-  /// @brief Method get_Item, addr 0x2f9f948, size 0xa8, virtual true, abstract: false, final true
-  inline ::System::Object* get_Item(int32_t index);
+/// @brief Method get_Item, addr 0x43f2d6c, size 0xa8, virtual true, abstract: false, final true
+inline ::System::Object* get_Item(int32_t  index) ;
 
-  /// @brief Method get_SyncRoot, addr 0x2f9fa40, size 0xa4, virtual true, abstract: false, final true
-  inline ::System::Object* get_SyncRoot();
+/// @brief Method get_SyncRoot, addr 0x43f2e60, size 0xa4, virtual true, abstract: false, final true
+inline ::System::Object* get_SyncRoot() ;
 
-  /// @brief Convert to "::System::Collections::ICollection"
-  constexpr ::System::Collections::ICollection* i___System__Collections__ICollection() noexcept;
+/// @brief Convert to "::System::Collections::ICollection"
+constexpr ::System::Collections::ICollection* i___System__Collections__ICollection() noexcept;
 
-  /// @brief Convert to "::System::Collections::IEnumerable"
-  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
+/// @brief Convert to "::System::Collections::IEnumerable"
+constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
-  /// @brief Convert to "::System::Collections::IList"
-  constexpr ::System::Collections::IList* i___System__Collections__IList() noexcept;
+/// @brief Convert to "::System::Collections::IList"
+constexpr ::System::Collections::IList* i___System__Collections__IList() noexcept;
 
-  /// @brief Method set_Item, addr 0x2f9f9f0, size 0x50, virtual true, abstract: false, final true
-  inline void set_Item(int32_t index, ::System::Object* value);
+/// @brief Method set_Item, addr 0x43f2e14, size 0x4c, virtual true, abstract: false, final true
+inline void set_Item(int32_t  index, ::System::Object*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ReadOnlyList();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ReadOnlyList() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ReadOnlyList", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ReadOnlyList(ReadOnlyList&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ReadOnlyList", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ReadOnlyList(ReadOnlyList const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ReadOnlyList", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ReadOnlyList(ReadOnlyList && ) = delete;
 
-  /// @brief Field _list, offset: 0x10, size: 0x8, def value: None
-  ::System::Collections::IList* ____list;
+// Ctor Parameters [CppParam { name: "", ty: "ReadOnlyList", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ReadOnlyList(ReadOnlyList const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _list, offset: 0x10, size: 0x8, def value: None
+ ::System::Collections::IList*  ____list;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Collections::Specialized::ReadOnlyList, 0x18>, "Size mismatch!");
 
 static_assert(offsetof(::System::Collections::Specialized::ReadOnlyList, ____list) == 0x10, "Offset mismatch!");
 
-} // namespace System::Collections::Specialized
+} // namespace end def System::Collections::Specialized
 NEED_NO_BOX(::System::Collections::Specialized::ReadOnlyList);
 DEFINE_IL2CPP_ARG_TYPE(::System::Collections::Specialized::ReadOnlyList*, "System.Collections.Specialized", "ReadOnlyList");

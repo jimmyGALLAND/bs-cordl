@@ -19,40 +19,40 @@ class __GreaterThanInstruction__GreaterThanSingle;
 // Write type traits
 MARK_REF_PTR_T(::System::Linq::Expressions::Interpreter::__GreaterThanInstruction__GreaterThanSingle);
 // Type: ::GreaterThanSingle
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Linq::Expressions::Interpreter {
 // Is value type: false
 // CS Name: ::GreaterThanInstruction::GreaterThanSingle*
 class CORDL_TYPE __GreaterThanInstruction__GreaterThanSingle : public ::System::Linq::Expressions::Interpreter::GreaterThanInstruction {
 public:
-  // Declarations
-  static inline ::System::Linq::Expressions::Interpreter::__GreaterThanInstruction__GreaterThanSingle* New_ctor(::System::Object* nullValue);
+// Declarations
+static inline ::System::Linq::Expressions::Interpreter::__GreaterThanInstruction__GreaterThanSingle* New_ctor(::System::Object*  nullValue) ;
 
-  /// @brief Method Run, addr 0x2c50740, size 0xe4, virtual true, abstract: false, final false
-  inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
+/// @brief Method Run, addr 0x4039b7c, size 0xe4, virtual true, abstract: false, final false
+inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame*  frame) ;
 
-  /// @brief Method .ctor, addr 0x2c4ff34, size 0x28, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* nullValue);
+/// @brief Method .ctor, addr 0x4039370, size 0x28, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  nullValue) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __GreaterThanInstruction__GreaterThanSingle();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __GreaterThanInstruction__GreaterThanSingle() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__GreaterThanInstruction__GreaterThanSingle", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __GreaterThanInstruction__GreaterThanSingle(__GreaterThanInstruction__GreaterThanSingle&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__GreaterThanInstruction__GreaterThanSingle", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __GreaterThanInstruction__GreaterThanSingle(__GreaterThanInstruction__GreaterThanSingle const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__GreaterThanInstruction__GreaterThanSingle", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__GreaterThanInstruction__GreaterThanSingle(__GreaterThanInstruction__GreaterThanSingle && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "__GreaterThanInstruction__GreaterThanSingle", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__GreaterThanInstruction__GreaterThanSingle(__GreaterThanInstruction__GreaterThanSingle const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Interpreter::__GreaterThanInstruction__GreaterThanSingle, 0x18>, "Size mismatch!");
 
-} // namespace System::Linq::Expressions::Interpreter
+} // namespace end def System::Linq::Expressions::Interpreter
 NEED_NO_BOX(::System::Linq::Expressions::Interpreter::__GreaterThanInstruction__GreaterThanSingle);
 DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::Interpreter::__GreaterThanInstruction__GreaterThanSingle*, "System.Linq.Expressions.Interpreter", "GreaterThanInstruction/GreaterThanSingle");

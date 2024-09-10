@@ -14,136 +14,134 @@ class EraInfo;
 // Write type traits
 MARK_REF_PTR_T(::System::Globalization::EraInfo);
 // Type: System.Globalization::EraInfo
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Globalization {
 // Is value type: false
 // CS Name: ::System.Globalization::EraInfo*
 class CORDL_TYPE EraInfo : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field abbrevEraName, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_abbrevEraName, put = __cordl_internal_set_abbrevEraName))::StringW abbrevEraName;
+// Declarations
+/// @brief Field abbrevEraName, offset 0x38, size 0x8 
+ __declspec(property(get=__cordl_internal_get_abbrevEraName, put=__cordl_internal_set_abbrevEraName)) ::StringW  abbrevEraName;
 
-  /// @brief Field englishEraName, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_englishEraName, put = __cordl_internal_set_englishEraName))::StringW englishEraName;
+/// @brief Field englishEraName, offset 0x40, size 0x8 
+ __declspec(property(get=__cordl_internal_get_englishEraName, put=__cordl_internal_set_englishEraName)) ::StringW  englishEraName;
 
-  /// @brief Field era, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_era, put = __cordl_internal_set_era)) int32_t era;
+/// @brief Field era, offset 0x10, size 0x4 
+ __declspec(property(get=__cordl_internal_get_era, put=__cordl_internal_set_era)) int32_t  era;
 
-  /// @brief Field eraName, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_eraName, put = __cordl_internal_set_eraName))::StringW eraName;
+/// @brief Field eraName, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get_eraName, put=__cordl_internal_set_eraName)) ::StringW  eraName;
 
-  /// @brief Field maxEraYear, offset 0x28, size 0x4
-  __declspec(property(get = __cordl_internal_get_maxEraYear, put = __cordl_internal_set_maxEraYear)) int32_t maxEraYear;
+/// @brief Field maxEraYear, offset 0x28, size 0x4 
+ __declspec(property(get=__cordl_internal_get_maxEraYear, put=__cordl_internal_set_maxEraYear)) int32_t  maxEraYear;
 
-  /// @brief Field minEraYear, offset 0x24, size 0x4
-  __declspec(property(get = __cordl_internal_get_minEraYear, put = __cordl_internal_set_minEraYear)) int32_t minEraYear;
+/// @brief Field minEraYear, offset 0x24, size 0x4 
+ __declspec(property(get=__cordl_internal_get_minEraYear, put=__cordl_internal_set_minEraYear)) int32_t  minEraYear;
 
-  /// @brief Field ticks, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_ticks, put = __cordl_internal_set_ticks)) int64_t ticks;
+/// @brief Field ticks, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_ticks, put=__cordl_internal_set_ticks)) int64_t  ticks;
 
-  /// @brief Field yearOffset, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get_yearOffset, put = __cordl_internal_set_yearOffset)) int32_t yearOffset;
+/// @brief Field yearOffset, offset 0x20, size 0x4 
+ __declspec(property(get=__cordl_internal_get_yearOffset, put=__cordl_internal_set_yearOffset)) int32_t  yearOffset;
 
-  static inline ::System::Globalization::EraInfo* New_ctor(int32_t era, int32_t startYear, int32_t startMonth, int32_t startDay, int32_t yearOffset, int32_t minEraYear, int32_t maxEraYear);
+static inline ::System::Globalization::EraInfo* New_ctor(int32_t  era, int32_t  startYear, int32_t  startMonth, int32_t  startDay, int32_t  yearOffset, int32_t  minEraYear, int32_t  maxEraYear) ;
 
-  static inline ::System::Globalization::EraInfo* New_ctor(int32_t era, int32_t startYear, int32_t startMonth, int32_t startDay, int32_t yearOffset, int32_t minEraYear, int32_t maxEraYear,
-                                                           ::StringW eraName, ::StringW abbrevEraName, ::StringW englishEraName);
+static inline ::System::Globalization::EraInfo* New_ctor(int32_t  era, int32_t  startYear, int32_t  startMonth, int32_t  startDay, int32_t  yearOffset, int32_t  minEraYear, int32_t  maxEraYear, ::StringW  eraName, ::StringW  abbrevEraName, ::StringW  englishEraName) ;
 
-  constexpr ::StringW const& __cordl_internal_get_abbrevEraName() const;
+constexpr ::StringW const& __cordl_internal_get_abbrevEraName() const;
 
-  constexpr ::StringW& __cordl_internal_get_abbrevEraName();
+constexpr ::StringW& __cordl_internal_get_abbrevEraName() ;
 
-  constexpr ::StringW const& __cordl_internal_get_englishEraName() const;
+constexpr ::StringW const& __cordl_internal_get_englishEraName() const;
 
-  constexpr ::StringW& __cordl_internal_get_englishEraName();
+constexpr ::StringW& __cordl_internal_get_englishEraName() ;
 
-  constexpr int32_t const& __cordl_internal_get_era() const;
+constexpr int32_t const& __cordl_internal_get_era() const;
 
-  constexpr int32_t& __cordl_internal_get_era();
+constexpr int32_t& __cordl_internal_get_era() ;
 
-  constexpr ::StringW const& __cordl_internal_get_eraName() const;
+constexpr ::StringW const& __cordl_internal_get_eraName() const;
 
-  constexpr ::StringW& __cordl_internal_get_eraName();
+constexpr ::StringW& __cordl_internal_get_eraName() ;
 
-  constexpr int32_t const& __cordl_internal_get_maxEraYear() const;
+constexpr int32_t const& __cordl_internal_get_maxEraYear() const;
 
-  constexpr int32_t& __cordl_internal_get_maxEraYear();
+constexpr int32_t& __cordl_internal_get_maxEraYear() ;
 
-  constexpr int32_t const& __cordl_internal_get_minEraYear() const;
+constexpr int32_t const& __cordl_internal_get_minEraYear() const;
 
-  constexpr int32_t& __cordl_internal_get_minEraYear();
+constexpr int32_t& __cordl_internal_get_minEraYear() ;
 
-  constexpr int64_t const& __cordl_internal_get_ticks() const;
+constexpr int64_t const& __cordl_internal_get_ticks() const;
 
-  constexpr int64_t& __cordl_internal_get_ticks();
+constexpr int64_t& __cordl_internal_get_ticks() ;
 
-  constexpr int32_t const& __cordl_internal_get_yearOffset() const;
+constexpr int32_t const& __cordl_internal_get_yearOffset() const;
 
-  constexpr int32_t& __cordl_internal_get_yearOffset();
+constexpr int32_t& __cordl_internal_get_yearOffset() ;
 
-  constexpr void __cordl_internal_set_abbrevEraName(::StringW value);
+constexpr void __cordl_internal_set_abbrevEraName(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_englishEraName(::StringW value);
+constexpr void __cordl_internal_set_englishEraName(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_era(int32_t value);
+constexpr void __cordl_internal_set_era(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_eraName(::StringW value);
+constexpr void __cordl_internal_set_eraName(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_maxEraYear(int32_t value);
+constexpr void __cordl_internal_set_maxEraYear(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_minEraYear(int32_t value);
+constexpr void __cordl_internal_set_minEraYear(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_ticks(int64_t value);
+constexpr void __cordl_internal_set_ticks(int64_t  value) ;
 
-  constexpr void __cordl_internal_set_yearOffset(int32_t value);
+constexpr void __cordl_internal_set_yearOffset(int32_t  value) ;
 
-  /// @brief Method .ctor, addr 0x2915774, size 0x9c, virtual false, abstract: false, final false
-  inline void _ctor(int32_t era, int32_t startYear, int32_t startMonth, int32_t startDay, int32_t yearOffset, int32_t minEraYear, int32_t maxEraYear);
+/// @brief Method .ctor, addr 0x3d0e318, size 0xe4, virtual false, abstract: false, final false
+inline void _ctor(int32_t  era, int32_t  startYear, int32_t  startMonth, int32_t  startDay, int32_t  yearOffset, int32_t  minEraYear, int32_t  maxEraYear) ;
 
-  /// @brief Method .ctor, addr 0x2915810, size 0xb4, virtual false, abstract: false, final false
-  inline void _ctor(int32_t era, int32_t startYear, int32_t startMonth, int32_t startDay, int32_t yearOffset, int32_t minEraYear, int32_t maxEraYear, ::StringW eraName, ::StringW abbrevEraName,
-                    ::StringW englishEraName);
+/// @brief Method .ctor, addr 0x3d0e3fc, size 0xf4, virtual false, abstract: false, final false
+inline void _ctor(int32_t  era, int32_t  startYear, int32_t  startMonth, int32_t  startDay, int32_t  yearOffset, int32_t  minEraYear, int32_t  maxEraYear, ::StringW  eraName, ::StringW  abbrevEraName, ::StringW  englishEraName) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr EraInfo();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr EraInfo() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EraInfo", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  EraInfo(EraInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EraInfo", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  EraInfo(EraInfo const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "EraInfo", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+EraInfo(EraInfo && ) = delete;
 
-  /// @brief Field era, offset: 0x10, size: 0x4, def value: None
-  int32_t ___era;
+// Ctor Parameters [CppParam { name: "", ty: "EraInfo", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+EraInfo(EraInfo const& ) = delete;
 
-  /// @brief Field ticks, offset: 0x18, size: 0x8, def value: None
-  int64_t ___ticks;
+/// @brief Field era, offset: 0x10, size: 0x4, def value: None
+ int32_t  ___era;
 
-  /// @brief Field yearOffset, offset: 0x20, size: 0x4, def value: None
-  int32_t ___yearOffset;
+/// @brief Field ticks, offset: 0x18, size: 0x8, def value: None
+ int64_t  ___ticks;
 
-  /// @brief Field minEraYear, offset: 0x24, size: 0x4, def value: None
-  int32_t ___minEraYear;
+/// @brief Field yearOffset, offset: 0x20, size: 0x4, def value: None
+ int32_t  ___yearOffset;
 
-  /// @brief Field maxEraYear, offset: 0x28, size: 0x4, def value: None
-  int32_t ___maxEraYear;
+/// @brief Field minEraYear, offset: 0x24, size: 0x4, def value: None
+ int32_t  ___minEraYear;
 
-  /// @brief Field eraName, offset: 0x30, size: 0x8, def value: None
-  ::StringW ___eraName;
+/// @brief Field maxEraYear, offset: 0x28, size: 0x4, def value: None
+ int32_t  ___maxEraYear;
 
-  /// @brief Field abbrevEraName, offset: 0x38, size: 0x8, def value: None
-  ::StringW ___abbrevEraName;
+/// @brief Field eraName, offset: 0x30, size: 0x8, def value: None
+ ::StringW  ___eraName;
 
-  /// @brief Field englishEraName, offset: 0x40, size: 0x8, def value: None
-  ::StringW ___englishEraName;
+/// @brief Field abbrevEraName, offset: 0x38, size: 0x8, def value: None
+ ::StringW  ___abbrevEraName;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field englishEraName, offset: 0x40, size: 0x8, def value: None
+ ::StringW  ___englishEraName;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Globalization::EraInfo, 0x48>, "Size mismatch!");
@@ -164,6 +162,6 @@ static_assert(offsetof(::System::Globalization::EraInfo, ___abbrevEraName) == 0x
 
 static_assert(offsetof(::System::Globalization::EraInfo, ___englishEraName) == 0x40, "Offset mismatch!");
 
-} // namespace System::Globalization
+} // namespace end def System::Globalization
 NEED_NO_BOX(::System::Globalization::EraInfo);
 DEFINE_IL2CPP_ARG_TYPE(::System::Globalization::EraInfo*, "System.Globalization", "EraInfo");

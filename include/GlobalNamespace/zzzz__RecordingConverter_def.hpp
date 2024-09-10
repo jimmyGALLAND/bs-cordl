@@ -19,54 +19,54 @@ class RecordingConverter;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::RecordingConverter);
 // Type: ::RecordingConverter
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::RecordingConverter*
 class CORDL_TYPE RecordingConverter : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field _logger, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__logger, put = __cordl_internal_set__logger))::GlobalNamespace::IBeatSaberLogger* _logger;
+// Declarations
+/// @brief Field _logger, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get__logger, put=__cordl_internal_set__logger)) ::GlobalNamespace::IBeatSaberLogger*  _logger;
 
-  static inline ::GlobalNamespace::RecordingConverter* New_ctor(::GlobalNamespace::IBeatSaberLogger* logger);
+static inline ::GlobalNamespace::RecordingConverter* New_ctor(::GlobalNamespace::IBeatSaberLogger*  logger) ;
 
-  /// @brief Method SaveToOldFormat, addr 0x26b4af4, size 0xec, virtual false, abstract: false, final false
-  inline void SaveToOldFormat(::StringW path, ::GlobalNamespace::PosesRecordingData* data);
+/// @brief Method SaveToOldFormat, addr 0x3a924d0, size 0xf0, virtual false, abstract: false, final false
+inline void SaveToOldFormat(::StringW  path, ::GlobalNamespace::PosesRecordingData*  data) ;
 
-  constexpr ::GlobalNamespace::IBeatSaberLogger*& __cordl_internal_get__logger();
+constexpr ::GlobalNamespace::IBeatSaberLogger*& __cordl_internal_get__logger() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IBeatSaberLogger*> const& __cordl_internal_get__logger() const;
+constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IBeatSaberLogger*> const& __cordl_internal_get__logger() const;
 
-  constexpr void __cordl_internal_set__logger(::GlobalNamespace::IBeatSaberLogger* value);
+constexpr void __cordl_internal_set__logger(::GlobalNamespace::IBeatSaberLogger*  value) ;
 
-  /// @brief Method .ctor, addr 0x26b3900, size 0x28, virtual false, abstract: false, final false
-  inline void _ctor(::GlobalNamespace::IBeatSaberLogger* logger);
+/// @brief Method .ctor, addr 0x3a9132c, size 0x28, virtual false, abstract: false, final false
+inline void _ctor(::GlobalNamespace::IBeatSaberLogger*  logger) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr RecordingConverter();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr RecordingConverter() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RecordingConverter", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  RecordingConverter(RecordingConverter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RecordingConverter", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  RecordingConverter(RecordingConverter const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "RecordingConverter", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+RecordingConverter(RecordingConverter && ) = delete;
 
-  /// @brief Field _logger, offset: 0x10, size: 0x8, def value: None
-  ::GlobalNamespace::IBeatSaberLogger* ____logger;
+// Ctor Parameters [CppParam { name: "", ty: "RecordingConverter", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+RecordingConverter(RecordingConverter const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _logger, offset: 0x10, size: 0x8, def value: None
+ ::GlobalNamespace::IBeatSaberLogger*  ____logger;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::RecordingConverter, 0x18>, "Size mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::RecordingConverter, ____logger) == 0x10, "Offset mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::RecordingConverter);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::RecordingConverter*, "", "RecordingConverter");

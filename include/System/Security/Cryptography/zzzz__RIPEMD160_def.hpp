@@ -12,40 +12,40 @@ class RIPEMD160;
 // Write type traits
 MARK_REF_PTR_T(::System::Security::Cryptography::RIPEMD160);
 // Type: System.Security.Cryptography::RIPEMD160
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Cryptography {
 // Is value type: false
 // CS Name: ::System.Security.Cryptography::RIPEMD160*
 class CORDL_TYPE RIPEMD160 : public ::System::Security::Cryptography::HashAlgorithm {
 public:
-  // Declarations
-  /// @brief Method Create, addr 0x28116f4, size 0x58, virtual false, abstract: false, final false
-  static inline ::System::Security::Cryptography::RIPEMD160* Create();
+// Declarations
+/// @brief Method Create, addr 0x3c15794, size 0x50, virtual false, abstract: false, final false
+static inline ::System::Security::Cryptography::RIPEMD160* Create() ;
 
-  static inline ::System::Security::Cryptography::RIPEMD160* New_ctor();
+static inline ::System::Security::Cryptography::RIPEMD160* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x28116d4, size 0x20, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x3c15774, size 0x20, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr RIPEMD160();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr RIPEMD160() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RIPEMD160", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  RIPEMD160(RIPEMD160&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RIPEMD160", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  RIPEMD160(RIPEMD160 const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "RIPEMD160", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+RIPEMD160(RIPEMD160 && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "RIPEMD160", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+RIPEMD160(RIPEMD160 const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Security::Cryptography::RIPEMD160, 0x28>, "Size mismatch!");
 
-} // namespace System::Security::Cryptography
+} // namespace end def System::Security::Cryptography
 NEED_NO_BOX(::System::Security::Cryptography::RIPEMD160);
 DEFINE_IL2CPP_ARG_TYPE(::System::Security::Cryptography::RIPEMD160*, "System.Security.Cryptography", "RIPEMD160");

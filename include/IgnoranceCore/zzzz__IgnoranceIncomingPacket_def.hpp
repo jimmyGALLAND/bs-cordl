@@ -17,34 +17,33 @@ struct IgnoranceIncomingPacket;
 // Write type traits
 MARK_VAL_T(::IgnoranceCore::IgnoranceIncomingPacket);
 // Type: IgnoranceCore::IgnoranceIncomingPacket
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace IgnoranceCore {
 // Is value type: true
 // CS Name: ::IgnoranceCore::IgnoranceIncomingPacket
 struct CORDL_TYPE IgnoranceIncomingPacket {
 public:
-  // Declarations
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr IgnoranceIncomingPacket();
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr IgnoranceIncomingPacket() ;
 
-  // Ctor Parameters [CppParam { name: "Channel", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "NativePeerId", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "Payload", ty: "::ENet::Packet", modifiers: "", def_value: None }]
-  constexpr IgnoranceIncomingPacket(uint8_t Channel, uint32_t NativePeerId, ::ENet::Packet Payload) noexcept;
+// Ctor Parameters [CppParam { name: "Channel", ty: "uint8_t", modifiers: "", def_value: None }, CppParam { name: "NativePeerId", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "Payload", ty: "::ENet::Packet", modifiers: "", def_value: None }]
+constexpr IgnoranceIncomingPacket(uint8_t  Channel, uint32_t  NativePeerId, ::ENet::Packet  Payload) noexcept;
 
-  /// @brief Field Channel, offset: 0x0, size: 0x1, def value: None
-  uint8_t Channel;
+/// @brief Field Channel, offset: 0x0, size: 0x1, def value: None
+ uint8_t  Channel;
 
-  /// @brief Field NativePeerId, offset: 0x4, size: 0x4, def value: None
-  uint32_t NativePeerId;
+/// @brief Field NativePeerId, offset: 0x4, size: 0x4, def value: None
+ uint32_t  NativePeerId;
 
-  /// @brief Field Payload, offset: 0x8, size: 0x8, def value: None
-  ::ENet::Packet Payload;
+/// @brief Field Payload, offset: 0x8, size: 0x8, def value: None
+ ::ENet::Packet  Payload;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x10};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::IgnoranceCore::IgnoranceIncomingPacket, 0x10>, "Size mismatch!");
@@ -55,5 +54,5 @@ static_assert(offsetof(::IgnoranceCore::IgnoranceIncomingPacket, NativePeerId) =
 
 static_assert(offsetof(::IgnoranceCore::IgnoranceIncomingPacket, Payload) == 0x8, "Offset mismatch!");
 
-} // namespace IgnoranceCore
+} // namespace end def IgnoranceCore
 DEFINE_IL2CPP_ARG_TYPE(::IgnoranceCore::IgnoranceIncomingPacket, "IgnoranceCore", "IgnoranceIncomingPacket");

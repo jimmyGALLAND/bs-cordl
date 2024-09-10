@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "TMPro/AtlasPopulationMode.hpp"
 #include "TMPro/CaretInfo.hpp"
@@ -117,5 +117,6 @@ module;
 #include "TMPro/VerticalAlignmentOptions.hpp"
 #include "TMPro/WordWrapState.hpp"
 #ifdef __cpp_modules
-export module TMPro;
-#endif
+                    export module TMPro;
+                    #endif
+                

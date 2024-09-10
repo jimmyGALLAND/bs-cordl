@@ -19,45 +19,45 @@ class IdentityNotMappedException;
 // Write type traits
 MARK_REF_PTR_T(::System::Security::Principal::IdentityNotMappedException);
 // Type: System.Security.Principal::IdentityNotMappedException
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::Principal {
 // Is value type: false
 // CS Name: ::System.Security.Principal::IdentityNotMappedException*
 class CORDL_TYPE IdentityNotMappedException : public ::System::SystemException {
 public:
-  // Declarations
-  /// @brief Method GetObjectData, addr 0x2824bc4, size 0x4, virtual true, abstract: false, final false
-  inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
+// Declarations
+/// @brief Method GetObjectData, addr 0x3c28838, size 0x4, virtual true, abstract: false, final false
+inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo*  serializationInfo, ::System::Runtime::Serialization::StreamingContext  streamingContext) ;
 
-  static inline ::System::Security::Principal::IdentityNotMappedException* New_ctor();
+static inline ::System::Security::Principal::IdentityNotMappedException* New_ctor() ;
 
-  static inline ::System::Security::Principal::IdentityNotMappedException* New_ctor(::StringW message);
+static inline ::System::Security::Principal::IdentityNotMappedException* New_ctor(::StringW  message) ;
 
-  /// @brief Method .ctor, addr 0x2824b64, size 0x58, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x3c287d8, size 0x58, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method .ctor, addr 0x2824bbc, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::StringW message);
+/// @brief Method .ctor, addr 0x3c28830, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(::StringW  message) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr IdentityNotMappedException();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr IdentityNotMappedException() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IdentityNotMappedException", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IdentityNotMappedException(IdentityNotMappedException&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IdentityNotMappedException", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  IdentityNotMappedException(IdentityNotMappedException const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "IdentityNotMappedException", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+IdentityNotMappedException(IdentityNotMappedException && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "IdentityNotMappedException", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+IdentityNotMappedException(IdentityNotMappedException const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Security::Principal::IdentityNotMappedException, 0x90>, "Size mismatch!");
 
-} // namespace System::Security::Principal
+} // namespace end def System::Security::Principal
 NEED_NO_BOX(::System::Security::Principal::IdentityNotMappedException);
 DEFINE_IL2CPP_ARG_TYPE(::System::Security::Principal::IdentityNotMappedException*, "System.Security.Principal", "IdentityNotMappedException");

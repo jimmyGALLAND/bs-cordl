@@ -11,7 +11,8 @@ namespace System {
 struct IntPtr;
 }
 namespace Unity::Collections {
-template <typename T> struct NativeArray_1;
+template<typename T>
+struct NativeArray_1;
 }
 // Forward declare root types
 namespace UnityEngine::Networking {
@@ -20,63 +21,63 @@ class DownloadHandlerBuffer;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::Networking::DownloadHandlerBuffer);
 // Type: UnityEngine.Networking::DownloadHandlerBuffer
-// SizeInfo { instance_size: 40, native_size: 24, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: 24, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Networking {
 // Is value type: false
 // CS Name: ::UnityEngine.Networking::DownloadHandlerBuffer*
 class CORDL_TYPE DownloadHandlerBuffer : public ::UnityEngine::Networking::DownloadHandler {
 public:
-  // Declarations
-  /// @brief Field m_NativeData, offset 0x18, size 0x10
-  __declspec(property(get = __cordl_internal_get_m_NativeData, put = __cordl_internal_set_m_NativeData))::Unity::Collections::NativeArray_1<uint8_t> m_NativeData;
+// Declarations
+/// @brief Field m_NativeData, offset 0x18, size 0x10 
+ __declspec(property(get=__cordl_internal_get_m_NativeData, put=__cordl_internal_set_m_NativeData)) ::Unity::Collections::NativeArray_1<uint8_t>  m_NativeData;
 
-  /// @brief Method Create, addr 0x3645cf4, size 0x3c, virtual false, abstract: false, final false
-  static inline ::System::IntPtr Create(::UnityEngine::Networking::DownloadHandlerBuffer* obj);
+/// @brief Method Create, addr 0x4a4f5c0, size 0x3c, virtual false, abstract: false, final false
+static inline ::System::IntPtr Create(::UnityEngine::Networking::DownloadHandlerBuffer*  obj) ;
 
-  /// @brief Method Dispose, addr 0x3645d7c, size 0x1c, virtual true, abstract: false, final false
-  inline void Dispose();
+/// @brief Method Dispose, addr 0x4a4f694, size 0x4c, virtual true, abstract: false, final false
+inline void Dispose() ;
 
-  /// @brief Method GetNativeData, addr 0x3645d74, size 0x8, virtual true, abstract: false, final false
-  inline ::Unity::Collections::NativeArray_1<uint8_t> GetNativeData();
+/// @brief Method GetNativeData, addr 0x4a4f68c, size 0x8, virtual true, abstract: false, final false
+inline ::Unity::Collections::NativeArray_1<uint8_t> GetNativeData() ;
 
-  /// @brief Method InternalCreateBuffer, addr 0x3645d30, size 0x44, virtual false, abstract: false, final false
-  inline void InternalCreateBuffer();
+/// @brief Method InternalCreateBuffer, addr 0x4a4f5fc, size 0x44, virtual false, abstract: false, final false
+inline void InternalCreateBuffer() ;
 
-  static inline ::UnityEngine::Networking::DownloadHandlerBuffer* New_ctor();
+static inline ::UnityEngine::Networking::DownloadHandlerBuffer* New_ctor() ;
 
-  constexpr ::Unity::Collections::NativeArray_1<uint8_t> const& __cordl_internal_get_m_NativeData() const;
+constexpr ::Unity::Collections::NativeArray_1<uint8_t> const& __cordl_internal_get_m_NativeData() const;
 
-  constexpr ::Unity::Collections::NativeArray_1<uint8_t>& __cordl_internal_get_m_NativeData();
+constexpr ::Unity::Collections::NativeArray_1<uint8_t>& __cordl_internal_get_m_NativeData() ;
 
-  constexpr void __cordl_internal_set_m_NativeData(::Unity::Collections::NativeArray_1<uint8_t> value);
+constexpr void __cordl_internal_set_m_NativeData(::Unity::Collections::NativeArray_1<uint8_t>  value) ;
 
-  /// @brief Method .ctor, addr 0x3645334, size 0x4c, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x4a4f640, size 0x4c, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DownloadHandlerBuffer();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr DownloadHandlerBuffer() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DownloadHandlerBuffer", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  DownloadHandlerBuffer(DownloadHandlerBuffer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DownloadHandlerBuffer", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  DownloadHandlerBuffer(DownloadHandlerBuffer const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "DownloadHandlerBuffer", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+DownloadHandlerBuffer(DownloadHandlerBuffer && ) = delete;
 
-  /// @brief Field m_NativeData, offset: 0x18, size: 0x10, def value: None
-  ::Unity::Collections::NativeArray_1<uint8_t> ___m_NativeData;
+// Ctor Parameters [CppParam { name: "", ty: "DownloadHandlerBuffer", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+DownloadHandlerBuffer(DownloadHandlerBuffer const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field m_NativeData, offset: 0x18, size: 0x10, def value: None
+ ::Unity::Collections::NativeArray_1<uint8_t>  ___m_NativeData;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Networking::DownloadHandlerBuffer, 0x28>, "Size mismatch!");
 
 static_assert(offsetof(::UnityEngine::Networking::DownloadHandlerBuffer, ___m_NativeData) == 0x18, "Offset mismatch!");
 
-} // namespace UnityEngine::Networking
+} // namespace end def UnityEngine::Networking
 NEED_NO_BOX(::UnityEngine::Networking::DownloadHandlerBuffer);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Networking::DownloadHandlerBuffer*, "UnityEngine.Networking", "DownloadHandlerBuffer");

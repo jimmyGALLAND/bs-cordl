@@ -8,10 +8,12 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(LegacyResourcesLocator)
 namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+template<typename T>
+class IEnumerable_1;
 }
 namespace System::Collections::Generic {
-template <typename T> class IList_1;
+template<typename T>
+class IList_1;
 }
 namespace System {
 class Object;
@@ -32,56 +34,56 @@ class LegacyResourcesLocator;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::AddressableAssets::ResourceLocators::LegacyResourcesLocator);
 // Type: UnityEngine.AddressableAssets.ResourceLocators::LegacyResourcesLocator
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::AddressableAssets::ResourceLocators {
 // Is value type: false
 // CS Name: ::UnityEngine.AddressableAssets.ResourceLocators::LegacyResourcesLocator*
 class CORDL_TYPE LegacyResourcesLocator : public ::System::Object {
 public:
-  // Declarations
-  __declspec(property(get = get_Keys))::System::Collections::Generic::IEnumerable_1<::System::Object*>* Keys;
+// Declarations
+ __declspec(property(get=get_Keys)) ::System::Collections::Generic::IEnumerable_1<::System::Object*>*  Keys;
 
-  __declspec(property(get = get_LocatorId))::StringW LocatorId;
+ __declspec(property(get=get_LocatorId)) ::StringW  LocatorId;
 
-  /// @brief Convert operator to "::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator"
-  constexpr operator ::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*() noexcept;
+/// @brief Convert operator to "::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator"
+constexpr operator  ::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator*() noexcept;
 
-  /// @brief Method Locate, addr 0x3090ee4, size 0x274, virtual true, abstract: false, final true
-  inline bool Locate(::System::Object* key, ::System::Type* type, ByRef<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*> locations);
+/// @brief Method Locate, addr 0x446bd3c, size 0x274, virtual true, abstract: false, final true
+inline bool Locate(::System::Object*  key, ::System::Type*  type, ByRef<::System::Collections::Generic::IList_1<::UnityEngine::ResourceManagement::ResourceLocations::IResourceLocation*>*>  locations) ;
 
-  static inline ::UnityEngine::AddressableAssets::ResourceLocators::LegacyResourcesLocator* New_ctor();
+static inline ::UnityEngine::AddressableAssets::ResourceLocators::LegacyResourcesLocator* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x30911a0, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x446bff8, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_Keys, addr 0x3091158, size 0x8, virtual true, abstract: false, final true
-  inline ::System::Collections::Generic::IEnumerable_1<::System::Object*>* get_Keys();
+/// @brief Method get_Keys, addr 0x446bfb0, size 0x8, virtual true, abstract: false, final true
+inline ::System::Collections::Generic::IEnumerable_1<::System::Object*>* get_Keys() ;
 
-  /// @brief Method get_LocatorId, addr 0x3091160, size 0x40, virtual true, abstract: false, final true
-  inline ::StringW get_LocatorId();
+/// @brief Method get_LocatorId, addr 0x446bfb8, size 0x40, virtual true, abstract: false, final true
+inline ::StringW get_LocatorId() ;
 
-  /// @brief Convert to "::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator"
-  constexpr ::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator* i___UnityEngine__AddressableAssets__ResourceLocators__IResourceLocator() noexcept;
+/// @brief Convert to "::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator"
+constexpr ::UnityEngine::AddressableAssets::ResourceLocators::IResourceLocator* i___UnityEngine__AddressableAssets__ResourceLocators__IResourceLocator() noexcept;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LegacyResourcesLocator();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr LegacyResourcesLocator() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LegacyResourcesLocator", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  LegacyResourcesLocator(LegacyResourcesLocator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LegacyResourcesLocator", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  LegacyResourcesLocator(LegacyResourcesLocator const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "LegacyResourcesLocator", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+LegacyResourcesLocator(LegacyResourcesLocator && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "LegacyResourcesLocator", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+LegacyResourcesLocator(LegacyResourcesLocator const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::AddressableAssets::ResourceLocators::LegacyResourcesLocator, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine::AddressableAssets::ResourceLocators
+} // namespace end def UnityEngine::AddressableAssets::ResourceLocators
 NEED_NO_BOX(::UnityEngine::AddressableAssets::ResourceLocators::LegacyResourcesLocator);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AddressableAssets::ResourceLocators::LegacyResourcesLocator*, "UnityEngine.AddressableAssets.ResourceLocators", "LegacyResourcesLocator");

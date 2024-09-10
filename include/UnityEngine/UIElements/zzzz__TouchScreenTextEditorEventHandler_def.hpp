@@ -9,19 +9,19 @@ namespace UnityEngine::UIElements {
 class EventBase;
 }
 namespace UnityEngine::UIElements {
-class ITextInputField;
+class FocusOutEvent;
 }
 namespace UnityEngine::UIElements {
 class IVisualElementScheduledItem;
 }
 namespace UnityEngine::UIElements {
-class TextEditorEngine;
+class PointerUpEvent;
 }
 namespace UnityEngine::UIElements {
-class VisualElement;
+class TextElement;
 }
 namespace UnityEngine {
-class TouchScreenKeyboard;
+class TextEditingUtilities;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
@@ -30,82 +30,109 @@ class TouchScreenTextEditorEventHandler;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::TouchScreenTextEditorEventHandler);
 // Type: UnityEngine.UIElements::TouchScreenTextEditorEventHandler
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 42, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: ::UnityEngine.UIElements::TouchScreenTextEditorEventHandler*
 class CORDL_TYPE TouchScreenTextEditorEventHandler : public ::UnityEngine::UIElements::TextEditorEventHandler {
 public:
-  // Declarations
-  /// @brief Field m_LastPointerDownTarget, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_LastPointerDownTarget, put = __cordl_internal_set_m_LastPointerDownTarget))::UnityEngine::UIElements::VisualElement* m_LastPointerDownTarget;
+// Declarations
+/// @brief Field m_IsClicking, offset 0x29, size 0x1 
+ __declspec(property(get=__cordl_internal_get_m_IsClicking, put=__cordl_internal_set_m_IsClicking)) bool  m_IsClicking;
 
-  /// @brief Field m_TouchKeyboardPoller, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_TouchKeyboardPoller, put = __cordl_internal_set_m_TouchKeyboardPoller))::UnityEngine::UIElements::IVisualElementScheduledItem* m_TouchKeyboardPoller;
+/// @brief Field m_TouchKeyboardAllowsInPlaceEditing, offset 0x28, size 0x1 
+ __declspec(property(get=__cordl_internal_get_m_TouchKeyboardAllowsInPlaceEditing, put=__cordl_internal_set_m_TouchKeyboardAllowsInPlaceEditing)) bool  m_TouchKeyboardAllowsInPlaceEditing;
 
-  /// @brief Field s_KeyboardOnScreen, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_KeyboardOnScreen, put = setStaticF_s_KeyboardOnScreen))::UnityEngine::TouchScreenKeyboard* s_KeyboardOnScreen;
+/// @brief Field m_TouchKeyboardPoller, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_TouchKeyboardPoller, put=__cordl_internal_set_m_TouchKeyboardPoller)) ::UnityEngine::UIElements::IVisualElementScheduledItem*  m_TouchKeyboardPoller;
 
-  /// @brief Method DoPollTouchScreenKeyboard, addr 0x35d1f9c, size 0x728, virtual false, abstract: false, final false
-  inline void DoPollTouchScreenKeyboard();
+/// @brief Method CloseTouchScreenKeyboard, addr 0x495a6e4, size 0xe4, virtual false, abstract: false, final false
+inline void CloseTouchScreenKeyboard() ;
 
-  /// @brief Method ExecuteDefaultActionAtTarget, addr 0x35d26c4, size 0x550, virtual true, abstract: false, final false
-  inline void ExecuteDefaultActionAtTarget(::UnityEngine::UIElements::EventBase* evt);
+/// @brief Method DoPollTouchScreenKeyboard, addr 0x4959ea4, size 0x840, virtual false, abstract: false, final false
+inline void DoPollTouchScreenKeyboard() ;
 
-  static inline ::UnityEngine::UIElements::TouchScreenTextEditorEventHandler* New_ctor(::UnityEngine::UIElements::TextEditorEngine* editorEngine,
-                                                                                       ::UnityEngine::UIElements::ITextInputField* textInputField);
+/// @brief Method ExecuteDefaultActionAtTarget, addr 0x495af40, size 0x1dc, virtual true, abstract: false, final false
+inline void ExecuteDefaultActionAtTarget(::UnityEngine::UIElements::EventBase*  evt) ;
 
-  /// @brief Method PollTouchScreenKeyboard, addr 0x35d1d40, size 0x25c, virtual false, abstract: false, final false
-  inline void PollTouchScreenKeyboard();
+static inline ::UnityEngine::UIElements::TouchScreenTextEditorEventHandler* New_ctor(::UnityEngine::UIElements::TextElement*  textElement, ::UnityEngine::TextEditingUtilities*  editingUtilities) ;
 
-  constexpr ::UnityEngine::UIElements::VisualElement*& __cordl_internal_get_m_LastPointerDownTarget();
+/// @brief Method OnFocusInEvent, addr 0x495b2fc, size 0x180, virtual false, abstract: false, final false
+inline void OnFocusInEvent() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::VisualElement*> const& __cordl_internal_get_m_LastPointerDownTarget() const;
+/// @brief Method OnFocusOutEvent, addr 0x495b47c, size 0x480, virtual false, abstract: false, final false
+inline void OnFocusOutEvent(::UnityEngine::UIElements::FocusOutEvent*  evt) ;
 
-  constexpr ::UnityEngine::UIElements::IVisualElementScheduledItem*& __cordl_internal_get_m_TouchKeyboardPoller();
+/// @brief Method OnPointerDownEvent, addr 0x495b11c, size 0x1c0, virtual false, abstract: false, final false
+inline void OnPointerDownEvent() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::IVisualElementScheduledItem*> const& __cordl_internal_get_m_TouchKeyboardPoller() const;
+/// @brief Method OnPointerUpEvent, addr 0x495b2dc, size 0x20, virtual false, abstract: false, final false
+inline void OnPointerUpEvent(::UnityEngine::UIElements::PointerUpEvent*  evt) ;
 
-  constexpr void __cordl_internal_set_m_LastPointerDownTarget(::UnityEngine::UIElements::VisualElement* value);
+/// @brief Method OpenTouchScreenKeyboard, addr 0x495aa38, size 0x508, virtual false, abstract: false, final false
+inline void OpenTouchScreenKeyboard() ;
 
-  constexpr void __cordl_internal_set_m_TouchKeyboardPoller(::UnityEngine::UIElements::IVisualElementScheduledItem* value);
+/// @brief Method PollTouchScreenKeyboard, addr 0x4959c6c, size 0x238, virtual false, abstract: false, final false
+inline void PollTouchScreenKeyboard() ;
 
-  /// @brief Method .ctor, addr 0x35d1d38, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::UIElements::TextEditorEngine* editorEngine, ::UnityEngine::UIElements::ITextInputField* textInputField);
+/// @brief Method UpdateStringPositionFromKeyboard, addr 0x495a7c8, size 0x270, virtual false, abstract: false, final false
+inline void UpdateStringPositionFromKeyboard() ;
 
-  static inline ::UnityEngine::TouchScreenKeyboard* getStaticF_s_KeyboardOnScreen();
+constexpr bool const& __cordl_internal_get_m_IsClicking() const;
 
-  static inline void setStaticF_s_KeyboardOnScreen(::UnityEngine::TouchScreenKeyboard* value);
+constexpr bool& __cordl_internal_get_m_IsClicking() ;
+
+constexpr bool const& __cordl_internal_get_m_TouchKeyboardAllowsInPlaceEditing() const;
+
+constexpr bool& __cordl_internal_get_m_TouchKeyboardAllowsInPlaceEditing() ;
+
+constexpr ::UnityEngine::UIElements::IVisualElementScheduledItem*& __cordl_internal_get_m_TouchKeyboardPoller() ;
+
+constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::IVisualElementScheduledItem*> const& __cordl_internal_get_m_TouchKeyboardPoller() const;
+
+constexpr void __cordl_internal_set_m_IsClicking(bool  value) ;
+
+constexpr void __cordl_internal_set_m_TouchKeyboardAllowsInPlaceEditing(bool  value) ;
+
+constexpr void __cordl_internal_set_m_TouchKeyboardPoller(::UnityEngine::UIElements::IVisualElementScheduledItem*  value) ;
+
+/// @brief Method .ctor, addr 0x4959c38, size 0x34, virtual false, abstract: false, final false
+inline void _ctor(::UnityEngine::UIElements::TextElement*  textElement, ::UnityEngine::TextEditingUtilities*  editingUtilities) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TouchScreenTextEditorEventHandler();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr TouchScreenTextEditorEventHandler() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TouchScreenTextEditorEventHandler", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  TouchScreenTextEditorEventHandler(TouchScreenTextEditorEventHandler&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TouchScreenTextEditorEventHandler", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  TouchScreenTextEditorEventHandler(TouchScreenTextEditorEventHandler const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "TouchScreenTextEditorEventHandler", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+TouchScreenTextEditorEventHandler(TouchScreenTextEditorEventHandler && ) = delete;
 
-  /// @brief Field m_TouchKeyboardPoller, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::UIElements::IVisualElementScheduledItem* ___m_TouchKeyboardPoller;
+// Ctor Parameters [CppParam { name: "", ty: "TouchScreenTextEditorEventHandler", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+TouchScreenTextEditorEventHandler(TouchScreenTextEditorEventHandler const& ) = delete;
 
-  /// @brief Field m_LastPointerDownTarget, offset: 0x28, size: 0x8, def value: None
-  ::UnityEngine::UIElements::VisualElement* ___m_LastPointerDownTarget;
+/// @brief Field m_TouchKeyboardPoller, offset: 0x20, size: 0x8, def value: None
+ ::UnityEngine::UIElements::IVisualElementScheduledItem*  ___m_TouchKeyboardPoller;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field m_TouchKeyboardAllowsInPlaceEditing, offset: 0x28, size: 0x1, def value: None
+ bool  ___m_TouchKeyboardAllowsInPlaceEditing;
+
+/// @brief Field m_IsClicking, offset: 0x29, size: 0x1, def value: None
+ bool  ___m_IsClicking;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::TouchScreenTextEditorEventHandler, 0x30>, "Size mismatch!");
 
 static_assert(offsetof(::UnityEngine::UIElements::TouchScreenTextEditorEventHandler, ___m_TouchKeyboardPoller) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::TouchScreenTextEditorEventHandler, ___m_LastPointerDownTarget) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::TouchScreenTextEditorEventHandler, ___m_TouchKeyboardAllowsInPlaceEditing) == 0x28, "Offset mismatch!");
 
-} // namespace UnityEngine::UIElements
+static_assert(offsetof(::UnityEngine::UIElements::TouchScreenTextEditorEventHandler, ___m_IsClicking) == 0x29, "Offset mismatch!");
+
+} // namespace end def UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::TouchScreenTextEditorEventHandler);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::TouchScreenTextEditorEventHandler*, "UnityEngine.UIElements", "TouchScreenTextEditorEventHandler");

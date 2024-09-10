@@ -7,7 +7,8 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-array.hpp"
 CORDL_MODULE_EXPORT(AnimatorMoveHandlerManager)
 namespace System::Collections::Generic {
-template <typename T> class List_1;
+template<typename T>
+class List_1;
 }
 namespace System {
 class Object;
@@ -25,63 +26,63 @@ class AnimatorMoveHandlerManager;
 // Write type traits
 MARK_REF_PTR_T(::Zenject::AnimatorMoveHandlerManager);
 // Type: Zenject::AnimatorMoveHandlerManager
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
 // CS Name: ::Zenject::AnimatorMoveHandlerManager*
 class CORDL_TYPE AnimatorMoveHandlerManager : public ::UnityEngine::MonoBehaviour {
 public:
-  // Declarations
-  /// @brief Field _handlers, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__handlers, put = __cordl_internal_set__handlers))::System::Collections::Generic::List_1<::Zenject::IAnimatorMoveHandler*>* _handlers;
+// Declarations
+/// @brief Field _handlers, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get__handlers, put=__cordl_internal_set__handlers)) ::System::Collections::Generic::List_1<::Zenject::IAnimatorMoveHandler*>*  _handlers;
 
-  /// @brief Method Construct, addr 0x36a5d14, size 0x8, virtual false, abstract: false, final false
-  inline void Construct(::System::Collections::Generic::List_1<::Zenject::IAnimatorMoveHandler*>* handlers);
+/// @brief Method Construct, addr 0x4aae3c8, size 0x8, virtual false, abstract: false, final false
+inline void Construct(::System::Collections::Generic::List_1<::Zenject::IAnimatorMoveHandler*>*  handlers) ;
 
-  static inline ::Zenject::AnimatorMoveHandlerManager* New_ctor();
+static inline ::Zenject::AnimatorMoveHandlerManager* New_ctor() ;
 
-  /// @brief Method OnAnimatorMove, addr 0x36a5d1c, size 0x1b0, virtual false, abstract: false, final false
-  inline void OnAnimatorMove();
+/// @brief Method OnAnimatorMove, addr 0x4aae3d0, size 0x1b0, virtual false, abstract: false, final false
+inline void OnAnimatorMove() ;
 
-  constexpr ::System::Collections::Generic::List_1<::Zenject::IAnimatorMoveHandler*>*& __cordl_internal_get__handlers();
+constexpr ::System::Collections::Generic::List_1<::Zenject::IAnimatorMoveHandler*>*& __cordl_internal_get__handlers() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Zenject::IAnimatorMoveHandler*>*> const& __cordl_internal_get__handlers() const;
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::Zenject::IAnimatorMoveHandler*>*> const& __cordl_internal_get__handlers() const;
 
-  constexpr void __cordl_internal_set__handlers(::System::Collections::Generic::List_1<::Zenject::IAnimatorMoveHandler*>* value);
+constexpr void __cordl_internal_set__handlers(::System::Collections::Generic::List_1<::Zenject::IAnimatorMoveHandler*>*  value) ;
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x36a5fb0, size 0x2f8, virtual false, abstract: false, final false
-  static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
+/// @brief Method __zenCreateInjectTypeInfo, addr 0x4aae664, size 0x2fc, virtual false, abstract: false, final false
+static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo() ;
 
-  /// @brief Method __zenInjectMethod0, addr 0x36a5ed4, size 0xdc, virtual false, abstract: false, final false
-  static inline void __zenInjectMethod0(::System::Object* P_0, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_1);
+/// @brief Method __zenInjectMethod0, addr 0x4aae588, size 0xdc, virtual false, abstract: false, final false
+static inline void __zenInjectMethod0(::System::Object*  P_0, ::ArrayW<::System::Object*,::Array<::System::Object*>*>  P_1) ;
 
-  /// @brief Method .ctor, addr 0x36a5ecc, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x4aae580, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AnimatorMoveHandlerManager();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr AnimatorMoveHandlerManager() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AnimatorMoveHandlerManager", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  AnimatorMoveHandlerManager(AnimatorMoveHandlerManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AnimatorMoveHandlerManager", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  AnimatorMoveHandlerManager(AnimatorMoveHandlerManager const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "AnimatorMoveHandlerManager", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+AnimatorMoveHandlerManager(AnimatorMoveHandlerManager && ) = delete;
 
-  /// @brief Field _handlers, offset: 0x18, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::Zenject::IAnimatorMoveHandler*>* ____handlers;
+// Ctor Parameters [CppParam { name: "", ty: "AnimatorMoveHandlerManager", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+AnimatorMoveHandlerManager(AnimatorMoveHandlerManager const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _handlers, offset: 0x20, size: 0x8, def value: None
+ ::System::Collections::Generic::List_1<::Zenject::IAnimatorMoveHandler*>*  ____handlers;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Zenject::AnimatorMoveHandlerManager, 0x20>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::Zenject::AnimatorMoveHandlerManager, 0x28>, "Size mismatch!");
 
-static_assert(offsetof(::Zenject::AnimatorMoveHandlerManager, ____handlers) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::Zenject::AnimatorMoveHandlerManager, ____handlers) == 0x20, "Offset mismatch!");
 
-} // namespace Zenject
+} // namespace end def Zenject
 NEED_NO_BOX(::Zenject::AnimatorMoveHandlerManager);
 DEFINE_IL2CPP_ARG_TYPE(::Zenject::AnimatorMoveHandlerManager*, "Zenject", "AnimatorMoveHandlerManager");

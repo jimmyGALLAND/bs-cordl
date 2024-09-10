@@ -13,10 +13,12 @@ namespace Oculus::Platform {
 struct InitConfigOptions;
 }
 namespace Oculus::Platform {
-template <typename T> class Request_1;
+template<typename T>
+class Request_1;
 }
 namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+template<typename TKey,typename TValue>
+class Dictionary_2;
 }
 // Forward declare root types
 namespace Oculus::Platform {
@@ -25,80 +27,79 @@ class Core;
 // Write type traits
 MARK_REF_PTR_T(::Oculus::Platform::Core);
 // Type: Oculus.Platform::Core
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
 // CS Name: ::Oculus.Platform::Core*
 class CORDL_TYPE Core : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field IsPlatformInitialized, offset 0xffffffff, size 0x1
-  static __declspec(property(get = getStaticF_IsPlatformInitialized, put = setStaticF_IsPlatformInitialized)) bool IsPlatformInitialized;
+// Declarations
+/// @brief Field IsPlatformInitialized, offset 0xffffffff, size 0x1 
+static __declspec(property(get=getStaticF_IsPlatformInitialized, put=setStaticF_IsPlatformInitialized)) bool  IsPlatformInitialized;
 
-  /// @brief Field LogMessages, offset 0xffffffff, size 0x1
-  static __declspec(property(get = getStaticF_LogMessages, put = setStaticF_LogMessages)) bool LogMessages;
+/// @brief Field LogMessages, offset 0xffffffff, size 0x1 
+static __declspec(property(get=getStaticF_LogMessages, put=setStaticF_LogMessages)) bool  LogMessages;
 
-  /// @brief Field PlatformUninitializedError, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_PlatformUninitializedError, put = setStaticF_PlatformUninitializedError))::StringW PlatformUninitializedError;
+/// @brief Field PlatformUninitializedError, offset 0xffffffff, size 0x8 
+static __declspec(property(get=getStaticF_PlatformUninitializedError, put=setStaticF_PlatformUninitializedError)) ::StringW  PlatformUninitializedError;
 
-  /// @brief Method AsyncInitialize, addr 0x2aff4b0, size 0x254, virtual false, abstract: false, final false
-  static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::PlatformInitialize*>*
-  AsyncInitialize(::StringW accessToken, ::System::Collections::Generic::Dictionary_2<::Oculus::Platform::InitConfigOptions, bool>* initConfigOptions, ::StringW appId);
+/// @brief Method AsyncInitialize, addr 0x3ef1298, size 0x298, virtual false, abstract: false, final false
+static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::PlatformInitialize*>* AsyncInitialize(::StringW  accessToken, ::System::Collections::Generic::Dictionary_2<::Oculus::Platform::InitConfigOptions,bool>*  initConfigOptions, ::StringW  appId) ;
 
-  /// @brief Method AsyncInitialize, addr 0x2ad3fdc, size 0x2c0, virtual false, abstract: false, final false
-  static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::PlatformInitialize*>* AsyncInitialize(::StringW appId);
+/// @brief Method AsyncInitialize, addr 0x3ec67f8, size 0x31c, virtual false, abstract: false, final false
+static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::PlatformInitialize*>* AsyncInitialize(::StringW  appId) ;
 
-  /// @brief Method ForceInitialized, addr 0x2afefdc, size 0x5c, virtual false, abstract: false, final false
-  static inline void ForceInitialized();
+/// @brief Method ForceInitialized, addr 0x3ef0dd0, size 0x5c, virtual false, abstract: false, final false
+static inline void ForceInitialized() ;
 
-  /// @brief Method GetAppIDFromConfig, addr 0x2aff1dc, size 0x40, virtual false, abstract: false, final false
-  static inline ::StringW GetAppIDFromConfig();
+/// @brief Method GetAppIDFromConfig, addr 0x3ef0fcc, size 0x80, virtual false, abstract: false, final false
+static inline ::StringW GetAppIDFromConfig() ;
 
-  /// @brief Method Initialize, addr 0x2aff84c, size 0x320, virtual false, abstract: false, final false
-  static inline void Initialize(::StringW appId);
+/// @brief Method Initialize, addr 0x3ef1648, size 0x374, virtual false, abstract: false, final false
+static inline void Initialize(::StringW  appId) ;
 
-  /// @brief Method IsInitialized, addr 0x2afef84, size 0x58, virtual false, abstract: false, final false
-  static inline bool IsInitialized();
+/// @brief Method IsInitialized, addr 0x3ef0d78, size 0x58, virtual false, abstract: false, final false
+static inline bool IsInitialized() ;
 
-  static inline ::Oculus::Platform::Core* New_ctor();
+static inline ::Oculus::Platform::Core* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x2affc94, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x3ef1aac, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method getAppID, addr 0x2aff038, size 0x1a4, virtual false, abstract: false, final false
-  static inline ::StringW getAppID(::StringW appId);
+/// @brief Method getAppID, addr 0x3ef0e2c, size 0x1a0, virtual false, abstract: false, final false
+static inline ::StringW getAppID(::StringW  appId) ;
 
-  static inline bool getStaticF_IsPlatformInitialized();
+static inline bool getStaticF_IsPlatformInitialized() ;
 
-  static inline bool getStaticF_LogMessages();
+static inline bool getStaticF_LogMessages() ;
 
-  static inline ::StringW getStaticF_PlatformUninitializedError();
+static inline ::StringW getStaticF_PlatformUninitializedError() ;
 
-  static inline void setStaticF_IsPlatformInitialized(bool value);
+static inline void setStaticF_IsPlatformInitialized(bool  value) ;
 
-  static inline void setStaticF_LogMessages(bool value);
+static inline void setStaticF_LogMessages(bool  value) ;
 
-  static inline void setStaticF_PlatformUninitializedError(::StringW value);
+static inline void setStaticF_PlatformUninitializedError(::StringW  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Core();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr Core() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Core", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  Core(Core&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Core", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  Core(Core const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "Core", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+Core(Core && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "Core", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+Core(Core const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Oculus::Platform::Core, 0x10>, "Size mismatch!");
 
-} // namespace Oculus::Platform
+} // namespace end def Oculus::Platform
 NEED_NO_BOX(::Oculus::Platform::Core);
 DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Core*, "Oculus.Platform", "Core");

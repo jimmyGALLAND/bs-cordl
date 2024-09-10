@@ -45,131 +45,131 @@ class __AnssiNamedCurves__Frp256v1Holder;
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Anssi::AnssiNamedCurves);
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Anssi::__AnssiNamedCurves__Frp256v1Holder);
 // Type: ::Frp256v1Holder
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Anssi {
 // Is value type: false
 // CS Name: ::AnssiNamedCurves::Frp256v1Holder*
 class CORDL_TYPE __AnssiNamedCurves__Frp256v1Holder : public ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder {
 public:
-  // Declarations
-  /// @brief Field Instance, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Instance, put = setStaticF_Instance))::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* Instance;
+// Declarations
+/// @brief Field Instance, offset 0xffffffff, size 0x8 
+static __declspec(property(get=getStaticF_Instance, put=setStaticF_Instance)) ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder*  Instance;
 
-  /// @brief Method CreateParameters, addr 0x10d3ba8, size 0x1d4, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters();
+/// @brief Method CreateParameters, addr 0x22a5728, size 0x1c8, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* CreateParameters() ;
 
-  static inline ::Org::BouncyCastle::Asn1::Anssi::__AnssiNamedCurves__Frp256v1Holder* New_ctor();
+static inline ::Org::BouncyCastle::Asn1::Anssi::__AnssiNamedCurves__Frp256v1Holder* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x10d3b98, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x22a5718, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  static inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* getStaticF_Instance();
+static inline ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* getStaticF_Instance() ;
 
-  static inline void setStaticF_Instance(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* value);
+static inline void setStaticF_Instance(::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __AnssiNamedCurves__Frp256v1Holder();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __AnssiNamedCurves__Frp256v1Holder() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__AnssiNamedCurves__Frp256v1Holder", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __AnssiNamedCurves__Frp256v1Holder(__AnssiNamedCurves__Frp256v1Holder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__AnssiNamedCurves__Frp256v1Holder", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __AnssiNamedCurves__Frp256v1Holder(__AnssiNamedCurves__Frp256v1Holder const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__AnssiNamedCurves__Frp256v1Holder", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__AnssiNamedCurves__Frp256v1Holder(__AnssiNamedCurves__Frp256v1Holder && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "__AnssiNamedCurves__Frp256v1Holder", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__AnssiNamedCurves__Frp256v1Holder(__AnssiNamedCurves__Frp256v1Holder const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Anssi::__AnssiNamedCurves__Frp256v1Holder, 0x18>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Asn1::Anssi
+} // namespace end def Org::BouncyCastle::Asn1::Anssi
 // Type: Org.BouncyCastle.Asn1.Anssi::AnssiNamedCurves
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Anssi {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Asn1.Anssi::AnssiNamedCurves*
 class CORDL_TYPE AnssiNamedCurves : public ::System::Object {
 public:
-  // Declarations
-  using Frp256v1Holder = ::Org::BouncyCastle::Asn1::Anssi::__AnssiNamedCurves__Frp256v1Holder;
+// Declarations
+using Frp256v1Holder = ::Org::BouncyCastle::Asn1::Anssi::__AnssiNamedCurves__Frp256v1Holder;
 
-  /// @brief Field curves, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_curves, put = setStaticF_curves))::System::Collections::IDictionary* curves;
+/// @brief Field curves, offset 0xffffffff, size 0x8 
+static __declspec(property(get=getStaticF_curves, put=setStaticF_curves)) ::System::Collections::IDictionary*  curves;
 
-  /// @brief Field names, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_names, put = setStaticF_names))::System::Collections::IDictionary* names;
+/// @brief Field names, offset 0xffffffff, size 0x8 
+static __declspec(property(get=getStaticF_names, put=setStaticF_names)) ::System::Collections::IDictionary*  names;
 
-  /// @brief Field objIds, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_objIds, put = setStaticF_objIds))::System::Collections::IDictionary* objIds;
+/// @brief Field objIds, offset 0xffffffff, size 0x8 
+static __declspec(property(get=getStaticF_objIds, put=setStaticF_objIds)) ::System::Collections::IDictionary*  objIds;
 
-  /// @brief Method ConfigureBasepoint, addr 0x10d3110, size 0xf0, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Asn1::X9::X9ECPoint* ConfigureBasepoint(::Org::BouncyCastle::Math::EC::ECCurve* curve, ::StringW encoding);
+/// @brief Method ConfigureBasepoint, addr 0x22a4c9c, size 0xf0, virtual false, abstract: false, final false
+static inline ::Org::BouncyCastle::Asn1::X9::X9ECPoint* ConfigureBasepoint(::Org::BouncyCastle::Math::EC::ECCurve*  curve, ::StringW  encoding) ;
 
-  /// @brief Method ConfigureCurve, addr 0x10d3200, size 0x4, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Math::EC::ECCurve* ConfigureCurve(::Org::BouncyCastle::Math::EC::ECCurve* curve);
+/// @brief Method ConfigureCurve, addr 0x22a4d8c, size 0x4, virtual false, abstract: false, final false
+static inline ::Org::BouncyCastle::Math::EC::ECCurve* ConfigureCurve(::Org::BouncyCastle::Math::EC::ECCurve*  curve) ;
 
-  /// @brief Method DefineCurve, addr 0x10d32a4, size 0x210, virtual false, abstract: false, final false
-  static inline void DefineCurve(::StringW name, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid, ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder* holder);
+/// @brief Method DefineCurve, addr 0x22a4e28, size 0x210, virtual false, abstract: false, final false
+static inline void DefineCurve(::StringW  name, ::Org::BouncyCastle::Asn1::DerObjectIdentifier*  oid, ::Org::BouncyCastle::Asn1::X9::X9ECParametersHolder*  holder) ;
 
-  /// @brief Method FromHex, addr 0x10d3204, size 0xa0, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Math::BigInteger* FromHex(::StringW hex);
+/// @brief Method FromHex, addr 0x22a4d90, size 0x98, virtual false, abstract: false, final false
+static inline ::Org::BouncyCastle::Math::BigInteger* FromHex(::StringW  hex) ;
 
-  /// @brief Method GetByName, addr 0x10d35d0, size 0x80, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* GetByName(::StringW name);
+/// @brief Method GetByName, addr 0x22a5154, size 0x80, virtual false, abstract: false, final false
+static inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* GetByName(::StringW  name) ;
 
-  /// @brief Method GetByOid, addr 0x10d37a4, size 0x128, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* GetByOid(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
+/// @brief Method GetByOid, addr 0x22a5328, size 0x128, virtual false, abstract: false, final false
+static inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* GetByOid(::Org::BouncyCastle::Asn1::DerObjectIdentifier*  oid) ;
 
-  /// @brief Method GetName, addr 0x10d3984, size 0x100, virtual false, abstract: false, final false
-  static inline ::StringW GetName(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
+/// @brief Method GetName, addr 0x22a5508, size 0x100, virtual false, abstract: false, final false
+static inline ::StringW GetName(::Org::BouncyCastle::Asn1::DerObjectIdentifier*  oid) ;
 
-  /// @brief Method GetOid, addr 0x10d3650, size 0x154, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* GetOid(::StringW name);
+/// @brief Method GetOid, addr 0x22a51d4, size 0x154, virtual false, abstract: false, final false
+static inline ::Org::BouncyCastle::Asn1::DerObjectIdentifier* GetOid(::StringW  name) ;
 
-  static inline ::Org::BouncyCastle::Asn1::Anssi::AnssiNamedCurves* New_ctor();
+static inline ::Org::BouncyCastle::Asn1::Anssi::AnssiNamedCurves* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x10d3b90, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x22a5710, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  static inline ::System::Collections::IDictionary* getStaticF_curves();
+static inline ::System::Collections::IDictionary* getStaticF_curves() ;
 
-  static inline ::System::Collections::IDictionary* getStaticF_names();
+static inline ::System::Collections::IDictionary* getStaticF_names() ;
 
-  static inline ::System::Collections::IDictionary* getStaticF_objIds();
+static inline ::System::Collections::IDictionary* getStaticF_objIds() ;
 
-  /// @brief Method get_Names, addr 0x10d3a84, size 0x10c, virtual false, abstract: false, final false
-  static inline ::System::Collections::IEnumerable* get_Names();
+/// @brief Method get_Names, addr 0x22a5608, size 0x108, virtual false, abstract: false, final false
+static inline ::System::Collections::IEnumerable* get_Names() ;
 
-  static inline void setStaticF_curves(::System::Collections::IDictionary* value);
+static inline void setStaticF_curves(::System::Collections::IDictionary*  value) ;
 
-  static inline void setStaticF_names(::System::Collections::IDictionary* value);
+static inline void setStaticF_names(::System::Collections::IDictionary*  value) ;
 
-  static inline void setStaticF_objIds(::System::Collections::IDictionary* value);
+static inline void setStaticF_objIds(::System::Collections::IDictionary*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AnssiNamedCurves();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr AnssiNamedCurves() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AnssiNamedCurves", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  AnssiNamedCurves(AnssiNamedCurves&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AnssiNamedCurves", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  AnssiNamedCurves(AnssiNamedCurves const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "AnssiNamedCurves", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+AnssiNamedCurves(AnssiNamedCurves && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "AnssiNamedCurves", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+AnssiNamedCurves(AnssiNamedCurves const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Anssi::AnssiNamedCurves, 0x10>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Asn1::Anssi
+} // namespace end def Org::BouncyCastle::Asn1::Anssi
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Anssi::AnssiNamedCurves);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::Anssi::AnssiNamedCurves*, "Org.BouncyCastle.Asn1.Anssi", "AnssiNamedCurves");
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Anssi::__AnssiNamedCurves__Frp256v1Holder);

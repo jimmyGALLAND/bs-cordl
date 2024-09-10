@@ -21,69 +21,69 @@ class Pkcs5S1ParametersGenerator;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Generators::Pkcs5S1ParametersGenerator);
 // Type: Org.BouncyCastle.Crypto.Generators::Pkcs5S1ParametersGenerator
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Generators {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Generators::Pkcs5S1ParametersGenerator*
 class CORDL_TYPE Pkcs5S1ParametersGenerator : public ::Org::BouncyCastle::Crypto::PbeParametersGenerator {
 public:
-  // Declarations
-  /// @brief Field digest, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_digest, put = __cordl_internal_set_digest))::Org::BouncyCastle::Crypto::IDigest* digest;
+// Declarations
+/// @brief Field digest, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get_digest, put=__cordl_internal_set_digest)) ::Org::BouncyCastle::Crypto::IDigest*  digest;
 
-  /// @brief Method GenerateDerivedKey, addr 0x1175360, size 0x34c, virtual false, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GenerateDerivedKey();
+/// @brief Method GenerateDerivedKey, addr 0x2341dfc, size 0x34c, virtual false, abstract: false, final false
+inline ::ArrayW<uint8_t,::Array<uint8_t>*> GenerateDerivedKey() ;
 
-  /// @brief Method GenerateDerivedMacParameters, addr 0x1175c78, size 0x1a8, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Crypto::ICipherParameters* GenerateDerivedMacParameters(int32_t keySize);
+/// @brief Method GenerateDerivedMacParameters, addr 0x23426f0, size 0x19c, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Crypto::ICipherParameters* GenerateDerivedMacParameters(int32_t  keySize) ;
 
-  /// @brief Method GenerateDerivedParameters, addr 0x11756b8, size 0x1a8, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Crypto::ICipherParameters* GenerateDerivedParameters(::StringW algorithm, int32_t keySize);
+/// @brief Method GenerateDerivedParameters, addr 0x2342154, size 0x1a0, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Crypto::ICipherParameters* GenerateDerivedParameters(::StringW  algorithm, int32_t  keySize) ;
 
-  /// @brief Method GenerateDerivedParameters, addr 0x1175a64, size 0x214, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Crypto::ICipherParameters* GenerateDerivedParameters(::StringW algorithm, int32_t keySize, int32_t ivSize);
+/// @brief Method GenerateDerivedParameters, addr 0x23424e8, size 0x208, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Crypto::ICipherParameters* GenerateDerivedParameters(::StringW  algorithm, int32_t  keySize, int32_t  ivSize) ;
 
-  /// @brief Method GenerateDerivedParameters, addr 0x11756ac, size 0xc, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Crypto::ICipherParameters* GenerateDerivedParameters(int32_t keySize);
+/// @brief Method GenerateDerivedParameters, addr 0x2342148, size 0xc, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Crypto::ICipherParameters* GenerateDerivedParameters(int32_t  keySize) ;
 
-  /// @brief Method GenerateDerivedParameters, addr 0x1175860, size 0x204, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Crypto::ICipherParameters* GenerateDerivedParameters(int32_t keySize, int32_t ivSize);
+/// @brief Method GenerateDerivedParameters, addr 0x23422f4, size 0x1f4, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Crypto::ICipherParameters* GenerateDerivedParameters(int32_t  keySize, int32_t  ivSize) ;
 
-  static inline ::Org::BouncyCastle::Crypto::Generators::Pkcs5S1ParametersGenerator* New_ctor(::Org::BouncyCastle::Crypto::IDigest* digest);
+static inline ::Org::BouncyCastle::Crypto::Generators::Pkcs5S1ParametersGenerator* New_ctor(::Org::BouncyCastle::Crypto::IDigest*  digest) ;
 
-  constexpr ::Org::BouncyCastle::Crypto::IDigest*& __cordl_internal_get_digest();
+constexpr ::Org::BouncyCastle::Crypto::IDigest*& __cordl_internal_get_digest() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IDigest*> const& __cordl_internal_get_digest() const;
+constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IDigest*> const& __cordl_internal_get_digest() const;
 
-  constexpr void __cordl_internal_set_digest(::Org::BouncyCastle::Crypto::IDigest* value);
+constexpr void __cordl_internal_set_digest(::Org::BouncyCastle::Crypto::IDigest*  value) ;
 
-  /// @brief Method .ctor, addr 0x1175338, size 0x28, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Crypto::IDigest* digest);
+/// @brief Method .ctor, addr 0x2341dd4, size 0x28, virtual false, abstract: false, final false
+inline void _ctor(::Org::BouncyCastle::Crypto::IDigest*  digest) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Pkcs5S1ParametersGenerator();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr Pkcs5S1ParametersGenerator() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Pkcs5S1ParametersGenerator", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  Pkcs5S1ParametersGenerator(Pkcs5S1ParametersGenerator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Pkcs5S1ParametersGenerator", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  Pkcs5S1ParametersGenerator(Pkcs5S1ParametersGenerator const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "Pkcs5S1ParametersGenerator", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+Pkcs5S1ParametersGenerator(Pkcs5S1ParametersGenerator && ) = delete;
 
-  /// @brief Field digest, offset: 0x28, size: 0x8, def value: None
-  ::Org::BouncyCastle::Crypto::IDigest* ___digest;
+// Ctor Parameters [CppParam { name: "", ty: "Pkcs5S1ParametersGenerator", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+Pkcs5S1ParametersGenerator(Pkcs5S1ParametersGenerator const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field digest, offset: 0x28, size: 0x8, def value: None
+ ::Org::BouncyCastle::Crypto::IDigest*  ___digest;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Generators::Pkcs5S1ParametersGenerator, 0x30>, "Size mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Generators::Pkcs5S1ParametersGenerator, ___digest) == 0x28, "Offset mismatch!");
 
-} // namespace Org::BouncyCastle::Crypto::Generators
+} // namespace end def Org::BouncyCastle::Crypto::Generators
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Generators::Pkcs5S1ParametersGenerator);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Generators::Pkcs5S1ParametersGenerator*, "Org.BouncyCastle.Crypto.Generators", "Pkcs5S1ParametersGenerator");

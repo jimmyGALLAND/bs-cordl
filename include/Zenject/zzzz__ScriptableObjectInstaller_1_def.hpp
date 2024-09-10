@@ -18,53 +18,54 @@ class InjectTypeInfo;
 }
 // Forward declare root types
 namespace Zenject {
-template <typename TDerived> class ScriptableObjectInstaller_1;
+template<typename TDerived>
+class ScriptableObjectInstaller_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::Zenject::ScriptableObjectInstaller_1);
 // Type: Zenject::ScriptableObjectInstaller`1
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // cpp template
-template <typename TDerived>
+template<typename TDerived>
 // Is value type: false
 // CS Name: ::Zenject::ScriptableObjectInstaller`1<TDerived>*
 class CORDL_TYPE ScriptableObjectInstaller_1 : public ::Zenject::ScriptableObjectInstaller {
 public:
-  // Declarations
-  /// @brief Method InstallFromResource, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  static inline TDerived InstallFromResource(::Zenject::DiContainer* container);
+// Declarations
+/// @brief Method InstallFromResource, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+static inline TDerived InstallFromResource(::Zenject::DiContainer*  container) ;
 
-  /// @brief Method InstallFromResource, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  static inline TDerived InstallFromResource(::StringW resourcePath, ::Zenject::DiContainer* container);
+/// @brief Method InstallFromResource, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+static inline TDerived InstallFromResource(::StringW  resourcePath, ::Zenject::DiContainer*  container) ;
 
-  static inline ::Zenject::ScriptableObjectInstaller_1<TDerived>* New_ctor();
+static inline ::Zenject::ScriptableObjectInstaller_1<TDerived>* New_ctor() ;
 
-  /// @brief Method __zenCreate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
+/// @brief Method __zenCreate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*,::Array<::System::Object*>*>  P_0) ;
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
+/// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo() ;
 
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ScriptableObjectInstaller_1();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ScriptableObjectInstaller_1() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ScriptableObjectInstaller_1", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ScriptableObjectInstaller_1(ScriptableObjectInstaller_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ScriptableObjectInstaller_1", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ScriptableObjectInstaller_1(ScriptableObjectInstaller_1 const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ScriptableObjectInstaller_1", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ScriptableObjectInstaller_1(ScriptableObjectInstaller_1 && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "ScriptableObjectInstaller_1", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ScriptableObjectInstaller_1(ScriptableObjectInstaller_1 const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-} // namespace Zenject
+} // namespace end def Zenject
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::Zenject::ScriptableObjectInstaller_1, "Zenject", "ScriptableObjectInstaller`1");

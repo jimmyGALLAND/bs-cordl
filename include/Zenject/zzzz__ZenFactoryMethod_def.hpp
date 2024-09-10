@@ -26,46 +26,46 @@ class ZenFactoryMethod;
 // Write type traits
 MARK_REF_PTR_T(::Zenject::ZenFactoryMethod);
 // Type: Zenject::ZenFactoryMethod
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
 // CS Name: ::Zenject::ZenFactoryMethod*
 class CORDL_TYPE ZenFactoryMethod : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x3650ad8, size 0x20, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::ArrayW<::System::Object*, ::Array<::System::Object*>*> args, ::System::AsyncCallback* callback, ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x4a5c484, size 0x20, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(::ArrayW<::System::Object*,::Array<::System::Object*>*>  args, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x3650af8, size 0xc, virtual true, abstract: false, final false
-  inline ::System::Object* EndInvoke(::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x4a5c4a4, size 0xc, virtual true, abstract: false, final false
+inline ::System::Object* EndInvoke(::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x3650ac4, size 0x14, virtual true, abstract: false, final false
-  inline ::System::Object* Invoke(::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
+/// @brief Method Invoke, addr 0x4a5c470, size 0x14, virtual true, abstract: false, final false
+inline ::System::Object* Invoke(::ArrayW<::System::Object*,::Array<::System::Object*>*>  args) ;
 
-  static inline ::Zenject::ZenFactoryMethod* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::Zenject::ZenFactoryMethod* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x3650998, size 0x12c, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x4a5c370, size 0x100, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ZenFactoryMethod();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ZenFactoryMethod() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ZenFactoryMethod", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ZenFactoryMethod(ZenFactoryMethod&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ZenFactoryMethod", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ZenFactoryMethod(ZenFactoryMethod const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ZenFactoryMethod", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ZenFactoryMethod(ZenFactoryMethod && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "ZenFactoryMethod", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ZenFactoryMethod(ZenFactoryMethod const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Zenject::ZenFactoryMethod, 0x80>, "Size mismatch!");
 
-} // namespace Zenject
+} // namespace end def Zenject
 NEED_NO_BOX(::Zenject::ZenFactoryMethod);
 DEFINE_IL2CPP_ARG_TYPE(::Zenject::ZenFactoryMethod*, "Zenject", "ZenFactoryMethod");

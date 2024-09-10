@@ -33,141 +33,138 @@ class EffectPoolsManualInstaller;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::EffectPoolsManualInstaller);
 // Type: ::EffectPoolsManualInstaller
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::EffectPoolsManualInstaller*
 class CORDL_TYPE EffectPoolsManualInstaller : public ::UnityEngine::MonoBehaviour {
 public:
-  // Declarations
-  /// @brief Field _beatEffectPrefab, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__beatEffectPrefab, put = __cordl_internal_set__beatEffectPrefab))::UnityW<::GlobalNamespace::BeatEffect> _beatEffectPrefab;
+// Declarations
+/// @brief Field _beatEffectPrefab, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get__beatEffectPrefab, put=__cordl_internal_set__beatEffectPrefab)) ::UnityW<::GlobalNamespace::BeatEffect>  _beatEffectPrefab;
 
-  /// @brief Field _bombCutSoundEffectPrefab, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__bombCutSoundEffectPrefab,
-                      put = __cordl_internal_set__bombCutSoundEffectPrefab))::UnityW<::GlobalNamespace::BombCutSoundEffect> _bombCutSoundEffectPrefab;
+/// @brief Field _bombCutSoundEffectPrefab, offset 0x48, size 0x8 
+ __declspec(property(get=__cordl_internal_get__bombCutSoundEffectPrefab, put=__cordl_internal_set__bombCutSoundEffectPrefab)) ::UnityW<::GlobalNamespace::BombCutSoundEffect>  _bombCutSoundEffectPrefab;
 
-  /// @brief Field _flyingScoreEffectPrefab, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__flyingScoreEffectPrefab, put = __cordl_internal_set__flyingScoreEffectPrefab))::UnityW<::GlobalNamespace::FlyingScoreEffect> _flyingScoreEffectPrefab;
+/// @brief Field _flyingScoreEffectPrefab, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get__flyingScoreEffectPrefab, put=__cordl_internal_set__flyingScoreEffectPrefab)) ::UnityW<::GlobalNamespace::FlyingScoreEffect>  _flyingScoreEffectPrefab;
 
-  /// @brief Field _flyingSpriteEffectPrefab, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__flyingSpriteEffectPrefab,
-                      put = __cordl_internal_set__flyingSpriteEffectPrefab))::UnityW<::GlobalNamespace::FlyingSpriteEffect> _flyingSpriteEffectPrefab;
+/// @brief Field _flyingSpriteEffectPrefab, offset 0x50, size 0x8 
+ __declspec(property(get=__cordl_internal_get__flyingSpriteEffectPrefab, put=__cordl_internal_set__flyingSpriteEffectPrefab)) ::UnityW<::GlobalNamespace::FlyingSpriteEffect>  _flyingSpriteEffectPrefab;
 
-  /// @brief Field _flyingTextEffectPrefab, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__flyingTextEffectPrefab, put = __cordl_internal_set__flyingTextEffectPrefab))::UnityW<::GlobalNamespace::FlyingTextEffect> _flyingTextEffectPrefab;
+/// @brief Field _flyingTextEffectPrefab, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get__flyingTextEffectPrefab, put=__cordl_internal_set__flyingTextEffectPrefab)) ::UnityW<::GlobalNamespace::FlyingTextEffect>  _flyingTextEffectPrefab;
 
-  /// @brief Field _noteCutSoundEffectPrefab, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__noteCutSoundEffectPrefab,
-                      put = __cordl_internal_set__noteCutSoundEffectPrefab))::UnityW<::GlobalNamespace::NoteCutSoundEffect> _noteCutSoundEffectPrefab;
+/// @brief Field _noteCutSoundEffectPrefab, offset 0x40, size 0x8 
+ __declspec(property(get=__cordl_internal_get__noteCutSoundEffectPrefab, put=__cordl_internal_set__noteCutSoundEffectPrefab)) ::UnityW<::GlobalNamespace::NoteCutSoundEffect>  _noteCutSoundEffectPrefab;
 
-  /// @brief Field _shortBeatEffectPrefab, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__shortBeatEffectPrefab, put = __cordl_internal_set__shortBeatEffectPrefab))::UnityW<::GlobalNamespace::BeatEffect> _shortBeatEffectPrefab;
+/// @brief Field _shortBeatEffectPrefab, offset 0x38, size 0x8 
+ __declspec(property(get=__cordl_internal_get__shortBeatEffectPrefab, put=__cordl_internal_set__shortBeatEffectPrefab)) ::UnityW<::GlobalNamespace::BeatEffect>  _shortBeatEffectPrefab;
 
-  /// @brief Method ManualInstallBindings, addr 0x275b3e8, size 0x248, virtual false, abstract: false, final false
-  inline void ManualInstallBindings(::Zenject::DiContainer* container, bool shortBeatEffect);
+/// @brief Method ManualInstallBindings, addr 0x3b5d088, size 0x248, virtual false, abstract: false, final false
+inline void ManualInstallBindings(::Zenject::DiContainer*  container, bool  shortBeatEffect) ;
 
-  static inline ::GlobalNamespace::EffectPoolsManualInstaller* New_ctor();
+static inline ::GlobalNamespace::EffectPoolsManualInstaller* New_ctor() ;
 
-  constexpr ::UnityW<::GlobalNamespace::BeatEffect> const& __cordl_internal_get__beatEffectPrefab() const;
+constexpr ::UnityW<::GlobalNamespace::BeatEffect> const& __cordl_internal_get__beatEffectPrefab() const;
 
-  constexpr ::UnityW<::GlobalNamespace::BeatEffect>& __cordl_internal_get__beatEffectPrefab();
+constexpr ::UnityW<::GlobalNamespace::BeatEffect>& __cordl_internal_get__beatEffectPrefab() ;
 
-  constexpr ::UnityW<::GlobalNamespace::BombCutSoundEffect> const& __cordl_internal_get__bombCutSoundEffectPrefab() const;
+constexpr ::UnityW<::GlobalNamespace::BombCutSoundEffect> const& __cordl_internal_get__bombCutSoundEffectPrefab() const;
 
-  constexpr ::UnityW<::GlobalNamespace::BombCutSoundEffect>& __cordl_internal_get__bombCutSoundEffectPrefab();
+constexpr ::UnityW<::GlobalNamespace::BombCutSoundEffect>& __cordl_internal_get__bombCutSoundEffectPrefab() ;
 
-  constexpr ::UnityW<::GlobalNamespace::FlyingScoreEffect> const& __cordl_internal_get__flyingScoreEffectPrefab() const;
+constexpr ::UnityW<::GlobalNamespace::FlyingScoreEffect> const& __cordl_internal_get__flyingScoreEffectPrefab() const;
 
-  constexpr ::UnityW<::GlobalNamespace::FlyingScoreEffect>& __cordl_internal_get__flyingScoreEffectPrefab();
+constexpr ::UnityW<::GlobalNamespace::FlyingScoreEffect>& __cordl_internal_get__flyingScoreEffectPrefab() ;
 
-  constexpr ::UnityW<::GlobalNamespace::FlyingSpriteEffect> const& __cordl_internal_get__flyingSpriteEffectPrefab() const;
+constexpr ::UnityW<::GlobalNamespace::FlyingSpriteEffect> const& __cordl_internal_get__flyingSpriteEffectPrefab() const;
 
-  constexpr ::UnityW<::GlobalNamespace::FlyingSpriteEffect>& __cordl_internal_get__flyingSpriteEffectPrefab();
+constexpr ::UnityW<::GlobalNamespace::FlyingSpriteEffect>& __cordl_internal_get__flyingSpriteEffectPrefab() ;
 
-  constexpr ::UnityW<::GlobalNamespace::FlyingTextEffect> const& __cordl_internal_get__flyingTextEffectPrefab() const;
+constexpr ::UnityW<::GlobalNamespace::FlyingTextEffect> const& __cordl_internal_get__flyingTextEffectPrefab() const;
 
-  constexpr ::UnityW<::GlobalNamespace::FlyingTextEffect>& __cordl_internal_get__flyingTextEffectPrefab();
+constexpr ::UnityW<::GlobalNamespace::FlyingTextEffect>& __cordl_internal_get__flyingTextEffectPrefab() ;
 
-  constexpr ::UnityW<::GlobalNamespace::NoteCutSoundEffect> const& __cordl_internal_get__noteCutSoundEffectPrefab() const;
+constexpr ::UnityW<::GlobalNamespace::NoteCutSoundEffect> const& __cordl_internal_get__noteCutSoundEffectPrefab() const;
 
-  constexpr ::UnityW<::GlobalNamespace::NoteCutSoundEffect>& __cordl_internal_get__noteCutSoundEffectPrefab();
+constexpr ::UnityW<::GlobalNamespace::NoteCutSoundEffect>& __cordl_internal_get__noteCutSoundEffectPrefab() ;
 
-  constexpr ::UnityW<::GlobalNamespace::BeatEffect> const& __cordl_internal_get__shortBeatEffectPrefab() const;
+constexpr ::UnityW<::GlobalNamespace::BeatEffect> const& __cordl_internal_get__shortBeatEffectPrefab() const;
 
-  constexpr ::UnityW<::GlobalNamespace::BeatEffect>& __cordl_internal_get__shortBeatEffectPrefab();
+constexpr ::UnityW<::GlobalNamespace::BeatEffect>& __cordl_internal_get__shortBeatEffectPrefab() ;
 
-  constexpr void __cordl_internal_set__beatEffectPrefab(::UnityW<::GlobalNamespace::BeatEffect> value);
+constexpr void __cordl_internal_set__beatEffectPrefab(::UnityW<::GlobalNamespace::BeatEffect>  value) ;
 
-  constexpr void __cordl_internal_set__bombCutSoundEffectPrefab(::UnityW<::GlobalNamespace::BombCutSoundEffect> value);
+constexpr void __cordl_internal_set__bombCutSoundEffectPrefab(::UnityW<::GlobalNamespace::BombCutSoundEffect>  value) ;
 
-  constexpr void __cordl_internal_set__flyingScoreEffectPrefab(::UnityW<::GlobalNamespace::FlyingScoreEffect> value);
+constexpr void __cordl_internal_set__flyingScoreEffectPrefab(::UnityW<::GlobalNamespace::FlyingScoreEffect>  value) ;
 
-  constexpr void __cordl_internal_set__flyingSpriteEffectPrefab(::UnityW<::GlobalNamespace::FlyingSpriteEffect> value);
+constexpr void __cordl_internal_set__flyingSpriteEffectPrefab(::UnityW<::GlobalNamespace::FlyingSpriteEffect>  value) ;
 
-  constexpr void __cordl_internal_set__flyingTextEffectPrefab(::UnityW<::GlobalNamespace::FlyingTextEffect> value);
+constexpr void __cordl_internal_set__flyingTextEffectPrefab(::UnityW<::GlobalNamespace::FlyingTextEffect>  value) ;
 
-  constexpr void __cordl_internal_set__noteCutSoundEffectPrefab(::UnityW<::GlobalNamespace::NoteCutSoundEffect> value);
+constexpr void __cordl_internal_set__noteCutSoundEffectPrefab(::UnityW<::GlobalNamespace::NoteCutSoundEffect>  value) ;
 
-  constexpr void __cordl_internal_set__shortBeatEffectPrefab(::UnityW<::GlobalNamespace::BeatEffect> value);
+constexpr void __cordl_internal_set__shortBeatEffectPrefab(::UnityW<::GlobalNamespace::BeatEffect>  value) ;
 
-  /// @brief Method .ctor, addr 0x275b630, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x3b5d2d0, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr EffectPoolsManualInstaller();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr EffectPoolsManualInstaller() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "EffectPoolsManualInstaller", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  EffectPoolsManualInstaller(EffectPoolsManualInstaller&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "EffectPoolsManualInstaller", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  EffectPoolsManualInstaller(EffectPoolsManualInstaller const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "EffectPoolsManualInstaller", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+EffectPoolsManualInstaller(EffectPoolsManualInstaller && ) = delete;
 
-  /// @brief Field _flyingTextEffectPrefab, offset: 0x18, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::FlyingTextEffect> ____flyingTextEffectPrefab;
+// Ctor Parameters [CppParam { name: "", ty: "EffectPoolsManualInstaller", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+EffectPoolsManualInstaller(EffectPoolsManualInstaller const& ) = delete;
 
-  /// @brief Field _flyingScoreEffectPrefab, offset: 0x20, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::FlyingScoreEffect> ____flyingScoreEffectPrefab;
+/// @brief Field _flyingTextEffectPrefab, offset: 0x20, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::FlyingTextEffect>  ____flyingTextEffectPrefab;
 
-  /// @brief Field _beatEffectPrefab, offset: 0x28, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::BeatEffect> ____beatEffectPrefab;
+/// @brief Field _flyingScoreEffectPrefab, offset: 0x28, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::FlyingScoreEffect>  ____flyingScoreEffectPrefab;
 
-  /// @brief Field _shortBeatEffectPrefab, offset: 0x30, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::BeatEffect> ____shortBeatEffectPrefab;
+/// @brief Field _beatEffectPrefab, offset: 0x30, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::BeatEffect>  ____beatEffectPrefab;
 
-  /// @brief Field _noteCutSoundEffectPrefab, offset: 0x38, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::NoteCutSoundEffect> ____noteCutSoundEffectPrefab;
+/// @brief Field _shortBeatEffectPrefab, offset: 0x38, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::BeatEffect>  ____shortBeatEffectPrefab;
 
-  /// @brief Field _bombCutSoundEffectPrefab, offset: 0x40, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::BombCutSoundEffect> ____bombCutSoundEffectPrefab;
+/// @brief Field _noteCutSoundEffectPrefab, offset: 0x40, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::NoteCutSoundEffect>  ____noteCutSoundEffectPrefab;
 
-  /// @brief Field _flyingSpriteEffectPrefab, offset: 0x48, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::FlyingSpriteEffect> ____flyingSpriteEffectPrefab;
+/// @brief Field _bombCutSoundEffectPrefab, offset: 0x48, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::BombCutSoundEffect>  ____bombCutSoundEffectPrefab;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _flyingSpriteEffectPrefab, offset: 0x50, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::FlyingSpriteEffect>  ____flyingSpriteEffectPrefab;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::EffectPoolsManualInstaller, 0x50>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::EffectPoolsManualInstaller, 0x58>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::EffectPoolsManualInstaller, ____flyingTextEffectPrefab) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::EffectPoolsManualInstaller, ____flyingTextEffectPrefab) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::EffectPoolsManualInstaller, ____flyingScoreEffectPrefab) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::EffectPoolsManualInstaller, ____flyingScoreEffectPrefab) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::EffectPoolsManualInstaller, ____beatEffectPrefab) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::EffectPoolsManualInstaller, ____beatEffectPrefab) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::EffectPoolsManualInstaller, ____shortBeatEffectPrefab) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::EffectPoolsManualInstaller, ____shortBeatEffectPrefab) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::EffectPoolsManualInstaller, ____noteCutSoundEffectPrefab) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::EffectPoolsManualInstaller, ____noteCutSoundEffectPrefab) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::EffectPoolsManualInstaller, ____bombCutSoundEffectPrefab) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::EffectPoolsManualInstaller, ____bombCutSoundEffectPrefab) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::EffectPoolsManualInstaller, ____flyingSpriteEffectPrefab) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::EffectPoolsManualInstaller, ____flyingSpriteEffectPrefab) == 0x50, "Offset mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::EffectPoolsManualInstaller);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::EffectPoolsManualInstaller*, "", "EffectPoolsManualInstaller");

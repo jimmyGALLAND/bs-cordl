@@ -26,66 +26,66 @@ class MultiplayerUnavailableReasonMethods;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MultiplayerUnavailableReasonMethods);
 // Type: ::MultiplayerUnavailableReasonMethods
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::MultiplayerUnavailableReasonMethods*
 class CORDL_TYPE MultiplayerUnavailableReasonMethods : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field kContentVersionRegex, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_kContentVersionRegex, put = setStaticF_kContentVersionRegex))::System::Text::RegularExpressions::Regex* kContentVersionRegex;
+// Declarations
+/// @brief Field kContentVersionRegex, offset 0xffffffff, size 0x8 
+static __declspec(property(get=getStaticF_kContentVersionRegex, put=setStaticF_kContentVersionRegex)) ::System::Text::RegularExpressions::Regex*  kContentVersionRegex;
 
-  /// @brief Method ErrorCode, addr 0x14e6e20, size 0x80, virtual false, abstract: false, final false
-  static inline ::StringW ErrorCode(::GlobalNamespace::MultiplayerUnavailableReason multiplayerUnavailableReason);
+/// @brief Method ErrorCode, addr 0x2693e5c, size 0x80, virtual false, abstract: false, final false
+static inline ::StringW ErrorCode(::GlobalNamespace::MultiplayerUnavailableReason  multiplayerUnavailableReason) ;
 
-  /// @brief Method GetLocalizedMessage, addr 0x14e71a4, size 0xb0, virtual false, abstract: false, final false
-  static inline ::StringW GetLocalizedMessage(::GlobalNamespace::MultiplayerStatusData* data, ::BGLib::Polyglot::Language language);
+/// @brief Method GetLocalizedMessage, addr 0x2694204, size 0xb0, virtual false, abstract: false, final false
+static inline ::StringW GetLocalizedMessage(::GlobalNamespace::MultiplayerStatusData*  data, ::BGLib::Polyglot::Language  language) ;
 
-  /// @brief Method LocalizedKey, addr 0x14e6d9c, size 0x84, virtual false, abstract: false, final false
-  static inline ::StringW LocalizedKey(::GlobalNamespace::MultiplayerUnavailableReason multiplayerUnavailableReason);
+/// @brief Method LocalizedKey, addr 0x2693dd8, size 0x84, virtual false, abstract: false, final false
+static inline ::StringW LocalizedKey(::GlobalNamespace::MultiplayerUnavailableReason  multiplayerUnavailableReason) ;
 
-  /// @brief Method TryGetMultiplayerUnavailableReason, addr 0x14e6ea0, size 0x13c, virtual false, abstract: false, final false
-  static inline bool TryGetMultiplayerUnavailableReason(::GlobalNamespace::MultiplayerStatusData* data, ByRef<::GlobalNamespace::MultiplayerUnavailableReason> reason);
+/// @brief Method TryGetMultiplayerUnavailableReason, addr 0x2693edc, size 0x160, virtual false, abstract: false, final false
+static inline bool TryGetMultiplayerUnavailableReason(::GlobalNamespace::MultiplayerStatusData*  data, ByRef<::GlobalNamespace::MultiplayerUnavailableReason>  reason) ;
 
-  /// @brief Method VersionLessThan, addr 0x14e6fdc, size 0x1c8, virtual false, abstract: false, final false
-  static inline bool VersionLessThan(::StringW currentVersion, ::StringW minVersion);
+/// @brief Method VersionLessThan, addr 0x269403c, size 0x1c8, virtual false, abstract: false, final false
+static inline bool VersionLessThan(::StringW  currentVersion, ::StringW  minVersion) ;
 
-  static inline ::System::Text::RegularExpressions::Regex* getStaticF_kContentVersionRegex();
+static inline ::System::Text::RegularExpressions::Regex* getStaticF_kContentVersionRegex() ;
 
-  static inline void setStaticF_kContentVersionRegex(::System::Text::RegularExpressions::Regex* value);
+static inline void setStaticF_kContentVersionRegex(::System::Text::RegularExpressions::Regex*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MultiplayerUnavailableReasonMethods();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr MultiplayerUnavailableReasonMethods() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerUnavailableReasonMethods", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  MultiplayerUnavailableReasonMethods(MultiplayerUnavailableReasonMethods&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerUnavailableReasonMethods", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerUnavailableReasonMethods(MultiplayerUnavailableReasonMethods const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "MultiplayerUnavailableReasonMethods", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+MultiplayerUnavailableReasonMethods(MultiplayerUnavailableReasonMethods && ) = delete;
 
-  /// @brief Field kMultiplayerUnavailableMaintenanceMode offset 0xffffffff size 0x8
-  static constexpr ::ConstString kMultiplayerUnavailableMaintenanceMode{ u"MULTIPLAYER_UNAVAILABLE_MAINTENANCE_MODE" };
+// Ctor Parameters [CppParam { name: "", ty: "MultiplayerUnavailableReasonMethods", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+MultiplayerUnavailableReasonMethods(MultiplayerUnavailableReasonMethods const& ) = delete;
 
-  /// @brief Field kMultiplayerUnavailableServerOffline offset 0xffffffff size 0x8
-  static constexpr ::ConstString kMultiplayerUnavailableServerOffline{ u"MULTIPLAYER_UNAVAILABLE_SERVER_OFFLINE" };
+/// @brief Field kMultiplayerUnavailableMaintenanceMode offset 0xffffffff size 0x8
+static constexpr ::ConstString  kMultiplayerUnavailableMaintenanceMode{u"MULTIPLAYER_UNAVAILABLE_MAINTENANCE_MODE"};
 
-  /// @brief Field kMultiplayerUnavailableTryAgain offset 0xffffffff size 0x8
-  static constexpr ::ConstString kMultiplayerUnavailableTryAgain{ u"MULTIPLAYER_UNAVAILABLE_TRY_AGAIN" };
+/// @brief Field kMultiplayerUnavailableServerOffline offset 0xffffffff size 0x8
+static constexpr ::ConstString  kMultiplayerUnavailableServerOffline{u"MULTIPLAYER_UNAVAILABLE_SERVER_OFFLINE"};
 
-  /// @brief Field kMultiplayerUnavailableUpdateRequired offset 0xffffffff size 0x8
-  static constexpr ::ConstString kMultiplayerUnavailableUpdateRequired{ u"MULTIPLAYER_UNAVAILABLE_UPDATE_REQUIRED" };
+/// @brief Field kMultiplayerUnavailableTryAgain offset 0xffffffff size 0x8
+static constexpr ::ConstString  kMultiplayerUnavailableTryAgain{u"MULTIPLAYER_UNAVAILABLE_TRY_AGAIN"};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field kMultiplayerUnavailableUpdateRequired offset 0xffffffff size 0x8
+static constexpr ::ConstString  kMultiplayerUnavailableUpdateRequired{u"MULTIPLAYER_UNAVAILABLE_UPDATE_REQUIRED"};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerUnavailableReasonMethods, 0x10>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MultiplayerUnavailableReasonMethods);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerUnavailableReasonMethods*, "", "MultiplayerUnavailableReasonMethods");

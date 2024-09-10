@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "UnityEngine/Experimental/Rendering/BuiltinRuntimeReflectionSystem.hpp"
 #include "UnityEngine/Experimental/Rendering/DefaultFormat.hpp"
@@ -13,5 +13,6 @@ module;
 #include "UnityEngine/Experimental/Rendering/ScriptableRuntimeReflectionSystemWrapper.hpp"
 #include "UnityEngine/Experimental/Rendering/TextureCreationFlags.hpp"
 #ifdef __cpp_modules
-export module Rendering;
-#endif
+                    export module Rendering;
+                    #endif
+                

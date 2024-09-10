@@ -8,133 +8,139 @@
 #include "GlobalNamespace/zzzz__GameplayModifiers_def.hpp"
 #include "GlobalNamespace/zzzz__IReadonlyBeatmapData_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__BeatmapDataObstaclesAndBombsTransform____c__DisplayClass0_0._ctor
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__BeatmapDataObstaclesAndBombsTransform____c__DisplayClass0_0::*)()>(
-    &::GlobalNamespace::__BeatmapDataObstaclesAndBombsTransform____c__DisplayClass0_0::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::__BeatmapDataObstaclesAndBombsTransform____c__DisplayClass0_0::*)()>(&::GlobalNamespace::__BeatmapDataObstaclesAndBombsTransform____c__DisplayClass0_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x14a9dc0;
+  constexpr static std::size_t addrs = 0x265f170;
 
   inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BeatmapDataObstaclesAndBombsTransform____c__DisplayClass0_0*>::get(),
-                                                 ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BeatmapDataObstaclesAndBombsTransform____c__DisplayClass0_0*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::__BeatmapDataObstaclesAndBombsTransform____c__DisplayClass0_0._CreateTransformedData_g__ProcessData_0
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::GlobalNamespace::BeatmapDataItem* (::GlobalNamespace::__BeatmapDataObstaclesAndBombsTransform____c__DisplayClass0_0::*)(::GlobalNamespace::BeatmapDataItem*)>(
-        &::GlobalNamespace::__BeatmapDataObstaclesAndBombsTransform____c__DisplayClass0_0::_CreateTransformedData_g__ProcessData_0)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BeatmapDataItem* (::GlobalNamespace::__BeatmapDataObstaclesAndBombsTransform____c__DisplayClass0_0::*)(::GlobalNamespace::BeatmapDataItem*)>(&::GlobalNamespace::__BeatmapDataObstaclesAndBombsTransform____c__DisplayClass0_0::_CreateTransformedData_g__ProcessData_0)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x14a9ed0;
+  constexpr static std::size_t addrs = 0x265f274;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BeatmapDataObstaclesAndBombsTransform____c__DisplayClass0_0*>::get(), "<CreateTransformedData>g__ProcessData|0",
-        std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapDataItem*>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BeatmapDataObstaclesAndBombsTransform____c__DisplayClass0_0*>::get(),
+                        "<CreateTransformedData>g__ProcessData|0",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapDataItem*>::get()}
+                    )));
     return ___internal_method;
   }
 };
-constexpr ::GlobalNamespace::__GameplayModifiers__EnabledObstacleType& GlobalNamespace::__BeatmapDataObstaclesAndBombsTransform____c__DisplayClass0_0::__cordl_internal_get_enabledObstaclesType() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___enabledObstaclesType;
+constexpr ::GlobalNamespace::__GameplayModifiers__EnabledObstacleType& GlobalNamespace::__BeatmapDataObstaclesAndBombsTransform____c__DisplayClass0_0::__cordl_internal_get_enabledObstaclesType()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___enabledObstaclesType;
 }
-constexpr ::GlobalNamespace::__GameplayModifiers__EnabledObstacleType const&
-GlobalNamespace::__BeatmapDataObstaclesAndBombsTransform____c__DisplayClass0_0::__cordl_internal_get_enabledObstaclesType() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___enabledObstaclesType;
+constexpr ::GlobalNamespace::__GameplayModifiers__EnabledObstacleType const& GlobalNamespace::__BeatmapDataObstaclesAndBombsTransform____c__DisplayClass0_0::__cordl_internal_get_enabledObstaclesType() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___enabledObstaclesType;
 }
-constexpr void
-GlobalNamespace::__BeatmapDataObstaclesAndBombsTransform____c__DisplayClass0_0::__cordl_internal_set_enabledObstaclesType(::GlobalNamespace::__GameplayModifiers__EnabledObstacleType value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___enabledObstaclesType = value;
+constexpr void GlobalNamespace::__BeatmapDataObstaclesAndBombsTransform____c__DisplayClass0_0::__cordl_internal_set_enabledObstaclesType(::GlobalNamespace::__GameplayModifiers__EnabledObstacleType  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___enabledObstaclesType = value;
 }
-constexpr bool& GlobalNamespace::__BeatmapDataObstaclesAndBombsTransform____c__DisplayClass0_0::__cordl_internal_get_noBombs() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___noBombs;
+constexpr bool& GlobalNamespace::__BeatmapDataObstaclesAndBombsTransform____c__DisplayClass0_0::__cordl_internal_get_noBombs()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___noBombs;
 }
 constexpr bool const& GlobalNamespace::__BeatmapDataObstaclesAndBombsTransform____c__DisplayClass0_0::__cordl_internal_get_noBombs() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___noBombs;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___noBombs;
 }
-constexpr void GlobalNamespace::__BeatmapDataObstaclesAndBombsTransform____c__DisplayClass0_0::__cordl_internal_set_noBombs(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___noBombs = value;
+constexpr void GlobalNamespace::__BeatmapDataObstaclesAndBombsTransform____c__DisplayClass0_0::__cordl_internal_set_noBombs(bool  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___noBombs = value;
 }
-inline ::GlobalNamespace::__BeatmapDataObstaclesAndBombsTransform____c__DisplayClass0_0* GlobalNamespace::__BeatmapDataObstaclesAndBombsTransform____c__DisplayClass0_0::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__BeatmapDataObstaclesAndBombsTransform____c__DisplayClass0_0*>());
+inline ::GlobalNamespace::__BeatmapDataObstaclesAndBombsTransform____c__DisplayClass0_0* GlobalNamespace::__BeatmapDataObstaclesAndBombsTransform____c__DisplayClass0_0::New_ctor()  {
+return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::__BeatmapDataObstaclesAndBombsTransform____c__DisplayClass0_0*>());
 }
-inline void GlobalNamespace::__BeatmapDataObstaclesAndBombsTransform____c__DisplayClass0_0::_ctor() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BeatmapDataObstaclesAndBombsTransform____c__DisplayClass0_0*>::get(),
-                                               ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::__BeatmapDataObstaclesAndBombsTransform____c__DisplayClass0_0::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BeatmapDataObstaclesAndBombsTransform____c__DisplayClass0_0*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::BeatmapDataItem*
-GlobalNamespace::__BeatmapDataObstaclesAndBombsTransform____c__DisplayClass0_0::_CreateTransformedData_g__ProcessData_0(::GlobalNamespace::BeatmapDataItem* beatmapDataItem) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BeatmapDataObstaclesAndBombsTransform____c__DisplayClass0_0*>::get(), "<CreateTransformedData>g__ProcessData|0",
-      std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapDataItem*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::BeatmapDataItem*, false>(this, ___internal_method, beatmapDataItem);
+inline ::GlobalNamespace::BeatmapDataItem* GlobalNamespace::__BeatmapDataObstaclesAndBombsTransform____c__DisplayClass0_0::_CreateTransformedData_g__ProcessData_0(::GlobalNamespace::BeatmapDataItem*  beatmapDataItem)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__BeatmapDataObstaclesAndBombsTransform____c__DisplayClass0_0*>::get(),
+                        "<CreateTransformedData>g__ProcessData|0",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapDataItem*>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::BeatmapDataItem*, false>(this, ___internal_method, beatmapDataItem);
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__BeatmapDataObstaclesAndBombsTransform____c__DisplayClass0_0::__BeatmapDataObstaclesAndBombsTransform____c__DisplayClass0_0() {}
+constexpr ::GlobalNamespace::__BeatmapDataObstaclesAndBombsTransform____c__DisplayClass0_0::__BeatmapDataObstaclesAndBombsTransform____c__DisplayClass0_0()   {
+}
 //  Writing Method size for method: ::GlobalNamespace::BeatmapDataObstaclesAndBombsTransform.CreateTransformedData
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::GlobalNamespace::IReadonlyBeatmapData* (*)(::GlobalNamespace::IReadonlyBeatmapData*, ::GlobalNamespace::__GameplayModifiers__EnabledObstacleType, bool)>(
-        &::GlobalNamespace::BeatmapDataObstaclesAndBombsTransform::CreateTransformedData)> {
-  constexpr static std::size_t size = 0x134;
-  constexpr static std::size_t addrs = 0x14a9c8c;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::IReadonlyBeatmapData* (*)(::GlobalNamespace::IReadonlyBeatmapData*, ::GlobalNamespace::__GameplayModifiers__EnabledObstacleType, bool)>(&::GlobalNamespace::BeatmapDataObstaclesAndBombsTransform::CreateTransformedData)> {
+  constexpr static std::size_t size = 0x130;
+  constexpr static std::size_t addrs = 0x265f040;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapDataObstaclesAndBombsTransform*>::get(), "CreateTransformedData", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IReadonlyBeatmapData*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__GameplayModifiers__EnabledObstacleType>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapDataObstaclesAndBombsTransform*>::get(),
+                        "CreateTransformedData",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IReadonlyBeatmapData*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__GameplayModifiers__EnabledObstacleType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::BeatmapDataObstaclesAndBombsTransform.ShouldUseBeatmapDataItem
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::BeatmapDataItem*, ::GlobalNamespace::__GameplayModifiers__EnabledObstacleType, bool)>(
-    &::GlobalNamespace::BeatmapDataObstaclesAndBombsTransform::ShouldUseBeatmapDataItem)> {
-  constexpr static std::size_t size = 0x108;
-  constexpr static std::size_t addrs = 0x14a9dc8;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::BeatmapDataItem*, ::GlobalNamespace::__GameplayModifiers__EnabledObstacleType, bool)>(&::GlobalNamespace::BeatmapDataObstaclesAndBombsTransform::ShouldUseBeatmapDataItem)> {
+  constexpr static std::size_t size = 0xfc;
+  constexpr static std::size_t addrs = 0x265f178;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapDataObstaclesAndBombsTransform*>::get(), "ShouldUseBeatmapDataItem", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapDataItem*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__GameplayModifiers__EnabledObstacleType>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapDataObstaclesAndBombsTransform*>::get(),
+                        "ShouldUseBeatmapDataItem",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapDataItem*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__GameplayModifiers__EnabledObstacleType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
+                    )));
     return ___internal_method;
   }
 };
-inline ::GlobalNamespace::IReadonlyBeatmapData*
-GlobalNamespace::BeatmapDataObstaclesAndBombsTransform::CreateTransformedData(::GlobalNamespace::IReadonlyBeatmapData* beatmapData,
-                                                                              ::GlobalNamespace::__GameplayModifiers__EnabledObstacleType enabledObstaclesType, bool noBombs) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapDataObstaclesAndBombsTransform*>::get(), "CreateTransformedData", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IReadonlyBeatmapData*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__GameplayModifiers__EnabledObstacleType>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::IReadonlyBeatmapData*, false>(nullptr, ___internal_method, beatmapData, enabledObstaclesType, noBombs);
+inline ::GlobalNamespace::IReadonlyBeatmapData* GlobalNamespace::BeatmapDataObstaclesAndBombsTransform::CreateTransformedData(::GlobalNamespace::IReadonlyBeatmapData*  beatmapData, ::GlobalNamespace::__GameplayModifiers__EnabledObstacleType  enabledObstaclesType, bool  noBombs)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapDataObstaclesAndBombsTransform*>::get(),
+                        "CreateTransformedData",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::IReadonlyBeatmapData*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__GameplayModifiers__EnabledObstacleType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::IReadonlyBeatmapData*, false>(nullptr, ___internal_method, beatmapData, enabledObstaclesType, noBombs);
 }
-inline bool GlobalNamespace::BeatmapDataObstaclesAndBombsTransform::ShouldUseBeatmapDataItem(::GlobalNamespace::BeatmapDataItem* beatmapDataItem,
-                                                                                             ::GlobalNamespace::__GameplayModifiers__EnabledObstacleType enabledObstaclesType, bool noBombs) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapDataObstaclesAndBombsTransform*>::get(), "ShouldUseBeatmapDataItem", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapDataItem*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__GameplayModifiers__EnabledObstacleType>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, beatmapDataItem, enabledObstaclesType, noBombs);
+inline bool GlobalNamespace::BeatmapDataObstaclesAndBombsTransform::ShouldUseBeatmapDataItem(::GlobalNamespace::BeatmapDataItem*  beatmapDataItem, ::GlobalNamespace::__GameplayModifiers__EnabledObstacleType  enabledObstaclesType, bool  noBombs)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::BeatmapDataObstaclesAndBombsTransform*>::get(),
+                        "ShouldUseBeatmapDataItem",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::BeatmapDataItem*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__GameplayModifiers__EnabledObstacleType>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, beatmapDataItem, enabledObstaclesType, noBombs);
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::BeatmapDataObstaclesAndBombsTransform::BeatmapDataObstaclesAndBombsTransform() {}
+constexpr ::GlobalNamespace::BeatmapDataObstaclesAndBombsTransform::BeatmapDataObstaclesAndBombsTransform()   {
+}

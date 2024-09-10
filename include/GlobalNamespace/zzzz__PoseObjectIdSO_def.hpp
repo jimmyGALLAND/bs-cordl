@@ -13,56 +13,56 @@ class PoseObjectIdSO;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::PoseObjectIdSO);
 // Type: ::PoseObjectIdSO
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::PoseObjectIdSO*
 class CORDL_TYPE PoseObjectIdSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
-  // Declarations
-  /// @brief Field _serializedId, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__serializedId, put = __cordl_internal_set__serializedId))::StringW _serializedId;
+// Declarations
+/// @brief Field _serializedId, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get__serializedId, put=__cordl_internal_set__serializedId)) ::StringW  _serializedId;
 
-  __declspec(property(get = get_id))::StringW id;
+ __declspec(property(get=get_id)) ::StringW  id;
 
-  static inline ::GlobalNamespace::PoseObjectIdSO* New_ctor();
+static inline ::GlobalNamespace::PoseObjectIdSO* New_ctor() ;
 
-  constexpr ::StringW const& __cordl_internal_get__serializedId() const;
+constexpr ::StringW const& __cordl_internal_get__serializedId() const;
 
-  constexpr ::StringW& __cordl_internal_get__serializedId();
+constexpr ::StringW& __cordl_internal_get__serializedId() ;
 
-  constexpr void __cordl_internal_set__serializedId(::StringW value);
+constexpr void __cordl_internal_set__serializedId(::StringW  value) ;
 
-  /// @brief Method .ctor, addr 0x26b2d90, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x3a907d4, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_id, addr 0x26b2d88, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_id();
+/// @brief Method get_id, addr 0x3a907cc, size 0x8, virtual false, abstract: false, final false
+inline ::StringW get_id() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PoseObjectIdSO();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr PoseObjectIdSO() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PoseObjectIdSO", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  PoseObjectIdSO(PoseObjectIdSO&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PoseObjectIdSO", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  PoseObjectIdSO(PoseObjectIdSO const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "PoseObjectIdSO", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+PoseObjectIdSO(PoseObjectIdSO && ) = delete;
 
-  /// @brief Field _serializedId, offset: 0x18, size: 0x8, def value: None
-  ::StringW ____serializedId;
+// Ctor Parameters [CppParam { name: "", ty: "PoseObjectIdSO", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+PoseObjectIdSO(PoseObjectIdSO const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _serializedId, offset: 0x18, size: 0x8, def value: None
+ ::StringW  ____serializedId;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PoseObjectIdSO, 0x20>, "Size mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::PoseObjectIdSO, ____serializedId) == 0x18, "Offset mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::PoseObjectIdSO);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PoseObjectIdSO*, "", "PoseObjectIdSO");

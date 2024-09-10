@@ -18,65 +18,65 @@ class Asn1Generator;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Asn1Generator);
 // Type: Org.BouncyCastle.Asn1::Asn1Generator
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1 {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Asn1::Asn1Generator*
 class CORDL_TYPE Asn1Generator : public ::System::Object {
 public:
-  // Declarations
-  __declspec(property(get = get_Out))::System::IO::Stream* Out;
+// Declarations
+ __declspec(property(get=get_Out)) ::System::IO::Stream*  Out;
 
-  /// @brief Field _out, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__out, put = __cordl_internal_set__out))::System::IO::Stream* _out;
+/// @brief Field _out, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get__out, put=__cordl_internal_set__out)) ::System::IO::Stream*  _out;
 
-  /// @brief Method AddObject, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void AddObject(::Org::BouncyCastle::Asn1::Asn1Encodable* obj);
+/// @brief Method AddObject, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+inline void AddObject(::Org::BouncyCastle::Asn1::Asn1Encodable*  obj) ;
 
-  /// @brief Method Close, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void Close();
+/// @brief Method Close, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+inline void Close() ;
 
-  /// @brief Method GetRawOutputStream, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::System::IO::Stream* GetRawOutputStream();
+/// @brief Method GetRawOutputStream, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+inline ::System::IO::Stream* GetRawOutputStream() ;
 
-  static inline ::Org::BouncyCastle::Asn1::Asn1Generator* New_ctor(::System::IO::Stream* outStream);
+static inline ::Org::BouncyCastle::Asn1::Asn1Generator* New_ctor(::System::IO::Stream*  outStream) ;
 
-  constexpr ::System::IO::Stream*& __cordl_internal_get__out();
+constexpr ::System::IO::Stream*& __cordl_internal_get__out() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __cordl_internal_get__out() const;
+constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __cordl_internal_get__out() const;
 
-  constexpr void __cordl_internal_set__out(::System::IO::Stream* value);
+constexpr void __cordl_internal_set__out(::System::IO::Stream*  value) ;
 
-  /// @brief Method .ctor, addr 0x14260e8, size 0x28, virtual false, abstract: false, final false
-  inline void _ctor(::System::IO::Stream* outStream);
+/// @brief Method .ctor, addr 0x25dea50, size 0x28, virtual false, abstract: false, final false
+inline void _ctor(::System::IO::Stream*  outStream) ;
 
-  /// @brief Method get_Out, addr 0x1426110, size 0x8, virtual false, abstract: false, final false
-  inline ::System::IO::Stream* get_Out();
+/// @brief Method get_Out, addr 0x25dea78, size 0x8, virtual false, abstract: false, final false
+inline ::System::IO::Stream* get_Out() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Asn1Generator();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr Asn1Generator() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Asn1Generator", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  Asn1Generator(Asn1Generator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Asn1Generator", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  Asn1Generator(Asn1Generator const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "Asn1Generator", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+Asn1Generator(Asn1Generator && ) = delete;
 
-  /// @brief Field _out, offset: 0x10, size: 0x8, def value: None
-  ::System::IO::Stream* ____out;
+// Ctor Parameters [CppParam { name: "", ty: "Asn1Generator", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+Asn1Generator(Asn1Generator const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _out, offset: 0x10, size: 0x8, def value: None
+ ::System::IO::Stream*  ____out;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Asn1Generator, 0x18>, "Size mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Asn1::Asn1Generator, ____out) == 0x10, "Offset mismatch!");
 
-} // namespace Org::BouncyCastle::Asn1
+} // namespace end def Org::BouncyCastle::Asn1
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Asn1Generator);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::Asn1Generator*, "Org.BouncyCastle.Asn1", "Asn1Generator");

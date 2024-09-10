@@ -23,77 +23,77 @@ class RandomDsaKCalculator;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Signers::RandomDsaKCalculator);
 // Type: Org.BouncyCastle.Crypto.Signers::RandomDsaKCalculator
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Signers {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Signers::RandomDsaKCalculator*
 class CORDL_TYPE RandomDsaKCalculator : public ::System::Object {
 public:
-  // Declarations
-  __declspec(property(get = get_IsDeterministic)) bool IsDeterministic;
+// Declarations
+ __declspec(property(get=get_IsDeterministic)) bool  IsDeterministic;
 
-  /// @brief Field q, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_q, put = __cordl_internal_set_q))::Org::BouncyCastle::Math::BigInteger* q;
+/// @brief Field q, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_q, put=__cordl_internal_set_q)) ::Org::BouncyCastle::Math::BigInteger*  q;
 
-  /// @brief Field random, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_random, put = __cordl_internal_set_random))::Org::BouncyCastle::Security::SecureRandom* random;
+/// @brief Field random, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_random, put=__cordl_internal_set_random)) ::Org::BouncyCastle::Security::SecureRandom*  random;
 
-  /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Signers::IDsaKCalculator"
-  constexpr operator ::Org::BouncyCastle::Crypto::Signers::IDsaKCalculator*() noexcept;
+/// @brief Convert operator to "::Org::BouncyCastle::Crypto::Signers::IDsaKCalculator"
+constexpr operator  ::Org::BouncyCastle::Crypto::Signers::IDsaKCalculator*() noexcept;
 
-  /// @brief Method Init, addr 0x11c61f8, size 0x50, virtual true, abstract: false, final false
-  inline void Init(::Org::BouncyCastle::Math::BigInteger* n, ::Org::BouncyCastle::Math::BigInteger* d, ::ArrayW<uint8_t, ::Array<uint8_t>*> message);
+/// @brief Method Init, addr 0x238fe04, size 0x4c, virtual true, abstract: false, final false
+inline void Init(::Org::BouncyCastle::Math::BigInteger*  n, ::Org::BouncyCastle::Math::BigInteger*  d, ::ArrayW<uint8_t,::Array<uint8_t>*>  message) ;
 
-  /// @brief Method Init, addr 0x11c61f0, size 0x8, virtual true, abstract: false, final false
-  inline void Init(::Org::BouncyCastle::Math::BigInteger* n, ::Org::BouncyCastle::Security::SecureRandom* random);
+/// @brief Method Init, addr 0x238fdfc, size 0x8, virtual true, abstract: false, final false
+inline void Init(::Org::BouncyCastle::Math::BigInteger*  n, ::Org::BouncyCastle::Security::SecureRandom*  random) ;
 
-  static inline ::Org::BouncyCastle::Crypto::Signers::RandomDsaKCalculator* New_ctor();
+static inline ::Org::BouncyCastle::Crypto::Signers::RandomDsaKCalculator* New_ctor() ;
 
-  /// @brief Method NextK, addr 0x11c6248, size 0xc4, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Math::BigInteger* NextK();
+/// @brief Method NextK, addr 0x238fe50, size 0xb8, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Math::BigInteger* NextK() ;
 
-  constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_q();
+constexpr ::Org::BouncyCastle::Math::BigInteger*& __cordl_internal_get_q() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __cordl_internal_get_q() const;
+constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Math::BigInteger*> const& __cordl_internal_get_q() const;
 
-  constexpr ::Org::BouncyCastle::Security::SecureRandom*& __cordl_internal_get_random();
+constexpr ::Org::BouncyCastle::Security::SecureRandom*& __cordl_internal_get_random() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Security::SecureRandom*> const& __cordl_internal_get_random() const;
+constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Security::SecureRandom*> const& __cordl_internal_get_random() const;
 
-  constexpr void __cordl_internal_set_q(::Org::BouncyCastle::Math::BigInteger* value);
+constexpr void __cordl_internal_set_q(::Org::BouncyCastle::Math::BigInteger*  value) ;
 
-  constexpr void __cordl_internal_set_random(::Org::BouncyCastle::Security::SecureRandom* value);
+constexpr void __cordl_internal_set_random(::Org::BouncyCastle::Security::SecureRandom*  value) ;
 
-  /// @brief Method .ctor, addr 0x11c630c, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x238ff08, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_IsDeterministic, addr 0x11c61e8, size 0x8, virtual true, abstract: false, final false
-  inline bool get_IsDeterministic();
+/// @brief Method get_IsDeterministic, addr 0x238fdf4, size 0x8, virtual true, abstract: false, final false
+inline bool get_IsDeterministic() ;
 
-  /// @brief Convert to "::Org::BouncyCastle::Crypto::Signers::IDsaKCalculator"
-  constexpr ::Org::BouncyCastle::Crypto::Signers::IDsaKCalculator* i___Org__BouncyCastle__Crypto__Signers__IDsaKCalculator() noexcept;
+/// @brief Convert to "::Org::BouncyCastle::Crypto::Signers::IDsaKCalculator"
+constexpr ::Org::BouncyCastle::Crypto::Signers::IDsaKCalculator* i___Org__BouncyCastle__Crypto__Signers__IDsaKCalculator() noexcept;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr RandomDsaKCalculator();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr RandomDsaKCalculator() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RandomDsaKCalculator", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  RandomDsaKCalculator(RandomDsaKCalculator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RandomDsaKCalculator", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  RandomDsaKCalculator(RandomDsaKCalculator const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "RandomDsaKCalculator", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+RandomDsaKCalculator(RandomDsaKCalculator && ) = delete;
 
-  /// @brief Field q, offset: 0x10, size: 0x8, def value: None
-  ::Org::BouncyCastle::Math::BigInteger* ___q;
+// Ctor Parameters [CppParam { name: "", ty: "RandomDsaKCalculator", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+RandomDsaKCalculator(RandomDsaKCalculator const& ) = delete;
 
-  /// @brief Field random, offset: 0x18, size: 0x8, def value: None
-  ::Org::BouncyCastle::Security::SecureRandom* ___random;
+/// @brief Field q, offset: 0x10, size: 0x8, def value: None
+ ::Org::BouncyCastle::Math::BigInteger*  ___q;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field random, offset: 0x18, size: 0x8, def value: None
+ ::Org::BouncyCastle::Security::SecureRandom*  ___random;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Signers::RandomDsaKCalculator, 0x20>, "Size mismatch!");
@@ -102,6 +102,6 @@ static_assert(offsetof(::Org::BouncyCastle::Crypto::Signers::RandomDsaKCalculato
 
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Signers::RandomDsaKCalculator, ___random) == 0x18, "Offset mismatch!");
 
-} // namespace Org::BouncyCastle::Crypto::Signers
+} // namespace end def Org::BouncyCastle::Crypto::Signers
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Signers::RandomDsaKCalculator);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Signers::RandomDsaKCalculator*, "Org.BouncyCastle.Crypto.Signers", "RandomDsaKCalculator");

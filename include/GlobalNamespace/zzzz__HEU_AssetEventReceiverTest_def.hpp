@@ -9,7 +9,8 @@ namespace HoudiniEngineUnity {
 class HEU_HoudiniAsset;
 }
 namespace System::Collections::Generic {
-template <typename T> class List_1;
+template<typename T>
+class List_1;
 }
 namespace UnityEngine {
 class GameObject;
@@ -21,46 +22,46 @@ class HEU_AssetEventReceiverTest;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::HEU_AssetEventReceiverTest);
 // Type: ::HEU_AssetEventReceiverTest
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::HEU_AssetEventReceiverTest*
 class CORDL_TYPE HEU_AssetEventReceiverTest : public ::UnityEngine::MonoBehaviour {
 public:
-  // Declarations
-  /// @brief Method BakedCallback, addr 0x255e188, size 0x1ac, virtual false, abstract: false, final false
-  inline void BakedCallback(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, bool success, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* outputList);
+// Declarations
+/// @brief Method BakedCallback, addr 0x39826e4, size 0x1ac, virtual false, abstract: false, final false
+inline void BakedCallback(::HoudiniEngineUnity::HEU_HoudiniAsset*  asset, bool  success, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>*  outputList) ;
 
-  /// @brief Method CookedCallback, addr 0x255dfdc, size 0x1ac, virtual false, abstract: false, final false
-  inline void CookedCallback(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, bool success, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* outputList);
+/// @brief Method CookedCallback, addr 0x3982538, size 0x1ac, virtual false, abstract: false, final false
+inline void CookedCallback(::HoudiniEngineUnity::HEU_HoudiniAsset*  asset, bool  success, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>*  outputList) ;
 
-  static inline ::GlobalNamespace::HEU_AssetEventReceiverTest* New_ctor();
+static inline ::GlobalNamespace::HEU_AssetEventReceiverTest* New_ctor() ;
 
-  /// @brief Method ReloadCallback, addr 0x255de30, size 0x1ac, virtual false, abstract: false, final false
-  inline void ReloadCallback(::HoudiniEngineUnity::HEU_HoudiniAsset* asset, bool success, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* outputList);
+/// @brief Method ReloadCallback, addr 0x398238c, size 0x1ac, virtual false, abstract: false, final false
+inline void ReloadCallback(::HoudiniEngineUnity::HEU_HoudiniAsset*  asset, bool  success, ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>*  outputList) ;
 
-  /// @brief Method .ctor, addr 0x255e334, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x3982890, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HEU_AssetEventReceiverTest();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr HEU_AssetEventReceiverTest() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HEU_AssetEventReceiverTest", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  HEU_AssetEventReceiverTest(HEU_AssetEventReceiverTest&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HEU_AssetEventReceiverTest", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  HEU_AssetEventReceiverTest(HEU_AssetEventReceiverTest const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "HEU_AssetEventReceiverTest", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+HEU_AssetEventReceiverTest(HEU_AssetEventReceiverTest && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "HEU_AssetEventReceiverTest", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+HEU_AssetEventReceiverTest(HEU_AssetEventReceiverTest const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::HEU_AssetEventReceiverTest, 0x18>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::HEU_AssetEventReceiverTest, 0x20>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::HEU_AssetEventReceiverTest);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::HEU_AssetEventReceiverTest*, "", "HEU_AssetEventReceiverTest");

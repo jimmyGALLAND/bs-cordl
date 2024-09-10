@@ -22,52 +22,52 @@ class CustomAttributeFormatException;
 // Write type traits
 MARK_REF_PTR_T(::System::Reflection::CustomAttributeFormatException);
 // Type: System.Reflection::CustomAttributeFormatException
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Reflection {
 // Is value type: false
 // CS Name: ::System.Reflection::CustomAttributeFormatException*
 class CORDL_TYPE CustomAttributeFormatException : public ::System::FormatException {
 public:
-  // Declarations
-  static inline ::System::Reflection::CustomAttributeFormatException* New_ctor();
+// Declarations
+static inline ::System::Reflection::CustomAttributeFormatException* New_ctor() ;
 
-  static inline ::System::Reflection::CustomAttributeFormatException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
+static inline ::System::Reflection::CustomAttributeFormatException* New_ctor(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context) ;
 
-  static inline ::System::Reflection::CustomAttributeFormatException* New_ctor(::StringW message);
+static inline ::System::Reflection::CustomAttributeFormatException* New_ctor(::StringW  message) ;
 
-  static inline ::System::Reflection::CustomAttributeFormatException* New_ctor(::StringW message, ::System::Exception* inner);
+static inline ::System::Reflection::CustomAttributeFormatException* New_ctor(::StringW  message, ::System::Exception*  inner) ;
 
-  /// @brief Method .ctor, addr 0x2893cd4, size 0x60, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x3c916b0, size 0x60, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method .ctor, addr 0x2893d80, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
+/// @brief Method .ctor, addr 0x3c9175c, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context) ;
 
-  /// @brief Method .ctor, addr 0x2893d34, size 0x28, virtual false, abstract: false, final false
-  inline void _ctor(::StringW message);
+/// @brief Method .ctor, addr 0x3c91710, size 0x28, virtual false, abstract: false, final false
+inline void _ctor(::StringW  message) ;
 
-  /// @brief Method .ctor, addr 0x2893d5c, size 0x24, virtual false, abstract: false, final false
-  inline void _ctor(::StringW message, ::System::Exception* inner);
+/// @brief Method .ctor, addr 0x3c91738, size 0x24, virtual false, abstract: false, final false
+inline void _ctor(::StringW  message, ::System::Exception*  inner) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CustomAttributeFormatException();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr CustomAttributeFormatException() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CustomAttributeFormatException", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  CustomAttributeFormatException(CustomAttributeFormatException&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CustomAttributeFormatException", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  CustomAttributeFormatException(CustomAttributeFormatException const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "CustomAttributeFormatException", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+CustomAttributeFormatException(CustomAttributeFormatException && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "CustomAttributeFormatException", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+CustomAttributeFormatException(CustomAttributeFormatException const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Reflection::CustomAttributeFormatException, 0x90>, "Size mismatch!");
 
-} // namespace System::Reflection
+} // namespace end def System::Reflection
 NEED_NO_BOX(::System::Reflection::CustomAttributeFormatException);
 DEFINE_IL2CPP_ARG_TYPE(::System::Reflection::CustomAttributeFormatException*, "System.Reflection", "CustomAttributeFormatException");

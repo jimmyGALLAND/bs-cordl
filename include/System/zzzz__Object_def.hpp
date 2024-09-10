@@ -18,70 +18,70 @@ class Object;
 // Write type traits
 MARK_REF_PTR_T(::System::Object);
 // Type: System::Object
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
 // CS Name: ::System::Object*
 class CORDL_TYPE Object : public Il2CppObject {
 public:
-  // Declarations
-  /// @brief Method Equals, addr 0x29b4cb4, size 0xc, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* obj);
+// Declarations
+/// @brief Method Equals, addr 0x3daaa58, size 0xc, virtual true, abstract: false, final false
+inline bool Equals(::System::Object*  obj) ;
 
-  /// @brief Method Equals, addr 0x29b4cc0, size 0x2c, virtual false, abstract: false, final false
-  static inline bool Equals(::System::Object* objA, ::System::Object* objB);
+/// @brief Method Equals, addr 0x3daaa64, size 0x2c, virtual false, abstract: false, final false
+static inline bool Equals(::System::Object*  objA, ::System::Object*  objB) ;
 
-  /// @brief Method FieldGetter, addr 0x29b4d24, size 0x4, virtual false, abstract: false, final false
-  inline void FieldGetter(::StringW typeName, ::StringW fieldName, ByRef<::System::Object*> val);
+/// @brief Method FieldGetter, addr 0x3daaac8, size 0x4, virtual false, abstract: false, final false
+inline void FieldGetter(::StringW  typeName, ::StringW  fieldName, ByRef<::System::Object*>  val) ;
 
-  /// @brief Method FieldSetter, addr 0x29b4d28, size 0x4, virtual false, abstract: false, final false
-  inline void FieldSetter(::StringW typeName, ::StringW fieldName, ::System::Object* val);
+/// @brief Method FieldSetter, addr 0x3daaacc, size 0x4, virtual false, abstract: false, final false
+inline void FieldSetter(::StringW  typeName, ::StringW  fieldName, ::System::Object*  val) ;
 
-  /// @brief Method Finalize, addr 0x29b4cec, size 0x4, virtual true, abstract: false, final false
-  inline void Finalize();
+/// @brief Method Finalize, addr 0x3daaa90, size 0x4, virtual true, abstract: false, final false
+inline void Finalize() ;
 
-  /// @brief Method GetHashCode, addr 0x29b4cf0, size 0x4, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
+/// @brief Method GetHashCode, addr 0x3daaa94, size 0x4, virtual true, abstract: false, final false
+inline int32_t GetHashCode() ;
 
-  /// @brief Method GetType, addr 0x29a8030, size 0x4, virtual false, abstract: false, final false
-  inline ::System::Type* GetType();
+/// @brief Method GetType, addr 0x3d9db34, size 0x4, virtual false, abstract: false, final false
+inline ::System::Type* GetType() ;
 
-  /// @brief Method InternalGetHashCode, addr 0x29b4cf4, size 0x4, virtual false, abstract: false, final false
-  static inline int32_t InternalGetHashCode(::System::Object* o);
+/// @brief Method InternalGetHashCode, addr 0x3daaa98, size 0x4, virtual false, abstract: false, final false
+static inline int32_t InternalGetHashCode(::System::Object*  o) ;
 
-  /// @brief Method MemberwiseClone, addr 0x29af2f4, size 0x4, virtual false, abstract: false, final false
-  inline ::System::Object* MemberwiseClone();
+/// @brief Method MemberwiseClone, addr 0x3da4fe4, size 0x4, virtual false, abstract: false, final false
+inline ::System::Object* MemberwiseClone() ;
 
-  static inline ::System::Object* New_ctor();
+static inline ::System::Object* New_ctor() ;
 
-  /// @brief Method ReferenceEquals, addr 0x29b4d18, size 0xc, virtual false, abstract: false, final false
-  static inline bool ReferenceEquals(::System::Object* objA, ::System::Object* objB);
+/// @brief Method ReferenceEquals, addr 0x3daaabc, size 0xc, virtual false, abstract: false, final false
+static inline bool ReferenceEquals(::System::Object*  objA, ::System::Object*  objB) ;
 
-  /// @brief Method ToString, addr 0x29b4cf8, size 0x20, virtual true, abstract: false, final false
-  inline ::StringW ToString();
+/// @brief Method ToString, addr 0x3daaa9c, size 0x20, virtual true, abstract: false, final false
+inline ::StringW ToString() ;
 
-  /// @brief Method .ctor, addr 0x29a786c, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x3d9d3a0, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Object();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr Object() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Object", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  Object(Object&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Object", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  Object(Object const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "Object", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+Object(Object && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "Object", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+Object(Object const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Object, 0x10>, "Size mismatch!");
 
-} // namespace System
+} // namespace end def System
 NEED_NO_BOX(::System::Object);
 DEFINE_IL2CPP_ARG_TYPE(::System::Object*, "System", "Object");

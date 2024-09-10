@@ -9,7 +9,8 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(SubContainerCreatorByNewPrefabWithParams)
 namespace System::Collections::Generic {
-template <typename T> class List_1;
+template<typename T>
+class List_1;
 }
 namespace System {
 class Object;
@@ -55,160 +56,159 @@ class __SubContainerCreatorByNewPrefabWithParams____c__DisplayClass7_0;
 MARK_REF_PTR_T(::Zenject::SubContainerCreatorByNewPrefabWithParams);
 MARK_REF_PTR_T(::Zenject::__SubContainerCreatorByNewPrefabWithParams____c__DisplayClass7_0);
 // Type: ::<>c__DisplayClass7_0
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
 // CS Name: ::SubContainerCreatorByNewPrefabWithParams::<>c__DisplayClass7_0*
 class CORDL_TYPE __SubContainerCreatorByNewPrefabWithParams____c__DisplayClass7_0 : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field argPair, offset 0x10, size 0x10
-  __declspec(property(get = __cordl_internal_get_argPair, put = __cordl_internal_set_argPair))::Zenject::TypeValuePair argPair;
+// Declarations
+/// @brief Field argPair, offset 0x10, size 0x10 
+ __declspec(property(get=__cordl_internal_get_argPair, put=__cordl_internal_set_argPair)) ::Zenject::TypeValuePair  argPair;
 
-  static inline ::Zenject::__SubContainerCreatorByNewPrefabWithParams____c__DisplayClass7_0* New_ctor();
+static inline ::Zenject::__SubContainerCreatorByNewPrefabWithParams____c__DisplayClass7_0* New_ctor() ;
 
-  /// @brief Method <CreateTempContainer>b__0, addr 0x36a43b8, size 0x70, virtual false, abstract: false, final false
-  inline bool _CreateTempContainer_b__0(::Zenject::InjectableInfo* x);
+/// @brief Method <CreateTempContainer>b__0, addr 0x4aacaa8, size 0x70, virtual false, abstract: false, final false
+inline bool _CreateTempContainer_b__0(::Zenject::InjectableInfo*  x) ;
 
-  /// @brief Method <CreateTempContainer>b__1, addr 0x36a4428, size 0x20, virtual false, abstract: false, final false
-  inline int32_t _CreateTempContainer_b__1(::Zenject::InjectableInfo* x);
+/// @brief Method <CreateTempContainer>b__1, addr 0x4aacb18, size 0x20, virtual false, abstract: false, final false
+inline int32_t _CreateTempContainer_b__1(::Zenject::InjectableInfo*  x) ;
 
-  constexpr ::Zenject::TypeValuePair const& __cordl_internal_get_argPair() const;
+constexpr ::Zenject::TypeValuePair const& __cordl_internal_get_argPair() const;
 
-  constexpr ::Zenject::TypeValuePair& __cordl_internal_get_argPair();
+constexpr ::Zenject::TypeValuePair& __cordl_internal_get_argPair() ;
 
-  constexpr void __cordl_internal_set_argPair(::Zenject::TypeValuePair value);
+constexpr void __cordl_internal_set_argPair(::Zenject::TypeValuePair  value) ;
 
-  /// @brief Method __zenCreate, addr 0x36a4448, size 0x5c, virtual false, abstract: false, final false
-  static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
+/// @brief Method __zenCreate, addr 0x4aacb38, size 0x54, virtual false, abstract: false, final false
+static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*,::Array<::System::Object*>*>  P_0) ;
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x36a44a4, size 0x1c0, virtual false, abstract: false, final false
-  static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
+/// @brief Method __zenCreateInjectTypeInfo, addr 0x4aacb8c, size 0x1b8, virtual false, abstract: false, final false
+static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo() ;
 
-  /// @brief Method .ctor, addr 0x36a4204, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x4aac8f4, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __SubContainerCreatorByNewPrefabWithParams____c__DisplayClass7_0();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __SubContainerCreatorByNewPrefabWithParams____c__DisplayClass7_0() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__SubContainerCreatorByNewPrefabWithParams____c__DisplayClass7_0", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __SubContainerCreatorByNewPrefabWithParams____c__DisplayClass7_0(__SubContainerCreatorByNewPrefabWithParams____c__DisplayClass7_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__SubContainerCreatorByNewPrefabWithParams____c__DisplayClass7_0", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __SubContainerCreatorByNewPrefabWithParams____c__DisplayClass7_0(__SubContainerCreatorByNewPrefabWithParams____c__DisplayClass7_0 const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__SubContainerCreatorByNewPrefabWithParams____c__DisplayClass7_0", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__SubContainerCreatorByNewPrefabWithParams____c__DisplayClass7_0(__SubContainerCreatorByNewPrefabWithParams____c__DisplayClass7_0 && ) = delete;
 
-  /// @brief Field argPair, offset: 0x10, size: 0x10, def value: None
-  ::Zenject::TypeValuePair ___argPair;
+// Ctor Parameters [CppParam { name: "", ty: "__SubContainerCreatorByNewPrefabWithParams____c__DisplayClass7_0", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__SubContainerCreatorByNewPrefabWithParams____c__DisplayClass7_0(__SubContainerCreatorByNewPrefabWithParams____c__DisplayClass7_0 const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field argPair, offset: 0x10, size: 0x10, def value: None
+ ::Zenject::TypeValuePair  ___argPair;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Zenject::__SubContainerCreatorByNewPrefabWithParams____c__DisplayClass7_0, 0x20>, "Size mismatch!");
 
 static_assert(offsetof(::Zenject::__SubContainerCreatorByNewPrefabWithParams____c__DisplayClass7_0, ___argPair) == 0x10, "Offset mismatch!");
 
-} // namespace Zenject
+} // namespace end def Zenject
 // Type: Zenject::SubContainerCreatorByNewPrefabWithParams
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
 // CS Name: ::Zenject::SubContainerCreatorByNewPrefabWithParams*
 class CORDL_TYPE SubContainerCreatorByNewPrefabWithParams : public ::System::Object {
 public:
-  // Declarations
-  using __c__DisplayClass7_0 = ::Zenject::__SubContainerCreatorByNewPrefabWithParams____c__DisplayClass7_0;
+// Declarations
+using __c__DisplayClass7_0 = ::Zenject::__SubContainerCreatorByNewPrefabWithParams____c__DisplayClass7_0;
 
-  __declspec(property(get = get_Container))::Zenject::DiContainer* Container;
+ __declspec(property(get=get_Container)) ::Zenject::DiContainer*  Container;
 
-  /// @brief Field _container, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__container, put = __cordl_internal_set__container))::Zenject::DiContainer* _container;
+/// @brief Field _container, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get__container, put=__cordl_internal_set__container)) ::Zenject::DiContainer*  _container;
 
-  /// @brief Field _gameObjectBindInfo, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__gameObjectBindInfo, put = __cordl_internal_set__gameObjectBindInfo))::Zenject::GameObjectCreationParameters* _gameObjectBindInfo;
+/// @brief Field _gameObjectBindInfo, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get__gameObjectBindInfo, put=__cordl_internal_set__gameObjectBindInfo)) ::Zenject::GameObjectCreationParameters*  _gameObjectBindInfo;
 
-  /// @brief Field _installerType, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__installerType, put = __cordl_internal_set__installerType))::System::Type* _installerType;
+/// @brief Field _installerType, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get__installerType, put=__cordl_internal_set__installerType)) ::System::Type*  _installerType;
 
-  /// @brief Field _prefabProvider, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__prefabProvider, put = __cordl_internal_set__prefabProvider))::Zenject::IPrefabProvider* _prefabProvider;
+/// @brief Field _prefabProvider, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get__prefabProvider, put=__cordl_internal_set__prefabProvider)) ::Zenject::IPrefabProvider*  _prefabProvider;
 
-  /// @brief Convert operator to "::Zenject::ISubContainerCreator"
-  constexpr operator ::Zenject::ISubContainerCreator*() noexcept;
+/// @brief Convert operator to "::Zenject::ISubContainerCreator"
+constexpr operator  ::Zenject::ISubContainerCreator*() noexcept;
 
-  /// @brief Method CreateSubContainer, addr 0x36a420c, size 0x1ac, virtual true, abstract: false, final true
-  inline ::Zenject::DiContainer* CreateSubContainer(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args, ::Zenject::InjectContext* parentContext);
+/// @brief Method CreateSubContainer, addr 0x4aac8fc, size 0x1ac, virtual true, abstract: false, final true
+inline ::Zenject::DiContainer* CreateSubContainer(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*  args, ::Zenject::InjectContext*  parentContext) ;
 
-  /// @brief Method CreateTempContainer, addr 0x36a3ce4, size 0x49c, virtual false, abstract: false, final false
-  inline ::Zenject::DiContainer* CreateTempContainer(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>* args);
+/// @brief Method CreateTempContainer, addr 0x4aac3f8, size 0x478, virtual false, abstract: false, final false
+inline ::Zenject::DiContainer* CreateTempContainer(::System::Collections::Generic::List_1<::Zenject::TypeValuePair>*  args) ;
 
-  static inline ::Zenject::SubContainerCreatorByNewPrefabWithParams* New_ctor(::System::Type* installerType, ::Zenject::DiContainer* container, ::Zenject::IPrefabProvider* prefabProvider,
-                                                                              ::Zenject::GameObjectCreationParameters* gameObjectBindInfo);
+static inline ::Zenject::SubContainerCreatorByNewPrefabWithParams* New_ctor(::System::Type*  installerType, ::Zenject::DiContainer*  container, ::Zenject::IPrefabProvider*  prefabProvider, ::Zenject::GameObjectCreationParameters*  gameObjectBindInfo) ;
 
-  constexpr ::Zenject::DiContainer*& __cordl_internal_get__container();
+constexpr ::Zenject::DiContainer*& __cordl_internal_get__container() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __cordl_internal_get__container() const;
+constexpr ::cordl_internals::to_const_pointer<::Zenject::DiContainer*> const& __cordl_internal_get__container() const;
 
-  constexpr ::Zenject::GameObjectCreationParameters*& __cordl_internal_get__gameObjectBindInfo();
+constexpr ::Zenject::GameObjectCreationParameters*& __cordl_internal_get__gameObjectBindInfo() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::GameObjectCreationParameters*> const& __cordl_internal_get__gameObjectBindInfo() const;
+constexpr ::cordl_internals::to_const_pointer<::Zenject::GameObjectCreationParameters*> const& __cordl_internal_get__gameObjectBindInfo() const;
 
-  constexpr ::System::Type*& __cordl_internal_get__installerType();
+constexpr ::System::Type*& __cordl_internal_get__installerType() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get__installerType() const;
+constexpr ::cordl_internals::to_const_pointer<::System::Type*> const& __cordl_internal_get__installerType() const;
 
-  constexpr ::Zenject::IPrefabProvider*& __cordl_internal_get__prefabProvider();
+constexpr ::Zenject::IPrefabProvider*& __cordl_internal_get__prefabProvider() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::Zenject::IPrefabProvider*> const& __cordl_internal_get__prefabProvider() const;
+constexpr ::cordl_internals::to_const_pointer<::Zenject::IPrefabProvider*> const& __cordl_internal_get__prefabProvider() const;
 
-  constexpr void __cordl_internal_set__container(::Zenject::DiContainer* value);
+constexpr void __cordl_internal_set__container(::Zenject::DiContainer*  value) ;
 
-  constexpr void __cordl_internal_set__gameObjectBindInfo(::Zenject::GameObjectCreationParameters* value);
+constexpr void __cordl_internal_set__gameObjectBindInfo(::Zenject::GameObjectCreationParameters*  value) ;
 
-  constexpr void __cordl_internal_set__installerType(::System::Type* value);
+constexpr void __cordl_internal_set__installerType(::System::Type*  value) ;
 
-  constexpr void __cordl_internal_set__prefabProvider(::Zenject::IPrefabProvider* value);
+constexpr void __cordl_internal_set__prefabProvider(::Zenject::IPrefabProvider*  value) ;
 
-  /// @brief Method .ctor, addr 0x36a3c9c, size 0x40, virtual false, abstract: false, final false
-  inline void _ctor(::System::Type* installerType, ::Zenject::DiContainer* container, ::Zenject::IPrefabProvider* prefabProvider, ::Zenject::GameObjectCreationParameters* gameObjectBindInfo);
+/// @brief Method .ctor, addr 0x4aac3b0, size 0x40, virtual false, abstract: false, final false
+inline void _ctor(::System::Type*  installerType, ::Zenject::DiContainer*  container, ::Zenject::IPrefabProvider*  prefabProvider, ::Zenject::GameObjectCreationParameters*  gameObjectBindInfo) ;
 
-  /// @brief Method get_Container, addr 0x36a3cdc, size 0x8, virtual false, abstract: false, final false
-  inline ::Zenject::DiContainer* get_Container();
+/// @brief Method get_Container, addr 0x4aac3f0, size 0x8, virtual false, abstract: false, final false
+inline ::Zenject::DiContainer* get_Container() ;
 
-  /// @brief Convert to "::Zenject::ISubContainerCreator"
-  constexpr ::Zenject::ISubContainerCreator* i___Zenject__ISubContainerCreator() noexcept;
+/// @brief Convert to "::Zenject::ISubContainerCreator"
+constexpr ::Zenject::ISubContainerCreator* i___Zenject__ISubContainerCreator() noexcept;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SubContainerCreatorByNewPrefabWithParams();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr SubContainerCreatorByNewPrefabWithParams() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SubContainerCreatorByNewPrefabWithParams", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  SubContainerCreatorByNewPrefabWithParams(SubContainerCreatorByNewPrefabWithParams&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SubContainerCreatorByNewPrefabWithParams", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  SubContainerCreatorByNewPrefabWithParams(SubContainerCreatorByNewPrefabWithParams const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "SubContainerCreatorByNewPrefabWithParams", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+SubContainerCreatorByNewPrefabWithParams(SubContainerCreatorByNewPrefabWithParams && ) = delete;
 
-  /// @brief Field _container, offset: 0x10, size: 0x8, def value: None
-  ::Zenject::DiContainer* ____container;
+// Ctor Parameters [CppParam { name: "", ty: "SubContainerCreatorByNewPrefabWithParams", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+SubContainerCreatorByNewPrefabWithParams(SubContainerCreatorByNewPrefabWithParams const& ) = delete;
 
-  /// @brief Field _prefabProvider, offset: 0x18, size: 0x8, def value: None
-  ::Zenject::IPrefabProvider* ____prefabProvider;
+/// @brief Field _container, offset: 0x10, size: 0x8, def value: None
+ ::Zenject::DiContainer*  ____container;
 
-  /// @brief Field _installerType, offset: 0x20, size: 0x8, def value: None
-  ::System::Type* ____installerType;
+/// @brief Field _prefabProvider, offset: 0x18, size: 0x8, def value: None
+ ::Zenject::IPrefabProvider*  ____prefabProvider;
 
-  /// @brief Field _gameObjectBindInfo, offset: 0x28, size: 0x8, def value: None
-  ::Zenject::GameObjectCreationParameters* ____gameObjectBindInfo;
+/// @brief Field _installerType, offset: 0x20, size: 0x8, def value: None
+ ::System::Type*  ____installerType;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _gameObjectBindInfo, offset: 0x28, size: 0x8, def value: None
+ ::Zenject::GameObjectCreationParameters*  ____gameObjectBindInfo;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Zenject::SubContainerCreatorByNewPrefabWithParams, 0x30>, "Size mismatch!");
@@ -221,7 +221,7 @@ static_assert(offsetof(::Zenject::SubContainerCreatorByNewPrefabWithParams, ____
 
 static_assert(offsetof(::Zenject::SubContainerCreatorByNewPrefabWithParams, ____gameObjectBindInfo) == 0x28, "Offset mismatch!");
 
-} // namespace Zenject
+} // namespace end def Zenject
 NEED_NO_BOX(::Zenject::SubContainerCreatorByNewPrefabWithParams);
 DEFINE_IL2CPP_ARG_TYPE(::Zenject::SubContainerCreatorByNewPrefabWithParams*, "Zenject", "SubContainerCreatorByNewPrefabWithParams");
 NEED_NO_BOX(::Zenject::__SubContainerCreatorByNewPrefabWithParams____c__DisplayClass7_0);

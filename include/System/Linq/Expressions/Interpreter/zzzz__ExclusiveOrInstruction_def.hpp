@@ -47,136 +47,136 @@ class ExclusiveOrInstruction;
 // Write type traits
 MARK_REF_PTR_T(::System::Linq::Expressions::Interpreter::ExclusiveOrInstruction);
 // Type: System.Linq.Expressions.Interpreter::ExclusiveOrInstruction
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Linq::Expressions::Interpreter {
 // Is value type: false
 // CS Name: ::System.Linq.Expressions.Interpreter::ExclusiveOrInstruction*
 class CORDL_TYPE ExclusiveOrInstruction : public ::System::Linq::Expressions::Interpreter::Instruction {
 public:
-  // Declarations
-  using ExclusiveOrBoolean = ::System::Linq::Expressions::Interpreter::__ExclusiveOrInstruction__ExclusiveOrBoolean;
+// Declarations
+using ExclusiveOrBoolean = ::System::Linq::Expressions::Interpreter::__ExclusiveOrInstruction__ExclusiveOrBoolean;
 
-  using ExclusiveOrByte = ::System::Linq::Expressions::Interpreter::__ExclusiveOrInstruction__ExclusiveOrByte;
+using ExclusiveOrByte = ::System::Linq::Expressions::Interpreter::__ExclusiveOrInstruction__ExclusiveOrByte;
 
-  using ExclusiveOrInt16 = ::System::Linq::Expressions::Interpreter::__ExclusiveOrInstruction__ExclusiveOrInt16;
+using ExclusiveOrInt16 = ::System::Linq::Expressions::Interpreter::__ExclusiveOrInstruction__ExclusiveOrInt16;
 
-  using ExclusiveOrInt32 = ::System::Linq::Expressions::Interpreter::__ExclusiveOrInstruction__ExclusiveOrInt32;
+using ExclusiveOrInt32 = ::System::Linq::Expressions::Interpreter::__ExclusiveOrInstruction__ExclusiveOrInt32;
 
-  using ExclusiveOrInt64 = ::System::Linq::Expressions::Interpreter::__ExclusiveOrInstruction__ExclusiveOrInt64;
+using ExclusiveOrInt64 = ::System::Linq::Expressions::Interpreter::__ExclusiveOrInstruction__ExclusiveOrInt64;
 
-  using ExclusiveOrSByte = ::System::Linq::Expressions::Interpreter::__ExclusiveOrInstruction__ExclusiveOrSByte;
+using ExclusiveOrSByte = ::System::Linq::Expressions::Interpreter::__ExclusiveOrInstruction__ExclusiveOrSByte;
 
-  using ExclusiveOrUInt16 = ::System::Linq::Expressions::Interpreter::__ExclusiveOrInstruction__ExclusiveOrUInt16;
+using ExclusiveOrUInt16 = ::System::Linq::Expressions::Interpreter::__ExclusiveOrInstruction__ExclusiveOrUInt16;
 
-  using ExclusiveOrUInt32 = ::System::Linq::Expressions::Interpreter::__ExclusiveOrInstruction__ExclusiveOrUInt32;
+using ExclusiveOrUInt32 = ::System::Linq::Expressions::Interpreter::__ExclusiveOrInstruction__ExclusiveOrUInt32;
 
-  using ExclusiveOrUInt64 = ::System::Linq::Expressions::Interpreter::__ExclusiveOrInstruction__ExclusiveOrUInt64;
+using ExclusiveOrUInt64 = ::System::Linq::Expressions::Interpreter::__ExclusiveOrInstruction__ExclusiveOrUInt64;
 
-  __declspec(property(get = get_ConsumedStack)) int32_t ConsumedStack;
+ __declspec(property(get=get_ConsumedStack)) int32_t  ConsumedStack;
 
-  __declspec(property(get = get_InstructionName))::StringW InstructionName;
+ __declspec(property(get=get_InstructionName)) ::StringW  InstructionName;
 
-  __declspec(property(get = get_ProducedStack)) int32_t ProducedStack;
+ __declspec(property(get=get_ProducedStack)) int32_t  ProducedStack;
 
-  /// @brief Field s_Boolean, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_Boolean, put = setStaticF_s_Boolean))::System::Linq::Expressions::Interpreter::Instruction* s_Boolean;
+/// @brief Field s_Boolean, offset 0xffffffff, size 0x8 
+static __declspec(property(get=getStaticF_s_Boolean, put=setStaticF_s_Boolean)) ::System::Linq::Expressions::Interpreter::Instruction*  s_Boolean;
 
-  /// @brief Field s_Byte, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_Byte, put = setStaticF_s_Byte))::System::Linq::Expressions::Interpreter::Instruction* s_Byte;
+/// @brief Field s_Byte, offset 0xffffffff, size 0x8 
+static __declspec(property(get=getStaticF_s_Byte, put=setStaticF_s_Byte)) ::System::Linq::Expressions::Interpreter::Instruction*  s_Byte;
 
-  /// @brief Field s_Int16, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_Int16, put = setStaticF_s_Int16))::System::Linq::Expressions::Interpreter::Instruction* s_Int16;
+/// @brief Field s_Int16, offset 0xffffffff, size 0x8 
+static __declspec(property(get=getStaticF_s_Int16, put=setStaticF_s_Int16)) ::System::Linq::Expressions::Interpreter::Instruction*  s_Int16;
 
-  /// @brief Field s_Int32, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_Int32, put = setStaticF_s_Int32))::System::Linq::Expressions::Interpreter::Instruction* s_Int32;
+/// @brief Field s_Int32, offset 0xffffffff, size 0x8 
+static __declspec(property(get=getStaticF_s_Int32, put=setStaticF_s_Int32)) ::System::Linq::Expressions::Interpreter::Instruction*  s_Int32;
 
-  /// @brief Field s_Int64, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_Int64, put = setStaticF_s_Int64))::System::Linq::Expressions::Interpreter::Instruction* s_Int64;
+/// @brief Field s_Int64, offset 0xffffffff, size 0x8 
+static __declspec(property(get=getStaticF_s_Int64, put=setStaticF_s_Int64)) ::System::Linq::Expressions::Interpreter::Instruction*  s_Int64;
 
-  /// @brief Field s_SByte, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_SByte, put = setStaticF_s_SByte))::System::Linq::Expressions::Interpreter::Instruction* s_SByte;
+/// @brief Field s_SByte, offset 0xffffffff, size 0x8 
+static __declspec(property(get=getStaticF_s_SByte, put=setStaticF_s_SByte)) ::System::Linq::Expressions::Interpreter::Instruction*  s_SByte;
 
-  /// @brief Field s_UInt16, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_UInt16, put = setStaticF_s_UInt16))::System::Linq::Expressions::Interpreter::Instruction* s_UInt16;
+/// @brief Field s_UInt16, offset 0xffffffff, size 0x8 
+static __declspec(property(get=getStaticF_s_UInt16, put=setStaticF_s_UInt16)) ::System::Linq::Expressions::Interpreter::Instruction*  s_UInt16;
 
-  /// @brief Field s_UInt32, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_UInt32, put = setStaticF_s_UInt32))::System::Linq::Expressions::Interpreter::Instruction* s_UInt32;
+/// @brief Field s_UInt32, offset 0xffffffff, size 0x8 
+static __declspec(property(get=getStaticF_s_UInt32, put=setStaticF_s_UInt32)) ::System::Linq::Expressions::Interpreter::Instruction*  s_UInt32;
 
-  /// @brief Field s_UInt64, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_UInt64, put = setStaticF_s_UInt64))::System::Linq::Expressions::Interpreter::Instruction* s_UInt64;
+/// @brief Field s_UInt64, offset 0xffffffff, size 0x8 
+static __declspec(property(get=getStaticF_s_UInt64, put=setStaticF_s_UInt64)) ::System::Linq::Expressions::Interpreter::Instruction*  s_UInt64;
 
-  /// @brief Method Create, addr 0x2c4e044, size 0x3a0, virtual false, abstract: false, final false
-  static inline ::System::Linq::Expressions::Interpreter::Instruction* Create(::System::Type* type);
+/// @brief Method Create, addr 0x40374f4, size 0x3b8, virtual false, abstract: false, final false
+static inline ::System::Linq::Expressions::Interpreter::Instruction* Create(::System::Type*  type) ;
 
-  static inline ::System::Linq::Expressions::Interpreter::ExclusiveOrInstruction* New_ctor();
+static inline ::System::Linq::Expressions::Interpreter::ExclusiveOrInstruction* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x2c4e03c, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x40374ec, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  static inline ::System::Linq::Expressions::Interpreter::Instruction* getStaticF_s_Boolean();
+static inline ::System::Linq::Expressions::Interpreter::Instruction* getStaticF_s_Boolean() ;
 
-  static inline ::System::Linq::Expressions::Interpreter::Instruction* getStaticF_s_Byte();
+static inline ::System::Linq::Expressions::Interpreter::Instruction* getStaticF_s_Byte() ;
 
-  static inline ::System::Linq::Expressions::Interpreter::Instruction* getStaticF_s_Int16();
+static inline ::System::Linq::Expressions::Interpreter::Instruction* getStaticF_s_Int16() ;
 
-  static inline ::System::Linq::Expressions::Interpreter::Instruction* getStaticF_s_Int32();
+static inline ::System::Linq::Expressions::Interpreter::Instruction* getStaticF_s_Int32() ;
 
-  static inline ::System::Linq::Expressions::Interpreter::Instruction* getStaticF_s_Int64();
+static inline ::System::Linq::Expressions::Interpreter::Instruction* getStaticF_s_Int64() ;
 
-  static inline ::System::Linq::Expressions::Interpreter::Instruction* getStaticF_s_SByte();
+static inline ::System::Linq::Expressions::Interpreter::Instruction* getStaticF_s_SByte() ;
 
-  static inline ::System::Linq::Expressions::Interpreter::Instruction* getStaticF_s_UInt16();
+static inline ::System::Linq::Expressions::Interpreter::Instruction* getStaticF_s_UInt16() ;
 
-  static inline ::System::Linq::Expressions::Interpreter::Instruction* getStaticF_s_UInt32();
+static inline ::System::Linq::Expressions::Interpreter::Instruction* getStaticF_s_UInt32() ;
 
-  static inline ::System::Linq::Expressions::Interpreter::Instruction* getStaticF_s_UInt64();
+static inline ::System::Linq::Expressions::Interpreter::Instruction* getStaticF_s_UInt64() ;
 
-  /// @brief Method get_ConsumedStack, addr 0x2c4dfec, size 0x8, virtual true, abstract: false, final false
-  inline int32_t get_ConsumedStack();
+/// @brief Method get_ConsumedStack, addr 0x403749c, size 0x8, virtual true, abstract: false, final false
+inline int32_t get_ConsumedStack() ;
 
-  /// @brief Method get_InstructionName, addr 0x2c4dffc, size 0x40, virtual true, abstract: false, final false
-  inline ::StringW get_InstructionName();
+/// @brief Method get_InstructionName, addr 0x40374ac, size 0x40, virtual true, abstract: false, final false
+inline ::StringW get_InstructionName() ;
 
-  /// @brief Method get_ProducedStack, addr 0x2c4dff4, size 0x8, virtual true, abstract: false, final false
-  inline int32_t get_ProducedStack();
+/// @brief Method get_ProducedStack, addr 0x40374a4, size 0x8, virtual true, abstract: false, final false
+inline int32_t get_ProducedStack() ;
 
-  static inline void setStaticF_s_Boolean(::System::Linq::Expressions::Interpreter::Instruction* value);
+static inline void setStaticF_s_Boolean(::System::Linq::Expressions::Interpreter::Instruction*  value) ;
 
-  static inline void setStaticF_s_Byte(::System::Linq::Expressions::Interpreter::Instruction* value);
+static inline void setStaticF_s_Byte(::System::Linq::Expressions::Interpreter::Instruction*  value) ;
 
-  static inline void setStaticF_s_Int16(::System::Linq::Expressions::Interpreter::Instruction* value);
+static inline void setStaticF_s_Int16(::System::Linq::Expressions::Interpreter::Instruction*  value) ;
 
-  static inline void setStaticF_s_Int32(::System::Linq::Expressions::Interpreter::Instruction* value);
+static inline void setStaticF_s_Int32(::System::Linq::Expressions::Interpreter::Instruction*  value) ;
 
-  static inline void setStaticF_s_Int64(::System::Linq::Expressions::Interpreter::Instruction* value);
+static inline void setStaticF_s_Int64(::System::Linq::Expressions::Interpreter::Instruction*  value) ;
 
-  static inline void setStaticF_s_SByte(::System::Linq::Expressions::Interpreter::Instruction* value);
+static inline void setStaticF_s_SByte(::System::Linq::Expressions::Interpreter::Instruction*  value) ;
 
-  static inline void setStaticF_s_UInt16(::System::Linq::Expressions::Interpreter::Instruction* value);
+static inline void setStaticF_s_UInt16(::System::Linq::Expressions::Interpreter::Instruction*  value) ;
 
-  static inline void setStaticF_s_UInt32(::System::Linq::Expressions::Interpreter::Instruction* value);
+static inline void setStaticF_s_UInt32(::System::Linq::Expressions::Interpreter::Instruction*  value) ;
 
-  static inline void setStaticF_s_UInt64(::System::Linq::Expressions::Interpreter::Instruction* value);
+static inline void setStaticF_s_UInt64(::System::Linq::Expressions::Interpreter::Instruction*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ExclusiveOrInstruction();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ExclusiveOrInstruction() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ExclusiveOrInstruction", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ExclusiveOrInstruction(ExclusiveOrInstruction&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ExclusiveOrInstruction", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ExclusiveOrInstruction(ExclusiveOrInstruction const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ExclusiveOrInstruction", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ExclusiveOrInstruction(ExclusiveOrInstruction && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "ExclusiveOrInstruction", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ExclusiveOrInstruction(ExclusiveOrInstruction const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Interpreter::ExclusiveOrInstruction, 0x10>, "Size mismatch!");
 
-} // namespace System::Linq::Expressions::Interpreter
+} // namespace end def System::Linq::Expressions::Interpreter
 NEED_NO_BOX(::System::Linq::Expressions::Interpreter::ExclusiveOrInstruction);
 DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::Interpreter::ExclusiveOrInstruction*, "System.Linq.Expressions.Interpreter", "ExclusiveOrInstruction");

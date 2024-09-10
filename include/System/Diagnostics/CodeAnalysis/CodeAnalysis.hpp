@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "System/Diagnostics/CodeAnalysis/AllowNullAttribute.hpp"
 #include "System/Diagnostics/CodeAnalysis/DoesNotReturnIfAttribute.hpp"
@@ -10,5 +10,6 @@ module;
 #include "System/Diagnostics/CodeAnalysis/NotNullAttribute.hpp"
 #include "System/Diagnostics/CodeAnalysis/NotNullWhenAttribute.hpp"
 #ifdef __cpp_modules
-export module CodeAnalysis;
-#endif
+                    export module CodeAnalysis;
+                    #endif
+                

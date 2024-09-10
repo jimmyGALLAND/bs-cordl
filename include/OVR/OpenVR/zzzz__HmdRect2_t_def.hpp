@@ -16,31 +16,30 @@ struct HmdRect2_t;
 // Write type traits
 MARK_VAL_T(::OVR::OpenVR::HmdRect2_t);
 // Type: OVR.OpenVR::HmdRect2_t
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
 // CS Name: ::OVR.OpenVR::HmdRect2_t
 struct CORDL_TYPE HmdRect2_t {
 public:
-  // Declarations
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HmdRect2_t();
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr HmdRect2_t() ;
 
-  // Ctor Parameters [CppParam { name: "vTopLeft", ty: "::OVR::OpenVR::HmdVector2_t", modifiers: "", def_value: None }, CppParam { name: "vBottomRight", ty: "::OVR::OpenVR::HmdVector2_t", modifiers:
-  // "", def_value: None }]
-  constexpr HmdRect2_t(::OVR::OpenVR::HmdVector2_t vTopLeft, ::OVR::OpenVR::HmdVector2_t vBottomRight) noexcept;
+// Ctor Parameters [CppParam { name: "vTopLeft", ty: "::OVR::OpenVR::HmdVector2_t", modifiers: "", def_value: None }, CppParam { name: "vBottomRight", ty: "::OVR::OpenVR::HmdVector2_t", modifiers: "", def_value: None }]
+constexpr HmdRect2_t(::OVR::OpenVR::HmdVector2_t  vTopLeft, ::OVR::OpenVR::HmdVector2_t  vBottomRight) noexcept;
 
-  /// @brief Field vTopLeft, offset: 0x0, size: 0x8, def value: None
-  ::OVR::OpenVR::HmdVector2_t vTopLeft;
+/// @brief Field vTopLeft, offset: 0x0, size: 0x8, def value: None
+ ::OVR::OpenVR::HmdVector2_t  vTopLeft;
 
-  /// @brief Field vBottomRight, offset: 0x8, size: 0x8, def value: None
-  ::OVR::OpenVR::HmdVector2_t vBottomRight;
+/// @brief Field vBottomRight, offset: 0x8, size: 0x8, def value: None
+ ::OVR::OpenVR::HmdVector2_t  vBottomRight;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x10};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::HmdRect2_t, 0x10>, "Size mismatch!");
@@ -49,5 +48,5 @@ static_assert(offsetof(::OVR::OpenVR::HmdRect2_t, vTopLeft) == 0x0, "Offset mism
 
 static_assert(offsetof(::OVR::OpenVR::HmdRect2_t, vBottomRight) == 0x8, "Offset mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::HmdRect2_t, "OVR.OpenVR", "HmdRect2_t");

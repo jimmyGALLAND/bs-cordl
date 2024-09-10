@@ -11,10 +11,12 @@ namespace GlobalNamespace {
 class SongPackMasksModelItem;
 }
 namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
+template<typename T>
+class IReadOnlyList_1;
 }
 namespace System::Collections::Generic {
-template <typename T> class List_1;
+template<typename T>
+class List_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -23,70 +25,67 @@ class SongPackMasksModelSO;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::SongPackMasksModelSO);
 // Type: ::SongPackMasksModelSO
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::SongPackMasksModelSO*
 class CORDL_TYPE SongPackMasksModelSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
-  // Declarations
-  /// @brief Field _customSongPackMaskItems, offset 0x20, size 0x8
-  __declspec(
-      property(get = __cordl_internal_get__customSongPackMaskItems,
-               put = __cordl_internal_set__customSongPackMaskItems))::ArrayW<::GlobalNamespace::SongPackMasksModelItem*, ::Array<::GlobalNamespace::SongPackMasksModelItem*>*> _customSongPackMaskItems;
+// Declarations
+/// @brief Field _customSongPackMaskItems, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get__customSongPackMaskItems, put=__cordl_internal_set__customSongPackMaskItems)) ::ArrayW<::GlobalNamespace::SongPackMasksModelItem*,::Array<::GlobalNamespace::SongPackMasksModelItem*>*>  _customSongPackMaskItems;
 
-  /// @brief Field _defaultSongPackMaskItems, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__defaultSongPackMaskItems,
-                      put = __cordl_internal_set__defaultSongPackMaskItems))::System::Collections::Generic::List_1<::StringW>* _defaultSongPackMaskItems;
+/// @brief Field _defaultSongPackMaskItems, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get__defaultSongPackMaskItems, put=__cordl_internal_set__defaultSongPackMaskItems)) ::System::Collections::Generic::List_1<::StringW>*  _defaultSongPackMaskItems;
 
-  __declspec(property(get = get_customSongPackMaskItems))::ArrayW<::GlobalNamespace::SongPackMasksModelItem*, ::Array<::GlobalNamespace::SongPackMasksModelItem*>*> customSongPackMaskItems;
+ __declspec(property(get=get_customSongPackMaskItems)) ::ArrayW<::GlobalNamespace::SongPackMasksModelItem*,::Array<::GlobalNamespace::SongPackMasksModelItem*>*>  customSongPackMaskItems;
 
-  __declspec(property(get = get_defaultSongPackMaskItems))::System::Collections::Generic::IReadOnlyList_1<::StringW>* defaultSongPackMaskItems;
+ __declspec(property(get=get_defaultSongPackMaskItems)) ::System::Collections::Generic::IReadOnlyList_1<::StringW>*  defaultSongPackMaskItems;
 
-  static inline ::GlobalNamespace::SongPackMasksModelSO* New_ctor();
+static inline ::GlobalNamespace::SongPackMasksModelSO* New_ctor() ;
 
-  constexpr ::ArrayW<::GlobalNamespace::SongPackMasksModelItem*, ::Array<::GlobalNamespace::SongPackMasksModelItem*>*> const& __cordl_internal_get__customSongPackMaskItems() const;
+constexpr ::ArrayW<::GlobalNamespace::SongPackMasksModelItem*,::Array<::GlobalNamespace::SongPackMasksModelItem*>*> const& __cordl_internal_get__customSongPackMaskItems() const;
 
-  constexpr ::ArrayW<::GlobalNamespace::SongPackMasksModelItem*, ::Array<::GlobalNamespace::SongPackMasksModelItem*>*>& __cordl_internal_get__customSongPackMaskItems();
+constexpr ::ArrayW<::GlobalNamespace::SongPackMasksModelItem*,::Array<::GlobalNamespace::SongPackMasksModelItem*>*>& __cordl_internal_get__customSongPackMaskItems() ;
 
-  constexpr ::System::Collections::Generic::List_1<::StringW>*& __cordl_internal_get__defaultSongPackMaskItems();
+constexpr ::System::Collections::Generic::List_1<::StringW>*& __cordl_internal_get__defaultSongPackMaskItems() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& __cordl_internal_get__defaultSongPackMaskItems() const;
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& __cordl_internal_get__defaultSongPackMaskItems() const;
 
-  constexpr void __cordl_internal_set__customSongPackMaskItems(::ArrayW<::GlobalNamespace::SongPackMasksModelItem*, ::Array<::GlobalNamespace::SongPackMasksModelItem*>*> value);
+constexpr void __cordl_internal_set__customSongPackMaskItems(::ArrayW<::GlobalNamespace::SongPackMasksModelItem*,::Array<::GlobalNamespace::SongPackMasksModelItem*>*>  value) ;
 
-  constexpr void __cordl_internal_set__defaultSongPackMaskItems(::System::Collections::Generic::List_1<::StringW>* value);
+constexpr void __cordl_internal_set__defaultSongPackMaskItems(::System::Collections::Generic::List_1<::StringW>*  value) ;
 
-  /// @brief Method .ctor, addr 0x14e7f2c, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x2694f64, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_customSongPackMaskItems, addr 0x14e7f24, size 0x8, virtual false, abstract: false, final false
-  inline ::ArrayW<::GlobalNamespace::SongPackMasksModelItem*, ::Array<::GlobalNamespace::SongPackMasksModelItem*>*> get_customSongPackMaskItems();
+/// @brief Method get_customSongPackMaskItems, addr 0x2694f5c, size 0x8, virtual false, abstract: false, final false
+inline ::ArrayW<::GlobalNamespace::SongPackMasksModelItem*,::Array<::GlobalNamespace::SongPackMasksModelItem*>*> get_customSongPackMaskItems() ;
 
-  /// @brief Method get_defaultSongPackMaskItems, addr 0x14e7f1c, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::IReadOnlyList_1<::StringW>* get_defaultSongPackMaskItems();
+/// @brief Method get_defaultSongPackMaskItems, addr 0x2694f54, size 0x8, virtual false, abstract: false, final false
+inline ::System::Collections::Generic::IReadOnlyList_1<::StringW>* get_defaultSongPackMaskItems() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SongPackMasksModelSO();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr SongPackMasksModelSO() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SongPackMasksModelSO", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  SongPackMasksModelSO(SongPackMasksModelSO&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SongPackMasksModelSO", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  SongPackMasksModelSO(SongPackMasksModelSO const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "SongPackMasksModelSO", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+SongPackMasksModelSO(SongPackMasksModelSO && ) = delete;
 
-  /// @brief Field _defaultSongPackMaskItems, offset: 0x18, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::StringW>* ____defaultSongPackMaskItems;
+// Ctor Parameters [CppParam { name: "", ty: "SongPackMasksModelSO", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+SongPackMasksModelSO(SongPackMasksModelSO const& ) = delete;
 
-  /// @brief Field _customSongPackMaskItems, offset: 0x20, size: 0x8, def value: None
-  ::ArrayW<::GlobalNamespace::SongPackMasksModelItem*, ::Array<::GlobalNamespace::SongPackMasksModelItem*>*> ____customSongPackMaskItems;
+/// @brief Field _defaultSongPackMaskItems, offset: 0x18, size: 0x8, def value: None
+ ::System::Collections::Generic::List_1<::StringW>*  ____defaultSongPackMaskItems;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _customSongPackMaskItems, offset: 0x20, size: 0x8, def value: None
+ ::ArrayW<::GlobalNamespace::SongPackMasksModelItem*,::Array<::GlobalNamespace::SongPackMasksModelItem*>*>  ____customSongPackMaskItems;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SongPackMasksModelSO, 0x28>, "Size mismatch!");
@@ -95,6 +94,6 @@ static_assert(offsetof(::GlobalNamespace::SongPackMasksModelSO, ____defaultSongP
 
 static_assert(offsetof(::GlobalNamespace::SongPackMasksModelSO, ____customSongPackMaskItems) == 0x20, "Offset mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SongPackMasksModelSO);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SongPackMasksModelSO*, "", "SongPackMasksModelSO");

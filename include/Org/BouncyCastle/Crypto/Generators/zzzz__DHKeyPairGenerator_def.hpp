@@ -24,63 +24,63 @@ class DHKeyPairGenerator;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Generators::DHKeyPairGenerator);
 // Type: Org.BouncyCastle.Crypto.Generators::DHKeyPairGenerator
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Generators {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Generators::DHKeyPairGenerator*
 class CORDL_TYPE DHKeyPairGenerator : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field param, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_param, put = __cordl_internal_set_param))::Org::BouncyCastle::Crypto::Parameters::DHKeyGenerationParameters* param;
+// Declarations
+/// @brief Field param, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_param, put=__cordl_internal_set_param)) ::Org::BouncyCastle::Crypto::Parameters::DHKeyGenerationParameters*  param;
 
-  /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator"
-  constexpr operator ::Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator*() noexcept;
+/// @brief Convert operator to "::Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator"
+constexpr operator  ::Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator*() noexcept;
 
-  /// @brief Method GenerateKeyPair, addr 0x1168ab0, size 0x13c, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair* GenerateKeyPair();
+/// @brief Method GenerateKeyPair, addr 0x2335830, size 0x138, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair* GenerateKeyPair() ;
 
-  /// @brief Method Init, addr 0x1168a0c, size 0xa4, virtual true, abstract: false, final false
-  inline void Init(::Org::BouncyCastle::Crypto::KeyGenerationParameters* parameters);
+/// @brief Method Init, addr 0x233578c, size 0xa4, virtual true, abstract: false, final false
+inline void Init(::Org::BouncyCastle::Crypto::KeyGenerationParameters*  parameters) ;
 
-  static inline ::Org::BouncyCastle::Crypto::Generators::DHKeyPairGenerator* New_ctor();
+static inline ::Org::BouncyCastle::Crypto::Generators::DHKeyPairGenerator* New_ctor() ;
 
-  constexpr ::Org::BouncyCastle::Crypto::Parameters::DHKeyGenerationParameters*& __cordl_internal_get_param();
+constexpr ::Org::BouncyCastle::Crypto::Parameters::DHKeyGenerationParameters*& __cordl_internal_get_param() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Parameters::DHKeyGenerationParameters*> const& __cordl_internal_get_param() const;
+constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Parameters::DHKeyGenerationParameters*> const& __cordl_internal_get_param() const;
 
-  constexpr void __cordl_internal_set_param(::Org::BouncyCastle::Crypto::Parameters::DHKeyGenerationParameters* value);
+constexpr void __cordl_internal_set_param(::Org::BouncyCastle::Crypto::Parameters::DHKeyGenerationParameters*  value) ;
 
-  /// @brief Method .ctor, addr 0x1168bec, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x2335968, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Convert to "::Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator"
-  constexpr ::Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator* i___Org__BouncyCastle__Crypto__IAsymmetricCipherKeyPairGenerator() noexcept;
+/// @brief Convert to "::Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator"
+constexpr ::Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator* i___Org__BouncyCastle__Crypto__IAsymmetricCipherKeyPairGenerator() noexcept;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DHKeyPairGenerator();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr DHKeyPairGenerator() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DHKeyPairGenerator", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  DHKeyPairGenerator(DHKeyPairGenerator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DHKeyPairGenerator", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  DHKeyPairGenerator(DHKeyPairGenerator const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "DHKeyPairGenerator", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+DHKeyPairGenerator(DHKeyPairGenerator && ) = delete;
 
-  /// @brief Field param, offset: 0x10, size: 0x8, def value: None
-  ::Org::BouncyCastle::Crypto::Parameters::DHKeyGenerationParameters* ___param;
+// Ctor Parameters [CppParam { name: "", ty: "DHKeyPairGenerator", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+DHKeyPairGenerator(DHKeyPairGenerator const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field param, offset: 0x10, size: 0x8, def value: None
+ ::Org::BouncyCastle::Crypto::Parameters::DHKeyGenerationParameters*  ___param;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Generators::DHKeyPairGenerator, 0x18>, "Size mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Generators::DHKeyPairGenerator, ___param) == 0x10, "Offset mismatch!");
 
-} // namespace Org::BouncyCastle::Crypto::Generators
+} // namespace end def Org::BouncyCastle::Crypto::Generators
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Generators::DHKeyPairGenerator);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Generators::DHKeyPairGenerator*, "Org.BouncyCastle.Crypto.Generators", "DHKeyPairGenerator");

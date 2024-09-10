@@ -21,57 +21,57 @@ class __NumericConvertInstruction__Checked;
 // Write type traits
 MARK_REF_PTR_T(::System::Linq::Expressions::Interpreter::__NumericConvertInstruction__Checked);
 // Type: ::Checked
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 25, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Linq::Expressions::Interpreter {
 // Is value type: false
 // CS Name: ::NumericConvertInstruction::Checked*
 class CORDL_TYPE __NumericConvertInstruction__Checked : public ::System::Linq::Expressions::Interpreter::NumericConvertInstruction {
 public:
-  // Declarations
-  __declspec(property(get = get_InstructionName))::StringW InstructionName;
+// Declarations
+ __declspec(property(get=get_InstructionName)) ::StringW  InstructionName;
 
-  /// @brief Method Convert, addr 0x2c790e8, size 0x368, virtual true, abstract: false, final false
-  inline ::System::Object* Convert(::System::Object* obj);
+/// @brief Method Convert, addr 0x40611a8, size 0x368, virtual true, abstract: false, final false
+inline ::System::Object* Convert(::System::Object*  obj) ;
 
-  /// @brief Method ConvertDouble, addr 0x2c79c14, size 0x354, virtual false, abstract: false, final false
-  inline ::System::Object* ConvertDouble(double_t obj);
+/// @brief Method ConvertDouble, addr 0x4061cd4, size 0x354, virtual false, abstract: false, final false
+inline ::System::Object* ConvertDouble(double_t  obj) ;
 
-  /// @brief Method ConvertInt32, addr 0x2c79450, size 0x2a4, virtual false, abstract: false, final false
-  inline ::System::Object* ConvertInt32(int32_t obj);
+/// @brief Method ConvertInt32, addr 0x4061510, size 0x2a4, virtual false, abstract: false, final false
+inline ::System::Object* ConvertInt32(int32_t  obj) ;
 
-  /// @brief Method ConvertInt64, addr 0x2c796f4, size 0x290, virtual false, abstract: false, final false
-  inline ::System::Object* ConvertInt64(int64_t obj);
+/// @brief Method ConvertInt64, addr 0x40617b4, size 0x290, virtual false, abstract: false, final false
+inline ::System::Object* ConvertInt64(int64_t  obj) ;
 
-  /// @brief Method ConvertUInt64, addr 0x2c79984, size 0x290, virtual false, abstract: false, final false
-  inline ::System::Object* ConvertUInt64(uint64_t obj);
+/// @brief Method ConvertUInt64, addr 0x4061a44, size 0x290, virtual false, abstract: false, final false
+inline ::System::Object* ConvertUInt64(uint64_t  obj) ;
 
-  static inline ::System::Linq::Expressions::Interpreter::__NumericConvertInstruction__Checked* New_ctor(::System::TypeCode from, ::System::TypeCode to, bool isLiftedToNull);
+static inline ::System::Linq::Expressions::Interpreter::__NumericConvertInstruction__Checked* New_ctor(::System::TypeCode  from, ::System::TypeCode  to, bool  isLiftedToNull) ;
 
-  /// @brief Method .ctor, addr 0x2c790ac, size 0x3c, virtual false, abstract: false, final false
-  inline void _ctor(::System::TypeCode from, ::System::TypeCode to, bool isLiftedToNull);
+/// @brief Method .ctor, addr 0x406116c, size 0x3c, virtual false, abstract: false, final false
+inline void _ctor(::System::TypeCode  from, ::System::TypeCode  to, bool  isLiftedToNull) ;
 
-  /// @brief Method get_InstructionName, addr 0x2c7906c, size 0x40, virtual true, abstract: false, final false
-  inline ::StringW get_InstructionName();
+/// @brief Method get_InstructionName, addr 0x406112c, size 0x40, virtual true, abstract: false, final false
+inline ::StringW get_InstructionName() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __NumericConvertInstruction__Checked();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __NumericConvertInstruction__Checked() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__NumericConvertInstruction__Checked", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __NumericConvertInstruction__Checked(__NumericConvertInstruction__Checked&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__NumericConvertInstruction__Checked", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __NumericConvertInstruction__Checked(__NumericConvertInstruction__Checked const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__NumericConvertInstruction__Checked", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__NumericConvertInstruction__Checked(__NumericConvertInstruction__Checked && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "__NumericConvertInstruction__Checked", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__NumericConvertInstruction__Checked(__NumericConvertInstruction__Checked const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Interpreter::__NumericConvertInstruction__Checked, 0x20>, "Size mismatch!");
 
-} // namespace System::Linq::Expressions::Interpreter
+} // namespace end def System::Linq::Expressions::Interpreter
 NEED_NO_BOX(::System::Linq::Expressions::Interpreter::__NumericConvertInstruction__Checked);
 DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::Interpreter::__NumericConvertInstruction__Checked*, "System.Linq.Expressions.Interpreter", "NumericConvertInstruction/Checked");

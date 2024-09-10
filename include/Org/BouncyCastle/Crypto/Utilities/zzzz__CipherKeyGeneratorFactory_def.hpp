@@ -22,43 +22,43 @@ class CipherKeyGeneratorFactory;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Utilities::CipherKeyGeneratorFactory);
 // Type: Org.BouncyCastle.Crypto.Utilities::CipherKeyGeneratorFactory
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Utilities {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Utilities::CipherKeyGeneratorFactory*
 class CORDL_TYPE CipherKeyGeneratorFactory : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method CreateCipherKeyGenerator, addr 0x1232aec, size 0xb0, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Crypto::CipherKeyGenerator* CreateCipherKeyGenerator(::Org::BouncyCastle::Security::SecureRandom* random, int32_t keySize);
+// Declarations
+/// @brief Method CreateCipherKeyGenerator, addr 0x23f9930, size 0xac, virtual false, abstract: false, final false
+static inline ::Org::BouncyCastle::Crypto::CipherKeyGenerator* CreateCipherKeyGenerator(::Org::BouncyCastle::Security::SecureRandom*  random, int32_t  keySize) ;
 
-  /// @brief Method CreateKeyGenerator, addr 0x12326b8, size 0x434, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Crypto::CipherKeyGenerator* CreateKeyGenerator(::Org::BouncyCastle::Asn1::DerObjectIdentifier* algorithm, ::Org::BouncyCastle::Security::SecureRandom* random);
+/// @brief Method CreateKeyGenerator, addr 0x23f950c, size 0x424, virtual false, abstract: false, final false
+static inline ::Org::BouncyCastle::Crypto::CipherKeyGenerator* CreateKeyGenerator(::Org::BouncyCastle::Asn1::DerObjectIdentifier*  algorithm, ::Org::BouncyCastle::Security::SecureRandom*  random) ;
 
-  static inline ::Org::BouncyCastle::Crypto::Utilities::CipherKeyGeneratorFactory* New_ctor();
+static inline ::Org::BouncyCastle::Crypto::Utilities::CipherKeyGeneratorFactory* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x12326b0, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x23f9504, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CipherKeyGeneratorFactory();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr CipherKeyGeneratorFactory() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CipherKeyGeneratorFactory", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  CipherKeyGeneratorFactory(CipherKeyGeneratorFactory&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CipherKeyGeneratorFactory", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  CipherKeyGeneratorFactory(CipherKeyGeneratorFactory const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "CipherKeyGeneratorFactory", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+CipherKeyGeneratorFactory(CipherKeyGeneratorFactory && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "CipherKeyGeneratorFactory", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+CipherKeyGeneratorFactory(CipherKeyGeneratorFactory const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Utilities::CipherKeyGeneratorFactory, 0x10>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Crypto::Utilities
+} // namespace end def Org::BouncyCastle::Crypto::Utilities
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Utilities::CipherKeyGeneratorFactory);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Utilities::CipherKeyGeneratorFactory*, "Org.BouncyCastle.Crypto.Utilities", "CipherKeyGeneratorFactory");

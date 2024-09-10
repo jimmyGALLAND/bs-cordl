@@ -28,46 +28,46 @@ class PacketFreeCallback;
 // Write type traits
 MARK_REF_PTR_T(::ENet::PacketFreeCallback);
 // Type: ENet::PacketFreeCallback
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace ENet {
 // Is value type: false
 // CS Name: ::ENet::PacketFreeCallback*
 class CORDL_TYPE PacketFreeCallback : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x25ff26c, size 0x84, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::ENet::Packet packet, ::System::AsyncCallback* callback, ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x3a1f5f0, size 0x84, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(::ENet::Packet  packet, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x25ff2f0, size 0xc, virtual true, abstract: false, final false
-  inline void EndInvoke(::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x3a1f674, size 0xc, virtual true, abstract: false, final false
+inline void EndInvoke(::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x25ff258, size 0x14, virtual true, abstract: false, final false
-  inline void Invoke(::ENet::Packet packet);
+/// @brief Method Invoke, addr 0x3a1f5dc, size 0x14, virtual true, abstract: false, final false
+inline void Invoke(::ENet::Packet  packet) ;
 
-  static inline ::ENet::PacketFreeCallback* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::ENet::PacketFreeCallback* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x25ff194, size 0xc4, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x3a1f550, size 0x8c, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PacketFreeCallback();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr PacketFreeCallback() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PacketFreeCallback", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  PacketFreeCallback(PacketFreeCallback&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PacketFreeCallback", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  PacketFreeCallback(PacketFreeCallback const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "PacketFreeCallback", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+PacketFreeCallback(PacketFreeCallback && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "PacketFreeCallback", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+PacketFreeCallback(PacketFreeCallback const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::ENet::PacketFreeCallback, 0x80>, "Size mismatch!");
 
-} // namespace ENet
+} // namespace end def ENet
 NEED_NO_BOX(::ENet::PacketFreeCallback);
 DEFINE_IL2CPP_ARG_TYPE(::ENet::PacketFreeCallback*, "ENet", "PacketFreeCallback");

@@ -20,7 +20,8 @@ namespace GlobalNamespace {
 class PlayerDataModel;
 }
 namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
+template<typename T>
+class IReadOnlyList_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -29,56 +30,54 @@ class MultiplayerBadgeDataFullComboSO;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MultiplayerBadgeDataFullComboSO);
 // Type: ::MultiplayerBadgeDataFullComboSO
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::MultiplayerBadgeDataFullComboSO*
 class CORDL_TYPE MultiplayerBadgeDataFullComboSO : public ::GlobalNamespace::MultiplayerBadgeDataSO {
 public:
-  // Declarations
-  /// @brief Field _weight, offset 0x30, size 0x4
-  __declspec(property(get = __cordl_internal_get__weight, put = __cordl_internal_set__weight)) float_t _weight;
+// Declarations
+/// @brief Field _weight, offset 0x30, size 0x4 
+ __declspec(property(get=__cordl_internal_get__weight, put=__cordl_internal_set__weight)) float_t  _weight;
 
-  /// @brief Method CalculateBadgeData, addr 0x14dbe1c, size 0x488, virtual true, abstract: false, final false
-  inline ::GlobalNamespace::MultiplayerBadgeAwardData* CalculateBadgeData(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>* resultsData,
-                                                                          ::GlobalNamespace::PlayerDataModel* playerDataModel, ByRef<::GlobalNamespace::BeatmapKey> beatmapKey,
-                                                                          float_t randomMultiplier);
+/// @brief Method CalculateBadgeData, addr 0x2688f8c, size 0x460, virtual true, abstract: false, final false
+inline ::GlobalNamespace::MultiplayerBadgeAwardData* CalculateBadgeData(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::MultiplayerPlayerResultsData*>*  resultsData, ::GlobalNamespace::PlayerDataModel*  playerDataModel, ByRef<::GlobalNamespace::BeatmapKey>  beatmapKey, float_t  randomMultiplier) ;
 
-  static inline ::GlobalNamespace::MultiplayerBadgeDataFullComboSO* New_ctor();
+static inline ::GlobalNamespace::MultiplayerBadgeDataFullComboSO* New_ctor() ;
 
-  constexpr float_t const& __cordl_internal_get__weight() const;
+constexpr float_t const& __cordl_internal_get__weight() const;
 
-  constexpr float_t& __cordl_internal_get__weight();
+constexpr float_t& __cordl_internal_get__weight() ;
 
-  constexpr void __cordl_internal_set__weight(float_t value);
+constexpr void __cordl_internal_set__weight(float_t  value) ;
 
-  /// @brief Method .ctor, addr 0x14dc304, size 0x10, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x268944c, size 0x10, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MultiplayerBadgeDataFullComboSO();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr MultiplayerBadgeDataFullComboSO() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerBadgeDataFullComboSO", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  MultiplayerBadgeDataFullComboSO(MultiplayerBadgeDataFullComboSO&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultiplayerBadgeDataFullComboSO", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  MultiplayerBadgeDataFullComboSO(MultiplayerBadgeDataFullComboSO const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "MultiplayerBadgeDataFullComboSO", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+MultiplayerBadgeDataFullComboSO(MultiplayerBadgeDataFullComboSO && ) = delete;
 
-  /// @brief Field _weight, offset: 0x30, size: 0x4, def value: None
-  float_t ____weight;
+// Ctor Parameters [CppParam { name: "", ty: "MultiplayerBadgeDataFullComboSO", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+MultiplayerBadgeDataFullComboSO(MultiplayerBadgeDataFullComboSO const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _weight, offset: 0x30, size: 0x4, def value: None
+ float_t  ____weight;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultiplayerBadgeDataFullComboSO, 0x38>, "Size mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::MultiplayerBadgeDataFullComboSO, ____weight) == 0x30, "Offset mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MultiplayerBadgeDataFullComboSO);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultiplayerBadgeDataFullComboSO*, "", "MultiplayerBadgeDataFullComboSO");

@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "System/AccessViolationException.hpp"
 #include "System/Action.hpp"
@@ -23,6 +23,8 @@ module;
 #include "System/Action_9.hpp"
 #include "System/Activator.hpp"
 #include "System/AggregateException.hpp"
+#include "System/AppContext.hpp"
+#include "System/AppContextDefaultValues.hpp"
 #include "System/AppContextSwitches.hpp"
 #include "System/AppDomain.hpp"
 #include "System/AppDomainSetup.hpp"
@@ -180,6 +182,7 @@ module;
 #include "System/InvariantComparer.hpp"
 #include "System/IriHelper.hpp"
 #include "System/KnownTerminals.hpp"
+#include "System/LocalAppContext.hpp"
 #include "System/LocalAppContextSwitches.hpp"
 #include "System/LocalDataStore.hpp"
 #include "System/LocalDataStoreElement.hpp"
@@ -343,5 +346,6 @@ module;
 #include "System/WeakReference_1.hpp"
 #include "System/WindowsConsoleDriver.hpp"
 #ifdef __cpp_modules
-export module System;
-#endif
+                    export module System;
+                    #endif
+                

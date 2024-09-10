@@ -19,62 +19,62 @@ class MultipliedColorSO;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::MultipliedColorSO);
 // Type: ::MultipliedColorSO
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::MultipliedColorSO*
 class CORDL_TYPE MultipliedColorSO : public ::GlobalNamespace::ColorSO {
 public:
-  // Declarations
-  /// @brief Field _baseColor, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__baseColor, put = __cordl_internal_set__baseColor))::UnityW<::GlobalNamespace::SimpleColorSO> _baseColor;
+// Declarations
+/// @brief Field _baseColor, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get__baseColor, put=__cordl_internal_set__baseColor)) ::UnityW<::GlobalNamespace::SimpleColorSO>  _baseColor;
 
-  /// @brief Field _multiplierColor, offset 0x20, size 0x10
-  __declspec(property(get = __cordl_internal_get__multiplierColor, put = __cordl_internal_set__multiplierColor))::UnityEngine::Color _multiplierColor;
+/// @brief Field _multiplierColor, offset 0x20, size 0x10 
+ __declspec(property(get=__cordl_internal_get__multiplierColor, put=__cordl_internal_set__multiplierColor)) ::UnityEngine::Color  _multiplierColor;
 
-  __declspec(property(get = get_color))::UnityEngine::Color color;
+ __declspec(property(get=get_color)) ::UnityEngine::Color  color;
 
-  static inline ::GlobalNamespace::MultipliedColorSO* New_ctor();
+static inline ::GlobalNamespace::MultipliedColorSO* New_ctor() ;
 
-  constexpr ::UnityW<::GlobalNamespace::SimpleColorSO> const& __cordl_internal_get__baseColor() const;
+constexpr ::UnityW<::GlobalNamespace::SimpleColorSO> const& __cordl_internal_get__baseColor() const;
 
-  constexpr ::UnityW<::GlobalNamespace::SimpleColorSO>& __cordl_internal_get__baseColor();
+constexpr ::UnityW<::GlobalNamespace::SimpleColorSO>& __cordl_internal_get__baseColor() ;
 
-  constexpr ::UnityEngine::Color const& __cordl_internal_get__multiplierColor() const;
+constexpr ::UnityEngine::Color const& __cordl_internal_get__multiplierColor() const;
 
-  constexpr ::UnityEngine::Color& __cordl_internal_get__multiplierColor();
+constexpr ::UnityEngine::Color& __cordl_internal_get__multiplierColor() ;
 
-  constexpr void __cordl_internal_set__baseColor(::UnityW<::GlobalNamespace::SimpleColorSO> value);
+constexpr void __cordl_internal_set__baseColor(::UnityW<::GlobalNamespace::SimpleColorSO>  value) ;
 
-  constexpr void __cordl_internal_set__multiplierColor(::UnityEngine::Color value);
+constexpr void __cordl_internal_set__multiplierColor(::UnityEngine::Color  value) ;
 
-  /// @brief Method .ctor, addr 0x14a0d04, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x265527c, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_color, addr 0x14a0cb4, size 0x50, virtual true, abstract: false, final false
-  inline ::UnityEngine::Color get_color();
+/// @brief Method get_color, addr 0x265522c, size 0x50, virtual true, abstract: false, final false
+inline ::UnityEngine::Color get_color() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MultipliedColorSO();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr MultipliedColorSO() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MultipliedColorSO", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  MultipliedColorSO(MultipliedColorSO&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MultipliedColorSO", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  MultipliedColorSO(MultipliedColorSO const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "MultipliedColorSO", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+MultipliedColorSO(MultipliedColorSO && ) = delete;
 
-  /// @brief Field _baseColor, offset: 0x18, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::SimpleColorSO> ____baseColor;
+// Ctor Parameters [CppParam { name: "", ty: "MultipliedColorSO", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+MultipliedColorSO(MultipliedColorSO const& ) = delete;
 
-  /// @brief Field _multiplierColor, offset: 0x20, size: 0x10, def value: None
-  ::UnityEngine::Color ____multiplierColor;
+/// @brief Field _baseColor, offset: 0x18, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::SimpleColorSO>  ____baseColor;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _multiplierColor, offset: 0x20, size: 0x10, def value: None
+ ::UnityEngine::Color  ____multiplierColor;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::MultipliedColorSO, 0x30>, "Size mismatch!");
@@ -83,6 +83,6 @@ static_assert(offsetof(::GlobalNamespace::MultipliedColorSO, ____baseColor) == 0
 
 static_assert(offsetof(::GlobalNamespace::MultipliedColorSO, ____multiplierColor) == 0x20, "Offset mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::MultipliedColorSO);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::MultipliedColorSO*, "", "MultipliedColorSO");

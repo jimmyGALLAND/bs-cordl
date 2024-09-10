@@ -32,111 +32,110 @@ class NoteCutFloorLightStreakTileEffectSpawner;
 // Write type traits
 MARK_REF_PTR_T(::Ice::NoteCutFloorLightStreakTileEffectSpawner);
 // Type: Ice::NoteCutFloorLightStreakTileEffectSpawner
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Ice {
 // Is value type: false
 // CS Name: ::Ice::NoteCutFloorLightStreakTileEffectSpawner*
 class CORDL_TYPE NoteCutFloorLightStreakTileEffectSpawner : public ::UnityEngine::MonoBehaviour {
 public:
-  // Declarations
-  /// @brief Field _beatmapObjectManager, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__beatmapObjectManager, put = __cordl_internal_set__beatmapObjectManager))::GlobalNamespace::BeatmapObjectManager* _beatmapObjectManager;
+// Declarations
+/// @brief Field _beatmapObjectManager, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get__beatmapObjectManager, put=__cordl_internal_set__beatmapObjectManager)) ::GlobalNamespace::BeatmapObjectManager*  _beatmapObjectManager;
 
-  /// @brief Field _colorManager, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__colorManager, put = __cordl_internal_set__colorManager))::GlobalNamespace::ColorManager* _colorManager;
+/// @brief Field _colorManager, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get__colorManager, put=__cordl_internal_set__colorManager)) ::GlobalNamespace::ColorManager*  _colorManager;
 
-  /// @brief Field _floorLightStreakTileEffect, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__floorLightStreakTileEffect,
-                      put = __cordl_internal_set__floorLightStreakTileEffect))::UnityW<::Ice::FloorLightStreakTileEffect> _floorLightStreakTileEffect;
+/// @brief Field _floorLightStreakTileEffect, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get__floorLightStreakTileEffect, put=__cordl_internal_set__floorLightStreakTileEffect)) ::UnityW<::Ice::FloorLightStreakTileEffect>  _floorLightStreakTileEffect;
 
-  /// @brief Field _spawnColor, offset 0x30, size 0x10
-  __declspec(property(get = __cordl_internal_get__spawnColor, put = __cordl_internal_set__spawnColor))::UnityEngine::Color _spawnColor;
+/// @brief Field _spawnColor, offset 0x38, size 0x10 
+ __declspec(property(get=__cordl_internal_get__spawnColor, put=__cordl_internal_set__spawnColor)) ::UnityEngine::Color  _spawnColor;
 
-  __declspec(property(get = get_spawnColor, put = set_spawnColor))::UnityEngine::Color spawnColor;
+ __declspec(property(get=get_spawnColor, put=set_spawnColor)) ::UnityEngine::Color  spawnColor;
 
-  /// @brief Method HandleNoteWasCut, addr 0x106a1cc, size 0x64, virtual false, abstract: false, final false
-  inline void HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo);
+/// @brief Method HandleNoteWasCut, addr 0x22282c4, size 0x64, virtual false, abstract: false, final false
+inline void HandleNoteWasCut(::GlobalNamespace::NoteController*  noteController, ByRef<::GlobalNamespace::NoteCutInfo>  noteCutInfo) ;
 
-  static inline ::Ice::NoteCutFloorLightStreakTileEffectSpawner* New_ctor();
+static inline ::Ice::NoteCutFloorLightStreakTileEffectSpawner* New_ctor() ;
 
-  /// @brief Method OnDestroy, addr 0x106a134, size 0x98, virtual false, abstract: false, final false
-  inline void OnDestroy();
+/// @brief Method OnDestroy, addr 0x2228234, size 0x90, virtual false, abstract: false, final false
+inline void OnDestroy() ;
 
-  /// @brief Method Start, addr 0x106a0a8, size 0x8c, virtual false, abstract: false, final false
-  inline void Start();
+/// @brief Method Start, addr 0x22281a4, size 0x90, virtual false, abstract: false, final false
+inline void Start() ;
 
-  constexpr ::GlobalNamespace::BeatmapObjectManager*& __cordl_internal_get__beatmapObjectManager();
+constexpr ::GlobalNamespace::BeatmapObjectManager*& __cordl_internal_get__beatmapObjectManager() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapObjectManager*> const& __cordl_internal_get__beatmapObjectManager() const;
+constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapObjectManager*> const& __cordl_internal_get__beatmapObjectManager() const;
 
-  constexpr ::GlobalNamespace::ColorManager*& __cordl_internal_get__colorManager();
+constexpr ::GlobalNamespace::ColorManager*& __cordl_internal_get__colorManager() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorManager*> const& __cordl_internal_get__colorManager() const;
+constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::ColorManager*> const& __cordl_internal_get__colorManager() const;
 
-  constexpr ::UnityW<::Ice::FloorLightStreakTileEffect> const& __cordl_internal_get__floorLightStreakTileEffect() const;
+constexpr ::UnityW<::Ice::FloorLightStreakTileEffect> const& __cordl_internal_get__floorLightStreakTileEffect() const;
 
-  constexpr ::UnityW<::Ice::FloorLightStreakTileEffect>& __cordl_internal_get__floorLightStreakTileEffect();
+constexpr ::UnityW<::Ice::FloorLightStreakTileEffect>& __cordl_internal_get__floorLightStreakTileEffect() ;
 
-  constexpr ::UnityEngine::Color const& __cordl_internal_get__spawnColor() const;
+constexpr ::UnityEngine::Color const& __cordl_internal_get__spawnColor() const;
 
-  constexpr ::UnityEngine::Color& __cordl_internal_get__spawnColor();
+constexpr ::UnityEngine::Color& __cordl_internal_get__spawnColor() ;
 
-  constexpr void __cordl_internal_set__beatmapObjectManager(::GlobalNamespace::BeatmapObjectManager* value);
+constexpr void __cordl_internal_set__beatmapObjectManager(::GlobalNamespace::BeatmapObjectManager*  value) ;
 
-  constexpr void __cordl_internal_set__colorManager(::GlobalNamespace::ColorManager* value);
+constexpr void __cordl_internal_set__colorManager(::GlobalNamespace::ColorManager*  value) ;
 
-  constexpr void __cordl_internal_set__floorLightStreakTileEffect(::UnityW<::Ice::FloorLightStreakTileEffect> value);
+constexpr void __cordl_internal_set__floorLightStreakTileEffect(::UnityW<::Ice::FloorLightStreakTileEffect>  value) ;
 
-  constexpr void __cordl_internal_set__spawnColor(::UnityEngine::Color value);
+constexpr void __cordl_internal_set__spawnColor(::UnityEngine::Color  value) ;
 
-  /// @brief Method .ctor, addr 0x106a230, size 0xc, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x2228328, size 0xc, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_spawnColor, addr 0x106a09c, size 0xc, virtual false, abstract: false, final false
-  inline ::UnityEngine::Color get_spawnColor();
+/// @brief Method get_spawnColor, addr 0x2228198, size 0xc, virtual false, abstract: false, final false
+inline ::UnityEngine::Color get_spawnColor() ;
 
-  /// @brief Method set_spawnColor, addr 0x106a090, size 0xc, virtual false, abstract: false, final false
-  inline void set_spawnColor(::UnityEngine::Color value);
+/// @brief Method set_spawnColor, addr 0x222818c, size 0xc, virtual false, abstract: false, final false
+inline void set_spawnColor(::UnityEngine::Color  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NoteCutFloorLightStreakTileEffectSpawner();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr NoteCutFloorLightStreakTileEffectSpawner() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NoteCutFloorLightStreakTileEffectSpawner", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  NoteCutFloorLightStreakTileEffectSpawner(NoteCutFloorLightStreakTileEffectSpawner&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NoteCutFloorLightStreakTileEffectSpawner", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  NoteCutFloorLightStreakTileEffectSpawner(NoteCutFloorLightStreakTileEffectSpawner const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "NoteCutFloorLightStreakTileEffectSpawner", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+NoteCutFloorLightStreakTileEffectSpawner(NoteCutFloorLightStreakTileEffectSpawner && ) = delete;
 
-  /// @brief Field _floorLightStreakTileEffect, offset: 0x18, size: 0x8, def value: None
-  ::UnityW<::Ice::FloorLightStreakTileEffect> ____floorLightStreakTileEffect;
+// Ctor Parameters [CppParam { name: "", ty: "NoteCutFloorLightStreakTileEffectSpawner", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+NoteCutFloorLightStreakTileEffectSpawner(NoteCutFloorLightStreakTileEffectSpawner const& ) = delete;
 
-  /// @brief Field _beatmapObjectManager, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::BeatmapObjectManager* ____beatmapObjectManager;
+/// @brief Field _floorLightStreakTileEffect, offset: 0x20, size: 0x8, def value: None
+ ::UnityW<::Ice::FloorLightStreakTileEffect>  ____floorLightStreakTileEffect;
 
-  /// @brief Field _colorManager, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::ColorManager* ____colorManager;
+/// @brief Field _beatmapObjectManager, offset: 0x28, size: 0x8, def value: None
+ ::GlobalNamespace::BeatmapObjectManager*  ____beatmapObjectManager;
 
-  /// @brief Field _spawnColor, offset: 0x30, size: 0x10, def value: None
-  ::UnityEngine::Color ____spawnColor;
+/// @brief Field _colorManager, offset: 0x30, size: 0x8, def value: None
+ ::GlobalNamespace::ColorManager*  ____colorManager;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _spawnColor, offset: 0x38, size: 0x10, def value: None
+ ::UnityEngine::Color  ____spawnColor;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::Ice::NoteCutFloorLightStreakTileEffectSpawner, 0x40>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::Ice::NoteCutFloorLightStreakTileEffectSpawner, 0x48>, "Size mismatch!");
 
-static_assert(offsetof(::Ice::NoteCutFloorLightStreakTileEffectSpawner, ____floorLightStreakTileEffect) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::Ice::NoteCutFloorLightStreakTileEffectSpawner, ____floorLightStreakTileEffect) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::Ice::NoteCutFloorLightStreakTileEffectSpawner, ____beatmapObjectManager) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::Ice::NoteCutFloorLightStreakTileEffectSpawner, ____beatmapObjectManager) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::Ice::NoteCutFloorLightStreakTileEffectSpawner, ____colorManager) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::Ice::NoteCutFloorLightStreakTileEffectSpawner, ____colorManager) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::Ice::NoteCutFloorLightStreakTileEffectSpawner, ____spawnColor) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::Ice::NoteCutFloorLightStreakTileEffectSpawner, ____spawnColor) == 0x38, "Offset mismatch!");
 
-} // namespace Ice
+} // namespace end def Ice
 NEED_NO_BOX(::Ice::NoteCutFloorLightStreakTileEffectSpawner);
 DEFINE_IL2CPP_ARG_TYPE(::Ice::NoteCutFloorLightStreakTileEffectSpawner*, "Ice", "NoteCutFloorLightStreakTileEffectSpawner");

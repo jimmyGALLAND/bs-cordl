@@ -39,120 +39,120 @@ class __DelegateSerializationHolder__DelegateEntry;
 MARK_REF_PTR_T(::System::DelegateSerializationHolder);
 MARK_REF_PTR_T(::System::__DelegateSerializationHolder__DelegateEntry);
 // Type: ::DelegateEntry
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
 // CS Name: ::DelegateSerializationHolder::DelegateEntry*
 class CORDL_TYPE __DelegateSerializationHolder__DelegateEntry : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field assembly, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_assembly, put = __cordl_internal_set_assembly))::StringW assembly;
+// Declarations
+/// @brief Field assembly, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_assembly, put=__cordl_internal_set_assembly)) ::StringW  assembly;
 
-  /// @brief Field delegateEntry, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_delegateEntry, put = __cordl_internal_set_delegateEntry))::System::__DelegateSerializationHolder__DelegateEntry* delegateEntry;
+/// @brief Field delegateEntry, offset 0x40, size 0x8 
+ __declspec(property(get=__cordl_internal_get_delegateEntry, put=__cordl_internal_set_delegateEntry)) ::System::__DelegateSerializationHolder__DelegateEntry*  delegateEntry;
 
-  /// @brief Field methodName, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_methodName, put = __cordl_internal_set_methodName))::StringW methodName;
+/// @brief Field methodName, offset 0x38, size 0x8 
+ __declspec(property(get=__cordl_internal_get_methodName, put=__cordl_internal_set_methodName)) ::StringW  methodName;
 
-  /// @brief Field target, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_target, put = __cordl_internal_set_target))::System::Object* target;
+/// @brief Field target, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get_target, put=__cordl_internal_set_target)) ::System::Object*  target;
 
-  /// @brief Field targetTypeAssembly, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_targetTypeAssembly, put = __cordl_internal_set_targetTypeAssembly))::StringW targetTypeAssembly;
+/// @brief Field targetTypeAssembly, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get_targetTypeAssembly, put=__cordl_internal_set_targetTypeAssembly)) ::StringW  targetTypeAssembly;
 
-  /// @brief Field targetTypeName, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_targetTypeName, put = __cordl_internal_set_targetTypeName))::StringW targetTypeName;
+/// @brief Field targetTypeName, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get_targetTypeName, put=__cordl_internal_set_targetTypeName)) ::StringW  targetTypeName;
 
-  /// @brief Field type, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type))::StringW type;
+/// @brief Field type, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_type, put=__cordl_internal_set_type)) ::StringW  type;
 
-  /// @brief Method DeserializeDelegate, addr 0x29afc40, size 0x278, virtual false, abstract: false, final false
-  inline ::System::Delegate* DeserializeDelegate(::System::Runtime::Serialization::SerializationInfo* info, int32_t index);
+/// @brief Method DeserializeDelegate, addr 0x3da591c, size 0x278, virtual false, abstract: false, final false
+inline ::System::Delegate* DeserializeDelegate(::System::Runtime::Serialization::SerializationInfo*  info, int32_t  index) ;
 
-  static inline ::System::__DelegateSerializationHolder__DelegateEntry* New_ctor(::System::Delegate* del, ::StringW targetLabel);
+static inline ::System::__DelegateSerializationHolder__DelegateEntry* New_ctor(::System::Delegate*  del, ::StringW  targetLabel) ;
 
-  constexpr ::StringW const& __cordl_internal_get_assembly() const;
+constexpr ::StringW const& __cordl_internal_get_assembly() const;
 
-  constexpr ::StringW& __cordl_internal_get_assembly();
+constexpr ::StringW& __cordl_internal_get_assembly() ;
 
-  constexpr ::System::__DelegateSerializationHolder__DelegateEntry*& __cordl_internal_get_delegateEntry();
+constexpr ::System::__DelegateSerializationHolder__DelegateEntry*& __cordl_internal_get_delegateEntry() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::__DelegateSerializationHolder__DelegateEntry*> const& __cordl_internal_get_delegateEntry() const;
+constexpr ::cordl_internals::to_const_pointer<::System::__DelegateSerializationHolder__DelegateEntry*> const& __cordl_internal_get_delegateEntry() const;
 
-  constexpr ::StringW const& __cordl_internal_get_methodName() const;
+constexpr ::StringW const& __cordl_internal_get_methodName() const;
 
-  constexpr ::StringW& __cordl_internal_get_methodName();
+constexpr ::StringW& __cordl_internal_get_methodName() ;
 
-  constexpr ::System::Object*& __cordl_internal_get_target();
+constexpr ::System::Object*& __cordl_internal_get_target() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_target() const;
+constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_target() const;
 
-  constexpr ::StringW const& __cordl_internal_get_targetTypeAssembly() const;
+constexpr ::StringW const& __cordl_internal_get_targetTypeAssembly() const;
 
-  constexpr ::StringW& __cordl_internal_get_targetTypeAssembly();
+constexpr ::StringW& __cordl_internal_get_targetTypeAssembly() ;
 
-  constexpr ::StringW const& __cordl_internal_get_targetTypeName() const;
+constexpr ::StringW const& __cordl_internal_get_targetTypeName() const;
 
-  constexpr ::StringW& __cordl_internal_get_targetTypeName();
+constexpr ::StringW& __cordl_internal_get_targetTypeName() ;
 
-  constexpr ::StringW const& __cordl_internal_get_type() const;
+constexpr ::StringW const& __cordl_internal_get_type() const;
 
-  constexpr ::StringW& __cordl_internal_get_type();
+constexpr ::StringW& __cordl_internal_get_type() ;
 
-  constexpr void __cordl_internal_set_assembly(::StringW value);
+constexpr void __cordl_internal_set_assembly(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_delegateEntry(::System::__DelegateSerializationHolder__DelegateEntry* value);
+constexpr void __cordl_internal_set_delegateEntry(::System::__DelegateSerializationHolder__DelegateEntry*  value) ;
 
-  constexpr void __cordl_internal_set_methodName(::StringW value);
+constexpr void __cordl_internal_set_methodName(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_target(::System::Object* value);
+constexpr void __cordl_internal_set_target(::System::Object*  value) ;
 
-  constexpr void __cordl_internal_set_targetTypeAssembly(::StringW value);
+constexpr void __cordl_internal_set_targetTypeAssembly(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_targetTypeName(::StringW value);
+constexpr void __cordl_internal_set_targetTypeName(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_type(::StringW value);
+constexpr void __cordl_internal_set_type(::StringW  value) ;
 
-  /// @brief Method .ctor, addr 0x29afeb8, size 0x11c, virtual false, abstract: false, final false
-  inline void _ctor(::System::Delegate* del, ::StringW targetLabel);
+/// @brief Method .ctor, addr 0x3da5b94, size 0x11c, virtual false, abstract: false, final false
+inline void _ctor(::System::Delegate*  del, ::StringW  targetLabel) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __DelegateSerializationHolder__DelegateEntry();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __DelegateSerializationHolder__DelegateEntry() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__DelegateSerializationHolder__DelegateEntry", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __DelegateSerializationHolder__DelegateEntry(__DelegateSerializationHolder__DelegateEntry&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__DelegateSerializationHolder__DelegateEntry", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __DelegateSerializationHolder__DelegateEntry(__DelegateSerializationHolder__DelegateEntry const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__DelegateSerializationHolder__DelegateEntry", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__DelegateSerializationHolder__DelegateEntry(__DelegateSerializationHolder__DelegateEntry && ) = delete;
 
-  /// @brief Field type, offset: 0x10, size: 0x8, def value: None
-  ::StringW ___type;
+// Ctor Parameters [CppParam { name: "", ty: "__DelegateSerializationHolder__DelegateEntry", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__DelegateSerializationHolder__DelegateEntry(__DelegateSerializationHolder__DelegateEntry const& ) = delete;
 
-  /// @brief Field assembly, offset: 0x18, size: 0x8, def value: None
-  ::StringW ___assembly;
+/// @brief Field type, offset: 0x10, size: 0x8, def value: None
+ ::StringW  ___type;
 
-  /// @brief Field target, offset: 0x20, size: 0x8, def value: None
-  ::System::Object* ___target;
+/// @brief Field assembly, offset: 0x18, size: 0x8, def value: None
+ ::StringW  ___assembly;
 
-  /// @brief Field targetTypeAssembly, offset: 0x28, size: 0x8, def value: None
-  ::StringW ___targetTypeAssembly;
+/// @brief Field target, offset: 0x20, size: 0x8, def value: None
+ ::System::Object*  ___target;
 
-  /// @brief Field targetTypeName, offset: 0x30, size: 0x8, def value: None
-  ::StringW ___targetTypeName;
+/// @brief Field targetTypeAssembly, offset: 0x28, size: 0x8, def value: None
+ ::StringW  ___targetTypeAssembly;
 
-  /// @brief Field methodName, offset: 0x38, size: 0x8, def value: None
-  ::StringW ___methodName;
+/// @brief Field targetTypeName, offset: 0x30, size: 0x8, def value: None
+ ::StringW  ___targetTypeName;
 
-  /// @brief Field delegateEntry, offset: 0x40, size: 0x8, def value: None
-  ::System::__DelegateSerializationHolder__DelegateEntry* ___delegateEntry;
+/// @brief Field methodName, offset: 0x38, size: 0x8, def value: None
+ ::StringW  ___methodName;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field delegateEntry, offset: 0x40, size: 0x8, def value: None
+ ::System::__DelegateSerializationHolder__DelegateEntry*  ___delegateEntry;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::__DelegateSerializationHolder__DelegateEntry, 0x48>, "Size mismatch!");
@@ -171,77 +171,77 @@ static_assert(offsetof(::System::__DelegateSerializationHolder__DelegateEntry, _
 
 static_assert(offsetof(::System::__DelegateSerializationHolder__DelegateEntry, ___delegateEntry) == 0x40, "Offset mismatch!");
 
-} // namespace System
+} // namespace end def System
 // Type: System::DelegateSerializationHolder
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
 // CS Name: ::System::DelegateSerializationHolder*
 class CORDL_TYPE DelegateSerializationHolder : public ::System::Object {
 public:
-  // Declarations
-  using DelegateEntry = ::System::__DelegateSerializationHolder__DelegateEntry;
+// Declarations
+using DelegateEntry = ::System::__DelegateSerializationHolder__DelegateEntry;
 
-  /// @brief Field _delegate, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__delegate, put = __cordl_internal_set__delegate))::System::Delegate* _delegate;
+/// @brief Field _delegate, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get__delegate, put=__cordl_internal_set__delegate)) ::System::Delegate*  _delegate;
 
-  /// @brief Convert operator to "::System::Runtime::Serialization::IObjectReference"
-  constexpr operator ::System::Runtime::Serialization::IObjectReference*() noexcept;
+/// @brief Convert operator to "::System::Runtime::Serialization::IObjectReference"
+constexpr operator  ::System::Runtime::Serialization::IObjectReference*() noexcept;
 
-  /// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
-  constexpr operator ::System::Runtime::Serialization::ISerializable*() noexcept;
+/// @brief Convert operator to "::System::Runtime::Serialization::ISerializable"
+constexpr operator  ::System::Runtime::Serialization::ISerializable*() noexcept;
 
-  /// @brief Method GetDelegateData, addr 0x29af620, size 0x248, virtual false, abstract: false, final false
-  static inline void GetDelegateData(::System::Delegate* instance, ::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext ctx);
+/// @brief Method GetDelegateData, addr 0x3da52fc, size 0x248, virtual false, abstract: false, final false
+static inline void GetDelegateData(::System::Delegate*  instance, ::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  ctx) ;
 
-  /// @brief Method GetObjectData, addr 0x29affd4, size 0x40, virtual true, abstract: false, final true
-  inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
+/// @brief Method GetObjectData, addr 0x3da5cb0, size 0x38, virtual true, abstract: false, final true
+inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context) ;
 
-  /// @brief Method GetRealObject, addr 0x29b0014, size 0x8, virtual true, abstract: false, final true
-  inline ::System::Object* GetRealObject(::System::Runtime::Serialization::StreamingContext context);
+/// @brief Method GetRealObject, addr 0x3da5ce8, size 0x8, virtual true, abstract: false, final true
+inline ::System::Object* GetRealObject(::System::Runtime::Serialization::StreamingContext  context) ;
 
-  static inline ::System::DelegateSerializationHolder* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext ctx);
+static inline ::System::DelegateSerializationHolder* New_ctor(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  ctx) ;
 
-  constexpr ::System::Delegate*& __cordl_internal_get__delegate();
+constexpr ::System::Delegate*& __cordl_internal_get__delegate() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Delegate*> const& __cordl_internal_get__delegate() const;
+constexpr ::cordl_internals::to_const_pointer<::System::Delegate*> const& __cordl_internal_get__delegate() const;
 
-  constexpr void __cordl_internal_set__delegate(::System::Delegate* value);
+constexpr void __cordl_internal_set__delegate(::System::Delegate*  value) ;
 
-  /// @brief Method .ctor, addr 0x29afa40, size 0x200, virtual false, abstract: false, final false
-  inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext ctx);
+/// @brief Method .ctor, addr 0x3da5714, size 0x208, virtual false, abstract: false, final false
+inline void _ctor(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  ctx) ;
 
-  /// @brief Convert to "::System::Runtime::Serialization::IObjectReference"
-  constexpr ::System::Runtime::Serialization::IObjectReference* i___System__Runtime__Serialization__IObjectReference() noexcept;
+/// @brief Convert to "::System::Runtime::Serialization::IObjectReference"
+constexpr ::System::Runtime::Serialization::IObjectReference* i___System__Runtime__Serialization__IObjectReference() noexcept;
 
-  /// @brief Convert to "::System::Runtime::Serialization::ISerializable"
-  constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
+/// @brief Convert to "::System::Runtime::Serialization::ISerializable"
+constexpr ::System::Runtime::Serialization::ISerializable* i___System__Runtime__Serialization__ISerializable() noexcept;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DelegateSerializationHolder();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr DelegateSerializationHolder() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DelegateSerializationHolder", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  DelegateSerializationHolder(DelegateSerializationHolder&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DelegateSerializationHolder", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  DelegateSerializationHolder(DelegateSerializationHolder const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "DelegateSerializationHolder", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+DelegateSerializationHolder(DelegateSerializationHolder && ) = delete;
 
-  /// @brief Field _delegate, offset: 0x10, size: 0x8, def value: None
-  ::System::Delegate* ____delegate;
+// Ctor Parameters [CppParam { name: "", ty: "DelegateSerializationHolder", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+DelegateSerializationHolder(DelegateSerializationHolder const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _delegate, offset: 0x10, size: 0x8, def value: None
+ ::System::Delegate*  ____delegate;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::DelegateSerializationHolder, 0x18>, "Size mismatch!");
 
 static_assert(offsetof(::System::DelegateSerializationHolder, ____delegate) == 0x10, "Offset mismatch!");
 
-} // namespace System
+} // namespace end def System
 NEED_NO_BOX(::System::DelegateSerializationHolder);
 DEFINE_IL2CPP_ARG_TYPE(::System::DelegateSerializationHolder*, "System", "DelegateSerializationHolder");
 NEED_NO_BOX(::System::__DelegateSerializationHolder__DelegateEntry);

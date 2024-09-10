@@ -13,34 +13,33 @@ struct IntersectionMaskCircle_t;
 // Write type traits
 MARK_VAL_T(::OVR::OpenVR::IntersectionMaskCircle_t);
 // Type: OVR.OpenVR::IntersectionMaskCircle_t
-// SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 28, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 12, native_size: 12, calculated_instance_size: 12, calculated_native_size: 28, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
 // CS Name: ::OVR.OpenVR::IntersectionMaskCircle_t
 struct CORDL_TYPE IntersectionMaskCircle_t {
 public:
-  // Declarations
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr IntersectionMaskCircle_t();
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr IntersectionMaskCircle_t() ;
 
-  // Ctor Parameters [CppParam { name: "m_flCenterX", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_flCenterY", ty: "float_t", modifiers: "", def_value: None }, CppParam { name:
-  // "m_flRadius", ty: "float_t", modifiers: "", def_value: None }]
-  constexpr IntersectionMaskCircle_t(float_t m_flCenterX, float_t m_flCenterY, float_t m_flRadius) noexcept;
+// Ctor Parameters [CppParam { name: "m_flCenterX", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_flCenterY", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "m_flRadius", ty: "float_t", modifiers: "", def_value: None }]
+constexpr IntersectionMaskCircle_t(float_t  m_flCenterX, float_t  m_flCenterY, float_t  m_flRadius) noexcept;
 
-  /// @brief Field m_flCenterX, offset: 0x0, size: 0x4, def value: None
-  float_t m_flCenterX;
+/// @brief Field m_flCenterX, offset: 0x0, size: 0x4, def value: None
+ float_t  m_flCenterX;
 
-  /// @brief Field m_flCenterY, offset: 0x4, size: 0x4, def value: None
-  float_t m_flCenterY;
+/// @brief Field m_flCenterY, offset: 0x4, size: 0x4, def value: None
+ float_t  m_flCenterY;
 
-  /// @brief Field m_flRadius, offset: 0x8, size: 0x4, def value: None
-  float_t m_flRadius;
+/// @brief Field m_flRadius, offset: 0x8, size: 0x4, def value: None
+ float_t  m_flRadius;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0xc };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0xc};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IntersectionMaskCircle_t, 0xc>, "Size mismatch!");
@@ -51,5 +50,5 @@ static_assert(offsetof(::OVR::OpenVR::IntersectionMaskCircle_t, m_flCenterY) == 
 
 static_assert(offsetof(::OVR::OpenVR::IntersectionMaskCircle_t, m_flRadius) == 0x8, "Offset mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::IntersectionMaskCircle_t, "OVR.OpenVR", "IntersectionMaskCircle_t");

@@ -7,7 +7,8 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(HEU_InstanceInputUIState)
 namespace HoudiniEngineUnity {
-template <typename T> class IEquivable_1;
+template<typename T>
+class IEquivable_1;
 }
 // Forward declare root types
 namespace HoudiniEngineUnity {
@@ -16,82 +17,81 @@ class HEU_InstanceInputUIState;
 // Write type traits
 MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_InstanceInputUIState);
 // Type: HoudiniEngineUnity::HEU_InstanceInputUIState
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
 // CS Name: ::HoudiniEngineUnity::HEU_InstanceInputUIState*
 class CORDL_TYPE HEU_InstanceInputUIState : public ::UnityEngine::ScriptableObject {
 public:
-  // Declarations
-  /// @brief Field _inputsPageIndexUI, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get__inputsPageIndexUI, put = __cordl_internal_set__inputsPageIndexUI)) int32_t _inputsPageIndexUI;
+// Declarations
+/// @brief Field _inputsPageIndexUI, offset 0x20, size 0x4 
+ __declspec(property(get=__cordl_internal_get__inputsPageIndexUI, put=__cordl_internal_set__inputsPageIndexUI)) int32_t  _inputsPageIndexUI;
 
-  /// @brief Field _numInputsToShowUI, offset 0x1c, size 0x4
-  __declspec(property(get = __cordl_internal_get__numInputsToShowUI, put = __cordl_internal_set__numInputsToShowUI)) int32_t _numInputsToShowUI;
+/// @brief Field _numInputsToShowUI, offset 0x1c, size 0x4 
+ __declspec(property(get=__cordl_internal_get__numInputsToShowUI, put=__cordl_internal_set__numInputsToShowUI)) int32_t  _numInputsToShowUI;
 
-  /// @brief Field _showInstanceInputs, offset 0x18, size 0x1
-  __declspec(property(get = __cordl_internal_get__showInstanceInputs, put = __cordl_internal_set__showInstanceInputs)) bool _showInstanceInputs;
+/// @brief Field _showInstanceInputs, offset 0x18, size 0x1 
+ __declspec(property(get=__cordl_internal_get__showInstanceInputs, put=__cordl_internal_set__showInstanceInputs)) bool  _showInstanceInputs;
 
-  /// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_InstanceInputUIState>>"
-  constexpr operator ::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_InstanceInputUIState>>*() noexcept;
+/// @brief Convert operator to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_InstanceInputUIState>>"
+constexpr operator  ::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_InstanceInputUIState>>*() noexcept;
 
-  /// @brief Method CopyTo, addr 0x258255c, size 0x24, virtual false, abstract: false, final false
-  inline void CopyTo(::HoudiniEngineUnity::HEU_InstanceInputUIState* dest);
+/// @brief Method CopyTo, addr 0x39a5a80, size 0x24, virtual false, abstract: false, final false
+inline void CopyTo(::HoudiniEngineUnity::HEU_InstanceInputUIState*  dest) ;
 
-  /// @brief Method IsEquivalentTo, addr 0x2582580, size 0x1e4, virtual true, abstract: false, final true
-  inline bool IsEquivalentTo(::HoudiniEngineUnity::HEU_InstanceInputUIState* other);
+/// @brief Method IsEquivalentTo, addr 0x39a5aa4, size 0x1dc, virtual true, abstract: false, final true
+inline bool IsEquivalentTo(::HoudiniEngineUnity::HEU_InstanceInputUIState*  other) ;
 
-  static inline ::HoudiniEngineUnity::HEU_InstanceInputUIState* New_ctor();
+static inline ::HoudiniEngineUnity::HEU_InstanceInputUIState* New_ctor() ;
 
-  constexpr int32_t const& __cordl_internal_get__inputsPageIndexUI() const;
+constexpr int32_t const& __cordl_internal_get__inputsPageIndexUI() const;
 
-  constexpr int32_t& __cordl_internal_get__inputsPageIndexUI();
+constexpr int32_t& __cordl_internal_get__inputsPageIndexUI() ;
 
-  constexpr int32_t const& __cordl_internal_get__numInputsToShowUI() const;
+constexpr int32_t const& __cordl_internal_get__numInputsToShowUI() const;
 
-  constexpr int32_t& __cordl_internal_get__numInputsToShowUI();
+constexpr int32_t& __cordl_internal_get__numInputsToShowUI() ;
 
-  constexpr bool const& __cordl_internal_get__showInstanceInputs() const;
+constexpr bool const& __cordl_internal_get__showInstanceInputs() const;
 
-  constexpr bool& __cordl_internal_get__showInstanceInputs();
+constexpr bool& __cordl_internal_get__showInstanceInputs() ;
 
-  constexpr void __cordl_internal_set__inputsPageIndexUI(int32_t value);
+constexpr void __cordl_internal_set__inputsPageIndexUI(int32_t  value) ;
 
-  constexpr void __cordl_internal_set__numInputsToShowUI(int32_t value);
+constexpr void __cordl_internal_set__numInputsToShowUI(int32_t  value) ;
 
-  constexpr void __cordl_internal_set__showInstanceInputs(bool value);
+constexpr void __cordl_internal_set__showInstanceInputs(bool  value) ;
 
-  /// @brief Method .ctor, addr 0x2582764, size 0x18, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x39a5c80, size 0x18, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_InstanceInputUIState>>"
-  constexpr ::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_InstanceInputUIState>>*
-  i___HoudiniEngineUnity__IEquivable_1___UnityW___HoudiniEngineUnity__HEU_InstanceInputUIState__() noexcept;
+/// @brief Convert to "::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_InstanceInputUIState>>"
+constexpr ::HoudiniEngineUnity::IEquivable_1<::UnityW<::HoudiniEngineUnity::HEU_InstanceInputUIState>>* i___HoudiniEngineUnity__IEquivable_1___UnityW___HoudiniEngineUnity__HEU_InstanceInputUIState__() noexcept;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HEU_InstanceInputUIState();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr HEU_InstanceInputUIState() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HEU_InstanceInputUIState", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  HEU_InstanceInputUIState(HEU_InstanceInputUIState&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HEU_InstanceInputUIState", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  HEU_InstanceInputUIState(HEU_InstanceInputUIState const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "HEU_InstanceInputUIState", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+HEU_InstanceInputUIState(HEU_InstanceInputUIState && ) = delete;
 
-  /// @brief Field _showInstanceInputs, offset: 0x18, size: 0x1, def value: None
-  bool ____showInstanceInputs;
+// Ctor Parameters [CppParam { name: "", ty: "HEU_InstanceInputUIState", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+HEU_InstanceInputUIState(HEU_InstanceInputUIState const& ) = delete;
 
-  /// @brief Field _numInputsToShowUI, offset: 0x1c, size: 0x4, def value: None
-  int32_t ____numInputsToShowUI;
+/// @brief Field _showInstanceInputs, offset: 0x18, size: 0x1, def value: None
+ bool  ____showInstanceInputs;
 
-  /// @brief Field _inputsPageIndexUI, offset: 0x20, size: 0x4, def value: None
-  int32_t ____inputsPageIndexUI;
+/// @brief Field _numInputsToShowUI, offset: 0x1c, size: 0x4, def value: None
+ int32_t  ____numInputsToShowUI;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _inputsPageIndexUI, offset: 0x20, size: 0x4, def value: None
+ int32_t  ____inputsPageIndexUI;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_InstanceInputUIState, 0x28>, "Size mismatch!");
@@ -102,6 +102,6 @@ static_assert(offsetof(::HoudiniEngineUnity::HEU_InstanceInputUIState, ____numIn
 
 static_assert(offsetof(::HoudiniEngineUnity::HEU_InstanceInputUIState, ____inputsPageIndexUI) == 0x20, "Offset mismatch!");
 
-} // namespace HoudiniEngineUnity
+} // namespace end def HoudiniEngineUnity
 NEED_NO_BOX(::HoudiniEngineUnity::HEU_InstanceInputUIState);
 DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_InstanceInputUIState*, "HoudiniEngineUnity", "HEU_InstanceInputUIState");

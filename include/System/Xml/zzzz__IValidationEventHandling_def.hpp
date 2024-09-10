@@ -20,32 +20,32 @@ class IValidationEventHandling;
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::IValidationEventHandling);
 // Type: System.Xml::IValidationEventHandling
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
 // CS Name: ::System.Xml::IValidationEventHandling*
 class CORDL_TYPE IValidationEventHandling {
 public:
-  // Declarations
-  __declspec(property(get = get_EventHandler))::System::Object* EventHandler;
+// Declarations
+ __declspec(property(get=get_EventHandler)) ::System::Object*  EventHandler;
 
-  /// @brief Method SendEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void SendEvent(::System::Exception* exception, ::System::Xml::Schema::XmlSeverityType severity);
+/// @brief Method SendEvent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+inline void SendEvent(::System::Exception*  exception, ::System::Xml::Schema::XmlSeverityType  severity) ;
 
-  /// @brief Method get_EventHandler, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::System::Object* get_EventHandler();
+/// @brief Method get_EventHandler, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+inline ::System::Object* get_EventHandler() ;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IValidationEventHandling", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IValidationEventHandling(IValidationEventHandling&&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "IValidationEventHandling", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+IValidationEventHandling(IValidationEventHandling && ) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IValidationEventHandling", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  IValidationEventHandling(IValidationEventHandling const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "IValidationEventHandling", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+IValidationEventHandling(IValidationEventHandling const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-} // namespace System::Xml
+} // namespace end def System::Xml
 NEED_NO_BOX(::System::Xml::IValidationEventHandling);
 DEFINE_IL2CPP_ARG_TYPE(::System::Xml::IValidationEventHandling*, "System.Xml", "IValidationEventHandling");

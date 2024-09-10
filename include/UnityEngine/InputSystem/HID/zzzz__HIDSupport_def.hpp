@@ -19,7 +19,8 @@ namespace UnityEngine::InputSystem::HID {
 struct __HID__UsagePage;
 }
 namespace UnityEngine::InputSystem::Utilities {
-template <typename TValue> struct ReadOnlyArray_1;
+template<typename TValue>
+struct ReadOnlyArray_1;
 }
 // Forward declare root types
 namespace UnityEngine::InputSystem::HID {
@@ -32,37 +33,36 @@ struct __HIDSupport__HIDPageUsage;
 MARK_REF_PTR_T(::UnityEngine::InputSystem::HID::HIDSupport);
 MARK_VAL_T(::UnityEngine::InputSystem::HID::__HIDSupport__HIDPageUsage);
 // Type: ::HIDPageUsage
-// SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::HID {
 // Is value type: true
 // CS Name: ::HIDSupport::HIDPageUsage
 struct CORDL_TYPE __HIDSupport__HIDPageUsage {
 public:
-  // Declarations
-  /// @brief Method .ctor, addr 0x3185fc4, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::InputSystem::HID::__HID__UsagePage page, int32_t usage);
+// Declarations
+/// @brief Method .ctor, addr 0x456dabc, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(::UnityEngine::InputSystem::HID::__HID__UsagePage  page, int32_t  usage) ;
 
-  /// @brief Method .ctor, addr 0x3186118, size 0xc, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::InputSystem::HID::__HID__GenericDesktop usage);
+/// @brief Method .ctor, addr 0x456dc0c, size 0xc, virtual false, abstract: false, final false
+inline void _ctor(::UnityEngine::InputSystem::HID::__HID__GenericDesktop  usage) ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __HIDSupport__HIDPageUsage();
+// Ctor Parameters []
+// @brief default ctor
+constexpr __HIDSupport__HIDPageUsage() ;
 
-  // Ctor Parameters [CppParam { name: "page", ty: "::UnityEngine::InputSystem::HID::__HID__UsagePage", modifiers: "", def_value: None }, CppParam { name: "usage", ty: "int32_t", modifiers: "",
-  // def_value: None }]
-  constexpr __HIDSupport__HIDPageUsage(::UnityEngine::InputSystem::HID::__HID__UsagePage page, int32_t usage) noexcept;
+// Ctor Parameters [CppParam { name: "page", ty: "::UnityEngine::InputSystem::HID::__HID__UsagePage", modifiers: "", def_value: None }, CppParam { name: "usage", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr __HIDSupport__HIDPageUsage(::UnityEngine::InputSystem::HID::__HID__UsagePage  page, int32_t  usage) noexcept;
 
-  /// @brief Field page, offset: 0x0, size: 0x4, def value: None
-  ::UnityEngine::InputSystem::HID::__HID__UsagePage page;
+/// @brief Field page, offset: 0x0, size: 0x4, def value: None
+ ::UnityEngine::InputSystem::HID::__HID__UsagePage  page;
 
-  /// @brief Field usage, offset: 0x4, size: 0x4, def value: None
-  int32_t usage;
+/// @brief Field usage, offset: 0x4, size: 0x4, def value: None
+ int32_t  usage;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x8};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::HID::__HIDSupport__HIDPageUsage, 0x8>, "Size mismatch!");
@@ -71,56 +71,53 @@ static_assert(offsetof(::UnityEngine::InputSystem::HID::__HIDSupport__HIDPageUsa
 
 static_assert(offsetof(::UnityEngine::InputSystem::HID::__HIDSupport__HIDPageUsage, usage) == 0x4, "Offset mismatch!");
 
-} // namespace UnityEngine::InputSystem::HID
+} // namespace end def UnityEngine::InputSystem::HID
 // Type: UnityEngine.InputSystem.HID::HIDSupport
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::HID {
 // Is value type: false
 // CS Name: ::UnityEngine.InputSystem.HID::HIDSupport*
 class CORDL_TYPE HIDSupport : public ::System::Object {
 public:
-  // Declarations
-  using HIDPageUsage = ::UnityEngine::InputSystem::HID::__HIDSupport__HIDPageUsage;
+// Declarations
+using HIDPageUsage = ::UnityEngine::InputSystem::HID::__HIDSupport__HIDPageUsage;
 
-  /// @brief Field s_SupportedHIDUsages, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_SupportedHIDUsages,
-                             put = setStaticF_s_SupportedHIDUsages))::ArrayW<::UnityEngine::InputSystem::HID::__HIDSupport__HIDPageUsage,
-                                                                             ::Array<::UnityEngine::InputSystem::HID::__HIDSupport__HIDPageUsage>*> s_SupportedHIDUsages;
+/// @brief Field s_SupportedHIDUsages, offset 0xffffffff, size 0x8 
+static __declspec(property(get=getStaticF_s_SupportedHIDUsages, put=setStaticF_s_SupportedHIDUsages)) ::ArrayW<::UnityEngine::InputSystem::HID::__HIDSupport__HIDPageUsage,::Array<::UnityEngine::InputSystem::HID::__HIDSupport__HIDPageUsage>*>  s_SupportedHIDUsages;
 
-  /// @brief Method Initialize, addr 0x3185fcc, size 0x14c, virtual false, abstract: false, final false
-  static inline void Initialize();
+/// @brief Method Initialize, addr 0x456dac4, size 0x148, virtual false, abstract: false, final false
+static inline void Initialize() ;
 
-  static inline ::ArrayW<::UnityEngine::InputSystem::HID::__HIDSupport__HIDPageUsage, ::Array<::UnityEngine::InputSystem::HID::__HIDSupport__HIDPageUsage>*> getStaticF_s_SupportedHIDUsages();
+static inline ::ArrayW<::UnityEngine::InputSystem::HID::__HIDSupport__HIDPageUsage,::Array<::UnityEngine::InputSystem::HID::__HIDSupport__HIDPageUsage>*> getStaticF_s_SupportedHIDUsages() ;
 
-  /// @brief Method get_supportedHIDUsages, addr 0x3185d38, size 0x60, virtual false, abstract: false, final false
-  static inline ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::HID::__HIDSupport__HIDPageUsage> get_supportedHIDUsages();
+/// @brief Method get_supportedHIDUsages, addr 0x456d830, size 0x60, virtual false, abstract: false, final false
+static inline ::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::HID::__HIDSupport__HIDPageUsage> get_supportedHIDUsages() ;
 
-  static inline void
-  setStaticF_s_SupportedHIDUsages(::ArrayW<::UnityEngine::InputSystem::HID::__HIDSupport__HIDPageUsage, ::Array<::UnityEngine::InputSystem::HID::__HIDSupport__HIDPageUsage>*> value);
+static inline void setStaticF_s_SupportedHIDUsages(::ArrayW<::UnityEngine::InputSystem::HID::__HIDSupport__HIDPageUsage,::Array<::UnityEngine::InputSystem::HID::__HIDSupport__HIDPageUsage>*>  value) ;
 
-  /// @brief Method set_supportedHIDUsages, addr 0x3185d98, size 0x22c, virtual false, abstract: false, final false
-  static inline void set_supportedHIDUsages(::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::HID::__HIDSupport__HIDPageUsage> value);
+/// @brief Method set_supportedHIDUsages, addr 0x456d890, size 0x22c, virtual false, abstract: false, final false
+static inline void set_supportedHIDUsages(::UnityEngine::InputSystem::Utilities::ReadOnlyArray_1<::UnityEngine::InputSystem::HID::__HIDSupport__HIDPageUsage>  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HIDSupport();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr HIDSupport() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HIDSupport", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  HIDSupport(HIDSupport&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HIDSupport", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  HIDSupport(HIDSupport const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "HIDSupport", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+HIDSupport(HIDSupport && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "HIDSupport", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+HIDSupport(HIDSupport const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::HID::HIDSupport, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine::InputSystem::HID
+} // namespace end def UnityEngine::InputSystem::HID
 NEED_NO_BOX(::UnityEngine::InputSystem::HID::HIDSupport);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::HID::HIDSupport*, "UnityEngine.InputSystem.HID", "HIDSupport");
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::HID::__HIDSupport__HIDPageUsage, "UnityEngine.InputSystem.HID", "HIDSupport/HIDPageUsage");

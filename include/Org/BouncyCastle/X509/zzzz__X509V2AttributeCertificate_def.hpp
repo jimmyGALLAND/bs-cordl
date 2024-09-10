@@ -61,176 +61,176 @@ class X509V2AttributeCertificate;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::X509::X509V2AttributeCertificate);
 // Type: Org.BouncyCastle.X509::X509V2AttributeCertificate
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::X509 {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.X509::X509V2AttributeCertificate*
 class CORDL_TYPE X509V2AttributeCertificate : public ::Org::BouncyCastle::X509::X509ExtensionBase {
 public:
-  // Declarations
-  __declspec(property(get = get_Holder))::Org::BouncyCastle::X509::AttributeCertificateHolder* Holder;
+// Declarations
+ __declspec(property(get=get_Holder)) ::Org::BouncyCastle::X509::AttributeCertificateHolder*  Holder;
 
-  __declspec(property(get = get_IsValidNow)) bool IsValidNow;
+ __declspec(property(get=get_IsValidNow)) bool  IsValidNow;
 
-  __declspec(property(get = get_Issuer))::Org::BouncyCastle::X509::AttributeCertificateIssuer* Issuer;
+ __declspec(property(get=get_Issuer)) ::Org::BouncyCastle::X509::AttributeCertificateIssuer*  Issuer;
 
-  __declspec(property(get = get_NotAfter))::System::DateTime NotAfter;
+ __declspec(property(get=get_NotAfter)) ::System::DateTime  NotAfter;
 
-  __declspec(property(get = get_NotBefore))::System::DateTime NotBefore;
+ __declspec(property(get=get_NotBefore)) ::System::DateTime  NotBefore;
 
-  __declspec(property(get = get_SerialNumber))::Org::BouncyCastle::Math::BigInteger* SerialNumber;
+ __declspec(property(get=get_SerialNumber)) ::Org::BouncyCastle::Math::BigInteger*  SerialNumber;
 
-  __declspec(property(get = get_SignatureAlgorithm))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* SignatureAlgorithm;
+ __declspec(property(get=get_SignatureAlgorithm)) ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*  SignatureAlgorithm;
 
-  __declspec(property(get = get_Version)) int32_t Version;
+ __declspec(property(get=get_Version)) int32_t  Version;
 
-  /// @brief Field cert, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_cert, put = __cordl_internal_set_cert))::Org::BouncyCastle::Asn1::X509::AttributeCertificate* cert;
+/// @brief Field cert, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_cert, put=__cordl_internal_set_cert)) ::Org::BouncyCastle::Asn1::X509::AttributeCertificate*  cert;
 
-  /// @brief Field notAfter, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_notAfter, put = __cordl_internal_set_notAfter))::System::DateTime notAfter;
+/// @brief Field notAfter, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get_notAfter, put=__cordl_internal_set_notAfter)) ::System::DateTime  notAfter;
 
-  /// @brief Field notBefore, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_notBefore, put = __cordl_internal_set_notBefore))::System::DateTime notBefore;
+/// @brief Field notBefore, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_notBefore, put=__cordl_internal_set_notBefore)) ::System::DateTime  notBefore;
 
-  /// @brief Convert operator to "::Org::BouncyCastle::X509::IX509AttributeCertificate"
-  constexpr operator ::Org::BouncyCastle::X509::IX509AttributeCertificate*() noexcept;
+/// @brief Convert operator to "::Org::BouncyCastle::X509::IX509AttributeCertificate"
+constexpr operator  ::Org::BouncyCastle::X509::IX509AttributeCertificate*() noexcept;
 
-  /// @brief Convert operator to "::Org::BouncyCastle::X509::IX509Extension"
-  constexpr operator ::Org::BouncyCastle::X509::IX509Extension*() noexcept;
+/// @brief Convert operator to "::Org::BouncyCastle::X509::IX509Extension"
+constexpr operator  ::Org::BouncyCastle::X509::IX509Extension*() noexcept;
 
-  /// @brief Method CheckSignature, addr 0x13f6bb8, size 0x4bc, virtual true, abstract: false, final false
-  inline void CheckSignature(::Org::BouncyCastle::Crypto::IVerifierFactory* verifier);
+/// @brief Method CheckSignature, addr 0x25b108c, size 0x4b0, virtual true, abstract: false, final false
+inline void CheckSignature(::Org::BouncyCastle::Crypto::IVerifierFactory*  verifier) ;
 
-  /// @brief Method CheckValidity, addr 0x13f67f4, size 0x6c, virtual true, abstract: false, final false
-  inline void CheckValidity();
+/// @brief Method CheckValidity, addr 0x25b0cac, size 0x6c, virtual true, abstract: false, final false
+inline void CheckValidity() ;
 
-  /// @brief Method CheckValidity, addr 0x13f6860, size 0x1c8, virtual true, abstract: false, final false
-  inline void CheckValidity(::System::DateTime date);
+/// @brief Method CheckValidity, addr 0x25b0d18, size 0x1e8, virtual true, abstract: false, final false
+inline void CheckValidity(::System::DateTime  date) ;
 
-  /// @brief Method Equals, addr 0x13f7654, size 0xb0, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* obj);
+/// @brief Method Equals, addr 0x25b1b10, size 0xb0, virtual true, abstract: false, final false
+inline bool Equals(::System::Object*  obj) ;
 
-  /// @brief Method GetAttributes, addr 0x13f70b4, size 0x168, virtual true, abstract: false, final false
-  inline ::ArrayW<::Org::BouncyCastle::X509::X509Attribute*, ::Array<::Org::BouncyCastle::X509::X509Attribute*>*> GetAttributes();
+/// @brief Method GetAttributes, addr 0x25b157c, size 0x164, virtual true, abstract: false, final false
+inline ::ArrayW<::Org::BouncyCastle::X509::X509Attribute*,::Array<::Org::BouncyCastle::X509::X509Attribute*>*> GetAttributes() ;
 
-  /// @brief Method GetAttributes, addr 0x13f721c, size 0x438, virtual true, abstract: false, final false
-  inline ::ArrayW<::Org::BouncyCastle::X509::X509Attribute*, ::Array<::Org::BouncyCastle::X509::X509Attribute*>*> GetAttributes(::StringW oid);
+/// @brief Method GetAttributes, addr 0x25b16e0, size 0x430, virtual true, abstract: false, final false
+inline ::ArrayW<::Org::BouncyCastle::X509::X509Attribute*,::Array<::Org::BouncyCastle::X509::X509Attribute*>*> GetAttributes(::StringW  oid) ;
 
-  /// @brief Method GetEncoded, addr 0x13f7074, size 0x1c, virtual true, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetEncoded();
+/// @brief Method GetEncoded, addr 0x25b153c, size 0x1c, virtual true, abstract: false, final false
+inline ::ArrayW<uint8_t,::Array<uint8_t>*> GetEncoded() ;
 
-  /// @brief Method GetHashCode, addr 0x13f7704, size 0x1c, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
+/// @brief Method GetHashCode, addr 0x25b1bc0, size 0x1c, virtual true, abstract: false, final false
+inline int32_t GetHashCode() ;
 
-  /// @brief Method GetIssuerUniqueID, addr 0x13f65a8, size 0x110, virtual true, abstract: false, final false
-  inline ::ArrayW<bool, ::Array<bool>*> GetIssuerUniqueID();
+/// @brief Method GetIssuerUniqueID, addr 0x25b0a38, size 0x108, virtual true, abstract: false, final false
+inline ::ArrayW<bool,::Array<bool>*> GetIssuerUniqueID() ;
 
-  /// @brief Method GetObject, addr 0x13f621c, size 0x124, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Asn1::X509::AttributeCertificate* GetObject(::System::IO::Stream* input);
+/// @brief Method GetObject, addr 0x25b06c0, size 0x120, virtual false, abstract: false, final false
+static inline ::Org::BouncyCastle::Asn1::X509::AttributeCertificate* GetObject(::System::IO::Stream*  input) ;
 
-  /// @brief Method GetSignature, addr 0x13f6a44, size 0x1c, virtual true, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetSignature();
+/// @brief Method GetSignature, addr 0x25b0f1c, size 0x1c, virtual true, abstract: false, final false
+inline ::ArrayW<uint8_t,::Array<uint8_t>*> GetSignature() ;
 
-  /// @brief Method GetX509Extensions, addr 0x13f7090, size 0x24, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::X509::X509Extensions* GetX509Extensions();
+/// @brief Method GetX509Extensions, addr 0x25b1558, size 0x24, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Asn1::X509::X509Extensions* GetX509Extensions() ;
 
-  /// @brief Method IsValid, addr 0x13f6724, size 0xd0, virtual true, abstract: false, final false
-  inline bool IsValid(::System::DateTime date);
+/// @brief Method IsValid, addr 0x25b0bac, size 0x100, virtual true, abstract: false, final false
+inline bool IsValid(::System::DateTime  date) ;
 
-  static inline ::Org::BouncyCastle::X509::X509V2AttributeCertificate* New_ctor(::Org::BouncyCastle::Asn1::X509::AttributeCertificate* cert);
+static inline ::Org::BouncyCastle::X509::X509V2AttributeCertificate* New_ctor(::Org::BouncyCastle::Asn1::X509::AttributeCertificate*  cert) ;
 
-  static inline ::Org::BouncyCastle::X509::X509V2AttributeCertificate* New_ctor(::System::IO::Stream* encIn);
+static inline ::Org::BouncyCastle::X509::X509V2AttributeCertificate* New_ctor(::System::IO::Stream*  encIn) ;
 
-  static inline ::Org::BouncyCastle::X509::X509V2AttributeCertificate* New_ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> encoded);
+static inline ::Org::BouncyCastle::X509::X509V2AttributeCertificate* New_ctor(::ArrayW<uint8_t,::Array<uint8_t>*>  encoded) ;
 
-  /// @brief Method Verify, addr 0x13f6a60, size 0x90, virtual true, abstract: false, final false
-  inline void Verify(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* key);
+/// @brief Method Verify, addr 0x25b0f38, size 0x8c, virtual true, abstract: false, final false
+inline void Verify(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*  key) ;
 
-  /// @brief Method Verify, addr 0x13f6af0, size 0xc8, virtual true, abstract: false, final false
-  inline void Verify(::Org::BouncyCastle::Crypto::IVerifierFactoryProvider* verifierProvider);
+/// @brief Method Verify, addr 0x25b0fc4, size 0xc8, virtual true, abstract: false, final false
+inline void Verify(::Org::BouncyCastle::Crypto::IVerifierFactoryProvider*  verifierProvider) ;
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::AttributeCertificate*& __cordl_internal_get_cert();
+constexpr ::Org::BouncyCastle::Asn1::X509::AttributeCertificate*& __cordl_internal_get_cert() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AttributeCertificate*> const& __cordl_internal_get_cert() const;
+constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AttributeCertificate*> const& __cordl_internal_get_cert() const;
 
-  constexpr ::System::DateTime const& __cordl_internal_get_notAfter() const;
+constexpr ::System::DateTime const& __cordl_internal_get_notAfter() const;
 
-  constexpr ::System::DateTime& __cordl_internal_get_notAfter();
+constexpr ::System::DateTime& __cordl_internal_get_notAfter() ;
 
-  constexpr ::System::DateTime const& __cordl_internal_get_notBefore() const;
+constexpr ::System::DateTime const& __cordl_internal_get_notBefore() const;
 
-  constexpr ::System::DateTime& __cordl_internal_get_notBefore();
+constexpr ::System::DateTime& __cordl_internal_get_notBefore() ;
 
-  constexpr void __cordl_internal_set_cert(::Org::BouncyCastle::Asn1::X509::AttributeCertificate* value);
+constexpr void __cordl_internal_set_cert(::Org::BouncyCastle::Asn1::X509::AttributeCertificate*  value) ;
 
-  constexpr void __cordl_internal_set_notAfter(::System::DateTime value);
+constexpr void __cordl_internal_set_notAfter(::System::DateTime  value) ;
 
-  constexpr void __cordl_internal_set_notBefore(::System::DateTime value);
+constexpr void __cordl_internal_set_notBefore(::System::DateTime  value) ;
 
-  /// @brief Method .ctor, addr 0x13e9840, size 0x170, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Asn1::X509::AttributeCertificate* cert);
+/// @brief Method .ctor, addr 0x25a3f04, size 0x16c, virtual false, abstract: false, final false
+inline void _ctor(::Org::BouncyCastle::Asn1::X509::AttributeCertificate*  cert) ;
 
-  /// @brief Method .ctor, addr 0x13f6340, size 0x20, virtual false, abstract: false, final false
-  inline void _ctor(::System::IO::Stream* encIn);
+/// @brief Method .ctor, addr 0x25b07e0, size 0x20, virtual false, abstract: false, final false
+inline void _ctor(::System::IO::Stream*  encIn) ;
 
-  /// @brief Method .ctor, addr 0x13f6360, size 0x80, virtual false, abstract: false, final false
-  inline void _ctor(::ArrayW<uint8_t, ::Array<uint8_t>*> encoded);
+/// @brief Method .ctor, addr 0x25b0800, size 0x78, virtual false, abstract: false, final false
+inline void _ctor(::ArrayW<uint8_t,::Array<uint8_t>*>  encoded) ;
 
-  /// @brief Method get_Holder, addr 0x13f6440, size 0xe0, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::X509::AttributeCertificateHolder* get_Holder();
+/// @brief Method get_Holder, addr 0x25b08d8, size 0xdc, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::X509::AttributeCertificateHolder* get_Holder() ;
 
-  /// @brief Method get_IsValidNow, addr 0x13f66b8, size 0x6c, virtual true, abstract: false, final false
-  inline bool get_IsValidNow();
+/// @brief Method get_IsValidNow, addr 0x25b0b40, size 0x6c, virtual true, abstract: false, final false
+inline bool get_IsValidNow() ;
 
-  /// @brief Method get_Issuer, addr 0x13f6520, size 0x78, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::X509::AttributeCertificateIssuer* get_Issuer();
+/// @brief Method get_Issuer, addr 0x25b09b4, size 0x74, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::X509::AttributeCertificateIssuer* get_Issuer() ;
 
-  /// @brief Method get_NotAfter, addr 0x13f65a0, size 0x8, virtual true, abstract: false, final false
-  inline ::System::DateTime get_NotAfter();
+/// @brief Method get_NotAfter, addr 0x25b0a30, size 0x8, virtual true, abstract: false, final false
+inline ::System::DateTime get_NotAfter() ;
 
-  /// @brief Method get_NotBefore, addr 0x13f6598, size 0x8, virtual true, abstract: false, final false
-  inline ::System::DateTime get_NotBefore();
+/// @brief Method get_NotBefore, addr 0x25b0a28, size 0x8, virtual true, abstract: false, final false
+inline ::System::DateTime get_NotBefore() ;
 
-  /// @brief Method get_SerialNumber, addr 0x13f6414, size 0x2c, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Math::BigInteger* get_SerialNumber();
+/// @brief Method get_SerialNumber, addr 0x25b08ac, size 0x2c, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Math::BigInteger* get_SerialNumber() ;
 
-  /// @brief Method get_SignatureAlgorithm, addr 0x13f6a28, size 0x1c, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_SignatureAlgorithm();
+/// @brief Method get_SignatureAlgorithm, addr 0x25b0f00, size 0x1c, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_SignatureAlgorithm() ;
 
-  /// @brief Method get_Version, addr 0x13f63e0, size 0x34, virtual true, abstract: false, final false
-  inline int32_t get_Version();
+/// @brief Method get_Version, addr 0x25b0878, size 0x34, virtual true, abstract: false, final false
+inline int32_t get_Version() ;
 
-  /// @brief Convert to "::Org::BouncyCastle::X509::IX509AttributeCertificate"
-  constexpr ::Org::BouncyCastle::X509::IX509AttributeCertificate* i___Org__BouncyCastle__X509__IX509AttributeCertificate() noexcept;
+/// @brief Convert to "::Org::BouncyCastle::X509::IX509AttributeCertificate"
+constexpr ::Org::BouncyCastle::X509::IX509AttributeCertificate* i___Org__BouncyCastle__X509__IX509AttributeCertificate() noexcept;
 
-  /// @brief Convert to "::Org::BouncyCastle::X509::IX509Extension"
-  constexpr ::Org::BouncyCastle::X509::IX509Extension* i___Org__BouncyCastle__X509__IX509Extension() noexcept;
+/// @brief Convert to "::Org::BouncyCastle::X509::IX509Extension"
+constexpr ::Org::BouncyCastle::X509::IX509Extension* i___Org__BouncyCastle__X509__IX509Extension() noexcept;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr X509V2AttributeCertificate();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr X509V2AttributeCertificate() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "X509V2AttributeCertificate", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  X509V2AttributeCertificate(X509V2AttributeCertificate&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "X509V2AttributeCertificate", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  X509V2AttributeCertificate(X509V2AttributeCertificate const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "X509V2AttributeCertificate", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+X509V2AttributeCertificate(X509V2AttributeCertificate && ) = delete;
 
-  /// @brief Field cert, offset: 0x10, size: 0x8, def value: None
-  ::Org::BouncyCastle::Asn1::X509::AttributeCertificate* ___cert;
+// Ctor Parameters [CppParam { name: "", ty: "X509V2AttributeCertificate", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+X509V2AttributeCertificate(X509V2AttributeCertificate const& ) = delete;
 
-  /// @brief Field notBefore, offset: 0x18, size: 0x8, def value: None
-  ::System::DateTime ___notBefore;
+/// @brief Field cert, offset: 0x10, size: 0x8, def value: None
+ ::Org::BouncyCastle::Asn1::X509::AttributeCertificate*  ___cert;
 
-  /// @brief Field notAfter, offset: 0x20, size: 0x8, def value: None
-  ::System::DateTime ___notAfter;
+/// @brief Field notBefore, offset: 0x18, size: 0x8, def value: None
+ ::System::DateTime  ___notBefore;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field notAfter, offset: 0x20, size: 0x8, def value: None
+ ::System::DateTime  ___notAfter;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::X509::X509V2AttributeCertificate, 0x28>, "Size mismatch!");
@@ -241,6 +241,6 @@ static_assert(offsetof(::Org::BouncyCastle::X509::X509V2AttributeCertificate, __
 
 static_assert(offsetof(::Org::BouncyCastle::X509::X509V2AttributeCertificate, ___notAfter) == 0x20, "Offset mismatch!");
 
-} // namespace Org::BouncyCastle::X509
+} // namespace end def Org::BouncyCastle::X509
 NEED_NO_BOX(::Org::BouncyCastle::X509::X509V2AttributeCertificate);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::X509::X509V2AttributeCertificate*, "Org.BouncyCastle.X509", "X509V2AttributeCertificate");

@@ -17,7 +17,8 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(InheritedData)
 namespace System {
-template <typename T> class IEquatable_1;
+template<typename T>
+class IEquatable_1;
 }
 namespace System {
 class Object;
@@ -26,7 +27,8 @@ namespace UnityEngine::UIElements {
 struct FontDefinition;
 }
 namespace UnityEngine::UIElements {
-template <typename T> class IStyleDataGroup_1;
+template<typename T>
+class IStyleDataGroup_1;
 }
 namespace UnityEngine::UIElements {
 struct Length;
@@ -59,107 +61,96 @@ struct InheritedData;
 // Write type traits
 MARK_VAL_T(::UnityEngine::UIElements::InheritedData);
 // Type: UnityEngine.UIElements::InheritedData
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 156, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 156, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
 // CS Name: ::UnityEngine.UIElements::InheritedData
 struct CORDL_TYPE InheritedData {
 public:
-  // Declarations
-  /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::InheritedData>"
-  constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::InheritedData>*();
+// Declarations
+/// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::InheritedData>"
+constexpr operator  ::System::IEquatable_1<::UnityEngine::UIElements::InheritedData>*() ;
 
-  /// @brief Convert operator to "::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::InheritedData>"
-  constexpr operator ::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::InheritedData>*();
+/// @brief Convert operator to "::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::InheritedData>"
+constexpr operator  ::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::InheritedData>*() ;
 
-  /// @brief Method Copy, addr 0x3619730, size 0x1c, virtual true, abstract: false, final true
-  inline ::UnityEngine::UIElements::InheritedData Copy();
+/// @brief Method Copy, addr 0x49eb5a0, size 0x1c, virtual true, abstract: false, final true
+inline ::UnityEngine::UIElements::InheritedData Copy() ;
 
-  /// @brief Method CopyFrom, addr 0x361974c, size 0x14, virtual true, abstract: false, final true
-  inline void CopyFrom(ByRef<::UnityEngine::UIElements::InheritedData> other);
+/// @brief Method CopyFrom, addr 0x49eb5bc, size 0x14, virtual true, abstract: false, final true
+inline void CopyFrom(ByRef<::UnityEngine::UIElements::InheritedData>  other) ;
 
-  /// @brief Method Equals, addr 0x36199ac, size 0xa8, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* obj);
+/// @brief Method Equals, addr 0x49eb88c, size 0xa8, virtual true, abstract: false, final false
+inline bool Equals(::System::Object*  obj) ;
 
-  /// @brief Method Equals, addr 0x3619960, size 0x4c, virtual true, abstract: false, final true
-  inline bool Equals(::UnityEngine::UIElements::InheritedData other);
+/// @brief Method Equals, addr 0x49eb840, size 0x4c, virtual true, abstract: false, final true
+inline bool Equals(::UnityEngine::UIElements::InheritedData  other) ;
 
-  /// @brief Method GetHashCode, addr 0x3619a54, size 0x24c, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
+/// @brief Method GetHashCode, addr 0x49eb934, size 0x27c, virtual true, abstract: false, final false
+inline int32_t GetHashCode() ;
 
-  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::InheritedData>"
-  constexpr ::System::IEquatable_1<::UnityEngine::UIElements::InheritedData>* i___System__IEquatable_1___UnityEngine__UIElements__InheritedData_();
+/// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::InheritedData>"
+constexpr ::System::IEquatable_1<::UnityEngine::UIElements::InheritedData>* i___System__IEquatable_1___UnityEngine__UIElements__InheritedData_() ;
 
-  /// @brief Convert to "::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::InheritedData>"
-  constexpr ::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::InheritedData>* i___UnityEngine__UIElements__IStyleDataGroup_1___UnityEngine__UIElements__InheritedData_();
+/// @brief Convert to "::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::InheritedData>"
+constexpr ::UnityEngine::UIElements::IStyleDataGroup_1<::UnityEngine::UIElements::InheritedData>* i___UnityEngine__UIElements__IStyleDataGroup_1___UnityEngine__UIElements__InheritedData_() ;
 
-  /// @brief Method op_Equality, addr 0x3619760, size 0x200, virtual false, abstract: false, final false
-  static inline bool op_Equality(::UnityEngine::UIElements::InheritedData lhs, ::UnityEngine::UIElements::InheritedData rhs);
+/// @brief Method op_Equality, addr 0x49eb5d0, size 0x248, virtual false, abstract: false, final false
+static inline bool op_Equality(::UnityEngine::UIElements::InheritedData  lhs, ::UnityEngine::UIElements::InheritedData  rhs) ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr InheritedData();
+// Ctor Parameters []
+// @brief default ctor
+constexpr InheritedData() ;
 
-  // Ctor Parameters [CppParam { name: "color", ty: "::UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "fontSize", ty: "::UnityEngine::UIElements::Length", modifiers: "",
-  // def_value: None }, CppParam { name: "letterSpacing", ty: "::UnityEngine::UIElements::Length", modifiers: "", def_value: None }, CppParam { name: "textShadow", ty:
-  // "::UnityEngine::UIElements::TextShadow", modifiers: "", def_value: None }, CppParam { name: "unityFont", ty: "::UnityW<::UnityEngine::Font>", modifiers: "", def_value: None }, CppParam { name:
-  // "unityFontDefinition", ty: "::UnityEngine::UIElements::FontDefinition", modifiers: "", def_value: None }, CppParam { name: "unityFontStyleAndWeight", ty: "::UnityEngine::FontStyle", modifiers:
-  // "", def_value: None }, CppParam { name: "unityParagraphSpacing", ty: "::UnityEngine::UIElements::Length", modifiers: "", def_value: None }, CppParam { name: "unityTextAlign", ty:
-  // "::UnityEngine::TextAnchor", modifiers: "", def_value: None }, CppParam { name: "unityTextOutlineColor", ty: "::UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name:
-  // "unityTextOutlineWidth", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "visibility", ty: "::UnityEngine::UIElements::Visibility", modifiers: "", def_value: None }, CppParam {
-  // name: "whiteSpace", ty: "::UnityEngine::UIElements::WhiteSpace", modifiers: "", def_value: None }, CppParam { name: "wordSpacing", ty: "::UnityEngine::UIElements::Length", modifiers: "",
-  // def_value: None }]
-  constexpr InheritedData(::UnityEngine::Color color, ::UnityEngine::UIElements::Length fontSize, ::UnityEngine::UIElements::Length letterSpacing, ::UnityEngine::UIElements::TextShadow textShadow,
-                          ::UnityW<::UnityEngine::Font> unityFont, ::UnityEngine::UIElements::FontDefinition unityFontDefinition, ::UnityEngine::FontStyle unityFontStyleAndWeight,
-                          ::UnityEngine::UIElements::Length unityParagraphSpacing, ::UnityEngine::TextAnchor unityTextAlign, ::UnityEngine::Color unityTextOutlineColor, float_t unityTextOutlineWidth,
-                          ::UnityEngine::UIElements::Visibility visibility, ::UnityEngine::UIElements::WhiteSpace whiteSpace, ::UnityEngine::UIElements::Length wordSpacing) noexcept;
+// Ctor Parameters [CppParam { name: "color", ty: "::UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "fontSize", ty: "::UnityEngine::UIElements::Length", modifiers: "", def_value: None }, CppParam { name: "letterSpacing", ty: "::UnityEngine::UIElements::Length", modifiers: "", def_value: None }, CppParam { name: "textShadow", ty: "::UnityEngine::UIElements::TextShadow", modifiers: "", def_value: None }, CppParam { name: "unityFont", ty: "::UnityW<::UnityEngine::Font>", modifiers: "", def_value: None }, CppParam { name: "unityFontDefinition", ty: "::UnityEngine::UIElements::FontDefinition", modifiers: "", def_value: None }, CppParam { name: "unityFontStyleAndWeight", ty: "::UnityEngine::FontStyle", modifiers: "", def_value: None }, CppParam { name: "unityParagraphSpacing", ty: "::UnityEngine::UIElements::Length", modifiers: "", def_value: None }, CppParam { name: "unityTextAlign", ty: "::UnityEngine::TextAnchor", modifiers: "", def_value: None }, CppParam { name: "unityTextOutlineColor", ty: "::UnityEngine::Color", modifiers: "", def_value: None }, CppParam { name: "unityTextOutlineWidth", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "visibility", ty: "::UnityEngine::UIElements::Visibility", modifiers: "", def_value: None }, CppParam { name: "whiteSpace", ty: "::UnityEngine::UIElements::WhiteSpace", modifiers: "", def_value: None }, CppParam { name: "wordSpacing", ty: "::UnityEngine::UIElements::Length", modifiers: "", def_value: None }]
+constexpr InheritedData(::UnityEngine::Color  color, ::UnityEngine::UIElements::Length  fontSize, ::UnityEngine::UIElements::Length  letterSpacing, ::UnityEngine::UIElements::TextShadow  textShadow, ::UnityW<::UnityEngine::Font>  unityFont, ::UnityEngine::UIElements::FontDefinition  unityFontDefinition, ::UnityEngine::FontStyle  unityFontStyleAndWeight, ::UnityEngine::UIElements::Length  unityParagraphSpacing, ::UnityEngine::TextAnchor  unityTextAlign, ::UnityEngine::Color  unityTextOutlineColor, float_t  unityTextOutlineWidth, ::UnityEngine::UIElements::Visibility  visibility, ::UnityEngine::UIElements::WhiteSpace  whiteSpace, ::UnityEngine::UIElements::Length  wordSpacing) noexcept;
 
-  /// @brief Field color, offset: 0x0, size: 0x10, def value: None
-  ::UnityEngine::Color color;
+/// @brief Field color, offset: 0x0, size: 0x10, def value: None
+ ::UnityEngine::Color  color;
 
-  /// @brief Field fontSize, offset: 0x10, size: 0x8, def value: None
-  ::UnityEngine::UIElements::Length fontSize;
+/// @brief Field fontSize, offset: 0x10, size: 0x8, def value: None
+ ::UnityEngine::UIElements::Length  fontSize;
 
-  /// @brief Field letterSpacing, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::UIElements::Length letterSpacing;
+/// @brief Field letterSpacing, offset: 0x18, size: 0x8, def value: None
+ ::UnityEngine::UIElements::Length  letterSpacing;
 
-  /// @brief Field textShadow, offset: 0x20, size: 0x1c, def value: None
-  ::UnityEngine::UIElements::TextShadow textShadow;
+/// @brief Field textShadow, offset: 0x20, size: 0x1c, def value: None
+ ::UnityEngine::UIElements::TextShadow  textShadow;
 
-  /// @brief Field unityFont, offset: 0x40, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::Font> unityFont;
+/// @brief Field unityFont, offset: 0x40, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::Font>  unityFont;
 
-  /// @brief Field unityFontDefinition, offset: 0x48, size: 0x10, def value: None
-  ::UnityEngine::UIElements::FontDefinition unityFontDefinition;
+/// @brief Field unityFontDefinition, offset: 0x48, size: 0x10, def value: None
+ ::UnityEngine::UIElements::FontDefinition  unityFontDefinition;
 
-  /// @brief Field unityFontStyleAndWeight, offset: 0x58, size: 0x4, def value: None
-  ::UnityEngine::FontStyle unityFontStyleAndWeight;
+/// @brief Field unityFontStyleAndWeight, offset: 0x58, size: 0x4, def value: None
+ ::UnityEngine::FontStyle  unityFontStyleAndWeight;
 
-  /// @brief Field unityParagraphSpacing, offset: 0x5c, size: 0x8, def value: None
-  ::UnityEngine::UIElements::Length unityParagraphSpacing;
+/// @brief Field unityParagraphSpacing, offset: 0x5c, size: 0x8, def value: None
+ ::UnityEngine::UIElements::Length  unityParagraphSpacing;
 
-  /// @brief Field unityTextAlign, offset: 0x64, size: 0x4, def value: None
-  ::UnityEngine::TextAnchor unityTextAlign;
+/// @brief Field unityTextAlign, offset: 0x64, size: 0x4, def value: None
+ ::UnityEngine::TextAnchor  unityTextAlign;
 
-  /// @brief Field unityTextOutlineColor, offset: 0x68, size: 0x10, def value: None
-  ::UnityEngine::Color unityTextOutlineColor;
+/// @brief Field unityTextOutlineColor, offset: 0x68, size: 0x10, def value: None
+ ::UnityEngine::Color  unityTextOutlineColor;
 
-  /// @brief Field unityTextOutlineWidth, offset: 0x78, size: 0x4, def value: None
-  float_t unityTextOutlineWidth;
+/// @brief Field unityTextOutlineWidth, offset: 0x78, size: 0x4, def value: None
+ float_t  unityTextOutlineWidth;
 
-  /// @brief Field visibility, offset: 0x7c, size: 0x4, def value: None
-  ::UnityEngine::UIElements::Visibility visibility;
+/// @brief Field visibility, offset: 0x7c, size: 0x4, def value: None
+ ::UnityEngine::UIElements::Visibility  visibility;
 
-  /// @brief Field whiteSpace, offset: 0x80, size: 0x4, def value: None
-  ::UnityEngine::UIElements::WhiteSpace whiteSpace;
+/// @brief Field whiteSpace, offset: 0x80, size: 0x4, def value: None
+ ::UnityEngine::UIElements::WhiteSpace  whiteSpace;
 
-  /// @brief Field wordSpacing, offset: 0x84, size: 0x8, def value: None
-  ::UnityEngine::UIElements::Length wordSpacing;
+/// @brief Field wordSpacing, offset: 0x84, size: 0x8, def value: None
+ ::UnityEngine::UIElements::Length  wordSpacing;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x90 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x90};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::InheritedData, 0x90>, "Size mismatch!");
@@ -192,5 +183,5 @@ static_assert(offsetof(::UnityEngine::UIElements::InheritedData, whiteSpace) == 
 
 static_assert(offsetof(::UnityEngine::UIElements::InheritedData, wordSpacing) == 0x84, "Offset mismatch!");
 
-} // namespace UnityEngine::UIElements
+} // namespace end def UnityEngine::UIElements
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::InheritedData, "UnityEngine.UIElements", "InheritedData");

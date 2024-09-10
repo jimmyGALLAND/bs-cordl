@@ -20,70 +20,70 @@ class HEU_Logger;
 // Write type traits
 MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_Logger);
 // Type: HoudiniEngineUnity::HEU_Logger
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
 // CS Name: ::HoudiniEngineUnity::HEU_Logger*
 class CORDL_TYPE HEU_Logger : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method Log, addr 0x25dfea8, size 0x58, virtual false, abstract: false, final false
-  static inline void Log(::StringW text);
+// Declarations
+/// @brief Method Log, addr 0x3a014d4, size 0x58, virtual false, abstract: false, final false
+static inline void Log(::StringW  text) ;
 
-  /// @brief Method LogAssertion, addr 0x25e0098, size 0x4, virtual false, abstract: false, final false
-  static inline void LogAssertion(::StringW text);
+/// @brief Method LogAssertion, addr 0x3a016c4, size 0x4, virtual false, abstract: false, final false
+static inline void LogAssertion(::StringW  text) ;
 
-  /// @brief Method LogAssertionFormat, addr 0x25e009c, size 0x4, virtual false, abstract: false, final false
-  static inline void LogAssertionFormat(::StringW text, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
+/// @brief Method LogAssertionFormat, addr 0x3a016c8, size 0x4, virtual false, abstract: false, final false
+static inline void LogAssertionFormat(::StringW  text, ::ArrayW<::System::Object*,::Array<::System::Object*>*>  args) ;
 
-  /// @brief Method LogError, addr 0x25e000c, size 0x8c, virtual false, abstract: false, final false
-  static inline void LogError(::System::Exception* ex);
+/// @brief Method LogError, addr 0x3a01638, size 0x8c, virtual false, abstract: false, final false
+static inline void LogError(::System::Exception*  ex) ;
 
-  /// @brief Method LogError, addr 0x25d9230, size 0x60, virtual false, abstract: false, final false
-  static inline void LogError(::StringW text);
+/// @brief Method LogError, addr 0x39faa70, size 0x60, virtual false, abstract: false, final false
+static inline void LogError(::StringW  text) ;
 
-  /// @brief Method LogErrorFormat, addr 0x25db574, size 0x74, virtual false, abstract: false, final false
-  static inline void LogErrorFormat(::StringW text, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
+/// @brief Method LogErrorFormat, addr 0x39fcccc, size 0x74, virtual false, abstract: false, final false
+static inline void LogErrorFormat(::StringW  text, ::ArrayW<::System::Object*,::Array<::System::Object*>*>  args) ;
 
-  /// @brief Method LogFormat, addr 0x25dff00, size 0x68, virtual false, abstract: false, final false
-  static inline void LogFormat(::StringW text, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
+/// @brief Method LogFormat, addr 0x3a0152c, size 0x68, virtual false, abstract: false, final false
+static inline void LogFormat(::StringW  text, ::ArrayW<::System::Object*,::Array<::System::Object*>*>  args) ;
 
-  /// @brief Method LogToCookLogsIfOn, addr 0x25dff68, size 0x40, virtual false, abstract: false, final false
-  static inline void LogToCookLogsIfOn(::StringW text);
+/// @brief Method LogToCookLogsIfOn, addr 0x3a01594, size 0x40, virtual false, abstract: false, final false
+static inline void LogToCookLogsIfOn(::StringW  text) ;
 
-  /// @brief Method LogToCookLogsIfOnFormat, addr 0x25dffa8, size 0x64, virtual false, abstract: false, final false
-  static inline void LogToCookLogsIfOnFormat(::StringW text, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
+/// @brief Method LogToCookLogsIfOnFormat, addr 0x3a015d4, size 0x64, virtual false, abstract: false, final false
+static inline void LogToCookLogsIfOnFormat(::StringW  text, ::ArrayW<::System::Object*,::Array<::System::Object*>*>  args) ;
 
-  /// @brief Method LogWarning, addr 0x25dab20, size 0x60, virtual false, abstract: false, final false
-  static inline void LogWarning(::StringW text);
+/// @brief Method LogWarning, addr 0x39fc31c, size 0x60, virtual false, abstract: false, final false
+static inline void LogWarning(::StringW  text) ;
 
-  /// @brief Method LogWarningFormat, addr 0x25dab80, size 0x74, virtual false, abstract: false, final false
-  static inline void LogWarningFormat(::StringW text, ::ArrayW<::System::Object*, ::Array<::System::Object*>*> args);
+/// @brief Method LogWarningFormat, addr 0x39fc37c, size 0x74, virtual false, abstract: false, final false
+static inline void LogWarningFormat(::StringW  text, ::ArrayW<::System::Object*,::Array<::System::Object*>*>  args) ;
 
-  static inline ::HoudiniEngineUnity::HEU_Logger* New_ctor();
+static inline ::HoudiniEngineUnity::HEU_Logger* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x25e00a0, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x3a016cc, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HEU_Logger();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr HEU_Logger() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HEU_Logger", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  HEU_Logger(HEU_Logger&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HEU_Logger", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  HEU_Logger(HEU_Logger const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "HEU_Logger", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+HEU_Logger(HEU_Logger && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "HEU_Logger", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+HEU_Logger(HEU_Logger const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_Logger, 0x10>, "Size mismatch!");
 
-} // namespace HoudiniEngineUnity
+} // namespace end def HoudiniEngineUnity
 NEED_NO_BOX(::HoudiniEngineUnity::HEU_Logger);
 DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_Logger*, "HoudiniEngineUnity", "HEU_Logger");

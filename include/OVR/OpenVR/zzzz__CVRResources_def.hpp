@@ -21,57 +21,57 @@ class CVRResources;
 // Write type traits
 MARK_REF_PTR_T(::OVR::OpenVR::CVRResources);
 // Type: OVR.OpenVR::CVRResources
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: ::OVR.OpenVR::CVRResources*
 class CORDL_TYPE CVRResources : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field FnTable, offset 0x10, size 0x10
-  __declspec(property(get = __cordl_internal_get_FnTable, put = __cordl_internal_set_FnTable))::OVR::OpenVR::IVRResources FnTable;
+// Declarations
+/// @brief Field FnTable, offset 0x10, size 0x10 
+ __declspec(property(get=__cordl_internal_get_FnTable, put=__cordl_internal_set_FnTable)) ::OVR::OpenVR::IVRResources  FnTable;
 
-  /// @brief Method GetResourceFullPath, addr 0x2bfe944, size 0x24, virtual false, abstract: false, final false
-  inline uint32_t GetResourceFullPath(::StringW pchResourceName, ::StringW pchResourceTypeDirectory, ::System::Text::StringBuilder* pchPathBuffer, uint32_t unBufferLen);
+/// @brief Method GetResourceFullPath, addr 0x3fe53c4, size 0x24, virtual false, abstract: false, final false
+inline uint32_t GetResourceFullPath(::StringW  pchResourceName, ::StringW  pchResourceTypeDirectory, ::System::Text::StringBuilder*  pchPathBuffer, uint32_t  unBufferLen) ;
 
-  /// @brief Method LoadSharedResource, addr 0x2bfe920, size 0x24, virtual false, abstract: false, final false
-  inline uint32_t LoadSharedResource(::StringW pchResourceName, ::StringW pchBuffer, uint32_t unBufferLen);
+/// @brief Method LoadSharedResource, addr 0x3fe53a0, size 0x24, virtual false, abstract: false, final false
+inline uint32_t LoadSharedResource(::StringW  pchResourceName, ::StringW  pchBuffer, uint32_t  unBufferLen) ;
 
-  static inline ::OVR::OpenVR::CVRResources* New_ctor(::System::IntPtr pInterface);
+static inline ::OVR::OpenVR::CVRResources* New_ctor(::System::IntPtr  pInterface) ;
 
-  constexpr ::OVR::OpenVR::IVRResources const& __cordl_internal_get_FnTable() const;
+constexpr ::OVR::OpenVR::IVRResources const& __cordl_internal_get_FnTable() const;
 
-  constexpr ::OVR::OpenVR::IVRResources& __cordl_internal_get_FnTable();
+constexpr ::OVR::OpenVR::IVRResources& __cordl_internal_get_FnTable() ;
 
-  constexpr void __cordl_internal_set_FnTable(::OVR::OpenVR::IVRResources value);
+constexpr void __cordl_internal_set_FnTable(::OVR::OpenVR::IVRResources  value) ;
 
-  /// @brief Method .ctor, addr 0x2bfe814, size 0x10c, virtual false, abstract: false, final false
-  inline void _ctor(::System::IntPtr pInterface);
+/// @brief Method .ctor, addr 0x3fe5294, size 0x10c, virtual false, abstract: false, final false
+inline void _ctor(::System::IntPtr  pInterface) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CVRResources();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr CVRResources() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CVRResources", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  CVRResources(CVRResources&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CVRResources", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  CVRResources(CVRResources const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "CVRResources", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+CVRResources(CVRResources && ) = delete;
 
-  /// @brief Field FnTable, offset: 0x10, size: 0x10, def value: None
-  ::OVR::OpenVR::IVRResources ___FnTable;
+// Ctor Parameters [CppParam { name: "", ty: "CVRResources", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+CVRResources(CVRResources const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field FnTable, offset: 0x10, size: 0x10, def value: None
+ ::OVR::OpenVR::IVRResources  ___FnTable;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::CVRResources, 0x20>, "Size mismatch!");
 
 static_assert(offsetof(::OVR::OpenVR::CVRResources, ___FnTable) == 0x10, "Offset mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 NEED_NO_BOX(::OVR::OpenVR::CVRResources);
 DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::CVRResources*, "OVR.OpenVR", "CVRResources");

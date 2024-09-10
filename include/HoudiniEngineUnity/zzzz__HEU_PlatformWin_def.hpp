@@ -12,32 +12,32 @@ class HEU_PlatformWin;
 // Write type traits
 MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_PlatformWin);
 // Type: HoudiniEngineUnity::HEU_PlatformWin
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
 // CS Name: ::HoudiniEngineUnity::HEU_PlatformWin*
 class CORDL_TYPE HEU_PlatformWin : public ::System::Object {
 public:
-  // Declarations
+// Declarations
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HEU_PlatformWin();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr HEU_PlatformWin() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HEU_PlatformWin", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  HEU_PlatformWin(HEU_PlatformWin&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HEU_PlatformWin", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  HEU_PlatformWin(HEU_PlatformWin const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "HEU_PlatformWin", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+HEU_PlatformWin(HEU_PlatformWin && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "HEU_PlatformWin", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+HEU_PlatformWin(HEU_PlatformWin const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_PlatformWin, 0x10>, "Size mismatch!");
 
-} // namespace HoudiniEngineUnity
+} // namespace end def HoudiniEngineUnity
 NEED_NO_BOX(::HoudiniEngineUnity::HEU_PlatformWin);
 DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_PlatformWin*, "HoudiniEngineUnity", "HEU_PlatformWin");

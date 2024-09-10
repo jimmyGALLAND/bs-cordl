@@ -16,40 +16,40 @@ class __ExclusiveOrInstruction__ExclusiveOrSByte;
 // Write type traits
 MARK_REF_PTR_T(::System::Linq::Expressions::Interpreter::__ExclusiveOrInstruction__ExclusiveOrSByte);
 // Type: ::ExclusiveOrSByte
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Linq::Expressions::Interpreter {
 // Is value type: false
 // CS Name: ::ExclusiveOrInstruction::ExclusiveOrSByte*
 class CORDL_TYPE __ExclusiveOrInstruction__ExclusiveOrSByte : public ::System::Linq::Expressions::Interpreter::ExclusiveOrInstruction {
 public:
-  // Declarations
-  static inline ::System::Linq::Expressions::Interpreter::__ExclusiveOrInstruction__ExclusiveOrSByte* New_ctor();
+// Declarations
+static inline ::System::Linq::Expressions::Interpreter::__ExclusiveOrInstruction__ExclusiveOrSByte* New_ctor() ;
 
-  /// @brief Method Run, addr 0x2c4e404, size 0xf4, virtual true, abstract: false, final false
-  inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
+/// @brief Method Run, addr 0x40378cc, size 0xf4, virtual true, abstract: false, final false
+inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame*  frame) ;
 
-  /// @brief Method .ctor, addr 0x2c4e3e4, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x40378ac, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __ExclusiveOrInstruction__ExclusiveOrSByte();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __ExclusiveOrInstruction__ExclusiveOrSByte() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__ExclusiveOrInstruction__ExclusiveOrSByte", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __ExclusiveOrInstruction__ExclusiveOrSByte(__ExclusiveOrInstruction__ExclusiveOrSByte&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__ExclusiveOrInstruction__ExclusiveOrSByte", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __ExclusiveOrInstruction__ExclusiveOrSByte(__ExclusiveOrInstruction__ExclusiveOrSByte const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__ExclusiveOrInstruction__ExclusiveOrSByte", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__ExclusiveOrInstruction__ExclusiveOrSByte(__ExclusiveOrInstruction__ExclusiveOrSByte && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "__ExclusiveOrInstruction__ExclusiveOrSByte", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__ExclusiveOrInstruction__ExclusiveOrSByte(__ExclusiveOrInstruction__ExclusiveOrSByte const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Interpreter::__ExclusiveOrInstruction__ExclusiveOrSByte, 0x10>, "Size mismatch!");
 
-} // namespace System::Linq::Expressions::Interpreter
+} // namespace end def System::Linq::Expressions::Interpreter
 NEED_NO_BOX(::System::Linq::Expressions::Interpreter::__ExclusiveOrInstruction__ExclusiveOrSByte);
 DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::Interpreter::__ExclusiveOrInstruction__ExclusiveOrSByte*, "System.Linq.Expressions.Interpreter", "ExclusiveOrInstruction/ExclusiveOrSByte");

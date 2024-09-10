@@ -36,13 +36,15 @@ namespace Oculus::Platform::Models {
 class UserAccountAgeCategory;
 }
 namespace Oculus::Platform {
-template <typename T> class Message_1;
+template<typename T>
+class Message_1;
 }
 namespace Oculus::Platform {
 class Message;
 }
 namespace System::Runtime::CompilerServices {
-template <typename TResult> struct AsyncTaskMethodBuilder_1;
+template<typename TResult>
+struct AsyncTaskMethodBuilder_1;
 }
 namespace System::Runtime::CompilerServices {
 struct AsyncTaskMethodBuilder;
@@ -51,13 +53,15 @@ namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
-template <typename TResult> struct TaskAwaiter_1;
+template<typename TResult>
+struct TaskAwaiter_1;
 }
 namespace System::Runtime::CompilerServices {
 struct TaskAwaiter;
 }
 namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
+template<typename TResult>
+class Task_1;
 }
 namespace System::Threading::Tasks {
 class Task;
@@ -88,222 +92,46 @@ MARK_VAL_T(::GlobalNamespace::__OculusInit___CheckUserAgeCategoryAsync_d__7);
 MARK_VAL_T(::GlobalNamespace::__OculusInit___InitializeCoreAsync_d__5);
 MARK_VAL_T(::GlobalNamespace::__OculusInit___InitializeInternalAsync_d__3);
 MARK_VAL_T(::GlobalNamespace::__OculusInit___InitializeOculusAsync_d__4);
-// Type: ::<InitializeInternalAsync>d__3
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
-namespace GlobalNamespace {
-// Is value type: true
-// CS Name: ::OculusInit::<InitializeInternalAsync>d__3
-struct CORDL_TYPE __OculusInit___InitializeInternalAsync_d__3 {
-public:
-  // Declarations
-  /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-  constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
-
-  /// @brief Method MoveNext, addr 0x1070600, size 0x258, virtual true, abstract: false, final true
-  inline void MoveNext();
-
-  /// @brief Method SetStateMachine, addr 0x1070858, size 0x58, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
-
-  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __OculusInit___InitializeInternalAsync_d__3();
-
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::OculusInit*", modifiers: "",
-  // def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
-  constexpr __OculusInit___InitializeInternalAsync_d__3(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool> __t__builder, ::GlobalNamespace::OculusInit* __4__this,
-                                                        ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
-
-  /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
-  int32_t __1__state;
-
-  /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
-  ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool> __t__builder;
-
-  /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::OculusInit* __4__this;
-
-  /// @brief Field <>u__1, offset: 0x28, size: 0x8, def value: None
-  ::System::Runtime::CompilerServices::TaskAwaiter __u__1;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
-
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
-};
-// Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OculusInit___InitializeInternalAsync_d__3, 0x30>, "Size mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::__OculusInit___InitializeInternalAsync_d__3, __1__state) == 0x0, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::__OculusInit___InitializeInternalAsync_d__3, __t__builder) == 0x8, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::__OculusInit___InitializeInternalAsync_d__3, __4__this) == 0x20, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::__OculusInit___InitializeInternalAsync_d__3, __u__1) == 0x28, "Offset mismatch!");
-
-} // namespace GlobalNamespace
-// Type: ::<InitializeOculusAsync>d__4
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
-namespace GlobalNamespace {
-// Is value type: true
-// CS Name: ::OculusInit::<InitializeOculusAsync>d__4
-struct CORDL_TYPE __OculusInit___InitializeOculusAsync_d__4 {
-public:
-  // Declarations
-  /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-  constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
-
-  /// @brief Method MoveNext, addr 0x10708b0, size 0x2fc, virtual true, abstract: false, final true
-  inline void MoveNext();
-
-  /// @brief Method SetStateMachine, addr 0x1070bac, size 0xc, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
-
-  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __OculusInit___InitializeOculusAsync_d__4();
-
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::OculusInit*", modifiers: "", def_value: None
-  // }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
-  constexpr __OculusInit___InitializeOculusAsync_d__4(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::GlobalNamespace::OculusInit* __4__this,
-                                                      ::System::Runtime::CompilerServices::TaskAwaiter __u__1) noexcept;
-
-  /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
-  int32_t __1__state;
-
-  /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
-  ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder;
-
-  /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::OculusInit* __4__this;
-
-  /// @brief Field <>u__1, offset: 0x28, size: 0x8, def value: None
-  ::System::Runtime::CompilerServices::TaskAwaiter __u__1;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x30 };
-
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
-};
-// Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OculusInit___InitializeOculusAsync_d__4, 0x30>, "Size mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::__OculusInit___InitializeOculusAsync_d__4, __1__state) == 0x0, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::__OculusInit___InitializeOculusAsync_d__4, __t__builder) == 0x8, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::__OculusInit___InitializeOculusAsync_d__4, __4__this) == 0x20, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::__OculusInit___InitializeOculusAsync_d__4, __u__1) == 0x28, "Offset mismatch!");
-
-} // namespace GlobalNamespace
-// Type: ::<InitializeCoreAsync>d__5
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
-namespace GlobalNamespace {
-// Is value type: true
-// CS Name: ::OculusInit::<InitializeCoreAsync>d__5
-struct CORDL_TYPE __OculusInit___InitializeCoreAsync_d__5 {
-public:
-  // Declarations
-  /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-  constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
-
-  /// @brief Method MoveNext, addr 0x1070bb8, size 0x3b4, virtual true, abstract: false, final true
-  inline void MoveNext();
-
-  /// @brief Method SetStateMachine, addr 0x1070f6c, size 0xc, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
-
-  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
-
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __OculusInit___InitializeCoreAsync_d__5();
-
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::PlatformInitialize*>*>", modifiers: "", def_value: None }]
-  constexpr __OculusInit___InitializeCoreAsync_d__5(
-      int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
-      ::System::Runtime::CompilerServices::TaskAwaiter_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::PlatformInitialize*>*> __u__1) noexcept;
-
-  /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
-  int32_t __1__state;
-
-  /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
-  ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder;
-
-  /// @brief Field <>u__1, offset: 0x20, size: 0x8, def value: None
-  ::System::Runtime::CompilerServices::TaskAwaiter_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::PlatformInitialize*>*> __u__1;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
-
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
-};
-// Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OculusInit___InitializeCoreAsync_d__5, 0x28>, "Size mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::__OculusInit___InitializeCoreAsync_d__5, __1__state) == 0x0, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::__OculusInit___InitializeCoreAsync_d__5, __t__builder) == 0x8, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::__OculusInit___InitializeCoreAsync_d__5, __u__1) == 0x20, "Offset mismatch!");
-
-} // namespace GlobalNamespace
 // Type: ::<CheckEntitlementsAsync>d__6
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::OculusInit::<CheckEntitlementsAsync>d__6
 struct CORDL_TYPE __OculusInit___CheckEntitlementsAsync_d__6 {
 public:
-  // Declarations
-  /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-  constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+// Declarations
+/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr operator  ::System::Runtime::CompilerServices::IAsyncStateMachine*() ;
 
-  /// @brief Method MoveNext, addr 0x1070f78, size 0x23c, virtual true, abstract: false, final true
-  inline void MoveNext();
+/// @brief Method MoveNext, addr 0x222cf58, size 0x27c, virtual true, abstract: false, final true
+inline void MoveNext() ;
 
-  /// @brief Method SetStateMachine, addr 0x10712ac, size 0xc, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+/// @brief Method SetStateMachine, addr 0x222d2d8, size 0x68, virtual true, abstract: false, final true
+inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine*  stateMachine) ;
 
-  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
+/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine() ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __OculusInit___CheckEntitlementsAsync_d__6();
+// Ctor Parameters []
+// @brief default ctor
+constexpr __OculusInit___CheckEntitlementsAsync_d__6() ;
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter_1<::Oculus::Platform::Message*>", modifiers: "", def_value: None }]
-  constexpr __OculusInit___CheckEntitlementsAsync_d__6(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder,
-                                                       ::System::Runtime::CompilerServices::TaskAwaiter_1<::Oculus::Platform::Message*> __u__1) noexcept;
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty: "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::Oculus::Platform::Message*>", modifiers: "", def_value: None }]
+constexpr __OculusInit___CheckEntitlementsAsync_d__6(int32_t  __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder  __t__builder, ::System::Runtime::CompilerServices::TaskAwaiter_1<::Oculus::Platform::Message*>  __u__1) noexcept;
 
-  /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
-  int32_t __1__state;
+/// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
+ int32_t  __1__state;
 
-  /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
-  ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder;
+/// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
+ ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder  __t__builder;
 
-  /// @brief Field <>u__1, offset: 0x20, size: 0x8, def value: None
-  ::System::Runtime::CompilerServices::TaskAwaiter_1<::Oculus::Platform::Message*> __u__1;
+/// @brief Field <>u__1, offset: 0x20, size: 0x8, def value: None
+ ::System::Runtime::CompilerServices::TaskAwaiter_1<::Oculus::Platform::Message*>  __u__1;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x28};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OculusInit___CheckEntitlementsAsync_d__6, 0x28>, "Size mismatch!");
@@ -314,59 +142,53 @@ static_assert(offsetof(::GlobalNamespace::__OculusInit___CheckEntitlementsAsync_
 
 static_assert(offsetof(::GlobalNamespace::__OculusInit___CheckEntitlementsAsync_d__6, __u__1) == 0x20, "Offset mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 // Type: ::<CheckUserAgeCategoryAsync>d__7
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::OculusInit::<CheckUserAgeCategoryAsync>d__7
 struct CORDL_TYPE __OculusInit___CheckUserAgeCategoryAsync_d__7 {
 public:
-  // Declarations
-  /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-  constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+// Declarations
+/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr operator  ::System::Runtime::CompilerServices::IAsyncStateMachine*() ;
 
-  /// @brief Method MoveNext, addr 0x10712b8, size 0x3f4, virtual true, abstract: false, final true
-  inline void MoveNext();
+/// @brief Method MoveNext, addr 0x222d340, size 0x44c, virtual true, abstract: false, final true
+inline void MoveNext() ;
 
-  /// @brief Method SetStateMachine, addr 0x10716ac, size 0xc, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+/// @brief Method SetStateMachine, addr 0x222d78c, size 0x68, virtual true, abstract: false, final true
+inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine*  stateMachine) ;
 
-  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
+/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine() ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __OculusInit___CheckUserAgeCategoryAsync_d__7();
+// Ctor Parameters []
+// @brief default ctor
+constexpr __OculusInit___CheckUserAgeCategoryAsync_d__7() ;
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::OculusInit*", modifiers: "", def_value: None
-  // }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::UserAccountAgeCategory*>*>", modifiers: "",
-  // def_value: None }, CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
-  constexpr __OculusInit___CheckUserAgeCategoryAsync_d__7(
-      int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::GlobalNamespace::OculusInit* __4__this,
-      ::System::Runtime::CompilerServices::TaskAwaiter_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::UserAccountAgeCategory*>*> __u__1,
-      ::System::Runtime::CompilerServices::TaskAwaiter __u__2) noexcept;
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty: "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::OculusInit*", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::UserAccountAgeCategory*>*>", modifiers: "", def_value: None }, CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
+constexpr __OculusInit___CheckUserAgeCategoryAsync_d__7(int32_t  __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder  __t__builder, ::GlobalNamespace::OculusInit*  __4__this, ::System::Runtime::CompilerServices::TaskAwaiter_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::UserAccountAgeCategory*>*>  __u__1, ::System::Runtime::CompilerServices::TaskAwaiter  __u__2) noexcept;
 
-  /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
-  int32_t __1__state;
+/// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
+ int32_t  __1__state;
 
-  /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
-  ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder;
+/// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
+ ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder  __t__builder;
 
-  /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
-  ::GlobalNamespace::OculusInit* __4__this;
+/// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
+ ::GlobalNamespace::OculusInit*  __4__this;
 
-  /// @brief Field <>u__1, offset: 0x28, size: 0x8, def value: None
-  ::System::Runtime::CompilerServices::TaskAwaiter_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::UserAccountAgeCategory*>*> __u__1;
+/// @brief Field <>u__1, offset: 0x28, size: 0x8, def value: None
+ ::System::Runtime::CompilerServices::TaskAwaiter_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::UserAccountAgeCategory*>*>  __u__1;
 
-  /// @brief Field <>u__2, offset: 0x30, size: 0x8, def value: None
-  ::System::Runtime::CompilerServices::TaskAwaiter __u__2;
+/// @brief Field <>u__2, offset: 0x30, size: 0x8, def value: None
+ ::System::Runtime::CompilerServices::TaskAwaiter  __u__2;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x38 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x38};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OculusInit___CheckUserAgeCategoryAsync_d__7, 0x38>, "Size mismatch!");
@@ -381,84 +203,245 @@ static_assert(offsetof(::GlobalNamespace::__OculusInit___CheckUserAgeCategoryAsy
 
 static_assert(offsetof(::GlobalNamespace::__OculusInit___CheckUserAgeCategoryAsync_d__7, __u__2) == 0x30, "Offset mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
+// Type: ::<InitializeCoreAsync>d__5
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
+namespace GlobalNamespace {
+// Is value type: true
+// CS Name: ::OculusInit::<InitializeCoreAsync>d__5
+struct CORDL_TYPE __OculusInit___InitializeCoreAsync_d__5 {
+public:
+// Declarations
+/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr operator  ::System::Runtime::CompilerServices::IAsyncStateMachine*() ;
+
+/// @brief Method MoveNext, addr 0x222d7f4, size 0x3ec, virtual true, abstract: false, final true
+inline void MoveNext() ;
+
+/// @brief Method SetStateMachine, addr 0x222dbe0, size 0x68, virtual true, abstract: false, final true
+inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine*  stateMachine) ;
+
+/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine() ;
+
+// Ctor Parameters []
+// @brief default ctor
+constexpr __OculusInit___InitializeCoreAsync_d__5() ;
+
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty: "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::PlatformInitialize*>*>", modifiers: "", def_value: None }]
+constexpr __OculusInit___InitializeCoreAsync_d__5(int32_t  __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder  __t__builder, ::System::Runtime::CompilerServices::TaskAwaiter_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::PlatformInitialize*>*>  __u__1) noexcept;
+
+/// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
+ int32_t  __1__state;
+
+/// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
+ ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder  __t__builder;
+
+/// @brief Field <>u__1, offset: 0x20, size: 0x8, def value: None
+ ::System::Runtime::CompilerServices::TaskAwaiter_1<::Oculus::Platform::Message_1<::Oculus::Platform::Models::PlatformInitialize*>*>  __u__1;
+
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x28};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+};
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OculusInit___InitializeCoreAsync_d__5, 0x28>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OculusInit___InitializeCoreAsync_d__5, __1__state) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OculusInit___InitializeCoreAsync_d__5, __t__builder) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OculusInit___InitializeCoreAsync_d__5, __u__1) == 0x20, "Offset mismatch!");
+
+} // namespace end def GlobalNamespace
+// Type: ::<InitializeInternalAsync>d__3
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
+namespace GlobalNamespace {
+// Is value type: true
+// CS Name: ::OculusInit::<InitializeInternalAsync>d__3
+struct CORDL_TYPE __OculusInit___InitializeInternalAsync_d__3 {
+public:
+// Declarations
+/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr operator  ::System::Runtime::CompilerServices::IAsyncStateMachine*() ;
+
+/// @brief Method MoveNext, addr 0x222dc48, size 0x2c0, virtual true, abstract: false, final true
+inline void MoveNext() ;
+
+/// @brief Method SetStateMachine, addr 0x222df08, size 0x7c, virtual true, abstract: false, final true
+inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine*  stateMachine) ;
+
+/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine() ;
+
+// Ctor Parameters []
+// @brief default ctor
+constexpr __OculusInit___InitializeInternalAsync_d__3() ;
+
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty: "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::OculusInit*", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
+constexpr __OculusInit___InitializeInternalAsync_d__3(int32_t  __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>  __t__builder, ::GlobalNamespace::OculusInit*  __4__this, ::System::Runtime::CompilerServices::TaskAwaiter  __u__1) noexcept;
+
+/// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
+ int32_t  __1__state;
+
+/// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
+ ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>  __t__builder;
+
+/// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
+ ::GlobalNamespace::OculusInit*  __4__this;
+
+/// @brief Field <>u__1, offset: 0x28, size: 0x8, def value: None
+ ::System::Runtime::CompilerServices::TaskAwaiter  __u__1;
+
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x30};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+};
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OculusInit___InitializeInternalAsync_d__3, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OculusInit___InitializeInternalAsync_d__3, __1__state) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OculusInit___InitializeInternalAsync_d__3, __t__builder) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OculusInit___InitializeInternalAsync_d__3, __4__this) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OculusInit___InitializeInternalAsync_d__3, __u__1) == 0x28, "Offset mismatch!");
+
+} // namespace end def GlobalNamespace
+// Type: ::<InitializeOculusAsync>d__4
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
+namespace GlobalNamespace {
+// Is value type: true
+// CS Name: ::OculusInit::<InitializeOculusAsync>d__4
+struct CORDL_TYPE __OculusInit___InitializeOculusAsync_d__4 {
+public:
+// Declarations
+/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr operator  ::System::Runtime::CompilerServices::IAsyncStateMachine*() ;
+
+/// @brief Method MoveNext, addr 0x222df84, size 0x360, virtual true, abstract: false, final true
+inline void MoveNext() ;
+
+/// @brief Method SetStateMachine, addr 0x222e2e4, size 0x68, virtual true, abstract: false, final true
+inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine*  stateMachine) ;
+
+/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine() ;
+
+// Ctor Parameters []
+// @brief default ctor
+constexpr __OculusInit___InitializeOculusAsync_d__4() ;
+
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty: "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::GlobalNamespace::OculusInit*", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
+constexpr __OculusInit___InitializeOculusAsync_d__4(int32_t  __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder  __t__builder, ::GlobalNamespace::OculusInit*  __4__this, ::System::Runtime::CompilerServices::TaskAwaiter  __u__1) noexcept;
+
+/// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
+ int32_t  __1__state;
+
+/// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
+ ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder  __t__builder;
+
+/// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
+ ::GlobalNamespace::OculusInit*  __4__this;
+
+/// @brief Field <>u__1, offset: 0x28, size: 0x8, def value: None
+ ::System::Runtime::CompilerServices::TaskAwaiter  __u__1;
+
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x30};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+};
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__OculusInit___InitializeOculusAsync_d__4, 0x30>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OculusInit___InitializeOculusAsync_d__4, __1__state) == 0x0, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OculusInit___InitializeOculusAsync_d__4, __t__builder) == 0x8, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OculusInit___InitializeOculusAsync_d__4, __4__this) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__OculusInit___InitializeOculusAsync_d__4, __u__1) == 0x28, "Offset mismatch!");
+
+} // namespace end def GlobalNamespace
 // Type: ::OculusInit
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::OculusInit*
 class CORDL_TYPE OculusInit : public ::GlobalNamespace::BasePlatformInit {
 public:
-  // Declarations
-  using _CheckEntitlementsAsync_d__6 = ::GlobalNamespace::__OculusInit___CheckEntitlementsAsync_d__6;
+// Declarations
+using _CheckEntitlementsAsync_d__6 = ::GlobalNamespace::__OculusInit___CheckEntitlementsAsync_d__6;
 
-  using _CheckUserAgeCategoryAsync_d__7 = ::GlobalNamespace::__OculusInit___CheckUserAgeCategoryAsync_d__7;
+using _CheckUserAgeCategoryAsync_d__7 = ::GlobalNamespace::__OculusInit___CheckUserAgeCategoryAsync_d__7;
 
-  using _InitializeCoreAsync_d__5 = ::GlobalNamespace::__OculusInit___InitializeCoreAsync_d__5;
+using _InitializeCoreAsync_d__5 = ::GlobalNamespace::__OculusInit___InitializeCoreAsync_d__5;
 
-  using _InitializeInternalAsync_d__3 = ::GlobalNamespace::__OculusInit___InitializeInternalAsync_d__3;
+using _InitializeInternalAsync_d__3 = ::GlobalNamespace::__OculusInit___InitializeInternalAsync_d__3;
 
-  using _InitializeOculusAsync_d__4 = ::GlobalNamespace::__OculusInit___InitializeOculusAsync_d__4;
+using _InitializeOculusAsync_d__4 = ::GlobalNamespace::__OculusInit___InitializeOculusAsync_d__4;
 
-  /// @brief Field _playerDataModel, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__playerDataModel, put = __cordl_internal_set__playerDataModel))::UnityW<::GlobalNamespace::PlayerDataModel> _playerDataModel;
+/// @brief Field _playerDataModel, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get__playerDataModel, put=__cordl_internal_set__playerDataModel)) ::UnityW<::GlobalNamespace::PlayerDataModel>  _playerDataModel;
 
-  /// @brief Method CheckEntitlementsAsync, addr 0x1070470, size 0xc4, virtual false, abstract: false, final false
-  static inline ::System::Threading::Tasks::Task* CheckEntitlementsAsync();
+/// @brief Method CheckEntitlementsAsync, addr 0x222cdd8, size 0xbc, virtual false, abstract: false, final false
+static inline ::System::Threading::Tasks::Task* CheckEntitlementsAsync() ;
 
-  /// @brief Method CheckUserAgeCategoryAsync, addr 0x1070534, size 0xcc, virtual false, abstract: false, final false
-  inline ::System::Threading::Tasks::Task* CheckUserAgeCategoryAsync();
+/// @brief Method CheckUserAgeCategoryAsync, addr 0x222ce94, size 0xc4, virtual false, abstract: false, final false
+inline ::System::Threading::Tasks::Task* CheckUserAgeCategoryAsync() ;
 
-  /// @brief Method InitializeCoreAsync, addr 0x10703ac, size 0xc4, virtual false, abstract: false, final false
-  static inline ::System::Threading::Tasks::Task* InitializeCoreAsync();
+/// @brief Method InitializeCoreAsync, addr 0x222cd1c, size 0xbc, virtual false, abstract: false, final false
+static inline ::System::Threading::Tasks::Task* InitializeCoreAsync() ;
 
-  /// @brief Method InitializeInternalAsync, addr 0x10701ec, size 0xf8, virtual true, abstract: false, final false
-  inline ::System::Threading::Tasks::Task_1<bool>* InitializeInternalAsync();
+/// @brief Method InitializeInternalAsync, addr 0x222cb6c, size 0xf0, virtual true, abstract: false, final false
+inline ::System::Threading::Tasks::Task_1<bool>* InitializeInternalAsync() ;
 
-  /// @brief Method InitializeOculusAsync, addr 0x10702e4, size 0xc8, virtual false, abstract: false, final false
-  inline ::System::Threading::Tasks::Task* InitializeOculusAsync();
+/// @brief Method InitializeOculusAsync, addr 0x222cc5c, size 0xc0, virtual false, abstract: false, final false
+inline ::System::Threading::Tasks::Task* InitializeOculusAsync() ;
 
-  static inline ::GlobalNamespace::OculusInit* New_ctor();
+static inline ::GlobalNamespace::OculusInit* New_ctor() ;
 
-  constexpr ::UnityW<::GlobalNamespace::PlayerDataModel> const& __cordl_internal_get__playerDataModel() const;
+constexpr ::UnityW<::GlobalNamespace::PlayerDataModel> const& __cordl_internal_get__playerDataModel() const;
 
-  constexpr ::UnityW<::GlobalNamespace::PlayerDataModel>& __cordl_internal_get__playerDataModel();
+constexpr ::UnityW<::GlobalNamespace::PlayerDataModel>& __cordl_internal_get__playerDataModel() ;
 
-  constexpr void __cordl_internal_set__playerDataModel(::UnityW<::GlobalNamespace::PlayerDataModel> value);
+constexpr void __cordl_internal_set__playerDataModel(::UnityW<::GlobalNamespace::PlayerDataModel>  value) ;
 
-  /// @brief Method .ctor, addr 0x10701e4, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x222cb64, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr OculusInit();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr OculusInit() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OculusInit", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  OculusInit(OculusInit&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OculusInit", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  OculusInit(OculusInit const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "OculusInit", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+OculusInit(OculusInit && ) = delete;
 
-  /// @brief Field _playerDataModel, offset: 0x20, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::PlayerDataModel> ____playerDataModel;
+// Ctor Parameters [CppParam { name: "", ty: "OculusInit", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+OculusInit(OculusInit const& ) = delete;
 
-  /// @brief Field kPlatformNotInstalledMessage offset 0xffffffff size 0x8
-  static constexpr ::ConstString kPlatformNotInstalledMessage{
-    u"Install the Oculus app to support Oculus platform on PC from: https://www.meta.com/help/quest/articles/getting-started/getting-started-with-rift-s/install-oculus-pc-app/"
-  };
+/// @brief Field _playerDataModel, offset: 0x20, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::PlayerDataModel>  ____playerDataModel;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field kPlatformNotInstalledMessage offset 0xffffffff size 0x8
+static constexpr ::ConstString  kPlatformNotInstalledMessage{u"Install the Oculus app to support Oculus platform on PC from: https://www.meta.com/help/quest/articles/getting-started/getting-started-with-rift-s/install-oculus-pc-app/"};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OculusInit, 0x28>, "Size mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::OculusInit, ____playerDataModel) == 0x20, "Offset mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::OculusInit);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OculusInit*, "", "OculusInit");
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__OculusInit___CheckEntitlementsAsync_d__6, "", "OculusInit/<CheckEntitlementsAsync>d__6");

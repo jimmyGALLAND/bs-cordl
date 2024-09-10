@@ -15,37 +15,37 @@ class ImageWithHintItemsList;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::ImageWithHintItemsList);
 // Type: ::ImageWithHintItemsList
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::ImageWithHintItemsList*
 class CORDL_TYPE ImageWithHintItemsList : public ::HMUI::UIItemsList_1<::UnityW<::HMUI::ImageWithHint>> {
 public:
-  // Declarations
-  static inline ::GlobalNamespace::ImageWithHintItemsList* New_ctor();
+// Declarations
+static inline ::GlobalNamespace::ImageWithHintItemsList* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x27657fc, size 0x48, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x3b6737c, size 0x48, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ImageWithHintItemsList();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ImageWithHintItemsList() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ImageWithHintItemsList", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ImageWithHintItemsList(ImageWithHintItemsList&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ImageWithHintItemsList", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ImageWithHintItemsList(ImageWithHintItemsList const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ImageWithHintItemsList", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ImageWithHintItemsList(ImageWithHintItemsList && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "ImageWithHintItemsList", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ImageWithHintItemsList(ImageWithHintItemsList const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ImageWithHintItemsList, 0x40>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ImageWithHintItemsList, 0x48>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ImageWithHintItemsList);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ImageWithHintItemsList*, "", "ImageWithHintItemsList");

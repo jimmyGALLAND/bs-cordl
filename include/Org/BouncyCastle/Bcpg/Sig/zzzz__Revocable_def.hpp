@@ -14,48 +14,48 @@ class Revocable;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Bcpg::Sig::Revocable);
 // Type: Org.BouncyCastle.Bcpg.Sig::Revocable
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Bcpg::Sig {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Bcpg.Sig::Revocable*
 class CORDL_TYPE Revocable : public ::Org::BouncyCastle::Bcpg::SignatureSubpacket {
 public:
-  // Declarations
-  /// @brief Method BooleanToByteArray, addr 0x143ba24, size 0x6c, virtual false, abstract: false, final false
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> BooleanToByteArray(bool value);
+// Declarations
+/// @brief Method BooleanToByteArray, addr 0x25f2ec0, size 0x6c, virtual false, abstract: false, final false
+static inline ::ArrayW<uint8_t,::Array<uint8_t>*> BooleanToByteArray(bool  value) ;
 
-  /// @brief Method IsRevocable, addr 0x143bb24, size 0x30, virtual false, abstract: false, final false
-  inline bool IsRevocable();
+/// @brief Method IsRevocable, addr 0x25f2fc0, size 0x30, virtual false, abstract: false, final false
+inline bool IsRevocable() ;
 
-  static inline ::Org::BouncyCastle::Bcpg::Sig::Revocable* New_ctor(bool critical, bool isLongLength, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
+static inline ::Org::BouncyCastle::Bcpg::Sig::Revocable* New_ctor(bool  critical, bool  isLongLength, ::ArrayW<uint8_t,::Array<uint8_t>*>  data) ;
 
-  static inline ::Org::BouncyCastle::Bcpg::Sig::Revocable* New_ctor(bool critical, bool isRevocable);
+static inline ::Org::BouncyCastle::Bcpg::Sig::Revocable* New_ctor(bool  critical, bool  isRevocable) ;
 
-  /// @brief Method .ctor, addr 0x143ba90, size 0x48, virtual false, abstract: false, final false
-  inline void _ctor(bool critical, bool isLongLength, ::ArrayW<uint8_t, ::Array<uint8_t>*> data);
+/// @brief Method .ctor, addr 0x25f2f2c, size 0x48, virtual false, abstract: false, final false
+inline void _ctor(bool  critical, bool  isLongLength, ::ArrayW<uint8_t,::Array<uint8_t>*>  data) ;
 
-  /// @brief Method .ctor, addr 0x143bad8, size 0x4c, virtual false, abstract: false, final false
-  inline void _ctor(bool critical, bool isRevocable);
+/// @brief Method .ctor, addr 0x25f2f74, size 0x4c, virtual false, abstract: false, final false
+inline void _ctor(bool  critical, bool  isRevocable) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Revocable();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr Revocable() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Revocable", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  Revocable(Revocable&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Revocable", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  Revocable(Revocable const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "Revocable", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+Revocable(Revocable && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "Revocable", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+Revocable(Revocable const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Bcpg::Sig::Revocable, 0x20>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Bcpg::Sig
+} // namespace end def Org::BouncyCastle::Bcpg::Sig
 NEED_NO_BOX(::Org::BouncyCastle::Bcpg::Sig::Revocable);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Bcpg::Sig::Revocable*, "Org.BouncyCastle.Bcpg.Sig", "Revocable");

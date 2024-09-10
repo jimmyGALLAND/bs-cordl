@@ -7,7 +7,8 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(HEU_TOPWorkResult)
 namespace System::Collections::Generic {
-template <typename T> class List_1;
+template<typename T>
+class List_1;
 }
 namespace UnityEngine {
 class GameObject;
@@ -19,69 +20,69 @@ class HEU_TOPWorkResult;
 // Write type traits
 MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_TOPWorkResult);
 // Type: HoudiniEngineUnity::HEU_TOPWorkResult
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
 // CS Name: ::HoudiniEngineUnity::HEU_TOPWorkResult*
 class CORDL_TYPE HEU_TOPWorkResult : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field _generatedGOs, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__generatedGOs, put = __cordl_internal_set__generatedGOs))::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* _generatedGOs;
+// Declarations
+/// @brief Field _generatedGOs, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get__generatedGOs, put=__cordl_internal_set__generatedGOs)) ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>*  _generatedGOs;
 
-  /// @brief Field _workItemID, offset 0x14, size 0x4
-  __declspec(property(get = __cordl_internal_get__workItemID, put = __cordl_internal_set__workItemID)) int32_t _workItemID;
+/// @brief Field _workItemID, offset 0x14, size 0x4 
+ __declspec(property(get=__cordl_internal_get__workItemID, put=__cordl_internal_set__workItemID)) int32_t  _workItemID;
 
-  /// @brief Field _workItemIndex, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get__workItemIndex, put = __cordl_internal_set__workItemIndex)) int32_t _workItemIndex;
+/// @brief Field _workItemIndex, offset 0x10, size 0x4 
+ __declspec(property(get=__cordl_internal_get__workItemIndex, put=__cordl_internal_set__workItemIndex)) int32_t  _workItemIndex;
 
-  static inline ::HoudiniEngineUnity::HEU_TOPWorkResult* New_ctor();
+static inline ::HoudiniEngineUnity::HEU_TOPWorkResult* New_ctor() ;
 
-  constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>*& __cordl_internal_get__generatedGOs();
+constexpr ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>*& __cordl_internal_get__generatedGOs() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>*> const& __cordl_internal_get__generatedGOs() const;
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>*> const& __cordl_internal_get__generatedGOs() const;
 
-  constexpr int32_t const& __cordl_internal_get__workItemID() const;
+constexpr int32_t const& __cordl_internal_get__workItemID() const;
 
-  constexpr int32_t& __cordl_internal_get__workItemID();
+constexpr int32_t& __cordl_internal_get__workItemID() ;
 
-  constexpr int32_t const& __cordl_internal_get__workItemIndex() const;
+constexpr int32_t const& __cordl_internal_get__workItemIndex() const;
 
-  constexpr int32_t& __cordl_internal_get__workItemIndex();
+constexpr int32_t& __cordl_internal_get__workItemIndex() ;
 
-  constexpr void __cordl_internal_set__generatedGOs(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* value);
+constexpr void __cordl_internal_set__generatedGOs(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>*  value) ;
 
-  constexpr void __cordl_internal_set__workItemID(int32_t value);
+constexpr void __cordl_internal_set__workItemID(int32_t  value) ;
 
-  constexpr void __cordl_internal_set__workItemIndex(int32_t value);
+constexpr void __cordl_internal_set__workItemIndex(int32_t  value) ;
 
-  /// @brief Method .ctor, addr 0x25ad158, size 0x84, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x39cf350, size 0x84, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HEU_TOPWorkResult();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr HEU_TOPWorkResult() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HEU_TOPWorkResult", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  HEU_TOPWorkResult(HEU_TOPWorkResult&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HEU_TOPWorkResult", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  HEU_TOPWorkResult(HEU_TOPWorkResult const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "HEU_TOPWorkResult", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+HEU_TOPWorkResult(HEU_TOPWorkResult && ) = delete;
 
-  /// @brief Field _workItemIndex, offset: 0x10, size: 0x4, def value: None
-  int32_t ____workItemIndex;
+// Ctor Parameters [CppParam { name: "", ty: "HEU_TOPWorkResult", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+HEU_TOPWorkResult(HEU_TOPWorkResult const& ) = delete;
 
-  /// @brief Field _workItemID, offset: 0x14, size: 0x4, def value: None
-  int32_t ____workItemID;
+/// @brief Field _workItemIndex, offset: 0x10, size: 0x4, def value: None
+ int32_t  ____workItemIndex;
 
-  /// @brief Field _generatedGOs, offset: 0x18, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>* ____generatedGOs;
+/// @brief Field _workItemID, offset: 0x14, size: 0x4, def value: None
+ int32_t  ____workItemID;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _generatedGOs, offset: 0x18, size: 0x8, def value: None
+ ::System::Collections::Generic::List_1<::UnityW<::UnityEngine::GameObject>>*  ____generatedGOs;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_TOPWorkResult, 0x20>, "Size mismatch!");
@@ -92,6 +93,6 @@ static_assert(offsetof(::HoudiniEngineUnity::HEU_TOPWorkResult, ____workItemID) 
 
 static_assert(offsetof(::HoudiniEngineUnity::HEU_TOPWorkResult, ____generatedGOs) == 0x18, "Offset mismatch!");
 
-} // namespace HoudiniEngineUnity
+} // namespace end def HoudiniEngineUnity
 NEED_NO_BOX(::HoudiniEngineUnity::HEU_TOPWorkResult);
 DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_TOPWorkResult*, "HoudiniEngineUnity", "HEU_TOPWorkResult");

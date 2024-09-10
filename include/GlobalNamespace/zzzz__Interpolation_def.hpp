@@ -16,35 +16,35 @@ class Interpolation;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::Interpolation);
 // Type: ::Interpolation
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::Interpolation*
 class CORDL_TYPE Interpolation : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method Interpolate, addr 0x306f820, size 0x540, virtual false, abstract: false, final false
-  static inline float_t Interpolate(float_t t, ::GlobalNamespace::EaseType easeType);
+// Declarations
+/// @brief Method Interpolate, addr 0x44485b4, size 0x54c, virtual false, abstract: false, final false
+static inline float_t Interpolate(float_t  t, ::GlobalNamespace::EaseType  easeType) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Interpolation();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr Interpolation() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Interpolation", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  Interpolation(Interpolation&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Interpolation", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  Interpolation(Interpolation const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "Interpolation", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+Interpolation(Interpolation && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "Interpolation", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+Interpolation(Interpolation const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::Interpolation, 0x10>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::Interpolation);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::Interpolation*, "", "Interpolation");

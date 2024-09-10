@@ -16,35 +16,35 @@ class StyleValueKeywordExtension;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::StyleValueKeywordExtension);
 // Type: UnityEngine.UIElements::StyleValueKeywordExtension
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: ::UnityEngine.UIElements::StyleValueKeywordExtension*
 class CORDL_TYPE StyleValueKeywordExtension : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method ToUssString, addr 0x3602b54, size 0x120, virtual false, abstract: false, final false
-  static inline ::StringW ToUssString(::UnityEngine::UIElements::StyleValueKeyword svk);
+// Declarations
+/// @brief Method ToUssString, addr 0x49f86fc, size 0x11c, virtual false, abstract: false, final false
+static inline ::StringW ToUssString(::UnityEngine::UIElements::StyleValueKeyword  svk) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr StyleValueKeywordExtension();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr StyleValueKeywordExtension() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StyleValueKeywordExtension", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  StyleValueKeywordExtension(StyleValueKeywordExtension&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StyleValueKeywordExtension", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  StyleValueKeywordExtension(StyleValueKeywordExtension const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "StyleValueKeywordExtension", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+StyleValueKeywordExtension(StyleValueKeywordExtension && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "StyleValueKeywordExtension", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+StyleValueKeywordExtension(StyleValueKeywordExtension const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::StyleValueKeywordExtension, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine::UIElements
+} // namespace end def UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::StyleValueKeywordExtension);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::StyleValueKeywordExtension*, "UnityEngine.UIElements", "StyleValueKeywordExtension");

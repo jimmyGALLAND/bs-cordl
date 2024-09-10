@@ -17,53 +17,52 @@ struct PoseOffsets;
 // Write type traits
 MARK_VAL_T(::BeatSaber::RecPlay::PoseOffsets);
 // Type: BeatSaber.RecPlay::PoseOffsets
-// SizeInfo { instance_size: 84, native_size: 84, calculated_instance_size: 84, calculated_native_size: 100, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 84, native_size: 84, calculated_instance_size: 84, calculated_native_size: 100, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace BeatSaber::RecPlay {
 // Is value type: true
 // CS Name: ::BeatSaber.RecPlay::PoseOffsets
 struct CORDL_TYPE PoseOffsets {
 public:
-  // Declarations
-  /// @brief Field kDefault, offset 0xffffffff, size 0x54
-  static __declspec(property(get = getStaticF_kDefault, put = setStaticF_kDefault))::BeatSaber::RecPlay::PoseOffsets kDefault;
+// Declarations
+/// @brief Field kDefault, offset 0xffffffff, size 0x54 
+static __declspec(property(get=getStaticF_kDefault, put=setStaticF_kDefault)) ::BeatSaber::RecPlay::PoseOffsets  kDefault;
 
-  /// @brief Method AdjustHead, addr 0x1075d98, size 0x5c, virtual false, abstract: false, final false
-  inline void AdjustHead(ByRef<::UnityEngine::Pose> pose);
+/// @brief Method AdjustHead, addr 0x2231370, size 0xb8, virtual false, abstract: false, final false
+inline void AdjustHead(ByRef<::UnityEngine::Pose>  pose) ;
 
-  /// @brief Method AdjustLeftHand, addr 0x1075cc0, size 0x6c, virtual false, abstract: false, final false
-  inline void AdjustLeftHand(ByRef<::UnityEngine::Pose> pose);
+/// @brief Method AdjustLeftHand, addr 0x22312a0, size 0x68, virtual false, abstract: false, final false
+inline void AdjustLeftHand(ByRef<::UnityEngine::Pose>  pose) ;
 
-  /// @brief Method AdjustPose, addr 0x10760b4, size 0xc0, virtual false, abstract: false, final false
-  static inline void AdjustPose(ByRef<::UnityEngine::Pose> pose, ByRef<::UnityEngine::Pose> room, ByRef<::UnityEngine::Pose> controller);
+/// @brief Method AdjustPose, addr 0x22316ec, size 0x11c, virtual false, abstract: false, final false
+static inline void AdjustPose(ByRef<::UnityEngine::Pose>  pose, ByRef<::UnityEngine::Pose>  room, ByRef<::UnityEngine::Pose>  controller) ;
 
-  /// @brief Method AdjustRightHand, addr 0x1075d2c, size 0x6c, virtual false, abstract: false, final false
-  inline void AdjustRightHand(ByRef<::UnityEngine::Pose> pose);
+/// @brief Method AdjustRightHand, addr 0x2231308, size 0x68, virtual false, abstract: false, final false
+inline void AdjustRightHand(ByRef<::UnityEngine::Pose>  pose) ;
 
-  static inline ::BeatSaber::RecPlay::PoseOffsets getStaticF_kDefault();
+static inline ::BeatSaber::RecPlay::PoseOffsets getStaticF_kDefault() ;
 
-  static inline void setStaticF_kDefault(::BeatSaber::RecPlay::PoseOffsets value);
+static inline void setStaticF_kDefault(::BeatSaber::RecPlay::PoseOffsets  value) ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PoseOffsets();
+// Ctor Parameters []
+// @brief default ctor
+constexpr PoseOffsets() ;
 
-  // Ctor Parameters [CppParam { name: "room", ty: "::UnityEngine::Pose", modifiers: "", def_value: None }, CppParam { name: "leftController", ty: "::UnityEngine::Pose", modifiers: "", def_value: None
-  // }, CppParam { name: "rightController", ty: "::UnityEngine::Pose", modifiers: "", def_value: None }]
-  constexpr PoseOffsets(::UnityEngine::Pose room, ::UnityEngine::Pose leftController, ::UnityEngine::Pose rightController) noexcept;
+// Ctor Parameters [CppParam { name: "room", ty: "::UnityEngine::Pose", modifiers: "", def_value: None }, CppParam { name: "leftController", ty: "::UnityEngine::Pose", modifiers: "", def_value: None }, CppParam { name: "rightController", ty: "::UnityEngine::Pose", modifiers: "", def_value: None }]
+constexpr PoseOffsets(::UnityEngine::Pose  room, ::UnityEngine::Pose  leftController, ::UnityEngine::Pose  rightController) noexcept;
 
-  /// @brief Field room, offset: 0x0, size: 0x1c, def value: None
-  ::UnityEngine::Pose room;
+/// @brief Field room, offset: 0x0, size: 0x1c, def value: None
+ ::UnityEngine::Pose  room;
 
-  /// @brief Field leftController, offset: 0x1c, size: 0x1c, def value: None
-  ::UnityEngine::Pose leftController;
+/// @brief Field leftController, offset: 0x1c, size: 0x1c, def value: None
+ ::UnityEngine::Pose  leftController;
 
-  /// @brief Field rightController, offset: 0x38, size: 0x1c, def value: None
-  ::UnityEngine::Pose rightController;
+/// @brief Field rightController, offset: 0x38, size: 0x1c, def value: None
+ ::UnityEngine::Pose  rightController;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x54 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x54};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::BeatSaber::RecPlay::PoseOffsets, 0x54>, "Size mismatch!");
@@ -74,5 +73,5 @@ static_assert(offsetof(::BeatSaber::RecPlay::PoseOffsets, leftController) == 0x1
 
 static_assert(offsetof(::BeatSaber::RecPlay::PoseOffsets, rightController) == 0x38, "Offset mismatch!");
 
-} // namespace BeatSaber::RecPlay
+} // namespace end def BeatSaber::RecPlay
 DEFINE_IL2CPP_ARG_TYPE(::BeatSaber::RecPlay::PoseOffsets, "BeatSaber.RecPlay", "PoseOffsets");

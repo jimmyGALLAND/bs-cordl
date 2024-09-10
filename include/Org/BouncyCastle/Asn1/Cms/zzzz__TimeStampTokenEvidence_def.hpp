@@ -28,76 +28,73 @@ class TimeStampTokenEvidence;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence);
 // Type: Org.BouncyCastle.Asn1.Cms::TimeStampTokenEvidence
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Cms {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Asn1.Cms::TimeStampTokenEvidence*
 class CORDL_TYPE TimeStampTokenEvidence : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
-  // Declarations
-  /// @brief Field timeStampAndCrls, offset 0x10, size 0x8
-  __declspec(
-      property(get = __cordl_internal_get_timeStampAndCrls,
-               put = __cordl_internal_set_timeStampAndCrls))::ArrayW<::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl*, ::Array<::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl*>*> timeStampAndCrls;
+// Declarations
+/// @brief Field timeStampAndCrls, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_timeStampAndCrls, put=__cordl_internal_set_timeStampAndCrls)) ::ArrayW<::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl*,::Array<::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl*>*>  timeStampAndCrls;
 
-  /// @brief Method GetInstance, addr 0x10f379c, size 0xa4, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence* GetInstance(::System::Object* obj);
+/// @brief Method GetInstance, addr 0x22c4b0c, size 0xa4, virtual false, abstract: false, final false
+static inline ::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence* GetInstance(::System::Object*  obj) ;
 
-  /// @brief Method GetInstance, addr 0x10f3784, size 0x18, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* tagged, bool isExplicit);
+/// @brief Method GetInstance, addr 0x22c4af4, size 0x18, virtual false, abstract: false, final false
+static inline ::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject*  tagged, bool  isExplicit) ;
 
-  static inline ::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
+static inline ::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence*  seq) ;
 
-  static inline ::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence* New_ctor(::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl* timeStampAndCrl);
+static inline ::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence* New_ctor(::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl*  timeStampAndCrl) ;
 
-  static inline ::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence*
-  New_ctor(::ArrayW<::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl*, ::Array<::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl*>*> timeStampAndCrls);
+static inline ::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence* New_ctor(::ArrayW<::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl*,::Array<::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl*>*>  timeStampAndCrls) ;
 
-  /// @brief Method ToAsn1Object, addr 0x10f38b8, size 0x68, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
+/// @brief Method ToAsn1Object, addr 0x22c4c28, size 0x60, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object() ;
 
-  /// @brief Method ToTimeStampAndCrlArray, addr 0x10f3840, size 0x78, virtual true, abstract: false, final false
-  inline ::ArrayW<::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl*, ::Array<::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl*>*> ToTimeStampAndCrlArray();
+/// @brief Method ToTimeStampAndCrlArray, addr 0x22c4bb0, size 0x78, virtual true, abstract: false, final false
+inline ::ArrayW<::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl*,::Array<::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl*>*> ToTimeStampAndCrlArray() ;
 
-  constexpr ::ArrayW<::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl*, ::Array<::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl*>*> const& __cordl_internal_get_timeStampAndCrls() const;
+constexpr ::ArrayW<::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl*,::Array<::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl*>*> const& __cordl_internal_get_timeStampAndCrls() const;
 
-  constexpr ::ArrayW<::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl*, ::Array<::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl*>*>& __cordl_internal_get_timeStampAndCrls();
+constexpr ::ArrayW<::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl*,::Array<::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl*>*>& __cordl_internal_get_timeStampAndCrls() ;
 
-  constexpr void __cordl_internal_set_timeStampAndCrls(::ArrayW<::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl*, ::Array<::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl*>*> value);
+constexpr void __cordl_internal_set_timeStampAndCrls(::ArrayW<::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl*,::Array<::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl*>*>  value) ;
 
-  /// @brief Method .ctor, addr 0x10f33f8, size 0x38c, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
+/// @brief Method .ctor, addr 0x22c4768, size 0x38c, virtual false, abstract: false, final false
+inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence*  seq) ;
 
-  /// @brief Method .ctor, addr 0x10f3350, size 0xa8, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl* timeStampAndCrl);
+/// @brief Method .ctor, addr 0x22c46c0, size 0xa8, virtual false, abstract: false, final false
+inline void _ctor(::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl*  timeStampAndCrl) ;
 
-  /// @brief Method .ctor, addr 0x10f3328, size 0x28, virtual false, abstract: false, final false
-  inline void _ctor(::ArrayW<::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl*, ::Array<::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl*>*> timeStampAndCrls);
+/// @brief Method .ctor, addr 0x22c4698, size 0x28, virtual false, abstract: false, final false
+inline void _ctor(::ArrayW<::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl*,::Array<::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl*>*>  timeStampAndCrls) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TimeStampTokenEvidence();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr TimeStampTokenEvidence() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TimeStampTokenEvidence", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  TimeStampTokenEvidence(TimeStampTokenEvidence&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TimeStampTokenEvidence", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  TimeStampTokenEvidence(TimeStampTokenEvidence const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "TimeStampTokenEvidence", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+TimeStampTokenEvidence(TimeStampTokenEvidence && ) = delete;
 
-  /// @brief Field timeStampAndCrls, offset: 0x10, size: 0x8, def value: None
-  ::ArrayW<::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl*, ::Array<::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl*>*> ___timeStampAndCrls;
+// Ctor Parameters [CppParam { name: "", ty: "TimeStampTokenEvidence", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+TimeStampTokenEvidence(TimeStampTokenEvidence const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field timeStampAndCrls, offset: 0x10, size: 0x8, def value: None
+ ::ArrayW<::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl*,::Array<::Org::BouncyCastle::Asn1::Cms::TimeStampAndCrl*>*>  ___timeStampAndCrls;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence, 0x18>, "Size mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence, ___timeStampAndCrls) == 0x10, "Offset mismatch!");
 
-} // namespace Org::BouncyCastle::Asn1::Cms
+} // namespace end def Org::BouncyCastle::Asn1::Cms
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::Cms::TimeStampTokenEvidence*, "Org.BouncyCastle.Asn1.Cms", "TimeStampTokenEvidence");

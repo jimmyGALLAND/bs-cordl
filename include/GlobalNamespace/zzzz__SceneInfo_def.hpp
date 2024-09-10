@@ -13,67 +13,67 @@ class SceneInfo;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::SceneInfo);
 // Type: ::SceneInfo
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::SceneInfo*
 class CORDL_TYPE SceneInfo : public ::GlobalNamespace::PersistentScriptableObject {
 public:
-  // Declarations
-  /// @brief Field _disabledRootObjects, offset 0x20, size 0x1
-  __declspec(property(get = __cordl_internal_get__disabledRootObjects, put = __cordl_internal_set__disabledRootObjects)) bool _disabledRootObjects;
+// Declarations
+/// @brief Field _disabledRootObjects, offset 0x20, size 0x1 
+ __declspec(property(get=__cordl_internal_get__disabledRootObjects, put=__cordl_internal_set__disabledRootObjects)) bool  _disabledRootObjects;
 
-  /// @brief Field _sceneName, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__sceneName, put = __cordl_internal_set__sceneName))::StringW _sceneName;
+/// @brief Field _sceneName, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get__sceneName, put=__cordl_internal_set__sceneName)) ::StringW  _sceneName;
 
-  __declspec(property(get = get_disabledRootObjects)) bool disabledRootObjects;
+ __declspec(property(get=get_disabledRootObjects)) bool  disabledRootObjects;
 
-  __declspec(property(get = get_sceneName))::StringW sceneName;
+ __declspec(property(get=get_sceneName)) ::StringW  sceneName;
 
-  static inline ::GlobalNamespace::SceneInfo* New_ctor();
+static inline ::GlobalNamespace::SceneInfo* New_ctor() ;
 
-  constexpr bool const& __cordl_internal_get__disabledRootObjects() const;
+constexpr bool const& __cordl_internal_get__disabledRootObjects() const;
 
-  constexpr bool& __cordl_internal_get__disabledRootObjects();
+constexpr bool& __cordl_internal_get__disabledRootObjects() ;
 
-  constexpr ::StringW const& __cordl_internal_get__sceneName() const;
+constexpr ::StringW const& __cordl_internal_get__sceneName() const;
 
-  constexpr ::StringW& __cordl_internal_get__sceneName();
+constexpr ::StringW& __cordl_internal_get__sceneName() ;
 
-  constexpr void __cordl_internal_set__disabledRootObjects(bool value);
+constexpr void __cordl_internal_set__disabledRootObjects(bool  value) ;
 
-  constexpr void __cordl_internal_set__sceneName(::StringW value);
+constexpr void __cordl_internal_set__sceneName(::StringW  value) ;
 
-  /// @brief Method .ctor, addr 0x107e4f4, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x2250290, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_disabledRootObjects, addr 0x107e4ec, size 0x8, virtual false, abstract: false, final false
-  inline bool get_disabledRootObjects();
+/// @brief Method get_disabledRootObjects, addr 0x2250288, size 0x8, virtual false, abstract: false, final false
+inline bool get_disabledRootObjects() ;
 
-  /// @brief Method get_sceneName, addr 0x107e4e4, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_sceneName();
+/// @brief Method get_sceneName, addr 0x2250280, size 0x8, virtual false, abstract: false, final false
+inline ::StringW get_sceneName() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SceneInfo();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr SceneInfo() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SceneInfo", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  SceneInfo(SceneInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SceneInfo", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  SceneInfo(SceneInfo const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "SceneInfo", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+SceneInfo(SceneInfo && ) = delete;
 
-  /// @brief Field _sceneName, offset: 0x18, size: 0x8, def value: None
-  ::StringW ____sceneName;
+// Ctor Parameters [CppParam { name: "", ty: "SceneInfo", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+SceneInfo(SceneInfo const& ) = delete;
 
-  /// @brief Field _disabledRootObjects, offset: 0x20, size: 0x1, def value: None
-  bool ____disabledRootObjects;
+/// @brief Field _sceneName, offset: 0x18, size: 0x8, def value: None
+ ::StringW  ____sceneName;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _disabledRootObjects, offset: 0x20, size: 0x1, def value: None
+ bool  ____disabledRootObjects;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SceneInfo, 0x28>, "Size mismatch!");
@@ -82,6 +82,6 @@ static_assert(offsetof(::GlobalNamespace::SceneInfo, ____sceneName) == 0x18, "Of
 
 static_assert(offsetof(::GlobalNamespace::SceneInfo, ____disabledRootObjects) == 0x20, "Offset mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SceneInfo);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SceneInfo*, "", "SceneInfo");

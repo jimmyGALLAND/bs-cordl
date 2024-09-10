@@ -34,147 +34,147 @@ MARK_REF_PTR_T(::GlobalNamespace::__GameplayModifiersConfiguration__CutAngleTole
 MARK_REF_PTR_T(::GlobalNamespace::__GameplayModifiersConfiguration__NoteUniformScale);
 MARK_REF_PTR_T(::GlobalNamespace::__GameplayModifiersConfiguration__SongSpeed);
 // Type: ::SongSpeed
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::GameplayModifiersConfiguration::SongSpeed*
 class CORDL_TYPE __GameplayModifiersConfiguration__SongSpeed : public ::System::Object {
 public:
-  // Declarations
+// Declarations
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __GameplayModifiersConfiguration__SongSpeed();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __GameplayModifiersConfiguration__SongSpeed() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__GameplayModifiersConfiguration__SongSpeed", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __GameplayModifiersConfiguration__SongSpeed(__GameplayModifiersConfiguration__SongSpeed&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__GameplayModifiersConfiguration__SongSpeed", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __GameplayModifiersConfiguration__SongSpeed(__GameplayModifiersConfiguration__SongSpeed const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__GameplayModifiersConfiguration__SongSpeed", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__GameplayModifiersConfiguration__SongSpeed(__GameplayModifiersConfiguration__SongSpeed && ) = delete;
 
-  /// @brief Field kFaster offset 0xffffffff size 0x4
-  static constexpr float_t kFaster{ 1.2 };
+// Ctor Parameters [CppParam { name: "", ty: "__GameplayModifiersConfiguration__SongSpeed", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__GameplayModifiersConfiguration__SongSpeed(__GameplayModifiersConfiguration__SongSpeed const& ) = delete;
 
-  /// @brief Field kNormal offset 0xffffffff size 0x4
-  static constexpr float_t kNormal{ 1.0 };
+/// @brief Field kFaster offset 0xffffffff size 0x4
+static constexpr float_t  kFaster{1.2};
 
-  /// @brief Field kSlower offset 0xffffffff size 0x4
-  static constexpr float_t kSlower{ 0.85 };
+/// @brief Field kNormal offset 0xffffffff size 0x4
+static constexpr float_t  kNormal{1.0};
 
-  /// @brief Field kSuperFast offset 0xffffffff size 0x4
-  static constexpr float_t kSuperFast{ 1.5 };
+/// @brief Field kSlower offset 0xffffffff size 0x4
+static constexpr float_t  kSlower{0.85};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field kSuperFast offset 0xffffffff size 0x4
+static constexpr float_t  kSuperFast{1.5};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__GameplayModifiersConfiguration__SongSpeed, 0x10>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 // Type: ::CutAngleTolerance
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::GameplayModifiersConfiguration::CutAngleTolerance*
 class CORDL_TYPE __GameplayModifiersConfiguration__CutAngleTolerance : public ::System::Object {
 public:
-  // Declarations
+// Declarations
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __GameplayModifiersConfiguration__CutAngleTolerance();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __GameplayModifiersConfiguration__CutAngleTolerance() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__GameplayModifiersConfiguration__CutAngleTolerance", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __GameplayModifiersConfiguration__CutAngleTolerance(__GameplayModifiersConfiguration__CutAngleTolerance&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__GameplayModifiersConfiguration__CutAngleTolerance", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __GameplayModifiersConfiguration__CutAngleTolerance(__GameplayModifiersConfiguration__CutAngleTolerance const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__GameplayModifiersConfiguration__CutAngleTolerance", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__GameplayModifiersConfiguration__CutAngleTolerance(__GameplayModifiersConfiguration__CutAngleTolerance && ) = delete;
 
-  /// @brief Field kDefault offset 0xffffffff size 0x4
-  static constexpr float_t kDefault{ 60.0 };
+// Ctor Parameters [CppParam { name: "", ty: "__GameplayModifiersConfiguration__CutAngleTolerance", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__GameplayModifiersConfiguration__CutAngleTolerance(__GameplayModifiersConfiguration__CutAngleTolerance const& ) = delete;
 
-  /// @brief Field kStrict offset 0xffffffff size 0x4
-  static constexpr float_t kStrict{ 40.0 };
+/// @brief Field kDefault offset 0xffffffff size 0x4
+static constexpr float_t  kDefault{60.0};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field kStrict offset 0xffffffff size 0x4
+static constexpr float_t  kStrict{40.0};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__GameplayModifiersConfiguration__CutAngleTolerance, 0x10>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 // Type: ::NoteUniformScale
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::GameplayModifiersConfiguration::NoteUniformScale*
 class CORDL_TYPE __GameplayModifiersConfiguration__NoteUniformScale : public ::System::Object {
 public:
-  // Declarations
+// Declarations
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __GameplayModifiersConfiguration__NoteUniformScale();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __GameplayModifiersConfiguration__NoteUniformScale() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__GameplayModifiersConfiguration__NoteUniformScale", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __GameplayModifiersConfiguration__NoteUniformScale(__GameplayModifiersConfiguration__NoteUniformScale&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__GameplayModifiersConfiguration__NoteUniformScale", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __GameplayModifiersConfiguration__NoteUniformScale(__GameplayModifiersConfiguration__NoteUniformScale const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__GameplayModifiersConfiguration__NoteUniformScale", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__GameplayModifiersConfiguration__NoteUniformScale(__GameplayModifiersConfiguration__NoteUniformScale && ) = delete;
 
-  /// @brief Field kDefault offset 0xffffffff size 0x4
-  static constexpr float_t kDefault{ 1.0 };
+// Ctor Parameters [CppParam { name: "", ty: "__GameplayModifiersConfiguration__NoteUniformScale", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__GameplayModifiersConfiguration__NoteUniformScale(__GameplayModifiersConfiguration__NoteUniformScale const& ) = delete;
 
-  /// @brief Field kSmall offset 0xffffffff size 0x4
-  static constexpr float_t kSmall{ 0.5 };
+/// @brief Field kDefault offset 0xffffffff size 0x4
+static constexpr float_t  kDefault{1.0};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field kSmall offset 0xffffffff size 0x4
+static constexpr float_t  kSmall{0.5};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__GameplayModifiersConfiguration__NoteUniformScale, 0x10>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 // Type: ::GameplayModifiersConfiguration
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::GameplayModifiersConfiguration*
 class CORDL_TYPE GameplayModifiersConfiguration : public ::System::Object {
 public:
-  // Declarations
-  using CutAngleTolerance = ::GlobalNamespace::__GameplayModifiersConfiguration__CutAngleTolerance;
+// Declarations
+using CutAngleTolerance = ::GlobalNamespace::__GameplayModifiersConfiguration__CutAngleTolerance;
 
-  using NoteUniformScale = ::GlobalNamespace::__GameplayModifiersConfiguration__NoteUniformScale;
+using NoteUniformScale = ::GlobalNamespace::__GameplayModifiersConfiguration__NoteUniformScale;
 
-  using SongSpeed = ::GlobalNamespace::__GameplayModifiersConfiguration__SongSpeed;
+using SongSpeed = ::GlobalNamespace::__GameplayModifiersConfiguration__SongSpeed;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr GameplayModifiersConfiguration();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr GameplayModifiersConfiguration() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GameplayModifiersConfiguration", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  GameplayModifiersConfiguration(GameplayModifiersConfiguration&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GameplayModifiersConfiguration", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  GameplayModifiersConfiguration(GameplayModifiersConfiguration const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "GameplayModifiersConfiguration", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+GameplayModifiersConfiguration(GameplayModifiersConfiguration && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "GameplayModifiersConfiguration", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+GameplayModifiersConfiguration(GameplayModifiersConfiguration const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::GameplayModifiersConfiguration, 0x10>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::GameplayModifiersConfiguration);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::GameplayModifiersConfiguration*, "", "GameplayModifiersConfiguration");
 NEED_NO_BOX(::GlobalNamespace::__GameplayModifiersConfiguration__CutAngleTolerance);

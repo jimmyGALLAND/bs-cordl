@@ -32,169 +32,159 @@ class Tnaf;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Math::EC::Abc::Tnaf);
 // Type: Org.BouncyCastle.Math.EC.Abc::Tnaf
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Math::EC::Abc {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Math.EC.Abc::Tnaf*
 class CORDL_TYPE Tnaf : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field Alpha0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Alpha0,
-                             put = setStaticF_Alpha0))::ArrayW<::Org::BouncyCastle::Math::EC::Abc::ZTauElement*, ::Array<::Org::BouncyCastle::Math::EC::Abc::ZTauElement*>*> Alpha0;
+// Declarations
+/// @brief Field Alpha0, offset 0xffffffff, size 0x8 
+static __declspec(property(get=getStaticF_Alpha0, put=setStaticF_Alpha0)) ::ArrayW<::Org::BouncyCastle::Math::EC::Abc::ZTauElement*,::Array<::Org::BouncyCastle::Math::EC::Abc::ZTauElement*>*>  Alpha0;
 
-  /// @brief Field Alpha0Tnaf, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Alpha0Tnaf, put = setStaticF_Alpha0Tnaf))::ArrayW<::ArrayW<int8_t, ::Array<int8_t>*>, ::Array<::ArrayW<int8_t, ::Array<int8_t>*>>*> Alpha0Tnaf;
+/// @brief Field Alpha0Tnaf, offset 0xffffffff, size 0x8 
+static __declspec(property(get=getStaticF_Alpha0Tnaf, put=setStaticF_Alpha0Tnaf)) ::ArrayW<::ArrayW<int8_t,::Array<int8_t>*>,::Array<::ArrayW<int8_t,::Array<int8_t>*>>*>  Alpha0Tnaf;
 
-  /// @brief Field Alpha1, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Alpha1,
-                             put = setStaticF_Alpha1))::ArrayW<::Org::BouncyCastle::Math::EC::Abc::ZTauElement*, ::Array<::Org::BouncyCastle::Math::EC::Abc::ZTauElement*>*> Alpha1;
+/// @brief Field Alpha1, offset 0xffffffff, size 0x8 
+static __declspec(property(get=getStaticF_Alpha1, put=setStaticF_Alpha1)) ::ArrayW<::Org::BouncyCastle::Math::EC::Abc::ZTauElement*,::Array<::Org::BouncyCastle::Math::EC::Abc::ZTauElement*>*>  Alpha1;
 
-  /// @brief Field Alpha1Tnaf, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Alpha1Tnaf, put = setStaticF_Alpha1Tnaf))::ArrayW<::ArrayW<int8_t, ::Array<int8_t>*>, ::Array<::ArrayW<int8_t, ::Array<int8_t>*>>*> Alpha1Tnaf;
+/// @brief Field Alpha1Tnaf, offset 0xffffffff, size 0x8 
+static __declspec(property(get=getStaticF_Alpha1Tnaf, put=setStaticF_Alpha1Tnaf)) ::ArrayW<::ArrayW<int8_t,::Array<int8_t>*>,::Array<::ArrayW<int8_t,::Array<int8_t>*>>*>  Alpha1Tnaf;
 
-  /// @brief Field Four, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_Four, put = setStaticF_Four))::Org::BouncyCastle::Math::BigInteger* Four;
+/// @brief Field Four, offset 0xffffffff, size 0x8 
+static __declspec(property(get=getStaticF_Four, put=setStaticF_Four)) ::Org::BouncyCastle::Math::BigInteger*  Four;
 
-  /// @brief Field MinusOne, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_MinusOne, put = setStaticF_MinusOne))::Org::BouncyCastle::Math::BigInteger* MinusOne;
+/// @brief Field MinusOne, offset 0xffffffff, size 0x8 
+static __declspec(property(get=getStaticF_MinusOne, put=setStaticF_MinusOne)) ::Org::BouncyCastle::Math::BigInteger*  MinusOne;
 
-  /// @brief Field MinusThree, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_MinusThree, put = setStaticF_MinusThree))::Org::BouncyCastle::Math::BigInteger* MinusThree;
+/// @brief Field MinusThree, offset 0xffffffff, size 0x8 
+static __declspec(property(get=getStaticF_MinusThree, put=setStaticF_MinusThree)) ::Org::BouncyCastle::Math::BigInteger*  MinusThree;
 
-  /// @brief Field MinusTwo, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_MinusTwo, put = setStaticF_MinusTwo))::Org::BouncyCastle::Math::BigInteger* MinusTwo;
+/// @brief Field MinusTwo, offset 0xffffffff, size 0x8 
+static __declspec(property(get=getStaticF_MinusTwo, put=setStaticF_MinusTwo)) ::Org::BouncyCastle::Math::BigInteger*  MinusTwo;
 
-  /// @brief Method ApproximateDivisionByN, addr 0x1238d34, size 0x178, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal* ApproximateDivisionByN(::Org::BouncyCastle::Math::BigInteger* k, ::Org::BouncyCastle::Math::BigInteger* s,
-                                                                                             ::Org::BouncyCastle::Math::BigInteger* vm, int8_t a, int32_t m, int32_t c);
+/// @brief Method ApproximateDivisionByN, addr 0x23ffab0, size 0x174, virtual false, abstract: false, final false
+static inline ::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal* ApproximateDivisionByN(::Org::BouncyCastle::Math::BigInteger*  k, ::Org::BouncyCastle::Math::BigInteger*  s, ::Org::BouncyCastle::Math::BigInteger*  vm, int8_t  a, int32_t  m, int32_t  c) ;
 
-  /// @brief Method GetLucas, addr 0x12393b4, size 0x1e4, virtual false, abstract: false, final false
-  static inline ::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> GetLucas(int8_t mu, int32_t k, bool doV);
+/// @brief Method GetLucas, addr 0x2400124, size 0x1e0, virtual false, abstract: false, final false
+static inline ::ArrayW<::Org::BouncyCastle::Math::BigInteger*,::Array<::Org::BouncyCastle::Math::BigInteger*>*> GetLucas(int8_t  mu, int32_t  k, bool  doV) ;
 
-  /// @brief Method GetMu, addr 0x1239270, size 0x104, virtual false, abstract: false, final false
-  static inline int8_t GetMu(::Org::BouncyCastle::Math::EC::AbstractF2mCurve* curve);
+/// @brief Method GetMu, addr 0x23fffe4, size 0x100, virtual false, abstract: false, final false
+static inline int8_t GetMu(::Org::BouncyCastle::Math::EC::AbstractF2mCurve*  curve) ;
 
-  /// @brief Method GetMu, addr 0x1239374, size 0x30, virtual false, abstract: false, final false
-  static inline int8_t GetMu(::Org::BouncyCastle::Math::EC::ECFieldElement* curveA);
+/// @brief Method GetMu, addr 0x24000e4, size 0x30, virtual false, abstract: false, final false
+static inline int8_t GetMu(::Org::BouncyCastle::Math::EC::ECFieldElement*  curveA) ;
 
-  /// @brief Method GetMu, addr 0x12393a4, size 0x10, virtual false, abstract: false, final false
-  static inline int8_t GetMu(int32_t curveA);
+/// @brief Method GetMu, addr 0x2400114, size 0x10, virtual false, abstract: false, final false
+static inline int8_t GetMu(int32_t  curveA) ;
 
-  /// @brief Method GetPreComp, addr 0x123a798, size 0x1a4, virtual false, abstract: false, final false
-  static inline ::ArrayW<::Org::BouncyCastle::Math::EC::AbstractF2mPoint*, ::Array<::Org::BouncyCastle::Math::EC::AbstractF2mPoint*>*> GetPreComp(::Org::BouncyCastle::Math::EC::AbstractF2mPoint* p,
-                                                                                                                                                  int8_t a);
+/// @brief Method GetPreComp, addr 0x24014d8, size 0x1a4, virtual false, abstract: false, final false
+static inline ::ArrayW<::Org::BouncyCastle::Math::EC::AbstractF2mPoint*,::Array<::Org::BouncyCastle::Math::EC::AbstractF2mPoint*>*> GetPreComp(::Org::BouncyCastle::Math::EC::AbstractF2mPoint*  p, int8_t  a) ;
 
-  /// @brief Method GetShiftsForCofactor, addr 0x1239a10, size 0x98, virtual false, abstract: false, final false
-  static inline int32_t GetShiftsForCofactor(::Org::BouncyCastle::Math::BigInteger* h);
+/// @brief Method GetShiftsForCofactor, addr 0x2400778, size 0x94, virtual false, abstract: false, final false
+static inline int32_t GetShiftsForCofactor(::Org::BouncyCastle::Math::BigInteger*  h) ;
 
-  /// @brief Method GetSi, addr 0x1239704, size 0x30c, virtual false, abstract: false, final false
-  static inline ::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> GetSi(::Org::BouncyCastle::Math::EC::AbstractF2mCurve* curve);
+/// @brief Method GetSi, addr 0x2400470, size 0x308, virtual false, abstract: false, final false
+static inline ::ArrayW<::Org::BouncyCastle::Math::BigInteger*,::Array<::Org::BouncyCastle::Math::BigInteger*>*> GetSi(::Org::BouncyCastle::Math::EC::AbstractF2mCurve*  curve) ;
 
-  /// @brief Method GetSi, addr 0x1239aa8, size 0x250, virtual false, abstract: false, final false
-  static inline ::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> GetSi(int32_t fieldSize, int32_t curveA,
-                                                                                                                         ::Org::BouncyCastle::Math::BigInteger* cofactor);
+/// @brief Method GetSi, addr 0x240080c, size 0x250, virtual false, abstract: false, final false
+static inline ::ArrayW<::Org::BouncyCastle::Math::BigInteger*,::Array<::Org::BouncyCastle::Math::BigInteger*>*> GetSi(int32_t  fieldSize, int32_t  curveA, ::Org::BouncyCastle::Math::BigInteger*  cofactor) ;
 
-  /// @brief Method GetTw, addr 0x1239598, size 0x16c, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Math::BigInteger* GetTw(int8_t mu, int32_t w);
+/// @brief Method GetTw, addr 0x2400304, size 0x16c, virtual false, abstract: false, final false
+static inline ::Org::BouncyCastle::Math::BigInteger* GetTw(int8_t  mu, int32_t  w) ;
 
-  /// @brief Method MultiplyFromTnaf, addr 0x123a1cc, size 0x20c, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Math::EC::AbstractF2mPoint* MultiplyFromTnaf(::Org::BouncyCastle::Math::EC::AbstractF2mPoint* p, ::ArrayW<int8_t, ::Array<int8_t>*> u);
+/// @brief Method MultiplyFromTnaf, addr 0x2400f2c, size 0x1f0, virtual false, abstract: false, final false
+static inline ::Org::BouncyCastle::Math::EC::AbstractF2mPoint* MultiplyFromTnaf(::Org::BouncyCastle::Math::EC::AbstractF2mPoint*  p, ::ArrayW<int8_t,::Array<int8_t>*>  u) ;
 
-  /// @brief Method MultiplyRTnaf, addr 0x1239f80, size 0x150, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Math::EC::AbstractF2mPoint* MultiplyRTnaf(::Org::BouncyCastle::Math::EC::AbstractF2mPoint* p, ::Org::BouncyCastle::Math::BigInteger* k);
+/// @brief Method MultiplyRTnaf, addr 0x2400ce0, size 0x150, virtual false, abstract: false, final false
+static inline ::Org::BouncyCastle::Math::EC::AbstractF2mPoint* MultiplyRTnaf(::Org::BouncyCastle::Math::EC::AbstractF2mPoint*  p, ::Org::BouncyCastle::Math::BigInteger*  k) ;
 
-  /// @brief Method MultiplyTnaf, addr 0x123a0d0, size 0xfc, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Math::EC::AbstractF2mPoint* MultiplyTnaf(::Org::BouncyCastle::Math::EC::AbstractF2mPoint* p, ::Org::BouncyCastle::Math::EC::Abc::ZTauElement* lambda);
+/// @brief Method MultiplyTnaf, addr 0x2400e30, size 0xfc, virtual false, abstract: false, final false
+static inline ::Org::BouncyCastle::Math::EC::AbstractF2mPoint* MultiplyTnaf(::Org::BouncyCastle::Math::EC::AbstractF2mPoint*  p, ::Org::BouncyCastle::Math::EC::Abc::ZTauElement*  lambda) ;
 
-  static inline ::Org::BouncyCastle::Math::EC::Abc::Tnaf* New_ctor();
+static inline ::Org::BouncyCastle::Math::EC::Abc::Tnaf* New_ctor() ;
 
-  /// @brief Method Norm, addr 0x1238738, size 0x11c, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Math::BigInteger* Norm(int8_t mu, ::Org::BouncyCastle::Math::EC::Abc::ZTauElement* lambda);
+/// @brief Method Norm, addr 0x23ff4c8, size 0x118, virtual false, abstract: false, final false
+static inline ::Org::BouncyCastle::Math::BigInteger* Norm(int8_t  mu, ::Org::BouncyCastle::Math::EC::Abc::ZTauElement*  lambda) ;
 
-  /// @brief Method Norm, addr 0x1238854, size 0xfc, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal* Norm(int8_t mu, ::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal* u, ::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal* v);
+/// @brief Method Norm, addr 0x23ff5e0, size 0xf8, virtual false, abstract: false, final false
+static inline ::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal* Norm(int8_t  mu, ::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal*  u, ::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal*  v) ;
 
-  /// @brief Method PartModReduction, addr 0x1239cf8, size 0x288, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Math::EC::Abc::ZTauElement* PartModReduction(::Org::BouncyCastle::Math::BigInteger* k, int32_t m, int8_t a,
-                                                                                  ::ArrayW<::Org::BouncyCastle::Math::BigInteger*, ::Array<::Org::BouncyCastle::Math::BigInteger*>*> s, int8_t mu,
-                                                                                  int8_t c);
+/// @brief Method PartModReduction, addr 0x2400a5c, size 0x284, virtual false, abstract: false, final false
+static inline ::Org::BouncyCastle::Math::EC::Abc::ZTauElement* PartModReduction(::Org::BouncyCastle::Math::BigInteger*  k, int32_t  m, int8_t  a, ::ArrayW<::Org::BouncyCastle::Math::BigInteger*,::Array<::Org::BouncyCastle::Math::BigInteger*>*>  s, int8_t  mu, int8_t  c) ;
 
-  /// @brief Method Round, addr 0x1238950, size 0x3b8, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Math::EC::Abc::ZTauElement* Round(::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal* lambda0, ::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal* lambda1,
-                                                                       int8_t mu);
+/// @brief Method Round, addr 0x23ff6d8, size 0x3ac, virtual false, abstract: false, final false
+static inline ::Org::BouncyCastle::Math::EC::Abc::ZTauElement* Round(::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal*  lambda0, ::Org::BouncyCastle::Math::EC::Abc::SimpleBigDecimal*  lambda1, int8_t  mu) ;
 
-  /// @brief Method Tau, addr 0x1239250, size 0x20, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Math::EC::AbstractF2mPoint* Tau(::Org::BouncyCastle::Math::EC::AbstractF2mPoint* p);
+/// @brief Method Tau, addr 0x23fffc4, size 0x20, virtual false, abstract: false, final false
+static inline ::Org::BouncyCastle::Math::EC::AbstractF2mPoint* Tau(::Org::BouncyCastle::Math::EC::AbstractF2mPoint*  p) ;
 
-  /// @brief Method TauAdicNaf, addr 0x1238eac, size 0x3a4, virtual false, abstract: false, final false
-  static inline ::ArrayW<int8_t, ::Array<int8_t>*> TauAdicNaf(int8_t mu, ::Org::BouncyCastle::Math::EC::Abc::ZTauElement* lambda);
+/// @brief Method TauAdicNaf, addr 0x23ffc24, size 0x3a0, virtual false, abstract: false, final false
+static inline ::ArrayW<int8_t,::Array<int8_t>*> TauAdicNaf(int8_t  mu, ::Org::BouncyCastle::Math::EC::Abc::ZTauElement*  lambda) ;
 
-  /// @brief Method TauAdicWNaf, addr 0x123a3d8, size 0x3c0, virtual false, abstract: false, final false
-  static inline ::ArrayW<int8_t, ::Array<int8_t>*> TauAdicWNaf(int8_t mu, ::Org::BouncyCastle::Math::EC::Abc::ZTauElement* lambda, int8_t width, ::Org::BouncyCastle::Math::BigInteger* pow2w,
-                                                               ::Org::BouncyCastle::Math::BigInteger* tw,
-                                                               ::ArrayW<::Org::BouncyCastle::Math::EC::Abc::ZTauElement*, ::Array<::Org::BouncyCastle::Math::EC::Abc::ZTauElement*>*> alpha);
+/// @brief Method TauAdicWNaf, addr 0x240111c, size 0x3bc, virtual false, abstract: false, final false
+static inline ::ArrayW<int8_t,::Array<int8_t>*> TauAdicWNaf(int8_t  mu, ::Org::BouncyCastle::Math::EC::Abc::ZTauElement*  lambda, int8_t  width, ::Org::BouncyCastle::Math::BigInteger*  pow2w, ::Org::BouncyCastle::Math::BigInteger*  tw, ::ArrayW<::Org::BouncyCastle::Math::EC::Abc::ZTauElement*,::Array<::Org::BouncyCastle::Math::EC::Abc::ZTauElement*>*>  alpha) ;
 
-  /// @brief Method .ctor, addr 0x123b048, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x2401cc0, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  static inline ::ArrayW<::Org::BouncyCastle::Math::EC::Abc::ZTauElement*, ::Array<::Org::BouncyCastle::Math::EC::Abc::ZTauElement*>*> getStaticF_Alpha0();
+static inline ::ArrayW<::Org::BouncyCastle::Math::EC::Abc::ZTauElement*,::Array<::Org::BouncyCastle::Math::EC::Abc::ZTauElement*>*> getStaticF_Alpha0() ;
 
-  static inline ::ArrayW<::ArrayW<int8_t, ::Array<int8_t>*>, ::Array<::ArrayW<int8_t, ::Array<int8_t>*>>*> getStaticF_Alpha0Tnaf();
+static inline ::ArrayW<::ArrayW<int8_t,::Array<int8_t>*>,::Array<::ArrayW<int8_t,::Array<int8_t>*>>*> getStaticF_Alpha0Tnaf() ;
 
-  static inline ::ArrayW<::Org::BouncyCastle::Math::EC::Abc::ZTauElement*, ::Array<::Org::BouncyCastle::Math::EC::Abc::ZTauElement*>*> getStaticF_Alpha1();
+static inline ::ArrayW<::Org::BouncyCastle::Math::EC::Abc::ZTauElement*,::Array<::Org::BouncyCastle::Math::EC::Abc::ZTauElement*>*> getStaticF_Alpha1() ;
 
-  static inline ::ArrayW<::ArrayW<int8_t, ::Array<int8_t>*>, ::Array<::ArrayW<int8_t, ::Array<int8_t>*>>*> getStaticF_Alpha1Tnaf();
+static inline ::ArrayW<::ArrayW<int8_t,::Array<int8_t>*>,::Array<::ArrayW<int8_t,::Array<int8_t>*>>*> getStaticF_Alpha1Tnaf() ;
 
-  static inline ::Org::BouncyCastle::Math::BigInteger* getStaticF_Four();
+static inline ::Org::BouncyCastle::Math::BigInteger* getStaticF_Four() ;
 
-  static inline ::Org::BouncyCastle::Math::BigInteger* getStaticF_MinusOne();
+static inline ::Org::BouncyCastle::Math::BigInteger* getStaticF_MinusOne() ;
 
-  static inline ::Org::BouncyCastle::Math::BigInteger* getStaticF_MinusThree();
+static inline ::Org::BouncyCastle::Math::BigInteger* getStaticF_MinusThree() ;
 
-  static inline ::Org::BouncyCastle::Math::BigInteger* getStaticF_MinusTwo();
+static inline ::Org::BouncyCastle::Math::BigInteger* getStaticF_MinusTwo() ;
 
-  static inline void setStaticF_Alpha0(::ArrayW<::Org::BouncyCastle::Math::EC::Abc::ZTauElement*, ::Array<::Org::BouncyCastle::Math::EC::Abc::ZTauElement*>*> value);
+static inline void setStaticF_Alpha0(::ArrayW<::Org::BouncyCastle::Math::EC::Abc::ZTauElement*,::Array<::Org::BouncyCastle::Math::EC::Abc::ZTauElement*>*>  value) ;
 
-  static inline void setStaticF_Alpha0Tnaf(::ArrayW<::ArrayW<int8_t, ::Array<int8_t>*>, ::Array<::ArrayW<int8_t, ::Array<int8_t>*>>*> value);
+static inline void setStaticF_Alpha0Tnaf(::ArrayW<::ArrayW<int8_t,::Array<int8_t>*>,::Array<::ArrayW<int8_t,::Array<int8_t>*>>*>  value) ;
 
-  static inline void setStaticF_Alpha1(::ArrayW<::Org::BouncyCastle::Math::EC::Abc::ZTauElement*, ::Array<::Org::BouncyCastle::Math::EC::Abc::ZTauElement*>*> value);
+static inline void setStaticF_Alpha1(::ArrayW<::Org::BouncyCastle::Math::EC::Abc::ZTauElement*,::Array<::Org::BouncyCastle::Math::EC::Abc::ZTauElement*>*>  value) ;
 
-  static inline void setStaticF_Alpha1Tnaf(::ArrayW<::ArrayW<int8_t, ::Array<int8_t>*>, ::Array<::ArrayW<int8_t, ::Array<int8_t>*>>*> value);
+static inline void setStaticF_Alpha1Tnaf(::ArrayW<::ArrayW<int8_t,::Array<int8_t>*>,::Array<::ArrayW<int8_t,::Array<int8_t>*>>*>  value) ;
 
-  static inline void setStaticF_Four(::Org::BouncyCastle::Math::BigInteger* value);
+static inline void setStaticF_Four(::Org::BouncyCastle::Math::BigInteger*  value) ;
 
-  static inline void setStaticF_MinusOne(::Org::BouncyCastle::Math::BigInteger* value);
+static inline void setStaticF_MinusOne(::Org::BouncyCastle::Math::BigInteger*  value) ;
 
-  static inline void setStaticF_MinusThree(::Org::BouncyCastle::Math::BigInteger* value);
+static inline void setStaticF_MinusThree(::Org::BouncyCastle::Math::BigInteger*  value) ;
 
-  static inline void setStaticF_MinusTwo(::Org::BouncyCastle::Math::BigInteger* value);
+static inline void setStaticF_MinusTwo(::Org::BouncyCastle::Math::BigInteger*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Tnaf();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr Tnaf() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Tnaf", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  Tnaf(Tnaf&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Tnaf", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  Tnaf(Tnaf const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "Tnaf", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+Tnaf(Tnaf && ) = delete;
 
-  /// @brief Field Pow2Width offset 0xffffffff size 0x1
-  static constexpr int8_t Pow2Width{ static_cast<int8_t>(0x10) };
+// Ctor Parameters [CppParam { name: "", ty: "Tnaf", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+Tnaf(Tnaf const& ) = delete;
 
-  /// @brief Field Width offset 0xffffffff size 0x1
-  static constexpr int8_t Width{ static_cast<int8_t>(0x4) };
+/// @brief Field Pow2Width offset 0xffffffff size 0x1
+static constexpr int8_t  Pow2Width{static_cast<int8_t>(0x10)};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field Width offset 0xffffffff size 0x1
+static constexpr int8_t  Width{static_cast<int8_t>(0x4)};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Math::EC::Abc::Tnaf, 0x10>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Math::EC::Abc
+} // namespace end def Org::BouncyCastle::Math::EC::Abc
 NEED_NO_BOX(::Org::BouncyCastle::Math::EC::Abc::Tnaf);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Math::EC::Abc::Tnaf*, "Org.BouncyCastle.Math.EC.Abc", "Tnaf");

@@ -12,7 +12,8 @@ namespace Oculus::Platform {
 struct AppAgeCategory;
 }
 namespace Oculus::Platform {
-template <typename T> class Request_1;
+template<typename T>
+class Request_1;
 }
 namespace Oculus::Platform {
 class Request;
@@ -24,38 +25,38 @@ class UserAgeCategory;
 // Write type traits
 MARK_REF_PTR_T(::Oculus::Platform::UserAgeCategory);
 // Type: Oculus.Platform::UserAgeCategory
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
 // CS Name: ::Oculus.Platform::UserAgeCategory*
 class CORDL_TYPE UserAgeCategory : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method Get, addr 0x2b09804, size 0x158, virtual false, abstract: false, final false
-  static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::UserAccountAgeCategory*>* Get();
+// Declarations
+/// @brief Method Get, addr 0x3efb06c, size 0x150, virtual false, abstract: false, final false
+static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::UserAccountAgeCategory*>* Get() ;
 
-  /// @brief Method Report, addr 0x2b0995c, size 0x14c, virtual false, abstract: false, final false
-  static inline ::Oculus::Platform::Request* Report(::Oculus::Platform::AppAgeCategory age_category);
+/// @brief Method Report, addr 0x3efb1bc, size 0x144, virtual false, abstract: false, final false
+static inline ::Oculus::Platform::Request* Report(::Oculus::Platform::AppAgeCategory  age_category) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr UserAgeCategory();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr UserAgeCategory() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UserAgeCategory", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  UserAgeCategory(UserAgeCategory&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UserAgeCategory", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  UserAgeCategory(UserAgeCategory const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "UserAgeCategory", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+UserAgeCategory(UserAgeCategory && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "UserAgeCategory", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+UserAgeCategory(UserAgeCategory const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Oculus::Platform::UserAgeCategory, 0x10>, "Size mismatch!");
 
-} // namespace Oculus::Platform
+} // namespace end def Oculus::Platform
 NEED_NO_BOX(::Oculus::Platform::UserAgeCategory);
 DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::UserAgeCategory*, "Oculus.Platform", "UserAgeCategory");

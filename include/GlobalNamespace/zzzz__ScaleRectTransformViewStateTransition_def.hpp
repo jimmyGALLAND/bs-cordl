@@ -9,6 +9,9 @@ namespace GlobalNamespace {
 class BaseTransitionSO;
 }
 namespace GlobalNamespace {
+class TransitionTimingSO;
+}
+namespace GlobalNamespace {
 class Vector3TransitionSO;
 }
 namespace Tweening {
@@ -27,115 +30,118 @@ class ScaleRectTransformViewStateTransition;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::ScaleRectTransformViewStateTransition);
 // Type: ::ScaleRectTransformViewStateTransition
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::ScaleRectTransformViewStateTransition*
 class CORDL_TYPE ScaleRectTransformViewStateTransition : public ::GlobalNamespace::BaseStateTransition_1<::UnityW<::UnityEngine::RectTransform>> {
 public:
-  // Declarations
-  /// @brief Field _transition, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__transition, put = __cordl_internal_set__transition))::UnityW<::GlobalNamespace::Vector3TransitionSO> _transition;
+// Declarations
+/// @brief Field _transition, offset 0x38, size 0x8 
+ __declspec(property(get=__cordl_internal_get__transition, put=__cordl_internal_set__transition)) ::UnityW<::GlobalNamespace::Vector3TransitionSO>  _transition;
 
-  /// @brief Field _vectorTween, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__vectorTween, put = __cordl_internal_set__vectorTween))::Tweening::Vector3Tween* _vectorTween;
+/// @brief Field _vectorTween, offset 0x40, size 0x8 
+ __declspec(property(get=__cordl_internal_get__vectorTween, put=__cordl_internal_set__vectorTween)) ::Tweening::Vector3Tween*  _vectorTween;
 
-  __declspec(property(get = get_transition))::UnityW<::GlobalNamespace::BaseTransitionSO> transition;
+ __declspec(property(get=get_transition)) ::UnityW<::GlobalNamespace::BaseTransitionSO>  transition;
 
-  static inline ::GlobalNamespace::ScaleRectTransformViewStateTransition* New_ctor();
+static inline ::GlobalNamespace::ScaleRectTransformViewStateTransition* New_ctor() ;
 
-  /// @brief Method SetDisabledState, addr 0x276a038, size 0x2c, virtual true, abstract: false, final false
-  inline void SetDisabledState();
+/// @brief Method SetDisabledState, addr 0x4446b54, size 0x2c, virtual true, abstract: false, final false
+inline void SetDisabledState() ;
 
-  /// @brief Method SetHighlightedState, addr 0x2769fe0, size 0x2c, virtual true, abstract: false, final false
-  inline void SetHighlightedState();
+/// @brief Method SetHighlightedState, addr 0x4446afc, size 0x2c, virtual true, abstract: false, final false
+inline void SetHighlightedState() ;
 
-  /// @brief Method SetNormalState, addr 0x2769fb4, size 0x2c, virtual true, abstract: false, final false
-  inline void SetNormalState();
+/// @brief Method SetNormalState, addr 0x4446ad0, size 0x2c, virtual true, abstract: false, final false
+inline void SetNormalState() ;
 
-  /// @brief Method SetPressedState, addr 0x276a00c, size 0x2c, virtual true, abstract: false, final false
-  inline void SetPressedState();
+/// @brief Method SetPressedState, addr 0x4446b28, size 0x2c, virtual true, abstract: false, final false
+inline void SetPressedState() ;
 
-  /// @brief Method SetSelectedAndHighlightedState, addr 0x276a090, size 0x2c, virtual true, abstract: false, final false
-  inline void SetSelectedAndHighlightedState();
+/// @brief Method SetSelectedAndHighlightedState, addr 0x4446bac, size 0x2c, virtual true, abstract: false, final false
+inline void SetSelectedAndHighlightedState() ;
 
-  /// @brief Method SetSelectedState, addr 0x276a064, size 0x2c, virtual true, abstract: false, final false
-  inline void SetSelectedState();
+/// @brief Method SetSelectedState, addr 0x4446b80, size 0x2c, virtual true, abstract: false, final false
+inline void SetSelectedState() ;
 
-  /// @brief Method StartTween, addr 0x2769d04, size 0x210, virtual false, abstract: false, final false
-  inline void StartTween(::UnityEngine::Vector3 endScale);
+/// @brief Method StartTween, addr 0x44467e4, size 0x1bc, virtual false, abstract: false, final false
+inline void StartTween(::UnityEngine::Vector3  endScale, ::GlobalNamespace::TransitionTimingSO*  transitionTiming) ;
 
-  /// @brief Method TransitionToDisabledState, addr 0x2769f54, size 0x20, virtual true, abstract: false, final false
-  inline void TransitionToDisabledState();
+/// @brief Method StopCurrentTransitionAnimation, addr 0x4446a40, size 0x90, virtual true, abstract: false, final false
+inline void StopCurrentTransitionAnimation() ;
 
-  /// @brief Method TransitionToHighlightedState, addr 0x2769f14, size 0x20, virtual true, abstract: false, final false
-  inline void TransitionToHighlightedState();
+/// @brief Method TransitionToDisabledState, addr 0x44469e0, size 0x20, virtual true, abstract: false, final false
+inline void TransitionToDisabledState(::GlobalNamespace::TransitionTimingSO*  transitionTiming) ;
 
-  /// @brief Method TransitionToNormalState, addr 0x2769ce4, size 0x20, virtual true, abstract: false, final false
-  inline void TransitionToNormalState();
+/// @brief Method TransitionToHighlightedState, addr 0x44469a0, size 0x20, virtual true, abstract: false, final false
+inline void TransitionToHighlightedState(::GlobalNamespace::TransitionTimingSO*  transitionTiming) ;
 
-  /// @brief Method TransitionToPressedState, addr 0x2769f34, size 0x20, virtual true, abstract: false, final false
-  inline void TransitionToPressedState();
+/// @brief Method TransitionToNormalState, addr 0x44467c4, size 0x20, virtual true, abstract: false, final false
+inline void TransitionToNormalState(::GlobalNamespace::TransitionTimingSO*  transitionTiming) ;
 
-  /// @brief Method TransitionToSelectedAndHighlightedState, addr 0x2769f94, size 0x20, virtual true, abstract: false, final false
-  inline void TransitionToSelectedAndHighlightedState();
+/// @brief Method TransitionToPressedState, addr 0x44469c0, size 0x20, virtual true, abstract: false, final false
+inline void TransitionToPressedState(::GlobalNamespace::TransitionTimingSO*  transitionTiming) ;
 
-  /// @brief Method TransitionToSelectedState, addr 0x2769f74, size 0x20, virtual true, abstract: false, final false
-  inline void TransitionToSelectedState();
+/// @brief Method TransitionToSelectedAndHighlightedState, addr 0x4446a20, size 0x20, virtual true, abstract: false, final false
+inline void TransitionToSelectedAndHighlightedState(::GlobalNamespace::TransitionTimingSO*  transitionTiming) ;
 
-  /// @brief Method <StartTween>b__16_0, addr 0x276a104, size 0x1c, virtual false, abstract: false, final false
-  inline void _StartTween_b__16_0(::UnityEngine::Vector3 pos);
+/// @brief Method TransitionToSelectedState, addr 0x4446a00, size 0x20, virtual true, abstract: false, final false
+inline void TransitionToSelectedState(::GlobalNamespace::TransitionTimingSO*  transitionTiming) ;
 
-  /// @brief Method <StartTween>b__16_1, addr 0x276a120, size 0x88, virtual false, abstract: false, final false
-  inline void _StartTween_b__16_1();
+/// @brief Method <StartTween>b__17_0, addr 0x4446c20, size 0x1c, virtual false, abstract: false, final false
+inline void _StartTween_b__17_0(::UnityEngine::Vector3  pos) ;
 
-  constexpr ::UnityW<::GlobalNamespace::Vector3TransitionSO> const& __cordl_internal_get__transition() const;
+/// @brief Method <StartTween>b__17_1, addr 0x4446c3c, size 0x88, virtual false, abstract: false, final false
+inline void _StartTween_b__17_1() ;
 
-  constexpr ::UnityW<::GlobalNamespace::Vector3TransitionSO>& __cordl_internal_get__transition();
+constexpr ::UnityW<::GlobalNamespace::Vector3TransitionSO> const& __cordl_internal_get__transition() const;
 
-  constexpr ::Tweening::Vector3Tween*& __cordl_internal_get__vectorTween();
+constexpr ::UnityW<::GlobalNamespace::Vector3TransitionSO>& __cordl_internal_get__transition() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::Tweening::Vector3Tween*> const& __cordl_internal_get__vectorTween() const;
+constexpr ::Tweening::Vector3Tween*& __cordl_internal_get__vectorTween() ;
 
-  constexpr void __cordl_internal_set__transition(::UnityW<::GlobalNamespace::Vector3TransitionSO> value);
+constexpr ::cordl_internals::to_const_pointer<::Tweening::Vector3Tween*> const& __cordl_internal_get__vectorTween() const;
 
-  constexpr void __cordl_internal_set__vectorTween(::Tweening::Vector3Tween* value);
+constexpr void __cordl_internal_set__transition(::UnityW<::GlobalNamespace::Vector3TransitionSO>  value) ;
 
-  /// @brief Method .ctor, addr 0x276a0bc, size 0x48, virtual false, abstract: false, final false
-  inline void _ctor();
+constexpr void __cordl_internal_set__vectorTween(::Tweening::Vector3Tween*  value) ;
 
-  /// @brief Method get_transition, addr 0x2769cdc, size 0x8, virtual true, abstract: false, final false
-  inline ::UnityW<::GlobalNamespace::BaseTransitionSO> get_transition();
+/// @brief Method .ctor, addr 0x4446bd8, size 0x48, virtual false, abstract: false, final false
+inline void _ctor() ;
+
+/// @brief Method get_transition, addr 0x44467bc, size 0x8, virtual true, abstract: false, final false
+inline ::UnityW<::GlobalNamespace::BaseTransitionSO> get_transition() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ScaleRectTransformViewStateTransition();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ScaleRectTransformViewStateTransition() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ScaleRectTransformViewStateTransition", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ScaleRectTransformViewStateTransition(ScaleRectTransformViewStateTransition&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ScaleRectTransformViewStateTransition", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ScaleRectTransformViewStateTransition(ScaleRectTransformViewStateTransition const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ScaleRectTransformViewStateTransition", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ScaleRectTransformViewStateTransition(ScaleRectTransformViewStateTransition && ) = delete;
 
-  /// @brief Field _transition, offset: 0x28, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::Vector3TransitionSO> ____transition;
+// Ctor Parameters [CppParam { name: "", ty: "ScaleRectTransformViewStateTransition", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ScaleRectTransformViewStateTransition(ScaleRectTransformViewStateTransition const& ) = delete;
 
-  /// @brief Field _vectorTween, offset: 0x30, size: 0x8, def value: None
-  ::Tweening::Vector3Tween* ____vectorTween;
+/// @brief Field _transition, offset: 0x38, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::Vector3TransitionSO>  ____transition;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _vectorTween, offset: 0x40, size: 0x8, def value: None
+ ::Tweening::Vector3Tween*  ____vectorTween;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ScaleRectTransformViewStateTransition, 0x38>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ScaleRectTransformViewStateTransition, 0x48>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ScaleRectTransformViewStateTransition, ____transition) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ScaleRectTransformViewStateTransition, ____transition) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::ScaleRectTransformViewStateTransition, ____vectorTween) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::ScaleRectTransformViewStateTransition, ____vectorTween) == 0x40, "Offset mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ScaleRectTransformViewStateTransition);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ScaleRectTransformViewStateTransition*, "", "ScaleRectTransformViewStateTransition");

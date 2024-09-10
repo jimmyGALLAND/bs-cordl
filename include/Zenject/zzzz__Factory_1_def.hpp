@@ -14,47 +14,48 @@ class InjectTypeInfo;
 }
 // Forward declare root types
 namespace Zenject {
-template <typename TValue> class Factory_1;
+template<typename TValue>
+class Factory_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::Zenject::Factory_1);
 // Type: Zenject::Factory`1
-// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: 32, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // cpp template
-template <typename TValue>
+template<typename TValue>
 // Is value type: false
 // CS Name: ::Zenject::Factory`1<TValue>*
 class CORDL_TYPE Factory_1 : public ::Zenject::PlaceholderFactory_1<TValue> {
 public:
-  // Declarations
-  static inline ::Zenject::Factory_1<TValue>* New_ctor();
+// Declarations
+static inline ::Zenject::Factory_1<TValue>* New_ctor() ;
 
-  /// @brief Method __zenCreate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*, ::Array<::System::Object*>*> P_0);
+/// @brief Method __zenCreate, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+static inline ::System::Object* __zenCreate(::ArrayW<::System::Object*,::Array<::System::Object*>*>  P_0) ;
 
-  /// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo();
+/// @brief Method __zenCreateInjectTypeInfo, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+static inline ::Zenject::InjectTypeInfo* __zenCreateInjectTypeInfo() ;
 
-  /// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Factory_1();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr Factory_1() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Factory_1", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  Factory_1(Factory_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Factory_1", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  Factory_1(Factory_1 const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "Factory_1", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+Factory_1(Factory_1 && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "Factory_1", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+Factory_1(Factory_1 const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-} // namespace Zenject
+} // namespace end def Zenject
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::Zenject::Factory_1, "Zenject", "Factory`1");

@@ -21,7 +21,8 @@ namespace GlobalNamespace {
 struct NoteCutInfo;
 }
 namespace GlobalNamespace {
-template <typename T> class RandomObjectPicker_1;
+template<typename T>
+class RandomObjectPicker_1;
 }
 namespace GlobalNamespace {
 class SaberManager;
@@ -39,135 +40,133 @@ class BombCutSoundEffectManager;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::BombCutSoundEffectManager);
 // Type: ::BombCutSoundEffectManager
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 72, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::BombCutSoundEffectManager*
 class CORDL_TYPE BombCutSoundEffectManager : public ::UnityEngine::MonoBehaviour {
 public:
-  // Declarations
-  /// @brief Field _beatmapObjectManager, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__beatmapObjectManager, put = __cordl_internal_set__beatmapObjectManager))::GlobalNamespace::BeatmapObjectManager* _beatmapObjectManager;
+// Declarations
+/// @brief Field _beatmapObjectManager, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get__beatmapObjectManager, put=__cordl_internal_set__beatmapObjectManager)) ::GlobalNamespace::BeatmapObjectManager*  _beatmapObjectManager;
 
-  /// @brief Field _bombCutSoundEffectPool, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__bombCutSoundEffectPool, put = __cordl_internal_set__bombCutSoundEffectPool))::GlobalNamespace::__BombCutSoundEffect__Pool* _bombCutSoundEffectPool;
+/// @brief Field _bombCutSoundEffectPool, offset 0x40, size 0x8 
+ __declspec(property(get=__cordl_internal_get__bombCutSoundEffectPool, put=__cordl_internal_set__bombCutSoundEffectPool)) ::GlobalNamespace::__BombCutSoundEffect__Pool*  _bombCutSoundEffectPool;
 
-  /// @brief Field _bombExplosionAudioClips, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__bombExplosionAudioClips,
-                      put = __cordl_internal_set__bombExplosionAudioClips))::ArrayW<::UnityW<::UnityEngine::AudioClip>, ::Array<::UnityW<::UnityEngine::AudioClip>>*> _bombExplosionAudioClips;
+/// @brief Field _bombExplosionAudioClips, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get__bombExplosionAudioClips, put=__cordl_internal_set__bombExplosionAudioClips)) ::ArrayW<::UnityW<::UnityEngine::AudioClip>,::Array<::UnityW<::UnityEngine::AudioClip>>*>  _bombExplosionAudioClips;
 
-  /// @brief Field _randomSoundPicker, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__randomSoundPicker,
-                      put = __cordl_internal_set__randomSoundPicker))::GlobalNamespace::RandomObjectPicker_1<::UnityW<::UnityEngine::AudioClip>>* _randomSoundPicker;
+/// @brief Field _randomSoundPicker, offset 0x48, size 0x8 
+ __declspec(property(get=__cordl_internal_get__randomSoundPicker, put=__cordl_internal_set__randomSoundPicker)) ::GlobalNamespace::RandomObjectPicker_1<::UnityW<::UnityEngine::AudioClip>>*  _randomSoundPicker;
 
-  /// @brief Field _volume, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get__volume, put = __cordl_internal_set__volume)) float_t _volume;
+/// @brief Field _volume, offset 0x20, size 0x4 
+ __declspec(property(get=__cordl_internal_get__volume, put=__cordl_internal_set__volume)) float_t  _volume;
 
-  /// @brief Field saberManager, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_saberManager, put = __cordl_internal_set_saberManager))::UnityW<::GlobalNamespace::SaberManager> saberManager;
+/// @brief Field saberManager, offset 0x38, size 0x8 
+ __declspec(property(get=__cordl_internal_get_saberManager, put=__cordl_internal_set_saberManager)) ::UnityW<::GlobalNamespace::SaberManager>  saberManager;
 
-  /// @brief Method HandleBombCutSoundEffectDidFinish, addr 0x263304c, size 0xb8, virtual false, abstract: false, final false
-  inline void HandleBombCutSoundEffectDidFinish(::GlobalNamespace::BombCutSoundEffect* bombCutSoundEffect);
+/// @brief Method HandleBombCutSoundEffectDidFinish, addr 0x3a4ba90, size 0xb4, virtual false, abstract: false, final false
+inline void HandleBombCutSoundEffectDidFinish(::GlobalNamespace::BombCutSoundEffect*  bombCutSoundEffect) ;
 
-  /// @brief Method HandleNoteWasCut, addr 0x2632d94, size 0x220, virtual false, abstract: false, final false
-  inline void HandleNoteWasCut(::GlobalNamespace::NoteController* noteController, ByRef<::GlobalNamespace::NoteCutInfo> noteCutInfo);
+/// @brief Method HandleNoteWasCut, addr 0x3a4b750, size 0x21c, virtual false, abstract: false, final false
+inline void HandleNoteWasCut(::GlobalNamespace::NoteController*  noteController, ByRef<::GlobalNamespace::NoteCutInfo>  noteCutInfo) ;
 
-  static inline ::GlobalNamespace::BombCutSoundEffectManager* New_ctor();
+static inline ::GlobalNamespace::BombCutSoundEffectManager* New_ctor() ;
 
-  /// @brief Method OnDestroy, addr 0x2632fb4, size 0x98, virtual false, abstract: false, final false
-  inline void OnDestroy();
+/// @brief Method OnDestroy, addr 0x3a4b96c, size 0x88, virtual false, abstract: false, final false
+inline void OnDestroy() ;
 
-  /// @brief Method Start, addr 0x2632cb0, size 0xe4, virtual false, abstract: false, final false
-  inline void Start();
+/// @brief Method Start, addr 0x3a4b4d4, size 0xdc, virtual false, abstract: false, final false
+inline void Start() ;
 
-  constexpr ::GlobalNamespace::BeatmapObjectManager*& __cordl_internal_get__beatmapObjectManager();
+constexpr ::GlobalNamespace::BeatmapObjectManager*& __cordl_internal_get__beatmapObjectManager() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapObjectManager*> const& __cordl_internal_get__beatmapObjectManager() const;
+constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapObjectManager*> const& __cordl_internal_get__beatmapObjectManager() const;
 
-  constexpr ::GlobalNamespace::__BombCutSoundEffect__Pool*& __cordl_internal_get__bombCutSoundEffectPool();
+constexpr ::GlobalNamespace::__BombCutSoundEffect__Pool*& __cordl_internal_get__bombCutSoundEffectPool() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__BombCutSoundEffect__Pool*> const& __cordl_internal_get__bombCutSoundEffectPool() const;
+constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::__BombCutSoundEffect__Pool*> const& __cordl_internal_get__bombCutSoundEffectPool() const;
 
-  constexpr ::ArrayW<::UnityW<::UnityEngine::AudioClip>, ::Array<::UnityW<::UnityEngine::AudioClip>>*> const& __cordl_internal_get__bombExplosionAudioClips() const;
+constexpr ::ArrayW<::UnityW<::UnityEngine::AudioClip>,::Array<::UnityW<::UnityEngine::AudioClip>>*> const& __cordl_internal_get__bombExplosionAudioClips() const;
 
-  constexpr ::ArrayW<::UnityW<::UnityEngine::AudioClip>, ::Array<::UnityW<::UnityEngine::AudioClip>>*>& __cordl_internal_get__bombExplosionAudioClips();
+constexpr ::ArrayW<::UnityW<::UnityEngine::AudioClip>,::Array<::UnityW<::UnityEngine::AudioClip>>*>& __cordl_internal_get__bombExplosionAudioClips() ;
 
-  constexpr ::GlobalNamespace::RandomObjectPicker_1<::UnityW<::UnityEngine::AudioClip>>*& __cordl_internal_get__randomSoundPicker();
+constexpr ::GlobalNamespace::RandomObjectPicker_1<::UnityW<::UnityEngine::AudioClip>>*& __cordl_internal_get__randomSoundPicker() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::RandomObjectPicker_1<::UnityW<::UnityEngine::AudioClip>>*> const& __cordl_internal_get__randomSoundPicker() const;
+constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::RandomObjectPicker_1<::UnityW<::UnityEngine::AudioClip>>*> const& __cordl_internal_get__randomSoundPicker() const;
 
-  constexpr float_t const& __cordl_internal_get__volume() const;
+constexpr float_t const& __cordl_internal_get__volume() const;
 
-  constexpr float_t& __cordl_internal_get__volume();
+constexpr float_t& __cordl_internal_get__volume() ;
 
-  constexpr ::UnityW<::GlobalNamespace::SaberManager> const& __cordl_internal_get_saberManager() const;
+constexpr ::UnityW<::GlobalNamespace::SaberManager> const& __cordl_internal_get_saberManager() const;
 
-  constexpr ::UnityW<::GlobalNamespace::SaberManager>& __cordl_internal_get_saberManager();
+constexpr ::UnityW<::GlobalNamespace::SaberManager>& __cordl_internal_get_saberManager() ;
 
-  constexpr void __cordl_internal_set__beatmapObjectManager(::GlobalNamespace::BeatmapObjectManager* value);
+constexpr void __cordl_internal_set__beatmapObjectManager(::GlobalNamespace::BeatmapObjectManager*  value) ;
 
-  constexpr void __cordl_internal_set__bombCutSoundEffectPool(::GlobalNamespace::__BombCutSoundEffect__Pool* value);
+constexpr void __cordl_internal_set__bombCutSoundEffectPool(::GlobalNamespace::__BombCutSoundEffect__Pool*  value) ;
 
-  constexpr void __cordl_internal_set__bombExplosionAudioClips(::ArrayW<::UnityW<::UnityEngine::AudioClip>, ::Array<::UnityW<::UnityEngine::AudioClip>>*> value);
+constexpr void __cordl_internal_set__bombExplosionAudioClips(::ArrayW<::UnityW<::UnityEngine::AudioClip>,::Array<::UnityW<::UnityEngine::AudioClip>>*>  value) ;
 
-  constexpr void __cordl_internal_set__randomSoundPicker(::GlobalNamespace::RandomObjectPicker_1<::UnityW<::UnityEngine::AudioClip>>* value);
+constexpr void __cordl_internal_set__randomSoundPicker(::GlobalNamespace::RandomObjectPicker_1<::UnityW<::UnityEngine::AudioClip>>*  value) ;
 
-  constexpr void __cordl_internal_set__volume(float_t value);
+constexpr void __cordl_internal_set__volume(float_t  value) ;
 
-  constexpr void __cordl_internal_set_saberManager(::UnityW<::GlobalNamespace::SaberManager> value);
+constexpr void __cordl_internal_set_saberManager(::UnityW<::GlobalNamespace::SaberManager>  value) ;
 
-  /// @brief Method .ctor, addr 0x2633104, size 0x14, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x3a4bb44, size 0x14, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BombCutSoundEffectManager();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr BombCutSoundEffectManager() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BombCutSoundEffectManager", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  BombCutSoundEffectManager(BombCutSoundEffectManager&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BombCutSoundEffectManager", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  BombCutSoundEffectManager(BombCutSoundEffectManager const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "BombCutSoundEffectManager", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+BombCutSoundEffectManager(BombCutSoundEffectManager && ) = delete;
 
-  /// @brief Field _volume, offset: 0x18, size: 0x4, def value: None
-  float_t ____volume;
+// Ctor Parameters [CppParam { name: "", ty: "BombCutSoundEffectManager", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+BombCutSoundEffectManager(BombCutSoundEffectManager const& ) = delete;
 
-  /// @brief Field _bombExplosionAudioClips, offset: 0x20, size: 0x8, def value: None
-  ::ArrayW<::UnityW<::UnityEngine::AudioClip>, ::Array<::UnityW<::UnityEngine::AudioClip>>*> ____bombExplosionAudioClips;
+/// @brief Field _volume, offset: 0x20, size: 0x4, def value: None
+ float_t  ____volume;
 
-  /// @brief Field _beatmapObjectManager, offset: 0x28, size: 0x8, def value: None
-  ::GlobalNamespace::BeatmapObjectManager* ____beatmapObjectManager;
+/// @brief Field _bombExplosionAudioClips, offset: 0x28, size: 0x8, def value: None
+ ::ArrayW<::UnityW<::UnityEngine::AudioClip>,::Array<::UnityW<::UnityEngine::AudioClip>>*>  ____bombExplosionAudioClips;
 
-  /// @brief Field saberManager, offset: 0x30, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::SaberManager> ___saberManager;
+/// @brief Field _beatmapObjectManager, offset: 0x30, size: 0x8, def value: None
+ ::GlobalNamespace::BeatmapObjectManager*  ____beatmapObjectManager;
 
-  /// @brief Field _bombCutSoundEffectPool, offset: 0x38, size: 0x8, def value: None
-  ::GlobalNamespace::__BombCutSoundEffect__Pool* ____bombCutSoundEffectPool;
+/// @brief Field saberManager, offset: 0x38, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::SaberManager>  ___saberManager;
 
-  /// @brief Field _randomSoundPicker, offset: 0x40, size: 0x8, def value: None
-  ::GlobalNamespace::RandomObjectPicker_1<::UnityW<::UnityEngine::AudioClip>>* ____randomSoundPicker;
+/// @brief Field _bombCutSoundEffectPool, offset: 0x40, size: 0x8, def value: None
+ ::GlobalNamespace::__BombCutSoundEffect__Pool*  ____bombCutSoundEffectPool;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _randomSoundPicker, offset: 0x48, size: 0x8, def value: None
+ ::GlobalNamespace::RandomObjectPicker_1<::UnityW<::UnityEngine::AudioClip>>*  ____randomSoundPicker;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BombCutSoundEffectManager, 0x48>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BombCutSoundEffectManager, 0x50>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BombCutSoundEffectManager, ____volume) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BombCutSoundEffectManager, ____volume) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BombCutSoundEffectManager, ____bombExplosionAudioClips) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BombCutSoundEffectManager, ____bombExplosionAudioClips) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BombCutSoundEffectManager, ____beatmapObjectManager) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BombCutSoundEffectManager, ____beatmapObjectManager) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BombCutSoundEffectManager, ___saberManager) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BombCutSoundEffectManager, ___saberManager) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BombCutSoundEffectManager, ____bombCutSoundEffectPool) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BombCutSoundEffectManager, ____bombCutSoundEffectPool) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BombCutSoundEffectManager, ____randomSoundPicker) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BombCutSoundEffectManager, ____randomSoundPicker) == 0x48, "Offset mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BombCutSoundEffectManager);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BombCutSoundEffectManager*, "", "BombCutSoundEffectManager");

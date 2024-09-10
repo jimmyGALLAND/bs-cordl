@@ -17,59 +17,59 @@ class MacOsNetworkInterfaceAPI;
 // Write type traits
 MARK_REF_PTR_T(::System::Net::NetworkInformation::MacOsNetworkInterfaceAPI);
 // Type: System.Net.NetworkInformation::MacOsNetworkInterfaceAPI
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::NetworkInformation {
 // Is value type: false
 // CS Name: ::System.Net.NetworkInformation::MacOsNetworkInterfaceAPI*
 class CORDL_TYPE MacOsNetworkInterfaceAPI : public ::System::Net::NetworkInformation::UnixNetworkInterfaceAPI {
 public:
-  // Declarations
-  /// @brief Field AF_INET6, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_AF_INET6, put = __cordl_internal_set_AF_INET6)) int32_t AF_INET6;
+// Declarations
+/// @brief Field AF_INET6, offset 0x10, size 0x4 
+ __declspec(property(get=__cordl_internal_get_AF_INET6, put=__cordl_internal_set_AF_INET6)) int32_t  AF_INET6;
 
-  /// @brief Method GetAllNetworkInterfaces, addr 0x30527fc, size 0xa6c, virtual true, abstract: false, final false
-  inline ::ArrayW<::System::Net::NetworkInformation::NetworkInterface*, ::Array<::System::Net::NetworkInformation::NetworkInterface*>*> GetAllNetworkInterfaces();
+/// @brief Method GetAllNetworkInterfaces, addr 0x435b698, size 0x9b4, virtual true, abstract: false, final false
+inline ::ArrayW<::System::Net::NetworkInformation::NetworkInterface*,::Array<::System::Net::NetworkInformation::NetworkInterface*>*> GetAllNetworkInterfaces() ;
 
-  static inline ::System::Net::NetworkInformation::MacOsNetworkInterfaceAPI* New_ctor();
+static inline ::System::Net::NetworkInformation::MacOsNetworkInterfaceAPI* New_ctor() ;
 
-  static inline ::System::Net::NetworkInformation::MacOsNetworkInterfaceAPI* New_ctor(int32_t AF_INET6);
+static inline ::System::Net::NetworkInformation::MacOsNetworkInterfaceAPI* New_ctor(int32_t  AF_INET6) ;
 
-  constexpr int32_t const& __cordl_internal_get_AF_INET6() const;
+constexpr int32_t const& __cordl_internal_get_AF_INET6() const;
 
-  constexpr int32_t& __cordl_internal_get_AF_INET6();
+constexpr int32_t& __cordl_internal_get_AF_INET6() ;
 
-  constexpr void __cordl_internal_set_AF_INET6(int32_t value);
+constexpr void __cordl_internal_set_AF_INET6(int32_t  value) ;
 
-  /// @brief Method .ctor, addr 0x30527dc, size 0x20, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x435b678, size 0x20, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method .ctor, addr 0x3050c0c, size 0x28, virtual false, abstract: false, final false
-  inline void _ctor(int32_t AF_INET6);
+/// @brief Method .ctor, addr 0x4359a38, size 0x28, virtual false, abstract: false, final false
+inline void _ctor(int32_t  AF_INET6) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MacOsNetworkInterfaceAPI();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr MacOsNetworkInterfaceAPI() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MacOsNetworkInterfaceAPI", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  MacOsNetworkInterfaceAPI(MacOsNetworkInterfaceAPI&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MacOsNetworkInterfaceAPI", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  MacOsNetworkInterfaceAPI(MacOsNetworkInterfaceAPI const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "MacOsNetworkInterfaceAPI", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+MacOsNetworkInterfaceAPI(MacOsNetworkInterfaceAPI && ) = delete;
 
-  /// @brief Field AF_INET6, offset: 0x10, size: 0x4, def value: None
-  int32_t ___AF_INET6;
+// Ctor Parameters [CppParam { name: "", ty: "MacOsNetworkInterfaceAPI", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+MacOsNetworkInterfaceAPI(MacOsNetworkInterfaceAPI const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field AF_INET6, offset: 0x10, size: 0x4, def value: None
+ int32_t  ___AF_INET6;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::NetworkInformation::MacOsNetworkInterfaceAPI, 0x18>, "Size mismatch!");
 
 static_assert(offsetof(::System::Net::NetworkInformation::MacOsNetworkInterfaceAPI, ___AF_INET6) == 0x10, "Offset mismatch!");
 
-} // namespace System::Net::NetworkInformation
+} // namespace end def System::Net::NetworkInformation
 NEED_NO_BOX(::System::Net::NetworkInformation::MacOsNetworkInterfaceAPI);
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::NetworkInformation::MacOsNetworkInterfaceAPI*, "System.Net.NetworkInformation", "MacOsNetworkInterfaceAPI");

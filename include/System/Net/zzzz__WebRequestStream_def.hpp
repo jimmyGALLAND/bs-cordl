@@ -69,13 +69,15 @@ namespace System::Runtime::CompilerServices {
 struct TaskAwaiter;
 }
 namespace System::Runtime::CompilerServices {
-template <typename TResult> struct __ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter;
+template<typename TResult>
+struct __ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter;
 }
 namespace System::Runtime::CompilerServices {
 struct __ConfiguredTaskAwaitable__ConfiguredTaskAwaiter;
 }
 namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
+template<typename TResult>
+class Task_1;
 }
 namespace System::Threading::Tasks {
 class Task;
@@ -125,56 +127,51 @@ MARK_VAL_T(::System::Net::__WebRequestStream___WriteChunkTrailer_d__40);
 MARK_VAL_T(::System::Net::__WebRequestStream___WriteChunkTrailer_inner_d__39);
 MARK_VAL_T(::System::Net::__WebRequestStream___WriteRequestAsync_d__38);
 // Type: ::<FinishWriting>d__31
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
 // CS Name: ::WebRequestStream::<FinishWriting>d__31
 struct CORDL_TYPE __WebRequestStream___FinishWriting_d__31 {
 public:
-  // Declarations
-  /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-  constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+// Declarations
+/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr operator  ::System::Runtime::CompilerServices::IAsyncStateMachine*() ;
 
-  /// @brief Method MoveNext, addr 0x3047450, size 0x2e0, virtual true, abstract: false, final true
-  inline void MoveNext();
+/// @brief Method MoveNext, addr 0x4350dc8, size 0x328, virtual true, abstract: false, final true
+inline void MoveNext() ;
 
-  /// @brief Method SetStateMachine, addr 0x3047730, size 0xc, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+/// @brief Method SetStateMachine, addr 0x43510f0, size 0x68, virtual true, abstract: false, final true
+inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine*  stateMachine) ;
 
-  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
+/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine() ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __WebRequestStream___FinishWriting_d__31();
+// Ctor Parameters []
+// @brief default ctor
+constexpr __WebRequestStream___FinishWriting_d__31() ;
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::System::Net::WebRequestStream*", modifiers: "", def_value:
-  // None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter", modifiers: "", def_value: None }]
-  constexpr __WebRequestStream___FinishWriting_d__31(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::System::Net::WebRequestStream* __4__this,
-                                                     ::System::Threading::CancellationToken cancellationToken,
-                                                     ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter __u__1) noexcept;
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty: "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::System::Net::WebRequestStream*", modifiers: "", def_value: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter", modifiers: "", def_value: None }]
+constexpr __WebRequestStream___FinishWriting_d__31(int32_t  __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder  __t__builder, ::System::Net::WebRequestStream*  __4__this, ::System::Threading::CancellationToken  cancellationToken, ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter  __u__1) noexcept;
 
-  /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
-  int32_t __1__state;
+/// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
+ int32_t  __1__state;
 
-  /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
-  ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder;
+/// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
+ ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder  __t__builder;
 
-  /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
-  ::System::Net::WebRequestStream* __4__this;
+/// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
+ ::System::Net::WebRequestStream*  __4__this;
 
-  /// @brief Field cancellationToken, offset: 0x28, size: 0x8, def value: None
-  ::System::Threading::CancellationToken cancellationToken;
+/// @brief Field cancellationToken, offset: 0x28, size: 0x8, def value: None
+ ::System::Threading::CancellationToken  cancellationToken;
 
-  /// @brief Field <>u__1, offset: 0x30, size: 0x10, def value: None
-  ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter __u__1;
+/// @brief Field <>u__1, offset: 0x30, size: 0x10, def value: None
+ ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter  __u__1;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x40};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::__WebRequestStream___FinishWriting_d__31, 0x40>, "Size mismatch!");
@@ -189,77 +186,68 @@ static_assert(offsetof(::System::Net::__WebRequestStream___FinishWriting_d__31, 
 
 static_assert(offsetof(::System::Net::__WebRequestStream___FinishWriting_d__31, __u__1) == 0x30, "Offset mismatch!");
 
-} // namespace System::Net
+} // namespace end def System::Net
 // Type: ::<WriteAsyncInner>d__33
-// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 112, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
 // CS Name: ::WebRequestStream::<WriteAsyncInner>d__33
 struct CORDL_TYPE __WebRequestStream___WriteAsyncInner_d__33 {
 public:
-  // Declarations
-  /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-  constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+// Declarations
+/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr operator  ::System::Runtime::CompilerServices::IAsyncStateMachine*() ;
 
-  /// @brief Method MoveNext, addr 0x304773c, size 0x4ac, virtual true, abstract: false, final true
-  inline void MoveNext();
+/// @brief Method MoveNext, addr 0x4351158, size 0x500, virtual true, abstract: false, final true
+inline void MoveNext() ;
 
-  /// @brief Method SetStateMachine, addr 0x3047be8, size 0xc, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+/// @brief Method SetStateMachine, addr 0x4351658, size 0x68, virtual true, abstract: false, final true
+inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine*  stateMachine) ;
 
-  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
+/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine() ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __WebRequestStream___WriteAsyncInner_d__33();
+// Ctor Parameters []
+// @brief default ctor
+constexpr __WebRequestStream___WriteAsyncInner_d__33() ;
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::System::Net::WebRequestStream*", modifiers: "", def_value:
-  // None }, CppParam { name: "buffer", ty: "::ArrayW<uint8_t,::Array<uint8_t>*>", modifiers: "", def_value: None }, CppParam { name: "offset", ty: "int32_t", modifiers: "", def_value: None },
-  // CppParam { name: "size", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None },
-  // CppParam { name: "completion", ty: "::System::Net::WebCompletionSource*", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter", modifiers: "", def_value: None }, CppParam { name: "__u__2", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
-  constexpr __WebRequestStream___WriteAsyncInner_d__33(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::System::Net::WebRequestStream* __4__this,
-                                                       ::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t size, ::System::Threading::CancellationToken cancellationToken,
-                                                       ::System::Net::WebCompletionSource* completion, ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter __u__1,
-                                                       ::System::Runtime::CompilerServices::TaskAwaiter __u__2) noexcept;
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty: "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::System::Net::WebRequestStream*", modifiers: "", def_value: None }, CppParam { name: "buffer", ty: "::ArrayW<uint8_t,::Array<uint8_t>*>", modifiers: "", def_value: None }, CppParam { name: "offset", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "size", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "completion", ty: "::System::Net::WebCompletionSource*", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter", modifiers: "", def_value: None }, CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
+constexpr __WebRequestStream___WriteAsyncInner_d__33(int32_t  __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder  __t__builder, ::System::Net::WebRequestStream*  __4__this, ::ArrayW<uint8_t,::Array<uint8_t>*>  buffer, int32_t  offset, int32_t  size, ::System::Threading::CancellationToken  cancellationToken, ::System::Net::WebCompletionSource*  completion, ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter  __u__1, ::System::Runtime::CompilerServices::TaskAwaiter  __u__2) noexcept;
 
-  /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
-  int32_t __1__state;
+/// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
+ int32_t  __1__state;
 
-  /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
-  ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder;
+/// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
+ ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder  __t__builder;
 
-  /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
-  ::System::Net::WebRequestStream* __4__this;
+/// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
+ ::System::Net::WebRequestStream*  __4__this;
 
-  /// @brief Field buffer, offset: 0x28, size: 0x8, def value: None
-  ::ArrayW<uint8_t, ::Array<uint8_t>*> buffer;
+/// @brief Field buffer, offset: 0x28, size: 0x8, def value: None
+ ::ArrayW<uint8_t,::Array<uint8_t>*>  buffer;
 
-  /// @brief Field offset, offset: 0x30, size: 0x4, def value: None
-  int32_t offset;
+/// @brief Field offset, offset: 0x30, size: 0x4, def value: None
+ int32_t  offset;
 
-  /// @brief Field size, offset: 0x34, size: 0x4, def value: None
-  int32_t size;
+/// @brief Field size, offset: 0x34, size: 0x4, def value: None
+ int32_t  size;
 
-  /// @brief Field cancellationToken, offset: 0x38, size: 0x8, def value: None
-  ::System::Threading::CancellationToken cancellationToken;
+/// @brief Field cancellationToken, offset: 0x38, size: 0x8, def value: None
+ ::System::Threading::CancellationToken  cancellationToken;
 
-  /// @brief Field completion, offset: 0x40, size: 0x8, def value: None
-  ::System::Net::WebCompletionSource* completion;
+/// @brief Field completion, offset: 0x40, size: 0x8, def value: None
+ ::System::Net::WebCompletionSource*  completion;
 
-  /// @brief Field <>u__1, offset: 0x48, size: 0x10, def value: None
-  ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter __u__1;
+/// @brief Field <>u__1, offset: 0x48, size: 0x10, def value: None
+ ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter  __u__1;
 
-  /// @brief Field <>u__2, offset: 0x58, size: 0x8, def value: None
-  ::System::Runtime::CompilerServices::TaskAwaiter __u__2;
+/// @brief Field <>u__2, offset: 0x58, size: 0x8, def value: None
+ ::System::Runtime::CompilerServices::TaskAwaiter  __u__2;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x60 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x60};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::__WebRequestStream___WriteAsyncInner_d__33, 0x60>, "Size mismatch!");
@@ -284,68 +272,62 @@ static_assert(offsetof(::System::Net::__WebRequestStream___WriteAsyncInner_d__33
 
 static_assert(offsetof(::System::Net::__WebRequestStream___WriteAsyncInner_d__33, __u__2) == 0x58, "Offset mismatch!");
 
-} // namespace System::Net
+} // namespace end def System::Net
 // Type: ::<ProcessWrite>d__34
-// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
 // CS Name: ::WebRequestStream::<ProcessWrite>d__34
 struct CORDL_TYPE __WebRequestStream___ProcessWrite_d__34 {
 public:
-  // Declarations
-  /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-  constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+// Declarations
+/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr operator  ::System::Runtime::CompilerServices::IAsyncStateMachine*() ;
 
-  /// @brief Method MoveNext, addr 0x3047bf4, size 0x534, virtual true, abstract: false, final true
-  inline void MoveNext();
+/// @brief Method MoveNext, addr 0x43516c0, size 0x580, virtual true, abstract: false, final true
+inline void MoveNext() ;
 
-  /// @brief Method SetStateMachine, addr 0x3048128, size 0xc, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+/// @brief Method SetStateMachine, addr 0x4351c40, size 0x68, virtual true, abstract: false, final true
+inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine*  stateMachine) ;
 
-  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
+/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine() ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __WebRequestStream___ProcessWrite_d__34();
+// Ctor Parameters []
+// @brief default ctor
+constexpr __WebRequestStream___ProcessWrite_d__34() ;
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::System::Net::WebRequestStream*", modifiers: "", def_value:
-  // None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "size", ty: "int32_t", modifiers: "", def_value:
-  // None }, CppParam { name: "buffer", ty: "::ArrayW<uint8_t,::Array<uint8_t>*>", modifiers: "", def_value: None }, CppParam { name: "offset", ty: "int32_t", modifiers: "", def_value: None },
-  // CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter", modifiers: "", def_value: None }]
-  constexpr __WebRequestStream___ProcessWrite_d__34(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::System::Net::WebRequestStream* __4__this,
-                                                    ::System::Threading::CancellationToken cancellationToken, int32_t size, ::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset,
-                                                    ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter __u__1) noexcept;
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty: "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::System::Net::WebRequestStream*", modifiers: "", def_value: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "size", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "buffer", ty: "::ArrayW<uint8_t,::Array<uint8_t>*>", modifiers: "", def_value: None }, CppParam { name: "offset", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter", modifiers: "", def_value: None }]
+constexpr __WebRequestStream___ProcessWrite_d__34(int32_t  __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder  __t__builder, ::System::Net::WebRequestStream*  __4__this, ::System::Threading::CancellationToken  cancellationToken, int32_t  size, ::ArrayW<uint8_t,::Array<uint8_t>*>  buffer, int32_t  offset, ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter  __u__1) noexcept;
 
-  /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
-  int32_t __1__state;
+/// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
+ int32_t  __1__state;
 
-  /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
-  ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder;
+/// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
+ ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder  __t__builder;
 
-  /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
-  ::System::Net::WebRequestStream* __4__this;
+/// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
+ ::System::Net::WebRequestStream*  __4__this;
 
-  /// @brief Field cancellationToken, offset: 0x28, size: 0x8, def value: None
-  ::System::Threading::CancellationToken cancellationToken;
+/// @brief Field cancellationToken, offset: 0x28, size: 0x8, def value: None
+ ::System::Threading::CancellationToken  cancellationToken;
 
-  /// @brief Field size, offset: 0x30, size: 0x4, def value: None
-  int32_t size;
+/// @brief Field size, offset: 0x30, size: 0x4, def value: None
+ int32_t  size;
 
-  /// @brief Field buffer, offset: 0x38, size: 0x8, def value: None
-  ::ArrayW<uint8_t, ::Array<uint8_t>*> buffer;
+/// @brief Field buffer, offset: 0x38, size: 0x8, def value: None
+ ::ArrayW<uint8_t,::Array<uint8_t>*>  buffer;
 
-  /// @brief Field offset, offset: 0x40, size: 0x4, def value: None
-  int32_t offset;
+/// @brief Field offset, offset: 0x40, size: 0x4, def value: None
+ int32_t  offset;
 
-  /// @brief Field <>u__1, offset: 0x48, size: 0x10, def value: None
-  ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter __u__1;
+/// @brief Field <>u__1, offset: 0x48, size: 0x10, def value: None
+ ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter  __u__1;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x58 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x58};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::__WebRequestStream___ProcessWrite_d__34, 0x58>, "Size mismatch!");
@@ -366,63 +348,56 @@ static_assert(offsetof(::System::Net::__WebRequestStream___ProcessWrite_d__34, o
 
 static_assert(offsetof(::System::Net::__WebRequestStream___ProcessWrite_d__34, __u__1) == 0x48, "Offset mismatch!");
 
-} // namespace System::Net
+} // namespace end def System::Net
 // Type: ::<Initialize>d__36
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
 // CS Name: ::WebRequestStream::<Initialize>d__36
 struct CORDL_TYPE __WebRequestStream___Initialize_d__36 {
 public:
-  // Declarations
-  /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-  constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+// Declarations
+/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr operator  ::System::Runtime::CompilerServices::IAsyncStateMachine*() ;
 
-  /// @brief Method MoveNext, addr 0x3048134, size 0x308, virtual true, abstract: false, final true
-  inline void MoveNext();
+/// @brief Method MoveNext, addr 0x4351ca8, size 0x364, virtual true, abstract: false, final true
+inline void MoveNext() ;
 
-  /// @brief Method SetStateMachine, addr 0x304843c, size 0x100c, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+/// @brief Method SetStateMachine, addr 0x435200c, size 0x68, virtual true, abstract: false, final true
+inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine*  stateMachine) ;
 
-  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
+/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine() ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __WebRequestStream___Initialize_d__36();
+// Ctor Parameters []
+// @brief default ctor
+constexpr __WebRequestStream___Initialize_d__36() ;
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::System::Net::WebRequestStream*", modifiers: "", def_value:
-  // None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter", modifiers: "", def_value: None }, CppParam { name: "__u__2", ty:
-  // "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
-  constexpr __WebRequestStream___Initialize_d__36(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::System::Net::WebRequestStream* __4__this,
-                                                  ::System::Threading::CancellationToken cancellationToken,
-                                                  ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter __u__1,
-                                                  ::System::Runtime::CompilerServices::TaskAwaiter __u__2) noexcept;
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty: "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::System::Net::WebRequestStream*", modifiers: "", def_value: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter", modifiers: "", def_value: None }, CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
+constexpr __WebRequestStream___Initialize_d__36(int32_t  __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder  __t__builder, ::System::Net::WebRequestStream*  __4__this, ::System::Threading::CancellationToken  cancellationToken, ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter  __u__1, ::System::Runtime::CompilerServices::TaskAwaiter  __u__2) noexcept;
 
-  /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
-  int32_t __1__state;
+/// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
+ int32_t  __1__state;
 
-  /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
-  ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder;
+/// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
+ ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder  __t__builder;
 
-  /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
-  ::System::Net::WebRequestStream* __4__this;
+/// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
+ ::System::Net::WebRequestStream*  __4__this;
 
-  /// @brief Field cancellationToken, offset: 0x28, size: 0x8, def value: None
-  ::System::Threading::CancellationToken cancellationToken;
+/// @brief Field cancellationToken, offset: 0x28, size: 0x8, def value: None
+ ::System::Threading::CancellationToken  cancellationToken;
 
-  /// @brief Field <>u__1, offset: 0x30, size: 0x10, def value: None
-  ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter __u__1;
+/// @brief Field <>u__1, offset: 0x30, size: 0x10, def value: None
+ ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter  __u__1;
 
-  /// @brief Field <>u__2, offset: 0x40, size: 0x8, def value: None
-  ::System::Runtime::CompilerServices::TaskAwaiter __u__2;
+/// @brief Field <>u__2, offset: 0x40, size: 0x8, def value: None
+ ::System::Runtime::CompilerServices::TaskAwaiter  __u__2;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x48};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::__WebRequestStream___Initialize_d__36, 0x48>, "Size mismatch!");
@@ -439,61 +414,56 @@ static_assert(offsetof(::System::Net::__WebRequestStream___Initialize_d__36, __u
 
 static_assert(offsetof(::System::Net::__WebRequestStream___Initialize_d__36, __u__2) == 0x40, "Offset mismatch!");
 
-} // namespace System::Net
+} // namespace end def System::Net
 // Type: ::<SetHeadersAsync>d__37
-// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 72, native_size: -1, calculated_instance_size: 72, calculated_native_size: 88, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
 // CS Name: ::WebRequestStream::<SetHeadersAsync>d__37
 struct CORDL_TYPE __WebRequestStream___SetHeadersAsync_d__37 {
 public:
-  // Declarations
-  /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-  constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+// Declarations
+/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr operator  ::System::Runtime::CompilerServices::IAsyncStateMachine*() ;
 
-  /// @brief Method MoveNext, addr 0x3049448, size 0x69c, virtual true, abstract: false, final true
-  inline void MoveNext();
+/// @brief Method MoveNext, addr 0x4352074, size 0x6e4, virtual true, abstract: false, final true
+inline void MoveNext() ;
 
-  /// @brief Method SetStateMachine, addr 0x3049ae4, size 0xc, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+/// @brief Method SetStateMachine, addr 0x4352758, size 0x68, virtual true, abstract: false, final true
+inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine*  stateMachine) ;
 
-  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
+/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine() ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __WebRequestStream___SetHeadersAsync_d__37();
+// Ctor Parameters []
+// @brief default ctor
+constexpr __WebRequestStream___SetHeadersAsync_d__37() ;
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::System::Net::WebRequestStream*", modifiers: "", def_value:
-  // None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "setInternalLength", ty: "bool", modifiers: "",
-  // def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter", modifiers: "", def_value: None }]
-  constexpr __WebRequestStream___SetHeadersAsync_d__37(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::System::Net::WebRequestStream* __4__this,
-                                                       ::System::Threading::CancellationToken cancellationToken, bool setInternalLength,
-                                                       ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter __u__1) noexcept;
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty: "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::System::Net::WebRequestStream*", modifiers: "", def_value: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "setInternalLength", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter", modifiers: "", def_value: None }]
+constexpr __WebRequestStream___SetHeadersAsync_d__37(int32_t  __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder  __t__builder, ::System::Net::WebRequestStream*  __4__this, ::System::Threading::CancellationToken  cancellationToken, bool  setInternalLength, ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter  __u__1) noexcept;
 
-  /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
-  int32_t __1__state;
+/// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
+ int32_t  __1__state;
 
-  /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
-  ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder;
+/// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
+ ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder  __t__builder;
 
-  /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
-  ::System::Net::WebRequestStream* __4__this;
+/// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
+ ::System::Net::WebRequestStream*  __4__this;
 
-  /// @brief Field cancellationToken, offset: 0x28, size: 0x8, def value: None
-  ::System::Threading::CancellationToken cancellationToken;
+/// @brief Field cancellationToken, offset: 0x28, size: 0x8, def value: None
+ ::System::Threading::CancellationToken  cancellationToken;
 
-  /// @brief Field setInternalLength, offset: 0x30, size: 0x1, def value: None
-  bool setInternalLength;
+/// @brief Field setInternalLength, offset: 0x30, size: 0x1, def value: None
+ bool  setInternalLength;
 
-  /// @brief Field <>u__1, offset: 0x38, size: 0x10, def value: None
-  ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter __u__1;
+/// @brief Field <>u__1, offset: 0x38, size: 0x10, def value: None
+ ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter  __u__1;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x48 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x48};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::__WebRequestStream___SetHeadersAsync_d__37, 0x48>, "Size mismatch!");
@@ -510,66 +480,59 @@ static_assert(offsetof(::System::Net::__WebRequestStream___SetHeadersAsync_d__37
 
 static_assert(offsetof(::System::Net::__WebRequestStream___SetHeadersAsync_d__37, __u__1) == 0x38, "Offset mismatch!");
 
-} // namespace System::Net
+} // namespace end def System::Net
 // Type: ::<WriteRequestAsync>d__38
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 96, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
 // CS Name: ::WebRequestStream::<WriteRequestAsync>d__38
 struct CORDL_TYPE __WebRequestStream___WriteRequestAsync_d__38 {
 public:
-  // Declarations
-  /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-  constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+// Declarations
+/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr operator  ::System::Runtime::CompilerServices::IAsyncStateMachine*() ;
 
-  /// @brief Method MoveNext, addr 0x3049af0, size 0x4b8, virtual true, abstract: false, final true
-  inline void MoveNext();
+/// @brief Method MoveNext, addr 0x43527c0, size 0x51c, virtual true, abstract: false, final true
+inline void MoveNext() ;
 
-  /// @brief Method SetStateMachine, addr 0x3049fa8, size 0xc, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+/// @brief Method SetStateMachine, addr 0x4352cdc, size 0x68, virtual true, abstract: false, final true
+inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine*  stateMachine) ;
 
-  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
+/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine() ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __WebRequestStream___WriteRequestAsync_d__38();
+// Ctor Parameters []
+// @brief default ctor
+constexpr __WebRequestStream___WriteRequestAsync_d__38() ;
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::System::Net::WebRequestStream*", modifiers: "", def_value:
-  // None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "_buffer_5__2", ty:
-  // "::System::Net::BufferOffsetSize*", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter",
-  // modifiers: "", def_value: None }, CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
-  constexpr __WebRequestStream___WriteRequestAsync_d__38(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::System::Net::WebRequestStream* __4__this,
-                                                         ::System::Threading::CancellationToken cancellationToken, ::System::Net::BufferOffsetSize* _buffer_5__2,
-                                                         ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter __u__1,
-                                                         ::System::Runtime::CompilerServices::TaskAwaiter __u__2) noexcept;
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty: "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::System::Net::WebRequestStream*", modifiers: "", def_value: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "_buffer_5__2", ty: "::System::Net::BufferOffsetSize*", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter", modifiers: "", def_value: None }, CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::TaskAwaiter", modifiers: "", def_value: None }]
+constexpr __WebRequestStream___WriteRequestAsync_d__38(int32_t  __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder  __t__builder, ::System::Net::WebRequestStream*  __4__this, ::System::Threading::CancellationToken  cancellationToken, ::System::Net::BufferOffsetSize*  _buffer_5__2, ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter  __u__1, ::System::Runtime::CompilerServices::TaskAwaiter  __u__2) noexcept;
 
-  /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
-  int32_t __1__state;
+/// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
+ int32_t  __1__state;
 
-  /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
-  ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder;
+/// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
+ ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder  __t__builder;
 
-  /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
-  ::System::Net::WebRequestStream* __4__this;
+/// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
+ ::System::Net::WebRequestStream*  __4__this;
 
-  /// @brief Field cancellationToken, offset: 0x28, size: 0x8, def value: None
-  ::System::Threading::CancellationToken cancellationToken;
+/// @brief Field cancellationToken, offset: 0x28, size: 0x8, def value: None
+ ::System::Threading::CancellationToken  cancellationToken;
 
-  /// @brief Field <buffer>5__2, offset: 0x30, size: 0x8, def value: None
-  ::System::Net::BufferOffsetSize* _buffer_5__2;
+/// @brief Field <buffer>5__2, offset: 0x30, size: 0x8, def value: None
+ ::System::Net::BufferOffsetSize*  _buffer_5__2;
 
-  /// @brief Field <>u__1, offset: 0x38, size: 0x10, def value: None
-  ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter __u__1;
+/// @brief Field <>u__1, offset: 0x38, size: 0x10, def value: None
+ ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter  __u__1;
 
-  /// @brief Field <>u__2, offset: 0x48, size: 0x8, def value: None
-  ::System::Runtime::CompilerServices::TaskAwaiter __u__2;
+/// @brief Field <>u__2, offset: 0x48, size: 0x8, def value: None
+ ::System::Runtime::CompilerServices::TaskAwaiter  __u__2;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x50 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x50};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::__WebRequestStream___WriteRequestAsync_d__38, 0x50>, "Size mismatch!");
@@ -588,58 +551,53 @@ static_assert(offsetof(::System::Net::__WebRequestStream___WriteRequestAsync_d__
 
 static_assert(offsetof(::System::Net::__WebRequestStream___WriteRequestAsync_d__38, __u__2) == 0x48, "Offset mismatch!");
 
-} // namespace System::Net
+} // namespace end def System::Net
 // Type: ::<WriteChunkTrailer_inner>d__39
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 80, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
 // CS Name: ::WebRequestStream::<WriteChunkTrailer_inner>d__39
 struct CORDL_TYPE __WebRequestStream___WriteChunkTrailer_inner_d__39 {
 public:
-  // Declarations
-  /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-  constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+// Declarations
+/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr operator  ::System::Runtime::CompilerServices::IAsyncStateMachine*() ;
 
-  /// @brief Method MoveNext, addr 0x3049fb4, size 0x234, virtual true, abstract: false, final true
-  inline void MoveNext();
+/// @brief Method MoveNext, addr 0x4352d44, size 0x27c, virtual true, abstract: false, final true
+inline void MoveNext() ;
 
-  /// @brief Method SetStateMachine, addr 0x304a1e8, size 0xc, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+/// @brief Method SetStateMachine, addr 0x4352fc0, size 0x68, virtual true, abstract: false, final true
+inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine*  stateMachine) ;
 
-  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
+/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine() ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __WebRequestStream___WriteChunkTrailer_inner_d__39();
+// Ctor Parameters []
+// @brief default ctor
+constexpr __WebRequestStream___WriteChunkTrailer_inner_d__39() ;
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::System::Net::WebRequestStream*", modifiers: "", def_value:
-  // None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter", modifiers: "", def_value: None }]
-  constexpr __WebRequestStream___WriteChunkTrailer_inner_d__39(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::System::Net::WebRequestStream* __4__this,
-                                                               ::System::Threading::CancellationToken cancellationToken,
-                                                               ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter __u__1) noexcept;
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty: "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::System::Net::WebRequestStream*", modifiers: "", def_value: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter", modifiers: "", def_value: None }]
+constexpr __WebRequestStream___WriteChunkTrailer_inner_d__39(int32_t  __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder  __t__builder, ::System::Net::WebRequestStream*  __4__this, ::System::Threading::CancellationToken  cancellationToken, ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter  __u__1) noexcept;
 
-  /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
-  int32_t __1__state;
+/// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
+ int32_t  __1__state;
 
-  /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
-  ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder;
+/// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
+ ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder  __t__builder;
 
-  /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
-  ::System::Net::WebRequestStream* __4__this;
+/// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
+ ::System::Net::WebRequestStream*  __4__this;
 
-  /// @brief Field cancellationToken, offset: 0x28, size: 0x8, def value: None
-  ::System::Threading::CancellationToken cancellationToken;
+/// @brief Field cancellationToken, offset: 0x28, size: 0x8, def value: None
+ ::System::Threading::CancellationToken  cancellationToken;
 
-  /// @brief Field <>u__1, offset: 0x30, size: 0x10, def value: None
-  ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter __u__1;
+/// @brief Field <>u__1, offset: 0x30, size: 0x10, def value: None
+ ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter  __u__1;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x40 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x40};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::__WebRequestStream___WriteChunkTrailer_inner_d__39, 0x40>, "Size mismatch!");
@@ -654,67 +612,59 @@ static_assert(offsetof(::System::Net::__WebRequestStream___WriteChunkTrailer_inn
 
 static_assert(offsetof(::System::Net::__WebRequestStream___WriteChunkTrailer_inner_d__39, __u__1) == 0x30, "Offset mismatch!");
 
-} // namespace System::Net
+} // namespace end def System::Net
 // Type: ::<WriteChunkTrailer>d__40
-// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 104, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
 // CS Name: ::WebRequestStream::<WriteChunkTrailer>d__40
 struct CORDL_TYPE __WebRequestStream___WriteChunkTrailer_d__40 {
 public:
-  // Declarations
-  /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-  constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+// Declarations
+/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr operator  ::System::Runtime::CompilerServices::IAsyncStateMachine*() ;
 
-  /// @brief Method MoveNext, addr 0x304a1f4, size 0x6c0, virtual true, abstract: false, final true
-  inline void MoveNext();
+/// @brief Method MoveNext, addr 0x4353028, size 0x704, virtual true, abstract: false, final true
+inline void MoveNext() ;
 
-  /// @brief Method SetStateMachine, addr 0x304a8b4, size 0xc, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+/// @brief Method SetStateMachine, addr 0x435372c, size 0x68, virtual true, abstract: false, final true
+inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine*  stateMachine) ;
 
-  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
+/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine() ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __WebRequestStream___WriteChunkTrailer_d__40();
+// Ctor Parameters []
+// @brief default ctor
+constexpr __WebRequestStream___WriteChunkTrailer_d__40() ;
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::System::Net::WebRequestStream*", modifiers: "", def_value:
-  // None }, CppParam { name: "_cts_5__2", ty: "::System::Threading::CancellationTokenSource*", modifiers: "", def_value: None }, CppParam { name: "_timeoutTask_5__3", ty:
-  // "::System::Threading::Tasks::Task*", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty:
-  // "::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<::System::Threading::Tasks::Task*>", modifiers: "", def_value: None }, CppParam { name: "__u__2", ty:
-  // "::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter", modifiers: "", def_value: None }]
-  constexpr __WebRequestStream___WriteChunkTrailer_d__40(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::System::Net::WebRequestStream* __4__this,
-                                                         ::System::Threading::CancellationTokenSource* _cts_5__2, ::System::Threading::Tasks::Task* _timeoutTask_5__3,
-                                                         ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<::System::Threading::Tasks::Task*> __u__1,
-                                                         ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter __u__2) noexcept;
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty: "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::System::Net::WebRequestStream*", modifiers: "", def_value: None }, CppParam { name: "_cts_5__2", ty: "::System::Threading::CancellationTokenSource*", modifiers: "", def_value: None }, CppParam { name: "_timeoutTask_5__3", ty: "::System::Threading::Tasks::Task*", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<::System::Threading::Tasks::Task*>", modifiers: "", def_value: None }, CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter", modifiers: "", def_value: None }]
+constexpr __WebRequestStream___WriteChunkTrailer_d__40(int32_t  __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder  __t__builder, ::System::Net::WebRequestStream*  __4__this, ::System::Threading::CancellationTokenSource*  _cts_5__2, ::System::Threading::Tasks::Task*  _timeoutTask_5__3, ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<::System::Threading::Tasks::Task*>  __u__1, ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter  __u__2) noexcept;
 
-  /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
-  int32_t __1__state;
+/// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
+ int32_t  __1__state;
 
-  /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
-  ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder;
+/// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
+ ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder  __t__builder;
 
-  /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
-  ::System::Net::WebRequestStream* __4__this;
+/// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
+ ::System::Net::WebRequestStream*  __4__this;
 
-  /// @brief Field <cts>5__2, offset: 0x28, size: 0x8, def value: None
-  ::System::Threading::CancellationTokenSource* _cts_5__2;
+/// @brief Field <cts>5__2, offset: 0x28, size: 0x8, def value: None
+ ::System::Threading::CancellationTokenSource*  _cts_5__2;
 
-  /// @brief Field <timeoutTask>5__3, offset: 0x30, size: 0x8, def value: None
-  ::System::Threading::Tasks::Task* _timeoutTask_5__3;
+/// @brief Field <timeoutTask>5__3, offset: 0x30, size: 0x8, def value: None
+ ::System::Threading::Tasks::Task*  _timeoutTask_5__3;
 
-  /// @brief Field <>u__1, offset: 0x38, size: 0x10, def value: None
-  ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<::System::Threading::Tasks::Task*> __u__1;
+/// @brief Field <>u__1, offset: 0x38, size: 0x10, def value: None
+ ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<::System::Threading::Tasks::Task*>  __u__1;
 
-  /// @brief Field <>u__2, offset: 0x48, size: 0x10, def value: None
-  ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter __u__2;
+/// @brief Field <>u__2, offset: 0x48, size: 0x10, def value: None
+ ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter  __u__2;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x58 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x58};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::__WebRequestStream___WriteChunkTrailer_d__40, 0x58>, "Size mismatch!");
@@ -733,279 +683,277 @@ static_assert(offsetof(::System::Net::__WebRequestStream___WriteChunkTrailer_d__
 
 static_assert(offsetof(::System::Net::__WebRequestStream___WriteChunkTrailer_d__40, __u__2) == 0x48, "Offset mismatch!");
 
-} // namespace System::Net
+} // namespace end def System::Net
 // Type: System.Net::WebRequestStream
-// SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 153, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 153, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
 // CS Name: ::System.Net::WebRequestStream*
 class CORDL_TYPE WebRequestStream : public ::System::Net::WebConnectionStream {
 public:
-  // Declarations
-  using _FinishWriting_d__31 = ::System::Net::__WebRequestStream___FinishWriting_d__31;
+// Declarations
+using _FinishWriting_d__31 = ::System::Net::__WebRequestStream___FinishWriting_d__31;
 
-  using _Initialize_d__36 = ::System::Net::__WebRequestStream___Initialize_d__36;
+using _Initialize_d__36 = ::System::Net::__WebRequestStream___Initialize_d__36;
 
-  using _ProcessWrite_d__34 = ::System::Net::__WebRequestStream___ProcessWrite_d__34;
+using _ProcessWrite_d__34 = ::System::Net::__WebRequestStream___ProcessWrite_d__34;
 
-  using _SetHeadersAsync_d__37 = ::System::Net::__WebRequestStream___SetHeadersAsync_d__37;
+using _SetHeadersAsync_d__37 = ::System::Net::__WebRequestStream___SetHeadersAsync_d__37;
 
-  using _WriteAsyncInner_d__33 = ::System::Net::__WebRequestStream___WriteAsyncInner_d__33;
+using _WriteAsyncInner_d__33 = ::System::Net::__WebRequestStream___WriteAsyncInner_d__33;
 
-  using _WriteChunkTrailer_d__40 = ::System::Net::__WebRequestStream___WriteChunkTrailer_d__40;
+using _WriteChunkTrailer_d__40 = ::System::Net::__WebRequestStream___WriteChunkTrailer_d__40;
 
-  using _WriteChunkTrailer_inner_d__39 = ::System::Net::__WebRequestStream___WriteChunkTrailer_inner_d__39;
+using _WriteChunkTrailer_inner_d__39 = ::System::Net::__WebRequestStream___WriteChunkTrailer_inner_d__39;
 
-  using _WriteRequestAsync_d__38 = ::System::Net::__WebRequestStream___WriteRequestAsync_d__38;
+using _WriteRequestAsync_d__38 = ::System::Net::__WebRequestStream___WriteRequestAsync_d__38;
 
-  __declspec(property(get = get_CanRead)) bool CanRead;
+ __declspec(property(get=get_CanRead)) bool  CanRead;
 
-  __declspec(property(get = get_CanWrite)) bool CanWrite;
+ __declspec(property(get=get_CanWrite)) bool  CanWrite;
 
-  __declspec(property(get = get_HasWriteBuffer)) bool HasWriteBuffer;
+ __declspec(property(get=get_HasWriteBuffer)) bool  HasWriteBuffer;
 
-  __declspec(property(get = get_InnerStream))::System::IO::Stream* InnerStream;
+ __declspec(property(get=get_InnerStream)) ::System::IO::Stream*  InnerStream;
 
-  __declspec(property(get = get_KeepAlive)) bool KeepAlive;
+ __declspec(property(get=get_KeepAlive)) bool  KeepAlive;
 
-  __declspec(property(get = get_WriteBufferLength)) int32_t WriteBufferLength;
+ __declspec(property(get=get_WriteBufferLength)) int32_t  WriteBufferLength;
 
-  /// @brief Field <InnerStream>k__BackingField, offset 0x90, size 0x8
-  __declspec(property(get = __cordl_internal_get__InnerStream_k__BackingField, put = __cordl_internal_set__InnerStream_k__BackingField))::System::IO::Stream* _InnerStream_k__BackingField;
+/// @brief Field <InnerStream>k__BackingField, offset 0x90, size 0x8 
+ __declspec(property(get=__cordl_internal_get__InnerStream_k__BackingField, put=__cordl_internal_set__InnerStream_k__BackingField)) ::System::IO::Stream*  _InnerStream_k__BackingField;
 
-  /// @brief Field <KeepAlive>k__BackingField, offset 0x98, size 0x1
-  __declspec(property(get = __cordl_internal_get__KeepAlive_k__BackingField, put = __cordl_internal_set__KeepAlive_k__BackingField)) bool _KeepAlive_k__BackingField;
+/// @brief Field <KeepAlive>k__BackingField, offset 0x98, size 0x1 
+ __declspec(property(get=__cordl_internal_get__KeepAlive_k__BackingField, put=__cordl_internal_set__KeepAlive_k__BackingField)) bool  _KeepAlive_k__BackingField;
 
-  /// @brief Field allowBuffering, offset 0x61, size 0x1
-  __declspec(property(get = __cordl_internal_get_allowBuffering, put = __cordl_internal_set_allowBuffering)) bool allowBuffering;
+/// @brief Field allowBuffering, offset 0x61, size 0x1 
+ __declspec(property(get=__cordl_internal_get_allowBuffering, put=__cordl_internal_set_allowBuffering)) bool  allowBuffering;
 
-  /// @brief Field chunkTrailerWritten, offset 0x88, size 0x4
-  __declspec(property(get = __cordl_internal_get_chunkTrailerWritten, put = __cordl_internal_set_chunkTrailerWritten)) int32_t chunkTrailerWritten;
+/// @brief Field chunkTrailerWritten, offset 0x88, size 0x4 
+ __declspec(property(get=__cordl_internal_get_chunkTrailerWritten, put=__cordl_internal_set_chunkTrailerWritten)) int32_t  chunkTrailerWritten;
 
-  /// @brief Field completeRequestWritten, offset 0x84, size 0x4
-  __declspec(property(get = __cordl_internal_get_completeRequestWritten, put = __cordl_internal_set_completeRequestWritten)) int32_t completeRequestWritten;
+/// @brief Field completeRequestWritten, offset 0x84, size 0x4 
+ __declspec(property(get=__cordl_internal_get_completeRequestWritten, put=__cordl_internal_set_completeRequestWritten)) int32_t  completeRequestWritten;
 
-  /// @brief Field crlf, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_crlf, put = setStaticF_crlf))::ArrayW<uint8_t, ::Array<uint8_t>*> crlf;
+/// @brief Field crlf, offset 0xffffffff, size 0x8 
+static __declspec(property(get=getStaticF_crlf, put=setStaticF_crlf)) ::ArrayW<uint8_t,::Array<uint8_t>*>  crlf;
 
-  /// @brief Field headers, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get_headers, put = __cordl_internal_set_headers))::ArrayW<uint8_t, ::Array<uint8_t>*> headers;
+/// @brief Field headers, offset 0x78, size 0x8 
+ __declspec(property(get=__cordl_internal_get_headers, put=__cordl_internal_set_headers)) ::ArrayW<uint8_t,::Array<uint8_t>*>  headers;
 
-  /// @brief Field headersSent, offset 0x80, size 0x1
-  __declspec(property(get = __cordl_internal_get_headersSent, put = __cordl_internal_set_headersSent)) bool headersSent;
+/// @brief Field headersSent, offset 0x80, size 0x1 
+ __declspec(property(get=__cordl_internal_get_headersSent, put=__cordl_internal_set_headersSent)) bool  headersSent;
 
-  /// @brief Field pendingWrite, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get_pendingWrite, put = __cordl_internal_set_pendingWrite))::System::Net::WebCompletionSource* pendingWrite;
+/// @brief Field pendingWrite, offset 0x68, size 0x8 
+ __declspec(property(get=__cordl_internal_get_pendingWrite, put=__cordl_internal_set_pendingWrite)) ::System::Net::WebCompletionSource*  pendingWrite;
 
-  /// @brief Field requestWritten, offset 0x60, size 0x1
-  __declspec(property(get = __cordl_internal_get_requestWritten, put = __cordl_internal_set_requestWritten)) bool requestWritten;
+/// @brief Field requestWritten, offset 0x60, size 0x1 
+ __declspec(property(get=__cordl_internal_get_requestWritten, put=__cordl_internal_set_requestWritten)) bool  requestWritten;
 
-  /// @brief Field sendChunked, offset 0x62, size 0x1
-  __declspec(property(get = __cordl_internal_get_sendChunked, put = __cordl_internal_set_sendChunked)) bool sendChunked;
+/// @brief Field sendChunked, offset 0x62, size 0x1 
+ __declspec(property(get=__cordl_internal_get_sendChunked, put=__cordl_internal_set_sendChunked)) bool  sendChunked;
 
-  /// @brief Field totalWritten, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get_totalWritten, put = __cordl_internal_set_totalWritten)) int64_t totalWritten;
+/// @brief Field totalWritten, offset 0x70, size 0x8 
+ __declspec(property(get=__cordl_internal_get_totalWritten, put=__cordl_internal_set_totalWritten)) int64_t  totalWritten;
 
-  /// @brief Field writeBuffer, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get_writeBuffer, put = __cordl_internal_set_writeBuffer))::System::IO::MemoryStream* writeBuffer;
+/// @brief Field writeBuffer, offset 0x58, size 0x8 
+ __declspec(property(get=__cordl_internal_get_writeBuffer, put=__cordl_internal_set_writeBuffer)) ::System::IO::MemoryStream*  writeBuffer;
 
-  /// @brief Method CheckWriteOverflow, addr 0x3046d44, size 0x9c, virtual false, abstract: false, final false
-  inline void CheckWriteOverflow(int64_t contentLength, int64_t totalWritten, int64_t size);
+/// @brief Method CheckWriteOverflow, addr 0x43506e4, size 0x98, virtual false, abstract: false, final false
+inline void CheckWriteOverflow(int64_t  contentLength, int64_t  totalWritten, int64_t  size) ;
 
-  /// @brief Method Close_internal, addr 0x304723c, size 0x180, virtual true, abstract: false, final false
-  inline void Close_internal(ByRef<bool> disposed);
+/// @brief Method Close_internal, addr 0x4350bbc, size 0x178, virtual true, abstract: false, final false
+inline void Close_internal(ByRef<bool>  disposed) ;
 
-  /// @brief Method FinishWriting, addr 0x3046810, size 0xd8, virtual false, abstract: false, final false
-  inline ::System::Threading::Tasks::Task* FinishWriting(::System::Threading::CancellationToken cancellationToken);
+/// @brief Method FinishWriting, addr 0x43501c0, size 0xd0, virtual false, abstract: false, final false
+inline ::System::Threading::Tasks::Task* FinishWriting(::System::Threading::CancellationToken  cancellationToken) ;
 
-  /// @brief Method GetWriteBuffer, addr 0x3046734, size 0xdc, virtual false, abstract: false, final false
-  inline ::System::Net::BufferOffsetSize* GetWriteBuffer();
+/// @brief Method GetWriteBuffer, addr 0x43500ec, size 0xd4, virtual false, abstract: false, final false
+inline ::System::Net::BufferOffsetSize* GetWriteBuffer() ;
 
-  /// @brief Method Initialize, addr 0x30455c0, size 0xdc, virtual false, abstract: false, final false
-  inline ::System::Threading::Tasks::Task* Initialize(::System::Threading::CancellationToken cancellationToken);
+/// @brief Method Initialize, addr 0x434ecbc, size 0xd4, virtual false, abstract: false, final false
+inline ::System::Threading::Tasks::Task* Initialize(::System::Threading::CancellationToken  cancellationToken) ;
 
-  /// @brief Method KillBuffer, addr 0x3033a60, size 0x8, virtual false, abstract: false, final false
-  inline void KillBuffer();
+/// @brief Method KillBuffer, addr 0x435077c, size 0x8, virtual false, abstract: false, final false
+inline void KillBuffer() ;
 
-  static inline ::System::Net::WebRequestStream* New_ctor(::System::Net::WebConnection* connection, ::System::Net::WebOperation* operation, ::System::IO::Stream* stream,
-                                                          ::System::Net::WebConnectionTunnel* tunnel);
+static inline ::System::Net::WebRequestStream* New_ctor(::System::Net::WebConnection*  connection, ::System::Net::WebOperation*  operation, ::System::IO::Stream*  stream, ::System::Net::WebConnectionTunnel*  tunnel) ;
 
-  /// @brief Method ProcessWrite, addr 0x3046c44, size 0x100, virtual false, abstract: false, final false
-  inline ::System::Threading::Tasks::Task* ProcessWrite(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t size, ::System::Threading::CancellationToken cancellationToken);
+/// @brief Method ProcessWrite, addr 0x43505ec, size 0xf8, virtual false, abstract: false, final false
+inline ::System::Threading::Tasks::Task* ProcessWrite(::ArrayW<uint8_t,::Array<uint8_t>*>  buffer, int32_t  offset, int32_t  size, ::System::Threading::CancellationToken  cancellationToken) ;
 
-  /// @brief Method ReadAsync, addr 0x304714c, size 0xb0, virtual true, abstract: false, final false
-  inline ::System::Threading::Tasks::Task_1<int32_t>* ReadAsync(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t size, ::System::Threading::CancellationToken cancellationToken);
+/// @brief Method ReadAsync, addr 0x4350ad4, size 0xb0, virtual true, abstract: false, final false
+inline ::System::Threading::Tasks::Task_1<int32_t>* ReadAsync(::ArrayW<uint8_t,::Array<uint8_t>*>  buffer, int32_t  offset, int32_t  size, ::System::Threading::CancellationToken  cancellationToken) ;
 
-  /// @brief Method SetHeadersAsync, addr 0x3046de0, size 0xe4, virtual false, abstract: false, final false
-  inline ::System::Threading::Tasks::Task* SetHeadersAsync(bool setInternalLength, ::System::Threading::CancellationToken cancellationToken);
+/// @brief Method SetHeadersAsync, addr 0x4350784, size 0xe0, virtual false, abstract: false, final false
+inline ::System::Threading::Tasks::Task* SetHeadersAsync(bool  setInternalLength, ::System::Threading::CancellationToken  cancellationToken) ;
 
-  /// @brief Method TryReadFromBufferedContent, addr 0x30471fc, size 0x40, virtual true, abstract: false, final false
-  inline bool TryReadFromBufferedContent(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ByRef<int32_t> result);
+/// @brief Method TryReadFromBufferedContent, addr 0x4350b84, size 0x38, virtual true, abstract: false, final false
+inline bool TryReadFromBufferedContent(::ArrayW<uint8_t,::Array<uint8_t>*>  buffer, int32_t  offset, int32_t  count, ByRef<int32_t>  result) ;
 
-  /// @brief Method WriteAsync, addr 0x30468e8, size 0x258, virtual true, abstract: false, final false
-  inline ::System::Threading::Tasks::Task* WriteAsync(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ::System::Threading::CancellationToken cancellationToken);
+/// @brief Method WriteAsync, addr 0x4350290, size 0x260, virtual true, abstract: false, final false
+inline ::System::Threading::Tasks::Task* WriteAsync(::ArrayW<uint8_t,::Array<uint8_t>*>  buffer, int32_t  offset, int32_t  count, ::System::Threading::CancellationToken  cancellationToken) ;
 
-  /// @brief Method WriteAsyncInner, addr 0x3046b40, size 0x104, virtual false, abstract: false, final false
-  inline ::System::Threading::Tasks::Task* WriteAsyncInner(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t size, ::System::Net::WebCompletionSource* completion,
-                                                           ::System::Threading::CancellationToken cancellationToken);
+/// @brief Method WriteAsyncInner, addr 0x43504f0, size 0xfc, virtual false, abstract: false, final false
+inline ::System::Threading::Tasks::Task* WriteAsyncInner(::ArrayW<uint8_t,::Array<uint8_t>*>  buffer, int32_t  offset, int32_t  size, ::System::Net::WebCompletionSource*  completion, ::System::Threading::CancellationToken  cancellationToken) ;
 
-  /// @brief Method WriteChunkTrailer, addr 0x3047078, size 0xd4, virtual false, abstract: false, final false
-  inline ::System::Threading::Tasks::Task* WriteChunkTrailer();
+/// @brief Method WriteChunkTrailer, addr 0x4350a08, size 0xcc, virtual false, abstract: false, final false
+inline ::System::Threading::Tasks::Task* WriteChunkTrailer() ;
 
-  /// @brief Method WriteChunkTrailer_inner, addr 0x3046fa0, size 0xd8, virtual false, abstract: false, final false
-  inline ::System::Threading::Tasks::Task* WriteChunkTrailer_inner(::System::Threading::CancellationToken cancellationToken);
+/// @brief Method WriteChunkTrailer_inner, addr 0x4350938, size 0xd0, virtual false, abstract: false, final false
+inline ::System::Threading::Tasks::Task* WriteChunkTrailer_inner(::System::Threading::CancellationToken  cancellationToken) ;
 
-  /// @brief Method WriteRequestAsync, addr 0x3046ec4, size 0xdc, virtual false, abstract: false, final false
-  inline ::System::Threading::Tasks::Task* WriteRequestAsync(::System::Threading::CancellationToken cancellationToken);
+/// @brief Method WriteRequestAsync, addr 0x4350864, size 0xd4, virtual false, abstract: false, final false
+inline ::System::Threading::Tasks::Task* WriteRequestAsync(::System::Threading::CancellationToken  cancellationToken) ;
 
-  constexpr ::System::IO::Stream*& __cordl_internal_get__InnerStream_k__BackingField();
+constexpr ::System::IO::Stream*& __cordl_internal_get__InnerStream_k__BackingField() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __cordl_internal_get__InnerStream_k__BackingField() const;
+constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __cordl_internal_get__InnerStream_k__BackingField() const;
 
-  constexpr bool const& __cordl_internal_get__KeepAlive_k__BackingField() const;
+constexpr bool const& __cordl_internal_get__KeepAlive_k__BackingField() const;
 
-  constexpr bool& __cordl_internal_get__KeepAlive_k__BackingField();
+constexpr bool& __cordl_internal_get__KeepAlive_k__BackingField() ;
 
-  constexpr bool const& __cordl_internal_get_allowBuffering() const;
+constexpr bool const& __cordl_internal_get_allowBuffering() const;
 
-  constexpr bool& __cordl_internal_get_allowBuffering();
+constexpr bool& __cordl_internal_get_allowBuffering() ;
 
-  constexpr int32_t const& __cordl_internal_get_chunkTrailerWritten() const;
+constexpr int32_t const& __cordl_internal_get_chunkTrailerWritten() const;
 
-  constexpr int32_t& __cordl_internal_get_chunkTrailerWritten();
+constexpr int32_t& __cordl_internal_get_chunkTrailerWritten() ;
 
-  constexpr int32_t const& __cordl_internal_get_completeRequestWritten() const;
+constexpr int32_t const& __cordl_internal_get_completeRequestWritten() const;
 
-  constexpr int32_t& __cordl_internal_get_completeRequestWritten();
+constexpr int32_t& __cordl_internal_get_completeRequestWritten() ;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_headers() const;
+constexpr ::ArrayW<uint8_t,::Array<uint8_t>*> const& __cordl_internal_get_headers() const;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_headers();
+constexpr ::ArrayW<uint8_t,::Array<uint8_t>*>& __cordl_internal_get_headers() ;
 
-  constexpr bool const& __cordl_internal_get_headersSent() const;
+constexpr bool const& __cordl_internal_get_headersSent() const;
 
-  constexpr bool& __cordl_internal_get_headersSent();
+constexpr bool& __cordl_internal_get_headersSent() ;
 
-  constexpr ::System::Net::WebCompletionSource*& __cordl_internal_get_pendingWrite();
+constexpr ::System::Net::WebCompletionSource*& __cordl_internal_get_pendingWrite() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::WebCompletionSource*> const& __cordl_internal_get_pendingWrite() const;
+constexpr ::cordl_internals::to_const_pointer<::System::Net::WebCompletionSource*> const& __cordl_internal_get_pendingWrite() const;
 
-  constexpr bool const& __cordl_internal_get_requestWritten() const;
+constexpr bool const& __cordl_internal_get_requestWritten() const;
 
-  constexpr bool& __cordl_internal_get_requestWritten();
+constexpr bool& __cordl_internal_get_requestWritten() ;
 
-  constexpr bool const& __cordl_internal_get_sendChunked() const;
+constexpr bool const& __cordl_internal_get_sendChunked() const;
 
-  constexpr bool& __cordl_internal_get_sendChunked();
+constexpr bool& __cordl_internal_get_sendChunked() ;
 
-  constexpr int64_t const& __cordl_internal_get_totalWritten() const;
+constexpr int64_t const& __cordl_internal_get_totalWritten() const;
 
-  constexpr int64_t& __cordl_internal_get_totalWritten();
+constexpr int64_t& __cordl_internal_get_totalWritten() ;
 
-  constexpr ::System::IO::MemoryStream*& __cordl_internal_get_writeBuffer();
+constexpr ::System::IO::MemoryStream*& __cordl_internal_get_writeBuffer() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::MemoryStream*> const& __cordl_internal_get_writeBuffer() const;
+constexpr ::cordl_internals::to_const_pointer<::System::IO::MemoryStream*> const& __cordl_internal_get_writeBuffer() const;
 
-  constexpr void __cordl_internal_set__InnerStream_k__BackingField(::System::IO::Stream* value);
+constexpr void __cordl_internal_set__InnerStream_k__BackingField(::System::IO::Stream*  value) ;
 
-  constexpr void __cordl_internal_set__KeepAlive_k__BackingField(bool value);
+constexpr void __cordl_internal_set__KeepAlive_k__BackingField(bool  value) ;
 
-  constexpr void __cordl_internal_set_allowBuffering(bool value);
+constexpr void __cordl_internal_set_allowBuffering(bool  value) ;
 
-  constexpr void __cordl_internal_set_chunkTrailerWritten(int32_t value);
+constexpr void __cordl_internal_set_chunkTrailerWritten(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_completeRequestWritten(int32_t value);
+constexpr void __cordl_internal_set_completeRequestWritten(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_headers(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+constexpr void __cordl_internal_set_headers(::ArrayW<uint8_t,::Array<uint8_t>*>  value) ;
 
-  constexpr void __cordl_internal_set_headersSent(bool value);
+constexpr void __cordl_internal_set_headersSent(bool  value) ;
 
-  constexpr void __cordl_internal_set_pendingWrite(::System::Net::WebCompletionSource* value);
+constexpr void __cordl_internal_set_pendingWrite(::System::Net::WebCompletionSource*  value) ;
 
-  constexpr void __cordl_internal_set_requestWritten(bool value);
+constexpr void __cordl_internal_set_requestWritten(bool  value) ;
 
-  constexpr void __cordl_internal_set_sendChunked(bool value);
+constexpr void __cordl_internal_set_sendChunked(bool  value) ;
 
-  constexpr void __cordl_internal_set_totalWritten(int64_t value);
+constexpr void __cordl_internal_set_totalWritten(int64_t  value) ;
 
-  constexpr void __cordl_internal_set_writeBuffer(::System::IO::MemoryStream* value);
+constexpr void __cordl_internal_set_writeBuffer(::System::IO::MemoryStream*  value) ;
 
-  /// @brief Method .ctor, addr 0x3041750, size 0x160, virtual false, abstract: false, final false
-  inline void _ctor(::System::Net::WebConnection* connection, ::System::Net::WebOperation* operation, ::System::IO::Stream* stream, ::System::Net::WebConnectionTunnel* tunnel);
+/// @brief Method .ctor, addr 0x434a858, size 0x168, virtual false, abstract: false, final false
+inline void _ctor(::System::Net::WebConnection*  connection, ::System::Net::WebOperation*  operation, ::System::IO::Stream*  stream, ::System::Net::WebConnectionTunnel*  tunnel) ;
 
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_crlf();
+static inline ::ArrayW<uint8_t,::Array<uint8_t>*> getStaticF_crlf() ;
 
-  /// @brief Method get_CanRead, addr 0x30466ac, size 0x8, virtual true, abstract: false, final false
-  inline bool get_CanRead();
+/// @brief Method get_CanRead, addr 0x4350064, size 0x8, virtual true, abstract: false, final false
+inline bool get_CanRead() ;
 
-  /// @brief Method get_CanWrite, addr 0x30466b4, size 0x8, virtual true, abstract: false, final false
-  inline bool get_CanWrite();
+/// @brief Method get_CanWrite, addr 0x435006c, size 0x8, virtual true, abstract: false, final false
+inline bool get_CanWrite() ;
 
-  /// @brief Method get_HasWriteBuffer, addr 0x30466bc, size 0x34, virtual false, abstract: false, final false
-  inline bool get_HasWriteBuffer();
+/// @brief Method get_HasWriteBuffer, addr 0x4350074, size 0x34, virtual false, abstract: false, final false
+inline bool get_HasWriteBuffer() ;
 
-  /// @brief Method get_InnerStream, addr 0x304669c, size 0x8, virtual false, abstract: false, final false
-  inline ::System::IO::Stream* get_InnerStream();
+/// @brief Method get_InnerStream, addr 0x4350054, size 0x8, virtual false, abstract: false, final false
+inline ::System::IO::Stream* get_InnerStream() ;
 
-  /// @brief Method get_KeepAlive, addr 0x30466a4, size 0x8, virtual false, abstract: false, final false
-  inline bool get_KeepAlive();
+/// @brief Method get_KeepAlive, addr 0x435005c, size 0x8, virtual false, abstract: false, final false
+inline bool get_KeepAlive() ;
 
-  /// @brief Method get_WriteBufferLength, addr 0x30466f0, size 0x44, virtual false, abstract: false, final false
-  inline int32_t get_WriteBufferLength();
+/// @brief Method get_WriteBufferLength, addr 0x43500a8, size 0x44, virtual false, abstract: false, final false
+inline int32_t get_WriteBufferLength() ;
 
-  static inline void setStaticF_crlf(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+static inline void setStaticF_crlf(::ArrayW<uint8_t,::Array<uint8_t>*>  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr WebRequestStream();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr WebRequestStream() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "WebRequestStream", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  WebRequestStream(WebRequestStream&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "WebRequestStream", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  WebRequestStream(WebRequestStream const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "WebRequestStream", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+WebRequestStream(WebRequestStream && ) = delete;
 
-  /// @brief Field writeBuffer, offset: 0x58, size: 0x8, def value: None
-  ::System::IO::MemoryStream* ___writeBuffer;
+// Ctor Parameters [CppParam { name: "", ty: "WebRequestStream", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+WebRequestStream(WebRequestStream const& ) = delete;
 
-  /// @brief Field requestWritten, offset: 0x60, size: 0x1, def value: None
-  bool ___requestWritten;
+/// @brief Field writeBuffer, offset: 0x58, size: 0x8, def value: None
+ ::System::IO::MemoryStream*  ___writeBuffer;
 
-  /// @brief Field allowBuffering, offset: 0x61, size: 0x1, def value: None
-  bool ___allowBuffering;
+/// @brief Field requestWritten, offset: 0x60, size: 0x1, def value: None
+ bool  ___requestWritten;
 
-  /// @brief Field sendChunked, offset: 0x62, size: 0x1, def value: None
-  bool ___sendChunked;
+/// @brief Field allowBuffering, offset: 0x61, size: 0x1, def value: None
+ bool  ___allowBuffering;
 
-  /// @brief Field pendingWrite, offset: 0x68, size: 0x8, def value: None
-  ::System::Net::WebCompletionSource* ___pendingWrite;
+/// @brief Field sendChunked, offset: 0x62, size: 0x1, def value: None
+ bool  ___sendChunked;
 
-  /// @brief Field totalWritten, offset: 0x70, size: 0x8, def value: None
-  int64_t ___totalWritten;
+/// @brief Field pendingWrite, offset: 0x68, size: 0x8, def value: None
+ ::System::Net::WebCompletionSource*  ___pendingWrite;
 
-  /// @brief Field headers, offset: 0x78, size: 0x8, def value: None
-  ::ArrayW<uint8_t, ::Array<uint8_t>*> ___headers;
+/// @brief Field totalWritten, offset: 0x70, size: 0x8, def value: None
+ int64_t  ___totalWritten;
 
-  /// @brief Field headersSent, offset: 0x80, size: 0x1, def value: None
-  bool ___headersSent;
+/// @brief Field headers, offset: 0x78, size: 0x8, def value: None
+ ::ArrayW<uint8_t,::Array<uint8_t>*>  ___headers;
 
-  /// @brief Field completeRequestWritten, offset: 0x84, size: 0x4, def value: None
-  int32_t ___completeRequestWritten;
+/// @brief Field headersSent, offset: 0x80, size: 0x1, def value: None
+ bool  ___headersSent;
 
-  /// @brief Field chunkTrailerWritten, offset: 0x88, size: 0x4, def value: None
-  int32_t ___chunkTrailerWritten;
+/// @brief Field completeRequestWritten, offset: 0x84, size: 0x4, def value: None
+ int32_t  ___completeRequestWritten;
 
-  /// @brief Field <InnerStream>k__BackingField, offset: 0x90, size: 0x8, def value: None
-  ::System::IO::Stream* ____InnerStream_k__BackingField;
+/// @brief Field chunkTrailerWritten, offset: 0x88, size: 0x4, def value: None
+ int32_t  ___chunkTrailerWritten;
 
-  /// @brief Field <KeepAlive>k__BackingField, offset: 0x98, size: 0x1, def value: None
-  bool ____KeepAlive_k__BackingField;
+/// @brief Field <InnerStream>k__BackingField, offset: 0x90, size: 0x8, def value: None
+ ::System::IO::Stream*  ____InnerStream_k__BackingField;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field <KeepAlive>k__BackingField, offset: 0x98, size: 0x1, def value: None
+ bool  ____KeepAlive_k__BackingField;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::WebRequestStream, 0xa0>, "Size mismatch!");
@@ -1034,7 +982,7 @@ static_assert(offsetof(::System::Net::WebRequestStream, ____InnerStream_k__Backi
 
 static_assert(offsetof(::System::Net::WebRequestStream, ____KeepAlive_k__BackingField) == 0x98, "Offset mismatch!");
 
-} // namespace System::Net
+} // namespace end def System::Net
 NEED_NO_BOX(::System::Net::WebRequestStream);
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::WebRequestStream*, "System.Net", "WebRequestStream");
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::__WebRequestStream___FinishWriting_d__31, "System.Net", "WebRequestStream/<FinishWriting>d__31");

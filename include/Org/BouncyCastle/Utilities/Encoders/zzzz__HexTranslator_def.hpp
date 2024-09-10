@@ -17,62 +17,62 @@ class HexTranslator;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Utilities::Encoders::HexTranslator);
 // Type: Org.BouncyCastle.Utilities.Encoders::HexTranslator
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Utilities::Encoders {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Utilities.Encoders::HexTranslator*
 class CORDL_TYPE HexTranslator : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field hexTable, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_hexTable, put = setStaticF_hexTable))::ArrayW<uint8_t, ::Array<uint8_t>*> hexTable;
+// Declarations
+/// @brief Field hexTable, offset 0xffffffff, size 0x8 
+static __declspec(property(get=getStaticF_hexTable, put=setStaticF_hexTable)) ::ArrayW<uint8_t,::Array<uint8_t>*>  hexTable;
 
-  /// @brief Convert operator to "::Org::BouncyCastle::Utilities::Encoders::ITranslator"
-  constexpr operator ::Org::BouncyCastle::Utilities::Encoders::ITranslator*() noexcept;
+/// @brief Convert operator to "::Org::BouncyCastle::Utilities::Encoders::ITranslator"
+constexpr operator  ::Org::BouncyCastle::Utilities::Encoders::ITranslator*() noexcept;
 
-  /// @brief Method Decode, addr 0x13d0fb8, size 0xc8, virtual true, abstract: false, final true
-  inline int32_t Decode(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t length, ::ArrayW<uint8_t, ::Array<uint8_t>*> outBytes, int32_t outOff);
+/// @brief Method Decode, addr 0x258c964, size 0xcc, virtual true, abstract: false, final true
+inline int32_t Decode(::ArrayW<uint8_t,::Array<uint8_t>*>  input, int32_t  inOff, int32_t  length, ::ArrayW<uint8_t,::Array<uint8_t>*>  outBytes, int32_t  outOff) ;
 
-  /// @brief Method Encode, addr 0x13d0e70, size 0x140, virtual true, abstract: false, final true
-  inline int32_t Encode(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t length, ::ArrayW<uint8_t, ::Array<uint8_t>*> outBytes, int32_t outOff);
+/// @brief Method Encode, addr 0x258c81c, size 0x140, virtual true, abstract: false, final true
+inline int32_t Encode(::ArrayW<uint8_t,::Array<uint8_t>*>  input, int32_t  inOff, int32_t  length, ::ArrayW<uint8_t,::Array<uint8_t>*>  outBytes, int32_t  outOff) ;
 
-  /// @brief Method GetDecodedBlockSize, addr 0x13d0fb0, size 0x8, virtual true, abstract: false, final true
-  inline int32_t GetDecodedBlockSize();
+/// @brief Method GetDecodedBlockSize, addr 0x258c95c, size 0x8, virtual true, abstract: false, final true
+inline int32_t GetDecodedBlockSize() ;
 
-  /// @brief Method GetEncodedBlockSize, addr 0x13d0e68, size 0x8, virtual true, abstract: false, final true
-  inline int32_t GetEncodedBlockSize();
+/// @brief Method GetEncodedBlockSize, addr 0x258c814, size 0x8, virtual true, abstract: false, final true
+inline int32_t GetEncodedBlockSize() ;
 
-  static inline ::Org::BouncyCastle::Utilities::Encoders::HexTranslator* New_ctor();
+static inline ::Org::BouncyCastle::Utilities::Encoders::HexTranslator* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x13d1114, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x258cac4, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> getStaticF_hexTable();
+static inline ::ArrayW<uint8_t,::Array<uint8_t>*> getStaticF_hexTable() ;
 
-  /// @brief Convert to "::Org::BouncyCastle::Utilities::Encoders::ITranslator"
-  constexpr ::Org::BouncyCastle::Utilities::Encoders::ITranslator* i___Org__BouncyCastle__Utilities__Encoders__ITranslator() noexcept;
+/// @brief Convert to "::Org::BouncyCastle::Utilities::Encoders::ITranslator"
+constexpr ::Org::BouncyCastle::Utilities::Encoders::ITranslator* i___Org__BouncyCastle__Utilities__Encoders__ITranslator() noexcept;
 
-  static inline void setStaticF_hexTable(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+static inline void setStaticF_hexTable(::ArrayW<uint8_t,::Array<uint8_t>*>  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HexTranslator();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr HexTranslator() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HexTranslator", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  HexTranslator(HexTranslator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HexTranslator", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  HexTranslator(HexTranslator const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "HexTranslator", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+HexTranslator(HexTranslator && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "HexTranslator", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+HexTranslator(HexTranslator const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Utilities::Encoders::HexTranslator, 0x10>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Utilities::Encoders
+} // namespace end def Org::BouncyCastle::Utilities::Encoders
 NEED_NO_BOX(::Org::BouncyCastle::Utilities::Encoders::HexTranslator);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Utilities::Encoders::HexTranslator*, "Org.BouncyCastle.Utilities.Encoders", "HexTranslator");

@@ -3,17 +3,13 @@
 #include "System/zzzz__IntPtr_impl.hpp"
 #include "Unity/Jobs/LowLevel/Unsafe/zzzz__JobRanges_def.hpp"
 #include "System/zzzz__IntPtr_def.hpp"
-// Ctor Parameters [CppParam { name: "BatchSize", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "NumJobs", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam {
-// name: "TotalIterationCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "NumPhases", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name:
-// "StartEndIndex", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}") }, CppParam { name: "PhaseData", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}") }]
-constexpr ::Unity::Jobs::LowLevel::Unsafe::JobRanges::JobRanges(int32_t BatchSize, int32_t NumJobs, int32_t TotalIterationCount, int32_t NumPhases, ::System::IntPtr StartEndIndex,
-                                                                ::System::IntPtr PhaseData) noexcept {
-  this->BatchSize = BatchSize;
-  this->NumJobs = NumJobs;
-  this->TotalIterationCount = TotalIterationCount;
-  this->NumPhases = NumPhases;
-  this->StartEndIndex = StartEndIndex;
-  this->PhaseData = PhaseData;
+// Ctor Parameters [CppParam { name: "BatchSize", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "NumJobs", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "TotalIterationCount", ty: "int32_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "StartEndIndex", ty: "::System::IntPtr", modifiers: "", def_value: Some("{}") }]
+constexpr ::Unity::Jobs::LowLevel::Unsafe::JobRanges::JobRanges(int32_t  BatchSize, int32_t  NumJobs, int32_t  TotalIterationCount, ::System::IntPtr  StartEndIndex) noexcept  {
+this->BatchSize = BatchSize;
+this->NumJobs = NumJobs;
+this->TotalIterationCount = TotalIterationCount;
+this->StartEndIndex = StartEndIndex;
 }
 // Ctor Parameters []
-constexpr ::Unity::Jobs::LowLevel::Unsafe::JobRanges::JobRanges() {}
+constexpr ::Unity::Jobs::LowLevel::Unsafe::JobRanges::JobRanges()   {
+}

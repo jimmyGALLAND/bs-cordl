@@ -18,95 +18,95 @@ class SonyBackgroundExecutionHelper;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::SonyBackgroundExecutionHelper);
 // Type: ::SonyBackgroundExecutionHelper
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 33, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::SonyBackgroundExecutionHelper*
 class CORDL_TYPE SonyBackgroundExecutionHelper : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field _isInBackgroundExecution, offset 0x20, size 0x1
-  __declspec(property(get = __cordl_internal_get__isInBackgroundExecution, put = __cordl_internal_set__isInBackgroundExecution)) bool _isInBackgroundExecution;
+// Declarations
+/// @brief Field _isInBackgroundExecution, offset 0x20, size 0x1 
+ __declspec(property(get=__cordl_internal_get__isInBackgroundExecution, put=__cordl_internal_set__isInBackgroundExecution)) bool  _isInBackgroundExecution;
 
-  /// @brief Field didGoToBackgroundExecutionEvent, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_didGoToBackgroundExecutionEvent, put = __cordl_internal_set_didGoToBackgroundExecutionEvent))::System::Action* didGoToBackgroundExecutionEvent;
+/// @brief Field didGoToBackgroundExecutionEvent, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_didGoToBackgroundExecutionEvent, put=__cordl_internal_set_didGoToBackgroundExecutionEvent)) ::System::Action*  didGoToBackgroundExecutionEvent;
 
-  /// @brief Field didGoToForegroundExecutionEvent, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_didGoToForegroundExecutionEvent, put = __cordl_internal_set_didGoToForegroundExecutionEvent))::System::Action* didGoToForegroundExecutionEvent;
+/// @brief Field didGoToForegroundExecutionEvent, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_didGoToForegroundExecutionEvent, put=__cordl_internal_set_didGoToForegroundExecutionEvent)) ::System::Action*  didGoToForegroundExecutionEvent;
 
-  __declspec(property(get = get_isInBackgroundExecution)) bool isInBackgroundExecution;
+ __declspec(property(get=get_isInBackgroundExecution)) bool  isInBackgroundExecution;
 
-  /// @brief Convert operator to "::Zenject::ITickable"
-  constexpr operator ::Zenject::ITickable*() noexcept;
+/// @brief Convert operator to "::Zenject::ITickable"
+constexpr operator  ::Zenject::ITickable*() noexcept;
 
-  static inline ::GlobalNamespace::SonyBackgroundExecutionHelper* New_ctor();
+static inline ::GlobalNamespace::SonyBackgroundExecutionHelper* New_ctor() ;
 
-  /// @brief Method Tick, addr 0x14ef214, size 0x28, virtual true, abstract: false, final true
-  inline void Tick();
+/// @brief Method Tick, addr 0x269b6f0, size 0x28, virtual true, abstract: false, final true
+inline void Tick() ;
 
-  constexpr bool const& __cordl_internal_get__isInBackgroundExecution() const;
+constexpr bool const& __cordl_internal_get__isInBackgroundExecution() const;
 
-  constexpr bool& __cordl_internal_get__isInBackgroundExecution();
+constexpr bool& __cordl_internal_get__isInBackgroundExecution() ;
 
-  constexpr ::System::Action*& __cordl_internal_get_didGoToBackgroundExecutionEvent();
+constexpr ::System::Action*& __cordl_internal_get_didGoToBackgroundExecutionEvent() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_didGoToBackgroundExecutionEvent() const;
+constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_didGoToBackgroundExecutionEvent() const;
 
-  constexpr ::System::Action*& __cordl_internal_get_didGoToForegroundExecutionEvent();
+constexpr ::System::Action*& __cordl_internal_get_didGoToForegroundExecutionEvent() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_didGoToForegroundExecutionEvent() const;
+constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_didGoToForegroundExecutionEvent() const;
 
-  constexpr void __cordl_internal_set__isInBackgroundExecution(bool value);
+constexpr void __cordl_internal_set__isInBackgroundExecution(bool  value) ;
 
-  constexpr void __cordl_internal_set_didGoToBackgroundExecutionEvent(::System::Action* value);
+constexpr void __cordl_internal_set_didGoToBackgroundExecutionEvent(::System::Action*  value) ;
 
-  constexpr void __cordl_internal_set_didGoToForegroundExecutionEvent(::System::Action* value);
+constexpr void __cordl_internal_set_didGoToForegroundExecutionEvent(::System::Action*  value) ;
 
-  /// @brief Method .ctor, addr 0x14ef23c, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x269b718, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method add_didGoToBackgroundExecutionEvent, addr 0x14eef9c, size 0x9c, virtual false, abstract: false, final false
-  inline void add_didGoToBackgroundExecutionEvent(::System::Action* value);
+/// @brief Method add_didGoToBackgroundExecutionEvent, addr 0x269b478, size 0x9c, virtual false, abstract: false, final false
+inline void add_didGoToBackgroundExecutionEvent(::System::Action*  value) ;
 
-  /// @brief Method add_didGoToForegroundExecutionEvent, addr 0x14ef0d4, size 0x9c, virtual false, abstract: false, final false
-  inline void add_didGoToForegroundExecutionEvent(::System::Action* value);
+/// @brief Method add_didGoToForegroundExecutionEvent, addr 0x269b5b0, size 0x9c, virtual false, abstract: false, final false
+inline void add_didGoToForegroundExecutionEvent(::System::Action*  value) ;
 
-  /// @brief Method get_isInBackgroundExecution, addr 0x14ef20c, size 0x8, virtual false, abstract: false, final false
-  inline bool get_isInBackgroundExecution();
+/// @brief Method get_isInBackgroundExecution, addr 0x269b6e8, size 0x8, virtual false, abstract: false, final false
+inline bool get_isInBackgroundExecution() ;
 
-  /// @brief Convert to "::Zenject::ITickable"
-  constexpr ::Zenject::ITickable* i___Zenject__ITickable() noexcept;
+/// @brief Convert to "::Zenject::ITickable"
+constexpr ::Zenject::ITickable* i___Zenject__ITickable() noexcept;
 
-  /// @brief Method remove_didGoToBackgroundExecutionEvent, addr 0x14ef038, size 0x9c, virtual false, abstract: false, final false
-  inline void remove_didGoToBackgroundExecutionEvent(::System::Action* value);
+/// @brief Method remove_didGoToBackgroundExecutionEvent, addr 0x269b514, size 0x9c, virtual false, abstract: false, final false
+inline void remove_didGoToBackgroundExecutionEvent(::System::Action*  value) ;
 
-  /// @brief Method remove_didGoToForegroundExecutionEvent, addr 0x14ef170, size 0x9c, virtual false, abstract: false, final false
-  inline void remove_didGoToForegroundExecutionEvent(::System::Action* value);
+/// @brief Method remove_didGoToForegroundExecutionEvent, addr 0x269b64c, size 0x9c, virtual false, abstract: false, final false
+inline void remove_didGoToForegroundExecutionEvent(::System::Action*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SonyBackgroundExecutionHelper();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr SonyBackgroundExecutionHelper() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SonyBackgroundExecutionHelper", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  SonyBackgroundExecutionHelper(SonyBackgroundExecutionHelper&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SonyBackgroundExecutionHelper", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  SonyBackgroundExecutionHelper(SonyBackgroundExecutionHelper const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "SonyBackgroundExecutionHelper", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+SonyBackgroundExecutionHelper(SonyBackgroundExecutionHelper && ) = delete;
 
-  /// @brief Field didGoToBackgroundExecutionEvent, offset: 0x10, size: 0x8, def value: None
-  ::System::Action* ___didGoToBackgroundExecutionEvent;
+// Ctor Parameters [CppParam { name: "", ty: "SonyBackgroundExecutionHelper", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+SonyBackgroundExecutionHelper(SonyBackgroundExecutionHelper const& ) = delete;
 
-  /// @brief Field didGoToForegroundExecutionEvent, offset: 0x18, size: 0x8, def value: None
-  ::System::Action* ___didGoToForegroundExecutionEvent;
+/// @brief Field didGoToBackgroundExecutionEvent, offset: 0x10, size: 0x8, def value: None
+ ::System::Action*  ___didGoToBackgroundExecutionEvent;
 
-  /// @brief Field _isInBackgroundExecution, offset: 0x20, size: 0x1, def value: None
-  bool ____isInBackgroundExecution;
+/// @brief Field didGoToForegroundExecutionEvent, offset: 0x18, size: 0x8, def value: None
+ ::System::Action*  ___didGoToForegroundExecutionEvent;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _isInBackgroundExecution, offset: 0x20, size: 0x1, def value: None
+ bool  ____isInBackgroundExecution;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SonyBackgroundExecutionHelper, 0x28>, "Size mismatch!");
@@ -117,6 +117,6 @@ static_assert(offsetof(::GlobalNamespace::SonyBackgroundExecutionHelper, ___didG
 
 static_assert(offsetof(::GlobalNamespace::SonyBackgroundExecutionHelper, ____isInBackgroundExecution) == 0x20, "Offset mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SonyBackgroundExecutionHelper);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SonyBackgroundExecutionHelper*, "", "SonyBackgroundExecutionHelper");

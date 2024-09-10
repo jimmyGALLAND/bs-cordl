@@ -11,10 +11,12 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(InputDeviceBuilder)
 namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+template<typename TKey,typename TValue>
+class Dictionary_2;
 }
 namespace System::Collections::Generic {
-template <typename T> class List_1;
+template<typename T>
+class List_1;
 }
 namespace System::Text {
 class StringBuilder;
@@ -60,207 +62,186 @@ struct __InputDeviceBuilder__RefInstance;
 MARK_VAL_T(::UnityEngine::InputSystem::Layouts::InputDeviceBuilder);
 MARK_VAL_T(::UnityEngine::InputSystem::Layouts::__InputDeviceBuilder__RefInstance);
 // Type: ::RefInstance
-// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, natural_alignment: 0, packing: None, specified_packing: Some(0) }
+// SizeInfo { instance_size: 1, native_size: 1, calculated_instance_size: 0, calculated_native_size: 16, minimum_alignment: 1, packing: None, specified_packing: Some(0) }
 namespace UnityEngine::InputSystem::Layouts {
 // Is value type: true
 // CS Name: ::InputDeviceBuilder::RefInstance
 #pragma pack(push, 0)
 struct CORDL_TYPE __InputDeviceBuilder__RefInstance {
 public:
-  // Declarations
-  /// @brief Convert operator to "::System::IDisposable"
-  constexpr operator ::System::IDisposable*();
+// Declarations
+/// @brief Convert operator to "::System::IDisposable"
+constexpr operator  ::System::IDisposable*() ;
 
-  /// @brief Method Dispose, addr 0x31abc74, size 0x8c, virtual true, abstract: false, final true
-  inline void Dispose();
+/// @brief Method Dispose, addr 0x45949f8, size 0x8c, virtual true, abstract: false, final true
+inline void Dispose() ;
 
-  /// @brief Convert to "::System::IDisposable"
-  constexpr ::System::IDisposable* i___System__IDisposable();
+/// @brief Convert to "::System::IDisposable"
+constexpr ::System::IDisposable* i___System__IDisposable() ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __InputDeviceBuilder__RefInstance();
+// Ctor Parameters []
+// @brief default ctor
+constexpr __InputDeviceBuilder__RefInstance() ;
 
-  /// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
-  uint8_t _cordl_size_padding[0x1];
+/// @brief Size padding 0x1 - 0x0 = 0x1, packed as 0x1
+ uint8_t  _cordl_size_padding[0x1];
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x1 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x1};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 #pragma pack(pop)
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Layouts::__InputDeviceBuilder__RefInstance, 0x1>, "Size mismatch!");
 
-} // namespace UnityEngine::InputSystem::Layouts
+} // namespace end def UnityEngine::InputSystem::Layouts
 // Type: UnityEngine.InputSystem.Layouts::InputDeviceBuilder
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Layouts {
 // Is value type: true
 // CS Name: ::UnityEngine.InputSystem.Layouts::InputDeviceBuilder
 struct CORDL_TYPE InputDeviceBuilder {
 public:
-  // Declarations
-  using RefInstance = ::UnityEngine::InputSystem::Layouts::__InputDeviceBuilder__RefInstance;
+// Declarations
+using RefInstance = ::UnityEngine::InputSystem::Layouts::__InputDeviceBuilder__RefInstance;
 
-  /// @brief Field s_Instance, offset 0xffffffff, size 0x28
-  static __declspec(property(get = getStaticF_s_Instance, put = setStaticF_s_Instance))::UnityEngine::InputSystem::Layouts::InputDeviceBuilder s_Instance;
+/// @brief Field s_Instance, offset 0xffffffff, size 0x28 
+static __declspec(property(get=getStaticF_s_Instance, put=setStaticF_s_Instance)) ::UnityEngine::InputSystem::Layouts::InputDeviceBuilder  s_Instance;
 
-  /// @brief Field s_InstanceRef, offset 0xffffffff, size 0x4
-  static __declspec(property(get = getStaticF_s_InstanceRef, put = setStaticF_s_InstanceRef)) int32_t s_InstanceRef;
+/// @brief Field s_InstanceRef, offset 0xffffffff, size 0x4 
+static __declspec(property(get=getStaticF_s_InstanceRef, put=setStaticF_s_InstanceRef)) int32_t  s_InstanceRef;
 
-  /// @brief Convert operator to "::System::IDisposable"
-  constexpr operator ::System::IDisposable*();
+/// @brief Convert operator to "::System::IDisposable"
+constexpr operator  ::System::IDisposable*() ;
 
-  /// @brief Method AddChildControl, addr 0x31a9d28, size 0x70c, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::InputControl* AddChildControl(::UnityEngine::InputSystem::Layouts::InputControlLayout* layout, ::UnityEngine::InputSystem::Utilities::InternedString variants,
-                                                                   ::UnityEngine::InputSystem::InputControl* parent, ByRef<bool> haveChildrenUsingStateFromOtherControls,
-                                                                   ::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem controlItem, int32_t childIndex, ::StringW nameOverride);
+/// @brief Method AddChildControl, addr 0x45927f0, size 0x750, virtual false, abstract: false, final false
+inline ::UnityEngine::InputSystem::InputControl* AddChildControl(::UnityEngine::InputSystem::Layouts::InputControlLayout*  layout, ::UnityEngine::InputSystem::Utilities::InternedString  variants, ::UnityEngine::InputSystem::InputControl*  parent, ByRef<bool>  haveChildrenUsingStateFromOtherControls, ::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem  controlItem, int32_t  childIndex, ::StringW  nameOverride) ;
 
-  /// @brief Method AddChildControlIfMissing, addr 0x31aa434, size 0xb0, virtual false, abstract: false, final false
-  inline void AddChildControlIfMissing(::UnityEngine::InputSystem::Layouts::InputControlLayout* layout, ::UnityEngine::InputSystem::Utilities::InternedString variants,
-                                       ::UnityEngine::InputSystem::InputControl* parent, ByRef<bool> haveChildrenUsingStateFromOtherControls,
-                                       ByRef<::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem> controlItem);
+/// @brief Method AddChildControlIfMissing, addr 0x4592f40, size 0xb0, virtual false, abstract: false, final false
+inline void AddChildControlIfMissing(::UnityEngine::InputSystem::Layouts::InputControlLayout*  layout, ::UnityEngine::InputSystem::Utilities::InternedString  variants, ::UnityEngine::InputSystem::InputControl*  parent, ByRef<bool>  haveChildrenUsingStateFromOtherControls, ByRef<::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem>  controlItem) ;
 
-  /// @brief Method AddChildControls, addr 0x31a8bac, size 0x68c, virtual false, abstract: false, final false
-  inline void AddChildControls(::UnityEngine::InputSystem::Layouts::InputControlLayout* layout, ::UnityEngine::InputSystem::Utilities::InternedString variants,
-                               ::UnityEngine::InputSystem::InputControl* parent, ByRef<bool> haveChildrenUsingStateFromOtherControls);
+/// @brief Method AddChildControls, addr 0x45914c8, size 0x6b8, virtual false, abstract: false, final false
+inline void AddChildControls(::UnityEngine::InputSystem::Layouts::InputControlLayout*  layout, ::UnityEngine::InputSystem::Utilities::InternedString  variants, ::UnityEngine::InputSystem::InputControl*  parent, ByRef<bool>  haveChildrenUsingStateFromOtherControls) ;
 
-  /// @brief Method AddChildren, addr 0x31ab8d0, size 0x110, virtual false, abstract: false, final false
-  inline void AddChildren(ByRef<::UnityEngine::InputSystem::__InputDevice__ControlBitRangeNode> parent, ::UnityEngine::InputSystem::__InputDevice__ControlBitRangeNode left,
-                          ::UnityEngine::InputSystem::__InputDevice__ControlBitRangeNode right);
+/// @brief Method AddChildren, addr 0x4594660, size 0x110, virtual false, abstract: false, final false
+inline void AddChildren(ByRef<::UnityEngine::InputSystem::__InputDevice__ControlBitRangeNode>  parent, ::UnityEngine::InputSystem::__InputDevice__ControlBitRangeNode  left, ::UnityEngine::InputSystem::__InputDevice__ControlBitRangeNode  right) ;
 
-  /// @brief Method AddControlToNode, addr 0x31ab9e0, size 0x144, virtual false, abstract: false, final false
-  inline void AddControlToNode(::UnityEngine::InputSystem::InputControl* control, ByRef<int32_t> controlIndiciesNextFreeIndex, int32_t nodeIndex);
+/// @brief Method AddControlToNode, addr 0x4594770, size 0x140, virtual false, abstract: false, final false
+inline void AddControlToNode(::UnityEngine::InputSystem::InputControl*  control, ByRef<int32_t>  controlIndiciesNextFreeIndex, int32_t  nodeIndex) ;
 
-  /// @brief Method AddParentDisplayNameRecursive, addr 0x31aadc0, size 0xb0, virtual false, abstract: false, final false
-  static inline void AddParentDisplayNameRecursive(::UnityEngine::InputSystem::InputControl* control, ::System::Text::StringBuilder* stringBuilder, bool shortName);
+/// @brief Method AddParentDisplayNameRecursive, addr 0x45938ec, size 0xb0, virtual false, abstract: false, final false
+static inline void AddParentDisplayNameRecursive(::UnityEngine::InputSystem::InputControl*  control, ::System::Text::StringBuilder*  stringBuilder, bool  shortName) ;
 
-  /// @brief Method AddProcessors, addr 0x31aa5fc, size 0x23c, virtual false, abstract: false, final false
-  static inline void AddProcessors(::UnityEngine::InputSystem::InputControl* control, ByRef<::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem> controlItem, ::StringW layoutName);
+/// @brief Method AddProcessors, addr 0x4593134, size 0x234, virtual false, abstract: false, final false
+static inline void AddProcessors(::UnityEngine::InputSystem::InputControl*  control, ByRef<::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem>  controlItem, ::StringW  layoutName) ;
 
-  /// @brief Method ApplyUseStateFrom, addr 0x31a99f4, size 0x19c, virtual false, abstract: false, final false
-  static inline void ApplyUseStateFrom(::UnityEngine::InputSystem::InputControl* parent, ByRef<::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem> controlItem,
-                                       ::UnityEngine::InputSystem::Layouts::InputControlLayout* layout);
+/// @brief Method ApplyUseStateFrom, addr 0x459248c, size 0x1cc, virtual false, abstract: false, final false
+static inline void ApplyUseStateFrom(::UnityEngine::InputSystem::InputControl*  parent, ByRef<::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem>  controlItem, ::UnityEngine::InputSystem::Layouts::InputControlLayout*  layout) ;
 
-  /// @brief Method ChildControlOverridePath, addr 0x31aa4e4, size 0x90, virtual false, abstract: false, final false
-  inline ::StringW ChildControlOverridePath(::UnityEngine::InputSystem::InputControl* parent, ::UnityEngine::InputSystem::Utilities::InternedString controlName);
+/// @brief Method ChildControlOverridePath, addr 0x4592ff0, size 0x90, virtual false, abstract: false, final false
+inline ::StringW ChildControlOverridePath(::UnityEngine::InputSystem::InputControl*  parent, ::UnityEngine::InputSystem::Utilities::InternedString  controlName) ;
 
-  /// @brief Method ComputeStateLayout, addr 0x31a9238, size 0x7bc, virtual false, abstract: false, final false
-  static inline void ComputeStateLayout(::UnityEngine::InputSystem::InputControl* control);
+/// @brief Method ComputeStateLayout, addr 0x4591b80, size 0x90c, virtual false, abstract: false, final false
+static inline void ComputeStateLayout(::UnityEngine::InputSystem::InputControl*  control) ;
 
-  /// @brief Method Dispose, addr 0x31a85a4, size 0x8, virtual true, abstract: false, final true
-  inline void Dispose();
+/// @brief Method Dispose, addr 0x4590e90, size 0x8, virtual true, abstract: false, final true
+inline void Dispose() ;
 
-  /// @brief Method FinalizeControlHierarchy, addr 0x31a82e0, size 0x238, virtual false, abstract: false, final false
-  inline void FinalizeControlHierarchy();
+/// @brief Method FinalizeControlHierarchy, addr 0x4590bb4, size 0x250, virtual false, abstract: false, final false
+inline void FinalizeControlHierarchy() ;
 
-  /// @brief Method FinalizeControlHierarchyRecursive, addr 0x31aae70, size 0x39c, virtual false, abstract: false, final false
-  inline void FinalizeControlHierarchyRecursive(::UnityEngine::InputSystem::InputControl* control, int32_t controlIndex,
-                                                ::ArrayW<::UnityEngine::InputSystem::InputControl*, ::Array<::UnityEngine::InputSystem::InputControl*>*> allControls, bool noisy, bool dontReset,
-                                                ByRef<int32_t> controlIndiciesNextFreeIndex);
+/// @brief Method FinalizeControlHierarchyRecursive, addr 0x459399c, size 0x428, virtual false, abstract: false, final false
+inline void FinalizeControlHierarchyRecursive(::UnityEngine::InputSystem::InputControl*  control, int32_t  controlIndex, ::ArrayW<::UnityEngine::InputSystem::InputControl*,::Array<::UnityEngine::InputSystem::InputControl*>*>  allControls, bool  noisy, bool  dontReset, ByRef<int32_t>  controlIndiciesNextFreeIndex) ;
 
-  /// @brief Method FindOrLoadLayout, addr 0x31a85ac, size 0x5c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::InputSystem::Layouts::InputControlLayout* FindOrLoadLayout(::StringW name);
+/// @brief Method FindOrLoadLayout, addr 0x4590e98, size 0x5c, virtual false, abstract: false, final false
+static inline ::UnityEngine::InputSystem::Layouts::InputControlLayout* FindOrLoadLayout(::StringW  name) ;
 
-  /// @brief Method Finish, addr 0x31a8518, size 0x18, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::InputDevice* Finish();
+/// @brief Method Finish, addr 0x4590e04, size 0x18, virtual false, abstract: false, final false
+inline ::UnityEngine::InputSystem::InputDevice* Finish() ;
 
-  /// @brief Method GetBestMidPoint, addr 0x31ab4d8, size 0x3f8, virtual false, abstract: false, final false
-  inline uint16_t GetBestMidPoint(::UnityEngine::InputSystem::__InputDevice__ControlBitRangeNode parent, uint16_t startOffset);
+/// @brief Method GetBestMidPoint, addr 0x4594130, size 0x530, virtual false, abstract: false, final false
+inline uint16_t GetBestMidPoint(::UnityEngine::InputSystem::__InputDevice__ControlBitRangeNode  parent, uint16_t  startOffset) ;
 
-  /// @brief Method GetControlIndex, addr 0x31abb24, size 0xb8, virtual false, abstract: false, final false
-  inline uint16_t GetControlIndex(::UnityEngine::InputSystem::InputControl* control);
+/// @brief Method GetControlIndex, addr 0x45948b0, size 0xb0, virtual false, abstract: false, final false
+inline uint16_t GetControlIndex(::UnityEngine::InputSystem::InputControl*  control) ;
 
-  /// @brief Method InsertChildControl, addr 0x31aa838, size 0x328, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::InputControl* InsertChildControl(::UnityEngine::InputSystem::Layouts::InputControlLayout* layout, ::UnityEngine::InputSystem::Utilities::InternedString variant,
-                                                                      ::UnityEngine::InputSystem::InputControl* parent, ByRef<bool> haveChildrenUsingStateFromOtherControls,
-                                                                      ByRef<::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem> controlItem);
+/// @brief Method InsertChildControl, addr 0x4593368, size 0x31c, virtual false, abstract: false, final false
+inline ::UnityEngine::InputSystem::InputControl* InsertChildControl(::UnityEngine::InputSystem::Layouts::InputControlLayout*  layout, ::UnityEngine::InputSystem::Utilities::InternedString  variant, ::UnityEngine::InputSystem::InputControl*  parent, ByRef<bool>  haveChildrenUsingStateFromOtherControls, ByRef<::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem>  controlItem) ;
 
-  /// @brief Method InsertChildControlOverride, addr 0x31a9b90, size 0x198, virtual false, abstract: false, final false
-  inline void InsertChildControlOverride(::UnityEngine::InputSystem::InputControl* parent, ByRef<::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem> controlItem);
+/// @brief Method InsertChildControlOverride, addr 0x4592658, size 0x198, virtual false, abstract: false, final false
+inline void InsertChildControlOverride(::UnityEngine::InputSystem::InputControl*  parent, ByRef<::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem>  controlItem) ;
 
-  /// @brief Method InsertControlBitRangeNode, addr 0x31ab20c, size 0x2cc, virtual false, abstract: false, final false
-  inline void InsertControlBitRangeNode(ByRef<::UnityEngine::InputSystem::__InputDevice__ControlBitRangeNode> parent, ::UnityEngine::InputSystem::InputControl* control,
-                                        ByRef<int32_t> controlIndiciesNextFreeIndex, uint16_t startOffset);
+/// @brief Method InsertControlBitRangeNode, addr 0x4593dc4, size 0x36c, virtual false, abstract: false, final false
+inline void InsertControlBitRangeNode(ByRef<::UnityEngine::InputSystem::__InputDevice__ControlBitRangeNode>  parent, ::UnityEngine::InputSystem::InputControl*  control, ByRef<int32_t>  controlIndiciesNextFreeIndex, uint16_t  startOffset) ;
 
-  /// @brief Method InstantiateLayout, addr 0x31a8608, size 0x5a4, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::InputControl* InstantiateLayout(::UnityEngine::InputSystem::Layouts::InputControlLayout* layout, ::UnityEngine::InputSystem::Utilities::InternedString variants,
-                                                                     ::UnityEngine::InputSystem::Utilities::InternedString name, ::UnityEngine::InputSystem::InputControl* parent);
+/// @brief Method InstantiateLayout, addr 0x4590ef4, size 0x5d4, virtual false, abstract: false, final false
+inline ::UnityEngine::InputSystem::InputControl* InstantiateLayout(::UnityEngine::InputSystem::Layouts::InputControlLayout*  layout, ::UnityEngine::InputSystem::Utilities::InternedString  variants, ::UnityEngine::InputSystem::Utilities::InternedString  name, ::UnityEngine::InputSystem::InputControl*  parent) ;
 
-  /// @brief Method InstantiateLayout, addr 0x31a8274, size 0x6c, virtual false, abstract: false, final false
-  inline ::UnityEngine::InputSystem::InputControl* InstantiateLayout(::UnityEngine::InputSystem::Utilities::InternedString layout, ::UnityEngine::InputSystem::Utilities::InternedString variants,
-                                                                     ::UnityEngine::InputSystem::Utilities::InternedString name, ::UnityEngine::InputSystem::InputControl* parent);
+/// @brief Method InstantiateLayout, addr 0x4590b48, size 0x6c, virtual false, abstract: false, final false
+inline ::UnityEngine::InputSystem::InputControl* InstantiateLayout(::UnityEngine::InputSystem::Utilities::InternedString  layout, ::UnityEngine::InputSystem::Utilities::InternedString  variants, ::UnityEngine::InputSystem::Utilities::InternedString  name, ::UnityEngine::InputSystem::InputControl*  parent) ;
 
-  /// @brief Method Ref, addr 0x31abc20, size 0x54, virtual false, abstract: false, final false
-  static inline ::UnityEngine::InputSystem::Layouts::__InputDeviceBuilder__RefInstance Ref();
+/// @brief Method Ref, addr 0x45949a4, size 0x54, virtual false, abstract: false, final false
+static inline ::UnityEngine::InputSystem::Layouts::__InputDeviceBuilder__RefInstance Ref() ;
 
-  /// @brief Method Reset, addr 0x31a8530, size 0x74, virtual false, abstract: false, final false
-  inline void Reset();
+/// @brief Method Reset, addr 0x4590e1c, size 0x74, virtual false, abstract: false, final false
+inline void Reset() ;
 
-  /// @brief Method SetDisplayName, addr 0x31aabc0, size 0x200, virtual false, abstract: false, final false
-  inline void SetDisplayName(::UnityEngine::InputSystem::InputControl* control, ::StringW longDisplayNameFromLayout, ::StringW shortDisplayNameFromLayout, bool shortName);
+/// @brief Method SetDisplayName, addr 0x45936e4, size 0x208, virtual false, abstract: false, final false
+inline void SetDisplayName(::UnityEngine::InputSystem::InputControl*  control, ::StringW  longDisplayNameFromLayout, ::StringW  shortDisplayNameFromLayout, bool  shortName) ;
 
-  /// @brief Method SetFormat, addr 0x31aa574, size 0x88, virtual false, abstract: false, final false
-  static inline void SetFormat(::UnityEngine::InputSystem::InputControl* control, ::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem controlItem);
+/// @brief Method SetFormat, addr 0x4593080, size 0xb4, virtual false, abstract: false, final false
+static inline void SetFormat(::UnityEngine::InputSystem::InputControl*  control, ::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem  controlItem) ;
 
-  /// @brief Method Setup, addr 0x31a8120, size 0x154, virtual false, abstract: false, final false
-  inline void Setup(::UnityEngine::InputSystem::Utilities::InternedString layout, ::UnityEngine::InputSystem::Utilities::InternedString variants,
-                    ::UnityEngine::InputSystem::Layouts::InputDeviceDescription deviceDescription);
+/// @brief Method Setup, addr 0x45909f4, size 0x154, virtual false, abstract: false, final false
+inline void Setup(::UnityEngine::InputSystem::Utilities::InternedString  layout, ::UnityEngine::InputSystem::Utilities::InternedString  variants, ::UnityEngine::InputSystem::Layouts::InputDeviceDescription  deviceDescription) ;
 
-  /// @brief Method ShiftChildIndicesInHierarchyOneUp, addr 0x31aab60, size 0x60, virtual false, abstract: false, final false
-  static inline void ShiftChildIndicesInHierarchyOneUp(::UnityEngine::InputSystem::InputDevice* device, int32_t startIndex, ::UnityEngine::InputSystem::InputControl* exceptControl);
+/// @brief Method ShiftChildIndicesInHierarchyOneUp, addr 0x4593684, size 0x60, virtual false, abstract: false, final false
+static inline void ShiftChildIndicesInHierarchyOneUp(::UnityEngine::InputSystem::InputDevice*  device, int32_t  startIndex, ::UnityEngine::InputSystem::InputControl*  exceptControl) ;
 
-  static inline ::UnityEngine::InputSystem::Layouts::InputDeviceBuilder getStaticF_s_Instance();
+static inline ::UnityEngine::InputSystem::Layouts::InputDeviceBuilder getStaticF_s_Instance() ;
 
-  static inline int32_t getStaticF_s_InstanceRef();
+static inline int32_t getStaticF_s_InstanceRef() ;
 
-  /// @brief Method get_instance, addr 0x31abbdc, size 0x44, virtual false, abstract: false, final false
-  static inline ByRef<::UnityEngine::InputSystem::Layouts::InputDeviceBuilder> get_instance();
+/// @brief Method get_instance, addr 0x4594960, size 0x44, virtual false, abstract: false, final false
+static inline ByRef<::UnityEngine::InputSystem::Layouts::InputDeviceBuilder> get_instance() ;
 
-  /// @brief Convert to "::System::IDisposable"
-  constexpr ::System::IDisposable* i___System__IDisposable();
+/// @brief Convert to "::System::IDisposable"
+constexpr ::System::IDisposable* i___System__IDisposable() ;
 
-  static inline void setStaticF_s_Instance(::UnityEngine::InputSystem::Layouts::InputDeviceBuilder value);
+static inline void setStaticF_s_Instance(::UnityEngine::InputSystem::Layouts::InputDeviceBuilder  value) ;
 
-  static inline void setStaticF_s_InstanceRef(int32_t value);
+static inline void setStaticF_s_InstanceRef(int32_t  value) ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr InputDeviceBuilder();
+// Ctor Parameters []
+// @brief default ctor
+constexpr InputDeviceBuilder() ;
 
-  // Ctor Parameters [CppParam { name: "m_Device", ty: "::UnityEngine::InputSystem::InputDevice*", modifiers: "", def_value: None }, CppParam { name: "m_LayoutCacheRef", ty:
-  // "::UnityEngine::InputSystem::Layouts::__InputControlLayout__CacheRefInstance", modifiers: "", def_value: None }, CppParam { name: "m_ChildControlOverrides", ty:
-  // "::System::Collections::Generic::Dictionary_2<::StringW,::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem>*", modifiers: "", def_value: None }, CppParam { name:
-  // "m_StateOffsetToControlMap", ty: "::System::Collections::Generic::List_1<uint32_t>*", modifiers: "", def_value: None }, CppParam { name: "m_StringBuilder", ty: "::System::Text::StringBuilder*",
-  // modifiers: "", def_value: None }]
-  constexpr InputDeviceBuilder(::UnityEngine::InputSystem::InputDevice* m_Device, ::UnityEngine::InputSystem::Layouts::__InputControlLayout__CacheRefInstance m_LayoutCacheRef,
-                               ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem>* m_ChildControlOverrides,
-                               ::System::Collections::Generic::List_1<uint32_t>* m_StateOffsetToControlMap, ::System::Text::StringBuilder* m_StringBuilder) noexcept;
+// Ctor Parameters [CppParam { name: "m_Device", ty: "::UnityEngine::InputSystem::InputDevice*", modifiers: "", def_value: None }, CppParam { name: "m_LayoutCacheRef", ty: "::UnityEngine::InputSystem::Layouts::__InputControlLayout__CacheRefInstance", modifiers: "", def_value: None }, CppParam { name: "m_ChildControlOverrides", ty: "::System::Collections::Generic::Dictionary_2<::StringW,::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem>*", modifiers: "", def_value: None }, CppParam { name: "m_StateOffsetToControlMap", ty: "::System::Collections::Generic::List_1<uint32_t>*", modifiers: "", def_value: None }, CppParam { name: "m_StringBuilder", ty: "::System::Text::StringBuilder*", modifiers: "", def_value: None }]
+constexpr InputDeviceBuilder(::UnityEngine::InputSystem::InputDevice*  m_Device, ::UnityEngine::InputSystem::Layouts::__InputControlLayout__CacheRefInstance  m_LayoutCacheRef, ::System::Collections::Generic::Dictionary_2<::StringW,::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem>*  m_ChildControlOverrides, ::System::Collections::Generic::List_1<uint32_t>*  m_StateOffsetToControlMap, ::System::Text::StringBuilder*  m_StringBuilder) noexcept;
 
-  /// @brief Field m_Device, offset: 0x0, size: 0x8, def value: None
-  ::UnityEngine::InputSystem::InputDevice* m_Device;
+/// @brief Field m_Device, offset: 0x0, size: 0x8, def value: None
+ ::UnityEngine::InputSystem::InputDevice*  m_Device;
 
-  /// @brief Field m_LayoutCacheRef, offset: 0x8, size: 0x1, def value: None
-  ::UnityEngine::InputSystem::Layouts::__InputControlLayout__CacheRefInstance m_LayoutCacheRef;
+/// @brief Field m_LayoutCacheRef, offset: 0x8, size: 0x1, def value: None
+ ::UnityEngine::InputSystem::Layouts::__InputControlLayout__CacheRefInstance  m_LayoutCacheRef;
 
-  /// @brief Field m_ChildControlOverrides, offset: 0x10, size: 0x8, def value: None
-  ::System::Collections::Generic::Dictionary_2<::StringW, ::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem>* m_ChildControlOverrides;
+/// @brief Field m_ChildControlOverrides, offset: 0x10, size: 0x8, def value: None
+ ::System::Collections::Generic::Dictionary_2<::StringW,::UnityEngine::InputSystem::Layouts::__InputControlLayout__ControlItem>*  m_ChildControlOverrides;
 
-  /// @brief Field m_StateOffsetToControlMap, offset: 0x18, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<uint32_t>* m_StateOffsetToControlMap;
+/// @brief Field m_StateOffsetToControlMap, offset: 0x18, size: 0x8, def value: None
+ ::System::Collections::Generic::List_1<uint32_t>*  m_StateOffsetToControlMap;
 
-  /// @brief Field m_StringBuilder, offset: 0x20, size: 0x8, def value: None
-  ::System::Text::StringBuilder* m_StringBuilder;
+/// @brief Field m_StringBuilder, offset: 0x20, size: 0x8, def value: None
+ ::System::Text::StringBuilder*  m_StringBuilder;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x28};
 
-  /// @brief Field kSizeForControlUsingStateFromOtherControl offset 0xffffffff size 0x4
-  static constexpr uint32_t kSizeForControlUsingStateFromOtherControl{ static_cast<uint32_t>(0x10101ffu) };
+/// @brief Field kSizeForControlUsingStateFromOtherControl offset 0xffffffff size 0x4
+static constexpr uint32_t  kSizeForControlUsingStateFromOtherControl{static_cast<uint32_t>(0x10101ffu)};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Layouts::InputDeviceBuilder, 0x28>, "Size mismatch!");
@@ -275,6 +256,6 @@ static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputDeviceBuilder, 
 
 static_assert(offsetof(::UnityEngine::InputSystem::Layouts::InputDeviceBuilder, m_StringBuilder) == 0x20, "Offset mismatch!");
 
-} // namespace UnityEngine::InputSystem::Layouts
+} // namespace end def UnityEngine::InputSystem::Layouts
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Layouts::InputDeviceBuilder, "UnityEngine.InputSystem.Layouts", "InputDeviceBuilder");
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Layouts::__InputDeviceBuilder__RefInstance, "UnityEngine.InputSystem.Layouts", "InputDeviceBuilder/RefInstance");

@@ -61,126 +61,126 @@ MARK_REF_PTR_T(::System::Collections::ArrayList);
 MARK_REF_PTR_T(::System::Collections::__ArrayList__ArrayListDebugView);
 MARK_REF_PTR_T(::System::Collections::__ArrayList__ArrayListEnumeratorSimple);
 // Type: ::ArrayListEnumeratorSimple
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 41, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Collections {
 // Is value type: false
 // CS Name: ::ArrayList::ArrayListEnumeratorSimple*
 class CORDL_TYPE __ArrayList__ArrayListEnumeratorSimple : public ::System::Object {
 public:
-  // Declarations
-  __declspec(property(get = get_Current))::System::Object* Current;
+// Declarations
+ __declspec(property(get=get_Current)) ::System::Object*  Current;
 
-  /// @brief Field _currentElement, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__currentElement, put = __cordl_internal_set__currentElement))::System::Object* _currentElement;
+/// @brief Field _currentElement, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get__currentElement, put=__cordl_internal_set__currentElement)) ::System::Object*  _currentElement;
 
-  /// @brief Field _index, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get__index, put = __cordl_internal_set__index)) int32_t _index;
+/// @brief Field _index, offset 0x18, size 0x4 
+ __declspec(property(get=__cordl_internal_get__index, put=__cordl_internal_set__index)) int32_t  _index;
 
-  /// @brief Field _isArrayList, offset 0x28, size 0x1
-  __declspec(property(get = __cordl_internal_get__isArrayList, put = __cordl_internal_set__isArrayList)) bool _isArrayList;
+/// @brief Field _isArrayList, offset 0x28, size 0x1 
+ __declspec(property(get=__cordl_internal_get__isArrayList, put=__cordl_internal_set__isArrayList)) bool  _isArrayList;
 
-  /// @brief Field _list, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__list, put = __cordl_internal_set__list))::System::Collections::ArrayList* _list;
+/// @brief Field _list, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get__list, put=__cordl_internal_set__list)) ::System::Collections::ArrayList*  _list;
 
-  /// @brief Field _version, offset 0x1c, size 0x4
-  __declspec(property(get = __cordl_internal_get__version, put = __cordl_internal_set__version)) int32_t _version;
+/// @brief Field _version, offset 0x1c, size 0x4 
+ __declspec(property(get=__cordl_internal_get__version, put=__cordl_internal_set__version)) int32_t  _version;
 
-  /// @brief Field s_dummyObject, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_dummyObject, put = setStaticF_s_dummyObject))::System::Object* s_dummyObject;
+/// @brief Field s_dummyObject, offset 0xffffffff, size 0x8 
+static __declspec(property(get=getStaticF_s_dummyObject, put=setStaticF_s_dummyObject)) ::System::Object*  s_dummyObject;
 
-  /// @brief Convert operator to "::System::Collections::IEnumerator"
-  constexpr operator ::System::Collections::IEnumerator*() noexcept;
+/// @brief Convert operator to "::System::Collections::IEnumerator"
+constexpr operator  ::System::Collections::IEnumerator*() noexcept;
 
-  /// @brief Convert operator to "::System::ICloneable"
-  constexpr operator ::System::ICloneable*() noexcept;
+/// @brief Convert operator to "::System::ICloneable"
+constexpr operator  ::System::ICloneable*() noexcept;
 
-  /// @brief Method Clone, addr 0x293bdb8, size 0x8, virtual true, abstract: false, final true
-  inline ::System::Object* Clone();
+/// @brief Method Clone, addr 0x3d345f0, size 0x8, virtual true, abstract: false, final true
+inline ::System::Object* Clone() ;
 
-  /// @brief Method MoveNext, addr 0x293bdc0, size 0x1d0, virtual true, abstract: false, final true
-  inline bool MoveNext();
+/// @brief Method MoveNext, addr 0x3d345f8, size 0x1d4, virtual true, abstract: false, final true
+inline bool MoveNext() ;
 
-  static inline ::System::Collections::__ArrayList__ArrayListEnumeratorSimple* New_ctor(::System::Collections::ArrayList* list);
+static inline ::System::Collections::__ArrayList__ArrayListEnumeratorSimple* New_ctor(::System::Collections::ArrayList*  list) ;
 
-  /// @brief Method Reset, addr 0x293c064, size 0xd0, virtual true, abstract: false, final true
-  inline void Reset();
+/// @brief Method Reset, addr 0x3d34898, size 0xcc, virtual true, abstract: false, final true
+inline void Reset() ;
 
-  constexpr ::System::Object*& __cordl_internal_get__currentElement();
+constexpr ::System::Object*& __cordl_internal_get__currentElement() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__currentElement() const;
+constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__currentElement() const;
 
-  constexpr int32_t const& __cordl_internal_get__index() const;
+constexpr int32_t const& __cordl_internal_get__index() const;
 
-  constexpr int32_t& __cordl_internal_get__index();
+constexpr int32_t& __cordl_internal_get__index() ;
 
-  constexpr bool const& __cordl_internal_get__isArrayList() const;
+constexpr bool const& __cordl_internal_get__isArrayList() const;
 
-  constexpr bool& __cordl_internal_get__isArrayList();
+constexpr bool& __cordl_internal_get__isArrayList() ;
 
-  constexpr ::System::Collections::ArrayList*& __cordl_internal_get__list();
+constexpr ::System::Collections::ArrayList*& __cordl_internal_get__list() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& __cordl_internal_get__list() const;
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& __cordl_internal_get__list() const;
 
-  constexpr int32_t const& __cordl_internal_get__version() const;
+constexpr int32_t const& __cordl_internal_get__version() const;
 
-  constexpr int32_t& __cordl_internal_get__version();
+constexpr int32_t& __cordl_internal_get__version() ;
 
-  constexpr void __cordl_internal_set__currentElement(::System::Object* value);
+constexpr void __cordl_internal_set__currentElement(::System::Object*  value) ;
 
-  constexpr void __cordl_internal_set__index(int32_t value);
+constexpr void __cordl_internal_set__index(int32_t  value) ;
 
-  constexpr void __cordl_internal_set__isArrayList(bool value);
+constexpr void __cordl_internal_set__isArrayList(bool  value) ;
 
-  constexpr void __cordl_internal_set__list(::System::Collections::ArrayList* value);
+constexpr void __cordl_internal_set__list(::System::Collections::ArrayList*  value) ;
 
-  constexpr void __cordl_internal_set__version(int32_t value);
+constexpr void __cordl_internal_set__version(int32_t  value) ;
 
-  /// @brief Method .ctor, addr 0x2938bc0, size 0x108, virtual false, abstract: false, final false
-  inline void _ctor(::System::Collections::ArrayList* list);
+/// @brief Method .ctor, addr 0x3d31494, size 0x108, virtual false, abstract: false, final false
+inline void _ctor(::System::Collections::ArrayList*  list) ;
 
-  static inline ::System::Object* getStaticF_s_dummyObject();
+static inline ::System::Object* getStaticF_s_dummyObject() ;
 
-  /// @brief Method get_Current, addr 0x293bf90, size 0xd4, virtual true, abstract: false, final true
-  inline ::System::Object* get_Current();
+/// @brief Method get_Current, addr 0x3d347cc, size 0xcc, virtual true, abstract: false, final true
+inline ::System::Object* get_Current() ;
 
-  /// @brief Convert to "::System::Collections::IEnumerator"
-  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+/// @brief Convert to "::System::Collections::IEnumerator"
+constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
-  /// @brief Convert to "::System::ICloneable"
-  constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
+/// @brief Convert to "::System::ICloneable"
+constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
-  static inline void setStaticF_s_dummyObject(::System::Object* value);
+static inline void setStaticF_s_dummyObject(::System::Object*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __ArrayList__ArrayListEnumeratorSimple();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __ArrayList__ArrayListEnumeratorSimple() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__ArrayList__ArrayListEnumeratorSimple", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __ArrayList__ArrayListEnumeratorSimple(__ArrayList__ArrayListEnumeratorSimple&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__ArrayList__ArrayListEnumeratorSimple", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __ArrayList__ArrayListEnumeratorSimple(__ArrayList__ArrayListEnumeratorSimple const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__ArrayList__ArrayListEnumeratorSimple", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__ArrayList__ArrayListEnumeratorSimple(__ArrayList__ArrayListEnumeratorSimple && ) = delete;
 
-  /// @brief Field _list, offset: 0x10, size: 0x8, def value: None
-  ::System::Collections::ArrayList* ____list;
+// Ctor Parameters [CppParam { name: "", ty: "__ArrayList__ArrayListEnumeratorSimple", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__ArrayList__ArrayListEnumeratorSimple(__ArrayList__ArrayListEnumeratorSimple const& ) = delete;
 
-  /// @brief Field _index, offset: 0x18, size: 0x4, def value: None
-  int32_t ____index;
+/// @brief Field _list, offset: 0x10, size: 0x8, def value: None
+ ::System::Collections::ArrayList*  ____list;
 
-  /// @brief Field _version, offset: 0x1c, size: 0x4, def value: None
-  int32_t ____version;
+/// @brief Field _index, offset: 0x18, size: 0x4, def value: None
+ int32_t  ____index;
 
-  /// @brief Field _currentElement, offset: 0x20, size: 0x8, def value: None
-  ::System::Object* ____currentElement;
+/// @brief Field _version, offset: 0x1c, size: 0x4, def value: None
+ int32_t  ____version;
 
-  /// @brief Field _isArrayList, offset: 0x28, size: 0x1, def value: None
-  bool ____isArrayList;
+/// @brief Field _currentElement, offset: 0x20, size: 0x8, def value: None
+ ::System::Object*  ____currentElement;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _isArrayList, offset: 0x28, size: 0x1, def value: None
+ bool  ____isArrayList;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Collections::__ArrayList__ArrayListEnumeratorSimple, 0x30>, "Size mismatch!");
@@ -195,263 +195,263 @@ static_assert(offsetof(::System::Collections::__ArrayList__ArrayListEnumeratorSi
 
 static_assert(offsetof(::System::Collections::__ArrayList__ArrayListEnumeratorSimple, ____isArrayList) == 0x28, "Offset mismatch!");
 
-} // namespace System::Collections
+} // namespace end def System::Collections
 // Type: ::ArrayListDebugView
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Collections {
 // Is value type: false
 // CS Name: ::ArrayList::ArrayListDebugView*
 class CORDL_TYPE __ArrayList__ArrayListDebugView : public ::System::Object {
 public:
-  // Declarations
+// Declarations
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __ArrayList__ArrayListDebugView();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __ArrayList__ArrayListDebugView() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__ArrayList__ArrayListDebugView", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __ArrayList__ArrayListDebugView(__ArrayList__ArrayListDebugView&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__ArrayList__ArrayListDebugView", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __ArrayList__ArrayListDebugView(__ArrayList__ArrayListDebugView const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__ArrayList__ArrayListDebugView", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__ArrayList__ArrayListDebugView(__ArrayList__ArrayListDebugView && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "__ArrayList__ArrayListDebugView", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__ArrayList__ArrayListDebugView(__ArrayList__ArrayListDebugView const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Collections::__ArrayList__ArrayListDebugView, 0x10>, "Size mismatch!");
 
-} // namespace System::Collections
+} // namespace end def System::Collections
 // Type: System.Collections::ArrayList
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Collections {
 // Is value type: false
 // CS Name: ::System.Collections::ArrayList*
 class CORDL_TYPE ArrayList : public ::System::Object {
 public:
-  // Declarations
-  using ArrayListDebugView = ::System::Collections::__ArrayList__ArrayListDebugView;
+// Declarations
+using ArrayListDebugView = ::System::Collections::__ArrayList__ArrayListDebugView;
 
-  using ArrayListEnumeratorSimple = ::System::Collections::__ArrayList__ArrayListEnumeratorSimple;
+using ArrayListEnumeratorSimple = ::System::Collections::__ArrayList__ArrayListEnumeratorSimple;
 
-  using IListWrapper = ::System::Collections::__ArrayList__IListWrapper;
+using IListWrapper = ::System::Collections::__ArrayList__IListWrapper;
 
-  using ReadOnlyArrayList = ::System::Collections::__ArrayList__ReadOnlyArrayList;
+using ReadOnlyArrayList = ::System::Collections::__ArrayList__ReadOnlyArrayList;
 
-  __declspec(property(put = set_Capacity)) int32_t Capacity;
+ __declspec(property(put=set_Capacity)) int32_t  Capacity;
 
-  __declspec(property(get = get_Count)) int32_t Count;
+ __declspec(property(get=get_Count)) int32_t  Count;
 
-  __declspec(property(get = get_IsFixedSize)) bool IsFixedSize;
+ __declspec(property(get=get_IsFixedSize)) bool  IsFixedSize;
 
-  __declspec(property(get = get_IsReadOnly)) bool IsReadOnly;
+ __declspec(property(get=get_IsReadOnly)) bool  IsReadOnly;
 
-  __declspec(property(get = get_IsSynchronized)) bool IsSynchronized;
+ __declspec(property(get=get_IsSynchronized)) bool  IsSynchronized;
 
-  __declspec(property(get = get_Item, put = set_Item))::System::Object* Item[];
+ __declspec(property(get=get_Item, put=set_Item)) ::System::Object*  Item[];
 
-  __declspec(property(get = get_SyncRoot))::System::Object* SyncRoot;
+ __declspec(property(get=get_SyncRoot)) ::System::Object*  SyncRoot;
 
-  /// @brief Field _items, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__items, put = __cordl_internal_set__items))::ArrayW<::System::Object*, ::Array<::System::Object*>*> _items;
+/// @brief Field _items, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get__items, put=__cordl_internal_set__items)) ::ArrayW<::System::Object*,::Array<::System::Object*>*>  _items;
 
-  /// @brief Field _size, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get__size, put = __cordl_internal_set__size)) int32_t _size;
+/// @brief Field _size, offset 0x18, size 0x4 
+ __declspec(property(get=__cordl_internal_get__size, put=__cordl_internal_set__size)) int32_t  _size;
 
-  /// @brief Field _syncRoot, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__syncRoot, put = __cordl_internal_set__syncRoot))::System::Object* _syncRoot;
+/// @brief Field _syncRoot, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get__syncRoot, put=__cordl_internal_set__syncRoot)) ::System::Object*  _syncRoot;
 
-  /// @brief Field _version, offset 0x1c, size 0x4
-  __declspec(property(get = __cordl_internal_get__version, put = __cordl_internal_set__version)) int32_t _version;
+/// @brief Field _version, offset 0x1c, size 0x4 
+ __declspec(property(get=__cordl_internal_get__version, put=__cordl_internal_set__version)) int32_t  _version;
 
-  /// @brief Convert operator to "::System::Collections::ICollection"
-  constexpr operator ::System::Collections::ICollection*() noexcept;
+/// @brief Convert operator to "::System::Collections::ICollection"
+constexpr operator  ::System::Collections::ICollection*() noexcept;
 
-  /// @brief Convert operator to "::System::Collections::IEnumerable"
-  constexpr operator ::System::Collections::IEnumerable*() noexcept;
+/// @brief Convert operator to "::System::Collections::IEnumerable"
+constexpr operator  ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Convert operator to "::System::Collections::IList"
-  constexpr operator ::System::Collections::IList*() noexcept;
+/// @brief Convert operator to "::System::Collections::IList"
+constexpr operator  ::System::Collections::IList*() noexcept;
 
-  /// @brief Convert operator to "::System::ICloneable"
-  constexpr operator ::System::ICloneable*() noexcept;
+/// @brief Convert operator to "::System::ICloneable"
+constexpr operator  ::System::ICloneable*() noexcept;
 
-  /// @brief Method Adapter, addr 0x2938614, size 0xb4, virtual false, abstract: false, final false
-  static inline ::System::Collections::ArrayList* Adapter(::System::Collections::IList* list);
+/// @brief Method Adapter, addr 0x3d30efc, size 0xa8, virtual false, abstract: false, final false
+static inline ::System::Collections::ArrayList* Adapter(::System::Collections::IList*  list) ;
 
-  /// @brief Method Add, addr 0x29386f0, size 0xa8, virtual true, abstract: false, final false
-  inline int32_t Add(::System::Object* value);
+/// @brief Method Add, addr 0x3d30fcc, size 0xa8, virtual true, abstract: false, final false
+inline int32_t Add(::System::Object*  value) ;
 
-  /// @brief Method AddRange, addr 0x29387f4, size 0x1c, virtual true, abstract: false, final false
-  inline void AddRange(::System::Collections::ICollection* c);
+/// @brief Method AddRange, addr 0x3d310d0, size 0x1c, virtual true, abstract: false, final false
+inline void AddRange(::System::Collections::ICollection*  c) ;
 
-  /// @brief Method Clear, addr 0x2938810, size 0x3c, virtual true, abstract: false, final false
-  inline void Clear();
+/// @brief Method Clear, addr 0x3d310ec, size 0x3c, virtual true, abstract: false, final false
+inline void Clear() ;
 
-  /// @brief Method Clone, addr 0x293884c, size 0x88, virtual true, abstract: false, final false
-  inline ::System::Object* Clone();
+/// @brief Method Clone, addr 0x3d31128, size 0x88, virtual true, abstract: false, final false
+inline ::System::Object* Clone() ;
 
-  /// @brief Method Contains, addr 0x29388d4, size 0xc0, virtual true, abstract: false, final false
-  inline bool Contains(::System::Object* item);
+/// @brief Method Contains, addr 0x3d311b0, size 0xcc, virtual true, abstract: false, final false
+inline bool Contains(::System::Object*  item) ;
 
-  /// @brief Method CopyTo, addr 0x2938994, size 0x14, virtual true, abstract: false, final false
-  inline void CopyTo(::System::Array* array);
+/// @brief Method CopyTo, addr 0x3d3127c, size 0x14, virtual true, abstract: false, final false
+inline void CopyTo(::System::Array*  array) ;
 
-  /// @brief Method CopyTo, addr 0x29389a8, size 0xb0, virtual true, abstract: false, final false
-  inline void CopyTo(::System::Array* array, int32_t arrayIndex);
+/// @brief Method CopyTo, addr 0x3d31290, size 0xac, virtual true, abstract: false, final false
+inline void CopyTo(::System::Array*  array, int32_t  arrayIndex) ;
 
-  /// @brief Method CopyTo, addr 0x2938a58, size 0x108, virtual true, abstract: false, final false
-  inline void CopyTo(int32_t index, ::System::Array* array, int32_t arrayIndex, int32_t count);
+/// @brief Method CopyTo, addr 0x3d3133c, size 0x100, virtual true, abstract: false, final false
+inline void CopyTo(int32_t  index, ::System::Array*  array, int32_t  arrayIndex, int32_t  count) ;
 
-  /// @brief Method EnsureCapacity, addr 0x2938798, size 0x5c, virtual false, abstract: false, final false
-  inline void EnsureCapacity(int32_t min);
+/// @brief Method EnsureCapacity, addr 0x3d31074, size 0x5c, virtual false, abstract: false, final false
+inline void EnsureCapacity(int32_t  min) ;
 
-  /// @brief Method GetEnumerator, addr 0x2938b60, size 0x60, virtual true, abstract: false, final false
-  inline ::System::Collections::IEnumerator* GetEnumerator();
+/// @brief Method GetEnumerator, addr 0x3d3143c, size 0x58, virtual true, abstract: false, final false
+inline ::System::Collections::IEnumerator* GetEnumerator() ;
 
-  /// @brief Method IndexOf, addr 0x2938cc8, size 0x18, virtual true, abstract: false, final false
-  inline int32_t IndexOf(::System::Object* value);
+/// @brief Method IndexOf, addr 0x3d3159c, size 0x18, virtual true, abstract: false, final false
+inline int32_t IndexOf(::System::Object*  value) ;
 
-  /// @brief Method Insert, addr 0x2938ce0, size 0x134, virtual true, abstract: false, final false
-  inline void Insert(int32_t index, ::System::Object* value);
+/// @brief Method Insert, addr 0x3d315b4, size 0x130, virtual true, abstract: false, final false
+inline void Insert(int32_t  index, ::System::Object*  value) ;
 
-  /// @brief Method InsertRange, addr 0x2938e14, size 0x264, virtual true, abstract: false, final false
-  inline void InsertRange(int32_t index, ::System::Collections::ICollection* c);
+/// @brief Method InsertRange, addr 0x3d316e4, size 0x25c, virtual true, abstract: false, final false
+inline void InsertRange(int32_t  index, ::System::Collections::ICollection*  c) ;
 
-  static inline ::System::Collections::ArrayList* New_ctor();
+static inline ::System::Collections::ArrayList* New_ctor() ;
 
-  static inline ::System::Collections::ArrayList* New_ctor(::System::Collections::ICollection* c);
+static inline ::System::Collections::ArrayList* New_ctor(::System::Collections::ICollection*  c) ;
 
-  static inline ::System::Collections::ArrayList* New_ctor(int32_t capacity);
+static inline ::System::Collections::ArrayList* New_ctor(int32_t  capacity) ;
 
-  /// @brief Method ReadOnly, addr 0x2939078, size 0xb0, virtual false, abstract: false, final false
-  static inline ::System::Collections::ArrayList* ReadOnly(::System::Collections::ArrayList* list);
+/// @brief Method ReadOnly, addr 0x3d31940, size 0xa4, virtual false, abstract: false, final false
+static inline ::System::Collections::ArrayList* ReadOnly(::System::Collections::ArrayList*  list) ;
 
-  /// @brief Method Remove, addr 0x293914c, size 0x40, virtual true, abstract: false, final false
-  inline void Remove(::System::Object* obj);
+/// @brief Method Remove, addr 0x3d31a08, size 0x40, virtual true, abstract: false, final false
+inline void Remove(::System::Object*  obj) ;
 
-  /// @brief Method RemoveAt, addr 0x293918c, size 0xe4, virtual true, abstract: false, final false
-  inline void RemoveAt(int32_t index);
+/// @brief Method RemoveAt, addr 0x3d31a48, size 0xe0, virtual true, abstract: false, final false
+inline void RemoveAt(int32_t  index) ;
 
-  /// @brief Method RemoveRange, addr 0x2939270, size 0x168, virtual true, abstract: false, final false
-  inline void RemoveRange(int32_t index, int32_t count);
+/// @brief Method RemoveRange, addr 0x3d31b28, size 0x164, virtual true, abstract: false, final false
+inline void RemoveRange(int32_t  index, int32_t  count) ;
 
-  /// @brief Method Reverse, addr 0x29393d8, size 0x38, virtual true, abstract: false, final false
-  inline void Reverse();
+/// @brief Method Reverse, addr 0x3d31c8c, size 0x38, virtual true, abstract: false, final false
+inline void Reverse() ;
 
-  /// @brief Method Reverse, addr 0x2939410, size 0x144, virtual true, abstract: false, final false
-  inline void Reverse(int32_t index, int32_t count);
+/// @brief Method Reverse, addr 0x3d31cc4, size 0x138, virtual true, abstract: false, final false
+inline void Reverse(int32_t  index, int32_t  count) ;
 
-  /// @brief Method Sort, addr 0x2939554, size 0x4c, virtual true, abstract: false, final false
-  inline void Sort(::System::Collections::IComparer* comparer);
+/// @brief Method Sort, addr 0x3d31dfc, size 0x4c, virtual true, abstract: false, final false
+inline void Sort(::System::Collections::IComparer*  comparer) ;
 
-  /// @brief Method Sort, addr 0x29395a0, size 0x104, virtual true, abstract: false, final false
-  inline void Sort(int32_t index, int32_t count, ::System::Collections::IComparer* comparer);
+/// @brief Method Sort, addr 0x3d31e48, size 0xf8, virtual true, abstract: false, final false
+inline void Sort(int32_t  index, int32_t  count, ::System::Collections::IComparer*  comparer) ;
 
-  /// @brief Method ToArray, addr 0x29396a4, size 0xd0, virtual true, abstract: false, final false
-  inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> ToArray();
+/// @brief Method ToArray, addr 0x3d31f40, size 0xe0, virtual true, abstract: false, final false
+inline ::ArrayW<::System::Object*,::Array<::System::Object*>*> ToArray() ;
 
-  /// @brief Method ToArray, addr 0x2939774, size 0xf4, virtual true, abstract: false, final false
-  inline ::System::Array* ToArray(::System::Type* type);
+/// @brief Method ToArray, addr 0x3d32020, size 0xf0, virtual true, abstract: false, final false
+inline ::System::Array* ToArray(::System::Type*  type) ;
 
-  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*> const& __cordl_internal_get__items() const;
+constexpr ::ArrayW<::System::Object*,::Array<::System::Object*>*> const& __cordl_internal_get__items() const;
 
-  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*>& __cordl_internal_get__items();
+constexpr ::ArrayW<::System::Object*,::Array<::System::Object*>*>& __cordl_internal_get__items() ;
 
-  constexpr int32_t const& __cordl_internal_get__size() const;
+constexpr int32_t const& __cordl_internal_get__size() const;
 
-  constexpr int32_t& __cordl_internal_get__size();
+constexpr int32_t& __cordl_internal_get__size() ;
 
-  constexpr ::System::Object*& __cordl_internal_get__syncRoot();
+constexpr ::System::Object*& __cordl_internal_get__syncRoot() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__syncRoot() const;
+constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__syncRoot() const;
 
-  constexpr int32_t const& __cordl_internal_get__version() const;
+constexpr int32_t const& __cordl_internal_get__version() const;
 
-  constexpr int32_t& __cordl_internal_get__version();
+constexpr int32_t& __cordl_internal_get__version() ;
 
-  constexpr void __cordl_internal_set__items(::ArrayW<::System::Object*, ::Array<::System::Object*>*> value);
+constexpr void __cordl_internal_set__items(::ArrayW<::System::Object*,::Array<::System::Object*>*>  value) ;
 
-  constexpr void __cordl_internal_set__size(int32_t value);
+constexpr void __cordl_internal_set__size(int32_t  value) ;
 
-  constexpr void __cordl_internal_set__syncRoot(::System::Object* value);
+constexpr void __cordl_internal_set__syncRoot(::System::Object*  value) ;
 
-  constexpr void __cordl_internal_set__version(int32_t value);
+constexpr void __cordl_internal_set__version(int32_t  value) ;
 
-  /// @brief Method .ctor, addr 0x29316b4, size 0x90, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x3d2a0f8, size 0xa0, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method .ctor, addr 0x2938120, size 0x1b0, virtual false, abstract: false, final false
-  inline void _ctor(::System::Collections::ICollection* c);
+/// @brief Method .ctor, addr 0x3d30a10, size 0x1bc, virtual false, abstract: false, final false
+inline void _ctor(::System::Collections::ICollection*  c) ;
 
-  /// @brief Method .ctor, addr 0x2937fdc, size 0x144, virtual false, abstract: false, final false
-  inline void _ctor(int32_t capacity);
+/// @brief Method .ctor, addr 0x3d308c0, size 0x150, virtual false, abstract: false, final false
+inline void _ctor(int32_t  capacity) ;
 
-  /// @brief Method get_Count, addr 0x29383e8, size 0x8, virtual true, abstract: false, final false
-  inline int32_t get_Count();
+/// @brief Method get_Count, addr 0x3d30ce0, size 0x8, virtual true, abstract: false, final false
+inline int32_t get_Count() ;
 
-  /// @brief Method get_IsFixedSize, addr 0x29383f0, size 0x8, virtual true, abstract: false, final false
-  inline bool get_IsFixedSize();
+/// @brief Method get_IsFixedSize, addr 0x3d30ce8, size 0x8, virtual true, abstract: false, final false
+inline bool get_IsFixedSize() ;
 
-  /// @brief Method get_IsReadOnly, addr 0x29383f8, size 0x8, virtual true, abstract: false, final false
-  inline bool get_IsReadOnly();
+/// @brief Method get_IsReadOnly, addr 0x3d30cf0, size 0x8, virtual true, abstract: false, final false
+inline bool get_IsReadOnly() ;
 
-  /// @brief Method get_IsSynchronized, addr 0x2938400, size 0x8, virtual true, abstract: false, final false
-  inline bool get_IsSynchronized();
+/// @brief Method get_IsSynchronized, addr 0x3d30cf8, size 0x8, virtual true, abstract: false, final false
+inline bool get_IsSynchronized() ;
 
-  /// @brief Method get_Item, addr 0x2938480, size 0xa8, virtual true, abstract: false, final false
-  inline ::System::Object* get_Item(int32_t index);
+/// @brief Method get_Item, addr 0x3d30d70, size 0xa4, virtual true, abstract: false, final false
+inline ::System::Object* get_Item(int32_t  index) ;
 
-  /// @brief Method get_SyncRoot, addr 0x2938408, size 0x78, virtual true, abstract: false, final false
-  inline ::System::Object* get_SyncRoot();
+/// @brief Method get_SyncRoot, addr 0x3d30d00, size 0x70, virtual true, abstract: false, final false
+inline ::System::Object* get_SyncRoot() ;
 
-  /// @brief Convert to "::System::Collections::ICollection"
-  constexpr ::System::Collections::ICollection* i___System__Collections__ICollection() noexcept;
+/// @brief Convert to "::System::Collections::ICollection"
+constexpr ::System::Collections::ICollection* i___System__Collections__ICollection() noexcept;
 
-  /// @brief Convert to "::System::Collections::IEnumerable"
-  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
+/// @brief Convert to "::System::Collections::IEnumerable"
+constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
-  /// @brief Convert to "::System::Collections::IList"
-  constexpr ::System::Collections::IList* i___System__Collections__IList() noexcept;
+/// @brief Convert to "::System::Collections::IList"
+constexpr ::System::Collections::IList* i___System__Collections__IList() noexcept;
 
-  /// @brief Convert to "::System::ICloneable"
-  constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
+/// @brief Convert to "::System::ICloneable"
+constexpr ::System::ICloneable* i___System__ICloneable() noexcept;
 
-  /// @brief Method set_Capacity, addr 0x29382d0, size 0x118, virtual true, abstract: false, final false
-  inline void set_Capacity(int32_t value);
+/// @brief Method set_Capacity, addr 0x3d30bcc, size 0x114, virtual true, abstract: false, final false
+inline void set_Capacity(int32_t  value) ;
 
-  /// @brief Method set_Item, addr 0x2938528, size 0xec, virtual true, abstract: false, final false
-  inline void set_Item(int32_t index, ::System::Object* value);
+/// @brief Method set_Item, addr 0x3d30e14, size 0xe8, virtual true, abstract: false, final false
+inline void set_Item(int32_t  index, ::System::Object*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ArrayList();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ArrayList() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ArrayList", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ArrayList(ArrayList&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ArrayList", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ArrayList(ArrayList const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ArrayList", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ArrayList(ArrayList && ) = delete;
 
-  /// @brief Field _items, offset: 0x10, size: 0x8, def value: None
-  ::ArrayW<::System::Object*, ::Array<::System::Object*>*> ____items;
+// Ctor Parameters [CppParam { name: "", ty: "ArrayList", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ArrayList(ArrayList const& ) = delete;
 
-  /// @brief Field _size, offset: 0x18, size: 0x4, def value: None
-  int32_t ____size;
+/// @brief Field _items, offset: 0x10, size: 0x8, def value: None
+ ::ArrayW<::System::Object*,::Array<::System::Object*>*>  ____items;
 
-  /// @brief Field _version, offset: 0x1c, size: 0x4, def value: None
-  int32_t ____version;
+/// @brief Field _size, offset: 0x18, size: 0x4, def value: None
+ int32_t  ____size;
 
-  /// @brief Field _syncRoot, offset: 0x20, size: 0x8, def value: None
-  ::System::Object* ____syncRoot;
+/// @brief Field _version, offset: 0x1c, size: 0x4, def value: None
+ int32_t  ____version;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _syncRoot, offset: 0x20, size: 0x8, def value: None
+ ::System::Object*  ____syncRoot;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Collections::ArrayList, 0x28>, "Size mismatch!");
@@ -464,7 +464,7 @@ static_assert(offsetof(::System::Collections::ArrayList, ____version) == 0x1c, "
 
 static_assert(offsetof(::System::Collections::ArrayList, ____syncRoot) == 0x20, "Offset mismatch!");
 
-} // namespace System::Collections
+} // namespace end def System::Collections
 NEED_NO_BOX(::System::Collections::ArrayList);
 DEFINE_IL2CPP_ARG_TYPE(::System::Collections::ArrayList*, "System.Collections", "ArrayList");
 NEED_NO_BOX(::System::Collections::__ArrayList__ArrayListDebugView);

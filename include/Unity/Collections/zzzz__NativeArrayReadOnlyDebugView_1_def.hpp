@@ -7,36 +7,37 @@ CORDL_MODULE_INIT
 CORDL_MODULE_EXPORT(NativeArrayReadOnlyDebugView_1)
 // Forward declare root types
 namespace Unity::Collections {
-template <typename T> class NativeArrayReadOnlyDebugView_1;
+template<typename T>
+class NativeArrayReadOnlyDebugView_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::Unity::Collections::NativeArrayReadOnlyDebugView_1);
 // Type: Unity.Collections::NativeArrayReadOnlyDebugView`1
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Unity::Collections {
 // cpp template
-template <typename T>
+template<typename T>
 // Is value type: false
 // CS Name: ::Unity.Collections::NativeArrayReadOnlyDebugView`1<T>*
 class CORDL_TYPE NativeArrayReadOnlyDebugView_1 : public ::System::Object {
 public:
-  // Declarations
+// Declarations
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NativeArrayReadOnlyDebugView_1();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr NativeArrayReadOnlyDebugView_1() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NativeArrayReadOnlyDebugView_1", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  NativeArrayReadOnlyDebugView_1(NativeArrayReadOnlyDebugView_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NativeArrayReadOnlyDebugView_1", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  NativeArrayReadOnlyDebugView_1(NativeArrayReadOnlyDebugView_1 const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "NativeArrayReadOnlyDebugView_1", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+NativeArrayReadOnlyDebugView_1(NativeArrayReadOnlyDebugView_1 && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "NativeArrayReadOnlyDebugView_1", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+NativeArrayReadOnlyDebugView_1(NativeArrayReadOnlyDebugView_1 const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-} // namespace Unity::Collections
+} // namespace end def Unity::Collections
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::Unity::Collections::NativeArrayReadOnlyDebugView_1, "Unity.Collections", "NativeArrayReadOnlyDebugView`1");

@@ -35,79 +35,79 @@ class NaccacheSternKeyPairGenerator;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Generators::NaccacheSternKeyPairGenerator);
 // Type: Org.BouncyCastle.Crypto.Generators::NaccacheSternKeyPairGenerator
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Generators {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Generators::NaccacheSternKeyPairGenerator*
 class CORDL_TYPE NaccacheSternKeyPairGenerator : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field param, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_param, put = __cordl_internal_set_param))::Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyGenerationParameters* param;
+// Declarations
+/// @brief Field param, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_param, put=__cordl_internal_set_param)) ::Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyGenerationParameters*  param;
 
-  /// @brief Field smallPrimes, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_smallPrimes, put = setStaticF_smallPrimes))::ArrayW<int32_t, ::Array<int32_t>*> smallPrimes;
+/// @brief Field smallPrimes, offset 0xffffffff, size 0x8 
+static __declspec(property(get=getStaticF_smallPrimes, put=setStaticF_smallPrimes)) ::ArrayW<int32_t,::Array<int32_t>*>  smallPrimes;
 
-  /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator"
-  constexpr operator ::Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator*() noexcept;
+/// @brief Convert operator to "::Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator"
+constexpr operator  ::Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator*() noexcept;
 
-  /// @brief Method GenerateKeyPair, addr 0x1170e70, size 0xf74, virtual true, abstract: false, final true
-  inline ::Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair* GenerateKeyPair();
+/// @brief Method GenerateKeyPair, addr 0x233d9e0, size 0xf5c, virtual true, abstract: false, final true
+inline ::Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair* GenerateKeyPair() ;
 
-  /// @brief Method Init, addr 0x1170dcc, size 0xa4, virtual true, abstract: false, final true
-  inline void Init(::Org::BouncyCastle::Crypto::KeyGenerationParameters* parameters);
+/// @brief Method Init, addr 0x233d93c, size 0xa4, virtual true, abstract: false, final true
+inline void Init(::Org::BouncyCastle::Crypto::KeyGenerationParameters*  parameters) ;
 
-  static inline ::Org::BouncyCastle::Crypto::Generators::NaccacheSternKeyPairGenerator* New_ctor();
+static inline ::Org::BouncyCastle::Crypto::Generators::NaccacheSternKeyPairGenerator* New_ctor() ;
 
-  constexpr ::Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyGenerationParameters*& __cordl_internal_get_param();
+constexpr ::Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyGenerationParameters*& __cordl_internal_get_param() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyGenerationParameters*> const& __cordl_internal_get_param() const;
+constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyGenerationParameters*> const& __cordl_internal_get_param() const;
 
-  constexpr void __cordl_internal_set_param(::Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyGenerationParameters* value);
+constexpr void __cordl_internal_set_param(::Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyGenerationParameters*  value) ;
 
-  /// @brief Method .ctor, addr 0x117251c, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x233f06c, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method findFirstPrimes, addr 0x1171de4, size 0x184, virtual false, abstract: false, final false
-  static inline ::System::Collections::IList* findFirstPrimes(int32_t count);
+/// @brief Method findFirstPrimes, addr 0x233e93c, size 0x184, virtual false, abstract: false, final false
+static inline ::System::Collections::IList* findFirstPrimes(int32_t  count) ;
 
-  /// @brief Method generatePrime, addr 0x117240c, size 0x7c, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Math::BigInteger* generatePrime(int32_t bitLength, int32_t certainty, ::Org::BouncyCastle::Security::SecureRandom* rand);
+/// @brief Method generatePrime, addr 0x233ef64, size 0x74, virtual false, abstract: false, final false
+static inline ::Org::BouncyCastle::Math::BigInteger* generatePrime(int32_t  bitLength, int32_t  certainty, ::Org::BouncyCastle::Security::SecureRandom*  rand) ;
 
-  static inline ::ArrayW<int32_t, ::Array<int32_t>*> getStaticF_smallPrimes();
+static inline ::ArrayW<int32_t,::Array<int32_t>*> getStaticF_smallPrimes() ;
 
-  /// @brief Convert to "::Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator"
-  constexpr ::Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator* i___Org__BouncyCastle__Crypto__IAsymmetricCipherKeyPairGenerator() noexcept;
+/// @brief Convert to "::Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator"
+constexpr ::Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator* i___Org__BouncyCastle__Crypto__IAsymmetricCipherKeyPairGenerator() noexcept;
 
-  /// @brief Method permuteList, addr 0x1171f68, size 0x4a4, virtual false, abstract: false, final false
-  static inline ::System::Collections::IList* permuteList(::System::Collections::IList* arr, ::Org::BouncyCastle::Security::SecureRandom* rand);
+/// @brief Method permuteList, addr 0x233eac0, size 0x4a4, virtual false, abstract: false, final false
+static inline ::System::Collections::IList* permuteList(::System::Collections::IList*  arr, ::Org::BouncyCastle::Security::SecureRandom*  rand) ;
 
-  static inline void setStaticF_smallPrimes(::ArrayW<int32_t, ::Array<int32_t>*> value);
+static inline void setStaticF_smallPrimes(::ArrayW<int32_t,::Array<int32_t>*>  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NaccacheSternKeyPairGenerator();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr NaccacheSternKeyPairGenerator() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NaccacheSternKeyPairGenerator", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  NaccacheSternKeyPairGenerator(NaccacheSternKeyPairGenerator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NaccacheSternKeyPairGenerator", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  NaccacheSternKeyPairGenerator(NaccacheSternKeyPairGenerator const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "NaccacheSternKeyPairGenerator", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+NaccacheSternKeyPairGenerator(NaccacheSternKeyPairGenerator && ) = delete;
 
-  /// @brief Field param, offset: 0x10, size: 0x8, def value: None
-  ::Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyGenerationParameters* ___param;
+// Ctor Parameters [CppParam { name: "", ty: "NaccacheSternKeyPairGenerator", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+NaccacheSternKeyPairGenerator(NaccacheSternKeyPairGenerator const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field param, offset: 0x10, size: 0x8, def value: None
+ ::Org::BouncyCastle::Crypto::Parameters::NaccacheSternKeyGenerationParameters*  ___param;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Generators::NaccacheSternKeyPairGenerator, 0x18>, "Size mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Generators::NaccacheSternKeyPairGenerator, ___param) == 0x10, "Offset mismatch!");
 
-} // namespace Org::BouncyCastle::Crypto::Generators
+} // namespace end def Org::BouncyCastle::Crypto::Generators
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Generators::NaccacheSternKeyPairGenerator);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Generators::NaccacheSternKeyPairGenerator*, "Org.BouncyCastle.Crypto.Generators", "NaccacheSternKeyPairGenerator");

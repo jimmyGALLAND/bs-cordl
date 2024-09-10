@@ -23,47 +23,47 @@ class VectorHash;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::ProBuilder::VectorHash);
 // Type: UnityEngine.ProBuilder::VectorHash
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: false
 // CS Name: ::UnityEngine.ProBuilder::VectorHash*
 class CORDL_TYPE VectorHash : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method GetHashCode, addr 0x32efa40, size 0x7c, virtual false, abstract: false, final false
-  static inline int32_t GetHashCode(::UnityEngine::Vector2 v);
+// Declarations
+/// @brief Method GetHashCode, addr 0x46b3e0c, size 0x7c, virtual false, abstract: false, final false
+static inline int32_t GetHashCode(::UnityEngine::Vector2  v) ;
 
-  /// @brief Method GetHashCode, addr 0x32da36c, size 0xb0, virtual false, abstract: false, final false
-  static inline int32_t GetHashCode(::UnityEngine::Vector3 v);
+/// @brief Method GetHashCode, addr 0x469f2d4, size 0xb0, virtual false, abstract: false, final false
+static inline int32_t GetHashCode(::UnityEngine::Vector3  v) ;
 
-  /// @brief Method GetHashCode, addr 0x32efabc, size 0xe0, virtual false, abstract: false, final false
-  static inline int32_t GetHashCode(::UnityEngine::Vector4 v);
+/// @brief Method GetHashCode, addr 0x46b3e88, size 0xe0, virtual false, abstract: false, final false
+static inline int32_t GetHashCode(::UnityEngine::Vector4  v) ;
 
-  /// @brief Method HashFloat, addr 0x32efa00, size 0x40, virtual false, abstract: false, final false
-  static inline int32_t HashFloat(float_t f);
+/// @brief Method HashFloat, addr 0x46b3dcc, size 0x40, virtual false, abstract: false, final false
+static inline int32_t HashFloat(float_t  f) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr VectorHash();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr VectorHash() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VectorHash", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  VectorHash(VectorHash&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VectorHash", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  VectorHash(VectorHash const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "VectorHash", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+VectorHash(VectorHash && ) = delete;
 
-  /// @brief Field FltCompareResolution offset 0xffffffff size 0x4
-  static constexpr float_t FltCompareResolution{ 1000.0 };
+// Ctor Parameters [CppParam { name: "", ty: "VectorHash", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+VectorHash(VectorHash const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field FltCompareResolution offset 0xffffffff size 0x4
+static constexpr float_t  FltCompareResolution{1000.0};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::VectorHash, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine::ProBuilder
+} // namespace end def UnityEngine::ProBuilder
 NEED_NO_BOX(::UnityEngine::ProBuilder::VectorHash);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::VectorHash*, "UnityEngine.ProBuilder", "VectorHash");

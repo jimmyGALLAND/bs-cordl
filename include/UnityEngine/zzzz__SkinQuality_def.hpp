@@ -13,64 +13,64 @@ struct SkinQuality;
 // Write type traits
 MARK_VAL_T(::UnityEngine::SkinQuality);
 // Type: UnityEngine::SkinQuality
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
 // CS Name: ::UnityEngine::SkinQuality
 struct CORDL_TYPE SkinQuality {
 public:
-  // Declarations
-  using __CORDL_BACKING_ENUM_TYPE = int32_t;
+// Declarations
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct __SkinQuality_Unwrapped
-  enum struct __SkinQuality_Unwrapped : int32_t {
-    __E_Auto = static_cast<int32_t>(0x0),
-    __E_Bone1 = static_cast<int32_t>(0x1),
-    __E_Bone2 = static_cast<int32_t>(0x2),
-    __E_Bone4 = static_cast<int32_t>(0x4),
-  };
+/// @brief Nested struct __SkinQuality_Unwrapped
+enum struct __SkinQuality_Unwrapped : int32_t {
+__E_Auto = static_cast<int32_t>(0x0),
+__E_Bone1 = static_cast<int32_t>(0x1),
+__E_Bone2 = static_cast<int32_t>(0x2),
+__E_Bone4 = static_cast<int32_t>(0x4),
+};
 
-  /// @brief Conversion into unwrapped enum value
-  constexpr operator __SkinQuality_Unwrapped() const noexcept {
-    return static_cast<__SkinQuality_Unwrapped>(this->value__);
-  }
+/// @brief Conversion into unwrapped enum value
+constexpr operator __SkinQuality_Unwrapped () const noexcept {
+return static_cast<__SkinQuality_Unwrapped>(this->value__);
+}
 
-  /// @brief Conversion into unwrapped enum value
-  constexpr explicit operator int32_t() const noexcept {
-    return static_cast<int32_t>(this->value__);
-  }
+/// @brief Conversion into unwrapped enum value
+constexpr explicit operator int32_t () const noexcept {
+return static_cast<int32_t>(this->value__);
+}
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SkinQuality();
+// Ctor Parameters []
+// @brief default ctor
+constexpr SkinQuality() ;
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr SkinQuality(int32_t value__) noexcept;
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr SkinQuality(int32_t  value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+/// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+ int32_t  value__;
 
-  /// @brief Field Auto value: static_cast<int32_t>(0x0)
-  static ::UnityEngine::SkinQuality const Auto;
+/// @brief Field Auto value: static_cast<int32_t>(0x0)
+static ::UnityEngine::SkinQuality const Auto;
 
-  /// @brief Field Bone1 value: static_cast<int32_t>(0x1)
-  static ::UnityEngine::SkinQuality const Bone1;
+/// @brief Field Bone1 value: static_cast<int32_t>(0x1)
+static ::UnityEngine::SkinQuality const Bone1;
 
-  /// @brief Field Bone2 value: static_cast<int32_t>(0x2)
-  static ::UnityEngine::SkinQuality const Bone2;
+/// @brief Field Bone2 value: static_cast<int32_t>(0x2)
+static ::UnityEngine::SkinQuality const Bone2;
 
-  /// @brief Field Bone4 value: static_cast<int32_t>(0x4)
-  static ::UnityEngine::SkinQuality const Bone4;
+/// @brief Field Bone4 value: static_cast<int32_t>(0x4)
+static ::UnityEngine::SkinQuality const Bone4;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x4};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::SkinQuality, 0x4>, "Size mismatch!");
 
 static_assert(offsetof(::UnityEngine::SkinQuality, value__) == 0x0, "Offset mismatch!");
 
-} // namespace UnityEngine
+} // namespace end def UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::SkinQuality, "UnityEngine", "SkinQuality");

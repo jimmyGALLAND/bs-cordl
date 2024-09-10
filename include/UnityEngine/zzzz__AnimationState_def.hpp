@@ -16,57 +16,57 @@ class AnimationState;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::AnimationState);
 // Type: UnityEngine::AnimationState
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
 // CS Name: ::UnityEngine::AnimationState*
 class CORDL_TYPE AnimationState : public ::UnityEngine::TrackedReference {
 public:
-  // Declarations
-  __declspec(property(get = get_clip))::UnityW<::UnityEngine::AnimationClip> clip;
+// Declarations
+ __declspec(property(get=get_clip)) ::UnityW<::UnityEngine::AnimationClip>  clip;
 
-  __declspec(property(put = set_normalizedTime)) float_t normalizedTime;
+ __declspec(property(put=set_normalizedTime)) float_t  normalizedTime;
 
-  __declspec(property(put = set_speed)) float_t speed;
+ __declspec(property(put=set_speed)) float_t  speed;
 
-  __declspec(property(put = set_time)) float_t time;
+ __declspec(property(put=set_time)) float_t  time;
 
-  static inline ::UnityEngine::AnimationState* New_ctor();
+static inline ::UnityEngine::AnimationState* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x33fd5fc, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x47bb6a8, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_clip, addr 0x33fd168, size 0x3c, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::AnimationClip> get_clip();
+/// @brief Method get_clip, addr 0x47bb214, size 0x3c, virtual false, abstract: false, final false
+inline ::UnityW<::UnityEngine::AnimationClip> get_clip() ;
 
-  /// @brief Method set_normalizedTime, addr 0x33fd564, size 0x4c, virtual false, abstract: false, final false
-  inline void set_normalizedTime(float_t value);
+/// @brief Method set_normalizedTime, addr 0x47bb610, size 0x4c, virtual false, abstract: false, final false
+inline void set_normalizedTime(float_t  value) ;
 
-  /// @brief Method set_speed, addr 0x33fd5b0, size 0x4c, virtual false, abstract: false, final false
-  inline void set_speed(float_t value);
+/// @brief Method set_speed, addr 0x47bb65c, size 0x4c, virtual false, abstract: false, final false
+inline void set_speed(float_t  value) ;
 
-  /// @brief Method set_time, addr 0x33fd518, size 0x4c, virtual false, abstract: false, final false
-  inline void set_time(float_t value);
+/// @brief Method set_time, addr 0x47bb5c4, size 0x4c, virtual false, abstract: false, final false
+inline void set_time(float_t  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AnimationState();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr AnimationState() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AnimationState", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  AnimationState(AnimationState&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AnimationState", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  AnimationState(AnimationState const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "AnimationState", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+AnimationState(AnimationState && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "AnimationState", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+AnimationState(AnimationState const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::AnimationState, 0x18>, "Size mismatch!");
 
-} // namespace UnityEngine
+} // namespace end def UnityEngine
 NEED_NO_BOX(::UnityEngine::AnimationState);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AnimationState*, "UnityEngine", "AnimationState");

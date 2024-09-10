@@ -26,84 +26,83 @@ class PkixBuilderParameters;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Pkix::PkixBuilderParameters);
 // Type: Org.BouncyCastle.Pkix::PkixBuilderParameters
-// SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Pkix {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Pkix::PkixBuilderParameters*
 class CORDL_TYPE PkixBuilderParameters : public ::Org::BouncyCastle::Pkix::PkixParameters {
 public:
-  // Declarations
-  __declspec(property(get = get_MaxPathLength, put = set_MaxPathLength)) int32_t MaxPathLength;
+// Declarations
+ __declspec(property(get=get_MaxPathLength, put=set_MaxPathLength)) int32_t  MaxPathLength;
 
-  /// @brief Field excludedCerts, offset 0x98, size 0x8
-  __declspec(property(get = __cordl_internal_get_excludedCerts, put = __cordl_internal_set_excludedCerts))::Org::BouncyCastle::Utilities::Collections::ISet* excludedCerts;
+/// @brief Field excludedCerts, offset 0x98, size 0x8 
+ __declspec(property(get=__cordl_internal_get_excludedCerts, put=__cordl_internal_set_excludedCerts)) ::Org::BouncyCastle::Utilities::Collections::ISet*  excludedCerts;
 
-  /// @brief Field maxPathLength, offset 0x90, size 0x4
-  __declspec(property(get = __cordl_internal_get_maxPathLength, put = __cordl_internal_set_maxPathLength)) int32_t maxPathLength;
+/// @brief Field maxPathLength, offset 0x90, size 0x4 
+ __declspec(property(get=__cordl_internal_get_maxPathLength, put=__cordl_internal_set_maxPathLength)) int32_t  maxPathLength;
 
-  /// @brief Method Clone, addr 0x1361fe8, size 0xb8, virtual true, abstract: false, final false
-  inline ::System::Object* Clone();
+/// @brief Method Clone, addr 0x252148c, size 0xb8, virtual true, abstract: false, final false
+inline ::System::Object* Clone() ;
 
-  /// @brief Method GetExcludedCerts, addr 0x1361e3c, size 0x68, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Utilities::Collections::ISet* GetExcludedCerts();
+/// @brief Method GetExcludedCerts, addr 0x25212f8, size 0x60, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Utilities::Collections::ISet* GetExcludedCerts() ;
 
-  /// @brief Method GetInstance, addr 0x1361c4c, size 0xec, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Pkix::PkixBuilderParameters* GetInstance(::Org::BouncyCastle::Pkix::PkixParameters* pkixParams);
+/// @brief Method GetInstance, addr 0x2521118, size 0xe8, virtual false, abstract: false, final false
+static inline ::Org::BouncyCastle::Pkix::PkixBuilderParameters* GetInstance(::Org::BouncyCastle::Pkix::PkixParameters*  pkixParams) ;
 
-  static inline ::Org::BouncyCastle::Pkix::PkixBuilderParameters* New_ctor(::Org::BouncyCastle::Utilities::Collections::ISet* trustAnchors,
-                                                                           ::Org::BouncyCastle::X509::Store::IX509Selector* targetConstraints);
+static inline ::Org::BouncyCastle::Pkix::PkixBuilderParameters* New_ctor(::Org::BouncyCastle::Utilities::Collections::ISet*  trustAnchors, ::Org::BouncyCastle::X509::Store::IX509Selector*  targetConstraints) ;
 
-  /// @brief Method SetExcludedCerts, addr 0x1361ea4, size 0x80, virtual true, abstract: false, final false
-  inline void SetExcludedCerts(::Org::BouncyCastle::Utilities::Collections::ISet* excludedCerts);
+/// @brief Method SetExcludedCerts, addr 0x2521358, size 0x78, virtual true, abstract: false, final false
+inline void SetExcludedCerts(::Org::BouncyCastle::Utilities::Collections::ISet*  excludedCerts) ;
 
-  /// @brief Method SetParams, addr 0x1361f24, size 0xc4, virtual true, abstract: false, final false
-  inline void SetParams(::Org::BouncyCastle::Pkix::PkixParameters* parameters);
+/// @brief Method SetParams, addr 0x25213d0, size 0xbc, virtual true, abstract: false, final false
+inline void SetParams(::Org::BouncyCastle::Pkix::PkixParameters*  parameters) ;
 
-  /// @brief Method ToString, addr 0x13620a0, size 0x174, virtual true, abstract: false, final false
-  inline ::StringW ToString();
+/// @brief Method ToString, addr 0x2521544, size 0x16c, virtual true, abstract: false, final false
+inline ::StringW ToString() ;
 
-  constexpr ::Org::BouncyCastle::Utilities::Collections::ISet*& __cordl_internal_get_excludedCerts();
+constexpr ::Org::BouncyCastle::Utilities::Collections::ISet*& __cordl_internal_get_excludedCerts() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Collections::ISet*> const& __cordl_internal_get_excludedCerts() const;
+constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Collections::ISet*> const& __cordl_internal_get_excludedCerts() const;
 
-  constexpr int32_t const& __cordl_internal_get_maxPathLength() const;
+constexpr int32_t const& __cordl_internal_get_maxPathLength() const;
 
-  constexpr int32_t& __cordl_internal_get_maxPathLength();
+constexpr int32_t& __cordl_internal_get_maxPathLength() ;
 
-  constexpr void __cordl_internal_set_excludedCerts(::Org::BouncyCastle::Utilities::Collections::ISet* value);
+constexpr void __cordl_internal_set_excludedCerts(::Org::BouncyCastle::Utilities::Collections::ISet*  value) ;
 
-  constexpr void __cordl_internal_set_maxPathLength(int32_t value);
+constexpr void __cordl_internal_set_maxPathLength(int32_t  value) ;
 
-  /// @brief Method .ctor, addr 0x1361d38, size 0x98, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Utilities::Collections::ISet* trustAnchors, ::Org::BouncyCastle::X509::Store::IX509Selector* targetConstraints);
+/// @brief Method .ctor, addr 0x2521200, size 0x90, virtual false, abstract: false, final false
+inline void _ctor(::Org::BouncyCastle::Utilities::Collections::ISet*  trustAnchors, ::Org::BouncyCastle::X509::Store::IX509Selector*  targetConstraints) ;
 
-  /// @brief Method get_MaxPathLength, addr 0x1361dd0, size 0x8, virtual true, abstract: false, final false
-  inline int32_t get_MaxPathLength();
+/// @brief Method get_MaxPathLength, addr 0x2521290, size 0x8, virtual true, abstract: false, final false
+inline int32_t get_MaxPathLength() ;
 
-  /// @brief Method set_MaxPathLength, addr 0x1361dd8, size 0x64, virtual true, abstract: false, final false
-  inline void set_MaxPathLength(int32_t value);
+/// @brief Method set_MaxPathLength, addr 0x2521298, size 0x60, virtual true, abstract: false, final false
+inline void set_MaxPathLength(int32_t  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PkixBuilderParameters();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr PkixBuilderParameters() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PkixBuilderParameters", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  PkixBuilderParameters(PkixBuilderParameters&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PkixBuilderParameters", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  PkixBuilderParameters(PkixBuilderParameters const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "PkixBuilderParameters", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+PkixBuilderParameters(PkixBuilderParameters && ) = delete;
 
-  /// @brief Field maxPathLength, offset: 0x90, size: 0x4, def value: None
-  int32_t ___maxPathLength;
+// Ctor Parameters [CppParam { name: "", ty: "PkixBuilderParameters", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+PkixBuilderParameters(PkixBuilderParameters const& ) = delete;
 
-  /// @brief Field excludedCerts, offset: 0x98, size: 0x8, def value: None
-  ::Org::BouncyCastle::Utilities::Collections::ISet* ___excludedCerts;
+/// @brief Field maxPathLength, offset: 0x90, size: 0x4, def value: None
+ int32_t  ___maxPathLength;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field excludedCerts, offset: 0x98, size: 0x8, def value: None
+ ::Org::BouncyCastle::Utilities::Collections::ISet*  ___excludedCerts;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Pkix::PkixBuilderParameters, 0xa0>, "Size mismatch!");
@@ -112,6 +111,6 @@ static_assert(offsetof(::Org::BouncyCastle::Pkix::PkixBuilderParameters, ___maxP
 
 static_assert(offsetof(::Org::BouncyCastle::Pkix::PkixBuilderParameters, ___excludedCerts) == 0x98, "Offset mismatch!");
 
-} // namespace Org::BouncyCastle::Pkix
+} // namespace end def Org::BouncyCastle::Pkix
 NEED_NO_BOX(::Org::BouncyCastle::Pkix::PkixBuilderParameters);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Pkix::PkixBuilderParameters*, "Org.BouncyCastle.Pkix", "PkixBuilderParameters");

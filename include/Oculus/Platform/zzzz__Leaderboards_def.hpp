@@ -21,7 +21,8 @@ namespace Oculus::Platform {
 struct LeaderboardStartAt;
 }
 namespace Oculus::Platform {
-template <typename T> class Request_1;
+template<typename T>
+class Request_1;
 }
 // Forward declare root types
 namespace Oculus::Platform {
@@ -30,62 +31,59 @@ class Leaderboards;
 // Write type traits
 MARK_REF_PTR_T(::Oculus::Platform::Leaderboards);
 // Type: Oculus.Platform::Leaderboards
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
 // CS Name: ::Oculus.Platform::Leaderboards*
 class CORDL_TYPE Leaderboards : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method Get, addr 0x2b00160, size 0x160, virtual false, abstract: false, final false
-  static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::LeaderboardList*>* Get(::StringW leaderboardName);
+// Declarations
+/// @brief Method Get, addr 0x3ef1f68, size 0x158, virtual false, abstract: false, final false
+static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::LeaderboardList*>* Get(::StringW  leaderboardName) ;
 
-  /// @brief Method GetEntries, addr 0x2b002c0, size 0x188, virtual false, abstract: false, final false
-  static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::LeaderboardEntryList*>* GetEntries(::StringW leaderboardName, int32_t limit, ::Oculus::Platform::LeaderboardFilterType filter,
-                                                                                                             ::Oculus::Platform::LeaderboardStartAt startAt);
+/// @brief Method GetEntries, addr 0x3ef20c0, size 0x180, virtual false, abstract: false, final false
+static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::LeaderboardEntryList*>* GetEntries(::StringW  leaderboardName, int32_t  limit, ::Oculus::Platform::LeaderboardFilterType  filter, ::Oculus::Platform::LeaderboardStartAt  startAt) ;
 
-  /// @brief Method GetEntriesAfterRank, addr 0x2b00448, size 0x178, virtual false, abstract: false, final false
-  static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::LeaderboardEntryList*>* GetEntriesAfterRank(::StringW leaderboardName, int32_t limit, uint64_t afterRank);
+/// @brief Method GetEntriesAfterRank, addr 0x3ef2240, size 0x170, virtual false, abstract: false, final false
+static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::LeaderboardEntryList*>* GetEntriesAfterRank(::StringW  leaderboardName, int32_t  limit, uint64_t  afterRank) ;
 
-  /// @brief Method GetEntriesByIds, addr 0x2b005c0, size 0x19c, virtual false, abstract: false, final false
-  static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::LeaderboardEntryList*>*
-  GetEntriesByIds(::StringW leaderboardName, int32_t limit, ::Oculus::Platform::LeaderboardStartAt startAt, ::ArrayW<uint64_t, ::Array<uint64_t>*> userIDs);
+/// @brief Method GetEntriesByIds, addr 0x3ef23b0, size 0x194, virtual false, abstract: false, final false
+static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::LeaderboardEntryList*>* GetEntriesByIds(::StringW  leaderboardName, int32_t  limit, ::Oculus::Platform::LeaderboardStartAt  startAt, ::ArrayW<uint64_t,::Array<uint64_t>*>  userIDs) ;
 
-  /// @brief Method GetNextEntries, addr 0x2affe68, size 0x17c, virtual false, abstract: false, final false
-  static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::LeaderboardEntryList*>* GetNextEntries(::Oculus::Platform::Models::LeaderboardEntryList* list);
+/// @brief Method GetNextEntries, addr 0x3ef1c78, size 0x178, virtual false, abstract: false, final false
+static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::LeaderboardEntryList*>* GetNextEntries(::Oculus::Platform::Models::LeaderboardEntryList*  list) ;
 
-  /// @brief Method GetNextLeaderboardListPage, addr 0x2b00a9c, size 0x1dc, virtual false, abstract: false, final false
-  static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::LeaderboardList*>* GetNextLeaderboardListPage(::Oculus::Platform::Models::LeaderboardList* list);
+/// @brief Method GetNextLeaderboardListPage, addr 0x3ef287c, size 0x1d8, virtual false, abstract: false, final false
+static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::LeaderboardList*>* GetNextLeaderboardListPage(::Oculus::Platform::Models::LeaderboardList*  list) ;
 
-  /// @brief Method GetPreviousEntries, addr 0x2afffe4, size 0x17c, virtual false, abstract: false, final false
-  static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::LeaderboardEntryList*>* GetPreviousEntries(::Oculus::Platform::Models::LeaderboardEntryList* list);
+/// @brief Method GetPreviousEntries, addr 0x3ef1df0, size 0x178, virtual false, abstract: false, final false
+static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::LeaderboardEntryList*>* GetPreviousEntries(::Oculus::Platform::Models::LeaderboardEntryList*  list) ;
 
-  /// @brief Method WriteEntry, addr 0x2b0075c, size 0x19c, virtual false, abstract: false, final false
-  static inline ::Oculus::Platform::Request_1<bool>* WriteEntry(::StringW leaderboardName, int64_t score, ::ArrayW<uint8_t, ::Array<uint8_t>*> extraData, bool forceUpdate);
+/// @brief Method WriteEntry, addr 0x3ef2544, size 0x194, virtual false, abstract: false, final false
+static inline ::Oculus::Platform::Request_1<bool>* WriteEntry(::StringW  leaderboardName, int64_t  score, ::ArrayW<uint8_t,::Array<uint8_t>*>  extraData, bool  forceUpdate) ;
 
-  /// @brief Method WriteEntryWithSupplementaryMetric, addr 0x2b008f8, size 0x1a4, virtual false, abstract: false, final false
-  static inline ::Oculus::Platform::Request_1<bool>* WriteEntryWithSupplementaryMetric(::StringW leaderboardName, int64_t score, int64_t supplementaryMetric,
-                                                                                       ::ArrayW<uint8_t, ::Array<uint8_t>*> extraData, bool forceUpdate);
+/// @brief Method WriteEntryWithSupplementaryMetric, addr 0x3ef26d8, size 0x1a4, virtual false, abstract: false, final false
+static inline ::Oculus::Platform::Request_1<bool>* WriteEntryWithSupplementaryMetric(::StringW  leaderboardName, int64_t  score, int64_t  supplementaryMetric, ::ArrayW<uint8_t,::Array<uint8_t>*>  extraData, bool  forceUpdate) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Leaderboards();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr Leaderboards() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Leaderboards", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  Leaderboards(Leaderboards&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Leaderboards", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  Leaderboards(Leaderboards const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "Leaderboards", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+Leaderboards(Leaderboards && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "Leaderboards", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+Leaderboards(Leaderboards const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Oculus::Platform::Leaderboards, 0x10>, "Size mismatch!");
 
-} // namespace Oculus::Platform
+} // namespace end def Oculus::Platform
 NEED_NO_BOX(::Oculus::Platform::Leaderboards);
 DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Leaderboards*, "Oculus.Platform", "Leaderboards");

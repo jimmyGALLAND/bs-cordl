@@ -13,64 +13,64 @@ struct EventBoxGroupType;
 // Write type traits
 MARK_VAL_T(::BeatSaber::TrackDefinitions::DataModels::EventBoxGroupType);
 // Type: BeatSaber.TrackDefinitions.DataModels::EventBoxGroupType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace BeatSaber::TrackDefinitions::DataModels {
 // Is value type: true
 // CS Name: ::BeatSaber.TrackDefinitions.DataModels::EventBoxGroupType
 struct CORDL_TYPE EventBoxGroupType {
 public:
-  // Declarations
-  using __CORDL_BACKING_ENUM_TYPE = int32_t;
+// Declarations
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct __EventBoxGroupType_Unwrapped
-  enum struct __EventBoxGroupType_Unwrapped : int32_t {
-    __E_Color = static_cast<int32_t>(0x0),
-    __E_Rotation = static_cast<int32_t>(0x1),
-    __E_Translation = static_cast<int32_t>(0x2),
-    __E_FloatFx = static_cast<int32_t>(0xb),
-  };
+/// @brief Nested struct __EventBoxGroupType_Unwrapped
+enum struct __EventBoxGroupType_Unwrapped : int32_t {
+__E_Color = static_cast<int32_t>(0x0),
+__E_Rotation = static_cast<int32_t>(0x1),
+__E_Translation = static_cast<int32_t>(0x2),
+__E_FloatFx = static_cast<int32_t>(0xb),
+};
 
-  /// @brief Conversion into unwrapped enum value
-  constexpr operator __EventBoxGroupType_Unwrapped() const noexcept {
-    return static_cast<__EventBoxGroupType_Unwrapped>(this->value__);
-  }
+/// @brief Conversion into unwrapped enum value
+constexpr operator __EventBoxGroupType_Unwrapped () const noexcept {
+return static_cast<__EventBoxGroupType_Unwrapped>(this->value__);
+}
 
-  /// @brief Conversion into unwrapped enum value
-  constexpr explicit operator int32_t() const noexcept {
-    return static_cast<int32_t>(this->value__);
-  }
+/// @brief Conversion into unwrapped enum value
+constexpr explicit operator int32_t () const noexcept {
+return static_cast<int32_t>(this->value__);
+}
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr EventBoxGroupType();
+// Ctor Parameters []
+// @brief default ctor
+constexpr EventBoxGroupType() ;
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr EventBoxGroupType(int32_t value__) noexcept;
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr EventBoxGroupType(int32_t  value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+/// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+ int32_t  value__;
 
-  /// @brief Field Color value: static_cast<int32_t>(0x0)
-  static ::BeatSaber::TrackDefinitions::DataModels::EventBoxGroupType const Color;
+/// @brief Field Color value: static_cast<int32_t>(0x0)
+static ::BeatSaber::TrackDefinitions::DataModels::EventBoxGroupType const Color;
 
-  /// @brief Field FloatFx value: static_cast<int32_t>(0xb)
-  static ::BeatSaber::TrackDefinitions::DataModels::EventBoxGroupType const FloatFx;
+/// @brief Field FloatFx value: static_cast<int32_t>(0xb)
+static ::BeatSaber::TrackDefinitions::DataModels::EventBoxGroupType const FloatFx;
 
-  /// @brief Field Rotation value: static_cast<int32_t>(0x1)
-  static ::BeatSaber::TrackDefinitions::DataModels::EventBoxGroupType const Rotation;
+/// @brief Field Rotation value: static_cast<int32_t>(0x1)
+static ::BeatSaber::TrackDefinitions::DataModels::EventBoxGroupType const Rotation;
 
-  /// @brief Field Translation value: static_cast<int32_t>(0x2)
-  static ::BeatSaber::TrackDefinitions::DataModels::EventBoxGroupType const Translation;
+/// @brief Field Translation value: static_cast<int32_t>(0x2)
+static ::BeatSaber::TrackDefinitions::DataModels::EventBoxGroupType const Translation;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x4};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::BeatSaber::TrackDefinitions::DataModels::EventBoxGroupType, 0x4>, "Size mismatch!");
 
 static_assert(offsetof(::BeatSaber::TrackDefinitions::DataModels::EventBoxGroupType, value__) == 0x0, "Offset mismatch!");
 
-} // namespace BeatSaber::TrackDefinitions::DataModels
+} // namespace end def BeatSaber::TrackDefinitions::DataModels
 DEFINE_IL2CPP_ARG_TYPE(::BeatSaber::TrackDefinitions::DataModels::EventBoxGroupType, "BeatSaber.TrackDefinitions.DataModels", "EventBoxGroupType");

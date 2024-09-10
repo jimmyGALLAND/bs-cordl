@@ -52,134 +52,134 @@ class __HEU_AssetSync__AssetSyncCallback;
 MARK_REF_PTR_T(::HoudiniEngineUnity::HEU_AssetSync);
 MARK_REF_PTR_T(::HoudiniEngineUnity::__HEU_AssetSync__AssetSyncCallback);
 // Type: ::AssetSyncCallback
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
 // CS Name: ::HEU_AssetSync::AssetSyncCallback*
 class CORDL_TYPE __HEU_AssetSync__AssetSyncCallback : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x25b6aa4, size 0x20, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::HoudiniEngineUnity::HEU_AssetSync* assetSync, ::System::AsyncCallback* callback, ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x39d8b7c, size 0x20, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(::HoudiniEngineUnity::HEU_AssetSync*  assetSync, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x25b6ac4, size 0xc, virtual true, abstract: false, final false
-  inline void EndInvoke(::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x39d8b9c, size 0xc, virtual true, abstract: false, final false
+inline void EndInvoke(::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x25b6a90, size 0x14, virtual true, abstract: false, final false
-  inline void Invoke(::HoudiniEngineUnity::HEU_AssetSync* assetSync);
+/// @brief Method Invoke, addr 0x39d8b68, size 0x14, virtual true, abstract: false, final false
+inline void Invoke(::HoudiniEngineUnity::HEU_AssetSync*  assetSync) ;
 
-  static inline ::HoudiniEngineUnity::__HEU_AssetSync__AssetSyncCallback* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::HoudiniEngineUnity::__HEU_AssetSync__AssetSyncCallback* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x25b6964, size 0x12c, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x39d8a68, size 0x100, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __HEU_AssetSync__AssetSyncCallback();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __HEU_AssetSync__AssetSyncCallback() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__HEU_AssetSync__AssetSyncCallback", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __HEU_AssetSync__AssetSyncCallback(__HEU_AssetSync__AssetSyncCallback&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__HEU_AssetSync__AssetSyncCallback", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __HEU_AssetSync__AssetSyncCallback(__HEU_AssetSync__AssetSyncCallback const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__HEU_AssetSync__AssetSyncCallback", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__HEU_AssetSync__AssetSyncCallback(__HEU_AssetSync__AssetSyncCallback && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "__HEU_AssetSync__AssetSyncCallback", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__HEU_AssetSync__AssetSyncCallback(__HEU_AssetSync__AssetSyncCallback const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::__HEU_AssetSync__AssetSyncCallback, 0x80>, "Size mismatch!");
 
-} // namespace HoudiniEngineUnity
+} // namespace end def HoudiniEngineUnity
 // Type: HoudiniEngineUnity::HEU_AssetSync
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 152, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
 // CS Name: ::HoudiniEngineUnity::HEU_AssetSync*
 class CORDL_TYPE HEU_AssetSync : public ::HoudiniEngineUnity::HEU_BaseSync {
 public:
-  // Declarations
-  using AssetSyncCallback = ::HoudiniEngineUnity::__HEU_AssetSync__AssetSyncCallback;
+// Declarations
+using AssetSyncCallback = ::HoudiniEngineUnity::__HEU_AssetSync__AssetSyncCallback;
 
-  /// @brief Field _assetPath, offset 0x88, size 0x8
-  __declspec(property(get = __cordl_internal_get__assetPath, put = __cordl_internal_set__assetPath))::StringW _assetPath;
+/// @brief Field _assetPath, offset 0x90, size 0x8 
+ __declspec(property(get=__cordl_internal_get__assetPath, put=__cordl_internal_set__assetPath)) ::StringW  _assetPath;
 
-  /// @brief Field _onAssetLoaded, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get__onAssetLoaded, put = __cordl_internal_set__onAssetLoaded))::HoudiniEngineUnity::__HEU_AssetSync__AssetSyncCallback* _onAssetLoaded;
+/// @brief Field _onAssetLoaded, offset 0x88, size 0x8 
+ __declspec(property(get=__cordl_internal_get__onAssetLoaded, put=__cordl_internal_set__onAssetLoaded)) ::HoudiniEngineUnity::__HEU_AssetSync__AssetSyncCallback*  _onAssetLoaded;
 
-  /// @brief Method CreateThreadedTask, addr 0x25b65e8, size 0x68, virtual false, abstract: false, final false
-  inline ::HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo* CreateThreadedTask();
+/// @brief Method CreateThreadedTask, addr 0x39d86f0, size 0x68, virtual false, abstract: false, final false
+inline ::HoudiniEngineUnity::HEU_ThreadedTaskLoadGeo* CreateThreadedTask() ;
 
-  /// @brief Method InitializeAsset, addr 0x25b64f0, size 0xf8, virtual false, abstract: false, final false
-  inline void InitializeAsset(::HoudiniEngineUnity::HEU_SessionBase* session, ::StringW assetPath, ::StringW nodeName, ::UnityEngine::Transform* parent, ::UnityEngine::Vector3 startPosition);
+/// @brief Method InitializeAsset, addr 0x39d85f8, size 0xf8, virtual false, abstract: false, final false
+inline void InitializeAsset(::HoudiniEngineUnity::HEU_SessionBase*  session, ::StringW  assetPath, ::StringW  nodeName, ::UnityEngine::Transform*  parent, ::UnityEngine::Vector3  startPosition) ;
 
-  static inline ::HoudiniEngineUnity::HEU_AssetSync* New_ctor();
+static inline ::HoudiniEngineUnity::HEU_AssetSync* New_ctor() ;
 
-  /// @brief Method OnDestroy, addr 0x25b64e4, size 0xc, virtual false, abstract: false, final false
-  inline void OnDestroy();
+/// @brief Method OnDestroy, addr 0x39d85ec, size 0xc, virtual false, abstract: false, final false
+inline void OnDestroy() ;
 
-  /// @brief Method OnEnable, addr 0x25b64e0, size 0x4, virtual false, abstract: false, final false
-  inline void OnEnable();
+/// @brief Method OnEnable, addr 0x39d85e8, size 0x4, virtual false, abstract: false, final false
+inline void OnEnable() ;
 
-  /// @brief Method OnLoadComplete, addr 0x25b6700, size 0x34, virtual true, abstract: false, final false
-  inline void OnLoadComplete(::HoudiniEngineUnity::__HEU_ThreadedTaskLoadGeo__HEU_LoadData* loadData);
+/// @brief Method OnLoadComplete, addr 0x39d8808, size 0x34, virtual true, abstract: false, final false
+inline void OnLoadComplete(::HoudiniEngineUnity::__HEU_ThreadedTaskLoadGeo__HEU_LoadData*  loadData) ;
 
-  /// @brief Method Resync, addr 0x25b67b8, size 0x38, virtual true, abstract: false, final false
-  inline void Resync();
+/// @brief Method Resync, addr 0x39d88c0, size 0x38, virtual true, abstract: false, final false
+inline void Resync() ;
 
-  /// @brief Method SetLoadCallback, addr 0x25b6654, size 0x38, virtual false, abstract: false, final false
-  inline void SetLoadCallback(::HoudiniEngineUnity::__HEU_ThreadedTaskLoadGeo__HEU_LoadCallback* callback);
+/// @brief Method SetLoadCallback, addr 0x39d875c, size 0x38, virtual false, abstract: false, final false
+inline void SetLoadCallback(::HoudiniEngineUnity::__HEU_ThreadedTaskLoadGeo__HEU_LoadCallback*  callback) ;
 
-  /// @brief Method SetupLoadTask, addr 0x25b668c, size 0x60, virtual true, abstract: false, final false
-  inline void SetupLoadTask(::HoudiniEngineUnity::HEU_SessionBase* session);
+/// @brief Method SetupLoadTask, addr 0x39d8794, size 0x60, virtual true, abstract: false, final false
+inline void SetupLoadTask(::HoudiniEngineUnity::HEU_SessionBase*  session) ;
 
-  constexpr ::StringW const& __cordl_internal_get__assetPath() const;
+constexpr ::StringW const& __cordl_internal_get__assetPath() const;
 
-  constexpr ::StringW& __cordl_internal_get__assetPath();
+constexpr ::StringW& __cordl_internal_get__assetPath() ;
 
-  constexpr ::HoudiniEngineUnity::__HEU_AssetSync__AssetSyncCallback*& __cordl_internal_get__onAssetLoaded();
+constexpr ::HoudiniEngineUnity::__HEU_AssetSync__AssetSyncCallback*& __cordl_internal_get__onAssetLoaded() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::__HEU_AssetSync__AssetSyncCallback*> const& __cordl_internal_get__onAssetLoaded() const;
+constexpr ::cordl_internals::to_const_pointer<::HoudiniEngineUnity::__HEU_AssetSync__AssetSyncCallback*> const& __cordl_internal_get__onAssetLoaded() const;
 
-  constexpr void __cordl_internal_set__assetPath(::StringW value);
+constexpr void __cordl_internal_set__assetPath(::StringW  value) ;
 
-  constexpr void __cordl_internal_set__onAssetLoaded(::HoudiniEngineUnity::__HEU_AssetSync__AssetSyncCallback* value);
+constexpr void __cordl_internal_set__onAssetLoaded(::HoudiniEngineUnity::__HEU_AssetSync__AssetSyncCallback*  value) ;
 
-  /// @brief Method .ctor, addr 0x25b67f0, size 0x4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x39d88f8, size 0x4, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HEU_AssetSync();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr HEU_AssetSync() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HEU_AssetSync", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  HEU_AssetSync(HEU_AssetSync&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HEU_AssetSync", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  HEU_AssetSync(HEU_AssetSync const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "HEU_AssetSync", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+HEU_AssetSync(HEU_AssetSync && ) = delete;
 
-  /// @brief Field _onAssetLoaded, offset: 0x80, size: 0x8, def value: None
-  ::HoudiniEngineUnity::__HEU_AssetSync__AssetSyncCallback* ____onAssetLoaded;
+// Ctor Parameters [CppParam { name: "", ty: "HEU_AssetSync", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+HEU_AssetSync(HEU_AssetSync const& ) = delete;
 
-  /// @brief Field _assetPath, offset: 0x88, size: 0x8, def value: None
-  ::StringW ____assetPath;
+/// @brief Field _onAssetLoaded, offset: 0x88, size: 0x8, def value: None
+ ::HoudiniEngineUnity::__HEU_AssetSync__AssetSyncCallback*  ____onAssetLoaded;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _assetPath, offset: 0x90, size: 0x8, def value: None
+ ::StringW  ____assetPath;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_AssetSync, 0x90>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::HEU_AssetSync, 0x98>, "Size mismatch!");
 
-static_assert(offsetof(::HoudiniEngineUnity::HEU_AssetSync, ____onAssetLoaded) == 0x80, "Offset mismatch!");
+static_assert(offsetof(::HoudiniEngineUnity::HEU_AssetSync, ____onAssetLoaded) == 0x88, "Offset mismatch!");
 
-static_assert(offsetof(::HoudiniEngineUnity::HEU_AssetSync, ____assetPath) == 0x88, "Offset mismatch!");
+static_assert(offsetof(::HoudiniEngineUnity::HEU_AssetSync, ____assetPath) == 0x90, "Offset mismatch!");
 
-} // namespace HoudiniEngineUnity
+} // namespace end def HoudiniEngineUnity
 NEED_NO_BOX(::HoudiniEngineUnity::HEU_AssetSync);
 DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::HEU_AssetSync*, "HoudiniEngineUnity", "HEU_AssetSync");
 NEED_NO_BOX(::HoudiniEngineUnity::__HEU_AssetSync__AssetSyncCallback);

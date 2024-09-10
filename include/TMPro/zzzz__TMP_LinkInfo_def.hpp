@@ -18,58 +18,54 @@ struct TMP_LinkInfo;
 // Write type traits
 MARK_VAL_T(::TMPro::TMP_LinkInfo);
 // Type: TMPro::TMP_LinkInfo
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: true
 // CS Name: ::TMPro::TMP_LinkInfo
 struct CORDL_TYPE TMP_LinkInfo {
 public:
-  // Declarations
-  /// @brief Method GetLinkID, addr 0x336d4b0, size 0xa8, virtual false, abstract: false, final false
-  inline ::StringW GetLinkID();
+// Declarations
+/// @brief Method GetLinkID, addr 0x4733750, size 0xa8, virtual false, abstract: false, final false
+inline ::StringW GetLinkID() ;
 
-  /// @brief Method GetLinkText, addr 0x336d3d4, size 0xdc, virtual false, abstract: false, final false
-  inline ::StringW GetLinkText();
+/// @brief Method GetLinkText, addr 0x4733648, size 0x108, virtual false, abstract: false, final false
+inline ::StringW GetLinkText() ;
 
-  /// @brief Method SetLinkID, addr 0x336d300, size 0xd4, virtual false, abstract: false, final false
-  inline void SetLinkID(::ArrayW<char16_t, ::Array<char16_t>*> text, int32_t startIndex, int32_t length);
+/// @brief Method SetLinkID, addr 0x4733574, size 0xd4, virtual false, abstract: false, final false
+inline void SetLinkID(::ArrayW<char16_t,::Array<char16_t>*>  text, int32_t  startIndex, int32_t  length) ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TMP_LinkInfo();
+// Ctor Parameters []
+// @brief default ctor
+constexpr TMP_LinkInfo() ;
 
-  // Ctor Parameters [CppParam { name: "textComponent", ty: "::UnityW<::TMPro::TMP_Text>", modifiers: "", def_value: None }, CppParam { name: "hashCode", ty: "int32_t", modifiers: "", def_value: None
-  // }, CppParam { name: "linkIdFirstCharacterIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "linkIdLength", ty: "int32_t", modifiers: "", def_value: None }, CppParam {
-  // name: "linkTextfirstCharacterIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "linkTextLength", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name:
-  // "linkID", ty: "::ArrayW<char16_t,::Array<char16_t>*>", modifiers: "", def_value: None }]
-  constexpr TMP_LinkInfo(::UnityW<::TMPro::TMP_Text> textComponent, int32_t hashCode, int32_t linkIdFirstCharacterIndex, int32_t linkIdLength, int32_t linkTextfirstCharacterIndex,
-                         int32_t linkTextLength, ::ArrayW<char16_t, ::Array<char16_t>*> linkID) noexcept;
+// Ctor Parameters [CppParam { name: "textComponent", ty: "::UnityW<::TMPro::TMP_Text>", modifiers: "", def_value: None }, CppParam { name: "hashCode", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "linkIdFirstCharacterIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "linkIdLength", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "linkTextfirstCharacterIndex", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "linkTextLength", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "linkID", ty: "::ArrayW<char16_t,::Array<char16_t>*>", modifiers: "", def_value: None }]
+constexpr TMP_LinkInfo(::UnityW<::TMPro::TMP_Text>  textComponent, int32_t  hashCode, int32_t  linkIdFirstCharacterIndex, int32_t  linkIdLength, int32_t  linkTextfirstCharacterIndex, int32_t  linkTextLength, ::ArrayW<char16_t,::Array<char16_t>*>  linkID) noexcept;
 
-  /// @brief Field textComponent, offset: 0x0, size: 0x8, def value: None
-  ::UnityW<::TMPro::TMP_Text> textComponent;
+/// @brief Field textComponent, offset: 0x0, size: 0x8, def value: None
+ ::UnityW<::TMPro::TMP_Text>  textComponent;
 
-  /// @brief Field hashCode, offset: 0x8, size: 0x4, def value: None
-  int32_t hashCode;
+/// @brief Field hashCode, offset: 0x8, size: 0x4, def value: None
+ int32_t  hashCode;
 
-  /// @brief Field linkIdFirstCharacterIndex, offset: 0xc, size: 0x4, def value: None
-  int32_t linkIdFirstCharacterIndex;
+/// @brief Field linkIdFirstCharacterIndex, offset: 0xc, size: 0x4, def value: None
+ int32_t  linkIdFirstCharacterIndex;
 
-  /// @brief Field linkIdLength, offset: 0x10, size: 0x4, def value: None
-  int32_t linkIdLength;
+/// @brief Field linkIdLength, offset: 0x10, size: 0x4, def value: None
+ int32_t  linkIdLength;
 
-  /// @brief Field linkTextfirstCharacterIndex, offset: 0x14, size: 0x4, def value: None
-  int32_t linkTextfirstCharacterIndex;
+/// @brief Field linkTextfirstCharacterIndex, offset: 0x14, size: 0x4, def value: None
+ int32_t  linkTextfirstCharacterIndex;
 
-  /// @brief Field linkTextLength, offset: 0x18, size: 0x4, def value: None
-  int32_t linkTextLength;
+/// @brief Field linkTextLength, offset: 0x18, size: 0x4, def value: None
+ int32_t  linkTextLength;
 
-  /// @brief Field linkID, offset: 0x20, size: 0x8, def value: None
-  ::ArrayW<char16_t, ::Array<char16_t>*> linkID;
+/// @brief Field linkID, offset: 0x20, size: 0x8, def value: None
+ ::ArrayW<char16_t,::Array<char16_t>*>  linkID;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x28 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x28};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::TMPro::TMP_LinkInfo, 0x28>, "Size mismatch!");
@@ -88,5 +84,5 @@ static_assert(offsetof(::TMPro::TMP_LinkInfo, linkTextLength) == 0x18, "Offset m
 
 static_assert(offsetof(::TMPro::TMP_LinkInfo, linkID) == 0x20, "Offset mismatch!");
 
-} // namespace TMPro
+} // namespace end def TMPro
 DEFINE_IL2CPP_ARG_TYPE(::TMPro::TMP_LinkInfo, "TMPro", "TMP_LinkInfo");

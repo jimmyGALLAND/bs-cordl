@@ -19,35 +19,35 @@ class FloatFxBaseDataConverter;
 // Write type traits
 MARK_REF_PTR_T(::BeatmapDataLoaderVersion4::FloatFxBaseDataConverter);
 // Type: BeatmapDataLoaderVersion4::FloatFxBaseDataConverter
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace BeatmapDataLoaderVersion4 {
 // Is value type: false
 // CS Name: ::BeatmapDataLoaderVersion4::FloatFxBaseDataConverter*
 class CORDL_TYPE FloatFxBaseDataConverter : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method Convert, addr 0x15099a8, size 0xa4, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::FloatFxBaseData* Convert(float_t beat, ::BeatmapSaveDataVersion4::FloatFxEvent floatFxEvent);
+// Declarations
+/// @brief Method Convert, addr 0x26c187c, size 0x9c, virtual false, abstract: false, final false
+static inline ::GlobalNamespace::FloatFxBaseData* Convert(float_t  beat, ::BeatmapSaveDataVersion4::FloatFxEvent  floatFxEvent) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr FloatFxBaseDataConverter();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr FloatFxBaseDataConverter() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FloatFxBaseDataConverter", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  FloatFxBaseDataConverter(FloatFxBaseDataConverter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FloatFxBaseDataConverter", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  FloatFxBaseDataConverter(FloatFxBaseDataConverter const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "FloatFxBaseDataConverter", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+FloatFxBaseDataConverter(FloatFxBaseDataConverter && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "FloatFxBaseDataConverter", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+FloatFxBaseDataConverter(FloatFxBaseDataConverter const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::BeatmapDataLoaderVersion4::FloatFxBaseDataConverter, 0x10>, "Size mismatch!");
 
-} // namespace BeatmapDataLoaderVersion4
+} // namespace end def BeatmapDataLoaderVersion4
 NEED_NO_BOX(::BeatmapDataLoaderVersion4::FloatFxBaseDataConverter);
 DEFINE_IL2CPP_ARG_TYPE(::BeatmapDataLoaderVersion4::FloatFxBaseDataConverter*, "BeatmapDataLoaderVersion4", "FloatFxBaseDataConverter");

@@ -36,126 +36,124 @@ class TimeStampedData;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Cms::TimeStampedData);
 // Type: Org.BouncyCastle.Asn1.Cms::TimeStampedData
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Cms {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Asn1.Cms::TimeStampedData*
 class CORDL_TYPE TimeStampedData : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
-  // Declarations
-  __declspec(property(get = get_Content))::Org::BouncyCastle::Asn1::Asn1OctetString* Content;
+// Declarations
+ __declspec(property(get=get_Content)) ::Org::BouncyCastle::Asn1::Asn1OctetString*  Content;
 
-  __declspec(property(get = get_DataUri))::Org::BouncyCastle::Asn1::DerIA5String* DataUri;
+ __declspec(property(get=get_DataUri)) ::Org::BouncyCastle::Asn1::DerIA5String*  DataUri;
 
-  __declspec(property(get = get_MetaData))::Org::BouncyCastle::Asn1::Cms::MetaData* MetaData;
+ __declspec(property(get=get_MetaData)) ::Org::BouncyCastle::Asn1::Cms::MetaData*  MetaData;
 
-  __declspec(property(get = get_TemporalEvidence))::Org::BouncyCastle::Asn1::Cms::Evidence* TemporalEvidence;
+ __declspec(property(get=get_TemporalEvidence)) ::Org::BouncyCastle::Asn1::Cms::Evidence*  TemporalEvidence;
 
-  /// @brief Field content, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_content, put = __cordl_internal_set_content))::Org::BouncyCastle::Asn1::Asn1OctetString* content;
+/// @brief Field content, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get_content, put=__cordl_internal_set_content)) ::Org::BouncyCastle::Asn1::Asn1OctetString*  content;
 
-  /// @brief Field dataUri, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_dataUri, put = __cordl_internal_set_dataUri))::Org::BouncyCastle::Asn1::DerIA5String* dataUri;
+/// @brief Field dataUri, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_dataUri, put=__cordl_internal_set_dataUri)) ::Org::BouncyCastle::Asn1::DerIA5String*  dataUri;
 
-  /// @brief Field metaData, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_metaData, put = __cordl_internal_set_metaData))::Org::BouncyCastle::Asn1::Cms::MetaData* metaData;
+/// @brief Field metaData, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get_metaData, put=__cordl_internal_set_metaData)) ::Org::BouncyCastle::Asn1::Cms::MetaData*  metaData;
 
-  /// @brief Field temporalEvidence, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_temporalEvidence, put = __cordl_internal_set_temporalEvidence))::Org::BouncyCastle::Asn1::Cms::Evidence* temporalEvidence;
+/// @brief Field temporalEvidence, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get_temporalEvidence, put=__cordl_internal_set_temporalEvidence)) ::Org::BouncyCastle::Asn1::Cms::Evidence*  temporalEvidence;
 
-  /// @brief Field version, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version))::Org::BouncyCastle::Asn1::DerInteger* version;
+/// @brief Field version, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_version, put=__cordl_internal_set_version)) ::Org::BouncyCastle::Asn1::DerInteger*  version;
 
-  /// @brief Method GetInstance, addr 0x10f2a48, size 0xa4, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Asn1::Cms::TimeStampedData* GetInstance(::System::Object* obj);
+/// @brief Method GetInstance, addr 0x22c3dc8, size 0xa4, virtual false, abstract: false, final false
+static inline ::Org::BouncyCastle::Asn1::Cms::TimeStampedData* GetInstance(::System::Object*  obj) ;
 
-  static inline ::Org::BouncyCastle::Asn1::Cms::TimeStampedData* New_ctor(::Org::BouncyCastle::Asn1::DerIA5String* dataUri, ::Org::BouncyCastle::Asn1::Cms::MetaData* metaData,
-                                                                          ::Org::BouncyCastle::Asn1::Asn1OctetString* content, ::Org::BouncyCastle::Asn1::Cms::Evidence* temporalEvidence);
+static inline ::Org::BouncyCastle::Asn1::Cms::TimeStampedData* New_ctor(::Org::BouncyCastle::Asn1::DerIA5String*  dataUri, ::Org::BouncyCastle::Asn1::Cms::MetaData*  metaData, ::Org::BouncyCastle::Asn1::Asn1OctetString*  content, ::Org::BouncyCastle::Asn1::Cms::Evidence*  temporalEvidence) ;
 
-  static inline ::Org::BouncyCastle::Asn1::Cms::TimeStampedData* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
+static inline ::Org::BouncyCastle::Asn1::Cms::TimeStampedData* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence*  seq) ;
 
-  /// @brief Method ToAsn1Object, addr 0x10f2b0c, size 0x1b0, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
+/// @brief Method ToAsn1Object, addr 0x22c3e8c, size 0x1ac, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object() ;
 
-  constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString*& __cordl_internal_get_content();
+constexpr ::Org::BouncyCastle::Asn1::Asn1OctetString*& __cordl_internal_get_content() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1OctetString*> const& __cordl_internal_get_content() const;
+constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1OctetString*> const& __cordl_internal_get_content() const;
 
-  constexpr ::Org::BouncyCastle::Asn1::DerIA5String*& __cordl_internal_get_dataUri();
+constexpr ::Org::BouncyCastle::Asn1::DerIA5String*& __cordl_internal_get_dataUri() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerIA5String*> const& __cordl_internal_get_dataUri() const;
+constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerIA5String*> const& __cordl_internal_get_dataUri() const;
 
-  constexpr ::Org::BouncyCastle::Asn1::Cms::MetaData*& __cordl_internal_get_metaData();
+constexpr ::Org::BouncyCastle::Asn1::Cms::MetaData*& __cordl_internal_get_metaData() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cms::MetaData*> const& __cordl_internal_get_metaData() const;
+constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cms::MetaData*> const& __cordl_internal_get_metaData() const;
 
-  constexpr ::Org::BouncyCastle::Asn1::Cms::Evidence*& __cordl_internal_get_temporalEvidence();
+constexpr ::Org::BouncyCastle::Asn1::Cms::Evidence*& __cordl_internal_get_temporalEvidence() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cms::Evidence*> const& __cordl_internal_get_temporalEvidence() const;
+constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cms::Evidence*> const& __cordl_internal_get_temporalEvidence() const;
 
-  constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __cordl_internal_get_version();
+constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __cordl_internal_get_version() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& __cordl_internal_get_version() const;
+constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& __cordl_internal_get_version() const;
 
-  constexpr void __cordl_internal_set_content(::Org::BouncyCastle::Asn1::Asn1OctetString* value);
+constexpr void __cordl_internal_set_content(::Org::BouncyCastle::Asn1::Asn1OctetString*  value) ;
 
-  constexpr void __cordl_internal_set_dataUri(::Org::BouncyCastle::Asn1::DerIA5String* value);
+constexpr void __cordl_internal_set_dataUri(::Org::BouncyCastle::Asn1::DerIA5String*  value) ;
 
-  constexpr void __cordl_internal_set_metaData(::Org::BouncyCastle::Asn1::Cms::MetaData* value);
+constexpr void __cordl_internal_set_metaData(::Org::BouncyCastle::Asn1::Cms::MetaData*  value) ;
 
-  constexpr void __cordl_internal_set_temporalEvidence(::Org::BouncyCastle::Asn1::Cms::Evidence* value);
+constexpr void __cordl_internal_set_temporalEvidence(::Org::BouncyCastle::Asn1::Cms::Evidence*  value) ;
 
-  constexpr void __cordl_internal_set_version(::Org::BouncyCastle::Asn1::DerInteger* value);
+constexpr void __cordl_internal_set_version(::Org::BouncyCastle::Asn1::DerInteger*  value) ;
 
-  /// @brief Method .ctor, addr 0x10f265c, size 0x94, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Asn1::DerIA5String* dataUri, ::Org::BouncyCastle::Asn1::Cms::MetaData* metaData, ::Org::BouncyCastle::Asn1::Asn1OctetString* content,
-                    ::Org::BouncyCastle::Asn1::Cms::Evidence* temporalEvidence);
+/// @brief Method .ctor, addr 0x22c39ec, size 0x8c, virtual false, abstract: false, final false
+inline void _ctor(::Org::BouncyCastle::Asn1::DerIA5String*  dataUri, ::Org::BouncyCastle::Asn1::Cms::MetaData*  metaData, ::Org::BouncyCastle::Asn1::Asn1OctetString*  content, ::Org::BouncyCastle::Asn1::Cms::Evidence*  temporalEvidence) ;
 
-  /// @brief Method .ctor, addr 0x10f26f0, size 0x268, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
+/// @brief Method .ctor, addr 0x22c3a78, size 0x268, virtual false, abstract: false, final false
+inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence*  seq) ;
 
-  /// @brief Method get_Content, addr 0x10f2afc, size 0x8, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Asn1OctetString* get_Content();
+/// @brief Method get_Content, addr 0x22c3e7c, size 0x8, virtual false, abstract: false, final false
+inline ::Org::BouncyCastle::Asn1::Asn1OctetString* get_Content() ;
 
-  /// @brief Method get_DataUri, addr 0x10f2aec, size 0x8, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::DerIA5String* get_DataUri();
+/// @brief Method get_DataUri, addr 0x22c3e6c, size 0x8, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Asn1::DerIA5String* get_DataUri() ;
 
-  /// @brief Method get_MetaData, addr 0x10f2af4, size 0x8, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Cms::MetaData* get_MetaData();
+/// @brief Method get_MetaData, addr 0x22c3e74, size 0x8, virtual false, abstract: false, final false
+inline ::Org::BouncyCastle::Asn1::Cms::MetaData* get_MetaData() ;
 
-  /// @brief Method get_TemporalEvidence, addr 0x10f2b04, size 0x8, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Cms::Evidence* get_TemporalEvidence();
+/// @brief Method get_TemporalEvidence, addr 0x22c3e84, size 0x8, virtual false, abstract: false, final false
+inline ::Org::BouncyCastle::Asn1::Cms::Evidence* get_TemporalEvidence() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TimeStampedData();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr TimeStampedData() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TimeStampedData", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  TimeStampedData(TimeStampedData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TimeStampedData", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  TimeStampedData(TimeStampedData const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "TimeStampedData", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+TimeStampedData(TimeStampedData && ) = delete;
 
-  /// @brief Field version, offset: 0x10, size: 0x8, def value: None
-  ::Org::BouncyCastle::Asn1::DerInteger* ___version;
+// Ctor Parameters [CppParam { name: "", ty: "TimeStampedData", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+TimeStampedData(TimeStampedData const& ) = delete;
 
-  /// @brief Field dataUri, offset: 0x18, size: 0x8, def value: None
-  ::Org::BouncyCastle::Asn1::DerIA5String* ___dataUri;
+/// @brief Field version, offset: 0x10, size: 0x8, def value: None
+ ::Org::BouncyCastle::Asn1::DerInteger*  ___version;
 
-  /// @brief Field metaData, offset: 0x20, size: 0x8, def value: None
-  ::Org::BouncyCastle::Asn1::Cms::MetaData* ___metaData;
+/// @brief Field dataUri, offset: 0x18, size: 0x8, def value: None
+ ::Org::BouncyCastle::Asn1::DerIA5String*  ___dataUri;
 
-  /// @brief Field content, offset: 0x28, size: 0x8, def value: None
-  ::Org::BouncyCastle::Asn1::Asn1OctetString* ___content;
+/// @brief Field metaData, offset: 0x20, size: 0x8, def value: None
+ ::Org::BouncyCastle::Asn1::Cms::MetaData*  ___metaData;
 
-  /// @brief Field temporalEvidence, offset: 0x30, size: 0x8, def value: None
-  ::Org::BouncyCastle::Asn1::Cms::Evidence* ___temporalEvidence;
+/// @brief Field content, offset: 0x28, size: 0x8, def value: None
+ ::Org::BouncyCastle::Asn1::Asn1OctetString*  ___content;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field temporalEvidence, offset: 0x30, size: 0x8, def value: None
+ ::Org::BouncyCastle::Asn1::Cms::Evidence*  ___temporalEvidence;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Cms::TimeStampedData, 0x38>, "Size mismatch!");
@@ -170,6 +168,6 @@ static_assert(offsetof(::Org::BouncyCastle::Asn1::Cms::TimeStampedData, ___conte
 
 static_assert(offsetof(::Org::BouncyCastle::Asn1::Cms::TimeStampedData, ___temporalEvidence) == 0x30, "Offset mismatch!");
 
-} // namespace Org::BouncyCastle::Asn1::Cms
+} // namespace end def Org::BouncyCastle::Asn1::Cms
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Cms::TimeStampedData);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::Cms::TimeStampedData*, "Org.BouncyCastle.Asn1.Cms", "TimeStampedData");

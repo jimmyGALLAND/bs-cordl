@@ -21,78 +21,78 @@ class NetPacketReader;
 // Write type traits
 MARK_REF_PTR_T(::LiteNetLib::NetPacketReader);
 // Type: LiteNetLib::NetPacketReader
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace LiteNetLib {
 // Is value type: false
 // CS Name: ::LiteNetLib::NetPacketReader*
 class CORDL_TYPE NetPacketReader : public ::LiteNetLib::Utils::NetDataReader {
 public:
-  // Declarations
-  /// @brief Field _evt, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__evt, put = __cordl_internal_set__evt))::LiteNetLib::NetEvent* _evt;
+// Declarations
+/// @brief Field _evt, offset 0x38, size 0x8 
+ __declspec(property(get=__cordl_internal_get__evt, put=__cordl_internal_set__evt)) ::LiteNetLib::NetEvent*  _evt;
 
-  /// @brief Field _manager, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__manager, put = __cordl_internal_set__manager))::LiteNetLib::NetManager* _manager;
+/// @brief Field _manager, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get__manager, put=__cordl_internal_set__manager)) ::LiteNetLib::NetManager*  _manager;
 
-  /// @brief Field _packet, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__packet, put = __cordl_internal_set__packet))::LiteNetLib::NetPacket* _packet;
+/// @brief Field _packet, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get__packet, put=__cordl_internal_set__packet)) ::LiteNetLib::NetPacket*  _packet;
 
-  static inline ::LiteNetLib::NetPacketReader* New_ctor(::LiteNetLib::NetManager* manager, ::LiteNetLib::NetEvent* evt);
+static inline ::LiteNetLib::NetPacketReader* New_ctor(::LiteNetLib::NetManager*  manager, ::LiteNetLib::NetEvent*  evt) ;
 
-  /// @brief Method Recycle, addr 0x260c7e8, size 0x6c, virtual false, abstract: false, final false
-  inline void Recycle();
+/// @brief Method Recycle, addr 0x3a2c84c, size 0x68, virtual false, abstract: false, final false
+inline void Recycle() ;
 
-  /// @brief Method RecycleInternal, addr 0x260c548, size 0x44, virtual false, abstract: false, final false
-  inline void RecycleInternal();
+/// @brief Method RecycleInternal, addr 0x3a2c5d4, size 0x44, virtual false, abstract: false, final false
+inline void RecycleInternal() ;
 
-  /// @brief Method SetSource, addr 0x260c480, size 0x40, virtual false, abstract: false, final false
-  inline void SetSource(::LiteNetLib::NetPacket* packet);
+/// @brief Method SetSource, addr 0x3a2c50c, size 0x40, virtual false, abstract: false, final false
+inline void SetSource(::LiteNetLib::NetPacket*  packet) ;
 
-  constexpr ::LiteNetLib::NetEvent*& __cordl_internal_get__evt();
+constexpr ::LiteNetLib::NetEvent*& __cordl_internal_get__evt() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::NetEvent*> const& __cordl_internal_get__evt() const;
+constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::NetEvent*> const& __cordl_internal_get__evt() const;
 
-  constexpr ::LiteNetLib::NetManager*& __cordl_internal_get__manager();
+constexpr ::LiteNetLib::NetManager*& __cordl_internal_get__manager() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::NetManager*> const& __cordl_internal_get__manager() const;
+constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::NetManager*> const& __cordl_internal_get__manager() const;
 
-  constexpr ::LiteNetLib::NetPacket*& __cordl_internal_get__packet();
+constexpr ::LiteNetLib::NetPacket*& __cordl_internal_get__packet() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::NetPacket*> const& __cordl_internal_get__packet() const;
+constexpr ::cordl_internals::to_const_pointer<::LiteNetLib::NetPacket*> const& __cordl_internal_get__packet() const;
 
-  constexpr void __cordl_internal_set__evt(::LiteNetLib::NetEvent* value);
+constexpr void __cordl_internal_set__evt(::LiteNetLib::NetEvent*  value) ;
 
-  constexpr void __cordl_internal_set__manager(::LiteNetLib::NetManager* value);
+constexpr void __cordl_internal_set__manager(::LiteNetLib::NetManager*  value) ;
 
-  constexpr void __cordl_internal_set__packet(::LiteNetLib::NetPacket* value);
+constexpr void __cordl_internal_set__packet(::LiteNetLib::NetPacket*  value) ;
 
-  /// @brief Method .ctor, addr 0x260c454, size 0x2c, virtual false, abstract: false, final false
-  inline void _ctor(::LiteNetLib::NetManager* manager, ::LiteNetLib::NetEvent* evt);
+/// @brief Method .ctor, addr 0x3a2c4e0, size 0x2c, virtual false, abstract: false, final false
+inline void _ctor(::LiteNetLib::NetManager*  manager, ::LiteNetLib::NetEvent*  evt) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NetPacketReader();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr NetPacketReader() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NetPacketReader", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  NetPacketReader(NetPacketReader&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NetPacketReader", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  NetPacketReader(NetPacketReader const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "NetPacketReader", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+NetPacketReader(NetPacketReader && ) = delete;
 
-  /// @brief Field _packet, offset: 0x28, size: 0x8, def value: None
-  ::LiteNetLib::NetPacket* ____packet;
+// Ctor Parameters [CppParam { name: "", ty: "NetPacketReader", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+NetPacketReader(NetPacketReader const& ) = delete;
 
-  /// @brief Field _manager, offset: 0x30, size: 0x8, def value: None
-  ::LiteNetLib::NetManager* ____manager;
+/// @brief Field _packet, offset: 0x28, size: 0x8, def value: None
+ ::LiteNetLib::NetPacket*  ____packet;
 
-  /// @brief Field _evt, offset: 0x38, size: 0x8, def value: None
-  ::LiteNetLib::NetEvent* ____evt;
+/// @brief Field _manager, offset: 0x30, size: 0x8, def value: None
+ ::LiteNetLib::NetManager*  ____manager;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _evt, offset: 0x38, size: 0x8, def value: None
+ ::LiteNetLib::NetEvent*  ____evt;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::LiteNetLib::NetPacketReader, 0x40>, "Size mismatch!");
@@ -103,6 +103,6 @@ static_assert(offsetof(::LiteNetLib::NetPacketReader, ____manager) == 0x30, "Off
 
 static_assert(offsetof(::LiteNetLib::NetPacketReader, ____evt) == 0x38, "Offset mismatch!");
 
-} // namespace LiteNetLib
+} // namespace end def LiteNetLib
 NEED_NO_BOX(::LiteNetLib::NetPacketReader);
 DEFINE_IL2CPP_ARG_TYPE(::LiteNetLib::NetPacketReader*, "LiteNetLib", "NetPacketReader");

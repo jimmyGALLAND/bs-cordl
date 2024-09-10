@@ -12,29 +12,29 @@ class IJumpOffsetYProvider;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::IJumpOffsetYProvider);
 // Type: ::IJumpOffsetYProvider
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::IJumpOffsetYProvider*
 class CORDL_TYPE IJumpOffsetYProvider {
 public:
-  // Declarations
-  __declspec(property(get = get_jumpOffsetY)) float_t jumpOffsetY;
+// Declarations
+ __declspec(property(get=get_jumpOffsetY)) float_t  jumpOffsetY;
 
-  /// @brief Method get_jumpOffsetY, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline float_t get_jumpOffsetY();
+/// @brief Method get_jumpOffsetY, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+inline float_t get_jumpOffsetY() ;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IJumpOffsetYProvider", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IJumpOffsetYProvider(IJumpOffsetYProvider&&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "IJumpOffsetYProvider", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+IJumpOffsetYProvider(IJumpOffsetYProvider && ) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IJumpOffsetYProvider", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  IJumpOffsetYProvider(IJumpOffsetYProvider const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "IJumpOffsetYProvider", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+IJumpOffsetYProvider(IJumpOffsetYProvider const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::IJumpOffsetYProvider);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::IJumpOffsetYProvider*, "", "IJumpOffsetYProvider");

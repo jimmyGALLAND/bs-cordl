@@ -16,46 +16,46 @@ class IntegerControl;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::InputSystem::Controls::IntegerControl);
 // Type: UnityEngine.InputSystem.Controls::IntegerControl
-// SizeInfo { instance_size: 264, native_size: -1, calculated_instance_size: 264, calculated_native_size: 257, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 264, native_size: -1, calculated_instance_size: 264, calculated_native_size: 257, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Controls {
 // Is value type: false
 // CS Name: ::UnityEngine.InputSystem.Controls::IntegerControl*
 class CORDL_TYPE IntegerControl : public ::UnityEngine::InputSystem::InputControl_1<int32_t> {
 public:
-  // Declarations
-  /// @brief Method CalculateOptimizedControlDataType, addr 0x31b0220, size 0xb0, virtual true, abstract: false, final false
-  inline ::UnityEngine::InputSystem::Utilities::FourCC CalculateOptimizedControlDataType();
+// Declarations
+/// @brief Method CalculateOptimizedControlDataType, addr 0x44d0f80, size 0xd4, virtual true, abstract: false, final false
+inline ::UnityEngine::InputSystem::Utilities::FourCC CalculateOptimizedControlDataType() ;
 
-  static inline ::UnityEngine::InputSystem::Controls::IntegerControl* New_ctor();
+static inline ::UnityEngine::InputSystem::Controls::IntegerControl* New_ctor() ;
 
-  /// @brief Method ReadUnprocessedValueFromState, addr 0x31b01bc, size 0x2c, virtual true, abstract: false, final false
-  inline int32_t ReadUnprocessedValueFromState(::cordl_internals::Ptr<void> statePtr);
+/// @brief Method ReadUnprocessedValueFromState, addr 0x44d0e50, size 0x94, virtual true, abstract: false, final false
+inline int32_t ReadUnprocessedValueFromState(::cordl_internals::Ptr<void>  statePtr) ;
 
-  /// @brief Method WriteValueIntoState, addr 0x31b01e8, size 0x38, virtual true, abstract: false, final false
-  inline void WriteValueIntoState(int32_t value, ::cordl_internals::Ptr<void> statePtr);
+/// @brief Method WriteValueIntoState, addr 0x44d0ee4, size 0x9c, virtual true, abstract: false, final false
+inline void WriteValueIntoState(int32_t  value, ::cordl_internals::Ptr<void>  statePtr) ;
 
-  /// @brief Method .ctor, addr 0x31b0134, size 0x88, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x44d0dc8, size 0x88, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr IntegerControl();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr IntegerControl() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IntegerControl", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IntegerControl(IntegerControl&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IntegerControl", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  IntegerControl(IntegerControl const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "IntegerControl", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+IntegerControl(IntegerControl && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "IntegerControl", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+IntegerControl(IntegerControl const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Controls::IntegerControl, 0x108>, "Size mismatch!");
 
-} // namespace UnityEngine::InputSystem::Controls
+} // namespace end def UnityEngine::InputSystem::Controls
 NEED_NO_BOX(::UnityEngine::InputSystem::Controls::IntegerControl);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Controls::IntegerControl*, "UnityEngine.InputSystem.Controls", "IntegerControl");

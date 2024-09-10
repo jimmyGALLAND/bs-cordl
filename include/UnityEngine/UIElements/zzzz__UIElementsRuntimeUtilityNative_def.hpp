@@ -15,61 +15,71 @@ class UIElementsRuntimeUtilityNative;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::UIElementsRuntimeUtilityNative);
 // Type: UnityEngine.UIElements::UIElementsRuntimeUtilityNative
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: ::UnityEngine.UIElements::UIElementsRuntimeUtilityNative*
 class CORDL_TYPE UIElementsRuntimeUtilityNative : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field RepaintOverlayPanelsCallback, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_RepaintOverlayPanelsCallback, put = setStaticF_RepaintOverlayPanelsCallback))::System::Action* RepaintOverlayPanelsCallback;
+// Declarations
+/// @brief Field RepaintOffscreenPanelsCallback, offset 0xffffffff, size 0x8 
+static __declspec(property(get=getStaticF_RepaintOffscreenPanelsCallback, put=setStaticF_RepaintOffscreenPanelsCallback)) ::System::Action*  RepaintOffscreenPanelsCallback;
 
-  /// @brief Field UpdateRuntimePanelsCallback, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_UpdateRuntimePanelsCallback, put = setStaticF_UpdateRuntimePanelsCallback))::System::Action* UpdateRuntimePanelsCallback;
+/// @brief Field RepaintOverlayPanelsCallback, offset 0xffffffff, size 0x8 
+static __declspec(property(get=getStaticF_RepaintOverlayPanelsCallback, put=setStaticF_RepaintOverlayPanelsCallback)) ::System::Action*  RepaintOverlayPanelsCallback;
 
-  /// @brief Method RegisterPlayerloopCallback, addr 0x363a9cc, size 0x28, virtual false, abstract: false, final false
-  static inline void RegisterPlayerloopCallback();
+/// @brief Field UpdateRuntimePanelsCallback, offset 0xffffffff, size 0x8 
+static __declspec(property(get=getStaticF_UpdateRuntimePanelsCallback, put=setStaticF_UpdateRuntimePanelsCallback)) ::System::Action*  UpdateRuntimePanelsCallback;
 
-  /// @brief Method RepaintOverlayPanels, addr 0x363a904, size 0x64, virtual false, abstract: false, final false
-  static inline void RepaintOverlayPanels();
+/// @brief Method RegisterPlayerloopCallback, addr 0x49ac358, size 0x28, virtual false, abstract: false, final false
+static inline void RegisterPlayerloopCallback() ;
 
-  /// @brief Method UnregisterPlayerloopCallback, addr 0x363a9f4, size 0x28, virtual false, abstract: false, final false
-  static inline void UnregisterPlayerloopCallback();
+/// @brief Method RepaintOffscreenPanels, addr 0x49ac2f4, size 0x64, virtual false, abstract: false, final false
+static inline void RepaintOffscreenPanels() ;
 
-  /// @brief Method UpdateRuntimePanels, addr 0x363a968, size 0x64, virtual false, abstract: false, final false
-  static inline void UpdateRuntimePanels();
+/// @brief Method RepaintOverlayPanels, addr 0x49ac22c, size 0x64, virtual false, abstract: false, final false
+static inline void RepaintOverlayPanels() ;
 
-  /// @brief Method VisualElementCreation, addr 0x363aa1c, size 0x28, virtual false, abstract: false, final false
-  static inline void VisualElementCreation();
+/// @brief Method UnregisterPlayerloopCallback, addr 0x49ac380, size 0x28, virtual false, abstract: false, final false
+static inline void UnregisterPlayerloopCallback() ;
 
-  static inline ::System::Action* getStaticF_RepaintOverlayPanelsCallback();
+/// @brief Method UpdateRuntimePanels, addr 0x49ac290, size 0x64, virtual false, abstract: false, final false
+static inline void UpdateRuntimePanels() ;
 
-  static inline ::System::Action* getStaticF_UpdateRuntimePanelsCallback();
+/// @brief Method VisualElementCreation, addr 0x49ac3a8, size 0x28, virtual false, abstract: false, final false
+static inline void VisualElementCreation() ;
 
-  static inline void setStaticF_RepaintOverlayPanelsCallback(::System::Action* value);
+static inline ::System::Action* getStaticF_RepaintOffscreenPanelsCallback() ;
 
-  static inline void setStaticF_UpdateRuntimePanelsCallback(::System::Action* value);
+static inline ::System::Action* getStaticF_RepaintOverlayPanelsCallback() ;
+
+static inline ::System::Action* getStaticF_UpdateRuntimePanelsCallback() ;
+
+static inline void setStaticF_RepaintOffscreenPanelsCallback(::System::Action*  value) ;
+
+static inline void setStaticF_RepaintOverlayPanelsCallback(::System::Action*  value) ;
+
+static inline void setStaticF_UpdateRuntimePanelsCallback(::System::Action*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr UIElementsRuntimeUtilityNative();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr UIElementsRuntimeUtilityNative() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UIElementsRuntimeUtilityNative", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  UIElementsRuntimeUtilityNative(UIElementsRuntimeUtilityNative&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UIElementsRuntimeUtilityNative", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  UIElementsRuntimeUtilityNative(UIElementsRuntimeUtilityNative const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "UIElementsRuntimeUtilityNative", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+UIElementsRuntimeUtilityNative(UIElementsRuntimeUtilityNative && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "UIElementsRuntimeUtilityNative", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+UIElementsRuntimeUtilityNative(UIElementsRuntimeUtilityNative const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::UIElementsRuntimeUtilityNative, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine::UIElements
+} // namespace end def UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::UIElementsRuntimeUtilityNative);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::UIElementsRuntimeUtilityNative*, "UnityEngine.UIElements", "UIElementsRuntimeUtilityNative");

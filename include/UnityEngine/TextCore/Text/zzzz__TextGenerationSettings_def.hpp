@@ -7,7 +7,9 @@ CORDL_MODULE_INIT
 #include "UnityEngine/TextCore/Text/zzzz__FontStyles_def.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__TextAlignment_def.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__TextFontWeight_def.hpp"
+#include "UnityEngine/TextCore/Text/zzzz__TextInputSource_def.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__TextOverflowMode_def.hpp"
+#include "UnityEngine/TextCore/Text/zzzz__TextWrappingMode_def.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__TextureMapping_def.hpp"
 #include "UnityEngine/TextCore/Text/zzzz__VertexSortingOrder_def.hpp"
 #include "UnityEngine/zzzz__Color_def.hpp"
@@ -17,6 +19,10 @@ CORDL_MODULE_INIT
 #include <cmath>
 #include <cstdint>
 CORDL_MODULE_EXPORT(TextGenerationSettings)
+namespace System {
+template<typename T>
+class IEquatable_1;
+}
 namespace System {
 class Object;
 }
@@ -45,585 +51,669 @@ class TextGenerationSettings;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::TextCore::Text::TextGenerationSettings);
 // Type: UnityEngine.TextCore.Text::TextGenerationSettings
-// SizeInfo { instance_size: 256, native_size: -1, calculated_instance_size: 256, calculated_native_size: 252, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 272, native_size: -1, calculated_instance_size: 272, calculated_native_size: 272, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::TextCore::Text {
 // Is value type: false
 // CS Name: ::UnityEngine.TextCore.Text::TextGenerationSettings*
 class CORDL_TYPE TextGenerationSettings : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field autoSize, offset 0xa0, size 0x1
-  __declspec(property(get = __cordl_internal_get_autoSize, put = __cordl_internal_set_autoSize)) bool autoSize;
+// Declarations
+/// @brief Field autoSize, offset 0xa8, size 0x1 
+ __declspec(property(get=__cordl_internal_get_autoSize, put=__cordl_internal_set_autoSize)) bool  autoSize;
 
-  /// @brief Field charWidthMaxAdj, offset 0xf8, size 0x4
-  __declspec(property(get = __cordl_internal_get_charWidthMaxAdj, put = __cordl_internal_set_charWidthMaxAdj)) float_t charWidthMaxAdj;
+/// @brief Field charWidthMaxAdj, offset 0x108, size 0x4 
+ __declspec(property(get=__cordl_internal_get_charWidthMaxAdj, put=__cordl_internal_set_charWidthMaxAdj)) float_t  charWidthMaxAdj;
 
-  /// @brief Field characterSpacing, offset 0xb4, size 0x4
-  __declspec(property(get = __cordl_internal_get_characterSpacing, put = __cordl_internal_set_characterSpacing)) float_t characterSpacing;
+/// @brief Field characterSpacing, offset 0xc0, size 0x4 
+ __declspec(property(get=__cordl_internal_get_characterSpacing, put=__cordl_internal_set_characterSpacing)) float_t  characterSpacing;
 
-  /// @brief Field color, offset 0x80, size 0x10
-  __declspec(property(get = __cordl_internal_get_color, put = __cordl_internal_set_color))::UnityEngine::Color color;
+/// @brief Field color, offset 0x80, size 0x10 
+ __declspec(property(get=__cordl_internal_get_color, put=__cordl_internal_set_color)) ::UnityEngine::Color  color;
 
-  /// @brief Field enableKerning, offset 0xac, size 0x1
-  __declspec(property(get = __cordl_internal_get_enableKerning, put = __cordl_internal_set_enableKerning)) bool enableKerning;
+/// @brief Field enableKerning, offset 0xb4, size 0x1 
+ __declspec(property(get=__cordl_internal_get_enableKerning, put=__cordl_internal_set_enableKerning)) bool  enableKerning;
 
-  /// @brief Field extraPadding, offset 0xaf, size 0x1
-  __declspec(property(get = __cordl_internal_get_extraPadding, put = __cordl_internal_set_extraPadding)) bool extraPadding;
+/// @brief Field extraPadding, offset 0xb8, size 0x4 
+ __declspec(property(get=__cordl_internal_get_extraPadding, put=__cordl_internal_set_extraPadding)) float_t  extraPadding;
 
-  /// @brief Field firstVisibleCharacter, offset 0xd4, size 0x4
-  __declspec(property(get = __cordl_internal_get_firstVisibleCharacter, put = __cordl_internal_set_firstVisibleCharacter)) int32_t firstVisibleCharacter;
+/// @brief Field firstVisibleCharacter, offset 0xe4, size 0x4 
+ __declspec(property(get=__cordl_internal_get_firstVisibleCharacter, put=__cordl_internal_set_firstVisibleCharacter)) int32_t  firstVisibleCharacter;
 
-  /// @brief Field fontAsset, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_fontAsset, put = __cordl_internal_set_fontAsset))::UnityW<::UnityEngine::TextCore::Text::FontAsset> fontAsset;
+/// @brief Field fontAsset, offset 0x40, size 0x8 
+ __declspec(property(get=__cordl_internal_get_fontAsset, put=__cordl_internal_set_fontAsset)) ::UnityW<::UnityEngine::TextCore::Text::FontAsset>  fontAsset;
 
-  /// @brief Field fontColorGradient, offset 0x90, size 0x8
-  __declspec(property(get = __cordl_internal_get_fontColorGradient, put = __cordl_internal_set_fontColorGradient))::UnityW<::UnityEngine::TextCore::Text::TextColorGradient> fontColorGradient;
+/// @brief Field fontColorGradient, offset 0x90, size 0x8 
+ __declspec(property(get=__cordl_internal_get_fontColorGradient, put=__cordl_internal_set_fontColorGradient)) ::UnityW<::UnityEngine::TextCore::Text::TextColorGradient>  fontColorGradient;
 
-  /// @brief Field fontSize, offset 0x9c, size 0x4
-  __declspec(property(get = __cordl_internal_get_fontSize, put = __cordl_internal_set_fontSize)) float_t fontSize;
+/// @brief Field fontColorGradientPreset, offset 0x98, size 0x8 
+ __declspec(property(get=__cordl_internal_get_fontColorGradientPreset, put=__cordl_internal_set_fontColorGradientPreset)) ::UnityW<::UnityEngine::TextCore::Text::TextColorGradient>  fontColorGradientPreset;
 
-  /// @brief Field fontSizeMax, offset 0xa8, size 0x4
-  __declspec(property(get = __cordl_internal_get_fontSizeMax, put = __cordl_internal_set_fontSizeMax)) float_t fontSizeMax;
+/// @brief Field fontSize, offset 0xa4, size 0x4 
+ __declspec(property(get=__cordl_internal_get_fontSize, put=__cordl_internal_set_fontSize)) float_t  fontSize;
 
-  /// @brief Field fontSizeMin, offset 0xa4, size 0x4
-  __declspec(property(get = __cordl_internal_get_fontSizeMin, put = __cordl_internal_set_fontSizeMin)) float_t fontSizeMin;
+/// @brief Field fontSizeMax, offset 0xb0, size 0x4 
+ __declspec(property(get=__cordl_internal_get_fontSizeMax, put=__cordl_internal_set_fontSizeMax)) float_t  fontSizeMax;
 
-  /// @brief Field fontStyle, offset 0x60, size 0x4
-  __declspec(property(get = __cordl_internal_get_fontStyle, put = __cordl_internal_set_fontStyle))::UnityEngine::TextCore::Text::FontStyles fontStyle;
+/// @brief Field fontSizeMin, offset 0xac, size 0x4 
+ __declspec(property(get=__cordl_internal_get_fontSizeMin, put=__cordl_internal_set_fontSizeMin)) float_t  fontSizeMin;
 
-  /// @brief Field fontWeight, offset 0xdc, size 0x4
-  __declspec(property(get = __cordl_internal_get_fontWeight, put = __cordl_internal_set_fontWeight))::UnityEngine::TextCore::Text::TextFontWeight fontWeight;
+/// @brief Field fontStyle, offset 0x60, size 0x4 
+ __declspec(property(get=__cordl_internal_get_fontStyle, put=__cordl_internal_set_fontStyle)) ::UnityEngine::TextCore::Text::FontStyles  fontStyle;
 
-  /// @brief Field geometrySortingOrder, offset 0xf0, size 0x4
-  __declspec(property(get = __cordl_internal_get_geometrySortingOrder, put = __cordl_internal_set_geometrySortingOrder))::UnityEngine::TextCore::Text::VertexSortingOrder geometrySortingOrder;
+/// @brief Field fontWeight, offset 0xec, size 0x4 
+ __declspec(property(get=__cordl_internal_get_fontWeight, put=__cordl_internal_set_fontWeight)) ::UnityEngine::TextCore::Text::TextFontWeight  fontWeight;
 
-  /// @brief Field horizontalMapping, offset 0xe4, size 0x4
-  __declspec(property(get = __cordl_internal_get_horizontalMapping, put = __cordl_internal_set_horizontalMapping))::UnityEngine::TextCore::Text::TextureMapping horizontalMapping;
+/// @brief Field geometrySortingOrder, offset 0x100, size 0x4 
+ __declspec(property(get=__cordl_internal_get_geometrySortingOrder, put=__cordl_internal_set_geometrySortingOrder)) ::UnityEngine::TextCore::Text::VertexSortingOrder  geometrySortingOrder;
 
-  /// @brief Field inverseYAxis, offset 0xf4, size 0x1
-  __declspec(property(get = __cordl_internal_get_inverseYAxis, put = __cordl_internal_set_inverseYAxis)) bool inverseYAxis;
+/// @brief Field horizontalMapping, offset 0xf4, size 0x4 
+ __declspec(property(get=__cordl_internal_get_horizontalMapping, put=__cordl_internal_set_horizontalMapping)) ::UnityEngine::TextCore::Text::TextureMapping  horizontalMapping;
 
-  /// @brief Field isRightToLeft, offset 0xae, size 0x1
-  __declspec(property(get = __cordl_internal_get_isRightToLeft, put = __cordl_internal_set_isRightToLeft)) bool isRightToLeft;
+/// @brief Field inputSource, offset 0x10c, size 0x4 
+ __declspec(property(get=__cordl_internal_get_inputSource, put=__cordl_internal_set_inputSource)) ::UnityEngine::TextCore::Text::TextInputSource  inputSource;
 
-  /// @brief Field lineSpacing, offset 0xbc, size 0x4
-  __declspec(property(get = __cordl_internal_get_lineSpacing, put = __cordl_internal_set_lineSpacing)) float_t lineSpacing;
+/// @brief Field inverseYAxis, offset 0x104, size 0x1 
+ __declspec(property(get=__cordl_internal_get_inverseYAxis, put=__cordl_internal_set_inverseYAxis)) bool  inverseYAxis;
 
-  /// @brief Field lineSpacingMax, offset 0xc4, size 0x4
-  __declspec(property(get = __cordl_internal_get_lineSpacingMax, put = __cordl_internal_set_lineSpacingMax)) float_t lineSpacingMax;
+/// @brief Field isOrthographic, offset 0xbd, size 0x1 
+ __declspec(property(get=__cordl_internal_get_isOrthographic, put=__cordl_internal_set_isOrthographic)) bool  isOrthographic;
 
-  /// @brief Field margins, offset 0x28, size 0x10
-  __declspec(property(get = __cordl_internal_get_margins, put = __cordl_internal_set_margins))::UnityEngine::Vector4 margins;
+/// @brief Field isRightToLeft, offset 0xb6, size 0x1 
+ __declspec(property(get=__cordl_internal_get_isRightToLeft, put=__cordl_internal_set_isRightToLeft)) bool  isRightToLeft;
 
-  /// @brief Field material, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_material, put = __cordl_internal_set_material))::UnityW<::UnityEngine::Material> material;
+/// @brief Field lineSpacing, offset 0xc8, size 0x4 
+ __declspec(property(get=__cordl_internal_get_lineSpacing, put=__cordl_internal_set_lineSpacing)) float_t  lineSpacing;
 
-  /// @brief Field maxVisibleCharacters, offset 0xc8, size 0x4
-  __declspec(property(get = __cordl_internal_get_maxVisibleCharacters, put = __cordl_internal_set_maxVisibleCharacters)) int32_t maxVisibleCharacters;
+/// @brief Field lineSpacingMax, offset 0xd0, size 0x4 
+ __declspec(property(get=__cordl_internal_get_lineSpacingMax, put=__cordl_internal_set_lineSpacingMax)) float_t  lineSpacingMax;
 
-  /// @brief Field maxVisibleLines, offset 0xd0, size 0x4
-  __declspec(property(get = __cordl_internal_get_maxVisibleLines, put = __cordl_internal_set_maxVisibleLines)) int32_t maxVisibleLines;
+/// @brief Field margins, offset 0x28, size 0x10 
+ __declspec(property(get=__cordl_internal_get_margins, put=__cordl_internal_set_margins)) ::UnityEngine::Vector4  margins;
 
-  /// @brief Field maxVisibleWords, offset 0xcc, size 0x4
-  __declspec(property(get = __cordl_internal_get_maxVisibleWords, put = __cordl_internal_set_maxVisibleWords)) int32_t maxVisibleWords;
+/// @brief Field material, offset 0x48, size 0x8 
+ __declspec(property(get=__cordl_internal_get_material, put=__cordl_internal_set_material)) ::UnityW<::UnityEngine::Material>  material;
 
-  /// @brief Field overflowMode, offset 0x74, size 0x4
-  __declspec(property(get = __cordl_internal_get_overflowMode, put = __cordl_internal_set_overflowMode))::UnityEngine::TextCore::Text::TextOverflowMode overflowMode;
+/// @brief Field maxVisibleCharacters, offset 0xd8, size 0x4 
+ __declspec(property(get=__cordl_internal_get_maxVisibleCharacters, put=__cordl_internal_set_maxVisibleCharacters)) int32_t  maxVisibleCharacters;
 
-  /// @brief Field overrideRichTextColors, offset 0x99, size 0x1
-  __declspec(property(get = __cordl_internal_get_overrideRichTextColors, put = __cordl_internal_set_overrideRichTextColors)) bool overrideRichTextColors;
+/// @brief Field maxVisibleLines, offset 0xe0, size 0x4 
+ __declspec(property(get=__cordl_internal_get_maxVisibleLines, put=__cordl_internal_set_maxVisibleLines)) int32_t  maxVisibleLines;
 
-  /// @brief Field pageToDisplay, offset 0xe0, size 0x4
-  __declspec(property(get = __cordl_internal_get_pageToDisplay, put = __cordl_internal_set_pageToDisplay)) int32_t pageToDisplay;
+/// @brief Field maxVisibleWords, offset 0xdc, size 0x4 
+ __declspec(property(get=__cordl_internal_get_maxVisibleWords, put=__cordl_internal_set_maxVisibleWords)) int32_t  maxVisibleWords;
 
-  /// @brief Field paragraphSpacing, offset 0xc0, size 0x4
-  __declspec(property(get = __cordl_internal_get_paragraphSpacing, put = __cordl_internal_set_paragraphSpacing)) float_t paragraphSpacing;
+/// @brief Field overflowMode, offset 0x74, size 0x4 
+ __declspec(property(get=__cordl_internal_get_overflowMode, put=__cordl_internal_set_overflowMode)) ::UnityEngine::TextCore::Text::TextOverflowMode  overflowMode;
 
-  /// @brief Field parseControlCharacters, offset 0xb0, size 0x1
-  __declspec(property(get = __cordl_internal_get_parseControlCharacters, put = __cordl_internal_set_parseControlCharacters)) bool parseControlCharacters;
+/// @brief Field overrideRichTextColors, offset 0xa1, size 0x1 
+ __declspec(property(get=__cordl_internal_get_overrideRichTextColors, put=__cordl_internal_set_overrideRichTextColors)) bool  overrideRichTextColors;
 
-  /// @brief Field richText, offset 0xad, size 0x1
-  __declspec(property(get = __cordl_internal_get_richText, put = __cordl_internal_set_richText)) bool richText;
+/// @brief Field pageToDisplay, offset 0xf0, size 0x4 
+ __declspec(property(get=__cordl_internal_get_pageToDisplay, put=__cordl_internal_set_pageToDisplay)) int32_t  pageToDisplay;
 
-  /// @brief Field scale, offset 0x38, size 0x4
-  __declspec(property(get = __cordl_internal_get_scale, put = __cordl_internal_set_scale)) float_t scale;
+/// @brief Field paragraphSpacing, offset 0xcc, size 0x4 
+ __declspec(property(get=__cordl_internal_get_paragraphSpacing, put=__cordl_internal_set_paragraphSpacing)) float_t  paragraphSpacing;
 
-  /// @brief Field screenRect, offset 0x18, size 0x10
-  __declspec(property(get = __cordl_internal_get_screenRect, put = __cordl_internal_set_screenRect))::UnityEngine::Rect screenRect;
+/// @brief Field parseControlCharacters, offset 0xbc, size 0x1 
+ __declspec(property(get=__cordl_internal_get_parseControlCharacters, put=__cordl_internal_set_parseControlCharacters)) bool  parseControlCharacters;
 
-  /// @brief Field spriteAsset, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_spriteAsset, put = __cordl_internal_set_spriteAsset))::UnityW<::UnityEngine::TextCore::Text::SpriteAsset> spriteAsset;
+/// @brief Field richText, offset 0xb5, size 0x1 
+ __declspec(property(get=__cordl_internal_get_richText, put=__cordl_internal_set_richText)) bool  richText;
 
-  /// @brief Field styleSheet, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get_styleSheet, put = __cordl_internal_set_styleSheet))::UnityW<::UnityEngine::TextCore::Text::TextStyleSheet> styleSheet;
+/// @brief Field scale, offset 0x38, size 0x4 
+ __declspec(property(get=__cordl_internal_get_scale, put=__cordl_internal_set_scale)) float_t  scale;
 
-  /// @brief Field text, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_text, put = __cordl_internal_set_text))::StringW text;
+/// @brief Field screenRect, offset 0x18, size 0x10 
+ __declspec(property(get=__cordl_internal_get_screenRect, put=__cordl_internal_set_screenRect)) ::UnityEngine::Rect  screenRect;
 
-  /// @brief Field textAlignment, offset 0x70, size 0x4
-  __declspec(property(get = __cordl_internal_get_textAlignment, put = __cordl_internal_set_textAlignment))::UnityEngine::TextCore::Text::TextAlignment textAlignment;
+/// @brief Field shouldConvertToLinearSpace, offset 0xa2, size 0x1 
+ __declspec(property(get=__cordl_internal_get_shouldConvertToLinearSpace, put=__cordl_internal_set_shouldConvertToLinearSpace)) bool  shouldConvertToLinearSpace;
 
-  /// @brief Field textSettings, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get_textSettings, put = __cordl_internal_set_textSettings))::UnityW<::UnityEngine::TextCore::Text::TextSettings> textSettings;
+/// @brief Field spriteAsset, offset 0x50, size 0x8 
+ __declspec(property(get=__cordl_internal_get_spriteAsset, put=__cordl_internal_set_spriteAsset)) ::UnityW<::UnityEngine::TextCore::Text::SpriteAsset>  spriteAsset;
 
-  /// @brief Field tintSprites, offset 0x98, size 0x1
-  __declspec(property(get = __cordl_internal_get_tintSprites, put = __cordl_internal_set_tintSprites)) bool tintSprites;
+/// @brief Field styleSheet, offset 0x58, size 0x8 
+ __declspec(property(get=__cordl_internal_get_styleSheet, put=__cordl_internal_set_styleSheet)) ::UnityW<::UnityEngine::TextCore::Text::TextStyleSheet>  styleSheet;
 
-  /// @brief Field useMaxVisibleDescender, offset 0xd8, size 0x1
-  __declspec(property(get = __cordl_internal_get_useMaxVisibleDescender, put = __cordl_internal_set_useMaxVisibleDescender)) bool useMaxVisibleDescender;
+/// @brief Field tagNoParsing, offset 0xbe, size 0x1 
+ __declspec(property(get=__cordl_internal_get_tagNoParsing, put=__cordl_internal_set_tagNoParsing)) bool  tagNoParsing;
 
-  /// @brief Field uvLineOffset, offset 0xec, size 0x4
-  __declspec(property(get = __cordl_internal_get_uvLineOffset, put = __cordl_internal_set_uvLineOffset)) float_t uvLineOffset;
+/// @brief Field text, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_text, put=__cordl_internal_set_text)) ::StringW  text;
 
-  /// @brief Field verticalMapping, offset 0xe8, size 0x4
-  __declspec(property(get = __cordl_internal_get_verticalMapping, put = __cordl_internal_set_verticalMapping))::UnityEngine::TextCore::Text::TextureMapping verticalMapping;
+/// @brief Field textAlignment, offset 0x70, size 0x4 
+ __declspec(property(get=__cordl_internal_get_textAlignment, put=__cordl_internal_set_textAlignment)) ::UnityEngine::TextCore::Text::TextAlignment  textAlignment;
 
-  /// @brief Field wordSpacing, offset 0xb8, size 0x4
-  __declspec(property(get = __cordl_internal_get_wordSpacing, put = __cordl_internal_set_wordSpacing)) float_t wordSpacing;
+/// @brief Field textSettings, offset 0x68, size 0x8 
+ __declspec(property(get=__cordl_internal_get_textSettings, put=__cordl_internal_set_textSettings)) ::UnityW<::UnityEngine::TextCore::Text::TextSettings>  textSettings;
 
-  /// @brief Field wordWrap, offset 0x78, size 0x1
-  __declspec(property(get = __cordl_internal_get_wordWrap, put = __cordl_internal_set_wordWrap)) bool wordWrap;
+/// @brief Field textWrappingMode, offset 0xd4, size 0x4 
+ __declspec(property(get=__cordl_internal_get_textWrappingMode, put=__cordl_internal_set_textWrappingMode)) ::UnityEngine::TextCore::Text::TextWrappingMode  textWrappingMode;
 
-  /// @brief Field wordWrappingRatio, offset 0x7c, size 0x4
-  __declspec(property(get = __cordl_internal_get_wordWrappingRatio, put = __cordl_internal_set_wordWrappingRatio)) float_t wordWrappingRatio;
+/// @brief Field tintSprites, offset 0xa0, size 0x1 
+ __declspec(property(get=__cordl_internal_get_tintSprites, put=__cordl_internal_set_tintSprites)) bool  tintSprites;
 
-  /// @brief Method Equals, addr 0x34d3504, size 0xc8, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* obj);
+/// @brief Field useMaxVisibleDescender, offset 0xe8, size 0x1 
+ __declspec(property(get=__cordl_internal_get_useMaxVisibleDescender, put=__cordl_internal_set_useMaxVisibleDescender)) bool  useMaxVisibleDescender;
 
-  /// @brief Method Equals, addr 0x34d3150, size 0x3b4, virtual false, abstract: false, final false
-  inline bool Equals(::UnityEngine::TextCore::Text::TextGenerationSettings* other);
+/// @brief Field uvLineOffset, offset 0xfc, size 0x4 
+ __declspec(property(get=__cordl_internal_get_uvLineOffset, put=__cordl_internal_set_uvLineOffset)) float_t  uvLineOffset;
 
-  /// @brief Method GetHashCode, addr 0x34d35cc, size 0x56c, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
+/// @brief Field verticalMapping, offset 0xf8, size 0x4 
+ __declspec(property(get=__cordl_internal_get_verticalMapping, put=__cordl_internal_set_verticalMapping)) ::UnityEngine::TextCore::Text::TextureMapping  verticalMapping;
 
-  static inline ::UnityEngine::TextCore::Text::TextGenerationSettings* New_ctor();
+/// @brief Field wordSpacing, offset 0xc4, size 0x4 
+ __declspec(property(get=__cordl_internal_get_wordSpacing, put=__cordl_internal_set_wordSpacing)) float_t  wordSpacing;
 
-  constexpr bool const& __cordl_internal_get_autoSize() const;
+/// @brief Field wordWrap, offset 0x78, size 0x1 
+ __declspec(property(get=__cordl_internal_get_wordWrap, put=__cordl_internal_set_wordWrap)) bool  wordWrap;
 
-  constexpr bool& __cordl_internal_get_autoSize();
+/// @brief Field wordWrappingRatio, offset 0x7c, size 0x4 
+ __declspec(property(get=__cordl_internal_get_wordWrappingRatio, put=__cordl_internal_set_wordWrappingRatio)) float_t  wordWrappingRatio;
 
-  constexpr float_t const& __cordl_internal_get_charWidthMaxAdj() const;
+/// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::TextCore::Text::TextGenerationSettings*>"
+constexpr operator  ::System::IEquatable_1<::UnityEngine::TextCore::Text::TextGenerationSettings*>*() noexcept;
 
-  constexpr float_t& __cordl_internal_get_charWidthMaxAdj();
+/// @brief Method Equals, addr 0x489ce4c, size 0x10c, virtual true, abstract: false, final false
+inline bool Equals(::System::Object*  obj) ;
 
-  constexpr float_t const& __cordl_internal_get_characterSpacing() const;
+/// @brief Method Equals, addr 0x489c9a4, size 0x4a8, virtual true, abstract: false, final true
+inline bool Equals(::UnityEngine::TextCore::Text::TextGenerationSettings*  other) ;
 
-  constexpr float_t& __cordl_internal_get_characterSpacing();
+/// @brief Method GetHashCode, addr 0x489cf58, size 0x4d0, virtual true, abstract: false, final false
+inline int32_t GetHashCode() ;
 
-  constexpr ::UnityEngine::Color const& __cordl_internal_get_color() const;
+static inline ::UnityEngine::TextCore::Text::TextGenerationSettings* New_ctor() ;
 
-  constexpr ::UnityEngine::Color& __cordl_internal_get_color();
+/// @brief Method ToString, addr 0x489d430, size 0x1aa8, virtual true, abstract: false, final false
+inline ::StringW ToString() ;
 
-  constexpr bool const& __cordl_internal_get_enableKerning() const;
+constexpr bool const& __cordl_internal_get_autoSize() const;
 
-  constexpr bool& __cordl_internal_get_enableKerning();
+constexpr bool& __cordl_internal_get_autoSize() ;
 
-  constexpr bool const& __cordl_internal_get_extraPadding() const;
+constexpr float_t const& __cordl_internal_get_charWidthMaxAdj() const;
 
-  constexpr bool& __cordl_internal_get_extraPadding();
+constexpr float_t& __cordl_internal_get_charWidthMaxAdj() ;
 
-  constexpr int32_t const& __cordl_internal_get_firstVisibleCharacter() const;
+constexpr float_t const& __cordl_internal_get_characterSpacing() const;
 
-  constexpr int32_t& __cordl_internal_get_firstVisibleCharacter();
+constexpr float_t& __cordl_internal_get_characterSpacing() ;
 
-  constexpr ::UnityW<::UnityEngine::TextCore::Text::FontAsset> const& __cordl_internal_get_fontAsset() const;
+constexpr ::UnityEngine::Color const& __cordl_internal_get_color() const;
 
-  constexpr ::UnityW<::UnityEngine::TextCore::Text::FontAsset>& __cordl_internal_get_fontAsset();
+constexpr ::UnityEngine::Color& __cordl_internal_get_color() ;
 
-  constexpr ::UnityW<::UnityEngine::TextCore::Text::TextColorGradient> const& __cordl_internal_get_fontColorGradient() const;
+constexpr bool const& __cordl_internal_get_enableKerning() const;
 
-  constexpr ::UnityW<::UnityEngine::TextCore::Text::TextColorGradient>& __cordl_internal_get_fontColorGradient();
+constexpr bool& __cordl_internal_get_enableKerning() ;
 
-  constexpr float_t const& __cordl_internal_get_fontSize() const;
+constexpr float_t const& __cordl_internal_get_extraPadding() const;
 
-  constexpr float_t& __cordl_internal_get_fontSize();
+constexpr float_t& __cordl_internal_get_extraPadding() ;
 
-  constexpr float_t const& __cordl_internal_get_fontSizeMax() const;
+constexpr int32_t const& __cordl_internal_get_firstVisibleCharacter() const;
 
-  constexpr float_t& __cordl_internal_get_fontSizeMax();
+constexpr int32_t& __cordl_internal_get_firstVisibleCharacter() ;
 
-  constexpr float_t const& __cordl_internal_get_fontSizeMin() const;
+constexpr ::UnityW<::UnityEngine::TextCore::Text::FontAsset> const& __cordl_internal_get_fontAsset() const;
 
-  constexpr float_t& __cordl_internal_get_fontSizeMin();
+constexpr ::UnityW<::UnityEngine::TextCore::Text::FontAsset>& __cordl_internal_get_fontAsset() ;
 
-  constexpr ::UnityEngine::TextCore::Text::FontStyles const& __cordl_internal_get_fontStyle() const;
+constexpr ::UnityW<::UnityEngine::TextCore::Text::TextColorGradient> const& __cordl_internal_get_fontColorGradient() const;
 
-  constexpr ::UnityEngine::TextCore::Text::FontStyles& __cordl_internal_get_fontStyle();
+constexpr ::UnityW<::UnityEngine::TextCore::Text::TextColorGradient>& __cordl_internal_get_fontColorGradient() ;
 
-  constexpr ::UnityEngine::TextCore::Text::TextFontWeight const& __cordl_internal_get_fontWeight() const;
+constexpr ::UnityW<::UnityEngine::TextCore::Text::TextColorGradient> const& __cordl_internal_get_fontColorGradientPreset() const;
 
-  constexpr ::UnityEngine::TextCore::Text::TextFontWeight& __cordl_internal_get_fontWeight();
+constexpr ::UnityW<::UnityEngine::TextCore::Text::TextColorGradient>& __cordl_internal_get_fontColorGradientPreset() ;
 
-  constexpr ::UnityEngine::TextCore::Text::VertexSortingOrder const& __cordl_internal_get_geometrySortingOrder() const;
+constexpr float_t const& __cordl_internal_get_fontSize() const;
 
-  constexpr ::UnityEngine::TextCore::Text::VertexSortingOrder& __cordl_internal_get_geometrySortingOrder();
+constexpr float_t& __cordl_internal_get_fontSize() ;
 
-  constexpr ::UnityEngine::TextCore::Text::TextureMapping const& __cordl_internal_get_horizontalMapping() const;
+constexpr float_t const& __cordl_internal_get_fontSizeMax() const;
 
-  constexpr ::UnityEngine::TextCore::Text::TextureMapping& __cordl_internal_get_horizontalMapping();
+constexpr float_t& __cordl_internal_get_fontSizeMax() ;
 
-  constexpr bool const& __cordl_internal_get_inverseYAxis() const;
+constexpr float_t const& __cordl_internal_get_fontSizeMin() const;
 
-  constexpr bool& __cordl_internal_get_inverseYAxis();
+constexpr float_t& __cordl_internal_get_fontSizeMin() ;
 
-  constexpr bool const& __cordl_internal_get_isRightToLeft() const;
+constexpr ::UnityEngine::TextCore::Text::FontStyles const& __cordl_internal_get_fontStyle() const;
 
-  constexpr bool& __cordl_internal_get_isRightToLeft();
+constexpr ::UnityEngine::TextCore::Text::FontStyles& __cordl_internal_get_fontStyle() ;
 
-  constexpr float_t const& __cordl_internal_get_lineSpacing() const;
+constexpr ::UnityEngine::TextCore::Text::TextFontWeight const& __cordl_internal_get_fontWeight() const;
 
-  constexpr float_t& __cordl_internal_get_lineSpacing();
+constexpr ::UnityEngine::TextCore::Text::TextFontWeight& __cordl_internal_get_fontWeight() ;
 
-  constexpr float_t const& __cordl_internal_get_lineSpacingMax() const;
+constexpr ::UnityEngine::TextCore::Text::VertexSortingOrder const& __cordl_internal_get_geometrySortingOrder() const;
 
-  constexpr float_t& __cordl_internal_get_lineSpacingMax();
+constexpr ::UnityEngine::TextCore::Text::VertexSortingOrder& __cordl_internal_get_geometrySortingOrder() ;
 
-  constexpr ::UnityEngine::Vector4 const& __cordl_internal_get_margins() const;
+constexpr ::UnityEngine::TextCore::Text::TextureMapping const& __cordl_internal_get_horizontalMapping() const;
 
-  constexpr ::UnityEngine::Vector4& __cordl_internal_get_margins();
+constexpr ::UnityEngine::TextCore::Text::TextureMapping& __cordl_internal_get_horizontalMapping() ;
 
-  constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get_material() const;
+constexpr ::UnityEngine::TextCore::Text::TextInputSource const& __cordl_internal_get_inputSource() const;
 
-  constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get_material();
+constexpr ::UnityEngine::TextCore::Text::TextInputSource& __cordl_internal_get_inputSource() ;
 
-  constexpr int32_t const& __cordl_internal_get_maxVisibleCharacters() const;
+constexpr bool const& __cordl_internal_get_inverseYAxis() const;
 
-  constexpr int32_t& __cordl_internal_get_maxVisibleCharacters();
+constexpr bool& __cordl_internal_get_inverseYAxis() ;
 
-  constexpr int32_t const& __cordl_internal_get_maxVisibleLines() const;
+constexpr bool const& __cordl_internal_get_isOrthographic() const;
 
-  constexpr int32_t& __cordl_internal_get_maxVisibleLines();
+constexpr bool& __cordl_internal_get_isOrthographic() ;
 
-  constexpr int32_t const& __cordl_internal_get_maxVisibleWords() const;
+constexpr bool const& __cordl_internal_get_isRightToLeft() const;
 
-  constexpr int32_t& __cordl_internal_get_maxVisibleWords();
+constexpr bool& __cordl_internal_get_isRightToLeft() ;
 
-  constexpr ::UnityEngine::TextCore::Text::TextOverflowMode const& __cordl_internal_get_overflowMode() const;
+constexpr float_t const& __cordl_internal_get_lineSpacing() const;
 
-  constexpr ::UnityEngine::TextCore::Text::TextOverflowMode& __cordl_internal_get_overflowMode();
+constexpr float_t& __cordl_internal_get_lineSpacing() ;
 
-  constexpr bool const& __cordl_internal_get_overrideRichTextColors() const;
+constexpr float_t const& __cordl_internal_get_lineSpacingMax() const;
 
-  constexpr bool& __cordl_internal_get_overrideRichTextColors();
+constexpr float_t& __cordl_internal_get_lineSpacingMax() ;
 
-  constexpr int32_t const& __cordl_internal_get_pageToDisplay() const;
+constexpr ::UnityEngine::Vector4 const& __cordl_internal_get_margins() const;
 
-  constexpr int32_t& __cordl_internal_get_pageToDisplay();
+constexpr ::UnityEngine::Vector4& __cordl_internal_get_margins() ;
 
-  constexpr float_t const& __cordl_internal_get_paragraphSpacing() const;
+constexpr ::UnityW<::UnityEngine::Material> const& __cordl_internal_get_material() const;
 
-  constexpr float_t& __cordl_internal_get_paragraphSpacing();
+constexpr ::UnityW<::UnityEngine::Material>& __cordl_internal_get_material() ;
 
-  constexpr bool const& __cordl_internal_get_parseControlCharacters() const;
+constexpr int32_t const& __cordl_internal_get_maxVisibleCharacters() const;
 
-  constexpr bool& __cordl_internal_get_parseControlCharacters();
+constexpr int32_t& __cordl_internal_get_maxVisibleCharacters() ;
 
-  constexpr bool const& __cordl_internal_get_richText() const;
+constexpr int32_t const& __cordl_internal_get_maxVisibleLines() const;
 
-  constexpr bool& __cordl_internal_get_richText();
+constexpr int32_t& __cordl_internal_get_maxVisibleLines() ;
 
-  constexpr float_t const& __cordl_internal_get_scale() const;
+constexpr int32_t const& __cordl_internal_get_maxVisibleWords() const;
 
-  constexpr float_t& __cordl_internal_get_scale();
+constexpr int32_t& __cordl_internal_get_maxVisibleWords() ;
 
-  constexpr ::UnityEngine::Rect const& __cordl_internal_get_screenRect() const;
+constexpr ::UnityEngine::TextCore::Text::TextOverflowMode const& __cordl_internal_get_overflowMode() const;
 
-  constexpr ::UnityEngine::Rect& __cordl_internal_get_screenRect();
+constexpr ::UnityEngine::TextCore::Text::TextOverflowMode& __cordl_internal_get_overflowMode() ;
 
-  constexpr ::UnityW<::UnityEngine::TextCore::Text::SpriteAsset> const& __cordl_internal_get_spriteAsset() const;
+constexpr bool const& __cordl_internal_get_overrideRichTextColors() const;
 
-  constexpr ::UnityW<::UnityEngine::TextCore::Text::SpriteAsset>& __cordl_internal_get_spriteAsset();
+constexpr bool& __cordl_internal_get_overrideRichTextColors() ;
 
-  constexpr ::UnityW<::UnityEngine::TextCore::Text::TextStyleSheet> const& __cordl_internal_get_styleSheet() const;
+constexpr int32_t const& __cordl_internal_get_pageToDisplay() const;
 
-  constexpr ::UnityW<::UnityEngine::TextCore::Text::TextStyleSheet>& __cordl_internal_get_styleSheet();
+constexpr int32_t& __cordl_internal_get_pageToDisplay() ;
 
-  constexpr ::StringW const& __cordl_internal_get_text() const;
+constexpr float_t const& __cordl_internal_get_paragraphSpacing() const;
 
-  constexpr ::StringW& __cordl_internal_get_text();
+constexpr float_t& __cordl_internal_get_paragraphSpacing() ;
 
-  constexpr ::UnityEngine::TextCore::Text::TextAlignment const& __cordl_internal_get_textAlignment() const;
+constexpr bool const& __cordl_internal_get_parseControlCharacters() const;
 
-  constexpr ::UnityEngine::TextCore::Text::TextAlignment& __cordl_internal_get_textAlignment();
+constexpr bool& __cordl_internal_get_parseControlCharacters() ;
 
-  constexpr ::UnityW<::UnityEngine::TextCore::Text::TextSettings> const& __cordl_internal_get_textSettings() const;
+constexpr bool const& __cordl_internal_get_richText() const;
 
-  constexpr ::UnityW<::UnityEngine::TextCore::Text::TextSettings>& __cordl_internal_get_textSettings();
+constexpr bool& __cordl_internal_get_richText() ;
 
-  constexpr bool const& __cordl_internal_get_tintSprites() const;
+constexpr float_t const& __cordl_internal_get_scale() const;
 
-  constexpr bool& __cordl_internal_get_tintSprites();
+constexpr float_t& __cordl_internal_get_scale() ;
 
-  constexpr bool const& __cordl_internal_get_useMaxVisibleDescender() const;
+constexpr ::UnityEngine::Rect const& __cordl_internal_get_screenRect() const;
 
-  constexpr bool& __cordl_internal_get_useMaxVisibleDescender();
+constexpr ::UnityEngine::Rect& __cordl_internal_get_screenRect() ;
 
-  constexpr float_t const& __cordl_internal_get_uvLineOffset() const;
+constexpr bool const& __cordl_internal_get_shouldConvertToLinearSpace() const;
 
-  constexpr float_t& __cordl_internal_get_uvLineOffset();
+constexpr bool& __cordl_internal_get_shouldConvertToLinearSpace() ;
 
-  constexpr ::UnityEngine::TextCore::Text::TextureMapping const& __cordl_internal_get_verticalMapping() const;
+constexpr ::UnityW<::UnityEngine::TextCore::Text::SpriteAsset> const& __cordl_internal_get_spriteAsset() const;
 
-  constexpr ::UnityEngine::TextCore::Text::TextureMapping& __cordl_internal_get_verticalMapping();
+constexpr ::UnityW<::UnityEngine::TextCore::Text::SpriteAsset>& __cordl_internal_get_spriteAsset() ;
 
-  constexpr float_t const& __cordl_internal_get_wordSpacing() const;
+constexpr ::UnityW<::UnityEngine::TextCore::Text::TextStyleSheet> const& __cordl_internal_get_styleSheet() const;
 
-  constexpr float_t& __cordl_internal_get_wordSpacing();
+constexpr ::UnityW<::UnityEngine::TextCore::Text::TextStyleSheet>& __cordl_internal_get_styleSheet() ;
 
-  constexpr bool const& __cordl_internal_get_wordWrap() const;
+constexpr bool const& __cordl_internal_get_tagNoParsing() const;
 
-  constexpr bool& __cordl_internal_get_wordWrap();
+constexpr bool& __cordl_internal_get_tagNoParsing() ;
 
-  constexpr float_t const& __cordl_internal_get_wordWrappingRatio() const;
+constexpr ::StringW const& __cordl_internal_get_text() const;
 
-  constexpr float_t& __cordl_internal_get_wordWrappingRatio();
+constexpr ::StringW& __cordl_internal_get_text() ;
 
-  constexpr void __cordl_internal_set_autoSize(bool value);
+constexpr ::UnityEngine::TextCore::Text::TextAlignment const& __cordl_internal_get_textAlignment() const;
 
-  constexpr void __cordl_internal_set_charWidthMaxAdj(float_t value);
+constexpr ::UnityEngine::TextCore::Text::TextAlignment& __cordl_internal_get_textAlignment() ;
 
-  constexpr void __cordl_internal_set_characterSpacing(float_t value);
+constexpr ::UnityW<::UnityEngine::TextCore::Text::TextSettings> const& __cordl_internal_get_textSettings() const;
 
-  constexpr void __cordl_internal_set_color(::UnityEngine::Color value);
+constexpr ::UnityW<::UnityEngine::TextCore::Text::TextSettings>& __cordl_internal_get_textSettings() ;
 
-  constexpr void __cordl_internal_set_enableKerning(bool value);
+constexpr ::UnityEngine::TextCore::Text::TextWrappingMode const& __cordl_internal_get_textWrappingMode() const;
 
-  constexpr void __cordl_internal_set_extraPadding(bool value);
+constexpr ::UnityEngine::TextCore::Text::TextWrappingMode& __cordl_internal_get_textWrappingMode() ;
 
-  constexpr void __cordl_internal_set_firstVisibleCharacter(int32_t value);
+constexpr bool const& __cordl_internal_get_tintSprites() const;
 
-  constexpr void __cordl_internal_set_fontAsset(::UnityW<::UnityEngine::TextCore::Text::FontAsset> value);
+constexpr bool& __cordl_internal_get_tintSprites() ;
 
-  constexpr void __cordl_internal_set_fontColorGradient(::UnityW<::UnityEngine::TextCore::Text::TextColorGradient> value);
+constexpr bool const& __cordl_internal_get_useMaxVisibleDescender() const;
 
-  constexpr void __cordl_internal_set_fontSize(float_t value);
+constexpr bool& __cordl_internal_get_useMaxVisibleDescender() ;
 
-  constexpr void __cordl_internal_set_fontSizeMax(float_t value);
+constexpr float_t const& __cordl_internal_get_uvLineOffset() const;
 
-  constexpr void __cordl_internal_set_fontSizeMin(float_t value);
+constexpr float_t& __cordl_internal_get_uvLineOffset() ;
 
-  constexpr void __cordl_internal_set_fontStyle(::UnityEngine::TextCore::Text::FontStyles value);
+constexpr ::UnityEngine::TextCore::Text::TextureMapping const& __cordl_internal_get_verticalMapping() const;
 
-  constexpr void __cordl_internal_set_fontWeight(::UnityEngine::TextCore::Text::TextFontWeight value);
+constexpr ::UnityEngine::TextCore::Text::TextureMapping& __cordl_internal_get_verticalMapping() ;
 
-  constexpr void __cordl_internal_set_geometrySortingOrder(::UnityEngine::TextCore::Text::VertexSortingOrder value);
+constexpr float_t const& __cordl_internal_get_wordSpacing() const;
 
-  constexpr void __cordl_internal_set_horizontalMapping(::UnityEngine::TextCore::Text::TextureMapping value);
+constexpr float_t& __cordl_internal_get_wordSpacing() ;
 
-  constexpr void __cordl_internal_set_inverseYAxis(bool value);
+constexpr bool const& __cordl_internal_get_wordWrap() const;
 
-  constexpr void __cordl_internal_set_isRightToLeft(bool value);
+constexpr bool& __cordl_internal_get_wordWrap() ;
 
-  constexpr void __cordl_internal_set_lineSpacing(float_t value);
+constexpr float_t const& __cordl_internal_get_wordWrappingRatio() const;
 
-  constexpr void __cordl_internal_set_lineSpacingMax(float_t value);
+constexpr float_t& __cordl_internal_get_wordWrappingRatio() ;
 
-  constexpr void __cordl_internal_set_margins(::UnityEngine::Vector4 value);
+constexpr void __cordl_internal_set_autoSize(bool  value) ;
 
-  constexpr void __cordl_internal_set_material(::UnityW<::UnityEngine::Material> value);
+constexpr void __cordl_internal_set_charWidthMaxAdj(float_t  value) ;
 
-  constexpr void __cordl_internal_set_maxVisibleCharacters(int32_t value);
+constexpr void __cordl_internal_set_characterSpacing(float_t  value) ;
 
-  constexpr void __cordl_internal_set_maxVisibleLines(int32_t value);
+constexpr void __cordl_internal_set_color(::UnityEngine::Color  value) ;
 
-  constexpr void __cordl_internal_set_maxVisibleWords(int32_t value);
+constexpr void __cordl_internal_set_enableKerning(bool  value) ;
 
-  constexpr void __cordl_internal_set_overflowMode(::UnityEngine::TextCore::Text::TextOverflowMode value);
+constexpr void __cordl_internal_set_extraPadding(float_t  value) ;
 
-  constexpr void __cordl_internal_set_overrideRichTextColors(bool value);
+constexpr void __cordl_internal_set_firstVisibleCharacter(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_pageToDisplay(int32_t value);
+constexpr void __cordl_internal_set_fontAsset(::UnityW<::UnityEngine::TextCore::Text::FontAsset>  value) ;
 
-  constexpr void __cordl_internal_set_paragraphSpacing(float_t value);
+constexpr void __cordl_internal_set_fontColorGradient(::UnityW<::UnityEngine::TextCore::Text::TextColorGradient>  value) ;
 
-  constexpr void __cordl_internal_set_parseControlCharacters(bool value);
+constexpr void __cordl_internal_set_fontColorGradientPreset(::UnityW<::UnityEngine::TextCore::Text::TextColorGradient>  value) ;
 
-  constexpr void __cordl_internal_set_richText(bool value);
+constexpr void __cordl_internal_set_fontSize(float_t  value) ;
 
-  constexpr void __cordl_internal_set_scale(float_t value);
+constexpr void __cordl_internal_set_fontSizeMax(float_t  value) ;
 
-  constexpr void __cordl_internal_set_screenRect(::UnityEngine::Rect value);
+constexpr void __cordl_internal_set_fontSizeMin(float_t  value) ;
 
-  constexpr void __cordl_internal_set_spriteAsset(::UnityW<::UnityEngine::TextCore::Text::SpriteAsset> value);
+constexpr void __cordl_internal_set_fontStyle(::UnityEngine::TextCore::Text::FontStyles  value) ;
 
-  constexpr void __cordl_internal_set_styleSheet(::UnityW<::UnityEngine::TextCore::Text::TextStyleSheet> value);
+constexpr void __cordl_internal_set_fontWeight(::UnityEngine::TextCore::Text::TextFontWeight  value) ;
 
-  constexpr void __cordl_internal_set_text(::StringW value);
+constexpr void __cordl_internal_set_geometrySortingOrder(::UnityEngine::TextCore::Text::VertexSortingOrder  value) ;
 
-  constexpr void __cordl_internal_set_textAlignment(::UnityEngine::TextCore::Text::TextAlignment value);
+constexpr void __cordl_internal_set_horizontalMapping(::UnityEngine::TextCore::Text::TextureMapping  value) ;
 
-  constexpr void __cordl_internal_set_textSettings(::UnityW<::UnityEngine::TextCore::Text::TextSettings> value);
+constexpr void __cordl_internal_set_inputSource(::UnityEngine::TextCore::Text::TextInputSource  value) ;
 
-  constexpr void __cordl_internal_set_tintSprites(bool value);
+constexpr void __cordl_internal_set_inverseYAxis(bool  value) ;
 
-  constexpr void __cordl_internal_set_useMaxVisibleDescender(bool value);
+constexpr void __cordl_internal_set_isOrthographic(bool  value) ;
 
-  constexpr void __cordl_internal_set_uvLineOffset(float_t value);
+constexpr void __cordl_internal_set_isRightToLeft(bool  value) ;
 
-  constexpr void __cordl_internal_set_verticalMapping(::UnityEngine::TextCore::Text::TextureMapping value);
+constexpr void __cordl_internal_set_lineSpacing(float_t  value) ;
 
-  constexpr void __cordl_internal_set_wordSpacing(float_t value);
+constexpr void __cordl_internal_set_lineSpacingMax(float_t  value) ;
 
-  constexpr void __cordl_internal_set_wordWrap(bool value);
+constexpr void __cordl_internal_set_margins(::UnityEngine::Vector4  value) ;
 
-  constexpr void __cordl_internal_set_wordWrappingRatio(float_t value);
+constexpr void __cordl_internal_set_material(::UnityW<::UnityEngine::Material>  value) ;
 
-  /// @brief Method .ctor, addr 0x34d3b38, size 0x5c, virtual false, abstract: false, final false
-  inline void _ctor();
+constexpr void __cordl_internal_set_maxVisibleCharacters(int32_t  value) ;
+
+constexpr void __cordl_internal_set_maxVisibleLines(int32_t  value) ;
+
+constexpr void __cordl_internal_set_maxVisibleWords(int32_t  value) ;
+
+constexpr void __cordl_internal_set_overflowMode(::UnityEngine::TextCore::Text::TextOverflowMode  value) ;
+
+constexpr void __cordl_internal_set_overrideRichTextColors(bool  value) ;
+
+constexpr void __cordl_internal_set_pageToDisplay(int32_t  value) ;
+
+constexpr void __cordl_internal_set_paragraphSpacing(float_t  value) ;
+
+constexpr void __cordl_internal_set_parseControlCharacters(bool  value) ;
+
+constexpr void __cordl_internal_set_richText(bool  value) ;
+
+constexpr void __cordl_internal_set_scale(float_t  value) ;
+
+constexpr void __cordl_internal_set_screenRect(::UnityEngine::Rect  value) ;
+
+constexpr void __cordl_internal_set_shouldConvertToLinearSpace(bool  value) ;
+
+constexpr void __cordl_internal_set_spriteAsset(::UnityW<::UnityEngine::TextCore::Text::SpriteAsset>  value) ;
+
+constexpr void __cordl_internal_set_styleSheet(::UnityW<::UnityEngine::TextCore::Text::TextStyleSheet>  value) ;
+
+constexpr void __cordl_internal_set_tagNoParsing(bool  value) ;
+
+constexpr void __cordl_internal_set_text(::StringW  value) ;
+
+constexpr void __cordl_internal_set_textAlignment(::UnityEngine::TextCore::Text::TextAlignment  value) ;
+
+constexpr void __cordl_internal_set_textSettings(::UnityW<::UnityEngine::TextCore::Text::TextSettings>  value) ;
+
+constexpr void __cordl_internal_set_textWrappingMode(::UnityEngine::TextCore::Text::TextWrappingMode  value) ;
+
+constexpr void __cordl_internal_set_tintSprites(bool  value) ;
+
+constexpr void __cordl_internal_set_useMaxVisibleDescender(bool  value) ;
+
+constexpr void __cordl_internal_set_uvLineOffset(float_t  value) ;
+
+constexpr void __cordl_internal_set_verticalMapping(::UnityEngine::TextCore::Text::TextureMapping  value) ;
+
+constexpr void __cordl_internal_set_wordSpacing(float_t  value) ;
+
+constexpr void __cordl_internal_set_wordWrap(bool  value) ;
+
+constexpr void __cordl_internal_set_wordWrappingRatio(float_t  value) ;
+
+/// @brief Method .ctor, addr 0x489eed8, size 0x7c, virtual false, abstract: false, final false
+inline void _ctor() ;
+
+/// @brief Convert to "::System::IEquatable_1<::UnityEngine::TextCore::Text::TextGenerationSettings*>"
+constexpr ::System::IEquatable_1<::UnityEngine::TextCore::Text::TextGenerationSettings*>* i___System__IEquatable_1___UnityEngine__TextCore__Text__TextGenerationSettings__() noexcept;
+
+/// @brief Method op_Equality, addr 0x489d428, size 0x8, virtual false, abstract: false, final false
+static inline bool op_Equality(::UnityEngine::TextCore::Text::TextGenerationSettings*  left, ::UnityEngine::TextCore::Text::TextGenerationSettings*  right) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TextGenerationSettings();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr TextGenerationSettings() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TextGenerationSettings", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  TextGenerationSettings(TextGenerationSettings&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TextGenerationSettings", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  TextGenerationSettings(TextGenerationSettings const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "TextGenerationSettings", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+TextGenerationSettings(TextGenerationSettings && ) = delete;
 
-  /// @brief Field text, offset: 0x10, size: 0x8, def value: None
-  ::StringW ___text;
+// Ctor Parameters [CppParam { name: "", ty: "TextGenerationSettings", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+TextGenerationSettings(TextGenerationSettings const& ) = delete;
 
-  /// @brief Field screenRect, offset: 0x18, size: 0x10, def value: None
-  ::UnityEngine::Rect ___screenRect;
+/// @brief Field text, offset: 0x10, size: 0x8, def value: None
+ ::StringW  ___text;
 
-  /// @brief Field margins, offset: 0x28, size: 0x10, def value: None
-  ::UnityEngine::Vector4 ___margins;
+/// @brief Field screenRect, offset: 0x18, size: 0x10, def value: None
+ ::UnityEngine::Rect  ___screenRect;
 
-  /// @brief Field scale, offset: 0x38, size: 0x4, def value: None
-  float_t ___scale;
+/// @brief Field margins, offset: 0x28, size: 0x10, def value: None
+ ::UnityEngine::Vector4  ___margins;
 
-  /// @brief Field fontAsset, offset: 0x40, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::TextCore::Text::FontAsset> ___fontAsset;
+/// @brief Field scale, offset: 0x38, size: 0x4, def value: None
+ float_t  ___scale;
 
-  /// @brief Field material, offset: 0x48, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::Material> ___material;
+/// @brief Field fontAsset, offset: 0x40, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::TextCore::Text::FontAsset>  ___fontAsset;
 
-  /// @brief Field spriteAsset, offset: 0x50, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::TextCore::Text::SpriteAsset> ___spriteAsset;
+/// @brief Field material, offset: 0x48, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::Material>  ___material;
 
-  /// @brief Field styleSheet, offset: 0x58, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::TextCore::Text::TextStyleSheet> ___styleSheet;
+/// @brief Field spriteAsset, offset: 0x50, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::TextCore::Text::SpriteAsset>  ___spriteAsset;
 
-  /// @brief Field fontStyle, offset: 0x60, size: 0x4, def value: None
-  ::UnityEngine::TextCore::Text::FontStyles ___fontStyle;
+/// @brief Field styleSheet, offset: 0x58, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::TextCore::Text::TextStyleSheet>  ___styleSheet;
 
-  /// @brief Field textSettings, offset: 0x68, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::TextCore::Text::TextSettings> ___textSettings;
+/// @brief Field fontStyle, offset: 0x60, size: 0x4, def value: None
+ ::UnityEngine::TextCore::Text::FontStyles  ___fontStyle;
 
-  /// @brief Field textAlignment, offset: 0x70, size: 0x4, def value: None
-  ::UnityEngine::TextCore::Text::TextAlignment ___textAlignment;
+/// @brief Field textSettings, offset: 0x68, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::TextCore::Text::TextSettings>  ___textSettings;
 
-  /// @brief Field overflowMode, offset: 0x74, size: 0x4, def value: None
-  ::UnityEngine::TextCore::Text::TextOverflowMode ___overflowMode;
+/// @brief Field textAlignment, offset: 0x70, size: 0x4, def value: None
+ ::UnityEngine::TextCore::Text::TextAlignment  ___textAlignment;
 
-  /// @brief Field wordWrap, offset: 0x78, size: 0x1, def value: None
-  bool ___wordWrap;
+/// @brief Field overflowMode, offset: 0x74, size: 0x4, def value: None
+ ::UnityEngine::TextCore::Text::TextOverflowMode  ___overflowMode;
 
-  /// @brief Field wordWrappingRatio, offset: 0x7c, size: 0x4, def value: None
-  float_t ___wordWrappingRatio;
+/// @brief Field wordWrap, offset: 0x78, size: 0x1, def value: None
+ bool  ___wordWrap;
 
-  /// @brief Field color, offset: 0x80, size: 0x10, def value: None
-  ::UnityEngine::Color ___color;
+/// @brief Field wordWrappingRatio, offset: 0x7c, size: 0x4, def value: None
+ float_t  ___wordWrappingRatio;
 
-  /// @brief Field fontColorGradient, offset: 0x90, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::TextCore::Text::TextColorGradient> ___fontColorGradient;
+/// @brief Field color, offset: 0x80, size: 0x10, def value: None
+ ::UnityEngine::Color  ___color;
 
-  /// @brief Field tintSprites, offset: 0x98, size: 0x1, def value: None
-  bool ___tintSprites;
+/// @brief Field fontColorGradient, offset: 0x90, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::TextCore::Text::TextColorGradient>  ___fontColorGradient;
 
-  /// @brief Field overrideRichTextColors, offset: 0x99, size: 0x1, def value: None
-  bool ___overrideRichTextColors;
+/// @brief Field fontColorGradientPreset, offset: 0x98, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::TextCore::Text::TextColorGradient>  ___fontColorGradientPreset;
 
-  /// @brief Field fontSize, offset: 0x9c, size: 0x4, def value: None
-  float_t ___fontSize;
+/// @brief Field tintSprites, offset: 0xa0, size: 0x1, def value: None
+ bool  ___tintSprites;
 
-  /// @brief Field autoSize, offset: 0xa0, size: 0x1, def value: None
-  bool ___autoSize;
+/// @brief Field overrideRichTextColors, offset: 0xa1, size: 0x1, def value: None
+ bool  ___overrideRichTextColors;
 
-  /// @brief Field fontSizeMin, offset: 0xa4, size: 0x4, def value: None
-  float_t ___fontSizeMin;
+/// @brief Field shouldConvertToLinearSpace, offset: 0xa2, size: 0x1, def value: None
+ bool  ___shouldConvertToLinearSpace;
 
-  /// @brief Field fontSizeMax, offset: 0xa8, size: 0x4, def value: None
-  float_t ___fontSizeMax;
+/// @brief Field fontSize, offset: 0xa4, size: 0x4, def value: None
+ float_t  ___fontSize;
 
-  /// @brief Field enableKerning, offset: 0xac, size: 0x1, def value: None
-  bool ___enableKerning;
+/// @brief Field autoSize, offset: 0xa8, size: 0x1, def value: None
+ bool  ___autoSize;
 
-  /// @brief Field richText, offset: 0xad, size: 0x1, def value: None
-  bool ___richText;
+/// @brief Field fontSizeMin, offset: 0xac, size: 0x4, def value: None
+ float_t  ___fontSizeMin;
 
-  /// @brief Field isRightToLeft, offset: 0xae, size: 0x1, def value: None
-  bool ___isRightToLeft;
+/// @brief Field fontSizeMax, offset: 0xb0, size: 0x4, def value: None
+ float_t  ___fontSizeMax;
 
-  /// @brief Field extraPadding, offset: 0xaf, size: 0x1, def value: None
-  bool ___extraPadding;
+/// @brief Field enableKerning, offset: 0xb4, size: 0x1, def value: None
+ bool  ___enableKerning;
 
-  /// @brief Field parseControlCharacters, offset: 0xb0, size: 0x1, def value: None
-  bool ___parseControlCharacters;
+/// @brief Field richText, offset: 0xb5, size: 0x1, def value: None
+ bool  ___richText;
 
-  /// @brief Field characterSpacing, offset: 0xb4, size: 0x4, def value: None
-  float_t ___characterSpacing;
+/// @brief Field isRightToLeft, offset: 0xb6, size: 0x1, def value: None
+ bool  ___isRightToLeft;
 
-  /// @brief Field wordSpacing, offset: 0xb8, size: 0x4, def value: None
-  float_t ___wordSpacing;
+/// @brief Field extraPadding, offset: 0xb8, size: 0x4, def value: None
+ float_t  ___extraPadding;
 
-  /// @brief Field lineSpacing, offset: 0xbc, size: 0x4, def value: None
-  float_t ___lineSpacing;
+/// @brief Field parseControlCharacters, offset: 0xbc, size: 0x1, def value: None
+ bool  ___parseControlCharacters;
 
-  /// @brief Field paragraphSpacing, offset: 0xc0, size: 0x4, def value: None
-  float_t ___paragraphSpacing;
+/// @brief Field isOrthographic, offset: 0xbd, size: 0x1, def value: None
+ bool  ___isOrthographic;
 
-  /// @brief Field lineSpacingMax, offset: 0xc4, size: 0x4, def value: None
-  float_t ___lineSpacingMax;
+/// @brief Field tagNoParsing, offset: 0xbe, size: 0x1, def value: None
+ bool  ___tagNoParsing;
 
-  /// @brief Field maxVisibleCharacters, offset: 0xc8, size: 0x4, def value: None
-  int32_t ___maxVisibleCharacters;
+/// @brief Field characterSpacing, offset: 0xc0, size: 0x4, def value: None
+ float_t  ___characterSpacing;
 
-  /// @brief Field maxVisibleWords, offset: 0xcc, size: 0x4, def value: None
-  int32_t ___maxVisibleWords;
+/// @brief Field wordSpacing, offset: 0xc4, size: 0x4, def value: None
+ float_t  ___wordSpacing;
 
-  /// @brief Field maxVisibleLines, offset: 0xd0, size: 0x4, def value: None
-  int32_t ___maxVisibleLines;
+/// @brief Field lineSpacing, offset: 0xc8, size: 0x4, def value: None
+ float_t  ___lineSpacing;
 
-  /// @brief Field firstVisibleCharacter, offset: 0xd4, size: 0x4, def value: None
-  int32_t ___firstVisibleCharacter;
+/// @brief Field paragraphSpacing, offset: 0xcc, size: 0x4, def value: None
+ float_t  ___paragraphSpacing;
 
-  /// @brief Field useMaxVisibleDescender, offset: 0xd8, size: 0x1, def value: None
-  bool ___useMaxVisibleDescender;
+/// @brief Field lineSpacingMax, offset: 0xd0, size: 0x4, def value: None
+ float_t  ___lineSpacingMax;
 
-  /// @brief Field fontWeight, offset: 0xdc, size: 0x4, def value: None
-  ::UnityEngine::TextCore::Text::TextFontWeight ___fontWeight;
+/// @brief Field textWrappingMode, offset: 0xd4, size: 0x4, def value: None
+ ::UnityEngine::TextCore::Text::TextWrappingMode  ___textWrappingMode;
 
-  /// @brief Field pageToDisplay, offset: 0xe0, size: 0x4, def value: None
-  int32_t ___pageToDisplay;
+/// @brief Field maxVisibleCharacters, offset: 0xd8, size: 0x4, def value: None
+ int32_t  ___maxVisibleCharacters;
 
-  /// @brief Field horizontalMapping, offset: 0xe4, size: 0x4, def value: None
-  ::UnityEngine::TextCore::Text::TextureMapping ___horizontalMapping;
+/// @brief Field maxVisibleWords, offset: 0xdc, size: 0x4, def value: None
+ int32_t  ___maxVisibleWords;
 
-  /// @brief Field verticalMapping, offset: 0xe8, size: 0x4, def value: None
-  ::UnityEngine::TextCore::Text::TextureMapping ___verticalMapping;
+/// @brief Field maxVisibleLines, offset: 0xe0, size: 0x4, def value: None
+ int32_t  ___maxVisibleLines;
 
-  /// @brief Field uvLineOffset, offset: 0xec, size: 0x4, def value: None
-  float_t ___uvLineOffset;
+/// @brief Field firstVisibleCharacter, offset: 0xe4, size: 0x4, def value: None
+ int32_t  ___firstVisibleCharacter;
 
-  /// @brief Field geometrySortingOrder, offset: 0xf0, size: 0x4, def value: None
-  ::UnityEngine::TextCore::Text::VertexSortingOrder ___geometrySortingOrder;
+/// @brief Field useMaxVisibleDescender, offset: 0xe8, size: 0x1, def value: None
+ bool  ___useMaxVisibleDescender;
 
-  /// @brief Field inverseYAxis, offset: 0xf4, size: 0x1, def value: None
-  bool ___inverseYAxis;
+/// @brief Field fontWeight, offset: 0xec, size: 0x4, def value: None
+ ::UnityEngine::TextCore::Text::TextFontWeight  ___fontWeight;
 
-  /// @brief Field charWidthMaxAdj, offset: 0xf8, size: 0x4, def value: None
-  float_t ___charWidthMaxAdj;
+/// @brief Field pageToDisplay, offset: 0xf0, size: 0x4, def value: None
+ int32_t  ___pageToDisplay;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field horizontalMapping, offset: 0xf4, size: 0x4, def value: None
+ ::UnityEngine::TextCore::Text::TextureMapping  ___horizontalMapping;
+
+/// @brief Field verticalMapping, offset: 0xf8, size: 0x4, def value: None
+ ::UnityEngine::TextCore::Text::TextureMapping  ___verticalMapping;
+
+/// @brief Field uvLineOffset, offset: 0xfc, size: 0x4, def value: None
+ float_t  ___uvLineOffset;
+
+/// @brief Field geometrySortingOrder, offset: 0x100, size: 0x4, def value: None
+ ::UnityEngine::TextCore::Text::VertexSortingOrder  ___geometrySortingOrder;
+
+/// @brief Field inverseYAxis, offset: 0x104, size: 0x1, def value: None
+ bool  ___inverseYAxis;
+
+/// @brief Field charWidthMaxAdj, offset: 0x108, size: 0x4, def value: None
+ float_t  ___charWidthMaxAdj;
+
+/// @brief Field inputSource, offset: 0x10c, size: 0x4, def value: None
+ ::UnityEngine::TextCore::Text::TextInputSource  ___inputSource;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::TextCore::Text::TextGenerationSettings, 0x100>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::TextCore::Text::TextGenerationSettings, 0x110>, "Size mismatch!");
 
 static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerationSettings, ___text) == 0x10, "Offset mismatch!");
 
@@ -657,64 +747,76 @@ static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerationSettings, __
 
 static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerationSettings, ___fontColorGradient) == 0x90, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerationSettings, ___tintSprites) == 0x98, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerationSettings, ___fontColorGradientPreset) == 0x98, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerationSettings, ___overrideRichTextColors) == 0x99, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerationSettings, ___tintSprites) == 0xa0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerationSettings, ___fontSize) == 0x9c, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerationSettings, ___overrideRichTextColors) == 0xa1, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerationSettings, ___autoSize) == 0xa0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerationSettings, ___shouldConvertToLinearSpace) == 0xa2, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerationSettings, ___fontSizeMin) == 0xa4, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerationSettings, ___fontSize) == 0xa4, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerationSettings, ___fontSizeMax) == 0xa8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerationSettings, ___autoSize) == 0xa8, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerationSettings, ___enableKerning) == 0xac, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerationSettings, ___fontSizeMin) == 0xac, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerationSettings, ___richText) == 0xad, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerationSettings, ___fontSizeMax) == 0xb0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerationSettings, ___isRightToLeft) == 0xae, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerationSettings, ___enableKerning) == 0xb4, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerationSettings, ___extraPadding) == 0xaf, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerationSettings, ___richText) == 0xb5, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerationSettings, ___parseControlCharacters) == 0xb0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerationSettings, ___isRightToLeft) == 0xb6, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerationSettings, ___characterSpacing) == 0xb4, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerationSettings, ___extraPadding) == 0xb8, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerationSettings, ___wordSpacing) == 0xb8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerationSettings, ___parseControlCharacters) == 0xbc, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerationSettings, ___lineSpacing) == 0xbc, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerationSettings, ___isOrthographic) == 0xbd, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerationSettings, ___paragraphSpacing) == 0xc0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerationSettings, ___tagNoParsing) == 0xbe, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerationSettings, ___lineSpacingMax) == 0xc4, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerationSettings, ___characterSpacing) == 0xc0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerationSettings, ___maxVisibleCharacters) == 0xc8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerationSettings, ___wordSpacing) == 0xc4, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerationSettings, ___maxVisibleWords) == 0xcc, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerationSettings, ___lineSpacing) == 0xc8, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerationSettings, ___maxVisibleLines) == 0xd0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerationSettings, ___paragraphSpacing) == 0xcc, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerationSettings, ___firstVisibleCharacter) == 0xd4, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerationSettings, ___lineSpacingMax) == 0xd0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerationSettings, ___useMaxVisibleDescender) == 0xd8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerationSettings, ___textWrappingMode) == 0xd4, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerationSettings, ___fontWeight) == 0xdc, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerationSettings, ___maxVisibleCharacters) == 0xd8, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerationSettings, ___pageToDisplay) == 0xe0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerationSettings, ___maxVisibleWords) == 0xdc, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerationSettings, ___horizontalMapping) == 0xe4, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerationSettings, ___maxVisibleLines) == 0xe0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerationSettings, ___verticalMapping) == 0xe8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerationSettings, ___firstVisibleCharacter) == 0xe4, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerationSettings, ___uvLineOffset) == 0xec, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerationSettings, ___useMaxVisibleDescender) == 0xe8, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerationSettings, ___geometrySortingOrder) == 0xf0, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerationSettings, ___fontWeight) == 0xec, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerationSettings, ___inverseYAxis) == 0xf4, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerationSettings, ___pageToDisplay) == 0xf0, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerationSettings, ___charWidthMaxAdj) == 0xf8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerationSettings, ___horizontalMapping) == 0xf4, "Offset mismatch!");
 
-} // namespace UnityEngine::TextCore::Text
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerationSettings, ___verticalMapping) == 0xf8, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerationSettings, ___uvLineOffset) == 0xfc, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerationSettings, ___geometrySortingOrder) == 0x100, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerationSettings, ___inverseYAxis) == 0x104, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerationSettings, ___charWidthMaxAdj) == 0x108, "Offset mismatch!");
+
+static_assert(offsetof(::UnityEngine::TextCore::Text::TextGenerationSettings, ___inputSource) == 0x10c, "Offset mismatch!");
+
+} // namespace end def UnityEngine::TextCore::Text
 NEED_NO_BOX(::UnityEngine::TextCore::Text::TextGenerationSettings);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TextCore::Text::TextGenerationSettings*, "UnityEngine.TextCore.Text", "TextGenerationSettings");

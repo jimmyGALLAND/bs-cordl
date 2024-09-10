@@ -14,7 +14,8 @@ namespace GlobalNamespace {
 struct BeatmapDifficulty;
 }
 namespace System {
-template <typename T> struct Nullable_1;
+template<typename T>
+struct Nullable_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -23,59 +24,59 @@ class BeatmapDifficultyMaskExtensions;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::BeatmapDifficultyMaskExtensions);
 // Type: ::BeatmapDifficultyMaskExtensions
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::BeatmapDifficultyMaskExtensions*
 class CORDL_TYPE BeatmapDifficultyMaskExtensions : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method Contains, addr 0x1044fbc, size 0x18, virtual false, abstract: false, final false
-  static inline bool Contains(::GlobalNamespace::BeatmapDifficultyMask mask, ::GlobalNamespace::BeatmapDifficulty difficulty);
+// Declarations
+/// @brief Method Contains, addr 0x2200a10, size 0x18, virtual false, abstract: false, final false
+static inline bool Contains(::GlobalNamespace::BeatmapDifficultyMask  mask, ::GlobalNamespace::BeatmapDifficulty  difficulty) ;
 
-  /// @brief Method Contains, addr 0x1044fd4, size 0x10, virtual false, abstract: false, final false
-  static inline bool Contains(::GlobalNamespace::BeatmapDifficultyMask mask, ::GlobalNamespace::BeatmapDifficultyMask other);
+/// @brief Method Contains, addr 0x2200a28, size 0x10, virtual false, abstract: false, final false
+static inline bool Contains(::GlobalNamespace::BeatmapDifficultyMask  mask, ::GlobalNamespace::BeatmapDifficultyMask  other) ;
 
-  /// @brief Method DifferenceFrom, addr 0x1044fe4, size 0x3c, virtual false, abstract: false, final false
-  static inline int32_t DifferenceFrom(::GlobalNamespace::BeatmapDifficultyMask mask, ::GlobalNamespace::BeatmapDifficultyMask other);
+/// @brief Method DifferenceFrom, addr 0x2200a38, size 0x3c, virtual false, abstract: false, final false
+static inline int32_t DifferenceFrom(::GlobalNamespace::BeatmapDifficultyMask  mask, ::GlobalNamespace::BeatmapDifficultyMask  other) ;
 
-  /// @brief Method FromMask, addr 0x1044db0, size 0x54, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::BeatmapDifficulty FromMask(::GlobalNamespace::BeatmapDifficultyMask mask);
+/// @brief Method FromMask, addr 0x2200810, size 0x48, virtual false, abstract: false, final false
+static inline ::GlobalNamespace::BeatmapDifficulty FromMask(::GlobalNamespace::BeatmapDifficultyMask  mask) ;
 
-  /// @brief Method FromMaskMaybe, addr 0x1044ce0, size 0xd0, virtual false, abstract: false, final false
-  static inline ::System::Nullable_1<::GlobalNamespace::BeatmapDifficulty> FromMaskMaybe(::GlobalNamespace::BeatmapDifficultyMask mask);
+/// @brief Method FromMaskMaybe, addr 0x2200730, size 0xe0, virtual false, abstract: false, final false
+static inline ::System::Nullable_1<::GlobalNamespace::BeatmapDifficulty> FromMaskMaybe(::GlobalNamespace::BeatmapDifficultyMask  mask) ;
 
-  /// @brief Method LocalizedKey, addr 0x1044e04, size 0xdc, virtual false, abstract: false, final false
-  static inline ::StringW LocalizedKey(::GlobalNamespace::BeatmapDifficultyMask mask);
+/// @brief Method LocalizedKey, addr 0x2200858, size 0xdc, virtual false, abstract: false, final false
+static inline ::StringW LocalizedKey(::GlobalNamespace::BeatmapDifficultyMask  mask) ;
 
-  /// @brief Method ShortLocalizedKey, addr 0x1044ee0, size 0xdc, virtual false, abstract: false, final false
-  static inline ::StringW ShortLocalizedKey(::GlobalNamespace::BeatmapDifficultyMask mask);
+/// @brief Method ShortLocalizedKey, addr 0x2200934, size 0xdc, virtual false, abstract: false, final false
+static inline ::StringW ShortLocalizedKey(::GlobalNamespace::BeatmapDifficultyMask  mask) ;
 
-  /// @brief Method ToHexString, addr 0x1045054, size 0x5c, virtual false, abstract: false, final false
-  static inline ::StringW ToHexString(::GlobalNamespace::BeatmapDifficultyMask mask);
+/// @brief Method ToHexString, addr 0x2200aa8, size 0x5c, virtual false, abstract: false, final false
+static inline ::StringW ToHexString(::GlobalNamespace::BeatmapDifficultyMask  mask) ;
 
-  /// @brief Method ToMask, addr 0x1044cd4, size 0xc, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::BeatmapDifficultyMask ToMask(::GlobalNamespace::BeatmapDifficulty difficulty);
+/// @brief Method ToMask, addr 0x2200724, size 0xc, virtual false, abstract: false, final false
+static inline ::GlobalNamespace::BeatmapDifficultyMask ToMask(::GlobalNamespace::BeatmapDifficulty  difficulty) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BeatmapDifficultyMaskExtensions();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr BeatmapDifficultyMaskExtensions() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapDifficultyMaskExtensions", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  BeatmapDifficultyMaskExtensions(BeatmapDifficultyMaskExtensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapDifficultyMaskExtensions", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapDifficultyMaskExtensions(BeatmapDifficultyMaskExtensions const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "BeatmapDifficultyMaskExtensions", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+BeatmapDifficultyMaskExtensions(BeatmapDifficultyMaskExtensions && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "BeatmapDifficultyMaskExtensions", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+BeatmapDifficultyMaskExtensions(BeatmapDifficultyMaskExtensions const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BeatmapDifficultyMaskExtensions, 0x10>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BeatmapDifficultyMaskExtensions);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BeatmapDifficultyMaskExtensions*, "", "BeatmapDifficultyMaskExtensions");

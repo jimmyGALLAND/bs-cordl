@@ -16,68 +16,68 @@ class AnchorIntoParent;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::AnchorIntoParent);
 // Type: ::AnchorIntoParent
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 44, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 52, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::AnchorIntoParent*
 class CORDL_TYPE AnchorIntoParent : public ::UnityEngine::MonoBehaviour {
 public:
-  // Declarations
-  /// @brief Field _parentTransform, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__parentTransform, put = __cordl_internal_set__parentTransform))::UnityW<::UnityEngine::Transform> _parentTransform;
+// Declarations
+/// @brief Field _parentTransform, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get__parentTransform, put=__cordl_internal_set__parentTransform)) ::UnityW<::UnityEngine::Transform>  _parentTransform;
 
-  /// @brief Field _positionOffset, offset 0x20, size 0xc
-  __declspec(property(get = __cordl_internal_get__positionOffset, put = __cordl_internal_set__positionOffset))::UnityEngine::Vector3 _positionOffset;
+/// @brief Field _positionOffset, offset 0x28, size 0xc 
+ __declspec(property(get=__cordl_internal_get__positionOffset, put=__cordl_internal_set__positionOffset)) ::UnityEngine::Vector3  _positionOffset;
 
-  static inline ::GlobalNamespace::AnchorIntoParent* New_ctor();
+static inline ::GlobalNamespace::AnchorIntoParent* New_ctor() ;
 
-  /// @brief Method Start, addr 0x24fdd5c, size 0x100, virtual false, abstract: false, final false
-  inline void Start();
+/// @brief Method Start, addr 0x393c53c, size 0x100, virtual false, abstract: false, final false
+inline void Start() ;
 
-  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__parentTransform() const;
+constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__parentTransform() const;
 
-  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__parentTransform();
+constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__parentTransform() ;
 
-  constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__positionOffset() const;
+constexpr ::UnityEngine::Vector3 const& __cordl_internal_get__positionOffset() const;
 
-  constexpr ::UnityEngine::Vector3& __cordl_internal_get__positionOffset();
+constexpr ::UnityEngine::Vector3& __cordl_internal_get__positionOffset() ;
 
-  constexpr void __cordl_internal_set__parentTransform(::UnityW<::UnityEngine::Transform> value);
+constexpr void __cordl_internal_set__parentTransform(::UnityW<::UnityEngine::Transform>  value) ;
 
-  constexpr void __cordl_internal_set__positionOffset(::UnityEngine::Vector3 value);
+constexpr void __cordl_internal_set__positionOffset(::UnityEngine::Vector3  value) ;
 
-  /// @brief Method .ctor, addr 0x24fde5c, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x393c63c, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AnchorIntoParent();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr AnchorIntoParent() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AnchorIntoParent", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  AnchorIntoParent(AnchorIntoParent&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AnchorIntoParent", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  AnchorIntoParent(AnchorIntoParent const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "AnchorIntoParent", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+AnchorIntoParent(AnchorIntoParent && ) = delete;
 
-  /// @brief Field _parentTransform, offset: 0x18, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::Transform> ____parentTransform;
+// Ctor Parameters [CppParam { name: "", ty: "AnchorIntoParent", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+AnchorIntoParent(AnchorIntoParent const& ) = delete;
 
-  /// @brief Field _positionOffset, offset: 0x20, size: 0xc, def value: None
-  ::UnityEngine::Vector3 ____positionOffset;
+/// @brief Field _parentTransform, offset: 0x20, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::Transform>  ____parentTransform;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _positionOffset, offset: 0x28, size: 0xc, def value: None
+ ::UnityEngine::Vector3  ____positionOffset;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::AnchorIntoParent, 0x30>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::AnchorIntoParent, 0x38>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::AnchorIntoParent, ____parentTransform) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::AnchorIntoParent, ____parentTransform) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::AnchorIntoParent, ____positionOffset) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::AnchorIntoParent, ____positionOffset) == 0x28, "Offset mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::AnchorIntoParent);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::AnchorIntoParent*, "", "AnchorIntoParent");

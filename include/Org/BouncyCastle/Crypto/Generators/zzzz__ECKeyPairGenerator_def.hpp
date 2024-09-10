@@ -43,107 +43,107 @@ class ECKeyPairGenerator;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Generators::ECKeyPairGenerator);
 // Type: Org.BouncyCastle.Crypto.Generators::ECKeyPairGenerator
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Generators {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Generators::ECKeyPairGenerator*
 class CORDL_TYPE ECKeyPairGenerator : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field algorithm, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_algorithm, put = __cordl_internal_set_algorithm))::StringW algorithm;
+// Declarations
+/// @brief Field algorithm, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_algorithm, put=__cordl_internal_set_algorithm)) ::StringW  algorithm;
 
-  /// @brief Field parameters, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_parameters, put = __cordl_internal_set_parameters))::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* parameters;
+/// @brief Field parameters, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_parameters, put=__cordl_internal_set_parameters)) ::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters*  parameters;
 
-  /// @brief Field publicKeyParamSet, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_publicKeyParamSet, put = __cordl_internal_set_publicKeyParamSet))::Org::BouncyCastle::Asn1::DerObjectIdentifier* publicKeyParamSet;
+/// @brief Field publicKeyParamSet, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get_publicKeyParamSet, put=__cordl_internal_set_publicKeyParamSet)) ::Org::BouncyCastle::Asn1::DerObjectIdentifier*  publicKeyParamSet;
 
-  /// @brief Field random, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_random, put = __cordl_internal_set_random))::Org::BouncyCastle::Security::SecureRandom* random;
+/// @brief Field random, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get_random, put=__cordl_internal_set_random)) ::Org::BouncyCastle::Security::SecureRandom*  random;
 
-  /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator"
-  constexpr operator ::Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator*() noexcept;
+/// @brief Convert operator to "::Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator"
+constexpr operator  ::Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator*() noexcept;
 
-  /// @brief Method CreateBasePointMultiplier, addr 0x116b3c8, size 0x5c, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier* CreateBasePointMultiplier();
+/// @brief Method CreateBasePointMultiplier, addr 0x23380d8, size 0x54, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Math::EC::Multiplier::ECMultiplier* CreateBasePointMultiplier() ;
 
-  /// @brief Method FindECCurveByOid, addr 0x116b040, size 0x74, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* FindECCurveByOid(::Org::BouncyCastle::Asn1::DerObjectIdentifier* oid);
+/// @brief Method FindECCurveByOid, addr 0x2337d98, size 0x74, virtual false, abstract: false, final false
+static inline ::Org::BouncyCastle::Asn1::X9::X9ECParameters* FindECCurveByOid(::Org::BouncyCastle::Asn1::DerObjectIdentifier*  oid) ;
 
-  /// @brief Method GenerateKeyPair, addr 0x116b0b4, size 0x314, virtual true, abstract: false, final true
-  inline ::Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair* GenerateKeyPair();
+/// @brief Method GenerateKeyPair, addr 0x2337e0c, size 0x2cc, virtual true, abstract: false, final true
+inline ::Org::BouncyCastle::Crypto::AsymmetricCipherKeyPair* GenerateKeyPair() ;
 
-  /// @brief Method GetCorrespondingPublicKey, addr 0x116b424, size 0xfc, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters* GetCorrespondingPublicKey(::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters* privKey);
+/// @brief Method GetCorrespondingPublicKey, addr 0x233812c, size 0xe4, virtual false, abstract: false, final false
+static inline ::Org::BouncyCastle::Crypto::Parameters::ECPublicKeyParameters* GetCorrespondingPublicKey(::Org::BouncyCastle::Crypto::Parameters::ECPrivateKeyParameters*  privKey) ;
 
-  /// @brief Method Init, addr 0x116ad98, size 0x2a8, virtual true, abstract: false, final true
-  inline void Init(::Org::BouncyCastle::Crypto::KeyGenerationParameters* parameters);
+/// @brief Method Init, addr 0x2337ad4, size 0x2c4, virtual true, abstract: false, final true
+inline void Init(::Org::BouncyCastle::Crypto::KeyGenerationParameters*  parameters) ;
 
-  static inline ::Org::BouncyCastle::Crypto::Generators::ECKeyPairGenerator* New_ctor();
+static inline ::Org::BouncyCastle::Crypto::Generators::ECKeyPairGenerator* New_ctor() ;
 
-  static inline ::Org::BouncyCastle::Crypto::Generators::ECKeyPairGenerator* New_ctor(::StringW algorithm);
+static inline ::Org::BouncyCastle::Crypto::Generators::ECKeyPairGenerator* New_ctor(::StringW  algorithm) ;
 
-  constexpr ::StringW const& __cordl_internal_get_algorithm() const;
+constexpr ::StringW const& __cordl_internal_get_algorithm() const;
 
-  constexpr ::StringW& __cordl_internal_get_algorithm();
+constexpr ::StringW& __cordl_internal_get_algorithm() ;
 
-  constexpr ::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters*& __cordl_internal_get_parameters();
+constexpr ::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters*& __cordl_internal_get_parameters() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters*> const& __cordl_internal_get_parameters() const;
+constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters*> const& __cordl_internal_get_parameters() const;
 
-  constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& __cordl_internal_get_publicKeyParamSet();
+constexpr ::Org::BouncyCastle::Asn1::DerObjectIdentifier*& __cordl_internal_get_publicKeyParamSet() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerObjectIdentifier*> const& __cordl_internal_get_publicKeyParamSet() const;
+constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerObjectIdentifier*> const& __cordl_internal_get_publicKeyParamSet() const;
 
-  constexpr ::Org::BouncyCastle::Security::SecureRandom*& __cordl_internal_get_random();
+constexpr ::Org::BouncyCastle::Security::SecureRandom*& __cordl_internal_get_random() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Security::SecureRandom*> const& __cordl_internal_get_random() const;
+constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Security::SecureRandom*> const& __cordl_internal_get_random() const;
 
-  constexpr void __cordl_internal_set_algorithm(::StringW value);
+constexpr void __cordl_internal_set_algorithm(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_parameters(::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* value);
+constexpr void __cordl_internal_set_parameters(::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters*  value) ;
 
-  constexpr void __cordl_internal_set_publicKeyParamSet(::Org::BouncyCastle::Asn1::DerObjectIdentifier* value);
+constexpr void __cordl_internal_set_publicKeyParamSet(::Org::BouncyCastle::Asn1::DerObjectIdentifier*  value) ;
 
-  constexpr void __cordl_internal_set_random(::Org::BouncyCastle::Security::SecureRandom* value);
+constexpr void __cordl_internal_set_random(::Org::BouncyCastle::Security::SecureRandom*  value) ;
 
-  /// @brief Method .ctor, addr 0x116ac90, size 0x48, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x23379d0, size 0x48, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method .ctor, addr 0x116acd8, size 0xc0, virtual false, abstract: false, final false
-  inline void _ctor(::StringW algorithm);
+/// @brief Method .ctor, addr 0x2337a18, size 0xbc, virtual false, abstract: false, final false
+inline void _ctor(::StringW  algorithm) ;
 
-  /// @brief Convert to "::Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator"
-  constexpr ::Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator* i___Org__BouncyCastle__Crypto__IAsymmetricCipherKeyPairGenerator() noexcept;
+/// @brief Convert to "::Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator"
+constexpr ::Org::BouncyCastle::Crypto::IAsymmetricCipherKeyPairGenerator* i___Org__BouncyCastle__Crypto__IAsymmetricCipherKeyPairGenerator() noexcept;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ECKeyPairGenerator();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ECKeyPairGenerator() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ECKeyPairGenerator", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ECKeyPairGenerator(ECKeyPairGenerator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ECKeyPairGenerator", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ECKeyPairGenerator(ECKeyPairGenerator const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ECKeyPairGenerator", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ECKeyPairGenerator(ECKeyPairGenerator && ) = delete;
 
-  /// @brief Field algorithm, offset: 0x10, size: 0x8, def value: None
-  ::StringW ___algorithm;
+// Ctor Parameters [CppParam { name: "", ty: "ECKeyPairGenerator", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ECKeyPairGenerator(ECKeyPairGenerator const& ) = delete;
 
-  /// @brief Field parameters, offset: 0x18, size: 0x8, def value: None
-  ::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters* ___parameters;
+/// @brief Field algorithm, offset: 0x10, size: 0x8, def value: None
+ ::StringW  ___algorithm;
 
-  /// @brief Field publicKeyParamSet, offset: 0x20, size: 0x8, def value: None
-  ::Org::BouncyCastle::Asn1::DerObjectIdentifier* ___publicKeyParamSet;
+/// @brief Field parameters, offset: 0x18, size: 0x8, def value: None
+ ::Org::BouncyCastle::Crypto::Parameters::ECDomainParameters*  ___parameters;
 
-  /// @brief Field random, offset: 0x28, size: 0x8, def value: None
-  ::Org::BouncyCastle::Security::SecureRandom* ___random;
+/// @brief Field publicKeyParamSet, offset: 0x20, size: 0x8, def value: None
+ ::Org::BouncyCastle::Asn1::DerObjectIdentifier*  ___publicKeyParamSet;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field random, offset: 0x28, size: 0x8, def value: None
+ ::Org::BouncyCastle::Security::SecureRandom*  ___random;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Generators::ECKeyPairGenerator, 0x30>, "Size mismatch!");
@@ -156,6 +156,6 @@ static_assert(offsetof(::Org::BouncyCastle::Crypto::Generators::ECKeyPairGenerat
 
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Generators::ECKeyPairGenerator, ___random) == 0x28, "Offset mismatch!");
 
-} // namespace Org::BouncyCastle::Crypto::Generators
+} // namespace end def Org::BouncyCastle::Crypto::Generators
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Generators::ECKeyPairGenerator);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Generators::ECKeyPairGenerator*, "Org.BouncyCastle.Crypto.Generators", "ECKeyPairGenerator");

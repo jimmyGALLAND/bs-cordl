@@ -18,66 +18,66 @@ class OpenXRRuntimeBasedActionBindingComposite;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::OpenXRRuntimeBasedActionBindingComposite);
 // Type: ::OpenXRRuntimeBasedActionBindingComposite
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::OpenXRRuntimeBasedActionBindingComposite*
 class CORDL_TYPE OpenXRRuntimeBasedActionBindingComposite : public ::UnityEngine::InputSystem::InputBindingComposite_1<float_t> {
 public:
-  // Declarations
-  /// @brief Field oculusRuntime, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_oculusRuntime, put = __cordl_internal_set_oculusRuntime)) int32_t oculusRuntime;
+// Declarations
+/// @brief Field oculusRuntime, offset 0x10, size 0x4 
+ __declspec(property(get=__cordl_internal_get_oculusRuntime, put=__cordl_internal_set_oculusRuntime)) int32_t  oculusRuntime;
 
-  /// @brief Field otherRuntimes, offset 0x14, size 0x4
-  __declspec(property(get = __cordl_internal_get_otherRuntimes, put = __cordl_internal_set_otherRuntimes)) int32_t otherRuntimes;
+/// @brief Field otherRuntimes, offset 0x14, size 0x4 
+ __declspec(property(get=__cordl_internal_get_otherRuntimes, put=__cordl_internal_set_otherRuntimes)) int32_t  otherRuntimes;
 
-  /// @brief Method EvaluateMagnitude, addr 0x250ffbc, size 0xc, virtual true, abstract: false, final false
-  inline float_t EvaluateMagnitude(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
+/// @brief Method EvaluateMagnitude, addr 0x394eb08, size 0xc, virtual true, abstract: false, final false
+inline float_t EvaluateMagnitude(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext>  context) ;
 
-  /// @brief Method Init, addr 0x2510030, size 0x4, virtual false, abstract: false, final false
-  static inline void Init();
+/// @brief Method Init, addr 0x394eb7c, size 0x4, virtual false, abstract: false, final false
+static inline void Init() ;
 
-  static inline ::GlobalNamespace::OpenXRRuntimeBasedActionBindingComposite* New_ctor();
+static inline ::GlobalNamespace::OpenXRRuntimeBasedActionBindingComposite* New_ctor() ;
 
-  /// @brief Method ReadValue, addr 0x250ffb4, size 0x8, virtual true, abstract: false, final false
-  inline float_t ReadValue(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext> context);
+/// @brief Method ReadValue, addr 0x394eb00, size 0x8, virtual true, abstract: false, final false
+inline float_t ReadValue(ByRef<::UnityEngine::InputSystem::InputBindingCompositeContext>  context) ;
 
-  constexpr int32_t const& __cordl_internal_get_oculusRuntime() const;
+constexpr int32_t const& __cordl_internal_get_oculusRuntime() const;
 
-  constexpr int32_t& __cordl_internal_get_oculusRuntime();
+constexpr int32_t& __cordl_internal_get_oculusRuntime() ;
 
-  constexpr int32_t const& __cordl_internal_get_otherRuntimes() const;
+constexpr int32_t const& __cordl_internal_get_otherRuntimes() const;
 
-  constexpr int32_t& __cordl_internal_get_otherRuntimes();
+constexpr int32_t& __cordl_internal_get_otherRuntimes() ;
 
-  constexpr void __cordl_internal_set_oculusRuntime(int32_t value);
+constexpr void __cordl_internal_set_oculusRuntime(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_otherRuntimes(int32_t value);
+constexpr void __cordl_internal_set_otherRuntimes(int32_t  value) ;
 
-  /// @brief Method .ctor, addr 0x2510034, size 0x48, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x394eb80, size 0x48, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr OpenXRRuntimeBasedActionBindingComposite();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr OpenXRRuntimeBasedActionBindingComposite() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OpenXRRuntimeBasedActionBindingComposite", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  OpenXRRuntimeBasedActionBindingComposite(OpenXRRuntimeBasedActionBindingComposite&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OpenXRRuntimeBasedActionBindingComposite", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  OpenXRRuntimeBasedActionBindingComposite(OpenXRRuntimeBasedActionBindingComposite const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "OpenXRRuntimeBasedActionBindingComposite", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+OpenXRRuntimeBasedActionBindingComposite(OpenXRRuntimeBasedActionBindingComposite && ) = delete;
 
-  /// @brief Field oculusRuntime, offset: 0x10, size: 0x4, def value: None
-  int32_t ___oculusRuntime;
+// Ctor Parameters [CppParam { name: "", ty: "OpenXRRuntimeBasedActionBindingComposite", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+OpenXRRuntimeBasedActionBindingComposite(OpenXRRuntimeBasedActionBindingComposite const& ) = delete;
 
-  /// @brief Field otherRuntimes, offset: 0x14, size: 0x4, def value: None
-  int32_t ___otherRuntimes;
+/// @brief Field oculusRuntime, offset: 0x10, size: 0x4, def value: None
+ int32_t  ___oculusRuntime;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field otherRuntimes, offset: 0x14, size: 0x4, def value: None
+ int32_t  ___otherRuntimes;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OpenXRRuntimeBasedActionBindingComposite, 0x18>, "Size mismatch!");
@@ -86,6 +86,6 @@ static_assert(offsetof(::GlobalNamespace::OpenXRRuntimeBasedActionBindingComposi
 
 static_assert(offsetof(::GlobalNamespace::OpenXRRuntimeBasedActionBindingComposite, ___otherRuntimes) == 0x14, "Offset mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::OpenXRRuntimeBasedActionBindingComposite);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OpenXRRuntimeBasedActionBindingComposite*, "", "OpenXRRuntimeBasedActionBindingComposite");

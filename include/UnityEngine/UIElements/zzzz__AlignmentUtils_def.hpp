@@ -13,38 +13,38 @@ class AlignmentUtils;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::AlignmentUtils);
 // Type: UnityEngine.UIElements::AlignmentUtils
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: ::UnityEngine.UIElements::AlignmentUtils*
 class CORDL_TYPE AlignmentUtils : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method CeilToPixelGrid, addr 0x354ccf8, size 0x14, virtual false, abstract: false, final false
-  static inline float_t CeilToPixelGrid(float_t v, float_t pixelsPerPoint, float_t offset);
+// Declarations
+/// @brief Method CeilToPixelGrid, addr 0x48d8e58, size 0x14, virtual false, abstract: false, final false
+static inline float_t CeilToPixelGrid(float_t  v, float_t  pixelsPerPoint, float_t  offset) ;
 
-  /// @brief Method RoundToPixelGrid, addr 0x354ccdc, size 0x1c, virtual false, abstract: false, final false
-  static inline float_t RoundToPixelGrid(float_t v, float_t pixelsPerPoint, float_t offset);
+/// @brief Method RoundToPixelGrid, addr 0x48d8e3c, size 0x1c, virtual false, abstract: false, final false
+static inline float_t RoundToPixelGrid(float_t  v, float_t  pixelsPerPoint, float_t  offset) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AlignmentUtils();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr AlignmentUtils() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AlignmentUtils", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  AlignmentUtils(AlignmentUtils&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AlignmentUtils", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  AlignmentUtils(AlignmentUtils const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "AlignmentUtils", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+AlignmentUtils(AlignmentUtils && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "AlignmentUtils", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+AlignmentUtils(AlignmentUtils const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::AlignmentUtils, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine::UIElements
+} // namespace end def UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::AlignmentUtils);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::AlignmentUtils*, "UnityEngine.UIElements", "AlignmentUtils");

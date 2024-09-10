@@ -61,10 +61,12 @@ namespace GlobalNamespace {
 class __PackDefinitionExtensions___GetSteamLevelProductPacks_d__6;
 }
 namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+template<typename T>
+class IEnumerable_1;
 }
 namespace System::Collections::Generic {
-template <typename T> class IEnumerator_1;
+template<typename T>
+class IEnumerator_1;
 }
 namespace System::Collections {
 class IEnumerable;
@@ -124,1075 +126,164 @@ MARK_REF_PTR_T(::GlobalNamespace::__PackDefinitionExtensions___GetQuestLeaderboa
 MARK_REF_PTR_T(::GlobalNamespace::__PackDefinitionExtensions___GetRiftLeaderboardIds_d__1);
 MARK_REF_PTR_T(::GlobalNamespace::__PackDefinitionExtensions___GetSteamLeaderboardIds_d__2);
 MARK_REF_PTR_T(::GlobalNamespace::__PackDefinitionExtensions___GetSteamLevelProductPacks_d__6);
-// Type: ::<GetQuestLeaderboardIds>d__0
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
-namespace GlobalNamespace {
-// Is value type: false
-// CS Name: ::PackDefinitionExtensions::<GetQuestLeaderboardIds>d__0*
-class CORDL_TYPE __PackDefinitionExtensions___GetQuestLeaderboardIds_d__0 : public ::System::Object {
-public:
-  // Declarations
-  __declspec(property(
-      get = System_Collections_Generic_IEnumerator_LeaderboardIdsSO__get_Current))::UnityW<::GlobalNamespace::LeaderboardIdsSO> System_Collections_Generic_IEnumerator_LeaderboardIdsSO__Current;
-
-  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
-
-  /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
-
-  /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::UnityW<::GlobalNamespace::LeaderboardIdsSO> __2__current;
-
-  /// @brief Field <>3__packDefinitions, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get___3__packDefinitions,
-                      put = __cordl_internal_set___3__packDefinitions))::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* __3__packDefinitions;
-
-  /// @brief Field <>7__wrap1, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get___7__wrap1,
-                      put = __cordl_internal_set___7__wrap1))::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* __7__wrap1;
-
-  /// @brief Field <>l__initialThreadId, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get___l__initialThreadId, put = __cordl_internal_set___l__initialThreadId)) int32_t __l__initialThreadId;
-
-  /// @brief Field packDefinitions, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_packDefinitions,
-                      put = __cordl_internal_set_packDefinitions))::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* packDefinitions;
-
-  /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>"
-  constexpr operator ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>*() noexcept;
-
-  /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>"
-  constexpr operator ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>*() noexcept;
-
-  /// @brief Convert operator to "::System::Collections::IEnumerable"
-  constexpr operator ::System::Collections::IEnumerable*() noexcept;
-
-  /// @brief Convert operator to "::System::Collections::IEnumerator"
-  constexpr operator ::System::Collections::IEnumerator*() noexcept;
-
-  /// @brief Convert operator to "::System::IDisposable"
-  constexpr operator ::System::IDisposable*() noexcept;
-
-  /// @brief Method MoveNext, addr 0x14d4c70, size 0x304, virtual true, abstract: false, final true
-  inline bool MoveNext();
-
-  static inline ::GlobalNamespace::__PackDefinitionExtensions___GetQuestLeaderboardIds_d__0* New_ctor(int32_t __1__state);
-
-  /// @brief Method System.Collections.Generic.IEnumerable<LeaderboardIdsSO>.GetEnumerator, addr 0x14d5074, size 0xa4, virtual true, abstract: false, final true
-  inline ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>* System_Collections_Generic_IEnumerable_LeaderboardIdsSO__GetEnumerator();
-
-  /// @brief Method System.Collections.Generic.IEnumerator<LeaderboardIdsSO>.get_Current, addr 0x14d5024, size 0x8, virtual true, abstract: false, final true
-  inline ::UnityW<::GlobalNamespace::LeaderboardIdsSO> System_Collections_Generic_IEnumerator_LeaderboardIdsSO__get_Current();
-
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x14d5118, size 0x4, virtual true, abstract: false, final true
-  inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
-
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x14d502c, size 0x40, virtual true, abstract: false, final true
-  inline void System_Collections_IEnumerator_Reset();
-
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x14d506c, size 0x8, virtual true, abstract: false, final true
-  inline ::System::Object* System_Collections_IEnumerator_get_Current();
-
-  /// @brief Method System.IDisposable.Dispose, addr 0x14d4c54, size 0x1c, virtual true, abstract: false, final true
-  inline void System_IDisposable_Dispose();
-
-  constexpr int32_t const& __cordl_internal_get___1__state() const;
-
-  constexpr int32_t& __cordl_internal_get___1__state();
-
-  constexpr ::UnityW<::GlobalNamespace::LeaderboardIdsSO> const& __cordl_internal_get___2__current() const;
-
-  constexpr ::UnityW<::GlobalNamespace::LeaderboardIdsSO>& __cordl_internal_get___2__current();
-
-  constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*& __cordl_internal_get___3__packDefinitions();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*> const& __cordl_internal_get___3__packDefinitions() const;
-
-  constexpr ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*& __cordl_internal_get___7__wrap1();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*> const& __cordl_internal_get___7__wrap1() const;
-
-  constexpr int32_t const& __cordl_internal_get___l__initialThreadId() const;
-
-  constexpr int32_t& __cordl_internal_get___l__initialThreadId();
-
-  constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*& __cordl_internal_get_packDefinitions();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*> const& __cordl_internal_get_packDefinitions() const;
-
-  constexpr void __cordl_internal_set___1__state(int32_t value);
-
-  constexpr void __cordl_internal_set___2__current(::UnityW<::GlobalNamespace::LeaderboardIdsSO> value);
-
-  constexpr void __cordl_internal_set___3__packDefinitions(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* value);
-
-  constexpr void __cordl_internal_set___7__wrap1(::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* value);
-
-  constexpr void __cordl_internal_set___l__initialThreadId(int32_t value);
-
-  constexpr void __cordl_internal_set_packDefinitions(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* value);
-
-  /// @brief Method <>m__Finally1, addr 0x14d4f74, size 0xb0, virtual false, abstract: false, final false
-  inline void __m__Finally1();
-
-  /// @brief Method .ctor, addr 0x14d4614, size 0x34, virtual false, abstract: false, final false
-  inline void _ctor(int32_t __1__state);
-
-  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>"
-  constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>*
-  i___System__Collections__Generic__IEnumerable_1___UnityW___GlobalNamespace__LeaderboardIdsSO__() noexcept;
-
-  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>"
-  constexpr ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>*
-  i___System__Collections__Generic__IEnumerator_1___UnityW___GlobalNamespace__LeaderboardIdsSO__() noexcept;
-
-  /// @brief Convert to "::System::Collections::IEnumerable"
-  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
-
-  /// @brief Convert to "::System::Collections::IEnumerator"
-  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
-
-  /// @brief Convert to "::System::IDisposable"
-  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
-
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __PackDefinitionExtensions___GetQuestLeaderboardIds_d__0();
-
-public:
-  // Ctor Parameters [CppParam { name: "", ty: "__PackDefinitionExtensions___GetQuestLeaderboardIds_d__0", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __PackDefinitionExtensions___GetQuestLeaderboardIds_d__0(__PackDefinitionExtensions___GetQuestLeaderboardIds_d__0&&) = delete;
-
-  // Ctor Parameters [CppParam { name: "", ty: "__PackDefinitionExtensions___GetQuestLeaderboardIds_d__0", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __PackDefinitionExtensions___GetQuestLeaderboardIds_d__0(__PackDefinitionExtensions___GetQuestLeaderboardIds_d__0 const&) = delete;
-
-  /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
-  int32_t _____1__state;
-
-  /// @brief Field <>2__current, offset: 0x18, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::LeaderboardIdsSO> _____2__current;
-
-  /// @brief Field <>l__initialThreadId, offset: 0x20, size: 0x4, def value: None
-  int32_t _____l__initialThreadId;
-
-  /// @brief Field packDefinitions, offset: 0x28, size: 0x8, def value: None
-  ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* ___packDefinitions;
-
-  /// @brief Field <>3__packDefinitions, offset: 0x30, size: 0x8, def value: None
-  ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* _____3__packDefinitions;
-
-  /// @brief Field <>7__wrap1, offset: 0x38, size: 0x8, def value: None
-  ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* _____7__wrap1;
-
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__PackDefinitionExtensions___GetQuestLeaderboardIds_d__0, 0x40>, "Size mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::__PackDefinitionExtensions___GetQuestLeaderboardIds_d__0, _____1__state) == 0x10, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::__PackDefinitionExtensions___GetQuestLeaderboardIds_d__0, _____2__current) == 0x18, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::__PackDefinitionExtensions___GetQuestLeaderboardIds_d__0, _____l__initialThreadId) == 0x20, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::__PackDefinitionExtensions___GetQuestLeaderboardIds_d__0, ___packDefinitions) == 0x28, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::__PackDefinitionExtensions___GetQuestLeaderboardIds_d__0, _____3__packDefinitions) == 0x30, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::__PackDefinitionExtensions___GetQuestLeaderboardIds_d__0, _____7__wrap1) == 0x38, "Offset mismatch!");
-
-} // namespace GlobalNamespace
-// Type: ::<GetRiftLeaderboardIds>d__1
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
-namespace GlobalNamespace {
-// Is value type: false
-// CS Name: ::PackDefinitionExtensions::<GetRiftLeaderboardIds>d__1*
-class CORDL_TYPE __PackDefinitionExtensions___GetRiftLeaderboardIds_d__1 : public ::System::Object {
-public:
-  // Declarations
-  __declspec(property(
-      get = System_Collections_Generic_IEnumerator_LeaderboardIdsSO__get_Current))::UnityW<::GlobalNamespace::LeaderboardIdsSO> System_Collections_Generic_IEnumerator_LeaderboardIdsSO__Current;
-
-  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
-
-  /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
-
-  /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::UnityW<::GlobalNamespace::LeaderboardIdsSO> __2__current;
-
-  /// @brief Field <>3__packDefinitions, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get___3__packDefinitions,
-                      put = __cordl_internal_set___3__packDefinitions))::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* __3__packDefinitions;
-
-  /// @brief Field <>7__wrap1, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get___7__wrap1,
-                      put = __cordl_internal_set___7__wrap1))::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* __7__wrap1;
-
-  /// @brief Field <>l__initialThreadId, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get___l__initialThreadId, put = __cordl_internal_set___l__initialThreadId)) int32_t __l__initialThreadId;
-
-  /// @brief Field packDefinitions, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_packDefinitions,
-                      put = __cordl_internal_set_packDefinitions))::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* packDefinitions;
-
-  /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>"
-  constexpr operator ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>*() noexcept;
-
-  /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>"
-  constexpr operator ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>*() noexcept;
-
-  /// @brief Convert operator to "::System::Collections::IEnumerable"
-  constexpr operator ::System::Collections::IEnumerable*() noexcept;
-
-  /// @brief Convert operator to "::System::Collections::IEnumerator"
-  constexpr operator ::System::Collections::IEnumerator*() noexcept;
-
-  /// @brief Convert operator to "::System::IDisposable"
-  constexpr operator ::System::IDisposable*() noexcept;
-
-  /// @brief Method MoveNext, addr 0x14d5138, size 0x304, virtual true, abstract: false, final true
-  inline bool MoveNext();
-
-  static inline ::GlobalNamespace::__PackDefinitionExtensions___GetRiftLeaderboardIds_d__1* New_ctor(int32_t __1__state);
-
-  /// @brief Method System.Collections.Generic.IEnumerable<LeaderboardIdsSO>.GetEnumerator, addr 0x14d553c, size 0xa4, virtual true, abstract: false, final true
-  inline ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>* System_Collections_Generic_IEnumerable_LeaderboardIdsSO__GetEnumerator();
-
-  /// @brief Method System.Collections.Generic.IEnumerator<LeaderboardIdsSO>.get_Current, addr 0x14d54ec, size 0x8, virtual true, abstract: false, final true
-  inline ::UnityW<::GlobalNamespace::LeaderboardIdsSO> System_Collections_Generic_IEnumerator_LeaderboardIdsSO__get_Current();
-
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x14d55e0, size 0x4, virtual true, abstract: false, final true
-  inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
-
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x14d54f4, size 0x40, virtual true, abstract: false, final true
-  inline void System_Collections_IEnumerator_Reset();
-
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x14d5534, size 0x8, virtual true, abstract: false, final true
-  inline ::System::Object* System_Collections_IEnumerator_get_Current();
-
-  /// @brief Method System.IDisposable.Dispose, addr 0x14d511c, size 0x1c, virtual true, abstract: false, final true
-  inline void System_IDisposable_Dispose();
-
-  constexpr int32_t const& __cordl_internal_get___1__state() const;
-
-  constexpr int32_t& __cordl_internal_get___1__state();
-
-  constexpr ::UnityW<::GlobalNamespace::LeaderboardIdsSO> const& __cordl_internal_get___2__current() const;
-
-  constexpr ::UnityW<::GlobalNamespace::LeaderboardIdsSO>& __cordl_internal_get___2__current();
-
-  constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*& __cordl_internal_get___3__packDefinitions();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*> const& __cordl_internal_get___3__packDefinitions() const;
-
-  constexpr ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*& __cordl_internal_get___7__wrap1();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*> const& __cordl_internal_get___7__wrap1() const;
-
-  constexpr int32_t const& __cordl_internal_get___l__initialThreadId() const;
-
-  constexpr int32_t& __cordl_internal_get___l__initialThreadId();
-
-  constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*& __cordl_internal_get_packDefinitions();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*> const& __cordl_internal_get_packDefinitions() const;
-
-  constexpr void __cordl_internal_set___1__state(int32_t value);
-
-  constexpr void __cordl_internal_set___2__current(::UnityW<::GlobalNamespace::LeaderboardIdsSO> value);
-
-  constexpr void __cordl_internal_set___3__packDefinitions(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* value);
-
-  constexpr void __cordl_internal_set___7__wrap1(::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* value);
-
-  constexpr void __cordl_internal_set___l__initialThreadId(int32_t value);
-
-  constexpr void __cordl_internal_set_packDefinitions(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* value);
-
-  /// @brief Method <>m__Finally1, addr 0x14d543c, size 0xb0, virtual false, abstract: false, final false
-  inline void __m__Finally1();
-
-  /// @brief Method .ctor, addr 0x14d46c0, size 0x34, virtual false, abstract: false, final false
-  inline void _ctor(int32_t __1__state);
-
-  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>"
-  constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>*
-  i___System__Collections__Generic__IEnumerable_1___UnityW___GlobalNamespace__LeaderboardIdsSO__() noexcept;
-
-  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>"
-  constexpr ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>*
-  i___System__Collections__Generic__IEnumerator_1___UnityW___GlobalNamespace__LeaderboardIdsSO__() noexcept;
-
-  /// @brief Convert to "::System::Collections::IEnumerable"
-  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
-
-  /// @brief Convert to "::System::Collections::IEnumerator"
-  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
-
-  /// @brief Convert to "::System::IDisposable"
-  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
-
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __PackDefinitionExtensions___GetRiftLeaderboardIds_d__1();
-
-public:
-  // Ctor Parameters [CppParam { name: "", ty: "__PackDefinitionExtensions___GetRiftLeaderboardIds_d__1", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __PackDefinitionExtensions___GetRiftLeaderboardIds_d__1(__PackDefinitionExtensions___GetRiftLeaderboardIds_d__1&&) = delete;
-
-  // Ctor Parameters [CppParam { name: "", ty: "__PackDefinitionExtensions___GetRiftLeaderboardIds_d__1", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __PackDefinitionExtensions___GetRiftLeaderboardIds_d__1(__PackDefinitionExtensions___GetRiftLeaderboardIds_d__1 const&) = delete;
-
-  /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
-  int32_t _____1__state;
-
-  /// @brief Field <>2__current, offset: 0x18, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::LeaderboardIdsSO> _____2__current;
-
-  /// @brief Field <>l__initialThreadId, offset: 0x20, size: 0x4, def value: None
-  int32_t _____l__initialThreadId;
-
-  /// @brief Field packDefinitions, offset: 0x28, size: 0x8, def value: None
-  ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* ___packDefinitions;
-
-  /// @brief Field <>3__packDefinitions, offset: 0x30, size: 0x8, def value: None
-  ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* _____3__packDefinitions;
-
-  /// @brief Field <>7__wrap1, offset: 0x38, size: 0x8, def value: None
-  ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* _____7__wrap1;
-
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__PackDefinitionExtensions___GetRiftLeaderboardIds_d__1, 0x40>, "Size mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::__PackDefinitionExtensions___GetRiftLeaderboardIds_d__1, _____1__state) == 0x10, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::__PackDefinitionExtensions___GetRiftLeaderboardIds_d__1, _____2__current) == 0x18, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::__PackDefinitionExtensions___GetRiftLeaderboardIds_d__1, _____l__initialThreadId) == 0x20, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::__PackDefinitionExtensions___GetRiftLeaderboardIds_d__1, ___packDefinitions) == 0x28, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::__PackDefinitionExtensions___GetRiftLeaderboardIds_d__1, _____3__packDefinitions) == 0x30, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::__PackDefinitionExtensions___GetRiftLeaderboardIds_d__1, _____7__wrap1) == 0x38, "Offset mismatch!");
-
-} // namespace GlobalNamespace
-// Type: ::<GetSteamLeaderboardIds>d__2
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
-namespace GlobalNamespace {
-// Is value type: false
-// CS Name: ::PackDefinitionExtensions::<GetSteamLeaderboardIds>d__2*
-class CORDL_TYPE __PackDefinitionExtensions___GetSteamLeaderboardIds_d__2 : public ::System::Object {
-public:
-  // Declarations
-  __declspec(property(
-      get = System_Collections_Generic_IEnumerator_LeaderboardIdsSO__get_Current))::UnityW<::GlobalNamespace::LeaderboardIdsSO> System_Collections_Generic_IEnumerator_LeaderboardIdsSO__Current;
-
-  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
-
-  /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
-
-  /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::UnityW<::GlobalNamespace::LeaderboardIdsSO> __2__current;
-
-  /// @brief Field <>3__packDefinitions, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get___3__packDefinitions,
-                      put = __cordl_internal_set___3__packDefinitions))::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* __3__packDefinitions;
-
-  /// @brief Field <>7__wrap1, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get___7__wrap1,
-                      put = __cordl_internal_set___7__wrap1))::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* __7__wrap1;
-
-  /// @brief Field <>l__initialThreadId, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get___l__initialThreadId, put = __cordl_internal_set___l__initialThreadId)) int32_t __l__initialThreadId;
-
-  /// @brief Field packDefinitions, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_packDefinitions,
-                      put = __cordl_internal_set_packDefinitions))::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* packDefinitions;
-
-  /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>"
-  constexpr operator ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>*() noexcept;
-
-  /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>"
-  constexpr operator ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>*() noexcept;
-
-  /// @brief Convert operator to "::System::Collections::IEnumerable"
-  constexpr operator ::System::Collections::IEnumerable*() noexcept;
-
-  /// @brief Convert operator to "::System::Collections::IEnumerator"
-  constexpr operator ::System::Collections::IEnumerator*() noexcept;
-
-  /// @brief Convert operator to "::System::IDisposable"
-  constexpr operator ::System::IDisposable*() noexcept;
-
-  /// @brief Method MoveNext, addr 0x14d5600, size 0x304, virtual true, abstract: false, final true
-  inline bool MoveNext();
-
-  static inline ::GlobalNamespace::__PackDefinitionExtensions___GetSteamLeaderboardIds_d__2* New_ctor(int32_t __1__state);
-
-  /// @brief Method System.Collections.Generic.IEnumerable<LeaderboardIdsSO>.GetEnumerator, addr 0x14d5a04, size 0xa4, virtual true, abstract: false, final true
-  inline ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>* System_Collections_Generic_IEnumerable_LeaderboardIdsSO__GetEnumerator();
-
-  /// @brief Method System.Collections.Generic.IEnumerator<LeaderboardIdsSO>.get_Current, addr 0x14d59b4, size 0x8, virtual true, abstract: false, final true
-  inline ::UnityW<::GlobalNamespace::LeaderboardIdsSO> System_Collections_Generic_IEnumerator_LeaderboardIdsSO__get_Current();
-
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x14d5aa8, size 0x4, virtual true, abstract: false, final true
-  inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
-
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x14d59bc, size 0x40, virtual true, abstract: false, final true
-  inline void System_Collections_IEnumerator_Reset();
-
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x14d59fc, size 0x8, virtual true, abstract: false, final true
-  inline ::System::Object* System_Collections_IEnumerator_get_Current();
-
-  /// @brief Method System.IDisposable.Dispose, addr 0x14d55e4, size 0x1c, virtual true, abstract: false, final true
-  inline void System_IDisposable_Dispose();
-
-  constexpr int32_t const& __cordl_internal_get___1__state() const;
-
-  constexpr int32_t& __cordl_internal_get___1__state();
-
-  constexpr ::UnityW<::GlobalNamespace::LeaderboardIdsSO> const& __cordl_internal_get___2__current() const;
-
-  constexpr ::UnityW<::GlobalNamespace::LeaderboardIdsSO>& __cordl_internal_get___2__current();
-
-  constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*& __cordl_internal_get___3__packDefinitions();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*> const& __cordl_internal_get___3__packDefinitions() const;
-
-  constexpr ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*& __cordl_internal_get___7__wrap1();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*> const& __cordl_internal_get___7__wrap1() const;
-
-  constexpr int32_t const& __cordl_internal_get___l__initialThreadId() const;
-
-  constexpr int32_t& __cordl_internal_get___l__initialThreadId();
-
-  constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*& __cordl_internal_get_packDefinitions();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*> const& __cordl_internal_get_packDefinitions() const;
-
-  constexpr void __cordl_internal_set___1__state(int32_t value);
-
-  constexpr void __cordl_internal_set___2__current(::UnityW<::GlobalNamespace::LeaderboardIdsSO> value);
-
-  constexpr void __cordl_internal_set___3__packDefinitions(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* value);
-
-  constexpr void __cordl_internal_set___7__wrap1(::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* value);
-
-  constexpr void __cordl_internal_set___l__initialThreadId(int32_t value);
-
-  constexpr void __cordl_internal_set_packDefinitions(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* value);
-
-  /// @brief Method <>m__Finally1, addr 0x14d5904, size 0xb0, virtual false, abstract: false, final false
-  inline void __m__Finally1();
-
-  /// @brief Method .ctor, addr 0x14d476c, size 0x34, virtual false, abstract: false, final false
-  inline void _ctor(int32_t __1__state);
-
-  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>"
-  constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>*
-  i___System__Collections__Generic__IEnumerable_1___UnityW___GlobalNamespace__LeaderboardIdsSO__() noexcept;
-
-  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>"
-  constexpr ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>*
-  i___System__Collections__Generic__IEnumerator_1___UnityW___GlobalNamespace__LeaderboardIdsSO__() noexcept;
-
-  /// @brief Convert to "::System::Collections::IEnumerable"
-  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
-
-  /// @brief Convert to "::System::Collections::IEnumerator"
-  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
-
-  /// @brief Convert to "::System::IDisposable"
-  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
-
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __PackDefinitionExtensions___GetSteamLeaderboardIds_d__2();
-
-public:
-  // Ctor Parameters [CppParam { name: "", ty: "__PackDefinitionExtensions___GetSteamLeaderboardIds_d__2", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __PackDefinitionExtensions___GetSteamLeaderboardIds_d__2(__PackDefinitionExtensions___GetSteamLeaderboardIds_d__2&&) = delete;
-
-  // Ctor Parameters [CppParam { name: "", ty: "__PackDefinitionExtensions___GetSteamLeaderboardIds_d__2", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __PackDefinitionExtensions___GetSteamLeaderboardIds_d__2(__PackDefinitionExtensions___GetSteamLeaderboardIds_d__2 const&) = delete;
-
-  /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
-  int32_t _____1__state;
-
-  /// @brief Field <>2__current, offset: 0x18, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::LeaderboardIdsSO> _____2__current;
-
-  /// @brief Field <>l__initialThreadId, offset: 0x20, size: 0x4, def value: None
-  int32_t _____l__initialThreadId;
-
-  /// @brief Field packDefinitions, offset: 0x28, size: 0x8, def value: None
-  ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* ___packDefinitions;
-
-  /// @brief Field <>3__packDefinitions, offset: 0x30, size: 0x8, def value: None
-  ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* _____3__packDefinitions;
-
-  /// @brief Field <>7__wrap1, offset: 0x38, size: 0x8, def value: None
-  ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* _____7__wrap1;
-
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__PackDefinitionExtensions___GetSteamLeaderboardIds_d__2, 0x40>, "Size mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::__PackDefinitionExtensions___GetSteamLeaderboardIds_d__2, _____1__state) == 0x10, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::__PackDefinitionExtensions___GetSteamLeaderboardIds_d__2, _____2__current) == 0x18, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::__PackDefinitionExtensions___GetSteamLeaderboardIds_d__2, _____l__initialThreadId) == 0x20, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::__PackDefinitionExtensions___GetSteamLeaderboardIds_d__2, ___packDefinitions) == 0x28, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::__PackDefinitionExtensions___GetSteamLeaderboardIds_d__2, _____3__packDefinitions) == 0x30, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::__PackDefinitionExtensions___GetSteamLeaderboardIds_d__2, _____7__wrap1) == 0x38, "Offset mismatch!");
-
-} // namespace GlobalNamespace
-// Type: ::<GetPS4LeaderboardIds>d__3
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
-namespace GlobalNamespace {
-// Is value type: false
-// CS Name: ::PackDefinitionExtensions::<GetPS4LeaderboardIds>d__3*
-class CORDL_TYPE __PackDefinitionExtensions___GetPS4LeaderboardIds_d__3 : public ::System::Object {
-public:
-  // Declarations
-  __declspec(property(get = System_Collections_Generic_IEnumerator_SonyLeaderboardIdsSO__get_Current))::UnityW<
-      ::GlobalNamespace::SonyLeaderboardIdsSO> System_Collections_Generic_IEnumerator_SonyLeaderboardIdsSO__Current;
-
-  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
-
-  /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
-
-  /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO> __2__current;
-
-  /// @brief Field <>3__packDefinitions, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get___3__packDefinitions,
-                      put = __cordl_internal_set___3__packDefinitions))::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* __3__packDefinitions;
-
-  /// @brief Field <>7__wrap1, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get___7__wrap1,
-                      put = __cordl_internal_set___7__wrap1))::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* __7__wrap1;
-
-  /// @brief Field <>l__initialThreadId, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get___l__initialThreadId, put = __cordl_internal_set___l__initialThreadId)) int32_t __l__initialThreadId;
-
-  /// @brief Field packDefinitions, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_packDefinitions,
-                      put = __cordl_internal_set_packDefinitions))::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* packDefinitions;
-
-  /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>"
-  constexpr operator ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>*() noexcept;
-
-  /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>"
-  constexpr operator ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>*() noexcept;
-
-  /// @brief Convert operator to "::System::Collections::IEnumerable"
-  constexpr operator ::System::Collections::IEnumerable*() noexcept;
-
-  /// @brief Convert operator to "::System::Collections::IEnumerator"
-  constexpr operator ::System::Collections::IEnumerator*() noexcept;
-
-  /// @brief Convert operator to "::System::IDisposable"
-  constexpr operator ::System::IDisposable*() noexcept;
-
-  /// @brief Method MoveNext, addr 0x14d5ac8, size 0x304, virtual true, abstract: false, final true
-  inline bool MoveNext();
-
-  static inline ::GlobalNamespace::__PackDefinitionExtensions___GetPS4LeaderboardIds_d__3* New_ctor(int32_t __1__state);
-
-  /// @brief Method System.Collections.Generic.IEnumerable<SonyLeaderboardIdsSO>.GetEnumerator, addr 0x14d5ecc, size 0xa4, virtual true, abstract: false, final true
-  inline ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>* System_Collections_Generic_IEnumerable_SonyLeaderboardIdsSO__GetEnumerator();
-
-  /// @brief Method System.Collections.Generic.IEnumerator<SonyLeaderboardIdsSO>.get_Current, addr 0x14d5e7c, size 0x8, virtual true, abstract: false, final true
-  inline ::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO> System_Collections_Generic_IEnumerator_SonyLeaderboardIdsSO__get_Current();
-
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x14d5f70, size 0x4, virtual true, abstract: false, final true
-  inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
-
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x14d5e84, size 0x40, virtual true, abstract: false, final true
-  inline void System_Collections_IEnumerator_Reset();
-
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x14d5ec4, size 0x8, virtual true, abstract: false, final true
-  inline ::System::Object* System_Collections_IEnumerator_get_Current();
-
-  /// @brief Method System.IDisposable.Dispose, addr 0x14d5aac, size 0x1c, virtual true, abstract: false, final true
-  inline void System_IDisposable_Dispose();
-
-  constexpr int32_t const& __cordl_internal_get___1__state() const;
-
-  constexpr int32_t& __cordl_internal_get___1__state();
-
-  constexpr ::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO> const& __cordl_internal_get___2__current() const;
-
-  constexpr ::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>& __cordl_internal_get___2__current();
-
-  constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*& __cordl_internal_get___3__packDefinitions();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*> const& __cordl_internal_get___3__packDefinitions() const;
-
-  constexpr ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*& __cordl_internal_get___7__wrap1();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*> const& __cordl_internal_get___7__wrap1() const;
-
-  constexpr int32_t const& __cordl_internal_get___l__initialThreadId() const;
-
-  constexpr int32_t& __cordl_internal_get___l__initialThreadId();
-
-  constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*& __cordl_internal_get_packDefinitions();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*> const& __cordl_internal_get_packDefinitions() const;
-
-  constexpr void __cordl_internal_set___1__state(int32_t value);
-
-  constexpr void __cordl_internal_set___2__current(::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO> value);
-
-  constexpr void __cordl_internal_set___3__packDefinitions(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* value);
-
-  constexpr void __cordl_internal_set___7__wrap1(::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* value);
-
-  constexpr void __cordl_internal_set___l__initialThreadId(int32_t value);
-
-  constexpr void __cordl_internal_set_packDefinitions(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* value);
-
-  /// @brief Method <>m__Finally1, addr 0x14d5dcc, size 0xb0, virtual false, abstract: false, final false
-  inline void __m__Finally1();
-
-  /// @brief Method .ctor, addr 0x14d4818, size 0x34, virtual false, abstract: false, final false
-  inline void _ctor(int32_t __1__state);
-
-  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>"
-  constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>*
-  i___System__Collections__Generic__IEnumerable_1___UnityW___GlobalNamespace__SonyLeaderboardIdsSO__() noexcept;
-
-  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>"
-  constexpr ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>*
-  i___System__Collections__Generic__IEnumerator_1___UnityW___GlobalNamespace__SonyLeaderboardIdsSO__() noexcept;
-
-  /// @brief Convert to "::System::Collections::IEnumerable"
-  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
-
-  /// @brief Convert to "::System::Collections::IEnumerator"
-  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
-
-  /// @brief Convert to "::System::IDisposable"
-  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
-
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __PackDefinitionExtensions___GetPS4LeaderboardIds_d__3();
-
-public:
-  // Ctor Parameters [CppParam { name: "", ty: "__PackDefinitionExtensions___GetPS4LeaderboardIds_d__3", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __PackDefinitionExtensions___GetPS4LeaderboardIds_d__3(__PackDefinitionExtensions___GetPS4LeaderboardIds_d__3&&) = delete;
-
-  // Ctor Parameters [CppParam { name: "", ty: "__PackDefinitionExtensions___GetPS4LeaderboardIds_d__3", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __PackDefinitionExtensions___GetPS4LeaderboardIds_d__3(__PackDefinitionExtensions___GetPS4LeaderboardIds_d__3 const&) = delete;
-
-  /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
-  int32_t _____1__state;
-
-  /// @brief Field <>2__current, offset: 0x18, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO> _____2__current;
-
-  /// @brief Field <>l__initialThreadId, offset: 0x20, size: 0x4, def value: None
-  int32_t _____l__initialThreadId;
-
-  /// @brief Field packDefinitions, offset: 0x28, size: 0x8, def value: None
-  ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* ___packDefinitions;
-
-  /// @brief Field <>3__packDefinitions, offset: 0x30, size: 0x8, def value: None
-  ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* _____3__packDefinitions;
-
-  /// @brief Field <>7__wrap1, offset: 0x38, size: 0x8, def value: None
-  ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* _____7__wrap1;
-
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__PackDefinitionExtensions___GetPS4LeaderboardIds_d__3, 0x40>, "Size mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::__PackDefinitionExtensions___GetPS4LeaderboardIds_d__3, _____1__state) == 0x10, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::__PackDefinitionExtensions___GetPS4LeaderboardIds_d__3, _____2__current) == 0x18, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::__PackDefinitionExtensions___GetPS4LeaderboardIds_d__3, _____l__initialThreadId) == 0x20, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::__PackDefinitionExtensions___GetPS4LeaderboardIds_d__3, ___packDefinitions) == 0x28, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::__PackDefinitionExtensions___GetPS4LeaderboardIds_d__3, _____3__packDefinitions) == 0x30, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::__PackDefinitionExtensions___GetPS4LeaderboardIds_d__3, _____7__wrap1) == 0x38, "Offset mismatch!");
-
-} // namespace GlobalNamespace
-// Type: ::<GetPS5LeaderboardIds>d__4
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
-namespace GlobalNamespace {
-// Is value type: false
-// CS Name: ::PackDefinitionExtensions::<GetPS5LeaderboardIds>d__4*
-class CORDL_TYPE __PackDefinitionExtensions___GetPS5LeaderboardIds_d__4 : public ::System::Object {
-public:
-  // Declarations
-  __declspec(property(get = System_Collections_Generic_IEnumerator_SonyLeaderboardIdsSO__get_Current))::UnityW<
-      ::GlobalNamespace::SonyLeaderboardIdsSO> System_Collections_Generic_IEnumerator_SonyLeaderboardIdsSO__Current;
-
-  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
-
-  /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
-
-  /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO> __2__current;
-
-  /// @brief Field <>3__packDefinitions, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get___3__packDefinitions,
-                      put = __cordl_internal_set___3__packDefinitions))::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* __3__packDefinitions;
-
-  /// @brief Field <>7__wrap1, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get___7__wrap1,
-                      put = __cordl_internal_set___7__wrap1))::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* __7__wrap1;
-
-  /// @brief Field <>l__initialThreadId, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get___l__initialThreadId, put = __cordl_internal_set___l__initialThreadId)) int32_t __l__initialThreadId;
-
-  /// @brief Field packDefinitions, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_packDefinitions,
-                      put = __cordl_internal_set_packDefinitions))::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* packDefinitions;
-
-  /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>"
-  constexpr operator ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>*() noexcept;
-
-  /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>"
-  constexpr operator ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>*() noexcept;
-
-  /// @brief Convert operator to "::System::Collections::IEnumerable"
-  constexpr operator ::System::Collections::IEnumerable*() noexcept;
-
-  /// @brief Convert operator to "::System::Collections::IEnumerator"
-  constexpr operator ::System::Collections::IEnumerator*() noexcept;
-
-  /// @brief Convert operator to "::System::IDisposable"
-  constexpr operator ::System::IDisposable*() noexcept;
-
-  /// @brief Method MoveNext, addr 0x14d5f90, size 0x304, virtual true, abstract: false, final true
-  inline bool MoveNext();
-
-  static inline ::GlobalNamespace::__PackDefinitionExtensions___GetPS5LeaderboardIds_d__4* New_ctor(int32_t __1__state);
-
-  /// @brief Method System.Collections.Generic.IEnumerable<SonyLeaderboardIdsSO>.GetEnumerator, addr 0x14d6394, size 0xa4, virtual true, abstract: false, final true
-  inline ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>* System_Collections_Generic_IEnumerable_SonyLeaderboardIdsSO__GetEnumerator();
-
-  /// @brief Method System.Collections.Generic.IEnumerator<SonyLeaderboardIdsSO>.get_Current, addr 0x14d6344, size 0x8, virtual true, abstract: false, final true
-  inline ::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO> System_Collections_Generic_IEnumerator_SonyLeaderboardIdsSO__get_Current();
-
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x14d6438, size 0x4, virtual true, abstract: false, final true
-  inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
-
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x14d634c, size 0x40, virtual true, abstract: false, final true
-  inline void System_Collections_IEnumerator_Reset();
-
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x14d638c, size 0x8, virtual true, abstract: false, final true
-  inline ::System::Object* System_Collections_IEnumerator_get_Current();
-
-  /// @brief Method System.IDisposable.Dispose, addr 0x14d5f74, size 0x1c, virtual true, abstract: false, final true
-  inline void System_IDisposable_Dispose();
-
-  constexpr int32_t const& __cordl_internal_get___1__state() const;
-
-  constexpr int32_t& __cordl_internal_get___1__state();
-
-  constexpr ::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO> const& __cordl_internal_get___2__current() const;
-
-  constexpr ::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>& __cordl_internal_get___2__current();
-
-  constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*& __cordl_internal_get___3__packDefinitions();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*> const& __cordl_internal_get___3__packDefinitions() const;
-
-  constexpr ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*& __cordl_internal_get___7__wrap1();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*> const& __cordl_internal_get___7__wrap1() const;
-
-  constexpr int32_t const& __cordl_internal_get___l__initialThreadId() const;
-
-  constexpr int32_t& __cordl_internal_get___l__initialThreadId();
-
-  constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*& __cordl_internal_get_packDefinitions();
-
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*> const& __cordl_internal_get_packDefinitions() const;
-
-  constexpr void __cordl_internal_set___1__state(int32_t value);
-
-  constexpr void __cordl_internal_set___2__current(::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO> value);
-
-  constexpr void __cordl_internal_set___3__packDefinitions(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* value);
-
-  constexpr void __cordl_internal_set___7__wrap1(::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* value);
-
-  constexpr void __cordl_internal_set___l__initialThreadId(int32_t value);
-
-  constexpr void __cordl_internal_set_packDefinitions(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* value);
-
-  /// @brief Method <>m__Finally1, addr 0x14d6294, size 0xb0, virtual false, abstract: false, final false
-  inline void __m__Finally1();
-
-  /// @brief Method .ctor, addr 0x14d48c4, size 0x34, virtual false, abstract: false, final false
-  inline void _ctor(int32_t __1__state);
-
-  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>"
-  constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>*
-  i___System__Collections__Generic__IEnumerable_1___UnityW___GlobalNamespace__SonyLeaderboardIdsSO__() noexcept;
-
-  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>"
-  constexpr ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>*
-  i___System__Collections__Generic__IEnumerator_1___UnityW___GlobalNamespace__SonyLeaderboardIdsSO__() noexcept;
-
-  /// @brief Convert to "::System::Collections::IEnumerable"
-  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
-
-  /// @brief Convert to "::System::Collections::IEnumerator"
-  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
-
-  /// @brief Convert to "::System::IDisposable"
-  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
-
-protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __PackDefinitionExtensions___GetPS5LeaderboardIds_d__4();
-
-public:
-  // Ctor Parameters [CppParam { name: "", ty: "__PackDefinitionExtensions___GetPS5LeaderboardIds_d__4", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __PackDefinitionExtensions___GetPS5LeaderboardIds_d__4(__PackDefinitionExtensions___GetPS5LeaderboardIds_d__4&&) = delete;
-
-  // Ctor Parameters [CppParam { name: "", ty: "__PackDefinitionExtensions___GetPS5LeaderboardIds_d__4", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __PackDefinitionExtensions___GetPS5LeaderboardIds_d__4(__PackDefinitionExtensions___GetPS5LeaderboardIds_d__4 const&) = delete;
-
-  /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
-  int32_t _____1__state;
-
-  /// @brief Field <>2__current, offset: 0x18, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO> _____2__current;
-
-  /// @brief Field <>l__initialThreadId, offset: 0x20, size: 0x4, def value: None
-  int32_t _____l__initialThreadId;
-
-  /// @brief Field packDefinitions, offset: 0x28, size: 0x8, def value: None
-  ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* ___packDefinitions;
-
-  /// @brief Field <>3__packDefinitions, offset: 0x30, size: 0x8, def value: None
-  ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* _____3__packDefinitions;
-
-  /// @brief Field <>7__wrap1, offset: 0x38, size: 0x8, def value: None
-  ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* _____7__wrap1;
-
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
-};
-// Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__PackDefinitionExtensions___GetPS5LeaderboardIds_d__4, 0x40>, "Size mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::__PackDefinitionExtensions___GetPS5LeaderboardIds_d__4, _____1__state) == 0x10, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::__PackDefinitionExtensions___GetPS5LeaderboardIds_d__4, _____2__current) == 0x18, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::__PackDefinitionExtensions___GetPS5LeaderboardIds_d__4, _____l__initialThreadId) == 0x20, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::__PackDefinitionExtensions___GetPS5LeaderboardIds_d__4, ___packDefinitions) == 0x28, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::__PackDefinitionExtensions___GetPS5LeaderboardIds_d__4, _____3__packDefinitions) == 0x30, "Offset mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::__PackDefinitionExtensions___GetPS5LeaderboardIds_d__4, _____7__wrap1) == 0x38, "Offset mismatch!");
-
-} // namespace GlobalNamespace
 // Type: ::<GetOculusLevelProductPacks>d__5
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::PackDefinitionExtensions::<GetOculusLevelProductPacks>d__5*
 class CORDL_TYPE __PackDefinitionExtensions___GetOculusLevelProductPacks_d__5 : public ::System::Object {
 public:
-  // Declarations
-  __declspec(property(get = System_Collections_Generic_IEnumerator_OculusLevelProductPacksSO__get_Current))::UnityW<
-      ::GlobalNamespace::OculusLevelProductPacksSO> System_Collections_Generic_IEnumerator_OculusLevelProductPacksSO__Current;
+// Declarations
+ __declspec(property(get=System_Collections_Generic_IEnumerator_OculusLevelProductPacksSO__get_Current)) ::UnityW<::GlobalNamespace::OculusLevelProductPacksSO>  System_Collections_Generic_IEnumerator_OculusLevelProductPacksSO__Current;
 
-  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+ __declspec(property(get=System_Collections_IEnumerator_get_Current)) ::System::Object*  System_Collections_IEnumerator_Current;
 
-  /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
+/// @brief Field <>1__state, offset 0x10, size 0x4 
+ __declspec(property(get=__cordl_internal_get___1__state, put=__cordl_internal_set___1__state)) int32_t  __1__state;
 
-  /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::UnityW<::GlobalNamespace::OculusLevelProductPacksSO> __2__current;
+/// @brief Field <>2__current, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get___2__current, put=__cordl_internal_set___2__current)) ::UnityW<::GlobalNamespace::OculusLevelProductPacksSO>  __2__current;
 
-  /// @brief Field <>3__packDefinitions, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get___3__packDefinitions,
-                      put = __cordl_internal_set___3__packDefinitions))::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* __3__packDefinitions;
+/// @brief Field <>3__packDefinitions, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get___3__packDefinitions, put=__cordl_internal_set___3__packDefinitions)) ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*  __3__packDefinitions;
 
-  /// @brief Field <>7__wrap1, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get___7__wrap1,
-                      put = __cordl_internal_set___7__wrap1))::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* __7__wrap1;
+/// @brief Field <>7__wrap1, offset 0x38, size 0x8 
+ __declspec(property(get=__cordl_internal_get___7__wrap1, put=__cordl_internal_set___7__wrap1)) ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*  __7__wrap1;
 
-  /// @brief Field <>l__initialThreadId, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get___l__initialThreadId, put = __cordl_internal_set___l__initialThreadId)) int32_t __l__initialThreadId;
+/// @brief Field <>l__initialThreadId, offset 0x20, size 0x4 
+ __declspec(property(get=__cordl_internal_get___l__initialThreadId, put=__cordl_internal_set___l__initialThreadId)) int32_t  __l__initialThreadId;
 
-  /// @brief Field packDefinitions, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_packDefinitions,
-                      put = __cordl_internal_set_packDefinitions))::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* packDefinitions;
+/// @brief Field packDefinitions, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get_packDefinitions, put=__cordl_internal_set_packDefinitions)) ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*  packDefinitions;
 
-  /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::OculusLevelProductPacksSO>>"
-  constexpr operator ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::OculusLevelProductPacksSO>>*() noexcept;
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::OculusLevelProductPacksSO>>"
+constexpr operator  ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::OculusLevelProductPacksSO>>*() noexcept;
 
-  /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::OculusLevelProductPacksSO>>"
-  constexpr operator ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::OculusLevelProductPacksSO>>*() noexcept;
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::OculusLevelProductPacksSO>>"
+constexpr operator  ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::OculusLevelProductPacksSO>>*() noexcept;
 
-  /// @brief Convert operator to "::System::Collections::IEnumerable"
-  constexpr operator ::System::Collections::IEnumerable*() noexcept;
+/// @brief Convert operator to "::System::Collections::IEnumerable"
+constexpr operator  ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Convert operator to "::System::Collections::IEnumerator"
-  constexpr operator ::System::Collections::IEnumerator*() noexcept;
+/// @brief Convert operator to "::System::Collections::IEnumerator"
+constexpr operator  ::System::Collections::IEnumerator*() noexcept;
 
-  /// @brief Convert operator to "::System::IDisposable"
-  constexpr operator ::System::IDisposable*() noexcept;
+/// @brief Convert operator to "::System::IDisposable"
+constexpr operator  ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x14d6458, size 0x304, virtual true, abstract: false, final true
-  inline bool MoveNext();
+/// @brief Method MoveNext, addr 0x2681d30, size 0x304, virtual true, abstract: false, final true
+inline bool MoveNext() ;
 
-  static inline ::GlobalNamespace::__PackDefinitionExtensions___GetOculusLevelProductPacks_d__5* New_ctor(int32_t __1__state);
+static inline ::GlobalNamespace::__PackDefinitionExtensions___GetOculusLevelProductPacks_d__5* New_ctor(int32_t  __1__state) ;
 
-  /// @brief Method System.Collections.Generic.IEnumerable<OculusLevelProductPacksSO>.GetEnumerator, addr 0x14d685c, size 0xa4, virtual true, abstract: false, final true
-  inline ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::OculusLevelProductPacksSO>>* System_Collections_Generic_IEnumerable_OculusLevelProductPacksSO__GetEnumerator();
+/// @brief Method System.Collections.Generic.IEnumerable<OculusLevelProductPacksSO>.GetEnumerator, addr 0x268212c, size 0x9c, virtual true, abstract: false, final true
+inline ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::OculusLevelProductPacksSO>>* System_Collections_Generic_IEnumerable_OculusLevelProductPacksSO__GetEnumerator() ;
 
-  /// @brief Method System.Collections.Generic.IEnumerator<OculusLevelProductPacksSO>.get_Current, addr 0x14d680c, size 0x8, virtual true, abstract: false, final true
-  inline ::UnityW<::GlobalNamespace::OculusLevelProductPacksSO> System_Collections_Generic_IEnumerator_OculusLevelProductPacksSO__get_Current();
+/// @brief Method System.Collections.Generic.IEnumerator<OculusLevelProductPacksSO>.get_Current, addr 0x26820e4, size 0x8, virtual true, abstract: false, final true
+inline ::UnityW<::GlobalNamespace::OculusLevelProductPacksSO> System_Collections_Generic_IEnumerator_OculusLevelProductPacksSO__get_Current() ;
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x14d6900, size 0x4, virtual true, abstract: false, final true
-  inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
+/// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x26821c8, size 0x4, virtual true, abstract: false, final true
+inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator() ;
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x14d6814, size 0x40, virtual true, abstract: false, final true
-  inline void System_Collections_IEnumerator_Reset();
+/// @brief Method System.Collections.IEnumerator.Reset, addr 0x26820ec, size 0x38, virtual true, abstract: false, final true
+inline void System_Collections_IEnumerator_Reset() ;
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x14d6854, size 0x8, virtual true, abstract: false, final true
-  inline ::System::Object* System_Collections_IEnumerator_get_Current();
+/// @brief Method System.Collections.IEnumerator.get_Current, addr 0x2682124, size 0x8, virtual true, abstract: false, final true
+inline ::System::Object* System_Collections_IEnumerator_get_Current() ;
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x14d643c, size 0x1c, virtual true, abstract: false, final true
-  inline void System_IDisposable_Dispose();
+/// @brief Method System.IDisposable.Dispose, addr 0x2681d14, size 0x1c, virtual true, abstract: false, final true
+inline void System_IDisposable_Dispose() ;
 
-  constexpr int32_t const& __cordl_internal_get___1__state() const;
+constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr int32_t& __cordl_internal_get___1__state();
+constexpr int32_t& __cordl_internal_get___1__state() ;
 
-  constexpr ::UnityW<::GlobalNamespace::OculusLevelProductPacksSO> const& __cordl_internal_get___2__current() const;
+constexpr ::UnityW<::GlobalNamespace::OculusLevelProductPacksSO> const& __cordl_internal_get___2__current() const;
 
-  constexpr ::UnityW<::GlobalNamespace::OculusLevelProductPacksSO>& __cordl_internal_get___2__current();
+constexpr ::UnityW<::GlobalNamespace::OculusLevelProductPacksSO>& __cordl_internal_get___2__current() ;
 
-  constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*& __cordl_internal_get___3__packDefinitions();
+constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*& __cordl_internal_get___3__packDefinitions() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*> const& __cordl_internal_get___3__packDefinitions() const;
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*> const& __cordl_internal_get___3__packDefinitions() const;
 
-  constexpr ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*& __cordl_internal_get___7__wrap1();
+constexpr ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*& __cordl_internal_get___7__wrap1() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*> const& __cordl_internal_get___7__wrap1() const;
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*> const& __cordl_internal_get___7__wrap1() const;
 
-  constexpr int32_t const& __cordl_internal_get___l__initialThreadId() const;
+constexpr int32_t const& __cordl_internal_get___l__initialThreadId() const;
 
-  constexpr int32_t& __cordl_internal_get___l__initialThreadId();
+constexpr int32_t& __cordl_internal_get___l__initialThreadId() ;
 
-  constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*& __cordl_internal_get_packDefinitions();
+constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*& __cordl_internal_get_packDefinitions() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*> const& __cordl_internal_get_packDefinitions() const;
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*> const& __cordl_internal_get_packDefinitions() const;
 
-  constexpr void __cordl_internal_set___1__state(int32_t value);
+constexpr void __cordl_internal_set___1__state(int32_t  value) ;
 
-  constexpr void __cordl_internal_set___2__current(::UnityW<::GlobalNamespace::OculusLevelProductPacksSO> value);
+constexpr void __cordl_internal_set___2__current(::UnityW<::GlobalNamespace::OculusLevelProductPacksSO>  value) ;
 
-  constexpr void __cordl_internal_set___3__packDefinitions(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* value);
+constexpr void __cordl_internal_set___3__packDefinitions(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*  value) ;
 
-  constexpr void __cordl_internal_set___7__wrap1(::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* value);
+constexpr void __cordl_internal_set___7__wrap1(::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*  value) ;
 
-  constexpr void __cordl_internal_set___l__initialThreadId(int32_t value);
+constexpr void __cordl_internal_set___l__initialThreadId(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_packDefinitions(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* value);
+constexpr void __cordl_internal_set_packDefinitions(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*  value) ;
 
-  /// @brief Method <>m__Finally1, addr 0x14d675c, size 0xb0, virtual false, abstract: false, final false
-  inline void __m__Finally1();
+/// @brief Method <>m__Finally1, addr 0x2682034, size 0xb0, virtual false, abstract: false, final false
+inline void __m__Finally1() ;
 
-  /// @brief Method .ctor, addr 0x14d4970, size 0x34, virtual false, abstract: false, final false
-  inline void _ctor(int32_t __1__state);
+/// @brief Method .ctor, addr 0x2681a50, size 0x34, virtual false, abstract: false, final false
+inline void _ctor(int32_t  __1__state) ;
 
-  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::OculusLevelProductPacksSO>>"
-  constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::OculusLevelProductPacksSO>>*
-  i___System__Collections__Generic__IEnumerable_1___UnityW___GlobalNamespace__OculusLevelProductPacksSO__() noexcept;
+/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::OculusLevelProductPacksSO>>"
+constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::OculusLevelProductPacksSO>>* i___System__Collections__Generic__IEnumerable_1___UnityW___GlobalNamespace__OculusLevelProductPacksSO__() noexcept;
 
-  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::OculusLevelProductPacksSO>>"
-  constexpr ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::OculusLevelProductPacksSO>>*
-  i___System__Collections__Generic__IEnumerator_1___UnityW___GlobalNamespace__OculusLevelProductPacksSO__() noexcept;
+/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::OculusLevelProductPacksSO>>"
+constexpr ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::OculusLevelProductPacksSO>>* i___System__Collections__Generic__IEnumerator_1___UnityW___GlobalNamespace__OculusLevelProductPacksSO__() noexcept;
 
-  /// @brief Convert to "::System::Collections::IEnumerable"
-  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
+/// @brief Convert to "::System::Collections::IEnumerable"
+constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
-  /// @brief Convert to "::System::Collections::IEnumerator"
-  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+/// @brief Convert to "::System::Collections::IEnumerator"
+constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
-  /// @brief Convert to "::System::IDisposable"
-  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+/// @brief Convert to "::System::IDisposable"
+constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __PackDefinitionExtensions___GetOculusLevelProductPacks_d__5();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __PackDefinitionExtensions___GetOculusLevelProductPacks_d__5() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__PackDefinitionExtensions___GetOculusLevelProductPacks_d__5", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __PackDefinitionExtensions___GetOculusLevelProductPacks_d__5(__PackDefinitionExtensions___GetOculusLevelProductPacks_d__5&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__PackDefinitionExtensions___GetOculusLevelProductPacks_d__5", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __PackDefinitionExtensions___GetOculusLevelProductPacks_d__5(__PackDefinitionExtensions___GetOculusLevelProductPacks_d__5 const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__PackDefinitionExtensions___GetOculusLevelProductPacks_d__5", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__PackDefinitionExtensions___GetOculusLevelProductPacks_d__5(__PackDefinitionExtensions___GetOculusLevelProductPacks_d__5 && ) = delete;
 
-  /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
-  int32_t _____1__state;
+// Ctor Parameters [CppParam { name: "", ty: "__PackDefinitionExtensions___GetOculusLevelProductPacks_d__5", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__PackDefinitionExtensions___GetOculusLevelProductPacks_d__5(__PackDefinitionExtensions___GetOculusLevelProductPacks_d__5 const& ) = delete;
 
-  /// @brief Field <>2__current, offset: 0x18, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::OculusLevelProductPacksSO> _____2__current;
+/// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
+ int32_t  _____1__state;
 
-  /// @brief Field <>l__initialThreadId, offset: 0x20, size: 0x4, def value: None
-  int32_t _____l__initialThreadId;
+/// @brief Field <>2__current, offset: 0x18, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::OculusLevelProductPacksSO>  _____2__current;
 
-  /// @brief Field packDefinitions, offset: 0x28, size: 0x8, def value: None
-  ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* ___packDefinitions;
+/// @brief Field <>l__initialThreadId, offset: 0x20, size: 0x4, def value: None
+ int32_t  _____l__initialThreadId;
 
-  /// @brief Field <>3__packDefinitions, offset: 0x30, size: 0x8, def value: None
-  ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* _____3__packDefinitions;
+/// @brief Field packDefinitions, offset: 0x28, size: 0x8, def value: None
+ ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*  ___packDefinitions;
 
-  /// @brief Field <>7__wrap1, offset: 0x38, size: 0x8, def value: None
-  ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* _____7__wrap1;
+/// @brief Field <>3__packDefinitions, offset: 0x30, size: 0x8, def value: None
+ ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*  _____3__packDefinitions;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field <>7__wrap1, offset: 0x38, size: 0x8, def value: None
+ ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*  _____7__wrap1;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__PackDefinitionExtensions___GetOculusLevelProductPacks_d__5, 0x40>, "Size mismatch!");
@@ -1209,352 +300,340 @@ static_assert(offsetof(::GlobalNamespace::__PackDefinitionExtensions___GetOculus
 
 static_assert(offsetof(::GlobalNamespace::__PackDefinitionExtensions___GetOculusLevelProductPacks_d__5, _____7__wrap1) == 0x38, "Offset mismatch!");
 
-} // namespace GlobalNamespace
-// Type: ::<GetSteamLevelProductPacks>d__6
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+} // namespace end def GlobalNamespace
+// Type: ::<GetPS4LeaderboardIds>d__3
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
-// CS Name: ::PackDefinitionExtensions::<GetSteamLevelProductPacks>d__6*
-class CORDL_TYPE __PackDefinitionExtensions___GetSteamLevelProductPacks_d__6 : public ::System::Object {
+// CS Name: ::PackDefinitionExtensions::<GetPS4LeaderboardIds>d__3*
+class CORDL_TYPE __PackDefinitionExtensions___GetPS4LeaderboardIds_d__3 : public ::System::Object {
 public:
-  // Declarations
-  __declspec(property(get = System_Collections_Generic_IEnumerator_SteamLevelProductPacksSO__get_Current))::UnityW<
-      ::GlobalNamespace::SteamLevelProductPacksSO> System_Collections_Generic_IEnumerator_SteamLevelProductPacksSO__Current;
+// Declarations
+ __declspec(property(get=System_Collections_Generic_IEnumerator_SonyLeaderboardIdsSO__get_Current)) ::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>  System_Collections_Generic_IEnumerator_SonyLeaderboardIdsSO__Current;
 
-  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+ __declspec(property(get=System_Collections_IEnumerator_get_Current)) ::System::Object*  System_Collections_IEnumerator_Current;
 
-  /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
+/// @brief Field <>1__state, offset 0x10, size 0x4 
+ __declspec(property(get=__cordl_internal_get___1__state, put=__cordl_internal_set___1__state)) int32_t  __1__state;
 
-  /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::UnityW<::GlobalNamespace::SteamLevelProductPacksSO> __2__current;
+/// @brief Field <>2__current, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get___2__current, put=__cordl_internal_set___2__current)) ::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>  __2__current;
 
-  /// @brief Field <>3__packDefinitions, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get___3__packDefinitions,
-                      put = __cordl_internal_set___3__packDefinitions))::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* __3__packDefinitions;
+/// @brief Field <>3__packDefinitions, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get___3__packDefinitions, put=__cordl_internal_set___3__packDefinitions)) ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*  __3__packDefinitions;
 
-  /// @brief Field <>7__wrap1, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get___7__wrap1,
-                      put = __cordl_internal_set___7__wrap1))::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* __7__wrap1;
+/// @brief Field <>7__wrap1, offset 0x38, size 0x8 
+ __declspec(property(get=__cordl_internal_get___7__wrap1, put=__cordl_internal_set___7__wrap1)) ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*  __7__wrap1;
 
-  /// @brief Field <>l__initialThreadId, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get___l__initialThreadId, put = __cordl_internal_set___l__initialThreadId)) int32_t __l__initialThreadId;
+/// @brief Field <>l__initialThreadId, offset 0x20, size 0x4 
+ __declspec(property(get=__cordl_internal_get___l__initialThreadId, put=__cordl_internal_set___l__initialThreadId)) int32_t  __l__initialThreadId;
 
-  /// @brief Field packDefinitions, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_packDefinitions,
-                      put = __cordl_internal_set_packDefinitions))::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* packDefinitions;
+/// @brief Field packDefinitions, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get_packDefinitions, put=__cordl_internal_set_packDefinitions)) ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*  packDefinitions;
 
-  /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SteamLevelProductPacksSO>>"
-  constexpr operator ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SteamLevelProductPacksSO>>*() noexcept;
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>"
+constexpr operator  ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>*() noexcept;
 
-  /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::SteamLevelProductPacksSO>>"
-  constexpr operator ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::SteamLevelProductPacksSO>>*() noexcept;
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>"
+constexpr operator  ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>*() noexcept;
 
-  /// @brief Convert operator to "::System::Collections::IEnumerable"
-  constexpr operator ::System::Collections::IEnumerable*() noexcept;
+/// @brief Convert operator to "::System::Collections::IEnumerable"
+constexpr operator  ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Convert operator to "::System::Collections::IEnumerator"
-  constexpr operator ::System::Collections::IEnumerator*() noexcept;
+/// @brief Convert operator to "::System::Collections::IEnumerator"
+constexpr operator  ::System::Collections::IEnumerator*() noexcept;
 
-  /// @brief Convert operator to "::System::IDisposable"
-  constexpr operator ::System::IDisposable*() noexcept;
+/// @brief Convert operator to "::System::IDisposable"
+constexpr operator  ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x14d6920, size 0x304, virtual true, abstract: false, final true
-  inline bool MoveNext();
+/// @brief Method MoveNext, addr 0x26821e8, size 0x304, virtual true, abstract: false, final true
+inline bool MoveNext() ;
 
-  static inline ::GlobalNamespace::__PackDefinitionExtensions___GetSteamLevelProductPacks_d__6* New_ctor(int32_t __1__state);
+static inline ::GlobalNamespace::__PackDefinitionExtensions___GetPS4LeaderboardIds_d__3* New_ctor(int32_t  __1__state) ;
 
-  /// @brief Method System.Collections.Generic.IEnumerable<SteamLevelProductPacksSO>.GetEnumerator, addr 0x14d6d24, size 0xa4, virtual true, abstract: false, final true
-  inline ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::SteamLevelProductPacksSO>>* System_Collections_Generic_IEnumerable_SteamLevelProductPacksSO__GetEnumerator();
+/// @brief Method System.Collections.Generic.IEnumerable<SonyLeaderboardIdsSO>.GetEnumerator, addr 0x26825e4, size 0x9c, virtual true, abstract: false, final true
+inline ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>* System_Collections_Generic_IEnumerable_SonyLeaderboardIdsSO__GetEnumerator() ;
 
-  /// @brief Method System.Collections.Generic.IEnumerator<SteamLevelProductPacksSO>.get_Current, addr 0x14d6cd4, size 0x8, virtual true, abstract: false, final true
-  inline ::UnityW<::GlobalNamespace::SteamLevelProductPacksSO> System_Collections_Generic_IEnumerator_SteamLevelProductPacksSO__get_Current();
+/// @brief Method System.Collections.Generic.IEnumerator<SonyLeaderboardIdsSO>.get_Current, addr 0x268259c, size 0x8, virtual true, abstract: false, final true
+inline ::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO> System_Collections_Generic_IEnumerator_SonyLeaderboardIdsSO__get_Current() ;
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x14d6dc8, size 0x4, virtual true, abstract: false, final true
-  inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
+/// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x2682680, size 0x4, virtual true, abstract: false, final true
+inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator() ;
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x14d6cdc, size 0x40, virtual true, abstract: false, final true
-  inline void System_Collections_IEnumerator_Reset();
+/// @brief Method System.Collections.IEnumerator.Reset, addr 0x26825a4, size 0x38, virtual true, abstract: false, final true
+inline void System_Collections_IEnumerator_Reset() ;
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x14d6d1c, size 0x8, virtual true, abstract: false, final true
-  inline ::System::Object* System_Collections_IEnumerator_get_Current();
+/// @brief Method System.Collections.IEnumerator.get_Current, addr 0x26825dc, size 0x8, virtual true, abstract: false, final true
+inline ::System::Object* System_Collections_IEnumerator_get_Current() ;
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x14d6904, size 0x1c, virtual true, abstract: false, final true
-  inline void System_IDisposable_Dispose();
+/// @brief Method System.IDisposable.Dispose, addr 0x26821cc, size 0x1c, virtual true, abstract: false, final true
+inline void System_IDisposable_Dispose() ;
 
-  constexpr int32_t const& __cordl_internal_get___1__state() const;
+constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr int32_t& __cordl_internal_get___1__state();
+constexpr int32_t& __cordl_internal_get___1__state() ;
 
-  constexpr ::UnityW<::GlobalNamespace::SteamLevelProductPacksSO> const& __cordl_internal_get___2__current() const;
+constexpr ::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO> const& __cordl_internal_get___2__current() const;
 
-  constexpr ::UnityW<::GlobalNamespace::SteamLevelProductPacksSO>& __cordl_internal_get___2__current();
+constexpr ::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>& __cordl_internal_get___2__current() ;
 
-  constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*& __cordl_internal_get___3__packDefinitions();
+constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*& __cordl_internal_get___3__packDefinitions() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*> const& __cordl_internal_get___3__packDefinitions() const;
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*> const& __cordl_internal_get___3__packDefinitions() const;
 
-  constexpr ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*& __cordl_internal_get___7__wrap1();
+constexpr ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*& __cordl_internal_get___7__wrap1() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*> const& __cordl_internal_get___7__wrap1() const;
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*> const& __cordl_internal_get___7__wrap1() const;
 
-  constexpr int32_t const& __cordl_internal_get___l__initialThreadId() const;
+constexpr int32_t const& __cordl_internal_get___l__initialThreadId() const;
 
-  constexpr int32_t& __cordl_internal_get___l__initialThreadId();
+constexpr int32_t& __cordl_internal_get___l__initialThreadId() ;
 
-  constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*& __cordl_internal_get_packDefinitions();
+constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*& __cordl_internal_get_packDefinitions() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*> const& __cordl_internal_get_packDefinitions() const;
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*> const& __cordl_internal_get_packDefinitions() const;
 
-  constexpr void __cordl_internal_set___1__state(int32_t value);
+constexpr void __cordl_internal_set___1__state(int32_t  value) ;
 
-  constexpr void __cordl_internal_set___2__current(::UnityW<::GlobalNamespace::SteamLevelProductPacksSO> value);
+constexpr void __cordl_internal_set___2__current(::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>  value) ;
 
-  constexpr void __cordl_internal_set___3__packDefinitions(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* value);
+constexpr void __cordl_internal_set___3__packDefinitions(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*  value) ;
 
-  constexpr void __cordl_internal_set___7__wrap1(::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* value);
+constexpr void __cordl_internal_set___7__wrap1(::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*  value) ;
 
-  constexpr void __cordl_internal_set___l__initialThreadId(int32_t value);
+constexpr void __cordl_internal_set___l__initialThreadId(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_packDefinitions(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* value);
+constexpr void __cordl_internal_set_packDefinitions(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*  value) ;
 
-  /// @brief Method <>m__Finally1, addr 0x14d6c24, size 0xb0, virtual false, abstract: false, final false
-  inline void __m__Finally1();
+/// @brief Method <>m__Finally1, addr 0x26824ec, size 0xb0, virtual false, abstract: false, final false
+inline void __m__Finally1() ;
 
-  /// @brief Method .ctor, addr 0x14d4a1c, size 0x34, virtual false, abstract: false, final false
-  inline void _ctor(int32_t __1__state);
+/// @brief Method .ctor, addr 0x2681908, size 0x34, virtual false, abstract: false, final false
+inline void _ctor(int32_t  __1__state) ;
 
-  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SteamLevelProductPacksSO>>"
-  constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SteamLevelProductPacksSO>>*
-  i___System__Collections__Generic__IEnumerable_1___UnityW___GlobalNamespace__SteamLevelProductPacksSO__() noexcept;
+/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>"
+constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>* i___System__Collections__Generic__IEnumerable_1___UnityW___GlobalNamespace__SonyLeaderboardIdsSO__() noexcept;
 
-  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::SteamLevelProductPacksSO>>"
-  constexpr ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::SteamLevelProductPacksSO>>*
-  i___System__Collections__Generic__IEnumerator_1___UnityW___GlobalNamespace__SteamLevelProductPacksSO__() noexcept;
+/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>"
+constexpr ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>* i___System__Collections__Generic__IEnumerator_1___UnityW___GlobalNamespace__SonyLeaderboardIdsSO__() noexcept;
 
-  /// @brief Convert to "::System::Collections::IEnumerable"
-  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
+/// @brief Convert to "::System::Collections::IEnumerable"
+constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
-  /// @brief Convert to "::System::Collections::IEnumerator"
-  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+/// @brief Convert to "::System::Collections::IEnumerator"
+constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
-  /// @brief Convert to "::System::IDisposable"
-  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+/// @brief Convert to "::System::IDisposable"
+constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __PackDefinitionExtensions___GetSteamLevelProductPacks_d__6();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __PackDefinitionExtensions___GetPS4LeaderboardIds_d__3() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__PackDefinitionExtensions___GetSteamLevelProductPacks_d__6", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __PackDefinitionExtensions___GetSteamLevelProductPacks_d__6(__PackDefinitionExtensions___GetSteamLevelProductPacks_d__6&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__PackDefinitionExtensions___GetSteamLevelProductPacks_d__6", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __PackDefinitionExtensions___GetSteamLevelProductPacks_d__6(__PackDefinitionExtensions___GetSteamLevelProductPacks_d__6 const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__PackDefinitionExtensions___GetPS4LeaderboardIds_d__3", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__PackDefinitionExtensions___GetPS4LeaderboardIds_d__3(__PackDefinitionExtensions___GetPS4LeaderboardIds_d__3 && ) = delete;
 
-  /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
-  int32_t _____1__state;
+// Ctor Parameters [CppParam { name: "", ty: "__PackDefinitionExtensions___GetPS4LeaderboardIds_d__3", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__PackDefinitionExtensions___GetPS4LeaderboardIds_d__3(__PackDefinitionExtensions___GetPS4LeaderboardIds_d__3 const& ) = delete;
 
-  /// @brief Field <>2__current, offset: 0x18, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::SteamLevelProductPacksSO> _____2__current;
+/// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
+ int32_t  _____1__state;
 
-  /// @brief Field <>l__initialThreadId, offset: 0x20, size: 0x4, def value: None
-  int32_t _____l__initialThreadId;
+/// @brief Field <>2__current, offset: 0x18, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>  _____2__current;
 
-  /// @brief Field packDefinitions, offset: 0x28, size: 0x8, def value: None
-  ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* ___packDefinitions;
+/// @brief Field <>l__initialThreadId, offset: 0x20, size: 0x4, def value: None
+ int32_t  _____l__initialThreadId;
 
-  /// @brief Field <>3__packDefinitions, offset: 0x30, size: 0x8, def value: None
-  ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* _____3__packDefinitions;
+/// @brief Field packDefinitions, offset: 0x28, size: 0x8, def value: None
+ ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*  ___packDefinitions;
 
-  /// @brief Field <>7__wrap1, offset: 0x38, size: 0x8, def value: None
-  ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* _____7__wrap1;
+/// @brief Field <>3__packDefinitions, offset: 0x30, size: 0x8, def value: None
+ ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*  _____3__packDefinitions;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field <>7__wrap1, offset: 0x38, size: 0x8, def value: None
+ ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*  _____7__wrap1;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__PackDefinitionExtensions___GetSteamLevelProductPacks_d__6, 0x40>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__PackDefinitionExtensions___GetPS4LeaderboardIds_d__3, 0x40>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PackDefinitionExtensions___GetSteamLevelProductPacks_d__6, _____1__state) == 0x10, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__PackDefinitionExtensions___GetPS4LeaderboardIds_d__3, _____1__state) == 0x10, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PackDefinitionExtensions___GetSteamLevelProductPacks_d__6, _____2__current) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__PackDefinitionExtensions___GetPS4LeaderboardIds_d__3, _____2__current) == 0x18, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PackDefinitionExtensions___GetSteamLevelProductPacks_d__6, _____l__initialThreadId) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__PackDefinitionExtensions___GetPS4LeaderboardIds_d__3, _____l__initialThreadId) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PackDefinitionExtensions___GetSteamLevelProductPacks_d__6, ___packDefinitions) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__PackDefinitionExtensions___GetPS4LeaderboardIds_d__3, ___packDefinitions) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PackDefinitionExtensions___GetSteamLevelProductPacks_d__6, _____3__packDefinitions) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__PackDefinitionExtensions___GetPS4LeaderboardIds_d__3, _____3__packDefinitions) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::__PackDefinitionExtensions___GetSteamLevelProductPacks_d__6, _____7__wrap1) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::__PackDefinitionExtensions___GetPS4LeaderboardIds_d__3, _____7__wrap1) == 0x38, "Offset mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 // Type: ::<GetPS4LevelProductPacks>d__7
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::PackDefinitionExtensions::<GetPS4LevelProductPacks>d__7*
 class CORDL_TYPE __PackDefinitionExtensions___GetPS4LevelProductPacks_d__7 : public ::System::Object {
 public:
-  // Declarations
-  __declspec(property(get = System_Collections_Generic_IEnumerator_PS4LevelProductPacksSO__get_Current))::UnityW<
-      ::GlobalNamespace::PS4LevelProductPacksSO> System_Collections_Generic_IEnumerator_PS4LevelProductPacksSO__Current;
+// Declarations
+ __declspec(property(get=System_Collections_Generic_IEnumerator_PS4LevelProductPacksSO__get_Current)) ::UnityW<::GlobalNamespace::PS4LevelProductPacksSO>  System_Collections_Generic_IEnumerator_PS4LevelProductPacksSO__Current;
 
-  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+ __declspec(property(get=System_Collections_IEnumerator_get_Current)) ::System::Object*  System_Collections_IEnumerator_Current;
 
-  /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
+/// @brief Field <>1__state, offset 0x10, size 0x4 
+ __declspec(property(get=__cordl_internal_get___1__state, put=__cordl_internal_set___1__state)) int32_t  __1__state;
 
-  /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::UnityW<::GlobalNamespace::PS4LevelProductPacksSO> __2__current;
+/// @brief Field <>2__current, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get___2__current, put=__cordl_internal_set___2__current)) ::UnityW<::GlobalNamespace::PS4LevelProductPacksSO>  __2__current;
 
-  /// @brief Field <>3__packDefinitions, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get___3__packDefinitions,
-                      put = __cordl_internal_set___3__packDefinitions))::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* __3__packDefinitions;
+/// @brief Field <>3__packDefinitions, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get___3__packDefinitions, put=__cordl_internal_set___3__packDefinitions)) ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*  __3__packDefinitions;
 
-  /// @brief Field <>7__wrap1, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get___7__wrap1,
-                      put = __cordl_internal_set___7__wrap1))::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* __7__wrap1;
+/// @brief Field <>7__wrap1, offset 0x38, size 0x8 
+ __declspec(property(get=__cordl_internal_get___7__wrap1, put=__cordl_internal_set___7__wrap1)) ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*  __7__wrap1;
 
-  /// @brief Field <>l__initialThreadId, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get___l__initialThreadId, put = __cordl_internal_set___l__initialThreadId)) int32_t __l__initialThreadId;
+/// @brief Field <>l__initialThreadId, offset 0x20, size 0x4 
+ __declspec(property(get=__cordl_internal_get___l__initialThreadId, put=__cordl_internal_set___l__initialThreadId)) int32_t  __l__initialThreadId;
 
-  /// @brief Field packDefinitions, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_packDefinitions,
-                      put = __cordl_internal_set_packDefinitions))::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* packDefinitions;
+/// @brief Field packDefinitions, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get_packDefinitions, put=__cordl_internal_set_packDefinitions)) ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*  packDefinitions;
 
-  /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PS4LevelProductPacksSO>>"
-  constexpr operator ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PS4LevelProductPacksSO>>*() noexcept;
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PS4LevelProductPacksSO>>"
+constexpr operator  ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PS4LevelProductPacksSO>>*() noexcept;
 
-  /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PS4LevelProductPacksSO>>"
-  constexpr operator ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PS4LevelProductPacksSO>>*() noexcept;
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PS4LevelProductPacksSO>>"
+constexpr operator  ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PS4LevelProductPacksSO>>*() noexcept;
 
-  /// @brief Convert operator to "::System::Collections::IEnumerable"
-  constexpr operator ::System::Collections::IEnumerable*() noexcept;
+/// @brief Convert operator to "::System::Collections::IEnumerable"
+constexpr operator  ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Convert operator to "::System::Collections::IEnumerator"
-  constexpr operator ::System::Collections::IEnumerator*() noexcept;
+/// @brief Convert operator to "::System::Collections::IEnumerator"
+constexpr operator  ::System::Collections::IEnumerator*() noexcept;
 
-  /// @brief Convert operator to "::System::IDisposable"
-  constexpr operator ::System::IDisposable*() noexcept;
+/// @brief Convert operator to "::System::IDisposable"
+constexpr operator  ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x14d6de8, size 0x304, virtual true, abstract: false, final true
-  inline bool MoveNext();
+/// @brief Method MoveNext, addr 0x26826a0, size 0x304, virtual true, abstract: false, final true
+inline bool MoveNext() ;
 
-  static inline ::GlobalNamespace::__PackDefinitionExtensions___GetPS4LevelProductPacks_d__7* New_ctor(int32_t __1__state);
+static inline ::GlobalNamespace::__PackDefinitionExtensions___GetPS4LevelProductPacks_d__7* New_ctor(int32_t  __1__state) ;
 
-  /// @brief Method System.Collections.Generic.IEnumerable<PS4LevelProductPacksSO>.GetEnumerator, addr 0x14d71ec, size 0xa4, virtual true, abstract: false, final true
-  inline ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PS4LevelProductPacksSO>>* System_Collections_Generic_IEnumerable_PS4LevelProductPacksSO__GetEnumerator();
+/// @brief Method System.Collections.Generic.IEnumerable<PS4LevelProductPacksSO>.GetEnumerator, addr 0x2682a9c, size 0x9c, virtual true, abstract: false, final true
+inline ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PS4LevelProductPacksSO>>* System_Collections_Generic_IEnumerable_PS4LevelProductPacksSO__GetEnumerator() ;
 
-  /// @brief Method System.Collections.Generic.IEnumerator<PS4LevelProductPacksSO>.get_Current, addr 0x14d719c, size 0x8, virtual true, abstract: false, final true
-  inline ::UnityW<::GlobalNamespace::PS4LevelProductPacksSO> System_Collections_Generic_IEnumerator_PS4LevelProductPacksSO__get_Current();
+/// @brief Method System.Collections.Generic.IEnumerator<PS4LevelProductPacksSO>.get_Current, addr 0x2682a54, size 0x8, virtual true, abstract: false, final true
+inline ::UnityW<::GlobalNamespace::PS4LevelProductPacksSO> System_Collections_Generic_IEnumerator_PS4LevelProductPacksSO__get_Current() ;
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x14d7290, size 0x4, virtual true, abstract: false, final true
-  inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
+/// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x2682b38, size 0x4, virtual true, abstract: false, final true
+inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator() ;
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x14d71a4, size 0x40, virtual true, abstract: false, final true
-  inline void System_Collections_IEnumerator_Reset();
+/// @brief Method System.Collections.IEnumerator.Reset, addr 0x2682a5c, size 0x38, virtual true, abstract: false, final true
+inline void System_Collections_IEnumerator_Reset() ;
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x14d71e4, size 0x8, virtual true, abstract: false, final true
-  inline ::System::Object* System_Collections_IEnumerator_get_Current();
+/// @brief Method System.Collections.IEnumerator.get_Current, addr 0x2682a94, size 0x8, virtual true, abstract: false, final true
+inline ::System::Object* System_Collections_IEnumerator_get_Current() ;
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x14d6dcc, size 0x1c, virtual true, abstract: false, final true
-  inline void System_IDisposable_Dispose();
+/// @brief Method System.IDisposable.Dispose, addr 0x2682684, size 0x1c, virtual true, abstract: false, final true
+inline void System_IDisposable_Dispose() ;
 
-  constexpr int32_t const& __cordl_internal_get___1__state() const;
+constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr int32_t& __cordl_internal_get___1__state();
+constexpr int32_t& __cordl_internal_get___1__state() ;
 
-  constexpr ::UnityW<::GlobalNamespace::PS4LevelProductPacksSO> const& __cordl_internal_get___2__current() const;
+constexpr ::UnityW<::GlobalNamespace::PS4LevelProductPacksSO> const& __cordl_internal_get___2__current() const;
 
-  constexpr ::UnityW<::GlobalNamespace::PS4LevelProductPacksSO>& __cordl_internal_get___2__current();
+constexpr ::UnityW<::GlobalNamespace::PS4LevelProductPacksSO>& __cordl_internal_get___2__current() ;
 
-  constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*& __cordl_internal_get___3__packDefinitions();
+constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*& __cordl_internal_get___3__packDefinitions() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*> const& __cordl_internal_get___3__packDefinitions() const;
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*> const& __cordl_internal_get___3__packDefinitions() const;
 
-  constexpr ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*& __cordl_internal_get___7__wrap1();
+constexpr ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*& __cordl_internal_get___7__wrap1() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*> const& __cordl_internal_get___7__wrap1() const;
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*> const& __cordl_internal_get___7__wrap1() const;
 
-  constexpr int32_t const& __cordl_internal_get___l__initialThreadId() const;
+constexpr int32_t const& __cordl_internal_get___l__initialThreadId() const;
 
-  constexpr int32_t& __cordl_internal_get___l__initialThreadId();
+constexpr int32_t& __cordl_internal_get___l__initialThreadId() ;
 
-  constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*& __cordl_internal_get_packDefinitions();
+constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*& __cordl_internal_get_packDefinitions() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*> const& __cordl_internal_get_packDefinitions() const;
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*> const& __cordl_internal_get_packDefinitions() const;
 
-  constexpr void __cordl_internal_set___1__state(int32_t value);
+constexpr void __cordl_internal_set___1__state(int32_t  value) ;
 
-  constexpr void __cordl_internal_set___2__current(::UnityW<::GlobalNamespace::PS4LevelProductPacksSO> value);
+constexpr void __cordl_internal_set___2__current(::UnityW<::GlobalNamespace::PS4LevelProductPacksSO>  value) ;
 
-  constexpr void __cordl_internal_set___3__packDefinitions(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* value);
+constexpr void __cordl_internal_set___3__packDefinitions(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*  value) ;
 
-  constexpr void __cordl_internal_set___7__wrap1(::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* value);
+constexpr void __cordl_internal_set___7__wrap1(::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*  value) ;
 
-  constexpr void __cordl_internal_set___l__initialThreadId(int32_t value);
+constexpr void __cordl_internal_set___l__initialThreadId(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_packDefinitions(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* value);
+constexpr void __cordl_internal_set_packDefinitions(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*  value) ;
 
-  /// @brief Method <>m__Finally1, addr 0x14d70ec, size 0xb0, virtual false, abstract: false, final false
-  inline void __m__Finally1();
+/// @brief Method <>m__Finally1, addr 0x26829a4, size 0xb0, virtual false, abstract: false, final false
+inline void __m__Finally1() ;
 
-  /// @brief Method .ctor, addr 0x14d4ac8, size 0x34, virtual false, abstract: false, final false
-  inline void _ctor(int32_t __1__state);
+/// @brief Method .ctor, addr 0x2681b98, size 0x34, virtual false, abstract: false, final false
+inline void _ctor(int32_t  __1__state) ;
 
-  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PS4LevelProductPacksSO>>"
-  constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PS4LevelProductPacksSO>>*
-  i___System__Collections__Generic__IEnumerable_1___UnityW___GlobalNamespace__PS4LevelProductPacksSO__() noexcept;
+/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PS4LevelProductPacksSO>>"
+constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PS4LevelProductPacksSO>>* i___System__Collections__Generic__IEnumerable_1___UnityW___GlobalNamespace__PS4LevelProductPacksSO__() noexcept;
 
-  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PS4LevelProductPacksSO>>"
-  constexpr ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PS4LevelProductPacksSO>>*
-  i___System__Collections__Generic__IEnumerator_1___UnityW___GlobalNamespace__PS4LevelProductPacksSO__() noexcept;
+/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PS4LevelProductPacksSO>>"
+constexpr ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PS4LevelProductPacksSO>>* i___System__Collections__Generic__IEnumerator_1___UnityW___GlobalNamespace__PS4LevelProductPacksSO__() noexcept;
 
-  /// @brief Convert to "::System::Collections::IEnumerable"
-  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
+/// @brief Convert to "::System::Collections::IEnumerable"
+constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
-  /// @brief Convert to "::System::Collections::IEnumerator"
-  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+/// @brief Convert to "::System::Collections::IEnumerator"
+constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
-  /// @brief Convert to "::System::IDisposable"
-  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+/// @brief Convert to "::System::IDisposable"
+constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __PackDefinitionExtensions___GetPS4LevelProductPacks_d__7();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __PackDefinitionExtensions___GetPS4LevelProductPacks_d__7() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__PackDefinitionExtensions___GetPS4LevelProductPacks_d__7", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __PackDefinitionExtensions___GetPS4LevelProductPacks_d__7(__PackDefinitionExtensions___GetPS4LevelProductPacks_d__7&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__PackDefinitionExtensions___GetPS4LevelProductPacks_d__7", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __PackDefinitionExtensions___GetPS4LevelProductPacks_d__7(__PackDefinitionExtensions___GetPS4LevelProductPacks_d__7 const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__PackDefinitionExtensions___GetPS4LevelProductPacks_d__7", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__PackDefinitionExtensions___GetPS4LevelProductPacks_d__7(__PackDefinitionExtensions___GetPS4LevelProductPacks_d__7 && ) = delete;
 
-  /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
-  int32_t _____1__state;
+// Ctor Parameters [CppParam { name: "", ty: "__PackDefinitionExtensions___GetPS4LevelProductPacks_d__7", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__PackDefinitionExtensions___GetPS4LevelProductPacks_d__7(__PackDefinitionExtensions___GetPS4LevelProductPacks_d__7 const& ) = delete;
 
-  /// @brief Field <>2__current, offset: 0x18, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::PS4LevelProductPacksSO> _____2__current;
+/// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
+ int32_t  _____1__state;
 
-  /// @brief Field <>l__initialThreadId, offset: 0x20, size: 0x4, def value: None
-  int32_t _____l__initialThreadId;
+/// @brief Field <>2__current, offset: 0x18, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::PS4LevelProductPacksSO>  _____2__current;
 
-  /// @brief Field packDefinitions, offset: 0x28, size: 0x8, def value: None
-  ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* ___packDefinitions;
+/// @brief Field <>l__initialThreadId, offset: 0x20, size: 0x4, def value: None
+ int32_t  _____l__initialThreadId;
 
-  /// @brief Field <>3__packDefinitions, offset: 0x30, size: 0x8, def value: None
-  ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* _____3__packDefinitions;
+/// @brief Field packDefinitions, offset: 0x28, size: 0x8, def value: None
+ ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*  ___packDefinitions;
 
-  /// @brief Field <>7__wrap1, offset: 0x38, size: 0x8, def value: None
-  ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* _____7__wrap1;
+/// @brief Field <>3__packDefinitions, offset: 0x30, size: 0x8, def value: None
+ ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*  _____3__packDefinitions;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field <>7__wrap1, offset: 0x38, size: 0x8, def value: None
+ ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*  _____7__wrap1;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__PackDefinitionExtensions___GetPS4LevelProductPacks_d__7, 0x40>, "Size mismatch!");
@@ -1571,171 +650,340 @@ static_assert(offsetof(::GlobalNamespace::__PackDefinitionExtensions___GetPS4Lev
 
 static_assert(offsetof(::GlobalNamespace::__PackDefinitionExtensions___GetPS4LevelProductPacks_d__7, _____7__wrap1) == 0x38, "Offset mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
+// Type: ::<GetPS5LeaderboardIds>d__4
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
+namespace GlobalNamespace {
+// Is value type: false
+// CS Name: ::PackDefinitionExtensions::<GetPS5LeaderboardIds>d__4*
+class CORDL_TYPE __PackDefinitionExtensions___GetPS5LeaderboardIds_d__4 : public ::System::Object {
+public:
+// Declarations
+ __declspec(property(get=System_Collections_Generic_IEnumerator_SonyLeaderboardIdsSO__get_Current)) ::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>  System_Collections_Generic_IEnumerator_SonyLeaderboardIdsSO__Current;
+
+ __declspec(property(get=System_Collections_IEnumerator_get_Current)) ::System::Object*  System_Collections_IEnumerator_Current;
+
+/// @brief Field <>1__state, offset 0x10, size 0x4 
+ __declspec(property(get=__cordl_internal_get___1__state, put=__cordl_internal_set___1__state)) int32_t  __1__state;
+
+/// @brief Field <>2__current, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get___2__current, put=__cordl_internal_set___2__current)) ::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>  __2__current;
+
+/// @brief Field <>3__packDefinitions, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get___3__packDefinitions, put=__cordl_internal_set___3__packDefinitions)) ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*  __3__packDefinitions;
+
+/// @brief Field <>7__wrap1, offset 0x38, size 0x8 
+ __declspec(property(get=__cordl_internal_get___7__wrap1, put=__cordl_internal_set___7__wrap1)) ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*  __7__wrap1;
+
+/// @brief Field <>l__initialThreadId, offset 0x20, size 0x4 
+ __declspec(property(get=__cordl_internal_get___l__initialThreadId, put=__cordl_internal_set___l__initialThreadId)) int32_t  __l__initialThreadId;
+
+/// @brief Field packDefinitions, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get_packDefinitions, put=__cordl_internal_set_packDefinitions)) ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*  packDefinitions;
+
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>"
+constexpr operator  ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>*() noexcept;
+
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>"
+constexpr operator  ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>*() noexcept;
+
+/// @brief Convert operator to "::System::Collections::IEnumerable"
+constexpr operator  ::System::Collections::IEnumerable*() noexcept;
+
+/// @brief Convert operator to "::System::Collections::IEnumerator"
+constexpr operator  ::System::Collections::IEnumerator*() noexcept;
+
+/// @brief Convert operator to "::System::IDisposable"
+constexpr operator  ::System::IDisposable*() noexcept;
+
+/// @brief Method MoveNext, addr 0x2682b58, size 0x304, virtual true, abstract: false, final true
+inline bool MoveNext() ;
+
+static inline ::GlobalNamespace::__PackDefinitionExtensions___GetPS5LeaderboardIds_d__4* New_ctor(int32_t  __1__state) ;
+
+/// @brief Method System.Collections.Generic.IEnumerable<SonyLeaderboardIdsSO>.GetEnumerator, addr 0x2682f54, size 0x9c, virtual true, abstract: false, final true
+inline ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>* System_Collections_Generic_IEnumerable_SonyLeaderboardIdsSO__GetEnumerator() ;
+
+/// @brief Method System.Collections.Generic.IEnumerator<SonyLeaderboardIdsSO>.get_Current, addr 0x2682f0c, size 0x8, virtual true, abstract: false, final true
+inline ::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO> System_Collections_Generic_IEnumerator_SonyLeaderboardIdsSO__get_Current() ;
+
+/// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x2682ff0, size 0x4, virtual true, abstract: false, final true
+inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator() ;
+
+/// @brief Method System.Collections.IEnumerator.Reset, addr 0x2682f14, size 0x38, virtual true, abstract: false, final true
+inline void System_Collections_IEnumerator_Reset() ;
+
+/// @brief Method System.Collections.IEnumerator.get_Current, addr 0x2682f4c, size 0x8, virtual true, abstract: false, final true
+inline ::System::Object* System_Collections_IEnumerator_get_Current() ;
+
+/// @brief Method System.IDisposable.Dispose, addr 0x2682b3c, size 0x1c, virtual true, abstract: false, final true
+inline void System_IDisposable_Dispose() ;
+
+constexpr int32_t const& __cordl_internal_get___1__state() const;
+
+constexpr int32_t& __cordl_internal_get___1__state() ;
+
+constexpr ::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO> const& __cordl_internal_get___2__current() const;
+
+constexpr ::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>& __cordl_internal_get___2__current() ;
+
+constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*& __cordl_internal_get___3__packDefinitions() ;
+
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*> const& __cordl_internal_get___3__packDefinitions() const;
+
+constexpr ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*& __cordl_internal_get___7__wrap1() ;
+
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*> const& __cordl_internal_get___7__wrap1() const;
+
+constexpr int32_t const& __cordl_internal_get___l__initialThreadId() const;
+
+constexpr int32_t& __cordl_internal_get___l__initialThreadId() ;
+
+constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*& __cordl_internal_get_packDefinitions() ;
+
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*> const& __cordl_internal_get_packDefinitions() const;
+
+constexpr void __cordl_internal_set___1__state(int32_t  value) ;
+
+constexpr void __cordl_internal_set___2__current(::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>  value) ;
+
+constexpr void __cordl_internal_set___3__packDefinitions(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*  value) ;
+
+constexpr void __cordl_internal_set___7__wrap1(::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*  value) ;
+
+constexpr void __cordl_internal_set___l__initialThreadId(int32_t  value) ;
+
+constexpr void __cordl_internal_set_packDefinitions(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*  value) ;
+
+/// @brief Method <>m__Finally1, addr 0x2682e5c, size 0xb0, virtual false, abstract: false, final false
+inline void __m__Finally1() ;
+
+/// @brief Method .ctor, addr 0x26819ac, size 0x34, virtual false, abstract: false, final false
+inline void _ctor(int32_t  __1__state) ;
+
+/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>"
+constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>* i___System__Collections__Generic__IEnumerable_1___UnityW___GlobalNamespace__SonyLeaderboardIdsSO__() noexcept;
+
+/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>"
+constexpr ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>* i___System__Collections__Generic__IEnumerator_1___UnityW___GlobalNamespace__SonyLeaderboardIdsSO__() noexcept;
+
+/// @brief Convert to "::System::Collections::IEnumerable"
+constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
+
+/// @brief Convert to "::System::Collections::IEnumerator"
+constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
+/// @brief Convert to "::System::IDisposable"
+constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+constexpr __PackDefinitionExtensions___GetPS5LeaderboardIds_d__4() ;
+public:
+
+// Ctor Parameters [CppParam { name: "", ty: "__PackDefinitionExtensions___GetPS5LeaderboardIds_d__4", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__PackDefinitionExtensions___GetPS5LeaderboardIds_d__4(__PackDefinitionExtensions___GetPS5LeaderboardIds_d__4 && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "__PackDefinitionExtensions___GetPS5LeaderboardIds_d__4", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__PackDefinitionExtensions___GetPS5LeaderboardIds_d__4(__PackDefinitionExtensions___GetPS5LeaderboardIds_d__4 const& ) = delete;
+
+/// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
+ int32_t  _____1__state;
+
+/// @brief Field <>2__current, offset: 0x18, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>  _____2__current;
+
+/// @brief Field <>l__initialThreadId, offset: 0x20, size: 0x4, def value: None
+ int32_t  _____l__initialThreadId;
+
+/// @brief Field packDefinitions, offset: 0x28, size: 0x8, def value: None
+ ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*  ___packDefinitions;
+
+/// @brief Field <>3__packDefinitions, offset: 0x30, size: 0x8, def value: None
+ ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*  _____3__packDefinitions;
+
+/// @brief Field <>7__wrap1, offset: 0x38, size: 0x8, def value: None
+ ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*  _____7__wrap1;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__PackDefinitionExtensions___GetPS5LeaderboardIds_d__4, 0x40>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PackDefinitionExtensions___GetPS5LeaderboardIds_d__4, _____1__state) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PackDefinitionExtensions___GetPS5LeaderboardIds_d__4, _____2__current) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PackDefinitionExtensions___GetPS5LeaderboardIds_d__4, _____l__initialThreadId) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PackDefinitionExtensions___GetPS5LeaderboardIds_d__4, ___packDefinitions) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PackDefinitionExtensions___GetPS5LeaderboardIds_d__4, _____3__packDefinitions) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PackDefinitionExtensions___GetPS5LeaderboardIds_d__4, _____7__wrap1) == 0x38, "Offset mismatch!");
+
+} // namespace end def GlobalNamespace
 // Type: ::<GetPS5LevelProductPacks>d__8
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::PackDefinitionExtensions::<GetPS5LevelProductPacks>d__8*
 class CORDL_TYPE __PackDefinitionExtensions___GetPS5LevelProductPacks_d__8 : public ::System::Object {
 public:
-  // Declarations
-  __declspec(property(get = System_Collections_Generic_IEnumerator_PS5LevelProductPacksSO__get_Current))::UnityW<
-      ::GlobalNamespace::PS5LevelProductPacksSO> System_Collections_Generic_IEnumerator_PS5LevelProductPacksSO__Current;
+// Declarations
+ __declspec(property(get=System_Collections_Generic_IEnumerator_PS5LevelProductPacksSO__get_Current)) ::UnityW<::GlobalNamespace::PS5LevelProductPacksSO>  System_Collections_Generic_IEnumerator_PS5LevelProductPacksSO__Current;
 
-  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+ __declspec(property(get=System_Collections_IEnumerator_get_Current)) ::System::Object*  System_Collections_IEnumerator_Current;
 
-  /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
+/// @brief Field <>1__state, offset 0x10, size 0x4 
+ __declspec(property(get=__cordl_internal_get___1__state, put=__cordl_internal_set___1__state)) int32_t  __1__state;
 
-  /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::UnityW<::GlobalNamespace::PS5LevelProductPacksSO> __2__current;
+/// @brief Field <>2__current, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get___2__current, put=__cordl_internal_set___2__current)) ::UnityW<::GlobalNamespace::PS5LevelProductPacksSO>  __2__current;
 
-  /// @brief Field <>3__packDefinitions, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get___3__packDefinitions,
-                      put = __cordl_internal_set___3__packDefinitions))::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* __3__packDefinitions;
+/// @brief Field <>3__packDefinitions, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get___3__packDefinitions, put=__cordl_internal_set___3__packDefinitions)) ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*  __3__packDefinitions;
 
-  /// @brief Field <>7__wrap1, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get___7__wrap1,
-                      put = __cordl_internal_set___7__wrap1))::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* __7__wrap1;
+/// @brief Field <>7__wrap1, offset 0x38, size 0x8 
+ __declspec(property(get=__cordl_internal_get___7__wrap1, put=__cordl_internal_set___7__wrap1)) ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*  __7__wrap1;
 
-  /// @brief Field <>l__initialThreadId, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get___l__initialThreadId, put = __cordl_internal_set___l__initialThreadId)) int32_t __l__initialThreadId;
+/// @brief Field <>l__initialThreadId, offset 0x20, size 0x4 
+ __declspec(property(get=__cordl_internal_get___l__initialThreadId, put=__cordl_internal_set___l__initialThreadId)) int32_t  __l__initialThreadId;
 
-  /// @brief Field packDefinitions, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_packDefinitions,
-                      put = __cordl_internal_set_packDefinitions))::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* packDefinitions;
+/// @brief Field packDefinitions, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get_packDefinitions, put=__cordl_internal_set_packDefinitions)) ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*  packDefinitions;
 
-  /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PS5LevelProductPacksSO>>"
-  constexpr operator ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PS5LevelProductPacksSO>>*() noexcept;
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PS5LevelProductPacksSO>>"
+constexpr operator  ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PS5LevelProductPacksSO>>*() noexcept;
 
-  /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PS5LevelProductPacksSO>>"
-  constexpr operator ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PS5LevelProductPacksSO>>*() noexcept;
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PS5LevelProductPacksSO>>"
+constexpr operator  ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PS5LevelProductPacksSO>>*() noexcept;
 
-  /// @brief Convert operator to "::System::Collections::IEnumerable"
-  constexpr operator ::System::Collections::IEnumerable*() noexcept;
+/// @brief Convert operator to "::System::Collections::IEnumerable"
+constexpr operator  ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Convert operator to "::System::Collections::IEnumerator"
-  constexpr operator ::System::Collections::IEnumerator*() noexcept;
+/// @brief Convert operator to "::System::Collections::IEnumerator"
+constexpr operator  ::System::Collections::IEnumerator*() noexcept;
 
-  /// @brief Convert operator to "::System::IDisposable"
-  constexpr operator ::System::IDisposable*() noexcept;
+/// @brief Convert operator to "::System::IDisposable"
+constexpr operator  ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x14d72b0, size 0x304, virtual true, abstract: false, final true
-  inline bool MoveNext();
+/// @brief Method MoveNext, addr 0x2683010, size 0x304, virtual true, abstract: false, final true
+inline bool MoveNext() ;
 
-  static inline ::GlobalNamespace::__PackDefinitionExtensions___GetPS5LevelProductPacks_d__8* New_ctor(int32_t __1__state);
+static inline ::GlobalNamespace::__PackDefinitionExtensions___GetPS5LevelProductPacks_d__8* New_ctor(int32_t  __1__state) ;
 
-  /// @brief Method System.Collections.Generic.IEnumerable<PS5LevelProductPacksSO>.GetEnumerator, addr 0x14d76b4, size 0xa4, virtual true, abstract: false, final true
-  inline ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PS5LevelProductPacksSO>>* System_Collections_Generic_IEnumerable_PS5LevelProductPacksSO__GetEnumerator();
+/// @brief Method System.Collections.Generic.IEnumerable<PS5LevelProductPacksSO>.GetEnumerator, addr 0x268340c, size 0x9c, virtual true, abstract: false, final true
+inline ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PS5LevelProductPacksSO>>* System_Collections_Generic_IEnumerable_PS5LevelProductPacksSO__GetEnumerator() ;
 
-  /// @brief Method System.Collections.Generic.IEnumerator<PS5LevelProductPacksSO>.get_Current, addr 0x14d7664, size 0x8, virtual true, abstract: false, final true
-  inline ::UnityW<::GlobalNamespace::PS5LevelProductPacksSO> System_Collections_Generic_IEnumerator_PS5LevelProductPacksSO__get_Current();
+/// @brief Method System.Collections.Generic.IEnumerator<PS5LevelProductPacksSO>.get_Current, addr 0x26833c4, size 0x8, virtual true, abstract: false, final true
+inline ::UnityW<::GlobalNamespace::PS5LevelProductPacksSO> System_Collections_Generic_IEnumerator_PS5LevelProductPacksSO__get_Current() ;
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x14d7758, size 0x4, virtual true, abstract: false, final true
-  inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
+/// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x26834a8, size 0x4, virtual true, abstract: false, final true
+inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator() ;
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x14d766c, size 0x40, virtual true, abstract: false, final true
-  inline void System_Collections_IEnumerator_Reset();
+/// @brief Method System.Collections.IEnumerator.Reset, addr 0x26833cc, size 0x38, virtual true, abstract: false, final true
+inline void System_Collections_IEnumerator_Reset() ;
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x14d76ac, size 0x8, virtual true, abstract: false, final true
-  inline ::System::Object* System_Collections_IEnumerator_get_Current();
+/// @brief Method System.Collections.IEnumerator.get_Current, addr 0x2683404, size 0x8, virtual true, abstract: false, final true
+inline ::System::Object* System_Collections_IEnumerator_get_Current() ;
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x14d7294, size 0x1c, virtual true, abstract: false, final true
-  inline void System_IDisposable_Dispose();
+/// @brief Method System.IDisposable.Dispose, addr 0x2682ff4, size 0x1c, virtual true, abstract: false, final true
+inline void System_IDisposable_Dispose() ;
 
-  constexpr int32_t const& __cordl_internal_get___1__state() const;
+constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr int32_t& __cordl_internal_get___1__state();
+constexpr int32_t& __cordl_internal_get___1__state() ;
 
-  constexpr ::UnityW<::GlobalNamespace::PS5LevelProductPacksSO> const& __cordl_internal_get___2__current() const;
+constexpr ::UnityW<::GlobalNamespace::PS5LevelProductPacksSO> const& __cordl_internal_get___2__current() const;
 
-  constexpr ::UnityW<::GlobalNamespace::PS5LevelProductPacksSO>& __cordl_internal_get___2__current();
+constexpr ::UnityW<::GlobalNamespace::PS5LevelProductPacksSO>& __cordl_internal_get___2__current() ;
 
-  constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*& __cordl_internal_get___3__packDefinitions();
+constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*& __cordl_internal_get___3__packDefinitions() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*> const& __cordl_internal_get___3__packDefinitions() const;
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*> const& __cordl_internal_get___3__packDefinitions() const;
 
-  constexpr ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*& __cordl_internal_get___7__wrap1();
+constexpr ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*& __cordl_internal_get___7__wrap1() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*> const& __cordl_internal_get___7__wrap1() const;
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*> const& __cordl_internal_get___7__wrap1() const;
 
-  constexpr int32_t const& __cordl_internal_get___l__initialThreadId() const;
+constexpr int32_t const& __cordl_internal_get___l__initialThreadId() const;
 
-  constexpr int32_t& __cordl_internal_get___l__initialThreadId();
+constexpr int32_t& __cordl_internal_get___l__initialThreadId() ;
 
-  constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*& __cordl_internal_get_packDefinitions();
+constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*& __cordl_internal_get_packDefinitions() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*> const& __cordl_internal_get_packDefinitions() const;
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*> const& __cordl_internal_get_packDefinitions() const;
 
-  constexpr void __cordl_internal_set___1__state(int32_t value);
+constexpr void __cordl_internal_set___1__state(int32_t  value) ;
 
-  constexpr void __cordl_internal_set___2__current(::UnityW<::GlobalNamespace::PS5LevelProductPacksSO> value);
+constexpr void __cordl_internal_set___2__current(::UnityW<::GlobalNamespace::PS5LevelProductPacksSO>  value) ;
 
-  constexpr void __cordl_internal_set___3__packDefinitions(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* value);
+constexpr void __cordl_internal_set___3__packDefinitions(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*  value) ;
 
-  constexpr void __cordl_internal_set___7__wrap1(::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* value);
+constexpr void __cordl_internal_set___7__wrap1(::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*  value) ;
 
-  constexpr void __cordl_internal_set___l__initialThreadId(int32_t value);
+constexpr void __cordl_internal_set___l__initialThreadId(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_packDefinitions(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* value);
+constexpr void __cordl_internal_set_packDefinitions(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*  value) ;
 
-  /// @brief Method <>m__Finally1, addr 0x14d75b4, size 0xb0, virtual false, abstract: false, final false
-  inline void __m__Finally1();
+/// @brief Method <>m__Finally1, addr 0x2683314, size 0xb0, virtual false, abstract: false, final false
+inline void __m__Finally1() ;
 
-  /// @brief Method .ctor, addr 0x14d4b74, size 0x34, virtual false, abstract: false, final false
-  inline void _ctor(int32_t __1__state);
+/// @brief Method .ctor, addr 0x2681c3c, size 0x34, virtual false, abstract: false, final false
+inline void _ctor(int32_t  __1__state) ;
 
-  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PS5LevelProductPacksSO>>"
-  constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PS5LevelProductPacksSO>>*
-  i___System__Collections__Generic__IEnumerable_1___UnityW___GlobalNamespace__PS5LevelProductPacksSO__() noexcept;
+/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PS5LevelProductPacksSO>>"
+constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PS5LevelProductPacksSO>>* i___System__Collections__Generic__IEnumerable_1___UnityW___GlobalNamespace__PS5LevelProductPacksSO__() noexcept;
 
-  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PS5LevelProductPacksSO>>"
-  constexpr ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PS5LevelProductPacksSO>>*
-  i___System__Collections__Generic__IEnumerator_1___UnityW___GlobalNamespace__PS5LevelProductPacksSO__() noexcept;
+/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PS5LevelProductPacksSO>>"
+constexpr ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PS5LevelProductPacksSO>>* i___System__Collections__Generic__IEnumerator_1___UnityW___GlobalNamespace__PS5LevelProductPacksSO__() noexcept;
 
-  /// @brief Convert to "::System::Collections::IEnumerable"
-  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
+/// @brief Convert to "::System::Collections::IEnumerable"
+constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
-  /// @brief Convert to "::System::Collections::IEnumerator"
-  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+/// @brief Convert to "::System::Collections::IEnumerator"
+constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
-  /// @brief Convert to "::System::IDisposable"
-  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+/// @brief Convert to "::System::IDisposable"
+constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __PackDefinitionExtensions___GetPS5LevelProductPacks_d__8();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __PackDefinitionExtensions___GetPS5LevelProductPacks_d__8() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__PackDefinitionExtensions___GetPS5LevelProductPacks_d__8", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __PackDefinitionExtensions___GetPS5LevelProductPacks_d__8(__PackDefinitionExtensions___GetPS5LevelProductPacks_d__8&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__PackDefinitionExtensions___GetPS5LevelProductPacks_d__8", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __PackDefinitionExtensions___GetPS5LevelProductPacks_d__8(__PackDefinitionExtensions___GetPS5LevelProductPacks_d__8 const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__PackDefinitionExtensions___GetPS5LevelProductPacks_d__8", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__PackDefinitionExtensions___GetPS5LevelProductPacks_d__8(__PackDefinitionExtensions___GetPS5LevelProductPacks_d__8 && ) = delete;
 
-  /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
-  int32_t _____1__state;
+// Ctor Parameters [CppParam { name: "", ty: "__PackDefinitionExtensions___GetPS5LevelProductPacks_d__8", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__PackDefinitionExtensions___GetPS5LevelProductPacks_d__8(__PackDefinitionExtensions___GetPS5LevelProductPacks_d__8 const& ) = delete;
 
-  /// @brief Field <>2__current, offset: 0x18, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::PS5LevelProductPacksSO> _____2__current;
+/// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
+ int32_t  _____1__state;
 
-  /// @brief Field <>l__initialThreadId, offset: 0x20, size: 0x4, def value: None
-  int32_t _____l__initialThreadId;
+/// @brief Field <>2__current, offset: 0x18, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::PS5LevelProductPacksSO>  _____2__current;
 
-  /// @brief Field packDefinitions, offset: 0x28, size: 0x8, def value: None
-  ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* ___packDefinitions;
+/// @brief Field <>l__initialThreadId, offset: 0x20, size: 0x4, def value: None
+ int32_t  _____l__initialThreadId;
 
-  /// @brief Field <>3__packDefinitions, offset: 0x30, size: 0x8, def value: None
-  ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* _____3__packDefinitions;
+/// @brief Field packDefinitions, offset: 0x28, size: 0x8, def value: None
+ ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*  ___packDefinitions;
 
-  /// @brief Field <>7__wrap1, offset: 0x38, size: 0x8, def value: None
-  ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* _____7__wrap1;
+/// @brief Field <>3__packDefinitions, offset: 0x30, size: 0x8, def value: None
+ ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*  _____3__packDefinitions;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field <>7__wrap1, offset: 0x38, size: 0x8, def value: None
+ ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*  _____7__wrap1;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__PackDefinitionExtensions___GetPS5LevelProductPacks_d__8, 0x40>, "Size mismatch!");
@@ -1752,172 +1000,165 @@ static_assert(offsetof(::GlobalNamespace::__PackDefinitionExtensions___GetPS5Lev
 
 static_assert(offsetof(::GlobalNamespace::__PackDefinitionExtensions___GetPS5LevelProductPacks_d__8, _____7__wrap1) == 0x38, "Offset mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 // Type: ::<GetPerceivedLoudnessSOs>d__9
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::PackDefinitionExtensions::<GetPerceivedLoudnessSOs>d__9*
 class CORDL_TYPE __PackDefinitionExtensions___GetPerceivedLoudnessSOs_d__9 : public ::System::Object {
 public:
-  // Declarations
-  __declspec(property(
-      get =
-          System_Collections_Generic_IEnumerator_PerceivedLoudnessSO__get_Current))::UnityW<::GlobalNamespace::PerceivedLoudnessSO> System_Collections_Generic_IEnumerator_PerceivedLoudnessSO__Current;
+// Declarations
+ __declspec(property(get=System_Collections_Generic_IEnumerator_PerceivedLoudnessSO__get_Current)) ::UnityW<::GlobalNamespace::PerceivedLoudnessSO>  System_Collections_Generic_IEnumerator_PerceivedLoudnessSO__Current;
 
-  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+ __declspec(property(get=System_Collections_IEnumerator_get_Current)) ::System::Object*  System_Collections_IEnumerator_Current;
 
-  /// @brief Field <>1__state, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get___1__state, put = __cordl_internal_set___1__state)) int32_t __1__state;
+/// @brief Field <>1__state, offset 0x10, size 0x4 
+ __declspec(property(get=__cordl_internal_get___1__state, put=__cordl_internal_set___1__state)) int32_t  __1__state;
 
-  /// @brief Field <>2__current, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get___2__current, put = __cordl_internal_set___2__current))::UnityW<::GlobalNamespace::PerceivedLoudnessSO> __2__current;
+/// @brief Field <>2__current, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get___2__current, put=__cordl_internal_set___2__current)) ::UnityW<::GlobalNamespace::PerceivedLoudnessSO>  __2__current;
 
-  /// @brief Field <>3__packDefinitions, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get___3__packDefinitions,
-                      put = __cordl_internal_set___3__packDefinitions))::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* __3__packDefinitions;
+/// @brief Field <>3__packDefinitions, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get___3__packDefinitions, put=__cordl_internal_set___3__packDefinitions)) ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*  __3__packDefinitions;
 
-  /// @brief Field <>7__wrap1, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get___7__wrap1,
-                      put = __cordl_internal_set___7__wrap1))::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* __7__wrap1;
+/// @brief Field <>7__wrap1, offset 0x38, size 0x8 
+ __declspec(property(get=__cordl_internal_get___7__wrap1, put=__cordl_internal_set___7__wrap1)) ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*  __7__wrap1;
 
-  /// @brief Field <>l__initialThreadId, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get___l__initialThreadId, put = __cordl_internal_set___l__initialThreadId)) int32_t __l__initialThreadId;
+/// @brief Field <>l__initialThreadId, offset 0x20, size 0x4 
+ __declspec(property(get=__cordl_internal_get___l__initialThreadId, put=__cordl_internal_set___l__initialThreadId)) int32_t  __l__initialThreadId;
 
-  /// @brief Field packDefinitions, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_packDefinitions,
-                      put = __cordl_internal_set_packDefinitions))::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* packDefinitions;
+/// @brief Field packDefinitions, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get_packDefinitions, put=__cordl_internal_set_packDefinitions)) ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*  packDefinitions;
 
-  /// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PerceivedLoudnessSO>>"
-  constexpr operator ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PerceivedLoudnessSO>>*() noexcept;
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PerceivedLoudnessSO>>"
+constexpr operator  ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PerceivedLoudnessSO>>*() noexcept;
 
-  /// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PerceivedLoudnessSO>>"
-  constexpr operator ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PerceivedLoudnessSO>>*() noexcept;
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PerceivedLoudnessSO>>"
+constexpr operator  ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PerceivedLoudnessSO>>*() noexcept;
 
-  /// @brief Convert operator to "::System::Collections::IEnumerable"
-  constexpr operator ::System::Collections::IEnumerable*() noexcept;
+/// @brief Convert operator to "::System::Collections::IEnumerable"
+constexpr operator  ::System::Collections::IEnumerable*() noexcept;
 
-  /// @brief Convert operator to "::System::Collections::IEnumerator"
-  constexpr operator ::System::Collections::IEnumerator*() noexcept;
+/// @brief Convert operator to "::System::Collections::IEnumerator"
+constexpr operator  ::System::Collections::IEnumerator*() noexcept;
 
-  /// @brief Convert operator to "::System::IDisposable"
-  constexpr operator ::System::IDisposable*() noexcept;
+/// @brief Convert operator to "::System::IDisposable"
+constexpr operator  ::System::IDisposable*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x14d7778, size 0x2e0, virtual true, abstract: false, final true
-  inline bool MoveNext();
+/// @brief Method MoveNext, addr 0x26834c8, size 0x2e0, virtual true, abstract: false, final true
+inline bool MoveNext() ;
 
-  static inline ::GlobalNamespace::__PackDefinitionExtensions___GetPerceivedLoudnessSOs_d__9* New_ctor(int32_t __1__state);
+static inline ::GlobalNamespace::__PackDefinitionExtensions___GetPerceivedLoudnessSOs_d__9* New_ctor(int32_t  __1__state) ;
 
-  /// @brief Method System.Collections.Generic.IEnumerable<PerceivedLoudnessSO>.GetEnumerator, addr 0x14d7b58, size 0xa4, virtual true, abstract: false, final true
-  inline ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PerceivedLoudnessSO>>* System_Collections_Generic_IEnumerable_PerceivedLoudnessSO__GetEnumerator();
+/// @brief Method System.Collections.Generic.IEnumerable<PerceivedLoudnessSO>.GetEnumerator, addr 0x26838a0, size 0x9c, virtual true, abstract: false, final true
+inline ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PerceivedLoudnessSO>>* System_Collections_Generic_IEnumerable_PerceivedLoudnessSO__GetEnumerator() ;
 
-  /// @brief Method System.Collections.Generic.IEnumerator<PerceivedLoudnessSO>.get_Current, addr 0x14d7b08, size 0x8, virtual true, abstract: false, final true
-  inline ::UnityW<::GlobalNamespace::PerceivedLoudnessSO> System_Collections_Generic_IEnumerator_PerceivedLoudnessSO__get_Current();
+/// @brief Method System.Collections.Generic.IEnumerator<PerceivedLoudnessSO>.get_Current, addr 0x2683858, size 0x8, virtual true, abstract: false, final true
+inline ::UnityW<::GlobalNamespace::PerceivedLoudnessSO> System_Collections_Generic_IEnumerator_PerceivedLoudnessSO__get_Current() ;
 
-  /// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x14d7bfc, size 0x4, virtual true, abstract: false, final true
-  inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator();
+/// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x268393c, size 0x4, virtual true, abstract: false, final true
+inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator() ;
 
-  /// @brief Method System.Collections.IEnumerator.Reset, addr 0x14d7b10, size 0x40, virtual true, abstract: false, final true
-  inline void System_Collections_IEnumerator_Reset();
+/// @brief Method System.Collections.IEnumerator.Reset, addr 0x2683860, size 0x38, virtual true, abstract: false, final true
+inline void System_Collections_IEnumerator_Reset() ;
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x14d7b50, size 0x8, virtual true, abstract: false, final true
-  inline ::System::Object* System_Collections_IEnumerator_get_Current();
+/// @brief Method System.Collections.IEnumerator.get_Current, addr 0x2683898, size 0x8, virtual true, abstract: false, final true
+inline ::System::Object* System_Collections_IEnumerator_get_Current() ;
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x14d775c, size 0x1c, virtual true, abstract: false, final true
-  inline void System_IDisposable_Dispose();
+/// @brief Method System.IDisposable.Dispose, addr 0x26834ac, size 0x1c, virtual true, abstract: false, final true
+inline void System_IDisposable_Dispose() ;
 
-  constexpr int32_t const& __cordl_internal_get___1__state() const;
+constexpr int32_t const& __cordl_internal_get___1__state() const;
 
-  constexpr int32_t& __cordl_internal_get___1__state();
+constexpr int32_t& __cordl_internal_get___1__state() ;
 
-  constexpr ::UnityW<::GlobalNamespace::PerceivedLoudnessSO> const& __cordl_internal_get___2__current() const;
+constexpr ::UnityW<::GlobalNamespace::PerceivedLoudnessSO> const& __cordl_internal_get___2__current() const;
 
-  constexpr ::UnityW<::GlobalNamespace::PerceivedLoudnessSO>& __cordl_internal_get___2__current();
+constexpr ::UnityW<::GlobalNamespace::PerceivedLoudnessSO>& __cordl_internal_get___2__current() ;
 
-  constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*& __cordl_internal_get___3__packDefinitions();
+constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*& __cordl_internal_get___3__packDefinitions() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*> const& __cordl_internal_get___3__packDefinitions() const;
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*> const& __cordl_internal_get___3__packDefinitions() const;
 
-  constexpr ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*& __cordl_internal_get___7__wrap1();
+constexpr ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*& __cordl_internal_get___7__wrap1() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*> const& __cordl_internal_get___7__wrap1() const;
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*> const& __cordl_internal_get___7__wrap1() const;
 
-  constexpr int32_t const& __cordl_internal_get___l__initialThreadId() const;
+constexpr int32_t const& __cordl_internal_get___l__initialThreadId() const;
 
-  constexpr int32_t& __cordl_internal_get___l__initialThreadId();
+constexpr int32_t& __cordl_internal_get___l__initialThreadId() ;
 
-  constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*& __cordl_internal_get_packDefinitions();
+constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*& __cordl_internal_get_packDefinitions() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*> const& __cordl_internal_get_packDefinitions() const;
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*> const& __cordl_internal_get_packDefinitions() const;
 
-  constexpr void __cordl_internal_set___1__state(int32_t value);
+constexpr void __cordl_internal_set___1__state(int32_t  value) ;
 
-  constexpr void __cordl_internal_set___2__current(::UnityW<::GlobalNamespace::PerceivedLoudnessSO> value);
+constexpr void __cordl_internal_set___2__current(::UnityW<::GlobalNamespace::PerceivedLoudnessSO>  value) ;
 
-  constexpr void __cordl_internal_set___3__packDefinitions(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* value);
+constexpr void __cordl_internal_set___3__packDefinitions(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*  value) ;
 
-  constexpr void __cordl_internal_set___7__wrap1(::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* value);
+constexpr void __cordl_internal_set___7__wrap1(::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*  value) ;
 
-  constexpr void __cordl_internal_set___l__initialThreadId(int32_t value);
+constexpr void __cordl_internal_set___l__initialThreadId(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_packDefinitions(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* value);
+constexpr void __cordl_internal_set_packDefinitions(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*  value) ;
 
-  /// @brief Method <>m__Finally1, addr 0x14d7a58, size 0xb0, virtual false, abstract: false, final false
-  inline void __m__Finally1();
+/// @brief Method <>m__Finally1, addr 0x26837a8, size 0xb0, virtual false, abstract: false, final false
+inline void __m__Finally1() ;
 
-  /// @brief Method .ctor, addr 0x14d4c20, size 0x34, virtual false, abstract: false, final false
-  inline void _ctor(int32_t __1__state);
+/// @brief Method .ctor, addr 0x2681ce0, size 0x34, virtual false, abstract: false, final false
+inline void _ctor(int32_t  __1__state) ;
 
-  /// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PerceivedLoudnessSO>>"
-  constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PerceivedLoudnessSO>>*
-  i___System__Collections__Generic__IEnumerable_1___UnityW___GlobalNamespace__PerceivedLoudnessSO__() noexcept;
+/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PerceivedLoudnessSO>>"
+constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PerceivedLoudnessSO>>* i___System__Collections__Generic__IEnumerable_1___UnityW___GlobalNamespace__PerceivedLoudnessSO__() noexcept;
 
-  /// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PerceivedLoudnessSO>>"
-  constexpr ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PerceivedLoudnessSO>>*
-  i___System__Collections__Generic__IEnumerator_1___UnityW___GlobalNamespace__PerceivedLoudnessSO__() noexcept;
+/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PerceivedLoudnessSO>>"
+constexpr ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PerceivedLoudnessSO>>* i___System__Collections__Generic__IEnumerator_1___UnityW___GlobalNamespace__PerceivedLoudnessSO__() noexcept;
 
-  /// @brief Convert to "::System::Collections::IEnumerable"
-  constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
+/// @brief Convert to "::System::Collections::IEnumerable"
+constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
 
-  /// @brief Convert to "::System::Collections::IEnumerator"
-  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+/// @brief Convert to "::System::Collections::IEnumerator"
+constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
-  /// @brief Convert to "::System::IDisposable"
-  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+/// @brief Convert to "::System::IDisposable"
+constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __PackDefinitionExtensions___GetPerceivedLoudnessSOs_d__9();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __PackDefinitionExtensions___GetPerceivedLoudnessSOs_d__9() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__PackDefinitionExtensions___GetPerceivedLoudnessSOs_d__9", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __PackDefinitionExtensions___GetPerceivedLoudnessSOs_d__9(__PackDefinitionExtensions___GetPerceivedLoudnessSOs_d__9&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__PackDefinitionExtensions___GetPerceivedLoudnessSOs_d__9", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __PackDefinitionExtensions___GetPerceivedLoudnessSOs_d__9(__PackDefinitionExtensions___GetPerceivedLoudnessSOs_d__9 const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__PackDefinitionExtensions___GetPerceivedLoudnessSOs_d__9", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__PackDefinitionExtensions___GetPerceivedLoudnessSOs_d__9(__PackDefinitionExtensions___GetPerceivedLoudnessSOs_d__9 && ) = delete;
 
-  /// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
-  int32_t _____1__state;
+// Ctor Parameters [CppParam { name: "", ty: "__PackDefinitionExtensions___GetPerceivedLoudnessSOs_d__9", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__PackDefinitionExtensions___GetPerceivedLoudnessSOs_d__9(__PackDefinitionExtensions___GetPerceivedLoudnessSOs_d__9 const& ) = delete;
 
-  /// @brief Field <>2__current, offset: 0x18, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::PerceivedLoudnessSO> _____2__current;
+/// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
+ int32_t  _____1__state;
 
-  /// @brief Field <>l__initialThreadId, offset: 0x20, size: 0x4, def value: None
-  int32_t _____l__initialThreadId;
+/// @brief Field <>2__current, offset: 0x18, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::PerceivedLoudnessSO>  _____2__current;
 
-  /// @brief Field packDefinitions, offset: 0x28, size: 0x8, def value: None
-  ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* ___packDefinitions;
+/// @brief Field <>l__initialThreadId, offset: 0x20, size: 0x4, def value: None
+ int32_t  _____l__initialThreadId;
 
-  /// @brief Field <>3__packDefinitions, offset: 0x30, size: 0x8, def value: None
-  ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* _____3__packDefinitions;
+/// @brief Field packDefinitions, offset: 0x28, size: 0x8, def value: None
+ ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*  ___packDefinitions;
 
-  /// @brief Field <>7__wrap1, offset: 0x38, size: 0x8, def value: None
-  ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* _____7__wrap1;
+/// @brief Field <>3__packDefinitions, offset: 0x30, size: 0x8, def value: None
+ ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*  _____3__packDefinitions;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field <>7__wrap1, offset: 0x38, size: 0x8, def value: None
+ ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*  _____7__wrap1;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__PackDefinitionExtensions___GetPerceivedLoudnessSOs_d__9, 0x40>, "Size mismatch!");
@@ -1934,95 +1175,785 @@ static_assert(offsetof(::GlobalNamespace::__PackDefinitionExtensions___GetPercei
 
 static_assert(offsetof(::GlobalNamespace::__PackDefinitionExtensions___GetPerceivedLoudnessSOs_d__9, _____7__wrap1) == 0x38, "Offset mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
+// Type: ::<GetQuestLeaderboardIds>d__0
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
+namespace GlobalNamespace {
+// Is value type: false
+// CS Name: ::PackDefinitionExtensions::<GetQuestLeaderboardIds>d__0*
+class CORDL_TYPE __PackDefinitionExtensions___GetQuestLeaderboardIds_d__0 : public ::System::Object {
+public:
+// Declarations
+ __declspec(property(get=System_Collections_Generic_IEnumerator_LeaderboardIdsSO__get_Current)) ::UnityW<::GlobalNamespace::LeaderboardIdsSO>  System_Collections_Generic_IEnumerator_LeaderboardIdsSO__Current;
+
+ __declspec(property(get=System_Collections_IEnumerator_get_Current)) ::System::Object*  System_Collections_IEnumerator_Current;
+
+/// @brief Field <>1__state, offset 0x10, size 0x4 
+ __declspec(property(get=__cordl_internal_get___1__state, put=__cordl_internal_set___1__state)) int32_t  __1__state;
+
+/// @brief Field <>2__current, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get___2__current, put=__cordl_internal_set___2__current)) ::UnityW<::GlobalNamespace::LeaderboardIdsSO>  __2__current;
+
+/// @brief Field <>3__packDefinitions, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get___3__packDefinitions, put=__cordl_internal_set___3__packDefinitions)) ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*  __3__packDefinitions;
+
+/// @brief Field <>7__wrap1, offset 0x38, size 0x8 
+ __declspec(property(get=__cordl_internal_get___7__wrap1, put=__cordl_internal_set___7__wrap1)) ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*  __7__wrap1;
+
+/// @brief Field <>l__initialThreadId, offset 0x20, size 0x4 
+ __declspec(property(get=__cordl_internal_get___l__initialThreadId, put=__cordl_internal_set___l__initialThreadId)) int32_t  __l__initialThreadId;
+
+/// @brief Field packDefinitions, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get_packDefinitions, put=__cordl_internal_set_packDefinitions)) ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*  packDefinitions;
+
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>"
+constexpr operator  ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>*() noexcept;
+
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>"
+constexpr operator  ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>*() noexcept;
+
+/// @brief Convert operator to "::System::Collections::IEnumerable"
+constexpr operator  ::System::Collections::IEnumerable*() noexcept;
+
+/// @brief Convert operator to "::System::Collections::IEnumerator"
+constexpr operator  ::System::Collections::IEnumerator*() noexcept;
+
+/// @brief Convert operator to "::System::IDisposable"
+constexpr operator  ::System::IDisposable*() noexcept;
+
+/// @brief Method MoveNext, addr 0x268395c, size 0x304, virtual true, abstract: false, final true
+inline bool MoveNext() ;
+
+static inline ::GlobalNamespace::__PackDefinitionExtensions___GetQuestLeaderboardIds_d__0* New_ctor(int32_t  __1__state) ;
+
+/// @brief Method System.Collections.Generic.IEnumerable<LeaderboardIdsSO>.GetEnumerator, addr 0x2683d58, size 0x9c, virtual true, abstract: false, final true
+inline ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>* System_Collections_Generic_IEnumerable_LeaderboardIdsSO__GetEnumerator() ;
+
+/// @brief Method System.Collections.Generic.IEnumerator<LeaderboardIdsSO>.get_Current, addr 0x2683d10, size 0x8, virtual true, abstract: false, final true
+inline ::UnityW<::GlobalNamespace::LeaderboardIdsSO> System_Collections_Generic_IEnumerator_LeaderboardIdsSO__get_Current() ;
+
+/// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x2683df4, size 0x4, virtual true, abstract: false, final true
+inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator() ;
+
+/// @brief Method System.Collections.IEnumerator.Reset, addr 0x2683d18, size 0x38, virtual true, abstract: false, final true
+inline void System_Collections_IEnumerator_Reset() ;
+
+/// @brief Method System.Collections.IEnumerator.get_Current, addr 0x2683d50, size 0x8, virtual true, abstract: false, final true
+inline ::System::Object* System_Collections_IEnumerator_get_Current() ;
+
+/// @brief Method System.IDisposable.Dispose, addr 0x2683940, size 0x1c, virtual true, abstract: false, final true
+inline void System_IDisposable_Dispose() ;
+
+constexpr int32_t const& __cordl_internal_get___1__state() const;
+
+constexpr int32_t& __cordl_internal_get___1__state() ;
+
+constexpr ::UnityW<::GlobalNamespace::LeaderboardIdsSO> const& __cordl_internal_get___2__current() const;
+
+constexpr ::UnityW<::GlobalNamespace::LeaderboardIdsSO>& __cordl_internal_get___2__current() ;
+
+constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*& __cordl_internal_get___3__packDefinitions() ;
+
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*> const& __cordl_internal_get___3__packDefinitions() const;
+
+constexpr ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*& __cordl_internal_get___7__wrap1() ;
+
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*> const& __cordl_internal_get___7__wrap1() const;
+
+constexpr int32_t const& __cordl_internal_get___l__initialThreadId() const;
+
+constexpr int32_t& __cordl_internal_get___l__initialThreadId() ;
+
+constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*& __cordl_internal_get_packDefinitions() ;
+
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*> const& __cordl_internal_get_packDefinitions() const;
+
+constexpr void __cordl_internal_set___1__state(int32_t  value) ;
+
+constexpr void __cordl_internal_set___2__current(::UnityW<::GlobalNamespace::LeaderboardIdsSO>  value) ;
+
+constexpr void __cordl_internal_set___3__packDefinitions(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*  value) ;
+
+constexpr void __cordl_internal_set___7__wrap1(::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*  value) ;
+
+constexpr void __cordl_internal_set___l__initialThreadId(int32_t  value) ;
+
+constexpr void __cordl_internal_set_packDefinitions(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*  value) ;
+
+/// @brief Method <>m__Finally1, addr 0x2683c60, size 0xb0, virtual false, abstract: false, final false
+inline void __m__Finally1() ;
+
+/// @brief Method .ctor, addr 0x268171c, size 0x34, virtual false, abstract: false, final false
+inline void _ctor(int32_t  __1__state) ;
+
+/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>"
+constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>* i___System__Collections__Generic__IEnumerable_1___UnityW___GlobalNamespace__LeaderboardIdsSO__() noexcept;
+
+/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>"
+constexpr ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>* i___System__Collections__Generic__IEnumerator_1___UnityW___GlobalNamespace__LeaderboardIdsSO__() noexcept;
+
+/// @brief Convert to "::System::Collections::IEnumerable"
+constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
+
+/// @brief Convert to "::System::Collections::IEnumerator"
+constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
+/// @brief Convert to "::System::IDisposable"
+constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+constexpr __PackDefinitionExtensions___GetQuestLeaderboardIds_d__0() ;
+public:
+
+// Ctor Parameters [CppParam { name: "", ty: "__PackDefinitionExtensions___GetQuestLeaderboardIds_d__0", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__PackDefinitionExtensions___GetQuestLeaderboardIds_d__0(__PackDefinitionExtensions___GetQuestLeaderboardIds_d__0 && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "__PackDefinitionExtensions___GetQuestLeaderboardIds_d__0", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__PackDefinitionExtensions___GetQuestLeaderboardIds_d__0(__PackDefinitionExtensions___GetQuestLeaderboardIds_d__0 const& ) = delete;
+
+/// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
+ int32_t  _____1__state;
+
+/// @brief Field <>2__current, offset: 0x18, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::LeaderboardIdsSO>  _____2__current;
+
+/// @brief Field <>l__initialThreadId, offset: 0x20, size: 0x4, def value: None
+ int32_t  _____l__initialThreadId;
+
+/// @brief Field packDefinitions, offset: 0x28, size: 0x8, def value: None
+ ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*  ___packDefinitions;
+
+/// @brief Field <>3__packDefinitions, offset: 0x30, size: 0x8, def value: None
+ ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*  _____3__packDefinitions;
+
+/// @brief Field <>7__wrap1, offset: 0x38, size: 0x8, def value: None
+ ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*  _____7__wrap1;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__PackDefinitionExtensions___GetQuestLeaderboardIds_d__0, 0x40>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PackDefinitionExtensions___GetQuestLeaderboardIds_d__0, _____1__state) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PackDefinitionExtensions___GetQuestLeaderboardIds_d__0, _____2__current) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PackDefinitionExtensions___GetQuestLeaderboardIds_d__0, _____l__initialThreadId) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PackDefinitionExtensions___GetQuestLeaderboardIds_d__0, ___packDefinitions) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PackDefinitionExtensions___GetQuestLeaderboardIds_d__0, _____3__packDefinitions) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PackDefinitionExtensions___GetQuestLeaderboardIds_d__0, _____7__wrap1) == 0x38, "Offset mismatch!");
+
+} // namespace end def GlobalNamespace
+// Type: ::<GetRiftLeaderboardIds>d__1
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
+namespace GlobalNamespace {
+// Is value type: false
+// CS Name: ::PackDefinitionExtensions::<GetRiftLeaderboardIds>d__1*
+class CORDL_TYPE __PackDefinitionExtensions___GetRiftLeaderboardIds_d__1 : public ::System::Object {
+public:
+// Declarations
+ __declspec(property(get=System_Collections_Generic_IEnumerator_LeaderboardIdsSO__get_Current)) ::UnityW<::GlobalNamespace::LeaderboardIdsSO>  System_Collections_Generic_IEnumerator_LeaderboardIdsSO__Current;
+
+ __declspec(property(get=System_Collections_IEnumerator_get_Current)) ::System::Object*  System_Collections_IEnumerator_Current;
+
+/// @brief Field <>1__state, offset 0x10, size 0x4 
+ __declspec(property(get=__cordl_internal_get___1__state, put=__cordl_internal_set___1__state)) int32_t  __1__state;
+
+/// @brief Field <>2__current, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get___2__current, put=__cordl_internal_set___2__current)) ::UnityW<::GlobalNamespace::LeaderboardIdsSO>  __2__current;
+
+/// @brief Field <>3__packDefinitions, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get___3__packDefinitions, put=__cordl_internal_set___3__packDefinitions)) ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*  __3__packDefinitions;
+
+/// @brief Field <>7__wrap1, offset 0x38, size 0x8 
+ __declspec(property(get=__cordl_internal_get___7__wrap1, put=__cordl_internal_set___7__wrap1)) ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*  __7__wrap1;
+
+/// @brief Field <>l__initialThreadId, offset 0x20, size 0x4 
+ __declspec(property(get=__cordl_internal_get___l__initialThreadId, put=__cordl_internal_set___l__initialThreadId)) int32_t  __l__initialThreadId;
+
+/// @brief Field packDefinitions, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get_packDefinitions, put=__cordl_internal_set_packDefinitions)) ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*  packDefinitions;
+
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>"
+constexpr operator  ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>*() noexcept;
+
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>"
+constexpr operator  ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>*() noexcept;
+
+/// @brief Convert operator to "::System::Collections::IEnumerable"
+constexpr operator  ::System::Collections::IEnumerable*() noexcept;
+
+/// @brief Convert operator to "::System::Collections::IEnumerator"
+constexpr operator  ::System::Collections::IEnumerator*() noexcept;
+
+/// @brief Convert operator to "::System::IDisposable"
+constexpr operator  ::System::IDisposable*() noexcept;
+
+/// @brief Method MoveNext, addr 0x2683e14, size 0x304, virtual true, abstract: false, final true
+inline bool MoveNext() ;
+
+static inline ::GlobalNamespace::__PackDefinitionExtensions___GetRiftLeaderboardIds_d__1* New_ctor(int32_t  __1__state) ;
+
+/// @brief Method System.Collections.Generic.IEnumerable<LeaderboardIdsSO>.GetEnumerator, addr 0x2684210, size 0x9c, virtual true, abstract: false, final true
+inline ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>* System_Collections_Generic_IEnumerable_LeaderboardIdsSO__GetEnumerator() ;
+
+/// @brief Method System.Collections.Generic.IEnumerator<LeaderboardIdsSO>.get_Current, addr 0x26841c8, size 0x8, virtual true, abstract: false, final true
+inline ::UnityW<::GlobalNamespace::LeaderboardIdsSO> System_Collections_Generic_IEnumerator_LeaderboardIdsSO__get_Current() ;
+
+/// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x26842ac, size 0x4, virtual true, abstract: false, final true
+inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator() ;
+
+/// @brief Method System.Collections.IEnumerator.Reset, addr 0x26841d0, size 0x38, virtual true, abstract: false, final true
+inline void System_Collections_IEnumerator_Reset() ;
+
+/// @brief Method System.Collections.IEnumerator.get_Current, addr 0x2684208, size 0x8, virtual true, abstract: false, final true
+inline ::System::Object* System_Collections_IEnumerator_get_Current() ;
+
+/// @brief Method System.IDisposable.Dispose, addr 0x2683df8, size 0x1c, virtual true, abstract: false, final true
+inline void System_IDisposable_Dispose() ;
+
+constexpr int32_t const& __cordl_internal_get___1__state() const;
+
+constexpr int32_t& __cordl_internal_get___1__state() ;
+
+constexpr ::UnityW<::GlobalNamespace::LeaderboardIdsSO> const& __cordl_internal_get___2__current() const;
+
+constexpr ::UnityW<::GlobalNamespace::LeaderboardIdsSO>& __cordl_internal_get___2__current() ;
+
+constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*& __cordl_internal_get___3__packDefinitions() ;
+
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*> const& __cordl_internal_get___3__packDefinitions() const;
+
+constexpr ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*& __cordl_internal_get___7__wrap1() ;
+
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*> const& __cordl_internal_get___7__wrap1() const;
+
+constexpr int32_t const& __cordl_internal_get___l__initialThreadId() const;
+
+constexpr int32_t& __cordl_internal_get___l__initialThreadId() ;
+
+constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*& __cordl_internal_get_packDefinitions() ;
+
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*> const& __cordl_internal_get_packDefinitions() const;
+
+constexpr void __cordl_internal_set___1__state(int32_t  value) ;
+
+constexpr void __cordl_internal_set___2__current(::UnityW<::GlobalNamespace::LeaderboardIdsSO>  value) ;
+
+constexpr void __cordl_internal_set___3__packDefinitions(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*  value) ;
+
+constexpr void __cordl_internal_set___7__wrap1(::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*  value) ;
+
+constexpr void __cordl_internal_set___l__initialThreadId(int32_t  value) ;
+
+constexpr void __cordl_internal_set_packDefinitions(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*  value) ;
+
+/// @brief Method <>m__Finally1, addr 0x2684118, size 0xb0, virtual false, abstract: false, final false
+inline void __m__Finally1() ;
+
+/// @brief Method .ctor, addr 0x26817c0, size 0x34, virtual false, abstract: false, final false
+inline void _ctor(int32_t  __1__state) ;
+
+/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>"
+constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>* i___System__Collections__Generic__IEnumerable_1___UnityW___GlobalNamespace__LeaderboardIdsSO__() noexcept;
+
+/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>"
+constexpr ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>* i___System__Collections__Generic__IEnumerator_1___UnityW___GlobalNamespace__LeaderboardIdsSO__() noexcept;
+
+/// @brief Convert to "::System::Collections::IEnumerable"
+constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
+
+/// @brief Convert to "::System::Collections::IEnumerator"
+constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
+/// @brief Convert to "::System::IDisposable"
+constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+constexpr __PackDefinitionExtensions___GetRiftLeaderboardIds_d__1() ;
+public:
+
+// Ctor Parameters [CppParam { name: "", ty: "__PackDefinitionExtensions___GetRiftLeaderboardIds_d__1", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__PackDefinitionExtensions___GetRiftLeaderboardIds_d__1(__PackDefinitionExtensions___GetRiftLeaderboardIds_d__1 && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "__PackDefinitionExtensions___GetRiftLeaderboardIds_d__1", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__PackDefinitionExtensions___GetRiftLeaderboardIds_d__1(__PackDefinitionExtensions___GetRiftLeaderboardIds_d__1 const& ) = delete;
+
+/// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
+ int32_t  _____1__state;
+
+/// @brief Field <>2__current, offset: 0x18, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::LeaderboardIdsSO>  _____2__current;
+
+/// @brief Field <>l__initialThreadId, offset: 0x20, size: 0x4, def value: None
+ int32_t  _____l__initialThreadId;
+
+/// @brief Field packDefinitions, offset: 0x28, size: 0x8, def value: None
+ ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*  ___packDefinitions;
+
+/// @brief Field <>3__packDefinitions, offset: 0x30, size: 0x8, def value: None
+ ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*  _____3__packDefinitions;
+
+/// @brief Field <>7__wrap1, offset: 0x38, size: 0x8, def value: None
+ ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*  _____7__wrap1;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__PackDefinitionExtensions___GetRiftLeaderboardIds_d__1, 0x40>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PackDefinitionExtensions___GetRiftLeaderboardIds_d__1, _____1__state) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PackDefinitionExtensions___GetRiftLeaderboardIds_d__1, _____2__current) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PackDefinitionExtensions___GetRiftLeaderboardIds_d__1, _____l__initialThreadId) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PackDefinitionExtensions___GetRiftLeaderboardIds_d__1, ___packDefinitions) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PackDefinitionExtensions___GetRiftLeaderboardIds_d__1, _____3__packDefinitions) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PackDefinitionExtensions___GetRiftLeaderboardIds_d__1, _____7__wrap1) == 0x38, "Offset mismatch!");
+
+} // namespace end def GlobalNamespace
+// Type: ::<GetSteamLeaderboardIds>d__2
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
+namespace GlobalNamespace {
+// Is value type: false
+// CS Name: ::PackDefinitionExtensions::<GetSteamLeaderboardIds>d__2*
+class CORDL_TYPE __PackDefinitionExtensions___GetSteamLeaderboardIds_d__2 : public ::System::Object {
+public:
+// Declarations
+ __declspec(property(get=System_Collections_Generic_IEnumerator_LeaderboardIdsSO__get_Current)) ::UnityW<::GlobalNamespace::LeaderboardIdsSO>  System_Collections_Generic_IEnumerator_LeaderboardIdsSO__Current;
+
+ __declspec(property(get=System_Collections_IEnumerator_get_Current)) ::System::Object*  System_Collections_IEnumerator_Current;
+
+/// @brief Field <>1__state, offset 0x10, size 0x4 
+ __declspec(property(get=__cordl_internal_get___1__state, put=__cordl_internal_set___1__state)) int32_t  __1__state;
+
+/// @brief Field <>2__current, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get___2__current, put=__cordl_internal_set___2__current)) ::UnityW<::GlobalNamespace::LeaderboardIdsSO>  __2__current;
+
+/// @brief Field <>3__packDefinitions, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get___3__packDefinitions, put=__cordl_internal_set___3__packDefinitions)) ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*  __3__packDefinitions;
+
+/// @brief Field <>7__wrap1, offset 0x38, size 0x8 
+ __declspec(property(get=__cordl_internal_get___7__wrap1, put=__cordl_internal_set___7__wrap1)) ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*  __7__wrap1;
+
+/// @brief Field <>l__initialThreadId, offset 0x20, size 0x4 
+ __declspec(property(get=__cordl_internal_get___l__initialThreadId, put=__cordl_internal_set___l__initialThreadId)) int32_t  __l__initialThreadId;
+
+/// @brief Field packDefinitions, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get_packDefinitions, put=__cordl_internal_set_packDefinitions)) ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*  packDefinitions;
+
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>"
+constexpr operator  ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>*() noexcept;
+
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>"
+constexpr operator  ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>*() noexcept;
+
+/// @brief Convert operator to "::System::Collections::IEnumerable"
+constexpr operator  ::System::Collections::IEnumerable*() noexcept;
+
+/// @brief Convert operator to "::System::Collections::IEnumerator"
+constexpr operator  ::System::Collections::IEnumerator*() noexcept;
+
+/// @brief Convert operator to "::System::IDisposable"
+constexpr operator  ::System::IDisposable*() noexcept;
+
+/// @brief Method MoveNext, addr 0x26842cc, size 0x304, virtual true, abstract: false, final true
+inline bool MoveNext() ;
+
+static inline ::GlobalNamespace::__PackDefinitionExtensions___GetSteamLeaderboardIds_d__2* New_ctor(int32_t  __1__state) ;
+
+/// @brief Method System.Collections.Generic.IEnumerable<LeaderboardIdsSO>.GetEnumerator, addr 0x26846c8, size 0x9c, virtual true, abstract: false, final true
+inline ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>* System_Collections_Generic_IEnumerable_LeaderboardIdsSO__GetEnumerator() ;
+
+/// @brief Method System.Collections.Generic.IEnumerator<LeaderboardIdsSO>.get_Current, addr 0x2684680, size 0x8, virtual true, abstract: false, final true
+inline ::UnityW<::GlobalNamespace::LeaderboardIdsSO> System_Collections_Generic_IEnumerator_LeaderboardIdsSO__get_Current() ;
+
+/// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x2684764, size 0x4, virtual true, abstract: false, final true
+inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator() ;
+
+/// @brief Method System.Collections.IEnumerator.Reset, addr 0x2684688, size 0x38, virtual true, abstract: false, final true
+inline void System_Collections_IEnumerator_Reset() ;
+
+/// @brief Method System.Collections.IEnumerator.get_Current, addr 0x26846c0, size 0x8, virtual true, abstract: false, final true
+inline ::System::Object* System_Collections_IEnumerator_get_Current() ;
+
+/// @brief Method System.IDisposable.Dispose, addr 0x26842b0, size 0x1c, virtual true, abstract: false, final true
+inline void System_IDisposable_Dispose() ;
+
+constexpr int32_t const& __cordl_internal_get___1__state() const;
+
+constexpr int32_t& __cordl_internal_get___1__state() ;
+
+constexpr ::UnityW<::GlobalNamespace::LeaderboardIdsSO> const& __cordl_internal_get___2__current() const;
+
+constexpr ::UnityW<::GlobalNamespace::LeaderboardIdsSO>& __cordl_internal_get___2__current() ;
+
+constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*& __cordl_internal_get___3__packDefinitions() ;
+
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*> const& __cordl_internal_get___3__packDefinitions() const;
+
+constexpr ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*& __cordl_internal_get___7__wrap1() ;
+
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*> const& __cordl_internal_get___7__wrap1() const;
+
+constexpr int32_t const& __cordl_internal_get___l__initialThreadId() const;
+
+constexpr int32_t& __cordl_internal_get___l__initialThreadId() ;
+
+constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*& __cordl_internal_get_packDefinitions() ;
+
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*> const& __cordl_internal_get_packDefinitions() const;
+
+constexpr void __cordl_internal_set___1__state(int32_t  value) ;
+
+constexpr void __cordl_internal_set___2__current(::UnityW<::GlobalNamespace::LeaderboardIdsSO>  value) ;
+
+constexpr void __cordl_internal_set___3__packDefinitions(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*  value) ;
+
+constexpr void __cordl_internal_set___7__wrap1(::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*  value) ;
+
+constexpr void __cordl_internal_set___l__initialThreadId(int32_t  value) ;
+
+constexpr void __cordl_internal_set_packDefinitions(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*  value) ;
+
+/// @brief Method <>m__Finally1, addr 0x26845d0, size 0xb0, virtual false, abstract: false, final false
+inline void __m__Finally1() ;
+
+/// @brief Method .ctor, addr 0x2681864, size 0x34, virtual false, abstract: false, final false
+inline void _ctor(int32_t  __1__state) ;
+
+/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>"
+constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>* i___System__Collections__Generic__IEnumerable_1___UnityW___GlobalNamespace__LeaderboardIdsSO__() noexcept;
+
+/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>"
+constexpr ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>* i___System__Collections__Generic__IEnumerator_1___UnityW___GlobalNamespace__LeaderboardIdsSO__() noexcept;
+
+/// @brief Convert to "::System::Collections::IEnumerable"
+constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
+
+/// @brief Convert to "::System::Collections::IEnumerator"
+constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
+/// @brief Convert to "::System::IDisposable"
+constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+constexpr __PackDefinitionExtensions___GetSteamLeaderboardIds_d__2() ;
+public:
+
+// Ctor Parameters [CppParam { name: "", ty: "__PackDefinitionExtensions___GetSteamLeaderboardIds_d__2", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__PackDefinitionExtensions___GetSteamLeaderboardIds_d__2(__PackDefinitionExtensions___GetSteamLeaderboardIds_d__2 && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "__PackDefinitionExtensions___GetSteamLeaderboardIds_d__2", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__PackDefinitionExtensions___GetSteamLeaderboardIds_d__2(__PackDefinitionExtensions___GetSteamLeaderboardIds_d__2 const& ) = delete;
+
+/// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
+ int32_t  _____1__state;
+
+/// @brief Field <>2__current, offset: 0x18, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::LeaderboardIdsSO>  _____2__current;
+
+/// @brief Field <>l__initialThreadId, offset: 0x20, size: 0x4, def value: None
+ int32_t  _____l__initialThreadId;
+
+/// @brief Field packDefinitions, offset: 0x28, size: 0x8, def value: None
+ ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*  ___packDefinitions;
+
+/// @brief Field <>3__packDefinitions, offset: 0x30, size: 0x8, def value: None
+ ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*  _____3__packDefinitions;
+
+/// @brief Field <>7__wrap1, offset: 0x38, size: 0x8, def value: None
+ ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*  _____7__wrap1;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__PackDefinitionExtensions___GetSteamLeaderboardIds_d__2, 0x40>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PackDefinitionExtensions___GetSteamLeaderboardIds_d__2, _____1__state) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PackDefinitionExtensions___GetSteamLeaderboardIds_d__2, _____2__current) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PackDefinitionExtensions___GetSteamLeaderboardIds_d__2, _____l__initialThreadId) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PackDefinitionExtensions___GetSteamLeaderboardIds_d__2, ___packDefinitions) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PackDefinitionExtensions___GetSteamLeaderboardIds_d__2, _____3__packDefinitions) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PackDefinitionExtensions___GetSteamLeaderboardIds_d__2, _____7__wrap1) == 0x38, "Offset mismatch!");
+
+} // namespace end def GlobalNamespace
+// Type: ::<GetSteamLevelProductPacks>d__6
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
+namespace GlobalNamespace {
+// Is value type: false
+// CS Name: ::PackDefinitionExtensions::<GetSteamLevelProductPacks>d__6*
+class CORDL_TYPE __PackDefinitionExtensions___GetSteamLevelProductPacks_d__6 : public ::System::Object {
+public:
+// Declarations
+ __declspec(property(get=System_Collections_Generic_IEnumerator_SteamLevelProductPacksSO__get_Current)) ::UnityW<::GlobalNamespace::SteamLevelProductPacksSO>  System_Collections_Generic_IEnumerator_SteamLevelProductPacksSO__Current;
+
+ __declspec(property(get=System_Collections_IEnumerator_get_Current)) ::System::Object*  System_Collections_IEnumerator_Current;
+
+/// @brief Field <>1__state, offset 0x10, size 0x4 
+ __declspec(property(get=__cordl_internal_get___1__state, put=__cordl_internal_set___1__state)) int32_t  __1__state;
+
+/// @brief Field <>2__current, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get___2__current, put=__cordl_internal_set___2__current)) ::UnityW<::GlobalNamespace::SteamLevelProductPacksSO>  __2__current;
+
+/// @brief Field <>3__packDefinitions, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get___3__packDefinitions, put=__cordl_internal_set___3__packDefinitions)) ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*  __3__packDefinitions;
+
+/// @brief Field <>7__wrap1, offset 0x38, size 0x8 
+ __declspec(property(get=__cordl_internal_get___7__wrap1, put=__cordl_internal_set___7__wrap1)) ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*  __7__wrap1;
+
+/// @brief Field <>l__initialThreadId, offset 0x20, size 0x4 
+ __declspec(property(get=__cordl_internal_get___l__initialThreadId, put=__cordl_internal_set___l__initialThreadId)) int32_t  __l__initialThreadId;
+
+/// @brief Field packDefinitions, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get_packDefinitions, put=__cordl_internal_set_packDefinitions)) ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*  packDefinitions;
+
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SteamLevelProductPacksSO>>"
+constexpr operator  ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SteamLevelProductPacksSO>>*() noexcept;
+
+/// @brief Convert operator to "::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::SteamLevelProductPacksSO>>"
+constexpr operator  ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::SteamLevelProductPacksSO>>*() noexcept;
+
+/// @brief Convert operator to "::System::Collections::IEnumerable"
+constexpr operator  ::System::Collections::IEnumerable*() noexcept;
+
+/// @brief Convert operator to "::System::Collections::IEnumerator"
+constexpr operator  ::System::Collections::IEnumerator*() noexcept;
+
+/// @brief Convert operator to "::System::IDisposable"
+constexpr operator  ::System::IDisposable*() noexcept;
+
+/// @brief Method MoveNext, addr 0x2684784, size 0x304, virtual true, abstract: false, final true
+inline bool MoveNext() ;
+
+static inline ::GlobalNamespace::__PackDefinitionExtensions___GetSteamLevelProductPacks_d__6* New_ctor(int32_t  __1__state) ;
+
+/// @brief Method System.Collections.Generic.IEnumerable<SteamLevelProductPacksSO>.GetEnumerator, addr 0x2684b80, size 0x9c, virtual true, abstract: false, final true
+inline ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::SteamLevelProductPacksSO>>* System_Collections_Generic_IEnumerable_SteamLevelProductPacksSO__GetEnumerator() ;
+
+/// @brief Method System.Collections.Generic.IEnumerator<SteamLevelProductPacksSO>.get_Current, addr 0x2684b38, size 0x8, virtual true, abstract: false, final true
+inline ::UnityW<::GlobalNamespace::SteamLevelProductPacksSO> System_Collections_Generic_IEnumerator_SteamLevelProductPacksSO__get_Current() ;
+
+/// @brief Method System.Collections.IEnumerable.GetEnumerator, addr 0x2684c1c, size 0x4, virtual true, abstract: false, final true
+inline ::System::Collections::IEnumerator* System_Collections_IEnumerable_GetEnumerator() ;
+
+/// @brief Method System.Collections.IEnumerator.Reset, addr 0x2684b40, size 0x38, virtual true, abstract: false, final true
+inline void System_Collections_IEnumerator_Reset() ;
+
+/// @brief Method System.Collections.IEnumerator.get_Current, addr 0x2684b78, size 0x8, virtual true, abstract: false, final true
+inline ::System::Object* System_Collections_IEnumerator_get_Current() ;
+
+/// @brief Method System.IDisposable.Dispose, addr 0x2684768, size 0x1c, virtual true, abstract: false, final true
+inline void System_IDisposable_Dispose() ;
+
+constexpr int32_t const& __cordl_internal_get___1__state() const;
+
+constexpr int32_t& __cordl_internal_get___1__state() ;
+
+constexpr ::UnityW<::GlobalNamespace::SteamLevelProductPacksSO> const& __cordl_internal_get___2__current() const;
+
+constexpr ::UnityW<::GlobalNamespace::SteamLevelProductPacksSO>& __cordl_internal_get___2__current() ;
+
+constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*& __cordl_internal_get___3__packDefinitions() ;
+
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*> const& __cordl_internal_get___3__packDefinitions() const;
+
+constexpr ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*& __cordl_internal_get___7__wrap1() ;
+
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*> const& __cordl_internal_get___7__wrap1() const;
+
+constexpr int32_t const& __cordl_internal_get___l__initialThreadId() const;
+
+constexpr int32_t& __cordl_internal_get___l__initialThreadId() ;
+
+constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*& __cordl_internal_get_packDefinitions() ;
+
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*> const& __cordl_internal_get_packDefinitions() const;
+
+constexpr void __cordl_internal_set___1__state(int32_t  value) ;
+
+constexpr void __cordl_internal_set___2__current(::UnityW<::GlobalNamespace::SteamLevelProductPacksSO>  value) ;
+
+constexpr void __cordl_internal_set___3__packDefinitions(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*  value) ;
+
+constexpr void __cordl_internal_set___7__wrap1(::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*  value) ;
+
+constexpr void __cordl_internal_set___l__initialThreadId(int32_t  value) ;
+
+constexpr void __cordl_internal_set_packDefinitions(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*  value) ;
+
+/// @brief Method <>m__Finally1, addr 0x2684a88, size 0xb0, virtual false, abstract: false, final false
+inline void __m__Finally1() ;
+
+/// @brief Method .ctor, addr 0x2681af4, size 0x34, virtual false, abstract: false, final false
+inline void _ctor(int32_t  __1__state) ;
+
+/// @brief Convert to "::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SteamLevelProductPacksSO>>"
+constexpr ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SteamLevelProductPacksSO>>* i___System__Collections__Generic__IEnumerable_1___UnityW___GlobalNamespace__SteamLevelProductPacksSO__() noexcept;
+
+/// @brief Convert to "::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::SteamLevelProductPacksSO>>"
+constexpr ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::SteamLevelProductPacksSO>>* i___System__Collections__Generic__IEnumerator_1___UnityW___GlobalNamespace__SteamLevelProductPacksSO__() noexcept;
+
+/// @brief Convert to "::System::Collections::IEnumerable"
+constexpr ::System::Collections::IEnumerable* i___System__Collections__IEnumerable() noexcept;
+
+/// @brief Convert to "::System::Collections::IEnumerator"
+constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+
+/// @brief Convert to "::System::IDisposable"
+constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+
+protected:
+// Ctor Parameters []
+// @brief default ctor
+constexpr __PackDefinitionExtensions___GetSteamLevelProductPacks_d__6() ;
+public:
+
+// Ctor Parameters [CppParam { name: "", ty: "__PackDefinitionExtensions___GetSteamLevelProductPacks_d__6", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__PackDefinitionExtensions___GetSteamLevelProductPacks_d__6(__PackDefinitionExtensions___GetSteamLevelProductPacks_d__6 && ) = delete;
+
+// Ctor Parameters [CppParam { name: "", ty: "__PackDefinitionExtensions___GetSteamLevelProductPacks_d__6", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__PackDefinitionExtensions___GetSteamLevelProductPacks_d__6(__PackDefinitionExtensions___GetSteamLevelProductPacks_d__6 const& ) = delete;
+
+/// @brief Field <>1__state, offset: 0x10, size: 0x4, def value: None
+ int32_t  _____1__state;
+
+/// @brief Field <>2__current, offset: 0x18, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::SteamLevelProductPacksSO>  _____2__current;
+
+/// @brief Field <>l__initialThreadId, offset: 0x20, size: 0x4, def value: None
+ int32_t  _____l__initialThreadId;
+
+/// @brief Field packDefinitions, offset: 0x28, size: 0x8, def value: None
+ ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*  ___packDefinitions;
+
+/// @brief Field <>3__packDefinitions, offset: 0x30, size: 0x8, def value: None
+ ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*  _____3__packDefinitions;
+
+/// @brief Field <>7__wrap1, offset: 0x38, size: 0x8, def value: None
+ ::System::Collections::Generic::IEnumerator_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*  _____7__wrap1;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+};
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__PackDefinitionExtensions___GetSteamLevelProductPacks_d__6, 0x40>, "Size mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PackDefinitionExtensions___GetSteamLevelProductPacks_d__6, _____1__state) == 0x10, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PackDefinitionExtensions___GetSteamLevelProductPacks_d__6, _____2__current) == 0x18, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PackDefinitionExtensions___GetSteamLevelProductPacks_d__6, _____l__initialThreadId) == 0x20, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PackDefinitionExtensions___GetSteamLevelProductPacks_d__6, ___packDefinitions) == 0x28, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PackDefinitionExtensions___GetSteamLevelProductPacks_d__6, _____3__packDefinitions) == 0x30, "Offset mismatch!");
+
+static_assert(offsetof(::GlobalNamespace::__PackDefinitionExtensions___GetSteamLevelProductPacks_d__6, _____7__wrap1) == 0x38, "Offset mismatch!");
+
+} // namespace end def GlobalNamespace
 // Type: ::PackDefinitionExtensions
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::PackDefinitionExtensions*
 class CORDL_TYPE PackDefinitionExtensions : public ::System::Object {
 public:
-  // Declarations
-  using _GetOculusLevelProductPacks_d__5 = ::GlobalNamespace::__PackDefinitionExtensions___GetOculusLevelProductPacks_d__5;
+// Declarations
+using _GetOculusLevelProductPacks_d__5 = ::GlobalNamespace::__PackDefinitionExtensions___GetOculusLevelProductPacks_d__5;
 
-  using _GetPS4LeaderboardIds_d__3 = ::GlobalNamespace::__PackDefinitionExtensions___GetPS4LeaderboardIds_d__3;
+using _GetPS4LeaderboardIds_d__3 = ::GlobalNamespace::__PackDefinitionExtensions___GetPS4LeaderboardIds_d__3;
 
-  using _GetPS4LevelProductPacks_d__7 = ::GlobalNamespace::__PackDefinitionExtensions___GetPS4LevelProductPacks_d__7;
+using _GetPS4LevelProductPacks_d__7 = ::GlobalNamespace::__PackDefinitionExtensions___GetPS4LevelProductPacks_d__7;
 
-  using _GetPS5LeaderboardIds_d__4 = ::GlobalNamespace::__PackDefinitionExtensions___GetPS5LeaderboardIds_d__4;
+using _GetPS5LeaderboardIds_d__4 = ::GlobalNamespace::__PackDefinitionExtensions___GetPS5LeaderboardIds_d__4;
 
-  using _GetPS5LevelProductPacks_d__8 = ::GlobalNamespace::__PackDefinitionExtensions___GetPS5LevelProductPacks_d__8;
+using _GetPS5LevelProductPacks_d__8 = ::GlobalNamespace::__PackDefinitionExtensions___GetPS5LevelProductPacks_d__8;
 
-  using _GetPerceivedLoudnessSOs_d__9 = ::GlobalNamespace::__PackDefinitionExtensions___GetPerceivedLoudnessSOs_d__9;
+using _GetPerceivedLoudnessSOs_d__9 = ::GlobalNamespace::__PackDefinitionExtensions___GetPerceivedLoudnessSOs_d__9;
 
-  using _GetQuestLeaderboardIds_d__0 = ::GlobalNamespace::__PackDefinitionExtensions___GetQuestLeaderboardIds_d__0;
+using _GetQuestLeaderboardIds_d__0 = ::GlobalNamespace::__PackDefinitionExtensions___GetQuestLeaderboardIds_d__0;
 
-  using _GetRiftLeaderboardIds_d__1 = ::GlobalNamespace::__PackDefinitionExtensions___GetRiftLeaderboardIds_d__1;
+using _GetRiftLeaderboardIds_d__1 = ::GlobalNamespace::__PackDefinitionExtensions___GetRiftLeaderboardIds_d__1;
 
-  using _GetSteamLeaderboardIds_d__2 = ::GlobalNamespace::__PackDefinitionExtensions___GetSteamLeaderboardIds_d__2;
+using _GetSteamLeaderboardIds_d__2 = ::GlobalNamespace::__PackDefinitionExtensions___GetSteamLeaderboardIds_d__2;
 
-  using _GetSteamLevelProductPacks_d__6 = ::GlobalNamespace::__PackDefinitionExtensions___GetSteamLevelProductPacks_d__6;
+using _GetSteamLevelProductPacks_d__6 = ::GlobalNamespace::__PackDefinitionExtensions___GetSteamLevelProductPacks_d__6;
 
-  /// @brief Method GetOculusLevelProductPacks, addr 0x14d48f8, size 0x78, virtual false, abstract: false, final false
-  static inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::OculusLevelProductPacksSO>>*
-  GetOculusLevelProductPacks(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* packDefinitions);
+/// @brief Method GetOculusLevelProductPacks, addr 0x26819e0, size 0x70, virtual false, abstract: false, final false
+static inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::OculusLevelProductPacksSO>>* GetOculusLevelProductPacks(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*  packDefinitions) ;
 
-  /// @brief Method GetPS4LeaderboardIds, addr 0x14d47a0, size 0x78, virtual false, abstract: false, final false
-  static inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>*
-  GetPS4LeaderboardIds(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* packDefinitions);
+/// @brief Method GetPS4LeaderboardIds, addr 0x2681898, size 0x70, virtual false, abstract: false, final false
+static inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>* GetPS4LeaderboardIds(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*  packDefinitions) ;
 
-  /// @brief Method GetPS4LevelProductPacks, addr 0x14d4a50, size 0x78, virtual false, abstract: false, final false
-  static inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PS4LevelProductPacksSO>>*
-  GetPS4LevelProductPacks(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* packDefinitions);
+/// @brief Method GetPS4LevelProductPacks, addr 0x2681b28, size 0x70, virtual false, abstract: false, final false
+static inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PS4LevelProductPacksSO>>* GetPS4LevelProductPacks(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*  packDefinitions) ;
 
-  /// @brief Method GetPS5LeaderboardIds, addr 0x14d484c, size 0x78, virtual false, abstract: false, final false
-  static inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>*
-  GetPS5LeaderboardIds(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* packDefinitions);
+/// @brief Method GetPS5LeaderboardIds, addr 0x268193c, size 0x70, virtual false, abstract: false, final false
+static inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SonyLeaderboardIdsSO>>* GetPS5LeaderboardIds(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*  packDefinitions) ;
 
-  /// @brief Method GetPS5LevelProductPacks, addr 0x14d4afc, size 0x78, virtual false, abstract: false, final false
-  static inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PS5LevelProductPacksSO>>*
-  GetPS5LevelProductPacks(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* packDefinitions);
+/// @brief Method GetPS5LevelProductPacks, addr 0x2681bcc, size 0x70, virtual false, abstract: false, final false
+static inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PS5LevelProductPacksSO>>* GetPS5LevelProductPacks(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*  packDefinitions) ;
 
-  /// @brief Method GetPerceivedLoudnessSOs, addr 0x14d4ba8, size 0x78, virtual false, abstract: false, final false
-  static inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PerceivedLoudnessSO>>*
-  GetPerceivedLoudnessSOs(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* packDefinitions);
+/// @brief Method GetPerceivedLoudnessSOs, addr 0x2681c70, size 0x70, virtual false, abstract: false, final false
+static inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PerceivedLoudnessSO>>* GetPerceivedLoudnessSOs(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*  packDefinitions) ;
 
-  /// @brief Method GetQuestLeaderboardIds, addr 0x14d459c, size 0x78, virtual false, abstract: false, final false
-  static inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>*
-  GetQuestLeaderboardIds(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* packDefinitions);
+/// @brief Method GetQuestLeaderboardIds, addr 0x26816ac, size 0x70, virtual false, abstract: false, final false
+static inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>* GetQuestLeaderboardIds(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*  packDefinitions) ;
 
-  /// @brief Method GetRiftLeaderboardIds, addr 0x14d4648, size 0x78, virtual false, abstract: false, final false
-  static inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>*
-  GetRiftLeaderboardIds(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* packDefinitions);
+/// @brief Method GetRiftLeaderboardIds, addr 0x2681750, size 0x70, virtual false, abstract: false, final false
+static inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>* GetRiftLeaderboardIds(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*  packDefinitions) ;
 
-  /// @brief Method GetSteamLeaderboardIds, addr 0x14d46f4, size 0x78, virtual false, abstract: false, final false
-  static inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>*
-  GetSteamLeaderboardIds(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* packDefinitions);
+/// @brief Method GetSteamLeaderboardIds, addr 0x26817f4, size 0x70, virtual false, abstract: false, final false
+static inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::LeaderboardIdsSO>>* GetSteamLeaderboardIds(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*  packDefinitions) ;
 
-  /// @brief Method GetSteamLevelProductPacks, addr 0x14d49a4, size 0x78, virtual false, abstract: false, final false
-  static inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SteamLevelProductPacksSO>>*
-  GetSteamLevelProductPacks(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>* packDefinitions);
+/// @brief Method GetSteamLevelProductPacks, addr 0x2681a84, size 0x70, virtual false, abstract: false, final false
+static inline ::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::SteamLevelProductPacksSO>>* GetSteamLevelProductPacks(::System::Collections::Generic::IEnumerable_1<::UnityW<::GlobalNamespace::PackDefinitionSO>>*  packDefinitions) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PackDefinitionExtensions();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr PackDefinitionExtensions() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PackDefinitionExtensions", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  PackDefinitionExtensions(PackDefinitionExtensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PackDefinitionExtensions", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  PackDefinitionExtensions(PackDefinitionExtensions const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "PackDefinitionExtensions", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+PackDefinitionExtensions(PackDefinitionExtensions && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "PackDefinitionExtensions", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+PackDefinitionExtensions(PackDefinitionExtensions const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PackDefinitionExtensions, 0x10>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::PackDefinitionExtensions);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PackDefinitionExtensions*, "", "PackDefinitionExtensions");
 NEED_NO_BOX(::GlobalNamespace::__PackDefinitionExtensions___GetOculusLevelProductPacks_d__5);

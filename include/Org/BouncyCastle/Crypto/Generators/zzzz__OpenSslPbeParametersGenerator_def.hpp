@@ -21,75 +21,75 @@ class OpenSslPbeParametersGenerator;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Generators::OpenSslPbeParametersGenerator);
 // Type: Org.BouncyCastle.Crypto.Generators::OpenSslPbeParametersGenerator
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Generators {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Generators::OpenSslPbeParametersGenerator*
 class CORDL_TYPE OpenSslPbeParametersGenerator : public ::Org::BouncyCastle::Crypto::PbeParametersGenerator {
 public:
-  // Declarations
-  /// @brief Field digest, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_digest, put = __cordl_internal_set_digest))::Org::BouncyCastle::Crypto::IDigest* digest;
+// Declarations
+/// @brief Field digest, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get_digest, put=__cordl_internal_set_digest)) ::Org::BouncyCastle::Crypto::IDigest*  digest;
 
-  /// @brief Method GenerateDerivedKey, addr 0x1174098, size 0x384, virtual false, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GenerateDerivedKey(int32_t bytesNeeded);
+/// @brief Method GenerateDerivedKey, addr 0x2340b90, size 0x384, virtual false, abstract: false, final false
+inline ::ArrayW<uint8_t,::Array<uint8_t>*> GenerateDerivedKey(int32_t  bytesNeeded) ;
 
-  /// @brief Method GenerateDerivedMacParameters, addr 0x11746b8, size 0x9c, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Crypto::ICipherParameters* GenerateDerivedMacParameters(int32_t keySize);
+/// @brief Method GenerateDerivedMacParameters, addr 0x234119c, size 0x94, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Crypto::ICipherParameters* GenerateDerivedMacParameters(int32_t  keySize) ;
 
-  /// @brief Method GenerateDerivedParameters, addr 0x1174428, size 0x98, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Crypto::ICipherParameters* GenerateDerivedParameters(::StringW algorithm, int32_t keySize);
+/// @brief Method GenerateDerivedParameters, addr 0x2340f20, size 0x98, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Crypto::ICipherParameters* GenerateDerivedParameters(::StringW  algorithm, int32_t  keySize) ;
 
-  /// @brief Method GenerateDerivedParameters, addr 0x11745b4, size 0x104, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Crypto::ICipherParameters* GenerateDerivedParameters(::StringW algorithm, int32_t keySize, int32_t ivSize);
+/// @brief Method GenerateDerivedParameters, addr 0x23410a0, size 0xfc, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Crypto::ICipherParameters* GenerateDerivedParameters(::StringW  algorithm, int32_t  keySize, int32_t  ivSize) ;
 
-  /// @brief Method GenerateDerivedParameters, addr 0x117441c, size 0xc, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Crypto::ICipherParameters* GenerateDerivedParameters(int32_t keySize);
+/// @brief Method GenerateDerivedParameters, addr 0x2340f14, size 0xc, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Crypto::ICipherParameters* GenerateDerivedParameters(int32_t  keySize) ;
 
-  /// @brief Method GenerateDerivedParameters, addr 0x11744c0, size 0xf4, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Crypto::ICipherParameters* GenerateDerivedParameters(int32_t keySize, int32_t ivSize);
+/// @brief Method GenerateDerivedParameters, addr 0x2340fb8, size 0xe8, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Crypto::ICipherParameters* GenerateDerivedParameters(int32_t  keySize, int32_t  ivSize) ;
 
-  /// @brief Method Init, addr 0x1174090, size 0x8, virtual true, abstract: false, final false
-  inline void Init(::ArrayW<uint8_t, ::Array<uint8_t>*> password, ::ArrayW<uint8_t, ::Array<uint8_t>*> salt);
+/// @brief Method Init, addr 0x2340b88, size 0x8, virtual true, abstract: false, final false
+inline void Init(::ArrayW<uint8_t,::Array<uint8_t>*>  password, ::ArrayW<uint8_t,::Array<uint8_t>*>  salt) ;
 
-  /// @brief Method Init, addr 0x1174088, size 0x8, virtual true, abstract: false, final false
-  inline void Init(::ArrayW<uint8_t, ::Array<uint8_t>*> password, ::ArrayW<uint8_t, ::Array<uint8_t>*> salt, int32_t iterationCount);
+/// @brief Method Init, addr 0x2340b80, size 0x8, virtual true, abstract: false, final false
+inline void Init(::ArrayW<uint8_t,::Array<uint8_t>*>  password, ::ArrayW<uint8_t,::Array<uint8_t>*>  salt, int32_t  iterationCount) ;
 
-  static inline ::Org::BouncyCastle::Crypto::Generators::OpenSslPbeParametersGenerator* New_ctor();
+static inline ::Org::BouncyCastle::Crypto::Generators::OpenSslPbeParametersGenerator* New_ctor() ;
 
-  constexpr ::Org::BouncyCastle::Crypto::IDigest*& __cordl_internal_get_digest();
+constexpr ::Org::BouncyCastle::Crypto::IDigest*& __cordl_internal_get_digest() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IDigest*> const& __cordl_internal_get_digest() const;
+constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IDigest*> const& __cordl_internal_get_digest() const;
 
-  constexpr void __cordl_internal_set_digest(::Org::BouncyCastle::Crypto::IDigest* value);
+constexpr void __cordl_internal_set_digest(::Org::BouncyCastle::Crypto::IDigest*  value) ;
 
-  /// @brief Method .ctor, addr 0x1174020, size 0x68, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x2340b20, size 0x60, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr OpenSslPbeParametersGenerator();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr OpenSslPbeParametersGenerator() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OpenSslPbeParametersGenerator", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  OpenSslPbeParametersGenerator(OpenSslPbeParametersGenerator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OpenSslPbeParametersGenerator", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  OpenSslPbeParametersGenerator(OpenSslPbeParametersGenerator const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "OpenSslPbeParametersGenerator", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+OpenSslPbeParametersGenerator(OpenSslPbeParametersGenerator && ) = delete;
 
-  /// @brief Field digest, offset: 0x28, size: 0x8, def value: None
-  ::Org::BouncyCastle::Crypto::IDigest* ___digest;
+// Ctor Parameters [CppParam { name: "", ty: "OpenSslPbeParametersGenerator", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+OpenSslPbeParametersGenerator(OpenSslPbeParametersGenerator const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field digest, offset: 0x28, size: 0x8, def value: None
+ ::Org::BouncyCastle::Crypto::IDigest*  ___digest;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Generators::OpenSslPbeParametersGenerator, 0x30>, "Size mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Generators::OpenSslPbeParametersGenerator, ___digest) == 0x28, "Offset mismatch!");
 
-} // namespace Org::BouncyCastle::Crypto::Generators
+} // namespace end def Org::BouncyCastle::Crypto::Generators
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Generators::OpenSslPbeParametersGenerator);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Generators::OpenSslPbeParametersGenerator*, "Org.BouncyCastle.Crypto.Generators", "OpenSslPbeParametersGenerator");

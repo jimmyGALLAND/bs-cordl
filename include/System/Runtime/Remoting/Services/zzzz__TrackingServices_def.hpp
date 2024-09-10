@@ -21,48 +21,48 @@ class TrackingServices;
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Remoting::Services::TrackingServices);
 // Type: System.Runtime.Remoting.Services::TrackingServices
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Remoting::Services {
 // Is value type: false
 // CS Name: ::System.Runtime.Remoting.Services::TrackingServices*
 class CORDL_TYPE TrackingServices : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field _handlers, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF__handlers, put = setStaticF__handlers))::System::Collections::ArrayList* _handlers;
+// Declarations
+/// @brief Field _handlers, offset 0xffffffff, size 0x8 
+static __declspec(property(get=getStaticF__handlers, put=setStaticF__handlers)) ::System::Collections::ArrayList*  _handlers;
 
-  /// @brief Method NotifyDisconnectedObject, addr 0x2842704, size 0x304, virtual false, abstract: false, final false
-  static inline void NotifyDisconnectedObject(::System::Object* obj);
+/// @brief Method NotifyDisconnectedObject, addr 0x3c44a34, size 0x300, virtual false, abstract: false, final false
+static inline void NotifyDisconnectedObject(::System::Object*  obj) ;
 
-  /// @brief Method NotifyMarshaledObject, addr 0x283e8e4, size 0x310, virtual false, abstract: false, final false
-  static inline void NotifyMarshaledObject(::System::Object* obj, ::System::Runtime::Remoting::ObjRef* _cordl_or);
+/// @brief Method NotifyMarshaledObject, addr 0x3c40cb8, size 0x30c, virtual false, abstract: false, final false
+static inline void NotifyMarshaledObject(::System::Object*  obj, ::System::Runtime::Remoting::ObjRef*  _cordl_or) ;
 
-  /// @brief Method NotifyUnmarshaledObject, addr 0x283dc08, size 0x310, virtual false, abstract: false, final false
-  static inline void NotifyUnmarshaledObject(::System::Object* obj, ::System::Runtime::Remoting::ObjRef* _cordl_or);
+/// @brief Method NotifyUnmarshaledObject, addr 0x3c40080, size 0x30c, virtual false, abstract: false, final false
+static inline void NotifyUnmarshaledObject(::System::Object*  obj, ::System::Runtime::Remoting::ObjRef*  _cordl_or) ;
 
-  static inline ::System::Collections::ArrayList* getStaticF__handlers();
+static inline ::System::Collections::ArrayList* getStaticF__handlers() ;
 
-  static inline void setStaticF__handlers(::System::Collections::ArrayList* value);
+static inline void setStaticF__handlers(::System::Collections::ArrayList*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TrackingServices();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr TrackingServices() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TrackingServices", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  TrackingServices(TrackingServices&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TrackingServices", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  TrackingServices(TrackingServices const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "TrackingServices", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+TrackingServices(TrackingServices && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "TrackingServices", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+TrackingServices(TrackingServices const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Remoting::Services::TrackingServices, 0x10>, "Size mismatch!");
 
-} // namespace System::Runtime::Remoting::Services
+} // namespace end def System::Runtime::Remoting::Services
 NEED_NO_BOX(::System::Runtime::Remoting::Services::TrackingServices);
 DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Remoting::Services::TrackingServices*, "System.Runtime.Remoting.Services", "TrackingServices");

@@ -12,7 +12,8 @@ namespace GlobalNamespace {
 struct __PackedPlayModeBuildLogs__RuntimeBuildLog;
 }
 namespace System::Collections::Generic {
-template <typename T> class List_1;
+template<typename T>
+class List_1;
 }
 namespace UnityEngine {
 struct LogType;
@@ -28,33 +29,33 @@ struct __PackedPlayModeBuildLogs__RuntimeBuildLog;
 MARK_REF_PTR_T(::GlobalNamespace::PackedPlayModeBuildLogs);
 MARK_VAL_T(::GlobalNamespace::__PackedPlayModeBuildLogs__RuntimeBuildLog);
 // Type: ::RuntimeBuildLog
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::PackedPlayModeBuildLogs::RuntimeBuildLog
 struct CORDL_TYPE __PackedPlayModeBuildLogs__RuntimeBuildLog {
 public:
-  // Declarations
-  /// @brief Method .ctor, addr 0x30713d8, size 0xc, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::LogType type, ::StringW message);
+// Declarations
+/// @brief Method .ctor, addr 0x444a86c, size 0xc, virtual false, abstract: false, final false
+inline void _ctor(::UnityEngine::LogType  type, ::StringW  message) ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __PackedPlayModeBuildLogs__RuntimeBuildLog();
+// Ctor Parameters []
+// @brief default ctor
+constexpr __PackedPlayModeBuildLogs__RuntimeBuildLog() ;
 
-  // Ctor Parameters [CppParam { name: "Type", ty: "::UnityEngine::LogType", modifiers: "", def_value: None }, CppParam { name: "Message", ty: "::StringW", modifiers: "", def_value: None }]
-  constexpr __PackedPlayModeBuildLogs__RuntimeBuildLog(::UnityEngine::LogType Type, ::StringW Message) noexcept;
+// Ctor Parameters [CppParam { name: "Type", ty: "::UnityEngine::LogType", modifiers: "", def_value: None }, CppParam { name: "Message", ty: "::StringW", modifiers: "", def_value: None }]
+constexpr __PackedPlayModeBuildLogs__RuntimeBuildLog(::UnityEngine::LogType  Type, ::StringW  Message) noexcept;
 
-  /// @brief Field Type, offset: 0x0, size: 0x4, def value: None
-  ::UnityEngine::LogType Type;
+/// @brief Field Type, offset: 0x0, size: 0x4, def value: None
+ ::UnityEngine::LogType  Type;
 
-  /// @brief Field Message, offset: 0x8, size: 0x8, def value: None
-  ::StringW Message;
+/// @brief Field Message, offset: 0x8, size: 0x8, def value: None
+ ::StringW  Message;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x10};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__PackedPlayModeBuildLogs__RuntimeBuildLog, 0x10>, "Size mismatch!");
@@ -63,66 +64,64 @@ static_assert(offsetof(::GlobalNamespace::__PackedPlayModeBuildLogs__RuntimeBuil
 
 static_assert(offsetof(::GlobalNamespace::__PackedPlayModeBuildLogs__RuntimeBuildLog, Message) == 0x8, "Offset mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 // Type: ::PackedPlayModeBuildLogs
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::PackedPlayModeBuildLogs*
 class CORDL_TYPE PackedPlayModeBuildLogs : public ::System::Object {
 public:
-  // Declarations
-  using RuntimeBuildLog = ::GlobalNamespace::__PackedPlayModeBuildLogs__RuntimeBuildLog;
+// Declarations
+using RuntimeBuildLog = ::GlobalNamespace::__PackedPlayModeBuildLogs__RuntimeBuildLog;
 
-  __declspec(property(get = get_RuntimeBuildLogs, put = set_RuntimeBuildLogs))::System::Collections::Generic::List_1<::GlobalNamespace::__PackedPlayModeBuildLogs__RuntimeBuildLog>* RuntimeBuildLogs;
+ __declspec(property(get=get_RuntimeBuildLogs, put=set_RuntimeBuildLogs)) ::System::Collections::Generic::List_1<::GlobalNamespace::__PackedPlayModeBuildLogs__RuntimeBuildLog>*  RuntimeBuildLogs;
 
-  /// @brief Field m_RuntimeBuildLogs, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_RuntimeBuildLogs,
-                      put = __cordl_internal_set_m_RuntimeBuildLogs))::System::Collections::Generic::List_1<::GlobalNamespace::__PackedPlayModeBuildLogs__RuntimeBuildLog>* m_RuntimeBuildLogs;
+/// @brief Field m_RuntimeBuildLogs, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_RuntimeBuildLogs, put=__cordl_internal_set_m_RuntimeBuildLogs)) ::System::Collections::Generic::List_1<::GlobalNamespace::__PackedPlayModeBuildLogs__RuntimeBuildLog>*  m_RuntimeBuildLogs;
 
-  static inline ::GlobalNamespace::PackedPlayModeBuildLogs* New_ctor();
+static inline ::GlobalNamespace::PackedPlayModeBuildLogs* New_ctor() ;
 
-  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__PackedPlayModeBuildLogs__RuntimeBuildLog>*& __cordl_internal_get_m_RuntimeBuildLogs();
+constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__PackedPlayModeBuildLogs__RuntimeBuildLog>*& __cordl_internal_get_m_RuntimeBuildLogs() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__PackedPlayModeBuildLogs__RuntimeBuildLog>*> const&
-  __cordl_internal_get_m_RuntimeBuildLogs() const;
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__PackedPlayModeBuildLogs__RuntimeBuildLog>*> const& __cordl_internal_get_m_RuntimeBuildLogs() const;
 
-  constexpr void __cordl_internal_set_m_RuntimeBuildLogs(::System::Collections::Generic::List_1<::GlobalNamespace::__PackedPlayModeBuildLogs__RuntimeBuildLog>* value);
+constexpr void __cordl_internal_set_m_RuntimeBuildLogs(::System::Collections::Generic::List_1<::GlobalNamespace::__PackedPlayModeBuildLogs__RuntimeBuildLog>*  value) ;
 
-  /// @brief Method .ctor, addr 0x307135c, size 0x7c, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x444a7f0, size 0x7c, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_RuntimeBuildLogs, addr 0x307134c, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::List_1<::GlobalNamespace::__PackedPlayModeBuildLogs__RuntimeBuildLog>* get_RuntimeBuildLogs();
+/// @brief Method get_RuntimeBuildLogs, addr 0x444a7e0, size 0x8, virtual false, abstract: false, final false
+inline ::System::Collections::Generic::List_1<::GlobalNamespace::__PackedPlayModeBuildLogs__RuntimeBuildLog>* get_RuntimeBuildLogs() ;
 
-  /// @brief Method set_RuntimeBuildLogs, addr 0x3071354, size 0x8, virtual false, abstract: false, final false
-  inline void set_RuntimeBuildLogs(::System::Collections::Generic::List_1<::GlobalNamespace::__PackedPlayModeBuildLogs__RuntimeBuildLog>* value);
+/// @brief Method set_RuntimeBuildLogs, addr 0x444a7e8, size 0x8, virtual false, abstract: false, final false
+inline void set_RuntimeBuildLogs(::System::Collections::Generic::List_1<::GlobalNamespace::__PackedPlayModeBuildLogs__RuntimeBuildLog>*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PackedPlayModeBuildLogs();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr PackedPlayModeBuildLogs() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PackedPlayModeBuildLogs", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  PackedPlayModeBuildLogs(PackedPlayModeBuildLogs&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PackedPlayModeBuildLogs", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  PackedPlayModeBuildLogs(PackedPlayModeBuildLogs const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "PackedPlayModeBuildLogs", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+PackedPlayModeBuildLogs(PackedPlayModeBuildLogs && ) = delete;
 
-  /// @brief Field m_RuntimeBuildLogs, offset: 0x10, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::GlobalNamespace::__PackedPlayModeBuildLogs__RuntimeBuildLog>* ___m_RuntimeBuildLogs;
+// Ctor Parameters [CppParam { name: "", ty: "PackedPlayModeBuildLogs", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+PackedPlayModeBuildLogs(PackedPlayModeBuildLogs const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field m_RuntimeBuildLogs, offset: 0x10, size: 0x8, def value: None
+ ::System::Collections::Generic::List_1<::GlobalNamespace::__PackedPlayModeBuildLogs__RuntimeBuildLog>*  ___m_RuntimeBuildLogs;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PackedPlayModeBuildLogs, 0x18>, "Size mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::PackedPlayModeBuildLogs, ___m_RuntimeBuildLogs) == 0x10, "Offset mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::PackedPlayModeBuildLogs);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PackedPlayModeBuildLogs*, "", "PackedPlayModeBuildLogs");
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__PackedPlayModeBuildLogs__RuntimeBuildLog, "", "PackedPlayModeBuildLogs/RuntimeBuildLog");

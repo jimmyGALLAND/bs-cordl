@@ -25,92 +25,92 @@ class BaseNoteVisuals;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::BaseNoteVisuals);
 // Type: ::BaseNoteVisuals
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::BaseNoteVisuals*
 class CORDL_TYPE BaseNoteVisuals : public ::UnityEngine::MonoBehaviour {
 public:
-  // Declarations
-  /// @brief Field _cutoutAnimateEffect, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__cutoutAnimateEffect, put = __cordl_internal_set__cutoutAnimateEffect))::UnityW<::GlobalNamespace::CutoutAnimateEffect> _cutoutAnimateEffect;
+// Declarations
+/// @brief Field _cutoutAnimateEffect, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get__cutoutAnimateEffect, put=__cordl_internal_set__cutoutAnimateEffect)) ::UnityW<::GlobalNamespace::CutoutAnimateEffect>  _cutoutAnimateEffect;
 
-  /// @brief Field _noteController, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__noteController, put = __cordl_internal_set__noteController))::UnityW<::GlobalNamespace::NoteControllerBase> _noteController;
+/// @brief Field _noteController, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get__noteController, put=__cordl_internal_set__noteController)) ::UnityW<::GlobalNamespace::NoteControllerBase>  _noteController;
 
-  /// @brief Convert operator to "::GlobalNamespace::INoteControllerDidInitEvent"
-  constexpr operator ::GlobalNamespace::INoteControllerDidInitEvent*() noexcept;
+/// @brief Convert operator to "::GlobalNamespace::INoteControllerDidInitEvent"
+constexpr operator  ::GlobalNamespace::INoteControllerDidInitEvent*() noexcept;
 
-  /// @brief Convert operator to "::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent"
-  constexpr operator ::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent*() noexcept;
+/// @brief Convert operator to "::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent"
+constexpr operator  ::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent*() noexcept;
 
-  /// @brief Method AnimateCutout, addr 0x26466f0, size 0x2c, virtual false, abstract: false, final false
-  inline void AnimateCutout(float_t cutoutStart, float_t cutoutEnd, float_t duration);
+/// @brief Method AnimateCutout, addr 0x3a5daa4, size 0x2c, virtual false, abstract: false, final false
+inline void AnimateCutout(float_t  cutoutStart, float_t  cutoutEnd, float_t  duration) ;
 
-  /// @brief Method Awake, addr 0x26463f0, size 0x144, virtual false, abstract: false, final false
-  inline void Awake();
+/// @brief Method Awake, addr 0x3a5d7a4, size 0x144, virtual false, abstract: false, final false
+inline void Awake() ;
 
-  /// @brief Method HandleNoteControllerDidInit, addr 0x26466c4, size 0x1c, virtual true, abstract: false, final true
-  inline void HandleNoteControllerDidInit(::GlobalNamespace::NoteControllerBase* noteController);
+/// @brief Method HandleNoteControllerDidInit, addr 0x3a5da78, size 0x1c, virtual true, abstract: false, final true
+inline void HandleNoteControllerDidInit(::GlobalNamespace::NoteControllerBase*  noteController) ;
 
-  /// @brief Method HandleNoteControllerNoteDidStartDissolving, addr 0x26466e0, size 0x10, virtual true, abstract: false, final true
-  inline void HandleNoteControllerNoteDidStartDissolving(::GlobalNamespace::NoteControllerBase* noteController, float_t duration);
+/// @brief Method HandleNoteControllerNoteDidStartDissolving, addr 0x3a5da94, size 0x10, virtual true, abstract: false, final true
+inline void HandleNoteControllerNoteDidStartDissolving(::GlobalNamespace::NoteControllerBase*  noteController, float_t  duration) ;
 
-  static inline ::GlobalNamespace::BaseNoteVisuals* New_ctor();
+static inline ::GlobalNamespace::BaseNoteVisuals* New_ctor() ;
 
-  /// @brief Method OnDestroy, addr 0x2646534, size 0x190, virtual false, abstract: false, final false
-  inline void OnDestroy();
+/// @brief Method OnDestroy, addr 0x3a5d8e8, size 0x190, virtual false, abstract: false, final false
+inline void OnDestroy() ;
 
-  constexpr ::UnityW<::GlobalNamespace::CutoutAnimateEffect> const& __cordl_internal_get__cutoutAnimateEffect() const;
+constexpr ::UnityW<::GlobalNamespace::CutoutAnimateEffect> const& __cordl_internal_get__cutoutAnimateEffect() const;
 
-  constexpr ::UnityW<::GlobalNamespace::CutoutAnimateEffect>& __cordl_internal_get__cutoutAnimateEffect();
+constexpr ::UnityW<::GlobalNamespace::CutoutAnimateEffect>& __cordl_internal_get__cutoutAnimateEffect() ;
 
-  constexpr ::UnityW<::GlobalNamespace::NoteControllerBase> const& __cordl_internal_get__noteController() const;
+constexpr ::UnityW<::GlobalNamespace::NoteControllerBase> const& __cordl_internal_get__noteController() const;
 
-  constexpr ::UnityW<::GlobalNamespace::NoteControllerBase>& __cordl_internal_get__noteController();
+constexpr ::UnityW<::GlobalNamespace::NoteControllerBase>& __cordl_internal_get__noteController() ;
 
-  constexpr void __cordl_internal_set__cutoutAnimateEffect(::UnityW<::GlobalNamespace::CutoutAnimateEffect> value);
+constexpr void __cordl_internal_set__cutoutAnimateEffect(::UnityW<::GlobalNamespace::CutoutAnimateEffect>  value) ;
 
-  constexpr void __cordl_internal_set__noteController(::UnityW<::GlobalNamespace::NoteControllerBase> value);
+constexpr void __cordl_internal_set__noteController(::UnityW<::GlobalNamespace::NoteControllerBase>  value) ;
 
-  /// @brief Method .ctor, addr 0x264671c, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x3a5dad0, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Convert to "::GlobalNamespace::INoteControllerDidInitEvent"
-  constexpr ::GlobalNamespace::INoteControllerDidInitEvent* i___GlobalNamespace__INoteControllerDidInitEvent() noexcept;
+/// @brief Convert to "::GlobalNamespace::INoteControllerDidInitEvent"
+constexpr ::GlobalNamespace::INoteControllerDidInitEvent* i___GlobalNamespace__INoteControllerDidInitEvent() noexcept;
 
-  /// @brief Convert to "::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent"
-  constexpr ::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent* i___GlobalNamespace__INoteControllerNoteDidStartDissolvingEvent() noexcept;
+/// @brief Convert to "::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent"
+constexpr ::GlobalNamespace::INoteControllerNoteDidStartDissolvingEvent* i___GlobalNamespace__INoteControllerNoteDidStartDissolvingEvent() noexcept;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BaseNoteVisuals();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr BaseNoteVisuals() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BaseNoteVisuals", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  BaseNoteVisuals(BaseNoteVisuals&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BaseNoteVisuals", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  BaseNoteVisuals(BaseNoteVisuals const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "BaseNoteVisuals", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+BaseNoteVisuals(BaseNoteVisuals && ) = delete;
 
-  /// @brief Field _noteController, offset: 0x18, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::NoteControllerBase> ____noteController;
+// Ctor Parameters [CppParam { name: "", ty: "BaseNoteVisuals", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+BaseNoteVisuals(BaseNoteVisuals const& ) = delete;
 
-  /// @brief Field _cutoutAnimateEffect, offset: 0x20, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::CutoutAnimateEffect> ____cutoutAnimateEffect;
+/// @brief Field _cutoutAnimateEffect, offset: 0x20, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::CutoutAnimateEffect>  ____cutoutAnimateEffect;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _noteController, offset: 0x28, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::NoteControllerBase>  ____noteController;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BaseNoteVisuals, 0x28>, "Size mismatch!");
-
-static_assert(offsetof(::GlobalNamespace::BaseNoteVisuals, ____noteController) == 0x18, "Offset mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BaseNoteVisuals, 0x30>, "Size mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::BaseNoteVisuals, ____cutoutAnimateEffect) == 0x20, "Offset mismatch!");
 
-} // namespace GlobalNamespace
+static_assert(offsetof(::GlobalNamespace::BaseNoteVisuals, ____noteController) == 0x28, "Offset mismatch!");
+
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BaseNoteVisuals);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BaseNoteVisuals*, "", "BaseNoteVisuals");

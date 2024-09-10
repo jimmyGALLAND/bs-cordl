@@ -16,35 +16,35 @@ class StreamHelpers;
 // Write type traits
 MARK_REF_PTR_T(::System::IO::StreamHelpers);
 // Type: System.IO::StreamHelpers
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: false
 // CS Name: ::System.IO::StreamHelpers*
 class CORDL_TYPE StreamHelpers : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method ValidateCopyToArgs, addr 0x28ab83c, size 0x240, virtual false, abstract: false, final false
-  static inline void ValidateCopyToArgs(::System::IO::Stream* source, ::System::IO::Stream* destination, int32_t bufferSize);
+// Declarations
+/// @brief Method ValidateCopyToArgs, addr 0x3ca8bb8, size 0x224, virtual false, abstract: false, final false
+static inline void ValidateCopyToArgs(::System::IO::Stream*  source, ::System::IO::Stream*  destination, int32_t  bufferSize) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr StreamHelpers();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr StreamHelpers() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StreamHelpers", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  StreamHelpers(StreamHelpers&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StreamHelpers", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  StreamHelpers(StreamHelpers const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "StreamHelpers", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+StreamHelpers(StreamHelpers && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "StreamHelpers", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+StreamHelpers(StreamHelpers const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::IO::StreamHelpers, 0x10>, "Size mismatch!");
 
-} // namespace System::IO
+} // namespace end def System::IO
 NEED_NO_BOX(::System::IO::StreamHelpers);
 DEFINE_IL2CPP_ARG_TYPE(::System::IO::StreamHelpers*, "System.IO", "StreamHelpers");

@@ -15,40 +15,40 @@ class RecordingToolScenesTransitionSetupDataSO;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::RecordingToolScenesTransitionSetupDataSO);
 // Type: ::RecordingToolScenesTransitionSetupDataSO
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::RecordingToolScenesTransitionSetupDataSO*
 class CORDL_TYPE RecordingToolScenesTransitionSetupDataSO : public ::GlobalNamespace::SingleFixedSceneScenesTransitionSetupDataSO {
 public:
-  // Declarations
-  /// @brief Method Init, addr 0x26d0030, size 0x8, virtual false, abstract: false, final false
-  inline void Init(::GlobalNamespace::RecordingToolSceneSetupData* recordingToolSceneSetupData);
+// Declarations
+/// @brief Method Init, addr 0x3ab1f30, size 0x8, virtual false, abstract: false, final false
+inline void Init(::GlobalNamespace::RecordingToolSceneSetupData*  recordingToolSceneSetupData) ;
 
-  static inline ::GlobalNamespace::RecordingToolScenesTransitionSetupDataSO* New_ctor();
+static inline ::GlobalNamespace::RecordingToolScenesTransitionSetupDataSO* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x26d5a88, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x3ab1f38, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr RecordingToolScenesTransitionSetupDataSO();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr RecordingToolScenesTransitionSetupDataSO() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RecordingToolScenesTransitionSetupDataSO", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  RecordingToolScenesTransitionSetupDataSO(RecordingToolScenesTransitionSetupDataSO&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RecordingToolScenesTransitionSetupDataSO", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  RecordingToolScenesTransitionSetupDataSO(RecordingToolScenesTransitionSetupDataSO const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "RecordingToolScenesTransitionSetupDataSO", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+RecordingToolScenesTransitionSetupDataSO(RecordingToolScenesTransitionSetupDataSO && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "RecordingToolScenesTransitionSetupDataSO", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+RecordingToolScenesTransitionSetupDataSO(RecordingToolScenesTransitionSetupDataSO const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::RecordingToolScenesTransitionSetupDataSO, 0x30>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::RecordingToolScenesTransitionSetupDataSO, 0x38>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::RecordingToolScenesTransitionSetupDataSO);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::RecordingToolScenesTransitionSetupDataSO*, "", "RecordingToolScenesTransitionSetupDataSO");

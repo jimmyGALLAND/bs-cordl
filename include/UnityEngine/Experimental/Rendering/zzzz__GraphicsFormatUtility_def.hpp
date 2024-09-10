@@ -26,104 +26,106 @@ class GraphicsFormatUtility;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::Experimental::Rendering::GraphicsFormatUtility);
 // Type: UnityEngine.Experimental.Rendering::GraphicsFormatUtility
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Experimental::Rendering {
 // Is value type: false
 // CS Name: ::UnityEngine.Experimental.Rendering::GraphicsFormatUtility*
 class CORDL_TYPE GraphicsFormatUtility : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field tableNoStencil, offset 0xffffffff, size 0x8
-  static __declspec(
-      property(get = getStaticF_tableNoStencil,
-               put = setStaticF_tableNoStencil))::ArrayW<::UnityEngine::Experimental::Rendering::GraphicsFormat, ::Array<::UnityEngine::Experimental::Rendering::GraphicsFormat>*> tableNoStencil;
+// Declarations
+/// @brief Field tableNoStencil, offset 0xffffffff, size 0x8 
+static __declspec(property(get=getStaticF_tableNoStencil, put=setStaticF_tableNoStencil)) ::ArrayW<::UnityEngine::Experimental::Rendering::GraphicsFormat,::Array<::UnityEngine::Experimental::Rendering::GraphicsFormat>*>  tableNoStencil;
 
-  /// @brief Field tableStencil, offset 0xffffffff, size 0x8
-  static __declspec(
-      property(get = getStaticF_tableStencil,
-               put = setStaticF_tableStencil))::ArrayW<::UnityEngine::Experimental::Rendering::GraphicsFormat, ::Array<::UnityEngine::Experimental::Rendering::GraphicsFormat>*> tableStencil;
+/// @brief Field tableStencil, offset 0xffffffff, size 0x8 
+static __declspec(property(get=getStaticF_tableStencil, put=setStaticF_tableStencil)) ::ArrayW<::UnityEngine::Experimental::Rendering::GraphicsFormat,::Array<::UnityEngine::Experimental::Rendering::GraphicsFormat>*>  tableStencil;
 
-  /// @brief Method CanDecompressFormat, addr 0x346ebb0, size 0x78, virtual false, abstract: false, final false
-  static inline bool CanDecompressFormat(::UnityEngine::Experimental::Rendering::GraphicsFormat format);
+/// @brief Method CanDecompressFormat, addr 0x483e6b8, size 0x78, virtual false, abstract: false, final false
+static inline bool CanDecompressFormat(::UnityEngine::Experimental::Rendering::GraphicsFormat  format) ;
 
-  /// @brief Method CanDecompressFormat, addr 0x346eb6c, size 0x44, virtual false, abstract: false, final false
-  static inline bool CanDecompressFormat(::UnityEngine::Experimental::Rendering::GraphicsFormat format, bool wholeImage);
+/// @brief Method CanDecompressFormat, addr 0x483e674, size 0x44, virtual false, abstract: false, final false
+static inline bool CanDecompressFormat(::UnityEngine::Experimental::Rendering::GraphicsFormat  format, bool  wholeImage) ;
 
-  /// @brief Method GetDepthBits, addr 0x346e888, size 0x3c, virtual false, abstract: false, final false
-  static inline int32_t GetDepthBits(::UnityEngine::Experimental::Rendering::GraphicsFormat format);
+/// @brief Method GetDepthBits, addr 0x483e2a0, size 0x3c, virtual false, abstract: false, final false
+static inline int32_t GetDepthBits(::UnityEngine::Experimental::Rendering::GraphicsFormat  format) ;
 
-  /// @brief Method GetDepthStencilFormat, addr 0x346e814, size 0x74, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Experimental::Rendering::GraphicsFormat GetDepthStencilFormat(int32_t minimumDepthBits);
+/// @brief Method GetDepthStencilFormat, addr 0x483e22c, size 0x74, virtual false, abstract: false, final false
+static inline ::UnityEngine::Experimental::Rendering::GraphicsFormat GetDepthStencilFormat(int32_t  minimumDepthBits) ;
 
-  /// @brief Method GetDepthStencilFormat, addr 0x346e8c4, size 0x1f4, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Experimental::Rendering::GraphicsFormat GetDepthStencilFormat(int32_t minimumDepthBits, int32_t minimumStencilBits);
+/// @brief Method GetDepthStencilFormat, addr 0x483e2dc, size 0x1f8, virtual false, abstract: false, final false
+static inline ::UnityEngine::Experimental::Rendering::GraphicsFormat GetDepthStencilFormat(int32_t  minimumDepthBits, int32_t  minimumStencilBits) ;
 
-  /// @brief Method GetDepthStencilFormatFromBitsLegacy_Native, addr 0x346e7d8, size 0x3c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Experimental::Rendering::GraphicsFormat GetDepthStencilFormatFromBitsLegacy_Native(int32_t minimumDepthBits);
+/// @brief Method GetDepthStencilFormatFromBitsLegacy_Native, addr 0x483e1f0, size 0x3c, virtual false, abstract: false, final false
+static inline ::UnityEngine::Experimental::Rendering::GraphicsFormat GetDepthStencilFormatFromBitsLegacy_Native(int32_t  minimumDepthBits) ;
 
-  /// @brief Method GetGraphicsFormat, addr 0x346e688, size 0x84, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Experimental::Rendering::GraphicsFormat GetGraphicsFormat(::UnityEngine::RenderTextureFormat format, bool isSRGB);
+/// @brief Method GetGraphicsFormat, addr 0x483e0a0, size 0x84, virtual false, abstract: false, final false
+static inline ::UnityEngine::Experimental::Rendering::GraphicsFormat GetGraphicsFormat(::UnityEngine::RenderTextureFormat  format, bool  isSRGB) ;
 
-  /// @brief Method GetGraphicsFormat, addr 0x346e750, size 0x88, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Experimental::Rendering::GraphicsFormat GetGraphicsFormat(::UnityEngine::RenderTextureFormat format, ::UnityEngine::RenderTextureReadWrite readWrite);
+/// @brief Method GetGraphicsFormat, addr 0x483e168, size 0x88, virtual false, abstract: false, final false
+static inline ::UnityEngine::Experimental::Rendering::GraphicsFormat GetGraphicsFormat(::UnityEngine::RenderTextureFormat  format, ::UnityEngine::RenderTextureReadWrite  readWrite) ;
 
-  /// @brief Method GetGraphicsFormat, addr 0x346e5c0, size 0x84, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Experimental::Rendering::GraphicsFormat GetGraphicsFormat(::UnityEngine::TextureFormat format, bool isSRGB);
+/// @brief Method GetGraphicsFormat, addr 0x483dfd8, size 0x84, virtual false, abstract: false, final false
+static inline ::UnityEngine::Experimental::Rendering::GraphicsFormat GetGraphicsFormat(::UnityEngine::TextureFormat  format, bool  isSRGB) ;
 
-  /// @brief Method GetGraphicsFormat_Native_RenderTextureFormat, addr 0x346e70c, size 0x44, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Experimental::Rendering::GraphicsFormat GetGraphicsFormat_Native_RenderTextureFormat(::UnityEngine::RenderTextureFormat format, bool isSRGB);
+/// @brief Method GetGraphicsFormat_Native_RenderTextureFormat, addr 0x483e124, size 0x44, virtual false, abstract: false, final false
+static inline ::UnityEngine::Experimental::Rendering::GraphicsFormat GetGraphicsFormat_Native_RenderTextureFormat(::UnityEngine::RenderTextureFormat  format, bool  isSRGB) ;
 
-  /// @brief Method GetGraphicsFormat_Native_TextureFormat, addr 0x346e644, size 0x44, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Experimental::Rendering::GraphicsFormat GetGraphicsFormat_Native_TextureFormat(::UnityEngine::TextureFormat format, bool isSRGB);
+/// @brief Method GetGraphicsFormat_Native_TextureFormat, addr 0x483e05c, size 0x44, virtual false, abstract: false, final false
+static inline ::UnityEngine::Experimental::Rendering::GraphicsFormat GetGraphicsFormat_Native_TextureFormat(::UnityEngine::TextureFormat  format, bool  isSRGB) ;
 
-  /// @brief Method GetRenderTextureFormat, addr 0x346eaf4, size 0x3c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::RenderTextureFormat GetRenderTextureFormat(::UnityEngine::Experimental::Rendering::GraphicsFormat format);
+/// @brief Method GetLinearFormat, addr 0x483e54c, size 0x3c, virtual false, abstract: false, final false
+static inline ::UnityEngine::Experimental::Rendering::GraphicsFormat GetLinearFormat(::UnityEngine::Experimental::Rendering::GraphicsFormat  format) ;
 
-  /// @brief Method IsCompressedTextureFormat, addr 0x346eb30, size 0x3c, virtual false, abstract: false, final false
-  static inline bool IsCompressedTextureFormat(::UnityEngine::TextureFormat format);
+/// @brief Method GetRenderTextureFormat, addr 0x483e588, size 0x3c, virtual false, abstract: false, final false
+static inline ::UnityEngine::RenderTextureFormat GetRenderTextureFormat(::UnityEngine::Experimental::Rendering::GraphicsFormat  format) ;
 
-  /// @brief Method IsCrunchFormat, addr 0x346ecdc, size 0x24, virtual false, abstract: false, final false
-  static inline bool IsCrunchFormat(::UnityEngine::TextureFormat format);
+/// @brief Method GetSRGBFormat, addr 0x483e510, size 0x3c, virtual false, abstract: false, final false
+static inline ::UnityEngine::Experimental::Rendering::GraphicsFormat GetSRGBFormat(::UnityEngine::Experimental::Rendering::GraphicsFormat  format) ;
 
-  /// @brief Method IsDepthFormat, addr 0x346ec28, size 0x3c, virtual false, abstract: false, final false
-  static inline bool IsDepthFormat(::UnityEngine::Experimental::Rendering::GraphicsFormat format);
+/// @brief Method IsCompressedFormat, addr 0x483e600, size 0x74, virtual false, abstract: false, final false
+static inline bool IsCompressedFormat(::UnityEngine::TextureFormat  format) ;
 
-  /// @brief Method IsPVRTCFormat, addr 0x346eca0, size 0x3c, virtual false, abstract: false, final false
-  static inline bool IsPVRTCFormat(::UnityEngine::Experimental::Rendering::GraphicsFormat format);
+/// @brief Method IsCompressedFormat_Native_TextureFormat, addr 0x483e5c4, size 0x3c, virtual false, abstract: false, final false
+static inline bool IsCompressedFormat_Native_TextureFormat(::UnityEngine::TextureFormat  format) ;
 
-  /// @brief Method IsSRGBFormat, addr 0x346eab8, size 0x3c, virtual false, abstract: false, final false
-  static inline bool IsSRGBFormat(::UnityEngine::Experimental::Rendering::GraphicsFormat format);
+/// @brief Method IsCrunchFormat, addr 0x483e7a8, size 0x3c, virtual false, abstract: false, final false
+static inline bool IsCrunchFormat(::UnityEngine::TextureFormat  format) ;
 
-  /// @brief Method IsStencilFormat, addr 0x346ec64, size 0x3c, virtual false, abstract: false, final false
-  static inline bool IsStencilFormat(::UnityEngine::Experimental::Rendering::GraphicsFormat format);
+/// @brief Method IsDepthStencilFormat, addr 0x483e730, size 0x3c, virtual false, abstract: false, final false
+static inline bool IsDepthStencilFormat(::UnityEngine::Experimental::Rendering::GraphicsFormat  format) ;
 
-  static inline ::ArrayW<::UnityEngine::Experimental::Rendering::GraphicsFormat, ::Array<::UnityEngine::Experimental::Rendering::GraphicsFormat>*> getStaticF_tableNoStencil();
+/// @brief Method IsPVRTCFormat, addr 0x483e76c, size 0x3c, virtual false, abstract: false, final false
+static inline bool IsPVRTCFormat(::UnityEngine::Experimental::Rendering::GraphicsFormat  format) ;
 
-  static inline ::ArrayW<::UnityEngine::Experimental::Rendering::GraphicsFormat, ::Array<::UnityEngine::Experimental::Rendering::GraphicsFormat>*> getStaticF_tableStencil();
+/// @brief Method IsSRGBFormat, addr 0x483e4d4, size 0x3c, virtual false, abstract: false, final false
+static inline bool IsSRGBFormat(::UnityEngine::Experimental::Rendering::GraphicsFormat  format) ;
 
-  static inline void setStaticF_tableNoStencil(::ArrayW<::UnityEngine::Experimental::Rendering::GraphicsFormat, ::Array<::UnityEngine::Experimental::Rendering::GraphicsFormat>*> value);
+static inline ::ArrayW<::UnityEngine::Experimental::Rendering::GraphicsFormat,::Array<::UnityEngine::Experimental::Rendering::GraphicsFormat>*> getStaticF_tableNoStencil() ;
 
-  static inline void setStaticF_tableStencil(::ArrayW<::UnityEngine::Experimental::Rendering::GraphicsFormat, ::Array<::UnityEngine::Experimental::Rendering::GraphicsFormat>*> value);
+static inline ::ArrayW<::UnityEngine::Experimental::Rendering::GraphicsFormat,::Array<::UnityEngine::Experimental::Rendering::GraphicsFormat>*> getStaticF_tableStencil() ;
+
+static inline void setStaticF_tableNoStencil(::ArrayW<::UnityEngine::Experimental::Rendering::GraphicsFormat,::Array<::UnityEngine::Experimental::Rendering::GraphicsFormat>*>  value) ;
+
+static inline void setStaticF_tableStencil(::ArrayW<::UnityEngine::Experimental::Rendering::GraphicsFormat,::Array<::UnityEngine::Experimental::Rendering::GraphicsFormat>*>  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr GraphicsFormatUtility();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr GraphicsFormatUtility() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GraphicsFormatUtility", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  GraphicsFormatUtility(GraphicsFormatUtility&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GraphicsFormatUtility", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  GraphicsFormatUtility(GraphicsFormatUtility const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "GraphicsFormatUtility", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+GraphicsFormatUtility(GraphicsFormatUtility && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "GraphicsFormatUtility", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+GraphicsFormatUtility(GraphicsFormatUtility const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Experimental::Rendering::GraphicsFormatUtility, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine::Experimental::Rendering
+} // namespace end def UnityEngine::Experimental::Rendering
 NEED_NO_BOX(::UnityEngine::Experimental::Rendering::GraphicsFormatUtility);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Experimental::Rendering::GraphicsFormatUtility*, "UnityEngine.Experimental.Rendering", "GraphicsFormatUtility");

@@ -12,10 +12,12 @@ namespace Oculus::Platform::Models {
 class Party;
 }
 namespace Oculus::Platform {
-template <typename T> class Request_1;
+template<typename T>
+class Request_1;
 }
 namespace Oculus::Platform {
-template <typename T> class __Message_1__Callback;
+template<typename T>
+class __Message_1__Callback;
 }
 // Forward declare root types
 namespace Oculus::Platform {
@@ -24,38 +26,38 @@ class Parties;
 // Write type traits
 MARK_REF_PTR_T(::Oculus::Platform::Parties);
 // Type: Oculus.Platform::Parties
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Oculus::Platform {
 // Is value type: false
 // CS Name: ::Oculus.Platform::Parties*
 class CORDL_TYPE Parties : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method GetCurrent, addr 0x2b09134, size 0x158, virtual false, abstract: false, final false
-  static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::Party*>* GetCurrent();
+// Declarations
+/// @brief Method GetCurrent, addr 0x3efaa3c, size 0x150, virtual false, abstract: false, final false
+static inline ::Oculus::Platform::Request_1<::Oculus::Platform::Models::Party*>* GetCurrent() ;
 
-  /// @brief Method SetPartyUpdateNotificationCallback, addr 0x2b0928c, size 0x74, virtual false, abstract: false, final false
-  static inline void SetPartyUpdateNotificationCallback(::Oculus::Platform::__Message_1__Callback<::Oculus::Platform::Models::PartyUpdateNotification*>* callback);
+/// @brief Method SetPartyUpdateNotificationCallback, addr 0x3efab8c, size 0x74, virtual false, abstract: false, final false
+static inline void SetPartyUpdateNotificationCallback(::Oculus::Platform::__Message_1__Callback<::Oculus::Platform::Models::PartyUpdateNotification*>*  callback) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Parties();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr Parties() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Parties", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  Parties(Parties&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Parties", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  Parties(Parties const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "Parties", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+Parties(Parties && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "Parties", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+Parties(Parties const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Oculus::Platform::Parties, 0x10>, "Size mismatch!");
 
-} // namespace Oculus::Platform
+} // namespace end def Oculus::Platform
 NEED_NO_BOX(::Oculus::Platform::Parties);
 DEFINE_IL2CPP_ARG_TYPE(::Oculus::Platform::Parties*, "Oculus.Platform", "Parties");

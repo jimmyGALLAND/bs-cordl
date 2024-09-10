@@ -6,10 +6,12 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 CORDL_MODULE_EXPORT(PolygonSet)
 namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+template<typename T>
+class IEnumerable_1;
 }
 namespace System::Collections::Generic {
-template <typename T> class List_1;
+template<typename T>
+class List_1;
 }
 namespace UnityEngine::ProBuilder::Poly2Tri {
 class Polygon;
@@ -21,64 +23,64 @@ class PolygonSet;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::ProBuilder::Poly2Tri::PolygonSet);
 // Type: UnityEngine.ProBuilder.Poly2Tri::PolygonSet
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder::Poly2Tri {
 // Is value type: false
 // CS Name: ::UnityEngine.ProBuilder.Poly2Tri::PolygonSet*
 class CORDL_TYPE PolygonSet : public ::System::Object {
 public:
-  // Declarations
-  __declspec(property(get = get_Polygons))::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Poly2Tri::Polygon*>* Polygons;
+// Declarations
+ __declspec(property(get=get_Polygons)) ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Poly2Tri::Polygon*>*  Polygons;
 
-  /// @brief Field _polygons, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__polygons, put = __cordl_internal_set__polygons))::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::Polygon*>* _polygons;
+/// @brief Field _polygons, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get__polygons, put=__cordl_internal_set__polygons)) ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::Polygon*>*  _polygons;
 
-  /// @brief Method Add, addr 0x32a0904, size 0xa8, virtual false, abstract: false, final false
-  inline void Add(::UnityEngine::ProBuilder::Poly2Tri::Polygon* p);
+/// @brief Method Add, addr 0x4666278, size 0xa4, virtual false, abstract: false, final false
+inline void Add(::UnityEngine::ProBuilder::Poly2Tri::Polygon*  p) ;
 
-  static inline ::UnityEngine::ProBuilder::Poly2Tri::PolygonSet* New_ctor();
+static inline ::UnityEngine::ProBuilder::Poly2Tri::PolygonSet* New_ctor() ;
 
-  static inline ::UnityEngine::ProBuilder::Poly2Tri::PolygonSet* New_ctor(::UnityEngine::ProBuilder::Poly2Tri::Polygon* poly);
+static inline ::UnityEngine::ProBuilder::Poly2Tri::PolygonSet* New_ctor(::UnityEngine::ProBuilder::Poly2Tri::Polygon*  poly) ;
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::Polygon*>*& __cordl_internal_get__polygons();
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::Polygon*>*& __cordl_internal_get__polygons() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::Polygon*>*> const& __cordl_internal_get__polygons() const;
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::Polygon*>*> const& __cordl_internal_get__polygons() const;
 
-  constexpr void __cordl_internal_set__polygons(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::Polygon*>* value);
+constexpr void __cordl_internal_set__polygons(::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::Polygon*>*  value) ;
 
-  /// @brief Method .ctor, addr 0x32a0784, size 0x7c, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x4666100, size 0x7c, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method .ctor, addr 0x32a0800, size 0x104, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::ProBuilder::Poly2Tri::Polygon* poly);
+/// @brief Method .ctor, addr 0x466617c, size 0xfc, virtual false, abstract: false, final false
+inline void _ctor(::UnityEngine::ProBuilder::Poly2Tri::Polygon*  poly) ;
 
-  /// @brief Method get_Polygons, addr 0x32a09ac, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Poly2Tri::Polygon*>* get_Polygons();
+/// @brief Method get_Polygons, addr 0x466631c, size 0x8, virtual false, abstract: false, final false
+inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Poly2Tri::Polygon*>* get_Polygons() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PolygonSet();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr PolygonSet() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PolygonSet", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  PolygonSet(PolygonSet&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PolygonSet", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  PolygonSet(PolygonSet const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "PolygonSet", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+PolygonSet(PolygonSet && ) = delete;
 
-  /// @brief Field _polygons, offset: 0x10, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::Polygon*>* ____polygons;
+// Ctor Parameters [CppParam { name: "", ty: "PolygonSet", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+PolygonSet(PolygonSet const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _polygons, offset: 0x10, size: 0x8, def value: None
+ ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Poly2Tri::Polygon*>*  ____polygons;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::Poly2Tri::PolygonSet, 0x18>, "Size mismatch!");
 
 static_assert(offsetof(::UnityEngine::ProBuilder::Poly2Tri::PolygonSet, ____polygons) == 0x10, "Offset mismatch!");
 
-} // namespace UnityEngine::ProBuilder::Poly2Tri
+} // namespace end def UnityEngine::ProBuilder::Poly2Tri
 NEED_NO_BOX(::UnityEngine::ProBuilder::Poly2Tri::PolygonSet);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::Poly2Tri::PolygonSet*, "UnityEngine.ProBuilder.Poly2Tri", "PolygonSet");

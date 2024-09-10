@@ -20,53 +20,52 @@ class HttpListenerException;
 // Write type traits
 MARK_REF_PTR_T(::System::Net::HttpListenerException);
 // Type: System.Net::HttpListenerException
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 144, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
 // CS Name: ::System.Net::HttpListenerException*
 class CORDL_TYPE HttpListenerException : public ::System::ComponentModel::Win32Exception {
 public:
-  // Declarations
-  __declspec(property(get = get_ErrorCode)) int32_t ErrorCode;
+// Declarations
+ __declspec(property(get=get_ErrorCode)) int32_t  ErrorCode;
 
-  static inline ::System::Net::HttpListenerException* New_ctor();
+static inline ::System::Net::HttpListenerException* New_ctor() ;
 
-  static inline ::System::Net::HttpListenerException* New_ctor(int32_t errorCode, ::StringW message);
+static inline ::System::Net::HttpListenerException* New_ctor(int32_t  errorCode, ::StringW  message) ;
 
-  static inline ::System::Net::HttpListenerException* New_ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo,
-                                                               ::System::Runtime::Serialization::StreamingContext streamingContext);
+static inline ::System::Net::HttpListenerException* New_ctor(::System::Runtime::Serialization::SerializationInfo*  serializationInfo, ::System::Runtime::Serialization::StreamingContext  streamingContext) ;
 
-  /// @brief Method .ctor, addr 0x2ffc9ac, size 0x64, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x440cd48, size 0x64, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method .ctor, addr 0x2ffca10, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(int32_t errorCode, ::StringW message);
+/// @brief Method .ctor, addr 0x440cdac, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(int32_t  errorCode, ::StringW  message) ;
 
-  /// @brief Method .ctor, addr 0x2ffca18, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::System::Runtime::Serialization::SerializationInfo* serializationInfo, ::System::Runtime::Serialization::StreamingContext streamingContext);
+/// @brief Method .ctor, addr 0x440cdb4, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(::System::Runtime::Serialization::SerializationInfo*  serializationInfo, ::System::Runtime::Serialization::StreamingContext  streamingContext) ;
 
-  /// @brief Method get_ErrorCode, addr 0x2ffca20, size 0x8, virtual true, abstract: false, final false
-  inline int32_t get_ErrorCode();
+/// @brief Method get_ErrorCode, addr 0x440cdbc, size 0x8, virtual true, abstract: false, final false
+inline int32_t get_ErrorCode() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HttpListenerException();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr HttpListenerException() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HttpListenerException", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  HttpListenerException(HttpListenerException&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HttpListenerException", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  HttpListenerException(HttpListenerException const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "HttpListenerException", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+HttpListenerException(HttpListenerException && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "HttpListenerException", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+HttpListenerException(HttpListenerException const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::HttpListenerException, 0x90>, "Size mismatch!");
 
-} // namespace System::Net
+} // namespace end def System::Net
 NEED_NO_BOX(::System::Net::HttpListenerException);
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::HttpListenerException*, "System.Net", "HttpListenerException");

@@ -13,35 +13,35 @@ class UnityEventTools;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::Events::UnityEventTools);
 // Type: UnityEngine.Events::UnityEventTools
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Events {
 // Is value type: false
 // CS Name: ::UnityEngine.Events::UnityEventTools*
 class CORDL_TYPE UnityEventTools : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method TidyAssemblyTypeName, addr 0x3472c34, size 0x228, virtual false, abstract: false, final false
-  static inline ::StringW TidyAssemblyTypeName(::StringW assemblyTypeName);
+// Declarations
+/// @brief Method TidyAssemblyTypeName, addr 0x482aa6c, size 0x22c, virtual false, abstract: false, final false
+static inline ::StringW TidyAssemblyTypeName(::StringW  assemblyTypeName) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr UnityEventTools();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr UnityEventTools() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UnityEventTools", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  UnityEventTools(UnityEventTools&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UnityEventTools", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  UnityEventTools(UnityEventTools const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEventTools", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+UnityEventTools(UnityEventTools && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "UnityEventTools", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+UnityEventTools(UnityEventTools const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Events::UnityEventTools, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine::Events
+} // namespace end def UnityEngine::Events
 NEED_NO_BOX(::UnityEngine::Events::UnityEventTools);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Events::UnityEventTools*, "UnityEngine.Events", "UnityEventTools");

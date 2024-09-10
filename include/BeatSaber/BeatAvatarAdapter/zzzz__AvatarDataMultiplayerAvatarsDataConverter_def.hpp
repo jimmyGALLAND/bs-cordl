@@ -18,38 +18,38 @@ class AvatarDataMultiplayerAvatarsDataConverter;
 // Write type traits
 MARK_REF_PTR_T(::BeatSaber::BeatAvatarAdapter::AvatarDataMultiplayerAvatarsDataConverter);
 // Type: BeatSaber.BeatAvatarAdapter::AvatarDataMultiplayerAvatarsDataConverter
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace BeatSaber::BeatAvatarAdapter {
 // Is value type: false
 // CS Name: ::BeatSaber.BeatAvatarAdapter::AvatarDataMultiplayerAvatarsDataConverter*
 class CORDL_TYPE AvatarDataMultiplayerAvatarsDataConverter : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method CreateAvatarData, addr 0x105660c, size 0x5e8, virtual false, abstract: false, final false
-  static inline ::BeatSaber::BeatAvatarSDK::AvatarData* CreateAvatarData(::GlobalNamespace::MultiplayerAvatarData multiplayerAvatarsData);
+// Declarations
+/// @brief Method CreateAvatarData, addr 0x22123b0, size 0x5d0, virtual false, abstract: false, final false
+static inline ::BeatSaber::BeatAvatarSDK::AvatarData* CreateAvatarData(::GlobalNamespace::MultiplayerAvatarData  multiplayerAvatarsData) ;
 
-  /// @brief Method CreateMultiplayerAvatarsData, addr 0x1056104, size 0x508, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::MultiplayerAvatarData CreateMultiplayerAvatarsData(::BeatSaber::BeatAvatarSDK::AvatarData* avatarData);
+/// @brief Method CreateMultiplayerAvatarsData, addr 0x2211e94, size 0x51c, virtual false, abstract: false, final false
+static inline ::GlobalNamespace::MultiplayerAvatarData CreateMultiplayerAvatarsData(::BeatSaber::BeatAvatarSDK::AvatarData*  avatarData) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AvatarDataMultiplayerAvatarsDataConverter();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr AvatarDataMultiplayerAvatarsDataConverter() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AvatarDataMultiplayerAvatarsDataConverter", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  AvatarDataMultiplayerAvatarsDataConverter(AvatarDataMultiplayerAvatarsDataConverter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AvatarDataMultiplayerAvatarsDataConverter", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  AvatarDataMultiplayerAvatarsDataConverter(AvatarDataMultiplayerAvatarsDataConverter const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "AvatarDataMultiplayerAvatarsDataConverter", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+AvatarDataMultiplayerAvatarsDataConverter(AvatarDataMultiplayerAvatarsDataConverter && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "AvatarDataMultiplayerAvatarsDataConverter", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+AvatarDataMultiplayerAvatarsDataConverter(AvatarDataMultiplayerAvatarsDataConverter const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::BeatSaber::BeatAvatarAdapter::AvatarDataMultiplayerAvatarsDataConverter, 0x10>, "Size mismatch!");
 
-} // namespace BeatSaber::BeatAvatarAdapter
+} // namespace end def BeatSaber::BeatAvatarAdapter
 NEED_NO_BOX(::BeatSaber::BeatAvatarAdapter::AvatarDataMultiplayerAvatarsDataConverter);
 DEFINE_IL2CPP_ARG_TYPE(::BeatSaber::BeatAvatarAdapter::AvatarDataMultiplayerAvatarsDataConverter*, "BeatSaber.BeatAvatarAdapter", "AvatarDataMultiplayerAvatarsDataConverter");

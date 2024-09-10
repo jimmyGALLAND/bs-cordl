@@ -9,7 +9,8 @@ namespace BGLib::MetaRemoteAssets {
 class IRemoteCatalogLoader;
 }
 namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
+template<typename TResult>
+class Task_1;
 }
 namespace System::Threading {
 struct CancellationToken;
@@ -21,46 +22,46 @@ class MockRemoteCatalogLoader;
 // Write type traits
 MARK_REF_PTR_T(::BGLib::MetaRemoteAssets::MockRemoteCatalogLoader);
 // Type: BGLib.MetaRemoteAssets::MockRemoteCatalogLoader
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace BGLib::MetaRemoteAssets {
 // Is value type: false
 // CS Name: ::BGLib.MetaRemoteAssets::MockRemoteCatalogLoader*
 class CORDL_TYPE MockRemoteCatalogLoader : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Convert operator to "::BGLib::MetaRemoteAssets::IRemoteCatalogLoader"
-  constexpr operator ::BGLib::MetaRemoteAssets::IRemoteCatalogLoader*() noexcept;
+// Declarations
+/// @brief Convert operator to "::BGLib::MetaRemoteAssets::IRemoteCatalogLoader"
+constexpr operator  ::BGLib::MetaRemoteAssets::IRemoteCatalogLoader*() noexcept;
 
-  /// @brief Method LoadRemoteCatalogAsync, addr 0x108d330, size 0x68, virtual true, abstract: false, final true
-  inline ::System::Threading::Tasks::Task_1<bool>* LoadRemoteCatalogAsync(::System::Threading::CancellationToken cancellationToken);
+/// @brief Method LoadRemoteCatalogAsync, addr 0x225fe60, size 0x68, virtual true, abstract: false, final true
+inline ::System::Threading::Tasks::Task_1<bool>* LoadRemoteCatalogAsync(::System::Threading::CancellationToken  cancellationToken) ;
 
-  static inline ::BGLib::MetaRemoteAssets::MockRemoteCatalogLoader* New_ctor();
+static inline ::BGLib::MetaRemoteAssets::MockRemoteCatalogLoader* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x108d398, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x225fec8, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Convert to "::BGLib::MetaRemoteAssets::IRemoteCatalogLoader"
-  constexpr ::BGLib::MetaRemoteAssets::IRemoteCatalogLoader* i___BGLib__MetaRemoteAssets__IRemoteCatalogLoader() noexcept;
+/// @brief Convert to "::BGLib::MetaRemoteAssets::IRemoteCatalogLoader"
+constexpr ::BGLib::MetaRemoteAssets::IRemoteCatalogLoader* i___BGLib__MetaRemoteAssets__IRemoteCatalogLoader() noexcept;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MockRemoteCatalogLoader();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr MockRemoteCatalogLoader() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MockRemoteCatalogLoader", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  MockRemoteCatalogLoader(MockRemoteCatalogLoader&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MockRemoteCatalogLoader", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  MockRemoteCatalogLoader(MockRemoteCatalogLoader const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "MockRemoteCatalogLoader", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+MockRemoteCatalogLoader(MockRemoteCatalogLoader && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "MockRemoteCatalogLoader", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+MockRemoteCatalogLoader(MockRemoteCatalogLoader const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::BGLib::MetaRemoteAssets::MockRemoteCatalogLoader, 0x10>, "Size mismatch!");
 
-} // namespace BGLib::MetaRemoteAssets
+} // namespace end def BGLib::MetaRemoteAssets
 NEED_NO_BOX(::BGLib::MetaRemoteAssets::MockRemoteCatalogLoader);
 DEFINE_IL2CPP_ARG_TYPE(::BGLib::MetaRemoteAssets::MockRemoteCatalogLoader*, "BGLib.MetaRemoteAssets", "MockRemoteCatalogLoader");

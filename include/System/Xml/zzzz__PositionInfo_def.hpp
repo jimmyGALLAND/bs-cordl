@@ -19,59 +19,59 @@ class PositionInfo;
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::PositionInfo);
 // Type: System.Xml::PositionInfo
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml {
 // Is value type: false
 // CS Name: ::System.Xml::PositionInfo*
 class CORDL_TYPE PositionInfo : public ::System::Object {
 public:
-  // Declarations
-  __declspec(property(get = get_LineNumber)) int32_t LineNumber;
+// Declarations
+ __declspec(property(get=get_LineNumber)) int32_t  LineNumber;
 
-  __declspec(property(get = get_LinePosition)) int32_t LinePosition;
+ __declspec(property(get=get_LinePosition)) int32_t  LinePosition;
 
-  /// @brief Convert operator to "::System::Xml::IXmlLineInfo"
-  constexpr operator ::System::Xml::IXmlLineInfo*() noexcept;
+/// @brief Convert operator to "::System::Xml::IXmlLineInfo"
+constexpr operator  ::System::Xml::IXmlLineInfo*() noexcept;
 
-  /// @brief Method GetPositionInfo, addr 0x2ed590c, size 0xbc, virtual false, abstract: false, final false
-  static inline ::System::Xml::PositionInfo* GetPositionInfo(::System::Object* o);
+/// @brief Method GetPositionInfo, addr 0x42b8b08, size 0xb0, virtual false, abstract: false, final false
+static inline ::System::Xml::PositionInfo* GetPositionInfo(::System::Object*  o) ;
 
-  /// @brief Method HasLineInfo, addr 0x2ed58f4, size 0x8, virtual true, abstract: false, final false
-  inline bool HasLineInfo();
+/// @brief Method HasLineInfo, addr 0x42b8af0, size 0x8, virtual true, abstract: false, final false
+inline bool HasLineInfo() ;
 
-  static inline ::System::Xml::PositionInfo* New_ctor();
+static inline ::System::Xml::PositionInfo* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x2ed59f0, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x42b8be0, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_LineNumber, addr 0x2ed58fc, size 0x8, virtual true, abstract: false, final false
-  inline int32_t get_LineNumber();
+/// @brief Method get_LineNumber, addr 0x42b8af8, size 0x8, virtual true, abstract: false, final false
+inline int32_t get_LineNumber() ;
 
-  /// @brief Method get_LinePosition, addr 0x2ed5904, size 0x8, virtual true, abstract: false, final false
-  inline int32_t get_LinePosition();
+/// @brief Method get_LinePosition, addr 0x42b8b00, size 0x8, virtual true, abstract: false, final false
+inline int32_t get_LinePosition() ;
 
-  /// @brief Convert to "::System::Xml::IXmlLineInfo"
-  constexpr ::System::Xml::IXmlLineInfo* i___System__Xml__IXmlLineInfo() noexcept;
+/// @brief Convert to "::System::Xml::IXmlLineInfo"
+constexpr ::System::Xml::IXmlLineInfo* i___System__Xml__IXmlLineInfo() noexcept;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PositionInfo();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr PositionInfo() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PositionInfo", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  PositionInfo(PositionInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PositionInfo", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  PositionInfo(PositionInfo const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "PositionInfo", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+PositionInfo(PositionInfo && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "PositionInfo", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+PositionInfo(PositionInfo const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Xml::PositionInfo, 0x10>, "Size mismatch!");
 
-} // namespace System::Xml
+} // namespace end def System::Xml
 NEED_NO_BOX(::System::Xml::PositionInfo);
 DEFINE_IL2CPP_ARG_TYPE(::System::Xml::PositionInfo*, "System.Xml", "PositionInfo");

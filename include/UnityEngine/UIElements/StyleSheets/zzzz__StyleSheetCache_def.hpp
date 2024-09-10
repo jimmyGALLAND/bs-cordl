@@ -9,10 +9,12 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(StyleSheetCache)
 namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+template<typename TKey,typename TValue>
+class Dictionary_2;
 }
 namespace System::Collections::Generic {
-template <typename T> class IEqualityComparer_1;
+template<typename T>
+class IEqualityComparer_1;
 }
 namespace UnityEngine::UIElements::StyleSheets {
 struct StylePropertyId;
@@ -44,33 +46,33 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::StyleSheets::StyleSheetCache);
 MARK_REF_PTR_T(::UnityEngine::UIElements::StyleSheets::__StyleSheetCache__SheetHandleKeyComparer);
 MARK_VAL_T(::UnityEngine::UIElements::StyleSheets::__StyleSheetCache__SheetHandleKey);
 // Type: ::SheetHandleKey
-// SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::StyleSheets {
 // Is value type: true
 // CS Name: ::StyleSheetCache::SheetHandleKey
 struct CORDL_TYPE __StyleSheetCache__SheetHandleKey {
 public:
-  // Declarations
-  /// @brief Method .ctor, addr 0x358237c, size 0x34, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::UIElements::StyleSheet* sheet, int32_t index);
+// Declarations
+/// @brief Method .ctor, addr 0x4944244, size 0x34, virtual false, abstract: false, final false
+inline void _ctor(::UnityEngine::UIElements::StyleSheet*  sheet, int32_t  index) ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __StyleSheetCache__SheetHandleKey();
+// Ctor Parameters []
+// @brief default ctor
+constexpr __StyleSheetCache__SheetHandleKey() ;
 
-  // Ctor Parameters [CppParam { name: "sheetInstanceID", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __StyleSheetCache__SheetHandleKey(int32_t sheetInstanceID, int32_t index) noexcept;
+// Ctor Parameters [CppParam { name: "sheetInstanceID", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "index", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr __StyleSheetCache__SheetHandleKey(int32_t  sheetInstanceID, int32_t  index) noexcept;
 
-  /// @brief Field sheetInstanceID, offset: 0x0, size: 0x4, def value: None
-  int32_t sheetInstanceID;
+/// @brief Field sheetInstanceID, offset: 0x0, size: 0x4, def value: None
+ int32_t  sheetInstanceID;
 
-  /// @brief Field index, offset: 0x4, size: 0x4, def value: None
-  int32_t index;
+/// @brief Field index, offset: 0x4, size: 0x4, def value: None
+ int32_t  index;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x8};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::StyleSheets::__StyleSheetCache__SheetHandleKey, 0x8>, "Size mismatch!");
@@ -79,116 +81,107 @@ static_assert(offsetof(::UnityEngine::UIElements::StyleSheets::__StyleSheetCache
 
 static_assert(offsetof(::UnityEngine::UIElements::StyleSheets::__StyleSheetCache__SheetHandleKey, index) == 0x4, "Offset mismatch!");
 
-} // namespace UnityEngine::UIElements::StyleSheets
+} // namespace end def UnityEngine::UIElements::StyleSheets
 // Type: ::SheetHandleKeyComparer
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::StyleSheets {
 // Is value type: false
 // CS Name: ::StyleSheetCache::SheetHandleKeyComparer*
 class CORDL_TYPE __StyleSheetCache__SheetHandleKeyComparer : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Convert operator to "::System::Collections::Generic::IEqualityComparer_1<::UnityEngine::UIElements::StyleSheets::__StyleSheetCache__SheetHandleKey>"
-  constexpr operator ::System::Collections::Generic::IEqualityComparer_1<::UnityEngine::UIElements::StyleSheets::__StyleSheetCache__SheetHandleKey>*() noexcept;
+// Declarations
+/// @brief Convert operator to "::System::Collections::Generic::IEqualityComparer_1<::UnityEngine::UIElements::StyleSheets::__StyleSheetCache__SheetHandleKey>"
+constexpr operator  ::System::Collections::Generic::IEqualityComparer_1<::UnityEngine::UIElements::StyleSheets::__StyleSheetCache__SheetHandleKey>*() noexcept;
 
-  /// @brief Method Equals, addr 0x35823b0, size 0x20, virtual true, abstract: false, final true
-  inline bool Equals(::UnityEngine::UIElements::StyleSheets::__StyleSheetCache__SheetHandleKey x, ::UnityEngine::UIElements::StyleSheets::__StyleSheetCache__SheetHandleKey y);
+/// @brief Method Equals, addr 0x4944520, size 0x20, virtual true, abstract: false, final true
+inline bool Equals(::UnityEngine::UIElements::StyleSheets::__StyleSheetCache__SheetHandleKey  x, ::UnityEngine::UIElements::StyleSheets::__StyleSheetCache__SheetHandleKey  y) ;
 
-  /// @brief Method GetHashCode, addr 0x35823d0, size 0x40, virtual true, abstract: false, final true
-  inline int32_t GetHashCode(::UnityEngine::UIElements::StyleSheets::__StyleSheetCache__SheetHandleKey key);
+/// @brief Method GetHashCode, addr 0x4944540, size 0x3c, virtual true, abstract: false, final true
+inline int32_t GetHashCode(::UnityEngine::UIElements::StyleSheets::__StyleSheetCache__SheetHandleKey  key) ;
 
-  static inline ::UnityEngine::UIElements::StyleSheets::__StyleSheetCache__SheetHandleKeyComparer* New_ctor();
+static inline ::UnityEngine::UIElements::StyleSheets::__StyleSheetCache__SheetHandleKeyComparer* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x3582410, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x4944518, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Convert to "::System::Collections::Generic::IEqualityComparer_1<::UnityEngine::UIElements::StyleSheets::__StyleSheetCache__SheetHandleKey>"
-  constexpr ::System::Collections::Generic::IEqualityComparer_1<::UnityEngine::UIElements::StyleSheets::__StyleSheetCache__SheetHandleKey>*
-  i___System__Collections__Generic__IEqualityComparer_1___UnityEngine__UIElements__StyleSheets____StyleSheetCache__SheetHandleKey_() noexcept;
+/// @brief Convert to "::System::Collections::Generic::IEqualityComparer_1<::UnityEngine::UIElements::StyleSheets::__StyleSheetCache__SheetHandleKey>"
+constexpr ::System::Collections::Generic::IEqualityComparer_1<::UnityEngine::UIElements::StyleSheets::__StyleSheetCache__SheetHandleKey>* i___System__Collections__Generic__IEqualityComparer_1___UnityEngine__UIElements__StyleSheets____StyleSheetCache__SheetHandleKey_() noexcept;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __StyleSheetCache__SheetHandleKeyComparer();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __StyleSheetCache__SheetHandleKeyComparer() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__StyleSheetCache__SheetHandleKeyComparer", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __StyleSheetCache__SheetHandleKeyComparer(__StyleSheetCache__SheetHandleKeyComparer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__StyleSheetCache__SheetHandleKeyComparer", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __StyleSheetCache__SheetHandleKeyComparer(__StyleSheetCache__SheetHandleKeyComparer const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__StyleSheetCache__SheetHandleKeyComparer", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__StyleSheetCache__SheetHandleKeyComparer(__StyleSheetCache__SheetHandleKeyComparer && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "__StyleSheetCache__SheetHandleKeyComparer", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__StyleSheetCache__SheetHandleKeyComparer(__StyleSheetCache__SheetHandleKeyComparer const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::StyleSheets::__StyleSheetCache__SheetHandleKeyComparer, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine::UIElements::StyleSheets
+} // namespace end def UnityEngine::UIElements::StyleSheets
 // Type: UnityEngine.UIElements.StyleSheets::StyleSheetCache
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::StyleSheets {
 // Is value type: false
 // CS Name: ::UnityEngine.UIElements.StyleSheets::StyleSheetCache*
 class CORDL_TYPE StyleSheetCache : public ::System::Object {
 public:
-  // Declarations
-  using SheetHandleKey = ::UnityEngine::UIElements::StyleSheets::__StyleSheetCache__SheetHandleKey;
+// Declarations
+using SheetHandleKey = ::UnityEngine::UIElements::StyleSheets::__StyleSheetCache__SheetHandleKey;
 
-  using SheetHandleKeyComparer = ::UnityEngine::UIElements::StyleSheets::__StyleSheetCache__SheetHandleKeyComparer;
+using SheetHandleKeyComparer = ::UnityEngine::UIElements::StyleSheets::__StyleSheetCache__SheetHandleKeyComparer;
 
-  /// @brief Field s_Comparer, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_Comparer, put = setStaticF_s_Comparer))::UnityEngine::UIElements::StyleSheets::__StyleSheetCache__SheetHandleKeyComparer* s_Comparer;
+/// @brief Field s_Comparer, offset 0xffffffff, size 0x8 
+static __declspec(property(get=getStaticF_s_Comparer, put=setStaticF_s_Comparer)) ::UnityEngine::UIElements::StyleSheets::__StyleSheetCache__SheetHandleKeyComparer*  s_Comparer;
 
-  /// @brief Field s_RulePropertyIdsCache, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_RulePropertyIdsCache, put = setStaticF_s_RulePropertyIdsCache))::System::Collections::Generic::Dictionary_2<
-      ::UnityEngine::UIElements::StyleSheets::__StyleSheetCache__SheetHandleKey,
-      ::ArrayW<::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::Array<::UnityEngine::UIElements::StyleSheets::StylePropertyId>*>>* s_RulePropertyIdsCache;
+/// @brief Field s_RulePropertyIdsCache, offset 0xffffffff, size 0x8 
+static __declspec(property(get=getStaticF_s_RulePropertyIdsCache, put=setStaticF_s_RulePropertyIdsCache)) ::System::Collections::Generic::Dictionary_2<::UnityEngine::UIElements::StyleSheets::__StyleSheetCache__SheetHandleKey,::ArrayW<::UnityEngine::UIElements::StyleSheets::StylePropertyId,::Array<::UnityEngine::UIElements::StyleSheets::StylePropertyId>*>>*  s_RulePropertyIdsCache;
 
-  /// @brief Method GetPropertyId, addr 0x35820d4, size 0xf4, virtual false, abstract: false, final false
-  static inline ::UnityEngine::UIElements::StyleSheets::StylePropertyId GetPropertyId(::UnityEngine::UIElements::StyleRule* rule, int32_t index);
+/// @brief Method GetPropertyId, addr 0x4944278, size 0xf0, virtual false, abstract: false, final false
+static inline ::UnityEngine::UIElements::StyleSheets::StylePropertyId GetPropertyId(::UnityEngine::UIElements::StyleRule*  rule, int32_t  index) ;
 
-  /// @brief Method GetPropertyIds, addr 0x35821c8, size 0xe0, virtual false, abstract: false, final false
-  static inline ::ArrayW<::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::Array<::UnityEngine::UIElements::StyleSheets::StylePropertyId>*>
-  GetPropertyIds(::UnityEngine::UIElements::StyleRule* rule);
+/// @brief Method GetPropertyIds, addr 0x4944368, size 0xe0, virtual false, abstract: false, final false
+static inline ::ArrayW<::UnityEngine::UIElements::StyleSheets::StylePropertyId,::Array<::UnityEngine::UIElements::StyleSheets::StylePropertyId>*> GetPropertyIds(::UnityEngine::UIElements::StyleRule*  rule) ;
 
-  /// @brief Method GetPropertyIds, addr 0x357c3b8, size 0x1b0, virtual false, abstract: false, final false
-  static inline ::ArrayW<::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::Array<::UnityEngine::UIElements::StyleSheets::StylePropertyId>*>
-  GetPropertyIds(::UnityEngine::UIElements::StyleSheet* sheet, int32_t ruleIndex);
+/// @brief Method GetPropertyIds, addr 0x493f98c, size 0x1bc, virtual false, abstract: false, final false
+static inline ::ArrayW<::UnityEngine::UIElements::StyleSheets::StylePropertyId,::Array<::UnityEngine::UIElements::StyleSheets::StylePropertyId>*> GetPropertyIds(::UnityEngine::UIElements::StyleSheet*  sheet, int32_t  ruleIndex) ;
 
-  static inline ::UnityEngine::UIElements::StyleSheets::__StyleSheetCache__SheetHandleKeyComparer* getStaticF_s_Comparer();
+static inline ::UnityEngine::UIElements::StyleSheets::__StyleSheetCache__SheetHandleKeyComparer* getStaticF_s_Comparer() ;
 
-  static inline ::System::Collections::Generic::Dictionary_2<::UnityEngine::UIElements::StyleSheets::__StyleSheetCache__SheetHandleKey,
-                                                             ::ArrayW<::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::Array<::UnityEngine::UIElements::StyleSheets::StylePropertyId>*>>*
-  getStaticF_s_RulePropertyIdsCache();
+static inline ::System::Collections::Generic::Dictionary_2<::UnityEngine::UIElements::StyleSheets::__StyleSheetCache__SheetHandleKey,::ArrayW<::UnityEngine::UIElements::StyleSheets::StylePropertyId,::Array<::UnityEngine::UIElements::StyleSheets::StylePropertyId>*>>* getStaticF_s_RulePropertyIdsCache() ;
 
-  static inline void setStaticF_s_Comparer(::UnityEngine::UIElements::StyleSheets::__StyleSheetCache__SheetHandleKeyComparer* value);
+static inline void setStaticF_s_Comparer(::UnityEngine::UIElements::StyleSheets::__StyleSheetCache__SheetHandleKeyComparer*  value) ;
 
-  static inline void setStaticF_s_RulePropertyIdsCache(
-      ::System::Collections::Generic::Dictionary_2<::UnityEngine::UIElements::StyleSheets::__StyleSheetCache__SheetHandleKey,
-                                                   ::ArrayW<::UnityEngine::UIElements::StyleSheets::StylePropertyId, ::Array<::UnityEngine::UIElements::StyleSheets::StylePropertyId>*>>* value);
+static inline void setStaticF_s_RulePropertyIdsCache(::System::Collections::Generic::Dictionary_2<::UnityEngine::UIElements::StyleSheets::__StyleSheetCache__SheetHandleKey,::ArrayW<::UnityEngine::UIElements::StyleSheets::StylePropertyId,::Array<::UnityEngine::UIElements::StyleSheets::StylePropertyId>*>>*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr StyleSheetCache();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr StyleSheetCache() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StyleSheetCache", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  StyleSheetCache(StyleSheetCache&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StyleSheetCache", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  StyleSheetCache(StyleSheetCache const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "StyleSheetCache", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+StyleSheetCache(StyleSheetCache && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "StyleSheetCache", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+StyleSheetCache(StyleSheetCache const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::StyleSheets::StyleSheetCache, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine::UIElements::StyleSheets
+} // namespace end def UnityEngine::UIElements::StyleSheets
 NEED_NO_BOX(::UnityEngine::UIElements::StyleSheets::StyleSheetCache);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::StyleSheets::StyleSheetCache*, "UnityEngine.UIElements.StyleSheets", "StyleSheetCache");
 NEED_NO_BOX(::UnityEngine::UIElements::StyleSheets::__StyleSheetCache__SheetHandleKeyComparer);

@@ -50,230 +50,236 @@ class RuntimeAssembly;
 // Write type traits
 MARK_REF_PTR_T(::System::Reflection::RuntimeAssembly);
 // Type: System.Reflection::RuntimeAssembly
-// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Reflection {
 // Is value type: false
 // CS Name: ::System.Reflection::RuntimeAssembly*
 class CORDL_TYPE RuntimeAssembly : public ::System::Reflection::Assembly {
 public:
-  // Declarations
-  __declspec(property(get = get_CodeBase))::StringW CodeBase;
+// Declarations
+ __declspec(property(get=get_CodeBase)) ::StringW  CodeBase;
 
-  __declspec(property(get = get_FullName))::StringW FullName;
+ __declspec(property(get=get_FullName)) ::StringW  FullName;
 
-  __declspec(property(get = get_MonoAssembly))::System::IntPtr MonoAssembly;
+ __declspec(property(get=get_Location)) ::StringW  Location;
 
-  /// @brief Field _denied, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__denied, put = __cordl_internal_set__denied))::System::Object* _denied;
+ __declspec(property(get=get_MonoAssembly)) ::System::IntPtr  MonoAssembly;
 
-  /// @brief Field _evidence, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__evidence, put = __cordl_internal_set__evidence))::System::Object* _evidence;
+/// @brief Field _denied, offset 0x48, size 0x8 
+ __declspec(property(get=__cordl_internal_get__denied, put=__cordl_internal_set__denied)) ::System::Object*  _denied;
 
-  /// @brief Field _granted, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__granted, put = __cordl_internal_set__granted))::System::Object* _granted;
+/// @brief Field _evidence, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get__evidence, put=__cordl_internal_set__evidence)) ::System::Object*  _evidence;
 
-  /// @brief Field _minimum, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__minimum, put = __cordl_internal_set__minimum))::System::Object* _minimum;
+/// @brief Field _granted, offset 0x40, size 0x8 
+ __declspec(property(get=__cordl_internal_get__granted, put=__cordl_internal_set__granted)) ::System::Object*  _granted;
 
-  /// @brief Field _mono_assembly, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__mono_assembly, put = __cordl_internal_set__mono_assembly))::System::IntPtr _mono_assembly;
+/// @brief Field _minimum, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get__minimum, put=__cordl_internal_set__minimum)) ::System::Object*  _minimum;
 
-  /// @brief Field _optional, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__optional, put = __cordl_internal_set__optional))::System::Object* _optional;
+/// @brief Field _mono_assembly, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get__mono_assembly, put=__cordl_internal_set__mono_assembly)) ::System::IntPtr  _mono_assembly;
 
-  /// @brief Field _refuse, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__refuse, put = __cordl_internal_set__refuse))::System::Object* _refuse;
+/// @brief Field _optional, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get__optional, put=__cordl_internal_set__optional)) ::System::Object*  _optional;
 
-  /// @brief Field assemblyName, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get_assemblyName, put = __cordl_internal_set_assemblyName))::StringW assemblyName;
+/// @brief Field _refuse, offset 0x38, size 0x8 
+ __declspec(property(get=__cordl_internal_get__refuse, put=__cordl_internal_set__refuse)) ::System::Object*  _refuse;
 
-  /// @brief Field fromByteArray, offset 0x50, size 0x1
-  __declspec(property(get = __cordl_internal_get_fromByteArray, put = __cordl_internal_set_fromByteArray)) bool fromByteArray;
+/// @brief Field assemblyName, offset 0x58, size 0x8 
+ __declspec(property(get=__cordl_internal_get_assemblyName, put=__cordl_internal_set_assemblyName)) ::StringW  assemblyName;
 
-  /// @brief Field resolve_event_holder, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_resolve_event_holder, put = __cordl_internal_set_resolve_event_holder))::System::Reflection::__Assembly__ResolveEventHolder* resolve_event_holder;
+/// @brief Field fromByteArray, offset 0x50, size 0x1 
+ __declspec(property(get=__cordl_internal_get_fromByteArray, put=__cordl_internal_set_fromByteArray)) bool  fromByteArray;
 
-  /// @brief Method Equals, addr 0x28a0794, size 0xa0, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* o);
+/// @brief Field resolve_event_holder, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get_resolve_event_holder, put=__cordl_internal_set_resolve_event_holder)) ::System::Reflection::__Assembly__ResolveEventHolder*  resolve_event_holder;
 
-  /// @brief Method GetAotId, addr 0x28a05b8, size 0x58, virtual false, abstract: false, final false
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetAotId();
+/// @brief Method Equals, addr 0x3c9de44, size 0xa0, virtual true, abstract: false, final false
+inline bool Equals(::System::Object*  o) ;
 
-  /// @brief Method GetAotIdInternal, addr 0x28a0610, size 0x4, virtual false, abstract: false, final false
-  static inline bool GetAotIdInternal(::ArrayW<uint8_t, ::Array<uint8_t>*> aotid);
+/// @brief Method GetAotId, addr 0x3c9dc00, size 0x58, virtual false, abstract: false, final false
+static inline ::ArrayW<uint8_t,::Array<uint8_t>*> GetAotId() ;
 
-  /// @brief Method GetCodeBase, addr 0x28a0620, size 0x8, virtual false, abstract: false, final false
-  static inline ::StringW GetCodeBase(::System::Reflection::Assembly* a, bool escaped);
+/// @brief Method GetAotIdInternal, addr 0x3c9dc58, size 0x4, virtual false, abstract: false, final false
+static inline bool GetAotIdInternal(::ArrayW<uint8_t,::Array<uint8_t>*>  aotid) ;
 
-  /// @brief Method GetCustomAttributes, addr 0x28a0718, size 0x70, virtual true, abstract: false, final false
-  inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> GetCustomAttributes(::System::Type* attributeType, bool inherit);
+/// @brief Method GetCodeBase, addr 0x3c9dc6c, size 0x8, virtual false, abstract: false, final false
+static inline ::StringW GetCodeBase(::System::Reflection::Assembly*  a, bool  escaped) ;
 
-  /// @brief Method GetCustomAttributes, addr 0x28a06b0, size 0x68, virtual true, abstract: false, final false
-  inline ::ArrayW<::System::Object*, ::Array<::System::Object*>*> GetCustomAttributes(bool inherit);
+/// @brief Method GetCustomAttributes, addr 0x3c9ddc8, size 0x70, virtual true, abstract: false, final false
+inline ::ArrayW<::System::Object*,::Array<::System::Object*>*> GetCustomAttributes(::System::Type*  attributeType, bool  inherit) ;
 
-  /// @brief Method GetHashCode, addr 0x28a078c, size 0x8, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
+/// @brief Method GetCustomAttributes, addr 0x3c9dd60, size 0x68, virtual true, abstract: false, final false
+inline ::ArrayW<::System::Object*,::Array<::System::Object*>*> GetCustomAttributes(bool  inherit) ;
 
-  /// @brief Method GetManifestResourceInternal, addr 0x28a063c, size 0x4, virtual false, abstract: false, final false
-  inline ::System::IntPtr GetManifestResourceInternal(::StringW name, ByRef<int32_t> size, ByRef<::System::Reflection::Module*> _cordl_module);
+/// @brief Method GetHashCode, addr 0x3c9de3c, size 0x8, virtual true, abstract: false, final false
+inline int32_t GetHashCode() ;
 
-  /// @brief Method GetModule, addr 0x28a02f4, size 0x130, virtual true, abstract: false, final false
-  inline ::System::Reflection::Module* GetModule(::StringW name);
+/// @brief Method GetManifestResourceInternal, addr 0x3c9dcec, size 0x4, virtual false, abstract: false, final false
+inline ::System::IntPtr GetManifestResourceInternal(::StringW  name, ByRef<int32_t>  size, ByRef<::System::Reflection::Module*>  _cordl_module) ;
 
-  /// @brief Method GetModules, addr 0x28a0424, size 0x194, virtual true, abstract: false, final false
-  inline ::ArrayW<::System::Reflection::Module*, ::Array<::System::Reflection::Module*>*> GetModules(bool getResourceModules);
+/// @brief Method GetModule, addr 0x3c9d944, size 0x128, virtual true, abstract: false, final false
+inline ::System::Reflection::Module* GetModule(::StringW  name) ;
 
-  /// @brief Method GetModulesInternal, addr 0x28a0788, size 0x4, virtual true, abstract: false, final false
-  inline ::ArrayW<::System::Reflection::Module*, ::Array<::System::Reflection::Module*>*> GetModulesInternal();
+/// @brief Method GetModules, addr 0x3c9da6c, size 0x194, virtual true, abstract: false, final false
+inline ::ArrayW<::System::Reflection::Module*,::Array<::System::Reflection::Module*>*> GetModules(bool  getResourceModules) ;
 
-  /// @brief Method GetName, addr 0x28a0228, size 0x8, virtual true, abstract: false, final false
-  inline ::System::Reflection::AssemblyName* GetName(bool copiedName);
+/// @brief Method GetModulesInternal, addr 0x3c9de38, size 0x4, virtual true, abstract: false, final false
+inline ::ArrayW<::System::Reflection::Module*,::Array<::System::Reflection::Module*>*> GetModulesInternal() ;
 
-  /// @brief Method GetObjectData, addr 0x28a00ec, size 0x8c, virtual true, abstract: false, final false
-  inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
+/// @brief Method GetName, addr 0x3c9d884, size 0x8, virtual true, abstract: false, final false
+inline ::System::Reflection::AssemblyName* GetName(bool  copiedName) ;
 
-  /// @brief Method GetType, addr 0x28a0230, size 0xc4, virtual true, abstract: false, final false
-  inline ::System::Type* GetType(::StringW name, bool throwOnError, bool ignoreCase);
+/// @brief Method GetObjectData, addr 0x3c9d74c, size 0x88, virtual true, abstract: false, final false
+inline void GetObjectData(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context) ;
 
-  /// @brief Method IsDefined, addr 0x28a0640, size 0x70, virtual true, abstract: false, final false
-  inline bool IsDefined(::System::Type* attributeType, bool inherit);
+/// @brief Method GetType, addr 0x3c9d88c, size 0xb8, virtual true, abstract: false, final false
+inline ::System::Type* GetType(::StringW  name, bool  throwOnError, bool  ignoreCase) ;
 
-  /// @brief Method LoadWithPartialNameInternal, addr 0x28a0200, size 0x28, virtual false, abstract: false, final false
-  static inline ::System::Reflection::RuntimeAssembly* LoadWithPartialNameInternal(::System::Reflection::AssemblyName* an, ::System::Security::Policy::Evidence* securityEvidence,
-                                                                                   ByRef<::System::Threading::StackCrawlMark> stackMark);
+/// @brief Method IsDefined, addr 0x3c9dcf0, size 0x70, virtual true, abstract: false, final false
+inline bool IsDefined(::System::Type*  attributeType, bool  inherit) ;
 
-  /// @brief Method LoadWithPartialNameInternal, addr 0x28a0178, size 0x88, virtual false, abstract: false, final false
-  static inline ::System::Reflection::RuntimeAssembly* LoadWithPartialNameInternal(::StringW partialName, ::System::Security::Policy::Evidence* securityEvidence,
-                                                                                   ByRef<::System::Threading::StackCrawlMark> stackMark);
+/// @brief Method LoadWithPartialNameInternal, addr 0x3c9d85c, size 0x28, virtual false, abstract: false, final false
+static inline ::System::Reflection::RuntimeAssembly* LoadWithPartialNameInternal(::System::Reflection::AssemblyName*  an, ::System::Security::Policy::Evidence*  securityEvidence, ByRef<::System::Threading::StackCrawlMark>  stackMark) ;
 
-  static inline ::System::Reflection::RuntimeAssembly* New_ctor();
+/// @brief Method LoadWithPartialNameInternal, addr 0x3c9d7d4, size 0x88, virtual false, abstract: false, final false
+static inline ::System::Reflection::RuntimeAssembly* LoadWithPartialNameInternal(::StringW  partialName, ::System::Security::Policy::Evidence*  securityEvidence, ByRef<::System::Threading::StackCrawlMark>  stackMark) ;
 
-  /// @brief Method ToString, addr 0x28a0834, size 0x2c, virtual true, abstract: false, final false
-  inline ::StringW ToString();
+static inline ::System::Reflection::RuntimeAssembly* New_ctor() ;
 
-  constexpr ::System::Object*& __cordl_internal_get__denied();
+/// @brief Method ToString, addr 0x3c9dee4, size 0x2c, virtual true, abstract: false, final false
+inline ::StringW ToString() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__denied() const;
+constexpr ::System::Object*& __cordl_internal_get__denied() ;
 
-  constexpr ::System::Object*& __cordl_internal_get__evidence();
+constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__denied() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__evidence() const;
+constexpr ::System::Object*& __cordl_internal_get__evidence() ;
 
-  constexpr ::System::Object*& __cordl_internal_get__granted();
+constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__evidence() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__granted() const;
+constexpr ::System::Object*& __cordl_internal_get__granted() ;
 
-  constexpr ::System::Object*& __cordl_internal_get__minimum();
+constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__granted() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__minimum() const;
+constexpr ::System::Object*& __cordl_internal_get__minimum() ;
 
-  constexpr ::System::IntPtr const& __cordl_internal_get__mono_assembly() const;
+constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__minimum() const;
 
-  constexpr ::System::IntPtr& __cordl_internal_get__mono_assembly();
+constexpr ::System::IntPtr const& __cordl_internal_get__mono_assembly() const;
 
-  constexpr ::System::Object*& __cordl_internal_get__optional();
+constexpr ::System::IntPtr& __cordl_internal_get__mono_assembly() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__optional() const;
+constexpr ::System::Object*& __cordl_internal_get__optional() ;
 
-  constexpr ::System::Object*& __cordl_internal_get__refuse();
+constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__optional() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__refuse() const;
+constexpr ::System::Object*& __cordl_internal_get__refuse() ;
 
-  constexpr ::StringW const& __cordl_internal_get_assemblyName() const;
+constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__refuse() const;
 
-  constexpr ::StringW& __cordl_internal_get_assemblyName();
+constexpr ::StringW const& __cordl_internal_get_assemblyName() const;
 
-  constexpr bool const& __cordl_internal_get_fromByteArray() const;
+constexpr ::StringW& __cordl_internal_get_assemblyName() ;
 
-  constexpr bool& __cordl_internal_get_fromByteArray();
+constexpr bool const& __cordl_internal_get_fromByteArray() const;
 
-  constexpr ::System::Reflection::__Assembly__ResolveEventHolder*& __cordl_internal_get_resolve_event_holder();
+constexpr bool& __cordl_internal_get_fromByteArray() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Reflection::__Assembly__ResolveEventHolder*> const& __cordl_internal_get_resolve_event_holder() const;
+constexpr ::System::Reflection::__Assembly__ResolveEventHolder*& __cordl_internal_get_resolve_event_holder() ;
 
-  constexpr void __cordl_internal_set__denied(::System::Object* value);
+constexpr ::cordl_internals::to_const_pointer<::System::Reflection::__Assembly__ResolveEventHolder*> const& __cordl_internal_get_resolve_event_holder() const;
 
-  constexpr void __cordl_internal_set__evidence(::System::Object* value);
+constexpr void __cordl_internal_set__denied(::System::Object*  value) ;
 
-  constexpr void __cordl_internal_set__granted(::System::Object* value);
+constexpr void __cordl_internal_set__evidence(::System::Object*  value) ;
 
-  constexpr void __cordl_internal_set__minimum(::System::Object* value);
+constexpr void __cordl_internal_set__granted(::System::Object*  value) ;
 
-  constexpr void __cordl_internal_set__mono_assembly(::System::IntPtr value);
+constexpr void __cordl_internal_set__minimum(::System::Object*  value) ;
 
-  constexpr void __cordl_internal_set__optional(::System::Object* value);
+constexpr void __cordl_internal_set__mono_assembly(::System::IntPtr  value) ;
 
-  constexpr void __cordl_internal_set__refuse(::System::Object* value);
+constexpr void __cordl_internal_set__optional(::System::Object*  value) ;
 
-  constexpr void __cordl_internal_set_assemblyName(::StringW value);
+constexpr void __cordl_internal_set__refuse(::System::Object*  value) ;
 
-  constexpr void __cordl_internal_set_fromByteArray(bool value);
+constexpr void __cordl_internal_set_assemblyName(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_resolve_event_holder(::System::Reflection::__Assembly__ResolveEventHolder* value);
+constexpr void __cordl_internal_set_fromByteArray(bool  value) ;
 
-  /// @brief Method .ctor, addr 0x28a0080, size 0x6c, virtual false, abstract: false, final false
-  inline void _ctor();
+constexpr void __cordl_internal_set_resolve_event_holder(::System::Reflection::__Assembly__ResolveEventHolder*  value) ;
 
-  /// @brief Method get_CodeBase, addr 0x28a0628, size 0x8, virtual true, abstract: false, final false
-  inline ::StringW get_CodeBase();
+/// @brief Method .ctor, addr 0x3c9d6e8, size 0x64, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_FullName, addr 0x28a0630, size 0x4, virtual true, abstract: false, final false
-  inline ::StringW get_FullName();
+/// @brief Method get_CodeBase, addr 0x3c9dc74, size 0x8, virtual true, abstract: false, final false
+inline ::StringW get_CodeBase() ;
 
-  /// @brief Method get_MonoAssembly, addr 0x28a0634, size 0x8, virtual true, abstract: false, final false
-  inline ::System::IntPtr get_MonoAssembly();
+/// @brief Method get_FullName, addr 0x3c9dc7c, size 0x4, virtual true, abstract: false, final false
+inline ::StringW get_FullName() ;
 
-  /// @brief Method get_code_base, addr 0x28a0614, size 0x8, virtual false, abstract: false, final false
-  static inline ::StringW get_code_base(::System::Reflection::Assembly* a, bool escaped);
+/// @brief Method get_Location, addr 0x3c9dc88, size 0x64, virtual true, abstract: false, final false
+inline ::StringW get_Location() ;
 
-  /// @brief Method get_fullname, addr 0x28a061c, size 0x4, virtual false, abstract: false, final false
-  static inline ::StringW get_fullname(::System::Reflection::Assembly* a);
+/// @brief Method get_MonoAssembly, addr 0x3c9dc80, size 0x8, virtual true, abstract: false, final false
+inline ::System::IntPtr get_MonoAssembly() ;
+
+/// @brief Method get_code_base, addr 0x3c9dc5c, size 0x8, virtual false, abstract: false, final false
+static inline ::StringW get_code_base(::System::Reflection::Assembly*  a, bool  escaped) ;
+
+/// @brief Method get_fullname, addr 0x3c9dc68, size 0x4, virtual false, abstract: false, final false
+static inline ::StringW get_fullname(::System::Reflection::Assembly*  a) ;
+
+/// @brief Method get_location, addr 0x3c9dc64, size 0x4, virtual false, abstract: false, final false
+inline ::StringW get_location() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr RuntimeAssembly();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr RuntimeAssembly() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RuntimeAssembly", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  RuntimeAssembly(RuntimeAssembly&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RuntimeAssembly", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  RuntimeAssembly(RuntimeAssembly const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "RuntimeAssembly", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+RuntimeAssembly(RuntimeAssembly && ) = delete;
 
-  /// @brief Field _mono_assembly, offset: 0x10, size: 0x8, def value: None
-  ::System::IntPtr ____mono_assembly;
+// Ctor Parameters [CppParam { name: "", ty: "RuntimeAssembly", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+RuntimeAssembly(RuntimeAssembly const& ) = delete;
 
-  /// @brief Field _evidence, offset: 0x18, size: 0x8, def value: None
-  ::System::Object* ____evidence;
+/// @brief Field _mono_assembly, offset: 0x10, size: 0x8, def value: None
+ ::System::IntPtr  ____mono_assembly;
 
-  /// @brief Field resolve_event_holder, offset: 0x20, size: 0x8, def value: None
-  ::System::Reflection::__Assembly__ResolveEventHolder* ___resolve_event_holder;
+/// @brief Field _evidence, offset: 0x18, size: 0x8, def value: None
+ ::System::Object*  ____evidence;
 
-  /// @brief Field _minimum, offset: 0x28, size: 0x8, def value: None
-  ::System::Object* ____minimum;
+/// @brief Field resolve_event_holder, offset: 0x20, size: 0x8, def value: None
+ ::System::Reflection::__Assembly__ResolveEventHolder*  ___resolve_event_holder;
 
-  /// @brief Field _optional, offset: 0x30, size: 0x8, def value: None
-  ::System::Object* ____optional;
+/// @brief Field _minimum, offset: 0x28, size: 0x8, def value: None
+ ::System::Object*  ____minimum;
 
-  /// @brief Field _refuse, offset: 0x38, size: 0x8, def value: None
-  ::System::Object* ____refuse;
+/// @brief Field _optional, offset: 0x30, size: 0x8, def value: None
+ ::System::Object*  ____optional;
 
-  /// @brief Field _granted, offset: 0x40, size: 0x8, def value: None
-  ::System::Object* ____granted;
+/// @brief Field _refuse, offset: 0x38, size: 0x8, def value: None
+ ::System::Object*  ____refuse;
 
-  /// @brief Field _denied, offset: 0x48, size: 0x8, def value: None
-  ::System::Object* ____denied;
+/// @brief Field _granted, offset: 0x40, size: 0x8, def value: None
+ ::System::Object*  ____granted;
 
-  /// @brief Field fromByteArray, offset: 0x50, size: 0x1, def value: None
-  bool ___fromByteArray;
+/// @brief Field _denied, offset: 0x48, size: 0x8, def value: None
+ ::System::Object*  ____denied;
 
-  /// @brief Field assemblyName, offset: 0x58, size: 0x8, def value: None
-  ::StringW ___assemblyName;
+/// @brief Field fromByteArray, offset: 0x50, size: 0x1, def value: None
+ bool  ___fromByteArray;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field assemblyName, offset: 0x58, size: 0x8, def value: None
+ ::StringW  ___assemblyName;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Reflection::RuntimeAssembly, 0x60>, "Size mismatch!");
@@ -298,6 +304,6 @@ static_assert(offsetof(::System::Reflection::RuntimeAssembly, ___fromByteArray) 
 
 static_assert(offsetof(::System::Reflection::RuntimeAssembly, ___assemblyName) == 0x58, "Offset mismatch!");
 
-} // namespace System::Reflection
+} // namespace end def System::Reflection
 NEED_NO_BOX(::System::Reflection::RuntimeAssembly);
 DEFINE_IL2CPP_ARG_TYPE(::System::Reflection::RuntimeAssembly*, "System.Reflection", "RuntimeAssembly");

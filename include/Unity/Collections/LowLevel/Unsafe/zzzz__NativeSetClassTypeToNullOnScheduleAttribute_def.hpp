@@ -12,32 +12,32 @@ class NativeSetClassTypeToNullOnScheduleAttribute;
 // Write type traits
 MARK_REF_PTR_T(::Unity::Collections::LowLevel::Unsafe::NativeSetClassTypeToNullOnScheduleAttribute);
 // Type: Unity.Collections.LowLevel.Unsafe::NativeSetClassTypeToNullOnScheduleAttribute
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Unity::Collections::LowLevel::Unsafe {
 // Is value type: false
 // CS Name: ::Unity.Collections.LowLevel.Unsafe::NativeSetClassTypeToNullOnScheduleAttribute*
 class CORDL_TYPE NativeSetClassTypeToNullOnScheduleAttribute : public ::System::Attribute {
 public:
-  // Declarations
+// Declarations
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NativeSetClassTypeToNullOnScheduleAttribute();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr NativeSetClassTypeToNullOnScheduleAttribute() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NativeSetClassTypeToNullOnScheduleAttribute", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  NativeSetClassTypeToNullOnScheduleAttribute(NativeSetClassTypeToNullOnScheduleAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NativeSetClassTypeToNullOnScheduleAttribute", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  NativeSetClassTypeToNullOnScheduleAttribute(NativeSetClassTypeToNullOnScheduleAttribute const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "NativeSetClassTypeToNullOnScheduleAttribute", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+NativeSetClassTypeToNullOnScheduleAttribute(NativeSetClassTypeToNullOnScheduleAttribute && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "NativeSetClassTypeToNullOnScheduleAttribute", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+NativeSetClassTypeToNullOnScheduleAttribute(NativeSetClassTypeToNullOnScheduleAttribute const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Unity::Collections::LowLevel::Unsafe::NativeSetClassTypeToNullOnScheduleAttribute, 0x10>, "Size mismatch!");
 
-} // namespace Unity::Collections::LowLevel::Unsafe
+} // namespace end def Unity::Collections::LowLevel::Unsafe
 NEED_NO_BOX(::Unity::Collections::LowLevel::Unsafe::NativeSetClassTypeToNullOnScheduleAttribute);
 DEFINE_IL2CPP_ARG_TYPE(::Unity::Collections::LowLevel::Unsafe::NativeSetClassTypeToNullOnScheduleAttribute*, "Unity.Collections.LowLevel.Unsafe", "NativeSetClassTypeToNullOnScheduleAttribute");

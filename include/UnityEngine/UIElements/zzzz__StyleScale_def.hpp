@@ -10,13 +10,15 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(StyleScale)
 namespace System {
-template <typename T> class IEquatable_1;
+template<typename T>
+class IEquatable_1;
 }
 namespace System {
 class Object;
 }
 namespace UnityEngine::UIElements {
-template <typename T> class IStyleValue_1;
+template<typename T>
+class IStyleValue_1;
 }
 namespace UnityEngine::UIElements {
 struct Scale;
@@ -31,77 +33,76 @@ struct StyleScale;
 // Write type traits
 MARK_VAL_T(::UnityEngine::UIElements::StyleScale);
 // Type: UnityEngine.UIElements::StyleScale
-// SizeInfo { instance_size: 20, native_size: 20, calculated_instance_size: 20, calculated_native_size: 36, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 20, native_size: 20, calculated_instance_size: 20, calculated_native_size: 36, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: true
 // CS Name: ::UnityEngine.UIElements::StyleScale
 struct CORDL_TYPE StyleScale {
 public:
-  // Declarations
-  __declspec(property(get = get_keyword))::UnityEngine::UIElements::StyleKeyword keyword;
+// Declarations
+ __declspec(property(get=get_keyword)) ::UnityEngine::UIElements::StyleKeyword  keyword;
 
-  __declspec(property(get = get_value))::UnityEngine::UIElements::Scale value;
+ __declspec(property(get=get_value)) ::UnityEngine::UIElements::Scale  value;
 
-  /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::StyleScale>"
-  constexpr operator ::System::IEquatable_1<::UnityEngine::UIElements::StyleScale>*();
+/// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::UIElements::StyleScale>"
+constexpr operator  ::System::IEquatable_1<::UnityEngine::UIElements::StyleScale>*() ;
 
-  /// @brief Convert operator to "::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::Scale>"
-  constexpr operator ::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::Scale>*();
+/// @brief Convert operator to "::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::Scale>"
+constexpr operator  ::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::Scale>*() ;
 
-  /// @brief Method Equals, addr 0x3602e0c, size 0xd0, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* obj);
+/// @brief Method Equals, addr 0x49eff70, size 0xd0, virtual true, abstract: false, final false
+inline bool Equals(::System::Object*  obj) ;
 
-  /// @brief Method Equals, addr 0x3602d98, size 0x74, virtual true, abstract: false, final true
-  inline bool Equals(::UnityEngine::UIElements::StyleScale other);
+/// @brief Method Equals, addr 0x49efefc, size 0x74, virtual true, abstract: false, final true
+inline bool Equals(::UnityEngine::UIElements::StyleScale  other) ;
 
-  /// @brief Method GetHashCode, addr 0x3602edc, size 0x24, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
+/// @brief Method GetHashCode, addr 0x49f0040, size 0x24, virtual true, abstract: false, final false
+inline int32_t GetHashCode() ;
 
-  /// @brief Method ToString, addr 0x3602f50, size 0x88, virtual true, abstract: false, final false
-  inline ::StringW ToString();
+/// @brief Method ToString, addr 0x49f0064, size 0x88, virtual true, abstract: false, final false
+inline ::StringW ToString() ;
 
-  /// @brief Method .ctor, addr 0x3602cb0, size 0xc, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::UIElements::StyleKeyword keyword);
+/// @brief Method .ctor, addr 0x49efe68, size 0xc, virtual false, abstract: false, final false
+inline void _ctor(::UnityEngine::UIElements::StyleKeyword  keyword) ;
 
-  /// @brief Method .ctor, addr 0x3602cbc, size 0xc, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::UIElements::Scale v, ::UnityEngine::UIElements::StyleKeyword keyword);
+/// @brief Method .ctor, addr 0x49efe74, size 0xc, virtual false, abstract: false, final false
+inline void _ctor(::UnityEngine::UIElements::Scale  v, ::UnityEngine::UIElements::StyleKeyword  keyword) ;
 
-  /// @brief Method get_keyword, addr 0x3602ca8, size 0x8, virtual true, abstract: false, final true
-  inline ::UnityEngine::UIElements::StyleKeyword get_keyword();
+/// @brief Method get_keyword, addr 0x49efe60, size 0x8, virtual true, abstract: false, final true
+inline ::UnityEngine::UIElements::StyleKeyword get_keyword() ;
 
-  /// @brief Method get_value, addr 0x3602c74, size 0x34, virtual true, abstract: false, final true
-  inline ::UnityEngine::UIElements::Scale get_value();
+/// @brief Method get_value, addr 0x49efdd8, size 0x88, virtual true, abstract: false, final true
+inline ::UnityEngine::UIElements::Scale get_value() ;
 
-  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::StyleScale>"
-  constexpr ::System::IEquatable_1<::UnityEngine::UIElements::StyleScale>* i___System__IEquatable_1___UnityEngine__UIElements__StyleScale_();
+/// @brief Convert to "::System::IEquatable_1<::UnityEngine::UIElements::StyleScale>"
+constexpr ::System::IEquatable_1<::UnityEngine::UIElements::StyleScale>* i___System__IEquatable_1___UnityEngine__UIElements__StyleScale_() ;
 
-  /// @brief Convert to "::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::Scale>"
-  constexpr ::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::Scale>* i___UnityEngine__UIElements__IStyleValue_1___UnityEngine__UIElements__Scale_();
+/// @brief Convert to "::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::Scale>"
+constexpr ::UnityEngine::UIElements::IStyleValue_1<::UnityEngine::UIElements::Scale>* i___UnityEngine__UIElements__IStyleValue_1___UnityEngine__UIElements__Scale_() ;
 
-  /// @brief Method op_Equality, addr 0x3602cc8, size 0x70, virtual false, abstract: false, final false
-  static inline bool op_Equality(::UnityEngine::UIElements::StyleScale lhs, ::UnityEngine::UIElements::StyleScale rhs);
+/// @brief Method op_Equality, addr 0x49efe80, size 0x70, virtual false, abstract: false, final false
+static inline bool op_Equality(::UnityEngine::UIElements::StyleScale  lhs, ::UnityEngine::UIElements::StyleScale  rhs) ;
 
-  /// @brief Method op_Implicit, addr 0x3602d8c, size 0xc, virtual false, abstract: false, final false
-  static inline ::UnityEngine::UIElements::StyleScale op_Implicit___UnityEngine__UIElements__StyleScale(::UnityEngine::UIElements::StyleKeyword keyword);
+/// @brief Method op_Implicit, addr 0x49efef0, size 0xc, virtual false, abstract: false, final false
+static inline ::UnityEngine::UIElements::StyleScale op_Implicit___UnityEngine__UIElements__StyleScale(::UnityEngine::UIElements::StyleKeyword  keyword) ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr StyleScale();
+// Ctor Parameters []
+// @brief default ctor
+constexpr StyleScale() ;
 
-  // Ctor Parameters [CppParam { name: "m_Value", ty: "::UnityEngine::UIElements::Scale", modifiers: "", def_value: None }, CppParam { name: "m_Keyword", ty: "::UnityEngine::UIElements::StyleKeyword",
-  // modifiers: "", def_value: None }]
-  constexpr StyleScale(::UnityEngine::UIElements::Scale m_Value, ::UnityEngine::UIElements::StyleKeyword m_Keyword) noexcept;
+// Ctor Parameters [CppParam { name: "m_Value", ty: "::UnityEngine::UIElements::Scale", modifiers: "", def_value: None }, CppParam { name: "m_Keyword", ty: "::UnityEngine::UIElements::StyleKeyword", modifiers: "", def_value: None }]
+constexpr StyleScale(::UnityEngine::UIElements::Scale  m_Value, ::UnityEngine::UIElements::StyleKeyword  m_Keyword) noexcept;
 
-  /// @brief Field m_Value, offset: 0x0, size: 0x10, def value: None
-  ::UnityEngine::UIElements::Scale m_Value;
+/// @brief Field m_Value, offset: 0x0, size: 0x10, def value: None
+ ::UnityEngine::UIElements::Scale  m_Value;
 
-  /// @brief Field m_Keyword, offset: 0x10, size: 0x4, def value: None
-  ::UnityEngine::UIElements::StyleKeyword m_Keyword;
+/// @brief Field m_Keyword, offset: 0x10, size: 0x4, def value: None
+ ::UnityEngine::UIElements::StyleKeyword  m_Keyword;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x14 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x14};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::StyleScale, 0x14>, "Size mismatch!");
@@ -110,5 +111,5 @@ static_assert(offsetof(::UnityEngine::UIElements::StyleScale, m_Value) == 0x0, "
 
 static_assert(offsetof(::UnityEngine::UIElements::StyleScale, m_Keyword) == 0x10, "Offset mismatch!");
 
-} // namespace UnityEngine::UIElements
+} // namespace end def UnityEngine::UIElements
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::StyleScale, "UnityEngine.UIElements", "StyleScale");

@@ -23,64 +23,64 @@ class AssignLocalInstruction;
 // Write type traits
 MARK_REF_PTR_T(::System::Linq::Expressions::Interpreter::AssignLocalInstruction);
 // Type: System.Linq.Expressions.Interpreter::AssignLocalInstruction
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Linq::Expressions::Interpreter {
 // Is value type: false
 // CS Name: ::System.Linq.Expressions.Interpreter::AssignLocalInstruction*
 class CORDL_TYPE AssignLocalInstruction : public ::System::Linq::Expressions::Interpreter::LocalAccessInstruction {
 public:
-  // Declarations
-  __declspec(property(get = get_ConsumedStack)) int32_t ConsumedStack;
+// Declarations
+ __declspec(property(get=get_ConsumedStack)) int32_t  ConsumedStack;
 
-  __declspec(property(get = get_InstructionName))::StringW InstructionName;
+ __declspec(property(get=get_InstructionName)) ::StringW  InstructionName;
 
-  __declspec(property(get = get_ProducedStack)) int32_t ProducedStack;
+ __declspec(property(get=get_ProducedStack)) int32_t  ProducedStack;
 
-  /// @brief Convert operator to "::System::Linq::Expressions::Interpreter::IBoxableInstruction"
-  constexpr operator ::System::Linq::Expressions::Interpreter::IBoxableInstruction*() noexcept;
+/// @brief Convert operator to "::System::Linq::Expressions::Interpreter::IBoxableInstruction"
+constexpr operator  ::System::Linq::Expressions::Interpreter::IBoxableInstruction*() noexcept;
 
-  /// @brief Method BoxIfIndexMatches, addr 0x2c6f788, size 0x78, virtual true, abstract: false, final true
-  inline ::System::Linq::Expressions::Interpreter::Instruction* BoxIfIndexMatches(int32_t index);
+/// @brief Method BoxIfIndexMatches, addr 0x4057960, size 0x78, virtual true, abstract: false, final true
+inline ::System::Linq::Expressions::Interpreter::Instruction* BoxIfIndexMatches(int32_t  index) ;
 
-  static inline ::System::Linq::Expressions::Interpreter::AssignLocalInstruction* New_ctor(int32_t index);
+static inline ::System::Linq::Expressions::Interpreter::AssignLocalInstruction* New_ctor(int32_t  index) ;
 
-  /// @brief Method Run, addr 0x2c6f710, size 0x78, virtual true, abstract: false, final false
-  inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame* frame);
+/// @brief Method Run, addr 0x40578e8, size 0x78, virtual true, abstract: false, final false
+inline int32_t Run(::System::Linq::Expressions::Interpreter::InterpretedFrame*  frame) ;
 
-  /// @brief Method .ctor, addr 0x2c6f698, size 0x28, virtual false, abstract: false, final false
-  inline void _ctor(int32_t index);
+/// @brief Method .ctor, addr 0x4057870, size 0x28, virtual false, abstract: false, final false
+inline void _ctor(int32_t  index) ;
 
-  /// @brief Method get_ConsumedStack, addr 0x2c6f6c0, size 0x8, virtual true, abstract: false, final false
-  inline int32_t get_ConsumedStack();
+/// @brief Method get_ConsumedStack, addr 0x4057898, size 0x8, virtual true, abstract: false, final false
+inline int32_t get_ConsumedStack() ;
 
-  /// @brief Method get_InstructionName, addr 0x2c6f6d0, size 0x40, virtual true, abstract: false, final false
-  inline ::StringW get_InstructionName();
+/// @brief Method get_InstructionName, addr 0x40578a8, size 0x40, virtual true, abstract: false, final false
+inline ::StringW get_InstructionName() ;
 
-  /// @brief Method get_ProducedStack, addr 0x2c6f6c8, size 0x8, virtual true, abstract: false, final false
-  inline int32_t get_ProducedStack();
+/// @brief Method get_ProducedStack, addr 0x40578a0, size 0x8, virtual true, abstract: false, final false
+inline int32_t get_ProducedStack() ;
 
-  /// @brief Convert to "::System::Linq::Expressions::Interpreter::IBoxableInstruction"
-  constexpr ::System::Linq::Expressions::Interpreter::IBoxableInstruction* i___System__Linq__Expressions__Interpreter__IBoxableInstruction() noexcept;
+/// @brief Convert to "::System::Linq::Expressions::Interpreter::IBoxableInstruction"
+constexpr ::System::Linq::Expressions::Interpreter::IBoxableInstruction* i___System__Linq__Expressions__Interpreter__IBoxableInstruction() noexcept;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AssignLocalInstruction();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr AssignLocalInstruction() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AssignLocalInstruction", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  AssignLocalInstruction(AssignLocalInstruction&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AssignLocalInstruction", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  AssignLocalInstruction(AssignLocalInstruction const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "AssignLocalInstruction", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+AssignLocalInstruction(AssignLocalInstruction && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "AssignLocalInstruction", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+AssignLocalInstruction(AssignLocalInstruction const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Linq::Expressions::Interpreter::AssignLocalInstruction, 0x18>, "Size mismatch!");
 
-} // namespace System::Linq::Expressions::Interpreter
+} // namespace end def System::Linq::Expressions::Interpreter
 NEED_NO_BOX(::System::Linq::Expressions::Interpreter::AssignLocalInstruction);
 DEFINE_IL2CPP_ARG_TYPE(::System::Linq::Expressions::Interpreter::AssignLocalInstruction*, "System.Linq.Expressions.Interpreter", "AssignLocalInstruction");

@@ -19,48 +19,48 @@ class TlsECDsaSigner;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::TlsECDsaSigner);
 // Type: Org.BouncyCastle.Crypto.Tls::TlsECDsaSigner
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::TlsECDsaSigner*
 class CORDL_TYPE TlsECDsaSigner : public ::Org::BouncyCastle::Crypto::Tls::TlsDsaSigner {
 public:
-  // Declarations
-  __declspec(property(get = get_SignatureAlgorithm)) uint8_t SignatureAlgorithm;
+// Declarations
+ __declspec(property(get=get_SignatureAlgorithm)) uint8_t  SignatureAlgorithm;
 
-  /// @brief Method CreateDsaImpl, addr 0x121d064, size 0xc8, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Crypto::IDsa* CreateDsaImpl(uint8_t hashAlgorithm);
+/// @brief Method CreateDsaImpl, addr 0x23e4390, size 0xbc, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Crypto::IDsa* CreateDsaImpl(uint8_t  hashAlgorithm) ;
 
-  /// @brief Method IsValidPublicKey, addr 0x121cfec, size 0x78, virtual true, abstract: false, final false
-  inline bool IsValidPublicKey(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter* publicKey);
+/// @brief Method IsValidPublicKey, addr 0x23e4318, size 0x78, virtual true, abstract: false, final false
+inline bool IsValidPublicKey(::Org::BouncyCastle::Crypto::AsymmetricKeyParameter*  publicKey) ;
 
-  static inline ::Org::BouncyCastle::Crypto::Tls::TlsECDsaSigner* New_ctor();
+static inline ::Org::BouncyCastle::Crypto::Tls::TlsECDsaSigner* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x121b3d8, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x23e2784, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_SignatureAlgorithm, addr 0x121d304, size 0x8, virtual true, abstract: false, final false
-  inline uint8_t get_SignatureAlgorithm();
+/// @brief Method get_SignatureAlgorithm, addr 0x23e4604, size 0x8, virtual true, abstract: false, final false
+inline uint8_t get_SignatureAlgorithm() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TlsECDsaSigner();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr TlsECDsaSigner() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TlsECDsaSigner", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  TlsECDsaSigner(TlsECDsaSigner&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TlsECDsaSigner", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  TlsECDsaSigner(TlsECDsaSigner const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "TlsECDsaSigner", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+TlsECDsaSigner(TlsECDsaSigner && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "TlsECDsaSigner", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+TlsECDsaSigner(TlsECDsaSigner const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Tls::TlsECDsaSigner, 0x18>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Crypto::Tls
+} // namespace end def Org::BouncyCastle::Crypto::Tls
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Tls::TlsECDsaSigner);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Tls::TlsECDsaSigner*, "Org.BouncyCastle.Crypto.Tls", "TlsECDsaSigner");

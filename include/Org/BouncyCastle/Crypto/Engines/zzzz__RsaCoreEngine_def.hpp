@@ -26,96 +26,96 @@ class RsaCoreEngine;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Engines::RsaCoreEngine);
 // Type: Org.BouncyCastle.Crypto.Engines::RsaCoreEngine
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Engines {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Engines::RsaCoreEngine*
 class CORDL_TYPE RsaCoreEngine : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field bitSize, offset 0x1c, size 0x4
-  __declspec(property(get = __cordl_internal_get_bitSize, put = __cordl_internal_set_bitSize)) int32_t bitSize;
+// Declarations
+/// @brief Field bitSize, offset 0x1c, size 0x4 
+ __declspec(property(get=__cordl_internal_get_bitSize, put=__cordl_internal_set_bitSize)) int32_t  bitSize;
 
-  /// @brief Field forEncryption, offset 0x18, size 0x1
-  __declspec(property(get = __cordl_internal_get_forEncryption, put = __cordl_internal_set_forEncryption)) bool forEncryption;
+/// @brief Field forEncryption, offset 0x18, size 0x1 
+ __declspec(property(get=__cordl_internal_get_forEncryption, put=__cordl_internal_set_forEncryption)) bool  forEncryption;
 
-  /// @brief Field key, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_key, put = __cordl_internal_set_key))::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters* key;
+/// @brief Field key, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_key, put=__cordl_internal_set_key)) ::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters*  key;
 
-  /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IRsa"
-  constexpr operator ::Org::BouncyCastle::Crypto::IRsa*() noexcept;
+/// @brief Convert operator to "::Org::BouncyCastle::Crypto::IRsa"
+constexpr operator  ::Org::BouncyCastle::Crypto::IRsa*() noexcept;
 
-  /// @brief Method CheckInitialised, addr 0x1151b14, size 0x60, virtual false, abstract: false, final false
-  inline void CheckInitialised();
+/// @brief Method CheckInitialised, addr 0x231fba8, size 0x5c, virtual false, abstract: false, final false
+inline void CheckInitialised() ;
 
-  /// @brief Method ConvertInput, addr 0x1151d4c, size 0x110, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Math::BigInteger* ConvertInput(::ArrayW<uint8_t, ::Array<uint8_t>*> inBuf, int32_t inOff, int32_t inLen);
+/// @brief Method ConvertInput, addr 0x231fdd8, size 0x10c, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Math::BigInteger* ConvertInput(::ArrayW<uint8_t,::Array<uint8_t>*>  inBuf, int32_t  inOff, int32_t  inLen) ;
 
-  /// @brief Method ConvertOutput, addr 0x1151e5c, size 0xc4, virtual true, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> ConvertOutput(::Org::BouncyCastle::Math::BigInteger* result);
+/// @brief Method ConvertOutput, addr 0x231fee4, size 0xc4, virtual true, abstract: false, final false
+inline ::ArrayW<uint8_t,::Array<uint8_t>*> ConvertOutput(::Org::BouncyCastle::Math::BigInteger*  result) ;
 
-  /// @brief Method GetInputBlockSize, addr 0x1151cd4, size 0x3c, virtual true, abstract: false, final false
-  inline int32_t GetInputBlockSize();
+/// @brief Method GetInputBlockSize, addr 0x231fd60, size 0x3c, virtual true, abstract: false, final false
+inline int32_t GetInputBlockSize() ;
 
-  /// @brief Method GetOutputBlockSize, addr 0x1151d10, size 0x3c, virtual true, abstract: false, final false
-  inline int32_t GetOutputBlockSize();
+/// @brief Method GetOutputBlockSize, addr 0x231fd9c, size 0x3c, virtual true, abstract: false, final false
+inline int32_t GetOutputBlockSize() ;
 
-  /// @brief Method Init, addr 0x1151b74, size 0x160, virtual true, abstract: false, final false
-  inline void Init(bool forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters* parameters);
+/// @brief Method Init, addr 0x231fc04, size 0x15c, virtual true, abstract: false, final false
+inline void Init(bool  forEncryption, ::Org::BouncyCastle::Crypto::ICipherParameters*  parameters) ;
 
-  static inline ::Org::BouncyCastle::Crypto::Engines::RsaCoreEngine* New_ctor();
+static inline ::Org::BouncyCastle::Crypto::Engines::RsaCoreEngine* New_ctor() ;
 
-  /// @brief Method ProcessBlock, addr 0x1151f20, size 0x168, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Math::BigInteger* ProcessBlock(::Org::BouncyCastle::Math::BigInteger* input);
+/// @brief Method ProcessBlock, addr 0x231ffa8, size 0x168, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Math::BigInteger* ProcessBlock(::Org::BouncyCastle::Math::BigInteger*  input) ;
 
-  constexpr int32_t const& __cordl_internal_get_bitSize() const;
+constexpr int32_t const& __cordl_internal_get_bitSize() const;
 
-  constexpr int32_t& __cordl_internal_get_bitSize();
+constexpr int32_t& __cordl_internal_get_bitSize() ;
 
-  constexpr bool const& __cordl_internal_get_forEncryption() const;
+constexpr bool const& __cordl_internal_get_forEncryption() const;
 
-  constexpr bool& __cordl_internal_get_forEncryption();
+constexpr bool& __cordl_internal_get_forEncryption() ;
 
-  constexpr ::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters*& __cordl_internal_get_key();
+constexpr ::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters*& __cordl_internal_get_key() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters*> const& __cordl_internal_get_key() const;
+constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters*> const& __cordl_internal_get_key() const;
 
-  constexpr void __cordl_internal_set_bitSize(int32_t value);
+constexpr void __cordl_internal_set_bitSize(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_forEncryption(bool value);
+constexpr void __cordl_internal_set_forEncryption(bool  value) ;
 
-  constexpr void __cordl_internal_set_key(::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters* value);
+constexpr void __cordl_internal_set_key(::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters*  value) ;
 
-  /// @brief Method .ctor, addr 0x1150d40, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x231ede8, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Convert to "::Org::BouncyCastle::Crypto::IRsa"
-  constexpr ::Org::BouncyCastle::Crypto::IRsa* i___Org__BouncyCastle__Crypto__IRsa() noexcept;
+/// @brief Convert to "::Org::BouncyCastle::Crypto::IRsa"
+constexpr ::Org::BouncyCastle::Crypto::IRsa* i___Org__BouncyCastle__Crypto__IRsa() noexcept;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr RsaCoreEngine();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr RsaCoreEngine() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "RsaCoreEngine", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  RsaCoreEngine(RsaCoreEngine&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "RsaCoreEngine", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  RsaCoreEngine(RsaCoreEngine const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "RsaCoreEngine", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+RsaCoreEngine(RsaCoreEngine && ) = delete;
 
-  /// @brief Field key, offset: 0x10, size: 0x8, def value: None
-  ::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters* ___key;
+// Ctor Parameters [CppParam { name: "", ty: "RsaCoreEngine", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+RsaCoreEngine(RsaCoreEngine const& ) = delete;
 
-  /// @brief Field forEncryption, offset: 0x18, size: 0x1, def value: None
-  bool ___forEncryption;
+/// @brief Field key, offset: 0x10, size: 0x8, def value: None
+ ::Org::BouncyCastle::Crypto::Parameters::RsaKeyParameters*  ___key;
 
-  /// @brief Field bitSize, offset: 0x1c, size: 0x4, def value: None
-  int32_t ___bitSize;
+/// @brief Field forEncryption, offset: 0x18, size: 0x1, def value: None
+ bool  ___forEncryption;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field bitSize, offset: 0x1c, size: 0x4, def value: None
+ int32_t  ___bitSize;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Engines::RsaCoreEngine, 0x20>, "Size mismatch!");
@@ -126,6 +126,6 @@ static_assert(offsetof(::Org::BouncyCastle::Crypto::Engines::RsaCoreEngine, ___f
 
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Engines::RsaCoreEngine, ___bitSize) == 0x1c, "Offset mismatch!");
 
-} // namespace Org::BouncyCastle::Crypto::Engines
+} // namespace end def Org::BouncyCastle::Crypto::Engines
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Engines::RsaCoreEngine);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Engines::RsaCoreEngine*, "Org.BouncyCastle.Crypto.Engines", "RsaCoreEngine");

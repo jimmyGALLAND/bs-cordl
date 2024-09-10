@@ -27,46 +27,46 @@ class VersionConverter;
 // Write type traits
 MARK_REF_PTR_T(::Newtonsoft::Json::Converters::VersionConverter);
 // Type: Newtonsoft.Json.Converters::VersionConverter
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Newtonsoft::Json::Converters {
 // Is value type: false
 // CS Name: ::Newtonsoft.Json.Converters::VersionConverter*
 class CORDL_TYPE VersionConverter : public ::Newtonsoft::Json::JsonConverter {
 public:
-  // Declarations
-  /// @brief Method CanConvert, addr 0x2abecc8, size 0x88, virtual true, abstract: false, final false
-  inline bool CanConvert(::System::Type* objectType);
+// Declarations
+/// @brief Method CanConvert, addr 0x3eb2488, size 0x88, virtual true, abstract: false, final false
+inline bool CanConvert(::System::Type*  objectType) ;
 
-  static inline ::Newtonsoft::Json::Converters::VersionConverter* New_ctor();
+static inline ::Newtonsoft::Json::Converters::VersionConverter* New_ctor() ;
 
-  /// @brief Method ReadJson, addr 0x2abea24, size 0x2a4, virtual true, abstract: false, final false
-  inline ::System::Object* ReadJson(::Newtonsoft::Json::JsonReader* reader, ::System::Type* objectType, ::System::Object* existingValue, ::Newtonsoft::Json::JsonSerializer* serializer);
+/// @brief Method ReadJson, addr 0x3eb21ec, size 0x29c, virtual true, abstract: false, final false
+inline ::System::Object* ReadJson(::Newtonsoft::Json::JsonReader*  reader, ::System::Type*  objectType, ::System::Object*  existingValue, ::Newtonsoft::Json::JsonSerializer*  serializer) ;
 
-  /// @brief Method WriteJson, addr 0x2abe938, size 0xec, virtual true, abstract: false, final false
-  inline void WriteJson(::Newtonsoft::Json::JsonWriter* writer, ::System::Object* value, ::Newtonsoft::Json::JsonSerializer* serializer);
+/// @brief Method WriteJson, addr 0x3eb2104, size 0xe8, virtual true, abstract: false, final false
+inline void WriteJson(::Newtonsoft::Json::JsonWriter*  writer, ::System::Object*  value, ::Newtonsoft::Json::JsonSerializer*  serializer) ;
 
-  /// @brief Method .ctor, addr 0x2abed50, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x3eb2510, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr VersionConverter();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr VersionConverter() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VersionConverter", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  VersionConverter(VersionConverter&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VersionConverter", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  VersionConverter(VersionConverter const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "VersionConverter", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+VersionConverter(VersionConverter && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "VersionConverter", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+VersionConverter(VersionConverter const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Newtonsoft::Json::Converters::VersionConverter, 0x10>, "Size mismatch!");
 
-} // namespace Newtonsoft::Json::Converters
+} // namespace end def Newtonsoft::Json::Converters
 NEED_NO_BOX(::Newtonsoft::Json::Converters::VersionConverter);
 DEFINE_IL2CPP_ARG_TYPE(::Newtonsoft::Json::Converters::VersionConverter*, "Newtonsoft.Json.Converters", "VersionConverter");

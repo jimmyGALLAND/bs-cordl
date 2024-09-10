@@ -17,74 +17,73 @@ class LevelInfo;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::LevelInfo);
 // Type: ::LevelInfo
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::LevelInfo*
 class CORDL_TYPE LevelInfo : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field <beatmaps>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__beatmaps_k__BackingField,
-                      put = __cordl_internal_set__beatmaps_k__BackingField))::ArrayW<::GlobalNamespace::BeatmapInfo*, ::Array<::GlobalNamespace::BeatmapInfo*>*> _beatmaps_k__BackingField;
+// Declarations
+/// @brief Field <beatmaps>k__BackingField, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get__beatmaps_k__BackingField, put=__cordl_internal_set__beatmaps_k__BackingField)) ::ArrayW<::GlobalNamespace::BeatmapInfo*,::Array<::GlobalNamespace::BeatmapInfo*>*>  _beatmaps_k__BackingField;
 
-  /// @brief Field <levelID>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__levelID_k__BackingField, put = __cordl_internal_set__levelID_k__BackingField))::StringW _levelID_k__BackingField;
+/// @brief Field <levelID>k__BackingField, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get__levelID_k__BackingField, put=__cordl_internal_set__levelID_k__BackingField)) ::StringW  _levelID_k__BackingField;
 
-  __declspec(property(get = get_beatmaps, put = set_beatmaps))::ArrayW<::GlobalNamespace::BeatmapInfo*, ::Array<::GlobalNamespace::BeatmapInfo*>*> beatmaps;
+ __declspec(property(get=get_beatmaps, put=set_beatmaps)) ::ArrayW<::GlobalNamespace::BeatmapInfo*,::Array<::GlobalNamespace::BeatmapInfo*>*>  beatmaps;
 
-  __declspec(property(get = get_levelID, put = set_levelID))::StringW levelID;
+ __declspec(property(get=get_levelID, put=set_levelID)) ::StringW  levelID;
 
-  static inline ::GlobalNamespace::LevelInfo* New_ctor();
+static inline ::GlobalNamespace::LevelInfo* New_ctor() ;
 
-  constexpr ::ArrayW<::GlobalNamespace::BeatmapInfo*, ::Array<::GlobalNamespace::BeatmapInfo*>*> const& __cordl_internal_get__beatmaps_k__BackingField() const;
+constexpr ::ArrayW<::GlobalNamespace::BeatmapInfo*,::Array<::GlobalNamespace::BeatmapInfo*>*> const& __cordl_internal_get__beatmaps_k__BackingField() const;
 
-  constexpr ::ArrayW<::GlobalNamespace::BeatmapInfo*, ::Array<::GlobalNamespace::BeatmapInfo*>*>& __cordl_internal_get__beatmaps_k__BackingField();
+constexpr ::ArrayW<::GlobalNamespace::BeatmapInfo*,::Array<::GlobalNamespace::BeatmapInfo*>*>& __cordl_internal_get__beatmaps_k__BackingField() ;
 
-  constexpr ::StringW const& __cordl_internal_get__levelID_k__BackingField() const;
+constexpr ::StringW const& __cordl_internal_get__levelID_k__BackingField() const;
 
-  constexpr ::StringW& __cordl_internal_get__levelID_k__BackingField();
+constexpr ::StringW& __cordl_internal_get__levelID_k__BackingField() ;
 
-  constexpr void __cordl_internal_set__beatmaps_k__BackingField(::ArrayW<::GlobalNamespace::BeatmapInfo*, ::Array<::GlobalNamespace::BeatmapInfo*>*> value);
+constexpr void __cordl_internal_set__beatmaps_k__BackingField(::ArrayW<::GlobalNamespace::BeatmapInfo*,::Array<::GlobalNamespace::BeatmapInfo*>*>  value) ;
 
-  constexpr void __cordl_internal_set__levelID_k__BackingField(::StringW value);
+constexpr void __cordl_internal_set__levelID_k__BackingField(::StringW  value) ;
 
-  /// @brief Method .ctor, addr 0x10be148, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x2290918, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_beatmaps, addr 0x10be138, size 0x8, virtual false, abstract: false, final false
-  inline ::ArrayW<::GlobalNamespace::BeatmapInfo*, ::Array<::GlobalNamespace::BeatmapInfo*>*> get_beatmaps();
+/// @brief Method get_beatmaps, addr 0x2290908, size 0x8, virtual false, abstract: false, final false
+inline ::ArrayW<::GlobalNamespace::BeatmapInfo*,::Array<::GlobalNamespace::BeatmapInfo*>*> get_beatmaps() ;
 
-  /// @brief Method get_levelID, addr 0x10be128, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_levelID();
+/// @brief Method get_levelID, addr 0x22908f8, size 0x8, virtual false, abstract: false, final false
+inline ::StringW get_levelID() ;
 
-  /// @brief Method set_beatmaps, addr 0x10be140, size 0x8, virtual false, abstract: false, final false
-  inline void set_beatmaps(::ArrayW<::GlobalNamespace::BeatmapInfo*, ::Array<::GlobalNamespace::BeatmapInfo*>*> value);
+/// @brief Method set_beatmaps, addr 0x2290910, size 0x8, virtual false, abstract: false, final false
+inline void set_beatmaps(::ArrayW<::GlobalNamespace::BeatmapInfo*,::Array<::GlobalNamespace::BeatmapInfo*>*>  value) ;
 
-  /// @brief Method set_levelID, addr 0x10be130, size 0x8, virtual false, abstract: false, final false
-  inline void set_levelID(::StringW value);
+/// @brief Method set_levelID, addr 0x2290900, size 0x8, virtual false, abstract: false, final false
+inline void set_levelID(::StringW  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LevelInfo();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr LevelInfo() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LevelInfo", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  LevelInfo(LevelInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LevelInfo", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  LevelInfo(LevelInfo const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "LevelInfo", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+LevelInfo(LevelInfo && ) = delete;
 
-  /// @brief Field <levelID>k__BackingField, offset: 0x10, size: 0x8, def value: None
-  ::StringW ____levelID_k__BackingField;
+// Ctor Parameters [CppParam { name: "", ty: "LevelInfo", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+LevelInfo(LevelInfo const& ) = delete;
 
-  /// @brief Field <beatmaps>k__BackingField, offset: 0x18, size: 0x8, def value: None
-  ::ArrayW<::GlobalNamespace::BeatmapInfo*, ::Array<::GlobalNamespace::BeatmapInfo*>*> ____beatmaps_k__BackingField;
+/// @brief Field <levelID>k__BackingField, offset: 0x10, size: 0x8, def value: None
+ ::StringW  ____levelID_k__BackingField;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field <beatmaps>k__BackingField, offset: 0x18, size: 0x8, def value: None
+ ::ArrayW<::GlobalNamespace::BeatmapInfo*,::Array<::GlobalNamespace::BeatmapInfo*>*>  ____beatmaps_k__BackingField;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LevelInfo, 0x20>, "Size mismatch!");
@@ -93,6 +92,6 @@ static_assert(offsetof(::GlobalNamespace::LevelInfo, ____levelID_k__BackingField
 
 static_assert(offsetof(::GlobalNamespace::LevelInfo, ____beatmaps_k__BackingField) == 0x18, "Offset mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::LevelInfo);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LevelInfo*, "", "LevelInfo");

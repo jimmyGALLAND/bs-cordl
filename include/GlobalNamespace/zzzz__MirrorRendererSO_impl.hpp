@@ -23,642 +23,708 @@
 #include "UnityEngine/zzzz__Vector3_def.hpp"
 #include "UnityEngine/zzzz__Vector4_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::__MirrorRendererSO__CameraTransformData.Equals
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__MirrorRendererSO__CameraTransformData::*)(
-    ::GlobalNamespace::__MirrorRendererSO__CameraTransformData)>(&::GlobalNamespace::__MirrorRendererSO__CameraTransformData::Equals)> {
-  constexpr static std::size_t size = 0xa4;
-  constexpr static std::size_t addrs = 0x2c0bf20;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__MirrorRendererSO__CameraTransformData::*)(::GlobalNamespace::__MirrorRendererSO__CameraTransformData)>(&::GlobalNamespace::__MirrorRendererSO__CameraTransformData::Equals)> {
+  constexpr static std::size_t size = 0xa8;
+  constexpr static std::size_t addrs = 0x3ff335c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MirrorRendererSO__CameraTransformData>::get(), "Equals", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__MirrorRendererSO__CameraTransformData>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MirrorRendererSO__CameraTransformData>::get(),
+                        "Equals",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__MirrorRendererSO__CameraTransformData>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::__MirrorRendererSO__CameraTransformData.Equals
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__MirrorRendererSO__CameraTransformData::*)(::System::Object*)>(
-    &::GlobalNamespace::__MirrorRendererSO__CameraTransformData::Equals)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::GlobalNamespace::__MirrorRendererSO__CameraTransformData::*)(::System::Object*)>(&::GlobalNamespace::__MirrorRendererSO__CameraTransformData::Equals)> {
   constexpr static std::size_t size = 0x90;
-  constexpr static std::size_t addrs = 0x2c0bfc4;
+  constexpr static std::size_t addrs = 0x3ff3404;
 
   inline static const ::MethodInfo* methodInfo() {
-
-    static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MirrorRendererSO__CameraTransformData>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MirrorRendererSO__CameraTransformData>::get(), 0));
+    
+                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MirrorRendererSO__CameraTransformData>::get(),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MirrorRendererSO__CameraTransformData>::get(),
+                                  0
+                                ));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::__MirrorRendererSO__CameraTransformData.GetHashCode
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::__MirrorRendererSO__CameraTransformData::*)()>(
-    &::GlobalNamespace::__MirrorRendererSO__CameraTransformData::GetHashCode)> {
-  constexpr static std::size_t size = 0xf0;
-  constexpr static std::size_t addrs = 0x2c0c054;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::GlobalNamespace::__MirrorRendererSO__CameraTransformData::*)()>(&::GlobalNamespace::__MirrorRendererSO__CameraTransformData::GetHashCode)> {
+  constexpr static std::size_t size = 0x128;
+  constexpr static std::size_t addrs = 0x3ff3494;
 
   inline static const ::MethodInfo* methodInfo() {
-
-    static auto* ___internal_method =
-        THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MirrorRendererSO__CameraTransformData>::get(),
-                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MirrorRendererSO__CameraTransformData>::get(), 2));
+    
+                            static auto* ___internal_method = THROW_UNLESS(::il2cpp_utils::ResolveVtableSlot(
+                                ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MirrorRendererSO__CameraTransformData>::get(),
+                                 ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MirrorRendererSO__CameraTransformData>::get(),
+                                  2
+                                ));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::__MirrorRendererSO__CameraTransformData.op_Equality
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<bool (*)(::GlobalNamespace::__MirrorRendererSO__CameraTransformData, ::GlobalNamespace::__MirrorRendererSO__CameraTransformData)>(
-        &::GlobalNamespace::__MirrorRendererSO__CameraTransformData::op_Equality)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::__MirrorRendererSO__CameraTransformData, ::GlobalNamespace::__MirrorRendererSO__CameraTransformData)>(&::GlobalNamespace::__MirrorRendererSO__CameraTransformData::op_Equality)> {
   constexpr static std::size_t size = 0x30;
-  constexpr static std::size_t addrs = 0x2c0c144;
+  constexpr static std::size_t addrs = 0x3ff35bc;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MirrorRendererSO__CameraTransformData>::get(), "op_Equality", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__MirrorRendererSO__CameraTransformData>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__MirrorRendererSO__CameraTransformData>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MirrorRendererSO__CameraTransformData>::get(),
+                        "op_Equality",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__MirrorRendererSO__CameraTransformData>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__MirrorRendererSO__CameraTransformData>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::__MirrorRendererSO__CameraTransformData.op_Inequality
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<bool (*)(::GlobalNamespace::__MirrorRendererSO__CameraTransformData, ::GlobalNamespace::__MirrorRendererSO__CameraTransformData)>(
-        &::GlobalNamespace::__MirrorRendererSO__CameraTransformData::op_Inequality)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::GlobalNamespace::__MirrorRendererSO__CameraTransformData, ::GlobalNamespace::__MirrorRendererSO__CameraTransformData)>(&::GlobalNamespace::__MirrorRendererSO__CameraTransformData::op_Inequality)> {
   constexpr static std::size_t size = 0x34;
-  constexpr static std::size_t addrs = 0x2c0c174;
+  constexpr static std::size_t addrs = 0x3ff35ec;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MirrorRendererSO__CameraTransformData>::get(), "op_Inequality", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__MirrorRendererSO__CameraTransformData>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__MirrorRendererSO__CameraTransformData>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MirrorRendererSO__CameraTransformData>::get(),
+                        "op_Inequality",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__MirrorRendererSO__CameraTransformData>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__MirrorRendererSO__CameraTransformData>::get()}
+                    )));
     return ___internal_method;
   }
 };
 /// @brief Convert operator to "::System::IEquatable_1<::GlobalNamespace::__MirrorRendererSO__CameraTransformData>"
-constexpr GlobalNamespace::__MirrorRendererSO__CameraTransformData::operator ::System::IEquatable_1<::GlobalNamespace::__MirrorRendererSO__CameraTransformData>*() {
-  return static_cast<::System::IEquatable_1<::GlobalNamespace::__MirrorRendererSO__CameraTransformData>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+constexpr  GlobalNamespace::__MirrorRendererSO__CameraTransformData::operator ::System::IEquatable_1<::GlobalNamespace::__MirrorRendererSO__CameraTransformData>*()  {
+return static_cast<::System::IEquatable_1<::GlobalNamespace::__MirrorRendererSO__CameraTransformData>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
 /// @brief Convert to "::System::IEquatable_1<::GlobalNamespace::__MirrorRendererSO__CameraTransformData>"
-constexpr ::System::IEquatable_1<::GlobalNamespace::__MirrorRendererSO__CameraTransformData>*
-GlobalNamespace::__MirrorRendererSO__CameraTransformData::i___System__IEquatable_1___GlobalNamespace____MirrorRendererSO__CameraTransformData_() {
-  return static_cast<::System::IEquatable_1<::GlobalNamespace::__MirrorRendererSO__CameraTransformData>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
+constexpr ::System::IEquatable_1<::GlobalNamespace::__MirrorRendererSO__CameraTransformData>* GlobalNamespace::__MirrorRendererSO__CameraTransformData::i___System__IEquatable_1___GlobalNamespace____MirrorRendererSO__CameraTransformData_()  {
+return static_cast<::System::IEquatable_1<::GlobalNamespace::__MirrorRendererSO__CameraTransformData>*>(static_cast<void*>(::il2cpp_utils::Box(this)));
 }
-inline bool GlobalNamespace::__MirrorRendererSO__CameraTransformData::Equals(::GlobalNamespace::__MirrorRendererSO__CameraTransformData other) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MirrorRendererSO__CameraTransformData>::get(), "Equals", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__MirrorRendererSO__CameraTransformData>::get() })));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, other);
+inline bool GlobalNamespace::__MirrorRendererSO__CameraTransformData::Equals(::GlobalNamespace::__MirrorRendererSO__CameraTransformData  other)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MirrorRendererSO__CameraTransformData>::get(),
+                        "Equals",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__MirrorRendererSO__CameraTransformData>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, other);
 }
-inline bool GlobalNamespace::__MirrorRendererSO__CameraTransformData::Equals(::System::Object* obj) {
-  auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MirrorRendererSO__CameraTransformData>::get(), 0)));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, obj);
+inline bool GlobalNamespace::__MirrorRendererSO__CameraTransformData::Equals(::System::Object*  obj)  {
+auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+                    il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MirrorRendererSO__CameraTransformData>::get(),
+                    0
+                )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, obj);
 }
-inline int32_t GlobalNamespace::__MirrorRendererSO__CameraTransformData::GetHashCode() {
-  auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
-                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MirrorRendererSO__CameraTransformData>::get(), 2)));
-  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
+inline int32_t GlobalNamespace::__MirrorRendererSO__CameraTransformData::GetHashCode()  {
+auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::ResolveVtableSlot(
+                    il2cpp_functions::object_get_class(reinterpret_cast<Il2CppObject*>(this)),
+                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MirrorRendererSO__CameraTransformData>::get(),
+                    2
+                )));
+return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method);
 }
-inline bool GlobalNamespace::__MirrorRendererSO__CameraTransformData::op_Equality(::GlobalNamespace::__MirrorRendererSO__CameraTransformData left,
-                                                                                  ::GlobalNamespace::__MirrorRendererSO__CameraTransformData right) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MirrorRendererSO__CameraTransformData>::get(), "op_Equality", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__MirrorRendererSO__CameraTransformData>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__MirrorRendererSO__CameraTransformData>::get() })));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, left, right);
+inline bool GlobalNamespace::__MirrorRendererSO__CameraTransformData::op_Equality(::GlobalNamespace::__MirrorRendererSO__CameraTransformData  left, ::GlobalNamespace::__MirrorRendererSO__CameraTransformData  right)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MirrorRendererSO__CameraTransformData>::get(),
+                        "op_Equality",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__MirrorRendererSO__CameraTransformData>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__MirrorRendererSO__CameraTransformData>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, left, right);
 }
-inline bool GlobalNamespace::__MirrorRendererSO__CameraTransformData::op_Inequality(::GlobalNamespace::__MirrorRendererSO__CameraTransformData left,
-                                                                                    ::GlobalNamespace::__MirrorRendererSO__CameraTransformData right) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MirrorRendererSO__CameraTransformData>::get(), "op_Inequality", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__MirrorRendererSO__CameraTransformData>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__MirrorRendererSO__CameraTransformData>::get() })));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, left, right);
+inline bool GlobalNamespace::__MirrorRendererSO__CameraTransformData::op_Inequality(::GlobalNamespace::__MirrorRendererSO__CameraTransformData  left, ::GlobalNamespace::__MirrorRendererSO__CameraTransformData  right)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::__MirrorRendererSO__CameraTransformData>::get(),
+                        "op_Inequality",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__MirrorRendererSO__CameraTransformData>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::__MirrorRendererSO__CameraTransformData>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, left, right);
 }
-// Ctor Parameters [CppParam { name: "position", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}") }, CppParam { name: "rotation", ty: "::UnityEngine::Quaternion", modifiers: "",
-// def_value: Some("{}") }, CppParam { name: "fov", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "stereoEnabled", ty: "bool", modifiers: "", def_value: Some("{}") }]
-constexpr ::GlobalNamespace::__MirrorRendererSO__CameraTransformData::__MirrorRendererSO__CameraTransformData(::UnityEngine::Vector3 position, ::UnityEngine::Quaternion rotation, float_t fov,
-                                                                                                              bool stereoEnabled) noexcept {
-  this->position = position;
-  this->rotation = rotation;
-  this->fov = fov;
-  this->stereoEnabled = stereoEnabled;
+// Ctor Parameters [CppParam { name: "position", ty: "::UnityEngine::Vector3", modifiers: "", def_value: Some("{}") }, CppParam { name: "rotation", ty: "::UnityEngine::Quaternion", modifiers: "", def_value: Some("{}") }, CppParam { name: "fov", ty: "float_t", modifiers: "", def_value: Some("{}") }, CppParam { name: "stereoEnabled", ty: "bool", modifiers: "", def_value: Some("{}") }]
+constexpr ::GlobalNamespace::__MirrorRendererSO__CameraTransformData::__MirrorRendererSO__CameraTransformData(::UnityEngine::Vector3  position, ::UnityEngine::Quaternion  rotation, float_t  fov, bool  stereoEnabled) noexcept  {
+this->position = position;
+this->rotation = rotation;
+this->fov = fov;
+this->stereoEnabled = stereoEnabled;
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::__MirrorRendererSO__CameraTransformData::__MirrorRendererSO__CameraTransformData() {}
+constexpr ::GlobalNamespace::__MirrorRendererSO__CameraTransformData::__MirrorRendererSO__CameraTransformData()   {
+}
 //  Writing Method size for method: ::GlobalNamespace::MirrorRendererSO.OnValidate
-template <>
+template<>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MirrorRendererSO::*)()>(&::GlobalNamespace::MirrorRendererSO::OnValidate)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x2c0b3c8;
+  constexpr static std::size_t addrs = 0x3ff289c;
 
   inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MirrorRendererSO*>::get(), "OnValidate",
-                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MirrorRendererSO*>::get(),
+                        "OnValidate",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::MirrorRendererSO.Awake
-template <>
+template<>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MirrorRendererSO::*)()>(&::GlobalNamespace::MirrorRendererSO::Awake)> {
   constexpr static std::size_t size = 0x4;
-  constexpr static std::size_t addrs = 0x2c0b440;
+  constexpr static std::size_t addrs = 0x3ff2914;
 
   inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MirrorRendererSO*>::get(), "Awake",
-                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MirrorRendererSO*>::get(),
+                        "Awake",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::MirrorRendererSO.ValidateParams
-template <>
+template<>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MirrorRendererSO::*)()>(&::GlobalNamespace::MirrorRendererSO::ValidateParams)> {
   constexpr static std::size_t size = 0x74;
-  constexpr static std::size_t addrs = 0x2c0b3cc;
+  constexpr static std::size_t addrs = 0x3ff28a0;
 
   inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MirrorRendererSO*>::get(), "ValidateParams",
-                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MirrorRendererSO*>::get(),
+                        "ValidateParams",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::MirrorRendererSO.Init
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (::GlobalNamespace::MirrorRendererSO::*)(::UnityEngine::LayerMask, int32_t, int32_t, int32_t, int32_t, int32_t, bool)>(&::GlobalNamespace::MirrorRendererSO::Init)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MirrorRendererSO::*)(::UnityEngine::LayerMask, int32_t, int32_t, int32_t, int32_t, int32_t, bool)>(&::GlobalNamespace::MirrorRendererSO::Init)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x2c0b444;
+  constexpr static std::size_t addrs = 0x3ff2918;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MirrorRendererSO*>::get(), "Init", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 7>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::LayerMask>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MirrorRendererSO*>::get(),
+                        "Init",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 7>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::LayerMask>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::MirrorRendererSO.PrepareForNextFrame
-template <>
+template<>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MirrorRendererSO::*)()>(&::GlobalNamespace::MirrorRendererSO::PrepareForNextFrame)> {
   constexpr static std::size_t size = 0x18c;
-  constexpr static std::size_t addrs = 0x2c0a6cc;
+  constexpr static std::size_t addrs = 0x3ff1b2c;
 
   inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MirrorRendererSO*>::get(),
-                                                                               "PrepareForNextFrame", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MirrorRendererSO*>::get(),
+                        "PrepareForNextFrame",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::MirrorRendererSO.RenderMirrorTexture
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::UnityW<::UnityEngine::Texture> (::GlobalNamespace::MirrorRendererSO::*)(::UnityEngine::Vector3, ::UnityEngine::Vector3)>(&::GlobalNamespace::MirrorRendererSO::RenderMirrorTexture)> {
-  constexpr static std::size_t size = 0x808;
-  constexpr static std::size_t addrs = 0x2c0ab50;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityW<::UnityEngine::Texture> (::GlobalNamespace::MirrorRendererSO::*)(::UnityEngine::Vector3, ::UnityEngine::Vector3)>(&::GlobalNamespace::MirrorRendererSO::RenderMirrorTexture)> {
+  constexpr static std::size_t size = 0x878;
+  constexpr static std::size_t addrs = 0x3ff1fb4;
 
   inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((
-        ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MirrorRendererSO*>::get(), "RenderMirrorTexture", std::span<Il2CppClass const* const, 0>(),
-                                   ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(),
-                                                                       ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get() })));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MirrorRendererSO*>::get(),
+                        "RenderMirrorTexture",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::MirrorRendererSO.RenderMirror
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MirrorRendererSO::*)(
-    ::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::UnityEngine::Matrix4x4, ::UnityEngine::Rect, ::UnityEngine::Vector3, ::UnityEngine::Vector3)>(
-    &::GlobalNamespace::MirrorRendererSO::RenderMirror)> {
-  constexpr static std::size_t size = 0x270;
-  constexpr static std::size_t addrs = 0x2c0b824;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MirrorRendererSO::*)(::UnityEngine::Vector3, ::UnityEngine::Quaternion, ::UnityEngine::Matrix4x4, ::UnityEngine::Rect, ::UnityEngine::Vector3, ::UnityEngine::Vector3)>(&::GlobalNamespace::MirrorRendererSO::RenderMirror)> {
+  constexpr static std::size_t size = 0x248;
+  constexpr static std::size_t addrs = 0x3ff2cf4;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MirrorRendererSO*>::get(), "RenderMirror", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 6>{
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Quaternion>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Matrix4x4>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rect>::get(),
-            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MirrorRendererSO*>::get(),
+                        "RenderMirror",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 6>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Quaternion>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Matrix4x4>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rect>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::MirrorRendererSO.OnDisable
-template <>
+template<>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MirrorRendererSO::*)()>(&::GlobalNamespace::MirrorRendererSO::OnDisable)> {
   constexpr static std::size_t size = 0x224;
-  constexpr static std::size_t addrs = 0x2c0bbc0;
+  constexpr static std::size_t addrs = 0x3ff3068;
 
   inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MirrorRendererSO*>::get(), "OnDisable",
-                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MirrorRendererSO*>::get(),
+                        "OnDisable",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::MirrorRendererSO.CreateOrUpdateMirrorCamera
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MirrorRendererSO::*)(::UnityEngine::Camera*, ::UnityEngine::RenderTexture*)>(
-    &::GlobalNamespace::MirrorRendererSO::CreateOrUpdateMirrorCamera)> {
-  constexpr static std::size_t size = 0x2b4;
-  constexpr static std::size_t addrs = 0x2c0b45c;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MirrorRendererSO::*)(::UnityEngine::Camera*, ::UnityEngine::RenderTexture*)>(&::GlobalNamespace::MirrorRendererSO::CreateOrUpdateMirrorCamera)> {
+  constexpr static std::size_t size = 0x2ac;
+  constexpr static std::size_t addrs = 0x3ff2930;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MirrorRendererSO*>::get(), "CreateOrUpdateMirrorCamera", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Camera*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::RenderTexture*>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MirrorRendererSO*>::get(),
+                        "CreateOrUpdateMirrorCamera",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Camera*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::RenderTexture*>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::MirrorRendererSO.Plane
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector4 (*)(::UnityEngine::Vector3, ::UnityEngine::Vector3)>(
-    &::GlobalNamespace::MirrorRendererSO::Plane)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector4 (*)(::UnityEngine::Vector3, ::UnityEngine::Vector3)>(&::GlobalNamespace::MirrorRendererSO::Plane)> {
   constexpr static std::size_t size = 0x2c;
-  constexpr static std::size_t addrs = 0x2c0b710;
+  constexpr static std::size_t addrs = 0x3ff2bdc;
 
   inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MirrorRendererSO*>::get(), "Plane", std::span<Il2CppClass const* const, 0>(),
-                                                 ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(),
-                                                                                     ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get() })));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MirrorRendererSO*>::get(),
+                        "Plane",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::MirrorRendererSO.CameraSpacePlane
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector4 (*)(::UnityEngine::Matrix4x4, ::UnityEngine::Vector3, ::UnityEngine::Vector3)>(
-    &::GlobalNamespace::MirrorRendererSO::CameraSpacePlane)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Vector4 (*)(::UnityEngine::Matrix4x4, ::UnityEngine::Vector3, ::UnityEngine::Vector3)>(&::GlobalNamespace::MirrorRendererSO::CameraSpacePlane)> {
   constexpr static std::size_t size = 0x12c;
-  constexpr static std::size_t addrs = 0x2c0ba94;
+  constexpr static std::size_t addrs = 0x3ff2f3c;
 
   inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MirrorRendererSO*>::get(), "CameraSpacePlane", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Matrix4x4>::get(),
-                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(),
-                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get() })));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MirrorRendererSO*>::get(),
+                        "CameraSpacePlane",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Matrix4x4>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::MirrorRendererSO.CalculateReflectionMatrix
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Matrix4x4 (*)(::UnityEngine::Vector4)>(
-    &::GlobalNamespace::MirrorRendererSO::CalculateReflectionMatrix)> {
-  constexpr static std::size_t size = 0xe8;
-  constexpr static std::size_t addrs = 0x2c0b73c;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::Matrix4x4 (*)(::UnityEngine::Vector4)>(&::GlobalNamespace::MirrorRendererSO::CalculateReflectionMatrix)> {
+  constexpr static std::size_t size = 0xec;
+  constexpr static std::size_t addrs = 0x3ff2c08;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MirrorRendererSO*>::get(), "CalculateReflectionMatrix", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector4>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MirrorRendererSO*>::get(),
+                        "CalculateReflectionMatrix",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector4>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::MirrorRendererSO._ctor
-template <>
+template<>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::MirrorRendererSO::*)()>(&::GlobalNamespace::MirrorRendererSO::_ctor)> {
-  constexpr static std::size_t size = 0x13c;
-  constexpr static std::size_t addrs = 0x2c0bde4;
+  constexpr static std::size_t size = 0xd0;
+  constexpr static std::size_t addrs = 0x3ff328c;
 
   inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MirrorRendererSO*>::get(), ".ctor",
-                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MirrorRendererSO*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
-constexpr ::UnityEngine::LayerMask& GlobalNamespace::MirrorRendererSO::__cordl_internal_get__reflectLayers() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____reflectLayers;
+constexpr ::UnityEngine::LayerMask& GlobalNamespace::MirrorRendererSO::__cordl_internal_get__reflectLayers()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____reflectLayers;
 }
 constexpr ::UnityEngine::LayerMask const& GlobalNamespace::MirrorRendererSO::__cordl_internal_get__reflectLayers() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____reflectLayers;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____reflectLayers;
 }
-constexpr void GlobalNamespace::MirrorRendererSO::__cordl_internal_set__reflectLayers(::UnityEngine::LayerMask value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____reflectLayers = value;
+constexpr void GlobalNamespace::MirrorRendererSO::__cordl_internal_set__reflectLayers(::UnityEngine::LayerMask  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____reflectLayers = value;
 }
-constexpr int32_t& GlobalNamespace::MirrorRendererSO::__cordl_internal_get__stereoTextureWidth() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____stereoTextureWidth;
+constexpr int32_t& GlobalNamespace::MirrorRendererSO::__cordl_internal_get__stereoTextureWidth()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____stereoTextureWidth;
 }
 constexpr int32_t const& GlobalNamespace::MirrorRendererSO::__cordl_internal_get__stereoTextureWidth() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____stereoTextureWidth;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____stereoTextureWidth;
 }
-constexpr void GlobalNamespace::MirrorRendererSO::__cordl_internal_set__stereoTextureWidth(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____stereoTextureWidth = value;
+constexpr void GlobalNamespace::MirrorRendererSO::__cordl_internal_set__stereoTextureWidth(int32_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____stereoTextureWidth = value;
 }
-constexpr int32_t& GlobalNamespace::MirrorRendererSO::__cordl_internal_get__stereoTextureHeight() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____stereoTextureHeight;
+constexpr int32_t& GlobalNamespace::MirrorRendererSO::__cordl_internal_get__stereoTextureHeight()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____stereoTextureHeight;
 }
 constexpr int32_t const& GlobalNamespace::MirrorRendererSO::__cordl_internal_get__stereoTextureHeight() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____stereoTextureHeight;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____stereoTextureHeight;
 }
-constexpr void GlobalNamespace::MirrorRendererSO::__cordl_internal_set__stereoTextureHeight(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____stereoTextureHeight = value;
+constexpr void GlobalNamespace::MirrorRendererSO::__cordl_internal_set__stereoTextureHeight(int32_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____stereoTextureHeight = value;
 }
-constexpr int32_t& GlobalNamespace::MirrorRendererSO::__cordl_internal_get__monoTextureWidth() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____monoTextureWidth;
+constexpr int32_t& GlobalNamespace::MirrorRendererSO::__cordl_internal_get__monoTextureWidth()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____monoTextureWidth;
 }
 constexpr int32_t const& GlobalNamespace::MirrorRendererSO::__cordl_internal_get__monoTextureWidth() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____monoTextureWidth;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____monoTextureWidth;
 }
-constexpr void GlobalNamespace::MirrorRendererSO::__cordl_internal_set__monoTextureWidth(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____monoTextureWidth = value;
+constexpr void GlobalNamespace::MirrorRendererSO::__cordl_internal_set__monoTextureWidth(int32_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____monoTextureWidth = value;
 }
-constexpr int32_t& GlobalNamespace::MirrorRendererSO::__cordl_internal_get__monoTextureHeight() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____monoTextureHeight;
+constexpr int32_t& GlobalNamespace::MirrorRendererSO::__cordl_internal_get__monoTextureHeight()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____monoTextureHeight;
 }
 constexpr int32_t const& GlobalNamespace::MirrorRendererSO::__cordl_internal_get__monoTextureHeight() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____monoTextureHeight;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____monoTextureHeight;
 }
-constexpr void GlobalNamespace::MirrorRendererSO::__cordl_internal_set__monoTextureHeight(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____monoTextureHeight = value;
+constexpr void GlobalNamespace::MirrorRendererSO::__cordl_internal_set__monoTextureHeight(int32_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____monoTextureHeight = value;
 }
-constexpr int32_t& GlobalNamespace::MirrorRendererSO::__cordl_internal_get__maxAntiAliasing() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____maxAntiAliasing;
+constexpr int32_t& GlobalNamespace::MirrorRendererSO::__cordl_internal_get__maxAntiAliasing()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____maxAntiAliasing;
 }
 constexpr int32_t const& GlobalNamespace::MirrorRendererSO::__cordl_internal_get__maxAntiAliasing() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____maxAntiAliasing;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____maxAntiAliasing;
 }
-constexpr void GlobalNamespace::MirrorRendererSO::__cordl_internal_set__maxAntiAliasing(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____maxAntiAliasing = value;
+constexpr void GlobalNamespace::MirrorRendererSO::__cordl_internal_set__maxAntiAliasing(int32_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____maxAntiAliasing = value;
 }
-constexpr bool& GlobalNamespace::MirrorRendererSO::__cordl_internal_get__disableDepthTexture() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____disableDepthTexture;
+constexpr bool& GlobalNamespace::MirrorRendererSO::__cordl_internal_get__disableDepthTexture()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____disableDepthTexture;
 }
 constexpr bool const& GlobalNamespace::MirrorRendererSO::__cordl_internal_get__disableDepthTexture() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____disableDepthTexture;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____disableDepthTexture;
 }
-constexpr void GlobalNamespace::MirrorRendererSO::__cordl_internal_set__disableDepthTexture(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____disableDepthTexture = value;
+constexpr void GlobalNamespace::MirrorRendererSO::__cordl_internal_set__disableDepthTexture(bool  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____disableDepthTexture = value;
 }
-constexpr bool& GlobalNamespace::MirrorRendererSO::__cordl_internal_get__enableBloomPrePass() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____enableBloomPrePass;
+constexpr bool& GlobalNamespace::MirrorRendererSO::__cordl_internal_get__enableBloomPrePass()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____enableBloomPrePass;
 }
 constexpr bool const& GlobalNamespace::MirrorRendererSO::__cordl_internal_get__enableBloomPrePass() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____enableBloomPrePass;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____enableBloomPrePass;
 }
-constexpr void GlobalNamespace::MirrorRendererSO::__cordl_internal_set__enableBloomPrePass(bool value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____enableBloomPrePass = value;
+constexpr void GlobalNamespace::MirrorRendererSO::__cordl_internal_set__enableBloomPrePass(bool  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____enableBloomPrePass = value;
 }
-constexpr ::UnityW<::GlobalNamespace::BloomPrePassRendererSO>& GlobalNamespace::MirrorRendererSO::__cordl_internal_get__bloomPrePassRenderer() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____bloomPrePassRenderer;
+constexpr ::UnityW<::GlobalNamespace::BloomPrePassRendererSO>& GlobalNamespace::MirrorRendererSO::__cordl_internal_get__bloomPrePassRenderer()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____bloomPrePassRenderer;
 }
 constexpr ::UnityW<::GlobalNamespace::BloomPrePassRendererSO> const& GlobalNamespace::MirrorRendererSO::__cordl_internal_get__bloomPrePassRenderer() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____bloomPrePassRenderer;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____bloomPrePassRenderer;
 }
-constexpr void GlobalNamespace::MirrorRendererSO::__cordl_internal_set__bloomPrePassRenderer(::UnityW<::GlobalNamespace::BloomPrePassRendererSO> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____bloomPrePassRenderer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::MirrorRendererSO::__cordl_internal_set__bloomPrePassRenderer(::UnityW<::GlobalNamespace::BloomPrePassRendererSO>  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____bloomPrePassRenderer)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::GlobalNamespace::BloomPrePassEffectSO>& GlobalNamespace::MirrorRendererSO::__cordl_internal_get__bloomPrePassEffect() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____bloomPrePassEffect;
+constexpr ::UnityW<::GlobalNamespace::BloomPrePassEffectSO>& GlobalNamespace::MirrorRendererSO::__cordl_internal_get__bloomPrePassEffect()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____bloomPrePassEffect;
 }
 constexpr ::UnityW<::GlobalNamespace::BloomPrePassEffectSO> const& GlobalNamespace::MirrorRendererSO::__cordl_internal_get__bloomPrePassEffect() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____bloomPrePassEffect;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____bloomPrePassEffect;
 }
-constexpr void GlobalNamespace::MirrorRendererSO::__cordl_internal_set__bloomPrePassEffect(::UnityW<::GlobalNamespace::BloomPrePassEffectSO> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____bloomPrePassEffect)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::MirrorRendererSO::__cordl_internal_set__bloomPrePassEffect(::UnityW<::GlobalNamespace::BloomPrePassEffectSO>  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____bloomPrePassEffect)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::UnityEngine::Shader>& GlobalNamespace::MirrorRendererSO::__cordl_internal_get__clearDepthShader() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____clearDepthShader;
+constexpr ::UnityW<::UnityEngine::Shader>& GlobalNamespace::MirrorRendererSO::__cordl_internal_get__clearDepthShader()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____clearDepthShader;
 }
 constexpr ::UnityW<::UnityEngine::Shader> const& GlobalNamespace::MirrorRendererSO::__cordl_internal_get__clearDepthShader() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____clearDepthShader;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____clearDepthShader;
 }
-constexpr void GlobalNamespace::MirrorRendererSO::__cordl_internal_set__clearDepthShader(::UnityW<::UnityEngine::Shader> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____clearDepthShader)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::MirrorRendererSO::__cordl_internal_set__clearDepthShader(::UnityW<::UnityEngine::Shader>  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____clearDepthShader)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::UnityEngine::RenderTexture>& GlobalNamespace::MirrorRendererSO::__cordl_internal_get__bloomPrePassRenderTexture() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____bloomPrePassRenderTexture;
+constexpr ::UnityW<::UnityEngine::RenderTexture>& GlobalNamespace::MirrorRendererSO::__cordl_internal_get__bloomPrePassRenderTexture()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____bloomPrePassRenderTexture;
 }
 constexpr ::UnityW<::UnityEngine::RenderTexture> const& GlobalNamespace::MirrorRendererSO::__cordl_internal_get__bloomPrePassRenderTexture() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____bloomPrePassRenderTexture;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____bloomPrePassRenderTexture;
 }
-constexpr void GlobalNamespace::MirrorRendererSO::__cordl_internal_set__bloomPrePassRenderTexture(::UnityW<::UnityEngine::RenderTexture> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____bloomPrePassRenderTexture)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::MirrorRendererSO::__cordl_internal_set__bloomPrePassRenderTexture(::UnityW<::UnityEngine::RenderTexture>  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____bloomPrePassRenderTexture)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::UnityEngine::Camera>& GlobalNamespace::MirrorRendererSO::__cordl_internal_get__mirrorCamera() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____mirrorCamera;
+constexpr ::UnityW<::UnityEngine::Camera>& GlobalNamespace::MirrorRendererSO::__cordl_internal_get__mirrorCamera()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____mirrorCamera;
 }
 constexpr ::UnityW<::UnityEngine::Camera> const& GlobalNamespace::MirrorRendererSO::__cordl_internal_get__mirrorCamera() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____mirrorCamera;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____mirrorCamera;
 }
-constexpr void GlobalNamespace::MirrorRendererSO::__cordl_internal_set__mirrorCamera(::UnityW<::UnityEngine::Camera> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____mirrorCamera)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::MirrorRendererSO::__cordl_internal_set__mirrorCamera(::UnityW<::UnityEngine::Camera>  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____mirrorCamera)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr int32_t& GlobalNamespace::MirrorRendererSO::__cordl_internal_get__antialiasing() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____antialiasing;
+constexpr int32_t& GlobalNamespace::MirrorRendererSO::__cordl_internal_get__antialiasing()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____antialiasing;
 }
 constexpr int32_t const& GlobalNamespace::MirrorRendererSO::__cordl_internal_get__antialiasing() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____antialiasing;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____antialiasing;
 }
-constexpr void GlobalNamespace::MirrorRendererSO::__cordl_internal_set__antialiasing(int32_t value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____antialiasing = value;
+constexpr void GlobalNamespace::MirrorRendererSO::__cordl_internal_set__antialiasing(int32_t  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____antialiasing = value;
 }
-constexpr ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__MirrorRendererSO__CameraTransformData, ::UnityW<::UnityEngine::RenderTexture>>*&
-GlobalNamespace::MirrorRendererSO::__cordl_internal_get__renderTextures() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____renderTextures;
+constexpr ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__MirrorRendererSO__CameraTransformData,::UnityW<::UnityEngine::RenderTexture>>*& GlobalNamespace::MirrorRendererSO::__cordl_internal_get__renderTextures()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____renderTextures;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__MirrorRendererSO__CameraTransformData, ::UnityW<::UnityEngine::RenderTexture>>*> const&
-GlobalNamespace::MirrorRendererSO::__cordl_internal_get__renderTextures() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____renderTextures;
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__MirrorRendererSO__CameraTransformData,::UnityW<::UnityEngine::RenderTexture>>*> const& GlobalNamespace::MirrorRendererSO::__cordl_internal_get__renderTextures() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____renderTextures;
 }
-constexpr void GlobalNamespace::MirrorRendererSO::__cordl_internal_set__renderTextures(
-    ::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__MirrorRendererSO__CameraTransformData, ::UnityW<::UnityEngine::RenderTexture>>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____renderTextures)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void GlobalNamespace::MirrorRendererSO::__cordl_internal_set__renderTextures(::System::Collections::Generic::Dictionary_2<::GlobalNamespace::__MirrorRendererSO__CameraTransformData,::UnityW<::UnityEngine::RenderTexture>>*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____renderTextures)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityEngine::Rect& GlobalNamespace::MirrorRendererSO::__cordl_internal_get_kLeftRect() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___kLeftRect;
+constexpr ::UnityEngine::Rect& GlobalNamespace::MirrorRendererSO::__cordl_internal_get_kLeftRect()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___kLeftRect;
 }
 constexpr ::UnityEngine::Rect const& GlobalNamespace::MirrorRendererSO::__cordl_internal_get_kLeftRect() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___kLeftRect;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___kLeftRect;
 }
-constexpr void GlobalNamespace::MirrorRendererSO::__cordl_internal_set_kLeftRect(::UnityEngine::Rect value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___kLeftRect = value;
+constexpr void GlobalNamespace::MirrorRendererSO::__cordl_internal_set_kLeftRect(::UnityEngine::Rect  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___kLeftRect = value;
 }
-constexpr ::UnityEngine::Rect& GlobalNamespace::MirrorRendererSO::__cordl_internal_get_kRightRect() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___kRightRect;
+constexpr ::UnityEngine::Rect& GlobalNamespace::MirrorRendererSO::__cordl_internal_get_kRightRect()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___kRightRect;
 }
 constexpr ::UnityEngine::Rect const& GlobalNamespace::MirrorRendererSO::__cordl_internal_get_kRightRect() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___kRightRect;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___kRightRect;
 }
-constexpr void GlobalNamespace::MirrorRendererSO::__cordl_internal_set_kRightRect(::UnityEngine::Rect value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___kRightRect = value;
+constexpr void GlobalNamespace::MirrorRendererSO::__cordl_internal_set_kRightRect(::UnityEngine::Rect  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___kRightRect = value;
 }
-constexpr ::UnityEngine::Rect& GlobalNamespace::MirrorRendererSO::__cordl_internal_get_kFullRect() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___kFullRect;
+constexpr ::UnityEngine::Rect& GlobalNamespace::MirrorRendererSO::__cordl_internal_get_kFullRect()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___kFullRect;
 }
 constexpr ::UnityEngine::Rect const& GlobalNamespace::MirrorRendererSO::__cordl_internal_get_kFullRect() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___kFullRect;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___kFullRect;
 }
-constexpr void GlobalNamespace::MirrorRendererSO::__cordl_internal_set_kFullRect(::UnityEngine::Rect value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->___kFullRect = value;
+constexpr void GlobalNamespace::MirrorRendererSO::__cordl_internal_set_kFullRect(::UnityEngine::Rect  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->___kFullRect = value;
 }
-inline void GlobalNamespace::MirrorRendererSO::OnValidate() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MirrorRendererSO*>::get(), "OnValidate",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::MirrorRendererSO::OnValidate()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MirrorRendererSO*>::get(),
+                        "OnValidate",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::MirrorRendererSO::Awake() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MirrorRendererSO*>::get(), "Awake",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::MirrorRendererSO::Awake()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MirrorRendererSO*>::get(),
+                        "Awake",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::MirrorRendererSO::ValidateParams() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MirrorRendererSO*>::get(), "ValidateParams",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::MirrorRendererSO::ValidateParams()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MirrorRendererSO*>::get(),
+                        "ValidateParams",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::MirrorRendererSO::Init(::UnityEngine::LayerMask reflectLayers, int32_t stereoTextureWidth, int32_t stereoTextureHeight, int32_t monoTextureWidth,
-                                                    int32_t monoTextureHeight, int32_t maxAntiAliasing, bool enableBloomPrePass) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MirrorRendererSO*>::get(), "Init", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 7>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::LayerMask>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, reflectLayers, stereoTextureWidth, stereoTextureHeight, monoTextureWidth, monoTextureHeight, maxAntiAliasing,
-                                                          enableBloomPrePass);
+inline void GlobalNamespace::MirrorRendererSO::Init(::UnityEngine::LayerMask  reflectLayers, int32_t  stereoTextureWidth, int32_t  stereoTextureHeight, int32_t  monoTextureWidth, int32_t  monoTextureHeight, int32_t  maxAntiAliasing, bool  enableBloomPrePass)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MirrorRendererSO*>::get(),
+                        "Init",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 7>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::LayerMask>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, reflectLayers, stereoTextureWidth, stereoTextureHeight, monoTextureWidth, monoTextureHeight, maxAntiAliasing, enableBloomPrePass);
 }
-inline void GlobalNamespace::MirrorRendererSO::PrepareForNextFrame() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MirrorRendererSO*>::get(), "PrepareForNextFrame",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::MirrorRendererSO::PrepareForNextFrame()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MirrorRendererSO*>::get(),
+                        "PrepareForNextFrame",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::UnityW<::UnityEngine::Texture> GlobalNamespace::MirrorRendererSO::RenderMirrorTexture(::UnityEngine::Vector3 reflectionPlanePos, ::UnityEngine::Vector3 reflectionPlaneNormal) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MirrorRendererSO*>::get(), "RenderMirrorTexture", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Texture>, false>(this, ___internal_method, reflectionPlanePos, reflectionPlaneNormal);
+inline ::UnityW<::UnityEngine::Texture> GlobalNamespace::MirrorRendererSO::RenderMirrorTexture(::UnityEngine::Vector3  reflectionPlanePos, ::UnityEngine::Vector3  reflectionPlaneNormal)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MirrorRendererSO*>::get(),
+                        "RenderMirrorTexture",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::UnityW<::UnityEngine::Texture>, false>(this, ___internal_method, reflectionPlanePos, reflectionPlaneNormal);
 }
-inline void GlobalNamespace::MirrorRendererSO::RenderMirror(::UnityEngine::Vector3 camPosition, ::UnityEngine::Quaternion camRotation, ::UnityEngine::Matrix4x4 camProjectionMatrix,
-                                                            ::UnityEngine::Rect screenRect, ::UnityEngine::Vector3 reclectionPlanePos, ::UnityEngine::Vector3 reflectionPlaneNormal) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MirrorRendererSO*>::get(), "RenderMirror", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 6>{
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Quaternion>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Matrix4x4>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rect>::get(),
-          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, camPosition, camRotation, camProjectionMatrix, screenRect, reclectionPlanePos, reflectionPlaneNormal);
+inline void GlobalNamespace::MirrorRendererSO::RenderMirror(::UnityEngine::Vector3  camPosition, ::UnityEngine::Quaternion  camRotation, ::UnityEngine::Matrix4x4  camProjectionMatrix, ::UnityEngine::Rect  screenRect, ::UnityEngine::Vector3  reclectionPlanePos, ::UnityEngine::Vector3  reflectionPlaneNormal)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MirrorRendererSO*>::get(),
+                        "RenderMirror",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 6>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Quaternion>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Matrix4x4>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Rect>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, camPosition, camRotation, camProjectionMatrix, screenRect, reclectionPlanePos, reflectionPlaneNormal);
 }
-inline void GlobalNamespace::MirrorRendererSO::OnDisable() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MirrorRendererSO*>::get(), "OnDisable",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::MirrorRendererSO::OnDisable()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MirrorRendererSO*>::get(),
+                        "OnDisable",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::MirrorRendererSO::CreateOrUpdateMirrorCamera(::UnityEngine::Camera* currentCamera, ::UnityEngine::RenderTexture* renderTexture) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MirrorRendererSO*>::get(), "CreateOrUpdateMirrorCamera", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Camera*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::RenderTexture*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, currentCamera, renderTexture);
+inline void GlobalNamespace::MirrorRendererSO::CreateOrUpdateMirrorCamera(::UnityEngine::Camera*  currentCamera, ::UnityEngine::RenderTexture*  renderTexture)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MirrorRendererSO*>::get(),
+                        "CreateOrUpdateMirrorCamera",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Camera*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::RenderTexture*>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, currentCamera, renderTexture);
 }
-inline ::UnityEngine::Vector4 GlobalNamespace::MirrorRendererSO::Plane(::UnityEngine::Vector3 pos, ::UnityEngine::Vector3 normal) {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MirrorRendererSO*>::get(), "Plane", std::span<Il2CppClass const* const, 0>(),
-                                               ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(),
-                                                                                   ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector4, false>(nullptr, ___internal_method, pos, normal);
+inline ::UnityEngine::Vector4 GlobalNamespace::MirrorRendererSO::Plane(::UnityEngine::Vector3  pos, ::UnityEngine::Vector3  normal)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MirrorRendererSO*>::get(),
+                        "Plane",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector4, false>(nullptr, ___internal_method, pos, normal);
 }
-inline ::UnityEngine::Vector4 GlobalNamespace::MirrorRendererSO::CameraSpacePlane(::UnityEngine::Matrix4x4 worldToCameraMatrix, ::UnityEngine::Vector3 pos, ::UnityEngine::Vector3 normal) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MirrorRendererSO*>::get(), "CameraSpacePlane", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Matrix4x4>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector4, false>(nullptr, ___internal_method, worldToCameraMatrix, pos, normal);
+inline ::UnityEngine::Vector4 GlobalNamespace::MirrorRendererSO::CameraSpacePlane(::UnityEngine::Matrix4x4  worldToCameraMatrix, ::UnityEngine::Vector3  pos, ::UnityEngine::Vector3  normal)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MirrorRendererSO*>::get(),
+                        "CameraSpacePlane",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Matrix4x4>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector3>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::Vector4, false>(nullptr, ___internal_method, worldToCameraMatrix, pos, normal);
 }
-inline ::UnityEngine::Matrix4x4 GlobalNamespace::MirrorRendererSO::CalculateReflectionMatrix(::UnityEngine::Vector4 plane) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MirrorRendererSO*>::get(), "CalculateReflectionMatrix", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector4>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::Matrix4x4, false>(nullptr, ___internal_method, plane);
+inline ::UnityEngine::Matrix4x4 GlobalNamespace::MirrorRendererSO::CalculateReflectionMatrix(::UnityEngine::Vector4  plane)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MirrorRendererSO*>::get(),
+                        "CalculateReflectionMatrix",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::Vector4>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::Matrix4x4, false>(nullptr, ___internal_method, plane);
 }
-inline ::GlobalNamespace::MirrorRendererSO* GlobalNamespace::MirrorRendererSO::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MirrorRendererSO*>());
+inline ::GlobalNamespace::MirrorRendererSO* GlobalNamespace::MirrorRendererSO::New_ctor()  {
+return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::MirrorRendererSO*>());
 }
-inline void GlobalNamespace::MirrorRendererSO::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MirrorRendererSO*>::get(), ".ctor",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::MirrorRendererSO::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::MirrorRendererSO*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::MirrorRendererSO::MirrorRendererSO() {}
+constexpr ::GlobalNamespace::MirrorRendererSO::MirrorRendererSO()   {
+}

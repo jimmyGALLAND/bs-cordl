@@ -16,125 +16,125 @@ class DigestHeaderParser;
 // Write type traits
 MARK_REF_PTR_T(::System::Net::DigestHeaderParser);
 // Type: System.Net::DigestHeaderParser
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
 // CS Name: ::System.Net::DigestHeaderParser*
 class CORDL_TYPE DigestHeaderParser : public ::System::Object {
 public:
-  // Declarations
-  __declspec(property(get = get_Algorithm))::StringW Algorithm;
+// Declarations
+ __declspec(property(get=get_Algorithm)) ::StringW  Algorithm;
 
-  __declspec(property(get = get_Nonce))::StringW Nonce;
+ __declspec(property(get=get_Nonce)) ::StringW  Nonce;
 
-  __declspec(property(get = get_Opaque))::StringW Opaque;
+ __declspec(property(get=get_Opaque)) ::StringW  Opaque;
 
-  __declspec(property(get = get_QOP))::StringW QOP;
+ __declspec(property(get=get_QOP)) ::StringW  QOP;
 
-  __declspec(property(get = get_Realm))::StringW Realm;
+ __declspec(property(get=get_Realm)) ::StringW  Realm;
 
-  /// @brief Field header, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_header, put = __cordl_internal_set_header))::StringW header;
+/// @brief Field header, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_header, put=__cordl_internal_set_header)) ::StringW  header;
 
-  /// @brief Field keywords, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_keywords, put = setStaticF_keywords))::ArrayW<::StringW, ::Array<::StringW>*> keywords;
+/// @brief Field keywords, offset 0xffffffff, size 0x8 
+static __declspec(property(get=getStaticF_keywords, put=setStaticF_keywords)) ::ArrayW<::StringW,::Array<::StringW>*>  keywords;
 
-  /// @brief Field length, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get_length, put = __cordl_internal_set_length)) int32_t length;
+/// @brief Field length, offset 0x18, size 0x4 
+ __declspec(property(get=__cordl_internal_get_length, put=__cordl_internal_set_length)) int32_t  length;
 
-  /// @brief Field pos, offset 0x1c, size 0x4
-  __declspec(property(get = __cordl_internal_get_pos, put = __cordl_internal_set_pos)) int32_t pos;
+/// @brief Field pos, offset 0x1c, size 0x4 
+ __declspec(property(get=__cordl_internal_get_pos, put=__cordl_internal_set_pos)) int32_t  pos;
 
-  /// @brief Field values, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_values, put = __cordl_internal_set_values))::ArrayW<::StringW, ::Array<::StringW>*> values;
+/// @brief Field values, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get_values, put=__cordl_internal_set_values)) ::ArrayW<::StringW,::Array<::StringW>*>  values;
 
-  /// @brief Method GetKey, addr 0x301fd24, size 0x90, virtual false, abstract: false, final false
-  inline ::StringW GetKey();
+/// @brief Method GetKey, addr 0x442b9fc, size 0x90, virtual false, abstract: false, final false
+inline ::StringW GetKey() ;
 
-  /// @brief Method GetKeywordAndValue, addr 0x301fb14, size 0x190, virtual false, abstract: false, final false
-  inline bool GetKeywordAndValue(ByRef<::StringW> key, ByRef<::StringW> value);
+/// @brief Method GetKeywordAndValue, addr 0x442b7ec, size 0x190, virtual false, abstract: false, final false
+inline bool GetKeywordAndValue(ByRef<::StringW>  key, ByRef<::StringW>  value) ;
 
-  static inline ::System::Net::DigestHeaderParser* New_ctor(::StringW header);
+static inline ::System::Net::DigestHeaderParser* New_ctor(::StringW  header) ;
 
-  /// @brief Method Parse, addr 0x301f938, size 0x1dc, virtual false, abstract: false, final false
-  inline bool Parse();
+/// @brief Method Parse, addr 0x442b654, size 0x198, virtual false, abstract: false, final false
+inline bool Parse() ;
 
-  /// @brief Method SkipWhitespace, addr 0x301fca4, size 0x80, virtual false, abstract: false, final false
-  inline void SkipWhitespace();
+/// @brief Method SkipWhitespace, addr 0x442b97c, size 0x80, virtual false, abstract: false, final false
+inline void SkipWhitespace() ;
 
-  constexpr ::StringW const& __cordl_internal_get_header() const;
+constexpr ::StringW const& __cordl_internal_get_header() const;
 
-  constexpr ::StringW& __cordl_internal_get_header();
+constexpr ::StringW& __cordl_internal_get_header() ;
 
-  constexpr int32_t const& __cordl_internal_get_length() const;
+constexpr int32_t const& __cordl_internal_get_length() const;
 
-  constexpr int32_t& __cordl_internal_get_length();
+constexpr int32_t& __cordl_internal_get_length() ;
 
-  constexpr int32_t const& __cordl_internal_get_pos() const;
+constexpr int32_t const& __cordl_internal_get_pos() const;
 
-  constexpr int32_t& __cordl_internal_get_pos();
+constexpr int32_t& __cordl_internal_get_pos() ;
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*> const& __cordl_internal_get_values() const;
+constexpr ::ArrayW<::StringW,::Array<::StringW>*> const& __cordl_internal_get_values() const;
 
-  constexpr ::ArrayW<::StringW, ::Array<::StringW>*>& __cordl_internal_get_values();
+constexpr ::ArrayW<::StringW,::Array<::StringW>*>& __cordl_internal_get_values() ;
 
-  constexpr void __cordl_internal_set_header(::StringW value);
+constexpr void __cordl_internal_set_header(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_length(int32_t value);
+constexpr void __cordl_internal_set_length(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_pos(int32_t value);
+constexpr void __cordl_internal_set_pos(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_values(::ArrayW<::StringW, ::Array<::StringW>*> value);
+constexpr void __cordl_internal_set_values(::ArrayW<::StringW,::Array<::StringW>*>  value) ;
 
-  /// @brief Method .ctor, addr 0x301f7ac, size 0xb4, virtual false, abstract: false, final false
-  inline void _ctor(::StringW header);
+/// @brief Method .ctor, addr 0x442b4c8, size 0xb4, virtual false, abstract: false, final false
+inline void _ctor(::StringW  header) ;
 
-  static inline ::ArrayW<::StringW, ::Array<::StringW>*> getStaticF_keywords();
+static inline ::ArrayW<::StringW,::Array<::StringW>*> getStaticF_keywords() ;
 
-  /// @brief Method get_Algorithm, addr 0x301f8e0, size 0x2c, virtual false, abstract: false, final false
-  inline ::StringW get_Algorithm();
+/// @brief Method get_Algorithm, addr 0x442b5fc, size 0x2c, virtual false, abstract: false, final false
+inline ::StringW get_Algorithm() ;
 
-  /// @brief Method get_Nonce, addr 0x301f8b4, size 0x2c, virtual false, abstract: false, final false
-  inline ::StringW get_Nonce();
+/// @brief Method get_Nonce, addr 0x442b5d0, size 0x2c, virtual false, abstract: false, final false
+inline ::StringW get_Nonce() ;
 
-  /// @brief Method get_Opaque, addr 0x301f888, size 0x2c, virtual false, abstract: false, final false
-  inline ::StringW get_Opaque();
+/// @brief Method get_Opaque, addr 0x442b5a4, size 0x2c, virtual false, abstract: false, final false
+inline ::StringW get_Opaque() ;
 
-  /// @brief Method get_QOP, addr 0x301f90c, size 0x2c, virtual false, abstract: false, final false
-  inline ::StringW get_QOP();
+/// @brief Method get_QOP, addr 0x442b628, size 0x2c, virtual false, abstract: false, final false
+inline ::StringW get_QOP() ;
 
-  /// @brief Method get_Realm, addr 0x301f860, size 0x28, virtual false, abstract: false, final false
-  inline ::StringW get_Realm();
+/// @brief Method get_Realm, addr 0x442b57c, size 0x28, virtual false, abstract: false, final false
+inline ::StringW get_Realm() ;
 
-  static inline void setStaticF_keywords(::ArrayW<::StringW, ::Array<::StringW>*> value);
+static inline void setStaticF_keywords(::ArrayW<::StringW,::Array<::StringW>*>  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DigestHeaderParser();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr DigestHeaderParser() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DigestHeaderParser", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  DigestHeaderParser(DigestHeaderParser&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DigestHeaderParser", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  DigestHeaderParser(DigestHeaderParser const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "DigestHeaderParser", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+DigestHeaderParser(DigestHeaderParser && ) = delete;
 
-  /// @brief Field header, offset: 0x10, size: 0x8, def value: None
-  ::StringW ___header;
+// Ctor Parameters [CppParam { name: "", ty: "DigestHeaderParser", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+DigestHeaderParser(DigestHeaderParser const& ) = delete;
 
-  /// @brief Field length, offset: 0x18, size: 0x4, def value: None
-  int32_t ___length;
+/// @brief Field header, offset: 0x10, size: 0x8, def value: None
+ ::StringW  ___header;
 
-  /// @brief Field pos, offset: 0x1c, size: 0x4, def value: None
-  int32_t ___pos;
+/// @brief Field length, offset: 0x18, size: 0x4, def value: None
+ int32_t  ___length;
 
-  /// @brief Field values, offset: 0x20, size: 0x8, def value: None
-  ::ArrayW<::StringW, ::Array<::StringW>*> ___values;
+/// @brief Field pos, offset: 0x1c, size: 0x4, def value: None
+ int32_t  ___pos;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field values, offset: 0x20, size: 0x8, def value: None
+ ::ArrayW<::StringW,::Array<::StringW>*>  ___values;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::DigestHeaderParser, 0x28>, "Size mismatch!");
@@ -147,6 +147,6 @@ static_assert(offsetof(::System::Net::DigestHeaderParser, ___pos) == 0x1c, "Offs
 
 static_assert(offsetof(::System::Net::DigestHeaderParser, ___values) == 0x20, "Offset mismatch!");
 
-} // namespace System::Net
+} // namespace end def System::Net
 NEED_NO_BOX(::System::Net::DigestHeaderParser);
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::DigestHeaderParser*, "System.Net", "DigestHeaderParser");

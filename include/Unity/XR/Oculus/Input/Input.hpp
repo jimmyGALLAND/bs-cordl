@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "Unity/XR/Oculus/Input/GearVRTrackedController.hpp"
 #include "Unity/XR/Oculus/Input/OculusGoController.hpp"
@@ -11,5 +11,6 @@ module;
 #include "Unity/XR/Oculus/Input/OculusTouchController.hpp"
 #include "Unity/XR/Oculus/Input/OculusTrackingReference.hpp"
 #ifdef __cpp_modules
-export module Input;
-#endif
+                    export module Input;
+                    #endif
+                

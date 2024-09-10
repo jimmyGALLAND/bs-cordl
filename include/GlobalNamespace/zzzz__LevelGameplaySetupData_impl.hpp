@@ -7,183 +7,225 @@
 #include "GlobalNamespace/zzzz__GameplayModifiers_def.hpp"
 #include "GlobalNamespace/zzzz__ILevelGameplaySetupData_def.hpp"
 //  Writing Method size for method: ::GlobalNamespace::LevelGameplaySetupData.get_beatmapKey
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BeatmapKey (::GlobalNamespace::LevelGameplaySetupData::*)()>(
-    &::GlobalNamespace::LevelGameplaySetupData::get_beatmapKey)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::BeatmapKey (::GlobalNamespace::LevelGameplaySetupData::*)()>(&::GlobalNamespace::LevelGameplaySetupData::get_beatmapKey)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x14dfbe4;
+  constexpr static std::size_t addrs = 0x268ccf4;
 
   inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelGameplaySetupData*>::get(),
-                                                                               "get_beatmapKey", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelGameplaySetupData*>::get(),
+                        "get_beatmapKey",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::LevelGameplaySetupData.get_gameplayModifiers
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::GameplayModifiers* (::GlobalNamespace::LevelGameplaySetupData::*)()>(
-    &::GlobalNamespace::LevelGameplaySetupData::get_gameplayModifiers)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::GlobalNamespace::GameplayModifiers* (::GlobalNamespace::LevelGameplaySetupData::*)()>(&::GlobalNamespace::LevelGameplaySetupData::get_gameplayModifiers)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x14dfbf8;
+  constexpr static std::size_t addrs = 0x268cd08;
 
   inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelGameplaySetupData*>::get(),
-                                                                               "get_gameplayModifiers", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelGameplaySetupData*>::get(),
+                        "get_gameplayModifiers",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::LevelGameplaySetupData._ctor
-template <>
+template<>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelGameplaySetupData::*)()>(&::GlobalNamespace::LevelGameplaySetupData::_ctor)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x14dfc00;
+  constexpr static std::size_t addrs = 0x268cd10;
 
   inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelGameplaySetupData*>::get(), ".ctor",
-                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelGameplaySetupData*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::LevelGameplaySetupData._ctor
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<void (::GlobalNamespace::LevelGameplaySetupData::*)(ByRef<::GlobalNamespace::BeatmapKey>, ::GlobalNamespace::GameplayModifiers*)>(&::GlobalNamespace::LevelGameplaySetupData::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelGameplaySetupData::*)(ByRef<::GlobalNamespace::BeatmapKey>, ::GlobalNamespace::GameplayModifiers*)>(&::GlobalNamespace::LevelGameplaySetupData::_ctor)> {
   constexpr static std::size_t size = 0xb0;
-  constexpr static std::size_t addrs = 0x14dfc68;
+  constexpr static std::size_t addrs = 0x268cd78;
 
   inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelGameplaySetupData*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-                                    ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::GlobalNamespace::BeatmapKey>>::get(),
-                                                                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GameplayModifiers*>::get() })));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelGameplaySetupData*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::GlobalNamespace::BeatmapKey>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GameplayModifiers*>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::LevelGameplaySetupData.ClearGameplaySetupData
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelGameplaySetupData::*)()>(
-    &::GlobalNamespace::LevelGameplaySetupData::ClearGameplaySetupData)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelGameplaySetupData::*)()>(&::GlobalNamespace::LevelGameplaySetupData::ClearGameplaySetupData)> {
   constexpr static std::size_t size = 0x68;
-  constexpr static std::size_t addrs = 0x14dfd18;
+  constexpr static std::size_t addrs = 0x268ce28;
 
   inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelGameplaySetupData*>::get(),
-                                                                               "ClearGameplaySetupData", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelGameplaySetupData*>::get(),
+                        "ClearGameplaySetupData",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::LevelGameplaySetupData.SetBeatmapKey
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelGameplaySetupData::*)(ByRef<::GlobalNamespace::BeatmapKey>)>(
-    &::GlobalNamespace::LevelGameplaySetupData::SetBeatmapKey)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelGameplaySetupData::*)(ByRef<::GlobalNamespace::BeatmapKey>)>(&::GlobalNamespace::LevelGameplaySetupData::SetBeatmapKey)> {
   constexpr static std::size_t size = 0x14;
-  constexpr static std::size_t addrs = 0x14dfd80;
+  constexpr static std::size_t addrs = 0x268ce90;
 
   inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((
-        ::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelGameplaySetupData*>::get(), "SetBeatmapKey", std::span<Il2CppClass const* const, 0>(),
-                                   ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::GlobalNamespace::BeatmapKey>>::get() })));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelGameplaySetupData*>::get(),
+                        "SetBeatmapKey",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::GlobalNamespace::BeatmapKey>>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::GlobalNamespace::LevelGameplaySetupData.SetGameplayModifiers
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelGameplaySetupData::*)(::GlobalNamespace::GameplayModifiers*)>(
-    &::GlobalNamespace::LevelGameplaySetupData::SetGameplayModifiers)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::GlobalNamespace::LevelGameplaySetupData::*)(::GlobalNamespace::GameplayModifiers*)>(&::GlobalNamespace::LevelGameplaySetupData::SetGameplayModifiers)> {
   constexpr static std::size_t size = 0x78;
-  constexpr static std::size_t addrs = 0x14dfd94;
+  constexpr static std::size_t addrs = 0x268cea4;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelGameplaySetupData*>::get(), "SetGameplayModifiers", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GameplayModifiers*>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelGameplaySetupData*>::get(),
+                        "SetGameplayModifiers",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GameplayModifiers*>::get()}
+                    )));
     return ___internal_method;
   }
 };
 /// @brief Convert operator to "::GlobalNamespace::ILevelGameplaySetupData"
-constexpr GlobalNamespace::LevelGameplaySetupData::operator ::GlobalNamespace::ILevelGameplaySetupData*() noexcept {
-  return static_cast<::GlobalNamespace::ILevelGameplaySetupData*>(static_cast<void*>(this));
+constexpr  GlobalNamespace::LevelGameplaySetupData::operator ::GlobalNamespace::ILevelGameplaySetupData*() noexcept {
+return static_cast<::GlobalNamespace::ILevelGameplaySetupData*>(static_cast<void*>(this));
 }
 /// @brief Convert to "::GlobalNamespace::ILevelGameplaySetupData"
 constexpr ::GlobalNamespace::ILevelGameplaySetupData* GlobalNamespace::LevelGameplaySetupData::i___GlobalNamespace__ILevelGameplaySetupData() noexcept {
-  return static_cast<::GlobalNamespace::ILevelGameplaySetupData*>(static_cast<void*>(this));
+return static_cast<::GlobalNamespace::ILevelGameplaySetupData*>(static_cast<void*>(this));
 }
-constexpr ::GlobalNamespace::GameplayModifiers*& GlobalNamespace::LevelGameplaySetupData::__cordl_internal_get__gameplayModifiers() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____gameplayModifiers;
-}
-constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayModifiers*> const& GlobalNamespace::LevelGameplaySetupData::__cordl_internal_get__gameplayModifiers() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____gameplayModifiers;
-}
-constexpr void GlobalNamespace::LevelGameplaySetupData::__cordl_internal_set__gameplayModifiers(::GlobalNamespace::GameplayModifiers* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____gameplayModifiers)), cordl_internals::convert(std::forward<decltype(value)>(value)));
-}
-constexpr ::GlobalNamespace::BeatmapKey& GlobalNamespace::LevelGameplaySetupData::__cordl_internal_get__beatmapKey() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____beatmapKey;
+constexpr ::GlobalNamespace::BeatmapKey& GlobalNamespace::LevelGameplaySetupData::__cordl_internal_get__beatmapKey()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____beatmapKey;
 }
 constexpr ::GlobalNamespace::BeatmapKey const& GlobalNamespace::LevelGameplaySetupData::__cordl_internal_get__beatmapKey() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->____beatmapKey;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____beatmapKey;
 }
-constexpr void GlobalNamespace::LevelGameplaySetupData::__cordl_internal_set__beatmapKey(::GlobalNamespace::BeatmapKey value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  this->____beatmapKey = value;
+constexpr void GlobalNamespace::LevelGameplaySetupData::__cordl_internal_set__beatmapKey(::GlobalNamespace::BeatmapKey  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+this->____beatmapKey = value;
 }
-inline ::GlobalNamespace::BeatmapKey GlobalNamespace::LevelGameplaySetupData::get_beatmapKey() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelGameplaySetupData*>::get(),
-                                                                             "get_beatmapKey", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::BeatmapKey, false>(this, ___internal_method);
+constexpr ::GlobalNamespace::GameplayModifiers*& GlobalNamespace::LevelGameplaySetupData::__cordl_internal_get__gameplayModifiers()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____gameplayModifiers;
 }
-inline ::GlobalNamespace::GameplayModifiers* GlobalNamespace::LevelGameplaySetupData::get_gameplayModifiers() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelGameplaySetupData*>::get(),
-                                                                             "get_gameplayModifiers", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::GameplayModifiers*, false>(this, ___internal_method);
+constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::GameplayModifiers*> const& GlobalNamespace::LevelGameplaySetupData::__cordl_internal_get__gameplayModifiers() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->____gameplayModifiers;
 }
-inline ::GlobalNamespace::LevelGameplaySetupData* GlobalNamespace::LevelGameplaySetupData::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::LevelGameplaySetupData*>());
+constexpr void GlobalNamespace::LevelGameplaySetupData::__cordl_internal_set__gameplayModifiers(::GlobalNamespace::GameplayModifiers*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->____gameplayModifiers)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline void GlobalNamespace::LevelGameplaySetupData::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelGameplaySetupData*>::get(), ".ctor",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline ::GlobalNamespace::BeatmapKey GlobalNamespace::LevelGameplaySetupData::get_beatmapKey()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelGameplaySetupData*>::get(),
+                        "get_beatmapKey",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::BeatmapKey, false>(this, ___internal_method);
 }
-inline ::GlobalNamespace::LevelGameplaySetupData* GlobalNamespace::LevelGameplaySetupData::New_ctor(ByRef<::GlobalNamespace::BeatmapKey> beatmapKey,
-                                                                                                    ::GlobalNamespace::GameplayModifiers* gameplayModifiers) {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::LevelGameplaySetupData*>(beatmapKey, gameplayModifiers));
+inline ::GlobalNamespace::GameplayModifiers* GlobalNamespace::LevelGameplaySetupData::get_gameplayModifiers()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelGameplaySetupData*>::get(),
+                        "get_gameplayModifiers",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<::GlobalNamespace::GameplayModifiers*, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::LevelGameplaySetupData::_ctor(ByRef<::GlobalNamespace::BeatmapKey> beatmapKey, ::GlobalNamespace::GameplayModifiers* gameplayModifiers) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelGameplaySetupData*>::get(), ".ctor", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::GlobalNamespace::BeatmapKey>>::get(),
-                                                                      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GameplayModifiers*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, beatmapKey, gameplayModifiers);
+inline ::GlobalNamespace::LevelGameplaySetupData* GlobalNamespace::LevelGameplaySetupData::New_ctor()  {
+return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::LevelGameplaySetupData*>());
 }
-inline void GlobalNamespace::LevelGameplaySetupData::ClearGameplaySetupData() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelGameplaySetupData*>::get(),
-                                                                             "ClearGameplaySetupData", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void GlobalNamespace::LevelGameplaySetupData::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelGameplaySetupData*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void GlobalNamespace::LevelGameplaySetupData::SetBeatmapKey(ByRef<::GlobalNamespace::BeatmapKey> beatmapKey) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelGameplaySetupData*>::get(), "SetBeatmapKey", std::span<Il2CppClass const* const, 0>(),
-                                  ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::GlobalNamespace::BeatmapKey>>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, beatmapKey);
+inline ::GlobalNamespace::LevelGameplaySetupData* GlobalNamespace::LevelGameplaySetupData::New_ctor(ByRef<::GlobalNamespace::BeatmapKey>  beatmapKey, ::GlobalNamespace::GameplayModifiers*  gameplayModifiers)  {
+return THROW_UNLESS(::il2cpp_utils::NewSpecific<::GlobalNamespace::LevelGameplaySetupData*>(beatmapKey, gameplayModifiers));
 }
-inline void GlobalNamespace::LevelGameplaySetupData::SetGameplayModifiers(::GlobalNamespace::GameplayModifiers* gameplayModifiers) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelGameplaySetupData*>::get(), "SetGameplayModifiers", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GameplayModifiers*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, gameplayModifiers);
+inline void GlobalNamespace::LevelGameplaySetupData::_ctor(ByRef<::GlobalNamespace::BeatmapKey>  beatmapKey, ::GlobalNamespace::GameplayModifiers*  gameplayModifiers)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelGameplaySetupData*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::GlobalNamespace::BeatmapKey>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GameplayModifiers*>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, beatmapKey, gameplayModifiers);
+}
+inline void GlobalNamespace::LevelGameplaySetupData::ClearGameplaySetupData()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelGameplaySetupData*>::get(),
+                        "ClearGameplaySetupData",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+}
+inline void GlobalNamespace::LevelGameplaySetupData::SetBeatmapKey(ByRef<::GlobalNamespace::BeatmapKey>  beatmapKey)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelGameplaySetupData*>::get(),
+                        "SetBeatmapKey",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::GlobalNamespace::BeatmapKey>>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, beatmapKey);
+}
+inline void GlobalNamespace::LevelGameplaySetupData::SetGameplayModifiers(::GlobalNamespace::GameplayModifiers*  gameplayModifiers)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::GlobalNamespace::LevelGameplaySetupData*>::get(),
+                        "SetGameplayModifiers",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::GlobalNamespace::GameplayModifiers*>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, gameplayModifiers);
 }
 // Ctor Parameters []
-constexpr ::GlobalNamespace::LevelGameplaySetupData::LevelGameplaySetupData() {}
+constexpr ::GlobalNamespace::LevelGameplaySetupData::LevelGameplaySetupData()   {
+}

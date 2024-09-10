@@ -26,47 +26,48 @@ class TypeHelpers;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::InputSystem::Utilities::TypeHelpers);
 // Type: UnityEngine.InputSystem.Utilities::TypeHelpers
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Utilities {
 // Is value type: false
 // CS Name: ::UnityEngine.InputSystem.Utilities::TypeHelpers*
 class CORDL_TYPE TypeHelpers : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method As, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  template <typename TObject> static inline TObject As(::System::Object* obj);
+// Declarations
+/// @brief Method As, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+template<typename TObject>
+static inline TObject As(::System::Object*  obj) ;
 
-  /// @brief Method GetGenericTypeArgumentFromHierarchy, addr 0x30fba3c, size 0x3cc, virtual false, abstract: false, final false
-  static inline ::System::Type* GetGenericTypeArgumentFromHierarchy(::System::Type* type, ::System::Type* genericTypeDefinition, int32_t argumentIndex);
+/// @brief Method GetGenericTypeArgumentFromHierarchy, addr 0x44e04f4, size 0x3c8, virtual false, abstract: false, final false
+static inline ::System::Type* GetGenericTypeArgumentFromHierarchy(::System::Type*  type, ::System::Type*  genericTypeDefinition, int32_t  argumentIndex) ;
 
-  /// @brief Method GetNiceTypeName, addr 0x30fb5ac, size 0x490, virtual false, abstract: false, final false
-  static inline ::StringW GetNiceTypeName(::System::Type* type);
+/// @brief Method GetNiceTypeName, addr 0x44e0064, size 0x490, virtual false, abstract: false, final false
+static inline ::StringW GetNiceTypeName(::System::Type*  type) ;
 
-  /// @brief Method GetValueType, addr 0x30fb40c, size 0x1a0, virtual false, abstract: false, final false
-  static inline ::System::Type* GetValueType(::System::Reflection::MemberInfo* member);
+/// @brief Method GetValueType, addr 0x44dfe98, size 0x1cc, virtual false, abstract: false, final false
+static inline ::System::Type* GetValueType(::System::Reflection::MemberInfo*  member) ;
 
-  /// @brief Method IsInt, addr 0x30fb3fc, size 0x10, virtual false, abstract: false, final false
-  static inline bool IsInt(::System::TypeCode type);
+/// @brief Method IsInt, addr 0x44dfe88, size 0x10, virtual false, abstract: false, final false
+static inline bool IsInt(::System::TypeCode  type) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TypeHelpers();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr TypeHelpers() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TypeHelpers", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  TypeHelpers(TypeHelpers&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TypeHelpers", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  TypeHelpers(TypeHelpers const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "TypeHelpers", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+TypeHelpers(TypeHelpers && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "TypeHelpers", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+TypeHelpers(TypeHelpers const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Utilities::TypeHelpers, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine::InputSystem::Utilities
+} // namespace end def UnityEngine::InputSystem::Utilities
 NEED_NO_BOX(::UnityEngine::InputSystem::Utilities::TypeHelpers);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Utilities::TypeHelpers*, "UnityEngine.InputSystem.Utilities", "TypeHelpers");

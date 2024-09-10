@@ -19,47 +19,47 @@ class IndexOutOfRangeException;
 // Write type traits
 MARK_REF_PTR_T(::System::IndexOutOfRangeException);
 // Type: System::IndexOutOfRangeException
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
 // CS Name: ::System::IndexOutOfRangeException*
 class CORDL_TYPE IndexOutOfRangeException : public ::System::SystemException {
 public:
-  // Declarations
-  static inline ::System::IndexOutOfRangeException* New_ctor();
+// Declarations
+static inline ::System::IndexOutOfRangeException* New_ctor() ;
 
-  static inline ::System::IndexOutOfRangeException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
+static inline ::System::IndexOutOfRangeException* New_ctor(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context) ;
 
-  static inline ::System::IndexOutOfRangeException* New_ctor(::StringW message);
+static inline ::System::IndexOutOfRangeException* New_ctor(::StringW  message) ;
 
-  /// @brief Method .ctor, addr 0x295db40, size 0x5c, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x3d56e34, size 0x5c, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method .ctor, addr 0x295dbc0, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
+/// @brief Method .ctor, addr 0x3d56eb4, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context) ;
 
-  /// @brief Method .ctor, addr 0x295db9c, size 0x24, virtual false, abstract: false, final false
-  inline void _ctor(::StringW message);
+/// @brief Method .ctor, addr 0x3d56e90, size 0x24, virtual false, abstract: false, final false
+inline void _ctor(::StringW  message) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr IndexOutOfRangeException();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr IndexOutOfRangeException() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IndexOutOfRangeException", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IndexOutOfRangeException(IndexOutOfRangeException&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IndexOutOfRangeException", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  IndexOutOfRangeException(IndexOutOfRangeException const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "IndexOutOfRangeException", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+IndexOutOfRangeException(IndexOutOfRangeException && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "IndexOutOfRangeException", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+IndexOutOfRangeException(IndexOutOfRangeException const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::IndexOutOfRangeException, 0x90>, "Size mismatch!");
 
-} // namespace System
+} // namespace end def System
 NEED_NO_BOX(::System::IndexOutOfRangeException);
 DEFINE_IL2CPP_ARG_TYPE(::System::IndexOutOfRangeException*, "System", "IndexOutOfRangeException");

@@ -1,13 +1,26 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "UnityEngine/Rendering/AmbientMode.hpp"
 #include "UnityEngine/Rendering/BatchCullingContext.hpp"
+#include "UnityEngine/Rendering/BatchCullingFlags.hpp"
+#include "UnityEngine/Rendering/BatchCullingOutput.hpp"
+#include "UnityEngine/Rendering/BatchCullingOutputDrawCommands.hpp"
+#include "UnityEngine/Rendering/BatchCullingProjectionType.hpp"
+#include "UnityEngine/Rendering/BatchCullingViewType.hpp"
+#include "UnityEngine/Rendering/BatchDrawCommand.hpp"
+#include "UnityEngine/Rendering/BatchDrawCommandFlags.hpp"
+#include "UnityEngine/Rendering/BatchDrawRange.hpp"
+#include "UnityEngine/Rendering/BatchFilterSettings.hpp"
+#include "UnityEngine/Rendering/BatchID.hpp"
+#include "UnityEngine/Rendering/BatchMaterialID.hpp"
+#include "UnityEngine/Rendering/BatchMeshID.hpp"
+#include "UnityEngine/Rendering/BatchPackedCullingViewID.hpp"
 #include "UnityEngine/Rendering/BatchRendererCullingOutput.hpp"
 #include "UnityEngine/Rendering/BatchRendererGroup.hpp"
-#include "UnityEngine/Rendering/BatchVisibility.hpp"
+#include "UnityEngine/Rendering/BlendShapeBufferLayout.hpp"
 #include "UnityEngine/Rendering/BuiltinRenderTextureType.hpp"
 #include "UnityEngine/Rendering/CameraEvent.hpp"
 #include "UnityEngine/Rendering/CameraEventUtils.hpp"
@@ -19,6 +32,7 @@ module;
 #include "UnityEngine/Rendering/ComputeQueueType.hpp"
 #include "UnityEngine/Rendering/CoreCameraValues.hpp"
 #include "UnityEngine/Rendering/CullingOptions.hpp"
+#include "UnityEngine/Rendering/CullingSplit.hpp"
 #include "UnityEngine/Rendering/DefaultReflectionMode.hpp"
 #include "UnityEngine/Rendering/GlobalKeyword.hpp"
 #include "UnityEngine/Rendering/GraphicsDeviceType.hpp"
@@ -30,6 +44,7 @@ module;
 #include "UnityEngine/Rendering/LocalKeyword.hpp"
 #include "UnityEngine/Rendering/LocalKeywordSpace.hpp"
 #include "UnityEngine/Rendering/MeshUpdateFlags.hpp"
+#include "UnityEngine/Rendering/ObjectIdRequest.hpp"
 #include "UnityEngine/Rendering/OnDemandRendering.hpp"
 #include "UnityEngine/Rendering/OpaqueSortMode.hpp"
 #include "UnityEngine/Rendering/PassType.hpp"
@@ -68,5 +83,6 @@ module;
 #include "UnityEngine/Rendering/VertexAttributeDescriptor.hpp"
 #include "UnityEngine/Rendering/VertexAttributeFormat.hpp"
 #ifdef __cpp_modules
-export module Rendering;
-#endif
+                    export module Rendering;
+                    #endif
+                

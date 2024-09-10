@@ -24,133 +24,133 @@ class CombinedHash;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::CombinedHash);
 // Type: Org.BouncyCastle.Crypto.Tls::CombinedHash
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::CombinedHash*
 class CORDL_TYPE CombinedHash : public ::System::Object {
 public:
-  // Declarations
-  __declspec(property(get = get_AlgorithmName))::StringW AlgorithmName;
+// Declarations
+ __declspec(property(get=get_AlgorithmName)) ::StringW  AlgorithmName;
 
-  /// @brief Field mContext, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_mContext, put = __cordl_internal_set_mContext))::Org::BouncyCastle::Crypto::Tls::TlsContext* mContext;
+/// @brief Field mContext, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_mContext, put=__cordl_internal_set_mContext)) ::Org::BouncyCastle::Crypto::Tls::TlsContext*  mContext;
 
-  /// @brief Field mMd5, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_mMd5, put = __cordl_internal_set_mMd5))::Org::BouncyCastle::Crypto::IDigest* mMd5;
+/// @brief Field mMd5, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_mMd5, put=__cordl_internal_set_mMd5)) ::Org::BouncyCastle::Crypto::IDigest*  mMd5;
 
-  /// @brief Field mSha1, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_mSha1, put = __cordl_internal_set_mSha1))::Org::BouncyCastle::Crypto::IDigest* mSha1;
+/// @brief Field mSha1, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get_mSha1, put=__cordl_internal_set_mSha1)) ::Org::BouncyCastle::Crypto::IDigest*  mSha1;
 
-  /// @brief Convert operator to "::Org::BouncyCastle::Crypto::IDigest"
-  constexpr operator ::Org::BouncyCastle::Crypto::IDigest*() noexcept;
+/// @brief Convert operator to "::Org::BouncyCastle::Crypto::IDigest"
+constexpr operator  ::Org::BouncyCastle::Crypto::IDigest*() noexcept;
 
-  /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Tls::TlsHandshakeHash"
-  constexpr operator ::Org::BouncyCastle::Crypto::Tls::TlsHandshakeHash*() noexcept;
+/// @brief Convert operator to "::Org::BouncyCastle::Crypto::Tls::TlsHandshakeHash"
+constexpr operator  ::Org::BouncyCastle::Crypto::Tls::TlsHandshakeHash*() noexcept;
 
-  /// @brief Method BlockUpdate, addr 0x11d290c, size 0x13c, virtual true, abstract: false, final false
-  inline void BlockUpdate(::ArrayW<uint8_t, ::Array<uint8_t>*> input, int32_t inOff, int32_t len);
+/// @brief Method BlockUpdate, addr 0x239c258, size 0x13c, virtual true, abstract: false, final false
+inline void BlockUpdate(::ArrayW<uint8_t,::Array<uint8_t>*>  input, int32_t  inOff, int32_t  len) ;
 
-  /// @brief Method DoFinal, addr 0x11d2a48, size 0x1ec, virtual true, abstract: false, final false
-  inline int32_t DoFinal(::ArrayW<uint8_t, ::Array<uint8_t>*> output, int32_t outOff);
+/// @brief Method DoFinal, addr 0x239c394, size 0x1e8, virtual true, abstract: false, final false
+inline int32_t DoFinal(::ArrayW<uint8_t,::Array<uint8_t>*>  output, int32_t  outOff) ;
 
-  /// @brief Method ForkPrfHash, addr 0x11d23b8, size 0x60, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Crypto::IDigest* ForkPrfHash();
+/// @brief Method ForkPrfHash, addr 0x239bd10, size 0x58, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Crypto::IDigest* ForkPrfHash() ;
 
-  /// @brief Method GetByteLength, addr 0x11d2594, size 0x148, virtual true, abstract: false, final false
-  inline int32_t GetByteLength();
+/// @brief Method GetByteLength, addr 0x239bee0, size 0x148, virtual true, abstract: false, final false
+inline int32_t GetByteLength() ;
 
-  /// @brief Method GetDigestSize, addr 0x11d26dc, size 0x114, virtual true, abstract: false, final false
-  inline int32_t GetDigestSize();
+/// @brief Method GetDigestSize, addr 0x239c028, size 0x114, virtual true, abstract: false, final false
+inline int32_t GetDigestSize() ;
 
-  /// @brief Method GetFinalHash, addr 0x11d2418, size 0x50, virtual true, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> GetFinalHash(uint8_t hashAlgorithm);
+/// @brief Method GetFinalHash, addr 0x239bd68, size 0x4c, virtual true, abstract: false, final false
+inline ::ArrayW<uint8_t,::Array<uint8_t>*> GetFinalHash(uint8_t  hashAlgorithm) ;
 
-  /// @brief Method Init, addr 0x11d22f8, size 0x8, virtual true, abstract: false, final false
-  inline void Init(::Org::BouncyCastle::Crypto::Tls::TlsContext* context);
+/// @brief Method Init, addr 0x239bc5c, size 0x8, virtual true, abstract: false, final false
+inline void Init(::Org::BouncyCastle::Crypto::Tls::TlsContext*  context) ;
 
-  static inline ::Org::BouncyCastle::Crypto::Tls::CombinedHash* New_ctor();
+static inline ::Org::BouncyCastle::Crypto::Tls::CombinedHash* New_ctor() ;
 
-  static inline ::Org::BouncyCastle::Crypto::Tls::CombinedHash* New_ctor(::Org::BouncyCastle::Crypto::Tls::CombinedHash* t);
+static inline ::Org::BouncyCastle::Crypto::Tls::CombinedHash* New_ctor(::Org::BouncyCastle::Crypto::Tls::CombinedHash*  t) ;
 
-  /// @brief Method NotifyPrfDetermined, addr 0x11d2300, size 0x4, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Crypto::Tls::TlsHandshakeHash* NotifyPrfDetermined();
+/// @brief Method NotifyPrfDetermined, addr 0x239bc64, size 0x4, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Crypto::Tls::TlsHandshakeHash* NotifyPrfDetermined() ;
 
-  /// @brief Method Reset, addr 0x11d2c34, size 0x108, virtual true, abstract: false, final false
-  inline void Reset();
+/// @brief Method Reset, addr 0x239c57c, size 0x108, virtual true, abstract: false, final false
+inline void Reset() ;
 
-  /// @brief Method SealHashAlgorithms, addr 0x11d2354, size 0x4, virtual true, abstract: false, final false
-  inline void SealHashAlgorithms();
+/// @brief Method SealHashAlgorithms, addr 0x239bcb4, size 0x4, virtual true, abstract: false, final false
+inline void SealHashAlgorithms() ;
 
-  /// @brief Method Ssl3Complete, addr 0x11d2d3c, size 0x33c, virtual true, abstract: false, final false
-  inline void Ssl3Complete(::Org::BouncyCastle::Crypto::IDigest* d, ::ArrayW<uint8_t, ::Array<uint8_t>*> ipad, ::ArrayW<uint8_t, ::Array<uint8_t>*> opad, int32_t padLength);
+/// @brief Method Ssl3Complete, addr 0x239c684, size 0x33c, virtual true, abstract: false, final false
+inline void Ssl3Complete(::Org::BouncyCastle::Crypto::IDigest*  d, ::ArrayW<uint8_t,::Array<uint8_t>*>  ipad, ::ArrayW<uint8_t,::Array<uint8_t>*>  opad, int32_t  padLength) ;
 
-  /// @brief Method StopTracking, addr 0x11d2358, size 0x60, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Crypto::Tls::TlsHandshakeHash* StopTracking();
+/// @brief Method StopTracking, addr 0x239bcb8, size 0x58, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Crypto::Tls::TlsHandshakeHash* StopTracking() ;
 
-  /// @brief Method TrackHashAlgorithm, addr 0x11d2304, size 0x50, virtual true, abstract: false, final false
-  inline void TrackHashAlgorithm(uint8_t hashAlgorithm);
+/// @brief Method TrackHashAlgorithm, addr 0x239bc68, size 0x4c, virtual true, abstract: false, final false
+inline void TrackHashAlgorithm(uint8_t  hashAlgorithm) ;
 
-  /// @brief Method Update, addr 0x11d27f0, size 0x11c, virtual true, abstract: false, final false
-  inline void Update(uint8_t input);
+/// @brief Method Update, addr 0x239c13c, size 0x11c, virtual true, abstract: false, final false
+inline void Update(uint8_t  input) ;
 
-  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsContext*& __cordl_internal_get_mContext();
+constexpr ::Org::BouncyCastle::Crypto::Tls::TlsContext*& __cordl_internal_get_mContext() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsContext*> const& __cordl_internal_get_mContext() const;
+constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::TlsContext*> const& __cordl_internal_get_mContext() const;
 
-  constexpr ::Org::BouncyCastle::Crypto::IDigest*& __cordl_internal_get_mMd5();
+constexpr ::Org::BouncyCastle::Crypto::IDigest*& __cordl_internal_get_mMd5() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IDigest*> const& __cordl_internal_get_mMd5() const;
+constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IDigest*> const& __cordl_internal_get_mMd5() const;
 
-  constexpr ::Org::BouncyCastle::Crypto::IDigest*& __cordl_internal_get_mSha1();
+constexpr ::Org::BouncyCastle::Crypto::IDigest*& __cordl_internal_get_mSha1() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IDigest*> const& __cordl_internal_get_mSha1() const;
+constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IDigest*> const& __cordl_internal_get_mSha1() const;
 
-  constexpr void __cordl_internal_set_mContext(::Org::BouncyCastle::Crypto::Tls::TlsContext* value);
+constexpr void __cordl_internal_set_mContext(::Org::BouncyCastle::Crypto::Tls::TlsContext*  value) ;
 
-  constexpr void __cordl_internal_set_mMd5(::Org::BouncyCastle::Crypto::IDigest* value);
+constexpr void __cordl_internal_set_mMd5(::Org::BouncyCastle::Crypto::IDigest*  value) ;
 
-  constexpr void __cordl_internal_set_mSha1(::Org::BouncyCastle::Crypto::IDigest* value);
+constexpr void __cordl_internal_set_mSha1(::Org::BouncyCastle::Crypto::IDigest*  value) ;
 
-  /// @brief Method .ctor, addr 0x11d21e0, size 0x7c, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x239bb44, size 0x7c, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method .ctor, addr 0x11d225c, size 0x9c, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Crypto::Tls::CombinedHash* t);
+/// @brief Method .ctor, addr 0x239bbc0, size 0x9c, virtual false, abstract: false, final false
+inline void _ctor(::Org::BouncyCastle::Crypto::Tls::CombinedHash*  t) ;
 
-  /// @brief Method get_AlgorithmName, addr 0x11d2468, size 0x12c, virtual true, abstract: false, final false
-  inline ::StringW get_AlgorithmName();
+/// @brief Method get_AlgorithmName, addr 0x239bdb4, size 0x12c, virtual true, abstract: false, final false
+inline ::StringW get_AlgorithmName() ;
 
-  /// @brief Convert to "::Org::BouncyCastle::Crypto::IDigest"
-  constexpr ::Org::BouncyCastle::Crypto::IDigest* i___Org__BouncyCastle__Crypto__IDigest() noexcept;
+/// @brief Convert to "::Org::BouncyCastle::Crypto::IDigest"
+constexpr ::Org::BouncyCastle::Crypto::IDigest* i___Org__BouncyCastle__Crypto__IDigest() noexcept;
 
-  /// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::TlsHandshakeHash"
-  constexpr ::Org::BouncyCastle::Crypto::Tls::TlsHandshakeHash* i___Org__BouncyCastle__Crypto__Tls__TlsHandshakeHash() noexcept;
+/// @brief Convert to "::Org::BouncyCastle::Crypto::Tls::TlsHandshakeHash"
+constexpr ::Org::BouncyCastle::Crypto::Tls::TlsHandshakeHash* i___Org__BouncyCastle__Crypto__Tls__TlsHandshakeHash() noexcept;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CombinedHash();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr CombinedHash() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CombinedHash", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  CombinedHash(CombinedHash&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CombinedHash", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  CombinedHash(CombinedHash const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "CombinedHash", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+CombinedHash(CombinedHash && ) = delete;
 
-  /// @brief Field mContext, offset: 0x10, size: 0x8, def value: None
-  ::Org::BouncyCastle::Crypto::Tls::TlsContext* ___mContext;
+// Ctor Parameters [CppParam { name: "", ty: "CombinedHash", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+CombinedHash(CombinedHash const& ) = delete;
 
-  /// @brief Field mMd5, offset: 0x18, size: 0x8, def value: None
-  ::Org::BouncyCastle::Crypto::IDigest* ___mMd5;
+/// @brief Field mContext, offset: 0x10, size: 0x8, def value: None
+ ::Org::BouncyCastle::Crypto::Tls::TlsContext*  ___mContext;
 
-  /// @brief Field mSha1, offset: 0x20, size: 0x8, def value: None
-  ::Org::BouncyCastle::Crypto::IDigest* ___mSha1;
+/// @brief Field mMd5, offset: 0x18, size: 0x8, def value: None
+ ::Org::BouncyCastle::Crypto::IDigest*  ___mMd5;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field mSha1, offset: 0x20, size: 0x8, def value: None
+ ::Org::BouncyCastle::Crypto::IDigest*  ___mSha1;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Tls::CombinedHash, 0x28>, "Size mismatch!");
@@ -161,6 +161,6 @@ static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::CombinedHash, ___mMd5) 
 
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::CombinedHash, ___mSha1) == 0x20, "Offset mismatch!");
 
-} // namespace Org::BouncyCastle::Crypto::Tls
+} // namespace end def Org::BouncyCastle::Crypto::Tls
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Tls::CombinedHash);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Tls::CombinedHash*, "Org.BouncyCastle.Crypto.Tls", "CombinedHash");

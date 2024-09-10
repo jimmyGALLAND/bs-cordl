@@ -22,68 +22,68 @@ class BeatmapSelectionView;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::BeatmapSelectionView);
 // Type: ::BeatmapSelectionView
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::BeatmapSelectionView*
 class CORDL_TYPE BeatmapSelectionView : public ::UnityEngine::MonoBehaviour {
 public:
-  // Declarations
-  /// @brief Field _levelBar, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__levelBar, put = __cordl_internal_set__levelBar))::UnityW<::GlobalNamespace::LevelBar> _levelBar;
+// Declarations
+/// @brief Field _levelBar, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get__levelBar, put=__cordl_internal_set__levelBar)) ::UnityW<::GlobalNamespace::LevelBar>  _levelBar;
 
-  /// @brief Field _noLevelText, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__noLevelText, put = __cordl_internal_set__noLevelText))::UnityW<::TMPro::TextMeshProUGUI> _noLevelText;
+/// @brief Field _noLevelText, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get__noLevelText, put=__cordl_internal_set__noLevelText)) ::UnityW<::TMPro::TextMeshProUGUI>  _noLevelText;
 
-  static inline ::GlobalNamespace::BeatmapSelectionView* New_ctor();
+static inline ::GlobalNamespace::BeatmapSelectionView* New_ctor() ;
 
-  /// @brief Method SetBeatmap, addr 0x2693290, size 0xbc, virtual true, abstract: false, final false
-  inline void SetBeatmap(ByRef<::GlobalNamespace::BeatmapKey> beatmapKey);
+/// @brief Method SetBeatmap, addr 0x3a74878, size 0xb4, virtual true, abstract: false, final false
+inline void SetBeatmap(ByRef<::GlobalNamespace::BeatmapKey>  beatmapKey) ;
 
-  constexpr ::UnityW<::GlobalNamespace::LevelBar> const& __cordl_internal_get__levelBar() const;
+constexpr ::UnityW<::GlobalNamespace::LevelBar> const& __cordl_internal_get__levelBar() const;
 
-  constexpr ::UnityW<::GlobalNamespace::LevelBar>& __cordl_internal_get__levelBar();
+constexpr ::UnityW<::GlobalNamespace::LevelBar>& __cordl_internal_get__levelBar() ;
 
-  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__noLevelText() const;
+constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__noLevelText() const;
 
-  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__noLevelText();
+constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__noLevelText() ;
 
-  constexpr void __cordl_internal_set__levelBar(::UnityW<::GlobalNamespace::LevelBar> value);
+constexpr void __cordl_internal_set__levelBar(::UnityW<::GlobalNamespace::LevelBar>  value) ;
 
-  constexpr void __cordl_internal_set__noLevelText(::UnityW<::TMPro::TextMeshProUGUI> value);
+constexpr void __cordl_internal_set__noLevelText(::UnityW<::TMPro::TextMeshProUGUI>  value) ;
 
-  /// @brief Method .ctor, addr 0x269334c, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x3a74a04, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BeatmapSelectionView();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr BeatmapSelectionView() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapSelectionView", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  BeatmapSelectionView(BeatmapSelectionView&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapSelectionView", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapSelectionView(BeatmapSelectionView const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "BeatmapSelectionView", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+BeatmapSelectionView(BeatmapSelectionView && ) = delete;
 
-  /// @brief Field _levelBar, offset: 0x18, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::LevelBar> ____levelBar;
+// Ctor Parameters [CppParam { name: "", ty: "BeatmapSelectionView", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+BeatmapSelectionView(BeatmapSelectionView const& ) = delete;
 
-  /// @brief Field _noLevelText, offset: 0x20, size: 0x8, def value: None
-  ::UnityW<::TMPro::TextMeshProUGUI> ____noLevelText;
+/// @brief Field _levelBar, offset: 0x20, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::LevelBar>  ____levelBar;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _noLevelText, offset: 0x28, size: 0x8, def value: None
+ ::UnityW<::TMPro::TextMeshProUGUI>  ____noLevelText;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BeatmapSelectionView, 0x28>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BeatmapSelectionView, 0x30>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BeatmapSelectionView, ____levelBar) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BeatmapSelectionView, ____levelBar) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::BeatmapSelectionView, ____noLevelText) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::BeatmapSelectionView, ____noLevelText) == 0x28, "Offset mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BeatmapSelectionView);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BeatmapSelectionView*, "", "BeatmapSelectionView");

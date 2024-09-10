@@ -17,37 +17,36 @@ struct LOD;
 // Write type traits
 MARK_VAL_T(::UnityEngine::LOD);
 // Type: UnityEngine::LOD
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: true
 // CS Name: ::UnityEngine::LOD
 struct CORDL_TYPE LOD {
 public:
-  // Declarations
-  /// @brief Method .ctor, addr 0x3429030, size 0x10, virtual false, abstract: false, final false
-  inline void _ctor(float_t screenRelativeTransitionHeight, ::ArrayW<::UnityEngine::Renderer*, ::Array<::UnityEngine::Renderer*>*> renderers);
+// Declarations
+/// @brief Method .ctor, addr 0x47f402c, size 0x10, virtual false, abstract: false, final false
+inline void _ctor(float_t  screenRelativeTransitionHeight, ::ArrayW<::UnityEngine::Renderer*,::Array<::UnityEngine::Renderer*>*>  renderers) ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LOD();
+// Ctor Parameters []
+// @brief default ctor
+constexpr LOD() ;
 
-  // Ctor Parameters [CppParam { name: "screenRelativeTransitionHeight", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "fadeTransitionWidth", ty: "float_t", modifiers: "",
-  // def_value: None }, CppParam { name: "renderers", ty: "::ArrayW<::UnityW<::UnityEngine::Renderer>,::Array<::UnityW<::UnityEngine::Renderer>>*>", modifiers: "", def_value: None }]
-  constexpr LOD(float_t screenRelativeTransitionHeight, float_t fadeTransitionWidth, ::ArrayW<::UnityW<::UnityEngine::Renderer>, ::Array<::UnityW<::UnityEngine::Renderer>>*> renderers) noexcept;
+// Ctor Parameters [CppParam { name: "screenRelativeTransitionHeight", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "fadeTransitionWidth", ty: "float_t", modifiers: "", def_value: None }, CppParam { name: "renderers", ty: "::ArrayW<::UnityW<::UnityEngine::Renderer>,::Array<::UnityW<::UnityEngine::Renderer>>*>", modifiers: "", def_value: None }]
+constexpr LOD(float_t  screenRelativeTransitionHeight, float_t  fadeTransitionWidth, ::ArrayW<::UnityW<::UnityEngine::Renderer>,::Array<::UnityW<::UnityEngine::Renderer>>*>  renderers) noexcept;
 
-  /// @brief Field screenRelativeTransitionHeight, offset: 0x0, size: 0x4, def value: None
-  float_t screenRelativeTransitionHeight;
+/// @brief Field screenRelativeTransitionHeight, offset: 0x0, size: 0x4, def value: None
+ float_t  screenRelativeTransitionHeight;
 
-  /// @brief Field fadeTransitionWidth, offset: 0x4, size: 0x4, def value: None
-  float_t fadeTransitionWidth;
+/// @brief Field fadeTransitionWidth, offset: 0x4, size: 0x4, def value: None
+ float_t  fadeTransitionWidth;
 
-  /// @brief Field renderers, offset: 0x8, size: 0x8, def value: None
-  ::ArrayW<::UnityW<::UnityEngine::Renderer>, ::Array<::UnityW<::UnityEngine::Renderer>>*> renderers;
+/// @brief Field renderers, offset: 0x8, size: 0x8, def value: None
+ ::ArrayW<::UnityW<::UnityEngine::Renderer>,::Array<::UnityW<::UnityEngine::Renderer>>*>  renderers;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x10};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::LOD, 0x10>, "Size mismatch!");
@@ -58,5 +57,5 @@ static_assert(offsetof(::UnityEngine::LOD, fadeTransitionWidth) == 0x4, "Offset 
 
 static_assert(offsetof(::UnityEngine::LOD, renderers) == 0x8, "Offset mismatch!");
 
-} // namespace UnityEngine
+} // namespace end def UnityEngine
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::LOD, "UnityEngine", "LOD");

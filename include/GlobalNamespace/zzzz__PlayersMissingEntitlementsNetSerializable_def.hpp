@@ -13,10 +13,12 @@ namespace LiteNetLib::Utils {
 class NetDataWriter;
 }
 namespace System::Collections::Generic {
-template <typename T> class IEnumerable_1;
+template<typename T>
+class IEnumerable_1;
 }
 namespace System::Collections::Generic {
-template <typename T> class List_1;
+template<typename T>
+class List_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -25,69 +27,68 @@ class PlayersMissingEntitlementsNetSerializable;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::PlayersMissingEntitlementsNetSerializable);
 // Type: ::PlayersMissingEntitlementsNetSerializable
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::PlayersMissingEntitlementsNetSerializable*
 class CORDL_TYPE PlayersMissingEntitlementsNetSerializable : public ::GlobalNamespace::PoolableSerializable {
 public:
-  // Declarations
-  /// @brief Field _playersWithoutEntitlements, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__playersWithoutEntitlements,
-                      put = __cordl_internal_set__playersWithoutEntitlements))::System::Collections::Generic::List_1<::StringW>* _playersWithoutEntitlements;
+// Declarations
+/// @brief Field _playersWithoutEntitlements, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get__playersWithoutEntitlements, put=__cordl_internal_set__playersWithoutEntitlements)) ::System::Collections::Generic::List_1<::StringW>*  _playersWithoutEntitlements;
 
-  __declspec(property(get = get_playersWithoutEntitlements))::System::Collections::Generic::List_1<::StringW>* playersWithoutEntitlements;
+ __declspec(property(get=get_playersWithoutEntitlements)) ::System::Collections::Generic::List_1<::StringW>*  playersWithoutEntitlements;
 
-  /// @brief Method Deserialize, addr 0x15179d0, size 0x118, virtual true, abstract: false, final false
-  inline void Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
+/// @brief Method Deserialize, addr 0x26d5898, size 0x114, virtual true, abstract: false, final false
+inline void Deserialize(::LiteNetLib::Utils::NetDataReader*  reader) ;
 
-  /// @brief Method Init, addr 0x15177d8, size 0x98, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::PlayersMissingEntitlementsNetSerializable* Init(::System::Collections::Generic::IEnumerable_1<::StringW>* playersWithoutEntitlements);
+/// @brief Method Init, addr 0x26d56a0, size 0x98, virtual false, abstract: false, final false
+inline ::GlobalNamespace::PlayersMissingEntitlementsNetSerializable* Init(::System::Collections::Generic::IEnumerable_1<::StringW>*  playersWithoutEntitlements) ;
 
-  static inline ::GlobalNamespace::PlayersMissingEntitlementsNetSerializable* New_ctor();
+static inline ::GlobalNamespace::PlayersMissingEntitlementsNetSerializable* New_ctor() ;
 
-  /// @brief Method Obtain, addr 0x15176d4, size 0x64, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::PlayersMissingEntitlementsNetSerializable* Obtain();
+/// @brief Method Obtain, addr 0x26d559c, size 0x64, virtual false, abstract: false, final false
+static inline ::GlobalNamespace::PlayersMissingEntitlementsNetSerializable* Obtain() ;
 
-  /// @brief Method Serialize, addr 0x1517870, size 0x160, virtual true, abstract: false, final false
-  inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
+/// @brief Method Serialize, addr 0x26d5738, size 0x160, virtual true, abstract: false, final false
+inline void Serialize(::LiteNetLib::Utils::NetDataWriter*  writer) ;
 
-  constexpr ::System::Collections::Generic::List_1<::StringW>*& __cordl_internal_get__playersWithoutEntitlements();
+constexpr ::System::Collections::Generic::List_1<::StringW>*& __cordl_internal_get__playersWithoutEntitlements() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& __cordl_internal_get__playersWithoutEntitlements() const;
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::StringW>*> const& __cordl_internal_get__playersWithoutEntitlements() const;
 
-  constexpr void __cordl_internal_set__playersWithoutEntitlements(::System::Collections::Generic::List_1<::StringW>* value);
+constexpr void __cordl_internal_set__playersWithoutEntitlements(::System::Collections::Generic::List_1<::StringW>*  value) ;
 
-  /// @brief Method .ctor, addr 0x1517738, size 0xa0, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x26d5600, size 0xa0, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_playersWithoutEntitlements, addr 0x15176cc, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::List_1<::StringW>* get_playersWithoutEntitlements();
+/// @brief Method get_playersWithoutEntitlements, addr 0x26d5594, size 0x8, virtual false, abstract: false, final false
+inline ::System::Collections::Generic::List_1<::StringW>* get_playersWithoutEntitlements() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PlayersMissingEntitlementsNetSerializable();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr PlayersMissingEntitlementsNetSerializable() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PlayersMissingEntitlementsNetSerializable", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  PlayersMissingEntitlementsNetSerializable(PlayersMissingEntitlementsNetSerializable&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PlayersMissingEntitlementsNetSerializable", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  PlayersMissingEntitlementsNetSerializable(PlayersMissingEntitlementsNetSerializable const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "PlayersMissingEntitlementsNetSerializable", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+PlayersMissingEntitlementsNetSerializable(PlayersMissingEntitlementsNetSerializable && ) = delete;
 
-  /// @brief Field _playersWithoutEntitlements, offset: 0x18, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::StringW>* ____playersWithoutEntitlements;
+// Ctor Parameters [CppParam { name: "", ty: "PlayersMissingEntitlementsNetSerializable", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+PlayersMissingEntitlementsNetSerializable(PlayersMissingEntitlementsNetSerializable const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _playersWithoutEntitlements, offset: 0x18, size: 0x8, def value: None
+ ::System::Collections::Generic::List_1<::StringW>*  ____playersWithoutEntitlements;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PlayersMissingEntitlementsNetSerializable, 0x20>, "Size mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::PlayersMissingEntitlementsNetSerializable, ____playersWithoutEntitlements) == 0x18, "Offset mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::PlayersMissingEntitlementsNetSerializable);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PlayersMissingEntitlementsNetSerializable*, "", "PlayersMissingEntitlementsNetSerializable");

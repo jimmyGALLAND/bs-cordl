@@ -28,114 +28,114 @@ class NoteJumpStartScaleUp;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::NoteJumpStartScaleUp);
 // Type: ::NoteJumpStartScaleUp
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::NoteJumpStartScaleUp*
 class CORDL_TYPE NoteJumpStartScaleUp : public ::UnityEngine::MonoBehaviour {
 public:
-  // Declarations
-  /// @brief Field _fullScaleJumpPart, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get__fullScaleJumpPart, put = __cordl_internal_set__fullScaleJumpPart)) float_t _fullScaleJumpPart;
+// Declarations
+/// @brief Field _fullScaleJumpPart, offset 0x20, size 0x4 
+ __declspec(property(get=__cordl_internal_get__fullScaleJumpPart, put=__cordl_internal_set__fullScaleJumpPart)) float_t  _fullScaleJumpPart;
 
-  /// @brief Field _noteController, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__noteController, put = __cordl_internal_set__noteController))::UnityW<::GlobalNamespace::NoteController> _noteController;
+/// @brief Field _noteController, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get__noteController, put=__cordl_internal_set__noteController)) ::UnityW<::GlobalNamespace::NoteController>  _noteController;
 
-  /// @brief Field _noteJump, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__noteJump, put = __cordl_internal_set__noteJump))::UnityW<::GlobalNamespace::NoteJump> _noteJump;
+/// @brief Field _noteJump, offset 0x38, size 0x8 
+ __declspec(property(get=__cordl_internal_get__noteJump, put=__cordl_internal_set__noteJump)) ::UnityW<::GlobalNamespace::NoteJump>  _noteJump;
 
-  /// @brief Field _targetTransform, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__targetTransform, put = __cordl_internal_set__targetTransform))::UnityW<::UnityEngine::Transform> _targetTransform;
+/// @brief Field _targetTransform, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get__targetTransform, put=__cordl_internal_set__targetTransform)) ::UnityW<::UnityEngine::Transform>  _targetTransform;
 
-  /// @brief Convert operator to "::GlobalNamespace::INoteControllerDidInitEvent"
-  constexpr operator ::GlobalNamespace::INoteControllerDidInitEvent*() noexcept;
+/// @brief Convert operator to "::GlobalNamespace::INoteControllerDidInitEvent"
+constexpr operator  ::GlobalNamespace::INoteControllerDidInitEvent*() noexcept;
 
-  /// @brief Method Awake, addr 0x264e93c, size 0xc4, virtual false, abstract: false, final false
-  inline void Awake();
+/// @brief Method Awake, addr 0x3a6600c, size 0xc4, virtual false, abstract: false, final false
+inline void Awake() ;
 
-  /// @brief Method HandleNoteControllerDidInit, addr 0x264ece4, size 0xd0, virtual true, abstract: false, final true
-  inline void HandleNoteControllerDidInit(::GlobalNamespace::NoteControllerBase* noteController);
+/// @brief Method HandleNoteControllerDidInit, addr 0x3a663ac, size 0xc8, virtual true, abstract: false, final true
+inline void HandleNoteControllerDidInit(::GlobalNamespace::NoteControllerBase*  noteController) ;
 
-  /// @brief Method HandleNoteJumpDidUpdateProgress, addr 0x264ece0, size 0x4, virtual false, abstract: false, final false
-  inline void HandleNoteJumpDidUpdateProgress(float_t progress);
+/// @brief Method HandleNoteJumpDidUpdateProgress, addr 0x3a663a8, size 0x4, virtual false, abstract: false, final false
+inline void HandleNoteJumpDidUpdateProgress(float_t  progress) ;
 
-  static inline ::GlobalNamespace::NoteJumpStartScaleUp* New_ctor();
+static inline ::GlobalNamespace::NoteJumpStartScaleUp* New_ctor() ;
 
-  /// @brief Method OnDestroy, addr 0x264eb58, size 0x188, virtual false, abstract: false, final false
-  inline void OnDestroy();
+/// @brief Method OnDestroy, addr 0x3a66224, size 0x184, virtual false, abstract: false, final false
+inline void OnDestroy() ;
 
-  /// @brief Method UpdateScale, addr 0x264ea00, size 0x158, virtual false, abstract: false, final false
-  inline void UpdateScale(float_t progress);
+/// @brief Method UpdateScale, addr 0x3a660d0, size 0x154, virtual false, abstract: false, final false
+inline void UpdateScale(float_t  progress) ;
 
-  constexpr float_t const& __cordl_internal_get__fullScaleJumpPart() const;
+constexpr float_t const& __cordl_internal_get__fullScaleJumpPart() const;
 
-  constexpr float_t& __cordl_internal_get__fullScaleJumpPart();
+constexpr float_t& __cordl_internal_get__fullScaleJumpPart() ;
 
-  constexpr ::UnityW<::GlobalNamespace::NoteController> const& __cordl_internal_get__noteController() const;
+constexpr ::UnityW<::GlobalNamespace::NoteController> const& __cordl_internal_get__noteController() const;
 
-  constexpr ::UnityW<::GlobalNamespace::NoteController>& __cordl_internal_get__noteController();
+constexpr ::UnityW<::GlobalNamespace::NoteController>& __cordl_internal_get__noteController() ;
 
-  constexpr ::UnityW<::GlobalNamespace::NoteJump> const& __cordl_internal_get__noteJump() const;
+constexpr ::UnityW<::GlobalNamespace::NoteJump> const& __cordl_internal_get__noteJump() const;
 
-  constexpr ::UnityW<::GlobalNamespace::NoteJump>& __cordl_internal_get__noteJump();
+constexpr ::UnityW<::GlobalNamespace::NoteJump>& __cordl_internal_get__noteJump() ;
 
-  constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__targetTransform() const;
+constexpr ::UnityW<::UnityEngine::Transform> const& __cordl_internal_get__targetTransform() const;
 
-  constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__targetTransform();
+constexpr ::UnityW<::UnityEngine::Transform>& __cordl_internal_get__targetTransform() ;
 
-  constexpr void __cordl_internal_set__fullScaleJumpPart(float_t value);
+constexpr void __cordl_internal_set__fullScaleJumpPart(float_t  value) ;
 
-  constexpr void __cordl_internal_set__noteController(::UnityW<::GlobalNamespace::NoteController> value);
+constexpr void __cordl_internal_set__noteController(::UnityW<::GlobalNamespace::NoteController>  value) ;
 
-  constexpr void __cordl_internal_set__noteJump(::UnityW<::GlobalNamespace::NoteJump> value);
+constexpr void __cordl_internal_set__noteJump(::UnityW<::GlobalNamespace::NoteJump>  value) ;
 
-  constexpr void __cordl_internal_set__targetTransform(::UnityW<::UnityEngine::Transform> value);
+constexpr void __cordl_internal_set__targetTransform(::UnityW<::UnityEngine::Transform>  value) ;
 
-  /// @brief Method .ctor, addr 0x264edb4, size 0x10, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x3a66474, size 0x10, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Convert to "::GlobalNamespace::INoteControllerDidInitEvent"
-  constexpr ::GlobalNamespace::INoteControllerDidInitEvent* i___GlobalNamespace__INoteControllerDidInitEvent() noexcept;
+/// @brief Convert to "::GlobalNamespace::INoteControllerDidInitEvent"
+constexpr ::GlobalNamespace::INoteControllerDidInitEvent* i___GlobalNamespace__INoteControllerDidInitEvent() noexcept;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NoteJumpStartScaleUp();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr NoteJumpStartScaleUp() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NoteJumpStartScaleUp", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  NoteJumpStartScaleUp(NoteJumpStartScaleUp&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NoteJumpStartScaleUp", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  NoteJumpStartScaleUp(NoteJumpStartScaleUp const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "NoteJumpStartScaleUp", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+NoteJumpStartScaleUp(NoteJumpStartScaleUp && ) = delete;
 
-  /// @brief Field _fullScaleJumpPart, offset: 0x18, size: 0x4, def value: None
-  float_t ____fullScaleJumpPart;
+// Ctor Parameters [CppParam { name: "", ty: "NoteJumpStartScaleUp", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+NoteJumpStartScaleUp(NoteJumpStartScaleUp const& ) = delete;
 
-  /// @brief Field _targetTransform, offset: 0x20, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::Transform> ____targetTransform;
+/// @brief Field _fullScaleJumpPart, offset: 0x20, size: 0x4, def value: None
+ float_t  ____fullScaleJumpPart;
 
-  /// @brief Field _noteController, offset: 0x28, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::NoteController> ____noteController;
+/// @brief Field _targetTransform, offset: 0x28, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::Transform>  ____targetTransform;
 
-  /// @brief Field _noteJump, offset: 0x30, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::NoteJump> ____noteJump;
+/// @brief Field _noteController, offset: 0x30, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::NoteController>  ____noteController;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _noteJump, offset: 0x38, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::NoteJump>  ____noteJump;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::NoteJumpStartScaleUp, 0x38>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::NoteJumpStartScaleUp, 0x40>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::NoteJumpStartScaleUp, ____fullScaleJumpPart) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::NoteJumpStartScaleUp, ____fullScaleJumpPart) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::NoteJumpStartScaleUp, ____targetTransform) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::NoteJumpStartScaleUp, ____targetTransform) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::NoteJumpStartScaleUp, ____noteController) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::NoteJumpStartScaleUp, ____noteController) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::NoteJumpStartScaleUp, ____noteJump) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::NoteJumpStartScaleUp, ____noteJump) == 0x38, "Offset mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::NoteJumpStartScaleUp);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::NoteJumpStartScaleUp*, "", "NoteJumpStartScaleUp");

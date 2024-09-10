@@ -35,84 +35,82 @@ class GeneralNames;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X509::GeneralNames);
 // Type: Org.BouncyCastle.Asn1.X509::GeneralNames
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::X509 {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Asn1.X509::GeneralNames*
 class CORDL_TYPE GeneralNames : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
-  // Declarations
-  /// @brief Field names, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_names,
-                      put = __cordl_internal_set_names))::ArrayW<::Org::BouncyCastle::Asn1::X509::GeneralName*, ::Array<::Org::BouncyCastle::Asn1::X509::GeneralName*>*> names;
+// Declarations
+/// @brief Field names, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_names, put=__cordl_internal_set_names)) ::ArrayW<::Org::BouncyCastle::Asn1::X509::GeneralName*,::Array<::Org::BouncyCastle::Asn1::X509::GeneralName*>*>  names;
 
-  /// @brief Method Copy, addr 0x1401488, size 0x78, virtual false, abstract: false, final false
-  static inline ::ArrayW<::Org::BouncyCastle::Asn1::X509::GeneralName*, ::Array<::Org::BouncyCastle::Asn1::X509::GeneralName*>*>
-  Copy(::ArrayW<::Org::BouncyCastle::Asn1::X509::GeneralName*, ::Array<::Org::BouncyCastle::Asn1::X509::GeneralName*>*> names);
+/// @brief Method Copy, addr 0x25bb5d4, size 0x78, virtual false, abstract: false, final false
+static inline ::ArrayW<::Org::BouncyCastle::Asn1::X509::GeneralName*,::Array<::Org::BouncyCastle::Asn1::X509::GeneralName*>*> Copy(::ArrayW<::Org::BouncyCastle::Asn1::X509::GeneralName*,::Array<::Org::BouncyCastle::Asn1::X509::GeneralName*>*>  names) ;
 
-  /// @brief Method FromExtensions, addr 0x14016c8, size 0x78, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Asn1::X509::GeneralNames* FromExtensions(::Org::BouncyCastle::Asn1::X509::X509Extensions* extensions, ::Org::BouncyCastle::Asn1::DerObjectIdentifier* extOid);
+/// @brief Method FromExtensions, addr 0x25bb814, size 0x78, virtual false, abstract: false, final false
+static inline ::Org::BouncyCastle::Asn1::X509::GeneralNames* FromExtensions(::Org::BouncyCastle::Asn1::X509::X509Extensions*  extensions, ::Org::BouncyCastle::Asn1::DerObjectIdentifier*  extOid) ;
 
-  /// @brief Method GetInstance, addr 0x13fe3bc, size 0x18, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Asn1::X509::GeneralNames* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
+/// @brief Method GetInstance, addr 0x25b8580, size 0x18, virtual false, abstract: false, final false
+static inline ::Org::BouncyCastle::Asn1::X509::GeneralNames* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject*  obj, bool  explicitly) ;
 
-  /// @brief Method GetInstance, addr 0x1401500, size 0xa4, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Asn1::X509::GeneralNames* GetInstance(::System::Object* obj);
+/// @brief Method GetInstance, addr 0x25bb64c, size 0xa4, virtual false, abstract: false, final false
+static inline ::Org::BouncyCastle::Asn1::X509::GeneralNames* GetInstance(::System::Object*  obj) ;
 
-  /// @brief Method GetNames, addr 0x1401818, size 0x8, virtual false, abstract: false, final false
-  inline ::ArrayW<::Org::BouncyCastle::Asn1::X509::GeneralName*, ::Array<::Org::BouncyCastle::Asn1::X509::GeneralName*>*> GetNames();
+/// @brief Method GetNames, addr 0x25bb964, size 0x8, virtual false, abstract: false, final false
+inline ::ArrayW<::Org::BouncyCastle::Asn1::X509::GeneralName*,::Array<::Org::BouncyCastle::Asn1::X509::GeneralName*>*> GetNames() ;
 
-  static inline ::Org::BouncyCastle::Asn1::X509::GeneralNames* New_ctor(::Org::BouncyCastle::Asn1::X509::GeneralName* name);
+static inline ::Org::BouncyCastle::Asn1::X509::GeneralNames* New_ctor(::Org::BouncyCastle::Asn1::X509::GeneralName*  name) ;
 
-  static inline ::Org::BouncyCastle::Asn1::X509::GeneralNames* New_ctor(::ArrayW<::Org::BouncyCastle::Asn1::X509::GeneralName*, ::Array<::Org::BouncyCastle::Asn1::X509::GeneralName*>*> names);
+static inline ::Org::BouncyCastle::Asn1::X509::GeneralNames* New_ctor(::ArrayW<::Org::BouncyCastle::Asn1::X509::GeneralName*,::Array<::Org::BouncyCastle::Asn1::X509::GeneralName*>*>  names) ;
 
-  static inline ::Org::BouncyCastle::Asn1::X509::GeneralNames* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
+static inline ::Org::BouncyCastle::Asn1::X509::GeneralNames* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence*  seq) ;
 
-  /// @brief Method ToAsn1Object, addr 0x1401820, size 0x68, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
+/// @brief Method ToAsn1Object, addr 0x25bb96c, size 0x60, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object() ;
 
-  /// @brief Method ToString, addr 0x1401888, size 0x15c, virtual true, abstract: false, final false
-  inline ::StringW ToString();
+/// @brief Method ToString, addr 0x25bb9cc, size 0x15c, virtual true, abstract: false, final false
+inline ::StringW ToString() ;
 
-  constexpr ::ArrayW<::Org::BouncyCastle::Asn1::X509::GeneralName*, ::Array<::Org::BouncyCastle::Asn1::X509::GeneralName*>*> const& __cordl_internal_get_names() const;
+constexpr ::ArrayW<::Org::BouncyCastle::Asn1::X509::GeneralName*,::Array<::Org::BouncyCastle::Asn1::X509::GeneralName*>*> const& __cordl_internal_get_names() const;
 
-  constexpr ::ArrayW<::Org::BouncyCastle::Asn1::X509::GeneralName*, ::Array<::Org::BouncyCastle::Asn1::X509::GeneralName*>*>& __cordl_internal_get_names();
+constexpr ::ArrayW<::Org::BouncyCastle::Asn1::X509::GeneralName*,::Array<::Org::BouncyCastle::Asn1::X509::GeneralName*>*>& __cordl_internal_get_names() ;
 
-  constexpr void __cordl_internal_set_names(::ArrayW<::Org::BouncyCastle::Asn1::X509::GeneralName*, ::Array<::Org::BouncyCastle::Asn1::X509::GeneralName*>*> value);
+constexpr void __cordl_internal_set_names(::ArrayW<::Org::BouncyCastle::Asn1::X509::GeneralName*,::Array<::Org::BouncyCastle::Asn1::X509::GeneralName*>*>  value) ;
 
-  /// @brief Method .ctor, addr 0x1401740, size 0xa8, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Asn1::X509::GeneralName* name);
+/// @brief Method .ctor, addr 0x25bb88c, size 0xa8, virtual false, abstract: false, final false
+inline void _ctor(::Org::BouncyCastle::Asn1::X509::GeneralName*  name) ;
 
-  /// @brief Method .ctor, addr 0x14017e8, size 0x30, virtual false, abstract: false, final false
-  inline void _ctor(::ArrayW<::Org::BouncyCastle::Asn1::X509::GeneralName*, ::Array<::Org::BouncyCastle::Asn1::X509::GeneralName*>*> names);
+/// @brief Method .ctor, addr 0x25bb934, size 0x30, virtual false, abstract: false, final false
+inline void _ctor(::ArrayW<::Org::BouncyCastle::Asn1::X509::GeneralName*,::Array<::Org::BouncyCastle::Asn1::X509::GeneralName*>*>  names) ;
 
-  /// @brief Method .ctor, addr 0x14015a4, size 0x124, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
+/// @brief Method .ctor, addr 0x25bb6f0, size 0x124, virtual false, abstract: false, final false
+inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence*  seq) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr GeneralNames();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr GeneralNames() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GeneralNames", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  GeneralNames(GeneralNames&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GeneralNames", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  GeneralNames(GeneralNames const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "GeneralNames", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+GeneralNames(GeneralNames && ) = delete;
 
-  /// @brief Field names, offset: 0x10, size: 0x8, def value: None
-  ::ArrayW<::Org::BouncyCastle::Asn1::X509::GeneralName*, ::Array<::Org::BouncyCastle::Asn1::X509::GeneralName*>*> ___names;
+// Ctor Parameters [CppParam { name: "", ty: "GeneralNames", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+GeneralNames(GeneralNames const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field names, offset: 0x10, size: 0x8, def value: None
+ ::ArrayW<::Org::BouncyCastle::Asn1::X509::GeneralName*,::Array<::Org::BouncyCastle::Asn1::X509::GeneralName*>*>  ___names;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::X509::GeneralNames, 0x18>, "Size mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Asn1::X509::GeneralNames, ___names) == 0x10, "Offset mismatch!");
 
-} // namespace Org::BouncyCastle::Asn1::X509
+} // namespace end def Org::BouncyCastle::Asn1::X509
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::X509::GeneralNames);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::X509::GeneralNames*, "Org.BouncyCastle.Asn1.X509", "GeneralNames");

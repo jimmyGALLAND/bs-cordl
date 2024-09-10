@@ -10,10 +10,12 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(OVRPhysicsRaycaster)
 namespace System::Collections::Generic {
-template <typename T> class List_1;
+template<typename T>
+class List_1;
 }
 namespace System {
-template <typename T> class Comparison_1;
+template<typename T>
+class Comparison_1;
 }
 namespace UnityEngine::EventSystems {
 class PointerEventData;
@@ -50,169 +52,168 @@ class __OVRPhysicsRaycaster____c;
 MARK_REF_PTR_T(::UnityEngine::EventSystems::OVRPhysicsRaycaster);
 MARK_REF_PTR_T(::UnityEngine::EventSystems::__OVRPhysicsRaycaster____c);
 // Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::EventSystems {
 // Is value type: false
 // CS Name: ::OVRPhysicsRaycaster::<>c*
 class CORDL_TYPE __OVRPhysicsRaycaster____c : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9))::UnityEngine::EventSystems::__OVRPhysicsRaycaster____c* __9;
+// Declarations
+/// @brief Field <>9, offset 0xffffffff, size 0x8 
+static __declspec(property(get=getStaticF___9, put=setStaticF___9)) ::UnityEngine::EventSystems::__OVRPhysicsRaycaster____c*  __9;
 
-  /// @brief Field <>9__15_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__15_0, put = setStaticF___9__15_0))::System::Comparison_1<::UnityEngine::RaycastHit>* __9__15_0;
+/// @brief Field <>9__15_0, offset 0xffffffff, size 0x8 
+static __declspec(property(get=getStaticF___9__15_0, put=setStaticF___9__15_0)) ::System::Comparison_1<::UnityEngine::RaycastHit>*  __9__15_0;
 
-  /// @brief Field <>9__16_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__16_0, put = setStaticF___9__16_0))::System::Comparison_1<::UnityEngine::RaycastHit>* __9__16_0;
+/// @brief Field <>9__16_0, offset 0xffffffff, size 0x8 
+static __declspec(property(get=getStaticF___9__16_0, put=setStaticF___9__16_0)) ::System::Comparison_1<::UnityEngine::RaycastHit>*  __9__16_0;
 
-  static inline ::UnityEngine::EventSystems::__OVRPhysicsRaycaster____c* New_ctor();
+static inline ::UnityEngine::EventSystems::__OVRPhysicsRaycaster____c* New_ctor() ;
 
-  /// @brief Method <Raycast>b__15_0, addr 0x2c052fc, size 0x40, virtual false, abstract: false, final false
-  inline int32_t _Raycast_b__15_0(::UnityEngine::RaycastHit r1, ::UnityEngine::RaycastHit r2);
+/// @brief Method <Raycast>b__15_0, addr 0x3febcd0, size 0x40, virtual false, abstract: false, final false
+inline int32_t _Raycast_b__15_0(::UnityEngine::RaycastHit  r1, ::UnityEngine::RaycastHit  r2) ;
 
-  /// @brief Method <Spherecast>b__16_0, addr 0x2c0533c, size 0x40, virtual false, abstract: false, final false
-  inline int32_t _Spherecast_b__16_0(::UnityEngine::RaycastHit r1, ::UnityEngine::RaycastHit r2);
+/// @brief Method <Spherecast>b__16_0, addr 0x3febd10, size 0x40, virtual false, abstract: false, final false
+inline int32_t _Spherecast_b__16_0(::UnityEngine::RaycastHit  r1, ::UnityEngine::RaycastHit  r2) ;
 
-  /// @brief Method .ctor, addr 0x2c052f4, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x3febcc8, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  static inline ::UnityEngine::EventSystems::__OVRPhysicsRaycaster____c* getStaticF___9();
+static inline ::UnityEngine::EventSystems::__OVRPhysicsRaycaster____c* getStaticF___9() ;
 
-  static inline ::System::Comparison_1<::UnityEngine::RaycastHit>* getStaticF___9__15_0();
+static inline ::System::Comparison_1<::UnityEngine::RaycastHit>* getStaticF___9__15_0() ;
 
-  static inline ::System::Comparison_1<::UnityEngine::RaycastHit>* getStaticF___9__16_0();
+static inline ::System::Comparison_1<::UnityEngine::RaycastHit>* getStaticF___9__16_0() ;
 
-  static inline void setStaticF___9(::UnityEngine::EventSystems::__OVRPhysicsRaycaster____c* value);
+static inline void setStaticF___9(::UnityEngine::EventSystems::__OVRPhysicsRaycaster____c*  value) ;
 
-  static inline void setStaticF___9__15_0(::System::Comparison_1<::UnityEngine::RaycastHit>* value);
+static inline void setStaticF___9__15_0(::System::Comparison_1<::UnityEngine::RaycastHit>*  value) ;
 
-  static inline void setStaticF___9__16_0(::System::Comparison_1<::UnityEngine::RaycastHit>* value);
+static inline void setStaticF___9__16_0(::System::Comparison_1<::UnityEngine::RaycastHit>*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __OVRPhysicsRaycaster____c();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __OVRPhysicsRaycaster____c() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__OVRPhysicsRaycaster____c", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __OVRPhysicsRaycaster____c(__OVRPhysicsRaycaster____c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__OVRPhysicsRaycaster____c", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __OVRPhysicsRaycaster____c(__OVRPhysicsRaycaster____c const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__OVRPhysicsRaycaster____c", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__OVRPhysicsRaycaster____c(__OVRPhysicsRaycaster____c && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "__OVRPhysicsRaycaster____c", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__OVRPhysicsRaycaster____c(__OVRPhysicsRaycaster____c const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::EventSystems::__OVRPhysicsRaycaster____c, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine::EventSystems
+} // namespace end def UnityEngine::EventSystems
 // Type: UnityEngine.EventSystems::OVRPhysicsRaycaster
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::EventSystems {
 // Is value type: false
 // CS Name: ::UnityEngine.EventSystems::OVRPhysicsRaycaster*
 class CORDL_TYPE OVRPhysicsRaycaster : public ::UnityEngine::EventSystems::BaseRaycaster {
 public:
-  // Declarations
-  using __c = ::UnityEngine::EventSystems::__OVRPhysicsRaycaster____c;
+// Declarations
+using __c = ::UnityEngine::EventSystems::__OVRPhysicsRaycaster____c;
 
-  __declspec(property(get = get_depth)) int32_t depth;
+ __declspec(property(get=get_depth)) int32_t  depth;
 
-  __declspec(property(get = get_eventCamera))::UnityW<::UnityEngine::Camera> eventCamera;
+ __declspec(property(get=get_eventCamera)) ::UnityW<::UnityEngine::Camera>  eventCamera;
 
-  __declspec(property(get = get_eventMask, put = set_eventMask))::UnityEngine::LayerMask eventMask;
+ __declspec(property(get=get_eventMask, put=set_eventMask)) ::UnityEngine::LayerMask  eventMask;
 
-  __declspec(property(get = get_finalEventMask)) int32_t finalEventMask;
+ __declspec(property(get=get_finalEventMask)) int32_t  finalEventMask;
 
-  /// @brief Field m_EventMask, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_EventMask, put = __cordl_internal_set_m_EventMask))::UnityEngine::LayerMask m_EventMask;
+/// @brief Field m_EventMask, offset 0x28, size 0x4 
+ __declspec(property(get=__cordl_internal_get_m_EventMask, put=__cordl_internal_set_m_EventMask)) ::UnityEngine::LayerMask  m_EventMask;
 
-  /// @brief Field sortOrder, offset 0x24, size 0x4
-  __declspec(property(get = __cordl_internal_get_sortOrder, put = __cordl_internal_set_sortOrder)) int32_t sortOrder;
+/// @brief Field sortOrder, offset 0x2c, size 0x4 
+ __declspec(property(get=__cordl_internal_get_sortOrder, put=__cordl_internal_set_sortOrder)) int32_t  sortOrder;
 
-  __declspec(property(get = get_sortOrderPriority)) int32_t sortOrderPriority;
+ __declspec(property(get=get_sortOrderPriority)) int32_t  sortOrderPriority;
 
-  /// @brief Method GetScreenPos, addr 0x2c03f7c, size 0x50, virtual false, abstract: false, final false
-  inline ::UnityEngine::Vector2 GetScreenPos(::UnityEngine::Vector3 worldPosition);
+/// @brief Method GetScreenPos, addr 0x3fea938, size 0x50, virtual false, abstract: false, final false
+inline ::UnityEngine::Vector2 GetScreenPos(::UnityEngine::Vector3  worldPosition) ;
 
-  static inline ::UnityEngine::EventSystems::OVRPhysicsRaycaster* New_ctor();
+static inline ::UnityEngine::EventSystems::OVRPhysicsRaycaster* New_ctor() ;
 
-  /// @brief Method Raycast, addr 0x2c04dd8, size 0x430, virtual true, abstract: false, final false
-  inline void Raycast(::UnityEngine::EventSystems::PointerEventData* eventData, ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>* resultAppendList);
+/// @brief Method Raycast, addr 0x3feb7a4, size 0x440, virtual true, abstract: false, final false
+inline void Raycast(::UnityEngine::EventSystems::PointerEventData*  eventData, ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>*  resultAppendList) ;
 
-  /// @brief Method Spherecast, addr 0x2c03b44, size 0x438, virtual false, abstract: false, final false
-  inline void Spherecast(::UnityEngine::EventSystems::PointerEventData* eventData, ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>* resultAppendList,
-                         float_t radius);
+/// @brief Method Spherecast, addr 0x3fea4f0, size 0x448, virtual false, abstract: false, final false
+inline void Spherecast(::UnityEngine::EventSystems::PointerEventData*  eventData, ::System::Collections::Generic::List_1<::UnityEngine::EventSystems::RaycastResult>*  resultAppendList, float_t  radius) ;
 
-  constexpr ::UnityEngine::LayerMask const& __cordl_internal_get_m_EventMask() const;
+constexpr ::UnityEngine::LayerMask const& __cordl_internal_get_m_EventMask() const;
 
-  constexpr ::UnityEngine::LayerMask& __cordl_internal_get_m_EventMask();
+constexpr ::UnityEngine::LayerMask& __cordl_internal_get_m_EventMask() ;
 
-  constexpr int32_t const& __cordl_internal_get_sortOrder() const;
+constexpr int32_t const& __cordl_internal_get_sortOrder() const;
 
-  constexpr int32_t& __cordl_internal_get_sortOrder();
+constexpr int32_t& __cordl_internal_get_sortOrder() ;
 
-  constexpr void __cordl_internal_set_m_EventMask(::UnityEngine::LayerMask value);
+constexpr void __cordl_internal_set_m_EventMask(::UnityEngine::LayerMask  value) ;
 
-  constexpr void __cordl_internal_set_sortOrder(int32_t value);
+constexpr void __cordl_internal_set_sortOrder(int32_t  value) ;
 
-  /// @brief Method .ctor, addr 0x2c04bb8, size 0x28, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x3feb584, size 0x28, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_depth, addr 0x2c04c38, size 0xc4, virtual true, abstract: false, final false
-  inline int32_t get_depth();
+/// @brief Method get_depth, addr 0x3feb604, size 0xc4, virtual true, abstract: false, final false
+inline int32_t get_depth() ;
 
-  /// @brief Method get_eventCamera, addr 0x2c04be0, size 0x58, virtual true, abstract: false, final false
-  inline ::UnityW<::UnityEngine::Camera> get_eventCamera();
+/// @brief Method get_eventCamera, addr 0x3feb5ac, size 0x58, virtual true, abstract: false, final false
+inline ::UnityW<::UnityEngine::Camera> get_eventCamera() ;
 
-  /// @brief Method get_eventMask, addr 0x2c04dc8, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::LayerMask get_eventMask();
+/// @brief Method get_eventMask, addr 0x3feb794, size 0x8, virtual false, abstract: false, final false
+inline ::UnityEngine::LayerMask get_eventMask() ;
 
-  /// @brief Method get_finalEventMask, addr 0x2c04d04, size 0xc4, virtual false, abstract: false, final false
-  inline int32_t get_finalEventMask();
+/// @brief Method get_finalEventMask, addr 0x3feb6d0, size 0xc4, virtual false, abstract: false, final false
+inline int32_t get_finalEventMask() ;
 
-  /// @brief Method get_sortOrderPriority, addr 0x2c04cfc, size 0x8, virtual true, abstract: false, final false
-  inline int32_t get_sortOrderPriority();
+/// @brief Method get_sortOrderPriority, addr 0x3feb6c8, size 0x8, virtual true, abstract: false, final false
+inline int32_t get_sortOrderPriority() ;
 
-  /// @brief Method set_eventMask, addr 0x2c04dd0, size 0x8, virtual false, abstract: false, final false
-  inline void set_eventMask(::UnityEngine::LayerMask value);
+/// @brief Method set_eventMask, addr 0x3feb79c, size 0x8, virtual false, abstract: false, final false
+inline void set_eventMask(::UnityEngine::LayerMask  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr OVRPhysicsRaycaster();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr OVRPhysicsRaycaster() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OVRPhysicsRaycaster", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  OVRPhysicsRaycaster(OVRPhysicsRaycaster&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OVRPhysicsRaycaster", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  OVRPhysicsRaycaster(OVRPhysicsRaycaster const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "OVRPhysicsRaycaster", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+OVRPhysicsRaycaster(OVRPhysicsRaycaster && ) = delete;
 
-  /// @brief Field m_EventMask, offset: 0x20, size: 0x4, def value: None
-  ::UnityEngine::LayerMask ___m_EventMask;
+// Ctor Parameters [CppParam { name: "", ty: "OVRPhysicsRaycaster", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+OVRPhysicsRaycaster(OVRPhysicsRaycaster const& ) = delete;
 
-  /// @brief Field sortOrder, offset: 0x24, size: 0x4, def value: None
-  int32_t ___sortOrder;
+/// @brief Field m_EventMask, offset: 0x28, size: 0x4, def value: None
+ ::UnityEngine::LayerMask  ___m_EventMask;
 
-  /// @brief Field kNoEventMaskSet offset 0xffffffff size 0x4
-  static constexpr int32_t kNoEventMaskSet{ static_cast<int32_t>(0xffffffff) };
+/// @brief Field sortOrder, offset: 0x2c, size: 0x4, def value: None
+ int32_t  ___sortOrder;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field kNoEventMaskSet offset 0xffffffff size 0x4
+static constexpr int32_t  kNoEventMaskSet{static_cast<int32_t>(0xffffffff)};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::EventSystems::OVRPhysicsRaycaster, 0x28>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::EventSystems::OVRPhysicsRaycaster, 0x30>, "Size mismatch!");
 
-static_assert(offsetof(::UnityEngine::EventSystems::OVRPhysicsRaycaster, ___m_EventMask) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::EventSystems::OVRPhysicsRaycaster, ___m_EventMask) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::UnityEngine::EventSystems::OVRPhysicsRaycaster, ___sortOrder) == 0x24, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::EventSystems::OVRPhysicsRaycaster, ___sortOrder) == 0x2c, "Offset mismatch!");
 
-} // namespace UnityEngine::EventSystems
+} // namespace end def UnityEngine::EventSystems
 NEED_NO_BOX(::UnityEngine::EventSystems::OVRPhysicsRaycaster);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::EventSystems::OVRPhysicsRaycaster*, "UnityEngine.EventSystems", "OVRPhysicsRaycaster");
 NEED_NO_BOX(::UnityEngine::EventSystems::__OVRPhysicsRaycaster____c);

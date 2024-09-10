@@ -20,917 +20,906 @@
 #include "UnityEngine/ProBuilder/zzzz__Vertex_def.hpp"
 #include "UnityEngine/ProBuilder/zzzz__WingedEdge_def.hpp"
 //  Writing Method size for method: ::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c._ctor
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::*)()>(
-    &::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::*)()>(&::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3318b2c;
+  constexpr static std::size_t addrs = 0x46dba28;
 
   inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>::get(), ".ctor",
-                                                 std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c._Connect_b__0_0
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>* (
-    ::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::*)(::UnityEngine::ProBuilder::Face*)>(&::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::_Connect_b__0_0)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>* (::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::*)(::UnityEngine::ProBuilder::Face*)>(&::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::_Connect_b__0_0)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3318b34;
+  constexpr static std::size_t addrs = 0x46dba30;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>::get(), "<Connect>b__0_0", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::Face*>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>::get(),
+                        "<Connect>b__0_0",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::Face*>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c._Connect_b__2_1
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::*)(::UnityEngine::ProBuilder::Face*)>(
-    &::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::_Connect_b__2_1)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::*)(::UnityEngine::ProBuilder::Face*)>(&::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::_Connect_b__2_1)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3318b4c;
+  constexpr static std::size_t addrs = 0x46dba48;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>::get(), "<Connect>b__2_1", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::Face*>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>::get(),
+                        "<Connect>b__2_1",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::Face*>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c._Connect_b__2_2
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::UnityEngine::ProBuilder::FaceRebuildData* (::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::*)(::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*)>(
-        &::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::_Connect_b__2_2)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::FaceRebuildData* (::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::*)(::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*)>(&::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::_Connect_b__2_2)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3318b64;
+  constexpr static std::size_t addrs = 0x46dba60;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>::get(), "<Connect>b__2_2", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>::get(),
+                        "<Connect>b__2_2",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c._Connect_b__3_0
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::*)(::UnityEngine::ProBuilder::Face*)>(
-    &::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::_Connect_b__3_0)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::*)(::UnityEngine::ProBuilder::Face*)>(&::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::_Connect_b__3_0)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3318b7c;
+  constexpr static std::size_t addrs = 0x46dba78;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>::get(), "<Connect>b__3_0", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::Face*>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>::get(),
+                        "<Connect>b__3_0",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::Face*>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c._Connect_b__3_1
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<
-    static_cast<::UnityEngine::ProBuilder::FaceRebuildData* (::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::*)(::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*)>(
-        &::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::_Connect_b__3_1)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::FaceRebuildData* (::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::*)(::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*)>(&::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::_Connect_b__3_1)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3318b94;
+  constexpr static std::size_t addrs = 0x46dba90;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>::get(), "<Connect>b__3_1", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>::get(),
+                        "<Connect>b__3_1",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c._Connect_b__3_2
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>* (
-    ::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::*)(::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*)>(
-    &::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::_Connect_b__3_2)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>* (::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::*)(::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*)>(&::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::_Connect_b__3_2)> {
   constexpr static std::size_t size = 0x28;
-  constexpr static std::size_t addrs = 0x3318bac;
+  constexpr static std::size_t addrs = 0x46dbaa8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>::get(), "<Connect>b__3_2", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>::get(),
+                        "<Connect>b__3_2",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c._Connect_b__3_4
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::Edge (::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::*)(
-    ::UnityEngine::ProBuilder::EdgeLookup)>(&::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::_Connect_b__3_4)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::Edge (::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::*)(::UnityEngine::ProBuilder::EdgeLookup)>(&::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::_Connect_b__3_4)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3318bd4;
+  constexpr static std::size_t addrs = 0x46dbad0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>::get(), "<Connect>b__3_4", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::EdgeLookup>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>::get(),
+                        "<Connect>b__3_4",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::EdgeLookup>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c._ConnectEdgesInFace_b__5_0
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>* (
-    ::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::*)(int32_t)>(&::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::_ConnectEdgesInFace_b__5_0)> {
-  constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3318bdc;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>* (::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::*)(int32_t)>(&::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::_ConnectEdgesInFace_b__5_0)> {
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x46dbad8;
 
   inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>::get(), "<ConnectEdgesInFace>b__5_0",
-                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>::get(),
+                        "<ConnectEdgesInFace>b__5_0",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c._ConnectEdgesInFace_b__5_1
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<int32_t>* (
-    ::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::*)(int32_t)>(&::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::_ConnectEdgesInFace_b__5_1)> {
-  constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3318c4c;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<int32_t>* (::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::*)(int32_t)>(&::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::_ConnectEdgesInFace_b__5_1)> {
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x46dbb40;
 
   inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>::get(), "<ConnectEdgesInFace>b__5_1",
-                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>::get(),
+                        "<ConnectEdgesInFace>b__5_1",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c._ConnectEdgesInFace_b__5_2
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::Edge (::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::*)(
-    ::UnityEngine::ProBuilder::WingedEdge*)>(&::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::_ConnectEdgesInFace_b__5_2)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::Edge (::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::*)(::UnityEngine::ProBuilder::WingedEdge*)>(&::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::_ConnectEdgesInFace_b__5_2)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3318cbc;
+  constexpr static std::size_t addrs = 0x46dbba8;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>::get(), "<ConnectEdgesInFace>b__5_2",
-        std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::WingedEdge*>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>::get(),
+                        "<ConnectEdgesInFace>b__5_2",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::WingedEdge*>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c._InsertVertices_b__6_0
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::Edge (::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::*)(
-    ::UnityEngine::ProBuilder::WingedEdge*)>(&::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::_InsertVertices_b__6_0)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::Edge (::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::*)(::UnityEngine::ProBuilder::WingedEdge*)>(&::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::_InsertVertices_b__6_0)> {
   constexpr static std::size_t size = 0x18;
-  constexpr static std::size_t addrs = 0x3318cd4;
+  constexpr static std::size_t addrs = 0x46dbbc0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>::get(), "<InsertVertices>b__6_0",
-        std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::WingedEdge*>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>::get(),
+                        "<InsertVertices>b__6_0",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::WingedEdge*>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c._ConnectIndexesPerFace_b__8_0
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>* (
-    ::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::*)(int32_t)>(&::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::_ConnectIndexesPerFace_b__8_0)> {
-  constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3318cec;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>* (::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::*)(int32_t)>(&::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::_ConnectIndexesPerFace_b__8_0)> {
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x46dbbd8;
 
   inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>::get(), "<ConnectIndexesPerFace>b__8_0",
-                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>::get(),
+                        "<ConnectIndexesPerFace>b__8_0",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c._ConnectIndexesPerFace_b__8_1
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<int32_t>* (
-    ::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::*)(int32_t)>(&::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::_ConnectIndexesPerFace_b__8_1)> {
-  constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3318d5c;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<int32_t>* (::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::*)(int32_t)>(&::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::_ConnectIndexesPerFace_b__8_1)> {
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x46dbc40;
 
   inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>::get(), "<ConnectIndexesPerFace>b__8_1",
-                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>::get(),
+                        "<ConnectIndexesPerFace>b__8_1",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c._ConnectIndexesPerFace_b__8_2
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<int32_t>* (
-    ::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::*)(int32_t)>(&::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::_ConnectIndexesPerFace_b__8_2)> {
-  constexpr static std::size_t size = 0x70;
-  constexpr static std::size_t addrs = 0x3318dcc;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<int32_t>* (::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::*)(int32_t)>(&::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::_ConnectIndexesPerFace_b__8_2)> {
+  constexpr static std::size_t size = 0x68;
+  constexpr static std::size_t addrs = 0x46dbca8;
 
   inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>::get(), "<ConnectIndexesPerFace>b__8_2",
-                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>::get(),
+                        "<ConnectIndexesPerFace>b__8_2",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
+                    )));
     return ___internal_method;
   }
 };
-inline void UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::setStaticF___9(::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c* value) {
-  ::cordl_internals::setStaticField<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*, "<>9",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>::get>(
-      std::forward<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>(value));
+inline void UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::setStaticF___9(::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*  value)  {
+::cordl_internals::setStaticField<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>::get>(std::forward<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>(value));
 }
-inline ::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c* UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::getStaticF___9() {
-  return ::cordl_internals::getStaticField<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*, "<>9",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>::get>();
+inline ::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c* UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::getStaticF___9()  {
+return ::cordl_internals::getStaticField<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>::get>();
 }
-inline void UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::setStaticF___9__0_0(
-    ::System::Func_2<::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>*>* value) {
-  ::cordl_internals::setStaticField<::System::Func_2<::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>*>*, "<>9__0_0",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>::get>(
-      std::forward<::System::Func_2<::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>*>*>(value));
+inline void UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::setStaticF___9__0_0(::System::Func_2<::UnityEngine::ProBuilder::Face*,::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>*>*  value)  {
+::cordl_internals::setStaticField<::System::Func_2<::UnityEngine::ProBuilder::Face*,::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>*>*, "<>9__0_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>::get>(std::forward<::System::Func_2<::UnityEngine::ProBuilder::Face*,::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>*>*>(value));
 }
-inline ::System::Func_2<::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>*>*
-UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::getStaticF___9__0_0() {
-  return ::cordl_internals::getStaticField<::System::Func_2<::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>*>*, "<>9__0_0",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>::get>();
+inline ::System::Func_2<::UnityEngine::ProBuilder::Face*,::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>*>* UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::getStaticF___9__0_0()  {
+return ::cordl_internals::getStaticField<::System::Func_2<::UnityEngine::ProBuilder::Face*,::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>*>*, "<>9__0_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>::get>();
 }
-inline void UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::setStaticF___9__2_1(::System::Func_2<::UnityEngine::ProBuilder::Face*, int32_t>* value) {
-  ::cordl_internals::setStaticField<::System::Func_2<::UnityEngine::ProBuilder::Face*, int32_t>*, "<>9__2_1",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>::get>(
-      std::forward<::System::Func_2<::UnityEngine::ProBuilder::Face*, int32_t>*>(value));
+inline void UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::setStaticF___9__2_1(::System::Func_2<::UnityEngine::ProBuilder::Face*,int32_t>*  value)  {
+::cordl_internals::setStaticField<::System::Func_2<::UnityEngine::ProBuilder::Face*,int32_t>*, "<>9__2_1", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>::get>(std::forward<::System::Func_2<::UnityEngine::ProBuilder::Face*,int32_t>*>(value));
 }
-inline ::System::Func_2<::UnityEngine::ProBuilder::Face*, int32_t>* UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::getStaticF___9__2_1() {
-  return ::cordl_internals::getStaticField<::System::Func_2<::UnityEngine::ProBuilder::Face*, int32_t>*, "<>9__2_1",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>::get>();
+inline ::System::Func_2<::UnityEngine::ProBuilder::Face*,int32_t>* UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::getStaticF___9__2_1()  {
+return ::cordl_internals::getStaticField<::System::Func_2<::UnityEngine::ProBuilder::Face*,int32_t>*, "<>9__2_1", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>::get>();
 }
-inline void UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::setStaticF___9__2_2(
-    ::System::Func_2<::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*, ::UnityEngine::ProBuilder::FaceRebuildData*>* value) {
-  ::cordl_internals::setStaticField<::System::Func_2<::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*, ::UnityEngine::ProBuilder::FaceRebuildData*>*, "<>9__2_2",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>::get>(
-      std::forward<::System::Func_2<::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*, ::UnityEngine::ProBuilder::FaceRebuildData*>*>(value));
+inline void UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::setStaticF___9__2_2(::System::Func_2<::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*,::UnityEngine::ProBuilder::FaceRebuildData*>*  value)  {
+::cordl_internals::setStaticField<::System::Func_2<::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*,::UnityEngine::ProBuilder::FaceRebuildData*>*, "<>9__2_2", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>::get>(std::forward<::System::Func_2<::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*,::UnityEngine::ProBuilder::FaceRebuildData*>*>(value));
 }
-inline ::System::Func_2<::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*, ::UnityEngine::ProBuilder::FaceRebuildData*>*
-UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::getStaticF___9__2_2() {
-  return ::cordl_internals::getStaticField<::System::Func_2<::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*, ::UnityEngine::ProBuilder::FaceRebuildData*>*, "<>9__2_2",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>::get>();
+inline ::System::Func_2<::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*,::UnityEngine::ProBuilder::FaceRebuildData*>* UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::getStaticF___9__2_2()  {
+return ::cordl_internals::getStaticField<::System::Func_2<::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*,::UnityEngine::ProBuilder::FaceRebuildData*>*, "<>9__2_2", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>::get>();
 }
-inline void UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::setStaticF___9__3_0(::System::Func_2<::UnityEngine::ProBuilder::Face*, int32_t>* value) {
-  ::cordl_internals::setStaticField<::System::Func_2<::UnityEngine::ProBuilder::Face*, int32_t>*, "<>9__3_0",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>::get>(
-      std::forward<::System::Func_2<::UnityEngine::ProBuilder::Face*, int32_t>*>(value));
+inline void UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::setStaticF___9__3_0(::System::Func_2<::UnityEngine::ProBuilder::Face*,int32_t>*  value)  {
+::cordl_internals::setStaticField<::System::Func_2<::UnityEngine::ProBuilder::Face*,int32_t>*, "<>9__3_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>::get>(std::forward<::System::Func_2<::UnityEngine::ProBuilder::Face*,int32_t>*>(value));
 }
-inline ::System::Func_2<::UnityEngine::ProBuilder::Face*, int32_t>* UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::getStaticF___9__3_0() {
-  return ::cordl_internals::getStaticField<::System::Func_2<::UnityEngine::ProBuilder::Face*, int32_t>*, "<>9__3_0",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>::get>();
+inline ::System::Func_2<::UnityEngine::ProBuilder::Face*,int32_t>* UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::getStaticF___9__3_0()  {
+return ::cordl_internals::getStaticField<::System::Func_2<::UnityEngine::ProBuilder::Face*,int32_t>*, "<>9__3_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>::get>();
 }
-inline void UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::setStaticF___9__3_1(
-    ::System::Func_2<::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*, ::UnityEngine::ProBuilder::FaceRebuildData*>* value) {
-  ::cordl_internals::setStaticField<::System::Func_2<::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*, ::UnityEngine::ProBuilder::FaceRebuildData*>*, "<>9__3_1",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>::get>(
-      std::forward<::System::Func_2<::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*, ::UnityEngine::ProBuilder::FaceRebuildData*>*>(value));
+inline void UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::setStaticF___9__3_1(::System::Func_2<::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*,::UnityEngine::ProBuilder::FaceRebuildData*>*  value)  {
+::cordl_internals::setStaticField<::System::Func_2<::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*,::UnityEngine::ProBuilder::FaceRebuildData*>*, "<>9__3_1", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>::get>(std::forward<::System::Func_2<::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*,::UnityEngine::ProBuilder::FaceRebuildData*>*>(value));
 }
-inline ::System::Func_2<::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*, ::UnityEngine::ProBuilder::FaceRebuildData*>*
-UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::getStaticF___9__3_1() {
-  return ::cordl_internals::getStaticField<::System::Func_2<::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*, ::UnityEngine::ProBuilder::FaceRebuildData*>*, "<>9__3_1",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>::get>();
+inline ::System::Func_2<::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*,::UnityEngine::ProBuilder::FaceRebuildData*>* UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::getStaticF___9__3_1()  {
+return ::cordl_internals::getStaticField<::System::Func_2<::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*,::UnityEngine::ProBuilder::FaceRebuildData*>*, "<>9__3_1", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>::get>();
 }
-inline void UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::setStaticF___9__3_2(
-    ::System::Func_2<::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>*>* value) {
-  ::cordl_internals::setStaticField<
-      ::System::Func_2<::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>*>*, "<>9__3_2",
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>::get>(
-      std::forward<::System::Func_2<::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>*>*>(value));
+inline void UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::setStaticF___9__3_2(::System::Func_2<::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*,::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>*>*  value)  {
+::cordl_internals::setStaticField<::System::Func_2<::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*,::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>*>*, "<>9__3_2", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>::get>(std::forward<::System::Func_2<::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*,::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>*>*>(value));
 }
-inline ::System::Func_2<::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>*>*
-UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::getStaticF___9__3_2() {
-  return ::cordl_internals::getStaticField<
-      ::System::Func_2<::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>*>*, "<>9__3_2",
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>::get>();
+inline ::System::Func_2<::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*,::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>*>* UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::getStaticF___9__3_2()  {
+return ::cordl_internals::getStaticField<::System::Func_2<::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*,::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>*>*, "<>9__3_2", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>::get>();
 }
-inline void UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::setStaticF___9__3_4(::System::Func_2<::UnityEngine::ProBuilder::EdgeLookup, ::UnityEngine::ProBuilder::Edge>* value) {
-  ::cordl_internals::setStaticField<::System::Func_2<::UnityEngine::ProBuilder::EdgeLookup, ::UnityEngine::ProBuilder::Edge>*, "<>9__3_4",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>::get>(
-      std::forward<::System::Func_2<::UnityEngine::ProBuilder::EdgeLookup, ::UnityEngine::ProBuilder::Edge>*>(value));
+inline void UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::setStaticF___9__3_4(::System::Func_2<::UnityEngine::ProBuilder::EdgeLookup,::UnityEngine::ProBuilder::Edge>*  value)  {
+::cordl_internals::setStaticField<::System::Func_2<::UnityEngine::ProBuilder::EdgeLookup,::UnityEngine::ProBuilder::Edge>*, "<>9__3_4", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>::get>(std::forward<::System::Func_2<::UnityEngine::ProBuilder::EdgeLookup,::UnityEngine::ProBuilder::Edge>*>(value));
 }
-inline ::System::Func_2<::UnityEngine::ProBuilder::EdgeLookup, ::UnityEngine::ProBuilder::Edge>* UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::getStaticF___9__3_4() {
-  return ::cordl_internals::getStaticField<::System::Func_2<::UnityEngine::ProBuilder::EdgeLookup, ::UnityEngine::ProBuilder::Edge>*, "<>9__3_4",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>::get>();
+inline ::System::Func_2<::UnityEngine::ProBuilder::EdgeLookup,::UnityEngine::ProBuilder::Edge>* UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::getStaticF___9__3_4()  {
+return ::cordl_internals::getStaticField<::System::Func_2<::UnityEngine::ProBuilder::EdgeLookup,::UnityEngine::ProBuilder::Edge>*, "<>9__3_4", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>::get>();
 }
-inline void
-UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::setStaticF___9__5_0(::System::Func_2<int32_t, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*>* value) {
-  ::cordl_internals::setStaticField<::System::Func_2<int32_t, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*>*, "<>9__5_0",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>::get>(
-      std::forward<::System::Func_2<int32_t, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*>*>(value));
+inline void UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::setStaticF___9__5_0(::System::Func_2<int32_t,::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*>*  value)  {
+::cordl_internals::setStaticField<::System::Func_2<int32_t,::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*>*, "<>9__5_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>::get>(std::forward<::System::Func_2<int32_t,::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*>*>(value));
 }
-inline ::System::Func_2<int32_t, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*>* UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::getStaticF___9__5_0() {
-  return ::cordl_internals::getStaticField<::System::Func_2<int32_t, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*>*, "<>9__5_0",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>::get>();
+inline ::System::Func_2<int32_t,::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*>* UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::getStaticF___9__5_0()  {
+return ::cordl_internals::getStaticField<::System::Func_2<int32_t,::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*>*, "<>9__5_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>::get>();
 }
-inline void UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::setStaticF___9__5_1(::System::Func_2<int32_t, ::System::Collections::Generic::List_1<int32_t>*>* value) {
-  ::cordl_internals::setStaticField<::System::Func_2<int32_t, ::System::Collections::Generic::List_1<int32_t>*>*, "<>9__5_1",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>::get>(
-      std::forward<::System::Func_2<int32_t, ::System::Collections::Generic::List_1<int32_t>*>*>(value));
+inline void UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::setStaticF___9__5_1(::System::Func_2<int32_t,::System::Collections::Generic::List_1<int32_t>*>*  value)  {
+::cordl_internals::setStaticField<::System::Func_2<int32_t,::System::Collections::Generic::List_1<int32_t>*>*, "<>9__5_1", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>::get>(std::forward<::System::Func_2<int32_t,::System::Collections::Generic::List_1<int32_t>*>*>(value));
 }
-inline ::System::Func_2<int32_t, ::System::Collections::Generic::List_1<int32_t>*>* UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::getStaticF___9__5_1() {
-  return ::cordl_internals::getStaticField<::System::Func_2<int32_t, ::System::Collections::Generic::List_1<int32_t>*>*, "<>9__5_1",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>::get>();
+inline ::System::Func_2<int32_t,::System::Collections::Generic::List_1<int32_t>*>* UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::getStaticF___9__5_1()  {
+return ::cordl_internals::getStaticField<::System::Func_2<int32_t,::System::Collections::Generic::List_1<int32_t>*>*, "<>9__5_1", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>::get>();
 }
-inline void UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::setStaticF___9__5_2(::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*, ::UnityEngine::ProBuilder::Edge>* value) {
-  ::cordl_internals::setStaticField<::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*, ::UnityEngine::ProBuilder::Edge>*, "<>9__5_2",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>::get>(
-      std::forward<::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*, ::UnityEngine::ProBuilder::Edge>*>(value));
+inline void UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::setStaticF___9__5_2(::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*,::UnityEngine::ProBuilder::Edge>*  value)  {
+::cordl_internals::setStaticField<::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*,::UnityEngine::ProBuilder::Edge>*, "<>9__5_2", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>::get>(std::forward<::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*,::UnityEngine::ProBuilder::Edge>*>(value));
 }
-inline ::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*, ::UnityEngine::ProBuilder::Edge>* UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::getStaticF___9__5_2() {
-  return ::cordl_internals::getStaticField<::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*, ::UnityEngine::ProBuilder::Edge>*, "<>9__5_2",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>::get>();
+inline ::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*,::UnityEngine::ProBuilder::Edge>* UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::getStaticF___9__5_2()  {
+return ::cordl_internals::getStaticField<::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*,::UnityEngine::ProBuilder::Edge>*, "<>9__5_2", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>::get>();
 }
-inline void UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::setStaticF___9__6_0(::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*, ::UnityEngine::ProBuilder::Edge>* value) {
-  ::cordl_internals::setStaticField<::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*, ::UnityEngine::ProBuilder::Edge>*, "<>9__6_0",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>::get>(
-      std::forward<::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*, ::UnityEngine::ProBuilder::Edge>*>(value));
+inline void UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::setStaticF___9__6_0(::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*,::UnityEngine::ProBuilder::Edge>*  value)  {
+::cordl_internals::setStaticField<::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*,::UnityEngine::ProBuilder::Edge>*, "<>9__6_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>::get>(std::forward<::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*,::UnityEngine::ProBuilder::Edge>*>(value));
 }
-inline ::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*, ::UnityEngine::ProBuilder::Edge>* UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::getStaticF___9__6_0() {
-  return ::cordl_internals::getStaticField<::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*, ::UnityEngine::ProBuilder::Edge>*, "<>9__6_0",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>::get>();
+inline ::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*,::UnityEngine::ProBuilder::Edge>* UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::getStaticF___9__6_0()  {
+return ::cordl_internals::getStaticField<::System::Func_2<::UnityEngine::ProBuilder::WingedEdge*,::UnityEngine::ProBuilder::Edge>*, "<>9__6_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>::get>();
 }
-inline void
-UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::setStaticF___9__8_0(::System::Func_2<int32_t, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*>* value) {
-  ::cordl_internals::setStaticField<::System::Func_2<int32_t, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*>*, "<>9__8_0",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>::get>(
-      std::forward<::System::Func_2<int32_t, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*>*>(value));
+inline void UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::setStaticF___9__8_0(::System::Func_2<int32_t,::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*>*  value)  {
+::cordl_internals::setStaticField<::System::Func_2<int32_t,::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*>*, "<>9__8_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>::get>(std::forward<::System::Func_2<int32_t,::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*>*>(value));
 }
-inline ::System::Func_2<int32_t, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*>* UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::getStaticF___9__8_0() {
-  return ::cordl_internals::getStaticField<::System::Func_2<int32_t, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*>*, "<>9__8_0",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>::get>();
+inline ::System::Func_2<int32_t,::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*>* UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::getStaticF___9__8_0()  {
+return ::cordl_internals::getStaticField<::System::Func_2<int32_t,::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*>*, "<>9__8_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>::get>();
 }
-inline void UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::setStaticF___9__8_1(::System::Func_2<int32_t, ::System::Collections::Generic::List_1<int32_t>*>* value) {
-  ::cordl_internals::setStaticField<::System::Func_2<int32_t, ::System::Collections::Generic::List_1<int32_t>*>*, "<>9__8_1",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>::get>(
-      std::forward<::System::Func_2<int32_t, ::System::Collections::Generic::List_1<int32_t>*>*>(value));
+inline void UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::setStaticF___9__8_1(::System::Func_2<int32_t,::System::Collections::Generic::List_1<int32_t>*>*  value)  {
+::cordl_internals::setStaticField<::System::Func_2<int32_t,::System::Collections::Generic::List_1<int32_t>*>*, "<>9__8_1", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>::get>(std::forward<::System::Func_2<int32_t,::System::Collections::Generic::List_1<int32_t>*>*>(value));
 }
-inline ::System::Func_2<int32_t, ::System::Collections::Generic::List_1<int32_t>*>* UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::getStaticF___9__8_1() {
-  return ::cordl_internals::getStaticField<::System::Func_2<int32_t, ::System::Collections::Generic::List_1<int32_t>*>*, "<>9__8_1",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>::get>();
+inline ::System::Func_2<int32_t,::System::Collections::Generic::List_1<int32_t>*>* UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::getStaticF___9__8_1()  {
+return ::cordl_internals::getStaticField<::System::Func_2<int32_t,::System::Collections::Generic::List_1<int32_t>*>*, "<>9__8_1", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>::get>();
 }
-inline void UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::setStaticF___9__8_2(::System::Func_2<int32_t, ::System::Collections::Generic::List_1<int32_t>*>* value) {
-  ::cordl_internals::setStaticField<::System::Func_2<int32_t, ::System::Collections::Generic::List_1<int32_t>*>*, "<>9__8_2",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>::get>(
-      std::forward<::System::Func_2<int32_t, ::System::Collections::Generic::List_1<int32_t>*>*>(value));
+inline void UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::setStaticF___9__8_2(::System::Func_2<int32_t,::System::Collections::Generic::List_1<int32_t>*>*  value)  {
+::cordl_internals::setStaticField<::System::Func_2<int32_t,::System::Collections::Generic::List_1<int32_t>*>*, "<>9__8_2", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>::get>(std::forward<::System::Func_2<int32_t,::System::Collections::Generic::List_1<int32_t>*>*>(value));
 }
-inline ::System::Func_2<int32_t, ::System::Collections::Generic::List_1<int32_t>*>* UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::getStaticF___9__8_2() {
-  return ::cordl_internals::getStaticField<::System::Func_2<int32_t, ::System::Collections::Generic::List_1<int32_t>*>*, "<>9__8_2",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>::get>();
+inline ::System::Func_2<int32_t,::System::Collections::Generic::List_1<int32_t>*>* UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::getStaticF___9__8_2()  {
+return ::cordl_internals::getStaticField<::System::Func_2<int32_t,::System::Collections::Generic::List_1<int32_t>*>*, "<>9__8_2", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>::get>();
 }
-inline ::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c* UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>());
+inline ::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c* UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::New_ctor()  {
+return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>());
 }
-inline void UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::_ctor() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>::get(), ".ctor",
-                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>*
-UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::_Connect_b__0_0(::UnityEngine::ProBuilder::Face* x) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>::get(), "<Connect>b__0_0", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::Face*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>*, false>(this, ___internal_method, x);
+inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>* UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::_Connect_b__0_0(::UnityEngine::ProBuilder::Face*  x)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>::get(),
+                        "<Connect>b__0_0",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::Face*>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>*, false>(this, ___internal_method, x);
 }
-inline int32_t UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::_Connect_b__2_1(::UnityEngine::ProBuilder::Face* x) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>::get(), "<Connect>b__2_1", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::Face*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, x);
+inline int32_t UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::_Connect_b__2_1(::UnityEngine::ProBuilder::Face*  x)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>::get(),
+                        "<Connect>b__2_1",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::Face*>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, x);
 }
-inline ::UnityEngine::ProBuilder::FaceRebuildData*
-UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::_Connect_b__2_2(::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData* x) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>::get(), "<Connect>b__2_2", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::ProBuilder::FaceRebuildData*, false>(this, ___internal_method, x);
+inline ::UnityEngine::ProBuilder::FaceRebuildData* UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::_Connect_b__2_2(::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*  x)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>::get(),
+                        "<Connect>b__2_2",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::ProBuilder::FaceRebuildData*, false>(this, ___internal_method, x);
 }
-inline int32_t UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::_Connect_b__3_0(::UnityEngine::ProBuilder::Face* x) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>::get(), "<Connect>b__3_0", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::Face*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, x);
+inline int32_t UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::_Connect_b__3_0(::UnityEngine::ProBuilder::Face*  x)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>::get(),
+                        "<Connect>b__3_0",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::Face*>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, x);
 }
-inline ::UnityEngine::ProBuilder::FaceRebuildData*
-UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::_Connect_b__3_1(::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData* x) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>::get(), "<Connect>b__3_1", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::ProBuilder::FaceRebuildData*, false>(this, ___internal_method, x);
+inline ::UnityEngine::ProBuilder::FaceRebuildData* UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::_Connect_b__3_1(::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*  x)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>::get(),
+                        "<Connect>b__3_1",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::ProBuilder::FaceRebuildData*, false>(this, ___internal_method, x);
 }
-inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>*
-UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::_Connect_b__3_2(::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData* x) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>::get(), "<Connect>b__3_2", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>*, false>(this, ___internal_method, x);
+inline ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>* UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::_Connect_b__3_2(::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*  x)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>::get(),
+                        "<Connect>b__3_2",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>*, false>(this, ___internal_method, x);
 }
-inline ::UnityEngine::ProBuilder::Edge UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::_Connect_b__3_4(::UnityEngine::ProBuilder::EdgeLookup x) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>::get(), "<Connect>b__3_4", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::EdgeLookup>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::ProBuilder::Edge, false>(this, ___internal_method, x);
+inline ::UnityEngine::ProBuilder::Edge UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::_Connect_b__3_4(::UnityEngine::ProBuilder::EdgeLookup  x)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>::get(),
+                        "<Connect>b__3_4",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::EdgeLookup>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::ProBuilder::Edge, false>(this, ___internal_method, x);
 }
-inline ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>* UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::_ConnectEdgesInFace_b__5_0(int32_t x) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>::get(), "<ConnectEdgesInFace>b__5_0",
-                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*, false>(this, ___internal_method, x);
+inline ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>* UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::_ConnectEdgesInFace_b__5_0(int32_t  x)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>::get(),
+                        "<ConnectEdgesInFace>b__5_0",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*, false>(this, ___internal_method, x);
 }
-inline ::System::Collections::Generic::List_1<int32_t>* UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::_ConnectEdgesInFace_b__5_1(int32_t x) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>::get(), "<ConnectEdgesInFace>b__5_1",
-                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<int32_t>*, false>(this, ___internal_method, x);
+inline ::System::Collections::Generic::List_1<int32_t>* UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::_ConnectEdgesInFace_b__5_1(int32_t  x)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>::get(),
+                        "<ConnectEdgesInFace>b__5_1",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<int32_t>*, false>(this, ___internal_method, x);
 }
-inline ::UnityEngine::ProBuilder::Edge UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::_ConnectEdgesInFace_b__5_2(::UnityEngine::ProBuilder::WingedEdge* x) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>::get(), "<ConnectEdgesInFace>b__5_2",
-      std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::WingedEdge*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::ProBuilder::Edge, false>(this, ___internal_method, x);
+inline ::UnityEngine::ProBuilder::Edge UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::_ConnectEdgesInFace_b__5_2(::UnityEngine::ProBuilder::WingedEdge*  x)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>::get(),
+                        "<ConnectEdgesInFace>b__5_2",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::WingedEdge*>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::ProBuilder::Edge, false>(this, ___internal_method, x);
 }
-inline ::UnityEngine::ProBuilder::Edge UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::_InsertVertices_b__6_0(::UnityEngine::ProBuilder::WingedEdge* x) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>::get(), "<InsertVertices>b__6_0",
-      std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::WingedEdge*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::ProBuilder::Edge, false>(this, ___internal_method, x);
+inline ::UnityEngine::ProBuilder::Edge UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::_InsertVertices_b__6_0(::UnityEngine::ProBuilder::WingedEdge*  x)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>::get(),
+                        "<InsertVertices>b__6_0",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::WingedEdge*>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::ProBuilder::Edge, false>(this, ___internal_method, x);
 }
-inline ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>* UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::_ConnectIndexesPerFace_b__8_0(int32_t x) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>::get(), "<ConnectIndexesPerFace>b__8_0",
-                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*, false>(this, ___internal_method, x);
+inline ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>* UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::_ConnectIndexesPerFace_b__8_0(int32_t  x)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>::get(),
+                        "<ConnectIndexesPerFace>b__8_0",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*, false>(this, ___internal_method, x);
 }
-inline ::System::Collections::Generic::List_1<int32_t>* UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::_ConnectIndexesPerFace_b__8_1(int32_t x) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>::get(), "<ConnectIndexesPerFace>b__8_1",
-                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<int32_t>*, false>(this, ___internal_method, x);
+inline ::System::Collections::Generic::List_1<int32_t>* UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::_ConnectIndexesPerFace_b__8_1(int32_t  x)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>::get(),
+                        "<ConnectIndexesPerFace>b__8_1",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<int32_t>*, false>(this, ___internal_method, x);
 }
-inline ::System::Collections::Generic::List_1<int32_t>* UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::_ConnectIndexesPerFace_b__8_2(int32_t x) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>::get(), "<ConnectIndexesPerFace>b__8_2",
-                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<int32_t>*, false>(this, ___internal_method, x);
+inline ::System::Collections::Generic::List_1<int32_t>* UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::_ConnectIndexesPerFace_b__8_2(int32_t  x)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c*>::get(),
+                        "<ConnectIndexesPerFace>b__8_2",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<int32_t>*, false>(this, ___internal_method, x);
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::__ConnectElements____c() {}
+constexpr ::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c::__ConnectElements____c()   {
+}
 //  Writing Method size for method: ::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c__DisplayClass2_0._ctor
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c__DisplayClass2_0::*)()>(
-    &::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c__DisplayClass2_0::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c__DisplayClass2_0::*)()>(&::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c__DisplayClass2_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x33160fc;
+  constexpr static std::size_t addrs = 0x46d903c;
 
   inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c__DisplayClass2_0*>::get(),
-                                                 ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c__DisplayClass2_0*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c__DisplayClass2_0._Connect_b__0
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c__DisplayClass2_0::*)(int32_t)>(
-    &::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c__DisplayClass2_0::_Connect_b__0)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c__DisplayClass2_0::*)(int32_t)>(&::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c__DisplayClass2_0::_Connect_b__0)> {
   constexpr static std::size_t size = 0x58;
-  constexpr static std::size_t addrs = 0x3318e3c;
+  constexpr static std::size_t addrs = 0x46dbd10;
 
   inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c__DisplayClass2_0*>::get(), "<Connect>b__0",
-                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c__DisplayClass2_0*>::get(),
+                        "<Connect>b__0",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c__DisplayClass2_0._Connect_b__3
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c__DisplayClass2_0::*)(int32_t)>(
-    &::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c__DisplayClass2_0::_Connect_b__3)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<int32_t (::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c__DisplayClass2_0::*)(int32_t)>(&::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c__DisplayClass2_0::_Connect_b__3)> {
   constexpr static std::size_t size = 0x44;
-  constexpr static std::size_t addrs = 0x3318e94;
+  constexpr static std::size_t addrs = 0x46dbd68;
 
   inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS(
-        (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c__DisplayClass2_0*>::get(), "<Connect>b__3",
-                                    std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c__DisplayClass2_0*>::get(),
+                        "<Connect>b__3",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
+                    )));
     return ___internal_method;
   }
 };
-constexpr ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>*& UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c__DisplayClass2_0::__cordl_internal_get_lookup() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___lookup;
+constexpr ::System::Collections::Generic::Dictionary_2<int32_t,int32_t>*& UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c__DisplayClass2_0::__cordl_internal_get_lookup()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___lookup;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t, int32_t>*> const&
-UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c__DisplayClass2_0::__cordl_internal_get_lookup() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___lookup;
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t,int32_t>*> const& UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c__DisplayClass2_0::__cordl_internal_get_lookup() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___lookup;
 }
-constexpr void UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c__DisplayClass2_0::__cordl_internal_set_lookup(::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___lookup)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c__DisplayClass2_0::__cordl_internal_set_lookup(::System::Collections::Generic::Dictionary_2<int32_t,int32_t>*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___lookup)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-constexpr ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>& UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c__DisplayClass2_0::__cordl_internal_get_mesh() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___mesh;
+constexpr ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>& UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c__DisplayClass2_0::__cordl_internal_get_mesh()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___mesh;
 }
 constexpr ::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> const& UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c__DisplayClass2_0::__cordl_internal_get_mesh() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___mesh;
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___mesh;
 }
-constexpr void UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c__DisplayClass2_0::__cordl_internal_set_mesh(::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh> value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___mesh)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c__DisplayClass2_0::__cordl_internal_set_mesh(::UnityW<::UnityEngine::ProBuilder::ProBuilderMesh>  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___mesh)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c__DisplayClass2_0* UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c__DisplayClass2_0::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c__DisplayClass2_0*>());
+inline ::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c__DisplayClass2_0* UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c__DisplayClass2_0::New_ctor()  {
+return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c__DisplayClass2_0*>());
 }
-inline void UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c__DisplayClass2_0::_ctor() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c__DisplayClass2_0*>::get(),
-                                               ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c__DisplayClass2_0::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c__DisplayClass2_0*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline int32_t UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c__DisplayClass2_0::_Connect_b__0(int32_t x) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c__DisplayClass2_0*>::get(), "<Connect>b__0",
-                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, x);
+inline int32_t UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c__DisplayClass2_0::_Connect_b__0(int32_t  x)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c__DisplayClass2_0*>::get(),
+                        "<Connect>b__0",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, x);
 }
-inline int32_t UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c__DisplayClass2_0::_Connect_b__3(int32_t x) {
-  static auto* ___internal_method = THROW_UNLESS(
-      (::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c__DisplayClass2_0*>::get(), "<Connect>b__3",
-                                  std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, x);
+inline int32_t UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c__DisplayClass2_0::_Connect_b__3(int32_t  x)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c__DisplayClass2_0*>::get(),
+                        "<Connect>b__3",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<int32_t, false>(this, ___internal_method, x);
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c__DisplayClass2_0::__ConnectElements____c__DisplayClass2_0() {}
+constexpr ::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c__DisplayClass2_0::__ConnectElements____c__DisplayClass2_0()   {
+}
 //  Writing Method size for method: ::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c__DisplayClass3_0._ctor
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c__DisplayClass3_0::*)()>(
-    &::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c__DisplayClass3_0::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c__DisplayClass3_0::*)()>(&::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c__DisplayClass3_0::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x3318ac0;
+  constexpr static std::size_t addrs = 0x46db9c4;
 
   inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method =
-        THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c__DisplayClass3_0*>::get(),
-                                                 ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c__DisplayClass3_0*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c__DisplayClass3_0._Connect_b__3
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c__DisplayClass3_0::*)(
-    ::UnityEngine::ProBuilder::Edge)>(&::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c__DisplayClass3_0::_Connect_b__3)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c__DisplayClass3_0::*)(::UnityEngine::ProBuilder::Edge)>(&::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c__DisplayClass3_0::_Connect_b__3)> {
   constexpr static std::size_t size = 0x80;
-  constexpr static std::size_t addrs = 0x3318ed8;
+  constexpr static std::size_t addrs = 0x46dbdac;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c__DisplayClass3_0*>::get(), "<Connect>b__3",
-        std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::Edge>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c__DisplayClass3_0*>::get(),
+                        "<Connect>b__3",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::Edge>::get()}
+                    )));
     return ___internal_method;
   }
 };
-constexpr ::System::Collections::Generic::HashSet_1<int32_t>*& UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c__DisplayClass3_0::__cordl_internal_get_appended() {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___appended;
+constexpr ::System::Collections::Generic::HashSet_1<int32_t>*& UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c__DisplayClass3_0::__cordl_internal_get_appended()  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___appended;
 }
-constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<int32_t>*> const&
-UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c__DisplayClass3_0::__cordl_internal_get_appended() const {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  return this->___appended;
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<int32_t>*> const& UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c__DisplayClass3_0::__cordl_internal_get_appended() const {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+return this->___appended;
 }
-constexpr void UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c__DisplayClass3_0::__cordl_internal_set_appended(::System::Collections::Generic::HashSet_1<int32_t>* value) {
-  CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
-  il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___appended)), cordl_internals::convert(std::forward<decltype(value)>(value)));
+constexpr void UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c__DisplayClass3_0::__cordl_internal_set_appended(::System::Collections::Generic::HashSet_1<int32_t>*  value)  {
+CORDL_FIELD_NULL_CHECK(static_cast<void const*>(this));
+il2cpp_functions::gc_wbarrier_set_field(this, static_cast<void**>(static_cast<void*>(&this->___appended)), cordl_internals::convert(std::forward<decltype(value)>(value)));
 }
-inline ::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c__DisplayClass3_0* UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c__DisplayClass3_0::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c__DisplayClass3_0*>());
+inline ::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c__DisplayClass3_0* UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c__DisplayClass3_0::New_ctor()  {
+return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c__DisplayClass3_0*>());
 }
-inline void UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c__DisplayClass3_0::_ctor() {
-  static auto* ___internal_method =
-      THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c__DisplayClass3_0*>::get(),
-                                               ".ctor", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c__DisplayClass3_0::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c__DisplayClass3_0*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline bool UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c__DisplayClass3_0::_Connect_b__3(::UnityEngine::ProBuilder::Edge x) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c__DisplayClass3_0*>::get(), "<Connect>b__3",
-      std::span<Il2CppClass const* const, 0>(), ::std::array<Il2CppType const*, 1>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::Edge>::get() })));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, x);
+inline bool UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c__DisplayClass3_0::_Connect_b__3(::UnityEngine::ProBuilder::Edge  x)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c__DisplayClass3_0*>::get(),
+                        "<Connect>b__3",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 1>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::Edge>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(this, ___internal_method, x);
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c__DisplayClass3_0::__ConnectElements____c__DisplayClass3_0() {}
+constexpr ::UnityEngine::ProBuilder::MeshOperations::__ConnectElements____c__DisplayClass3_0::__ConnectElements____c__DisplayClass3_0()   {
+}
 //  Writing Method size for method: ::UnityEngine::ProBuilder::MeshOperations::ConnectElements.Connect
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityEngine::ProBuilder::Face*, ::Array<::UnityEngine::ProBuilder::Face*>*> (*)(
-    ::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>*)>(
-    &::UnityEngine::ProBuilder::MeshOperations::ConnectElements::Connect)> {
-  constexpr static std::size_t size = 0x2c0;
-  constexpr static std::size_t addrs = 0x3313990;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<::UnityEngine::ProBuilder::Face*,::Array<::UnityEngine::ProBuilder::Face*>*> (*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>*)>(&::UnityEngine::ProBuilder::MeshOperations::ConnectElements::Connect)> {
+  constexpr static std::size_t size = 0x2bc;
+  constexpr static std::size_t addrs = 0x46d68c4;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::ConnectElements*>::get(), "Connect", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::ProBuilderMesh*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>*>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::ConnectElements*>::get(),
+                        "Connect",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::ProBuilderMesh*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>*>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::ProBuilder::MeshOperations::ConnectElements.Connect
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::SimpleTuple_2<
-    ::ArrayW<::UnityEngine::ProBuilder::Face*, ::Array<::UnityEngine::ProBuilder::Face*>*>, ::ArrayW<::UnityEngine::ProBuilder::Edge, ::Array<::UnityEngine::ProBuilder::Edge>*>> (*)(
-    ::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>*)>(
-    &::UnityEngine::ProBuilder::MeshOperations::ConnectElements::Connect)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::SimpleTuple_2<::ArrayW<::UnityEngine::ProBuilder::Face*,::Array<::UnityEngine::ProBuilder::Face*>*>,::ArrayW<::UnityEngine::ProBuilder::Edge,::Array<::UnityEngine::ProBuilder::Edge>*>> (*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>*)>(&::UnityEngine::ProBuilder::MeshOperations::ConnectElements::Connect)> {
   constexpr static std::size_t size = 0x98;
-  constexpr static std::size_t addrs = 0x33151e0;
+  constexpr static std::size_t addrs = 0x46d8124;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::ConnectElements*>::get(), "Connect", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::ProBuilderMesh*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>*>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::ConnectElements*>::get(),
+                        "Connect",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::ProBuilderMesh*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>*>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::ProBuilder::MeshOperations::ConnectElements.Connect
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<int32_t, ::Array<int32_t>*> (*)(
-    ::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IList_1<int32_t>*)>(&::UnityEngine::ProBuilder::MeshOperations::ConnectElements::Connect)> {
-  constexpr static std::size_t size = 0xe84;
-  constexpr static std::size_t addrs = 0x3315278;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::ArrayW<int32_t,::Array<int32_t>*> (*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IList_1<int32_t>*)>(&::UnityEngine::ProBuilder::MeshOperations::ConnectElements::Connect)> {
+  constexpr static std::size_t size = 0xe80;
+  constexpr static std::size_t addrs = 0x46d81bc;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::ConnectElements*>::get(), "Connect", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::ProBuilderMesh*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IList_1<int32_t>*>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::ConnectElements*>::get(),
+                        "Connect",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::ProBuilderMesh*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IList_1<int32_t>*>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::ProBuilder::MeshOperations::ConnectElements.Connect
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
-    ::UnityEngine::ProBuilder::ActionResult* (*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>*,
-                                                 ByRef<::ArrayW<::UnityEngine::ProBuilder::Face*, ::Array<::UnityEngine::ProBuilder::Face*>*>>,
-                                                 ByRef<::ArrayW<::UnityEngine::ProBuilder::Edge, ::Array<::UnityEngine::ProBuilder::Edge>*>>, bool, bool,
-                                                 ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>*)>(&::UnityEngine::ProBuilder::MeshOperations::ConnectElements::Connect)> {
-  constexpr static std::size_t size = 0x1590;
-  constexpr static std::size_t addrs = 0x3313c50;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::UnityEngine::ProBuilder::ActionResult* (*)(::UnityEngine::ProBuilder::ProBuilderMesh*, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>*, ByRef<::ArrayW<::UnityEngine::ProBuilder::Face*,::Array<::UnityEngine::ProBuilder::Face*>*>>, ByRef<::ArrayW<::UnityEngine::ProBuilder::Edge,::Array<::UnityEngine::ProBuilder::Edge>*>>, bool, bool, ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>*)>(&::UnityEngine::ProBuilder::MeshOperations::ConnectElements::Connect)> {
+  constexpr static std::size_t size = 0x15a4;
+  constexpr static std::size_t addrs = 0x46d6b80;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::ConnectElements*>::get(), "Connect", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 7>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::ProBuilderMesh*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<::UnityEngine::ProBuilder::Face*, ::Array<::UnityEngine::ProBuilder::Face*>*>>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<::UnityEngine::ProBuilder::Edge, ::Array<::UnityEngine::ProBuilder::Edge>*>>>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>*>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::ConnectElements*>::get(),
+                        "Connect",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 7>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::ProBuilderMesh*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<::UnityEngine::ProBuilder::Face*,::Array<::UnityEngine::ProBuilder::Face*>*>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<::UnityEngine::ProBuilder::Edge,::Array<::UnityEngine::ProBuilder::Edge>*>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>*>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::ProBuilder::MeshOperations::ConnectElements.ConnectEdgesInFace
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<
-    ::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*>* (*)(::UnityEngine::ProBuilder::Face*, ::UnityEngine::ProBuilder::WingedEdge*, ::UnityEngine::ProBuilder::WingedEdge*,
-                                                                             ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*)>(
-    &::UnityEngine::ProBuilder::MeshOperations::ConnectElements::ConnectEdgesInFace)> {
-  constexpr static std::size_t size = 0x7c0;
-  constexpr static std::size_t addrs = 0x3318300;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*>* (*)(::UnityEngine::ProBuilder::Face*, ::UnityEngine::ProBuilder::WingedEdge*, ::UnityEngine::ProBuilder::WingedEdge*, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*)>(&::UnityEngine::ProBuilder::MeshOperations::ConnectElements::ConnectEdgesInFace)> {
+  constexpr static std::size_t size = 0x7f4;
+  constexpr static std::size_t addrs = 0x46db1d0;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::ConnectElements*>::get(), "ConnectEdgesInFace", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::Face*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::WingedEdge*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::WingedEdge*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::ConnectElements*>::get(),
+                        "ConnectEdgesInFace",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::Face*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::WingedEdge*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::WingedEdge*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::ProBuilder::MeshOperations::ConnectElements.ConnectEdgesInFace
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<
-    ::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*>* (*)(::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::WingedEdge*>*,
-                                                                             ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*)>(
-    &::UnityEngine::ProBuilder::MeshOperations::ConnectElements::ConnectEdgesInFace)> {
-  constexpr static std::size_t size = 0x99c;
-  constexpr static std::size_t addrs = 0x3317964;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*>* (*)(::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::WingedEdge*>*, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*)>(&::UnityEngine::ProBuilder::MeshOperations::ConnectElements::ConnectEdgesInFace)> {
+  constexpr static std::size_t size = 0x964;
+  constexpr static std::size_t addrs = 0x46da86c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::ConnectElements*>::get(), "ConnectEdgesInFace", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::Face*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::WingedEdge*>*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::ConnectElements*>::get(),
+                        "ConnectEdgesInFace",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::Face*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::WingedEdge*>*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::ProBuilder::MeshOperations::ConnectElements.InsertVertices
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(
-    ::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::WingedEdge*>*, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*,
-    ByRef<::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*>)>(&::UnityEngine::ProBuilder::MeshOperations::ConnectElements::InsertVertices)> {
-  constexpr static std::size_t size = 0x548;
-  constexpr static std::size_t addrs = 0x331741c;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<bool (*)(::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::WingedEdge*>*, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*, ByRef<::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*>)>(&::UnityEngine::ProBuilder::MeshOperations::ConnectElements::InsertVertices)> {
+  constexpr static std::size_t size = 0x52c;
+  constexpr static std::size_t addrs = 0x46da340;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::ConnectElements*>::get(), "InsertVertices", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::Face*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::WingedEdge*>*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*>>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::ConnectElements*>::get(),
+                        "InsertVertices",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::Face*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::WingedEdge*>*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*>>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::ProBuilder::MeshOperations::ConnectElements.ConnectIndexesPerFace
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
-    ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*>* (*)(::UnityEngine::ProBuilder::Face*, int32_t, int32_t,
-                                                                                                                    ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*,
-                                                                                                                    ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>*)>(
-    &::UnityEngine::ProBuilder::MeshOperations::ConnectElements::ConnectIndexesPerFace)> {
-  constexpr static std::size_t size = 0x8b0;
-  constexpr static std::size_t addrs = 0x3316b6c;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*>* (*)(::UnityEngine::ProBuilder::Face*, int32_t, int32_t, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*, ::System::Collections::Generic::Dictionary_2<int32_t,int32_t>*)>(&::UnityEngine::ProBuilder::MeshOperations::ConnectElements::ConnectIndexesPerFace)> {
+  constexpr static std::size_t size = 0x8d4;
+  constexpr static std::size_t addrs = 0x46d9a6c;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::ConnectElements*>::get(), "ConnectIndexesPerFace", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::Face*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<int32_t, int32_t>*>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::ConnectElements*>::get(),
+                        "ConnectIndexesPerFace",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 5>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::Face*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<int32_t,int32_t>*>::get()}
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::ProBuilder::MeshOperations::ConnectElements.ConnectIndexesPerFace
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<
-    ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*>* (*)(::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::List_1<int32_t>*,
-                                                                                                                    ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*,
-                                                                                                                    ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>*, int32_t)>(
-    &::UnityEngine::ProBuilder::MeshOperations::ConnectElements::ConnectIndexesPerFace)> {
-  constexpr static std::size_t size = 0xa68;
-  constexpr static std::size_t addrs = 0x3316104;
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*>* (*)(::UnityEngine::ProBuilder::Face*, ::System::Collections::Generic::List_1<int32_t>*, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*, ::System::Collections::Generic::Dictionary_2<int32_t,int32_t>*, int32_t)>(&::UnityEngine::ProBuilder::MeshOperations::ConnectElements::ConnectIndexesPerFace)> {
+  constexpr static std::size_t size = 0xa28;
+  constexpr static std::size_t addrs = 0x46d9044;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::ConnectElements*>::get(), "ConnectIndexesPerFace", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::Face*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<int32_t>*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<int32_t, int32_t>*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::ConnectElements*>::get(),
+                        "ConnectIndexesPerFace",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 5>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::Face*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<int32_t>*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<int32_t,int32_t>*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
+                    )));
     return ___internal_method;
   }
 };
-inline ::ArrayW<::UnityEngine::ProBuilder::Face*, ::Array<::UnityEngine::ProBuilder::Face*>*>
-UnityEngine::ProBuilder::MeshOperations::ConnectElements::Connect(::UnityEngine::ProBuilder::ProBuilderMesh* mesh,
-                                                                  ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>* faces) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::ConnectElements*>::get(), "Connect", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::ProBuilderMesh*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::ArrayW<::UnityEngine::ProBuilder::Face*, ::Array<::UnityEngine::ProBuilder::Face*>*>, false>(nullptr, ___internal_method, mesh, faces);
+inline ::ArrayW<::UnityEngine::ProBuilder::Face*,::Array<::UnityEngine::ProBuilder::Face*>*> UnityEngine::ProBuilder::MeshOperations::ConnectElements::Connect(::UnityEngine::ProBuilder::ProBuilderMesh*  mesh, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>*  faces)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::ConnectElements*>::get(),
+                        "Connect",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::ProBuilderMesh*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Face*>*>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::ArrayW<::UnityEngine::ProBuilder::Face*,::Array<::UnityEngine::ProBuilder::Face*>*>, false>(nullptr, ___internal_method, mesh, faces);
 }
-inline ::UnityEngine::ProBuilder::SimpleTuple_2<::ArrayW<::UnityEngine::ProBuilder::Face*, ::Array<::UnityEngine::ProBuilder::Face*>*>,
-                                                ::ArrayW<::UnityEngine::ProBuilder::Edge, ::Array<::UnityEngine::ProBuilder::Edge>*>>
-UnityEngine::ProBuilder::MeshOperations::ConnectElements::Connect(::UnityEngine::ProBuilder::ProBuilderMesh* mesh,
-                                                                  ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>* edges) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::ConnectElements*>::get(), "Connect", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::ProBuilderMesh*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::ProBuilder::SimpleTuple_2<::ArrayW<::UnityEngine::ProBuilder::Face*, ::Array<::UnityEngine::ProBuilder::Face*>*>,
-                                                                                      ::ArrayW<::UnityEngine::ProBuilder::Edge, ::Array<::UnityEngine::ProBuilder::Edge>*>>,
-                                             false>(nullptr, ___internal_method, mesh, edges);
+inline ::UnityEngine::ProBuilder::SimpleTuple_2<::ArrayW<::UnityEngine::ProBuilder::Face*,::Array<::UnityEngine::ProBuilder::Face*>*>,::ArrayW<::UnityEngine::ProBuilder::Edge,::Array<::UnityEngine::ProBuilder::Edge>*>> UnityEngine::ProBuilder::MeshOperations::ConnectElements::Connect(::UnityEngine::ProBuilder::ProBuilderMesh*  mesh, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>*  edges)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::ConnectElements*>::get(),
+                        "Connect",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::ProBuilderMesh*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>*>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::ProBuilder::SimpleTuple_2<::ArrayW<::UnityEngine::ProBuilder::Face*,::Array<::UnityEngine::ProBuilder::Face*>*>,::ArrayW<::UnityEngine::ProBuilder::Edge,::Array<::UnityEngine::ProBuilder::Edge>*>>, false>(nullptr, ___internal_method, mesh, edges);
 }
-inline ::ArrayW<int32_t, ::Array<int32_t>*> UnityEngine::ProBuilder::MeshOperations::ConnectElements::Connect(::UnityEngine::ProBuilder::ProBuilderMesh* mesh,
-                                                                                                              ::System::Collections::Generic::IList_1<int32_t>* indexes) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::ConnectElements*>::get(), "Connect", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::ProBuilderMesh*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IList_1<int32_t>*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::ArrayW<int32_t, ::Array<int32_t>*>, false>(nullptr, ___internal_method, mesh, indexes);
+inline ::ArrayW<int32_t,::Array<int32_t>*> UnityEngine::ProBuilder::MeshOperations::ConnectElements::Connect(::UnityEngine::ProBuilder::ProBuilderMesh*  mesh, ::System::Collections::Generic::IList_1<int32_t>*  indexes)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::ConnectElements*>::get(),
+                        "Connect",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::ProBuilderMesh*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IList_1<int32_t>*>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::ArrayW<int32_t,::Array<int32_t>*>, false>(nullptr, ___internal_method, mesh, indexes);
 }
 /// @param returnFaces: bool (default: false)
 /// @param returnEdges: bool (default: false)
 /// @param faceMask: ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>* (default: nullptr)
-inline ::UnityEngine::ProBuilder::ActionResult*
-UnityEngine::ProBuilder::MeshOperations::ConnectElements::Connect(::UnityEngine::ProBuilder::ProBuilderMesh* mesh,
-                                                                  ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>* edges,
-                                                                  ByRef<::ArrayW<::UnityEngine::ProBuilder::Face*, ::Array<::UnityEngine::ProBuilder::Face*>*>> addedFaces,
-                                                                  ByRef<::ArrayW<::UnityEngine::ProBuilder::Edge, ::Array<::UnityEngine::ProBuilder::Edge>*>> connections, bool returnFaces,
-                                                                  bool returnEdges, ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>* faceMask) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::ConnectElements*>::get(), "Connect", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 7>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::ProBuilderMesh*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<::UnityEngine::ProBuilder::Face*, ::Array<::UnityEngine::ProBuilder::Face*>*>>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<::UnityEngine::ProBuilder::Edge, ::Array<::UnityEngine::ProBuilder::Edge>*>>>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::UnityEngine::ProBuilder::ActionResult*, false>(nullptr, ___internal_method, mesh, edges, addedFaces, connections, returnFaces, returnEdges, faceMask);
+inline ::UnityEngine::ProBuilder::ActionResult* UnityEngine::ProBuilder::MeshOperations::ConnectElements::Connect(::UnityEngine::ProBuilder::ProBuilderMesh*  mesh, ::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>*  edges, ByRef<::ArrayW<::UnityEngine::ProBuilder::Face*,::Array<::UnityEngine::ProBuilder::Face*>*>>  addedFaces, ByRef<::ArrayW<::UnityEngine::ProBuilder::Edge,::Array<::UnityEngine::ProBuilder::Edge>*>>  connections, bool  returnFaces, bool  returnEdges, ::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>*  faceMask)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::ConnectElements*>::get(),
+                        "Connect",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 7>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::ProBuilderMesh*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::IEnumerable_1<::UnityEngine::ProBuilder::Edge>*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<::UnityEngine::ProBuilder::Face*,::Array<::UnityEngine::ProBuilder::Face*>*>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::ArrayW<::UnityEngine::ProBuilder::Edge,::Array<::UnityEngine::ProBuilder::Edge>*>>>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<bool>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::HashSet_1<::UnityEngine::ProBuilder::Face*>*>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::UnityEngine::ProBuilder::ActionResult*, false>(nullptr, ___internal_method, mesh, edges, addedFaces, connections, returnFaces, returnEdges, faceMask);
 }
-inline ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*>*
-UnityEngine::ProBuilder::MeshOperations::ConnectElements::ConnectEdgesInFace(::UnityEngine::ProBuilder::Face* face, ::UnityEngine::ProBuilder::WingedEdge* a, ::UnityEngine::ProBuilder::WingedEdge* b,
-                                                                             ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>* vertices) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::ConnectElements*>::get(), "ConnectEdgesInFace", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::Face*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::WingedEdge*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::WingedEdge*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*>*, false>(nullptr, ___internal_method, face, a,
-                                                                                                                                                                 b, vertices);
+inline ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*>* UnityEngine::ProBuilder::MeshOperations::ConnectElements::ConnectEdgesInFace(::UnityEngine::ProBuilder::Face*  face, ::UnityEngine::ProBuilder::WingedEdge*  a, ::UnityEngine::ProBuilder::WingedEdge*  b, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*  vertices)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::ConnectElements*>::get(),
+                        "ConnectEdgesInFace",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::Face*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::WingedEdge*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::WingedEdge*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*>*, false>(nullptr, ___internal_method, face, a, b, vertices);
 }
-inline ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*>*
-UnityEngine::ProBuilder::MeshOperations::ConnectElements::ConnectEdgesInFace(::UnityEngine::ProBuilder::Face* face,
-                                                                             ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::WingedEdge*>* edges,
-                                                                             ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>* vertices) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::ConnectElements*>::get(), "ConnectEdgesInFace", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 3>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::Face*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::WingedEdge*>*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*>*, false>(nullptr, ___internal_method, face,
-                                                                                                                                                                 edges, vertices);
+inline ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*>* UnityEngine::ProBuilder::MeshOperations::ConnectElements::ConnectEdgesInFace(::UnityEngine::ProBuilder::Face*  face, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::WingedEdge*>*  edges, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*  vertices)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::ConnectElements*>::get(),
+                        "ConnectEdgesInFace",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 3>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::Face*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::WingedEdge*>*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*>*, false>(nullptr, ___internal_method, face, edges, vertices);
 }
-inline bool UnityEngine::ProBuilder::MeshOperations::ConnectElements::InsertVertices(::UnityEngine::ProBuilder::Face* face,
-                                                                                     ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::WingedEdge*>* edges,
-                                                                                     ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>* vertices,
-                                                                                     ByRef<::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*> data) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::ConnectElements*>::get(), "InsertVertices", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 4>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::Face*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::WingedEdge*>*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*>>::get() })));
-  return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, face, edges, vertices, data);
+inline bool UnityEngine::ProBuilder::MeshOperations::ConnectElements::InsertVertices(::UnityEngine::ProBuilder::Face*  face, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::WingedEdge*>*  edges, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*  vertices, ByRef<::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*>  data)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::ConnectElements*>::get(),
+                        "InsertVertices",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 4>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::Face*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::WingedEdge*>*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<ByRef<::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*>>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<bool, false>(nullptr, ___internal_method, face, edges, vertices, data);
 }
-inline ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*>*
-UnityEngine::ProBuilder::MeshOperations::ConnectElements::ConnectIndexesPerFace(::UnityEngine::ProBuilder::Face* face, int32_t a, int32_t b,
-                                                                                ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>* vertices,
-                                                                                ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* lookup) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::ConnectElements*>::get(), "ConnectIndexesPerFace", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::Face*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<int32_t, int32_t>*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*>*, false>(nullptr, ___internal_method, face, a,
-                                                                                                                                                                 b, vertices, lookup);
+inline ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*>* UnityEngine::ProBuilder::MeshOperations::ConnectElements::ConnectIndexesPerFace(::UnityEngine::ProBuilder::Face*  face, int32_t  a, int32_t  b, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*  vertices, ::System::Collections::Generic::Dictionary_2<int32_t,int32_t>*  lookup)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::ConnectElements*>::get(),
+                        "ConnectIndexesPerFace",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 5>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::Face*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<int32_t,int32_t>*>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*>*, false>(nullptr, ___internal_method, face, a, b, vertices, lookup);
 }
-inline ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*>*
-UnityEngine::ProBuilder::MeshOperations::ConnectElements::ConnectIndexesPerFace(::UnityEngine::ProBuilder::Face* face, ::System::Collections::Generic::List_1<int32_t>* indexes,
-                                                                                ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>* vertices,
-                                                                                ::System::Collections::Generic::Dictionary_2<int32_t, int32_t>* lookup, int32_t sharedIndexOffset) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::ConnectElements*>::get(), "ConnectIndexesPerFace", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 5>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::Face*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<int32_t>*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<int32_t, int32_t>*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get() })));
-  return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*>*, false>(
-      nullptr, ___internal_method, face, indexes, vertices, lookup, sharedIndexOffset);
+inline ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*>* UnityEngine::ProBuilder::MeshOperations::ConnectElements::ConnectIndexesPerFace(::UnityEngine::ProBuilder::Face*  face, ::System::Collections::Generic::List_1<int32_t>*  indexes, ::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*  vertices, ::System::Collections::Generic::Dictionary_2<int32_t,int32_t>*  lookup, int32_t  sharedIndexOffset)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::ProBuilder::MeshOperations::ConnectElements*>::get(),
+                        "ConnectIndexesPerFace",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 5>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::UnityEngine::ProBuilder::Face*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<int32_t>*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::Vertex*>*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Collections::Generic::Dictionary_2<int32_t,int32_t>*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<int32_t>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<::System::Collections::Generic::List_1<::UnityEngine::ProBuilder::MeshOperations::ConnectFaceRebuildData*>*, false>(nullptr, ___internal_method, face, indexes, vertices, lookup, sharedIndexOffset);
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::ProBuilder::MeshOperations::ConnectElements::ConnectElements() {}
+constexpr ::UnityEngine::ProBuilder::MeshOperations::ConnectElements::ConnectElements()   {
+}

@@ -23,57 +23,57 @@ class IOException;
 // Write type traits
 MARK_REF_PTR_T(::System::IO::IOException);
 // Type: System.IO::IOException
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::IO {
 // Is value type: false
 // CS Name: ::System.IO::IOException*
 class CORDL_TYPE IOException : public ::System::SystemException {
 public:
-  // Declarations
-  static inline ::System::IO::IOException* New_ctor();
+// Declarations
+static inline ::System::IO::IOException* New_ctor() ;
 
-  static inline ::System::IO::IOException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
+static inline ::System::IO::IOException* New_ctor(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context) ;
 
-  static inline ::System::IO::IOException* New_ctor(::StringW message);
+static inline ::System::IO::IOException* New_ctor(::StringW  message) ;
 
-  static inline ::System::IO::IOException* New_ctor(::StringW message, int32_t hresult);
+static inline ::System::IO::IOException* New_ctor(::StringW  message, int32_t  hresult) ;
 
-  static inline ::System::IO::IOException* New_ctor(::StringW message, ::System::Exception* innerException);
+static inline ::System::IO::IOException* New_ctor(::StringW  message, ::System::Exception*  innerException) ;
 
-  /// @brief Method .ctor, addr 0x28aa080, size 0x5c, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x3ca73ac, size 0x5c, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method .ctor, addr 0x28a943c, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
+/// @brief Method .ctor, addr 0x3ca6788, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context) ;
 
-  /// @brief Method .ctor, addr 0x28a93ec, size 0x24, virtual false, abstract: false, final false
-  inline void _ctor(::StringW message);
+/// @brief Method .ctor, addr 0x3ca6738, size 0x24, virtual false, abstract: false, final false
+inline void _ctor(::StringW  message) ;
 
-  /// @brief Method .ctor, addr 0x28aa0dc, size 0x28, virtual false, abstract: false, final false
-  inline void _ctor(::StringW message, int32_t hresult);
+/// @brief Method .ctor, addr 0x3ca7408, size 0x28, virtual false, abstract: false, final false
+inline void _ctor(::StringW  message, int32_t  hresult) ;
 
-  /// @brief Method .ctor, addr 0x28aa104, size 0x24, virtual false, abstract: false, final false
-  inline void _ctor(::StringW message, ::System::Exception* innerException);
+/// @brief Method .ctor, addr 0x3ca7430, size 0x24, virtual false, abstract: false, final false
+inline void _ctor(::StringW  message, ::System::Exception*  innerException) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr IOException();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr IOException() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "IOException", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  IOException(IOException&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "IOException", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  IOException(IOException const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "IOException", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+IOException(IOException && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "IOException", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+IOException(IOException const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::IO::IOException, 0x90>, "Size mismatch!");
 
-} // namespace System::IO
+} // namespace end def System::IO
 NEED_NO_BOX(::System::IO::IOException);
 DEFINE_IL2CPP_ARG_TYPE(::System::IO::IOException*, "System.IO", "IOException");

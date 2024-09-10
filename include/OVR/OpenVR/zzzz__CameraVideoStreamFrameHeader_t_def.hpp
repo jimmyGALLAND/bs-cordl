@@ -21,45 +21,42 @@ struct CameraVideoStreamFrameHeader_t;
 // Write type traits
 MARK_VAL_T(::OVR::OpenVR::CameraVideoStreamFrameHeader_t);
 // Type: OVR.OpenVR::CameraVideoStreamFrameHeader_t
-// SizeInfo { instance_size: 100, native_size: 100, calculated_instance_size: 100, calculated_native_size: 116, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 100, native_size: 100, calculated_instance_size: 100, calculated_native_size: 116, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
 // CS Name: ::OVR.OpenVR::CameraVideoStreamFrameHeader_t
 struct CORDL_TYPE CameraVideoStreamFrameHeader_t {
 public:
-  // Declarations
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CameraVideoStreamFrameHeader_t();
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr CameraVideoStreamFrameHeader_t() ;
 
-  // Ctor Parameters [CppParam { name: "eFrameType", ty: "::OVR::OpenVR::EVRTrackedCameraFrameType", modifiers: "", def_value: None }, CppParam { name: "nWidth", ty: "uint32_t", modifiers: "",
-  // def_value: None }, CppParam { name: "nHeight", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "nBytesPerPixel", ty: "uint32_t", modifiers: "", def_value: None }, CppParam {
-  // name: "nFrameSequence", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "standingTrackedDevicePose", ty: "::OVR::OpenVR::TrackedDevicePose_t", modifiers: "", def_value: None }]
-  constexpr CameraVideoStreamFrameHeader_t(::OVR::OpenVR::EVRTrackedCameraFrameType eFrameType, uint32_t nWidth, uint32_t nHeight, uint32_t nBytesPerPixel, uint32_t nFrameSequence,
-                                           ::OVR::OpenVR::TrackedDevicePose_t standingTrackedDevicePose) noexcept;
+// Ctor Parameters [CppParam { name: "eFrameType", ty: "::OVR::OpenVR::EVRTrackedCameraFrameType", modifiers: "", def_value: None }, CppParam { name: "nWidth", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "nHeight", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "nBytesPerPixel", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "nFrameSequence", ty: "uint32_t", modifiers: "", def_value: None }, CppParam { name: "standingTrackedDevicePose", ty: "::OVR::OpenVR::TrackedDevicePose_t", modifiers: "", def_value: None }]
+constexpr CameraVideoStreamFrameHeader_t(::OVR::OpenVR::EVRTrackedCameraFrameType  eFrameType, uint32_t  nWidth, uint32_t  nHeight, uint32_t  nBytesPerPixel, uint32_t  nFrameSequence, ::OVR::OpenVR::TrackedDevicePose_t  standingTrackedDevicePose) noexcept;
 
-  /// @brief Field eFrameType, offset: 0x0, size: 0x4, def value: None
-  ::OVR::OpenVR::EVRTrackedCameraFrameType eFrameType;
+/// @brief Field eFrameType, offset: 0x0, size: 0x4, def value: None
+ ::OVR::OpenVR::EVRTrackedCameraFrameType  eFrameType;
 
-  /// @brief Field nWidth, offset: 0x4, size: 0x4, def value: None
-  uint32_t nWidth;
+/// @brief Field nWidth, offset: 0x4, size: 0x4, def value: None
+ uint32_t  nWidth;
 
-  /// @brief Field nHeight, offset: 0x8, size: 0x4, def value: None
-  uint32_t nHeight;
+/// @brief Field nHeight, offset: 0x8, size: 0x4, def value: None
+ uint32_t  nHeight;
 
-  /// @brief Field nBytesPerPixel, offset: 0xc, size: 0x4, def value: None
-  uint32_t nBytesPerPixel;
+/// @brief Field nBytesPerPixel, offset: 0xc, size: 0x4, def value: None
+ uint32_t  nBytesPerPixel;
 
-  /// @brief Field nFrameSequence, offset: 0x10, size: 0x4, def value: None
-  uint32_t nFrameSequence;
+/// @brief Field nFrameSequence, offset: 0x10, size: 0x4, def value: None
+ uint32_t  nFrameSequence;
 
-  /// @brief Field standingTrackedDevicePose, offset: 0x14, size: 0x50, def value: None
-  ::OVR::OpenVR::TrackedDevicePose_t standingTrackedDevicePose;
+/// @brief Field standingTrackedDevicePose, offset: 0x14, size: 0x50, def value: None
+ ::OVR::OpenVR::TrackedDevicePose_t  standingTrackedDevicePose;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x64 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x64};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::CameraVideoStreamFrameHeader_t, 0x64>, "Size mismatch!");
@@ -76,5 +73,5 @@ static_assert(offsetof(::OVR::OpenVR::CameraVideoStreamFrameHeader_t, nFrameSequ
 
 static_assert(offsetof(::OVR::OpenVR::CameraVideoStreamFrameHeader_t, standingTrackedDevicePose) == 0x14, "Offset mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::CameraVideoStreamFrameHeader_t, "OVR.OpenVR", "CameraVideoStreamFrameHeader_t");

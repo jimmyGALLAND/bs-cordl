@@ -6,114 +6,169 @@ CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
 #include "beatsaber-hook/shared/utils/byref.hpp"
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
+#include <cstddef>
 #include <cstdint>
 CORDL_MODULE_EXPORT(StyleVariableContext)
 namespace System::Collections::Generic {
-template <typename T> class List_1;
+template<typename T>
+class List_1;
 }
 namespace UnityEngine::UIElements {
 struct StyleVariable;
+}
+namespace UnityEngine::UIElements {
+struct __StyleVariableContext____c__DisplayClass7_0;
 }
 // Forward declare root types
 namespace UnityEngine::UIElements {
 class StyleVariableContext;
 }
+namespace UnityEngine::UIElements {
+struct __StyleVariableContext____c__DisplayClass7_0;
+}
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::StyleVariableContext);
+MARK_VAL_T(::UnityEngine::UIElements::__StyleVariableContext____c__DisplayClass7_0);
+// Type: ::<>c__DisplayClass7_0
+// SizeInfo { instance_size: 4, native_size: -1, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
+namespace UnityEngine::UIElements {
+// Is value type: true
+// CS Name: ::StyleVariableContext::<>c__DisplayClass7_0
+struct CORDL_TYPE __StyleVariableContext____c__DisplayClass7_0 {
+public:
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr __StyleVariableContext____c__DisplayClass7_0() ;
+
+// Ctor Parameters [CppParam { name: "hash", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr __StyleVariableContext____c__DisplayClass7_0(int32_t  hash) noexcept;
+
+/// @brief Field hash, offset: 0x0, size: 0x4, def value: None
+ int32_t  hash;
+
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x4};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+};
+// Non member Declarations
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__StyleVariableContext____c__DisplayClass7_0, 0x4>, "Size mismatch!");
+
+static_assert(offsetof(::UnityEngine::UIElements::__StyleVariableContext____c__DisplayClass7_0, hash) == 0x0, "Offset mismatch!");
+
+} // namespace end def UnityEngine::UIElements
 // Type: UnityEngine.UIElements::StyleVariableContext
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: ::UnityEngine.UIElements::StyleVariableContext*
 class CORDL_TYPE StyleVariableContext : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field m_SortedHash, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_SortedHash, put = __cordl_internal_set_m_SortedHash))::System::Collections::Generic::List_1<int32_t>* m_SortedHash;
+// Declarations
+using __c__DisplayClass7_0 = ::UnityEngine::UIElements::__StyleVariableContext____c__DisplayClass7_0;
 
-  /// @brief Field m_VariableHash, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_VariableHash, put = __cordl_internal_set_m_VariableHash)) int32_t m_VariableHash;
+/// @brief Field m_SortedHash, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_SortedHash, put=__cordl_internal_set_m_SortedHash)) ::System::Collections::Generic::List_1<int32_t>*  m_SortedHash;
 
-  /// @brief Field m_Variables, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Variables, put = __cordl_internal_set_m_Variables))::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleVariable>* m_Variables;
+/// @brief Field m_UnsortedHash, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_UnsortedHash, put=__cordl_internal_set_m_UnsortedHash)) ::System::Collections::Generic::List_1<int32_t>*  m_UnsortedHash;
 
-  /// @brief Field none, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_none, put = setStaticF_none))::UnityEngine::UIElements::StyleVariableContext* none;
+/// @brief Field m_VariableHash, offset 0x10, size 0x4 
+ __declspec(property(get=__cordl_internal_get_m_VariableHash, put=__cordl_internal_set_m_VariableHash)) int32_t  m_VariableHash;
 
-  /// @brief Method Add, addr 0x35ffd98, size 0x1a0, virtual false, abstract: false, final false
-  inline void Add(::UnityEngine::UIElements::StyleVariable sv);
+/// @brief Field m_Variables, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_Variables, put=__cordl_internal_set_m_Variables)) ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleVariable>*  m_Variables;
 
-  /// @brief Method AddInitialRange, addr 0x35fff38, size 0xf8, virtual false, abstract: false, final false
-  inline void AddInitialRange(::UnityEngine::UIElements::StyleVariableContext* other);
+/// @brief Field none, offset 0xffffffff, size 0x8 
+static __declspec(property(get=getStaticF_none, put=setStaticF_none)) ::UnityEngine::UIElements::StyleVariableContext*  none;
 
-  /// @brief Method Clear, addr 0x3600030, size 0x9c, virtual false, abstract: false, final false
-  inline void Clear();
+/// @brief Method Add, addr 0x49f889c, size 0x310, virtual false, abstract: false, final false
+inline void Add(::UnityEngine::UIElements::StyleVariable  sv) ;
 
-  /// @brief Method GetVariableHash, addr 0x360036c, size 0x8, virtual false, abstract: false, final false
-  inline int32_t GetVariableHash();
+/// @brief Method AddInitialRange, addr 0x49f8bbc, size 0x10c, virtual false, abstract: false, final false
+inline void AddInitialRange(::UnityEngine::UIElements::StyleVariableContext*  other) ;
 
-  static inline ::UnityEngine::UIElements::StyleVariableContext* New_ctor();
+/// @brief Method Clear, addr 0x49f8cc8, size 0xb0, virtual false, abstract: false, final false
+inline void Clear() ;
 
-  static inline ::UnityEngine::UIElements::StyleVariableContext* New_ctor(::UnityEngine::UIElements::StyleVariableContext* other);
+/// @brief Method GetVariableHash, addr 0x49f9054, size 0x8, virtual false, abstract: false, final false
+inline int32_t GetVariableHash() ;
 
-  /// @brief Method TryFindVariable, addr 0x3600280, size 0xec, virtual false, abstract: false, final false
-  inline bool TryFindVariable(::StringW name, ByRef<::UnityEngine::UIElements::StyleVariable> v);
+static inline ::UnityEngine::UIElements::StyleVariableContext* New_ctor() ;
 
-  constexpr ::System::Collections::Generic::List_1<int32_t>*& __cordl_internal_get_m_SortedHash();
+static inline ::UnityEngine::UIElements::StyleVariableContext* New_ctor(::UnityEngine::UIElements::StyleVariableContext*  other) ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<int32_t>*> const& __cordl_internal_get_m_SortedHash() const;
+/// @brief Method TryFindVariable, addr 0x49f8f68, size 0xec, virtual false, abstract: false, final false
+inline bool TryFindVariable(::StringW  name, ByRef<::UnityEngine::UIElements::StyleVariable>  v) ;
 
-  constexpr int32_t const& __cordl_internal_get_m_VariableHash() const;
+/// @brief Method <Add>g__ComputeOrderSensitiveHash|7_0, addr 0x49f8bac, size 0x10, virtual false, abstract: false, final false
+static inline int32_t _Add_g__ComputeOrderSensitiveHash_7_0(int32_t  index, ByRef<::UnityEngine::UIElements::__StyleVariableContext____c__DisplayClass7_0>  _cordl_fixed_empty_name_whitespace) ;
 
-  constexpr int32_t& __cordl_internal_get_m_VariableHash();
+constexpr ::System::Collections::Generic::List_1<int32_t>*& __cordl_internal_get_m_SortedHash() ;
 
-  constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleVariable>*& __cordl_internal_get_m_Variables();
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<int32_t>*> const& __cordl_internal_get_m_SortedHash() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleVariable>*> const& __cordl_internal_get_m_Variables() const;
+constexpr ::System::Collections::Generic::List_1<int32_t>*& __cordl_internal_get_m_UnsortedHash() ;
 
-  constexpr void __cordl_internal_set_m_SortedHash(::System::Collections::Generic::List_1<int32_t>* value);
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<int32_t>*> const& __cordl_internal_get_m_UnsortedHash() const;
 
-  constexpr void __cordl_internal_set_m_VariableHash(int32_t value);
+constexpr int32_t const& __cordl_internal_get_m_VariableHash() const;
 
-  constexpr void __cordl_internal_set_m_Variables(::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleVariable>* value);
+constexpr int32_t& __cordl_internal_get_m_VariableHash() ;
 
-  /// @brief Method .ctor, addr 0x36000cc, size 0xc8, virtual false, abstract: false, final false
-  inline void _ctor();
+constexpr ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleVariable>*& __cordl_internal_get_m_Variables() ;
 
-  /// @brief Method .ctor, addr 0x3600194, size 0xec, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::UIElements::StyleVariableContext* other);
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleVariable>*> const& __cordl_internal_get_m_Variables() const;
 
-  static inline ::UnityEngine::UIElements::StyleVariableContext* getStaticF_none();
+constexpr void __cordl_internal_set_m_SortedHash(::System::Collections::Generic::List_1<int32_t>*  value) ;
 
-  static inline void setStaticF_none(::UnityEngine::UIElements::StyleVariableContext* value);
+constexpr void __cordl_internal_set_m_UnsortedHash(::System::Collections::Generic::List_1<int32_t>*  value) ;
+
+constexpr void __cordl_internal_set_m_VariableHash(int32_t  value) ;
+
+constexpr void __cordl_internal_set_m_Variables(::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleVariable>*  value) ;
+
+/// @brief Method .ctor, addr 0x49f8d78, size 0xe4, virtual false, abstract: false, final false
+inline void _ctor() ;
+
+/// @brief Method .ctor, addr 0x49f8e5c, size 0x10c, virtual false, abstract: false, final false
+inline void _ctor(::UnityEngine::UIElements::StyleVariableContext*  other) ;
+
+static inline ::UnityEngine::UIElements::StyleVariableContext* getStaticF_none() ;
+
+static inline void setStaticF_none(::UnityEngine::UIElements::StyleVariableContext*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr StyleVariableContext();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr StyleVariableContext() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StyleVariableContext", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  StyleVariableContext(StyleVariableContext&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StyleVariableContext", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  StyleVariableContext(StyleVariableContext const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "StyleVariableContext", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+StyleVariableContext(StyleVariableContext && ) = delete;
 
-  /// @brief Field m_VariableHash, offset: 0x10, size: 0x4, def value: None
-  int32_t ___m_VariableHash;
+// Ctor Parameters [CppParam { name: "", ty: "StyleVariableContext", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+StyleVariableContext(StyleVariableContext const& ) = delete;
 
-  /// @brief Field m_Variables, offset: 0x18, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleVariable>* ___m_Variables;
+/// @brief Field m_VariableHash, offset: 0x10, size: 0x4, def value: None
+ int32_t  ___m_VariableHash;
 
-  /// @brief Field m_SortedHash, offset: 0x20, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<int32_t>* ___m_SortedHash;
+/// @brief Field m_Variables, offset: 0x18, size: 0x8, def value: None
+ ::System::Collections::Generic::List_1<::UnityEngine::UIElements::StyleVariable>*  ___m_Variables;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field m_SortedHash, offset: 0x20, size: 0x8, def value: None
+ ::System::Collections::Generic::List_1<int32_t>*  ___m_SortedHash;
+
+/// @brief Field m_UnsortedHash, offset: 0x28, size: 0x8, def value: None
+ ::System::Collections::Generic::List_1<int32_t>*  ___m_UnsortedHash;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::StyleVariableContext, 0x28>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::StyleVariableContext, 0x30>, "Size mismatch!");
 
 static_assert(offsetof(::UnityEngine::UIElements::StyleVariableContext, ___m_VariableHash) == 0x10, "Offset mismatch!");
 
@@ -121,6 +176,9 @@ static_assert(offsetof(::UnityEngine::UIElements::StyleVariableContext, ___m_Var
 
 static_assert(offsetof(::UnityEngine::UIElements::StyleVariableContext, ___m_SortedHash) == 0x20, "Offset mismatch!");
 
-} // namespace UnityEngine::UIElements
+static_assert(offsetof(::UnityEngine::UIElements::StyleVariableContext, ___m_UnsortedHash) == 0x28, "Offset mismatch!");
+
+} // namespace end def UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::StyleVariableContext);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::StyleVariableContext*, "UnityEngine.UIElements", "StyleVariableContext");
+DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::__StyleVariableContext____c__DisplayClass7_0, "UnityEngine.UIElements", "StyleVariableContext/<>c__DisplayClass7_0");

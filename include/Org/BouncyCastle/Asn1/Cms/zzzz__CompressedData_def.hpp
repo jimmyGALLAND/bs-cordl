@@ -33,99 +33,98 @@ class CompressedData;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Cms::CompressedData);
 // Type: Org.BouncyCastle.Asn1.Cms::CompressedData
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Cms {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Asn1.Cms::CompressedData*
 class CORDL_TYPE CompressedData : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
-  // Declarations
-  __declspec(property(get = get_CompressionAlgorithmIdentifier))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* CompressionAlgorithmIdentifier;
+// Declarations
+ __declspec(property(get=get_CompressionAlgorithmIdentifier)) ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*  CompressionAlgorithmIdentifier;
 
-  __declspec(property(get = get_EncapContentInfo))::Org::BouncyCastle::Asn1::Cms::ContentInfo* EncapContentInfo;
+ __declspec(property(get=get_EncapContentInfo)) ::Org::BouncyCastle::Asn1::Cms::ContentInfo*  EncapContentInfo;
 
-  __declspec(property(get = get_Version))::Org::BouncyCastle::Asn1::DerInteger* Version;
+ __declspec(property(get=get_Version)) ::Org::BouncyCastle::Asn1::DerInteger*  Version;
 
-  /// @brief Field compressionAlgorithm, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_compressionAlgorithm, put = __cordl_internal_set_compressionAlgorithm))::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* compressionAlgorithm;
+/// @brief Field compressionAlgorithm, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_compressionAlgorithm, put=__cordl_internal_set_compressionAlgorithm)) ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*  compressionAlgorithm;
 
-  /// @brief Field encapContentInfo, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_encapContentInfo, put = __cordl_internal_set_encapContentInfo))::Org::BouncyCastle::Asn1::Cms::ContentInfo* encapContentInfo;
+/// @brief Field encapContentInfo, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get_encapContentInfo, put=__cordl_internal_set_encapContentInfo)) ::Org::BouncyCastle::Asn1::Cms::ContentInfo*  encapContentInfo;
 
-  /// @brief Field version, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_version, put = __cordl_internal_set_version))::Org::BouncyCastle::Asn1::DerInteger* version;
+/// @brief Field version, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_version, put=__cordl_internal_set_version)) ::Org::BouncyCastle::Asn1::DerInteger*  version;
 
-  /// @brief Method GetInstance, addr 0x10e6c18, size 0x18, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Asn1::Cms::CompressedData* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* ato, bool explicitly);
+/// @brief Method GetInstance, addr 0x22b8298, size 0x18, virtual false, abstract: false, final false
+static inline ::Org::BouncyCastle::Asn1::Cms::CompressedData* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject*  ato, bool  explicitly) ;
 
-  /// @brief Method GetInstance, addr 0x10e6c30, size 0x178, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Asn1::Cms::CompressedData* GetInstance(::System::Object* obj);
+/// @brief Method GetInstance, addr 0x22b82b0, size 0x168, virtual false, abstract: false, final false
+static inline ::Org::BouncyCastle::Asn1::Cms::CompressedData* GetInstance(::System::Object*  obj) ;
 
-  static inline ::Org::BouncyCastle::Asn1::Cms::CompressedData* New_ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* compressionAlgorithm,
-                                                                         ::Org::BouncyCastle::Asn1::Cms::ContentInfo* encapContentInfo);
+static inline ::Org::BouncyCastle::Asn1::Cms::CompressedData* New_ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*  compressionAlgorithm, ::Org::BouncyCastle::Asn1::Cms::ContentInfo*  encapContentInfo) ;
 
-  static inline ::Org::BouncyCastle::Asn1::Cms::CompressedData* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
+static inline ::Org::BouncyCastle::Asn1::Cms::CompressedData* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence*  seq) ;
 
-  /// @brief Method ToAsn1Object, addr 0x10e6dc0, size 0x11c, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
+/// @brief Method ToAsn1Object, addr 0x22b8430, size 0x118, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object() ;
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __cordl_internal_get_compressionAlgorithm();
+constexpr ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*& __cordl_internal_get_compressionAlgorithm() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*> const& __cordl_internal_get_compressionAlgorithm() const;
+constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*> const& __cordl_internal_get_compressionAlgorithm() const;
 
-  constexpr ::Org::BouncyCastle::Asn1::Cms::ContentInfo*& __cordl_internal_get_encapContentInfo();
+constexpr ::Org::BouncyCastle::Asn1::Cms::ContentInfo*& __cordl_internal_get_encapContentInfo() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cms::ContentInfo*> const& __cordl_internal_get_encapContentInfo() const;
+constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cms::ContentInfo*> const& __cordl_internal_get_encapContentInfo() const;
 
-  constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __cordl_internal_get_version();
+constexpr ::Org::BouncyCastle::Asn1::DerInteger*& __cordl_internal_get_version() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& __cordl_internal_get_version() const;
+constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::DerInteger*> const& __cordl_internal_get_version() const;
 
-  constexpr void __cordl_internal_set_compressionAlgorithm(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* value);
+constexpr void __cordl_internal_set_compressionAlgorithm(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*  value) ;
 
-  constexpr void __cordl_internal_set_encapContentInfo(::Org::BouncyCastle::Asn1::Cms::ContentInfo* value);
+constexpr void __cordl_internal_set_encapContentInfo(::Org::BouncyCastle::Asn1::Cms::ContentInfo*  value) ;
 
-  constexpr void __cordl_internal_set_version(::Org::BouncyCastle::Asn1::DerInteger* value);
+constexpr void __cordl_internal_set_version(::Org::BouncyCastle::Asn1::DerInteger*  value) ;
 
-  /// @brief Method .ctor, addr 0x10e6a90, size 0x84, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* compressionAlgorithm, ::Org::BouncyCastle::Asn1::Cms::ContentInfo* encapContentInfo);
+/// @brief Method .ctor, addr 0x22b8118, size 0x7c, virtual false, abstract: false, final false
+inline void _ctor(::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*  compressionAlgorithm, ::Org::BouncyCastle::Asn1::Cms::ContentInfo*  encapContentInfo) ;
 
-  /// @brief Method .ctor, addr 0x10e6b14, size 0x104, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
+/// @brief Method .ctor, addr 0x22b8194, size 0x104, virtual false, abstract: false, final false
+inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence*  seq) ;
 
-  /// @brief Method get_CompressionAlgorithmIdentifier, addr 0x10e6db0, size 0x8, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_CompressionAlgorithmIdentifier();
+/// @brief Method get_CompressionAlgorithmIdentifier, addr 0x22b8420, size 0x8, virtual false, abstract: false, final false
+inline ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* get_CompressionAlgorithmIdentifier() ;
 
-  /// @brief Method get_EncapContentInfo, addr 0x10e6db8, size 0x8, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Cms::ContentInfo* get_EncapContentInfo();
+/// @brief Method get_EncapContentInfo, addr 0x22b8428, size 0x8, virtual false, abstract: false, final false
+inline ::Org::BouncyCastle::Asn1::Cms::ContentInfo* get_EncapContentInfo() ;
 
-  /// @brief Method get_Version, addr 0x10e6da8, size 0x8, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::DerInteger* get_Version();
+/// @brief Method get_Version, addr 0x22b8418, size 0x8, virtual false, abstract: false, final false
+inline ::Org::BouncyCastle::Asn1::DerInteger* get_Version() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CompressedData();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr CompressedData() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CompressedData", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  CompressedData(CompressedData&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CompressedData", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  CompressedData(CompressedData const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "CompressedData", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+CompressedData(CompressedData && ) = delete;
 
-  /// @brief Field version, offset: 0x10, size: 0x8, def value: None
-  ::Org::BouncyCastle::Asn1::DerInteger* ___version;
+// Ctor Parameters [CppParam { name: "", ty: "CompressedData", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+CompressedData(CompressedData const& ) = delete;
 
-  /// @brief Field compressionAlgorithm, offset: 0x18, size: 0x8, def value: None
-  ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier* ___compressionAlgorithm;
+/// @brief Field version, offset: 0x10, size: 0x8, def value: None
+ ::Org::BouncyCastle::Asn1::DerInteger*  ___version;
 
-  /// @brief Field encapContentInfo, offset: 0x20, size: 0x8, def value: None
-  ::Org::BouncyCastle::Asn1::Cms::ContentInfo* ___encapContentInfo;
+/// @brief Field compressionAlgorithm, offset: 0x18, size: 0x8, def value: None
+ ::Org::BouncyCastle::Asn1::X509::AlgorithmIdentifier*  ___compressionAlgorithm;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field encapContentInfo, offset: 0x20, size: 0x8, def value: None
+ ::Org::BouncyCastle::Asn1::Cms::ContentInfo*  ___encapContentInfo;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Cms::CompressedData, 0x28>, "Size mismatch!");
@@ -136,6 +135,6 @@ static_assert(offsetof(::Org::BouncyCastle::Asn1::Cms::CompressedData, ___compre
 
 static_assert(offsetof(::Org::BouncyCastle::Asn1::Cms::CompressedData, ___encapContentInfo) == 0x20, "Offset mismatch!");
 
-} // namespace Org::BouncyCastle::Asn1::Cms
+} // namespace end def Org::BouncyCastle::Asn1::Cms
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Cms::CompressedData);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::Cms::CompressedData*, "Org.BouncyCastle.Asn1.Cms", "CompressedData");

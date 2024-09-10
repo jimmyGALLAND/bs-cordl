@@ -19,35 +19,35 @@ class UnityWebRequestMultimedia;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::Networking::UnityWebRequestMultimedia);
 // Type: UnityEngine.Networking::UnityWebRequestMultimedia
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Networking {
 // Is value type: false
 // CS Name: ::UnityEngine.Networking::UnityWebRequestMultimedia*
 class CORDL_TYPE UnityWebRequestMultimedia : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method GetAudioClip, addr 0x3642160, size 0xc0, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Networking::UnityWebRequest* GetAudioClip(::StringW uri, ::UnityEngine::AudioType audioType);
+// Declarations
+/// @brief Method GetAudioClip, addr 0x4a4d4ac, size 0xbc, virtual false, abstract: false, final false
+static inline ::UnityEngine::Networking::UnityWebRequest* GetAudioClip(::StringW  uri, ::UnityEngine::AudioType  audioType) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr UnityWebRequestMultimedia();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr UnityWebRequestMultimedia() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UnityWebRequestMultimedia", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  UnityWebRequestMultimedia(UnityWebRequestMultimedia&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UnityWebRequestMultimedia", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  UnityWebRequestMultimedia(UnityWebRequestMultimedia const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "UnityWebRequestMultimedia", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+UnityWebRequestMultimedia(UnityWebRequestMultimedia && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "UnityWebRequestMultimedia", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+UnityWebRequestMultimedia(UnityWebRequestMultimedia const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Networking::UnityWebRequestMultimedia, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine::Networking
+} // namespace end def UnityEngine::Networking
 NEED_NO_BOX(::UnityEngine::Networking::UnityWebRequestMultimedia);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Networking::UnityWebRequestMultimedia*, "UnityEngine.Networking", "UnityWebRequestMultimedia");

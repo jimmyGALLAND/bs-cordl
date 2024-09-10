@@ -22,7 +22,8 @@ namespace GlobalNamespace {
 struct __ISonyCommerceHelper__GetAdditionalContentEntitlementsResult;
 }
 namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
+template<typename TResult>
+class Task_1;
 }
 namespace System::Threading {
 struct CancellationToken;
@@ -50,191 +51,189 @@ MARK_VAL_T(::GlobalNamespace::__ISonyCommerceHelper__GetAdditionalContentEntitle
 MARK_REF_PTR_T(::GlobalNamespace::ISonyCommerceHelper);
 MARK_VAL_T(::GlobalNamespace::__ISonyCommerceHelper__AdditionalContentEntitlementsAsyncResult);
 // Type: ::DisplayProductBrowseDialogResult
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::ISonyCommerceHelper::DisplayProductBrowseDialogResult
 struct CORDL_TYPE __ISonyCommerceHelper__DisplayProductBrowseDialogResult {
 public:
-  // Declarations
-  using __CORDL_BACKING_ENUM_TYPE = int32_t;
+// Declarations
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct ____ISonyCommerceHelper__DisplayProductBrowseDialogResult_Unwrapped
-  enum struct ____ISonyCommerceHelper__DisplayProductBrowseDialogResult_Unwrapped : int32_t {
-    __E_OK = static_cast<int32_t>(0x0),
-    __E_Failed = static_cast<int32_t>(0x1),
-  };
+/// @brief Nested struct ____ISonyCommerceHelper__DisplayProductBrowseDialogResult_Unwrapped
+enum struct ____ISonyCommerceHelper__DisplayProductBrowseDialogResult_Unwrapped : int32_t {
+__E_OK = static_cast<int32_t>(0x0),
+__E_Failed = static_cast<int32_t>(0x1),
+};
 
-  /// @brief Conversion into unwrapped enum value
-  constexpr operator ____ISonyCommerceHelper__DisplayProductBrowseDialogResult_Unwrapped() const noexcept {
-    return static_cast<____ISonyCommerceHelper__DisplayProductBrowseDialogResult_Unwrapped>(this->value__);
-  }
+/// @brief Conversion into unwrapped enum value
+constexpr operator ____ISonyCommerceHelper__DisplayProductBrowseDialogResult_Unwrapped () const noexcept {
+return static_cast<____ISonyCommerceHelper__DisplayProductBrowseDialogResult_Unwrapped>(this->value__);
+}
 
-  /// @brief Conversion into unwrapped enum value
-  constexpr explicit operator int32_t() const noexcept {
-    return static_cast<int32_t>(this->value__);
-  }
+/// @brief Conversion into unwrapped enum value
+constexpr explicit operator int32_t () const noexcept {
+return static_cast<int32_t>(this->value__);
+}
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __ISonyCommerceHelper__DisplayProductBrowseDialogResult();
+// Ctor Parameters []
+// @brief default ctor
+constexpr __ISonyCommerceHelper__DisplayProductBrowseDialogResult() ;
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __ISonyCommerceHelper__DisplayProductBrowseDialogResult(int32_t value__) noexcept;
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr __ISonyCommerceHelper__DisplayProductBrowseDialogResult(int32_t  value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+/// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+ int32_t  value__;
 
-  /// @brief Field Failed value: static_cast<int32_t>(0x1)
-  static ::GlobalNamespace::__ISonyCommerceHelper__DisplayProductBrowseDialogResult const Failed;
+/// @brief Field Failed value: static_cast<int32_t>(0x1)
+static ::GlobalNamespace::__ISonyCommerceHelper__DisplayProductBrowseDialogResult const Failed;
 
-  /// @brief Field OK value: static_cast<int32_t>(0x0)
-  static ::GlobalNamespace::__ISonyCommerceHelper__DisplayProductBrowseDialogResult const OK;
+/// @brief Field OK value: static_cast<int32_t>(0x0)
+static ::GlobalNamespace::__ISonyCommerceHelper__DisplayProductBrowseDialogResult const OK;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x4};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__ISonyCommerceHelper__DisplayProductBrowseDialogResult, 0x4>, "Size mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::__ISonyCommerceHelper__DisplayProductBrowseDialogResult, value__) == 0x0, "Offset mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 // Type: ::DisplayCategoryBrowseDialogResult
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::ISonyCommerceHelper::DisplayCategoryBrowseDialogResult
 struct CORDL_TYPE __ISonyCommerceHelper__DisplayCategoryBrowseDialogResult {
 public:
-  // Declarations
-  using __CORDL_BACKING_ENUM_TYPE = int32_t;
+// Declarations
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct ____ISonyCommerceHelper__DisplayCategoryBrowseDialogResult_Unwrapped
-  enum struct ____ISonyCommerceHelper__DisplayCategoryBrowseDialogResult_Unwrapped : int32_t {
-    __E_OK = static_cast<int32_t>(0x0),
-    __E_Failed = static_cast<int32_t>(0x1),
-  };
+/// @brief Nested struct ____ISonyCommerceHelper__DisplayCategoryBrowseDialogResult_Unwrapped
+enum struct ____ISonyCommerceHelper__DisplayCategoryBrowseDialogResult_Unwrapped : int32_t {
+__E_OK = static_cast<int32_t>(0x0),
+__E_Failed = static_cast<int32_t>(0x1),
+};
 
-  /// @brief Conversion into unwrapped enum value
-  constexpr operator ____ISonyCommerceHelper__DisplayCategoryBrowseDialogResult_Unwrapped() const noexcept {
-    return static_cast<____ISonyCommerceHelper__DisplayCategoryBrowseDialogResult_Unwrapped>(this->value__);
-  }
+/// @brief Conversion into unwrapped enum value
+constexpr operator ____ISonyCommerceHelper__DisplayCategoryBrowseDialogResult_Unwrapped () const noexcept {
+return static_cast<____ISonyCommerceHelper__DisplayCategoryBrowseDialogResult_Unwrapped>(this->value__);
+}
 
-  /// @brief Conversion into unwrapped enum value
-  constexpr explicit operator int32_t() const noexcept {
-    return static_cast<int32_t>(this->value__);
-  }
+/// @brief Conversion into unwrapped enum value
+constexpr explicit operator int32_t () const noexcept {
+return static_cast<int32_t>(this->value__);
+}
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __ISonyCommerceHelper__DisplayCategoryBrowseDialogResult();
+// Ctor Parameters []
+// @brief default ctor
+constexpr __ISonyCommerceHelper__DisplayCategoryBrowseDialogResult() ;
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __ISonyCommerceHelper__DisplayCategoryBrowseDialogResult(int32_t value__) noexcept;
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr __ISonyCommerceHelper__DisplayCategoryBrowseDialogResult(int32_t  value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+/// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+ int32_t  value__;
 
-  /// @brief Field Failed value: static_cast<int32_t>(0x1)
-  static ::GlobalNamespace::__ISonyCommerceHelper__DisplayCategoryBrowseDialogResult const Failed;
+/// @brief Field Failed value: static_cast<int32_t>(0x1)
+static ::GlobalNamespace::__ISonyCommerceHelper__DisplayCategoryBrowseDialogResult const Failed;
 
-  /// @brief Field OK value: static_cast<int32_t>(0x0)
-  static ::GlobalNamespace::__ISonyCommerceHelper__DisplayCategoryBrowseDialogResult const OK;
+/// @brief Field OK value: static_cast<int32_t>(0x0)
+static ::GlobalNamespace::__ISonyCommerceHelper__DisplayCategoryBrowseDialogResult const OK;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x4};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__ISonyCommerceHelper__DisplayCategoryBrowseDialogResult, 0x4>, "Size mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::__ISonyCommerceHelper__DisplayCategoryBrowseDialogResult, value__) == 0x0, "Offset mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 // Type: ::GetAdditionalContentEntitlementsResult
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::ISonyCommerceHelper::GetAdditionalContentEntitlementsResult
 struct CORDL_TYPE __ISonyCommerceHelper__GetAdditionalContentEntitlementsResult {
 public:
-  // Declarations
-  using __CORDL_BACKING_ENUM_TYPE = int32_t;
+// Declarations
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct ____ISonyCommerceHelper__GetAdditionalContentEntitlementsResult_Unwrapped
-  enum struct ____ISonyCommerceHelper__GetAdditionalContentEntitlementsResult_Unwrapped : int32_t {
-    __E_OK = static_cast<int32_t>(0x0),
-    __E_Failed = static_cast<int32_t>(0x1),
-  };
+/// @brief Nested struct ____ISonyCommerceHelper__GetAdditionalContentEntitlementsResult_Unwrapped
+enum struct ____ISonyCommerceHelper__GetAdditionalContentEntitlementsResult_Unwrapped : int32_t {
+__E_OK = static_cast<int32_t>(0x0),
+__E_Failed = static_cast<int32_t>(0x1),
+};
 
-  /// @brief Conversion into unwrapped enum value
-  constexpr operator ____ISonyCommerceHelper__GetAdditionalContentEntitlementsResult_Unwrapped() const noexcept {
-    return static_cast<____ISonyCommerceHelper__GetAdditionalContentEntitlementsResult_Unwrapped>(this->value__);
-  }
+/// @brief Conversion into unwrapped enum value
+constexpr operator ____ISonyCommerceHelper__GetAdditionalContentEntitlementsResult_Unwrapped () const noexcept {
+return static_cast<____ISonyCommerceHelper__GetAdditionalContentEntitlementsResult_Unwrapped>(this->value__);
+}
 
-  /// @brief Conversion into unwrapped enum value
-  constexpr explicit operator int32_t() const noexcept {
-    return static_cast<int32_t>(this->value__);
-  }
+/// @brief Conversion into unwrapped enum value
+constexpr explicit operator int32_t () const noexcept {
+return static_cast<int32_t>(this->value__);
+}
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __ISonyCommerceHelper__GetAdditionalContentEntitlementsResult();
+// Ctor Parameters []
+// @brief default ctor
+constexpr __ISonyCommerceHelper__GetAdditionalContentEntitlementsResult() ;
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __ISonyCommerceHelper__GetAdditionalContentEntitlementsResult(int32_t value__) noexcept;
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr __ISonyCommerceHelper__GetAdditionalContentEntitlementsResult(int32_t  value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+/// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+ int32_t  value__;
 
-  /// @brief Field Failed value: static_cast<int32_t>(0x1)
-  static ::GlobalNamespace::__ISonyCommerceHelper__GetAdditionalContentEntitlementsResult const Failed;
+/// @brief Field Failed value: static_cast<int32_t>(0x1)
+static ::GlobalNamespace::__ISonyCommerceHelper__GetAdditionalContentEntitlementsResult const Failed;
 
-  /// @brief Field OK value: static_cast<int32_t>(0x0)
-  static ::GlobalNamespace::__ISonyCommerceHelper__GetAdditionalContentEntitlementsResult const OK;
+/// @brief Field OK value: static_cast<int32_t>(0x0)
+static ::GlobalNamespace::__ISonyCommerceHelper__GetAdditionalContentEntitlementsResult const OK;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x4};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__ISonyCommerceHelper__GetAdditionalContentEntitlementsResult, 0x4>, "Size mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::__ISonyCommerceHelper__GetAdditionalContentEntitlementsResult, value__) == 0x0, "Offset mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 // Type: ::AdditionalContentEntitlementsAsyncResult
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::ISonyCommerceHelper::AdditionalContentEntitlementsAsyncResult
 struct CORDL_TYPE __ISonyCommerceHelper__AdditionalContentEntitlementsAsyncResult {
 public:
-  // Declarations
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __ISonyCommerceHelper__AdditionalContentEntitlementsAsyncResult();
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr __ISonyCommerceHelper__AdditionalContentEntitlementsAsyncResult() ;
 
-  // Ctor Parameters [CppParam { name: "result", ty: "::GlobalNamespace::__ISonyCommerceHelper__GetAdditionalContentEntitlementsResult", modifiers: "", def_value: None }, CppParam { name:
-  // "entitlementsLabels", ty: "::ArrayW<::StringW,::Array<::StringW>*>", modifiers: "", def_value: None }]
-  constexpr __ISonyCommerceHelper__AdditionalContentEntitlementsAsyncResult(::GlobalNamespace::__ISonyCommerceHelper__GetAdditionalContentEntitlementsResult result,
-                                                                            ::ArrayW<::StringW, ::Array<::StringW>*> entitlementsLabels) noexcept;
+// Ctor Parameters [CppParam { name: "result", ty: "::GlobalNamespace::__ISonyCommerceHelper__GetAdditionalContentEntitlementsResult", modifiers: "", def_value: None }, CppParam { name: "entitlementsLabels", ty: "::ArrayW<::StringW,::Array<::StringW>*>", modifiers: "", def_value: None }]
+constexpr __ISonyCommerceHelper__AdditionalContentEntitlementsAsyncResult(::GlobalNamespace::__ISonyCommerceHelper__GetAdditionalContentEntitlementsResult  result, ::ArrayW<::StringW,::Array<::StringW>*>  entitlementsLabels) noexcept;
 
-  /// @brief Field result, offset: 0x0, size: 0x4, def value: None
-  ::GlobalNamespace::__ISonyCommerceHelper__GetAdditionalContentEntitlementsResult result;
+/// @brief Field result, offset: 0x0, size: 0x4, def value: None
+ ::GlobalNamespace::__ISonyCommerceHelper__GetAdditionalContentEntitlementsResult  result;
 
-  /// @brief Field entitlementsLabels, offset: 0x8, size: 0x8, def value: None
-  ::ArrayW<::StringW, ::Array<::StringW>*> entitlementsLabels;
+/// @brief Field entitlementsLabels, offset: 0x8, size: 0x8, def value: None
+ ::ArrayW<::StringW,::Array<::StringW>*>  entitlementsLabels;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x10};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__ISonyCommerceHelper__AdditionalContentEntitlementsAsyncResult, 0x10>, "Size mismatch!");
@@ -243,47 +242,44 @@ static_assert(offsetof(::GlobalNamespace::__ISonyCommerceHelper__AdditionalConte
 
 static_assert(offsetof(::GlobalNamespace::__ISonyCommerceHelper__AdditionalContentEntitlementsAsyncResult, entitlementsLabels) == 0x8, "Offset mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 // Type: ::ISonyCommerceHelper
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::ISonyCommerceHelper*
 class CORDL_TYPE ISonyCommerceHelper {
 public:
-  // Declarations
-  using AdditionalContentEntitlementsAsyncResult = ::GlobalNamespace::__ISonyCommerceHelper__AdditionalContentEntitlementsAsyncResult;
+// Declarations
+using AdditionalContentEntitlementsAsyncResult = ::GlobalNamespace::__ISonyCommerceHelper__AdditionalContentEntitlementsAsyncResult;
 
-  using DisplayCategoryBrowseDialogResult = ::GlobalNamespace::__ISonyCommerceHelper__DisplayCategoryBrowseDialogResult;
+using DisplayCategoryBrowseDialogResult = ::GlobalNamespace::__ISonyCommerceHelper__DisplayCategoryBrowseDialogResult;
 
-  using DisplayProductBrowseDialogResult = ::GlobalNamespace::__ISonyCommerceHelper__DisplayProductBrowseDialogResult;
+using DisplayProductBrowseDialogResult = ::GlobalNamespace::__ISonyCommerceHelper__DisplayProductBrowseDialogResult;
 
-  using GetAdditionalContentEntitlementsResult = ::GlobalNamespace::__ISonyCommerceHelper__GetAdditionalContentEntitlementsResult;
+using GetAdditionalContentEntitlementsResult = ::GlobalNamespace::__ISonyCommerceHelper__GetAdditionalContentEntitlementsResult;
 
-  /// @brief Method DisplayCategoryBrowseDialogAsync, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::__ISonyCommerceHelper__DisplayCategoryBrowseDialogResult>*
-  DisplayCategoryBrowseDialogAsync(::StringW categoryLabel, ::System::Threading::CancellationToken token);
+/// @brief Method DisplayCategoryBrowseDialogAsync, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::__ISonyCommerceHelper__DisplayCategoryBrowseDialogResult>* DisplayCategoryBrowseDialogAsync(::StringW  categoryLabel, ::System::Threading::CancellationToken  token) ;
 
-  /// @brief Method DisplayProductBrowseDialogAsync, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::__ISonyCommerceHelper__DisplayProductBrowseDialogResult>* DisplayProductBrowseDialogAsync(::StringW productLabel,
-                                                                                                                                                         ::System::Threading::CancellationToken token);
+/// @brief Method DisplayProductBrowseDialogAsync, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::__ISonyCommerceHelper__DisplayProductBrowseDialogResult>* DisplayProductBrowseDialogAsync(::StringW  productLabel, ::System::Threading::CancellationToken  token) ;
 
-  /// @brief Method GetAdditionalContentEntitlementsAsync, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::__ISonyCommerceHelper__AdditionalContentEntitlementsAsyncResult>*
-  GetAdditionalContentEntitlementsAsync(::System::Threading::CancellationToken cancellationToken);
+/// @brief Method GetAdditionalContentEntitlementsAsync, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+inline ::System::Threading::Tasks::Task_1<::GlobalNamespace::__ISonyCommerceHelper__AdditionalContentEntitlementsAsyncResult>* GetAdditionalContentEntitlementsAsync(::System::Threading::CancellationToken  cancellationToken) ;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ISonyCommerceHelper", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ISonyCommerceHelper(ISonyCommerceHelper&&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ISonyCommerceHelper", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ISonyCommerceHelper(ISonyCommerceHelper && ) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ISonyCommerceHelper", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ISonyCommerceHelper(ISonyCommerceHelper const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ISonyCommerceHelper", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ISonyCommerceHelper(ISonyCommerceHelper const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__ISonyCommerceHelper__DisplayCategoryBrowseDialogResult, "", "ISonyCommerceHelper/DisplayCategoryBrowseDialogResult");
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__ISonyCommerceHelper__DisplayProductBrowseDialogResult, "", "ISonyCommerceHelper/DisplayProductBrowseDialogResult");
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__ISonyCommerceHelper__GetAdditionalContentEntitlementsResult, "", "ISonyCommerceHelper/GetAdditionalContentEntitlementsResult");

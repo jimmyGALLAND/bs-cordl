@@ -19,40 +19,40 @@ class AndroidJavaRunnable;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::AndroidJavaRunnable);
 // Type: UnityEngine::AndroidJavaRunnable
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
 // CS Name: ::UnityEngine::AndroidJavaRunnable*
 class CORDL_TYPE AndroidJavaRunnable : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method Invoke, addr 0x33f0ed8, size 0x14, virtual true, abstract: false, final false
-  inline void Invoke();
+// Declarations
+/// @brief Method Invoke, addr 0x47b3584, size 0x14, virtual true, abstract: false, final false
+inline void Invoke() ;
 
-  static inline ::UnityEngine::AndroidJavaRunnable* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::UnityEngine::AndroidJavaRunnable* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x33f0e1c, size 0xbc, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x47b34fc, size 0x88, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AndroidJavaRunnable();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr AndroidJavaRunnable() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AndroidJavaRunnable", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  AndroidJavaRunnable(AndroidJavaRunnable&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AndroidJavaRunnable", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  AndroidJavaRunnable(AndroidJavaRunnable const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "AndroidJavaRunnable", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+AndroidJavaRunnable(AndroidJavaRunnable && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "AndroidJavaRunnable", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+AndroidJavaRunnable(AndroidJavaRunnable const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::AndroidJavaRunnable, 0x80>, "Size mismatch!");
 
-} // namespace UnityEngine
+} // namespace end def UnityEngine
 NEED_NO_BOX(::UnityEngine::AndroidJavaRunnable);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::AndroidJavaRunnable*, "UnityEngine", "AndroidJavaRunnable");

@@ -7,87 +7,101 @@
 #include "System/zzzz__UnhandledExceptionEventHandler_def.hpp"
 #include "UnityEngine/zzzz__UnhandledExceptionHandler_def.hpp"
 //  Writing Method size for method: ::UnityEngine::__UnhandledExceptionHandler____c._ctor
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::__UnhandledExceptionHandler____c::*)()>(
-    &::UnityEngine::__UnhandledExceptionHandler____c::_ctor)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::__UnhandledExceptionHandler____c::*)()>(&::UnityEngine::__UnhandledExceptionHandler____c::_ctor)> {
   constexpr static std::size_t size = 0x8;
-  constexpr static std::size_t addrs = 0x344980c;
+  constexpr static std::size_t addrs = 0x481da20;
 
   inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__UnhandledExceptionHandler____c*>::get(), ".ctor",
-                                                                               std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__UnhandledExceptionHandler____c*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
 //  Writing Method size for method: ::UnityEngine::__UnhandledExceptionHandler____c._RegisterUECatcher_b__0_0
-template <>
+template<>
 
-struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::__UnhandledExceptionHandler____c::*)(::System::Object*, ::System::UnhandledExceptionEventArgs*)>(
-    &::UnityEngine::__UnhandledExceptionHandler____c::_RegisterUECatcher_b__0_0)> {
+struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (::UnityEngine::__UnhandledExceptionHandler____c::*)(::System::Object*, ::System::UnhandledExceptionEventArgs*)>(&::UnityEngine::__UnhandledExceptionHandler____c::_RegisterUECatcher_b__0_0)> {
   constexpr static std::size_t size = 0xb4;
-  constexpr static std::size_t addrs = 0x3449814;
+  constexpr static std::size_t addrs = 0x481da28;
 
   inline static const ::MethodInfo* methodInfo() {
     static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__UnhandledExceptionHandler____c*>::get(), "<RegisterUECatcher>b__0_0", std::span<Il2CppClass const* const, 0>(),
-        ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
-                                            ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::UnhandledExceptionEventArgs*>::get() })));
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__UnhandledExceptionHandler____c*>::get(),
+                        "<RegisterUECatcher>b__0_0",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::UnhandledExceptionEventArgs*>::get()}
+                    )));
     return ___internal_method;
   }
 };
-inline void UnityEngine::__UnhandledExceptionHandler____c::setStaticF___9(::UnityEngine::__UnhandledExceptionHandler____c* value) {
-  ::cordl_internals::setStaticField<::UnityEngine::__UnhandledExceptionHandler____c*, "<>9",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__UnhandledExceptionHandler____c*>::get>(
-      std::forward<::UnityEngine::__UnhandledExceptionHandler____c*>(value));
+inline void UnityEngine::__UnhandledExceptionHandler____c::setStaticF___9(::UnityEngine::__UnhandledExceptionHandler____c*  value)  {
+::cordl_internals::setStaticField<::UnityEngine::__UnhandledExceptionHandler____c*, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__UnhandledExceptionHandler____c*>::get>(std::forward<::UnityEngine::__UnhandledExceptionHandler____c*>(value));
 }
-inline ::UnityEngine::__UnhandledExceptionHandler____c* UnityEngine::__UnhandledExceptionHandler____c::getStaticF___9() {
-  return ::cordl_internals::getStaticField<::UnityEngine::__UnhandledExceptionHandler____c*, "<>9",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__UnhandledExceptionHandler____c*>::get>();
+inline ::UnityEngine::__UnhandledExceptionHandler____c* UnityEngine::__UnhandledExceptionHandler____c::getStaticF___9()  {
+return ::cordl_internals::getStaticField<::UnityEngine::__UnhandledExceptionHandler____c*, "<>9", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__UnhandledExceptionHandler____c*>::get>();
 }
-inline void UnityEngine::__UnhandledExceptionHandler____c::setStaticF___9__0_0(::System::UnhandledExceptionEventHandler* value) {
-  ::cordl_internals::setStaticField<::System::UnhandledExceptionEventHandler*, "<>9__0_0",
-                                    ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__UnhandledExceptionHandler____c*>::get>(
-      std::forward<::System::UnhandledExceptionEventHandler*>(value));
+inline void UnityEngine::__UnhandledExceptionHandler____c::setStaticF___9__0_0(::System::UnhandledExceptionEventHandler*  value)  {
+::cordl_internals::setStaticField<::System::UnhandledExceptionEventHandler*, "<>9__0_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__UnhandledExceptionHandler____c*>::get>(std::forward<::System::UnhandledExceptionEventHandler*>(value));
 }
-inline ::System::UnhandledExceptionEventHandler* UnityEngine::__UnhandledExceptionHandler____c::getStaticF___9__0_0() {
-  return ::cordl_internals::getStaticField<::System::UnhandledExceptionEventHandler*, "<>9__0_0",
-                                           ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__UnhandledExceptionHandler____c*>::get>();
+inline ::System::UnhandledExceptionEventHandler* UnityEngine::__UnhandledExceptionHandler____c::getStaticF___9__0_0()  {
+return ::cordl_internals::getStaticField<::System::UnhandledExceptionEventHandler*, "<>9__0_0", ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__UnhandledExceptionHandler____c*>::get>();
 }
-inline ::UnityEngine::__UnhandledExceptionHandler____c* UnityEngine::__UnhandledExceptionHandler____c::New_ctor() {
-  return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::__UnhandledExceptionHandler____c*>());
+inline ::UnityEngine::__UnhandledExceptionHandler____c* UnityEngine::__UnhandledExceptionHandler____c::New_ctor()  {
+return THROW_UNLESS(::il2cpp_utils::NewSpecific<::UnityEngine::__UnhandledExceptionHandler____c*>());
 }
-inline void UnityEngine::__UnhandledExceptionHandler____c::_ctor() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__UnhandledExceptionHandler____c*>::get(), ".ctor",
-                                                                             std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
+inline void UnityEngine::__UnhandledExceptionHandler____c::_ctor()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__UnhandledExceptionHandler____c*>::get(),
+                        ".ctor",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method);
 }
-inline void UnityEngine::__UnhandledExceptionHandler____c::_RegisterUECatcher_b__0_0(::System::Object* sender, ::System::UnhandledExceptionEventArgs* e) {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
-      ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__UnhandledExceptionHandler____c*>::get(), "<RegisterUECatcher>b__0_0", std::span<Il2CppClass const* const, 0>(),
-      ::std::array<Il2CppType const*, 2>{ ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(),
-                                          ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::UnhandledExceptionEventArgs*>::get() })));
-  return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, sender, e);
+inline void UnityEngine::__UnhandledExceptionHandler____c::_RegisterUECatcher_b__0_0(::System::Object*  sender, ::System::UnhandledExceptionEventArgs*  e)  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::__UnhandledExceptionHandler____c*>::get(),
+                        "<RegisterUECatcher>b__0_0",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::array<const Il2CppType*, 2>{::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::Object*>::get(), ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_type<::System::UnhandledExceptionEventArgs*>::get()}
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(this, ___internal_method, sender, e);
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::__UnhandledExceptionHandler____c::__UnhandledExceptionHandler____c() {}
+constexpr ::UnityEngine::__UnhandledExceptionHandler____c::__UnhandledExceptionHandler____c()   {
+}
 //  Writing Method size for method: ::UnityEngine::UnhandledExceptionHandler.RegisterUECatcher
-template <>
+template<>
 
 struct CORDL_HIDDEN ::il2cpp_utils::il2cpp_type_check::MetadataGetter<static_cast<void (*)()>(&::UnityEngine::UnhandledExceptionHandler::RegisterUECatcher)> {
-  constexpr static std::size_t size = 0xf8;
-  constexpr static std::size_t addrs = 0x34496b0;
+  constexpr static std::size_t size = 0xf4;
+  constexpr static std::size_t addrs = 0x481d8d0;
 
   inline static const ::MethodInfo* methodInfo() {
-    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UnhandledExceptionHandler*>::get(),
-                                                                               "RegisterUECatcher", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
+    static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UnhandledExceptionHandler*>::get(),
+                        "RegisterUECatcher",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
     return ___internal_method;
   }
 };
-inline void UnityEngine::UnhandledExceptionHandler::RegisterUECatcher() {
-  static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UnhandledExceptionHandler*>::get(),
-                                                                             "RegisterUECatcher", std::span<Il2CppClass const* const, 0>(), ::std::span<Il2CppType const* const, 0>())));
-  return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method);
+inline void UnityEngine::UnhandledExceptionHandler::RegisterUECatcher()  {
+static auto* ___internal_method = THROW_UNLESS((::il2cpp_utils::FindMethod(
+                        ::il2cpp_utils::il2cpp_type_check::il2cpp_no_arg_class<::UnityEngine::UnhandledExceptionHandler*>::get(),
+                        "RegisterUECatcher",
+                        std::span<const Il2CppClass* const, 0>(),
+                        ::std::span<const Il2CppType* const, 0>()
+                    )));
+return ::cordl_internals::RunMethodRethrow<void, false>(nullptr, ___internal_method);
 }
 // Ctor Parameters []
-constexpr ::UnityEngine::UnhandledExceptionHandler::UnhandledExceptionHandler() {}
+constexpr ::UnityEngine::UnhandledExceptionHandler::UnhandledExceptionHandler()   {
+}

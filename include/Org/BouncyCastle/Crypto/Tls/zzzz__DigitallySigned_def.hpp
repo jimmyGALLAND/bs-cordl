@@ -23,73 +23,73 @@ class DigitallySigned;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::DigitallySigned);
 // Type: Org.BouncyCastle.Crypto.Tls::DigitallySigned
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::DigitallySigned*
 class CORDL_TYPE DigitallySigned : public ::System::Object {
 public:
-  // Declarations
-  __declspec(property(get = get_Algorithm))::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm* Algorithm;
+// Declarations
+ __declspec(property(get=get_Algorithm)) ::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm*  Algorithm;
 
-  __declspec(property(get = get_Signature))::ArrayW<uint8_t, ::Array<uint8_t>*> Signature;
+ __declspec(property(get=get_Signature)) ::ArrayW<uint8_t,::Array<uint8_t>*>  Signature;
 
-  /// @brief Field mAlgorithm, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_mAlgorithm, put = __cordl_internal_set_mAlgorithm))::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm* mAlgorithm;
+/// @brief Field mAlgorithm, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_mAlgorithm, put=__cordl_internal_set_mAlgorithm)) ::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm*  mAlgorithm;
 
-  /// @brief Field mSignature, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_mSignature, put = __cordl_internal_set_mSignature))::ArrayW<uint8_t, ::Array<uint8_t>*> mSignature;
+/// @brief Field mSignature, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_mSignature, put=__cordl_internal_set_mSignature)) ::ArrayW<uint8_t,::Array<uint8_t>*>  mSignature;
 
-  /// @brief Method Encode, addr 0x11d8cfc, size 0x7c, virtual true, abstract: false, final false
-  inline void Encode(::System::IO::Stream* output);
+/// @brief Method Encode, addr 0x23a2460, size 0x7c, virtual true, abstract: false, final false
+inline void Encode(::System::IO::Stream*  output) ;
 
-  static inline ::Org::BouncyCastle::Crypto::Tls::DigitallySigned* New_ctor(::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm* algorithm, ::ArrayW<uint8_t, ::Array<uint8_t>*> signature);
+static inline ::Org::BouncyCastle::Crypto::Tls::DigitallySigned* New_ctor(::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm*  algorithm, ::ArrayW<uint8_t,::Array<uint8_t>*>  signature) ;
 
-  /// @brief Method Parse, addr 0x11cb9a0, size 0xdc, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Crypto::Tls::DigitallySigned* Parse(::Org::BouncyCastle::Crypto::Tls::TlsContext* context, ::System::IO::Stream* input);
+/// @brief Method Parse, addr 0x23954bc, size 0xd4, virtual false, abstract: false, final false
+static inline ::Org::BouncyCastle::Crypto::Tls::DigitallySigned* Parse(::Org::BouncyCastle::Crypto::Tls::TlsContext*  context, ::System::IO::Stream*  input) ;
 
-  constexpr ::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm*& __cordl_internal_get_mAlgorithm();
+constexpr ::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm*& __cordl_internal_get_mAlgorithm() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm*> const& __cordl_internal_get_mAlgorithm() const;
+constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm*> const& __cordl_internal_get_mAlgorithm() const;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_mSignature() const;
+constexpr ::ArrayW<uint8_t,::Array<uint8_t>*> const& __cordl_internal_get_mSignature() const;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_mSignature();
+constexpr ::ArrayW<uint8_t,::Array<uint8_t>*>& __cordl_internal_get_mSignature() ;
 
-  constexpr void __cordl_internal_set_mAlgorithm(::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm* value);
+constexpr void __cordl_internal_set_mAlgorithm(::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm*  value) ;
 
-  constexpr void __cordl_internal_set_mSignature(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+constexpr void __cordl_internal_set_mSignature(::ArrayW<uint8_t,::Array<uint8_t>*>  value) ;
 
-  /// @brief Method .ctor, addr 0x11d8c70, size 0x7c, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm* algorithm, ::ArrayW<uint8_t, ::Array<uint8_t>*> signature);
+/// @brief Method .ctor, addr 0x23a23d8, size 0x78, virtual false, abstract: false, final false
+inline void _ctor(::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm*  algorithm, ::ArrayW<uint8_t,::Array<uint8_t>*>  signature) ;
 
-  /// @brief Method get_Algorithm, addr 0x11d8cec, size 0x8, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm* get_Algorithm();
+/// @brief Method get_Algorithm, addr 0x23a2450, size 0x8, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm* get_Algorithm() ;
 
-  /// @brief Method get_Signature, addr 0x11d8cf4, size 0x8, virtual true, abstract: false, final false
-  inline ::ArrayW<uint8_t, ::Array<uint8_t>*> get_Signature();
+/// @brief Method get_Signature, addr 0x23a2458, size 0x8, virtual true, abstract: false, final false
+inline ::ArrayW<uint8_t,::Array<uint8_t>*> get_Signature() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DigitallySigned();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr DigitallySigned() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DigitallySigned", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  DigitallySigned(DigitallySigned&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DigitallySigned", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  DigitallySigned(DigitallySigned const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "DigitallySigned", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+DigitallySigned(DigitallySigned && ) = delete;
 
-  /// @brief Field mAlgorithm, offset: 0x10, size: 0x8, def value: None
-  ::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm* ___mAlgorithm;
+// Ctor Parameters [CppParam { name: "", ty: "DigitallySigned", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+DigitallySigned(DigitallySigned const& ) = delete;
 
-  /// @brief Field mSignature, offset: 0x18, size: 0x8, def value: None
-  ::ArrayW<uint8_t, ::Array<uint8_t>*> ___mSignature;
+/// @brief Field mAlgorithm, offset: 0x10, size: 0x8, def value: None
+ ::Org::BouncyCastle::Crypto::Tls::SignatureAndHashAlgorithm*  ___mAlgorithm;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field mSignature, offset: 0x18, size: 0x8, def value: None
+ ::ArrayW<uint8_t,::Array<uint8_t>*>  ___mSignature;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Tls::DigitallySigned, 0x20>, "Size mismatch!");
@@ -98,6 +98,6 @@ static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::DigitallySigned, ___mAl
 
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Tls::DigitallySigned, ___mSignature) == 0x18, "Offset mismatch!");
 
-} // namespace Org::BouncyCastle::Crypto::Tls
+} // namespace end def Org::BouncyCastle::Crypto::Tls
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Tls::DigitallySigned);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Tls::DigitallySigned*, "Org.BouncyCastle.Crypto.Tls", "DigitallySigned");

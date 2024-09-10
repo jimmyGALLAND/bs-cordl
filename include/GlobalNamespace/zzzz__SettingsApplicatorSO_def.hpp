@@ -4,15 +4,13 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "GlobalNamespace/zzzz__PersistentScriptableObject_def.hpp"
+#include "beatsaber-hook/shared/utils/byref.hpp"
 CORDL_MODULE_EXPORT(SettingsApplicatorSO)
-namespace BeatSaber::GameSettings {
-class MainSettings;
+namespace BeatSaber::Settings {
+struct Settings;
 }
-namespace BeatSaber::GameSettings {
-struct WindowMode;
-}
-namespace BeatSaber::PerformancePresets {
-class PerformancePreset;
+namespace BeatSaber::Settings {
+struct WindowSettings;
 }
 namespace GlobalNamespace {
 class AudioManagerSO;
@@ -47,9 +45,6 @@ struct SceneType;
 namespace System {
 class Action;
 }
-namespace UnityEngine {
-struct Vector2Int;
-}
 // Forward declare root types
 namespace GlobalNamespace {
 class SettingsApplicatorSO;
@@ -57,175 +52,171 @@ class SettingsApplicatorSO;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::SettingsApplicatorSO);
 // Type: ::SettingsApplicatorSO
-// SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 104, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::SettingsApplicatorSO*
 class CORDL_TYPE SettingsApplicatorSO : public ::GlobalNamespace::PersistentScriptableObject {
 public:
-  // Declarations
-  /// @brief Field _audioManager, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get__audioManager, put = __cordl_internal_set__audioManager))::UnityW<::GlobalNamespace::AudioManagerSO> _audioManager;
+// Declarations
+/// @brief Field _audioManager, offset 0x50, size 0x8 
+ __declspec(property(get=__cordl_internal_get__audioManager, put=__cordl_internal_set__audioManager)) ::UnityW<::GlobalNamespace::AudioManagerSO>  _audioManager;
 
-  /// @brief Field _bloomPrePassEffectContainer, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__bloomPrePassEffectContainer,
-                      put = __cordl_internal_set__bloomPrePassEffectContainer))::UnityW<::GlobalNamespace::BloomPrePassEffectContainerSO> _bloomPrePassEffectContainer;
+/// @brief Field _bloomPrePassEffectContainer, offset 0x40, size 0x8 
+ __declspec(property(get=__cordl_internal_get__bloomPrePassEffectContainer, put=__cordl_internal_set__bloomPrePassEffectContainer)) ::UnityW<::GlobalNamespace::BloomPrePassEffectContainerSO>  _bloomPrePassEffectContainer;
 
-  /// @brief Field _bloomPrePassGraphicsSettingsPresets, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__bloomPrePassGraphicsSettingsPresets,
-                      put = __cordl_internal_set__bloomPrePassGraphicsSettingsPresets))::UnityW<::GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO> _bloomPrePassGraphicsSettingsPresets;
+/// @brief Field _bloomPrePassGraphicsSettingsPresets, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get__bloomPrePassGraphicsSettingsPresets, put=__cordl_internal_set__bloomPrePassGraphicsSettingsPresets)) ::UnityW<::GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO>  _bloomPrePassGraphicsSettingsPresets;
 
-  /// @brief Field _hapticFeedbackManager, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__hapticFeedbackManager, put = __cordl_internal_set__hapticFeedbackManager))::UnityW<::GlobalNamespace::HapticFeedbackManager> _hapticFeedbackManager;
+/// @brief Field _hapticFeedbackManager, offset 0x48, size 0x8 
+ __declspec(property(get=__cordl_internal_get__hapticFeedbackManager, put=__cordl_internal_set__hapticFeedbackManager)) ::UnityW<::GlobalNamespace::HapticFeedbackManager>  _hapticFeedbackManager;
 
-  /// @brief Field _mainEffectContainer, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__mainEffectContainer, put = __cordl_internal_set__mainEffectContainer))::UnityW<::GlobalNamespace::MainEffectContainerSO> _mainEffectContainer;
+/// @brief Field _mainEffectContainer, offset 0x38, size 0x8 
+ __declspec(property(get=__cordl_internal_get__mainEffectContainer, put=__cordl_internal_set__mainEffectContainer)) ::UnityW<::GlobalNamespace::MainEffectContainerSO>  _mainEffectContainer;
 
-  /// @brief Field _mainEffectGraphicsSettingsPresets, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__mainEffectGraphicsSettingsPresets,
-                      put = __cordl_internal_set__mainEffectGraphicsSettingsPresets))::UnityW<::GlobalNamespace::MainEffectGraphicsSettingsPresetsSO> _mainEffectGraphicsSettingsPresets;
+/// @brief Field _mainEffectGraphicsSettingsPresets, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get__mainEffectGraphicsSettingsPresets, put=__cordl_internal_set__mainEffectGraphicsSettingsPresets)) ::UnityW<::GlobalNamespace::MainEffectGraphicsSettingsPresetsSO>  _mainEffectGraphicsSettingsPresets;
 
-  /// @brief Field _mirrorRenderer, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__mirrorRenderer, put = __cordl_internal_set__mirrorRenderer))::UnityW<::GlobalNamespace::MirrorRendererSO> _mirrorRenderer;
+/// @brief Field _mirrorRenderer, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get__mirrorRenderer, put=__cordl_internal_set__mirrorRenderer)) ::UnityW<::GlobalNamespace::MirrorRendererSO>  _mirrorRenderer;
 
-  /// @brief Field _mirrorRendererGraphicsSettingsPresets, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__mirrorRendererGraphicsSettingsPresets,
-                      put = __cordl_internal_set__mirrorRendererGraphicsSettingsPresets))::UnityW<::GlobalNamespace::MirrorRendererGraphicsSettingsPresets> _mirrorRendererGraphicsSettingsPresets;
+/// @brief Field _mirrorRendererGraphicsSettingsPresets, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get__mirrorRendererGraphicsSettingsPresets, put=__cordl_internal_set__mirrorRendererGraphicsSettingsPresets)) ::UnityW<::GlobalNamespace::MirrorRendererGraphicsSettingsPresets>  _mirrorRendererGraphicsSettingsPresets;
 
-  /// @brief Field _vrPlatformHelper, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get__vrPlatformHelper, put = __cordl_internal_set__vrPlatformHelper))::GlobalNamespace::IVRPlatformHelper* _vrPlatformHelper;
+/// @brief Field _vrPlatformHelper, offset 0x58, size 0x8 
+ __declspec(property(get=__cordl_internal_get__vrPlatformHelper, put=__cordl_internal_set__vrPlatformHelper)) ::GlobalNamespace::IVRPlatformHelper*  _vrPlatformHelper;
 
-  /// @brief Field roomTransformOffsetDidUpdateEvent, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get_roomTransformOffsetDidUpdateEvent, put = __cordl_internal_set_roomTransformOffsetDidUpdateEvent))::System::Action* roomTransformOffsetDidUpdateEvent;
+/// @brief Field roomTransformOffsetDidUpdateEvent, offset 0x60, size 0x8 
+ __declspec(property(get=__cordl_internal_get_roomTransformOffsetDidUpdateEvent, put=__cordl_internal_set_roomTransformOffsetDidUpdateEvent)) ::System::Action*  roomTransformOffsetDidUpdateEvent;
 
-  /// @brief Method ApplyMainSettings, addr 0x26c5c0c, size 0x108, virtual false, abstract: false, final false
-  inline void ApplyMainSettings(::BeatSaber::GameSettings::MainSettings* settings);
+/// @brief Method ApplyGameSettings, addr 0x3aa1d08, size 0xfc, virtual false, abstract: false, final false
+inline void ApplyGameSettings(ByRef<::BeatSaber::Settings::Settings>  settings) ;
 
-  /// @brief Method ApplyPerformancePreset, addr 0x26c5888, size 0x20c, virtual true, abstract: false, final false
-  inline void ApplyPerformancePreset(::BeatSaber::PerformancePresets::PerformancePreset* preset, ::GlobalNamespace::SceneType sceneType);
+/// @brief Method ApplyGraphicSettings, addr 0x3aa1a98, size 0x1f4, virtual true, abstract: false, final false
+inline void ApplyGraphicSettings(ByRef<::BeatSaber::Settings::Settings>  settings, ::GlobalNamespace::SceneType  sceneType) ;
 
-  /// @brief Method ApplyWindowSettings, addr 0x26c5e70, size 0x4, virtual true, abstract: false, final false
-  inline void ApplyWindowSettings(::UnityEngine::Vector2Int resolution, ::BeatSaber::GameSettings::WindowMode windowMode);
+/// @brief Method ApplyWindowSettings, addr 0x3aa1f60, size 0x4, virtual true, abstract: false, final false
+inline void ApplyWindowSettings(ByRef<::BeatSaber::Settings::WindowSettings>  settings) ;
 
-  static inline ::GlobalNamespace::SettingsApplicatorSO* New_ctor();
+static inline ::GlobalNamespace::SettingsApplicatorSO* New_ctor() ;
 
-  /// @brief Method NotifyRoomTransformOffsetWasUpdated, addr 0x26c5e54, size 0x1c, virtual false, abstract: false, final false
-  inline void NotifyRoomTransformOffsetWasUpdated();
+/// @brief Method NotifyRoomTransformOffsetWasUpdated, addr 0x3aa1f44, size 0x1c, virtual false, abstract: false, final false
+inline void NotifyRoomTransformOffsetWasUpdated() ;
 
-  constexpr ::UnityW<::GlobalNamespace::AudioManagerSO> const& __cordl_internal_get__audioManager() const;
+constexpr ::UnityW<::GlobalNamespace::AudioManagerSO> const& __cordl_internal_get__audioManager() const;
 
-  constexpr ::UnityW<::GlobalNamespace::AudioManagerSO>& __cordl_internal_get__audioManager();
+constexpr ::UnityW<::GlobalNamespace::AudioManagerSO>& __cordl_internal_get__audioManager() ;
 
-  constexpr ::UnityW<::GlobalNamespace::BloomPrePassEffectContainerSO> const& __cordl_internal_get__bloomPrePassEffectContainer() const;
+constexpr ::UnityW<::GlobalNamespace::BloomPrePassEffectContainerSO> const& __cordl_internal_get__bloomPrePassEffectContainer() const;
 
-  constexpr ::UnityW<::GlobalNamespace::BloomPrePassEffectContainerSO>& __cordl_internal_get__bloomPrePassEffectContainer();
+constexpr ::UnityW<::GlobalNamespace::BloomPrePassEffectContainerSO>& __cordl_internal_get__bloomPrePassEffectContainer() ;
 
-  constexpr ::UnityW<::GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO> const& __cordl_internal_get__bloomPrePassGraphicsSettingsPresets() const;
+constexpr ::UnityW<::GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO> const& __cordl_internal_get__bloomPrePassGraphicsSettingsPresets() const;
 
-  constexpr ::UnityW<::GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO>& __cordl_internal_get__bloomPrePassGraphicsSettingsPresets();
+constexpr ::UnityW<::GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO>& __cordl_internal_get__bloomPrePassGraphicsSettingsPresets() ;
 
-  constexpr ::UnityW<::GlobalNamespace::HapticFeedbackManager> const& __cordl_internal_get__hapticFeedbackManager() const;
+constexpr ::UnityW<::GlobalNamespace::HapticFeedbackManager> const& __cordl_internal_get__hapticFeedbackManager() const;
 
-  constexpr ::UnityW<::GlobalNamespace::HapticFeedbackManager>& __cordl_internal_get__hapticFeedbackManager();
+constexpr ::UnityW<::GlobalNamespace::HapticFeedbackManager>& __cordl_internal_get__hapticFeedbackManager() ;
 
-  constexpr ::UnityW<::GlobalNamespace::MainEffectContainerSO> const& __cordl_internal_get__mainEffectContainer() const;
+constexpr ::UnityW<::GlobalNamespace::MainEffectContainerSO> const& __cordl_internal_get__mainEffectContainer() const;
 
-  constexpr ::UnityW<::GlobalNamespace::MainEffectContainerSO>& __cordl_internal_get__mainEffectContainer();
+constexpr ::UnityW<::GlobalNamespace::MainEffectContainerSO>& __cordl_internal_get__mainEffectContainer() ;
 
-  constexpr ::UnityW<::GlobalNamespace::MainEffectGraphicsSettingsPresetsSO> const& __cordl_internal_get__mainEffectGraphicsSettingsPresets() const;
+constexpr ::UnityW<::GlobalNamespace::MainEffectGraphicsSettingsPresetsSO> const& __cordl_internal_get__mainEffectGraphicsSettingsPresets() const;
 
-  constexpr ::UnityW<::GlobalNamespace::MainEffectGraphicsSettingsPresetsSO>& __cordl_internal_get__mainEffectGraphicsSettingsPresets();
+constexpr ::UnityW<::GlobalNamespace::MainEffectGraphicsSettingsPresetsSO>& __cordl_internal_get__mainEffectGraphicsSettingsPresets() ;
 
-  constexpr ::UnityW<::GlobalNamespace::MirrorRendererSO> const& __cordl_internal_get__mirrorRenderer() const;
+constexpr ::UnityW<::GlobalNamespace::MirrorRendererSO> const& __cordl_internal_get__mirrorRenderer() const;
 
-  constexpr ::UnityW<::GlobalNamespace::MirrorRendererSO>& __cordl_internal_get__mirrorRenderer();
+constexpr ::UnityW<::GlobalNamespace::MirrorRendererSO>& __cordl_internal_get__mirrorRenderer() ;
 
-  constexpr ::UnityW<::GlobalNamespace::MirrorRendererGraphicsSettingsPresets> const& __cordl_internal_get__mirrorRendererGraphicsSettingsPresets() const;
+constexpr ::UnityW<::GlobalNamespace::MirrorRendererGraphicsSettingsPresets> const& __cordl_internal_get__mirrorRendererGraphicsSettingsPresets() const;
 
-  constexpr ::UnityW<::GlobalNamespace::MirrorRendererGraphicsSettingsPresets>& __cordl_internal_get__mirrorRendererGraphicsSettingsPresets();
+constexpr ::UnityW<::GlobalNamespace::MirrorRendererGraphicsSettingsPresets>& __cordl_internal_get__mirrorRendererGraphicsSettingsPresets() ;
 
-  constexpr ::GlobalNamespace::IVRPlatformHelper*& __cordl_internal_get__vrPlatformHelper();
+constexpr ::GlobalNamespace::IVRPlatformHelper*& __cordl_internal_get__vrPlatformHelper() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IVRPlatformHelper*> const& __cordl_internal_get__vrPlatformHelper() const;
+constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::IVRPlatformHelper*> const& __cordl_internal_get__vrPlatformHelper() const;
 
-  constexpr ::System::Action*& __cordl_internal_get_roomTransformOffsetDidUpdateEvent();
+constexpr ::System::Action*& __cordl_internal_get_roomTransformOffsetDidUpdateEvent() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_roomTransformOffsetDidUpdateEvent() const;
+constexpr ::cordl_internals::to_const_pointer<::System::Action*> const& __cordl_internal_get_roomTransformOffsetDidUpdateEvent() const;
 
-  constexpr void __cordl_internal_set__audioManager(::UnityW<::GlobalNamespace::AudioManagerSO> value);
+constexpr void __cordl_internal_set__audioManager(::UnityW<::GlobalNamespace::AudioManagerSO>  value) ;
 
-  constexpr void __cordl_internal_set__bloomPrePassEffectContainer(::UnityW<::GlobalNamespace::BloomPrePassEffectContainerSO> value);
+constexpr void __cordl_internal_set__bloomPrePassEffectContainer(::UnityW<::GlobalNamespace::BloomPrePassEffectContainerSO>  value) ;
 
-  constexpr void __cordl_internal_set__bloomPrePassGraphicsSettingsPresets(::UnityW<::GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO> value);
+constexpr void __cordl_internal_set__bloomPrePassGraphicsSettingsPresets(::UnityW<::GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO>  value) ;
 
-  constexpr void __cordl_internal_set__hapticFeedbackManager(::UnityW<::GlobalNamespace::HapticFeedbackManager> value);
+constexpr void __cordl_internal_set__hapticFeedbackManager(::UnityW<::GlobalNamespace::HapticFeedbackManager>  value) ;
 
-  constexpr void __cordl_internal_set__mainEffectContainer(::UnityW<::GlobalNamespace::MainEffectContainerSO> value);
+constexpr void __cordl_internal_set__mainEffectContainer(::UnityW<::GlobalNamespace::MainEffectContainerSO>  value) ;
 
-  constexpr void __cordl_internal_set__mainEffectGraphicsSettingsPresets(::UnityW<::GlobalNamespace::MainEffectGraphicsSettingsPresetsSO> value);
+constexpr void __cordl_internal_set__mainEffectGraphicsSettingsPresets(::UnityW<::GlobalNamespace::MainEffectGraphicsSettingsPresetsSO>  value) ;
 
-  constexpr void __cordl_internal_set__mirrorRenderer(::UnityW<::GlobalNamespace::MirrorRendererSO> value);
+constexpr void __cordl_internal_set__mirrorRenderer(::UnityW<::GlobalNamespace::MirrorRendererSO>  value) ;
 
-  constexpr void __cordl_internal_set__mirrorRendererGraphicsSettingsPresets(::UnityW<::GlobalNamespace::MirrorRendererGraphicsSettingsPresets> value);
+constexpr void __cordl_internal_set__mirrorRendererGraphicsSettingsPresets(::UnityW<::GlobalNamespace::MirrorRendererGraphicsSettingsPresets>  value) ;
 
-  constexpr void __cordl_internal_set__vrPlatformHelper(::GlobalNamespace::IVRPlatformHelper* value);
+constexpr void __cordl_internal_set__vrPlatformHelper(::GlobalNamespace::IVRPlatformHelper*  value) ;
 
-  constexpr void __cordl_internal_set_roomTransformOffsetDidUpdateEvent(::System::Action* value);
+constexpr void __cordl_internal_set_roomTransformOffsetDidUpdateEvent(::System::Action*  value) ;
 
-  /// @brief Method .ctor, addr 0x26c5a9c, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x3aa1c94, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method add_roomTransformOffsetDidUpdateEvent, addr 0x26c5d1c, size 0x9c, virtual false, abstract: false, final false
-  inline void add_roomTransformOffsetDidUpdateEvent(::System::Action* value);
+/// @brief Method add_roomTransformOffsetDidUpdateEvent, addr 0x3aa1e0c, size 0x9c, virtual false, abstract: false, final false
+inline void add_roomTransformOffsetDidUpdateEvent(::System::Action*  value) ;
 
-  /// @brief Method remove_roomTransformOffsetDidUpdateEvent, addr 0x26c5db8, size 0x9c, virtual false, abstract: false, final false
-  inline void remove_roomTransformOffsetDidUpdateEvent(::System::Action* value);
+/// @brief Method remove_roomTransformOffsetDidUpdateEvent, addr 0x3aa1ea8, size 0x9c, virtual false, abstract: false, final false
+inline void remove_roomTransformOffsetDidUpdateEvent(::System::Action*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SettingsApplicatorSO();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr SettingsApplicatorSO() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SettingsApplicatorSO", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  SettingsApplicatorSO(SettingsApplicatorSO&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SettingsApplicatorSO", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  SettingsApplicatorSO(SettingsApplicatorSO const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "SettingsApplicatorSO", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+SettingsApplicatorSO(SettingsApplicatorSO && ) = delete;
 
-  /// @brief Field _mirrorRendererGraphicsSettingsPresets, offset: 0x18, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::MirrorRendererGraphicsSettingsPresets> ____mirrorRendererGraphicsSettingsPresets;
+// Ctor Parameters [CppParam { name: "", ty: "SettingsApplicatorSO", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+SettingsApplicatorSO(SettingsApplicatorSO const& ) = delete;
 
-  /// @brief Field _mainEffectGraphicsSettingsPresets, offset: 0x20, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::MainEffectGraphicsSettingsPresetsSO> ____mainEffectGraphicsSettingsPresets;
+/// @brief Field _mirrorRendererGraphicsSettingsPresets, offset: 0x18, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::MirrorRendererGraphicsSettingsPresets>  ____mirrorRendererGraphicsSettingsPresets;
 
-  /// @brief Field _bloomPrePassGraphicsSettingsPresets, offset: 0x28, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO> ____bloomPrePassGraphicsSettingsPresets;
+/// @brief Field _mainEffectGraphicsSettingsPresets, offset: 0x20, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::MainEffectGraphicsSettingsPresetsSO>  ____mainEffectGraphicsSettingsPresets;
 
-  /// @brief Field _mirrorRenderer, offset: 0x30, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::MirrorRendererSO> ____mirrorRenderer;
+/// @brief Field _bloomPrePassGraphicsSettingsPresets, offset: 0x28, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::BloomPrePassGraphicsSettingsPresetsSO>  ____bloomPrePassGraphicsSettingsPresets;
 
-  /// @brief Field _mainEffectContainer, offset: 0x38, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::MainEffectContainerSO> ____mainEffectContainer;
+/// @brief Field _mirrorRenderer, offset: 0x30, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::MirrorRendererSO>  ____mirrorRenderer;
 
-  /// @brief Field _bloomPrePassEffectContainer, offset: 0x40, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::BloomPrePassEffectContainerSO> ____bloomPrePassEffectContainer;
+/// @brief Field _mainEffectContainer, offset: 0x38, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::MainEffectContainerSO>  ____mainEffectContainer;
 
-  /// @brief Field _hapticFeedbackManager, offset: 0x48, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::HapticFeedbackManager> ____hapticFeedbackManager;
+/// @brief Field _bloomPrePassEffectContainer, offset: 0x40, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::BloomPrePassEffectContainerSO>  ____bloomPrePassEffectContainer;
 
-  /// @brief Field _audioManager, offset: 0x50, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::AudioManagerSO> ____audioManager;
+/// @brief Field _hapticFeedbackManager, offset: 0x48, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::HapticFeedbackManager>  ____hapticFeedbackManager;
 
-  /// @brief Field _vrPlatformHelper, offset: 0x58, size: 0x8, def value: None
-  ::GlobalNamespace::IVRPlatformHelper* ____vrPlatformHelper;
+/// @brief Field _audioManager, offset: 0x50, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::AudioManagerSO>  ____audioManager;
 
-  /// @brief Field roomTransformOffsetDidUpdateEvent, offset: 0x60, size: 0x8, def value: None
-  ::System::Action* ___roomTransformOffsetDidUpdateEvent;
+/// @brief Field _vrPlatformHelper, offset: 0x58, size: 0x8, def value: None
+ ::GlobalNamespace::IVRPlatformHelper*  ____vrPlatformHelper;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field roomTransformOffsetDidUpdateEvent, offset: 0x60, size: 0x8, def value: None
+ ::System::Action*  ___roomTransformOffsetDidUpdateEvent;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::SettingsApplicatorSO, 0x68>, "Size mismatch!");
@@ -250,6 +241,6 @@ static_assert(offsetof(::GlobalNamespace::SettingsApplicatorSO, ____vrPlatformHe
 
 static_assert(offsetof(::GlobalNamespace::SettingsApplicatorSO, ___roomTransformOffsetDidUpdateEvent) == 0x60, "Offset mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::SettingsApplicatorSO);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::SettingsApplicatorSO*, "", "SettingsApplicatorSO");

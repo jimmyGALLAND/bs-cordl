@@ -26,88 +26,88 @@ class __BeatmapDataMirrorTransform____c__DisplayClass0_0;
 MARK_REF_PTR_T(::GlobalNamespace::BeatmapDataMirrorTransform);
 MARK_REF_PTR_T(::GlobalNamespace::__BeatmapDataMirrorTransform____c__DisplayClass0_0);
 // Type: ::<>c__DisplayClass0_0
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 20, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::BeatmapDataMirrorTransform::<>c__DisplayClass0_0*
 class CORDL_TYPE __BeatmapDataMirrorTransform____c__DisplayClass0_0 : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field numberOfLines, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_numberOfLines, put = __cordl_internal_set_numberOfLines)) int32_t numberOfLines;
+// Declarations
+/// @brief Field numberOfLines, offset 0x10, size 0x4 
+ __declspec(property(get=__cordl_internal_get_numberOfLines, put=__cordl_internal_set_numberOfLines)) int32_t  numberOfLines;
 
-  static inline ::GlobalNamespace::__BeatmapDataMirrorTransform____c__DisplayClass0_0* New_ctor();
+static inline ::GlobalNamespace::__BeatmapDataMirrorTransform____c__DisplayClass0_0* New_ctor() ;
 
-  /// @brief Method <CreateTransformedData>g__ProcessData|0, addr 0x14a99dc, size 0xe0, virtual false, abstract: false, final false
-  inline ::GlobalNamespace::BeatmapDataItem* _CreateTransformedData_g__ProcessData_0(::GlobalNamespace::BeatmapDataItem* beatmapDataItem);
+/// @brief Method <CreateTransformedData>g__ProcessData|0, addr 0x265ed9c, size 0xd0, virtual false, abstract: false, final false
+inline ::GlobalNamespace::BeatmapDataItem* _CreateTransformedData_g__ProcessData_0(::GlobalNamespace::BeatmapDataItem*  beatmapDataItem) ;
 
-  constexpr int32_t const& __cordl_internal_get_numberOfLines() const;
+constexpr int32_t const& __cordl_internal_get_numberOfLines() const;
 
-  constexpr int32_t& __cordl_internal_get_numberOfLines();
+constexpr int32_t& __cordl_internal_get_numberOfLines() ;
 
-  constexpr void __cordl_internal_set_numberOfLines(int32_t value);
+constexpr void __cordl_internal_set_numberOfLines(int32_t  value) ;
 
-  /// @brief Method .ctor, addr 0x14a99d4, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x265ed94, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __BeatmapDataMirrorTransform____c__DisplayClass0_0();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __BeatmapDataMirrorTransform____c__DisplayClass0_0() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__BeatmapDataMirrorTransform____c__DisplayClass0_0", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __BeatmapDataMirrorTransform____c__DisplayClass0_0(__BeatmapDataMirrorTransform____c__DisplayClass0_0&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__BeatmapDataMirrorTransform____c__DisplayClass0_0", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __BeatmapDataMirrorTransform____c__DisplayClass0_0(__BeatmapDataMirrorTransform____c__DisplayClass0_0 const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__BeatmapDataMirrorTransform____c__DisplayClass0_0", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__BeatmapDataMirrorTransform____c__DisplayClass0_0(__BeatmapDataMirrorTransform____c__DisplayClass0_0 && ) = delete;
 
-  /// @brief Field numberOfLines, offset: 0x10, size: 0x4, def value: None
-  int32_t ___numberOfLines;
+// Ctor Parameters [CppParam { name: "", ty: "__BeatmapDataMirrorTransform____c__DisplayClass0_0", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__BeatmapDataMirrorTransform____c__DisplayClass0_0(__BeatmapDataMirrorTransform____c__DisplayClass0_0 const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field numberOfLines, offset: 0x10, size: 0x4, def value: None
+ int32_t  ___numberOfLines;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__BeatmapDataMirrorTransform____c__DisplayClass0_0, 0x18>, "Size mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::__BeatmapDataMirrorTransform____c__DisplayClass0_0, ___numberOfLines) == 0x10, "Offset mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 // Type: ::BeatmapDataMirrorTransform
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::BeatmapDataMirrorTransform*
 class CORDL_TYPE BeatmapDataMirrorTransform : public ::System::Object {
 public:
-  // Declarations
-  using __c__DisplayClass0_0 = ::GlobalNamespace::__BeatmapDataMirrorTransform____c__DisplayClass0_0;
+// Declarations
+using __c__DisplayClass0_0 = ::GlobalNamespace::__BeatmapDataMirrorTransform____c__DisplayClass0_0;
 
-  /// @brief Method CreateTransformedData, addr 0x14a9858, size 0x17c, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::IReadonlyBeatmapData* CreateTransformedData(::GlobalNamespace::IReadonlyBeatmapData* beatmapData);
+/// @brief Method CreateTransformedData, addr 0x265ec1c, size 0x178, virtual false, abstract: false, final false
+static inline ::GlobalNamespace::IReadonlyBeatmapData* CreateTransformedData(::GlobalNamespace::IReadonlyBeatmapData*  beatmapData) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BeatmapDataMirrorTransform();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr BeatmapDataMirrorTransform() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataMirrorTransform", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  BeatmapDataMirrorTransform(BeatmapDataMirrorTransform&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataMirrorTransform", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapDataMirrorTransform(BeatmapDataMirrorTransform const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "BeatmapDataMirrorTransform", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+BeatmapDataMirrorTransform(BeatmapDataMirrorTransform && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "BeatmapDataMirrorTransform", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+BeatmapDataMirrorTransform(BeatmapDataMirrorTransform const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BeatmapDataMirrorTransform, 0x10>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BeatmapDataMirrorTransform);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BeatmapDataMirrorTransform*, "", "BeatmapDataMirrorTransform");
 NEED_NO_BOX(::GlobalNamespace::__BeatmapDataMirrorTransform____c__DisplayClass0_0);

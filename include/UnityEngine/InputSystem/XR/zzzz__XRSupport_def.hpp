@@ -12,35 +12,35 @@ class XRSupport;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::InputSystem::XR::XRSupport);
 // Type: UnityEngine.InputSystem.XR::XRSupport
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::XR {
 // Is value type: false
 // CS Name: ::UnityEngine.InputSystem.XR::XRSupport*
 class CORDL_TYPE XRSupport : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method Initialize, addr 0x316d5c0, size 0x840, virtual false, abstract: false, final false
-  static inline void Initialize();
+// Declarations
+/// @brief Method Initialize, addr 0x45560b8, size 0x858, virtual false, abstract: false, final false
+static inline void Initialize() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr XRSupport();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr XRSupport() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XRSupport", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  XRSupport(XRSupport&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XRSupport", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  XRSupport(XRSupport const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "XRSupport", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+XRSupport(XRSupport && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "XRSupport", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+XRSupport(XRSupport const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::XR::XRSupport, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine::InputSystem::XR
+} // namespace end def UnityEngine::InputSystem::XR
 NEED_NO_BOX(::UnityEngine::InputSystem::XR::XRSupport);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::XR::XRSupport*, "UnityEngine.InputSystem.XR", "XRSupport");

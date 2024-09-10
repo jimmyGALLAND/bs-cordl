@@ -20,91 +20,91 @@ class TextSegmentedControlCell;
 // Write type traits
 MARK_REF_PTR_T(::HMUI::TextSegmentedControlCell);
 // Type: HMUI::TextSegmentedControlCell
-// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 112, native_size: -1, calculated_instance_size: 112, calculated_native_size: 112, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
 // CS Name: ::HMUI::TextSegmentedControlCell*
 class CORDL_TYPE TextSegmentedControlCell : public ::HMUI::SegmentedControlCell {
 public:
-  // Declarations
-  /// @brief Field _backgroundGameObject, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get__backgroundGameObject, put = __cordl_internal_set__backgroundGameObject))::UnityW<::UnityEngine::GameObject> _backgroundGameObject;
+// Declarations
+/// @brief Field _backgroundGameObject, offset 0x68, size 0x8 
+ __declspec(property(get=__cordl_internal_get__backgroundGameObject, put=__cordl_internal_set__backgroundGameObject)) ::UnityW<::UnityEngine::GameObject>  _backgroundGameObject;
 
-  /// @brief Field _text, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get__text, put = __cordl_internal_set__text))::UnityW<::TMPro::TextMeshProUGUI> _text;
+/// @brief Field _text, offset 0x60, size 0x8 
+ __declspec(property(get=__cordl_internal_get__text, put=__cordl_internal_set__text)) ::UnityW<::TMPro::TextMeshProUGUI>  _text;
 
-  __declspec(property(get = get_fontSize, put = set_fontSize)) float_t fontSize;
+ __declspec(property(get=get_fontSize, put=set_fontSize)) float_t  fontSize;
 
-  __declspec(property(put = set_hideBackgroundImage)) bool hideBackgroundImage;
+ __declspec(property(put=set_hideBackgroundImage)) bool  hideBackgroundImage;
 
-  __declspec(property(get = get_preferredWidth)) float_t preferredWidth;
+ __declspec(property(get=get_preferredWidth)) float_t  preferredWidth;
 
-  __declspec(property(get = get_text, put = set_text))::StringW text;
+ __declspec(property(get=get_text, put=set_text)) ::StringW  text;
 
-  static inline ::HMUI::TextSegmentedControlCell* New_ctor();
+static inline ::HMUI::TextSegmentedControlCell* New_ctor() ;
 
-  constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__backgroundGameObject() const;
+constexpr ::UnityW<::UnityEngine::GameObject> const& __cordl_internal_get__backgroundGameObject() const;
 
-  constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__backgroundGameObject();
+constexpr ::UnityW<::UnityEngine::GameObject>& __cordl_internal_get__backgroundGameObject() ;
 
-  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__text() const;
+constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__text() const;
 
-  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__text();
+constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__text() ;
 
-  constexpr void __cordl_internal_set__backgroundGameObject(::UnityW<::UnityEngine::GameObject> value);
+constexpr void __cordl_internal_set__backgroundGameObject(::UnityW<::UnityEngine::GameObject>  value) ;
 
-  constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TextMeshProUGUI> value);
+constexpr void __cordl_internal_set__text(::UnityW<::TMPro::TextMeshProUGUI>  value) ;
 
-  /// @brief Method .ctor, addr 0x2530834, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x3ff94ec, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_fontSize, addr 0x2530818, size 0x1c, virtual false, abstract: false, final false
-  inline float_t get_fontSize();
+/// @brief Method get_fontSize, addr 0x3ff94d0, size 0x1c, virtual false, abstract: false, final false
+inline float_t get_fontSize() ;
 
-  /// @brief Method get_preferredWidth, addr 0x25307c0, size 0x24, virtual false, abstract: false, final false
-  inline float_t get_preferredWidth();
+/// @brief Method get_preferredWidth, addr 0x3ff9478, size 0x24, virtual false, abstract: false, final false
+inline float_t get_preferredWidth() ;
 
-  /// @brief Method get_text, addr 0x25307f4, size 0x24, virtual false, abstract: false, final false
-  inline ::StringW get_text();
+/// @brief Method get_text, addr 0x3ff94ac, size 0x24, virtual false, abstract: false, final false
+inline ::StringW get_text() ;
 
-  /// @brief Method set_fontSize, addr 0x253075c, size 0x1c, virtual false, abstract: false, final false
-  inline void set_fontSize(float_t value);
+/// @brief Method set_fontSize, addr 0x3ff9414, size 0x1c, virtual false, abstract: false, final false
+inline void set_fontSize(float_t  value) ;
 
-  /// @brief Method set_hideBackgroundImage, addr 0x253079c, size 0x24, virtual false, abstract: false, final false
-  inline void set_hideBackgroundImage(bool value);
+/// @brief Method set_hideBackgroundImage, addr 0x3ff9454, size 0x24, virtual false, abstract: false, final false
+inline void set_hideBackgroundImage(bool  value) ;
 
-  /// @brief Method set_text, addr 0x2530778, size 0x24, virtual false, abstract: false, final false
-  inline void set_text(::StringW value);
+/// @brief Method set_text, addr 0x3ff9430, size 0x24, virtual false, abstract: false, final false
+inline void set_text(::StringW  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TextSegmentedControlCell();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr TextSegmentedControlCell() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TextSegmentedControlCell", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  TextSegmentedControlCell(TextSegmentedControlCell&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TextSegmentedControlCell", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  TextSegmentedControlCell(TextSegmentedControlCell const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "TextSegmentedControlCell", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+TextSegmentedControlCell(TextSegmentedControlCell && ) = delete;
 
-  /// @brief Field _text, offset: 0x50, size: 0x8, def value: None
-  ::UnityW<::TMPro::TextMeshProUGUI> ____text;
+// Ctor Parameters [CppParam { name: "", ty: "TextSegmentedControlCell", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+TextSegmentedControlCell(TextSegmentedControlCell const& ) = delete;
 
-  /// @brief Field _backgroundGameObject, offset: 0x58, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::GameObject> ____backgroundGameObject;
+/// @brief Field _text, offset: 0x60, size: 0x8, def value: None
+ ::UnityW<::TMPro::TextMeshProUGUI>  ____text;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _backgroundGameObject, offset: 0x68, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::GameObject>  ____backgroundGameObject;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HMUI::TextSegmentedControlCell, 0x60>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::HMUI::TextSegmentedControlCell, 0x70>, "Size mismatch!");
 
-static_assert(offsetof(::HMUI::TextSegmentedControlCell, ____text) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::HMUI::TextSegmentedControlCell, ____text) == 0x60, "Offset mismatch!");
 
-static_assert(offsetof(::HMUI::TextSegmentedControlCell, ____backgroundGameObject) == 0x58, "Offset mismatch!");
+static_assert(offsetof(::HMUI::TextSegmentedControlCell, ____backgroundGameObject) == 0x68, "Offset mismatch!");
 
-} // namespace HMUI
+} // namespace end def HMUI
 NEED_NO_BOX(::HMUI::TextSegmentedControlCell);
 DEFINE_IL2CPP_ARG_TYPE(::HMUI::TextSegmentedControlCell*, "HMUI", "TextSegmentedControlCell");

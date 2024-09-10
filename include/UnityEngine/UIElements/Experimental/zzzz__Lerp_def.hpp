@@ -19,42 +19,41 @@ class Lerp;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::Experimental::Lerp);
 // Type: UnityEngine.UIElements.Experimental::Lerp
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements::Experimental {
 // Is value type: false
 // CS Name: ::UnityEngine.UIElements.Experimental::Lerp*
 class CORDL_TYPE Lerp : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method Interpolate, addr 0x3579b5c, size 0x38, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Color Interpolate(::UnityEngine::Color start, ::UnityEngine::Color end, float_t ratio);
+// Declarations
+/// @brief Method Interpolate, addr 0x494bb6c, size 0x38, virtual false, abstract: false, final false
+static inline ::UnityEngine::Color Interpolate(::UnityEngine::Color  start, ::UnityEngine::Color  end, float_t  ratio) ;
 
-  /// @brief Method Interpolate, addr 0x3579b94, size 0x3f0, virtual false, abstract: false, final false
-  static inline ::UnityEngine::UIElements::Experimental::StyleValues Interpolate(::UnityEngine::UIElements::Experimental::StyleValues start, ::UnityEngine::UIElements::Experimental::StyleValues end,
-                                                                                 float_t ratio);
+/// @brief Method Interpolate, addr 0x494bba4, size 0x3bc, virtual false, abstract: false, final false
+static inline ::UnityEngine::UIElements::Experimental::StyleValues Interpolate(::UnityEngine::UIElements::Experimental::StyleValues  start, ::UnityEngine::UIElements::Experimental::StyleValues  end, float_t  ratio) ;
 
-  /// @brief Method Interpolate, addr 0x3579b4c, size 0x10, virtual false, abstract: false, final false
-  static inline float_t Interpolate(float_t start, float_t end, float_t ratio);
+/// @brief Method Interpolate, addr 0x494bb5c, size 0x10, virtual false, abstract: false, final false
+static inline float_t Interpolate(float_t  start, float_t  end, float_t  ratio) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Lerp();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr Lerp() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Lerp", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  Lerp(Lerp&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Lerp", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  Lerp(Lerp const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "Lerp", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+Lerp(Lerp && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "Lerp", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+Lerp(Lerp const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::Experimental::Lerp, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine::UIElements::Experimental
+} // namespace end def UnityEngine::UIElements::Experimental
 NEED_NO_BOX(::UnityEngine::UIElements::Experimental::Lerp);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::Experimental::Lerp*, "UnityEngine.UIElements.Experimental", "Lerp");

@@ -12,32 +12,32 @@ class DeallocateOnJobCompletionAttribute;
 // Write type traits
 MARK_REF_PTR_T(::Unity::Collections::DeallocateOnJobCompletionAttribute);
 // Type: Unity.Collections::DeallocateOnJobCompletionAttribute
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Unity::Collections {
 // Is value type: false
 // CS Name: ::Unity.Collections::DeallocateOnJobCompletionAttribute*
 class CORDL_TYPE DeallocateOnJobCompletionAttribute : public ::System::Attribute {
 public:
-  // Declarations
+// Declarations
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DeallocateOnJobCompletionAttribute();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr DeallocateOnJobCompletionAttribute() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DeallocateOnJobCompletionAttribute", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  DeallocateOnJobCompletionAttribute(DeallocateOnJobCompletionAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DeallocateOnJobCompletionAttribute", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  DeallocateOnJobCompletionAttribute(DeallocateOnJobCompletionAttribute const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "DeallocateOnJobCompletionAttribute", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+DeallocateOnJobCompletionAttribute(DeallocateOnJobCompletionAttribute && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "DeallocateOnJobCompletionAttribute", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+DeallocateOnJobCompletionAttribute(DeallocateOnJobCompletionAttribute const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Unity::Collections::DeallocateOnJobCompletionAttribute, 0x10>, "Size mismatch!");
 
-} // namespace Unity::Collections
+} // namespace end def Unity::Collections
 NEED_NO_BOX(::Unity::Collections::DeallocateOnJobCompletionAttribute);
 DEFINE_IL2CPP_ARG_TYPE(::Unity::Collections::DeallocateOnJobCompletionAttribute*, "Unity.Collections", "DeallocateOnJobCompletionAttribute");

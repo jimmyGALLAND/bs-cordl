@@ -9,7 +9,8 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(VisualTreeViewDataUpdater)
 namespace System::Collections::Generic {
-template <typename T> class HashSet_1;
+template<typename T>
+class HashSet_1;
 }
 namespace Unity::Profiling {
 struct ProfilerMarker;
@@ -27,114 +28,112 @@ class VisualTreeViewDataUpdater;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::VisualTreeViewDataUpdater);
 // Type: UnityEngine.UIElements::VisualTreeViewDataUpdater
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: ::UnityEngine.UIElements::VisualTreeViewDataUpdater*
 class CORDL_TYPE VisualTreeViewDataUpdater : public ::UnityEngine::UIElements::BaseVisualTreeUpdater {
 public:
-  // Declarations
-  /// @brief Field m_LastVersion, offset 0x34, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_LastVersion, put = __cordl_internal_set_m_LastVersion)) uint32_t m_LastVersion;
+// Declarations
+/// @brief Field m_LastVersion, offset 0x34, size 0x4 
+ __declspec(property(get=__cordl_internal_get_m_LastVersion, put=__cordl_internal_set_m_LastVersion)) uint32_t  m_LastVersion;
 
-  /// @brief Field m_ParentList, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_ParentList,
-                      put = __cordl_internal_set_m_ParentList))::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>* m_ParentList;
+/// @brief Field m_ParentList, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_ParentList, put=__cordl_internal_set_m_ParentList)) ::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>*  m_ParentList;
 
-  /// @brief Field m_UpdateList, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_UpdateList,
-                      put = __cordl_internal_set_m_UpdateList))::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>* m_UpdateList;
+/// @brief Field m_UpdateList, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_UpdateList, put=__cordl_internal_set_m_UpdateList)) ::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>*  m_UpdateList;
 
-  /// @brief Field m_Version, offset 0x30, size 0x4
-  __declspec(property(get = __cordl_internal_get_m_Version, put = __cordl_internal_set_m_Version)) uint32_t m_Version;
+/// @brief Field m_Version, offset 0x30, size 0x4 
+ __declspec(property(get=__cordl_internal_get_m_Version, put=__cordl_internal_set_m_Version)) uint32_t  m_Version;
 
-  __declspec(property(get = get_profilerMarker))::Unity::Profiling::ProfilerMarker profilerMarker;
+ __declspec(property(get=get_profilerMarker)) ::Unity::Profiling::ProfilerMarker  profilerMarker;
 
-  /// @brief Field s_Description, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_Description, put = setStaticF_s_Description))::StringW s_Description;
+/// @brief Field s_Description, offset 0xffffffff, size 0x8 
+static __declspec(property(get=getStaticF_s_Description, put=setStaticF_s_Description)) ::StringW  s_Description;
 
-  /// @brief Field s_ProfilerMarker, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_ProfilerMarker, put = setStaticF_s_ProfilerMarker))::Unity::Profiling::ProfilerMarker s_ProfilerMarker;
+/// @brief Field s_ProfilerMarker, offset 0xffffffff, size 0x8 
+static __declspec(property(get=getStaticF_s_ProfilerMarker, put=setStaticF_s_ProfilerMarker)) ::Unity::Profiling::ProfilerMarker  s_ProfilerMarker;
 
-  static inline ::UnityEngine::UIElements::VisualTreeViewDataUpdater* New_ctor();
+static inline ::UnityEngine::UIElements::VisualTreeViewDataUpdater* New_ctor() ;
 
-  /// @brief Method OnVersionChanged, addr 0x3594c44, size 0x90, virtual true, abstract: false, final false
-  inline void OnVersionChanged(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::VersionChangeType versionChangeType);
+/// @brief Method OnVersionChanged, addr 0x490ef90, size 0x90, virtual true, abstract: false, final false
+inline void OnVersionChanged(::UnityEngine::UIElements::VisualElement*  ve, ::UnityEngine::UIElements::VersionChangeType  versionChangeType) ;
 
-  /// @brief Method PropagateToParents, addr 0x3594cd4, size 0xa8, virtual false, abstract: false, final false
-  inline void PropagateToParents(::UnityEngine::UIElements::VisualElement* ve);
+/// @brief Method PropagateToParents, addr 0x490f020, size 0xa4, virtual false, abstract: false, final false
+inline void PropagateToParents(::UnityEngine::UIElements::VisualElement*  ve) ;
 
-  /// @brief Method Update, addr 0x3594d7c, size 0x144, virtual true, abstract: false, final false
-  inline void Update();
+/// @brief Method Update, addr 0x490f0c4, size 0x150, virtual true, abstract: false, final false
+inline void Update() ;
 
-  /// @brief Method ValidateViewDataOnSubTree, addr 0x3594ec0, size 0x150, virtual false, abstract: false, final false
-  inline void ValidateViewDataOnSubTree(::UnityEngine::UIElements::VisualElement* ve, bool enablePersistence);
+/// @brief Method ValidateViewDataOnSubTree, addr 0x490f214, size 0x154, virtual false, abstract: false, final false
+inline void ValidateViewDataOnSubTree(::UnityEngine::UIElements::VisualElement*  ve, bool  enablePersistence) ;
 
-  constexpr uint32_t const& __cordl_internal_get_m_LastVersion() const;
+constexpr uint32_t const& __cordl_internal_get_m_LastVersion() const;
 
-  constexpr uint32_t& __cordl_internal_get_m_LastVersion();
+constexpr uint32_t& __cordl_internal_get_m_LastVersion() ;
 
-  constexpr ::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>*& __cordl_internal_get_m_ParentList();
+constexpr ::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>*& __cordl_internal_get_m_ParentList() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>*> const& __cordl_internal_get_m_ParentList() const;
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>*> const& __cordl_internal_get_m_ParentList() const;
 
-  constexpr ::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>*& __cordl_internal_get_m_UpdateList();
+constexpr ::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>*& __cordl_internal_get_m_UpdateList() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>*> const& __cordl_internal_get_m_UpdateList() const;
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>*> const& __cordl_internal_get_m_UpdateList() const;
 
-  constexpr uint32_t const& __cordl_internal_get_m_Version() const;
+constexpr uint32_t const& __cordl_internal_get_m_Version() const;
 
-  constexpr uint32_t& __cordl_internal_get_m_Version();
+constexpr uint32_t& __cordl_internal_get_m_Version() ;
 
-  constexpr void __cordl_internal_set_m_LastVersion(uint32_t value);
+constexpr void __cordl_internal_set_m_LastVersion(uint32_t  value) ;
 
-  constexpr void __cordl_internal_set_m_ParentList(::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>* value);
+constexpr void __cordl_internal_set_m_ParentList(::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>*  value) ;
 
-  constexpr void __cordl_internal_set_m_UpdateList(::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>* value);
+constexpr void __cordl_internal_set_m_UpdateList(::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>*  value) ;
 
-  constexpr void __cordl_internal_set_m_Version(uint32_t value);
+constexpr void __cordl_internal_set_m_Version(uint32_t  value) ;
 
-  /// @brief Method .ctor, addr 0x3595010, size 0xa0, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x490f368, size 0x94, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  static inline ::StringW getStaticF_s_Description();
+static inline ::StringW getStaticF_s_Description() ;
 
-  static inline ::Unity::Profiling::ProfilerMarker getStaticF_s_ProfilerMarker();
+static inline ::Unity::Profiling::ProfilerMarker getStaticF_s_ProfilerMarker() ;
 
-  /// @brief Method get_profilerMarker, addr 0x3594bec, size 0x58, virtual true, abstract: false, final false
-  inline ::Unity::Profiling::ProfilerMarker get_profilerMarker();
+/// @brief Method get_profilerMarker, addr 0x490ef38, size 0x58, virtual true, abstract: false, final false
+inline ::Unity::Profiling::ProfilerMarker get_profilerMarker() ;
 
-  static inline void setStaticF_s_Description(::StringW value);
+static inline void setStaticF_s_Description(::StringW  value) ;
 
-  static inline void setStaticF_s_ProfilerMarker(::Unity::Profiling::ProfilerMarker value);
+static inline void setStaticF_s_ProfilerMarker(::Unity::Profiling::ProfilerMarker  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr VisualTreeViewDataUpdater();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr VisualTreeViewDataUpdater() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "VisualTreeViewDataUpdater", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  VisualTreeViewDataUpdater(VisualTreeViewDataUpdater&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "VisualTreeViewDataUpdater", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  VisualTreeViewDataUpdater(VisualTreeViewDataUpdater const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "VisualTreeViewDataUpdater", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+VisualTreeViewDataUpdater(VisualTreeViewDataUpdater && ) = delete;
 
-  /// @brief Field m_UpdateList, offset: 0x20, size: 0x8, def value: None
-  ::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>* ___m_UpdateList;
+// Ctor Parameters [CppParam { name: "", ty: "VisualTreeViewDataUpdater", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+VisualTreeViewDataUpdater(VisualTreeViewDataUpdater const& ) = delete;
 
-  /// @brief Field m_ParentList, offset: 0x28, size: 0x8, def value: None
-  ::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>* ___m_ParentList;
+/// @brief Field m_UpdateList, offset: 0x20, size: 0x8, def value: None
+ ::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>*  ___m_UpdateList;
 
-  /// @brief Field m_Version, offset: 0x30, size: 0x4, def value: None
-  uint32_t ___m_Version;
+/// @brief Field m_ParentList, offset: 0x28, size: 0x8, def value: None
+ ::System::Collections::Generic::HashSet_1<::UnityEngine::UIElements::VisualElement*>*  ___m_ParentList;
 
-  /// @brief Field m_LastVersion, offset: 0x34, size: 0x4, def value: None
-  uint32_t ___m_LastVersion;
+/// @brief Field m_Version, offset: 0x30, size: 0x4, def value: None
+ uint32_t  ___m_Version;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field m_LastVersion, offset: 0x34, size: 0x4, def value: None
+ uint32_t  ___m_LastVersion;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::VisualTreeViewDataUpdater, 0x38>, "Size mismatch!");
@@ -147,6 +146,6 @@ static_assert(offsetof(::UnityEngine::UIElements::VisualTreeViewDataUpdater, ___
 
 static_assert(offsetof(::UnityEngine::UIElements::VisualTreeViewDataUpdater, ___m_LastVersion) == 0x34, "Offset mismatch!");
 
-} // namespace UnityEngine::UIElements
+} // namespace end def UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::VisualTreeViewDataUpdater);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::VisualTreeViewDataUpdater*, "UnityEngine.UIElements", "VisualTreeViewDataUpdater");

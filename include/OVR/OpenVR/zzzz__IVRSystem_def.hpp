@@ -422,2321 +422,2233 @@ MARK_REF_PTR_T(::OVR::OpenVR::__IVRSystem___ShouldApplicationReduceRenderingWork
 MARK_REF_PTR_T(::OVR::OpenVR::__IVRSystem___TriggerHapticPulse);
 MARK_VAL_T(::OVR::OpenVR::IVRSystem);
 // Type: ::_GetRecommendedRenderTargetSize
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: ::IVRSystem::_GetRecommendedRenderTargetSize*
 class CORDL_TYPE __IVRSystem___GetRecommendedRenderTargetSize : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x2bd7254, size 0xa4, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(ByRef<uint32_t> pnWidth, ByRef<uint32_t> pnHeight, ::System::AsyncCallback* callback, ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x3fc3e5c, size 0xa4, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(ByRef<uint32_t>  pnWidth, ByRef<uint32_t>  pnHeight, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x2bd72f8, size 0x24, virtual true, abstract: false, final false
-  inline void EndInvoke(ByRef<uint32_t> pnWidth, ByRef<uint32_t> pnHeight, ::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x3fc3f00, size 0x24, virtual true, abstract: false, final false
+inline void EndInvoke(ByRef<uint32_t>  pnWidth, ByRef<uint32_t>  pnHeight, ::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x2bd7240, size 0x14, virtual true, abstract: false, final false
-  inline void Invoke(ByRef<uint32_t> pnWidth, ByRef<uint32_t> pnHeight);
+/// @brief Method Invoke, addr 0x3fc3e48, size 0x14, virtual true, abstract: false, final false
+inline void Invoke(ByRef<uint32_t>  pnWidth, ByRef<uint32_t>  pnHeight) ;
 
-  static inline ::OVR::OpenVR::__IVRSystem___GetRecommendedRenderTargetSize* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::OVR::OpenVR::__IVRSystem___GetRecommendedRenderTargetSize* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x2bd7168, size 0xd8, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x3fc3da8, size 0xa0, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __IVRSystem___GetRecommendedRenderTargetSize();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __IVRSystem___GetRecommendedRenderTargetSize() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___GetRecommendedRenderTargetSize", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __IVRSystem___GetRecommendedRenderTargetSize(__IVRSystem___GetRecommendedRenderTargetSize&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___GetRecommendedRenderTargetSize", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __IVRSystem___GetRecommendedRenderTargetSize(__IVRSystem___GetRecommendedRenderTargetSize const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___GetRecommendedRenderTargetSize", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__IVRSystem___GetRecommendedRenderTargetSize(__IVRSystem___GetRecommendedRenderTargetSize && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___GetRecommendedRenderTargetSize", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__IVRSystem___GetRecommendedRenderTargetSize(__IVRSystem___GetRecommendedRenderTargetSize const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRSystem___GetRecommendedRenderTargetSize, 0x80>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 // Type: ::_GetProjectionMatrix
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: ::IVRSystem::_GetProjectionMatrix*
 class CORDL_TYPE __IVRSystem___GetProjectionMatrix : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x2bd73f4, size 0xd0, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::OVR::OpenVR::EVREye eEye, float_t fNearZ, float_t fFarZ, ::System::AsyncCallback* callback, ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x3fc3fc4, size 0xd4, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(::OVR::OpenVR::EVREye  eEye, float_t  fNearZ, float_t  fFarZ, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x2bd74c4, size 0x38, virtual true, abstract: false, final false
-  inline ::OVR::OpenVR::HmdMatrix44_t EndInvoke(::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x3fc4098, size 0x38, virtual true, abstract: false, final false
+inline ::OVR::OpenVR::HmdMatrix44_t EndInvoke(::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x2bd73e0, size 0x14, virtual true, abstract: false, final false
-  inline ::OVR::OpenVR::HmdMatrix44_t Invoke(::OVR::OpenVR::EVREye eEye, float_t fNearZ, float_t fFarZ);
+/// @brief Method Invoke, addr 0x3fc3fb0, size 0x14, virtual true, abstract: false, final false
+inline ::OVR::OpenVR::HmdMatrix44_t Invoke(::OVR::OpenVR::EVREye  eEye, float_t  fNearZ, float_t  fFarZ) ;
 
-  static inline ::OVR::OpenVR::__IVRSystem___GetProjectionMatrix* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::OVR::OpenVR::__IVRSystem___GetProjectionMatrix* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x2bd731c, size 0xc4, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x3fc3f24, size 0x8c, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __IVRSystem___GetProjectionMatrix();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __IVRSystem___GetProjectionMatrix() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___GetProjectionMatrix", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __IVRSystem___GetProjectionMatrix(__IVRSystem___GetProjectionMatrix&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___GetProjectionMatrix", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __IVRSystem___GetProjectionMatrix(__IVRSystem___GetProjectionMatrix const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___GetProjectionMatrix", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__IVRSystem___GetProjectionMatrix(__IVRSystem___GetProjectionMatrix && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___GetProjectionMatrix", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__IVRSystem___GetProjectionMatrix(__IVRSystem___GetProjectionMatrix const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRSystem___GetProjectionMatrix, 0x80>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 // Type: ::_GetProjectionRaw
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: ::IVRSystem::_GetProjectionRaw*
 class CORDL_TYPE __IVRSystem___GetProjectionRaw : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x2bd75d4, size 0x110, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::OVR::OpenVR::EVREye eEye, ByRef<float_t> pfLeft, ByRef<float_t> pfRight, ByRef<float_t> pfTop, ByRef<float_t> pfBottom,
-                                             ::System::AsyncCallback* callback, ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x3fc4170, size 0x118, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(::OVR::OpenVR::EVREye  eEye, ByRef<float_t>  pfLeft, ByRef<float_t>  pfRight, ByRef<float_t>  pfTop, ByRef<float_t>  pfBottom, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x2bd76e4, size 0x28, virtual true, abstract: false, final false
-  inline void EndInvoke(ByRef<float_t> pfLeft, ByRef<float_t> pfRight, ByRef<float_t> pfTop, ByRef<float_t> pfBottom, ::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x3fc4288, size 0x28, virtual true, abstract: false, final false
+inline void EndInvoke(ByRef<float_t>  pfLeft, ByRef<float_t>  pfRight, ByRef<float_t>  pfTop, ByRef<float_t>  pfBottom, ::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x2bd75c0, size 0x14, virtual true, abstract: false, final false
-  inline void Invoke(::OVR::OpenVR::EVREye eEye, ByRef<float_t> pfLeft, ByRef<float_t> pfRight, ByRef<float_t> pfTop, ByRef<float_t> pfBottom);
+/// @brief Method Invoke, addr 0x3fc415c, size 0x14, virtual true, abstract: false, final false
+inline void Invoke(::OVR::OpenVR::EVREye  eEye, ByRef<float_t>  pfLeft, ByRef<float_t>  pfRight, ByRef<float_t>  pfTop, ByRef<float_t>  pfBottom) ;
 
-  static inline ::OVR::OpenVR::__IVRSystem___GetProjectionRaw* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::OVR::OpenVR::__IVRSystem___GetProjectionRaw* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x2bd74fc, size 0xc4, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x3fc40d0, size 0x8c, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __IVRSystem___GetProjectionRaw();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __IVRSystem___GetProjectionRaw() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___GetProjectionRaw", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __IVRSystem___GetProjectionRaw(__IVRSystem___GetProjectionRaw&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___GetProjectionRaw", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __IVRSystem___GetProjectionRaw(__IVRSystem___GetProjectionRaw const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___GetProjectionRaw", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__IVRSystem___GetProjectionRaw(__IVRSystem___GetProjectionRaw && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___GetProjectionRaw", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__IVRSystem___GetProjectionRaw(__IVRSystem___GetProjectionRaw const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRSystem___GetProjectionRaw, 0x80>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 // Type: ::_ComputeDistortion
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: ::IVRSystem::_ComputeDistortion*
 class CORDL_TYPE __IVRSystem___ComputeDistortion : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x2bd77e4, size 0x104, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::OVR::OpenVR::EVREye eEye, float_t fU, float_t fV, ByRef<::OVR::OpenVR::DistortionCoordinates_t> pDistortionCoordinates,
-                                             ::System::AsyncCallback* callback, ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x3fc4350, size 0x10c, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(::OVR::OpenVR::EVREye  eEye, float_t  fU, float_t  fV, ByRef<::OVR::OpenVR::DistortionCoordinates_t>  pDistortionCoordinates, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x2bd78e8, size 0x2c, virtual true, abstract: false, final false
-  inline bool EndInvoke(ByRef<::OVR::OpenVR::DistortionCoordinates_t> pDistortionCoordinates, ::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x3fc445c, size 0x2c, virtual true, abstract: false, final false
+inline bool EndInvoke(ByRef<::OVR::OpenVR::DistortionCoordinates_t>  pDistortionCoordinates, ::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x2bd77d0, size 0x14, virtual true, abstract: false, final false
-  inline bool Invoke(::OVR::OpenVR::EVREye eEye, float_t fU, float_t fV, ByRef<::OVR::OpenVR::DistortionCoordinates_t> pDistortionCoordinates);
+/// @brief Method Invoke, addr 0x3fc433c, size 0x14, virtual true, abstract: false, final false
+inline bool Invoke(::OVR::OpenVR::EVREye  eEye, float_t  fU, float_t  fV, ByRef<::OVR::OpenVR::DistortionCoordinates_t>  pDistortionCoordinates) ;
 
-  static inline ::OVR::OpenVR::__IVRSystem___ComputeDistortion* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::OVR::OpenVR::__IVRSystem___ComputeDistortion* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x2bd770c, size 0xc4, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x3fc42b0, size 0x8c, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __IVRSystem___ComputeDistortion();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __IVRSystem___ComputeDistortion() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___ComputeDistortion", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __IVRSystem___ComputeDistortion(__IVRSystem___ComputeDistortion&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___ComputeDistortion", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __IVRSystem___ComputeDistortion(__IVRSystem___ComputeDistortion const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___ComputeDistortion", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__IVRSystem___ComputeDistortion(__IVRSystem___ComputeDistortion && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___ComputeDistortion", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__IVRSystem___ComputeDistortion(__IVRSystem___ComputeDistortion const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRSystem___ComputeDistortion, 0x80>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 // Type: ::_GetEyeToHeadTransform
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: ::IVRSystem::_GetEyeToHeadTransform*
 class CORDL_TYPE __IVRSystem___GetEyeToHeadTransform : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x2bd79ec, size 0x84, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::OVR::OpenVR::EVREye eEye, ::System::AsyncCallback* callback, ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x3fc4528, size 0x84, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(::OVR::OpenVR::EVREye  eEye, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x2bd7a70, size 0x38, virtual true, abstract: false, final false
-  inline ::OVR::OpenVR::HmdMatrix34_t EndInvoke(::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x3fc45ac, size 0x38, virtual true, abstract: false, final false
+inline ::OVR::OpenVR::HmdMatrix34_t EndInvoke(::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x2bd79d8, size 0x14, virtual true, abstract: false, final false
-  inline ::OVR::OpenVR::HmdMatrix34_t Invoke(::OVR::OpenVR::EVREye eEye);
+/// @brief Method Invoke, addr 0x3fc4514, size 0x14, virtual true, abstract: false, final false
+inline ::OVR::OpenVR::HmdMatrix34_t Invoke(::OVR::OpenVR::EVREye  eEye) ;
 
-  static inline ::OVR::OpenVR::__IVRSystem___GetEyeToHeadTransform* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::OVR::OpenVR::__IVRSystem___GetEyeToHeadTransform* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x2bd7914, size 0xc4, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x3fc4488, size 0x8c, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __IVRSystem___GetEyeToHeadTransform();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __IVRSystem___GetEyeToHeadTransform() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___GetEyeToHeadTransform", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __IVRSystem___GetEyeToHeadTransform(__IVRSystem___GetEyeToHeadTransform&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___GetEyeToHeadTransform", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __IVRSystem___GetEyeToHeadTransform(__IVRSystem___GetEyeToHeadTransform const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___GetEyeToHeadTransform", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__IVRSystem___GetEyeToHeadTransform(__IVRSystem___GetEyeToHeadTransform && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___GetEyeToHeadTransform", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__IVRSystem___GetEyeToHeadTransform(__IVRSystem___GetEyeToHeadTransform const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRSystem___GetEyeToHeadTransform, 0x80>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 // Type: ::_GetTimeSinceLastVsync
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: ::IVRSystem::_GetTimeSinceLastVsync*
 class CORDL_TYPE __IVRSystem___GetTimeSinceLastVsync : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x2bd7b94, size 0xc0, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(ByRef<float_t> pfSecondsSinceLastVsync, ByRef<uint64_t> pulFrameCounter, ::System::AsyncCallback* callback, ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x3fc4698, size 0xc0, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(ByRef<float_t>  pfSecondsSinceLastVsync, ByRef<uint64_t>  pulFrameCounter, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x2bd7c54, size 0x34, virtual true, abstract: false, final false
-  inline bool EndInvoke(ByRef<float_t> pfSecondsSinceLastVsync, ByRef<uint64_t> pulFrameCounter, ::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x3fc4758, size 0x34, virtual true, abstract: false, final false
+inline bool EndInvoke(ByRef<float_t>  pfSecondsSinceLastVsync, ByRef<uint64_t>  pulFrameCounter, ::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x2bd7b80, size 0x14, virtual true, abstract: false, final false
-  inline bool Invoke(ByRef<float_t> pfSecondsSinceLastVsync, ByRef<uint64_t> pulFrameCounter);
+/// @brief Method Invoke, addr 0x3fc4684, size 0x14, virtual true, abstract: false, final false
+inline bool Invoke(ByRef<float_t>  pfSecondsSinceLastVsync, ByRef<uint64_t>  pulFrameCounter) ;
 
-  static inline ::OVR::OpenVR::__IVRSystem___GetTimeSinceLastVsync* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::OVR::OpenVR::__IVRSystem___GetTimeSinceLastVsync* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x2bd7aa8, size 0xd8, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x3fc45e4, size 0xa0, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __IVRSystem___GetTimeSinceLastVsync();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __IVRSystem___GetTimeSinceLastVsync() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___GetTimeSinceLastVsync", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __IVRSystem___GetTimeSinceLastVsync(__IVRSystem___GetTimeSinceLastVsync&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___GetTimeSinceLastVsync", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __IVRSystem___GetTimeSinceLastVsync(__IVRSystem___GetTimeSinceLastVsync const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___GetTimeSinceLastVsync", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__IVRSystem___GetTimeSinceLastVsync(__IVRSystem___GetTimeSinceLastVsync && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___GetTimeSinceLastVsync", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__IVRSystem___GetTimeSinceLastVsync(__IVRSystem___GetTimeSinceLastVsync const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRSystem___GetTimeSinceLastVsync, 0x80>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 // Type: ::_GetD3D9AdapterIndex
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: ::IVRSystem::_GetD3D9AdapterIndex*
 class CORDL_TYPE __IVRSystem___GetD3D9AdapterIndex : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x2bd7d58, size 0x20, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x3fc4828, size 0x20, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x2bd7d78, size 0x28, virtual true, abstract: false, final false
-  inline int32_t EndInvoke(::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x3fc4848, size 0x28, virtual true, abstract: false, final false
+inline int32_t EndInvoke(::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x2bd7d44, size 0x14, virtual true, abstract: false, final false
-  inline int32_t Invoke();
+/// @brief Method Invoke, addr 0x3fc4814, size 0x14, virtual true, abstract: false, final false
+inline int32_t Invoke() ;
 
-  static inline ::OVR::OpenVR::__IVRSystem___GetD3D9AdapterIndex* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::OVR::OpenVR::__IVRSystem___GetD3D9AdapterIndex* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x2bd7c88, size 0xbc, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x3fc478c, size 0x88, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __IVRSystem___GetD3D9AdapterIndex();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __IVRSystem___GetD3D9AdapterIndex() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___GetD3D9AdapterIndex", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __IVRSystem___GetD3D9AdapterIndex(__IVRSystem___GetD3D9AdapterIndex&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___GetD3D9AdapterIndex", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __IVRSystem___GetD3D9AdapterIndex(__IVRSystem___GetD3D9AdapterIndex const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___GetD3D9AdapterIndex", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__IVRSystem___GetD3D9AdapterIndex(__IVRSystem___GetD3D9AdapterIndex && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___GetD3D9AdapterIndex", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__IVRSystem___GetD3D9AdapterIndex(__IVRSystem___GetD3D9AdapterIndex const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRSystem___GetD3D9AdapterIndex, 0x80>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 // Type: ::_GetDXGIOutputInfo
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: ::IVRSystem::_GetDXGIOutputInfo*
 class CORDL_TYPE __IVRSystem___GetDXGIOutputInfo : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x2bd7e88, size 0x8c, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(ByRef<int32_t> pnAdapterIndex, ::System::AsyncCallback* callback, ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x3fc4920, size 0x8c, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(ByRef<int32_t>  pnAdapterIndex, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x2bd7f14, size 0x1c, virtual true, abstract: false, final false
-  inline void EndInvoke(ByRef<int32_t> pnAdapterIndex, ::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x3fc49ac, size 0xec, virtual true, abstract: false, final false
+inline void EndInvoke(ByRef<int32_t>  pnAdapterIndex, ::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x2bd7e74, size 0x14, virtual true, abstract: false, final false
-  inline void Invoke(ByRef<int32_t> pnAdapterIndex);
+/// @brief Method Invoke, addr 0x3fc490c, size 0x14, virtual true, abstract: false, final false
+inline void Invoke(ByRef<int32_t>  pnAdapterIndex) ;
 
-  static inline ::OVR::OpenVR::__IVRSystem___GetDXGIOutputInfo* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::OVR::OpenVR::__IVRSystem___GetDXGIOutputInfo* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x2bd7da0, size 0xd4, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x3fc4870, size 0x9c, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __IVRSystem___GetDXGIOutputInfo();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __IVRSystem___GetDXGIOutputInfo() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___GetDXGIOutputInfo", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __IVRSystem___GetDXGIOutputInfo(__IVRSystem___GetDXGIOutputInfo&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___GetDXGIOutputInfo", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __IVRSystem___GetDXGIOutputInfo(__IVRSystem___GetDXGIOutputInfo const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___GetDXGIOutputInfo", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__IVRSystem___GetDXGIOutputInfo(__IVRSystem___GetDXGIOutputInfo && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___GetDXGIOutputInfo", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__IVRSystem___GetDXGIOutputInfo(__IVRSystem___GetDXGIOutputInfo const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRSystem___GetDXGIOutputInfo, 0x80>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 // Type: ::_GetOutputDevice
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: ::IVRSystem::_GetOutputDevice*
 class CORDL_TYPE __IVRSystem___GetOutputDevice : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x2bd801c, size 0xe8, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(ByRef<uint64_t> pnDevice, ::OVR::OpenVR::ETextureType textureType, ::System::IntPtr pInstance, ::System::AsyncCallback* callback,
-                                             ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x3fc4b4c, size 0xec, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(ByRef<uint64_t>  pnDevice, ::OVR::OpenVR::ETextureType  textureType, ::System::IntPtr  pInstance, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x2bd8104, size 0x101c, virtual true, abstract: false, final false
-  inline void EndInvoke(ByRef<uint64_t> pnDevice, ::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x3fc4c38, size 0x1c, virtual true, abstract: false, final false
+inline void EndInvoke(ByRef<uint64_t>  pnDevice, ::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x2bd8008, size 0x14, virtual true, abstract: false, final false
-  inline void Invoke(ByRef<uint64_t> pnDevice, ::OVR::OpenVR::ETextureType textureType, ::System::IntPtr pInstance);
+/// @brief Method Invoke, addr 0x3fc4b38, size 0x14, virtual true, abstract: false, final false
+inline void Invoke(ByRef<uint64_t>  pnDevice, ::OVR::OpenVR::ETextureType  textureType, ::System::IntPtr  pInstance) ;
 
-  static inline ::OVR::OpenVR::__IVRSystem___GetOutputDevice* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::OVR::OpenVR::__IVRSystem___GetOutputDevice* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x2bd7f30, size 0xd8, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x3fc4a98, size 0xa0, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __IVRSystem___GetOutputDevice();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __IVRSystem___GetOutputDevice() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___GetOutputDevice", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __IVRSystem___GetOutputDevice(__IVRSystem___GetOutputDevice&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___GetOutputDevice", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __IVRSystem___GetOutputDevice(__IVRSystem___GetOutputDevice const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___GetOutputDevice", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__IVRSystem___GetOutputDevice(__IVRSystem___GetOutputDevice && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___GetOutputDevice", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__IVRSystem___GetOutputDevice(__IVRSystem___GetOutputDevice const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRSystem___GetOutputDevice, 0x80>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 // Type: ::_IsDisplayOnDesktop
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: ::IVRSystem::_IsDisplayOnDesktop*
 class CORDL_TYPE __IVRSystem___IsDisplayOnDesktop : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x2bd91f0, size 0x20, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x3fc4cf0, size 0x20, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x2bd9210, size 0x28, virtual true, abstract: false, final false
-  inline bool EndInvoke(::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x3fc4d10, size 0x28, virtual true, abstract: false, final false
+inline bool EndInvoke(::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x2bd91dc, size 0x14, virtual true, abstract: false, final false
-  inline bool Invoke();
+/// @brief Method Invoke, addr 0x3fc4cdc, size 0x14, virtual true, abstract: false, final false
+inline bool Invoke() ;
 
-  static inline ::OVR::OpenVR::__IVRSystem___IsDisplayOnDesktop* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::OVR::OpenVR::__IVRSystem___IsDisplayOnDesktop* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x2bd9120, size 0xbc, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x3fc4c54, size 0x88, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __IVRSystem___IsDisplayOnDesktop();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __IVRSystem___IsDisplayOnDesktop() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___IsDisplayOnDesktop", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __IVRSystem___IsDisplayOnDesktop(__IVRSystem___IsDisplayOnDesktop&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___IsDisplayOnDesktop", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __IVRSystem___IsDisplayOnDesktop(__IVRSystem___IsDisplayOnDesktop const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___IsDisplayOnDesktop", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__IVRSystem___IsDisplayOnDesktop(__IVRSystem___IsDisplayOnDesktop && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___IsDisplayOnDesktop", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__IVRSystem___IsDisplayOnDesktop(__IVRSystem___IsDisplayOnDesktop const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRSystem___IsDisplayOnDesktop, 0x80>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 // Type: ::_SetDisplayVisibility
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: ::IVRSystem::_SetDisplayVisibility*
 class CORDL_TYPE __IVRSystem___SetDisplayVisibility : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x2bd9314, size 0x88, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(bool bIsVisibleOnDesktop, ::System::AsyncCallback* callback, ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x3fc4ddc, size 0x88, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(bool  bIsVisibleOnDesktop, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x2bd939c, size 0x28, virtual true, abstract: false, final false
-  inline bool EndInvoke(::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x3fc4e64, size 0x28, virtual true, abstract: false, final false
+inline bool EndInvoke(::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x2bd92fc, size 0x18, virtual true, abstract: false, final false
-  inline bool Invoke(bool bIsVisibleOnDesktop);
+/// @brief Method Invoke, addr 0x3fc4dc4, size 0x18, virtual true, abstract: false, final false
+inline bool Invoke(bool  bIsVisibleOnDesktop) ;
 
-  static inline ::OVR::OpenVR::__IVRSystem___SetDisplayVisibility* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::OVR::OpenVR::__IVRSystem___SetDisplayVisibility* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x2bd9238, size 0xc4, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x3fc4d38, size 0x8c, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __IVRSystem___SetDisplayVisibility();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __IVRSystem___SetDisplayVisibility() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___SetDisplayVisibility", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __IVRSystem___SetDisplayVisibility(__IVRSystem___SetDisplayVisibility&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___SetDisplayVisibility", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __IVRSystem___SetDisplayVisibility(__IVRSystem___SetDisplayVisibility const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___SetDisplayVisibility", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__IVRSystem___SetDisplayVisibility(__IVRSystem___SetDisplayVisibility && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___SetDisplayVisibility", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__IVRSystem___SetDisplayVisibility(__IVRSystem___SetDisplayVisibility const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRSystem___SetDisplayVisibility, 0x80>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 // Type: ::_GetDeviceToAbsoluteTrackingPose
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: ::IVRSystem::_GetDeviceToAbsoluteTrackingPose*
 class CORDL_TYPE __IVRSystem___GetDeviceToAbsoluteTrackingPose : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x2bd949c, size 0xf0, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::OVR::OpenVR::ETrackingUniverseOrigin eOrigin, float_t fPredictedSecondsToPhotonsFromNow,
-                                             ByRef<::ArrayW<::OVR::OpenVR::TrackedDevicePose_t, ::Array<::OVR::OpenVR::TrackedDevicePose_t>*>> pTrackedDevicePoseArray,
-                                             uint32_t unTrackedDevicePoseArrayCount, ::System::AsyncCallback* callback, ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x3fc4f2c, size 0xf8, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(::OVR::OpenVR::ETrackingUniverseOrigin  eOrigin, float_t  fPredictedSecondsToPhotonsFromNow, ByRef<::ArrayW<::OVR::OpenVR::TrackedDevicePose_t,::Array<::OVR::OpenVR::TrackedDevicePose_t>*>>  pTrackedDevicePoseArray, uint32_t  unTrackedDevicePoseArrayCount, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x2bd958c, size 0xc, virtual true, abstract: false, final false
-  inline void EndInvoke(::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x3fc5024, size 0xc, virtual true, abstract: false, final false
+inline void EndInvoke(::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x2bd9488, size 0x14, virtual true, abstract: false, final false
-  inline void Invoke(::OVR::OpenVR::ETrackingUniverseOrigin eOrigin, float_t fPredictedSecondsToPhotonsFromNow,
-                     ByRef<::ArrayW<::OVR::OpenVR::TrackedDevicePose_t, ::Array<::OVR::OpenVR::TrackedDevicePose_t>*>> pTrackedDevicePoseArray, uint32_t unTrackedDevicePoseArrayCount);
+/// @brief Method Invoke, addr 0x3fc4f18, size 0x14, virtual true, abstract: false, final false
+inline void Invoke(::OVR::OpenVR::ETrackingUniverseOrigin  eOrigin, float_t  fPredictedSecondsToPhotonsFromNow, ByRef<::ArrayW<::OVR::OpenVR::TrackedDevicePose_t,::Array<::OVR::OpenVR::TrackedDevicePose_t>*>>  pTrackedDevicePoseArray, uint32_t  unTrackedDevicePoseArrayCount) ;
 
-  static inline ::OVR::OpenVR::__IVRSystem___GetDeviceToAbsoluteTrackingPose* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::OVR::OpenVR::__IVRSystem___GetDeviceToAbsoluteTrackingPose* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x2bd93c4, size 0xc4, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x3fc4e8c, size 0x8c, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __IVRSystem___GetDeviceToAbsoluteTrackingPose();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __IVRSystem___GetDeviceToAbsoluteTrackingPose() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___GetDeviceToAbsoluteTrackingPose", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __IVRSystem___GetDeviceToAbsoluteTrackingPose(__IVRSystem___GetDeviceToAbsoluteTrackingPose&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___GetDeviceToAbsoluteTrackingPose", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __IVRSystem___GetDeviceToAbsoluteTrackingPose(__IVRSystem___GetDeviceToAbsoluteTrackingPose const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___GetDeviceToAbsoluteTrackingPose", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__IVRSystem___GetDeviceToAbsoluteTrackingPose(__IVRSystem___GetDeviceToAbsoluteTrackingPose && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___GetDeviceToAbsoluteTrackingPose", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__IVRSystem___GetDeviceToAbsoluteTrackingPose(__IVRSystem___GetDeviceToAbsoluteTrackingPose const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRSystem___GetDeviceToAbsoluteTrackingPose, 0x80>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 // Type: ::_ResetSeatedZeroPose
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: ::IVRSystem::_ResetSeatedZeroPose*
 class CORDL_TYPE __IVRSystem___ResetSeatedZeroPose : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x2bd9668, size 0x20, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x3fc50cc, size 0x20, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x2bd9688, size 0xc, virtual true, abstract: false, final false
-  inline void EndInvoke(::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x3fc50ec, size 0xc, virtual true, abstract: false, final false
+inline void EndInvoke(::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x2bd9654, size 0x14, virtual true, abstract: false, final false
-  inline void Invoke();
+/// @brief Method Invoke, addr 0x3fc50b8, size 0x14, virtual true, abstract: false, final false
+inline void Invoke() ;
 
-  static inline ::OVR::OpenVR::__IVRSystem___ResetSeatedZeroPose* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::OVR::OpenVR::__IVRSystem___ResetSeatedZeroPose* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x2bd9598, size 0xbc, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x3fc5030, size 0x88, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __IVRSystem___ResetSeatedZeroPose();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __IVRSystem___ResetSeatedZeroPose() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___ResetSeatedZeroPose", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __IVRSystem___ResetSeatedZeroPose(__IVRSystem___ResetSeatedZeroPose&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___ResetSeatedZeroPose", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __IVRSystem___ResetSeatedZeroPose(__IVRSystem___ResetSeatedZeroPose const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___ResetSeatedZeroPose", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__IVRSystem___ResetSeatedZeroPose(__IVRSystem___ResetSeatedZeroPose && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___ResetSeatedZeroPose", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__IVRSystem___ResetSeatedZeroPose(__IVRSystem___ResetSeatedZeroPose const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRSystem___ResetSeatedZeroPose, 0x80>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 // Type: ::_GetSeatedZeroPoseToStandingAbsoluteTrackingPose
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: ::IVRSystem::_GetSeatedZeroPoseToStandingAbsoluteTrackingPose*
 class CORDL_TYPE __IVRSystem___GetSeatedZeroPoseToStandingAbsoluteTrackingPose : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x2bd9764, size 0x20, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x3fc5194, size 0x20, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x2bd9784, size 0x38, virtual true, abstract: false, final false
-  inline ::OVR::OpenVR::HmdMatrix34_t EndInvoke(::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x3fc51b4, size 0x38, virtual true, abstract: false, final false
+inline ::OVR::OpenVR::HmdMatrix34_t EndInvoke(::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x2bd9750, size 0x14, virtual true, abstract: false, final false
-  inline ::OVR::OpenVR::HmdMatrix34_t Invoke();
+/// @brief Method Invoke, addr 0x3fc5180, size 0x14, virtual true, abstract: false, final false
+inline ::OVR::OpenVR::HmdMatrix34_t Invoke() ;
 
-  static inline ::OVR::OpenVR::__IVRSystem___GetSeatedZeroPoseToStandingAbsoluteTrackingPose* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::OVR::OpenVR::__IVRSystem___GetSeatedZeroPoseToStandingAbsoluteTrackingPose* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x2bd9694, size 0xbc, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x3fc50f8, size 0x88, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __IVRSystem___GetSeatedZeroPoseToStandingAbsoluteTrackingPose();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __IVRSystem___GetSeatedZeroPoseToStandingAbsoluteTrackingPose() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___GetSeatedZeroPoseToStandingAbsoluteTrackingPose", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __IVRSystem___GetSeatedZeroPoseToStandingAbsoluteTrackingPose(__IVRSystem___GetSeatedZeroPoseToStandingAbsoluteTrackingPose&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___GetSeatedZeroPoseToStandingAbsoluteTrackingPose", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __IVRSystem___GetSeatedZeroPoseToStandingAbsoluteTrackingPose(__IVRSystem___GetSeatedZeroPoseToStandingAbsoluteTrackingPose const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___GetSeatedZeroPoseToStandingAbsoluteTrackingPose", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__IVRSystem___GetSeatedZeroPoseToStandingAbsoluteTrackingPose(__IVRSystem___GetSeatedZeroPoseToStandingAbsoluteTrackingPose && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___GetSeatedZeroPoseToStandingAbsoluteTrackingPose", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__IVRSystem___GetSeatedZeroPoseToStandingAbsoluteTrackingPose(__IVRSystem___GetSeatedZeroPoseToStandingAbsoluteTrackingPose const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRSystem___GetSeatedZeroPoseToStandingAbsoluteTrackingPose, 0x80>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 // Type: ::_GetRawZeroPoseToStandingAbsoluteTrackingPose
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: ::IVRSystem::_GetRawZeroPoseToStandingAbsoluteTrackingPose*
 class CORDL_TYPE __IVRSystem___GetRawZeroPoseToStandingAbsoluteTrackingPose : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x2bd988c, size 0x20, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x3fc5288, size 0x20, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x2bd98ac, size 0x38, virtual true, abstract: false, final false
-  inline ::OVR::OpenVR::HmdMatrix34_t EndInvoke(::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x3fc52a8, size 0x38, virtual true, abstract: false, final false
+inline ::OVR::OpenVR::HmdMatrix34_t EndInvoke(::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x2bd9878, size 0x14, virtual true, abstract: false, final false
-  inline ::OVR::OpenVR::HmdMatrix34_t Invoke();
+/// @brief Method Invoke, addr 0x3fc5274, size 0x14, virtual true, abstract: false, final false
+inline ::OVR::OpenVR::HmdMatrix34_t Invoke() ;
 
-  static inline ::OVR::OpenVR::__IVRSystem___GetRawZeroPoseToStandingAbsoluteTrackingPose* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::OVR::OpenVR::__IVRSystem___GetRawZeroPoseToStandingAbsoluteTrackingPose* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x2bd97bc, size 0xbc, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x3fc51ec, size 0x88, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __IVRSystem___GetRawZeroPoseToStandingAbsoluteTrackingPose();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __IVRSystem___GetRawZeroPoseToStandingAbsoluteTrackingPose() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___GetRawZeroPoseToStandingAbsoluteTrackingPose", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __IVRSystem___GetRawZeroPoseToStandingAbsoluteTrackingPose(__IVRSystem___GetRawZeroPoseToStandingAbsoluteTrackingPose&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___GetRawZeroPoseToStandingAbsoluteTrackingPose", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __IVRSystem___GetRawZeroPoseToStandingAbsoluteTrackingPose(__IVRSystem___GetRawZeroPoseToStandingAbsoluteTrackingPose const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___GetRawZeroPoseToStandingAbsoluteTrackingPose", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__IVRSystem___GetRawZeroPoseToStandingAbsoluteTrackingPose(__IVRSystem___GetRawZeroPoseToStandingAbsoluteTrackingPose && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___GetRawZeroPoseToStandingAbsoluteTrackingPose", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__IVRSystem___GetRawZeroPoseToStandingAbsoluteTrackingPose(__IVRSystem___GetRawZeroPoseToStandingAbsoluteTrackingPose const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRSystem___GetRawZeroPoseToStandingAbsoluteTrackingPose, 0x80>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 // Type: ::_GetSortedTrackedDeviceIndicesOfClass
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: ::IVRSystem::_GetSortedTrackedDeviceIndicesOfClass*
 class CORDL_TYPE __IVRSystem___GetSortedTrackedDeviceIndicesOfClass : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x2bd99bc, size 0xd0, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::OVR::OpenVR::ETrackedDeviceClass eTrackedDeviceClass, ByRef<::ArrayW<uint32_t, ::Array<uint32_t>*>> punTrackedDeviceIndexArray,
-                                             uint32_t unTrackedDeviceIndexArrayCount, uint32_t unRelativeToTrackedDeviceIndex, ::System::AsyncCallback* callback, ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x3fc5380, size 0xd8, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(::OVR::OpenVR::ETrackedDeviceClass  eTrackedDeviceClass, ByRef<::ArrayW<uint32_t,::Array<uint32_t>*>>  punTrackedDeviceIndexArray, uint32_t  unTrackedDeviceIndexArrayCount, uint32_t  unRelativeToTrackedDeviceIndex, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x2bd9a8c, size 0x28, virtual true, abstract: false, final false
-  inline uint32_t EndInvoke(::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x3fc5458, size 0x28, virtual true, abstract: false, final false
+inline uint32_t EndInvoke(::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x2bd99a8, size 0x14, virtual true, abstract: false, final false
-  inline uint32_t Invoke(::OVR::OpenVR::ETrackedDeviceClass eTrackedDeviceClass, ByRef<::ArrayW<uint32_t, ::Array<uint32_t>*>> punTrackedDeviceIndexArray, uint32_t unTrackedDeviceIndexArrayCount,
-                         uint32_t unRelativeToTrackedDeviceIndex);
+/// @brief Method Invoke, addr 0x3fc536c, size 0x14, virtual true, abstract: false, final false
+inline uint32_t Invoke(::OVR::OpenVR::ETrackedDeviceClass  eTrackedDeviceClass, ByRef<::ArrayW<uint32_t,::Array<uint32_t>*>>  punTrackedDeviceIndexArray, uint32_t  unTrackedDeviceIndexArrayCount, uint32_t  unRelativeToTrackedDeviceIndex) ;
 
-  static inline ::OVR::OpenVR::__IVRSystem___GetSortedTrackedDeviceIndicesOfClass* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::OVR::OpenVR::__IVRSystem___GetSortedTrackedDeviceIndicesOfClass* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x2bd98e4, size 0xc4, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x3fc52e0, size 0x8c, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __IVRSystem___GetSortedTrackedDeviceIndicesOfClass();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __IVRSystem___GetSortedTrackedDeviceIndicesOfClass() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___GetSortedTrackedDeviceIndicesOfClass", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __IVRSystem___GetSortedTrackedDeviceIndicesOfClass(__IVRSystem___GetSortedTrackedDeviceIndicesOfClass&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___GetSortedTrackedDeviceIndicesOfClass", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __IVRSystem___GetSortedTrackedDeviceIndicesOfClass(__IVRSystem___GetSortedTrackedDeviceIndicesOfClass const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___GetSortedTrackedDeviceIndicesOfClass", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__IVRSystem___GetSortedTrackedDeviceIndicesOfClass(__IVRSystem___GetSortedTrackedDeviceIndicesOfClass && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___GetSortedTrackedDeviceIndicesOfClass", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__IVRSystem___GetSortedTrackedDeviceIndicesOfClass(__IVRSystem___GetSortedTrackedDeviceIndicesOfClass const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRSystem___GetSortedTrackedDeviceIndicesOfClass, 0x80>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 // Type: ::_GetTrackedDeviceActivityLevel
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: ::IVRSystem::_GetTrackedDeviceActivityLevel*
 class CORDL_TYPE __IVRSystem___GetTrackedDeviceActivityLevel : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x2bd9b8c, size 0x84, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(uint32_t unDeviceId, ::System::AsyncCallback* callback, ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x3fc5520, size 0x84, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(uint32_t  unDeviceId, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x2bd9c10, size 0x28, virtual true, abstract: false, final false
-  inline ::OVR::OpenVR::EDeviceActivityLevel EndInvoke(::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x3fc55a4, size 0x28, virtual true, abstract: false, final false
+inline ::OVR::OpenVR::EDeviceActivityLevel EndInvoke(::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x2bd9b78, size 0x14, virtual true, abstract: false, final false
-  inline ::OVR::OpenVR::EDeviceActivityLevel Invoke(uint32_t unDeviceId);
+/// @brief Method Invoke, addr 0x3fc550c, size 0x14, virtual true, abstract: false, final false
+inline ::OVR::OpenVR::EDeviceActivityLevel Invoke(uint32_t  unDeviceId) ;
 
-  static inline ::OVR::OpenVR::__IVRSystem___GetTrackedDeviceActivityLevel* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::OVR::OpenVR::__IVRSystem___GetTrackedDeviceActivityLevel* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x2bd9ab4, size 0xc4, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x3fc5480, size 0x8c, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __IVRSystem___GetTrackedDeviceActivityLevel();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __IVRSystem___GetTrackedDeviceActivityLevel() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___GetTrackedDeviceActivityLevel", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __IVRSystem___GetTrackedDeviceActivityLevel(__IVRSystem___GetTrackedDeviceActivityLevel&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___GetTrackedDeviceActivityLevel", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __IVRSystem___GetTrackedDeviceActivityLevel(__IVRSystem___GetTrackedDeviceActivityLevel const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___GetTrackedDeviceActivityLevel", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__IVRSystem___GetTrackedDeviceActivityLevel(__IVRSystem___GetTrackedDeviceActivityLevel && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___GetTrackedDeviceActivityLevel", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__IVRSystem___GetTrackedDeviceActivityLevel(__IVRSystem___GetTrackedDeviceActivityLevel const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRSystem___GetTrackedDeviceActivityLevel, 0x80>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 // Type: ::_ApplyTransform
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: ::IVRSystem::_ApplyTransform*
 class CORDL_TYPE __IVRSystem___ApplyTransform : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x2bd9d24, size 0xd8, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(ByRef<::OVR::OpenVR::TrackedDevicePose_t> pOutputPose, ByRef<::OVR::OpenVR::TrackedDevicePose_t> pTrackedDevicePose,
-                                             ByRef<::OVR::OpenVR::HmdMatrix34_t> pTransform, ::System::AsyncCallback* callback, ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x3fc5680, size 0xd8, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(ByRef<::OVR::OpenVR::TrackedDevicePose_t>  pOutputPose, ByRef<::OVR::OpenVR::TrackedDevicePose_t>  pTrackedDevicePose, ByRef<::OVR::OpenVR::HmdMatrix34_t>  pTransform, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x2bd9dfc, size 0x24, virtual true, abstract: false, final false
-  inline void EndInvoke(ByRef<::OVR::OpenVR::TrackedDevicePose_t> pOutputPose, ByRef<::OVR::OpenVR::TrackedDevicePose_t> pTrackedDevicePose, ByRef<::OVR::OpenVR::HmdMatrix34_t> pTransform,
-                        ::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x3fc5758, size 0x24, virtual true, abstract: false, final false
+inline void EndInvoke(ByRef<::OVR::OpenVR::TrackedDevicePose_t>  pOutputPose, ByRef<::OVR::OpenVR::TrackedDevicePose_t>  pTrackedDevicePose, ByRef<::OVR::OpenVR::HmdMatrix34_t>  pTransform, ::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x2bd9d10, size 0x14, virtual true, abstract: false, final false
-  inline void Invoke(ByRef<::OVR::OpenVR::TrackedDevicePose_t> pOutputPose, ByRef<::OVR::OpenVR::TrackedDevicePose_t> pTrackedDevicePose, ByRef<::OVR::OpenVR::HmdMatrix34_t> pTransform);
+/// @brief Method Invoke, addr 0x3fc566c, size 0x14, virtual true, abstract: false, final false
+inline void Invoke(ByRef<::OVR::OpenVR::TrackedDevicePose_t>  pOutputPose, ByRef<::OVR::OpenVR::TrackedDevicePose_t>  pTrackedDevicePose, ByRef<::OVR::OpenVR::HmdMatrix34_t>  pTransform) ;
 
-  static inline ::OVR::OpenVR::__IVRSystem___ApplyTransform* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::OVR::OpenVR::__IVRSystem___ApplyTransform* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x2bd9c38, size 0xd8, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x3fc55cc, size 0xa0, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __IVRSystem___ApplyTransform();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __IVRSystem___ApplyTransform() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___ApplyTransform", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __IVRSystem___ApplyTransform(__IVRSystem___ApplyTransform&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___ApplyTransform", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __IVRSystem___ApplyTransform(__IVRSystem___ApplyTransform const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___ApplyTransform", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__IVRSystem___ApplyTransform(__IVRSystem___ApplyTransform && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___ApplyTransform", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__IVRSystem___ApplyTransform(__IVRSystem___ApplyTransform const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRSystem___ApplyTransform, 0x80>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 // Type: ::_GetTrackedDeviceIndexForControllerRole
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: ::IVRSystem::_GetTrackedDeviceIndexForControllerRole*
 class CORDL_TYPE __IVRSystem___GetTrackedDeviceIndexForControllerRole : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x2bd9ef8, size 0x84, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::OVR::OpenVR::ETrackedControllerRole unDeviceType, ::System::AsyncCallback* callback, ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x3fc581c, size 0x84, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(::OVR::OpenVR::ETrackedControllerRole  unDeviceType, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x2bd9f7c, size 0x28, virtual true, abstract: false, final false
-  inline uint32_t EndInvoke(::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x3fc58a0, size 0x28, virtual true, abstract: false, final false
+inline uint32_t EndInvoke(::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x2bd9ee4, size 0x14, virtual true, abstract: false, final false
-  inline uint32_t Invoke(::OVR::OpenVR::ETrackedControllerRole unDeviceType);
+/// @brief Method Invoke, addr 0x3fc5808, size 0x14, virtual true, abstract: false, final false
+inline uint32_t Invoke(::OVR::OpenVR::ETrackedControllerRole  unDeviceType) ;
 
-  static inline ::OVR::OpenVR::__IVRSystem___GetTrackedDeviceIndexForControllerRole* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::OVR::OpenVR::__IVRSystem___GetTrackedDeviceIndexForControllerRole* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x2bd9e20, size 0xc4, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x3fc577c, size 0x8c, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __IVRSystem___GetTrackedDeviceIndexForControllerRole();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __IVRSystem___GetTrackedDeviceIndexForControllerRole() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___GetTrackedDeviceIndexForControllerRole", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __IVRSystem___GetTrackedDeviceIndexForControllerRole(__IVRSystem___GetTrackedDeviceIndexForControllerRole&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___GetTrackedDeviceIndexForControllerRole", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __IVRSystem___GetTrackedDeviceIndexForControllerRole(__IVRSystem___GetTrackedDeviceIndexForControllerRole const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___GetTrackedDeviceIndexForControllerRole", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__IVRSystem___GetTrackedDeviceIndexForControllerRole(__IVRSystem___GetTrackedDeviceIndexForControllerRole && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___GetTrackedDeviceIndexForControllerRole", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__IVRSystem___GetTrackedDeviceIndexForControllerRole(__IVRSystem___GetTrackedDeviceIndexForControllerRole const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRSystem___GetTrackedDeviceIndexForControllerRole, 0x80>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 // Type: ::_GetControllerRoleForTrackedDeviceIndex
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: ::IVRSystem::_GetControllerRoleForTrackedDeviceIndex*
 class CORDL_TYPE __IVRSystem___GetControllerRoleForTrackedDeviceIndex : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x2bda07c, size 0x84, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(uint32_t unDeviceIndex, ::System::AsyncCallback* callback, ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x3fc5968, size 0x84, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(uint32_t  unDeviceIndex, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x2bda100, size 0x28, virtual true, abstract: false, final false
-  inline ::OVR::OpenVR::ETrackedControllerRole EndInvoke(::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x3fc59ec, size 0x28, virtual true, abstract: false, final false
+inline ::OVR::OpenVR::ETrackedControllerRole EndInvoke(::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x2bda068, size 0x14, virtual true, abstract: false, final false
-  inline ::OVR::OpenVR::ETrackedControllerRole Invoke(uint32_t unDeviceIndex);
+/// @brief Method Invoke, addr 0x3fc5954, size 0x14, virtual true, abstract: false, final false
+inline ::OVR::OpenVR::ETrackedControllerRole Invoke(uint32_t  unDeviceIndex) ;
 
-  static inline ::OVR::OpenVR::__IVRSystem___GetControllerRoleForTrackedDeviceIndex* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::OVR::OpenVR::__IVRSystem___GetControllerRoleForTrackedDeviceIndex* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x2bd9fa4, size 0xc4, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x3fc58c8, size 0x8c, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __IVRSystem___GetControllerRoleForTrackedDeviceIndex();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __IVRSystem___GetControllerRoleForTrackedDeviceIndex() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___GetControllerRoleForTrackedDeviceIndex", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __IVRSystem___GetControllerRoleForTrackedDeviceIndex(__IVRSystem___GetControllerRoleForTrackedDeviceIndex&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___GetControllerRoleForTrackedDeviceIndex", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __IVRSystem___GetControllerRoleForTrackedDeviceIndex(__IVRSystem___GetControllerRoleForTrackedDeviceIndex const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___GetControllerRoleForTrackedDeviceIndex", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__IVRSystem___GetControllerRoleForTrackedDeviceIndex(__IVRSystem___GetControllerRoleForTrackedDeviceIndex && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___GetControllerRoleForTrackedDeviceIndex", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__IVRSystem___GetControllerRoleForTrackedDeviceIndex(__IVRSystem___GetControllerRoleForTrackedDeviceIndex const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRSystem___GetControllerRoleForTrackedDeviceIndex, 0x80>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 // Type: ::_GetTrackedDeviceClass
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: ::IVRSystem::_GetTrackedDeviceClass*
 class CORDL_TYPE __IVRSystem___GetTrackedDeviceClass : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x2bda200, size 0x84, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(uint32_t unDeviceIndex, ::System::AsyncCallback* callback, ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x3fc5ab4, size 0x84, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(uint32_t  unDeviceIndex, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x2bda284, size 0x28, virtual true, abstract: false, final false
-  inline ::OVR::OpenVR::ETrackedDeviceClass EndInvoke(::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x3fc5b38, size 0x28, virtual true, abstract: false, final false
+inline ::OVR::OpenVR::ETrackedDeviceClass EndInvoke(::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x2bda1ec, size 0x14, virtual true, abstract: false, final false
-  inline ::OVR::OpenVR::ETrackedDeviceClass Invoke(uint32_t unDeviceIndex);
+/// @brief Method Invoke, addr 0x3fc5aa0, size 0x14, virtual true, abstract: false, final false
+inline ::OVR::OpenVR::ETrackedDeviceClass Invoke(uint32_t  unDeviceIndex) ;
 
-  static inline ::OVR::OpenVR::__IVRSystem___GetTrackedDeviceClass* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::OVR::OpenVR::__IVRSystem___GetTrackedDeviceClass* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x2bda128, size 0xc4, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x3fc5a14, size 0x8c, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __IVRSystem___GetTrackedDeviceClass();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __IVRSystem___GetTrackedDeviceClass() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___GetTrackedDeviceClass", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __IVRSystem___GetTrackedDeviceClass(__IVRSystem___GetTrackedDeviceClass&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___GetTrackedDeviceClass", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __IVRSystem___GetTrackedDeviceClass(__IVRSystem___GetTrackedDeviceClass const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___GetTrackedDeviceClass", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__IVRSystem___GetTrackedDeviceClass(__IVRSystem___GetTrackedDeviceClass && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___GetTrackedDeviceClass", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__IVRSystem___GetTrackedDeviceClass(__IVRSystem___GetTrackedDeviceClass const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRSystem___GetTrackedDeviceClass, 0x80>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 // Type: ::_IsTrackedDeviceConnected
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: ::IVRSystem::_IsTrackedDeviceConnected*
 class CORDL_TYPE __IVRSystem___IsTrackedDeviceConnected : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x2bda384, size 0x84, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(uint32_t unDeviceIndex, ::System::AsyncCallback* callback, ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x3fc5c00, size 0x84, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(uint32_t  unDeviceIndex, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x2bda408, size 0x28, virtual true, abstract: false, final false
-  inline bool EndInvoke(::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x3fc5c84, size 0x28, virtual true, abstract: false, final false
+inline bool EndInvoke(::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x2bda370, size 0x14, virtual true, abstract: false, final false
-  inline bool Invoke(uint32_t unDeviceIndex);
+/// @brief Method Invoke, addr 0x3fc5bec, size 0x14, virtual true, abstract: false, final false
+inline bool Invoke(uint32_t  unDeviceIndex) ;
 
-  static inline ::OVR::OpenVR::__IVRSystem___IsTrackedDeviceConnected* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::OVR::OpenVR::__IVRSystem___IsTrackedDeviceConnected* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x2bda2ac, size 0xc4, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x3fc5b60, size 0x8c, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __IVRSystem___IsTrackedDeviceConnected();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __IVRSystem___IsTrackedDeviceConnected() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___IsTrackedDeviceConnected", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __IVRSystem___IsTrackedDeviceConnected(__IVRSystem___IsTrackedDeviceConnected&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___IsTrackedDeviceConnected", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __IVRSystem___IsTrackedDeviceConnected(__IVRSystem___IsTrackedDeviceConnected const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___IsTrackedDeviceConnected", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__IVRSystem___IsTrackedDeviceConnected(__IVRSystem___IsTrackedDeviceConnected && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___IsTrackedDeviceConnected", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__IVRSystem___IsTrackedDeviceConnected(__IVRSystem___IsTrackedDeviceConnected const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRSystem___IsTrackedDeviceConnected, 0x80>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 // Type: ::_GetBoolTrackedDeviceProperty
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: ::IVRSystem::_GetBoolTrackedDeviceProperty*
 class CORDL_TYPE __IVRSystem___GetBoolTrackedDeviceProperty : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x2bda508, size 0xe8, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(uint32_t unDeviceIndex, ::OVR::OpenVR::ETrackedDeviceProperty prop, ByRef<::OVR::OpenVR::ETrackedPropertyError> pError, ::System::AsyncCallback* callback,
-                                             ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x3fc5d4c, size 0xec, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(uint32_t  unDeviceIndex, ::OVR::OpenVR::ETrackedDeviceProperty  prop, ByRef<::OVR::OpenVR::ETrackedPropertyError>  pError, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x2bda5f0, size 0x2c, virtual true, abstract: false, final false
-  inline bool EndInvoke(ByRef<::OVR::OpenVR::ETrackedPropertyError> pError, ::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x3fc5e38, size 0x2c, virtual true, abstract: false, final false
+inline bool EndInvoke(ByRef<::OVR::OpenVR::ETrackedPropertyError>  pError, ::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x2bda4f4, size 0x14, virtual true, abstract: false, final false
-  inline bool Invoke(uint32_t unDeviceIndex, ::OVR::OpenVR::ETrackedDeviceProperty prop, ByRef<::OVR::OpenVR::ETrackedPropertyError> pError);
+/// @brief Method Invoke, addr 0x3fc5d38, size 0x14, virtual true, abstract: false, final false
+inline bool Invoke(uint32_t  unDeviceIndex, ::OVR::OpenVR::ETrackedDeviceProperty  prop, ByRef<::OVR::OpenVR::ETrackedPropertyError>  pError) ;
 
-  static inline ::OVR::OpenVR::__IVRSystem___GetBoolTrackedDeviceProperty* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::OVR::OpenVR::__IVRSystem___GetBoolTrackedDeviceProperty* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x2bda430, size 0xc4, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x3fc5cac, size 0x8c, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __IVRSystem___GetBoolTrackedDeviceProperty();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __IVRSystem___GetBoolTrackedDeviceProperty() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___GetBoolTrackedDeviceProperty", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __IVRSystem___GetBoolTrackedDeviceProperty(__IVRSystem___GetBoolTrackedDeviceProperty&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___GetBoolTrackedDeviceProperty", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __IVRSystem___GetBoolTrackedDeviceProperty(__IVRSystem___GetBoolTrackedDeviceProperty const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___GetBoolTrackedDeviceProperty", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__IVRSystem___GetBoolTrackedDeviceProperty(__IVRSystem___GetBoolTrackedDeviceProperty && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___GetBoolTrackedDeviceProperty", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__IVRSystem___GetBoolTrackedDeviceProperty(__IVRSystem___GetBoolTrackedDeviceProperty const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRSystem___GetBoolTrackedDeviceProperty, 0x80>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 // Type: ::_GetFloatTrackedDeviceProperty
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: ::IVRSystem::_GetFloatTrackedDeviceProperty*
 class CORDL_TYPE __IVRSystem___GetFloatTrackedDeviceProperty : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x2bda6f4, size 0xe8, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(uint32_t unDeviceIndex, ::OVR::OpenVR::ETrackedDeviceProperty prop, ByRef<::OVR::OpenVR::ETrackedPropertyError> pError, ::System::AsyncCallback* callback,
-                                             ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x3fc5f04, size 0xec, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(uint32_t  unDeviceIndex, ::OVR::OpenVR::ETrackedDeviceProperty  prop, ByRef<::OVR::OpenVR::ETrackedPropertyError>  pError, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x2bda7dc, size 0x2c, virtual true, abstract: false, final false
-  inline float_t EndInvoke(ByRef<::OVR::OpenVR::ETrackedPropertyError> pError, ::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x3fc5ff0, size 0x2c, virtual true, abstract: false, final false
+inline float_t EndInvoke(ByRef<::OVR::OpenVR::ETrackedPropertyError>  pError, ::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x2bda6e0, size 0x14, virtual true, abstract: false, final false
-  inline float_t Invoke(uint32_t unDeviceIndex, ::OVR::OpenVR::ETrackedDeviceProperty prop, ByRef<::OVR::OpenVR::ETrackedPropertyError> pError);
+/// @brief Method Invoke, addr 0x3fc5ef0, size 0x14, virtual true, abstract: false, final false
+inline float_t Invoke(uint32_t  unDeviceIndex, ::OVR::OpenVR::ETrackedDeviceProperty  prop, ByRef<::OVR::OpenVR::ETrackedPropertyError>  pError) ;
 
-  static inline ::OVR::OpenVR::__IVRSystem___GetFloatTrackedDeviceProperty* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::OVR::OpenVR::__IVRSystem___GetFloatTrackedDeviceProperty* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x2bda61c, size 0xc4, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x3fc5e64, size 0x8c, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __IVRSystem___GetFloatTrackedDeviceProperty();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __IVRSystem___GetFloatTrackedDeviceProperty() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___GetFloatTrackedDeviceProperty", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __IVRSystem___GetFloatTrackedDeviceProperty(__IVRSystem___GetFloatTrackedDeviceProperty&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___GetFloatTrackedDeviceProperty", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __IVRSystem___GetFloatTrackedDeviceProperty(__IVRSystem___GetFloatTrackedDeviceProperty const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___GetFloatTrackedDeviceProperty", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__IVRSystem___GetFloatTrackedDeviceProperty(__IVRSystem___GetFloatTrackedDeviceProperty && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___GetFloatTrackedDeviceProperty", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__IVRSystem___GetFloatTrackedDeviceProperty(__IVRSystem___GetFloatTrackedDeviceProperty const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRSystem___GetFloatTrackedDeviceProperty, 0x80>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 // Type: ::_GetInt32TrackedDeviceProperty
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: ::IVRSystem::_GetInt32TrackedDeviceProperty*
 class CORDL_TYPE __IVRSystem___GetInt32TrackedDeviceProperty : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x2bda8e0, size 0xe8, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(uint32_t unDeviceIndex, ::OVR::OpenVR::ETrackedDeviceProperty prop, ByRef<::OVR::OpenVR::ETrackedPropertyError> pError, ::System::AsyncCallback* callback,
-                                             ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x3fc60bc, size 0xec, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(uint32_t  unDeviceIndex, ::OVR::OpenVR::ETrackedDeviceProperty  prop, ByRef<::OVR::OpenVR::ETrackedPropertyError>  pError, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x2bda9c8, size 0x2c, virtual true, abstract: false, final false
-  inline int32_t EndInvoke(ByRef<::OVR::OpenVR::ETrackedPropertyError> pError, ::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x3fc61a8, size 0x2c, virtual true, abstract: false, final false
+inline int32_t EndInvoke(ByRef<::OVR::OpenVR::ETrackedPropertyError>  pError, ::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x2bda8cc, size 0x14, virtual true, abstract: false, final false
-  inline int32_t Invoke(uint32_t unDeviceIndex, ::OVR::OpenVR::ETrackedDeviceProperty prop, ByRef<::OVR::OpenVR::ETrackedPropertyError> pError);
+/// @brief Method Invoke, addr 0x3fc60a8, size 0x14, virtual true, abstract: false, final false
+inline int32_t Invoke(uint32_t  unDeviceIndex, ::OVR::OpenVR::ETrackedDeviceProperty  prop, ByRef<::OVR::OpenVR::ETrackedPropertyError>  pError) ;
 
-  static inline ::OVR::OpenVR::__IVRSystem___GetInt32TrackedDeviceProperty* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::OVR::OpenVR::__IVRSystem___GetInt32TrackedDeviceProperty* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x2bda808, size 0xc4, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x3fc601c, size 0x8c, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __IVRSystem___GetInt32TrackedDeviceProperty();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __IVRSystem___GetInt32TrackedDeviceProperty() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___GetInt32TrackedDeviceProperty", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __IVRSystem___GetInt32TrackedDeviceProperty(__IVRSystem___GetInt32TrackedDeviceProperty&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___GetInt32TrackedDeviceProperty", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __IVRSystem___GetInt32TrackedDeviceProperty(__IVRSystem___GetInt32TrackedDeviceProperty const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___GetInt32TrackedDeviceProperty", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__IVRSystem___GetInt32TrackedDeviceProperty(__IVRSystem___GetInt32TrackedDeviceProperty && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___GetInt32TrackedDeviceProperty", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__IVRSystem___GetInt32TrackedDeviceProperty(__IVRSystem___GetInt32TrackedDeviceProperty const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRSystem___GetInt32TrackedDeviceProperty, 0x80>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 // Type: ::_GetUint64TrackedDeviceProperty
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: ::IVRSystem::_GetUint64TrackedDeviceProperty*
 class CORDL_TYPE __IVRSystem___GetUint64TrackedDeviceProperty : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x2bdaacc, size 0xe8, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(uint32_t unDeviceIndex, ::OVR::OpenVR::ETrackedDeviceProperty prop, ByRef<::OVR::OpenVR::ETrackedPropertyError> pError, ::System::AsyncCallback* callback,
-                                             ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x3fc6274, size 0xec, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(uint32_t  unDeviceIndex, ::OVR::OpenVR::ETrackedDeviceProperty  prop, ByRef<::OVR::OpenVR::ETrackedPropertyError>  pError, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x2bdabb4, size 0x2c, virtual true, abstract: false, final false
-  inline uint64_t EndInvoke(ByRef<::OVR::OpenVR::ETrackedPropertyError> pError, ::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x3fc6360, size 0x2c, virtual true, abstract: false, final false
+inline uint64_t EndInvoke(ByRef<::OVR::OpenVR::ETrackedPropertyError>  pError, ::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x2bdaab8, size 0x14, virtual true, abstract: false, final false
-  inline uint64_t Invoke(uint32_t unDeviceIndex, ::OVR::OpenVR::ETrackedDeviceProperty prop, ByRef<::OVR::OpenVR::ETrackedPropertyError> pError);
+/// @brief Method Invoke, addr 0x3fc6260, size 0x14, virtual true, abstract: false, final false
+inline uint64_t Invoke(uint32_t  unDeviceIndex, ::OVR::OpenVR::ETrackedDeviceProperty  prop, ByRef<::OVR::OpenVR::ETrackedPropertyError>  pError) ;
 
-  static inline ::OVR::OpenVR::__IVRSystem___GetUint64TrackedDeviceProperty* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::OVR::OpenVR::__IVRSystem___GetUint64TrackedDeviceProperty* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x2bda9f4, size 0xc4, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x3fc61d4, size 0x8c, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __IVRSystem___GetUint64TrackedDeviceProperty();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __IVRSystem___GetUint64TrackedDeviceProperty() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___GetUint64TrackedDeviceProperty", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __IVRSystem___GetUint64TrackedDeviceProperty(__IVRSystem___GetUint64TrackedDeviceProperty&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___GetUint64TrackedDeviceProperty", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __IVRSystem___GetUint64TrackedDeviceProperty(__IVRSystem___GetUint64TrackedDeviceProperty const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___GetUint64TrackedDeviceProperty", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__IVRSystem___GetUint64TrackedDeviceProperty(__IVRSystem___GetUint64TrackedDeviceProperty && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___GetUint64TrackedDeviceProperty", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__IVRSystem___GetUint64TrackedDeviceProperty(__IVRSystem___GetUint64TrackedDeviceProperty const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRSystem___GetUint64TrackedDeviceProperty, 0x80>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 // Type: ::_GetMatrix34TrackedDeviceProperty
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: ::IVRSystem::_GetMatrix34TrackedDeviceProperty*
 class CORDL_TYPE __IVRSystem___GetMatrix34TrackedDeviceProperty : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x2bdacb8, size 0xe8, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(uint32_t unDeviceIndex, ::OVR::OpenVR::ETrackedDeviceProperty prop, ByRef<::OVR::OpenVR::ETrackedPropertyError> pError, ::System::AsyncCallback* callback,
-                                             ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x3fc642c, size 0xec, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(uint32_t  unDeviceIndex, ::OVR::OpenVR::ETrackedDeviceProperty  prop, ByRef<::OVR::OpenVR::ETrackedPropertyError>  pError, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x2bdada0, size 0x44, virtual true, abstract: false, final false
-  inline ::OVR::OpenVR::HmdMatrix34_t EndInvoke(ByRef<::OVR::OpenVR::ETrackedPropertyError> pError, ::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x3fc6518, size 0x44, virtual true, abstract: false, final false
+inline ::OVR::OpenVR::HmdMatrix34_t EndInvoke(ByRef<::OVR::OpenVR::ETrackedPropertyError>  pError, ::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x2bdaca4, size 0x14, virtual true, abstract: false, final false
-  inline ::OVR::OpenVR::HmdMatrix34_t Invoke(uint32_t unDeviceIndex, ::OVR::OpenVR::ETrackedDeviceProperty prop, ByRef<::OVR::OpenVR::ETrackedPropertyError> pError);
+/// @brief Method Invoke, addr 0x3fc6418, size 0x14, virtual true, abstract: false, final false
+inline ::OVR::OpenVR::HmdMatrix34_t Invoke(uint32_t  unDeviceIndex, ::OVR::OpenVR::ETrackedDeviceProperty  prop, ByRef<::OVR::OpenVR::ETrackedPropertyError>  pError) ;
 
-  static inline ::OVR::OpenVR::__IVRSystem___GetMatrix34TrackedDeviceProperty* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::OVR::OpenVR::__IVRSystem___GetMatrix34TrackedDeviceProperty* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x2bdabe0, size 0xc4, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x3fc638c, size 0x8c, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __IVRSystem___GetMatrix34TrackedDeviceProperty();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __IVRSystem___GetMatrix34TrackedDeviceProperty() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___GetMatrix34TrackedDeviceProperty", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __IVRSystem___GetMatrix34TrackedDeviceProperty(__IVRSystem___GetMatrix34TrackedDeviceProperty&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___GetMatrix34TrackedDeviceProperty", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __IVRSystem___GetMatrix34TrackedDeviceProperty(__IVRSystem___GetMatrix34TrackedDeviceProperty const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___GetMatrix34TrackedDeviceProperty", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__IVRSystem___GetMatrix34TrackedDeviceProperty(__IVRSystem___GetMatrix34TrackedDeviceProperty && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___GetMatrix34TrackedDeviceProperty", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__IVRSystem___GetMatrix34TrackedDeviceProperty(__IVRSystem___GetMatrix34TrackedDeviceProperty const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRSystem___GetMatrix34TrackedDeviceProperty, 0x80>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 // Type: ::_GetArrayTrackedDeviceProperty
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: ::IVRSystem::_GetArrayTrackedDeviceProperty*
 class CORDL_TYPE __IVRSystem___GetArrayTrackedDeviceProperty : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x2bdaebc, size 0x144, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(uint32_t unDeviceIndex, ::OVR::OpenVR::ETrackedDeviceProperty prop, uint32_t propType, ::System::IntPtr pBuffer, uint32_t unBufferSize,
-                                             ByRef<::OVR::OpenVR::ETrackedPropertyError> pError, ::System::AsyncCallback* callback, ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x3fc65fc, size 0x150, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(uint32_t  unDeviceIndex, ::OVR::OpenVR::ETrackedDeviceProperty  prop, uint32_t  propType, ::System::IntPtr  pBuffer, uint32_t  unBufferSize, ByRef<::OVR::OpenVR::ETrackedPropertyError>  pError, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x2bdb000, size 0x2c, virtual true, abstract: false, final false
-  inline uint32_t EndInvoke(ByRef<::OVR::OpenVR::ETrackedPropertyError> pError, ::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x3fc674c, size 0x2c, virtual true, abstract: false, final false
+inline uint32_t EndInvoke(ByRef<::OVR::OpenVR::ETrackedPropertyError>  pError, ::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x2bdaea8, size 0x14, virtual true, abstract: false, final false
-  inline uint32_t Invoke(uint32_t unDeviceIndex, ::OVR::OpenVR::ETrackedDeviceProperty prop, uint32_t propType, ::System::IntPtr pBuffer, uint32_t unBufferSize,
-                         ByRef<::OVR::OpenVR::ETrackedPropertyError> pError);
+/// @brief Method Invoke, addr 0x3fc65e8, size 0x14, virtual true, abstract: false, final false
+inline uint32_t Invoke(uint32_t  unDeviceIndex, ::OVR::OpenVR::ETrackedDeviceProperty  prop, uint32_t  propType, ::System::IntPtr  pBuffer, uint32_t  unBufferSize, ByRef<::OVR::OpenVR::ETrackedPropertyError>  pError) ;
 
-  static inline ::OVR::OpenVR::__IVRSystem___GetArrayTrackedDeviceProperty* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::OVR::OpenVR::__IVRSystem___GetArrayTrackedDeviceProperty* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x2bdade4, size 0xc4, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x3fc655c, size 0x8c, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __IVRSystem___GetArrayTrackedDeviceProperty();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __IVRSystem___GetArrayTrackedDeviceProperty() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___GetArrayTrackedDeviceProperty", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __IVRSystem___GetArrayTrackedDeviceProperty(__IVRSystem___GetArrayTrackedDeviceProperty&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___GetArrayTrackedDeviceProperty", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __IVRSystem___GetArrayTrackedDeviceProperty(__IVRSystem___GetArrayTrackedDeviceProperty const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___GetArrayTrackedDeviceProperty", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__IVRSystem___GetArrayTrackedDeviceProperty(__IVRSystem___GetArrayTrackedDeviceProperty && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___GetArrayTrackedDeviceProperty", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__IVRSystem___GetArrayTrackedDeviceProperty(__IVRSystem___GetArrayTrackedDeviceProperty const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRSystem___GetArrayTrackedDeviceProperty, 0x80>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 // Type: ::_GetStringTrackedDeviceProperty
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: ::IVRSystem::_GetStringTrackedDeviceProperty*
 class CORDL_TYPE __IVRSystem___GetStringTrackedDeviceProperty : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x2bdb104, size 0x104, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(uint32_t unDeviceIndex, ::OVR::OpenVR::ETrackedDeviceProperty prop, ::System::Text::StringBuilder* pchValue, uint32_t unBufferSize,
-                                             ByRef<::OVR::OpenVR::ETrackedPropertyError> pError, ::System::AsyncCallback* callback, ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x3fc6818, size 0x10c, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(uint32_t  unDeviceIndex, ::OVR::OpenVR::ETrackedDeviceProperty  prop, ::System::Text::StringBuilder*  pchValue, uint32_t  unBufferSize, ByRef<::OVR::OpenVR::ETrackedPropertyError>  pError, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x2bdb208, size 0x2c, virtual true, abstract: false, final false
-  inline uint32_t EndInvoke(ByRef<::OVR::OpenVR::ETrackedPropertyError> pError, ::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x3fc6924, size 0x2c, virtual true, abstract: false, final false
+inline uint32_t EndInvoke(ByRef<::OVR::OpenVR::ETrackedPropertyError>  pError, ::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x2bdb0f0, size 0x14, virtual true, abstract: false, final false
-  inline uint32_t Invoke(uint32_t unDeviceIndex, ::OVR::OpenVR::ETrackedDeviceProperty prop, ::System::Text::StringBuilder* pchValue, uint32_t unBufferSize,
-                         ByRef<::OVR::OpenVR::ETrackedPropertyError> pError);
+/// @brief Method Invoke, addr 0x3fc6804, size 0x14, virtual true, abstract: false, final false
+inline uint32_t Invoke(uint32_t  unDeviceIndex, ::OVR::OpenVR::ETrackedDeviceProperty  prop, ::System::Text::StringBuilder*  pchValue, uint32_t  unBufferSize, ByRef<::OVR::OpenVR::ETrackedPropertyError>  pError) ;
 
-  static inline ::OVR::OpenVR::__IVRSystem___GetStringTrackedDeviceProperty* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::OVR::OpenVR::__IVRSystem___GetStringTrackedDeviceProperty* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x2bdb02c, size 0xc4, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x3fc6778, size 0x8c, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __IVRSystem___GetStringTrackedDeviceProperty();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __IVRSystem___GetStringTrackedDeviceProperty() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___GetStringTrackedDeviceProperty", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __IVRSystem___GetStringTrackedDeviceProperty(__IVRSystem___GetStringTrackedDeviceProperty&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___GetStringTrackedDeviceProperty", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __IVRSystem___GetStringTrackedDeviceProperty(__IVRSystem___GetStringTrackedDeviceProperty const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___GetStringTrackedDeviceProperty", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__IVRSystem___GetStringTrackedDeviceProperty(__IVRSystem___GetStringTrackedDeviceProperty && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___GetStringTrackedDeviceProperty", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__IVRSystem___GetStringTrackedDeviceProperty(__IVRSystem___GetStringTrackedDeviceProperty const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRSystem___GetStringTrackedDeviceProperty, 0x80>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 // Type: ::_GetPropErrorNameFromEnum
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: ::IVRSystem::_GetPropErrorNameFromEnum*
 class CORDL_TYPE __IVRSystem___GetPropErrorNameFromEnum : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x2bdb30c, size 0x84, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::OVR::OpenVR::ETrackedPropertyError error, ::System::AsyncCallback* callback, ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x3fc69f0, size 0x84, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(::OVR::OpenVR::ETrackedPropertyError  error, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x2bdb390, size 0x28, virtual true, abstract: false, final false
-  inline ::System::IntPtr EndInvoke(::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x3fc6a74, size 0x28, virtual true, abstract: false, final false
+inline ::System::IntPtr EndInvoke(::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x2bdb2f8, size 0x14, virtual true, abstract: false, final false
-  inline ::System::IntPtr Invoke(::OVR::OpenVR::ETrackedPropertyError error);
+/// @brief Method Invoke, addr 0x3fc69dc, size 0x14, virtual true, abstract: false, final false
+inline ::System::IntPtr Invoke(::OVR::OpenVR::ETrackedPropertyError  error) ;
 
-  static inline ::OVR::OpenVR::__IVRSystem___GetPropErrorNameFromEnum* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::OVR::OpenVR::__IVRSystem___GetPropErrorNameFromEnum* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x2bdb234, size 0xc4, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x3fc6950, size 0x8c, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __IVRSystem___GetPropErrorNameFromEnum();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __IVRSystem___GetPropErrorNameFromEnum() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___GetPropErrorNameFromEnum", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __IVRSystem___GetPropErrorNameFromEnum(__IVRSystem___GetPropErrorNameFromEnum&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___GetPropErrorNameFromEnum", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __IVRSystem___GetPropErrorNameFromEnum(__IVRSystem___GetPropErrorNameFromEnum const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___GetPropErrorNameFromEnum", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__IVRSystem___GetPropErrorNameFromEnum(__IVRSystem___GetPropErrorNameFromEnum && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___GetPropErrorNameFromEnum", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__IVRSystem___GetPropErrorNameFromEnum(__IVRSystem___GetPropErrorNameFromEnum const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRSystem___GetPropErrorNameFromEnum, 0x80>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 // Type: ::_PollNextEvent
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: ::IVRSystem::_PollNextEvent*
 class CORDL_TYPE __IVRSystem___PollNextEvent : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x2bdb4a4, size 0xb8, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(ByRef<::OVR::OpenVR::VREvent_t> pEvent, uint32_t uncbVREvent, ::System::AsyncCallback* callback, ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x3fc6b50, size 0xb8, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(ByRef<::OVR::OpenVR::VREvent_t>  pEvent, uint32_t  uncbVREvent, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x2bdb55c, size 0x2c, virtual true, abstract: false, final false
-  inline bool EndInvoke(ByRef<::OVR::OpenVR::VREvent_t> pEvent, ::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x3fc6c08, size 0x2c, virtual true, abstract: false, final false
+inline bool EndInvoke(ByRef<::OVR::OpenVR::VREvent_t>  pEvent, ::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x2bdb490, size 0x14, virtual true, abstract: false, final false
-  inline bool Invoke(ByRef<::OVR::OpenVR::VREvent_t> pEvent, uint32_t uncbVREvent);
+/// @brief Method Invoke, addr 0x3fc6b3c, size 0x14, virtual true, abstract: false, final false
+inline bool Invoke(ByRef<::OVR::OpenVR::VREvent_t>  pEvent, uint32_t  uncbVREvent) ;
 
-  static inline ::OVR::OpenVR::__IVRSystem___PollNextEvent* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::OVR::OpenVR::__IVRSystem___PollNextEvent* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x2bdb3b8, size 0xd8, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x3fc6a9c, size 0xa0, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __IVRSystem___PollNextEvent();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __IVRSystem___PollNextEvent() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___PollNextEvent", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __IVRSystem___PollNextEvent(__IVRSystem___PollNextEvent&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___PollNextEvent", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __IVRSystem___PollNextEvent(__IVRSystem___PollNextEvent const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___PollNextEvent", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__IVRSystem___PollNextEvent(__IVRSystem___PollNextEvent && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___PollNextEvent", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__IVRSystem___PollNextEvent(__IVRSystem___PollNextEvent const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRSystem___PollNextEvent, 0x80>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 // Type: ::_PollNextEventWithPose
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: ::IVRSystem::_PollNextEventWithPose*
 class CORDL_TYPE __IVRSystem___PollNextEventWithPose : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x2bdb660, size 0x11c, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::OVR::OpenVR::ETrackingUniverseOrigin eOrigin, ByRef<::OVR::OpenVR::VREvent_t> pEvent, uint32_t uncbVREvent,
-                                             ByRef<::OVR::OpenVR::TrackedDevicePose_t> pTrackedDevicePose, ::System::AsyncCallback* callback, ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x3fc6cd4, size 0x124, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(::OVR::OpenVR::ETrackingUniverseOrigin  eOrigin, ByRef<::OVR::OpenVR::VREvent_t>  pEvent, uint32_t  uncbVREvent, ByRef<::OVR::OpenVR::TrackedDevicePose_t>  pTrackedDevicePose, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x2bdb77c, size 0x34, virtual true, abstract: false, final false
-  inline bool EndInvoke(ByRef<::OVR::OpenVR::VREvent_t> pEvent, ByRef<::OVR::OpenVR::TrackedDevicePose_t> pTrackedDevicePose, ::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x3fc6df8, size 0x34, virtual true, abstract: false, final false
+inline bool EndInvoke(ByRef<::OVR::OpenVR::VREvent_t>  pEvent, ByRef<::OVR::OpenVR::TrackedDevicePose_t>  pTrackedDevicePose, ::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x2bdb64c, size 0x14, virtual true, abstract: false, final false
-  inline bool Invoke(::OVR::OpenVR::ETrackingUniverseOrigin eOrigin, ByRef<::OVR::OpenVR::VREvent_t> pEvent, uint32_t uncbVREvent, ByRef<::OVR::OpenVR::TrackedDevicePose_t> pTrackedDevicePose);
+/// @brief Method Invoke, addr 0x3fc6cc0, size 0x14, virtual true, abstract: false, final false
+inline bool Invoke(::OVR::OpenVR::ETrackingUniverseOrigin  eOrigin, ByRef<::OVR::OpenVR::VREvent_t>  pEvent, uint32_t  uncbVREvent, ByRef<::OVR::OpenVR::TrackedDevicePose_t>  pTrackedDevicePose) ;
 
-  static inline ::OVR::OpenVR::__IVRSystem___PollNextEventWithPose* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::OVR::OpenVR::__IVRSystem___PollNextEventWithPose* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x2bdb588, size 0xc4, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x3fc6c34, size 0x8c, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __IVRSystem___PollNextEventWithPose();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __IVRSystem___PollNextEventWithPose() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___PollNextEventWithPose", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __IVRSystem___PollNextEventWithPose(__IVRSystem___PollNextEventWithPose&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___PollNextEventWithPose", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __IVRSystem___PollNextEventWithPose(__IVRSystem___PollNextEventWithPose const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___PollNextEventWithPose", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__IVRSystem___PollNextEventWithPose(__IVRSystem___PollNextEventWithPose && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___PollNextEventWithPose", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__IVRSystem___PollNextEventWithPose(__IVRSystem___PollNextEventWithPose const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRSystem___PollNextEventWithPose, 0x80>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 // Type: ::_GetEventTypeNameFromEnum
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: ::IVRSystem::_GetEventTypeNameFromEnum*
 class CORDL_TYPE __IVRSystem___GetEventTypeNameFromEnum : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x2bdb888, size 0x84, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::OVR::OpenVR::EVREventType eType, ::System::AsyncCallback* callback, ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x3fc6ecc, size 0x84, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(::OVR::OpenVR::EVREventType  eType, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x2bdb90c, size 0x28, virtual true, abstract: false, final false
-  inline ::System::IntPtr EndInvoke(::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x3fc6f50, size 0x28, virtual true, abstract: false, final false
+inline ::System::IntPtr EndInvoke(::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x2bdb874, size 0x14, virtual true, abstract: false, final false
-  inline ::System::IntPtr Invoke(::OVR::OpenVR::EVREventType eType);
+/// @brief Method Invoke, addr 0x3fc6eb8, size 0x14, virtual true, abstract: false, final false
+inline ::System::IntPtr Invoke(::OVR::OpenVR::EVREventType  eType) ;
 
-  static inline ::OVR::OpenVR::__IVRSystem___GetEventTypeNameFromEnum* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::OVR::OpenVR::__IVRSystem___GetEventTypeNameFromEnum* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x2bdb7b0, size 0xc4, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x3fc6e2c, size 0x8c, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __IVRSystem___GetEventTypeNameFromEnum();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __IVRSystem___GetEventTypeNameFromEnum() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___GetEventTypeNameFromEnum", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __IVRSystem___GetEventTypeNameFromEnum(__IVRSystem___GetEventTypeNameFromEnum&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___GetEventTypeNameFromEnum", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __IVRSystem___GetEventTypeNameFromEnum(__IVRSystem___GetEventTypeNameFromEnum const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___GetEventTypeNameFromEnum", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__IVRSystem___GetEventTypeNameFromEnum(__IVRSystem___GetEventTypeNameFromEnum && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___GetEventTypeNameFromEnum", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__IVRSystem___GetEventTypeNameFromEnum(__IVRSystem___GetEventTypeNameFromEnum const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRSystem___GetEventTypeNameFromEnum, 0x80>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 // Type: ::_GetHiddenAreaMesh
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: ::IVRSystem::_GetHiddenAreaMesh*
 class CORDL_TYPE __IVRSystem___GetHiddenAreaMesh : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x2bdba0c, size 0xb4, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::OVR::OpenVR::EVREye eEye, ::OVR::OpenVR::EHiddenAreaMeshType type, ::System::AsyncCallback* callback, ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x3fc7018, size 0xb8, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(::OVR::OpenVR::EVREye  eEye, ::OVR::OpenVR::EHiddenAreaMeshType  type, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x2bdbac0, size 0x2c, virtual true, abstract: false, final false
-  inline ::OVR::OpenVR::HiddenAreaMesh_t EndInvoke(::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x3fc70d0, size 0x2c, virtual true, abstract: false, final false
+inline ::OVR::OpenVR::HiddenAreaMesh_t EndInvoke(::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x2bdb9f8, size 0x14, virtual true, abstract: false, final false
-  inline ::OVR::OpenVR::HiddenAreaMesh_t Invoke(::OVR::OpenVR::EVREye eEye, ::OVR::OpenVR::EHiddenAreaMeshType type);
+/// @brief Method Invoke, addr 0x3fc7004, size 0x14, virtual true, abstract: false, final false
+inline ::OVR::OpenVR::HiddenAreaMesh_t Invoke(::OVR::OpenVR::EVREye  eEye, ::OVR::OpenVR::EHiddenAreaMeshType  type) ;
 
-  static inline ::OVR::OpenVR::__IVRSystem___GetHiddenAreaMesh* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::OVR::OpenVR::__IVRSystem___GetHiddenAreaMesh* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x2bdb934, size 0xc4, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x3fc6f78, size 0x8c, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __IVRSystem___GetHiddenAreaMesh();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __IVRSystem___GetHiddenAreaMesh() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___GetHiddenAreaMesh", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __IVRSystem___GetHiddenAreaMesh(__IVRSystem___GetHiddenAreaMesh&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___GetHiddenAreaMesh", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __IVRSystem___GetHiddenAreaMesh(__IVRSystem___GetHiddenAreaMesh const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___GetHiddenAreaMesh", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__IVRSystem___GetHiddenAreaMesh(__IVRSystem___GetHiddenAreaMesh && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___GetHiddenAreaMesh", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__IVRSystem___GetHiddenAreaMesh(__IVRSystem___GetHiddenAreaMesh const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRSystem___GetHiddenAreaMesh, 0x80>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 // Type: ::_GetControllerState
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: ::IVRSystem::_GetControllerState*
 class CORDL_TYPE __IVRSystem___GetControllerState : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x2bdbbc4, size 0xcc, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(uint32_t unControllerDeviceIndex, ByRef<::OVR::OpenVR::VRControllerState_t> pControllerState, uint32_t unControllerStateSize,
-                                             ::System::AsyncCallback* callback, ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x3fc719c, size 0xd0, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(uint32_t  unControllerDeviceIndex, ByRef<::OVR::OpenVR::VRControllerState_t>  pControllerState, uint32_t  unControllerStateSize, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x2bdbc90, size 0x2c, virtual true, abstract: false, final false
-  inline bool EndInvoke(ByRef<::OVR::OpenVR::VRControllerState_t> pControllerState, ::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x3fc726c, size 0x2c, virtual true, abstract: false, final false
+inline bool EndInvoke(ByRef<::OVR::OpenVR::VRControllerState_t>  pControllerState, ::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x2bdbbb0, size 0x14, virtual true, abstract: false, final false
-  inline bool Invoke(uint32_t unControllerDeviceIndex, ByRef<::OVR::OpenVR::VRControllerState_t> pControllerState, uint32_t unControllerStateSize);
+/// @brief Method Invoke, addr 0x3fc7188, size 0x14, virtual true, abstract: false, final false
+inline bool Invoke(uint32_t  unControllerDeviceIndex, ByRef<::OVR::OpenVR::VRControllerState_t>  pControllerState, uint32_t  unControllerStateSize) ;
 
-  static inline ::OVR::OpenVR::__IVRSystem___GetControllerState* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::OVR::OpenVR::__IVRSystem___GetControllerState* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x2bdbaec, size 0xc4, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x3fc70fc, size 0x8c, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __IVRSystem___GetControllerState();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __IVRSystem___GetControllerState() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___GetControllerState", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __IVRSystem___GetControllerState(__IVRSystem___GetControllerState&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___GetControllerState", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __IVRSystem___GetControllerState(__IVRSystem___GetControllerState const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___GetControllerState", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__IVRSystem___GetControllerState(__IVRSystem___GetControllerState && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___GetControllerState", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__IVRSystem___GetControllerState(__IVRSystem___GetControllerState const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRSystem___GetControllerState, 0x80>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 // Type: ::_GetControllerStateWithPose
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: ::IVRSystem::_GetControllerStateWithPose*
 class CORDL_TYPE __IVRSystem___GetControllerStateWithPose : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x2bdbd94, size 0x134, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::OVR::OpenVR::ETrackingUniverseOrigin eOrigin, uint32_t unControllerDeviceIndex, ByRef<::OVR::OpenVR::VRControllerState_t> pControllerState,
-                                             uint32_t unControllerStateSize, ByRef<::OVR::OpenVR::TrackedDevicePose_t> pTrackedDevicePose, ::System::AsyncCallback* callback, ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x3fc7338, size 0x13c, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(::OVR::OpenVR::ETrackingUniverseOrigin  eOrigin, uint32_t  unControllerDeviceIndex, ByRef<::OVR::OpenVR::VRControllerState_t>  pControllerState, uint32_t  unControllerStateSize, ByRef<::OVR::OpenVR::TrackedDevicePose_t>  pTrackedDevicePose, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x2bdbec8, size 0x34, virtual true, abstract: false, final false
-  inline bool EndInvoke(ByRef<::OVR::OpenVR::VRControllerState_t> pControllerState, ByRef<::OVR::OpenVR::TrackedDevicePose_t> pTrackedDevicePose, ::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x3fc7474, size 0x34, virtual true, abstract: false, final false
+inline bool EndInvoke(ByRef<::OVR::OpenVR::VRControllerState_t>  pControllerState, ByRef<::OVR::OpenVR::TrackedDevicePose_t>  pTrackedDevicePose, ::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x2bdbd80, size 0x14, virtual true, abstract: false, final false
-  inline bool Invoke(::OVR::OpenVR::ETrackingUniverseOrigin eOrigin, uint32_t unControllerDeviceIndex, ByRef<::OVR::OpenVR::VRControllerState_t> pControllerState, uint32_t unControllerStateSize,
-                     ByRef<::OVR::OpenVR::TrackedDevicePose_t> pTrackedDevicePose);
+/// @brief Method Invoke, addr 0x3fc7324, size 0x14, virtual true, abstract: false, final false
+inline bool Invoke(::OVR::OpenVR::ETrackingUniverseOrigin  eOrigin, uint32_t  unControllerDeviceIndex, ByRef<::OVR::OpenVR::VRControllerState_t>  pControllerState, uint32_t  unControllerStateSize, ByRef<::OVR::OpenVR::TrackedDevicePose_t>  pTrackedDevicePose) ;
 
-  static inline ::OVR::OpenVR::__IVRSystem___GetControllerStateWithPose* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::OVR::OpenVR::__IVRSystem___GetControllerStateWithPose* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x2bdbcbc, size 0xc4, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x3fc7298, size 0x8c, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __IVRSystem___GetControllerStateWithPose();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __IVRSystem___GetControllerStateWithPose() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___GetControllerStateWithPose", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __IVRSystem___GetControllerStateWithPose(__IVRSystem___GetControllerStateWithPose&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___GetControllerStateWithPose", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __IVRSystem___GetControllerStateWithPose(__IVRSystem___GetControllerStateWithPose const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___GetControllerStateWithPose", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__IVRSystem___GetControllerStateWithPose(__IVRSystem___GetControllerStateWithPose && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___GetControllerStateWithPose", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__IVRSystem___GetControllerStateWithPose(__IVRSystem___GetControllerStateWithPose const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRSystem___GetControllerStateWithPose, 0x80>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 // Type: ::_TriggerHapticPulse
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: ::IVRSystem::_TriggerHapticPulse*
 class CORDL_TYPE __IVRSystem___TriggerHapticPulse : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x2bdbfd4, size 0xcc, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(uint32_t unControllerDeviceIndex, uint32_t unAxisId, uint16_t usDurationMicroSec, ::System::AsyncCallback* callback, ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x3fc7548, size 0xd0, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(uint32_t  unControllerDeviceIndex, uint32_t  unAxisId, uint16_t  usDurationMicroSec, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x2bdc0a0, size 0xc, virtual true, abstract: false, final false
-  inline void EndInvoke(::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x3fc7618, size 0xc, virtual true, abstract: false, final false
+inline void EndInvoke(::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x2bdbfc0, size 0x14, virtual true, abstract: false, final false
-  inline void Invoke(uint32_t unControllerDeviceIndex, uint32_t unAxisId, uint16_t usDurationMicroSec);
+/// @brief Method Invoke, addr 0x3fc7534, size 0x14, virtual true, abstract: false, final false
+inline void Invoke(uint32_t  unControllerDeviceIndex, uint32_t  unAxisId, uint16_t  usDurationMicroSec) ;
 
-  static inline ::OVR::OpenVR::__IVRSystem___TriggerHapticPulse* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::OVR::OpenVR::__IVRSystem___TriggerHapticPulse* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x2bdbefc, size 0xc4, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x3fc74a8, size 0x8c, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __IVRSystem___TriggerHapticPulse();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __IVRSystem___TriggerHapticPulse() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___TriggerHapticPulse", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __IVRSystem___TriggerHapticPulse(__IVRSystem___TriggerHapticPulse&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___TriggerHapticPulse", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __IVRSystem___TriggerHapticPulse(__IVRSystem___TriggerHapticPulse const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___TriggerHapticPulse", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__IVRSystem___TriggerHapticPulse(__IVRSystem___TriggerHapticPulse && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___TriggerHapticPulse", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__IVRSystem___TriggerHapticPulse(__IVRSystem___TriggerHapticPulse const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRSystem___TriggerHapticPulse, 0x80>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 // Type: ::_GetButtonIdNameFromEnum
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: ::IVRSystem::_GetButtonIdNameFromEnum*
 class CORDL_TYPE __IVRSystem___GetButtonIdNameFromEnum : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x2bdc184, size 0x84, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::OVR::OpenVR::EVRButtonId eButtonId, ::System::AsyncCallback* callback, ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x3fc76c4, size 0x84, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(::OVR::OpenVR::EVRButtonId  eButtonId, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x2bdc208, size 0x28, virtual true, abstract: false, final false
-  inline ::System::IntPtr EndInvoke(::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x3fc7748, size 0x28, virtual true, abstract: false, final false
+inline ::System::IntPtr EndInvoke(::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x2bdc170, size 0x14, virtual true, abstract: false, final false
-  inline ::System::IntPtr Invoke(::OVR::OpenVR::EVRButtonId eButtonId);
+/// @brief Method Invoke, addr 0x3fc76b0, size 0x14, virtual true, abstract: false, final false
+inline ::System::IntPtr Invoke(::OVR::OpenVR::EVRButtonId  eButtonId) ;
 
-  static inline ::OVR::OpenVR::__IVRSystem___GetButtonIdNameFromEnum* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::OVR::OpenVR::__IVRSystem___GetButtonIdNameFromEnum* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x2bdc0ac, size 0xc4, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x3fc7624, size 0x8c, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __IVRSystem___GetButtonIdNameFromEnum();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __IVRSystem___GetButtonIdNameFromEnum() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___GetButtonIdNameFromEnum", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __IVRSystem___GetButtonIdNameFromEnum(__IVRSystem___GetButtonIdNameFromEnum&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___GetButtonIdNameFromEnum", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __IVRSystem___GetButtonIdNameFromEnum(__IVRSystem___GetButtonIdNameFromEnum const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___GetButtonIdNameFromEnum", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__IVRSystem___GetButtonIdNameFromEnum(__IVRSystem___GetButtonIdNameFromEnum && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___GetButtonIdNameFromEnum", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__IVRSystem___GetButtonIdNameFromEnum(__IVRSystem___GetButtonIdNameFromEnum const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRSystem___GetButtonIdNameFromEnum, 0x80>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 // Type: ::_GetControllerAxisTypeNameFromEnum
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: ::IVRSystem::_GetControllerAxisTypeNameFromEnum*
 class CORDL_TYPE __IVRSystem___GetControllerAxisTypeNameFromEnum : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x2bdc308, size 0x84, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::OVR::OpenVR::EVRControllerAxisType eAxisType, ::System::AsyncCallback* callback, ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x3fc7810, size 0x84, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(::OVR::OpenVR::EVRControllerAxisType  eAxisType, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x2bdc38c, size 0x28, virtual true, abstract: false, final false
-  inline ::System::IntPtr EndInvoke(::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x3fc7894, size 0x28, virtual true, abstract: false, final false
+inline ::System::IntPtr EndInvoke(::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x2bdc2f4, size 0x14, virtual true, abstract: false, final false
-  inline ::System::IntPtr Invoke(::OVR::OpenVR::EVRControllerAxisType eAxisType);
+/// @brief Method Invoke, addr 0x3fc77fc, size 0x14, virtual true, abstract: false, final false
+inline ::System::IntPtr Invoke(::OVR::OpenVR::EVRControllerAxisType  eAxisType) ;
 
-  static inline ::OVR::OpenVR::__IVRSystem___GetControllerAxisTypeNameFromEnum* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::OVR::OpenVR::__IVRSystem___GetControllerAxisTypeNameFromEnum* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x2bdc230, size 0xc4, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x3fc7770, size 0x8c, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __IVRSystem___GetControllerAxisTypeNameFromEnum();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __IVRSystem___GetControllerAxisTypeNameFromEnum() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___GetControllerAxisTypeNameFromEnum", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __IVRSystem___GetControllerAxisTypeNameFromEnum(__IVRSystem___GetControllerAxisTypeNameFromEnum&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___GetControllerAxisTypeNameFromEnum", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __IVRSystem___GetControllerAxisTypeNameFromEnum(__IVRSystem___GetControllerAxisTypeNameFromEnum const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___GetControllerAxisTypeNameFromEnum", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__IVRSystem___GetControllerAxisTypeNameFromEnum(__IVRSystem___GetControllerAxisTypeNameFromEnum && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___GetControllerAxisTypeNameFromEnum", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__IVRSystem___GetControllerAxisTypeNameFromEnum(__IVRSystem___GetControllerAxisTypeNameFromEnum const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRSystem___GetControllerAxisTypeNameFromEnum, 0x80>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 // Type: ::_IsInputAvailable
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: ::IVRSystem::_IsInputAvailable*
 class CORDL_TYPE __IVRSystem___IsInputAvailable : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x2bdc484, size 0x20, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x3fc7958, size 0x20, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x2bdc4a4, size 0x28, virtual true, abstract: false, final false
-  inline bool EndInvoke(::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x3fc7978, size 0x28, virtual true, abstract: false, final false
+inline bool EndInvoke(::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x2bdc470, size 0x14, virtual true, abstract: false, final false
-  inline bool Invoke();
+/// @brief Method Invoke, addr 0x3fc7944, size 0x14, virtual true, abstract: false, final false
+inline bool Invoke() ;
 
-  static inline ::OVR::OpenVR::__IVRSystem___IsInputAvailable* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::OVR::OpenVR::__IVRSystem___IsInputAvailable* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x2bdc3b4, size 0xbc, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x3fc78bc, size 0x88, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __IVRSystem___IsInputAvailable();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __IVRSystem___IsInputAvailable() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___IsInputAvailable", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __IVRSystem___IsInputAvailable(__IVRSystem___IsInputAvailable&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___IsInputAvailable", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __IVRSystem___IsInputAvailable(__IVRSystem___IsInputAvailable const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___IsInputAvailable", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__IVRSystem___IsInputAvailable(__IVRSystem___IsInputAvailable && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___IsInputAvailable", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__IVRSystem___IsInputAvailable(__IVRSystem___IsInputAvailable const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRSystem___IsInputAvailable, 0x80>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 // Type: ::_IsSteamVRDrawingControllers
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: ::IVRSystem::_IsSteamVRDrawingControllers*
 class CORDL_TYPE __IVRSystem___IsSteamVRDrawingControllers : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x2bdc59c, size 0x20, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x3fc7a3c, size 0x20, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x2bdc5bc, size 0x28, virtual true, abstract: false, final false
-  inline bool EndInvoke(::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x3fc7a5c, size 0x28, virtual true, abstract: false, final false
+inline bool EndInvoke(::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x2bdc588, size 0x14, virtual true, abstract: false, final false
-  inline bool Invoke();
+/// @brief Method Invoke, addr 0x3fc7a28, size 0x14, virtual true, abstract: false, final false
+inline bool Invoke() ;
 
-  static inline ::OVR::OpenVR::__IVRSystem___IsSteamVRDrawingControllers* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::OVR::OpenVR::__IVRSystem___IsSteamVRDrawingControllers* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x2bdc4cc, size 0xbc, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x3fc79a0, size 0x88, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __IVRSystem___IsSteamVRDrawingControllers();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __IVRSystem___IsSteamVRDrawingControllers() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___IsSteamVRDrawingControllers", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __IVRSystem___IsSteamVRDrawingControllers(__IVRSystem___IsSteamVRDrawingControllers&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___IsSteamVRDrawingControllers", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __IVRSystem___IsSteamVRDrawingControllers(__IVRSystem___IsSteamVRDrawingControllers const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___IsSteamVRDrawingControllers", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__IVRSystem___IsSteamVRDrawingControllers(__IVRSystem___IsSteamVRDrawingControllers && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___IsSteamVRDrawingControllers", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__IVRSystem___IsSteamVRDrawingControllers(__IVRSystem___IsSteamVRDrawingControllers const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRSystem___IsSteamVRDrawingControllers, 0x80>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 // Type: ::_ShouldApplicationPause
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: ::IVRSystem::_ShouldApplicationPause*
 class CORDL_TYPE __IVRSystem___ShouldApplicationPause : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x2bdc6b4, size 0x20, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x3fc7b20, size 0x20, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x2bdc6d4, size 0x28, virtual true, abstract: false, final false
-  inline bool EndInvoke(::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x3fc7b40, size 0x28, virtual true, abstract: false, final false
+inline bool EndInvoke(::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x2bdc6a0, size 0x14, virtual true, abstract: false, final false
-  inline bool Invoke();
+/// @brief Method Invoke, addr 0x3fc7b0c, size 0x14, virtual true, abstract: false, final false
+inline bool Invoke() ;
 
-  static inline ::OVR::OpenVR::__IVRSystem___ShouldApplicationPause* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::OVR::OpenVR::__IVRSystem___ShouldApplicationPause* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x2bdc5e4, size 0xbc, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x3fc7a84, size 0x88, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __IVRSystem___ShouldApplicationPause();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __IVRSystem___ShouldApplicationPause() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___ShouldApplicationPause", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __IVRSystem___ShouldApplicationPause(__IVRSystem___ShouldApplicationPause&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___ShouldApplicationPause", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __IVRSystem___ShouldApplicationPause(__IVRSystem___ShouldApplicationPause const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___ShouldApplicationPause", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__IVRSystem___ShouldApplicationPause(__IVRSystem___ShouldApplicationPause && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___ShouldApplicationPause", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__IVRSystem___ShouldApplicationPause(__IVRSystem___ShouldApplicationPause const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRSystem___ShouldApplicationPause, 0x80>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 // Type: ::_ShouldApplicationReduceRenderingWork
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: ::IVRSystem::_ShouldApplicationReduceRenderingWork*
 class CORDL_TYPE __IVRSystem___ShouldApplicationReduceRenderingWork : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x2bdc7cc, size 0x20, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x3fc7c04, size 0x20, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x2bdc7ec, size 0x28, virtual true, abstract: false, final false
-  inline bool EndInvoke(::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x3fc7c24, size 0x28, virtual true, abstract: false, final false
+inline bool EndInvoke(::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x2bdc7b8, size 0x14, virtual true, abstract: false, final false
-  inline bool Invoke();
+/// @brief Method Invoke, addr 0x3fc7bf0, size 0x14, virtual true, abstract: false, final false
+inline bool Invoke() ;
 
-  static inline ::OVR::OpenVR::__IVRSystem___ShouldApplicationReduceRenderingWork* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::OVR::OpenVR::__IVRSystem___ShouldApplicationReduceRenderingWork* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x2bdc6fc, size 0xbc, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x3fc7b68, size 0x88, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __IVRSystem___ShouldApplicationReduceRenderingWork();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __IVRSystem___ShouldApplicationReduceRenderingWork() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___ShouldApplicationReduceRenderingWork", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __IVRSystem___ShouldApplicationReduceRenderingWork(__IVRSystem___ShouldApplicationReduceRenderingWork&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___ShouldApplicationReduceRenderingWork", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __IVRSystem___ShouldApplicationReduceRenderingWork(__IVRSystem___ShouldApplicationReduceRenderingWork const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___ShouldApplicationReduceRenderingWork", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__IVRSystem___ShouldApplicationReduceRenderingWork(__IVRSystem___ShouldApplicationReduceRenderingWork && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___ShouldApplicationReduceRenderingWork", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__IVRSystem___ShouldApplicationReduceRenderingWork(__IVRSystem___ShouldApplicationReduceRenderingWork const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRSystem___ShouldApplicationReduceRenderingWork, 0x80>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 // Type: ::_DriverDebugRequest
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: ::IVRSystem::_DriverDebugRequest*
 class CORDL_TYPE __IVRSystem___DriverDebugRequest : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x2bdc8ec, size 0xac, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(uint32_t unDeviceIndex, ::StringW pchRequest, ::System::Text::StringBuilder* pchResponseBuffer, uint32_t unResponseBufferSize,
-                                             ::System::AsyncCallback* callback, ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x3fc7cec, size 0xb4, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(uint32_t  unDeviceIndex, ::StringW  pchRequest, ::System::Text::StringBuilder*  pchResponseBuffer, uint32_t  unResponseBufferSize, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x2bdc998, size 0x28, virtual true, abstract: false, final false
-  inline uint32_t EndInvoke(::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x3fc7da0, size 0x28, virtual true, abstract: false, final false
+inline uint32_t EndInvoke(::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x2bdc8d8, size 0x14, virtual true, abstract: false, final false
-  inline uint32_t Invoke(uint32_t unDeviceIndex, ::StringW pchRequest, ::System::Text::StringBuilder* pchResponseBuffer, uint32_t unResponseBufferSize);
+/// @brief Method Invoke, addr 0x3fc7cd8, size 0x14, virtual true, abstract: false, final false
+inline uint32_t Invoke(uint32_t  unDeviceIndex, ::StringW  pchRequest, ::System::Text::StringBuilder*  pchResponseBuffer, uint32_t  unResponseBufferSize) ;
 
-  static inline ::OVR::OpenVR::__IVRSystem___DriverDebugRequest* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::OVR::OpenVR::__IVRSystem___DriverDebugRequest* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x2bdc814, size 0xc4, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x3fc7c4c, size 0x8c, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __IVRSystem___DriverDebugRequest();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __IVRSystem___DriverDebugRequest() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___DriverDebugRequest", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __IVRSystem___DriverDebugRequest(__IVRSystem___DriverDebugRequest&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___DriverDebugRequest", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __IVRSystem___DriverDebugRequest(__IVRSystem___DriverDebugRequest const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___DriverDebugRequest", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__IVRSystem___DriverDebugRequest(__IVRSystem___DriverDebugRequest && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___DriverDebugRequest", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__IVRSystem___DriverDebugRequest(__IVRSystem___DriverDebugRequest const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRSystem___DriverDebugRequest, 0x80>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 // Type: ::_PerformFirmwareUpdate
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: ::IVRSystem::_PerformFirmwareUpdate*
 class CORDL_TYPE __IVRSystem___PerformFirmwareUpdate : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x2bdca98, size 0x84, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(uint32_t unDeviceIndex, ::System::AsyncCallback* callback, ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x3fc7e68, size 0x84, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(uint32_t  unDeviceIndex, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x2bdcb1c, size 0x28, virtual true, abstract: false, final false
-  inline ::OVR::OpenVR::EVRFirmwareError EndInvoke(::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x3fc7eec, size 0x28, virtual true, abstract: false, final false
+inline ::OVR::OpenVR::EVRFirmwareError EndInvoke(::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x2bdca84, size 0x14, virtual true, abstract: false, final false
-  inline ::OVR::OpenVR::EVRFirmwareError Invoke(uint32_t unDeviceIndex);
+/// @brief Method Invoke, addr 0x3fc7e54, size 0x14, virtual true, abstract: false, final false
+inline ::OVR::OpenVR::EVRFirmwareError Invoke(uint32_t  unDeviceIndex) ;
 
-  static inline ::OVR::OpenVR::__IVRSystem___PerformFirmwareUpdate* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::OVR::OpenVR::__IVRSystem___PerformFirmwareUpdate* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x2bdc9c0, size 0xc4, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x3fc7dc8, size 0x8c, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __IVRSystem___PerformFirmwareUpdate();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __IVRSystem___PerformFirmwareUpdate() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___PerformFirmwareUpdate", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __IVRSystem___PerformFirmwareUpdate(__IVRSystem___PerformFirmwareUpdate&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___PerformFirmwareUpdate", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __IVRSystem___PerformFirmwareUpdate(__IVRSystem___PerformFirmwareUpdate const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___PerformFirmwareUpdate", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__IVRSystem___PerformFirmwareUpdate(__IVRSystem___PerformFirmwareUpdate && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___PerformFirmwareUpdate", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__IVRSystem___PerformFirmwareUpdate(__IVRSystem___PerformFirmwareUpdate const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRSystem___PerformFirmwareUpdate, 0x80>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 // Type: ::_AcknowledgeQuit_Exiting
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: ::IVRSystem::_AcknowledgeQuit_Exiting*
 class CORDL_TYPE __IVRSystem___AcknowledgeQuit_Exiting : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x2bdcc14, size 0x20, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x3fc7fb0, size 0x20, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x2bdcc34, size 0xc, virtual true, abstract: false, final false
-  inline void EndInvoke(::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x3fc7fd0, size 0xc, virtual true, abstract: false, final false
+inline void EndInvoke(::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x2bdcc00, size 0x14, virtual true, abstract: false, final false
-  inline void Invoke();
+/// @brief Method Invoke, addr 0x3fc7f9c, size 0x14, virtual true, abstract: false, final false
+inline void Invoke() ;
 
-  static inline ::OVR::OpenVR::__IVRSystem___AcknowledgeQuit_Exiting* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::OVR::OpenVR::__IVRSystem___AcknowledgeQuit_Exiting* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x2bdcb44, size 0xbc, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x3fc7f14, size 0x88, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __IVRSystem___AcknowledgeQuit_Exiting();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __IVRSystem___AcknowledgeQuit_Exiting() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___AcknowledgeQuit_Exiting", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __IVRSystem___AcknowledgeQuit_Exiting(__IVRSystem___AcknowledgeQuit_Exiting&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___AcknowledgeQuit_Exiting", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __IVRSystem___AcknowledgeQuit_Exiting(__IVRSystem___AcknowledgeQuit_Exiting const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___AcknowledgeQuit_Exiting", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__IVRSystem___AcknowledgeQuit_Exiting(__IVRSystem___AcknowledgeQuit_Exiting && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___AcknowledgeQuit_Exiting", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__IVRSystem___AcknowledgeQuit_Exiting(__IVRSystem___AcknowledgeQuit_Exiting const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRSystem___AcknowledgeQuit_Exiting, 0x80>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 // Type: ::_AcknowledgeQuit_UserPrompt
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: ::IVRSystem::_AcknowledgeQuit_UserPrompt*
 class CORDL_TYPE __IVRSystem___AcknowledgeQuit_UserPrompt : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x2bdcd10, size 0x20, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback* callback, ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x3fc8078, size 0x20, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x2bdcd30, size 0xc, virtual true, abstract: false, final false
-  inline void EndInvoke(::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x3fc8098, size 0xc, virtual true, abstract: false, final false
+inline void EndInvoke(::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x2bdccfc, size 0x14, virtual true, abstract: false, final false
-  inline void Invoke();
+/// @brief Method Invoke, addr 0x3fc8064, size 0x14, virtual true, abstract: false, final false
+inline void Invoke() ;
 
-  static inline ::OVR::OpenVR::__IVRSystem___AcknowledgeQuit_UserPrompt* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::OVR::OpenVR::__IVRSystem___AcknowledgeQuit_UserPrompt* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x2bdcc40, size 0xbc, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x3fc7fdc, size 0x88, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __IVRSystem___AcknowledgeQuit_UserPrompt();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __IVRSystem___AcknowledgeQuit_UserPrompt() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___AcknowledgeQuit_UserPrompt", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __IVRSystem___AcknowledgeQuit_UserPrompt(__IVRSystem___AcknowledgeQuit_UserPrompt&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___AcknowledgeQuit_UserPrompt", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __IVRSystem___AcknowledgeQuit_UserPrompt(__IVRSystem___AcknowledgeQuit_UserPrompt const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___AcknowledgeQuit_UserPrompt", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__IVRSystem___AcknowledgeQuit_UserPrompt(__IVRSystem___AcknowledgeQuit_UserPrompt && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "__IVRSystem___AcknowledgeQuit_UserPrompt", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__IVRSystem___AcknowledgeQuit_UserPrompt(__IVRSystem___AcknowledgeQuit_UserPrompt const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::__IVRSystem___AcknowledgeQuit_UserPrompt, 0x80>, "Size mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 // Type: OVR.OpenVR::IVRSystem
-// SizeInfo { instance_size: 376, native_size: 376, calculated_instance_size: 376, calculated_native_size: 392, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 376, native_size: 376, calculated_instance_size: 376, calculated_native_size: 392, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: true
 // CS Name: ::OVR.OpenVR::IVRSystem
 struct CORDL_TYPE IVRSystem {
 public:
-  // Declarations
-  using _AcknowledgeQuit_Exiting = ::OVR::OpenVR::__IVRSystem___AcknowledgeQuit_Exiting;
+// Declarations
+using _AcknowledgeQuit_Exiting = ::OVR::OpenVR::__IVRSystem___AcknowledgeQuit_Exiting;
 
-  using _AcknowledgeQuit_UserPrompt = ::OVR::OpenVR::__IVRSystem___AcknowledgeQuit_UserPrompt;
+using _AcknowledgeQuit_UserPrompt = ::OVR::OpenVR::__IVRSystem___AcknowledgeQuit_UserPrompt;
 
-  using _ApplyTransform = ::OVR::OpenVR::__IVRSystem___ApplyTransform;
+using _ApplyTransform = ::OVR::OpenVR::__IVRSystem___ApplyTransform;
 
-  using _ComputeDistortion = ::OVR::OpenVR::__IVRSystem___ComputeDistortion;
+using _ComputeDistortion = ::OVR::OpenVR::__IVRSystem___ComputeDistortion;
 
-  using _DriverDebugRequest = ::OVR::OpenVR::__IVRSystem___DriverDebugRequest;
+using _DriverDebugRequest = ::OVR::OpenVR::__IVRSystem___DriverDebugRequest;
 
-  using _GetArrayTrackedDeviceProperty = ::OVR::OpenVR::__IVRSystem___GetArrayTrackedDeviceProperty;
+using _GetArrayTrackedDeviceProperty = ::OVR::OpenVR::__IVRSystem___GetArrayTrackedDeviceProperty;
 
-  using _GetBoolTrackedDeviceProperty = ::OVR::OpenVR::__IVRSystem___GetBoolTrackedDeviceProperty;
+using _GetBoolTrackedDeviceProperty = ::OVR::OpenVR::__IVRSystem___GetBoolTrackedDeviceProperty;
 
-  using _GetButtonIdNameFromEnum = ::OVR::OpenVR::__IVRSystem___GetButtonIdNameFromEnum;
+using _GetButtonIdNameFromEnum = ::OVR::OpenVR::__IVRSystem___GetButtonIdNameFromEnum;
 
-  using _GetControllerAxisTypeNameFromEnum = ::OVR::OpenVR::__IVRSystem___GetControllerAxisTypeNameFromEnum;
+using _GetControllerAxisTypeNameFromEnum = ::OVR::OpenVR::__IVRSystem___GetControllerAxisTypeNameFromEnum;
 
-  using _GetControllerRoleForTrackedDeviceIndex = ::OVR::OpenVR::__IVRSystem___GetControllerRoleForTrackedDeviceIndex;
+using _GetControllerRoleForTrackedDeviceIndex = ::OVR::OpenVR::__IVRSystem___GetControllerRoleForTrackedDeviceIndex;
 
-  using _GetControllerState = ::OVR::OpenVR::__IVRSystem___GetControllerState;
+using _GetControllerState = ::OVR::OpenVR::__IVRSystem___GetControllerState;
 
-  using _GetControllerStateWithPose = ::OVR::OpenVR::__IVRSystem___GetControllerStateWithPose;
+using _GetControllerStateWithPose = ::OVR::OpenVR::__IVRSystem___GetControllerStateWithPose;
 
-  using _GetD3D9AdapterIndex = ::OVR::OpenVR::__IVRSystem___GetD3D9AdapterIndex;
+using _GetD3D9AdapterIndex = ::OVR::OpenVR::__IVRSystem___GetD3D9AdapterIndex;
 
-  using _GetDXGIOutputInfo = ::OVR::OpenVR::__IVRSystem___GetDXGIOutputInfo;
+using _GetDXGIOutputInfo = ::OVR::OpenVR::__IVRSystem___GetDXGIOutputInfo;
 
-  using _GetDeviceToAbsoluteTrackingPose = ::OVR::OpenVR::__IVRSystem___GetDeviceToAbsoluteTrackingPose;
+using _GetDeviceToAbsoluteTrackingPose = ::OVR::OpenVR::__IVRSystem___GetDeviceToAbsoluteTrackingPose;
 
-  using _GetEventTypeNameFromEnum = ::OVR::OpenVR::__IVRSystem___GetEventTypeNameFromEnum;
+using _GetEventTypeNameFromEnum = ::OVR::OpenVR::__IVRSystem___GetEventTypeNameFromEnum;
 
-  using _GetEyeToHeadTransform = ::OVR::OpenVR::__IVRSystem___GetEyeToHeadTransform;
+using _GetEyeToHeadTransform = ::OVR::OpenVR::__IVRSystem___GetEyeToHeadTransform;
 
-  using _GetFloatTrackedDeviceProperty = ::OVR::OpenVR::__IVRSystem___GetFloatTrackedDeviceProperty;
+using _GetFloatTrackedDeviceProperty = ::OVR::OpenVR::__IVRSystem___GetFloatTrackedDeviceProperty;
 
-  using _GetHiddenAreaMesh = ::OVR::OpenVR::__IVRSystem___GetHiddenAreaMesh;
+using _GetHiddenAreaMesh = ::OVR::OpenVR::__IVRSystem___GetHiddenAreaMesh;
 
-  using _GetInt32TrackedDeviceProperty = ::OVR::OpenVR::__IVRSystem___GetInt32TrackedDeviceProperty;
+using _GetInt32TrackedDeviceProperty = ::OVR::OpenVR::__IVRSystem___GetInt32TrackedDeviceProperty;
 
-  using _GetMatrix34TrackedDeviceProperty = ::OVR::OpenVR::__IVRSystem___GetMatrix34TrackedDeviceProperty;
+using _GetMatrix34TrackedDeviceProperty = ::OVR::OpenVR::__IVRSystem___GetMatrix34TrackedDeviceProperty;
 
-  using _GetOutputDevice = ::OVR::OpenVR::__IVRSystem___GetOutputDevice;
+using _GetOutputDevice = ::OVR::OpenVR::__IVRSystem___GetOutputDevice;
 
-  using _GetProjectionMatrix = ::OVR::OpenVR::__IVRSystem___GetProjectionMatrix;
+using _GetProjectionMatrix = ::OVR::OpenVR::__IVRSystem___GetProjectionMatrix;
 
-  using _GetProjectionRaw = ::OVR::OpenVR::__IVRSystem___GetProjectionRaw;
+using _GetProjectionRaw = ::OVR::OpenVR::__IVRSystem___GetProjectionRaw;
 
-  using _GetPropErrorNameFromEnum = ::OVR::OpenVR::__IVRSystem___GetPropErrorNameFromEnum;
+using _GetPropErrorNameFromEnum = ::OVR::OpenVR::__IVRSystem___GetPropErrorNameFromEnum;
 
-  using _GetRawZeroPoseToStandingAbsoluteTrackingPose = ::OVR::OpenVR::__IVRSystem___GetRawZeroPoseToStandingAbsoluteTrackingPose;
+using _GetRawZeroPoseToStandingAbsoluteTrackingPose = ::OVR::OpenVR::__IVRSystem___GetRawZeroPoseToStandingAbsoluteTrackingPose;
 
-  using _GetRecommendedRenderTargetSize = ::OVR::OpenVR::__IVRSystem___GetRecommendedRenderTargetSize;
+using _GetRecommendedRenderTargetSize = ::OVR::OpenVR::__IVRSystem___GetRecommendedRenderTargetSize;
 
-  using _GetSeatedZeroPoseToStandingAbsoluteTrackingPose = ::OVR::OpenVR::__IVRSystem___GetSeatedZeroPoseToStandingAbsoluteTrackingPose;
+using _GetSeatedZeroPoseToStandingAbsoluteTrackingPose = ::OVR::OpenVR::__IVRSystem___GetSeatedZeroPoseToStandingAbsoluteTrackingPose;
 
-  using _GetSortedTrackedDeviceIndicesOfClass = ::OVR::OpenVR::__IVRSystem___GetSortedTrackedDeviceIndicesOfClass;
+using _GetSortedTrackedDeviceIndicesOfClass = ::OVR::OpenVR::__IVRSystem___GetSortedTrackedDeviceIndicesOfClass;
 
-  using _GetStringTrackedDeviceProperty = ::OVR::OpenVR::__IVRSystem___GetStringTrackedDeviceProperty;
+using _GetStringTrackedDeviceProperty = ::OVR::OpenVR::__IVRSystem___GetStringTrackedDeviceProperty;
 
-  using _GetTimeSinceLastVsync = ::OVR::OpenVR::__IVRSystem___GetTimeSinceLastVsync;
+using _GetTimeSinceLastVsync = ::OVR::OpenVR::__IVRSystem___GetTimeSinceLastVsync;
 
-  using _GetTrackedDeviceActivityLevel = ::OVR::OpenVR::__IVRSystem___GetTrackedDeviceActivityLevel;
+using _GetTrackedDeviceActivityLevel = ::OVR::OpenVR::__IVRSystem___GetTrackedDeviceActivityLevel;
 
-  using _GetTrackedDeviceClass = ::OVR::OpenVR::__IVRSystem___GetTrackedDeviceClass;
+using _GetTrackedDeviceClass = ::OVR::OpenVR::__IVRSystem___GetTrackedDeviceClass;
 
-  using _GetTrackedDeviceIndexForControllerRole = ::OVR::OpenVR::__IVRSystem___GetTrackedDeviceIndexForControllerRole;
+using _GetTrackedDeviceIndexForControllerRole = ::OVR::OpenVR::__IVRSystem___GetTrackedDeviceIndexForControllerRole;
 
-  using _GetUint64TrackedDeviceProperty = ::OVR::OpenVR::__IVRSystem___GetUint64TrackedDeviceProperty;
+using _GetUint64TrackedDeviceProperty = ::OVR::OpenVR::__IVRSystem___GetUint64TrackedDeviceProperty;
 
-  using _IsDisplayOnDesktop = ::OVR::OpenVR::__IVRSystem___IsDisplayOnDesktop;
+using _IsDisplayOnDesktop = ::OVR::OpenVR::__IVRSystem___IsDisplayOnDesktop;
 
-  using _IsInputAvailable = ::OVR::OpenVR::__IVRSystem___IsInputAvailable;
+using _IsInputAvailable = ::OVR::OpenVR::__IVRSystem___IsInputAvailable;
 
-  using _IsSteamVRDrawingControllers = ::OVR::OpenVR::__IVRSystem___IsSteamVRDrawingControllers;
+using _IsSteamVRDrawingControllers = ::OVR::OpenVR::__IVRSystem___IsSteamVRDrawingControllers;
 
-  using _IsTrackedDeviceConnected = ::OVR::OpenVR::__IVRSystem___IsTrackedDeviceConnected;
+using _IsTrackedDeviceConnected = ::OVR::OpenVR::__IVRSystem___IsTrackedDeviceConnected;
 
-  using _PerformFirmwareUpdate = ::OVR::OpenVR::__IVRSystem___PerformFirmwareUpdate;
+using _PerformFirmwareUpdate = ::OVR::OpenVR::__IVRSystem___PerformFirmwareUpdate;
 
-  using _PollNextEvent = ::OVR::OpenVR::__IVRSystem___PollNextEvent;
+using _PollNextEvent = ::OVR::OpenVR::__IVRSystem___PollNextEvent;
 
-  using _PollNextEventWithPose = ::OVR::OpenVR::__IVRSystem___PollNextEventWithPose;
+using _PollNextEventWithPose = ::OVR::OpenVR::__IVRSystem___PollNextEventWithPose;
 
-  using _ResetSeatedZeroPose = ::OVR::OpenVR::__IVRSystem___ResetSeatedZeroPose;
+using _ResetSeatedZeroPose = ::OVR::OpenVR::__IVRSystem___ResetSeatedZeroPose;
 
-  using _SetDisplayVisibility = ::OVR::OpenVR::__IVRSystem___SetDisplayVisibility;
+using _SetDisplayVisibility = ::OVR::OpenVR::__IVRSystem___SetDisplayVisibility;
 
-  using _ShouldApplicationPause = ::OVR::OpenVR::__IVRSystem___ShouldApplicationPause;
+using _ShouldApplicationPause = ::OVR::OpenVR::__IVRSystem___ShouldApplicationPause;
 
-  using _ShouldApplicationReduceRenderingWork = ::OVR::OpenVR::__IVRSystem___ShouldApplicationReduceRenderingWork;
+using _ShouldApplicationReduceRenderingWork = ::OVR::OpenVR::__IVRSystem___ShouldApplicationReduceRenderingWork;
 
-  using _TriggerHapticPulse = ::OVR::OpenVR::__IVRSystem___TriggerHapticPulse;
+using _TriggerHapticPulse = ::OVR::OpenVR::__IVRSystem___TriggerHapticPulse;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr IVRSystem();
+// Ctor Parameters []
+// @brief default ctor
+constexpr IVRSystem() ;
 
-  // Ctor Parameters [CppParam { name: "GetRecommendedRenderTargetSize", ty: "::OVR::OpenVR::__IVRSystem___GetRecommendedRenderTargetSize*", modifiers: "", def_value: None }, CppParam { name:
-  // "GetProjectionMatrix", ty: "::OVR::OpenVR::__IVRSystem___GetProjectionMatrix*", modifiers: "", def_value: None }, CppParam { name: "GetProjectionRaw", ty:
-  // "::OVR::OpenVR::__IVRSystem___GetProjectionRaw*", modifiers: "", def_value: None }, CppParam { name: "ComputeDistortion", ty: "::OVR::OpenVR::__IVRSystem___ComputeDistortion*", modifiers: "",
-  // def_value: None }, CppParam { name: "GetEyeToHeadTransform", ty: "::OVR::OpenVR::__IVRSystem___GetEyeToHeadTransform*", modifiers: "", def_value: None }, CppParam { name: "GetTimeSinceLastVsync",
-  // ty: "::OVR::OpenVR::__IVRSystem___GetTimeSinceLastVsync*", modifiers: "", def_value: None }, CppParam { name: "GetD3D9AdapterIndex", ty: "::OVR::OpenVR::__IVRSystem___GetD3D9AdapterIndex*",
-  // modifiers: "", def_value: None }, CppParam { name: "GetDXGIOutputInfo", ty: "::OVR::OpenVR::__IVRSystem___GetDXGIOutputInfo*", modifiers: "", def_value: None }, CppParam { name:
-  // "GetOutputDevice", ty: "::OVR::OpenVR::__IVRSystem___GetOutputDevice*", modifiers: "", def_value: None }, CppParam { name: "IsDisplayOnDesktop", ty:
-  // "::OVR::OpenVR::__IVRSystem___IsDisplayOnDesktop*", modifiers: "", def_value: None }, CppParam { name: "SetDisplayVisibility", ty: "::OVR::OpenVR::__IVRSystem___SetDisplayVisibility*", modifiers:
-  // "", def_value: None }, CppParam { name: "GetDeviceToAbsoluteTrackingPose", ty: "::OVR::OpenVR::__IVRSystem___GetDeviceToAbsoluteTrackingPose*", modifiers: "", def_value: None }, CppParam { name:
-  // "ResetSeatedZeroPose", ty: "::OVR::OpenVR::__IVRSystem___ResetSeatedZeroPose*", modifiers: "", def_value: None }, CppParam { name: "GetSeatedZeroPoseToStandingAbsoluteTrackingPose", ty:
-  // "::OVR::OpenVR::__IVRSystem___GetSeatedZeroPoseToStandingAbsoluteTrackingPose*", modifiers: "", def_value: None }, CppParam { name: "GetRawZeroPoseToStandingAbsoluteTrackingPose", ty:
-  // "::OVR::OpenVR::__IVRSystem___GetRawZeroPoseToStandingAbsoluteTrackingPose*", modifiers: "", def_value: None }, CppParam { name: "GetSortedTrackedDeviceIndicesOfClass", ty:
-  // "::OVR::OpenVR::__IVRSystem___GetSortedTrackedDeviceIndicesOfClass*", modifiers: "", def_value: None }, CppParam { name: "GetTrackedDeviceActivityLevel", ty:
-  // "::OVR::OpenVR::__IVRSystem___GetTrackedDeviceActivityLevel*", modifiers: "", def_value: None }, CppParam { name: "ApplyTransform", ty: "::OVR::OpenVR::__IVRSystem___ApplyTransform*", modifiers:
-  // "", def_value: None }, CppParam { name: "GetTrackedDeviceIndexForControllerRole", ty: "::OVR::OpenVR::__IVRSystem___GetTrackedDeviceIndexForControllerRole*", modifiers: "", def_value: None },
-  // CppParam { name: "GetControllerRoleForTrackedDeviceIndex", ty: "::OVR::OpenVR::__IVRSystem___GetControllerRoleForTrackedDeviceIndex*", modifiers: "", def_value: None }, CppParam { name:
-  // "GetTrackedDeviceClass", ty: "::OVR::OpenVR::__IVRSystem___GetTrackedDeviceClass*", modifiers: "", def_value: None }, CppParam { name: "IsTrackedDeviceConnected", ty:
-  // "::OVR::OpenVR::__IVRSystem___IsTrackedDeviceConnected*", modifiers: "", def_value: None }, CppParam { name: "GetBoolTrackedDeviceProperty", ty:
-  // "::OVR::OpenVR::__IVRSystem___GetBoolTrackedDeviceProperty*", modifiers: "", def_value: None }, CppParam { name: "GetFloatTrackedDeviceProperty", ty:
-  // "::OVR::OpenVR::__IVRSystem___GetFloatTrackedDeviceProperty*", modifiers: "", def_value: None }, CppParam { name: "GetInt32TrackedDeviceProperty", ty:
-  // "::OVR::OpenVR::__IVRSystem___GetInt32TrackedDeviceProperty*", modifiers: "", def_value: None }, CppParam { name: "GetUint64TrackedDeviceProperty", ty:
-  // "::OVR::OpenVR::__IVRSystem___GetUint64TrackedDeviceProperty*", modifiers: "", def_value: None }, CppParam { name: "GetMatrix34TrackedDeviceProperty", ty:
-  // "::OVR::OpenVR::__IVRSystem___GetMatrix34TrackedDeviceProperty*", modifiers: "", def_value: None }, CppParam { name: "GetArrayTrackedDeviceProperty", ty:
-  // "::OVR::OpenVR::__IVRSystem___GetArrayTrackedDeviceProperty*", modifiers: "", def_value: None }, CppParam { name: "GetStringTrackedDeviceProperty", ty:
-  // "::OVR::OpenVR::__IVRSystem___GetStringTrackedDeviceProperty*", modifiers: "", def_value: None }, CppParam { name: "GetPropErrorNameFromEnum", ty:
-  // "::OVR::OpenVR::__IVRSystem___GetPropErrorNameFromEnum*", modifiers: "", def_value: None }, CppParam { name: "PollNextEvent", ty: "::OVR::OpenVR::__IVRSystem___PollNextEvent*", modifiers: "",
-  // def_value: None }, CppParam { name: "PollNextEventWithPose", ty: "::OVR::OpenVR::__IVRSystem___PollNextEventWithPose*", modifiers: "", def_value: None }, CppParam { name:
-  // "GetEventTypeNameFromEnum", ty: "::OVR::OpenVR::__IVRSystem___GetEventTypeNameFromEnum*", modifiers: "", def_value: None }, CppParam { name: "GetHiddenAreaMesh", ty:
-  // "::OVR::OpenVR::__IVRSystem___GetHiddenAreaMesh*", modifiers: "", def_value: None }, CppParam { name: "GetControllerState", ty: "::OVR::OpenVR::__IVRSystem___GetControllerState*", modifiers: "",
-  // def_value: None }, CppParam { name: "GetControllerStateWithPose", ty: "::OVR::OpenVR::__IVRSystem___GetControllerStateWithPose*", modifiers: "", def_value: None }, CppParam { name:
-  // "TriggerHapticPulse", ty: "::OVR::OpenVR::__IVRSystem___TriggerHapticPulse*", modifiers: "", def_value: None }, CppParam { name: "GetButtonIdNameFromEnum", ty:
-  // "::OVR::OpenVR::__IVRSystem___GetButtonIdNameFromEnum*", modifiers: "", def_value: None }, CppParam { name: "GetControllerAxisTypeNameFromEnum", ty:
-  // "::OVR::OpenVR::__IVRSystem___GetControllerAxisTypeNameFromEnum*", modifiers: "", def_value: None }, CppParam { name: "IsInputAvailable", ty: "::OVR::OpenVR::__IVRSystem___IsInputAvailable*",
-  // modifiers: "", def_value: None }, CppParam { name: "IsSteamVRDrawingControllers", ty: "::OVR::OpenVR::__IVRSystem___IsSteamVRDrawingControllers*", modifiers: "", def_value: None }, CppParam {
-  // name: "ShouldApplicationPause", ty: "::OVR::OpenVR::__IVRSystem___ShouldApplicationPause*", modifiers: "", def_value: None }, CppParam { name: "ShouldApplicationReduceRenderingWork", ty:
-  // "::OVR::OpenVR::__IVRSystem___ShouldApplicationReduceRenderingWork*", modifiers: "", def_value: None }, CppParam { name: "DriverDebugRequest", ty:
-  // "::OVR::OpenVR::__IVRSystem___DriverDebugRequest*", modifiers: "", def_value: None }, CppParam { name: "PerformFirmwareUpdate", ty: "::OVR::OpenVR::__IVRSystem___PerformFirmwareUpdate*",
-  // modifiers: "", def_value: None }, CppParam { name: "AcknowledgeQuit_Exiting", ty: "::OVR::OpenVR::__IVRSystem___AcknowledgeQuit_Exiting*", modifiers: "", def_value: None }, CppParam { name:
-  // "AcknowledgeQuit_UserPrompt", ty: "::OVR::OpenVR::__IVRSystem___AcknowledgeQuit_UserPrompt*", modifiers: "", def_value: None }]
-  constexpr IVRSystem(
-      ::OVR::OpenVR::__IVRSystem___GetRecommendedRenderTargetSize* GetRecommendedRenderTargetSize, ::OVR::OpenVR::__IVRSystem___GetProjectionMatrix* GetProjectionMatrix,
-      ::OVR::OpenVR::__IVRSystem___GetProjectionRaw* GetProjectionRaw, ::OVR::OpenVR::__IVRSystem___ComputeDistortion* ComputeDistortion,
-      ::OVR::OpenVR::__IVRSystem___GetEyeToHeadTransform* GetEyeToHeadTransform, ::OVR::OpenVR::__IVRSystem___GetTimeSinceLastVsync* GetTimeSinceLastVsync,
-      ::OVR::OpenVR::__IVRSystem___GetD3D9AdapterIndex* GetD3D9AdapterIndex, ::OVR::OpenVR::__IVRSystem___GetDXGIOutputInfo* GetDXGIOutputInfo,
-      ::OVR::OpenVR::__IVRSystem___GetOutputDevice* GetOutputDevice, ::OVR::OpenVR::__IVRSystem___IsDisplayOnDesktop* IsDisplayOnDesktop,
-      ::OVR::OpenVR::__IVRSystem___SetDisplayVisibility* SetDisplayVisibility, ::OVR::OpenVR::__IVRSystem___GetDeviceToAbsoluteTrackingPose* GetDeviceToAbsoluteTrackingPose,
-      ::OVR::OpenVR::__IVRSystem___ResetSeatedZeroPose* ResetSeatedZeroPose,
-      ::OVR::OpenVR::__IVRSystem___GetSeatedZeroPoseToStandingAbsoluteTrackingPose* GetSeatedZeroPoseToStandingAbsoluteTrackingPose,
-      ::OVR::OpenVR::__IVRSystem___GetRawZeroPoseToStandingAbsoluteTrackingPose* GetRawZeroPoseToStandingAbsoluteTrackingPose,
-      ::OVR::OpenVR::__IVRSystem___GetSortedTrackedDeviceIndicesOfClass* GetSortedTrackedDeviceIndicesOfClass,
-      ::OVR::OpenVR::__IVRSystem___GetTrackedDeviceActivityLevel* GetTrackedDeviceActivityLevel, ::OVR::OpenVR::__IVRSystem___ApplyTransform* ApplyTransform,
-      ::OVR::OpenVR::__IVRSystem___GetTrackedDeviceIndexForControllerRole* GetTrackedDeviceIndexForControllerRole,
-      ::OVR::OpenVR::__IVRSystem___GetControllerRoleForTrackedDeviceIndex* GetControllerRoleForTrackedDeviceIndex, ::OVR::OpenVR::__IVRSystem___GetTrackedDeviceClass* GetTrackedDeviceClass,
-      ::OVR::OpenVR::__IVRSystem___IsTrackedDeviceConnected* IsTrackedDeviceConnected, ::OVR::OpenVR::__IVRSystem___GetBoolTrackedDeviceProperty* GetBoolTrackedDeviceProperty,
-      ::OVR::OpenVR::__IVRSystem___GetFloatTrackedDeviceProperty* GetFloatTrackedDeviceProperty, ::OVR::OpenVR::__IVRSystem___GetInt32TrackedDeviceProperty* GetInt32TrackedDeviceProperty,
-      ::OVR::OpenVR::__IVRSystem___GetUint64TrackedDeviceProperty* GetUint64TrackedDeviceProperty, ::OVR::OpenVR::__IVRSystem___GetMatrix34TrackedDeviceProperty* GetMatrix34TrackedDeviceProperty,
-      ::OVR::OpenVR::__IVRSystem___GetArrayTrackedDeviceProperty* GetArrayTrackedDeviceProperty, ::OVR::OpenVR::__IVRSystem___GetStringTrackedDeviceProperty* GetStringTrackedDeviceProperty,
-      ::OVR::OpenVR::__IVRSystem___GetPropErrorNameFromEnum* GetPropErrorNameFromEnum, ::OVR::OpenVR::__IVRSystem___PollNextEvent* PollNextEvent,
-      ::OVR::OpenVR::__IVRSystem___PollNextEventWithPose* PollNextEventWithPose, ::OVR::OpenVR::__IVRSystem___GetEventTypeNameFromEnum* GetEventTypeNameFromEnum,
-      ::OVR::OpenVR::__IVRSystem___GetHiddenAreaMesh* GetHiddenAreaMesh, ::OVR::OpenVR::__IVRSystem___GetControllerState* GetControllerState,
-      ::OVR::OpenVR::__IVRSystem___GetControllerStateWithPose* GetControllerStateWithPose, ::OVR::OpenVR::__IVRSystem___TriggerHapticPulse* TriggerHapticPulse,
-      ::OVR::OpenVR::__IVRSystem___GetButtonIdNameFromEnum* GetButtonIdNameFromEnum, ::OVR::OpenVR::__IVRSystem___GetControllerAxisTypeNameFromEnum* GetControllerAxisTypeNameFromEnum,
-      ::OVR::OpenVR::__IVRSystem___IsInputAvailable* IsInputAvailable, ::OVR::OpenVR::__IVRSystem___IsSteamVRDrawingControllers* IsSteamVRDrawingControllers,
-      ::OVR::OpenVR::__IVRSystem___ShouldApplicationPause* ShouldApplicationPause, ::OVR::OpenVR::__IVRSystem___ShouldApplicationReduceRenderingWork* ShouldApplicationReduceRenderingWork,
-      ::OVR::OpenVR::__IVRSystem___DriverDebugRequest* DriverDebugRequest, ::OVR::OpenVR::__IVRSystem___PerformFirmwareUpdate* PerformFirmwareUpdate,
-      ::OVR::OpenVR::__IVRSystem___AcknowledgeQuit_Exiting* AcknowledgeQuit_Exiting, ::OVR::OpenVR::__IVRSystem___AcknowledgeQuit_UserPrompt* AcknowledgeQuit_UserPrompt) noexcept;
-
-  /// @brief Field GetRecommendedRenderTargetSize, offset: 0x0, size: 0x8, def value: None
-  ::OVR::OpenVR::__IVRSystem___GetRecommendedRenderTargetSize* GetRecommendedRenderTargetSize;
-
-  /// @brief Field GetProjectionMatrix, offset: 0x8, size: 0x8, def value: None
-  ::OVR::OpenVR::__IVRSystem___GetProjectionMatrix* GetProjectionMatrix;
-
-  /// @brief Field GetProjectionRaw, offset: 0x10, size: 0x8, def value: None
-  ::OVR::OpenVR::__IVRSystem___GetProjectionRaw* GetProjectionRaw;
-
-  /// @brief Field ComputeDistortion, offset: 0x18, size: 0x8, def value: None
-  ::OVR::OpenVR::__IVRSystem___ComputeDistortion* ComputeDistortion;
-
-  /// @brief Field GetEyeToHeadTransform, offset: 0x20, size: 0x8, def value: None
-  ::OVR::OpenVR::__IVRSystem___GetEyeToHeadTransform* GetEyeToHeadTransform;
-
-  /// @brief Field GetTimeSinceLastVsync, offset: 0x28, size: 0x8, def value: None
-  ::OVR::OpenVR::__IVRSystem___GetTimeSinceLastVsync* GetTimeSinceLastVsync;
-
-  /// @brief Field GetD3D9AdapterIndex, offset: 0x30, size: 0x8, def value: None
-  ::OVR::OpenVR::__IVRSystem___GetD3D9AdapterIndex* GetD3D9AdapterIndex;
-
-  /// @brief Field GetDXGIOutputInfo, offset: 0x38, size: 0x8, def value: None
-  ::OVR::OpenVR::__IVRSystem___GetDXGIOutputInfo* GetDXGIOutputInfo;
-
-  /// @brief Field GetOutputDevice, offset: 0x40, size: 0x8, def value: None
-  ::OVR::OpenVR::__IVRSystem___GetOutputDevice* GetOutputDevice;
-
-  /// @brief Field IsDisplayOnDesktop, offset: 0x48, size: 0x8, def value: None
-  ::OVR::OpenVR::__IVRSystem___IsDisplayOnDesktop* IsDisplayOnDesktop;
-
-  /// @brief Field SetDisplayVisibility, offset: 0x50, size: 0x8, def value: None
-  ::OVR::OpenVR::__IVRSystem___SetDisplayVisibility* SetDisplayVisibility;
-
-  /// @brief Field GetDeviceToAbsoluteTrackingPose, offset: 0x58, size: 0x8, def value: None
-  ::OVR::OpenVR::__IVRSystem___GetDeviceToAbsoluteTrackingPose* GetDeviceToAbsoluteTrackingPose;
-
-  /// @brief Field ResetSeatedZeroPose, offset: 0x60, size: 0x8, def value: None
-  ::OVR::OpenVR::__IVRSystem___ResetSeatedZeroPose* ResetSeatedZeroPose;
-
-  /// @brief Field GetSeatedZeroPoseToStandingAbsoluteTrackingPose, offset: 0x68, size: 0x8, def value: None
-  ::OVR::OpenVR::__IVRSystem___GetSeatedZeroPoseToStandingAbsoluteTrackingPose* GetSeatedZeroPoseToStandingAbsoluteTrackingPose;
-
-  /// @brief Field GetRawZeroPoseToStandingAbsoluteTrackingPose, offset: 0x70, size: 0x8, def value: None
-  ::OVR::OpenVR::__IVRSystem___GetRawZeroPoseToStandingAbsoluteTrackingPose* GetRawZeroPoseToStandingAbsoluteTrackingPose;
-
-  /// @brief Field GetSortedTrackedDeviceIndicesOfClass, offset: 0x78, size: 0x8, def value: None
-  ::OVR::OpenVR::__IVRSystem___GetSortedTrackedDeviceIndicesOfClass* GetSortedTrackedDeviceIndicesOfClass;
-
-  /// @brief Field GetTrackedDeviceActivityLevel, offset: 0x80, size: 0x8, def value: None
-  ::OVR::OpenVR::__IVRSystem___GetTrackedDeviceActivityLevel* GetTrackedDeviceActivityLevel;
-
-  /// @brief Field ApplyTransform, offset: 0x88, size: 0x8, def value: None
-  ::OVR::OpenVR::__IVRSystem___ApplyTransform* ApplyTransform;
-
-  /// @brief Field GetTrackedDeviceIndexForControllerRole, offset: 0x90, size: 0x8, def value: None
-  ::OVR::OpenVR::__IVRSystem___GetTrackedDeviceIndexForControllerRole* GetTrackedDeviceIndexForControllerRole;
-
-  /// @brief Field GetControllerRoleForTrackedDeviceIndex, offset: 0x98, size: 0x8, def value: None
-  ::OVR::OpenVR::__IVRSystem___GetControllerRoleForTrackedDeviceIndex* GetControllerRoleForTrackedDeviceIndex;
-
-  /// @brief Field GetTrackedDeviceClass, offset: 0xa0, size: 0x8, def value: None
-  ::OVR::OpenVR::__IVRSystem___GetTrackedDeviceClass* GetTrackedDeviceClass;
-
-  /// @brief Field IsTrackedDeviceConnected, offset: 0xa8, size: 0x8, def value: None
-  ::OVR::OpenVR::__IVRSystem___IsTrackedDeviceConnected* IsTrackedDeviceConnected;
-
-  /// @brief Field GetBoolTrackedDeviceProperty, offset: 0xb0, size: 0x8, def value: None
-  ::OVR::OpenVR::__IVRSystem___GetBoolTrackedDeviceProperty* GetBoolTrackedDeviceProperty;
-
-  /// @brief Field GetFloatTrackedDeviceProperty, offset: 0xb8, size: 0x8, def value: None
-  ::OVR::OpenVR::__IVRSystem___GetFloatTrackedDeviceProperty* GetFloatTrackedDeviceProperty;
-
-  /// @brief Field GetInt32TrackedDeviceProperty, offset: 0xc0, size: 0x8, def value: None
-  ::OVR::OpenVR::__IVRSystem___GetInt32TrackedDeviceProperty* GetInt32TrackedDeviceProperty;
-
-  /// @brief Field GetUint64TrackedDeviceProperty, offset: 0xc8, size: 0x8, def value: None
-  ::OVR::OpenVR::__IVRSystem___GetUint64TrackedDeviceProperty* GetUint64TrackedDeviceProperty;
-
-  /// @brief Field GetMatrix34TrackedDeviceProperty, offset: 0xd0, size: 0x8, def value: None
-  ::OVR::OpenVR::__IVRSystem___GetMatrix34TrackedDeviceProperty* GetMatrix34TrackedDeviceProperty;
-
-  /// @brief Field GetArrayTrackedDeviceProperty, offset: 0xd8, size: 0x8, def value: None
-  ::OVR::OpenVR::__IVRSystem___GetArrayTrackedDeviceProperty* GetArrayTrackedDeviceProperty;
-
-  /// @brief Field GetStringTrackedDeviceProperty, offset: 0xe0, size: 0x8, def value: None
-  ::OVR::OpenVR::__IVRSystem___GetStringTrackedDeviceProperty* GetStringTrackedDeviceProperty;
-
-  /// @brief Field GetPropErrorNameFromEnum, offset: 0xe8, size: 0x8, def value: None
-  ::OVR::OpenVR::__IVRSystem___GetPropErrorNameFromEnum* GetPropErrorNameFromEnum;
-
-  /// @brief Field PollNextEvent, offset: 0xf0, size: 0x8, def value: None
-  ::OVR::OpenVR::__IVRSystem___PollNextEvent* PollNextEvent;
-
-  /// @brief Field PollNextEventWithPose, offset: 0xf8, size: 0x8, def value: None
-  ::OVR::OpenVR::__IVRSystem___PollNextEventWithPose* PollNextEventWithPose;
-
-  /// @brief Field GetEventTypeNameFromEnum, offset: 0x100, size: 0x8, def value: None
-  ::OVR::OpenVR::__IVRSystem___GetEventTypeNameFromEnum* GetEventTypeNameFromEnum;
-
-  /// @brief Field GetHiddenAreaMesh, offset: 0x108, size: 0x8, def value: None
-  ::OVR::OpenVR::__IVRSystem___GetHiddenAreaMesh* GetHiddenAreaMesh;
-
-  /// @brief Field GetControllerState, offset: 0x110, size: 0x8, def value: None
-  ::OVR::OpenVR::__IVRSystem___GetControllerState* GetControllerState;
-
-  /// @brief Field GetControllerStateWithPose, offset: 0x118, size: 0x8, def value: None
-  ::OVR::OpenVR::__IVRSystem___GetControllerStateWithPose* GetControllerStateWithPose;
-
-  /// @brief Field TriggerHapticPulse, offset: 0x120, size: 0x8, def value: None
-  ::OVR::OpenVR::__IVRSystem___TriggerHapticPulse* TriggerHapticPulse;
-
-  /// @brief Field GetButtonIdNameFromEnum, offset: 0x128, size: 0x8, def value: None
-  ::OVR::OpenVR::__IVRSystem___GetButtonIdNameFromEnum* GetButtonIdNameFromEnum;
-
-  /// @brief Field GetControllerAxisTypeNameFromEnum, offset: 0x130, size: 0x8, def value: None
-  ::OVR::OpenVR::__IVRSystem___GetControllerAxisTypeNameFromEnum* GetControllerAxisTypeNameFromEnum;
-
-  /// @brief Field IsInputAvailable, offset: 0x138, size: 0x8, def value: None
-  ::OVR::OpenVR::__IVRSystem___IsInputAvailable* IsInputAvailable;
-
-  /// @brief Field IsSteamVRDrawingControllers, offset: 0x140, size: 0x8, def value: None
-  ::OVR::OpenVR::__IVRSystem___IsSteamVRDrawingControllers* IsSteamVRDrawingControllers;
-
-  /// @brief Field ShouldApplicationPause, offset: 0x148, size: 0x8, def value: None
-  ::OVR::OpenVR::__IVRSystem___ShouldApplicationPause* ShouldApplicationPause;
-
-  /// @brief Field ShouldApplicationReduceRenderingWork, offset: 0x150, size: 0x8, def value: None
-  ::OVR::OpenVR::__IVRSystem___ShouldApplicationReduceRenderingWork* ShouldApplicationReduceRenderingWork;
-
-  /// @brief Field DriverDebugRequest, offset: 0x158, size: 0x8, def value: None
-  ::OVR::OpenVR::__IVRSystem___DriverDebugRequest* DriverDebugRequest;
-
-  /// @brief Field PerformFirmwareUpdate, offset: 0x160, size: 0x8, def value: None
-  ::OVR::OpenVR::__IVRSystem___PerformFirmwareUpdate* PerformFirmwareUpdate;
-
-  /// @brief Field AcknowledgeQuit_Exiting, offset: 0x168, size: 0x8, def value: None
-  ::OVR::OpenVR::__IVRSystem___AcknowledgeQuit_Exiting* AcknowledgeQuit_Exiting;
-
-  /// @brief Field AcknowledgeQuit_UserPrompt, offset: 0x170, size: 0x8, def value: None
-  ::OVR::OpenVR::__IVRSystem___AcknowledgeQuit_UserPrompt* AcknowledgeQuit_UserPrompt;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x178 };
-
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+// Ctor Parameters [CppParam { name: "GetRecommendedRenderTargetSize", ty: "::OVR::OpenVR::__IVRSystem___GetRecommendedRenderTargetSize*", modifiers: "", def_value: None }, CppParam { name: "GetProjectionMatrix", ty: "::OVR::OpenVR::__IVRSystem___GetProjectionMatrix*", modifiers: "", def_value: None }, CppParam { name: "GetProjectionRaw", ty: "::OVR::OpenVR::__IVRSystem___GetProjectionRaw*", modifiers: "", def_value: None }, CppParam { name: "ComputeDistortion", ty: "::OVR::OpenVR::__IVRSystem___ComputeDistortion*", modifiers: "", def_value: None }, CppParam { name: "GetEyeToHeadTransform", ty: "::OVR::OpenVR::__IVRSystem___GetEyeToHeadTransform*", modifiers: "", def_value: None }, CppParam { name: "GetTimeSinceLastVsync", ty: "::OVR::OpenVR::__IVRSystem___GetTimeSinceLastVsync*", modifiers: "", def_value: None }, CppParam { name: "GetD3D9AdapterIndex", ty: "::OVR::OpenVR::__IVRSystem___GetD3D9AdapterIndex*", modifiers: "", def_value: None }, CppParam { name: "GetDXGIOutputInfo", ty: "::OVR::OpenVR::__IVRSystem___GetDXGIOutputInfo*", modifiers: "", def_value: None }, CppParam { name: "GetOutputDevice", ty: "::OVR::OpenVR::__IVRSystem___GetOutputDevice*", modifiers: "", def_value: None }, CppParam { name: "IsDisplayOnDesktop", ty: "::OVR::OpenVR::__IVRSystem___IsDisplayOnDesktop*", modifiers: "", def_value: None }, CppParam { name: "SetDisplayVisibility", ty: "::OVR::OpenVR::__IVRSystem___SetDisplayVisibility*", modifiers: "", def_value: None }, CppParam { name: "GetDeviceToAbsoluteTrackingPose", ty: "::OVR::OpenVR::__IVRSystem___GetDeviceToAbsoluteTrackingPose*", modifiers: "", def_value: None }, CppParam { name: "ResetSeatedZeroPose", ty: "::OVR::OpenVR::__IVRSystem___ResetSeatedZeroPose*", modifiers: "", def_value: None }, CppParam { name: "GetSeatedZeroPoseToStandingAbsoluteTrackingPose", ty: "::OVR::OpenVR::__IVRSystem___GetSeatedZeroPoseToStandingAbsoluteTrackingPose*", modifiers: "", def_value: None }, CppParam { name: "GetRawZeroPoseToStandingAbsoluteTrackingPose", ty: "::OVR::OpenVR::__IVRSystem___GetRawZeroPoseToStandingAbsoluteTrackingPose*", modifiers: "", def_value: None }, CppParam { name: "GetSortedTrackedDeviceIndicesOfClass", ty: "::OVR::OpenVR::__IVRSystem___GetSortedTrackedDeviceIndicesOfClass*", modifiers: "", def_value: None }, CppParam { name: "GetTrackedDeviceActivityLevel", ty: "::OVR::OpenVR::__IVRSystem___GetTrackedDeviceActivityLevel*", modifiers: "", def_value: None }, CppParam { name: "ApplyTransform", ty: "::OVR::OpenVR::__IVRSystem___ApplyTransform*", modifiers: "", def_value: None }, CppParam { name: "GetTrackedDeviceIndexForControllerRole", ty: "::OVR::OpenVR::__IVRSystem___GetTrackedDeviceIndexForControllerRole*", modifiers: "", def_value: None }, CppParam { name: "GetControllerRoleForTrackedDeviceIndex", ty: "::OVR::OpenVR::__IVRSystem___GetControllerRoleForTrackedDeviceIndex*", modifiers: "", def_value: None }, CppParam { name: "GetTrackedDeviceClass", ty: "::OVR::OpenVR::__IVRSystem___GetTrackedDeviceClass*", modifiers: "", def_value: None }, CppParam { name: "IsTrackedDeviceConnected", ty: "::OVR::OpenVR::__IVRSystem___IsTrackedDeviceConnected*", modifiers: "", def_value: None }, CppParam { name: "GetBoolTrackedDeviceProperty", ty: "::OVR::OpenVR::__IVRSystem___GetBoolTrackedDeviceProperty*", modifiers: "", def_value: None }, CppParam { name: "GetFloatTrackedDeviceProperty", ty: "::OVR::OpenVR::__IVRSystem___GetFloatTrackedDeviceProperty*", modifiers: "", def_value: None }, CppParam { name: "GetInt32TrackedDeviceProperty", ty: "::OVR::OpenVR::__IVRSystem___GetInt32TrackedDeviceProperty*", modifiers: "", def_value: None }, CppParam { name: "GetUint64TrackedDeviceProperty", ty: "::OVR::OpenVR::__IVRSystem___GetUint64TrackedDeviceProperty*", modifiers: "", def_value: None }, CppParam { name: "GetMatrix34TrackedDeviceProperty", ty: "::OVR::OpenVR::__IVRSystem___GetMatrix34TrackedDeviceProperty*", modifiers: "", def_value: None }, CppParam { name: "GetArrayTrackedDeviceProperty", ty: "::OVR::OpenVR::__IVRSystem___GetArrayTrackedDeviceProperty*", modifiers: "", def_value: None }, CppParam { name: "GetStringTrackedDeviceProperty", ty: "::OVR::OpenVR::__IVRSystem___GetStringTrackedDeviceProperty*", modifiers: "", def_value: None }, CppParam { name: "GetPropErrorNameFromEnum", ty: "::OVR::OpenVR::__IVRSystem___GetPropErrorNameFromEnum*", modifiers: "", def_value: None }, CppParam { name: "PollNextEvent", ty: "::OVR::OpenVR::__IVRSystem___PollNextEvent*", modifiers: "", def_value: None }, CppParam { name: "PollNextEventWithPose", ty: "::OVR::OpenVR::__IVRSystem___PollNextEventWithPose*", modifiers: "", def_value: None }, CppParam { name: "GetEventTypeNameFromEnum", ty: "::OVR::OpenVR::__IVRSystem___GetEventTypeNameFromEnum*", modifiers: "", def_value: None }, CppParam { name: "GetHiddenAreaMesh", ty: "::OVR::OpenVR::__IVRSystem___GetHiddenAreaMesh*", modifiers: "", def_value: None }, CppParam { name: "GetControllerState", ty: "::OVR::OpenVR::__IVRSystem___GetControllerState*", modifiers: "", def_value: None }, CppParam { name: "GetControllerStateWithPose", ty: "::OVR::OpenVR::__IVRSystem___GetControllerStateWithPose*", modifiers: "", def_value: None }, CppParam { name: "TriggerHapticPulse", ty: "::OVR::OpenVR::__IVRSystem___TriggerHapticPulse*", modifiers: "", def_value: None }, CppParam { name: "GetButtonIdNameFromEnum", ty: "::OVR::OpenVR::__IVRSystem___GetButtonIdNameFromEnum*", modifiers: "", def_value: None }, CppParam { name: "GetControllerAxisTypeNameFromEnum", ty: "::OVR::OpenVR::__IVRSystem___GetControllerAxisTypeNameFromEnum*", modifiers: "", def_value: None }, CppParam { name: "IsInputAvailable", ty: "::OVR::OpenVR::__IVRSystem___IsInputAvailable*", modifiers: "", def_value: None }, CppParam { name: "IsSteamVRDrawingControllers", ty: "::OVR::OpenVR::__IVRSystem___IsSteamVRDrawingControllers*", modifiers: "", def_value: None }, CppParam { name: "ShouldApplicationPause", ty: "::OVR::OpenVR::__IVRSystem___ShouldApplicationPause*", modifiers: "", def_value: None }, CppParam { name: "ShouldApplicationReduceRenderingWork", ty: "::OVR::OpenVR::__IVRSystem___ShouldApplicationReduceRenderingWork*", modifiers: "", def_value: None }, CppParam { name: "DriverDebugRequest", ty: "::OVR::OpenVR::__IVRSystem___DriverDebugRequest*", modifiers: "", def_value: None }, CppParam { name: "PerformFirmwareUpdate", ty: "::OVR::OpenVR::__IVRSystem___PerformFirmwareUpdate*", modifiers: "", def_value: None }, CppParam { name: "AcknowledgeQuit_Exiting", ty: "::OVR::OpenVR::__IVRSystem___AcknowledgeQuit_Exiting*", modifiers: "", def_value: None }, CppParam { name: "AcknowledgeQuit_UserPrompt", ty: "::OVR::OpenVR::__IVRSystem___AcknowledgeQuit_UserPrompt*", modifiers: "", def_value: None }]
+constexpr IVRSystem(::OVR::OpenVR::__IVRSystem___GetRecommendedRenderTargetSize*  GetRecommendedRenderTargetSize, ::OVR::OpenVR::__IVRSystem___GetProjectionMatrix*  GetProjectionMatrix, ::OVR::OpenVR::__IVRSystem___GetProjectionRaw*  GetProjectionRaw, ::OVR::OpenVR::__IVRSystem___ComputeDistortion*  ComputeDistortion, ::OVR::OpenVR::__IVRSystem___GetEyeToHeadTransform*  GetEyeToHeadTransform, ::OVR::OpenVR::__IVRSystem___GetTimeSinceLastVsync*  GetTimeSinceLastVsync, ::OVR::OpenVR::__IVRSystem___GetD3D9AdapterIndex*  GetD3D9AdapterIndex, ::OVR::OpenVR::__IVRSystem___GetDXGIOutputInfo*  GetDXGIOutputInfo, ::OVR::OpenVR::__IVRSystem___GetOutputDevice*  GetOutputDevice, ::OVR::OpenVR::__IVRSystem___IsDisplayOnDesktop*  IsDisplayOnDesktop, ::OVR::OpenVR::__IVRSystem___SetDisplayVisibility*  SetDisplayVisibility, ::OVR::OpenVR::__IVRSystem___GetDeviceToAbsoluteTrackingPose*  GetDeviceToAbsoluteTrackingPose, ::OVR::OpenVR::__IVRSystem___ResetSeatedZeroPose*  ResetSeatedZeroPose, ::OVR::OpenVR::__IVRSystem___GetSeatedZeroPoseToStandingAbsoluteTrackingPose*  GetSeatedZeroPoseToStandingAbsoluteTrackingPose, ::OVR::OpenVR::__IVRSystem___GetRawZeroPoseToStandingAbsoluteTrackingPose*  GetRawZeroPoseToStandingAbsoluteTrackingPose, ::OVR::OpenVR::__IVRSystem___GetSortedTrackedDeviceIndicesOfClass*  GetSortedTrackedDeviceIndicesOfClass, ::OVR::OpenVR::__IVRSystem___GetTrackedDeviceActivityLevel*  GetTrackedDeviceActivityLevel, ::OVR::OpenVR::__IVRSystem___ApplyTransform*  ApplyTransform, ::OVR::OpenVR::__IVRSystem___GetTrackedDeviceIndexForControllerRole*  GetTrackedDeviceIndexForControllerRole, ::OVR::OpenVR::__IVRSystem___GetControllerRoleForTrackedDeviceIndex*  GetControllerRoleForTrackedDeviceIndex, ::OVR::OpenVR::__IVRSystem___GetTrackedDeviceClass*  GetTrackedDeviceClass, ::OVR::OpenVR::__IVRSystem___IsTrackedDeviceConnected*  IsTrackedDeviceConnected, ::OVR::OpenVR::__IVRSystem___GetBoolTrackedDeviceProperty*  GetBoolTrackedDeviceProperty, ::OVR::OpenVR::__IVRSystem___GetFloatTrackedDeviceProperty*  GetFloatTrackedDeviceProperty, ::OVR::OpenVR::__IVRSystem___GetInt32TrackedDeviceProperty*  GetInt32TrackedDeviceProperty, ::OVR::OpenVR::__IVRSystem___GetUint64TrackedDeviceProperty*  GetUint64TrackedDeviceProperty, ::OVR::OpenVR::__IVRSystem___GetMatrix34TrackedDeviceProperty*  GetMatrix34TrackedDeviceProperty, ::OVR::OpenVR::__IVRSystem___GetArrayTrackedDeviceProperty*  GetArrayTrackedDeviceProperty, ::OVR::OpenVR::__IVRSystem___GetStringTrackedDeviceProperty*  GetStringTrackedDeviceProperty, ::OVR::OpenVR::__IVRSystem___GetPropErrorNameFromEnum*  GetPropErrorNameFromEnum, ::OVR::OpenVR::__IVRSystem___PollNextEvent*  PollNextEvent, ::OVR::OpenVR::__IVRSystem___PollNextEventWithPose*  PollNextEventWithPose, ::OVR::OpenVR::__IVRSystem___GetEventTypeNameFromEnum*  GetEventTypeNameFromEnum, ::OVR::OpenVR::__IVRSystem___GetHiddenAreaMesh*  GetHiddenAreaMesh, ::OVR::OpenVR::__IVRSystem___GetControllerState*  GetControllerState, ::OVR::OpenVR::__IVRSystem___GetControllerStateWithPose*  GetControllerStateWithPose, ::OVR::OpenVR::__IVRSystem___TriggerHapticPulse*  TriggerHapticPulse, ::OVR::OpenVR::__IVRSystem___GetButtonIdNameFromEnum*  GetButtonIdNameFromEnum, ::OVR::OpenVR::__IVRSystem___GetControllerAxisTypeNameFromEnum*  GetControllerAxisTypeNameFromEnum, ::OVR::OpenVR::__IVRSystem___IsInputAvailable*  IsInputAvailable, ::OVR::OpenVR::__IVRSystem___IsSteamVRDrawingControllers*  IsSteamVRDrawingControllers, ::OVR::OpenVR::__IVRSystem___ShouldApplicationPause*  ShouldApplicationPause, ::OVR::OpenVR::__IVRSystem___ShouldApplicationReduceRenderingWork*  ShouldApplicationReduceRenderingWork, ::OVR::OpenVR::__IVRSystem___DriverDebugRequest*  DriverDebugRequest, ::OVR::OpenVR::__IVRSystem___PerformFirmwareUpdate*  PerformFirmwareUpdate, ::OVR::OpenVR::__IVRSystem___AcknowledgeQuit_Exiting*  AcknowledgeQuit_Exiting, ::OVR::OpenVR::__IVRSystem___AcknowledgeQuit_UserPrompt*  AcknowledgeQuit_UserPrompt) noexcept;
+
+/// @brief Field GetRecommendedRenderTargetSize, offset: 0x0, size: 0x8, def value: None
+ ::OVR::OpenVR::__IVRSystem___GetRecommendedRenderTargetSize*  GetRecommendedRenderTargetSize;
+
+/// @brief Field GetProjectionMatrix, offset: 0x8, size: 0x8, def value: None
+ ::OVR::OpenVR::__IVRSystem___GetProjectionMatrix*  GetProjectionMatrix;
+
+/// @brief Field GetProjectionRaw, offset: 0x10, size: 0x8, def value: None
+ ::OVR::OpenVR::__IVRSystem___GetProjectionRaw*  GetProjectionRaw;
+
+/// @brief Field ComputeDistortion, offset: 0x18, size: 0x8, def value: None
+ ::OVR::OpenVR::__IVRSystem___ComputeDistortion*  ComputeDistortion;
+
+/// @brief Field GetEyeToHeadTransform, offset: 0x20, size: 0x8, def value: None
+ ::OVR::OpenVR::__IVRSystem___GetEyeToHeadTransform*  GetEyeToHeadTransform;
+
+/// @brief Field GetTimeSinceLastVsync, offset: 0x28, size: 0x8, def value: None
+ ::OVR::OpenVR::__IVRSystem___GetTimeSinceLastVsync*  GetTimeSinceLastVsync;
+
+/// @brief Field GetD3D9AdapterIndex, offset: 0x30, size: 0x8, def value: None
+ ::OVR::OpenVR::__IVRSystem___GetD3D9AdapterIndex*  GetD3D9AdapterIndex;
+
+/// @brief Field GetDXGIOutputInfo, offset: 0x38, size: 0x8, def value: None
+ ::OVR::OpenVR::__IVRSystem___GetDXGIOutputInfo*  GetDXGIOutputInfo;
+
+/// @brief Field GetOutputDevice, offset: 0x40, size: 0x8, def value: None
+ ::OVR::OpenVR::__IVRSystem___GetOutputDevice*  GetOutputDevice;
+
+/// @brief Field IsDisplayOnDesktop, offset: 0x48, size: 0x8, def value: None
+ ::OVR::OpenVR::__IVRSystem___IsDisplayOnDesktop*  IsDisplayOnDesktop;
+
+/// @brief Field SetDisplayVisibility, offset: 0x50, size: 0x8, def value: None
+ ::OVR::OpenVR::__IVRSystem___SetDisplayVisibility*  SetDisplayVisibility;
+
+/// @brief Field GetDeviceToAbsoluteTrackingPose, offset: 0x58, size: 0x8, def value: None
+ ::OVR::OpenVR::__IVRSystem___GetDeviceToAbsoluteTrackingPose*  GetDeviceToAbsoluteTrackingPose;
+
+/// @brief Field ResetSeatedZeroPose, offset: 0x60, size: 0x8, def value: None
+ ::OVR::OpenVR::__IVRSystem___ResetSeatedZeroPose*  ResetSeatedZeroPose;
+
+/// @brief Field GetSeatedZeroPoseToStandingAbsoluteTrackingPose, offset: 0x68, size: 0x8, def value: None
+ ::OVR::OpenVR::__IVRSystem___GetSeatedZeroPoseToStandingAbsoluteTrackingPose*  GetSeatedZeroPoseToStandingAbsoluteTrackingPose;
+
+/// @brief Field GetRawZeroPoseToStandingAbsoluteTrackingPose, offset: 0x70, size: 0x8, def value: None
+ ::OVR::OpenVR::__IVRSystem___GetRawZeroPoseToStandingAbsoluteTrackingPose*  GetRawZeroPoseToStandingAbsoluteTrackingPose;
+
+/// @brief Field GetSortedTrackedDeviceIndicesOfClass, offset: 0x78, size: 0x8, def value: None
+ ::OVR::OpenVR::__IVRSystem___GetSortedTrackedDeviceIndicesOfClass*  GetSortedTrackedDeviceIndicesOfClass;
+
+/// @brief Field GetTrackedDeviceActivityLevel, offset: 0x80, size: 0x8, def value: None
+ ::OVR::OpenVR::__IVRSystem___GetTrackedDeviceActivityLevel*  GetTrackedDeviceActivityLevel;
+
+/// @brief Field ApplyTransform, offset: 0x88, size: 0x8, def value: None
+ ::OVR::OpenVR::__IVRSystem___ApplyTransform*  ApplyTransform;
+
+/// @brief Field GetTrackedDeviceIndexForControllerRole, offset: 0x90, size: 0x8, def value: None
+ ::OVR::OpenVR::__IVRSystem___GetTrackedDeviceIndexForControllerRole*  GetTrackedDeviceIndexForControllerRole;
+
+/// @brief Field GetControllerRoleForTrackedDeviceIndex, offset: 0x98, size: 0x8, def value: None
+ ::OVR::OpenVR::__IVRSystem___GetControllerRoleForTrackedDeviceIndex*  GetControllerRoleForTrackedDeviceIndex;
+
+/// @brief Field GetTrackedDeviceClass, offset: 0xa0, size: 0x8, def value: None
+ ::OVR::OpenVR::__IVRSystem___GetTrackedDeviceClass*  GetTrackedDeviceClass;
+
+/// @brief Field IsTrackedDeviceConnected, offset: 0xa8, size: 0x8, def value: None
+ ::OVR::OpenVR::__IVRSystem___IsTrackedDeviceConnected*  IsTrackedDeviceConnected;
+
+/// @brief Field GetBoolTrackedDeviceProperty, offset: 0xb0, size: 0x8, def value: None
+ ::OVR::OpenVR::__IVRSystem___GetBoolTrackedDeviceProperty*  GetBoolTrackedDeviceProperty;
+
+/// @brief Field GetFloatTrackedDeviceProperty, offset: 0xb8, size: 0x8, def value: None
+ ::OVR::OpenVR::__IVRSystem___GetFloatTrackedDeviceProperty*  GetFloatTrackedDeviceProperty;
+
+/// @brief Field GetInt32TrackedDeviceProperty, offset: 0xc0, size: 0x8, def value: None
+ ::OVR::OpenVR::__IVRSystem___GetInt32TrackedDeviceProperty*  GetInt32TrackedDeviceProperty;
+
+/// @brief Field GetUint64TrackedDeviceProperty, offset: 0xc8, size: 0x8, def value: None
+ ::OVR::OpenVR::__IVRSystem___GetUint64TrackedDeviceProperty*  GetUint64TrackedDeviceProperty;
+
+/// @brief Field GetMatrix34TrackedDeviceProperty, offset: 0xd0, size: 0x8, def value: None
+ ::OVR::OpenVR::__IVRSystem___GetMatrix34TrackedDeviceProperty*  GetMatrix34TrackedDeviceProperty;
+
+/// @brief Field GetArrayTrackedDeviceProperty, offset: 0xd8, size: 0x8, def value: None
+ ::OVR::OpenVR::__IVRSystem___GetArrayTrackedDeviceProperty*  GetArrayTrackedDeviceProperty;
+
+/// @brief Field GetStringTrackedDeviceProperty, offset: 0xe0, size: 0x8, def value: None
+ ::OVR::OpenVR::__IVRSystem___GetStringTrackedDeviceProperty*  GetStringTrackedDeviceProperty;
+
+/// @brief Field GetPropErrorNameFromEnum, offset: 0xe8, size: 0x8, def value: None
+ ::OVR::OpenVR::__IVRSystem___GetPropErrorNameFromEnum*  GetPropErrorNameFromEnum;
+
+/// @brief Field PollNextEvent, offset: 0xf0, size: 0x8, def value: None
+ ::OVR::OpenVR::__IVRSystem___PollNextEvent*  PollNextEvent;
+
+/// @brief Field PollNextEventWithPose, offset: 0xf8, size: 0x8, def value: None
+ ::OVR::OpenVR::__IVRSystem___PollNextEventWithPose*  PollNextEventWithPose;
+
+/// @brief Field GetEventTypeNameFromEnum, offset: 0x100, size: 0x8, def value: None
+ ::OVR::OpenVR::__IVRSystem___GetEventTypeNameFromEnum*  GetEventTypeNameFromEnum;
+
+/// @brief Field GetHiddenAreaMesh, offset: 0x108, size: 0x8, def value: None
+ ::OVR::OpenVR::__IVRSystem___GetHiddenAreaMesh*  GetHiddenAreaMesh;
+
+/// @brief Field GetControllerState, offset: 0x110, size: 0x8, def value: None
+ ::OVR::OpenVR::__IVRSystem___GetControllerState*  GetControllerState;
+
+/// @brief Field GetControllerStateWithPose, offset: 0x118, size: 0x8, def value: None
+ ::OVR::OpenVR::__IVRSystem___GetControllerStateWithPose*  GetControllerStateWithPose;
+
+/// @brief Field TriggerHapticPulse, offset: 0x120, size: 0x8, def value: None
+ ::OVR::OpenVR::__IVRSystem___TriggerHapticPulse*  TriggerHapticPulse;
+
+/// @brief Field GetButtonIdNameFromEnum, offset: 0x128, size: 0x8, def value: None
+ ::OVR::OpenVR::__IVRSystem___GetButtonIdNameFromEnum*  GetButtonIdNameFromEnum;
+
+/// @brief Field GetControllerAxisTypeNameFromEnum, offset: 0x130, size: 0x8, def value: None
+ ::OVR::OpenVR::__IVRSystem___GetControllerAxisTypeNameFromEnum*  GetControllerAxisTypeNameFromEnum;
+
+/// @brief Field IsInputAvailable, offset: 0x138, size: 0x8, def value: None
+ ::OVR::OpenVR::__IVRSystem___IsInputAvailable*  IsInputAvailable;
+
+/// @brief Field IsSteamVRDrawingControllers, offset: 0x140, size: 0x8, def value: None
+ ::OVR::OpenVR::__IVRSystem___IsSteamVRDrawingControllers*  IsSteamVRDrawingControllers;
+
+/// @brief Field ShouldApplicationPause, offset: 0x148, size: 0x8, def value: None
+ ::OVR::OpenVR::__IVRSystem___ShouldApplicationPause*  ShouldApplicationPause;
+
+/// @brief Field ShouldApplicationReduceRenderingWork, offset: 0x150, size: 0x8, def value: None
+ ::OVR::OpenVR::__IVRSystem___ShouldApplicationReduceRenderingWork*  ShouldApplicationReduceRenderingWork;
+
+/// @brief Field DriverDebugRequest, offset: 0x158, size: 0x8, def value: None
+ ::OVR::OpenVR::__IVRSystem___DriverDebugRequest*  DriverDebugRequest;
+
+/// @brief Field PerformFirmwareUpdate, offset: 0x160, size: 0x8, def value: None
+ ::OVR::OpenVR::__IVRSystem___PerformFirmwareUpdate*  PerformFirmwareUpdate;
+
+/// @brief Field AcknowledgeQuit_Exiting, offset: 0x168, size: 0x8, def value: None
+ ::OVR::OpenVR::__IVRSystem___AcknowledgeQuit_Exiting*  AcknowledgeQuit_Exiting;
+
+/// @brief Field AcknowledgeQuit_UserPrompt, offset: 0x170, size: 0x8, def value: None
+ ::OVR::OpenVR::__IVRSystem___AcknowledgeQuit_UserPrompt*  AcknowledgeQuit_UserPrompt;
+
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x178};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::IVRSystem, 0x178>, "Size mismatch!");
@@ -2835,7 +2747,7 @@ static_assert(offsetof(::OVR::OpenVR::IVRSystem, AcknowledgeQuit_Exiting) == 0x1
 
 static_assert(offsetof(::OVR::OpenVR::IVRSystem, AcknowledgeQuit_UserPrompt) == 0x170, "Offset mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 NEED_NO_BOX(::OVR::OpenVR::__IVRSystem___AcknowledgeQuit_Exiting);
 DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::__IVRSystem___AcknowledgeQuit_Exiting*, "OVR.OpenVR", "IVRSystem/_AcknowledgeQuit_Exiting");
 NEED_NO_BOX(::OVR::OpenVR::__IVRSystem___AcknowledgeQuit_UserPrompt);

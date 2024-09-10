@@ -16,43 +16,43 @@ class ConfigSerializer;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::ConfigSerializer);
 // Type: ::ConfigSerializer
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::ConfigSerializer*
 class CORDL_TYPE ConfigSerializer : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method LoadConfig, addr 0x2501dc8, size 0x560, virtual false, abstract: false, final false
-  static inline bool LoadConfig(::System::Object* config, ::StringW filePath);
+// Declarations
+/// @brief Method LoadConfig, addr 0x394074c, size 0x560, virtual false, abstract: false, final false
+static inline bool LoadConfig(::System::Object*  config, ::StringW  filePath) ;
 
-  static inline ::GlobalNamespace::ConfigSerializer* New_ctor();
+static inline ::GlobalNamespace::ConfigSerializer* New_ctor() ;
 
-  /// @brief Method SaveConfig, addr 0x2501998, size 0x430, virtual false, abstract: false, final false
-  static inline void SaveConfig(::System::Object* config, ::StringW filePath);
+/// @brief Method SaveConfig, addr 0x3940318, size 0x434, virtual false, abstract: false, final false
+static inline void SaveConfig(::System::Object*  config, ::StringW  filePath) ;
 
-  /// @brief Method .ctor, addr 0x2502328, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x3940cac, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ConfigSerializer();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ConfigSerializer() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ConfigSerializer", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ConfigSerializer(ConfigSerializer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ConfigSerializer", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ConfigSerializer(ConfigSerializer const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ConfigSerializer", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ConfigSerializer(ConfigSerializer && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "ConfigSerializer", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ConfigSerializer(ConfigSerializer const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ConfigSerializer, 0x10>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::ConfigSerializer);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ConfigSerializer*, "", "ConfigSerializer");

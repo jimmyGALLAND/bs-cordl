@@ -18,49 +18,49 @@ class OculusRichPresencePlatformHandler;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::OculusRichPresencePlatformHandler);
 // Type: ::OculusRichPresencePlatformHandler
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::OculusRichPresencePlatformHandler*
 class CORDL_TYPE OculusRichPresencePlatformHandler : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Convert operator to "::GlobalNamespace::IRichPresencePlatformHandler"
-  constexpr operator ::GlobalNamespace::IRichPresencePlatformHandler*() noexcept;
+// Declarations
+/// @brief Convert operator to "::GlobalNamespace::IRichPresencePlatformHandler"
+constexpr operator  ::GlobalNamespace::IRichPresencePlatformHandler*() noexcept;
 
-  /// @brief Method Clear, addr 0x26c3c08, size 0x9c, virtual true, abstract: false, final true
-  inline void Clear();
+/// @brief Method Clear, addr 0x3a9ff68, size 0x9c, virtual true, abstract: false, final true
+inline void Clear() ;
 
-  static inline ::GlobalNamespace::OculusRichPresencePlatformHandler* New_ctor();
+static inline ::GlobalNamespace::OculusRichPresencePlatformHandler* New_ctor() ;
 
-  /// @brief Method SetPresence, addr 0x26c3900, size 0x308, virtual true, abstract: false, final true
-  inline void SetPresence(::GlobalNamespace::IRichPresenceData* richPresenceData);
+/// @brief Method SetPresence, addr 0x3a9fc60, size 0x308, virtual true, abstract: false, final true
+inline void SetPresence(::GlobalNamespace::IRichPresenceData*  richPresenceData) ;
 
-  /// @brief Method .ctor, addr 0x26c3ca4, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x3aa0004, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Convert to "::GlobalNamespace::IRichPresencePlatformHandler"
-  constexpr ::GlobalNamespace::IRichPresencePlatformHandler* i___GlobalNamespace__IRichPresencePlatformHandler() noexcept;
+/// @brief Convert to "::GlobalNamespace::IRichPresencePlatformHandler"
+constexpr ::GlobalNamespace::IRichPresencePlatformHandler* i___GlobalNamespace__IRichPresencePlatformHandler() noexcept;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr OculusRichPresencePlatformHandler();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr OculusRichPresencePlatformHandler() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "OculusRichPresencePlatformHandler", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  OculusRichPresencePlatformHandler(OculusRichPresencePlatformHandler&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "OculusRichPresencePlatformHandler", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  OculusRichPresencePlatformHandler(OculusRichPresencePlatformHandler const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "OculusRichPresencePlatformHandler", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+OculusRichPresencePlatformHandler(OculusRichPresencePlatformHandler && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "OculusRichPresencePlatformHandler", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+OculusRichPresencePlatformHandler(OculusRichPresencePlatformHandler const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::OculusRichPresencePlatformHandler, 0x10>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::OculusRichPresencePlatformHandler);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::OculusRichPresencePlatformHandler*, "", "OculusRichPresencePlatformHandler");

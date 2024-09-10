@@ -14,27 +14,27 @@ class INoteDebrisDidFinishEvent;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::INoteDebrisDidFinishEvent);
 // Type: ::INoteDebrisDidFinishEvent
-// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 0, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::INoteDebrisDidFinishEvent*
 class CORDL_TYPE INoteDebrisDidFinishEvent {
 public:
-  // Declarations
-  /// @brief Method HandleNoteDebrisDidFinish, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void HandleNoteDebrisDidFinish(::GlobalNamespace::NoteDebris* noteDebris);
+// Declarations
+/// @brief Method HandleNoteDebrisDidFinish, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+inline void HandleNoteDebrisDidFinish(::GlobalNamespace::NoteDebris*  noteDebris) ;
 
-  // Ctor Parameters [CppParam { name: "", ty: "INoteDebrisDidFinishEvent", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  INoteDebrisDidFinishEvent(INoteDebrisDidFinishEvent&&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "INoteDebrisDidFinishEvent", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+INoteDebrisDidFinishEvent(INoteDebrisDidFinishEvent && ) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "INoteDebrisDidFinishEvent", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  INoteDebrisDidFinishEvent(INoteDebrisDidFinishEvent const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "INoteDebrisDidFinishEvent", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+INoteDebrisDidFinishEvent(INoteDebrisDidFinishEvent const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::INoteDebrisDidFinishEvent);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::INoteDebrisDidFinishEvent*, "", "INoteDebrisDidFinishEvent");

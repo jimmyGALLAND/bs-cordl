@@ -25,79 +25,79 @@ class AceEnumerator;
 // Write type traits
 MARK_REF_PTR_T(::System::Security::AccessControl::AceEnumerator);
 // Type: System.Security.AccessControl::AceEnumerator
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::AccessControl {
 // Is value type: false
 // CS Name: ::System.Security.AccessControl::AceEnumerator*
 class CORDL_TYPE AceEnumerator : public ::System::Object {
 public:
-  // Declarations
-  __declspec(property(get = get_Current))::System::Security::AccessControl::GenericAce* Current;
+// Declarations
+ __declspec(property(get=get_Current)) ::System::Security::AccessControl::GenericAce*  Current;
 
-  __declspec(property(get = System_Collections_IEnumerator_get_Current))::System::Object* System_Collections_IEnumerator_Current;
+ __declspec(property(get=System_Collections_IEnumerator_get_Current)) ::System::Object*  System_Collections_IEnumerator_Current;
 
-  /// @brief Field current, offset 0x18, size 0x4
-  __declspec(property(get = __cordl_internal_get_current, put = __cordl_internal_set_current)) int32_t current;
+/// @brief Field current, offset 0x18, size 0x4 
+ __declspec(property(get=__cordl_internal_get_current, put=__cordl_internal_set_current)) int32_t  current;
 
-  /// @brief Field owner, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_owner, put = __cordl_internal_set_owner))::System::Security::AccessControl::GenericAcl* owner;
+/// @brief Field owner, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_owner, put=__cordl_internal_set_owner)) ::System::Security::AccessControl::GenericAcl*  owner;
 
-  /// @brief Convert operator to "::System::Collections::IEnumerator"
-  constexpr operator ::System::Collections::IEnumerator*() noexcept;
+/// @brief Convert operator to "::System::Collections::IEnumerator"
+constexpr operator  ::System::Collections::IEnumerator*() noexcept;
 
-  /// @brief Method MoveNext, addr 0x282e720, size 0x58, virtual true, abstract: false, final true
-  inline bool MoveNext();
+/// @brief Method MoveNext, addr 0x3c32164, size 0x54, virtual true, abstract: false, final true
+inline bool MoveNext() ;
 
-  static inline ::System::Security::AccessControl::AceEnumerator* New_ctor(::System::Security::AccessControl::GenericAcl* owner);
+static inline ::System::Security::AccessControl::AceEnumerator* New_ctor(::System::Security::AccessControl::GenericAcl*  owner) ;
 
-  /// @brief Method Reset, addr 0x282e778, size 0xc, virtual true, abstract: false, final true
-  inline void Reset();
+/// @brief Method Reset, addr 0x3c321b8, size 0xc, virtual true, abstract: false, final true
+inline void Reset() ;
 
-  /// @brief Method System.Collections.IEnumerator.get_Current, addr 0x282e71c, size 0x4, virtual true, abstract: false, final true
-  inline ::System::Object* System_Collections_IEnumerator_get_Current();
+/// @brief Method System.Collections.IEnumerator.get_Current, addr 0x3c32160, size 0x4, virtual true, abstract: false, final true
+inline ::System::Object* System_Collections_IEnumerator_get_Current() ;
 
-  constexpr int32_t const& __cordl_internal_get_current() const;
+constexpr int32_t const& __cordl_internal_get_current() const;
 
-  constexpr int32_t& __cordl_internal_get_current();
+constexpr int32_t& __cordl_internal_get_current() ;
 
-  constexpr ::System::Security::AccessControl::GenericAcl*& __cordl_internal_get_owner();
+constexpr ::System::Security::AccessControl::GenericAcl*& __cordl_internal_get_owner() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::AccessControl::GenericAcl*> const& __cordl_internal_get_owner() const;
+constexpr ::cordl_internals::to_const_pointer<::System::Security::AccessControl::GenericAcl*> const& __cordl_internal_get_owner() const;
 
-  constexpr void __cordl_internal_set_current(int32_t value);
+constexpr void __cordl_internal_set_current(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_owner(::System::Security::AccessControl::GenericAcl* value);
+constexpr void __cordl_internal_set_owner(::System::Security::AccessControl::GenericAcl*  value) ;
 
-  /// @brief Method .ctor, addr 0x282e6b8, size 0x30, virtual false, abstract: false, final false
-  inline void _ctor(::System::Security::AccessControl::GenericAcl* owner);
+/// @brief Method .ctor, addr 0x3c320fc, size 0x30, virtual false, abstract: false, final false
+inline void _ctor(::System::Security::AccessControl::GenericAcl*  owner) ;
 
-  /// @brief Method get_Current, addr 0x282e6e8, size 0x34, virtual false, abstract: false, final false
-  inline ::System::Security::AccessControl::GenericAce* get_Current();
+/// @brief Method get_Current, addr 0x3c3212c, size 0x34, virtual false, abstract: false, final false
+inline ::System::Security::AccessControl::GenericAce* get_Current() ;
 
-  /// @brief Convert to "::System::Collections::IEnumerator"
-  constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
+/// @brief Convert to "::System::Collections::IEnumerator"
+constexpr ::System::Collections::IEnumerator* i___System__Collections__IEnumerator() noexcept;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AceEnumerator();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr AceEnumerator() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "AceEnumerator", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  AceEnumerator(AceEnumerator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "AceEnumerator", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  AceEnumerator(AceEnumerator const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "AceEnumerator", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+AceEnumerator(AceEnumerator && ) = delete;
 
-  /// @brief Field owner, offset: 0x10, size: 0x8, def value: None
-  ::System::Security::AccessControl::GenericAcl* ___owner;
+// Ctor Parameters [CppParam { name: "", ty: "AceEnumerator", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+AceEnumerator(AceEnumerator const& ) = delete;
 
-  /// @brief Field current, offset: 0x18, size: 0x4, def value: None
-  int32_t ___current;
+/// @brief Field owner, offset: 0x10, size: 0x8, def value: None
+ ::System::Security::AccessControl::GenericAcl*  ___owner;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field current, offset: 0x18, size: 0x4, def value: None
+ int32_t  ___current;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Security::AccessControl::AceEnumerator, 0x20>, "Size mismatch!");
@@ -106,6 +106,6 @@ static_assert(offsetof(::System::Security::AccessControl::AceEnumerator, ___owne
 
 static_assert(offsetof(::System::Security::AccessControl::AceEnumerator, ___current) == 0x18, "Offset mismatch!");
 
-} // namespace System::Security::AccessControl
+} // namespace end def System::Security::AccessControl
 NEED_NO_BOX(::System::Security::AccessControl::AceEnumerator);
 DEFINE_IL2CPP_ARG_TYPE(::System::Security::AccessControl::AceEnumerator*, "System.Security.AccessControl", "AceEnumerator");

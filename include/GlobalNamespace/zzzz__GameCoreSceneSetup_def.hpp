@@ -6,14 +6,14 @@ CORDL_MODULE_INIT
 #include "Zenject/zzzz__MonoInstaller_def.hpp"
 #include <cmath>
 CORDL_MODULE_EXPORT(GameCoreSceneSetup)
-namespace BeatSaber::GameSettings {
-class MainSettingsHandler;
-}
 namespace GlobalNamespace {
 class BloomFogSO;
 }
 namespace GlobalNamespace {
 class ScreenCaptureAfterDelay;
+}
+namespace GlobalNamespace {
+class SettingsManager;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -22,89 +22,88 @@ class GameCoreSceneSetup;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::GameCoreSceneSetup);
 // Type: ::GameCoreSceneSetup
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::GameCoreSceneSetup*
 class CORDL_TYPE GameCoreSceneSetup : public ::Zenject::MonoInstaller {
 public:
-  // Declarations
-  /// @brief Field _bloomFog, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get__bloomFog, put = __cordl_internal_set__bloomFog))::UnityW<::GlobalNamespace::BloomFogSO> _bloomFog;
+// Declarations
+/// @brief Field _bloomFog, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get__bloomFog, put=__cordl_internal_set__bloomFog)) ::UnityW<::GlobalNamespace::BloomFogSO>  _bloomFog;
 
-  /// @brief Field _mainSettingsHandler, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__mainSettingsHandler, put = __cordl_internal_set__mainSettingsHandler))::BeatSaber::GameSettings::MainSettingsHandler* _mainSettingsHandler;
+/// @brief Field _screenCaptureAfterDelayPrefab, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get__screenCaptureAfterDelayPrefab, put=__cordl_internal_set__screenCaptureAfterDelayPrefab)) ::UnityW<::GlobalNamespace::ScreenCaptureAfterDelay>  _screenCaptureAfterDelayPrefab;
 
-  /// @brief Field _screenCaptureAfterDelayPrefab, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__screenCaptureAfterDelayPrefab,
-                      put = __cordl_internal_set__screenCaptureAfterDelayPrefab))::UnityW<::GlobalNamespace::ScreenCaptureAfterDelay> _screenCaptureAfterDelayPrefab;
+/// @brief Field _settingsManager, offset 0x38, size 0x8 
+ __declspec(property(get=__cordl_internal_get__settingsManager, put=__cordl_internal_set__settingsManager)) ::GlobalNamespace::SettingsManager*  _settingsManager;
 
-  /// @brief Method InstallBindings, addr 0x26ce2dc, size 0x484, virtual true, abstract: false, final false
-  inline void InstallBindings();
+/// @brief Method InstallBindings, addr 0x3aaa794, size 0x428, virtual true, abstract: false, final false
+inline void InstallBindings() ;
 
-  static inline ::GlobalNamespace::GameCoreSceneSetup* New_ctor();
+static inline ::GlobalNamespace::GameCoreSceneSetup* New_ctor() ;
 
-  /// @brief Method OnDestroy, addr 0x26ce760, size 0x48, virtual true, abstract: false, final false
-  inline void OnDestroy();
+/// @brief Method OnDestroy, addr 0x3aaabbc, size 0x48, virtual true, abstract: false, final false
+inline void OnDestroy() ;
 
-  constexpr ::UnityW<::GlobalNamespace::BloomFogSO> const& __cordl_internal_get__bloomFog() const;
+constexpr ::UnityW<::GlobalNamespace::BloomFogSO> const& __cordl_internal_get__bloomFog() const;
 
-  constexpr ::UnityW<::GlobalNamespace::BloomFogSO>& __cordl_internal_get__bloomFog();
+constexpr ::UnityW<::GlobalNamespace::BloomFogSO>& __cordl_internal_get__bloomFog() ;
 
-  constexpr ::BeatSaber::GameSettings::MainSettingsHandler*& __cordl_internal_get__mainSettingsHandler();
+constexpr ::UnityW<::GlobalNamespace::ScreenCaptureAfterDelay> const& __cordl_internal_get__screenCaptureAfterDelayPrefab() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::BeatSaber::GameSettings::MainSettingsHandler*> const& __cordl_internal_get__mainSettingsHandler() const;
+constexpr ::UnityW<::GlobalNamespace::ScreenCaptureAfterDelay>& __cordl_internal_get__screenCaptureAfterDelayPrefab() ;
 
-  constexpr ::UnityW<::GlobalNamespace::ScreenCaptureAfterDelay> const& __cordl_internal_get__screenCaptureAfterDelayPrefab() const;
+constexpr ::GlobalNamespace::SettingsManager*& __cordl_internal_get__settingsManager() ;
 
-  constexpr ::UnityW<::GlobalNamespace::ScreenCaptureAfterDelay>& __cordl_internal_get__screenCaptureAfterDelayPrefab();
+constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::SettingsManager*> const& __cordl_internal_get__settingsManager() const;
 
-  constexpr void __cordl_internal_set__bloomFog(::UnityW<::GlobalNamespace::BloomFogSO> value);
+constexpr void __cordl_internal_set__bloomFog(::UnityW<::GlobalNamespace::BloomFogSO>  value) ;
 
-  constexpr void __cordl_internal_set__mainSettingsHandler(::BeatSaber::GameSettings::MainSettingsHandler* value);
+constexpr void __cordl_internal_set__screenCaptureAfterDelayPrefab(::UnityW<::GlobalNamespace::ScreenCaptureAfterDelay>  value) ;
 
-  constexpr void __cordl_internal_set__screenCaptureAfterDelayPrefab(::UnityW<::GlobalNamespace::ScreenCaptureAfterDelay> value);
+constexpr void __cordl_internal_set__settingsManager(::GlobalNamespace::SettingsManager*  value) ;
 
-  /// @brief Method .ctor, addr 0x26ce7a8, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x3aaac04, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr GameCoreSceneSetup();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr GameCoreSceneSetup() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "GameCoreSceneSetup", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  GameCoreSceneSetup(GameCoreSceneSetup&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "GameCoreSceneSetup", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  GameCoreSceneSetup(GameCoreSceneSetup const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "GameCoreSceneSetup", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+GameCoreSceneSetup(GameCoreSceneSetup && ) = delete;
 
-  /// @brief Field _screenCaptureAfterDelayPrefab, offset: 0x20, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::ScreenCaptureAfterDelay> ____screenCaptureAfterDelayPrefab;
+// Ctor Parameters [CppParam { name: "", ty: "GameCoreSceneSetup", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+GameCoreSceneSetup(GameCoreSceneSetup const& ) = delete;
 
-  /// @brief Field _bloomFog, offset: 0x28, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::BloomFogSO> ____bloomFog;
+/// @brief Field _screenCaptureAfterDelayPrefab, offset: 0x28, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::ScreenCaptureAfterDelay>  ____screenCaptureAfterDelayPrefab;
 
-  /// @brief Field _mainSettingsHandler, offset: 0x30, size: 0x8, def value: None
-  ::BeatSaber::GameSettings::MainSettingsHandler* ____mainSettingsHandler;
+/// @brief Field _bloomFog, offset: 0x30, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::BloomFogSO>  ____bloomFog;
 
-  /// @brief Field kPauseButtonPressDurationMultiplier offset 0xffffffff size 0x4
-  static constexpr float_t kPauseButtonPressDurationMultiplier{ 0.75 };
+/// @brief Field _settingsManager, offset: 0x38, size: 0x8, def value: None
+ ::GlobalNamespace::SettingsManager*  ____settingsManager;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field kPauseButtonPressDuration offset 0xffffffff size 0x4
+static constexpr float_t  kPauseButtonPressDuration{0.75};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::GameCoreSceneSetup, 0x38>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::GameCoreSceneSetup, 0x40>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameCoreSceneSetup, ____screenCaptureAfterDelayPrefab) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameCoreSceneSetup, ____screenCaptureAfterDelayPrefab) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameCoreSceneSetup, ____bloomFog) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameCoreSceneSetup, ____bloomFog) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::GameCoreSceneSetup, ____mainSettingsHandler) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::GameCoreSceneSetup, ____settingsManager) == 0x38, "Offset mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::GameCoreSceneSetup);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::GameCoreSceneSetup*, "", "GameCoreSceneSetup");

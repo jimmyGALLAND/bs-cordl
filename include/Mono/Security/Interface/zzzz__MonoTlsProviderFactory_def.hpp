@@ -15,35 +15,35 @@ class MonoTlsProviderFactory;
 // Write type traits
 MARK_REF_PTR_T(::Mono::Security::Interface::MonoTlsProviderFactory);
 // Type: Mono.Security.Interface::MonoTlsProviderFactory
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Security::Interface {
 // Is value type: false
 // CS Name: ::Mono.Security.Interface::MonoTlsProviderFactory*
 class CORDL_TYPE MonoTlsProviderFactory : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method GetProvider, addr 0x27ae044, size 0x70, virtual false, abstract: false, final false
-  static inline ::Mono::Security::Interface::MonoTlsProvider* GetProvider();
+// Declarations
+/// @brief Method GetProvider, addr 0x3bb5774, size 0x70, virtual false, abstract: false, final false
+static inline ::Mono::Security::Interface::MonoTlsProvider* GetProvider() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MonoTlsProviderFactory();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr MonoTlsProviderFactory() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MonoTlsProviderFactory", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  MonoTlsProviderFactory(MonoTlsProviderFactory&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MonoTlsProviderFactory", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  MonoTlsProviderFactory(MonoTlsProviderFactory const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "MonoTlsProviderFactory", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+MonoTlsProviderFactory(MonoTlsProviderFactory && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "MonoTlsProviderFactory", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+MonoTlsProviderFactory(MonoTlsProviderFactory const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Mono::Security::Interface::MonoTlsProviderFactory, 0x10>, "Size mismatch!");
 
-} // namespace Mono::Security::Interface
+} // namespace end def Mono::Security::Interface
 NEED_NO_BOX(::Mono::Security::Interface::MonoTlsProviderFactory);
 DEFINE_IL2CPP_ARG_TYPE(::Mono::Security::Interface::MonoTlsProviderFactory*, "Mono.Security.Interface", "MonoTlsProviderFactory");

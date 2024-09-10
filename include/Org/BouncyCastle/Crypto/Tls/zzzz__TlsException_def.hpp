@@ -16,37 +16,37 @@ class TlsException;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Tls::TlsException);
 // Type: Org.BouncyCastle.Crypto.Tls::TlsException
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Tls {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Tls::TlsException*
 class CORDL_TYPE TlsException : public ::System::IO::IOException {
 public:
-  // Declarations
-  static inline ::Org::BouncyCastle::Crypto::Tls::TlsException* New_ctor(::StringW message, ::System::Exception* cause);
+// Declarations
+static inline ::Org::BouncyCastle::Crypto::Tls::TlsException* New_ctor(::StringW  message, ::System::Exception*  cause) ;
 
-  /// @brief Method .ctor, addr 0x121d30c, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::StringW message, ::System::Exception* cause);
+/// @brief Method .ctor, addr 0x23e460c, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(::StringW  message, ::System::Exception*  cause) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TlsException();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr TlsException() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TlsException", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  TlsException(TlsException&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TlsException", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  TlsException(TlsException const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "TlsException", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+TlsException(TlsException && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "TlsException", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+TlsException(TlsException const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Tls::TlsException, 0x90>, "Size mismatch!");
 
-} // namespace Org::BouncyCastle::Crypto::Tls
+} // namespace end def Org::BouncyCastle::Crypto::Tls
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Tls::TlsException);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Tls::TlsException*, "Org.BouncyCastle.Crypto.Tls", "TlsException");

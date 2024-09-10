@@ -19,44 +19,38 @@ class PrimalityTests;
 // Write type traits
 MARK_REF_PTR_T(::Mono::Math::Prime::PrimalityTests);
 // Type: Mono.Math.Prime::PrimalityTests
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Math::Prime {
 // Is value type: false
 // CS Name: ::Mono.Math.Prime::PrimalityTests*
 class CORDL_TYPE PrimalityTests : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method GetSPPRounds, addr 0x27d66e8, size 0x194, virtual false, abstract: false, final false
-  static inline int32_t GetSPPRounds(::Mono::Math::BigInteger* bi, ::Mono::Math::Prime::ConfidenceFactor confidence);
+// Declarations
+/// @brief Method GetSPPRounds, addr 0x3bc2790, size 0x18c, virtual false, abstract: false, final false
+static inline int32_t GetSPPRounds(::Mono::Math::BigInteger*  bi, ::Mono::Math::Prime::ConfidenceFactor  confidence) ;
 
-  /// @brief Method RabinMillerTest, addr 0x27d6a48, size 0x290, virtual false, abstract: false, final false
-  static inline bool RabinMillerTest(::Mono::Math::BigInteger* n, ::Mono::Math::Prime::ConfidenceFactor confidence);
-
-  /// @brief Method SmallPrimeSppTest, addr 0x27d687c, size 0x1cc, virtual false, abstract: false, final false
-  static inline bool SmallPrimeSppTest(::Mono::Math::BigInteger* bi, ::Mono::Math::Prime::ConfidenceFactor confidence);
-
-  /// @brief Method Test, addr 0x27d5834, size 0x4c, virtual false, abstract: false, final false
-  static inline bool Test(::Mono::Math::BigInteger* n, ::Mono::Math::Prime::ConfidenceFactor confidence);
+/// @brief Method RabinMillerTest, addr 0x3bc291c, size 0x298, virtual false, abstract: false, final false
+static inline bool RabinMillerTest(::Mono::Math::BigInteger*  n, ::Mono::Math::Prime::ConfidenceFactor  confidence) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PrimalityTests();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr PrimalityTests() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PrimalityTests", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  PrimalityTests(PrimalityTests&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PrimalityTests", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  PrimalityTests(PrimalityTests const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "PrimalityTests", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+PrimalityTests(PrimalityTests && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "PrimalityTests", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+PrimalityTests(PrimalityTests const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Mono::Math::Prime::PrimalityTests, 0x10>, "Size mismatch!");
 
-} // namespace Mono::Math::Prime
+} // namespace end def Mono::Math::Prime
 NEED_NO_BOX(::Mono::Math::Prime::PrimalityTests);
 DEFINE_IL2CPP_ARG_TYPE(::Mono::Math::Prime::PrimalityTests*, "Mono.Math.Prime", "PrimalityTests");

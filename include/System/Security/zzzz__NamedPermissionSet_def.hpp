@@ -23,84 +23,84 @@ class NamedPermissionSet;
 // Write type traits
 MARK_REF_PTR_T(::System::Security::NamedPermissionSet);
 // Type: System.Security::NamedPermissionSet
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security {
 // Is value type: false
 // CS Name: ::System.Security::NamedPermissionSet*
 class CORDL_TYPE NamedPermissionSet : public ::System::Security::PermissionSet {
 public:
-  // Declarations
-  __declspec(property(get = get_Name, put = set_Name))::StringW Name;
+// Declarations
+ __declspec(property(get=get_Name, put=set_Name)) ::StringW  Name;
 
-  /// @brief Field description, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_description, put = __cordl_internal_set_description))::StringW description;
+/// @brief Field description, offset 0x38, size 0x8 
+ __declspec(property(get=__cordl_internal_get_description, put=__cordl_internal_set_description)) ::StringW  description;
 
-  /// @brief Field name, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_name, put = __cordl_internal_set_name))::StringW name;
+/// @brief Field name, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get_name, put=__cordl_internal_set_name)) ::StringW  name;
 
-  /// @brief Method Equals, addr 0x27ff0d0, size 0x90, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* obj);
+/// @brief Method Equals, addr 0x3c04074, size 0x90, virtual true, abstract: false, final false
+inline bool Equals(::System::Object*  obj) ;
 
-  /// @brief Method GetHashCode, addr 0x27ff2fc, size 0x38, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
+/// @brief Method GetHashCode, addr 0x3c042a0, size 0x38, virtual true, abstract: false, final false
+inline int32_t GetHashCode() ;
 
-  static inline ::System::Security::NamedPermissionSet* New_ctor();
+static inline ::System::Security::NamedPermissionSet* New_ctor() ;
 
-  static inline ::System::Security::NamedPermissionSet* New_ctor(::StringW name);
+static inline ::System::Security::NamedPermissionSet* New_ctor(::StringW  name) ;
 
-  static inline ::System::Security::NamedPermissionSet* New_ctor(::StringW name, ::System::Security::Permissions::PermissionState state);
+static inline ::System::Security::NamedPermissionSet* New_ctor(::StringW  name, ::System::Security::Permissions::PermissionState  state) ;
 
-  /// @brief Method ToXml, addr 0x27febdc, size 0x98, virtual true, abstract: false, final false
-  inline ::System::Security::SecurityElement* ToXml();
+/// @brief Method ToXml, addr 0x3c03b84, size 0x98, virtual true, abstract: false, final false
+inline ::System::Security::SecurityElement* ToXml() ;
 
-  constexpr ::StringW const& __cordl_internal_get_description() const;
+constexpr ::StringW const& __cordl_internal_get_description() const;
 
-  constexpr ::StringW& __cordl_internal_get_description();
+constexpr ::StringW& __cordl_internal_get_description() ;
 
-  constexpr ::StringW const& __cordl_internal_get_name() const;
+constexpr ::StringW const& __cordl_internal_get_name() const;
 
-  constexpr ::StringW& __cordl_internal_get_name();
+constexpr ::StringW& __cordl_internal_get_name() ;
 
-  constexpr void __cordl_internal_set_description(::StringW value);
+constexpr void __cordl_internal_set_description(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_name(::StringW value);
+constexpr void __cordl_internal_set_name(::StringW  value) ;
 
-  /// @brief Method .ctor, addr 0x27fe99c, size 0x54, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x3c03954, size 0x54, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method .ctor, addr 0x27febcc, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::StringW name);
+/// @brief Method .ctor, addr 0x3c03b74, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(::StringW  name) ;
 
-  /// @brief Method .ctor, addr 0x27fea5c, size 0x80, virtual false, abstract: false, final false
-  inline void _ctor(::StringW name, ::System::Security::Permissions::PermissionState state);
+/// @brief Method .ctor, addr 0x3c03a0c, size 0x80, virtual false, abstract: false, final false
+inline void _ctor(::StringW  name, ::System::Security::Permissions::PermissionState  state) ;
 
-  /// @brief Method get_Name, addr 0x27febd4, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_Name();
+/// @brief Method get_Name, addr 0x3c03b7c, size 0x8, virtual false, abstract: false, final false
+inline ::StringW get_Name() ;
 
-  /// @brief Method set_Name, addr 0x27feb0c, size 0xc0, virtual false, abstract: false, final false
-  inline void set_Name(::StringW value);
+/// @brief Method set_Name, addr 0x3c03abc, size 0xb8, virtual false, abstract: false, final false
+inline void set_Name(::StringW  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NamedPermissionSet();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr NamedPermissionSet() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NamedPermissionSet", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  NamedPermissionSet(NamedPermissionSet&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NamedPermissionSet", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  NamedPermissionSet(NamedPermissionSet const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "NamedPermissionSet", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+NamedPermissionSet(NamedPermissionSet && ) = delete;
 
-  /// @brief Field name, offset: 0x30, size: 0x8, def value: None
-  ::StringW ___name;
+// Ctor Parameters [CppParam { name: "", ty: "NamedPermissionSet", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+NamedPermissionSet(NamedPermissionSet const& ) = delete;
 
-  /// @brief Field description, offset: 0x38, size: 0x8, def value: None
-  ::StringW ___description;
+/// @brief Field name, offset: 0x30, size: 0x8, def value: None
+ ::StringW  ___name;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field description, offset: 0x38, size: 0x8, def value: None
+ ::StringW  ___description;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Security::NamedPermissionSet, 0x40>, "Size mismatch!");
@@ -109,6 +109,6 @@ static_assert(offsetof(::System::Security::NamedPermissionSet, ___name) == 0x30,
 
 static_assert(offsetof(::System::Security::NamedPermissionSet, ___description) == 0x38, "Offset mismatch!");
 
-} // namespace System::Security
+} // namespace end def System::Security
 NEED_NO_BOX(::System::Security::NamedPermissionSet);
 DEFINE_IL2CPP_ARG_TYPE(::System::Security::NamedPermissionSet*, "System.Security", "NamedPermissionSet");

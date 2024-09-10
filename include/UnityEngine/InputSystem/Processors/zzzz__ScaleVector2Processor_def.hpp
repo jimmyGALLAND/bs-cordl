@@ -21,63 +21,63 @@ class ScaleVector2Processor;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::InputSystem::Processors::ScaleVector2Processor);
 // Type: UnityEngine.InputSystem.Processors::ScaleVector2Processor
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Processors {
 // Is value type: false
 // CS Name: ::UnityEngine.InputSystem.Processors::ScaleVector2Processor*
 class CORDL_TYPE ScaleVector2Processor : public ::UnityEngine::InputSystem::InputProcessor_1<::UnityEngine::Vector2> {
 public:
-  // Declarations
-  /// @brief Field x, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_x, put = __cordl_internal_set_x)) float_t x;
+// Declarations
+/// @brief Field x, offset 0x10, size 0x4 
+ __declspec(property(get=__cordl_internal_get_x, put=__cordl_internal_set_x)) float_t  x;
 
-  /// @brief Field y, offset 0x14, size 0x4
-  __declspec(property(get = __cordl_internal_get_y, put = __cordl_internal_set_y)) float_t y;
+/// @brief Field y, offset 0x14, size 0x4 
+ __declspec(property(get=__cordl_internal_get_y, put=__cordl_internal_set_y)) float_t  y;
 
-  static inline ::UnityEngine::InputSystem::Processors::ScaleVector2Processor* New_ctor();
+static inline ::UnityEngine::InputSystem::Processors::ScaleVector2Processor* New_ctor() ;
 
-  /// @brief Method Process, addr 0x319e8e8, size 0x10, virtual true, abstract: false, final false
-  inline ::UnityEngine::Vector2 Process(::UnityEngine::Vector2 value, ::UnityEngine::InputSystem::InputControl* control);
+/// @brief Method Process, addr 0x4587378, size 0x10, virtual true, abstract: false, final false
+inline ::UnityEngine::Vector2 Process(::UnityEngine::Vector2  value, ::UnityEngine::InputSystem::InputControl*  control) ;
 
-  /// @brief Method ToString, addr 0x319e8f8, size 0xa0, virtual true, abstract: false, final false
-  inline ::StringW ToString();
+/// @brief Method ToString, addr 0x4587388, size 0xa0, virtual true, abstract: false, final false
+inline ::StringW ToString() ;
 
-  constexpr float_t const& __cordl_internal_get_x() const;
+constexpr float_t const& __cordl_internal_get_x() const;
 
-  constexpr float_t& __cordl_internal_get_x();
+constexpr float_t& __cordl_internal_get_x() ;
 
-  constexpr float_t const& __cordl_internal_get_y() const;
+constexpr float_t const& __cordl_internal_get_y() const;
 
-  constexpr float_t& __cordl_internal_get_y();
+constexpr float_t& __cordl_internal_get_y() ;
 
-  constexpr void __cordl_internal_set_x(float_t value);
+constexpr void __cordl_internal_set_x(float_t  value) ;
 
-  constexpr void __cordl_internal_set_y(float_t value);
+constexpr void __cordl_internal_set_y(float_t  value) ;
 
-  /// @brief Method .ctor, addr 0x319e998, size 0x50, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x4587428, size 0x50, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ScaleVector2Processor();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ScaleVector2Processor() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ScaleVector2Processor", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ScaleVector2Processor(ScaleVector2Processor&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ScaleVector2Processor", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ScaleVector2Processor(ScaleVector2Processor const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ScaleVector2Processor", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ScaleVector2Processor(ScaleVector2Processor && ) = delete;
 
-  /// @brief Field x, offset: 0x10, size: 0x4, def value: None
-  float_t ___x;
+// Ctor Parameters [CppParam { name: "", ty: "ScaleVector2Processor", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ScaleVector2Processor(ScaleVector2Processor const& ) = delete;
 
-  /// @brief Field y, offset: 0x14, size: 0x4, def value: None
-  float_t ___y;
+/// @brief Field x, offset: 0x10, size: 0x4, def value: None
+ float_t  ___x;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field y, offset: 0x14, size: 0x4, def value: None
+ float_t  ___y;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Processors::ScaleVector2Processor, 0x18>, "Size mismatch!");
@@ -86,6 +86,6 @@ static_assert(offsetof(::UnityEngine::InputSystem::Processors::ScaleVector2Proce
 
 static_assert(offsetof(::UnityEngine::InputSystem::Processors::ScaleVector2Processor, ___y) == 0x14, "Offset mismatch!");
 
-} // namespace UnityEngine::InputSystem::Processors
+} // namespace end def UnityEngine::InputSystem::Processors
 NEED_NO_BOX(::UnityEngine::InputSystem::Processors::ScaleVector2Processor);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Processors::ScaleVector2Processor*, "UnityEngine.InputSystem.Processors", "ScaleVector2Processor");

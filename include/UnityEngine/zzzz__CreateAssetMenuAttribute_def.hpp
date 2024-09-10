@@ -13,67 +13,67 @@ class CreateAssetMenuAttribute;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::CreateAssetMenuAttribute);
 // Type: UnityEngine::CreateAssetMenuAttribute
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
 // CS Name: ::UnityEngine::CreateAssetMenuAttribute*
 class CORDL_TYPE CreateAssetMenuAttribute : public ::System::Attribute {
 public:
-  // Declarations
-  /// @brief Field <fileName>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__fileName_k__BackingField, put = __cordl_internal_set__fileName_k__BackingField))::StringW _fileName_k__BackingField;
+// Declarations
+/// @brief Field <fileName>k__BackingField, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get__fileName_k__BackingField, put=__cordl_internal_set__fileName_k__BackingField)) ::StringW  _fileName_k__BackingField;
 
-  /// @brief Field <menuName>k__BackingField, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__menuName_k__BackingField, put = __cordl_internal_set__menuName_k__BackingField))::StringW _menuName_k__BackingField;
+/// @brief Field <menuName>k__BackingField, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get__menuName_k__BackingField, put=__cordl_internal_set__menuName_k__BackingField)) ::StringW  _menuName_k__BackingField;
 
-  __declspec(property(put = set_fileName))::StringW fileName;
+ __declspec(property(put=set_fileName)) ::StringW  fileName;
 
-  __declspec(property(put = set_menuName))::StringW menuName;
+ __declspec(property(put=set_menuName)) ::StringW  menuName;
 
-  static inline ::UnityEngine::CreateAssetMenuAttribute* New_ctor();
+static inline ::UnityEngine::CreateAssetMenuAttribute* New_ctor() ;
 
-  constexpr ::StringW const& __cordl_internal_get__fileName_k__BackingField() const;
+constexpr ::StringW const& __cordl_internal_get__fileName_k__BackingField() const;
 
-  constexpr ::StringW& __cordl_internal_get__fileName_k__BackingField();
+constexpr ::StringW& __cordl_internal_get__fileName_k__BackingField() ;
 
-  constexpr ::StringW const& __cordl_internal_get__menuName_k__BackingField() const;
+constexpr ::StringW const& __cordl_internal_get__menuName_k__BackingField() const;
 
-  constexpr ::StringW& __cordl_internal_get__menuName_k__BackingField();
+constexpr ::StringW& __cordl_internal_get__menuName_k__BackingField() ;
 
-  constexpr void __cordl_internal_set__fileName_k__BackingField(::StringW value);
+constexpr void __cordl_internal_set__fileName_k__BackingField(::StringW  value) ;
 
-  constexpr void __cordl_internal_set__menuName_k__BackingField(::StringW value);
+constexpr void __cordl_internal_set__menuName_k__BackingField(::StringW  value) ;
 
-  /// @brief Method .ctor, addr 0x3448ad8, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x4816128, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method set_fileName, addr 0x3448ad0, size 0x8, virtual false, abstract: false, final false
-  inline void set_fileName(::StringW value);
+/// @brief Method set_fileName, addr 0x4816120, size 0x8, virtual false, abstract: false, final false
+inline void set_fileName(::StringW  value) ;
 
-  /// @brief Method set_menuName, addr 0x3448ac8, size 0x8, virtual false, abstract: false, final false
-  inline void set_menuName(::StringW value);
+/// @brief Method set_menuName, addr 0x4816118, size 0x8, virtual false, abstract: false, final false
+inline void set_menuName(::StringW  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CreateAssetMenuAttribute();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr CreateAssetMenuAttribute() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CreateAssetMenuAttribute", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  CreateAssetMenuAttribute(CreateAssetMenuAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CreateAssetMenuAttribute", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  CreateAssetMenuAttribute(CreateAssetMenuAttribute const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "CreateAssetMenuAttribute", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+CreateAssetMenuAttribute(CreateAssetMenuAttribute && ) = delete;
 
-  /// @brief Field <menuName>k__BackingField, offset: 0x10, size: 0x8, def value: None
-  ::StringW ____menuName_k__BackingField;
+// Ctor Parameters [CppParam { name: "", ty: "CreateAssetMenuAttribute", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+CreateAssetMenuAttribute(CreateAssetMenuAttribute const& ) = delete;
 
-  /// @brief Field <fileName>k__BackingField, offset: 0x18, size: 0x8, def value: None
-  ::StringW ____fileName_k__BackingField;
+/// @brief Field <menuName>k__BackingField, offset: 0x10, size: 0x8, def value: None
+ ::StringW  ____menuName_k__BackingField;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field <fileName>k__BackingField, offset: 0x18, size: 0x8, def value: None
+ ::StringW  ____fileName_k__BackingField;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::CreateAssetMenuAttribute, 0x20>, "Size mismatch!");
@@ -82,6 +82,6 @@ static_assert(offsetof(::UnityEngine::CreateAssetMenuAttribute, ____menuName_k__
 
 static_assert(offsetof(::UnityEngine::CreateAssetMenuAttribute, ____fileName_k__BackingField) == 0x18, "Offset mismatch!");
 
-} // namespace UnityEngine
+} // namespace end def UnityEngine
 NEED_NO_BOX(::UnityEngine::CreateAssetMenuAttribute);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::CreateAssetMenuAttribute*, "UnityEngine", "CreateAssetMenuAttribute");

@@ -23,127 +23,127 @@ class MacStream;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::IO::MacStream);
 // Type: Org.BouncyCastle.Crypto.IO::MacStream
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 64, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::IO {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.IO::MacStream*
 class CORDL_TYPE MacStream : public ::System::IO::Stream {
 public:
-  // Declarations
-  __declspec(property(get = get_CanRead)) bool CanRead;
+// Declarations
+ __declspec(property(get=get_CanRead)) bool  CanRead;
 
-  __declspec(property(get = get_CanSeek)) bool CanSeek;
+ __declspec(property(get=get_CanSeek)) bool  CanSeek;
 
-  __declspec(property(get = get_CanWrite)) bool CanWrite;
+ __declspec(property(get=get_CanWrite)) bool  CanWrite;
 
-  __declspec(property(get = get_Length)) int64_t Length;
+ __declspec(property(get=get_Length)) int64_t  Length;
 
-  __declspec(property(get = get_Position, put = set_Position)) int64_t Position;
+ __declspec(property(get=get_Position, put=set_Position)) int64_t  Position;
 
-  /// @brief Field inMac, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_inMac, put = __cordl_internal_set_inMac))::Org::BouncyCastle::Crypto::IMac* inMac;
+/// @brief Field inMac, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get_inMac, put=__cordl_internal_set_inMac)) ::Org::BouncyCastle::Crypto::IMac*  inMac;
 
-  /// @brief Field outMac, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_outMac, put = __cordl_internal_set_outMac))::Org::BouncyCastle::Crypto::IMac* outMac;
+/// @brief Field outMac, offset 0x38, size 0x8 
+ __declspec(property(get=__cordl_internal_get_outMac, put=__cordl_internal_set_outMac)) ::Org::BouncyCastle::Crypto::IMac*  outMac;
 
-  /// @brief Field stream, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_stream, put = __cordl_internal_set_stream))::System::IO::Stream* stream;
+/// @brief Field stream, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get_stream, put=__cordl_internal_set_stream)) ::System::IO::Stream*  stream;
 
-  /// @brief Method Close, addr 0x1179c78, size 0x68, virtual true, abstract: false, final false
-  inline void Close();
+/// @brief Method Close, addr 0x2346620, size 0x68, virtual true, abstract: false, final false
+inline void Close() ;
 
-  /// @brief Method Flush, addr 0x1179ce0, size 0x24, virtual true, abstract: false, final false
-  inline void Flush();
+/// @brief Method Flush, addr 0x2346688, size 0x24, virtual true, abstract: false, final false
+inline void Flush() ;
 
-  static inline ::Org::BouncyCastle::Crypto::IO::MacStream* New_ctor(::System::IO::Stream* stream, ::Org::BouncyCastle::Crypto::IMac* readMac, ::Org::BouncyCastle::Crypto::IMac* writeMac);
+static inline ::Org::BouncyCastle::Crypto::IO::MacStream* New_ctor(::System::IO::Stream*  stream, ::Org::BouncyCastle::Crypto::IMac*  readMac, ::Org::BouncyCastle::Crypto::IMac*  writeMac) ;
 
-  /// @brief Method Read, addr 0x117982c, size 0xfc, virtual true, abstract: false, final false
-  inline int32_t Read(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count);
+/// @brief Method Read, addr 0x23461d4, size 0xfc, virtual true, abstract: false, final false
+inline int32_t Read(::ArrayW<uint8_t,::Array<uint8_t>*>  buffer, int32_t  offset, int32_t  count) ;
 
-  /// @brief Method ReadByte, addr 0x1179928, size 0xd0, virtual true, abstract: false, final false
-  inline int32_t ReadByte();
+/// @brief Method ReadByte, addr 0x23462d0, size 0xd0, virtual true, abstract: false, final false
+inline int32_t ReadByte() ;
 
-  /// @brief Method ReadMac, addr 0x117981c, size 0x8, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Crypto::IMac* ReadMac();
+/// @brief Method ReadMac, addr 0x23461c4, size 0x8, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Crypto::IMac* ReadMac() ;
 
-  /// @brief Method Seek, addr 0x1179d04, size 0x24, virtual true, abstract: false, final false
-  inline int64_t Seek(int64_t offset, ::System::IO::SeekOrigin origin);
+/// @brief Method Seek, addr 0x23466ac, size 0x24, virtual true, abstract: false, final false
+inline int64_t Seek(int64_t  offset, ::System::IO::SeekOrigin  origin) ;
 
-  /// @brief Method SetLength, addr 0x1179d28, size 0x24, virtual true, abstract: false, final false
-  inline void SetLength(int64_t length);
+/// @brief Method SetLength, addr 0x23466d0, size 0x24, virtual true, abstract: false, final false
+inline void SetLength(int64_t  length) ;
 
-  /// @brief Method Write, addr 0x11799f8, size 0xf0, virtual true, abstract: false, final false
-  inline void Write(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count);
+/// @brief Method Write, addr 0x23463a0, size 0xf0, virtual true, abstract: false, final false
+inline void Write(::ArrayW<uint8_t,::Array<uint8_t>*>  buffer, int32_t  offset, int32_t  count) ;
 
-  /// @brief Method WriteByte, addr 0x1179ae8, size 0xc8, virtual true, abstract: false, final false
-  inline void WriteByte(uint8_t b);
+/// @brief Method WriteByte, addr 0x2346490, size 0xc8, virtual true, abstract: false, final false
+inline void WriteByte(uint8_t  b) ;
 
-  /// @brief Method WriteMac, addr 0x1179824, size 0x8, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Crypto::IMac* WriteMac();
+/// @brief Method WriteMac, addr 0x23461cc, size 0x8, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Crypto::IMac* WriteMac() ;
 
-  constexpr ::Org::BouncyCastle::Crypto::IMac*& __cordl_internal_get_inMac();
+constexpr ::Org::BouncyCastle::Crypto::IMac*& __cordl_internal_get_inMac() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IMac*> const& __cordl_internal_get_inMac() const;
+constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IMac*> const& __cordl_internal_get_inMac() const;
 
-  constexpr ::Org::BouncyCastle::Crypto::IMac*& __cordl_internal_get_outMac();
+constexpr ::Org::BouncyCastle::Crypto::IMac*& __cordl_internal_get_outMac() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IMac*> const& __cordl_internal_get_outMac() const;
+constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::IMac*> const& __cordl_internal_get_outMac() const;
 
-  constexpr ::System::IO::Stream*& __cordl_internal_get_stream();
+constexpr ::System::IO::Stream*& __cordl_internal_get_stream() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __cordl_internal_get_stream() const;
+constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __cordl_internal_get_stream() const;
 
-  constexpr void __cordl_internal_set_inMac(::Org::BouncyCastle::Crypto::IMac* value);
+constexpr void __cordl_internal_set_inMac(::Org::BouncyCastle::Crypto::IMac*  value) ;
 
-  constexpr void __cordl_internal_set_outMac(::Org::BouncyCastle::Crypto::IMac* value);
+constexpr void __cordl_internal_set_outMac(::Org::BouncyCastle::Crypto::IMac*  value) ;
 
-  constexpr void __cordl_internal_set_stream(::System::IO::Stream* value);
+constexpr void __cordl_internal_set_stream(::System::IO::Stream*  value) ;
 
-  /// @brief Method .ctor, addr 0x117979c, size 0x80, virtual false, abstract: false, final false
-  inline void _ctor(::System::IO::Stream* stream, ::Org::BouncyCastle::Crypto::IMac* readMac, ::Org::BouncyCastle::Crypto::IMac* writeMac);
+/// @brief Method .ctor, addr 0x2346144, size 0x80, virtual false, abstract: false, final false
+inline void _ctor(::System::IO::Stream*  stream, ::Org::BouncyCastle::Crypto::IMac*  readMac, ::Org::BouncyCastle::Crypto::IMac*  writeMac) ;
 
-  /// @brief Method get_CanRead, addr 0x1179bb0, size 0x20, virtual true, abstract: false, final false
-  inline bool get_CanRead();
+/// @brief Method get_CanRead, addr 0x2346558, size 0x20, virtual true, abstract: false, final false
+inline bool get_CanRead() ;
 
-  /// @brief Method get_CanSeek, addr 0x1179bf0, size 0x20, virtual true, abstract: false, final false
-  inline bool get_CanSeek();
+/// @brief Method get_CanSeek, addr 0x2346598, size 0x20, virtual true, abstract: false, final false
+inline bool get_CanSeek() ;
 
-  /// @brief Method get_CanWrite, addr 0x1179bd0, size 0x20, virtual true, abstract: false, final false
-  inline bool get_CanWrite();
+/// @brief Method get_CanWrite, addr 0x2346578, size 0x20, virtual true, abstract: false, final false
+inline bool get_CanWrite() ;
 
-  /// @brief Method get_Length, addr 0x1179c10, size 0x20, virtual true, abstract: false, final false
-  inline int64_t get_Length();
+/// @brief Method get_Length, addr 0x23465b8, size 0x20, virtual true, abstract: false, final false
+inline int64_t get_Length() ;
 
-  /// @brief Method get_Position, addr 0x1179c30, size 0x24, virtual true, abstract: false, final false
-  inline int64_t get_Position();
+/// @brief Method get_Position, addr 0x23465d8, size 0x24, virtual true, abstract: false, final false
+inline int64_t get_Position() ;
 
-  /// @brief Method set_Position, addr 0x1179c54, size 0x24, virtual true, abstract: false, final false
-  inline void set_Position(int64_t value);
+/// @brief Method set_Position, addr 0x23465fc, size 0x24, virtual true, abstract: false, final false
+inline void set_Position(int64_t  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MacStream();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr MacStream() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MacStream", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  MacStream(MacStream&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MacStream", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  MacStream(MacStream const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "MacStream", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+MacStream(MacStream && ) = delete;
 
-  /// @brief Field stream, offset: 0x28, size: 0x8, def value: None
-  ::System::IO::Stream* ___stream;
+// Ctor Parameters [CppParam { name: "", ty: "MacStream", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+MacStream(MacStream const& ) = delete;
 
-  /// @brief Field inMac, offset: 0x30, size: 0x8, def value: None
-  ::Org::BouncyCastle::Crypto::IMac* ___inMac;
+/// @brief Field stream, offset: 0x28, size: 0x8, def value: None
+ ::System::IO::Stream*  ___stream;
 
-  /// @brief Field outMac, offset: 0x38, size: 0x8, def value: None
-  ::Org::BouncyCastle::Crypto::IMac* ___outMac;
+/// @brief Field inMac, offset: 0x30, size: 0x8, def value: None
+ ::Org::BouncyCastle::Crypto::IMac*  ___inMac;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field outMac, offset: 0x38, size: 0x8, def value: None
+ ::Org::BouncyCastle::Crypto::IMac*  ___outMac;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::IO::MacStream, 0x40>, "Size mismatch!");
@@ -154,6 +154,6 @@ static_assert(offsetof(::Org::BouncyCastle::Crypto::IO::MacStream, ___inMac) == 
 
 static_assert(offsetof(::Org::BouncyCastle::Crypto::IO::MacStream, ___outMac) == 0x38, "Offset mismatch!");
 
-} // namespace Org::BouncyCastle::Crypto::IO
+} // namespace end def Org::BouncyCastle::Crypto::IO
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::IO::MacStream);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::IO::MacStream*, "Org.BouncyCastle.Crypto.IO", "MacStream");

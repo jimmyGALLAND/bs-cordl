@@ -19,49 +19,49 @@ class SequentialSearchPrimeGeneratorBase;
 // Write type traits
 MARK_REF_PTR_T(::Mono::Math::Prime::Generator::SequentialSearchPrimeGeneratorBase);
 // Type: Mono.Math.Prime.Generator::SequentialSearchPrimeGeneratorBase
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Math::Prime::Generator {
 // Is value type: false
 // CS Name: ::Mono.Math.Prime.Generator::SequentialSearchPrimeGeneratorBase*
 class CORDL_TYPE SequentialSearchPrimeGeneratorBase : public ::Mono::Math::Prime::Generator::PrimeGeneratorBase {
 public:
-  // Declarations
-  /// @brief Method GenerateNewPrime, addr 0x27d6dd8, size 0x10, virtual true, abstract: false, final false
-  inline ::Mono::Math::BigInteger* GenerateNewPrime(int32_t bits);
+// Declarations
+/// @brief Method GenerateNewPrime, addr 0x3bddd38, size 0x10, virtual true, abstract: false, final false
+inline ::Mono::Math::BigInteger* GenerateNewPrime(int32_t  bits) ;
 
-  /// @brief Method GenerateNewPrime, addr 0x27d6de8, size 0x2e4, virtual true, abstract: false, final false
-  inline ::Mono::Math::BigInteger* GenerateNewPrime(int32_t bits, ::System::Object* context);
+/// @brief Method GenerateNewPrime, addr 0x3bddd48, size 0x2e4, virtual true, abstract: false, final false
+inline ::Mono::Math::BigInteger* GenerateNewPrime(int32_t  bits, ::System::Object*  context) ;
 
-  /// @brief Method GenerateSearchBase, addr 0x27d6d64, size 0x74, virtual true, abstract: false, final false
-  inline ::Mono::Math::BigInteger* GenerateSearchBase(int32_t bits, ::System::Object* context);
+/// @brief Method GenerateSearchBase, addr 0x3bddcc4, size 0x74, virtual true, abstract: false, final false
+inline ::Mono::Math::BigInteger* GenerateSearchBase(int32_t  bits, ::System::Object*  context) ;
 
-  /// @brief Method IsPrimeAcceptable, addr 0x27d70cc, size 0x8, virtual true, abstract: false, final false
-  inline bool IsPrimeAcceptable(::Mono::Math::BigInteger* bi, ::System::Object* context);
+/// @brief Method IsPrimeAcceptable, addr 0x3bde02c, size 0x8, virtual true, abstract: false, final false
+inline bool IsPrimeAcceptable(::Mono::Math::BigInteger*  bi, ::System::Object*  context) ;
 
-  static inline ::Mono::Math::Prime::Generator::SequentialSearchPrimeGeneratorBase* New_ctor();
+static inline ::Mono::Math::Prime::Generator::SequentialSearchPrimeGeneratorBase* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x27d5880, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x3bdc7cc, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SequentialSearchPrimeGeneratorBase();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr SequentialSearchPrimeGeneratorBase() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SequentialSearchPrimeGeneratorBase", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  SequentialSearchPrimeGeneratorBase(SequentialSearchPrimeGeneratorBase&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SequentialSearchPrimeGeneratorBase", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  SequentialSearchPrimeGeneratorBase(SequentialSearchPrimeGeneratorBase const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "SequentialSearchPrimeGeneratorBase", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+SequentialSearchPrimeGeneratorBase(SequentialSearchPrimeGeneratorBase && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "SequentialSearchPrimeGeneratorBase", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+SequentialSearchPrimeGeneratorBase(SequentialSearchPrimeGeneratorBase const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Mono::Math::Prime::Generator::SequentialSearchPrimeGeneratorBase, 0x10>, "Size mismatch!");
 
-} // namespace Mono::Math::Prime::Generator
+} // namespace end def Mono::Math::Prime::Generator
 NEED_NO_BOX(::Mono::Math::Prime::Generator::SequentialSearchPrimeGeneratorBase);
 DEFINE_IL2CPP_ARG_TYPE(::Mono::Math::Prime::Generator::SequentialSearchPrimeGeneratorBase*, "Mono.Math.Prime.Generator", "SequentialSearchPrimeGeneratorBase");

@@ -19,47 +19,47 @@ class InvalidProgramException;
 // Write type traits
 MARK_REF_PTR_T(::System::InvalidProgramException);
 // Type: System::InvalidProgramException
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 140, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System {
 // Is value type: false
 // CS Name: ::System::InvalidProgramException*
 class CORDL_TYPE InvalidProgramException : public ::System::SystemException {
 public:
-  // Declarations
-  static inline ::System::InvalidProgramException* New_ctor();
+// Declarations
+static inline ::System::InvalidProgramException* New_ctor() ;
 
-  static inline ::System::InvalidProgramException* New_ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
+static inline ::System::InvalidProgramException* New_ctor(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context) ;
 
-  static inline ::System::InvalidProgramException* New_ctor(::StringW message);
+static inline ::System::InvalidProgramException* New_ctor(::StringW  message) ;
 
-  /// @brief Method .ctor, addr 0x29627e4, size 0x5c, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x3d5b544, size 0x5c, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method .ctor, addr 0x2962864, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::System::Runtime::Serialization::SerializationInfo* info, ::System::Runtime::Serialization::StreamingContext context);
+/// @brief Method .ctor, addr 0x3d5b5c4, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(::System::Runtime::Serialization::SerializationInfo*  info, ::System::Runtime::Serialization::StreamingContext  context) ;
 
-  /// @brief Method .ctor, addr 0x2962840, size 0x24, virtual false, abstract: false, final false
-  inline void _ctor(::StringW message);
+/// @brief Method .ctor, addr 0x3d5b5a0, size 0x24, virtual false, abstract: false, final false
+inline void _ctor(::StringW  message) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr InvalidProgramException();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr InvalidProgramException() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InvalidProgramException", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  InvalidProgramException(InvalidProgramException&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InvalidProgramException", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  InvalidProgramException(InvalidProgramException const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "InvalidProgramException", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+InvalidProgramException(InvalidProgramException && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "InvalidProgramException", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+InvalidProgramException(InvalidProgramException const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::InvalidProgramException, 0x90>, "Size mismatch!");
 
-} // namespace System
+} // namespace end def System
 NEED_NO_BOX(::System::InvalidProgramException);
 DEFINE_IL2CPP_ARG_TYPE(::System::InvalidProgramException*, "System", "InvalidProgramException");

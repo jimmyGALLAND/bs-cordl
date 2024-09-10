@@ -12,59 +12,59 @@ class XPlatformAuthFeatureFlag;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::XPlatformAuthFeatureFlag);
 // Type: ::XPlatformAuthFeatureFlag
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::XPlatformAuthFeatureFlag*
 class CORDL_TYPE XPlatformAuthFeatureFlag : public ::System::Object {
 public:
-  // Declarations
-  __declspec(property(get = get_UseXPlatformAuth, put = set_UseXPlatformAuth)) bool UseXPlatformAuth;
+// Declarations
+ __declspec(property(get=get_UseXPlatformAuth, put=set_UseXPlatformAuth)) bool  UseXPlatformAuth;
 
-  /// @brief Field <UseXPlatformAuth>k__BackingField, offset 0x10, size 0x1
-  __declspec(property(get = __cordl_internal_get__UseXPlatformAuth_k__BackingField, put = __cordl_internal_set__UseXPlatformAuth_k__BackingField)) bool _UseXPlatformAuth_k__BackingField;
+/// @brief Field <UseXPlatformAuth>k__BackingField, offset 0x10, size 0x1 
+ __declspec(property(get=__cordl_internal_get__UseXPlatformAuth_k__BackingField, put=__cordl_internal_set__UseXPlatformAuth_k__BackingField)) bool  _UseXPlatformAuth_k__BackingField;
 
-  static inline ::GlobalNamespace::XPlatformAuthFeatureFlag* New_ctor();
+static inline ::GlobalNamespace::XPlatformAuthFeatureFlag* New_ctor() ;
 
-  constexpr bool const& __cordl_internal_get__UseXPlatformAuth_k__BackingField() const;
+constexpr bool const& __cordl_internal_get__UseXPlatformAuth_k__BackingField() const;
 
-  constexpr bool& __cordl_internal_get__UseXPlatformAuth_k__BackingField();
+constexpr bool& __cordl_internal_get__UseXPlatformAuth_k__BackingField() ;
 
-  constexpr void __cordl_internal_set__UseXPlatformAuth_k__BackingField(bool value);
+constexpr void __cordl_internal_set__UseXPlatformAuth_k__BackingField(bool  value) ;
 
-  /// @brief Method .ctor, addr 0x10cf258, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x22a0ab4, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_UseXPlatformAuth, addr 0x10cf244, size 0x8, virtual false, abstract: false, final false
-  inline bool get_UseXPlatformAuth();
+/// @brief Method get_UseXPlatformAuth, addr 0x22a0aa0, size 0x8, virtual false, abstract: false, final false
+inline bool get_UseXPlatformAuth() ;
 
-  /// @brief Method set_UseXPlatformAuth, addr 0x10cf24c, size 0xc, virtual false, abstract: false, final false
-  inline void set_UseXPlatformAuth(bool value);
+/// @brief Method set_UseXPlatformAuth, addr 0x22a0aa8, size 0xc, virtual false, abstract: false, final false
+inline void set_UseXPlatformAuth(bool  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr XPlatformAuthFeatureFlag();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr XPlatformAuthFeatureFlag() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "XPlatformAuthFeatureFlag", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  XPlatformAuthFeatureFlag(XPlatformAuthFeatureFlag&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "XPlatformAuthFeatureFlag", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  XPlatformAuthFeatureFlag(XPlatformAuthFeatureFlag const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "XPlatformAuthFeatureFlag", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+XPlatformAuthFeatureFlag(XPlatformAuthFeatureFlag && ) = delete;
 
-  /// @brief Field <UseXPlatformAuth>k__BackingField, offset: 0x10, size: 0x1, def value: None
-  bool ____UseXPlatformAuth_k__BackingField;
+// Ctor Parameters [CppParam { name: "", ty: "XPlatformAuthFeatureFlag", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+XPlatformAuthFeatureFlag(XPlatformAuthFeatureFlag const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field <UseXPlatformAuth>k__BackingField, offset: 0x10, size: 0x1, def value: None
+ bool  ____UseXPlatformAuth_k__BackingField;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::XPlatformAuthFeatureFlag, 0x18>, "Size mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::XPlatformAuthFeatureFlag, ____UseXPlatformAuth_k__BackingField) == 0x10, "Offset mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::XPlatformAuthFeatureFlag);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::XPlatformAuthFeatureFlag*, "", "XPlatformAuthFeatureFlag");

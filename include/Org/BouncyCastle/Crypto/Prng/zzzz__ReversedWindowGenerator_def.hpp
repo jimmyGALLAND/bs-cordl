@@ -17,90 +17,90 @@ class ReversedWindowGenerator;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Crypto::Prng::ReversedWindowGenerator);
 // Type: Org.BouncyCastle.Crypto.Prng::ReversedWindowGenerator
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Crypto::Prng {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Crypto.Prng::ReversedWindowGenerator*
 class CORDL_TYPE ReversedWindowGenerator : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field generator, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_generator, put = __cordl_internal_set_generator))::Org::BouncyCastle::Crypto::Prng::IRandomGenerator* generator;
+// Declarations
+/// @brief Field generator, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_generator, put=__cordl_internal_set_generator)) ::Org::BouncyCastle::Crypto::Prng::IRandomGenerator*  generator;
 
-  /// @brief Field window, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_window, put = __cordl_internal_set_window))::ArrayW<uint8_t, ::Array<uint8_t>*> window;
+/// @brief Field window, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_window, put=__cordl_internal_set_window)) ::ArrayW<uint8_t,::Array<uint8_t>*>  window;
 
-  /// @brief Field windowCount, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get_windowCount, put = __cordl_internal_set_windowCount)) int32_t windowCount;
+/// @brief Field windowCount, offset 0x20, size 0x4 
+ __declspec(property(get=__cordl_internal_get_windowCount, put=__cordl_internal_set_windowCount)) int32_t  windowCount;
 
-  /// @brief Convert operator to "::Org::BouncyCastle::Crypto::Prng::IRandomGenerator"
-  constexpr operator ::Org::BouncyCastle::Crypto::Prng::IRandomGenerator*() noexcept;
+/// @brief Convert operator to "::Org::BouncyCastle::Crypto::Prng::IRandomGenerator"
+constexpr operator  ::Org::BouncyCastle::Crypto::Prng::IRandomGenerator*() noexcept;
 
-  /// @brief Method AddSeedMaterial, addr 0x11b3da8, size 0x134, virtual true, abstract: false, final false
-  inline void AddSeedMaterial(::ArrayW<uint8_t, ::Array<uint8_t>*> seed);
+/// @brief Method AddSeedMaterial, addr 0x237dc24, size 0x134, virtual true, abstract: false, final false
+inline void AddSeedMaterial(::ArrayW<uint8_t,::Array<uint8_t>*>  seed) ;
 
-  /// @brief Method AddSeedMaterial, addr 0x11b3edc, size 0x138, virtual true, abstract: false, final false
-  inline void AddSeedMaterial(int64_t seed);
+/// @brief Method AddSeedMaterial, addr 0x237dd58, size 0x138, virtual true, abstract: false, final false
+inline void AddSeedMaterial(int64_t  seed) ;
 
-  static inline ::Org::BouncyCastle::Crypto::Prng::ReversedWindowGenerator* New_ctor(::Org::BouncyCastle::Crypto::Prng::IRandomGenerator* generator, int32_t windowSize);
+static inline ::Org::BouncyCastle::Crypto::Prng::ReversedWindowGenerator* New_ctor(::Org::BouncyCastle::Crypto::Prng::IRandomGenerator*  generator, int32_t  windowSize) ;
 
-  /// @brief Method NextBytes, addr 0x11b4014, size 0x1c, virtual true, abstract: false, final false
-  inline void NextBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes);
+/// @brief Method NextBytes, addr 0x237de90, size 0x1c, virtual true, abstract: false, final false
+inline void NextBytes(::ArrayW<uint8_t,::Array<uint8_t>*>  bytes) ;
 
-  /// @brief Method NextBytes, addr 0x11b4250, size 0x4, virtual true, abstract: false, final false
-  inline void NextBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t start, int32_t len);
+/// @brief Method NextBytes, addr 0x237e0cc, size 0x4, virtual true, abstract: false, final false
+inline void NextBytes(::ArrayW<uint8_t,::Array<uint8_t>*>  bytes, int32_t  start, int32_t  len) ;
 
-  constexpr ::Org::BouncyCastle::Crypto::Prng::IRandomGenerator*& __cordl_internal_get_generator();
+constexpr ::Org::BouncyCastle::Crypto::Prng::IRandomGenerator*& __cordl_internal_get_generator() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Prng::IRandomGenerator*> const& __cordl_internal_get_generator() const;
+constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Crypto::Prng::IRandomGenerator*> const& __cordl_internal_get_generator() const;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*> const& __cordl_internal_get_window() const;
+constexpr ::ArrayW<uint8_t,::Array<uint8_t>*> const& __cordl_internal_get_window() const;
 
-  constexpr ::ArrayW<uint8_t, ::Array<uint8_t>*>& __cordl_internal_get_window();
+constexpr ::ArrayW<uint8_t,::Array<uint8_t>*>& __cordl_internal_get_window() ;
 
-  constexpr int32_t const& __cordl_internal_get_windowCount() const;
+constexpr int32_t const& __cordl_internal_get_windowCount() const;
 
-  constexpr int32_t& __cordl_internal_get_windowCount();
+constexpr int32_t& __cordl_internal_get_windowCount() ;
 
-  constexpr void __cordl_internal_set_generator(::Org::BouncyCastle::Crypto::Prng::IRandomGenerator* value);
+constexpr void __cordl_internal_set_generator(::Org::BouncyCastle::Crypto::Prng::IRandomGenerator*  value) ;
 
-  constexpr void __cordl_internal_set_window(::ArrayW<uint8_t, ::Array<uint8_t>*> value);
+constexpr void __cordl_internal_set_window(::ArrayW<uint8_t,::Array<uint8_t>*>  value) ;
 
-  constexpr void __cordl_internal_set_windowCount(int32_t value);
+constexpr void __cordl_internal_set_windowCount(int32_t  value) ;
 
-  /// @brief Method .ctor, addr 0x11b3c94, size 0x114, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Crypto::Prng::IRandomGenerator* generator, int32_t windowSize);
+/// @brief Method .ctor, addr 0x237db18, size 0x10c, virtual false, abstract: false, final false
+inline void _ctor(::Org::BouncyCastle::Crypto::Prng::IRandomGenerator*  generator, int32_t  windowSize) ;
 
-  /// @brief Method doNextBytes, addr 0x11b4030, size 0x220, virtual false, abstract: false, final false
-  inline void doNextBytes(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t start, int32_t len);
+/// @brief Method doNextBytes, addr 0x237deac, size 0x220, virtual false, abstract: false, final false
+inline void doNextBytes(::ArrayW<uint8_t,::Array<uint8_t>*>  bytes, int32_t  start, int32_t  len) ;
 
-  /// @brief Convert to "::Org::BouncyCastle::Crypto::Prng::IRandomGenerator"
-  constexpr ::Org::BouncyCastle::Crypto::Prng::IRandomGenerator* i___Org__BouncyCastle__Crypto__Prng__IRandomGenerator() noexcept;
+/// @brief Convert to "::Org::BouncyCastle::Crypto::Prng::IRandomGenerator"
+constexpr ::Org::BouncyCastle::Crypto::Prng::IRandomGenerator* i___Org__BouncyCastle__Crypto__Prng__IRandomGenerator() noexcept;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ReversedWindowGenerator();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ReversedWindowGenerator() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ReversedWindowGenerator", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ReversedWindowGenerator(ReversedWindowGenerator&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ReversedWindowGenerator", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ReversedWindowGenerator(ReversedWindowGenerator const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ReversedWindowGenerator", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ReversedWindowGenerator(ReversedWindowGenerator && ) = delete;
 
-  /// @brief Field generator, offset: 0x10, size: 0x8, def value: None
-  ::Org::BouncyCastle::Crypto::Prng::IRandomGenerator* ___generator;
+// Ctor Parameters [CppParam { name: "", ty: "ReversedWindowGenerator", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ReversedWindowGenerator(ReversedWindowGenerator const& ) = delete;
 
-  /// @brief Field window, offset: 0x18, size: 0x8, def value: None
-  ::ArrayW<uint8_t, ::Array<uint8_t>*> ___window;
+/// @brief Field generator, offset: 0x10, size: 0x8, def value: None
+ ::Org::BouncyCastle::Crypto::Prng::IRandomGenerator*  ___generator;
 
-  /// @brief Field windowCount, offset: 0x20, size: 0x4, def value: None
-  int32_t ___windowCount;
+/// @brief Field window, offset: 0x18, size: 0x8, def value: None
+ ::ArrayW<uint8_t,::Array<uint8_t>*>  ___window;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field windowCount, offset: 0x20, size: 0x4, def value: None
+ int32_t  ___windowCount;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Crypto::Prng::ReversedWindowGenerator, 0x28>, "Size mismatch!");
@@ -111,6 +111,6 @@ static_assert(offsetof(::Org::BouncyCastle::Crypto::Prng::ReversedWindowGenerato
 
 static_assert(offsetof(::Org::BouncyCastle::Crypto::Prng::ReversedWindowGenerator, ___windowCount) == 0x20, "Offset mismatch!");
 
-} // namespace Org::BouncyCastle::Crypto::Prng
+} // namespace end def Org::BouncyCastle::Crypto::Prng
 NEED_NO_BOX(::Org::BouncyCastle::Crypto::Prng::ReversedWindowGenerator);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Crypto::Prng::ReversedWindowGenerator*, "Org.BouncyCastle.Crypto.Prng", "ReversedWindowGenerator");

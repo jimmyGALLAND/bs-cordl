@@ -27,78 +27,78 @@ class ProtectedPart;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::Cmp::ProtectedPart);
 // Type: Org.BouncyCastle.Asn1.Cmp::ProtectedPart
-// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 32, native_size: -1, calculated_instance_size: 32, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::Cmp {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Asn1.Cmp::ProtectedPart*
 class CORDL_TYPE ProtectedPart : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
-  // Declarations
-  __declspec(property(get = get_Body))::Org::BouncyCastle::Asn1::Cmp::PkiBody* Body;
+// Declarations
+ __declspec(property(get=get_Body)) ::Org::BouncyCastle::Asn1::Cmp::PkiBody*  Body;
 
-  __declspec(property(get = get_Header))::Org::BouncyCastle::Asn1::Cmp::PkiHeader* Header;
+ __declspec(property(get=get_Header)) ::Org::BouncyCastle::Asn1::Cmp::PkiHeader*  Header;
 
-  /// @brief Field body, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_body, put = __cordl_internal_set_body))::Org::BouncyCastle::Asn1::Cmp::PkiBody* body;
+/// @brief Field body, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_body, put=__cordl_internal_set_body)) ::Org::BouncyCastle::Asn1::Cmp::PkiBody*  body;
 
-  /// @brief Field header, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_header, put = __cordl_internal_set_header))::Org::BouncyCastle::Asn1::Cmp::PkiHeader* header;
+/// @brief Field header, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_header, put=__cordl_internal_set_header)) ::Org::BouncyCastle::Asn1::Cmp::PkiHeader*  header;
 
-  /// @brief Method GetInstance, addr 0x10df5bc, size 0x188, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Asn1::Cmp::ProtectedPart* GetInstance(::System::Object* obj);
+/// @brief Method GetInstance, addr 0x22b0d74, size 0x17c, virtual false, abstract: false, final false
+static inline ::Org::BouncyCastle::Asn1::Cmp::ProtectedPart* GetInstance(::System::Object*  obj) ;
 
-  static inline ::Org::BouncyCastle::Asn1::Cmp::ProtectedPart* New_ctor(::Org::BouncyCastle::Asn1::Cmp::PkiHeader* header, ::Org::BouncyCastle::Asn1::Cmp::PkiBody* body);
+static inline ::Org::BouncyCastle::Asn1::Cmp::ProtectedPart* New_ctor(::Org::BouncyCastle::Asn1::Cmp::PkiHeader*  header, ::Org::BouncyCastle::Asn1::Cmp::PkiBody*  body) ;
 
-  static inline ::Org::BouncyCastle::Asn1::Cmp::ProtectedPart* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
+static inline ::Org::BouncyCastle::Asn1::Cmp::ProtectedPart* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence*  seq) ;
 
-  /// @brief Method ToAsn1Object, addr 0x10df780, size 0xf0, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
+/// @brief Method ToAsn1Object, addr 0x22b0f2c, size 0xec, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object() ;
 
-  constexpr ::Org::BouncyCastle::Asn1::Cmp::PkiBody*& __cordl_internal_get_body();
+constexpr ::Org::BouncyCastle::Asn1::Cmp::PkiBody*& __cordl_internal_get_body() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cmp::PkiBody*> const& __cordl_internal_get_body() const;
+constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cmp::PkiBody*> const& __cordl_internal_get_body() const;
 
-  constexpr ::Org::BouncyCastle::Asn1::Cmp::PkiHeader*& __cordl_internal_get_header();
+constexpr ::Org::BouncyCastle::Asn1::Cmp::PkiHeader*& __cordl_internal_get_header() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cmp::PkiHeader*> const& __cordl_internal_get_header() const;
+constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Cmp::PkiHeader*> const& __cordl_internal_get_header() const;
 
-  constexpr void __cordl_internal_set_body(::Org::BouncyCastle::Asn1::Cmp::PkiBody* value);
+constexpr void __cordl_internal_set_body(::Org::BouncyCastle::Asn1::Cmp::PkiBody*  value) ;
 
-  constexpr void __cordl_internal_set_header(::Org::BouncyCastle::Asn1::Cmp::PkiHeader* value);
+constexpr void __cordl_internal_set_header(::Org::BouncyCastle::Asn1::Cmp::PkiHeader*  value) ;
 
-  /// @brief Method .ctor, addr 0x10df744, size 0x2c, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Asn1::Cmp::PkiHeader* header, ::Org::BouncyCastle::Asn1::Cmp::PkiBody* body);
+/// @brief Method .ctor, addr 0x22b0ef0, size 0x2c, virtual false, abstract: false, final false
+inline void _ctor(::Org::BouncyCastle::Asn1::Cmp::PkiHeader*  header, ::Org::BouncyCastle::Asn1::Cmp::PkiBody*  body) ;
 
-  /// @brief Method .ctor, addr 0x10df510, size 0xac, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
+/// @brief Method .ctor, addr 0x22b0cc8, size 0xac, virtual false, abstract: false, final false
+inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence*  seq) ;
 
-  /// @brief Method get_Body, addr 0x10df778, size 0x8, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Cmp::PkiBody* get_Body();
+/// @brief Method get_Body, addr 0x22b0f24, size 0x8, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Asn1::Cmp::PkiBody* get_Body() ;
 
-  /// @brief Method get_Header, addr 0x10df770, size 0x8, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Cmp::PkiHeader* get_Header();
+/// @brief Method get_Header, addr 0x22b0f1c, size 0x8, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Asn1::Cmp::PkiHeader* get_Header() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ProtectedPart();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ProtectedPart() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ProtectedPart", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ProtectedPart(ProtectedPart&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ProtectedPart", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ProtectedPart(ProtectedPart const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ProtectedPart", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ProtectedPart(ProtectedPart && ) = delete;
 
-  /// @brief Field header, offset: 0x10, size: 0x8, def value: None
-  ::Org::BouncyCastle::Asn1::Cmp::PkiHeader* ___header;
+// Ctor Parameters [CppParam { name: "", ty: "ProtectedPart", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ProtectedPart(ProtectedPart const& ) = delete;
 
-  /// @brief Field body, offset: 0x18, size: 0x8, def value: None
-  ::Org::BouncyCastle::Asn1::Cmp::PkiBody* ___body;
+/// @brief Field header, offset: 0x10, size: 0x8, def value: None
+ ::Org::BouncyCastle::Asn1::Cmp::PkiHeader*  ___header;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field body, offset: 0x18, size: 0x8, def value: None
+ ::Org::BouncyCastle::Asn1::Cmp::PkiBody*  ___body;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::Cmp::ProtectedPart, 0x20>, "Size mismatch!");
@@ -107,6 +107,6 @@ static_assert(offsetof(::Org::BouncyCastle::Asn1::Cmp::ProtectedPart, ___header)
 
 static_assert(offsetof(::Org::BouncyCastle::Asn1::Cmp::ProtectedPart, ___body) == 0x18, "Offset mismatch!");
 
-} // namespace Org::BouncyCastle::Asn1::Cmp
+} // namespace end def Org::BouncyCastle::Asn1::Cmp
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::Cmp::ProtectedPart);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::Cmp::ProtectedPart*, "Org.BouncyCastle.Asn1.Cmp", "ProtectedPart");

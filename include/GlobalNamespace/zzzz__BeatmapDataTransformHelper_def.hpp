@@ -4,14 +4,10 @@
 #include "../cordl_internals/cordl_internals.hpp"
 CORDL_MODULE_INIT
 #include "System/zzzz__Object_def.hpp"
-#include <cmath>
-#include <cstdint>
+#include "beatsaber-hook/shared/utils/byref.hpp"
 CORDL_MODULE_EXPORT(BeatmapDataTransformHelper)
-namespace BeatSaber::PerformancePresets {
-class PerformancePreset;
-}
-namespace GlobalNamespace {
-class BeatmapData;
+namespace BeatSaber::Settings {
+struct Settings;
 }
 namespace GlobalNamespace {
 class BeatmapLevel;
@@ -28,12 +24,6 @@ class GameplayModifiers;
 namespace GlobalNamespace {
 class IReadonlyBeatmapData;
 }
-namespace GlobalNamespace {
-struct NoteCutDirection;
-}
-namespace GlobalNamespace {
-struct NoteLineLayer;
-}
 // Forward declare root types
 namespace GlobalNamespace {
 class BeatmapDataTransformHelper;
@@ -41,52 +31,38 @@ class BeatmapDataTransformHelper;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::BeatmapDataTransformHelper);
 // Type: ::BeatmapDataTransformHelper
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::BeatmapDataTransformHelper*
 class CORDL_TYPE BeatmapDataTransformHelper : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method AddTestBurstSlider, addr 0x14ab344, size 0xec, virtual false, abstract: false, final false
-  static inline void AddTestBurstSlider(float_t time, float_t duration, int32_t headLineIndex, ::GlobalNamespace::NoteLineLayer headNoteLineLayer, ::GlobalNamespace::NoteCutDirection headCutDirection,
-                                        int32_t tailLineIndex, ::GlobalNamespace::NoteLineLayer tailNoteLineLayer, ::GlobalNamespace::NoteCutDirection tailCutDirection, int32_t sliceCount,
-                                        float_t squishAmount, ::GlobalNamespace::BeatmapData* beatmapData);
+// Declarations
+/// @brief Method CreateTransformedBeatmapData, addr 0x266055c, size 0x14c, virtual false, abstract: false, final false
+static inline ::GlobalNamespace::IReadonlyBeatmapData* CreateTransformedBeatmapData(::GlobalNamespace::IReadonlyBeatmapData*  beatmapData, ::GlobalNamespace::BeatmapLevel*  beatmapLevel, ::GlobalNamespace::GameplayModifiers*  gameplayModifiers, bool  leftHanded, ::GlobalNamespace::EnvironmentEffectsFilterPreset  environmentEffectsFilterPreset, ::GlobalNamespace::EnvironmentIntensityReductionOptions*  environmentIntensityReductionOptions, ByRef<::BeatSaber::Settings::Settings>  settings) ;
 
-  /// @brief Method AddTestSlider, addr 0x14ab430, size 0x188, virtual false, abstract: false, final false
-  static inline void AddTestSlider(float_t time, float_t duration, int32_t headLineIndex, ::GlobalNamespace::NoteLineLayer headNoteLineLayer, ::GlobalNamespace::NoteCutDirection headCutDirection,
-                                   float_t headControlPointLength, int32_t tailLineIndex, ::GlobalNamespace::NoteLineLayer tailNoteLineLayer, ::GlobalNamespace::NoteCutDirection tailCutDirection,
-                                   float_t tailControlPointLength, bool hasHeadNote, bool hasTailNote, ::GlobalNamespace::BeatmapData* beatmapData);
-
-  /// @brief Method CreateTransformedBeatmapData, addr 0x14ab0fc, size 0x150, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::IReadonlyBeatmapData* CreateTransformedBeatmapData(::GlobalNamespace::IReadonlyBeatmapData* beatmapData, ::GlobalNamespace::BeatmapLevel* beatmapLevel,
-                                                                                      ::GlobalNamespace::GameplayModifiers* gameplayModifiers, bool leftHanded,
-                                                                                      ::GlobalNamespace::EnvironmentEffectsFilterPreset environmentEffectsFilterPreset,
-                                                                                      ::GlobalNamespace::EnvironmentIntensityReductionOptions* environmentIntensityReductionOptions,
-                                                                                      ::BeatSaber::PerformancePresets::PerformancePreset* performancePreset);
-
-  /// @brief Method IsObstaclesMergingNeeded, addr 0x14ab338, size 0xc, virtual false, abstract: false, final false
-  static inline bool IsObstaclesMergingNeeded(::GlobalNamespace::BeatmapLevel* beatmapLevel, bool screenDisplacementEffectsEnabled);
+/// @brief Method IsObstaclesMergingNeeded, addr 0x2660798, size 0xc, virtual false, abstract: false, final false
+static inline bool IsObstaclesMergingNeeded(::GlobalNamespace::BeatmapLevel*  beatmapLevel, bool  screenDisplacementEffectsEnabled) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr BeatmapDataTransformHelper();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr BeatmapDataTransformHelper() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataTransformHelper", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  BeatmapDataTransformHelper(BeatmapDataTransformHelper&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "BeatmapDataTransformHelper", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  BeatmapDataTransformHelper(BeatmapDataTransformHelper const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "BeatmapDataTransformHelper", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+BeatmapDataTransformHelper(BeatmapDataTransformHelper && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "BeatmapDataTransformHelper", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+BeatmapDataTransformHelper(BeatmapDataTransformHelper const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::BeatmapDataTransformHelper, 0x10>, "Size mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::BeatmapDataTransformHelper);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::BeatmapDataTransformHelper*, "", "BeatmapDataTransformHelper");

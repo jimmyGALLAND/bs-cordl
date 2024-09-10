@@ -13,67 +13,67 @@ class LingerOption;
 // Write type traits
 MARK_REF_PTR_T(::System::Net::Sockets::LingerOption);
 // Type: System.Net.Sockets::LingerOption
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net::Sockets {
 // Is value type: false
 // CS Name: ::System.Net.Sockets::LingerOption*
 class CORDL_TYPE LingerOption : public ::System::Object {
 public:
-  // Declarations
-  __declspec(property(put = set_Enabled)) bool Enabled;
+// Declarations
+ __declspec(property(put=set_Enabled)) bool  Enabled;
 
-  __declspec(property(put = set_LingerTime)) int32_t LingerTime;
+ __declspec(property(put=set_LingerTime)) int32_t  LingerTime;
 
-  /// @brief Field enabled, offset 0x10, size 0x1
-  __declspec(property(get = __cordl_internal_get_enabled, put = __cordl_internal_set_enabled)) bool enabled;
+/// @brief Field enabled, offset 0x10, size 0x1 
+ __declspec(property(get=__cordl_internal_get_enabled, put=__cordl_internal_set_enabled)) bool  enabled;
 
-  /// @brief Field lingerTime, offset 0x14, size 0x4
-  __declspec(property(get = __cordl_internal_get_lingerTime, put = __cordl_internal_set_lingerTime)) int32_t lingerTime;
+/// @brief Field lingerTime, offset 0x14, size 0x4 
+ __declspec(property(get=__cordl_internal_get_lingerTime, put=__cordl_internal_set_lingerTime)) int32_t  lingerTime;
 
-  static inline ::System::Net::Sockets::LingerOption* New_ctor(bool enable, int32_t seconds);
+static inline ::System::Net::Sockets::LingerOption* New_ctor(bool  enable, int32_t  seconds) ;
 
-  constexpr bool const& __cordl_internal_get_enabled() const;
+constexpr bool const& __cordl_internal_get_enabled() const;
 
-  constexpr bool& __cordl_internal_get_enabled();
+constexpr bool& __cordl_internal_get_enabled() ;
 
-  constexpr int32_t const& __cordl_internal_get_lingerTime() const;
+constexpr int32_t const& __cordl_internal_get_lingerTime() const;
 
-  constexpr int32_t& __cordl_internal_get_lingerTime();
+constexpr int32_t& __cordl_internal_get_lingerTime() ;
 
-  constexpr void __cordl_internal_set_enabled(bool value);
+constexpr void __cordl_internal_set_enabled(bool  value) ;
 
-  constexpr void __cordl_internal_set_lingerTime(int32_t value);
+constexpr void __cordl_internal_set_lingerTime(int32_t  value) ;
 
-  /// @brief Method .ctor, addr 0x2f57a94, size 0x34, virtual false, abstract: false, final false
-  inline void _ctor(bool enable, int32_t seconds);
+/// @brief Method .ctor, addr 0x436e46c, size 0x34, virtual false, abstract: false, final false
+inline void _ctor(bool  enable, int32_t  seconds) ;
 
-  /// @brief Method set_Enabled, addr 0x2f57ac8, size 0xc, virtual false, abstract: false, final false
-  inline void set_Enabled(bool value);
+/// @brief Method set_Enabled, addr 0x436e4a0, size 0xc, virtual false, abstract: false, final false
+inline void set_Enabled(bool  value) ;
 
-  /// @brief Method set_LingerTime, addr 0x2f57ad4, size 0x8, virtual false, abstract: false, final false
-  inline void set_LingerTime(int32_t value);
+/// @brief Method set_LingerTime, addr 0x436e4ac, size 0x8, virtual false, abstract: false, final false
+inline void set_LingerTime(int32_t  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LingerOption();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr LingerOption() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LingerOption", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  LingerOption(LingerOption&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LingerOption", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  LingerOption(LingerOption const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "LingerOption", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+LingerOption(LingerOption && ) = delete;
 
-  /// @brief Field enabled, offset: 0x10, size: 0x1, def value: None
-  bool ___enabled;
+// Ctor Parameters [CppParam { name: "", ty: "LingerOption", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+LingerOption(LingerOption const& ) = delete;
 
-  /// @brief Field lingerTime, offset: 0x14, size: 0x4, def value: None
-  int32_t ___lingerTime;
+/// @brief Field enabled, offset: 0x10, size: 0x1, def value: None
+ bool  ___enabled;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field lingerTime, offset: 0x14, size: 0x4, def value: None
+ int32_t  ___lingerTime;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::Sockets::LingerOption, 0x18>, "Size mismatch!");
@@ -82,6 +82,6 @@ static_assert(offsetof(::System::Net::Sockets::LingerOption, ___enabled) == 0x10
 
 static_assert(offsetof(::System::Net::Sockets::LingerOption, ___lingerTime) == 0x14, "Offset mismatch!");
 
-} // namespace System::Net::Sockets
+} // namespace end def System::Net::Sockets
 NEED_NO_BOX(::System::Net::Sockets::LingerOption);
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::Sockets::LingerOption*, "System.Net.Sockets", "LingerOption");

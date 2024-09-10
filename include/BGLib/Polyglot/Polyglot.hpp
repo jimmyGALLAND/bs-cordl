@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "BGLib/Polyglot/CsvReader.hpp"
 #include "BGLib/Polyglot/CsvWriter.hpp"
@@ -25,5 +25,6 @@ module;
 #include "BGLib/Polyglot/SaveLanguagePreference.hpp"
 #include "BGLib/Polyglot/TsvReader.hpp"
 #ifdef __cpp_modules
-export module Polyglot;
-#endif
+                    export module Polyglot;
+                    #endif
+                

@@ -32,144 +32,144 @@ class SymbolsDictionary;
 // Write type traits
 MARK_REF_PTR_T(::System::Xml::Schema::SymbolsDictionary);
 // Type: System.Xml.Schema::SymbolsDictionary
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 57, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 57, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Xml::Schema {
 // Is value type: false
 // CS Name: ::System.Xml.Schema::SymbolsDictionary*
 class CORDL_TYPE SymbolsDictionary : public ::System::Object {
 public:
-  // Declarations
-  __declspec(property(get = get_Count)) int32_t Count;
+// Declarations
+ __declspec(property(get=get_Count)) int32_t  Count;
 
-  __declspec(property(get = get_IsUpaEnforced, put = set_IsUpaEnforced)) bool IsUpaEnforced;
+ __declspec(property(get=get_IsUpaEnforced, put=set_IsUpaEnforced)) bool  IsUpaEnforced;
 
-  __declspec(property(get = get_Item)) int32_t Item[];
+ __declspec(property(get=get_Item)) int32_t  Item[];
 
-  /// @brief Field isUpaEnforced, offset 0x38, size 0x1
-  __declspec(property(get = __cordl_internal_get_isUpaEnforced, put = __cordl_internal_set_isUpaEnforced)) bool isUpaEnforced;
+/// @brief Field isUpaEnforced, offset 0x38, size 0x1 
+ __declspec(property(get=__cordl_internal_get_isUpaEnforced, put=__cordl_internal_set_isUpaEnforced)) bool  isUpaEnforced;
 
-  /// @brief Field last, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_last, put = __cordl_internal_set_last)) int32_t last;
+/// @brief Field last, offset 0x10, size 0x4 
+ __declspec(property(get=__cordl_internal_get_last, put=__cordl_internal_set_last)) int32_t  last;
 
-  /// @brief Field names, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_names, put = __cordl_internal_set_names))::System::Collections::Hashtable* names;
+/// @brief Field names, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_names, put=__cordl_internal_set_names)) ::System::Collections::Hashtable*  names;
 
-  /// @brief Field particleLast, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_particleLast, put = __cordl_internal_set_particleLast))::System::Object* particleLast;
+/// @brief Field particleLast, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get_particleLast, put=__cordl_internal_set_particleLast)) ::System::Object*  particleLast;
 
-  /// @brief Field particles, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_particles, put = __cordl_internal_set_particles))::System::Collections::ArrayList* particles;
+/// @brief Field particles, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get_particles, put=__cordl_internal_set_particles)) ::System::Collections::ArrayList*  particles;
 
-  /// @brief Field wildcards, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_wildcards, put = __cordl_internal_set_wildcards))::System::Collections::Hashtable* wildcards;
+/// @brief Field wildcards, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get_wildcards, put=__cordl_internal_set_wildcards)) ::System::Collections::Hashtable*  wildcards;
 
-  /// @brief Method AddName, addr 0x2f2702c, size 0x134, virtual false, abstract: false, final false
-  inline int32_t AddName(::System::Xml::XmlQualifiedName* name, ::System::Object* particle);
+/// @brief Method AddName, addr 0x43084ec, size 0x134, virtual false, abstract: false, final false
+inline int32_t AddName(::System::Xml::XmlQualifiedName*  name, ::System::Object*  particle) ;
 
-  /// @brief Method AddNamespaceList, addr 0x2f27160, size 0x39c, virtual false, abstract: false, final false
-  inline void AddNamespaceList(::System::Xml::Schema::NamespaceList* list, ::System::Object* particle, bool allowLocal);
+/// @brief Method AddNamespaceList, addr 0x4308620, size 0x3a0, virtual false, abstract: false, final false
+inline void AddNamespaceList(::System::Xml::Schema::NamespaceList*  list, ::System::Object*  particle, bool  allowLocal) ;
 
-  /// @brief Method AddWildcard, addr 0x2f274fc, size 0x168, virtual false, abstract: false, final false
-  inline void AddWildcard(::StringW wildcard, ::System::Object* particle);
+/// @brief Method AddWildcard, addr 0x43089c0, size 0x164, virtual false, abstract: false, final false
+inline void AddWildcard(::StringW  wildcard, ::System::Object*  particle) ;
 
-  /// @brief Method Exists, addr 0x2f27eac, size 0x30, virtual false, abstract: false, final false
-  inline bool Exists(::System::Xml::XmlQualifiedName* name);
+/// @brief Method Exists, addr 0x4309380, size 0x30, virtual false, abstract: false, final false
+inline bool Exists(::System::Xml::XmlQualifiedName*  name) ;
 
-  /// @brief Method GetNamespaceListSymbols, addr 0x2f27664, size 0x790, virtual false, abstract: false, final false
-  inline ::System::Collections::ICollection* GetNamespaceListSymbols(::System::Xml::Schema::NamespaceList* list);
+/// @brief Method GetNamespaceListSymbols, addr 0x4308b24, size 0x7a4, virtual false, abstract: false, final false
+inline ::System::Collections::ICollection* GetNamespaceListSymbols(::System::Xml::Schema::NamespaceList*  list) ;
 
-  /// @brief Method GetParticle, addr 0x2f27edc, size 0x3c, virtual false, abstract: false, final false
-  inline ::System::Object* GetParticle(int32_t symbol);
+/// @brief Method GetParticle, addr 0x43093b0, size 0x3c, virtual false, abstract: false, final false
+inline ::System::Object* GetParticle(int32_t  symbol) ;
 
-  /// @brief Method NameOf, addr 0x2f27f18, size 0x710, virtual false, abstract: false, final false
-  inline ::StringW NameOf(int32_t symbol);
+/// @brief Method NameOf, addr 0x43093ec, size 0x6d4, virtual false, abstract: false, final false
+inline ::StringW NameOf(int32_t  symbol) ;
 
-  static inline ::System::Xml::Schema::SymbolsDictionary* New_ctor();
+static inline ::System::Xml::Schema::SymbolsDictionary* New_ctor() ;
 
-  constexpr bool const& __cordl_internal_get_isUpaEnforced() const;
+constexpr bool const& __cordl_internal_get_isUpaEnforced() const;
 
-  constexpr bool& __cordl_internal_get_isUpaEnforced();
+constexpr bool& __cordl_internal_get_isUpaEnforced() ;
 
-  constexpr int32_t const& __cordl_internal_get_last() const;
+constexpr int32_t const& __cordl_internal_get_last() const;
 
-  constexpr int32_t& __cordl_internal_get_last();
+constexpr int32_t& __cordl_internal_get_last() ;
 
-  constexpr ::System::Collections::Hashtable*& __cordl_internal_get_names();
+constexpr ::System::Collections::Hashtable*& __cordl_internal_get_names() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __cordl_internal_get_names() const;
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __cordl_internal_get_names() const;
 
-  constexpr ::System::Object*& __cordl_internal_get_particleLast();
+constexpr ::System::Object*& __cordl_internal_get_particleLast() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_particleLast() const;
+constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_particleLast() const;
 
-  constexpr ::System::Collections::ArrayList*& __cordl_internal_get_particles();
+constexpr ::System::Collections::ArrayList*& __cordl_internal_get_particles() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& __cordl_internal_get_particles() const;
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& __cordl_internal_get_particles() const;
 
-  constexpr ::System::Collections::Hashtable*& __cordl_internal_get_wildcards();
+constexpr ::System::Collections::Hashtable*& __cordl_internal_get_wildcards() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __cordl_internal_get_wildcards() const;
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __cordl_internal_get_wildcards() const;
 
-  constexpr void __cordl_internal_set_isUpaEnforced(bool value);
+constexpr void __cordl_internal_set_isUpaEnforced(bool  value) ;
 
-  constexpr void __cordl_internal_set_last(int32_t value);
+constexpr void __cordl_internal_set_last(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_names(::System::Collections::Hashtable* value);
+constexpr void __cordl_internal_set_names(::System::Collections::Hashtable*  value) ;
 
-  constexpr void __cordl_internal_set_particleLast(::System::Object* value);
+constexpr void __cordl_internal_set_particleLast(::System::Object*  value) ;
 
-  constexpr void __cordl_internal_set_particles(::System::Collections::ArrayList* value);
+constexpr void __cordl_internal_set_particles(::System::Collections::ArrayList*  value) ;
 
-  constexpr void __cordl_internal_set_wildcards(::System::Collections::Hashtable* value);
+constexpr void __cordl_internal_set_wildcards(::System::Collections::Hashtable*  value) ;
 
-  /// @brief Method .ctor, addr 0x2f26f68, size 0xa4, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x430842c, size 0xa0, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_Count, addr 0x2f2700c, size 0xc, virtual false, abstract: false, final false
-  inline int32_t get_Count();
+/// @brief Method get_Count, addr 0x43084cc, size 0xc, virtual false, abstract: false, final false
+inline int32_t get_Count() ;
 
-  /// @brief Method get_IsUpaEnforced, addr 0x2f27018, size 0x8, virtual false, abstract: false, final false
-  inline bool get_IsUpaEnforced();
+/// @brief Method get_IsUpaEnforced, addr 0x43084d8, size 0x8, virtual false, abstract: false, final false
+inline bool get_IsUpaEnforced() ;
 
-  /// @brief Method get_Item, addr 0x2f27df4, size 0xb8, virtual false, abstract: false, final false
-  inline int32_t get_Item(::System::Xml::XmlQualifiedName* name);
+/// @brief Method get_Item, addr 0x43092c8, size 0xb8, virtual false, abstract: false, final false
+inline int32_t get_Item(::System::Xml::XmlQualifiedName*  name) ;
 
-  /// @brief Method set_IsUpaEnforced, addr 0x2f27020, size 0xc, virtual false, abstract: false, final false
-  inline void set_IsUpaEnforced(bool value);
+/// @brief Method set_IsUpaEnforced, addr 0x43084e0, size 0xc, virtual false, abstract: false, final false
+inline void set_IsUpaEnforced(bool  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SymbolsDictionary();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr SymbolsDictionary() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SymbolsDictionary", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  SymbolsDictionary(SymbolsDictionary&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SymbolsDictionary", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  SymbolsDictionary(SymbolsDictionary const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "SymbolsDictionary", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+SymbolsDictionary(SymbolsDictionary && ) = delete;
 
-  /// @brief Field last, offset: 0x10, size: 0x4, def value: None
-  int32_t ___last;
+// Ctor Parameters [CppParam { name: "", ty: "SymbolsDictionary", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+SymbolsDictionary(SymbolsDictionary const& ) = delete;
 
-  /// @brief Field names, offset: 0x18, size: 0x8, def value: None
-  ::System::Collections::Hashtable* ___names;
+/// @brief Field last, offset: 0x10, size: 0x4, def value: None
+ int32_t  ___last;
 
-  /// @brief Field wildcards, offset: 0x20, size: 0x8, def value: None
-  ::System::Collections::Hashtable* ___wildcards;
+/// @brief Field names, offset: 0x18, size: 0x8, def value: None
+ ::System::Collections::Hashtable*  ___names;
 
-  /// @brief Field particles, offset: 0x28, size: 0x8, def value: None
-  ::System::Collections::ArrayList* ___particles;
+/// @brief Field wildcards, offset: 0x20, size: 0x8, def value: None
+ ::System::Collections::Hashtable*  ___wildcards;
 
-  /// @brief Field particleLast, offset: 0x30, size: 0x8, def value: None
-  ::System::Object* ___particleLast;
+/// @brief Field particles, offset: 0x28, size: 0x8, def value: None
+ ::System::Collections::ArrayList*  ___particles;
 
-  /// @brief Field isUpaEnforced, offset: 0x38, size: 0x1, def value: None
-  bool ___isUpaEnforced;
+/// @brief Field particleLast, offset: 0x30, size: 0x8, def value: None
+ ::System::Object*  ___particleLast;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field isUpaEnforced, offset: 0x38, size: 0x1, def value: None
+ bool  ___isUpaEnforced;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Xml::Schema::SymbolsDictionary, 0x40>, "Size mismatch!");
@@ -186,6 +186,6 @@ static_assert(offsetof(::System::Xml::Schema::SymbolsDictionary, ___particleLast
 
 static_assert(offsetof(::System::Xml::Schema::SymbolsDictionary, ___isUpaEnforced) == 0x38, "Offset mismatch!");
 
-} // namespace System::Xml::Schema
+} // namespace end def System::Xml::Schema
 NEED_NO_BOX(::System::Xml::Schema::SymbolsDictionary);
 DEFINE_IL2CPP_ARG_TYPE(::System::Xml::Schema::SymbolsDictionary*, "System.Xml.Schema", "SymbolsDictionary");

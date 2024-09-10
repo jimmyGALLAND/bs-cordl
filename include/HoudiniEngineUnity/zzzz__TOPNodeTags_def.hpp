@@ -12,57 +12,57 @@ class TOPNodeTags;
 // Write type traits
 MARK_REF_PTR_T(::HoudiniEngineUnity::TOPNodeTags);
 // Type: HoudiniEngineUnity::TOPNodeTags
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 18, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 18, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
 // CS Name: ::HoudiniEngineUnity::TOPNodeTags*
 class CORDL_TYPE TOPNodeTags : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field _autoload, offset 0x11, size 0x1
-  __declspec(property(get = __cordl_internal_get__autoload, put = __cordl_internal_set__autoload)) bool _autoload;
+// Declarations
+/// @brief Field _autoload, offset 0x11, size 0x1 
+ __declspec(property(get=__cordl_internal_get__autoload, put=__cordl_internal_set__autoload)) bool  _autoload;
 
-  /// @brief Field _show, offset 0x10, size 0x1
-  __declspec(property(get = __cordl_internal_get__show, put = __cordl_internal_set__show)) bool _show;
+/// @brief Field _show, offset 0x10, size 0x1 
+ __declspec(property(get=__cordl_internal_get__show, put=__cordl_internal_set__show)) bool  _show;
 
-  static inline ::HoudiniEngineUnity::TOPNodeTags* New_ctor();
+static inline ::HoudiniEngineUnity::TOPNodeTags* New_ctor() ;
 
-  constexpr bool const& __cordl_internal_get__autoload() const;
+constexpr bool const& __cordl_internal_get__autoload() const;
 
-  constexpr bool& __cordl_internal_get__autoload();
+constexpr bool& __cordl_internal_get__autoload() ;
 
-  constexpr bool const& __cordl_internal_get__show() const;
+constexpr bool const& __cordl_internal_get__show() const;
 
-  constexpr bool& __cordl_internal_get__show();
+constexpr bool& __cordl_internal_get__show() ;
 
-  constexpr void __cordl_internal_set__autoload(bool value);
+constexpr void __cordl_internal_set__autoload(bool  value) ;
 
-  constexpr void __cordl_internal_set__show(bool value);
+constexpr void __cordl_internal_set__show(bool  value) ;
 
-  /// @brief Method .ctor, addr 0x25ab7cc, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x39cd9f4, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TOPNodeTags();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr TOPNodeTags() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TOPNodeTags", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  TOPNodeTags(TOPNodeTags&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TOPNodeTags", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  TOPNodeTags(TOPNodeTags const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "TOPNodeTags", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+TOPNodeTags(TOPNodeTags && ) = delete;
 
-  /// @brief Field _show, offset: 0x10, size: 0x1, def value: None
-  bool ____show;
+// Ctor Parameters [CppParam { name: "", ty: "TOPNodeTags", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+TOPNodeTags(TOPNodeTags const& ) = delete;
 
-  /// @brief Field _autoload, offset: 0x11, size: 0x1, def value: None
-  bool ____autoload;
+/// @brief Field _show, offset: 0x10, size: 0x1, def value: None
+ bool  ____show;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _autoload, offset: 0x11, size: 0x1, def value: None
+ bool  ____autoload;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::TOPNodeTags, 0x18>, "Size mismatch!");
@@ -71,6 +71,6 @@ static_assert(offsetof(::HoudiniEngineUnity::TOPNodeTags, ____show) == 0x10, "Of
 
 static_assert(offsetof(::HoudiniEngineUnity::TOPNodeTags, ____autoload) == 0x11, "Offset mismatch!");
 
-} // namespace HoudiniEngineUnity
+} // namespace end def HoudiniEngineUnity
 NEED_NO_BOX(::HoudiniEngineUnity::TOPNodeTags);
 DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::TOPNodeTags*, "HoudiniEngineUnity", "TOPNodeTags");

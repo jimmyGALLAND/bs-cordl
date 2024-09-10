@@ -30,68 +30,68 @@ struct AnimationPlayableOutput;
 // Write type traits
 MARK_VAL_T(::UnityEngine::Animations::AnimationPlayableOutput);
 // Type: UnityEngine.Animations::AnimationPlayableOutput
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Animations {
 // Is value type: true
 // CS Name: ::UnityEngine.Animations::AnimationPlayableOutput
 struct CORDL_TYPE AnimationPlayableOutput {
 public:
-  // Declarations
-  /// @brief Convert operator to "::UnityEngine::Playables::IPlayableOutput"
-  constexpr operator ::UnityEngine::Playables::IPlayableOutput*();
+// Declarations
+/// @brief Convert operator to "::UnityEngine::Playables::IPlayableOutput"
+constexpr operator  ::UnityEngine::Playables::IPlayableOutput*() ;
 
-  /// @brief Method Create, addr 0x3405ad4, size 0xa8, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Animations::AnimationPlayableOutput Create(::UnityEngine::Playables::PlayableGraph graph, ::StringW name, ::UnityEngine::Animator* target);
+/// @brief Method Create, addr 0x47c27cc, size 0xa8, virtual false, abstract: false, final false
+static inline ::UnityEngine::Animations::AnimationPlayableOutput Create(::UnityEngine::Playables::PlayableGraph  graph, ::StringW  name, ::UnityEngine::Animator*  target) ;
 
-  /// @brief Method GetHandle, addr 0x3405cfc, size 0xc, virtual true, abstract: false, final true
-  inline ::UnityEngine::Playables::PlayableOutputHandle GetHandle();
+/// @brief Method GetHandle, addr 0x47c4934, size 0xc, virtual true, abstract: false, final true
+inline ::UnityEngine::Playables::PlayableOutputHandle GetHandle() ;
 
-  /// @brief Method GetTarget, addr 0x3405d7c, size 0x3c, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::Animator> GetTarget();
+/// @brief Method GetTarget, addr 0x47c49c4, size 0x3c, virtual false, abstract: false, final false
+inline ::UnityW<::UnityEngine::Animator> GetTarget() ;
 
-  /// @brief Method InternalGetTarget, addr 0x3405db8, size 0x3c, virtual false, abstract: false, final false
-  static inline ::UnityW<::UnityEngine::Animator> InternalGetTarget(ByRef<::UnityEngine::Playables::PlayableOutputHandle> handle);
+/// @brief Method InternalGetTarget, addr 0x47c4a00, size 0x3c, virtual false, abstract: false, final false
+static inline ::UnityW<::UnityEngine::Animator> InternalGetTarget(ByRef<::UnityEngine::Playables::PlayableOutputHandle>  handle) ;
 
-  /// @brief Method InternalSetTarget, addr 0x3405df4, size 0x44, virtual false, abstract: false, final false
-  static inline void InternalSetTarget(ByRef<::UnityEngine::Playables::PlayableOutputHandle> handle, ::UnityEngine::Animator* target);
+/// @brief Method InternalSetTarget, addr 0x47c4a3c, size 0x44, virtual false, abstract: false, final false
+static inline void InternalSetTarget(ByRef<::UnityEngine::Playables::PlayableOutputHandle>  handle, ::UnityEngine::Animator*  target) ;
 
-  /// @brief Method SetTarget, addr 0x3405cb8, size 0x44, virtual false, abstract: false, final false
-  inline void SetTarget(::UnityEngine::Animator* value);
+/// @brief Method SetTarget, addr 0x47c48f0, size 0x44, virtual false, abstract: false, final false
+inline void SetTarget(::UnityEngine::Animator*  value) ;
 
-  /// @brief Method .ctor, addr 0x3405bf8, size 0xc0, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::Playables::PlayableOutputHandle handle);
+/// @brief Method .ctor, addr 0x47c4800, size 0xf0, virtual false, abstract: false, final false
+inline void _ctor(::UnityEngine::Playables::PlayableOutputHandle  handle) ;
 
-  /// @brief Method get_Null, addr 0x3405b7c, size 0x7c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Animations::AnimationPlayableOutput get_Null();
+/// @brief Method get_Null, addr 0x47c4784, size 0x7c, virtual false, abstract: false, final false
+static inline ::UnityEngine::Animations::AnimationPlayableOutput get_Null() ;
 
-  /// @brief Convert to "::UnityEngine::Playables::IPlayableOutput"
-  constexpr ::UnityEngine::Playables::IPlayableOutput* i___UnityEngine__Playables__IPlayableOutput();
+/// @brief Convert to "::UnityEngine::Playables::IPlayableOutput"
+constexpr ::UnityEngine::Playables::IPlayableOutput* i___UnityEngine__Playables__IPlayableOutput() ;
 
-  /// @brief Method op_Explicit, addr 0x3405d38, size 0x44, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Animations::AnimationPlayableOutput op_Explicit___UnityEngine__Animations__AnimationPlayableOutput(::UnityEngine::Playables::PlayableOutput output);
+/// @brief Method op_Explicit, addr 0x47c4940, size 0x84, virtual false, abstract: false, final false
+static inline ::UnityEngine::Animations::AnimationPlayableOutput op_Explicit___UnityEngine__Animations__AnimationPlayableOutput(::UnityEngine::Playables::PlayableOutput  output) ;
 
-  /// @brief Method op_Implicit, addr 0x3405d08, size 0x30, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Playables::PlayableOutput op_Implicit___UnityEngine__Playables__PlayableOutput(::UnityEngine::Animations::AnimationPlayableOutput output);
+/// @brief Method op_Implicit, addr 0x47c2874, size 0x30, virtual false, abstract: false, final false
+static inline ::UnityEngine::Playables::PlayableOutput op_Implicit___UnityEngine__Playables__PlayableOutput(::UnityEngine::Animations::AnimationPlayableOutput  output) ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr AnimationPlayableOutput();
+// Ctor Parameters []
+// @brief default ctor
+constexpr AnimationPlayableOutput() ;
 
-  // Ctor Parameters [CppParam { name: "m_Handle", ty: "::UnityEngine::Playables::PlayableOutputHandle", modifiers: "", def_value: None }]
-  constexpr AnimationPlayableOutput(::UnityEngine::Playables::PlayableOutputHandle m_Handle) noexcept;
+// Ctor Parameters [CppParam { name: "m_Handle", ty: "::UnityEngine::Playables::PlayableOutputHandle", modifiers: "", def_value: None }]
+constexpr AnimationPlayableOutput(::UnityEngine::Playables::PlayableOutputHandle  m_Handle) noexcept;
 
-  /// @brief Field m_Handle, offset: 0x0, size: 0x10, def value: None
-  ::UnityEngine::Playables::PlayableOutputHandle m_Handle;
+/// @brief Field m_Handle, offset: 0x0, size: 0x10, def value: None
+ ::UnityEngine::Playables::PlayableOutputHandle  m_Handle;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x10};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Animations::AnimationPlayableOutput, 0x10>, "Size mismatch!");
 
 static_assert(offsetof(::UnityEngine::Animations::AnimationPlayableOutput, m_Handle) == 0x0, "Offset mismatch!");
 
-} // namespace UnityEngine::Animations
+} // namespace end def UnityEngine::Animations
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Animations::AnimationPlayableOutput, "UnityEngine.Animations", "AnimationPlayableOutput");

@@ -13,10 +13,12 @@ namespace HoudiniEngineUnity {
 class __Test_Material_Extensions____c;
 }
 namespace System::Collections::Generic {
-template <typename T> class List_1;
+template<typename T>
+class List_1;
 }
 namespace System {
-template <typename TInput, typename TOutput> class Converter_2;
+template<typename TInput,typename TOutput>
+class Converter_2;
 }
 namespace UnityEngine {
 class Material;
@@ -32,105 +34,104 @@ class __Test_Material_Extensions____c;
 MARK_REF_PTR_T(::HoudiniEngineUnity::Test_Material_Extensions);
 MARK_REF_PTR_T(::HoudiniEngineUnity::__Test_Material_Extensions____c);
 // Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
 // CS Name: ::Test_Material_Extensions::<>c*
 class CORDL_TYPE __Test_Material_Extensions____c : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9))::HoudiniEngineUnity::__Test_Material_Extensions____c* __9;
+// Declarations
+/// @brief Field <>9, offset 0xffffffff, size 0x8 
+static __declspec(property(get=getStaticF___9, put=setStaticF___9)) ::HoudiniEngineUnity::__Test_Material_Extensions____c*  __9;
 
-  /// @brief Field <>9__1_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__1_0, put = setStaticF___9__1_0))::System::Converter_2<::UnityW<::UnityEngine::Material>, ::HoudiniEngineUnity::Test_Material*>* __9__1_0;
+/// @brief Field <>9__1_0, offset 0xffffffff, size 0x8 
+static __declspec(property(get=getStaticF___9__1_0, put=setStaticF___9__1_0)) ::System::Converter_2<::UnityW<::UnityEngine::Material>,::HoudiniEngineUnity::Test_Material*>*  __9__1_0;
 
-  /// @brief Field <>9__2_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__2_0, put = setStaticF___9__2_0))::System::Converter_2<::UnityW<::UnityEngine::Material>, ::HoudiniEngineUnity::Test_Material*>* __9__2_0;
+/// @brief Field <>9__2_0, offset 0xffffffff, size 0x8 
+static __declspec(property(get=getStaticF___9__2_0, put=setStaticF___9__2_0)) ::System::Converter_2<::UnityW<::UnityEngine::Material>,::HoudiniEngineUnity::Test_Material*>*  __9__2_0;
 
-  static inline ::HoudiniEngineUnity::__Test_Material_Extensions____c* New_ctor();
+static inline ::HoudiniEngineUnity::__Test_Material_Extensions____c* New_ctor() ;
 
-  /// @brief Method <ToTestObject>b__1_0, addr 0x25f5348, size 0x64, virtual false, abstract: false, final false
-  inline ::HoudiniEngineUnity::Test_Material* _ToTestObject_b__1_0(::UnityEngine::Material* lod);
+/// @brief Method <ToTestObject>b__1_0, addr 0x3a15958, size 0x5c, virtual false, abstract: false, final false
+inline ::HoudiniEngineUnity::Test_Material* _ToTestObject_b__1_0(::UnityEngine::Material*  lod) ;
 
-  /// @brief Method <ToTestObject>b__2_0, addr 0x25f53ac, size 0x64, virtual false, abstract: false, final false
-  inline ::HoudiniEngineUnity::Test_Material* _ToTestObject_b__2_0(::UnityEngine::Material* lod);
+/// @brief Method <ToTestObject>b__2_0, addr 0x3a159b4, size 0x5c, virtual false, abstract: false, final false
+inline ::HoudiniEngineUnity::Test_Material* _ToTestObject_b__2_0(::UnityEngine::Material*  lod) ;
 
-  /// @brief Method .ctor, addr 0x25f5340, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x3a15950, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  static inline ::HoudiniEngineUnity::__Test_Material_Extensions____c* getStaticF___9();
+static inline ::HoudiniEngineUnity::__Test_Material_Extensions____c* getStaticF___9() ;
 
-  static inline ::System::Converter_2<::UnityW<::UnityEngine::Material>, ::HoudiniEngineUnity::Test_Material*>* getStaticF___9__1_0();
+static inline ::System::Converter_2<::UnityW<::UnityEngine::Material>,::HoudiniEngineUnity::Test_Material*>* getStaticF___9__1_0() ;
 
-  static inline ::System::Converter_2<::UnityW<::UnityEngine::Material>, ::HoudiniEngineUnity::Test_Material*>* getStaticF___9__2_0();
+static inline ::System::Converter_2<::UnityW<::UnityEngine::Material>,::HoudiniEngineUnity::Test_Material*>* getStaticF___9__2_0() ;
 
-  static inline void setStaticF___9(::HoudiniEngineUnity::__Test_Material_Extensions____c* value);
+static inline void setStaticF___9(::HoudiniEngineUnity::__Test_Material_Extensions____c*  value) ;
 
-  static inline void setStaticF___9__1_0(::System::Converter_2<::UnityW<::UnityEngine::Material>, ::HoudiniEngineUnity::Test_Material*>* value);
+static inline void setStaticF___9__1_0(::System::Converter_2<::UnityW<::UnityEngine::Material>,::HoudiniEngineUnity::Test_Material*>*  value) ;
 
-  static inline void setStaticF___9__2_0(::System::Converter_2<::UnityW<::UnityEngine::Material>, ::HoudiniEngineUnity::Test_Material*>* value);
+static inline void setStaticF___9__2_0(::System::Converter_2<::UnityW<::UnityEngine::Material>,::HoudiniEngineUnity::Test_Material*>*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __Test_Material_Extensions____c();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __Test_Material_Extensions____c() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__Test_Material_Extensions____c", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __Test_Material_Extensions____c(__Test_Material_Extensions____c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__Test_Material_Extensions____c", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __Test_Material_Extensions____c(__Test_Material_Extensions____c const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__Test_Material_Extensions____c", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__Test_Material_Extensions____c(__Test_Material_Extensions____c && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "__Test_Material_Extensions____c", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__Test_Material_Extensions____c(__Test_Material_Extensions____c const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::__Test_Material_Extensions____c, 0x10>, "Size mismatch!");
 
-} // namespace HoudiniEngineUnity
+} // namespace end def HoudiniEngineUnity
 // Type: HoudiniEngineUnity::Test_Material_Extensions
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace HoudiniEngineUnity {
 // Is value type: false
 // CS Name: ::HoudiniEngineUnity::Test_Material_Extensions*
 class CORDL_TYPE Test_Material_Extensions : public ::System::Object {
 public:
-  // Declarations
-  using __c = ::HoudiniEngineUnity::__Test_Material_Extensions____c;
+// Declarations
+using __c = ::HoudiniEngineUnity::__Test_Material_Extensions____c;
 
-  /// @brief Method ToTestObject, addr 0x25f50b8, size 0x128, virtual false, abstract: false, final false
-  static inline ::ArrayW<::HoudiniEngineUnity::Test_Material*, ::Array<::HoudiniEngineUnity::Test_Material*>*>
-  ToTestObject(::ArrayW<::UnityEngine::Material*, ::Array<::UnityEngine::Material*>*> self);
+/// @brief Method ToTestObject, addr 0x3a156dc, size 0x120, virtual false, abstract: false, final false
+static inline ::ArrayW<::HoudiniEngineUnity::Test_Material*,::Array<::HoudiniEngineUnity::Test_Material*>*> ToTestObject(::ArrayW<::UnityEngine::Material*,::Array<::UnityEngine::Material*>*>  self) ;
 
-  /// @brief Method ToTestObject, addr 0x25f5054, size 0x64, virtual false, abstract: false, final false
-  static inline ::HoudiniEngineUnity::Test_Material* ToTestObject(::UnityEngine::Material* self);
+/// @brief Method ToTestObject, addr 0x3a15680, size 0x5c, virtual false, abstract: false, final false
+static inline ::HoudiniEngineUnity::Test_Material* ToTestObject(::UnityEngine::Material*  self) ;
 
-  /// @brief Method ToTestObject, addr 0x25f51e0, size 0xfc, virtual false, abstract: false, final false
-  static inline ::System::Collections::Generic::List_1<::HoudiniEngineUnity::Test_Material*>* ToTestObject(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Material>>* self);
+/// @brief Method ToTestObject, addr 0x3a157fc, size 0xf8, virtual false, abstract: false, final false
+static inline ::System::Collections::Generic::List_1<::HoudiniEngineUnity::Test_Material*>* ToTestObject(::System::Collections::Generic::List_1<::UnityW<::UnityEngine::Material>>*  self) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Test_Material_Extensions();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr Test_Material_Extensions() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Test_Material_Extensions", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  Test_Material_Extensions(Test_Material_Extensions&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Test_Material_Extensions", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  Test_Material_Extensions(Test_Material_Extensions const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "Test_Material_Extensions", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+Test_Material_Extensions(Test_Material_Extensions && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "Test_Material_Extensions", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+Test_Material_Extensions(Test_Material_Extensions const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::HoudiniEngineUnity::Test_Material_Extensions, 0x10>, "Size mismatch!");
 
-} // namespace HoudiniEngineUnity
+} // namespace end def HoudiniEngineUnity
 NEED_NO_BOX(::HoudiniEngineUnity::Test_Material_Extensions);
 DEFINE_IL2CPP_ARG_TYPE(::HoudiniEngineUnity::Test_Material_Extensions*, "HoudiniEngineUnity", "Test_Material_Extensions");
 NEED_NO_BOX(::HoudiniEngineUnity::__Test_Material_Extensions____c);

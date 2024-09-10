@@ -19,85 +19,85 @@ class MeshCollider;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::MeshCollider);
 // Type: UnityEngine::MeshCollider
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
 // CS Name: ::UnityEngine::MeshCollider*
 class CORDL_TYPE MeshCollider : public ::UnityEngine::Collider {
 public:
-  // Declarations
-  __declspec(property(get = get_convex, put = set_convex)) bool convex;
+// Declarations
+ __declspec(property(get=get_convex, put=set_convex)) bool  convex;
 
-  __declspec(property(get = get_cookingOptions, put = set_cookingOptions))::UnityEngine::MeshColliderCookingOptions cookingOptions;
+ __declspec(property(get=get_cookingOptions, put=set_cookingOptions)) ::UnityEngine::MeshColliderCookingOptions  cookingOptions;
 
-  __declspec(property(get = get_inflateMesh, put = set_inflateMesh)) bool inflateMesh;
+ __declspec(property(get=get_inflateMesh, put=set_inflateMesh)) bool  inflateMesh;
 
-  __declspec(property(get = get_sharedMesh, put = set_sharedMesh))::UnityW<::UnityEngine::Mesh> sharedMesh;
+ __declspec(property(get=get_sharedMesh, put=set_sharedMesh)) ::UnityW<::UnityEngine::Mesh>  sharedMesh;
 
-  __declspec(property(get = get_skinWidth, put = set_skinWidth)) float_t skinWidth;
+ __declspec(property(get=get_skinWidth, put=set_skinWidth)) float_t  skinWidth;
 
-  __declspec(property(get = get_smoothSphereCollisions, put = set_smoothSphereCollisions)) bool smoothSphereCollisions;
+ __declspec(property(get=get_smoothSphereCollisions, put=set_smoothSphereCollisions)) bool  smoothSphereCollisions;
 
-  static inline ::UnityEngine::MeshCollider* New_ctor();
+static inline ::UnityEngine::MeshCollider* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x34a2df8, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x48740a8, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_convex, addr 0x34a2cf8, size 0x3c, virtual false, abstract: false, final false
-  inline bool get_convex();
+/// @brief Method get_convex, addr 0x4873f84, size 0x3c, virtual false, abstract: false, final false
+inline bool get_convex() ;
 
-  /// @brief Method get_cookingOptions, addr 0x34a2d78, size 0x3c, virtual false, abstract: false, final false
-  inline ::UnityEngine::MeshColliderCookingOptions get_cookingOptions();
+/// @brief Method get_cookingOptions, addr 0x4874004, size 0x3c, virtual false, abstract: false, final false
+inline ::UnityEngine::MeshColliderCookingOptions get_cookingOptions() ;
 
-  /// @brief Method get_inflateMesh, addr 0x34a2c6c, size 0x8, virtual false, abstract: false, final false
-  inline bool get_inflateMesh();
+/// @brief Method get_inflateMesh, addr 0x487409c, size 0x8, virtual false, abstract: false, final false
+inline bool get_inflateMesh() ;
 
-  /// @brief Method get_sharedMesh, addr 0x34a2c78, size 0x3c, virtual false, abstract: false, final false
-  inline ::UnityW<::UnityEngine::Mesh> get_sharedMesh();
+/// @brief Method get_sharedMesh, addr 0x4873f04, size 0x3c, virtual false, abstract: false, final false
+inline ::UnityW<::UnityEngine::Mesh> get_sharedMesh() ;
 
-  /// @brief Method get_skinWidth, addr 0x34a2c60, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_skinWidth();
+/// @brief Method get_skinWidth, addr 0x4874090, size 0x8, virtual false, abstract: false, final false
+inline float_t get_skinWidth() ;
 
-  /// @brief Method get_smoothSphereCollisions, addr 0x34a2c54, size 0x8, virtual false, abstract: false, final false
-  inline bool get_smoothSphereCollisions();
+/// @brief Method get_smoothSphereCollisions, addr 0x4874084, size 0x8, virtual false, abstract: false, final false
+inline bool get_smoothSphereCollisions() ;
 
-  /// @brief Method set_convex, addr 0x34a2d34, size 0x44, virtual false, abstract: false, final false
-  inline void set_convex(bool value);
+/// @brief Method set_convex, addr 0x4873fc0, size 0x44, virtual false, abstract: false, final false
+inline void set_convex(bool  value) ;
 
-  /// @brief Method set_cookingOptions, addr 0x34a2db4, size 0x44, virtual false, abstract: false, final false
-  inline void set_cookingOptions(::UnityEngine::MeshColliderCookingOptions value);
+/// @brief Method set_cookingOptions, addr 0x4874040, size 0x44, virtual false, abstract: false, final false
+inline void set_cookingOptions(::UnityEngine::MeshColliderCookingOptions  value) ;
 
-  /// @brief Method set_inflateMesh, addr 0x34a2c74, size 0x4, virtual false, abstract: false, final false
-  inline void set_inflateMesh(bool value);
+/// @brief Method set_inflateMesh, addr 0x48740a4, size 0x4, virtual false, abstract: false, final false
+inline void set_inflateMesh(bool  value) ;
 
-  /// @brief Method set_sharedMesh, addr 0x34a2cb4, size 0x44, virtual false, abstract: false, final false
-  inline void set_sharedMesh(::UnityEngine::Mesh* value);
+/// @brief Method set_sharedMesh, addr 0x4873f40, size 0x44, virtual false, abstract: false, final false
+inline void set_sharedMesh(::UnityEngine::Mesh*  value) ;
 
-  /// @brief Method set_skinWidth, addr 0x34a2c68, size 0x4, virtual false, abstract: false, final false
-  inline void set_skinWidth(float_t value);
+/// @brief Method set_skinWidth, addr 0x4874098, size 0x4, virtual false, abstract: false, final false
+inline void set_skinWidth(float_t  value) ;
 
-  /// @brief Method set_smoothSphereCollisions, addr 0x34a2c5c, size 0x4, virtual false, abstract: false, final false
-  inline void set_smoothSphereCollisions(bool value);
+/// @brief Method set_smoothSphereCollisions, addr 0x487408c, size 0x4, virtual false, abstract: false, final false
+inline void set_smoothSphereCollisions(bool  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr MeshCollider();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr MeshCollider() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "MeshCollider", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  MeshCollider(MeshCollider&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "MeshCollider", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  MeshCollider(MeshCollider const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "MeshCollider", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+MeshCollider(MeshCollider && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "MeshCollider", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+MeshCollider(MeshCollider const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::MeshCollider, 0x18>, "Size mismatch!");
 
-} // namespace UnityEngine
+} // namespace end def UnityEngine
 NEED_NO_BOX(::UnityEngine::MeshCollider);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::MeshCollider*, "UnityEngine", "MeshCollider");

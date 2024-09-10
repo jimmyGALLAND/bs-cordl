@@ -33,49 +33,46 @@ class InputDeviceFindControlLayoutDelegate;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::InputSystem::Layouts::InputDeviceFindControlLayoutDelegate);
 // Type: UnityEngine.InputSystem.Layouts::InputDeviceFindControlLayoutDelegate
-// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 128, native_size: 8, calculated_instance_size: 128, calculated_native_size: 128, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::InputSystem::Layouts {
 // Is value type: false
 // CS Name: ::UnityEngine.InputSystem.Layouts::InputDeviceFindControlLayoutDelegate*
 class CORDL_TYPE InputDeviceFindControlLayoutDelegate : public ::System::MulticastDelegate {
 public:
-  // Declarations
-  /// @brief Method BeginInvoke, addr 0x319f09c, size 0xa0, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginInvoke(ByRef<::UnityEngine::InputSystem::Layouts::InputDeviceDescription> description, ::StringW matchedLayout,
-                                             ::UnityEngine::InputSystem::LowLevel::InputDeviceExecuteCommandDelegate* executeDeviceCommand, ::System::AsyncCallback* callback,
-                                             ::System::Object* object);
+// Declarations
+/// @brief Method BeginInvoke, addr 0x4587af4, size 0xa0, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginInvoke(ByRef<::UnityEngine::InputSystem::Layouts::InputDeviceDescription>  description, ::StringW  matchedLayout, ::UnityEngine::InputSystem::LowLevel::InputDeviceExecuteCommandDelegate*  executeDeviceCommand, ::System::AsyncCallback*  callback, ::System::Object*  object) ;
 
-  /// @brief Method EndInvoke, addr 0x319f13c, size 0x1c, virtual true, abstract: false, final false
-  inline ::StringW EndInvoke(ByRef<::UnityEngine::InputSystem::Layouts::InputDeviceDescription> description, ::System::IAsyncResult* result);
+/// @brief Method EndInvoke, addr 0x4587b94, size 0x1c, virtual true, abstract: false, final false
+inline ::StringW EndInvoke(ByRef<::UnityEngine::InputSystem::Layouts::InputDeviceDescription>  description, ::System::IAsyncResult*  result) ;
 
-  /// @brief Method Invoke, addr 0x319f088, size 0x14, virtual true, abstract: false, final false
-  inline ::StringW Invoke(ByRef<::UnityEngine::InputSystem::Layouts::InputDeviceDescription> description, ::StringW matchedLayout,
-                          ::UnityEngine::InputSystem::LowLevel::InputDeviceExecuteCommandDelegate* executeDeviceCommand);
+/// @brief Method Invoke, addr 0x4587ae0, size 0x14, virtual true, abstract: false, final false
+inline ::StringW Invoke(ByRef<::UnityEngine::InputSystem::Layouts::InputDeviceDescription>  description, ::StringW  matchedLayout, ::UnityEngine::InputSystem::LowLevel::InputDeviceExecuteCommandDelegate*  executeDeviceCommand) ;
 
-  static inline ::UnityEngine::InputSystem::Layouts::InputDeviceFindControlLayoutDelegate* New_ctor(::System::Object* object, ::System::IntPtr method);
+static inline ::UnityEngine::InputSystem::Layouts::InputDeviceFindControlLayoutDelegate* New_ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
-  /// @brief Method .ctor, addr 0x319efb0, size 0xd8, virtual false, abstract: false, final false
-  inline void _ctor(::System::Object* object, ::System::IntPtr method);
+/// @brief Method .ctor, addr 0x4587a40, size 0xa0, virtual false, abstract: false, final false
+inline void _ctor(::System::Object*  object, ::System::IntPtr  method) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr InputDeviceFindControlLayoutDelegate();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr InputDeviceFindControlLayoutDelegate() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InputDeviceFindControlLayoutDelegate", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  InputDeviceFindControlLayoutDelegate(InputDeviceFindControlLayoutDelegate&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InputDeviceFindControlLayoutDelegate", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  InputDeviceFindControlLayoutDelegate(InputDeviceFindControlLayoutDelegate const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "InputDeviceFindControlLayoutDelegate", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+InputDeviceFindControlLayoutDelegate(InputDeviceFindControlLayoutDelegate && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "InputDeviceFindControlLayoutDelegate", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+InputDeviceFindControlLayoutDelegate(InputDeviceFindControlLayoutDelegate const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::InputSystem::Layouts::InputDeviceFindControlLayoutDelegate, 0x80>, "Size mismatch!");
 
-} // namespace UnityEngine::InputSystem::Layouts
+} // namespace end def UnityEngine::InputSystem::Layouts
 NEED_NO_BOX(::UnityEngine::InputSystem::Layouts::InputDeviceFindControlLayoutDelegate);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::InputSystem::Layouts::InputDeviceFindControlLayoutDelegate*, "UnityEngine.InputSystem.Layouts", "InputDeviceFindControlLayoutDelegate");

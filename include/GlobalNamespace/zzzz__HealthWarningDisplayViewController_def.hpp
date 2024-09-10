@@ -16,96 +16,96 @@ class HealthWarningDisplayViewController;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::HealthWarningDisplayViewController);
 // Type: ::HealthWarningDisplayViewController
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 137, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 152, native_size: -1, calculated_instance_size: 152, calculated_native_size: 145, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::HealthWarningDisplayViewController*
 class CORDL_TYPE HealthWarningDisplayViewController : public ::HMUI::ViewController {
 public:
-  // Declarations
-  /// @brief Field _healthAndSafetyFullLocalizationKey, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get__healthAndSafetyFullLocalizationKey, put = __cordl_internal_set__healthAndSafetyFullLocalizationKey))::StringW _healthAndSafetyFullLocalizationKey;
+// Declarations
+/// @brief Field _healthAndSafetyFullLocalizationKey, offset 0x80, size 0x8 
+ __declspec(property(get=__cordl_internal_get__healthAndSafetyFullLocalizationKey, put=__cordl_internal_set__healthAndSafetyFullLocalizationKey)) ::StringW  _healthAndSafetyFullLocalizationKey;
 
-  /// @brief Field _healthAndSafetyPSLocalizationKey, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get__healthAndSafetyPSLocalizationKey, put = __cordl_internal_set__healthAndSafetyPSLocalizationKey))::StringW _healthAndSafetyPSLocalizationKey;
+/// @brief Field _healthAndSafetyPSLocalizationKey, offset 0x88, size 0x8 
+ __declspec(property(get=__cordl_internal_get__healthAndSafetyPSLocalizationKey, put=__cordl_internal_set__healthAndSafetyPSLocalizationKey)) ::StringW  _healthAndSafetyPSLocalizationKey;
 
-  /// @brief Field _healthAndSafetyTextMesh, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get__healthAndSafetyTextMesh, put = __cordl_internal_set__healthAndSafetyTextMesh))::UnityW<::TMPro::TextMeshProUGUI> _healthAndSafetyTextMesh;
+/// @brief Field _healthAndSafetyTextMesh, offset 0x78, size 0x8 
+ __declspec(property(get=__cordl_internal_get__healthAndSafetyTextMesh, put=__cordl_internal_set__healthAndSafetyTextMesh)) ::UnityW<::TMPro::TextMeshProUGUI>  _healthAndSafetyTextMesh;
 
-  /// @brief Field _showShortHealthAndSafety, offset 0x88, size 0x1
-  __declspec(property(get = __cordl_internal_get__showShortHealthAndSafety, put = __cordl_internal_set__showShortHealthAndSafety)) bool _showShortHealthAndSafety;
+/// @brief Field _showShortHealthAndSafety, offset 0x90, size 0x1 
+ __declspec(property(get=__cordl_internal_get__showShortHealthAndSafety, put=__cordl_internal_set__showShortHealthAndSafety)) bool  _showShortHealthAndSafety;
 
-  /// @brief Method DidActivate, addr 0x266a1ac, size 0x3c, virtual true, abstract: false, final false
-  inline void DidActivate(bool firstActivation, bool addedToHierarchy, bool screenSystemEnabling);
+/// @brief Method DidActivate, addr 0x3b84c9c, size 0x3c, virtual true, abstract: false, final false
+inline void DidActivate(bool  firstActivation, bool  addedToHierarchy, bool  screenSystemEnabling) ;
 
-  static inline ::GlobalNamespace::HealthWarningDisplayViewController* New_ctor();
+static inline ::GlobalNamespace::HealthWarningDisplayViewController* New_ctor() ;
 
-  constexpr ::StringW const& __cordl_internal_get__healthAndSafetyFullLocalizationKey() const;
+constexpr ::StringW const& __cordl_internal_get__healthAndSafetyFullLocalizationKey() const;
 
-  constexpr ::StringW& __cordl_internal_get__healthAndSafetyFullLocalizationKey();
+constexpr ::StringW& __cordl_internal_get__healthAndSafetyFullLocalizationKey() ;
 
-  constexpr ::StringW const& __cordl_internal_get__healthAndSafetyPSLocalizationKey() const;
+constexpr ::StringW const& __cordl_internal_get__healthAndSafetyPSLocalizationKey() const;
 
-  constexpr ::StringW& __cordl_internal_get__healthAndSafetyPSLocalizationKey();
+constexpr ::StringW& __cordl_internal_get__healthAndSafetyPSLocalizationKey() ;
 
-  constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__healthAndSafetyTextMesh() const;
+constexpr ::UnityW<::TMPro::TextMeshProUGUI> const& __cordl_internal_get__healthAndSafetyTextMesh() const;
 
-  constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__healthAndSafetyTextMesh();
+constexpr ::UnityW<::TMPro::TextMeshProUGUI>& __cordl_internal_get__healthAndSafetyTextMesh() ;
 
-  constexpr bool const& __cordl_internal_get__showShortHealthAndSafety() const;
+constexpr bool const& __cordl_internal_get__showShortHealthAndSafety() const;
 
-  constexpr bool& __cordl_internal_get__showShortHealthAndSafety();
+constexpr bool& __cordl_internal_get__showShortHealthAndSafety() ;
 
-  constexpr void __cordl_internal_set__healthAndSafetyFullLocalizationKey(::StringW value);
+constexpr void __cordl_internal_set__healthAndSafetyFullLocalizationKey(::StringW  value) ;
 
-  constexpr void __cordl_internal_set__healthAndSafetyPSLocalizationKey(::StringW value);
+constexpr void __cordl_internal_set__healthAndSafetyPSLocalizationKey(::StringW  value) ;
 
-  constexpr void __cordl_internal_set__healthAndSafetyTextMesh(::UnityW<::TMPro::TextMeshProUGUI> value);
+constexpr void __cordl_internal_set__healthAndSafetyTextMesh(::UnityW<::TMPro::TextMeshProUGUI>  value) ;
 
-  constexpr void __cordl_internal_set__showShortHealthAndSafety(bool value);
+constexpr void __cordl_internal_set__showShortHealthAndSafety(bool  value) ;
 
-  /// @brief Method .ctor, addr 0x266a1e8, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x3b84cd8, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HealthWarningDisplayViewController();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr HealthWarningDisplayViewController() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HealthWarningDisplayViewController", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  HealthWarningDisplayViewController(HealthWarningDisplayViewController&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HealthWarningDisplayViewController", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  HealthWarningDisplayViewController(HealthWarningDisplayViewController const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "HealthWarningDisplayViewController", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+HealthWarningDisplayViewController(HealthWarningDisplayViewController && ) = delete;
 
-  /// @brief Field _healthAndSafetyTextMesh, offset: 0x70, size: 0x8, def value: None
-  ::UnityW<::TMPro::TextMeshProUGUI> ____healthAndSafetyTextMesh;
+// Ctor Parameters [CppParam { name: "", ty: "HealthWarningDisplayViewController", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+HealthWarningDisplayViewController(HealthWarningDisplayViewController const& ) = delete;
 
-  /// @brief Field _healthAndSafetyFullLocalizationKey, offset: 0x78, size: 0x8, def value: None
-  ::StringW ____healthAndSafetyFullLocalizationKey;
+/// @brief Field _healthAndSafetyTextMesh, offset: 0x78, size: 0x8, def value: None
+ ::UnityW<::TMPro::TextMeshProUGUI>  ____healthAndSafetyTextMesh;
 
-  /// @brief Field _healthAndSafetyPSLocalizationKey, offset: 0x80, size: 0x8, def value: None
-  ::StringW ____healthAndSafetyPSLocalizationKey;
+/// @brief Field _healthAndSafetyFullLocalizationKey, offset: 0x80, size: 0x8, def value: None
+ ::StringW  ____healthAndSafetyFullLocalizationKey;
 
-  /// @brief Field _showShortHealthAndSafety, offset: 0x88, size: 0x1, def value: None
-  bool ____showShortHealthAndSafety;
+/// @brief Field _healthAndSafetyPSLocalizationKey, offset: 0x88, size: 0x8, def value: None
+ ::StringW  ____healthAndSafetyPSLocalizationKey;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _showShortHealthAndSafety, offset: 0x90, size: 0x1, def value: None
+ bool  ____showShortHealthAndSafety;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::HealthWarningDisplayViewController, 0x90>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::HealthWarningDisplayViewController, 0x98>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::HealthWarningDisplayViewController, ____healthAndSafetyTextMesh) == 0x70, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::HealthWarningDisplayViewController, ____healthAndSafetyTextMesh) == 0x78, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::HealthWarningDisplayViewController, ____healthAndSafetyFullLocalizationKey) == 0x78, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::HealthWarningDisplayViewController, ____healthAndSafetyFullLocalizationKey) == 0x80, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::HealthWarningDisplayViewController, ____healthAndSafetyPSLocalizationKey) == 0x80, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::HealthWarningDisplayViewController, ____healthAndSafetyPSLocalizationKey) == 0x88, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::HealthWarningDisplayViewController, ____showShortHealthAndSafety) == 0x88, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::HealthWarningDisplayViewController, ____showShortHealthAndSafety) == 0x90, "Offset mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::HealthWarningDisplayViewController);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::HealthWarningDisplayViewController*, "", "HealthWarningDisplayViewController");

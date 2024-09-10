@@ -7,7 +7,8 @@ CORDL_MODULE_INIT
 #include "beatsaber-hook/shared/utils/typedefs-string.hpp"
 CORDL_MODULE_EXPORT(ExpressionCreator_1)
 namespace System::Collections::ObjectModel {
-template <typename T> class ReadOnlyCollection_1;
+template<typename T>
+class ReadOnlyCollection_1;
 }
 namespace System::Linq::Expressions {
 class Expression;
@@ -20,41 +21,40 @@ class ParameterExpression;
 }
 // Forward declare root types
 namespace System::Linq::Expressions {
-template <typename TDelegate> class ExpressionCreator_1;
+template<typename TDelegate>
+class ExpressionCreator_1;
 }
 // Write type traits
 MARK_GEN_REF_PTR_T(::System::Linq::Expressions::ExpressionCreator_1);
 // Type: System.Linq.Expressions::ExpressionCreator`1
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Linq::Expressions {
 // cpp template
-template <typename TDelegate>
+template<typename TDelegate>
 // Is value type: false
 // CS Name: ::System.Linq.Expressions::ExpressionCreator`1<TDelegate>*
 class CORDL_TYPE ExpressionCreator_1 : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method CreateExpressionFunc, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
-  static inline ::System::Linq::Expressions::LambdaExpression*
-  CreateExpressionFunc(::System::Linq::Expressions::Expression* body, ::StringW name, bool tailCall,
-                       ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ParameterExpression*>* parameters);
+// Declarations
+/// @brief Method CreateExpressionFunc, addr 0x0, size 0xffffffffffffffff, virtual false, abstract: false, final false
+static inline ::System::Linq::Expressions::LambdaExpression* CreateExpressionFunc(::System::Linq::Expressions::Expression*  body, ::StringW  name, bool  tailCall, ::System::Collections::ObjectModel::ReadOnlyCollection_1<::System::Linq::Expressions::ParameterExpression*>*  parameters) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ExpressionCreator_1();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ExpressionCreator_1() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ExpressionCreator_1", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ExpressionCreator_1(ExpressionCreator_1&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ExpressionCreator_1", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ExpressionCreator_1(ExpressionCreator_1 const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ExpressionCreator_1", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ExpressionCreator_1(ExpressionCreator_1 && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "ExpressionCreator_1", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ExpressionCreator_1(ExpressionCreator_1 const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-} // namespace System::Linq::Expressions
+} // namespace end def System::Linq::Expressions
 DEFINE_IL2CPP_ARG_TYPE_GENERIC_CLASS(::System::Linq::Expressions::ExpressionCreator_1, "System.Linq.Expressions", "ExpressionCreator`1");

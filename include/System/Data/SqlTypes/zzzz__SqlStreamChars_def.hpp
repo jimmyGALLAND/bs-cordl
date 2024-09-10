@@ -17,48 +17,48 @@ class SqlStreamChars;
 // Write type traits
 MARK_REF_PTR_T(::System::Data::SqlTypes::SqlStreamChars);
 // Type: System.Data.SqlTypes::SqlStreamChars
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Data::SqlTypes {
 // Is value type: false
 // CS Name: ::System.Data.SqlTypes::SqlStreamChars*
 class CORDL_TYPE SqlStreamChars : public ::System::Object {
 public:
-  // Declarations
-  __declspec(property(get = get_Length)) int64_t Length;
+// Declarations
+ __declspec(property(get=get_Length)) int64_t  Length;
 
-  __declspec(property(get = get_Position)) int64_t Position;
+ __declspec(property(get=get_Position)) int64_t  Position;
 
-  /// @brief Method Read, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline int32_t Read(::ArrayW<char16_t, ::Array<char16_t>*> buffer, int32_t offset, int32_t count);
+/// @brief Method Read, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+inline int32_t Read(::ArrayW<char16_t,::Array<char16_t>*>  buffer, int32_t  offset, int32_t  count) ;
 
-  /// @brief Method Seek, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline int64_t Seek(int64_t offset, ::System::IO::SeekOrigin origin);
+/// @brief Method Seek, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+inline int64_t Seek(int64_t  offset, ::System::IO::SeekOrigin  origin) ;
 
-  /// @brief Method get_Length, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline int64_t get_Length();
+/// @brief Method get_Length, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+inline int64_t get_Length() ;
 
-  /// @brief Method get_Position, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline int64_t get_Position();
+/// @brief Method get_Position, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+inline int64_t get_Position() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SqlStreamChars();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr SqlStreamChars() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SqlStreamChars", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  SqlStreamChars(SqlStreamChars&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SqlStreamChars", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  SqlStreamChars(SqlStreamChars const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "SqlStreamChars", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+SqlStreamChars(SqlStreamChars && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "SqlStreamChars", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+SqlStreamChars(SqlStreamChars const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Data::SqlTypes::SqlStreamChars, 0x10>, "Size mismatch!");
 
-} // namespace System::Data::SqlTypes
+} // namespace end def System::Data::SqlTypes
 NEED_NO_BOX(::System::Data::SqlTypes::SqlStreamChars);
 DEFINE_IL2CPP_ARG_TYPE(::System::Data::SqlTypes::SqlStreamChars*, "System.Data.SqlTypes", "SqlStreamChars");

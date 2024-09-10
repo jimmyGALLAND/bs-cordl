@@ -10,7 +10,8 @@ CORDL_MODULE_INIT
 #include <cstdint>
 CORDL_MODULE_EXPORT(IntVec2)
 namespace System {
-template <typename T> class IEquatable_1;
+template<typename T>
+class IEquatable_1;
 }
 namespace System {
 class Object;
@@ -25,81 +26,81 @@ struct IntVec2;
 // Write type traits
 MARK_VAL_T(::UnityEngine::ProBuilder::IntVec2);
 // Type: UnityEngine.ProBuilder::IntVec2
-// SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::ProBuilder {
 // Is value type: true
 // CS Name: ::UnityEngine.ProBuilder::IntVec2
 struct CORDL_TYPE IntVec2 {
 public:
-  // Declarations
-  __declspec(property(get = get_x)) float_t x;
+// Declarations
+ __declspec(property(get=get_x)) float_t  x;
 
-  __declspec(property(get = get_y)) float_t y;
+ __declspec(property(get=get_y)) float_t  y;
 
-  /// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::ProBuilder::IntVec2>"
-  constexpr operator ::System::IEquatable_1<::UnityEngine::ProBuilder::IntVec2>*();
+/// @brief Convert operator to "::System::IEquatable_1<::UnityEngine::ProBuilder::IntVec2>"
+constexpr operator  ::System::IEquatable_1<::UnityEngine::ProBuilder::IntVec2>*() ;
 
-  /// @brief Method Equals, addr 0x32b7f14, size 0xbc, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* b);
+/// @brief Method Equals, addr 0x467d26c, size 0xbc, virtual true, abstract: false, final false
+inline bool Equals(::System::Object*  b) ;
 
-  /// @brief Method Equals, addr 0x32b7dac, size 0x6c, virtual true, abstract: false, final true
-  inline bool Equals(::UnityEngine::ProBuilder::IntVec2 p);
+/// @brief Method Equals, addr 0x467d104, size 0x6c, virtual true, abstract: false, final true
+inline bool Equals(::UnityEngine::ProBuilder::IntVec2  p) ;
 
-  /// @brief Method Equals, addr 0x32b7ea8, size 0x6c, virtual false, abstract: false, final false
-  inline bool Equals(::UnityEngine::Vector2 p);
+/// @brief Method Equals, addr 0x467d200, size 0x6c, virtual false, abstract: false, final false
+inline bool Equals(::UnityEngine::Vector2  p) ;
 
-  /// @brief Method GetHashCode, addr 0x32b7fd0, size 0xc, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
+/// @brief Method GetHashCode, addr 0x467d328, size 0xc, virtual true, abstract: false, final false
+inline int32_t GetHashCode() ;
 
-  /// @brief Method ToString, addr 0x32b7ce8, size 0xa0, virtual true, abstract: false, final false
-  inline ::StringW ToString();
+/// @brief Method ToString, addr 0x467d040, size 0xa0, virtual true, abstract: false, final false
+inline ::StringW ToString() ;
 
-  /// @brief Method .ctor, addr 0x32b7ce0, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::Vector2 vector);
+/// @brief Method .ctor, addr 0x467d038, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(::UnityEngine::Vector2  vector) ;
 
-  /// @brief Method get_x, addr 0x32b7cd0, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_x();
+/// @brief Method get_x, addr 0x467d028, size 0x8, virtual false, abstract: false, final false
+inline float_t get_x() ;
 
-  /// @brief Method get_y, addr 0x32b7cd8, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_y();
+/// @brief Method get_y, addr 0x467d030, size 0x8, virtual false, abstract: false, final false
+inline float_t get_y() ;
 
-  /// @brief Convert to "::System::IEquatable_1<::UnityEngine::ProBuilder::IntVec2>"
-  constexpr ::System::IEquatable_1<::UnityEngine::ProBuilder::IntVec2>* i___System__IEquatable_1___UnityEngine__ProBuilder__IntVec2_();
+/// @brief Convert to "::System::IEquatable_1<::UnityEngine::ProBuilder::IntVec2>"
+constexpr ::System::IEquatable_1<::UnityEngine::ProBuilder::IntVec2>* i___System__IEquatable_1___UnityEngine__ProBuilder__IntVec2_() ;
 
-  /// @brief Method op_Equality, addr 0x32b7d88, size 0x24, virtual false, abstract: false, final false
-  static inline bool op_Equality(::UnityEngine::ProBuilder::IntVec2 a, ::UnityEngine::ProBuilder::IntVec2 b);
+/// @brief Method op_Equality, addr 0x467d0e0, size 0x24, virtual false, abstract: false, final false
+static inline bool op_Equality(::UnityEngine::ProBuilder::IntVec2  a, ::UnityEngine::ProBuilder::IntVec2  b) ;
 
-  /// @brief Method op_Implicit, addr 0x32b7fe0, size 0x4, virtual false, abstract: false, final false
-  static inline ::UnityEngine::ProBuilder::IntVec2 op_Implicit___UnityEngine__ProBuilder__IntVec2(::UnityEngine::Vector2 p);
+/// @brief Method op_Implicit, addr 0x467d338, size 0x4, virtual false, abstract: false, final false
+static inline ::UnityEngine::ProBuilder::IntVec2 op_Implicit___UnityEngine__ProBuilder__IntVec2(::UnityEngine::Vector2  p) ;
 
-  /// @brief Method op_Implicit, addr 0x32b7fdc, size 0x4, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Vector2 op_Implicit___UnityEngine__Vector2(::UnityEngine::ProBuilder::IntVec2 p);
+/// @brief Method op_Implicit, addr 0x467d334, size 0x4, virtual false, abstract: false, final false
+static inline ::UnityEngine::Vector2 op_Implicit___UnityEngine__Vector2(::UnityEngine::ProBuilder::IntVec2  p) ;
 
-  /// @brief Method op_Inequality, addr 0x32b7e18, size 0x28, virtual false, abstract: false, final false
-  static inline bool op_Inequality(::UnityEngine::ProBuilder::IntVec2 a, ::UnityEngine::ProBuilder::IntVec2 b);
+/// @brief Method op_Inequality, addr 0x467d170, size 0x28, virtual false, abstract: false, final false
+static inline bool op_Inequality(::UnityEngine::ProBuilder::IntVec2  a, ::UnityEngine::ProBuilder::IntVec2  b) ;
 
-  /// @brief Method round, addr 0x32b7e40, size 0x68, virtual false, abstract: false, final false
-  static inline int32_t round(float_t v);
+/// @brief Method round, addr 0x467d198, size 0x68, virtual false, abstract: false, final false
+static inline int32_t round(float_t  v) ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr IntVec2();
+// Ctor Parameters []
+// @brief default ctor
+constexpr IntVec2() ;
 
-  // Ctor Parameters [CppParam { name: "value", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }]
-  constexpr IntVec2(::UnityEngine::Vector2 value) noexcept;
+// Ctor Parameters [CppParam { name: "value", ty: "::UnityEngine::Vector2", modifiers: "", def_value: None }]
+constexpr IntVec2(::UnityEngine::Vector2  value) noexcept;
 
-  /// @brief Field value, offset: 0x0, size: 0x8, def value: None
-  ::UnityEngine::Vector2 value;
+/// @brief Field value, offset: 0x0, size: 0x8, def value: None
+ ::UnityEngine::Vector2  value;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x8};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::ProBuilder::IntVec2, 0x8>, "Size mismatch!");
 
 static_assert(offsetof(::UnityEngine::ProBuilder::IntVec2, value) == 0x0, "Offset mismatch!");
 
-} // namespace UnityEngine::ProBuilder
+} // namespace end def UnityEngine::ProBuilder
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::ProBuilder::IntVec2, "UnityEngine.ProBuilder", "IntVec2");

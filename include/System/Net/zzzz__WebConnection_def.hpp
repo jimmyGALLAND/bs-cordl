@@ -68,7 +68,8 @@ namespace System::Net {
 class __WebConnection____c;
 }
 namespace System::Runtime::CompilerServices {
-template <typename TResult> struct AsyncTaskMethodBuilder_1;
+template<typename TResult>
+struct AsyncTaskMethodBuilder_1;
 }
 namespace System::Runtime::CompilerServices {
 struct AsyncTaskMethodBuilder;
@@ -77,13 +78,15 @@ namespace System::Runtime::CompilerServices {
 class IAsyncStateMachine;
 }
 namespace System::Runtime::CompilerServices {
-template <typename TResult> struct __ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter;
+template<typename TResult>
+struct __ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter;
 }
 namespace System::Runtime::CompilerServices {
 struct __ConfiguredTaskAwaitable__ConfiguredTaskAwaiter;
 }
 namespace System::Threading::Tasks {
-template <typename TResult> class Task_1;
+template<typename TResult>
+class Task_1;
 }
 namespace System::Threading::Tasks {
 class Task;
@@ -92,7 +95,8 @@ namespace System::Threading {
 struct CancellationToken;
 }
 namespace System {
-template <typename T> class Action_1;
+template<typename T>
+class Action_1;
 }
 namespace System {
 class AsyncCallback;
@@ -104,7 +108,8 @@ namespace System {
 class Exception;
 }
 namespace System {
-template <typename T1, typename T2, typename T3, typename TResult> class Func_4;
+template<typename T1,typename T2,typename T3,typename TResult>
+class Func_4;
 }
 namespace System {
 class IAsyncResult;
@@ -138,132 +143,123 @@ MARK_VAL_T(::System::Net::__WebConnection___Connect_d__16);
 MARK_VAL_T(::System::Net::__WebConnection___CreateStream_d__18);
 MARK_VAL_T(::System::Net::__WebConnection___InitConnection_d__19);
 // Type: ::<>c
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
 // CS Name: ::WebConnection::<>c*
 class CORDL_TYPE __WebConnection____c : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field <>9, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9, put = setStaticF___9))::System::Net::__WebConnection____c* __9;
+// Declarations
+/// @brief Field <>9, offset 0xffffffff, size 0x8 
+static __declspec(property(get=getStaticF___9, put=setStaticF___9)) ::System::Net::__WebConnection____c*  __9;
 
-  /// @brief Field <>9__16_0, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__16_0,
-                             put = setStaticF___9__16_0))::System::Func_4<::System::Net::IPEndPoint*, ::System::AsyncCallback*, ::System::Object*, ::System::IAsyncResult*>* __9__16_0;
+/// @brief Field <>9__16_0, offset 0xffffffff, size 0x8 
+static __declspec(property(get=getStaticF___9__16_0, put=setStaticF___9__16_0)) ::System::Func_4<::System::Net::IPEndPoint*,::System::AsyncCallback*,::System::Object*,::System::IAsyncResult*>*  __9__16_0;
 
-  /// @brief Field <>9__16_1, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF___9__16_1, put = setStaticF___9__16_1))::System::Action_1<::System::IAsyncResult*>* __9__16_1;
+/// @brief Field <>9__16_1, offset 0xffffffff, size 0x8 
+static __declspec(property(get=getStaticF___9__16_1, put=setStaticF___9__16_1)) ::System::Action_1<::System::IAsyncResult*>*  __9__16_1;
 
-  static inline ::System::Net::__WebConnection____c* New_ctor();
+static inline ::System::Net::__WebConnection____c* New_ctor() ;
 
-  /// @brief Method <Connect>b__16_0, addr 0x303ffc0, size 0xa0, virtual false, abstract: false, final false
-  inline ::System::IAsyncResult* _Connect_b__16_0(::System::Net::IPEndPoint* targetEndPoint, ::System::AsyncCallback* callback, ::System::Object* state);
+/// @brief Method <Connect>b__16_0, addr 0x4348f70, size 0xa0, virtual false, abstract: false, final false
+inline ::System::IAsyncResult* _Connect_b__16_0(::System::Net::IPEndPoint*  targetEndPoint, ::System::AsyncCallback*  callback, ::System::Object*  state) ;
 
-  /// @brief Method <Connect>b__16_1, addr 0x3040060, size 0xf4, virtual false, abstract: false, final false
-  inline void _Connect_b__16_1(::System::IAsyncResult* asyncResult);
+/// @brief Method <Connect>b__16_1, addr 0x4349010, size 0xf4, virtual false, abstract: false, final false
+inline void _Connect_b__16_1(::System::IAsyncResult*  asyncResult) ;
 
-  /// @brief Method .ctor, addr 0x303ffb8, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x4348f68, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  static inline ::System::Net::__WebConnection____c* getStaticF___9();
+static inline ::System::Net::__WebConnection____c* getStaticF___9() ;
 
-  static inline ::System::Func_4<::System::Net::IPEndPoint*, ::System::AsyncCallback*, ::System::Object*, ::System::IAsyncResult*>* getStaticF___9__16_0();
+static inline ::System::Func_4<::System::Net::IPEndPoint*,::System::AsyncCallback*,::System::Object*,::System::IAsyncResult*>* getStaticF___9__16_0() ;
 
-  static inline ::System::Action_1<::System::IAsyncResult*>* getStaticF___9__16_1();
+static inline ::System::Action_1<::System::IAsyncResult*>* getStaticF___9__16_1() ;
 
-  static inline void setStaticF___9(::System::Net::__WebConnection____c* value);
+static inline void setStaticF___9(::System::Net::__WebConnection____c*  value) ;
 
-  static inline void setStaticF___9__16_0(::System::Func_4<::System::Net::IPEndPoint*, ::System::AsyncCallback*, ::System::Object*, ::System::IAsyncResult*>* value);
+static inline void setStaticF___9__16_0(::System::Func_4<::System::Net::IPEndPoint*,::System::AsyncCallback*,::System::Object*,::System::IAsyncResult*>*  value) ;
 
-  static inline void setStaticF___9__16_1(::System::Action_1<::System::IAsyncResult*>* value);
+static inline void setStaticF___9__16_1(::System::Action_1<::System::IAsyncResult*>*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __WebConnection____c();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __WebConnection____c() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__WebConnection____c", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __WebConnection____c(__WebConnection____c&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__WebConnection____c", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __WebConnection____c(__WebConnection____c const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__WebConnection____c", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__WebConnection____c(__WebConnection____c && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "__WebConnection____c", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__WebConnection____c(__WebConnection____c const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::__WebConnection____c, 0x10>, "Size mismatch!");
 
-} // namespace System::Net
+} // namespace end def System::Net
 // Type: ::<Connect>d__16
-// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 112, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
 // CS Name: ::WebConnection::<Connect>d__16
 struct CORDL_TYPE __WebConnection___Connect_d__16 {
 public:
-  // Declarations
-  /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-  constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+// Declarations
+/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr operator  ::System::Runtime::CompilerServices::IAsyncStateMachine*() ;
 
-  /// @brief Method MoveNext, addr 0x3040154, size 0x8c0, virtual true, abstract: false, final true
-  inline void MoveNext();
+/// @brief Method MoveNext, addr 0x4349104, size 0x9a0, virtual true, abstract: false, final true
+inline void MoveNext() ;
 
-  /// @brief Method SetStateMachine, addr 0x3040a58, size 0xc, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+/// @brief Method SetStateMachine, addr 0x4349aa4, size 0x68, virtual true, abstract: false, final true
+inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine*  stateMachine) ;
 
-  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
+/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine() ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __WebConnection___Connect_d__16();
+// Ctor Parameters []
+// @brief default ctor
+constexpr __WebConnection___Connect_d__16() ;
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::System::Net::WebConnection*", modifiers: "", def_value: None
-  // }, CppParam { name: "operation", ty: "::System::Net::WebOperation*", modifiers: "", def_value: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken",
-  // modifiers: "", def_value: None }, CppParam { name: "_connectException_5__2", ty: "::System::Exception*", modifiers: "", def_value: None }, CppParam { name: "__7__wrap2", ty:
-  // "::ArrayW<::System::Net::IPAddress*,::Array<::System::Net::IPAddress*>*>", modifiers: "", def_value: None }, CppParam { name: "__7__wrap3", ty: "int32_t", modifiers: "", def_value: None },
-  // CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter", modifiers: "", def_value: None }]
-  constexpr __WebConnection___Connect_d__16(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder, ::System::Net::WebConnection* __4__this,
-                                            ::System::Net::WebOperation* operation, ::System::Threading::CancellationToken cancellationToken, ::System::Exception* _connectException_5__2,
-                                            ::ArrayW<::System::Net::IPAddress*, ::Array<::System::Net::IPAddress*>*> __7__wrap2, int32_t __7__wrap3,
-                                            ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter __u__1) noexcept;
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty: "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::System::Net::WebConnection*", modifiers: "", def_value: None }, CppParam { name: "operation", ty: "::System::Net::WebOperation*", modifiers: "", def_value: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "_connectException_5__2", ty: "::System::Exception*", modifiers: "", def_value: None }, CppParam { name: "__7__wrap2", ty: "::ArrayW<::System::Net::IPAddress*,::Array<::System::Net::IPAddress*>*>", modifiers: "", def_value: None }, CppParam { name: "__7__wrap3", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter", modifiers: "", def_value: None }]
+constexpr __WebConnection___Connect_d__16(int32_t  __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder  __t__builder, ::System::Net::WebConnection*  __4__this, ::System::Net::WebOperation*  operation, ::System::Threading::CancellationToken  cancellationToken, ::System::Exception*  _connectException_5__2, ::ArrayW<::System::Net::IPAddress*,::Array<::System::Net::IPAddress*>*>  __7__wrap2, int32_t  __7__wrap3, ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter  __u__1) noexcept;
 
-  /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
-  int32_t __1__state;
+/// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
+ int32_t  __1__state;
 
-  /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
-  ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder __t__builder;
+/// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
+ ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder  __t__builder;
 
-  /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
-  ::System::Net::WebConnection* __4__this;
+/// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
+ ::System::Net::WebConnection*  __4__this;
 
-  /// @brief Field operation, offset: 0x28, size: 0x8, def value: None
-  ::System::Net::WebOperation* operation;
+/// @brief Field operation, offset: 0x28, size: 0x8, def value: None
+ ::System::Net::WebOperation*  operation;
 
-  /// @brief Field cancellationToken, offset: 0x30, size: 0x8, def value: None
-  ::System::Threading::CancellationToken cancellationToken;
+/// @brief Field cancellationToken, offset: 0x30, size: 0x8, def value: None
+ ::System::Threading::CancellationToken  cancellationToken;
 
-  /// @brief Field <connectException>5__2, offset: 0x38, size: 0x8, def value: None
-  ::System::Exception* _connectException_5__2;
+/// @brief Field <connectException>5__2, offset: 0x38, size: 0x8, def value: None
+ ::System::Exception*  _connectException_5__2;
 
-  /// @brief Field <>7__wrap2, offset: 0x40, size: 0x8, def value: None
-  ::ArrayW<::System::Net::IPAddress*, ::Array<::System::Net::IPAddress*>*> __7__wrap2;
+/// @brief Field <>7__wrap2, offset: 0x40, size: 0x8, def value: None
+ ::ArrayW<::System::Net::IPAddress*,::Array<::System::Net::IPAddress*>*>  __7__wrap2;
 
-  /// @brief Field <>7__wrap3, offset: 0x48, size: 0x4, def value: None
-  int32_t __7__wrap3;
+/// @brief Field <>7__wrap3, offset: 0x48, size: 0x4, def value: None
+ int32_t  __7__wrap3;
 
-  /// @brief Field <>u__1, offset: 0x50, size: 0x10, def value: None
-  ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter __u__1;
+/// @brief Field <>u__1, offset: 0x50, size: 0x10, def value: None
+ ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter  __u__1;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x60 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x60};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::__WebConnection___Connect_d__16, 0x60>, "Size mismatch!");
@@ -286,74 +282,65 @@ static_assert(offsetof(::System::Net::__WebConnection___Connect_d__16, __7__wrap
 
 static_assert(offsetof(::System::Net::__WebConnection___Connect_d__16, __u__1) == 0x50, "Offset mismatch!");
 
-} // namespace System::Net
+} // namespace end def System::Net
 // Type: ::<CreateStream>d__18
-// SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 120, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 104, native_size: -1, calculated_instance_size: 104, calculated_native_size: 120, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
 // CS Name: ::WebConnection::<CreateStream>d__18
 struct CORDL_TYPE __WebConnection___CreateStream_d__18 {
 public:
-  // Declarations
-  /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-  constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+// Declarations
+/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr operator  ::System::Runtime::CompilerServices::IAsyncStateMachine*() ;
 
-  /// @brief Method MoveNext, addr 0x3040a64, size 0x66c, virtual true, abstract: false, final true
-  inline void MoveNext();
+/// @brief Method MoveNext, addr 0x4349b0c, size 0x6f8, virtual true, abstract: false, final true
+inline void MoveNext() ;
 
-  /// @brief Method SetStateMachine, addr 0x30411e0, size 0x58, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+/// @brief Method SetStateMachine, addr 0x434a204, size 0x7c, virtual true, abstract: false, final true
+inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine*  stateMachine) ;
 
-  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
+/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine() ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __WebConnection___CreateStream_d__18();
+// Ctor Parameters []
+// @brief default ctor
+constexpr __WebConnection___CreateStream_d__18() ;
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::System::Net::WebConnection*", modifiers: "",
-  // def_value: None }, CppParam { name: "operation", ty: "::System::Net::WebOperation*", modifiers: "", def_value: None }, CppParam { name: "reused", ty: "bool", modifiers: "", def_value: None },
-  // CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "_stream_5__2", ty:
-  // "::System::Net::Sockets::NetworkStream*", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter",
-  // modifiers: "", def_value: None }, CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<::System::IO::Stream*>", modifiers: "",
-  // def_value: None }]
-  constexpr __WebConnection___CreateStream_d__18(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool> __t__builder, ::System::Net::WebConnection* __4__this,
-                                                 ::System::Net::WebOperation* operation, bool reused, ::System::Threading::CancellationToken cancellationToken,
-                                                 ::System::Net::Sockets::NetworkStream* _stream_5__2, ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter __u__1,
-                                                 ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<::System::IO::Stream*> __u__2) noexcept;
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty: "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::System::Net::WebConnection*", modifiers: "", def_value: None }, CppParam { name: "operation", ty: "::System::Net::WebOperation*", modifiers: "", def_value: None }, CppParam { name: "reused", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "_stream_5__2", ty: "::System::Net::Sockets::NetworkStream*", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter", modifiers: "", def_value: None }, CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<::System::IO::Stream*>", modifiers: "", def_value: None }]
+constexpr __WebConnection___CreateStream_d__18(int32_t  __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>  __t__builder, ::System::Net::WebConnection*  __4__this, ::System::Net::WebOperation*  operation, bool  reused, ::System::Threading::CancellationToken  cancellationToken, ::System::Net::Sockets::NetworkStream*  _stream_5__2, ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter  __u__1, ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<::System::IO::Stream*>  __u__2) noexcept;
 
-  /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
-  int32_t __1__state;
+/// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
+ int32_t  __1__state;
 
-  /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
-  ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool> __t__builder;
+/// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
+ ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<bool>  __t__builder;
 
-  /// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
-  ::System::Net::WebConnection* __4__this;
+/// @brief Field <>4__this, offset: 0x20, size: 0x8, def value: None
+ ::System::Net::WebConnection*  __4__this;
 
-  /// @brief Field operation, offset: 0x28, size: 0x8, def value: None
-  ::System::Net::WebOperation* operation;
+/// @brief Field operation, offset: 0x28, size: 0x8, def value: None
+ ::System::Net::WebOperation*  operation;
 
-  /// @brief Field reused, offset: 0x30, size: 0x1, def value: None
-  bool reused;
+/// @brief Field reused, offset: 0x30, size: 0x1, def value: None
+ bool  reused;
 
-  /// @brief Field cancellationToken, offset: 0x38, size: 0x8, def value: None
-  ::System::Threading::CancellationToken cancellationToken;
+/// @brief Field cancellationToken, offset: 0x38, size: 0x8, def value: None
+ ::System::Threading::CancellationToken  cancellationToken;
 
-  /// @brief Field <stream>5__2, offset: 0x40, size: 0x8, def value: None
-  ::System::Net::Sockets::NetworkStream* _stream_5__2;
+/// @brief Field <stream>5__2, offset: 0x40, size: 0x8, def value: None
+ ::System::Net::Sockets::NetworkStream*  _stream_5__2;
 
-  /// @brief Field <>u__1, offset: 0x48, size: 0x10, def value: None
-  ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter __u__1;
+/// @brief Field <>u__1, offset: 0x48, size: 0x10, def value: None
+ ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter  __u__1;
 
-  /// @brief Field <>u__2, offset: 0x58, size: 0x10, def value: None
-  ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<::System::IO::Stream*> __u__2;
+/// @brief Field <>u__2, offset: 0x58, size: 0x10, def value: None
+ ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<::System::IO::Stream*>  __u__2;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x68 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x68};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::__WebConnection___CreateStream_d__18, 0x68>, "Size mismatch!");
@@ -376,70 +363,62 @@ static_assert(offsetof(::System::Net::__WebConnection___CreateStream_d__18, __u_
 
 static_assert(offsetof(::System::Net::__WebConnection___CreateStream_d__18, __u__2) == 0x58, "Offset mismatch!");
 
-} // namespace System::Net
+} // namespace end def System::Net
 // Type: ::<InitConnection>d__19
-// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 112, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 112, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: true
 // CS Name: ::WebConnection::<InitConnection>d__19
 struct CORDL_TYPE __WebConnection___InitConnection_d__19 {
 public:
-  // Declarations
-  /// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-  constexpr operator ::System::Runtime::CompilerServices::IAsyncStateMachine*();
+// Declarations
+/// @brief Convert operator to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr operator  ::System::Runtime::CompilerServices::IAsyncStateMachine*() ;
 
-  /// @brief Method MoveNext, addr 0x3041238, size 0x4cc, virtual true, abstract: false, final true
-  inline void MoveNext();
+/// @brief Method MoveNext, addr 0x434a280, size 0x550, virtual true, abstract: false, final true
+inline void MoveNext() ;
 
-  /// @brief Method SetStateMachine, addr 0x30418b0, size 0x58, virtual true, abstract: false, final true
-  inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine* stateMachine);
+/// @brief Method SetStateMachine, addr 0x434a9c0, size 0x7c, virtual true, abstract: false, final true
+inline void SetStateMachine(::System::Runtime::CompilerServices::IAsyncStateMachine*  stateMachine) ;
 
-  /// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
-  constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine();
+/// @brief Convert to "::System::Runtime::CompilerServices::IAsyncStateMachine"
+constexpr ::System::Runtime::CompilerServices::IAsyncStateMachine* i___System__Runtime__CompilerServices__IAsyncStateMachine() ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __WebConnection___InitConnection_d__19();
+// Ctor Parameters []
+// @brief default ctor
+constexpr __WebConnection___InitConnection_d__19() ;
 
-  // Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty:
-  // "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Net::WebRequestStream*>", modifiers: "", def_value: None }, CppParam { name: "operation", ty:
-  // "::System::Net::WebOperation*", modifiers: "", def_value: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam {
-  // name: "__4__this", ty: "::System::Net::WebConnection*", modifiers: "", def_value: None }, CppParam { name: "_reused_5__2", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "__u__1",
-  // ty: "::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter", modifiers: "", def_value: None }, CppParam { name: "__u__2", ty:
-  // "::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<bool>", modifiers: "", def_value: None }]
-  constexpr __WebConnection___InitConnection_d__19(int32_t __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Net::WebRequestStream*> __t__builder,
-                                                   ::System::Net::WebOperation* operation, ::System::Threading::CancellationToken cancellationToken, ::System::Net::WebConnection* __4__this,
-                                                   bool _reused_5__2, ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter __u__1,
-                                                   ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<bool> __u__2) noexcept;
+// Ctor Parameters [CppParam { name: "__1__state", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "__t__builder", ty: "::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Net::WebRequestStream*>", modifiers: "", def_value: None }, CppParam { name: "operation", ty: "::System::Net::WebOperation*", modifiers: "", def_value: None }, CppParam { name: "cancellationToken", ty: "::System::Threading::CancellationToken", modifiers: "", def_value: None }, CppParam { name: "__4__this", ty: "::System::Net::WebConnection*", modifiers: "", def_value: None }, CppParam { name: "_reused_5__2", ty: "bool", modifiers: "", def_value: None }, CppParam { name: "__u__1", ty: "::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter", modifiers: "", def_value: None }, CppParam { name: "__u__2", ty: "::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<bool>", modifiers: "", def_value: None }]
+constexpr __WebConnection___InitConnection_d__19(int32_t  __1__state, ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Net::WebRequestStream*>  __t__builder, ::System::Net::WebOperation*  operation, ::System::Threading::CancellationToken  cancellationToken, ::System::Net::WebConnection*  __4__this, bool  _reused_5__2, ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter  __u__1, ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<bool>  __u__2) noexcept;
 
-  /// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
-  int32_t __1__state;
+/// @brief Field <>1__state, offset: 0x0, size: 0x4, def value: None
+ int32_t  __1__state;
 
-  /// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
-  ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Net::WebRequestStream*> __t__builder;
+/// @brief Field <>t__builder, offset: 0x8, size: 0x18, def value: None
+ ::System::Runtime::CompilerServices::AsyncTaskMethodBuilder_1<::System::Net::WebRequestStream*>  __t__builder;
 
-  /// @brief Field operation, offset: 0x20, size: 0x8, def value: None
-  ::System::Net::WebOperation* operation;
+/// @brief Field operation, offset: 0x20, size: 0x8, def value: None
+ ::System::Net::WebOperation*  operation;
 
-  /// @brief Field cancellationToken, offset: 0x28, size: 0x8, def value: None
-  ::System::Threading::CancellationToken cancellationToken;
+/// @brief Field cancellationToken, offset: 0x28, size: 0x8, def value: None
+ ::System::Threading::CancellationToken  cancellationToken;
 
-  /// @brief Field <>4__this, offset: 0x30, size: 0x8, def value: None
-  ::System::Net::WebConnection* __4__this;
+/// @brief Field <>4__this, offset: 0x30, size: 0x8, def value: None
+ ::System::Net::WebConnection*  __4__this;
 
-  /// @brief Field <reused>5__2, offset: 0x38, size: 0x1, def value: None
-  bool _reused_5__2;
+/// @brief Field <reused>5__2, offset: 0x38, size: 0x1, def value: None
+ bool  _reused_5__2;
 
-  /// @brief Field <>u__1, offset: 0x40, size: 0x10, def value: None
-  ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter __u__1;
+/// @brief Field <>u__1, offset: 0x40, size: 0x10, def value: None
+ ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable__ConfiguredTaskAwaiter  __u__1;
 
-  /// @brief Field <>u__2, offset: 0x50, size: 0x10, def value: None
-  ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<bool> __u__2;
+/// @brief Field <>u__2, offset: 0x50, size: 0x10, def value: None
+ ::System::Runtime::CompilerServices::__ConfiguredTaskAwaitable_1__ConfiguredTaskAwaiter<bool>  __u__2;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x60 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x60};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::__WebConnection___InitConnection_d__19, 0x60>, "Size mismatch!");
@@ -460,271 +439,271 @@ static_assert(offsetof(::System::Net::__WebConnection___InitConnection_d__19, __
 
 static_assert(offsetof(::System::Net::__WebConnection___InitConnection_d__19, __u__2) == 0x50, "Offset mismatch!");
 
-} // namespace System::Net
+} // namespace end def System::Net
 // Type: System.Net::WebConnection
-// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
 // CS Name: ::System.Net::WebConnection*
 class CORDL_TYPE WebConnection : public ::System::Object {
 public:
-  // Declarations
-  using _Connect_d__16 = ::System::Net::__WebConnection___Connect_d__16;
+// Declarations
+using _Connect_d__16 = ::System::Net::__WebConnection___Connect_d__16;
 
-  using _CreateStream_d__18 = ::System::Net::__WebConnection___CreateStream_d__18;
+using _CreateStream_d__18 = ::System::Net::__WebConnection___CreateStream_d__18;
 
-  using _InitConnection_d__19 = ::System::Net::__WebConnection___InitConnection_d__19;
+using _InitConnection_d__19 = ::System::Net::__WebConnection___InitConnection_d__19;
 
-  using __c = ::System::Net::__WebConnection____c;
+using __c = ::System::Net::__WebConnection____c;
 
-  __declspec(property(get = get_Closed)) bool Closed;
+ __declspec(property(get=get_Closed)) bool  Closed;
 
-  __declspec(property(get = get_IdleSince))::System::DateTime IdleSince;
+ __declspec(property(get=get_IdleSince)) ::System::DateTime  IdleSince;
 
-  __declspec(property(get = get_NtlmAuthenticated, put = set_NtlmAuthenticated)) bool NtlmAuthenticated;
+ __declspec(property(get=get_NtlmAuthenticated, put=set_NtlmAuthenticated)) bool  NtlmAuthenticated;
 
-  __declspec(property(get = get_NtlmCredential, put = set_NtlmCredential))::System::Net::NetworkCredential* NtlmCredential;
+ __declspec(property(get=get_NtlmCredential, put=set_NtlmCredential)) ::System::Net::NetworkCredential*  NtlmCredential;
 
-  __declspec(property(get = get_ServicePoint))::System::Net::ServicePoint* ServicePoint;
+ __declspec(property(get=get_ServicePoint)) ::System::Net::ServicePoint*  ServicePoint;
 
-  __declspec(property(get = get_UnsafeAuthenticatedConnectionSharing, put = set_UnsafeAuthenticatedConnectionSharing)) bool UnsafeAuthenticatedConnectionSharing;
+ __declspec(property(get=get_UnsafeAuthenticatedConnectionSharing, put=set_UnsafeAuthenticatedConnectionSharing)) bool  UnsafeAuthenticatedConnectionSharing;
 
-  /// @brief Field <ServicePoint>k__BackingField, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__ServicePoint_k__BackingField, put = __cordl_internal_set__ServicePoint_k__BackingField))::System::Net::ServicePoint* _ServicePoint_k__BackingField;
+/// @brief Field <ServicePoint>k__BackingField, offset 0x48, size 0x8 
+ __declspec(property(get=__cordl_internal_get__ServicePoint_k__BackingField, put=__cordl_internal_set__ServicePoint_k__BackingField)) ::System::Net::ServicePoint*  _ServicePoint_k__BackingField;
 
-  /// @brief Field currentOperation, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get_currentOperation, put = __cordl_internal_set_currentOperation))::System::Net::WebOperation* currentOperation;
+/// @brief Field currentOperation, offset 0x58, size 0x8 
+ __declspec(property(get=__cordl_internal_get_currentOperation, put=__cordl_internal_set_currentOperation)) ::System::Net::WebOperation*  currentOperation;
 
-  /// @brief Field disposed, offset 0x40, size 0x4
-  __declspec(property(get = __cordl_internal_get_disposed, put = __cordl_internal_set_disposed)) int32_t disposed;
+/// @brief Field disposed, offset 0x40, size 0x4 
+ __declspec(property(get=__cordl_internal_get_disposed, put=__cordl_internal_set_disposed)) int32_t  disposed;
 
-  /// @brief Field idleSince, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_idleSince, put = __cordl_internal_set_idleSince))::System::DateTime idleSince;
+/// @brief Field idleSince, offset 0x50, size 0x8 
+ __declspec(property(get=__cordl_internal_get_idleSince, put=__cordl_internal_set_idleSince)) ::System::DateTime  idleSince;
 
-  /// @brief Field monoTlsStream, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_monoTlsStream, put = __cordl_internal_set_monoTlsStream))::Mono::Net::Security::MonoTlsStream* monoTlsStream;
+/// @brief Field monoTlsStream, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get_monoTlsStream, put=__cordl_internal_set_monoTlsStream)) ::Mono::Net::Security::MonoTlsStream*  monoTlsStream;
 
-  /// @brief Field networkStream, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_networkStream, put = __cordl_internal_set_networkStream))::System::IO::Stream* networkStream;
+/// @brief Field networkStream, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get_networkStream, put=__cordl_internal_set_networkStream)) ::System::IO::Stream*  networkStream;
 
-  /// @brief Field ntlm_authenticated, offset 0x18, size 0x1
-  __declspec(property(get = __cordl_internal_get_ntlm_authenticated, put = __cordl_internal_set_ntlm_authenticated)) bool ntlm_authenticated;
+/// @brief Field ntlm_authenticated, offset 0x18, size 0x1 
+ __declspec(property(get=__cordl_internal_get_ntlm_authenticated, put=__cordl_internal_set_ntlm_authenticated)) bool  ntlm_authenticated;
 
-  /// @brief Field ntlm_credentials, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_ntlm_credentials, put = __cordl_internal_set_ntlm_credentials))::System::Net::NetworkCredential* ntlm_credentials;
+/// @brief Field ntlm_credentials, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_ntlm_credentials, put=__cordl_internal_set_ntlm_credentials)) ::System::Net::NetworkCredential*  ntlm_credentials;
 
-  /// @brief Field socket, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_socket, put = __cordl_internal_set_socket))::System::Net::Sockets::Socket* socket;
+/// @brief Field socket, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get_socket, put=__cordl_internal_set_socket)) ::System::Net::Sockets::Socket*  socket;
 
-  /// @brief Field tunnel, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_tunnel, put = __cordl_internal_set_tunnel))::System::Net::WebConnectionTunnel* tunnel;
+/// @brief Field tunnel, offset 0x38, size 0x8 
+ __declspec(property(get=__cordl_internal_get_tunnel, put=__cordl_internal_set_tunnel)) ::System::Net::WebConnectionTunnel*  tunnel;
 
-  /// @brief Field unsafe_sharing, offset 0x19, size 0x1
-  __declspec(property(get = __cordl_internal_get_unsafe_sharing, put = __cordl_internal_set_unsafe_sharing)) bool unsafe_sharing;
+/// @brief Field unsafe_sharing, offset 0x19, size 0x1 
+ __declspec(property(get=__cordl_internal_get_unsafe_sharing, put=__cordl_internal_set_unsafe_sharing)) bool  unsafe_sharing;
 
-  /// @brief Convert operator to "::System::IDisposable"
-  constexpr operator ::System::IDisposable*() noexcept;
+/// @brief Convert operator to "::System::IDisposable"
+constexpr operator  ::System::IDisposable*() noexcept;
 
-  /// @brief Method CanReuse, addr 0x303ed9c, size 0x30, virtual false, abstract: false, final false
-  inline bool CanReuse();
+/// @brief Method CanReuse, addr 0x434808c, size 0x30, virtual false, abstract: false, final false
+inline bool CanReuse() ;
 
-  /// @brief Method CanReuseConnection, addr 0x303d600, size 0x42c, virtual false, abstract: false, final false
-  inline bool CanReuseConnection(::System::Net::WebOperation* operation);
+/// @brief Method CanReuseConnection, addr 0x4346814, size 0x42c, virtual false, abstract: false, final false
+inline bool CanReuseConnection(::System::Net::WebOperation*  operation) ;
 
-  /// @brief Method CheckReusable, addr 0x303edcc, size 0x9c, virtual false, abstract: false, final false
-  inline bool CheckReusable();
+/// @brief Method CheckReusable, addr 0x43480bc, size 0x9c, virtual false, abstract: false, final false
+inline bool CheckReusable() ;
 
-  /// @brief Method Close, addr 0x303f8c0, size 0xc8, virtual false, abstract: false, final false
-  inline void Close(bool reset);
+/// @brief Method Close, addr 0x4348b70, size 0xc8, virtual false, abstract: false, final false
+inline void Close(bool  reset) ;
 
-  /// @brief Method CloseSocket, addr 0x303f988, size 0x26c, virtual false, abstract: false, final false
-  inline void CloseSocket();
+/// @brief Method CloseSocket, addr 0x4348c38, size 0x25c, virtual false, abstract: false, final false
+inline void CloseSocket() ;
 
-  /// @brief Method Connect, addr 0x303ee68, size 0xe4, virtual false, abstract: false, final false
-  inline ::System::Threading::Tasks::Task* Connect(::System::Net::WebOperation* operation, ::System::Threading::CancellationToken cancellationToken);
+/// @brief Method Connect, addr 0x4348158, size 0xdc, virtual false, abstract: false, final false
+inline ::System::Threading::Tasks::Task* Connect(::System::Net::WebOperation*  operation, ::System::Threading::CancellationToken  cancellationToken) ;
 
-  /// @brief Method Continue, addr 0x303c3e8, size 0x160, virtual false, abstract: false, final false
-  inline bool Continue(::System::Net::WebOperation* next);
+/// @brief Method Continue, addr 0x43456c4, size 0x168, virtual false, abstract: false, final false
+inline bool Continue(::System::Net::WebOperation*  next) ;
 
-  /// @brief Method CreateStream, addr 0x303ef4c, size 0x120, virtual false, abstract: false, final false
-  inline ::System::Threading::Tasks::Task_1<bool>* CreateStream(::System::Net::WebOperation* operation, bool reused, ::System::Threading::CancellationToken cancellationToken);
+/// @brief Method CreateStream, addr 0x4348234, size 0x11c, virtual false, abstract: false, final false
+inline ::System::Threading::Tasks::Task_1<bool>* CreateStream(::System::Net::WebOperation*  operation, bool  reused, ::System::Threading::CancellationToken  cancellationToken) ;
 
-  /// @brief Method Dispose, addr 0x303d244, size 0x8, virtual true, abstract: false, final true
-  inline void Dispose();
+/// @brief Method Dispose, addr 0x43464e0, size 0x8, virtual true, abstract: false, final true
+inline void Dispose() ;
 
-  /// @brief Method Dispose, addr 0x303fee4, size 0x38, virtual false, abstract: false, final false
-  inline void Dispose(bool disposing);
+/// @brief Method Dispose, addr 0x4348e9c, size 0x38, virtual false, abstract: false, final false
+inline void Dispose(bool  disposing) ;
 
-  /// @brief Method GetException, addr 0x303f170, size 0x188, virtual false, abstract: false, final false
-  static inline ::System::Net::WebException* GetException(::System::Net::WebExceptionStatus status, ::System::Exception* error);
+/// @brief Method GetException, addr 0x4348444, size 0x180, virtual false, abstract: false, final false
+static inline ::System::Net::WebException* GetException(::System::Net::WebExceptionStatus  status, ::System::Exception*  error) ;
 
-  /// @brief Method InitConnection, addr 0x303f06c, size 0x104, virtual false, abstract: false, final false
-  inline ::System::Threading::Tasks::Task_1<::System::Net::WebRequestStream*>* InitConnection(::System::Net::WebOperation* operation, ::System::Threading::CancellationToken cancellationToken);
+/// @brief Method InitConnection, addr 0x4348350, size 0xf4, virtual false, abstract: false, final false
+inline ::System::Threading::Tasks::Task_1<::System::Net::WebRequestStream*>* InitConnection(::System::Net::WebOperation*  operation, ::System::Threading::CancellationToken  cancellationToken) ;
 
-  static inline ::System::Net::WebConnection* New_ctor(::System::Net::ServicePoint* sPoint);
+static inline ::System::Net::WebConnection* New_ctor(::System::Net::ServicePoint*  sPoint) ;
 
-  /// @brief Method PrepareSharingNtlm, addr 0x303f4e0, size 0x31c, virtual false, abstract: false, final false
-  inline bool PrepareSharingNtlm(::System::Net::WebOperation* operation);
+/// @brief Method PrepareSharingNtlm, addr 0x4348790, size 0x31c, virtual false, abstract: false, final false
+inline bool PrepareSharingNtlm(::System::Net::WebOperation*  operation) ;
 
-  /// @brief Method ReadLine, addr 0x303f2f8, size 0x1e8, virtual false, abstract: false, final false
-  static inline bool ReadLine(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, ByRef<int32_t> start, int32_t max, ByRef<::StringW> output);
+/// @brief Method ReadLine, addr 0x43485c4, size 0x1cc, virtual false, abstract: false, final false
+static inline bool ReadLine(::ArrayW<uint8_t,::Array<uint8_t>*>  buffer, ByRef<int32_t>  start, int32_t  max, ByRef<::StringW>  output) ;
 
-  /// @brief Method Reset, addr 0x303f7fc, size 0xb8, virtual false, abstract: false, final false
-  inline void Reset();
+/// @brief Method Reset, addr 0x4348aac, size 0xb8, virtual false, abstract: false, final false
+inline void Reset() ;
 
-  /// @brief Method ResetNtlm, addr 0x303f8b4, size 0xc, virtual false, abstract: false, final false
-  inline void ResetNtlm();
+/// @brief Method ResetNtlm, addr 0x4348b64, size 0xc, virtual false, abstract: false, final false
+inline void ResetNtlm() ;
 
-  /// @brief Method StartOperation, addr 0x303da2c, size 0x1f4, virtual false, abstract: false, final false
-  inline bool StartOperation(::System::Net::WebOperation* operation, bool reused);
+/// @brief Method StartOperation, addr 0x4346c40, size 0x1fc, virtual false, abstract: false, final false
+inline bool StartOperation(::System::Net::WebOperation*  operation, bool  reused) ;
 
-  constexpr ::System::Net::ServicePoint*& __cordl_internal_get__ServicePoint_k__BackingField();
+constexpr ::System::Net::ServicePoint*& __cordl_internal_get__ServicePoint_k__BackingField() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::ServicePoint*> const& __cordl_internal_get__ServicePoint_k__BackingField() const;
+constexpr ::cordl_internals::to_const_pointer<::System::Net::ServicePoint*> const& __cordl_internal_get__ServicePoint_k__BackingField() const;
 
-  constexpr ::System::Net::WebOperation*& __cordl_internal_get_currentOperation();
+constexpr ::System::Net::WebOperation*& __cordl_internal_get_currentOperation() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::WebOperation*> const& __cordl_internal_get_currentOperation() const;
+constexpr ::cordl_internals::to_const_pointer<::System::Net::WebOperation*> const& __cordl_internal_get_currentOperation() const;
 
-  constexpr int32_t const& __cordl_internal_get_disposed() const;
+constexpr int32_t const& __cordl_internal_get_disposed() const;
 
-  constexpr int32_t& __cordl_internal_get_disposed();
+constexpr int32_t& __cordl_internal_get_disposed() ;
 
-  constexpr ::System::DateTime const& __cordl_internal_get_idleSince() const;
+constexpr ::System::DateTime const& __cordl_internal_get_idleSince() const;
 
-  constexpr ::System::DateTime& __cordl_internal_get_idleSince();
+constexpr ::System::DateTime& __cordl_internal_get_idleSince() ;
 
-  constexpr ::Mono::Net::Security::MonoTlsStream*& __cordl_internal_get_monoTlsStream();
+constexpr ::Mono::Net::Security::MonoTlsStream*& __cordl_internal_get_monoTlsStream() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::Mono::Net::Security::MonoTlsStream*> const& __cordl_internal_get_monoTlsStream() const;
+constexpr ::cordl_internals::to_const_pointer<::Mono::Net::Security::MonoTlsStream*> const& __cordl_internal_get_monoTlsStream() const;
 
-  constexpr ::System::IO::Stream*& __cordl_internal_get_networkStream();
+constexpr ::System::IO::Stream*& __cordl_internal_get_networkStream() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __cordl_internal_get_networkStream() const;
+constexpr ::cordl_internals::to_const_pointer<::System::IO::Stream*> const& __cordl_internal_get_networkStream() const;
 
-  constexpr bool const& __cordl_internal_get_ntlm_authenticated() const;
+constexpr bool const& __cordl_internal_get_ntlm_authenticated() const;
 
-  constexpr bool& __cordl_internal_get_ntlm_authenticated();
+constexpr bool& __cordl_internal_get_ntlm_authenticated() ;
 
-  constexpr ::System::Net::NetworkCredential*& __cordl_internal_get_ntlm_credentials();
+constexpr ::System::Net::NetworkCredential*& __cordl_internal_get_ntlm_credentials() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::NetworkCredential*> const& __cordl_internal_get_ntlm_credentials() const;
+constexpr ::cordl_internals::to_const_pointer<::System::Net::NetworkCredential*> const& __cordl_internal_get_ntlm_credentials() const;
 
-  constexpr ::System::Net::Sockets::Socket*& __cordl_internal_get_socket();
+constexpr ::System::Net::Sockets::Socket*& __cordl_internal_get_socket() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::Sockets::Socket*> const& __cordl_internal_get_socket() const;
+constexpr ::cordl_internals::to_const_pointer<::System::Net::Sockets::Socket*> const& __cordl_internal_get_socket() const;
 
-  constexpr ::System::Net::WebConnectionTunnel*& __cordl_internal_get_tunnel();
+constexpr ::System::Net::WebConnectionTunnel*& __cordl_internal_get_tunnel() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::WebConnectionTunnel*> const& __cordl_internal_get_tunnel() const;
+constexpr ::cordl_internals::to_const_pointer<::System::Net::WebConnectionTunnel*> const& __cordl_internal_get_tunnel() const;
 
-  constexpr bool const& __cordl_internal_get_unsafe_sharing() const;
+constexpr bool const& __cordl_internal_get_unsafe_sharing() const;
 
-  constexpr bool& __cordl_internal_get_unsafe_sharing();
+constexpr bool& __cordl_internal_get_unsafe_sharing() ;
 
-  constexpr void __cordl_internal_set__ServicePoint_k__BackingField(::System::Net::ServicePoint* value);
+constexpr void __cordl_internal_set__ServicePoint_k__BackingField(::System::Net::ServicePoint*  value) ;
 
-  constexpr void __cordl_internal_set_currentOperation(::System::Net::WebOperation* value);
+constexpr void __cordl_internal_set_currentOperation(::System::Net::WebOperation*  value) ;
 
-  constexpr void __cordl_internal_set_disposed(int32_t value);
+constexpr void __cordl_internal_set_disposed(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_idleSince(::System::DateTime value);
+constexpr void __cordl_internal_set_idleSince(::System::DateTime  value) ;
 
-  constexpr void __cordl_internal_set_monoTlsStream(::Mono::Net::Security::MonoTlsStream* value);
+constexpr void __cordl_internal_set_monoTlsStream(::Mono::Net::Security::MonoTlsStream*  value) ;
 
-  constexpr void __cordl_internal_set_networkStream(::System::IO::Stream* value);
+constexpr void __cordl_internal_set_networkStream(::System::IO::Stream*  value) ;
 
-  constexpr void __cordl_internal_set_ntlm_authenticated(bool value);
+constexpr void __cordl_internal_set_ntlm_authenticated(bool  value) ;
 
-  constexpr void __cordl_internal_set_ntlm_credentials(::System::Net::NetworkCredential* value);
+constexpr void __cordl_internal_set_ntlm_credentials(::System::Net::NetworkCredential*  value) ;
 
-  constexpr void __cordl_internal_set_socket(::System::Net::Sockets::Socket* value);
+constexpr void __cordl_internal_set_socket(::System::Net::Sockets::Socket*  value) ;
 
-  constexpr void __cordl_internal_set_tunnel(::System::Net::WebConnectionTunnel* value);
+constexpr void __cordl_internal_set_tunnel(::System::Net::WebConnectionTunnel*  value) ;
 
-  constexpr void __cordl_internal_set_unsafe_sharing(bool value);
+constexpr void __cordl_internal_set_unsafe_sharing(bool  value) ;
 
-  /// @brief Method .ctor, addr 0x303dc20, size 0x28, virtual false, abstract: false, final false
-  inline void _ctor(::System::Net::ServicePoint* sPoint);
+/// @brief Method .ctor, addr 0x4346e3c, size 0x28, virtual false, abstract: false, final false
+inline void _ctor(::System::Net::ServicePoint*  sPoint) ;
 
-  /// @brief Method get_Closed, addr 0x303d24c, size 0x10, virtual false, abstract: false, final false
-  inline bool get_Closed();
+/// @brief Method get_Closed, addr 0x43464e8, size 0x10, virtual false, abstract: false, final false
+inline bool get_Closed() ;
 
-  /// @brief Method get_IdleSince, addr 0x303fbf4, size 0x8, virtual false, abstract: false, final false
-  inline ::System::DateTime get_IdleSince();
+/// @brief Method get_IdleSince, addr 0x4348e94, size 0x8, virtual false, abstract: false, final false
+inline ::System::DateTime get_IdleSince() ;
 
-  /// @brief Method get_NtlmAuthenticated, addr 0x303ff1c, size 0x8, virtual false, abstract: false, final false
-  inline bool get_NtlmAuthenticated();
+/// @brief Method get_NtlmAuthenticated, addr 0x4348ed4, size 0x8, virtual false, abstract: false, final false
+inline bool get_NtlmAuthenticated() ;
 
-  /// @brief Method get_NtlmCredential, addr 0x303ff30, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Net::NetworkCredential* get_NtlmCredential();
+/// @brief Method get_NtlmCredential, addr 0x4348ee8, size 0x8, virtual false, abstract: false, final false
+inline ::System::Net::NetworkCredential* get_NtlmCredential() ;
 
-  /// @brief Method get_ServicePoint, addr 0x303ed94, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Net::ServicePoint* get_ServicePoint();
+/// @brief Method get_ServicePoint, addr 0x4348084, size 0x8, virtual false, abstract: false, final false
+inline ::System::Net::ServicePoint* get_ServicePoint() ;
 
-  /// @brief Method get_UnsafeAuthenticatedConnectionSharing, addr 0x303ff40, size 0x8, virtual false, abstract: false, final false
-  inline bool get_UnsafeAuthenticatedConnectionSharing();
+/// @brief Method get_UnsafeAuthenticatedConnectionSharing, addr 0x4348ef8, size 0x8, virtual false, abstract: false, final false
+inline bool get_UnsafeAuthenticatedConnectionSharing() ;
 
-  /// @brief Convert to "::System::IDisposable"
-  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+/// @brief Convert to "::System::IDisposable"
+constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method set_NtlmAuthenticated, addr 0x303ff24, size 0xc, virtual false, abstract: false, final false
-  inline void set_NtlmAuthenticated(bool value);
+/// @brief Method set_NtlmAuthenticated, addr 0x4348edc, size 0xc, virtual false, abstract: false, final false
+inline void set_NtlmAuthenticated(bool  value) ;
 
-  /// @brief Method set_NtlmCredential, addr 0x303ff38, size 0x8, virtual false, abstract: false, final false
-  inline void set_NtlmCredential(::System::Net::NetworkCredential* value);
+/// @brief Method set_NtlmCredential, addr 0x4348ef0, size 0x8, virtual false, abstract: false, final false
+inline void set_NtlmCredential(::System::Net::NetworkCredential*  value) ;
 
-  /// @brief Method set_UnsafeAuthenticatedConnectionSharing, addr 0x303ff48, size 0xc, virtual false, abstract: false, final false
-  inline void set_UnsafeAuthenticatedConnectionSharing(bool value);
+/// @brief Method set_UnsafeAuthenticatedConnectionSharing, addr 0x4348f00, size 0xc, virtual false, abstract: false, final false
+inline void set_UnsafeAuthenticatedConnectionSharing(bool  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr WebConnection();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr WebConnection() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "WebConnection", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  WebConnection(WebConnection&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "WebConnection", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  WebConnection(WebConnection const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "WebConnection", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+WebConnection(WebConnection && ) = delete;
 
-  /// @brief Field ntlm_credentials, offset: 0x10, size: 0x8, def value: None
-  ::System::Net::NetworkCredential* ___ntlm_credentials;
+// Ctor Parameters [CppParam { name: "", ty: "WebConnection", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+WebConnection(WebConnection const& ) = delete;
 
-  /// @brief Field ntlm_authenticated, offset: 0x18, size: 0x1, def value: None
-  bool ___ntlm_authenticated;
+/// @brief Field ntlm_credentials, offset: 0x10, size: 0x8, def value: None
+ ::System::Net::NetworkCredential*  ___ntlm_credentials;
 
-  /// @brief Field unsafe_sharing, offset: 0x19, size: 0x1, def value: None
-  bool ___unsafe_sharing;
+/// @brief Field ntlm_authenticated, offset: 0x18, size: 0x1, def value: None
+ bool  ___ntlm_authenticated;
 
-  /// @brief Field networkStream, offset: 0x20, size: 0x8, def value: None
-  ::System::IO::Stream* ___networkStream;
+/// @brief Field unsafe_sharing, offset: 0x19, size: 0x1, def value: None
+ bool  ___unsafe_sharing;
 
-  /// @brief Field socket, offset: 0x28, size: 0x8, def value: None
-  ::System::Net::Sockets::Socket* ___socket;
+/// @brief Field networkStream, offset: 0x20, size: 0x8, def value: None
+ ::System::IO::Stream*  ___networkStream;
 
-  /// @brief Field monoTlsStream, offset: 0x30, size: 0x8, def value: None
-  ::Mono::Net::Security::MonoTlsStream* ___monoTlsStream;
+/// @brief Field socket, offset: 0x28, size: 0x8, def value: None
+ ::System::Net::Sockets::Socket*  ___socket;
 
-  /// @brief Field tunnel, offset: 0x38, size: 0x8, def value: None
-  ::System::Net::WebConnectionTunnel* ___tunnel;
+/// @brief Field monoTlsStream, offset: 0x30, size: 0x8, def value: None
+ ::Mono::Net::Security::MonoTlsStream*  ___monoTlsStream;
 
-  /// @brief Field disposed, offset: 0x40, size: 0x4, def value: None
-  int32_t ___disposed;
+/// @brief Field tunnel, offset: 0x38, size: 0x8, def value: None
+ ::System::Net::WebConnectionTunnel*  ___tunnel;
 
-  /// @brief Field <ServicePoint>k__BackingField, offset: 0x48, size: 0x8, def value: None
-  ::System::Net::ServicePoint* ____ServicePoint_k__BackingField;
+/// @brief Field disposed, offset: 0x40, size: 0x4, def value: None
+ int32_t  ___disposed;
 
-  /// @brief Field idleSince, offset: 0x50, size: 0x8, def value: None
-  ::System::DateTime ___idleSince;
+/// @brief Field <ServicePoint>k__BackingField, offset: 0x48, size: 0x8, def value: None
+ ::System::Net::ServicePoint*  ____ServicePoint_k__BackingField;
 
-  /// @brief Field currentOperation, offset: 0x58, size: 0x8, def value: None
-  ::System::Net::WebOperation* ___currentOperation;
+/// @brief Field idleSince, offset: 0x50, size: 0x8, def value: None
+ ::System::DateTime  ___idleSince;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field currentOperation, offset: 0x58, size: 0x8, def value: None
+ ::System::Net::WebOperation*  ___currentOperation;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::WebConnection, 0x60>, "Size mismatch!");
@@ -751,7 +730,7 @@ static_assert(offsetof(::System::Net::WebConnection, ___idleSince) == 0x50, "Off
 
 static_assert(offsetof(::System::Net::WebConnection, ___currentOperation) == 0x58, "Offset mismatch!");
 
-} // namespace System::Net
+} // namespace end def System::Net
 NEED_NO_BOX(::System::Net::WebConnection);
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::WebConnection*, "System.Net", "WebConnection");
 NEED_NO_BOX(::System::Net::__WebConnection____c);

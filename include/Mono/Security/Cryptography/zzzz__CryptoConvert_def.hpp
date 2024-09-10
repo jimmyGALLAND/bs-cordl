@@ -21,53 +21,53 @@ class CryptoConvert;
 // Write type traits
 MARK_REF_PTR_T(::Mono::Security::Cryptography::CryptoConvert);
 // Type: Mono.Security.Cryptography::CryptoConvert
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Mono::Security::Cryptography {
 // Is value type: false
 // CS Name: ::Mono.Security.Cryptography::CryptoConvert*
 class CORDL_TYPE CryptoConvert : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method FromCapiPrivateKeyBlob, addr 0x27af170, size 0x8, virtual false, abstract: false, final false
-  static inline ::System::Security::Cryptography::RSA* FromCapiPrivateKeyBlob(::ArrayW<uint8_t, ::Array<uint8_t>*> blob);
+// Declarations
+/// @brief Method FromCapiPrivateKeyBlob, addr 0x3bb6874, size 0x8, virtual false, abstract: false, final false
+static inline ::System::Security::Cryptography::RSA* FromCapiPrivateKeyBlob(::ArrayW<uint8_t,::Array<uint8_t>*>  blob) ;
 
-  /// @brief Method FromCapiPrivateKeyBlob, addr 0x27af178, size 0x224, virtual false, abstract: false, final false
-  static inline ::System::Security::Cryptography::RSA* FromCapiPrivateKeyBlob(::ArrayW<uint8_t, ::Array<uint8_t>*> blob, int32_t offset);
+/// @brief Method FromCapiPrivateKeyBlob, addr 0x3bb687c, size 0x230, virtual false, abstract: false, final false
+static inline ::System::Security::Cryptography::RSA* FromCapiPrivateKeyBlob(::ArrayW<uint8_t,::Array<uint8_t>*>  blob, int32_t  offset) ;
 
-  /// @brief Method GetParametersFromCapiPrivateKeyBlob, addr 0x27af39c, size 0x5a0, virtual false, abstract: false, final false
-  static inline ::System::Security::Cryptography::RSAParameters GetParametersFromCapiPrivateKeyBlob(::ArrayW<uint8_t, ::Array<uint8_t>*> blob, int32_t offset);
+/// @brief Method GetParametersFromCapiPrivateKeyBlob, addr 0x3bb6aac, size 0x588, virtual false, abstract: false, final false
+static inline ::System::Security::Cryptography::RSAParameters GetParametersFromCapiPrivateKeyBlob(::ArrayW<uint8_t,::Array<uint8_t>*>  blob, int32_t  offset) ;
 
-  /// @brief Method ToHex, addr 0x27af93c, size 0x134, virtual false, abstract: false, final false
-  static inline ::StringW ToHex(::ArrayW<uint8_t, ::Array<uint8_t>*> input);
+/// @brief Method ToHex, addr 0x3bb7034, size 0x13c, virtual false, abstract: false, final false
+static inline ::StringW ToHex(::ArrayW<uint8_t,::Array<uint8_t>*>  input) ;
 
-  /// @brief Method ToInt32LE, addr 0x27aefdc, size 0x74, virtual false, abstract: false, final false
-  static inline int32_t ToInt32LE(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t offset);
+/// @brief Method ToInt32LE, addr 0x3bb66d8, size 0x74, virtual false, abstract: false, final false
+static inline int32_t ToInt32LE(::ArrayW<uint8_t,::Array<uint8_t>*>  bytes, int32_t  offset) ;
 
-  /// @brief Method ToUInt32LE, addr 0x27af050, size 0x74, virtual false, abstract: false, final false
-  static inline uint32_t ToUInt32LE(::ArrayW<uint8_t, ::Array<uint8_t>*> bytes, int32_t offset);
+/// @brief Method ToUInt32LE, addr 0x3bb674c, size 0x74, virtual false, abstract: false, final false
+static inline uint32_t ToUInt32LE(::ArrayW<uint8_t,::Array<uint8_t>*>  bytes, int32_t  offset) ;
 
-  /// @brief Method Trim, addr 0x27af0c4, size 0xac, virtual false, abstract: false, final false
-  static inline ::ArrayW<uint8_t, ::Array<uint8_t>*> Trim(::ArrayW<uint8_t, ::Array<uint8_t>*> array);
+/// @brief Method Trim, addr 0x3bb67c0, size 0xb4, virtual false, abstract: false, final false
+static inline ::ArrayW<uint8_t,::Array<uint8_t>*> Trim(::ArrayW<uint8_t,::Array<uint8_t>*>  array) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CryptoConvert();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr CryptoConvert() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CryptoConvert", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  CryptoConvert(CryptoConvert&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CryptoConvert", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  CryptoConvert(CryptoConvert const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "CryptoConvert", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+CryptoConvert(CryptoConvert && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "CryptoConvert", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+CryptoConvert(CryptoConvert const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Mono::Security::Cryptography::CryptoConvert, 0x10>, "Size mismatch!");
 
-} // namespace Mono::Security::Cryptography
+} // namespace end def Mono::Security::Cryptography
 NEED_NO_BOX(::Mono::Security::Cryptography::CryptoConvert);
 DEFINE_IL2CPP_ARG_TYPE(::Mono::Security::Cryptography::CryptoConvert*, "Mono.Security.Cryptography", "CryptoConvert");

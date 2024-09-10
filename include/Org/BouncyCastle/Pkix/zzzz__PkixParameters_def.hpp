@@ -37,429 +37,429 @@ class PkixParameters;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Pkix::PkixParameters);
 // Type: Org.BouncyCastle.Pkix::PkixParameters
-// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 141, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 144, native_size: -1, calculated_instance_size: 144, calculated_native_size: 141, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Pkix {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Pkix::PkixParameters*
 class CORDL_TYPE PkixParameters : public ::System::Object {
 public:
-  // Declarations
-  __declspec(property(get = get_Date, put = set_Date))::Org::BouncyCastle::Utilities::Date::DateTimeObject* Date;
+// Declarations
+ __declspec(property(get=get_Date, put=set_Date)) ::Org::BouncyCastle::Utilities::Date::DateTimeObject*  Date;
 
-  __declspec(property(get = get_IsAdditionalLocationsEnabled)) bool IsAdditionalLocationsEnabled;
+ __declspec(property(get=get_IsAdditionalLocationsEnabled)) bool  IsAdditionalLocationsEnabled;
 
-  __declspec(property(get = get_IsAnyPolicyInhibited, put = set_IsAnyPolicyInhibited)) bool IsAnyPolicyInhibited;
+ __declspec(property(get=get_IsAnyPolicyInhibited, put=set_IsAnyPolicyInhibited)) bool  IsAnyPolicyInhibited;
 
-  __declspec(property(get = get_IsExplicitPolicyRequired, put = set_IsExplicitPolicyRequired)) bool IsExplicitPolicyRequired;
+ __declspec(property(get=get_IsExplicitPolicyRequired, put=set_IsExplicitPolicyRequired)) bool  IsExplicitPolicyRequired;
 
-  __declspec(property(get = get_IsPolicyMappingInhibited, put = set_IsPolicyMappingInhibited)) bool IsPolicyMappingInhibited;
+ __declspec(property(get=get_IsPolicyMappingInhibited, put=set_IsPolicyMappingInhibited)) bool  IsPolicyMappingInhibited;
 
-  __declspec(property(get = get_IsPolicyQualifiersRejected, put = set_IsPolicyQualifiersRejected)) bool IsPolicyQualifiersRejected;
+ __declspec(property(get=get_IsPolicyQualifiersRejected, put=set_IsPolicyQualifiersRejected)) bool  IsPolicyQualifiersRejected;
 
-  __declspec(property(get = get_IsRevocationEnabled, put = set_IsRevocationEnabled)) bool IsRevocationEnabled;
+ __declspec(property(get=get_IsRevocationEnabled, put=set_IsRevocationEnabled)) bool  IsRevocationEnabled;
 
-  __declspec(property(get = get_IsUseDeltasEnabled, put = set_IsUseDeltasEnabled)) bool IsUseDeltasEnabled;
+ __declspec(property(get=get_IsUseDeltasEnabled, put=set_IsUseDeltasEnabled)) bool  IsUseDeltasEnabled;
 
-  __declspec(property(get = get_ValidityModel, put = set_ValidityModel)) int32_t ValidityModel;
+ __declspec(property(get=get_ValidityModel, put=set_ValidityModel)) int32_t  ValidityModel;
 
-  /// @brief Field additionalLocationsEnabled, offset 0x58, size 0x1
-  __declspec(property(get = __cordl_internal_get_additionalLocationsEnabled, put = __cordl_internal_set_additionalLocationsEnabled)) bool additionalLocationsEnabled;
+/// @brief Field additionalLocationsEnabled, offset 0x58, size 0x1 
+ __declspec(property(get=__cordl_internal_get_additionalLocationsEnabled, put=__cordl_internal_set_additionalLocationsEnabled)) bool  additionalLocationsEnabled;
 
-  /// @brief Field additionalStores, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get_additionalStores, put = __cordl_internal_set_additionalStores))::System::Collections::IList* additionalStores;
+/// @brief Field additionalStores, offset 0x60, size 0x8 
+ __declspec(property(get=__cordl_internal_get_additionalStores, put=__cordl_internal_set_additionalStores)) ::System::Collections::IList*  additionalStores;
 
-  /// @brief Field anyPolicyInhibited, offset 0x39, size 0x1
-  __declspec(property(get = __cordl_internal_get_anyPolicyInhibited, put = __cordl_internal_set_anyPolicyInhibited)) bool anyPolicyInhibited;
+/// @brief Field anyPolicyInhibited, offset 0x39, size 0x1 
+ __declspec(property(get=__cordl_internal_get_anyPolicyInhibited, put=__cordl_internal_set_anyPolicyInhibited)) bool  anyPolicyInhibited;
 
-  /// @brief Field attrCertCheckers, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get_attrCertCheckers, put = __cordl_internal_set_attrCertCheckers))::Org::BouncyCastle::Utilities::Collections::ISet* attrCertCheckers;
+/// @brief Field attrCertCheckers, offset 0x80, size 0x8 
+ __declspec(property(get=__cordl_internal_get_attrCertCheckers, put=__cordl_internal_set_attrCertCheckers)) ::Org::BouncyCastle::Utilities::Collections::ISet*  attrCertCheckers;
 
-  /// @brief Field certPathCheckers, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_certPathCheckers, put = __cordl_internal_set_certPathCheckers))::System::Collections::IList* certPathCheckers;
+/// @brief Field certPathCheckers, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get_certPathCheckers, put=__cordl_internal_set_certPathCheckers)) ::System::Collections::IList*  certPathCheckers;
 
-  /// @brief Field certSelector, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_certSelector, put = __cordl_internal_set_certSelector))::Org::BouncyCastle::X509::Store::IX509Selector* certSelector;
+/// @brief Field certSelector, offset 0x40, size 0x8 
+ __declspec(property(get=__cordl_internal_get_certSelector, put=__cordl_internal_set_certSelector)) ::Org::BouncyCastle::X509::Store::IX509Selector*  certSelector;
 
-  /// @brief Field date, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_date, put = __cordl_internal_set_date))::Org::BouncyCastle::Utilities::Date::DateTimeObject* date;
+/// @brief Field date, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_date, put=__cordl_internal_set_date)) ::Org::BouncyCastle::Utilities::Date::DateTimeObject*  date;
 
-  /// @brief Field explicitPolicyRequired, offset 0x38, size 0x1
-  __declspec(property(get = __cordl_internal_get_explicitPolicyRequired, put = __cordl_internal_set_explicitPolicyRequired)) bool explicitPolicyRequired;
+/// @brief Field explicitPolicyRequired, offset 0x38, size 0x1 
+ __declspec(property(get=__cordl_internal_get_explicitPolicyRequired, put=__cordl_internal_set_explicitPolicyRequired)) bool  explicitPolicyRequired;
 
-  /// @brief Field initialPolicies, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_initialPolicies, put = __cordl_internal_set_initialPolicies))::Org::BouncyCastle::Utilities::Collections::ISet* initialPolicies;
+/// @brief Field initialPolicies, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get_initialPolicies, put=__cordl_internal_set_initialPolicies)) ::Org::BouncyCastle::Utilities::Collections::ISet*  initialPolicies;
 
-  /// @brief Field necessaryACAttributes, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get_necessaryACAttributes, put = __cordl_internal_set_necessaryACAttributes))::Org::BouncyCastle::Utilities::Collections::ISet* necessaryACAttributes;
+/// @brief Field necessaryACAttributes, offset 0x70, size 0x8 
+ __declspec(property(get=__cordl_internal_get_necessaryACAttributes, put=__cordl_internal_set_necessaryACAttributes)) ::Org::BouncyCastle::Utilities::Collections::ISet*  necessaryACAttributes;
 
-  /// @brief Field policyMappingInhibited, offset 0x3a, size 0x1
-  __declspec(property(get = __cordl_internal_get_policyMappingInhibited, put = __cordl_internal_set_policyMappingInhibited)) bool policyMappingInhibited;
+/// @brief Field policyMappingInhibited, offset 0x3a, size 0x1 
+ __declspec(property(get=__cordl_internal_get_policyMappingInhibited, put=__cordl_internal_set_policyMappingInhibited)) bool  policyMappingInhibited;
 
-  /// @brief Field policyQualifiersRejected, offset 0x3b, size 0x1
-  __declspec(property(get = __cordl_internal_get_policyQualifiersRejected, put = __cordl_internal_set_policyQualifiersRejected)) bool policyQualifiersRejected;
+/// @brief Field policyQualifiersRejected, offset 0x3b, size 0x1 
+ __declspec(property(get=__cordl_internal_get_policyQualifiersRejected, put=__cordl_internal_set_policyQualifiersRejected)) bool  policyQualifiersRejected;
 
-  /// @brief Field prohibitedACAttributes, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get_prohibitedACAttributes, put = __cordl_internal_set_prohibitedACAttributes))::Org::BouncyCastle::Utilities::Collections::ISet* prohibitedACAttributes;
+/// @brief Field prohibitedACAttributes, offset 0x78, size 0x8 
+ __declspec(property(get=__cordl_internal_get_prohibitedACAttributes, put=__cordl_internal_set_prohibitedACAttributes)) ::Org::BouncyCastle::Utilities::Collections::ISet*  prohibitedACAttributes;
 
-  /// @brief Field revocationEnabled, offset 0x28, size 0x1
-  __declspec(property(get = __cordl_internal_get_revocationEnabled, put = __cordl_internal_set_revocationEnabled)) bool revocationEnabled;
+/// @brief Field revocationEnabled, offset 0x28, size 0x1 
+ __declspec(property(get=__cordl_internal_get_revocationEnabled, put=__cordl_internal_set_revocationEnabled)) bool  revocationEnabled;
 
-  /// @brief Field selector, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get_selector, put = __cordl_internal_set_selector))::Org::BouncyCastle::X509::Store::IX509Selector* selector;
+/// @brief Field selector, offset 0x50, size 0x8 
+ __declspec(property(get=__cordl_internal_get_selector, put=__cordl_internal_set_selector)) ::Org::BouncyCastle::X509::Store::IX509Selector*  selector;
 
-  /// @brief Field stores, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get_stores, put = __cordl_internal_set_stores))::System::Collections::IList* stores;
+/// @brief Field stores, offset 0x48, size 0x8 
+ __declspec(property(get=__cordl_internal_get_stores, put=__cordl_internal_set_stores)) ::System::Collections::IList*  stores;
 
-  /// @brief Field trustAnchors, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_trustAnchors, put = __cordl_internal_set_trustAnchors))::Org::BouncyCastle::Utilities::Collections::ISet* trustAnchors;
+/// @brief Field trustAnchors, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_trustAnchors, put=__cordl_internal_set_trustAnchors)) ::Org::BouncyCastle::Utilities::Collections::ISet*  trustAnchors;
 
-  /// @brief Field trustedACIssuers, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get_trustedACIssuers, put = __cordl_internal_set_trustedACIssuers))::Org::BouncyCastle::Utilities::Collections::ISet* trustedACIssuers;
+/// @brief Field trustedACIssuers, offset 0x68, size 0x8 
+ __declspec(property(get=__cordl_internal_get_trustedACIssuers, put=__cordl_internal_set_trustedACIssuers)) ::Org::BouncyCastle::Utilities::Collections::ISet*  trustedACIssuers;
 
-  /// @brief Field useDeltas, offset 0x8c, size 0x1
-  __declspec(property(get = __cordl_internal_get_useDeltas, put = __cordl_internal_set_useDeltas)) bool useDeltas;
+/// @brief Field useDeltas, offset 0x8c, size 0x1 
+ __declspec(property(get=__cordl_internal_get_useDeltas, put=__cordl_internal_set_useDeltas)) bool  useDeltas;
 
-  /// @brief Field validityModel, offset 0x88, size 0x4
-  __declspec(property(get = __cordl_internal_get_validityModel, put = __cordl_internal_set_validityModel)) int32_t validityModel;
+/// @brief Field validityModel, offset 0x88, size 0x4 
+ __declspec(property(get=__cordl_internal_get_validityModel, put=__cordl_internal_set_validityModel)) int32_t  validityModel;
 
-  /// @brief Method AddAdditionalStore, addr 0x1360724, size 0xbc, virtual true, abstract: false, final false
-  inline void AddAdditionalStore(::Org::BouncyCastle::X509::Store::IX509Store* store);
+/// @brief Method AddAdditionalStore, addr 0x251fc48, size 0xbc, virtual true, abstract: false, final false
+inline void AddAdditionalStore(::Org::BouncyCastle::X509::Store::IX509Store*  store) ;
 
-  /// @brief Method AddCertPathChecker, addr 0x135fd30, size 0xd0, virtual true, abstract: false, final false
-  inline void AddCertPathChecker(::Org::BouncyCastle::Pkix::PkixCertPathChecker* checker);
+/// @brief Method AddCertPathChecker, addr 0x251f25c, size 0xd0, virtual true, abstract: false, final false
+inline void AddCertPathChecker(::Org::BouncyCastle::Pkix::PkixCertPathChecker*  checker) ;
 
-  /// @brief Method AddStore, addr 0x1360668, size 0xbc, virtual true, abstract: false, final false
-  inline void AddStore(::Org::BouncyCastle::X509::Store::IX509Store* store);
+/// @brief Method AddStore, addr 0x251fb8c, size 0xbc, virtual true, abstract: false, final false
+inline void AddStore(::Org::BouncyCastle::X509::Store::IX509Store*  store) ;
 
-  /// @brief Method Clone, addr 0x135fe00, size 0x94, virtual true, abstract: false, final false
-  inline ::System::Object* Clone();
+/// @brief Method Clone, addr 0x251f32c, size 0x94, virtual true, abstract: false, final false
+inline ::System::Object* Clone() ;
 
-  /// @brief Method GetAdditionalStores, addr 0x13607e0, size 0x5c, virtual true, abstract: false, final false
-  inline ::System::Collections::IList* GetAdditionalStores();
+/// @brief Method GetAdditionalStores, addr 0x251fd04, size 0x5c, virtual true, abstract: false, final false
+inline ::System::Collections::IList* GetAdditionalStores() ;
 
-  /// @brief Method GetAttrCertCheckers, addr 0x136178c, size 0x68, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Utilities::Collections::ISet* GetAttrCertCheckers();
+/// @brief Method GetAttrCertCheckers, addr 0x2520c70, size 0x60, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Utilities::Collections::ISet* GetAttrCertCheckers() ;
 
-  /// @brief Method GetCertPathCheckers, addr 0x135f940, size 0x3f0, virtual true, abstract: false, final false
-  inline ::System::Collections::IList* GetCertPathCheckers();
+/// @brief Method GetCertPathCheckers, addr 0x251ee6c, size 0x3f0, virtual true, abstract: false, final false
+inline ::System::Collections::IList* GetCertPathCheckers() ;
 
-  /// @brief Method GetInitialPolicies, addr 0x135f0f4, size 0x84, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Utilities::Collections::ISet* GetInitialPolicies();
+/// @brief Method GetInitialPolicies, addr 0x251e638, size 0x78, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Utilities::Collections::ISet* GetInitialPolicies() ;
 
-  /// @brief Method GetNecessaryACAttributes, addr 0x1360f54, size 0x68, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Utilities::Collections::ISet* GetNecessaryACAttributes();
+/// @brief Method GetNecessaryACAttributes, addr 0x2520460, size 0x60, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Utilities::Collections::ISet* GetNecessaryACAttributes() ;
 
-  /// @brief Method GetProhibitedACAttributes, addr 0x1361370, size 0x68, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Utilities::Collections::ISet* GetProhibitedACAttributes();
+/// @brief Method GetProhibitedACAttributes, addr 0x2520868, size 0x60, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Utilities::Collections::ISet* GetProhibitedACAttributes() ;
 
-  /// @brief Method GetStores, addr 0x136083c, size 0x5c, virtual true, abstract: false, final false
-  inline ::System::Collections::IList* GetStores();
+/// @brief Method GetStores, addr 0x251fd60, size 0x5c, virtual true, abstract: false, final false
+inline ::System::Collections::IList* GetStores() ;
 
-  /// @brief Method GetTargetCertConstraints, addr 0x135eefc, size 0xf0, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::X509::Store::X509CertStoreSelector* GetTargetCertConstraints();
+/// @brief Method GetTargetCertConstraints, addr 0x251e440, size 0xf0, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::X509::Store::X509CertStoreSelector* GetTargetCertConstraints() ;
 
-  /// @brief Method GetTargetConstraints, addr 0x13608ac, size 0xe0, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::X509::Store::IX509Selector* GetTargetConstraints();
+/// @brief Method GetTargetConstraints, addr 0x251fdd0, size 0xe0, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::X509::Store::IX509Selector* GetTargetConstraints() ;
 
-  /// @brief Method GetTrustAnchors, addr 0x135e9b8, size 0x68, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Utilities::Collections::ISet* GetTrustAnchors();
+/// @brief Method GetTrustAnchors, addr 0x251df14, size 0x60, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Utilities::Collections::ISet* GetTrustAnchors() ;
 
-  /// @brief Method GetTrustedACIssuers, addr 0x1360a94, size 0x68, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Utilities::Collections::ISet* GetTrustedACIssuers();
+/// @brief Method GetTrustedACIssuers, addr 0x251ffb8, size 0x60, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Utilities::Collections::ISet* GetTrustedACIssuers() ;
 
-  static inline ::Org::BouncyCastle::Pkix::PkixParameters* New_ctor(::Org::BouncyCastle::Utilities::Collections::ISet* trustAnchors);
+static inline ::Org::BouncyCastle::Pkix::PkixParameters* New_ctor(::Org::BouncyCastle::Utilities::Collections::ISet*  trustAnchors) ;
 
-  /// @brief Method SetAdditionalLocationsEnabled, addr 0x13608a0, size 0xc, virtual true, abstract: false, final false
-  inline void SetAdditionalLocationsEnabled(bool enabled);
+/// @brief Method SetAdditionalLocationsEnabled, addr 0x251fdc4, size 0xc, virtual true, abstract: false, final false
+inline void SetAdditionalLocationsEnabled(bool  enabled) ;
 
-  /// @brief Method SetAttrCertCheckers, addr 0x13617f4, size 0x458, virtual true, abstract: false, final false
-  inline void SetAttrCertCheckers(::Org::BouncyCastle::Utilities::Collections::ISet* attrCertCheckers);
+/// @brief Method SetAttrCertCheckers, addr 0x2520cd0, size 0x448, virtual true, abstract: false, final false
+inline void SetAttrCertCheckers(::Org::BouncyCastle::Utilities::Collections::ISet*  attrCertCheckers) ;
 
-  /// @brief Method SetCertPathCheckers, addr 0x135f544, size 0x3fc, virtual true, abstract: false, final false
-  inline void SetCertPathCheckers(::System::Collections::IList* checkers);
+/// @brief Method SetCertPathCheckers, addr 0x251ea74, size 0x3f8, virtual true, abstract: false, final false
+inline void SetCertPathCheckers(::System::Collections::IList*  checkers) ;
 
-  /// @brief Method SetInitialPolicies, addr 0x135f178, size 0x3cc, virtual true, abstract: false, final false
-  inline void SetInitialPolicies(::Org::BouncyCastle::Utilities::Collections::ISet* initialPolicies);
+/// @brief Method SetInitialPolicies, addr 0x251e6b0, size 0x3c4, virtual true, abstract: false, final false
+inline void SetInitialPolicies(::Org::BouncyCastle::Utilities::Collections::ISet*  initialPolicies) ;
 
-  /// @brief Method SetNecessaryACAttributes, addr 0x1360fbc, size 0x3b4, virtual true, abstract: false, final false
-  inline void SetNecessaryACAttributes(::Org::BouncyCastle::Utilities::Collections::ISet* necessaryACAttributes);
+/// @brief Method SetNecessaryACAttributes, addr 0x25204c0, size 0x3a8, virtual true, abstract: false, final false
+inline void SetNecessaryACAttributes(::Org::BouncyCastle::Utilities::Collections::ISet*  necessaryACAttributes) ;
 
-  /// @brief Method SetParams, addr 0x135fe94, size 0x394, virtual true, abstract: false, final false
-  inline void SetParams(::Org::BouncyCastle::Pkix::PkixParameters* parameters);
+/// @brief Method SetParams, addr 0x251f3c0, size 0x390, virtual true, abstract: false, final false
+inline void SetParams(::Org::BouncyCastle::Pkix::PkixParameters*  parameters) ;
 
-  /// @brief Method SetProhibitedACAttributes, addr 0x13613d8, size 0x3b4, virtual true, abstract: false, final false
-  inline void SetProhibitedACAttributes(::Org::BouncyCastle::Utilities::Collections::ISet* prohibitedACAttributes);
+/// @brief Method SetProhibitedACAttributes, addr 0x25208c8, size 0x3a8, virtual true, abstract: false, final false
+inline void SetProhibitedACAttributes(::Org::BouncyCastle::Utilities::Collections::ISet*  prohibitedACAttributes) ;
 
-  /// @brief Method SetStores, addr 0x136024c, size 0x41c, virtual true, abstract: false, final false
-  inline void SetStores(::System::Collections::IList* stores);
+/// @brief Method SetStores, addr 0x251f774, size 0x418, virtual true, abstract: false, final false
+inline void SetStores(::System::Collections::IList*  stores) ;
 
-  /// @brief Method SetTargetCertConstraints, addr 0x135efec, size 0x108, virtual true, abstract: false, final false
-  inline void SetTargetCertConstraints(::Org::BouncyCastle::X509::Store::IX509Selector* selector);
+/// @brief Method SetTargetCertConstraints, addr 0x251e530, size 0x108, virtual true, abstract: false, final false
+inline void SetTargetCertConstraints(::Org::BouncyCastle::X509::Store::IX509Selector*  selector) ;
 
-  /// @brief Method SetTargetConstraints, addr 0x136098c, size 0x108, virtual true, abstract: false, final false
-  inline void SetTargetConstraints(::Org::BouncyCastle::X509::Store::IX509Selector* selector);
+/// @brief Method SetTargetConstraints, addr 0x251feb0, size 0x108, virtual true, abstract: false, final false
+inline void SetTargetConstraints(::Org::BouncyCastle::X509::Store::IX509Selector*  selector) ;
 
-  /// @brief Method SetTrustAnchors, addr 0x135ea20, size 0x4dc, virtual true, abstract: false, final false
-  inline void SetTrustAnchors(::Org::BouncyCastle::Utilities::Collections::ISet* tas);
+/// @brief Method SetTrustAnchors, addr 0x251df74, size 0x4cc, virtual true, abstract: false, final false
+inline void SetTrustAnchors(::Org::BouncyCastle::Utilities::Collections::ISet*  tas) ;
 
-  /// @brief Method SetTrustedACIssuers, addr 0x1360afc, size 0x458, virtual true, abstract: false, final false
-  inline void SetTrustedACIssuers(::Org::BouncyCastle::Utilities::Collections::ISet* trustedACIssuers);
+/// @brief Method SetTrustedACIssuers, addr 0x2520018, size 0x448, virtual true, abstract: false, final false
+inline void SetTrustedACIssuers(::Org::BouncyCastle::Utilities::Collections::ISet*  trustedACIssuers) ;
 
-  constexpr bool const& __cordl_internal_get_additionalLocationsEnabled() const;
+constexpr bool const& __cordl_internal_get_additionalLocationsEnabled() const;
 
-  constexpr bool& __cordl_internal_get_additionalLocationsEnabled();
+constexpr bool& __cordl_internal_get_additionalLocationsEnabled() ;
 
-  constexpr ::System::Collections::IList*& __cordl_internal_get_additionalStores();
+constexpr ::System::Collections::IList*& __cordl_internal_get_additionalStores() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __cordl_internal_get_additionalStores() const;
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __cordl_internal_get_additionalStores() const;
 
-  constexpr bool const& __cordl_internal_get_anyPolicyInhibited() const;
+constexpr bool const& __cordl_internal_get_anyPolicyInhibited() const;
 
-  constexpr bool& __cordl_internal_get_anyPolicyInhibited();
+constexpr bool& __cordl_internal_get_anyPolicyInhibited() ;
 
-  constexpr ::Org::BouncyCastle::Utilities::Collections::ISet*& __cordl_internal_get_attrCertCheckers();
+constexpr ::Org::BouncyCastle::Utilities::Collections::ISet*& __cordl_internal_get_attrCertCheckers() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Collections::ISet*> const& __cordl_internal_get_attrCertCheckers() const;
+constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Collections::ISet*> const& __cordl_internal_get_attrCertCheckers() const;
 
-  constexpr ::System::Collections::IList*& __cordl_internal_get_certPathCheckers();
+constexpr ::System::Collections::IList*& __cordl_internal_get_certPathCheckers() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __cordl_internal_get_certPathCheckers() const;
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __cordl_internal_get_certPathCheckers() const;
 
-  constexpr ::Org::BouncyCastle::X509::Store::IX509Selector*& __cordl_internal_get_certSelector();
+constexpr ::Org::BouncyCastle::X509::Store::IX509Selector*& __cordl_internal_get_certSelector() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::X509::Store::IX509Selector*> const& __cordl_internal_get_certSelector() const;
+constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::X509::Store::IX509Selector*> const& __cordl_internal_get_certSelector() const;
 
-  constexpr ::Org::BouncyCastle::Utilities::Date::DateTimeObject*& __cordl_internal_get_date();
+constexpr ::Org::BouncyCastle::Utilities::Date::DateTimeObject*& __cordl_internal_get_date() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Date::DateTimeObject*> const& __cordl_internal_get_date() const;
+constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Date::DateTimeObject*> const& __cordl_internal_get_date() const;
 
-  constexpr bool const& __cordl_internal_get_explicitPolicyRequired() const;
+constexpr bool const& __cordl_internal_get_explicitPolicyRequired() const;
 
-  constexpr bool& __cordl_internal_get_explicitPolicyRequired();
+constexpr bool& __cordl_internal_get_explicitPolicyRequired() ;
 
-  constexpr ::Org::BouncyCastle::Utilities::Collections::ISet*& __cordl_internal_get_initialPolicies();
+constexpr ::Org::BouncyCastle::Utilities::Collections::ISet*& __cordl_internal_get_initialPolicies() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Collections::ISet*> const& __cordl_internal_get_initialPolicies() const;
+constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Collections::ISet*> const& __cordl_internal_get_initialPolicies() const;
 
-  constexpr ::Org::BouncyCastle::Utilities::Collections::ISet*& __cordl_internal_get_necessaryACAttributes();
+constexpr ::Org::BouncyCastle::Utilities::Collections::ISet*& __cordl_internal_get_necessaryACAttributes() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Collections::ISet*> const& __cordl_internal_get_necessaryACAttributes() const;
+constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Collections::ISet*> const& __cordl_internal_get_necessaryACAttributes() const;
 
-  constexpr bool const& __cordl_internal_get_policyMappingInhibited() const;
+constexpr bool const& __cordl_internal_get_policyMappingInhibited() const;
 
-  constexpr bool& __cordl_internal_get_policyMappingInhibited();
+constexpr bool& __cordl_internal_get_policyMappingInhibited() ;
 
-  constexpr bool const& __cordl_internal_get_policyQualifiersRejected() const;
+constexpr bool const& __cordl_internal_get_policyQualifiersRejected() const;
 
-  constexpr bool& __cordl_internal_get_policyQualifiersRejected();
+constexpr bool& __cordl_internal_get_policyQualifiersRejected() ;
 
-  constexpr ::Org::BouncyCastle::Utilities::Collections::ISet*& __cordl_internal_get_prohibitedACAttributes();
+constexpr ::Org::BouncyCastle::Utilities::Collections::ISet*& __cordl_internal_get_prohibitedACAttributes() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Collections::ISet*> const& __cordl_internal_get_prohibitedACAttributes() const;
+constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Collections::ISet*> const& __cordl_internal_get_prohibitedACAttributes() const;
 
-  constexpr bool const& __cordl_internal_get_revocationEnabled() const;
+constexpr bool const& __cordl_internal_get_revocationEnabled() const;
 
-  constexpr bool& __cordl_internal_get_revocationEnabled();
+constexpr bool& __cordl_internal_get_revocationEnabled() ;
 
-  constexpr ::Org::BouncyCastle::X509::Store::IX509Selector*& __cordl_internal_get_selector();
+constexpr ::Org::BouncyCastle::X509::Store::IX509Selector*& __cordl_internal_get_selector() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::X509::Store::IX509Selector*> const& __cordl_internal_get_selector() const;
+constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::X509::Store::IX509Selector*> const& __cordl_internal_get_selector() const;
 
-  constexpr ::System::Collections::IList*& __cordl_internal_get_stores();
+constexpr ::System::Collections::IList*& __cordl_internal_get_stores() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __cordl_internal_get_stores() const;
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::IList*> const& __cordl_internal_get_stores() const;
 
-  constexpr ::Org::BouncyCastle::Utilities::Collections::ISet*& __cordl_internal_get_trustAnchors();
+constexpr ::Org::BouncyCastle::Utilities::Collections::ISet*& __cordl_internal_get_trustAnchors() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Collections::ISet*> const& __cordl_internal_get_trustAnchors() const;
+constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Collections::ISet*> const& __cordl_internal_get_trustAnchors() const;
 
-  constexpr ::Org::BouncyCastle::Utilities::Collections::ISet*& __cordl_internal_get_trustedACIssuers();
+constexpr ::Org::BouncyCastle::Utilities::Collections::ISet*& __cordl_internal_get_trustedACIssuers() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Collections::ISet*> const& __cordl_internal_get_trustedACIssuers() const;
+constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Utilities::Collections::ISet*> const& __cordl_internal_get_trustedACIssuers() const;
 
-  constexpr bool const& __cordl_internal_get_useDeltas() const;
+constexpr bool const& __cordl_internal_get_useDeltas() const;
 
-  constexpr bool& __cordl_internal_get_useDeltas();
+constexpr bool& __cordl_internal_get_useDeltas() ;
 
-  constexpr int32_t const& __cordl_internal_get_validityModel() const;
+constexpr int32_t const& __cordl_internal_get_validityModel() const;
 
-  constexpr int32_t& __cordl_internal_get_validityModel();
+constexpr int32_t& __cordl_internal_get_validityModel() ;
 
-  constexpr void __cordl_internal_set_additionalLocationsEnabled(bool value);
+constexpr void __cordl_internal_set_additionalLocationsEnabled(bool  value) ;
 
-  constexpr void __cordl_internal_set_additionalStores(::System::Collections::IList* value);
+constexpr void __cordl_internal_set_additionalStores(::System::Collections::IList*  value) ;
 
-  constexpr void __cordl_internal_set_anyPolicyInhibited(bool value);
+constexpr void __cordl_internal_set_anyPolicyInhibited(bool  value) ;
 
-  constexpr void __cordl_internal_set_attrCertCheckers(::Org::BouncyCastle::Utilities::Collections::ISet* value);
+constexpr void __cordl_internal_set_attrCertCheckers(::Org::BouncyCastle::Utilities::Collections::ISet*  value) ;
 
-  constexpr void __cordl_internal_set_certPathCheckers(::System::Collections::IList* value);
+constexpr void __cordl_internal_set_certPathCheckers(::System::Collections::IList*  value) ;
 
-  constexpr void __cordl_internal_set_certSelector(::Org::BouncyCastle::X509::Store::IX509Selector* value);
+constexpr void __cordl_internal_set_certSelector(::Org::BouncyCastle::X509::Store::IX509Selector*  value) ;
 
-  constexpr void __cordl_internal_set_date(::Org::BouncyCastle::Utilities::Date::DateTimeObject* value);
+constexpr void __cordl_internal_set_date(::Org::BouncyCastle::Utilities::Date::DateTimeObject*  value) ;
 
-  constexpr void __cordl_internal_set_explicitPolicyRequired(bool value);
+constexpr void __cordl_internal_set_explicitPolicyRequired(bool  value) ;
 
-  constexpr void __cordl_internal_set_initialPolicies(::Org::BouncyCastle::Utilities::Collections::ISet* value);
+constexpr void __cordl_internal_set_initialPolicies(::Org::BouncyCastle::Utilities::Collections::ISet*  value) ;
 
-  constexpr void __cordl_internal_set_necessaryACAttributes(::Org::BouncyCastle::Utilities::Collections::ISet* value);
+constexpr void __cordl_internal_set_necessaryACAttributes(::Org::BouncyCastle::Utilities::Collections::ISet*  value) ;
 
-  constexpr void __cordl_internal_set_policyMappingInhibited(bool value);
+constexpr void __cordl_internal_set_policyMappingInhibited(bool  value) ;
 
-  constexpr void __cordl_internal_set_policyQualifiersRejected(bool value);
+constexpr void __cordl_internal_set_policyQualifiersRejected(bool  value) ;
 
-  constexpr void __cordl_internal_set_prohibitedACAttributes(::Org::BouncyCastle::Utilities::Collections::ISet* value);
+constexpr void __cordl_internal_set_prohibitedACAttributes(::Org::BouncyCastle::Utilities::Collections::ISet*  value) ;
 
-  constexpr void __cordl_internal_set_revocationEnabled(bool value);
+constexpr void __cordl_internal_set_revocationEnabled(bool  value) ;
 
-  constexpr void __cordl_internal_set_selector(::Org::BouncyCastle::X509::Store::IX509Selector* value);
+constexpr void __cordl_internal_set_selector(::Org::BouncyCastle::X509::Store::IX509Selector*  value) ;
 
-  constexpr void __cordl_internal_set_stores(::System::Collections::IList* value);
+constexpr void __cordl_internal_set_stores(::System::Collections::IList*  value) ;
 
-  constexpr void __cordl_internal_set_trustAnchors(::Org::BouncyCastle::Utilities::Collections::ISet* value);
+constexpr void __cordl_internal_set_trustAnchors(::Org::BouncyCastle::Utilities::Collections::ISet*  value) ;
 
-  constexpr void __cordl_internal_set_trustedACIssuers(::Org::BouncyCastle::Utilities::Collections::ISet* value);
+constexpr void __cordl_internal_set_trustedACIssuers(::Org::BouncyCastle::Utilities::Collections::ISet*  value) ;
 
-  constexpr void __cordl_internal_set_useDeltas(bool value);
+constexpr void __cordl_internal_set_useDeltas(bool  value) ;
 
-  constexpr void __cordl_internal_set_validityModel(int32_t value);
+constexpr void __cordl_internal_set_validityModel(int32_t  value) ;
 
-  /// @brief Method .ctor, addr 0x135e7e4, size 0x160, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Utilities::Collections::ISet* trustAnchors);
+/// @brief Method .ctor, addr 0x251dd58, size 0x148, virtual false, abstract: false, final false
+inline void _ctor(::Org::BouncyCastle::Utilities::Collections::ISet*  trustAnchors) ;
 
-  /// @brief Method get_Date, addr 0x135e9a8, size 0x8, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Utilities::Date::DateTimeObject* get_Date();
+/// @brief Method get_Date, addr 0x251df04, size 0x8, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Utilities::Date::DateTimeObject* get_Date() ;
 
-  /// @brief Method get_IsAdditionalLocationsEnabled, addr 0x1360898, size 0x8, virtual true, abstract: false, final false
-  inline bool get_IsAdditionalLocationsEnabled();
+/// @brief Method get_IsAdditionalLocationsEnabled, addr 0x251fdbc, size 0x8, virtual true, abstract: false, final false
+inline bool get_IsAdditionalLocationsEnabled() ;
 
-  /// @brief Method get_IsAnyPolicyInhibited, addr 0x135e96c, size 0x8, virtual true, abstract: false, final false
-  inline bool get_IsAnyPolicyInhibited();
+/// @brief Method get_IsAnyPolicyInhibited, addr 0x251dec8, size 0x8, virtual true, abstract: false, final false
+inline bool get_IsAnyPolicyInhibited() ;
 
-  /// @brief Method get_IsExplicitPolicyRequired, addr 0x135e958, size 0x8, virtual true, abstract: false, final false
-  inline bool get_IsExplicitPolicyRequired();
+/// @brief Method get_IsExplicitPolicyRequired, addr 0x251deb4, size 0x8, virtual true, abstract: false, final false
+inline bool get_IsExplicitPolicyRequired() ;
 
-  /// @brief Method get_IsPolicyMappingInhibited, addr 0x135e980, size 0x8, virtual true, abstract: false, final false
-  inline bool get_IsPolicyMappingInhibited();
+/// @brief Method get_IsPolicyMappingInhibited, addr 0x251dedc, size 0x8, virtual true, abstract: false, final false
+inline bool get_IsPolicyMappingInhibited() ;
 
-  /// @brief Method get_IsPolicyQualifiersRejected, addr 0x135e994, size 0x8, virtual true, abstract: false, final false
-  inline bool get_IsPolicyQualifiersRejected();
+/// @brief Method get_IsPolicyQualifiersRejected, addr 0x251def0, size 0x8, virtual true, abstract: false, final false
+inline bool get_IsPolicyQualifiersRejected() ;
 
-  /// @brief Method get_IsRevocationEnabled, addr 0x135e944, size 0x8, virtual true, abstract: false, final false
-  inline bool get_IsRevocationEnabled();
+/// @brief Method get_IsRevocationEnabled, addr 0x251dea0, size 0x8, virtual true, abstract: false, final false
+inline bool get_IsRevocationEnabled() ;
 
-  /// @brief Method get_IsUseDeltasEnabled, addr 0x1360228, size 0x8, virtual true, abstract: false, final false
-  inline bool get_IsUseDeltasEnabled();
+/// @brief Method get_IsUseDeltasEnabled, addr 0x251f750, size 0x8, virtual true, abstract: false, final false
+inline bool get_IsUseDeltasEnabled() ;
 
-  /// @brief Method get_ValidityModel, addr 0x136023c, size 0x8, virtual true, abstract: false, final false
-  inline int32_t get_ValidityModel();
+/// @brief Method get_ValidityModel, addr 0x251f764, size 0x8, virtual true, abstract: false, final false
+inline int32_t get_ValidityModel() ;
 
-  /// @brief Method set_Date, addr 0x135e9b0, size 0x8, virtual true, abstract: false, final false
-  inline void set_Date(::Org::BouncyCastle::Utilities::Date::DateTimeObject* value);
+/// @brief Method set_Date, addr 0x251df0c, size 0x8, virtual true, abstract: false, final false
+inline void set_Date(::Org::BouncyCastle::Utilities::Date::DateTimeObject*  value) ;
 
-  /// @brief Method set_IsAnyPolicyInhibited, addr 0x135e974, size 0xc, virtual true, abstract: false, final false
-  inline void set_IsAnyPolicyInhibited(bool value);
+/// @brief Method set_IsAnyPolicyInhibited, addr 0x251ded0, size 0xc, virtual true, abstract: false, final false
+inline void set_IsAnyPolicyInhibited(bool  value) ;
 
-  /// @brief Method set_IsExplicitPolicyRequired, addr 0x135e960, size 0xc, virtual true, abstract: false, final false
-  inline void set_IsExplicitPolicyRequired(bool value);
+/// @brief Method set_IsExplicitPolicyRequired, addr 0x251debc, size 0xc, virtual true, abstract: false, final false
+inline void set_IsExplicitPolicyRequired(bool  value) ;
 
-  /// @brief Method set_IsPolicyMappingInhibited, addr 0x135e988, size 0xc, virtual true, abstract: false, final false
-  inline void set_IsPolicyMappingInhibited(bool value);
+/// @brief Method set_IsPolicyMappingInhibited, addr 0x251dee4, size 0xc, virtual true, abstract: false, final false
+inline void set_IsPolicyMappingInhibited(bool  value) ;
 
-  /// @brief Method set_IsPolicyQualifiersRejected, addr 0x135e99c, size 0xc, virtual true, abstract: false, final false
-  inline void set_IsPolicyQualifiersRejected(bool value);
+/// @brief Method set_IsPolicyQualifiersRejected, addr 0x251def8, size 0xc, virtual true, abstract: false, final false
+inline void set_IsPolicyQualifiersRejected(bool  value) ;
 
-  /// @brief Method set_IsRevocationEnabled, addr 0x135e94c, size 0xc, virtual true, abstract: false, final false
-  inline void set_IsRevocationEnabled(bool value);
+/// @brief Method set_IsRevocationEnabled, addr 0x251dea8, size 0xc, virtual true, abstract: false, final false
+inline void set_IsRevocationEnabled(bool  value) ;
 
-  /// @brief Method set_IsUseDeltasEnabled, addr 0x1360230, size 0xc, virtual true, abstract: false, final false
-  inline void set_IsUseDeltasEnabled(bool value);
+/// @brief Method set_IsUseDeltasEnabled, addr 0x251f758, size 0xc, virtual true, abstract: false, final false
+inline void set_IsUseDeltasEnabled(bool  value) ;
 
-  /// @brief Method set_ValidityModel, addr 0x1360244, size 0x8, virtual true, abstract: false, final false
-  inline void set_ValidityModel(int32_t value);
+/// @brief Method set_ValidityModel, addr 0x251f76c, size 0x8, virtual true, abstract: false, final false
+inline void set_ValidityModel(int32_t  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PkixParameters();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr PkixParameters() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "PkixParameters", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  PkixParameters(PkixParameters&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "PkixParameters", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  PkixParameters(PkixParameters const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "PkixParameters", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+PkixParameters(PkixParameters && ) = delete;
 
-  /// @brief Field trustAnchors, offset: 0x10, size: 0x8, def value: None
-  ::Org::BouncyCastle::Utilities::Collections::ISet* ___trustAnchors;
+// Ctor Parameters [CppParam { name: "", ty: "PkixParameters", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+PkixParameters(PkixParameters const& ) = delete;
 
-  /// @brief Field date, offset: 0x18, size: 0x8, def value: None
-  ::Org::BouncyCastle::Utilities::Date::DateTimeObject* ___date;
+/// @brief Field trustAnchors, offset: 0x10, size: 0x8, def value: None
+ ::Org::BouncyCastle::Utilities::Collections::ISet*  ___trustAnchors;
 
-  /// @brief Field certPathCheckers, offset: 0x20, size: 0x8, def value: None
-  ::System::Collections::IList* ___certPathCheckers;
+/// @brief Field date, offset: 0x18, size: 0x8, def value: None
+ ::Org::BouncyCastle::Utilities::Date::DateTimeObject*  ___date;
 
-  /// @brief Field revocationEnabled, offset: 0x28, size: 0x1, def value: None
-  bool ___revocationEnabled;
+/// @brief Field certPathCheckers, offset: 0x20, size: 0x8, def value: None
+ ::System::Collections::IList*  ___certPathCheckers;
 
-  /// @brief Field initialPolicies, offset: 0x30, size: 0x8, def value: None
-  ::Org::BouncyCastle::Utilities::Collections::ISet* ___initialPolicies;
+/// @brief Field revocationEnabled, offset: 0x28, size: 0x1, def value: None
+ bool  ___revocationEnabled;
 
-  /// @brief Field explicitPolicyRequired, offset: 0x38, size: 0x1, def value: None
-  bool ___explicitPolicyRequired;
+/// @brief Field initialPolicies, offset: 0x30, size: 0x8, def value: None
+ ::Org::BouncyCastle::Utilities::Collections::ISet*  ___initialPolicies;
 
-  /// @brief Field anyPolicyInhibited, offset: 0x39, size: 0x1, def value: None
-  bool ___anyPolicyInhibited;
+/// @brief Field explicitPolicyRequired, offset: 0x38, size: 0x1, def value: None
+ bool  ___explicitPolicyRequired;
 
-  /// @brief Field policyMappingInhibited, offset: 0x3a, size: 0x1, def value: None
-  bool ___policyMappingInhibited;
+/// @brief Field anyPolicyInhibited, offset: 0x39, size: 0x1, def value: None
+ bool  ___anyPolicyInhibited;
 
-  /// @brief Field policyQualifiersRejected, offset: 0x3b, size: 0x1, def value: None
-  bool ___policyQualifiersRejected;
+/// @brief Field policyMappingInhibited, offset: 0x3a, size: 0x1, def value: None
+ bool  ___policyMappingInhibited;
 
-  /// @brief Field certSelector, offset: 0x40, size: 0x8, def value: None
-  ::Org::BouncyCastle::X509::Store::IX509Selector* ___certSelector;
+/// @brief Field policyQualifiersRejected, offset: 0x3b, size: 0x1, def value: None
+ bool  ___policyQualifiersRejected;
 
-  /// @brief Field stores, offset: 0x48, size: 0x8, def value: None
-  ::System::Collections::IList* ___stores;
+/// @brief Field certSelector, offset: 0x40, size: 0x8, def value: None
+ ::Org::BouncyCastle::X509::Store::IX509Selector*  ___certSelector;
 
-  /// @brief Field selector, offset: 0x50, size: 0x8, def value: None
-  ::Org::BouncyCastle::X509::Store::IX509Selector* ___selector;
+/// @brief Field stores, offset: 0x48, size: 0x8, def value: None
+ ::System::Collections::IList*  ___stores;
 
-  /// @brief Field additionalLocationsEnabled, offset: 0x58, size: 0x1, def value: None
-  bool ___additionalLocationsEnabled;
+/// @brief Field selector, offset: 0x50, size: 0x8, def value: None
+ ::Org::BouncyCastle::X509::Store::IX509Selector*  ___selector;
 
-  /// @brief Field additionalStores, offset: 0x60, size: 0x8, def value: None
-  ::System::Collections::IList* ___additionalStores;
+/// @brief Field additionalLocationsEnabled, offset: 0x58, size: 0x1, def value: None
+ bool  ___additionalLocationsEnabled;
 
-  /// @brief Field trustedACIssuers, offset: 0x68, size: 0x8, def value: None
-  ::Org::BouncyCastle::Utilities::Collections::ISet* ___trustedACIssuers;
+/// @brief Field additionalStores, offset: 0x60, size: 0x8, def value: None
+ ::System::Collections::IList*  ___additionalStores;
 
-  /// @brief Field necessaryACAttributes, offset: 0x70, size: 0x8, def value: None
-  ::Org::BouncyCastle::Utilities::Collections::ISet* ___necessaryACAttributes;
+/// @brief Field trustedACIssuers, offset: 0x68, size: 0x8, def value: None
+ ::Org::BouncyCastle::Utilities::Collections::ISet*  ___trustedACIssuers;
 
-  /// @brief Field prohibitedACAttributes, offset: 0x78, size: 0x8, def value: None
-  ::Org::BouncyCastle::Utilities::Collections::ISet* ___prohibitedACAttributes;
+/// @brief Field necessaryACAttributes, offset: 0x70, size: 0x8, def value: None
+ ::Org::BouncyCastle::Utilities::Collections::ISet*  ___necessaryACAttributes;
 
-  /// @brief Field attrCertCheckers, offset: 0x80, size: 0x8, def value: None
-  ::Org::BouncyCastle::Utilities::Collections::ISet* ___attrCertCheckers;
+/// @brief Field prohibitedACAttributes, offset: 0x78, size: 0x8, def value: None
+ ::Org::BouncyCastle::Utilities::Collections::ISet*  ___prohibitedACAttributes;
 
-  /// @brief Field validityModel, offset: 0x88, size: 0x4, def value: None
-  int32_t ___validityModel;
+/// @brief Field attrCertCheckers, offset: 0x80, size: 0x8, def value: None
+ ::Org::BouncyCastle::Utilities::Collections::ISet*  ___attrCertCheckers;
 
-  /// @brief Field useDeltas, offset: 0x8c, size: 0x1, def value: None
-  bool ___useDeltas;
+/// @brief Field validityModel, offset: 0x88, size: 0x4, def value: None
+ int32_t  ___validityModel;
 
-  /// @brief Field ChainValidityModel offset 0xffffffff size 0x4
-  static constexpr int32_t ChainValidityModel{ static_cast<int32_t>(0x1) };
+/// @brief Field useDeltas, offset: 0x8c, size: 0x1, def value: None
+ bool  ___useDeltas;
 
-  /// @brief Field PkixValidityModel offset 0xffffffff size 0x4
-  static constexpr int32_t PkixValidityModel{ static_cast<int32_t>(0x0) };
+/// @brief Field ChainValidityModel offset 0xffffffff size 0x4
+static constexpr int32_t  ChainValidityModel{static_cast<int32_t>(0x1)};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field PkixValidityModel offset 0xffffffff size 0x4
+static constexpr int32_t  PkixValidityModel{static_cast<int32_t>(0x0)};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Pkix::PkixParameters, 0x90>, "Size mismatch!");
@@ -504,6 +504,6 @@ static_assert(offsetof(::Org::BouncyCastle::Pkix::PkixParameters, ___validityMod
 
 static_assert(offsetof(::Org::BouncyCastle::Pkix::PkixParameters, ___useDeltas) == 0x8c, "Offset mismatch!");
 
-} // namespace Org::BouncyCastle::Pkix
+} // namespace end def Org::BouncyCastle::Pkix
 NEED_NO_BOX(::Org::BouncyCastle::Pkix::PkixParameters);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Pkix::PkixParameters*, "Org.BouncyCastle.Pkix", "PkixParameters");

@@ -32,43 +32,40 @@ class FileSystemSecurity;
 // Write type traits
 MARK_REF_PTR_T(::System::Security::AccessControl::FileSystemSecurity);
 // Type: System.Security.AccessControl::FileSystemSecurity
-// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Security::AccessControl {
 // Is value type: false
 // CS Name: ::System.Security.AccessControl::FileSystemSecurity*
 class CORDL_TYPE FileSystemSecurity : public ::System::Security::AccessControl::NativeObjectSecurity {
 public:
-  // Declarations
-  /// @brief Method AccessRuleFactory, addr 0x2831370, size 0xa0, virtual true, abstract: false, final true
-  inline ::System::Security::AccessControl::AccessRule* AccessRuleFactory(::System::Security::Principal::IdentityReference* identityReference, int32_t accessMask, bool isInherited,
-                                                                          ::System::Security::AccessControl::InheritanceFlags inheritanceFlags,
-                                                                          ::System::Security::AccessControl::PropagationFlags propagationFlags,
-                                                                          ::System::Security::AccessControl::AccessControlType type);
+// Declarations
+/// @brief Method AccessRuleFactory, addr 0x3c34cb4, size 0x98, virtual true, abstract: false, final true
+inline ::System::Security::AccessControl::AccessRule* AccessRuleFactory(::System::Security::Principal::IdentityReference*  identityReference, int32_t  accessMask, bool  isInherited, ::System::Security::AccessControl::InheritanceFlags  inheritanceFlags, ::System::Security::AccessControl::PropagationFlags  propagationFlags, ::System::Security::AccessControl::AccessControlType  type) ;
 
-  static inline ::System::Security::AccessControl::FileSystemSecurity* New_ctor(bool isContainer, ::StringW name, ::System::Security::AccessControl::AccessControlSections includeSections);
+static inline ::System::Security::AccessControl::FileSystemSecurity* New_ctor(bool  isContainer, ::StringW  name, ::System::Security::AccessControl::AccessControlSections  includeSections) ;
 
-  /// @brief Method .ctor, addr 0x2831154, size 0x18, virtual false, abstract: false, final false
-  inline void _ctor(bool isContainer, ::StringW name, ::System::Security::AccessControl::AccessControlSections includeSections);
+/// @brief Method .ctor, addr 0x3c34a9c, size 0x18, virtual false, abstract: false, final false
+inline void _ctor(bool  isContainer, ::StringW  name, ::System::Security::AccessControl::AccessControlSections  includeSections) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr FileSystemSecurity();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr FileSystemSecurity() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "FileSystemSecurity", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  FileSystemSecurity(FileSystemSecurity&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "FileSystemSecurity", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  FileSystemSecurity(FileSystemSecurity const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "FileSystemSecurity", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+FileSystemSecurity(FileSystemSecurity && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "FileSystemSecurity", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+FileSystemSecurity(FileSystemSecurity const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Security::AccessControl::FileSystemSecurity, 0x30>, "Size mismatch!");
 
-} // namespace System::Security::AccessControl
+} // namespace end def System::Security::AccessControl
 NEED_NO_BOX(::System::Security::AccessControl::FileSystemSecurity);
 DEFINE_IL2CPP_ARG_TYPE(::System::Security::AccessControl::FileSystemSecurity*, "System.Security.AccessControl", "FileSystemSecurity");

@@ -28,70 +28,70 @@ class TargetInformation;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X509::TargetInformation);
 // Type: Org.BouncyCastle.Asn1.X509::TargetInformation
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::X509 {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Asn1.X509::TargetInformation*
 class CORDL_TYPE TargetInformation : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
-  // Declarations
-  /// @brief Field targets, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_targets, put = __cordl_internal_set_targets))::Org::BouncyCastle::Asn1::Asn1Sequence* targets;
+// Declarations
+/// @brief Field targets, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_targets, put=__cordl_internal_set_targets)) ::Org::BouncyCastle::Asn1::Asn1Sequence*  targets;
 
-  /// @brief Method GetInstance, addr 0x140a200, size 0x18c, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Asn1::X509::TargetInformation* GetInstance(::System::Object* obj);
+/// @brief Method GetInstance, addr 0x25c418c, size 0x180, virtual false, abstract: false, final false
+static inline ::Org::BouncyCastle::Asn1::X509::TargetInformation* GetInstance(::System::Object*  obj) ;
 
-  /// @brief Method GetTargetsObjects, addr 0x140a3b4, size 0x110, virtual true, abstract: false, final false
-  inline ::ArrayW<::Org::BouncyCastle::Asn1::X509::Targets*, ::Array<::Org::BouncyCastle::Asn1::X509::Targets*>*> GetTargetsObjects();
+/// @brief Method GetTargetsObjects, addr 0x25c4334, size 0x110, virtual true, abstract: false, final false
+inline ::ArrayW<::Org::BouncyCastle::Asn1::X509::Targets*,::Array<::Org::BouncyCastle::Asn1::X509::Targets*>*> GetTargetsObjects() ;
 
-  static inline ::Org::BouncyCastle::Asn1::X509::TargetInformation* New_ctor(::ArrayW<::Org::BouncyCastle::Asn1::X509::Target*, ::Array<::Org::BouncyCastle::Asn1::X509::Target*>*> targets);
+static inline ::Org::BouncyCastle::Asn1::X509::TargetInformation* New_ctor(::ArrayW<::Org::BouncyCastle::Asn1::X509::Target*,::Array<::Org::BouncyCastle::Asn1::X509::Target*>*>  targets) ;
 
-  static inline ::Org::BouncyCastle::Asn1::X509::TargetInformation* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* targets);
+static inline ::Org::BouncyCastle::Asn1::X509::TargetInformation* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence*  targets) ;
 
-  static inline ::Org::BouncyCastle::Asn1::X509::TargetInformation* New_ctor(::Org::BouncyCastle::Asn1::X509::Targets* targets);
+static inline ::Org::BouncyCastle::Asn1::X509::TargetInformation* New_ctor(::Org::BouncyCastle::Asn1::X509::Targets*  targets) ;
 
-  /// @brief Method ToAsn1Object, addr 0x140a7b8, size 0x8, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
+/// @brief Method ToAsn1Object, addr 0x25c4714, size 0x8, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object() ;
 
-  constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence*& __cordl_internal_get_targets();
+constexpr ::Org::BouncyCastle::Asn1::Asn1Sequence*& __cordl_internal_get_targets() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Sequence*> const& __cordl_internal_get_targets() const;
+constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::Asn1Sequence*> const& __cordl_internal_get_targets() const;
 
-  constexpr void __cordl_internal_set_targets(::Org::BouncyCastle::Asn1::Asn1Sequence* value);
+constexpr void __cordl_internal_set_targets(::Org::BouncyCastle::Asn1::Asn1Sequence*  value) ;
 
-  /// @brief Method .ctor, addr 0x140a6cc, size 0x70, virtual false, abstract: false, final false
-  inline void _ctor(::ArrayW<::Org::BouncyCastle::Asn1::X509::Target*, ::Array<::Org::BouncyCastle::Asn1::X509::Target*>*> targets);
+/// @brief Method .ctor, addr 0x25c4638, size 0x68, virtual false, abstract: false, final false
+inline void _ctor(::ArrayW<::Org::BouncyCastle::Asn1::X509::Target*,::Array<::Org::BouncyCastle::Asn1::X509::Target*>*>  targets) ;
 
-  /// @brief Method .ctor, addr 0x140a38c, size 0x28, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* targets);
+/// @brief Method .ctor, addr 0x25c430c, size 0x28, virtual false, abstract: false, final false
+inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence*  targets) ;
 
-  /// @brief Method .ctor, addr 0x140a650, size 0x7c, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Asn1::X509::Targets* targets);
+/// @brief Method .ctor, addr 0x25c45c4, size 0x74, virtual false, abstract: false, final false
+inline void _ctor(::Org::BouncyCastle::Asn1::X509::Targets*  targets) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TargetInformation();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr TargetInformation() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TargetInformation", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  TargetInformation(TargetInformation&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TargetInformation", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  TargetInformation(TargetInformation const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "TargetInformation", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+TargetInformation(TargetInformation && ) = delete;
 
-  /// @brief Field targets, offset: 0x10, size: 0x8, def value: None
-  ::Org::BouncyCastle::Asn1::Asn1Sequence* ___targets;
+// Ctor Parameters [CppParam { name: "", ty: "TargetInformation", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+TargetInformation(TargetInformation const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field targets, offset: 0x10, size: 0x8, def value: None
+ ::Org::BouncyCastle::Asn1::Asn1Sequence*  ___targets;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::X509::TargetInformation, 0x18>, "Size mismatch!");
 
 static_assert(offsetof(::Org::BouncyCastle::Asn1::X509::TargetInformation, ___targets) == 0x10, "Offset mismatch!");
 
-} // namespace Org::BouncyCastle::Asn1::X509
+} // namespace end def Org::BouncyCastle::Asn1::X509
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::X509::TargetInformation);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::X509::TargetInformation*, "Org.BouncyCastle.Asn1.X509", "TargetInformation");

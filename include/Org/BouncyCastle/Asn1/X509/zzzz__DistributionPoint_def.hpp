@@ -37,106 +37,104 @@ class DistributionPoint;
 // Write type traits
 MARK_REF_PTR_T(::Org::BouncyCastle::Asn1::X509::DistributionPoint);
 // Type: Org.BouncyCastle.Asn1.X509::DistributionPoint
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Org::BouncyCastle::Asn1::X509 {
 // Is value type: false
 // CS Name: ::Org.BouncyCastle.Asn1.X509::DistributionPoint*
 class CORDL_TYPE DistributionPoint : public ::Org::BouncyCastle::Asn1::Asn1Encodable {
 public:
-  // Declarations
-  __declspec(property(get = get_CrlIssuer))::Org::BouncyCastle::Asn1::X509::GeneralNames* CrlIssuer;
+// Declarations
+ __declspec(property(get=get_CrlIssuer)) ::Org::BouncyCastle::Asn1::X509::GeneralNames*  CrlIssuer;
 
-  __declspec(property(get = get_DistributionPointName))::Org::BouncyCastle::Asn1::X509::DistributionPointName* DistributionPointName;
+ __declspec(property(get=get_DistributionPointName)) ::Org::BouncyCastle::Asn1::X509::DistributionPointName*  DistributionPointName;
 
-  __declspec(property(get = get_Reasons))::Org::BouncyCastle::Asn1::X509::ReasonFlags* Reasons;
+ __declspec(property(get=get_Reasons)) ::Org::BouncyCastle::Asn1::X509::ReasonFlags*  Reasons;
 
-  /// @brief Field cRLIssuer, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_cRLIssuer, put = __cordl_internal_set_cRLIssuer))::Org::BouncyCastle::Asn1::X509::GeneralNames* cRLIssuer;
+/// @brief Field cRLIssuer, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get_cRLIssuer, put=__cordl_internal_set_cRLIssuer)) ::Org::BouncyCastle::Asn1::X509::GeneralNames*  cRLIssuer;
 
-  /// @brief Field distributionPoint, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_distributionPoint, put = __cordl_internal_set_distributionPoint))::Org::BouncyCastle::Asn1::X509::DistributionPointName* distributionPoint;
+/// @brief Field distributionPoint, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_distributionPoint, put=__cordl_internal_set_distributionPoint)) ::Org::BouncyCastle::Asn1::X509::DistributionPointName*  distributionPoint;
 
-  /// @brief Field reasons, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_reasons, put = __cordl_internal_set_reasons))::Org::BouncyCastle::Asn1::X509::ReasonFlags* reasons;
+/// @brief Field reasons, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_reasons, put=__cordl_internal_set_reasons)) ::Org::BouncyCastle::Asn1::X509::ReasonFlags*  reasons;
 
-  /// @brief Method GetInstance, addr 0x13fe188, size 0x18, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Asn1::X509::DistributionPoint* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject* obj, bool explicitly);
+/// @brief Method GetInstance, addr 0x25b8350, size 0x18, virtual false, abstract: false, final false
+static inline ::Org::BouncyCastle::Asn1::X509::DistributionPoint* GetInstance(::Org::BouncyCastle::Asn1::Asn1TaggedObject*  obj, bool  explicitly) ;
 
-  /// @brief Method GetInstance, addr 0x13fd0a0, size 0x178, virtual false, abstract: false, final false
-  static inline ::Org::BouncyCastle::Asn1::X509::DistributionPoint* GetInstance(::System::Object* obj);
+/// @brief Method GetInstance, addr 0x25b73ec, size 0x168, virtual false, abstract: false, final false
+static inline ::Org::BouncyCastle::Asn1::X509::DistributionPoint* GetInstance(::System::Object*  obj) ;
 
-  static inline ::Org::BouncyCastle::Asn1::X509::DistributionPoint* New_ctor(::Org::BouncyCastle::Asn1::X509::DistributionPointName* distributionPointName,
-                                                                             ::Org::BouncyCastle::Asn1::X509::ReasonFlags* reasons, ::Org::BouncyCastle::Asn1::X509::GeneralNames* crlIssuer);
+static inline ::Org::BouncyCastle::Asn1::X509::DistributionPoint* New_ctor(::Org::BouncyCastle::Asn1::X509::DistributionPointName*  distributionPointName, ::Org::BouncyCastle::Asn1::X509::ReasonFlags*  reasons, ::Org::BouncyCastle::Asn1::X509::GeneralNames*  crlIssuer) ;
 
-  static inline ::Org::BouncyCastle::Asn1::X509::DistributionPoint* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
+static inline ::Org::BouncyCastle::Asn1::X509::DistributionPoint* New_ctor(::Org::BouncyCastle::Asn1::Asn1Sequence*  seq) ;
 
-  /// @brief Method ToAsn1Object, addr 0x13fe428, size 0xd8, virtual true, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object();
+/// @brief Method ToAsn1Object, addr 0x25b85ec, size 0xd4, virtual true, abstract: false, final false
+inline ::Org::BouncyCastle::Asn1::Asn1Object* ToAsn1Object() ;
 
-  /// @brief Method ToString, addr 0x13fe500, size 0x1b8, virtual true, abstract: false, final false
-  inline ::StringW ToString();
+/// @brief Method ToString, addr 0x25b86c0, size 0x1b8, virtual true, abstract: false, final false
+inline ::StringW ToString() ;
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::GeneralNames*& __cordl_internal_get_cRLIssuer();
+constexpr ::Org::BouncyCastle::Asn1::X509::GeneralNames*& __cordl_internal_get_cRLIssuer() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::GeneralNames*> const& __cordl_internal_get_cRLIssuer() const;
+constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::GeneralNames*> const& __cordl_internal_get_cRLIssuer() const;
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::DistributionPointName*& __cordl_internal_get_distributionPoint();
+constexpr ::Org::BouncyCastle::Asn1::X509::DistributionPointName*& __cordl_internal_get_distributionPoint() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::DistributionPointName*> const& __cordl_internal_get_distributionPoint() const;
+constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::DistributionPointName*> const& __cordl_internal_get_distributionPoint() const;
 
-  constexpr ::Org::BouncyCastle::Asn1::X509::ReasonFlags*& __cordl_internal_get_reasons();
+constexpr ::Org::BouncyCastle::Asn1::X509::ReasonFlags*& __cordl_internal_get_reasons() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::ReasonFlags*> const& __cordl_internal_get_reasons() const;
+constexpr ::cordl_internals::to_const_pointer<::Org::BouncyCastle::Asn1::X509::ReasonFlags*> const& __cordl_internal_get_reasons() const;
 
-  constexpr void __cordl_internal_set_cRLIssuer(::Org::BouncyCastle::Asn1::X509::GeneralNames* value);
+constexpr void __cordl_internal_set_cRLIssuer(::Org::BouncyCastle::Asn1::X509::GeneralNames*  value) ;
 
-  constexpr void __cordl_internal_set_distributionPoint(::Org::BouncyCastle::Asn1::X509::DistributionPointName* value);
+constexpr void __cordl_internal_set_distributionPoint(::Org::BouncyCastle::Asn1::X509::DistributionPointName*  value) ;
 
-  constexpr void __cordl_internal_set_reasons(::Org::BouncyCastle::Asn1::X509::ReasonFlags* value);
+constexpr void __cordl_internal_set_reasons(::Org::BouncyCastle::Asn1::X509::ReasonFlags*  value) ;
 
-  /// @brief Method .ctor, addr 0x13fe3d4, size 0x3c, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Asn1::X509::DistributionPointName* distributionPointName, ::Org::BouncyCastle::Asn1::X509::ReasonFlags* reasons,
-                    ::Org::BouncyCastle::Asn1::X509::GeneralNames* crlIssuer);
+/// @brief Method .ctor, addr 0x25b8598, size 0x3c, virtual false, abstract: false, final false
+inline void _ctor(::Org::BouncyCastle::Asn1::X509::DistributionPointName*  distributionPointName, ::Org::BouncyCastle::Asn1::X509::ReasonFlags*  reasons, ::Org::BouncyCastle::Asn1::X509::GeneralNames*  crlIssuer) ;
 
-  /// @brief Method .ctor, addr 0x13fe1a0, size 0x170, virtual false, abstract: false, final false
-  inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence* seq);
+/// @brief Method .ctor, addr 0x25b8368, size 0x16c, virtual false, abstract: false, final false
+inline void _ctor(::Org::BouncyCastle::Asn1::Asn1Sequence*  seq) ;
 
-  /// @brief Method appendObject, addr 0x13fe6b8, size 0xf8, virtual false, abstract: false, final false
-  inline void appendObject(::System::Text::StringBuilder* buf, ::StringW sep, ::StringW name, ::StringW val);
+/// @brief Method appendObject, addr 0x25b8878, size 0xf8, virtual false, abstract: false, final false
+inline void appendObject(::System::Text::StringBuilder*  buf, ::StringW  sep, ::StringW  name, ::StringW  val) ;
 
-  /// @brief Method get_CrlIssuer, addr 0x13fe420, size 0x8, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::X509::GeneralNames* get_CrlIssuer();
+/// @brief Method get_CrlIssuer, addr 0x25b85e4, size 0x8, virtual false, abstract: false, final false
+inline ::Org::BouncyCastle::Asn1::X509::GeneralNames* get_CrlIssuer() ;
 
-  /// @brief Method get_DistributionPointName, addr 0x13fe410, size 0x8, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::X509::DistributionPointName* get_DistributionPointName();
+/// @brief Method get_DistributionPointName, addr 0x25b85d4, size 0x8, virtual false, abstract: false, final false
+inline ::Org::BouncyCastle::Asn1::X509::DistributionPointName* get_DistributionPointName() ;
 
-  /// @brief Method get_Reasons, addr 0x13fe418, size 0x8, virtual false, abstract: false, final false
-  inline ::Org::BouncyCastle::Asn1::X509::ReasonFlags* get_Reasons();
+/// @brief Method get_Reasons, addr 0x25b85dc, size 0x8, virtual false, abstract: false, final false
+inline ::Org::BouncyCastle::Asn1::X509::ReasonFlags* get_Reasons() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr DistributionPoint();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr DistributionPoint() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "DistributionPoint", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  DistributionPoint(DistributionPoint&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "DistributionPoint", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  DistributionPoint(DistributionPoint const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "DistributionPoint", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+DistributionPoint(DistributionPoint && ) = delete;
 
-  /// @brief Field distributionPoint, offset: 0x10, size: 0x8, def value: None
-  ::Org::BouncyCastle::Asn1::X509::DistributionPointName* ___distributionPoint;
+// Ctor Parameters [CppParam { name: "", ty: "DistributionPoint", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+DistributionPoint(DistributionPoint const& ) = delete;
 
-  /// @brief Field reasons, offset: 0x18, size: 0x8, def value: None
-  ::Org::BouncyCastle::Asn1::X509::ReasonFlags* ___reasons;
+/// @brief Field distributionPoint, offset: 0x10, size: 0x8, def value: None
+ ::Org::BouncyCastle::Asn1::X509::DistributionPointName*  ___distributionPoint;
 
-  /// @brief Field cRLIssuer, offset: 0x20, size: 0x8, def value: None
-  ::Org::BouncyCastle::Asn1::X509::GeneralNames* ___cRLIssuer;
+/// @brief Field reasons, offset: 0x18, size: 0x8, def value: None
+ ::Org::BouncyCastle::Asn1::X509::ReasonFlags*  ___reasons;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field cRLIssuer, offset: 0x20, size: 0x8, def value: None
+ ::Org::BouncyCastle::Asn1::X509::GeneralNames*  ___cRLIssuer;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Org::BouncyCastle::Asn1::X509::DistributionPoint, 0x28>, "Size mismatch!");
@@ -147,6 +145,6 @@ static_assert(offsetof(::Org::BouncyCastle::Asn1::X509::DistributionPoint, ___re
 
 static_assert(offsetof(::Org::BouncyCastle::Asn1::X509::DistributionPoint, ___cRLIssuer) == 0x20, "Offset mismatch!");
 
-} // namespace Org::BouncyCastle::Asn1::X509
+} // namespace end def Org::BouncyCastle::Asn1::X509
 NEED_NO_BOX(::Org::BouncyCastle::Asn1::X509::DistributionPoint);
 DEFINE_IL2CPP_ARG_TYPE(::Org::BouncyCastle::Asn1::X509::DistributionPoint*, "Org.BouncyCastle.Asn1.X509", "DistributionPoint");

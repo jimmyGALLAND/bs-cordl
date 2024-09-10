@@ -24,71 +24,71 @@ class Random;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::Random);
 // Type: UnityEngine::Random
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine {
 // Is value type: false
 // CS Name: ::UnityEngine::Random*
 class CORDL_TYPE Random : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method ColorHSV, addr 0x34372e4, size 0x24, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Color ColorHSV();
+// Declarations
+/// @brief Method ColorHSV, addr 0x48148e8, size 0x24, virtual false, abstract: false, final false
+static inline ::UnityEngine::Color ColorHSV() ;
 
-  /// @brief Method ColorHSV, addr 0x3437308, size 0x164, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Color ColorHSV(float_t hueMin, float_t hueMax, float_t saturationMin, float_t saturationMax, float_t valueMin, float_t valueMax, float_t alphaMin, float_t alphaMax);
+/// @brief Method ColorHSV, addr 0x481490c, size 0x168, virtual false, abstract: false, final false
+static inline ::UnityEngine::Color ColorHSV(float_t  hueMin, float_t  hueMax, float_t  saturationMin, float_t  saturationMax, float_t  valueMin, float_t  valueMax, float_t  alphaMin, float_t  alphaMax) ;
 
-  /// @brief Method InitState, addr 0x3437024, size 0x3c, virtual false, abstract: false, final false
-  static inline void InitState(int32_t seed);
+/// @brief Method InitState, addr 0x4814628, size 0x3c, virtual false, abstract: false, final false
+static inline void InitState(int32_t  seed) ;
 
-  /// @brief Method RandomRangeInt, addr 0x34370e4, size 0x44, virtual false, abstract: false, final false
-  static inline int32_t RandomRangeInt(int32_t minInclusive, int32_t maxExclusive);
+/// @brief Method RandomRangeInt, addr 0x48146e8, size 0x44, virtual false, abstract: false, final false
+static inline int32_t RandomRangeInt(int32_t  minInclusive, int32_t  maxExclusive) ;
 
-  /// @brief Method Range, addr 0x3437060, size 0x40, virtual false, abstract: false, final false
-  static inline float_t Range(float_t minInclusive, float_t maxInclusive);
+/// @brief Method Range, addr 0x4814664, size 0x40, virtual false, abstract: false, final false
+static inline float_t Range(float_t  minInclusive, float_t  maxInclusive) ;
 
-  /// @brief Method Range, addr 0x34370a0, size 0x44, virtual false, abstract: false, final false
-  static inline int32_t Range(int32_t minInclusive, int32_t maxExclusive);
+/// @brief Method Range, addr 0x48146a4, size 0x44, virtual false, abstract: false, final false
+static inline int32_t Range(int32_t  minInclusive, int32_t  maxExclusive) ;
 
-  /// @brief Method get_insideUnitSphere, addr 0x3437150, size 0x4c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Vector3 get_insideUnitSphere();
+/// @brief Method get_insideUnitSphere, addr 0x4814754, size 0x4c, virtual false, abstract: false, final false
+static inline ::UnityEngine::Vector3 get_insideUnitSphere() ;
 
-  /// @brief Method get_insideUnitSphere_Injected, addr 0x343719c, size 0x3c, virtual false, abstract: false, final false
-  static inline void get_insideUnitSphere_Injected(ByRef<::UnityEngine::Vector3> ret);
+/// @brief Method get_insideUnitSphere_Injected, addr 0x48147a0, size 0x3c, virtual false, abstract: false, final false
+static inline void get_insideUnitSphere_Injected(ByRef<::UnityEngine::Vector3>  ret) ;
 
-  /// @brief Method get_onUnitSphere, addr 0x34371d8, size 0x4c, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Vector3 get_onUnitSphere();
+/// @brief Method get_onUnitSphere, addr 0x48147dc, size 0x4c, virtual false, abstract: false, final false
+static inline ::UnityEngine::Vector3 get_onUnitSphere() ;
 
-  /// @brief Method get_onUnitSphere_Injected, addr 0x3437224, size 0x3c, virtual false, abstract: false, final false
-  static inline void get_onUnitSphere_Injected(ByRef<::UnityEngine::Vector3> ret);
+/// @brief Method get_onUnitSphere_Injected, addr 0x4814828, size 0x3c, virtual false, abstract: false, final false
+static inline void get_onUnitSphere_Injected(ByRef<::UnityEngine::Vector3>  ret) ;
 
-  /// @brief Method get_rotation, addr 0x3437260, size 0x48, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Quaternion get_rotation();
+/// @brief Method get_rotation, addr 0x4814864, size 0x48, virtual false, abstract: false, final false
+static inline ::UnityEngine::Quaternion get_rotation() ;
 
-  /// @brief Method get_rotation_Injected, addr 0x34372a8, size 0x3c, virtual false, abstract: false, final false
-  static inline void get_rotation_Injected(ByRef<::UnityEngine::Quaternion> ret);
+/// @brief Method get_rotation_Injected, addr 0x48148ac, size 0x3c, virtual false, abstract: false, final false
+static inline void get_rotation_Injected(ByRef<::UnityEngine::Quaternion>  ret) ;
 
-  /// @brief Method get_value, addr 0x3437128, size 0x28, virtual false, abstract: false, final false
-  static inline float_t get_value();
+/// @brief Method get_value, addr 0x481472c, size 0x28, virtual false, abstract: false, final false
+static inline float_t get_value() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Random();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr Random() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Random", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  Random(Random&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Random", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  Random(Random const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "Random", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+Random(Random && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "Random", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+Random(Random const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Random, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine
+} // namespace end def UnityEngine
 NEED_NO_BOX(::UnityEngine::Random);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Random*, "UnityEngine", "Random");

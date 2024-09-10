@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "System/Runtime/CompilerServices/AsyncMethodBuilderAttribute.hpp"
 #include "System/Runtime/CompilerServices/AsyncMethodBuilderCore.hpp"
@@ -29,6 +29,7 @@ module;
 #include "System/Runtime/CompilerServices/DateTimeConstantAttribute.hpp"
 #include "System/Runtime/CompilerServices/DecimalConstantAttribute.hpp"
 #include "System/Runtime/CompilerServices/DefaultDependencyAttribute.hpp"
+#include "System/Runtime/CompilerServices/DependencyAttribute.hpp"
 #include "System/Runtime/CompilerServices/Ephemeron.hpp"
 #include "System/Runtime/CompilerServices/ExtensionAttribute.hpp"
 #include "System/Runtime/CompilerServices/FixedBufferAttribute.hpp"
@@ -73,5 +74,6 @@ module;
 #include "System/Runtime/CompilerServices/ValueTaskAwaiter.hpp"
 #include "System/Runtime/CompilerServices/ValueTaskAwaiter_1.hpp"
 #ifdef __cpp_modules
-export module CompilerServices;
-#endif
+                    export module CompilerServices;
+                    #endif
+                

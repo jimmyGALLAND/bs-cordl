@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "UnityEngine/Networking/CertificateHandler.hpp"
 #include "UnityEngine/Networking/DownloadHandler.hpp"
@@ -16,5 +16,6 @@ module;
 #include "UnityEngine/Networking/UnityWebRequestTexture.hpp"
 #include "UnityEngine/Networking/UploadHandler.hpp"
 #ifdef __cpp_modules
-export module Networking;
-#endif
+                    export module Networking;
+                    #endif
+                

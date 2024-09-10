@@ -15,38 +15,38 @@ class ColorUtilities;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::TextCore::Text::ColorUtilities);
 // Type: UnityEngine.TextCore.Text::ColorUtilities
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::TextCore::Text {
 // Is value type: false
 // CS Name: ::UnityEngine.TextCore.Text::ColorUtilities*
 class CORDL_TYPE ColorUtilities : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method CompareColors, addr 0x34dd9d4, size 0x10, virtual false, abstract: false, final false
-  static inline bool CompareColors(::UnityEngine::Color32 a, ::UnityEngine::Color32 b);
+// Declarations
+/// @brief Method CompareColors, addr 0x488d348, size 0x10, virtual false, abstract: false, final false
+static inline bool CompareColors(::UnityEngine::Color32  a, ::UnityEngine::Color32  b) ;
 
-  /// @brief Method MultiplyColors, addr 0x34dd9e4, size 0xc0, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Color32 MultiplyColors(::UnityEngine::Color32 c1, ::UnityEngine::Color32 c2);
+/// @brief Method MultiplyColors, addr 0x488d358, size 0xb8, virtual false, abstract: false, final false
+static inline ::UnityEngine::Color32 MultiplyColors(::UnityEngine::Color32  c1, ::UnityEngine::Color32  c2) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ColorUtilities();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ColorUtilities() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ColorUtilities", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ColorUtilities(ColorUtilities&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ColorUtilities", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ColorUtilities(ColorUtilities const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ColorUtilities", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ColorUtilities(ColorUtilities && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "ColorUtilities", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ColorUtilities(ColorUtilities const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::TextCore::Text::ColorUtilities, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine::TextCore::Text
+} // namespace end def UnityEngine::TextCore::Text
 NEED_NO_BOX(::UnityEngine::TextCore::Text::ColorUtilities);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::TextCore::Text::ColorUtilities*, "UnityEngine.TextCore.Text", "ColorUtilities");

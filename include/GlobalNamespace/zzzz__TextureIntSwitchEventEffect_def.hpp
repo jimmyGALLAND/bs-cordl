@@ -26,7 +26,8 @@ namespace GlobalNamespace {
 struct __TextureIntSwitchEventEffect__TextureValueTuple;
 }
 namespace System::Collections::Generic {
-template <typename TKey, typename TValue> class Dictionary_2;
+template<typename TKey,typename TValue>
+class Dictionary_2;
 }
 namespace UnityEngine {
 class Texture;
@@ -42,30 +43,30 @@ struct __TextureIntSwitchEventEffect__TextureValueTuple;
 MARK_REF_PTR_T(::GlobalNamespace::TextureIntSwitchEventEffect);
 MARK_VAL_T(::GlobalNamespace::__TextureIntSwitchEventEffect__TextureValueTuple);
 // Type: ::TextureValueTuple
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 32, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::TextureIntSwitchEventEffect::TextureValueTuple
 struct CORDL_TYPE __TextureIntSwitchEventEffect__TextureValueTuple {
 public:
-  // Declarations
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __TextureIntSwitchEventEffect__TextureValueTuple();
+// Declarations
+// Ctor Parameters []
+// @brief default ctor
+constexpr __TextureIntSwitchEventEffect__TextureValueTuple() ;
 
-  // Ctor Parameters [CppParam { name: "value", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "texture", ty: "::UnityW<::UnityEngine::Texture>", modifiers: "", def_value: None }]
-  constexpr __TextureIntSwitchEventEffect__TextureValueTuple(int32_t value, ::UnityW<::UnityEngine::Texture> texture) noexcept;
+// Ctor Parameters [CppParam { name: "value", ty: "int32_t", modifiers: "", def_value: None }, CppParam { name: "texture", ty: "::UnityW<::UnityEngine::Texture>", modifiers: "", def_value: None }]
+constexpr __TextureIntSwitchEventEffect__TextureValueTuple(int32_t  value, ::UnityW<::UnityEngine::Texture>  texture) noexcept;
 
-  /// @brief Field value, offset: 0x0, size: 0x4, def value: None
-  int32_t value;
+/// @brief Field value, offset: 0x0, size: 0x4, def value: None
+ int32_t  value;
 
-  /// @brief Field texture, offset: 0x8, size: 0x8, def value: None
-  ::UnityW<::UnityEngine::Texture> texture;
+/// @brief Field texture, offset: 0x8, size: 0x8, def value: None
+ ::UnityW<::UnityEngine::Texture>  texture;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x10};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__TextureIntSwitchEventEffect__TextureValueTuple, 0x10>, "Size mismatch!");
@@ -74,189 +75,180 @@ static_assert(offsetof(::GlobalNamespace::__TextureIntSwitchEventEffect__Texture
 
 static_assert(offsetof(::GlobalNamespace::__TextureIntSwitchEventEffect__TextureValueTuple, texture) == 0x8, "Offset mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 // Type: ::TextureIntSwitchEventEffect
-// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 96, native_size: -1, calculated_instance_size: 96, calculated_native_size: 96, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::TextureIntSwitchEventEffect*
 class CORDL_TYPE TextureIntSwitchEventEffect : public ::UnityEngine::MonoBehaviour {
 public:
-  // Declarations
-  using TextureValueTuple = ::GlobalNamespace::__TextureIntSwitchEventEffect__TextureValueTuple;
+// Declarations
+using TextureValueTuple = ::GlobalNamespace::__TextureIntSwitchEventEffect__TextureValueTuple;
 
-  /// @brief Field _beatmapCallbacksController, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__beatmapCallbacksController,
-                      put = __cordl_internal_set__beatmapCallbacksController))::GlobalNamespace::BeatmapCallbacksController* _beatmapCallbacksController;
+/// @brief Field _beatmapCallbacksController, offset 0x40, size 0x8 
+ __declspec(property(get=__cordl_internal_get__beatmapCallbacksController, put=__cordl_internal_set__beatmapCallbacksController)) ::GlobalNamespace::BeatmapCallbacksController*  _beatmapCallbacksController;
 
-  /// @brief Field _beatmapDataCallbackWrapper, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__beatmapDataCallbackWrapper,
-                      put = __cordl_internal_set__beatmapDataCallbackWrapper))::GlobalNamespace::BeatmapDataCallbackWrapper* _beatmapDataCallbackWrapper;
+/// @brief Field _beatmapDataCallbackWrapper, offset 0x48, size 0x8 
+ __declspec(property(get=__cordl_internal_get__beatmapDataCallbackWrapper, put=__cordl_internal_set__beatmapDataCallbackWrapper)) ::GlobalNamespace::BeatmapDataCallbackWrapper*  _beatmapDataCallbackWrapper;
 
-  /// @brief Field _beatmapEventType, offset 0x28, size 0x4
-  __declspec(property(get = __cordl_internal_get__beatmapEventType, put = __cordl_internal_set__beatmapEventType))::GlobalNamespace::BasicBeatmapEventType _beatmapEventType;
+/// @brief Field _beatmapEventType, offset 0x30, size 0x4 
+ __declspec(property(get=__cordl_internal_get__beatmapEventType, put=__cordl_internal_set__beatmapEventType)) ::GlobalNamespace::BasicBeatmapEventType  _beatmapEventType;
 
-  /// @brief Field _defaultIndex, offset 0x2c, size 0x4
-  __declspec(property(get = __cordl_internal_get__defaultIndex, put = __cordl_internal_set__defaultIndex)) int32_t _defaultIndex;
+/// @brief Field _defaultIndex, offset 0x34, size 0x4 
+ __declspec(property(get=__cordl_internal_get__defaultIndex, put=__cordl_internal_set__defaultIndex)) int32_t  _defaultIndex;
 
-  /// @brief Field _materialPropertyBlockController, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__materialPropertyBlockController,
-                      put = __cordl_internal_set__materialPropertyBlockController))::UnityW<::GlobalNamespace::MaterialPropertyBlockController> _materialPropertyBlockController;
+/// @brief Field _materialPropertyBlockController, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get__materialPropertyBlockController, put=__cordl_internal_set__materialPropertyBlockController)) ::UnityW<::GlobalNamespace::MaterialPropertyBlockController>  _materialPropertyBlockController;
 
-  /// @brief Field _texturePropertyId, offset 0x48, size 0x4
-  __declspec(property(get = __cordl_internal_get__texturePropertyId, put = __cordl_internal_set__texturePropertyId)) int32_t _texturePropertyId;
+/// @brief Field _texturePropertyId, offset 0x50, size 0x4 
+ __declspec(property(get=__cordl_internal_get__texturePropertyId, put=__cordl_internal_set__texturePropertyId)) int32_t  _texturePropertyId;
 
-  /// @brief Field _texturePropertyName, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get__texturePropertyName, put = __cordl_internal_set__texturePropertyName))::StringW _texturePropertyName;
+/// @brief Field _texturePropertyName, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get__texturePropertyName, put=__cordl_internal_set__texturePropertyName)) ::StringW  _texturePropertyName;
 
-  /// @brief Field _textureValueTuples, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get__textureValueTuples,
-                      put = __cordl_internal_set__textureValueTuples))::ArrayW<::GlobalNamespace::__TextureIntSwitchEventEffect__TextureValueTuple,
-                                                                               ::Array<::GlobalNamespace::__TextureIntSwitchEventEffect__TextureValueTuple>*> _textureValueTuples;
+/// @brief Field _textureValueTuples, offset 0x38, size 0x8 
+ __declspec(property(get=__cordl_internal_get__textureValueTuples, put=__cordl_internal_set__textureValueTuples)) ::ArrayW<::GlobalNamespace::__TextureIntSwitchEventEffect__TextureValueTuple,::Array<::GlobalNamespace::__TextureIntSwitchEventEffect__TextureValueTuple>*>  _textureValueTuples;
 
-  /// @brief Field _valueToTextureMap, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get__valueToTextureMap,
-                      put = __cordl_internal_set__valueToTextureMap))::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::UnityEngine::Texture>>* _valueToTextureMap;
+/// @brief Field _valueToTextureMap, offset 0x58, size 0x8 
+ __declspec(property(get=__cordl_internal_get__valueToTextureMap, put=__cordl_internal_set__valueToTextureMap)) ::System::Collections::Generic::Dictionary_2<int32_t,::UnityW<::UnityEngine::Texture>>*  _valueToTextureMap;
 
-  /// @brief Method HandleBasicBeatmapEventData, addr 0x26ff4cc, size 0x18, virtual false, abstract: false, final false
-  inline void HandleBasicBeatmapEventData(::GlobalNamespace::BasicBeatmapEventData* data);
+/// @brief Method HandleBasicBeatmapEventData, addr 0x3b05394, size 0x18, virtual false, abstract: false, final false
+inline void HandleBasicBeatmapEventData(::GlobalNamespace::BasicBeatmapEventData*  data) ;
 
-  /// @brief Method Initialize, addr 0x26ff22c, size 0x1b4, virtual false, abstract: false, final false
-  inline void Initialize(::GlobalNamespace::BeatmapCallbacksController* beatmapCallbacksController);
+/// @brief Method Initialize, addr 0x3b050f8, size 0x1b0, virtual false, abstract: false, final false
+inline void Initialize(::GlobalNamespace::BeatmapCallbacksController*  beatmapCallbacksController) ;
 
-  static inline ::GlobalNamespace::TextureIntSwitchEventEffect* New_ctor();
+static inline ::GlobalNamespace::TextureIntSwitchEventEffect* New_ctor() ;
 
-  /// @brief Method OnDestroy, addr 0x26ff4b0, size 0x1c, virtual false, abstract: false, final false
-  inline void OnDestroy();
+/// @brief Method OnDestroy, addr 0x3b05378, size 0x1c, virtual false, abstract: false, final false
+inline void OnDestroy() ;
 
-  /// @brief Method SetTextureByIndex, addr 0x26ff3e0, size 0xd0, virtual false, abstract: false, final false
-  inline void SetTextureByIndex(int32_t value);
+/// @brief Method SetTextureByIndex, addr 0x3b052a8, size 0xd0, virtual false, abstract: false, final false
+inline void SetTextureByIndex(int32_t  value) ;
 
-  constexpr ::GlobalNamespace::BeatmapCallbacksController*& __cordl_internal_get__beatmapCallbacksController();
+constexpr ::GlobalNamespace::BeatmapCallbacksController*& __cordl_internal_get__beatmapCallbacksController() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapCallbacksController*> const& __cordl_internal_get__beatmapCallbacksController() const;
+constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapCallbacksController*> const& __cordl_internal_get__beatmapCallbacksController() const;
 
-  constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper*& __cordl_internal_get__beatmapDataCallbackWrapper();
+constexpr ::GlobalNamespace::BeatmapDataCallbackWrapper*& __cordl_internal_get__beatmapDataCallbackWrapper() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapDataCallbackWrapper*> const& __cordl_internal_get__beatmapDataCallbackWrapper() const;
+constexpr ::cordl_internals::to_const_pointer<::GlobalNamespace::BeatmapDataCallbackWrapper*> const& __cordl_internal_get__beatmapDataCallbackWrapper() const;
 
-  constexpr ::GlobalNamespace::BasicBeatmapEventType const& __cordl_internal_get__beatmapEventType() const;
+constexpr ::GlobalNamespace::BasicBeatmapEventType const& __cordl_internal_get__beatmapEventType() const;
 
-  constexpr ::GlobalNamespace::BasicBeatmapEventType& __cordl_internal_get__beatmapEventType();
+constexpr ::GlobalNamespace::BasicBeatmapEventType& __cordl_internal_get__beatmapEventType() ;
 
-  constexpr int32_t const& __cordl_internal_get__defaultIndex() const;
+constexpr int32_t const& __cordl_internal_get__defaultIndex() const;
 
-  constexpr int32_t& __cordl_internal_get__defaultIndex();
+constexpr int32_t& __cordl_internal_get__defaultIndex() ;
 
-  constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> const& __cordl_internal_get__materialPropertyBlockController() const;
+constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> const& __cordl_internal_get__materialPropertyBlockController() const;
 
-  constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockController>& __cordl_internal_get__materialPropertyBlockController();
+constexpr ::UnityW<::GlobalNamespace::MaterialPropertyBlockController>& __cordl_internal_get__materialPropertyBlockController() ;
 
-  constexpr int32_t const& __cordl_internal_get__texturePropertyId() const;
+constexpr int32_t const& __cordl_internal_get__texturePropertyId() const;
 
-  constexpr int32_t& __cordl_internal_get__texturePropertyId();
+constexpr int32_t& __cordl_internal_get__texturePropertyId() ;
 
-  constexpr ::StringW const& __cordl_internal_get__texturePropertyName() const;
+constexpr ::StringW const& __cordl_internal_get__texturePropertyName() const;
 
-  constexpr ::StringW& __cordl_internal_get__texturePropertyName();
+constexpr ::StringW& __cordl_internal_get__texturePropertyName() ;
 
-  constexpr ::ArrayW<::GlobalNamespace::__TextureIntSwitchEventEffect__TextureValueTuple, ::Array<::GlobalNamespace::__TextureIntSwitchEventEffect__TextureValueTuple>*> const&
-  __cordl_internal_get__textureValueTuples() const;
+constexpr ::ArrayW<::GlobalNamespace::__TextureIntSwitchEventEffect__TextureValueTuple,::Array<::GlobalNamespace::__TextureIntSwitchEventEffect__TextureValueTuple>*> const& __cordl_internal_get__textureValueTuples() const;
 
-  constexpr ::ArrayW<::GlobalNamespace::__TextureIntSwitchEventEffect__TextureValueTuple, ::Array<::GlobalNamespace::__TextureIntSwitchEventEffect__TextureValueTuple>*>&
-  __cordl_internal_get__textureValueTuples();
+constexpr ::ArrayW<::GlobalNamespace::__TextureIntSwitchEventEffect__TextureValueTuple,::Array<::GlobalNamespace::__TextureIntSwitchEventEffect__TextureValueTuple>*>& __cordl_internal_get__textureValueTuples() ;
 
-  constexpr ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::UnityEngine::Texture>>*& __cordl_internal_get__valueToTextureMap();
+constexpr ::System::Collections::Generic::Dictionary_2<int32_t,::UnityW<::UnityEngine::Texture>>*& __cordl_internal_get__valueToTextureMap() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::UnityEngine::Texture>>*> const& __cordl_internal_get__valueToTextureMap() const;
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::Dictionary_2<int32_t,::UnityW<::UnityEngine::Texture>>*> const& __cordl_internal_get__valueToTextureMap() const;
 
-  constexpr void __cordl_internal_set__beatmapCallbacksController(::GlobalNamespace::BeatmapCallbacksController* value);
+constexpr void __cordl_internal_set__beatmapCallbacksController(::GlobalNamespace::BeatmapCallbacksController*  value) ;
 
-  constexpr void __cordl_internal_set__beatmapDataCallbackWrapper(::GlobalNamespace::BeatmapDataCallbackWrapper* value);
+constexpr void __cordl_internal_set__beatmapDataCallbackWrapper(::GlobalNamespace::BeatmapDataCallbackWrapper*  value) ;
 
-  constexpr void __cordl_internal_set__beatmapEventType(::GlobalNamespace::BasicBeatmapEventType value);
+constexpr void __cordl_internal_set__beatmapEventType(::GlobalNamespace::BasicBeatmapEventType  value) ;
 
-  constexpr void __cordl_internal_set__defaultIndex(int32_t value);
+constexpr void __cordl_internal_set__defaultIndex(int32_t  value) ;
 
-  constexpr void __cordl_internal_set__materialPropertyBlockController(::UnityW<::GlobalNamespace::MaterialPropertyBlockController> value);
+constexpr void __cordl_internal_set__materialPropertyBlockController(::UnityW<::GlobalNamespace::MaterialPropertyBlockController>  value) ;
 
-  constexpr void __cordl_internal_set__texturePropertyId(int32_t value);
+constexpr void __cordl_internal_set__texturePropertyId(int32_t  value) ;
 
-  constexpr void __cordl_internal_set__texturePropertyName(::StringW value);
+constexpr void __cordl_internal_set__texturePropertyName(::StringW  value) ;
 
-  constexpr void __cordl_internal_set__textureValueTuples(
-      ::ArrayW<::GlobalNamespace::__TextureIntSwitchEventEffect__TextureValueTuple, ::Array<::GlobalNamespace::__TextureIntSwitchEventEffect__TextureValueTuple>*> value);
+constexpr void __cordl_internal_set__textureValueTuples(::ArrayW<::GlobalNamespace::__TextureIntSwitchEventEffect__TextureValueTuple,::Array<::GlobalNamespace::__TextureIntSwitchEventEffect__TextureValueTuple>*>  value) ;
 
-  constexpr void __cordl_internal_set__valueToTextureMap(::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::UnityEngine::Texture>>* value);
+constexpr void __cordl_internal_set__valueToTextureMap(::System::Collections::Generic::Dictionary_2<int32_t,::UnityW<::UnityEngine::Texture>>*  value) ;
 
-  /// @brief Method .ctor, addr 0x26ff4e4, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x3b053ac, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TextureIntSwitchEventEffect();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr TextureIntSwitchEventEffect() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TextureIntSwitchEventEffect", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  TextureIntSwitchEventEffect(TextureIntSwitchEventEffect&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TextureIntSwitchEventEffect", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  TextureIntSwitchEventEffect(TextureIntSwitchEventEffect const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "TextureIntSwitchEventEffect", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+TextureIntSwitchEventEffect(TextureIntSwitchEventEffect && ) = delete;
 
-  /// @brief Field _materialPropertyBlockController, offset: 0x18, size: 0x8, def value: None
-  ::UnityW<::GlobalNamespace::MaterialPropertyBlockController> ____materialPropertyBlockController;
+// Ctor Parameters [CppParam { name: "", ty: "TextureIntSwitchEventEffect", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+TextureIntSwitchEventEffect(TextureIntSwitchEventEffect const& ) = delete;
 
-  /// @brief Field _texturePropertyName, offset: 0x20, size: 0x8, def value: None
-  ::StringW ____texturePropertyName;
+/// @brief Field _materialPropertyBlockController, offset: 0x20, size: 0x8, def value: None
+ ::UnityW<::GlobalNamespace::MaterialPropertyBlockController>  ____materialPropertyBlockController;
 
-  /// @brief Field _beatmapEventType, offset: 0x28, size: 0x4, def value: None
-  ::GlobalNamespace::BasicBeatmapEventType ____beatmapEventType;
+/// @brief Field _texturePropertyName, offset: 0x28, size: 0x8, def value: None
+ ::StringW  ____texturePropertyName;
 
-  /// @brief Field _defaultIndex, offset: 0x2c, size: 0x4, def value: None
-  int32_t ____defaultIndex;
+/// @brief Field _beatmapEventType, offset: 0x30, size: 0x4, def value: None
+ ::GlobalNamespace::BasicBeatmapEventType  ____beatmapEventType;
 
-  /// @brief Field _textureValueTuples, offset: 0x30, size: 0x8, def value: None
-  ::ArrayW<::GlobalNamespace::__TextureIntSwitchEventEffect__TextureValueTuple, ::Array<::GlobalNamespace::__TextureIntSwitchEventEffect__TextureValueTuple>*> ____textureValueTuples;
+/// @brief Field _defaultIndex, offset: 0x34, size: 0x4, def value: None
+ int32_t  ____defaultIndex;
 
-  /// @brief Field _beatmapCallbacksController, offset: 0x38, size: 0x8, def value: None
-  ::GlobalNamespace::BeatmapCallbacksController* ____beatmapCallbacksController;
+/// @brief Field _textureValueTuples, offset: 0x38, size: 0x8, def value: None
+ ::ArrayW<::GlobalNamespace::__TextureIntSwitchEventEffect__TextureValueTuple,::Array<::GlobalNamespace::__TextureIntSwitchEventEffect__TextureValueTuple>*>  ____textureValueTuples;
 
-  /// @brief Field _beatmapDataCallbackWrapper, offset: 0x40, size: 0x8, def value: None
-  ::GlobalNamespace::BeatmapDataCallbackWrapper* ____beatmapDataCallbackWrapper;
+/// @brief Field _beatmapCallbacksController, offset: 0x40, size: 0x8, def value: None
+ ::GlobalNamespace::BeatmapCallbacksController*  ____beatmapCallbacksController;
 
-  /// @brief Field _texturePropertyId, offset: 0x48, size: 0x4, def value: None
-  int32_t ____texturePropertyId;
+/// @brief Field _beatmapDataCallbackWrapper, offset: 0x48, size: 0x8, def value: None
+ ::GlobalNamespace::BeatmapDataCallbackWrapper*  ____beatmapDataCallbackWrapper;
 
-  /// @brief Field _valueToTextureMap, offset: 0x50, size: 0x8, def value: None
-  ::System::Collections::Generic::Dictionary_2<int32_t, ::UnityW<::UnityEngine::Texture>>* ____valueToTextureMap;
+/// @brief Field _texturePropertyId, offset: 0x50, size: 0x4, def value: None
+ int32_t  ____texturePropertyId;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _valueToTextureMap, offset: 0x58, size: 0x8, def value: None
+ ::System::Collections::Generic::Dictionary_2<int32_t,::UnityW<::UnityEngine::Texture>>*  ____valueToTextureMap;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::TextureIntSwitchEventEffect, 0x58>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::TextureIntSwitchEventEffect, 0x60>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::TextureIntSwitchEventEffect, ____materialPropertyBlockController) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::TextureIntSwitchEventEffect, ____materialPropertyBlockController) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::TextureIntSwitchEventEffect, ____texturePropertyName) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::TextureIntSwitchEventEffect, ____texturePropertyName) == 0x28, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::TextureIntSwitchEventEffect, ____beatmapEventType) == 0x28, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::TextureIntSwitchEventEffect, ____beatmapEventType) == 0x30, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::TextureIntSwitchEventEffect, ____defaultIndex) == 0x2c, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::TextureIntSwitchEventEffect, ____defaultIndex) == 0x34, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::TextureIntSwitchEventEffect, ____textureValueTuples) == 0x30, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::TextureIntSwitchEventEffect, ____textureValueTuples) == 0x38, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::TextureIntSwitchEventEffect, ____beatmapCallbacksController) == 0x38, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::TextureIntSwitchEventEffect, ____beatmapCallbacksController) == 0x40, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::TextureIntSwitchEventEffect, ____beatmapDataCallbackWrapper) == 0x40, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::TextureIntSwitchEventEffect, ____beatmapDataCallbackWrapper) == 0x48, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::TextureIntSwitchEventEffect, ____texturePropertyId) == 0x48, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::TextureIntSwitchEventEffect, ____texturePropertyId) == 0x50, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::TextureIntSwitchEventEffect, ____valueToTextureMap) == 0x50, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::TextureIntSwitchEventEffect, ____valueToTextureMap) == 0x58, "Offset mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::TextureIntSwitchEventEffect);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::TextureIntSwitchEventEffect*, "", "TextureIntSwitchEventEffect");
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__TextureIntSwitchEventEffect__TextureValueTuple, "", "TextureIntSwitchEventEffect/TextureValueTuple");

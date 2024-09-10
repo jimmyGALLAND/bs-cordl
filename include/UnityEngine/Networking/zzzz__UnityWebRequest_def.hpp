@@ -61,648 +61,710 @@ MARK_VAL_T(::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError);
 MARK_VAL_T(::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestMethod);
 MARK_REF_PTR_T(::UnityEngine::Networking::UnityWebRequest);
 // Type: ::UnityWebRequestMethod
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::Networking {
 // Is value type: true
 // CS Name: ::UnityWebRequest::UnityWebRequestMethod
 struct CORDL_TYPE __UnityWebRequest__UnityWebRequestMethod {
 public:
-  // Declarations
-  using __CORDL_BACKING_ENUM_TYPE = int32_t;
+// Declarations
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct ____UnityWebRequest__UnityWebRequestMethod_Unwrapped
-  enum struct ____UnityWebRequest__UnityWebRequestMethod_Unwrapped : int32_t {
-    __E_Get = static_cast<int32_t>(0x0),
-    __E_Post = static_cast<int32_t>(0x1),
-    __E_Put = static_cast<int32_t>(0x2),
-    __E_Head = static_cast<int32_t>(0x3),
-    __E_Custom = static_cast<int32_t>(0x4),
-  };
+/// @brief Nested struct ____UnityWebRequest__UnityWebRequestMethod_Unwrapped
+enum struct ____UnityWebRequest__UnityWebRequestMethod_Unwrapped : int32_t {
+__E_Get = static_cast<int32_t>(0x0),
+__E_Post = static_cast<int32_t>(0x1),
+__E_Put = static_cast<int32_t>(0x2),
+__E_Head = static_cast<int32_t>(0x3),
+__E_Custom = static_cast<int32_t>(0x4),
+};
 
-  /// @brief Conversion into unwrapped enum value
-  constexpr operator ____UnityWebRequest__UnityWebRequestMethod_Unwrapped() const noexcept {
-    return static_cast<____UnityWebRequest__UnityWebRequestMethod_Unwrapped>(this->value__);
-  }
+/// @brief Conversion into unwrapped enum value
+constexpr operator ____UnityWebRequest__UnityWebRequestMethod_Unwrapped () const noexcept {
+return static_cast<____UnityWebRequest__UnityWebRequestMethod_Unwrapped>(this->value__);
+}
 
-  /// @brief Conversion into unwrapped enum value
-  constexpr explicit operator int32_t() const noexcept {
-    return static_cast<int32_t>(this->value__);
-  }
+/// @brief Conversion into unwrapped enum value
+constexpr explicit operator int32_t () const noexcept {
+return static_cast<int32_t>(this->value__);
+}
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __UnityWebRequest__UnityWebRequestMethod();
+// Ctor Parameters []
+// @brief default ctor
+constexpr __UnityWebRequest__UnityWebRequestMethod() ;
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __UnityWebRequest__UnityWebRequestMethod(int32_t value__) noexcept;
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr __UnityWebRequest__UnityWebRequestMethod(int32_t  value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+/// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+ int32_t  value__;
 
-  /// @brief Field Custom value: static_cast<int32_t>(0x4)
-  static ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestMethod const Custom;
+/// @brief Field Custom value: static_cast<int32_t>(0x4)
+static ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestMethod const Custom;
 
-  /// @brief Field Get value: static_cast<int32_t>(0x0)
-  static ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestMethod const Get;
+/// @brief Field Get value: static_cast<int32_t>(0x0)
+static ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestMethod const Get;
 
-  /// @brief Field Head value: static_cast<int32_t>(0x3)
-  static ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestMethod const Head;
+/// @brief Field Head value: static_cast<int32_t>(0x3)
+static ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestMethod const Head;
 
-  /// @brief Field Post value: static_cast<int32_t>(0x1)
-  static ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestMethod const Post;
+/// @brief Field Post value: static_cast<int32_t>(0x1)
+static ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestMethod const Post;
 
-  /// @brief Field Put value: static_cast<int32_t>(0x2)
-  static ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestMethod const Put;
+/// @brief Field Put value: static_cast<int32_t>(0x2)
+static ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestMethod const Put;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x4};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestMethod, 0x4>, "Size mismatch!");
 
 static_assert(offsetof(::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestMethod, value__) == 0x0, "Offset mismatch!");
 
-} // namespace UnityEngine::Networking
+} // namespace end def UnityEngine::Networking
 // Type: ::UnityWebRequestError
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::Networking {
 // Is value type: true
 // CS Name: ::UnityWebRequest::UnityWebRequestError
 struct CORDL_TYPE __UnityWebRequest__UnityWebRequestError {
 public:
-  // Declarations
-  using __CORDL_BACKING_ENUM_TYPE = int32_t;
+// Declarations
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct ____UnityWebRequest__UnityWebRequestError_Unwrapped
-  enum struct ____UnityWebRequest__UnityWebRequestError_Unwrapped : int32_t {
-    __E_OK = static_cast<int32_t>(0x0),
-    __E_Unknown = static_cast<int32_t>(0x1),
-    __E_SDKError = static_cast<int32_t>(0x2),
-    __E_UnsupportedProtocol = static_cast<int32_t>(0x3),
-    __E_MalformattedUrl = static_cast<int32_t>(0x4),
-    __E_CannotResolveProxy = static_cast<int32_t>(0x5),
-    __E_CannotResolveHost = static_cast<int32_t>(0x6),
-    __E_CannotConnectToHost = static_cast<int32_t>(0x7),
-    __E_AccessDenied = static_cast<int32_t>(0x8),
-    __E_GenericHttpError = static_cast<int32_t>(0x9),
-    __E_WriteError = static_cast<int32_t>(0xa),
-    __E_ReadError = static_cast<int32_t>(0xb),
-    __E_OutOfMemory = static_cast<int32_t>(0xc),
-    __E_Timeout = static_cast<int32_t>(0xd),
-    __E_HTTPPostError = static_cast<int32_t>(0xe),
-    __E_SSLCannotConnect = static_cast<int32_t>(0xf),
-    __E_Aborted = static_cast<int32_t>(0x10),
-    __E_TooManyRedirects = static_cast<int32_t>(0x11),
-    __E_ReceivedNoData = static_cast<int32_t>(0x12),
-    __E_SSLNotSupported = static_cast<int32_t>(0x13),
-    __E_FailedToSendData = static_cast<int32_t>(0x14),
-    __E_FailedToReceiveData = static_cast<int32_t>(0x15),
-    __E_SSLCertificateError = static_cast<int32_t>(0x16),
-    __E_SSLCipherNotAvailable = static_cast<int32_t>(0x17),
-    __E_SSLCACertError = static_cast<int32_t>(0x18),
-    __E_UnrecognizedContentEncoding = static_cast<int32_t>(0x19),
-    __E_LoginFailed = static_cast<int32_t>(0x1a),
-    __E_SSLShutdownFailed = static_cast<int32_t>(0x1b),
-    __E_NoInternetConnection = static_cast<int32_t>(0x1c),
-  };
+/// @brief Nested struct ____UnityWebRequest__UnityWebRequestError_Unwrapped
+enum struct ____UnityWebRequest__UnityWebRequestError_Unwrapped : int32_t {
+__E_OK = static_cast<int32_t>(0x0),
+__E_OKCached = static_cast<int32_t>(0x1),
+__E_Unknown = static_cast<int32_t>(0x2),
+__E_SDKError = static_cast<int32_t>(0x3),
+__E_UnsupportedProtocol = static_cast<int32_t>(0x4),
+__E_MalformattedUrl = static_cast<int32_t>(0x5),
+__E_CannotResolveProxy = static_cast<int32_t>(0x6),
+__E_CannotResolveHost = static_cast<int32_t>(0x7),
+__E_CannotConnectToHost = static_cast<int32_t>(0x8),
+__E_AccessDenied = static_cast<int32_t>(0x9),
+__E_GenericHttpError = static_cast<int32_t>(0xa),
+__E_WriteError = static_cast<int32_t>(0xb),
+__E_ReadError = static_cast<int32_t>(0xc),
+__E_OutOfMemory = static_cast<int32_t>(0xd),
+__E_Timeout = static_cast<int32_t>(0xe),
+__E_HTTPPostError = static_cast<int32_t>(0xf),
+__E_SSLCannotConnect = static_cast<int32_t>(0x10),
+__E_Aborted = static_cast<int32_t>(0x11),
+__E_TooManyRedirects = static_cast<int32_t>(0x12),
+__E_ReceivedNoData = static_cast<int32_t>(0x13),
+__E_SSLNotSupported = static_cast<int32_t>(0x14),
+__E_FailedToSendData = static_cast<int32_t>(0x15),
+__E_FailedToReceiveData = static_cast<int32_t>(0x16),
+__E_SSLCertificateError = static_cast<int32_t>(0x17),
+__E_SSLCipherNotAvailable = static_cast<int32_t>(0x18),
+__E_SSLCACertError = static_cast<int32_t>(0x19),
+__E_UnrecognizedContentEncoding = static_cast<int32_t>(0x1a),
+__E_LoginFailed = static_cast<int32_t>(0x1b),
+__E_SSLShutdownFailed = static_cast<int32_t>(0x1c),
+__E_RedirectLimitInvalid = static_cast<int32_t>(0x1d),
+__E_InvalidRedirect = static_cast<int32_t>(0x1e),
+__E_CannotModifyRequest = static_cast<int32_t>(0x1f),
+__E_HeaderNameContainsInvalidCharacters = static_cast<int32_t>(0x20),
+__E_HeaderValueContainsInvalidCharacters = static_cast<int32_t>(0x21),
+__E_CannotOverrideSystemHeaders = static_cast<int32_t>(0x22),
+__E_AlreadySent = static_cast<int32_t>(0x23),
+__E_InvalidMethod = static_cast<int32_t>(0x24),
+__E_NotImplemented = static_cast<int32_t>(0x25),
+__E_NoInternetConnection = static_cast<int32_t>(0x26),
+__E_DataProcessingError = static_cast<int32_t>(0x27),
+__E_InsecureConnectionNotAllowed = static_cast<int32_t>(0x28),
+};
 
-  /// @brief Conversion into unwrapped enum value
-  constexpr operator ____UnityWebRequest__UnityWebRequestError_Unwrapped() const noexcept {
-    return static_cast<____UnityWebRequest__UnityWebRequestError_Unwrapped>(this->value__);
-  }
+/// @brief Conversion into unwrapped enum value
+constexpr operator ____UnityWebRequest__UnityWebRequestError_Unwrapped () const noexcept {
+return static_cast<____UnityWebRequest__UnityWebRequestError_Unwrapped>(this->value__);
+}
 
-  /// @brief Conversion into unwrapped enum value
-  constexpr explicit operator int32_t() const noexcept {
-    return static_cast<int32_t>(this->value__);
-  }
+/// @brief Conversion into unwrapped enum value
+constexpr explicit operator int32_t () const noexcept {
+return static_cast<int32_t>(this->value__);
+}
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __UnityWebRequest__UnityWebRequestError();
+// Ctor Parameters []
+// @brief default ctor
+constexpr __UnityWebRequest__UnityWebRequestError() ;
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __UnityWebRequest__UnityWebRequestError(int32_t value__) noexcept;
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr __UnityWebRequest__UnityWebRequestError(int32_t  value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+/// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+ int32_t  value__;
 
-  /// @brief Field Aborted value: static_cast<int32_t>(0x10)
-  static ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError const Aborted;
+/// @brief Field Aborted value: static_cast<int32_t>(0x11)
+static ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError const Aborted;
 
-  /// @brief Field AccessDenied value: static_cast<int32_t>(0x8)
-  static ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError const AccessDenied;
+/// @brief Field AccessDenied value: static_cast<int32_t>(0x9)
+static ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError const AccessDenied;
 
-  /// @brief Field CannotConnectToHost value: static_cast<int32_t>(0x7)
-  static ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError const CannotConnectToHost;
+/// @brief Field AlreadySent value: static_cast<int32_t>(0x23)
+static ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError const AlreadySent;
 
-  /// @brief Field CannotResolveHost value: static_cast<int32_t>(0x6)
-  static ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError const CannotResolveHost;
+/// @brief Field CannotConnectToHost value: static_cast<int32_t>(0x8)
+static ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError const CannotConnectToHost;
 
-  /// @brief Field CannotResolveProxy value: static_cast<int32_t>(0x5)
-  static ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError const CannotResolveProxy;
+/// @brief Field CannotModifyRequest value: static_cast<int32_t>(0x1f)
+static ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError const CannotModifyRequest;
 
-  /// @brief Field FailedToReceiveData value: static_cast<int32_t>(0x15)
-  static ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError const FailedToReceiveData;
+/// @brief Field CannotOverrideSystemHeaders value: static_cast<int32_t>(0x22)
+static ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError const CannotOverrideSystemHeaders;
 
-  /// @brief Field FailedToSendData value: static_cast<int32_t>(0x14)
-  static ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError const FailedToSendData;
+/// @brief Field CannotResolveHost value: static_cast<int32_t>(0x7)
+static ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError const CannotResolveHost;
 
-  /// @brief Field GenericHttpError value: static_cast<int32_t>(0x9)
-  static ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError const GenericHttpError;
+/// @brief Field CannotResolveProxy value: static_cast<int32_t>(0x6)
+static ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError const CannotResolveProxy;
 
-  /// @brief Field HTTPPostError value: static_cast<int32_t>(0xe)
-  static ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError const HTTPPostError;
+/// @brief Field DataProcessingError value: static_cast<int32_t>(0x27)
+static ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError const DataProcessingError;
 
-  /// @brief Field LoginFailed value: static_cast<int32_t>(0x1a)
-  static ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError const LoginFailed;
+/// @brief Field FailedToReceiveData value: static_cast<int32_t>(0x16)
+static ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError const FailedToReceiveData;
 
-  /// @brief Field MalformattedUrl value: static_cast<int32_t>(0x4)
-  static ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError const MalformattedUrl;
+/// @brief Field FailedToSendData value: static_cast<int32_t>(0x15)
+static ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError const FailedToSendData;
 
-  /// @brief Field NoInternetConnection value: static_cast<int32_t>(0x1c)
-  static ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError const NoInternetConnection;
+/// @brief Field GenericHttpError value: static_cast<int32_t>(0xa)
+static ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError const GenericHttpError;
 
-  /// @brief Field OK value: static_cast<int32_t>(0x0)
-  static ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError const OK;
+/// @brief Field HTTPPostError value: static_cast<int32_t>(0xf)
+static ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError const HTTPPostError;
 
-  /// @brief Field OutOfMemory value: static_cast<int32_t>(0xc)
-  static ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError const OutOfMemory;
+/// @brief Field HeaderNameContainsInvalidCharacters value: static_cast<int32_t>(0x20)
+static ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError const HeaderNameContainsInvalidCharacters;
 
-  /// @brief Field ReadError value: static_cast<int32_t>(0xb)
-  static ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError const ReadError;
+/// @brief Field HeaderValueContainsInvalidCharacters value: static_cast<int32_t>(0x21)
+static ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError const HeaderValueContainsInvalidCharacters;
 
-  /// @brief Field ReceivedNoData value: static_cast<int32_t>(0x12)
-  static ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError const ReceivedNoData;
+/// @brief Field InsecureConnectionNotAllowed value: static_cast<int32_t>(0x28)
+static ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError const InsecureConnectionNotAllowed;
 
-  /// @brief Field SDKError value: static_cast<int32_t>(0x2)
-  static ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError const SDKError;
+/// @brief Field InvalidMethod value: static_cast<int32_t>(0x24)
+static ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError const InvalidMethod;
 
-  /// @brief Field SSLCACertError value: static_cast<int32_t>(0x18)
-  static ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError const SSLCACertError;
+/// @brief Field InvalidRedirect value: static_cast<int32_t>(0x1e)
+static ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError const InvalidRedirect;
 
-  /// @brief Field SSLCannotConnect value: static_cast<int32_t>(0xf)
-  static ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError const SSLCannotConnect;
+/// @brief Field LoginFailed value: static_cast<int32_t>(0x1b)
+static ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError const LoginFailed;
 
-  /// @brief Field SSLCertificateError value: static_cast<int32_t>(0x16)
-  static ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError const SSLCertificateError;
+/// @brief Field MalformattedUrl value: static_cast<int32_t>(0x5)
+static ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError const MalformattedUrl;
 
-  /// @brief Field SSLCipherNotAvailable value: static_cast<int32_t>(0x17)
-  static ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError const SSLCipherNotAvailable;
+/// @brief Field NoInternetConnection value: static_cast<int32_t>(0x26)
+static ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError const NoInternetConnection;
 
-  /// @brief Field SSLNotSupported value: static_cast<int32_t>(0x13)
-  static ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError const SSLNotSupported;
+/// @brief Field NotImplemented value: static_cast<int32_t>(0x25)
+static ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError const NotImplemented;
 
-  /// @brief Field SSLShutdownFailed value: static_cast<int32_t>(0x1b)
-  static ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError const SSLShutdownFailed;
+/// @brief Field OK value: static_cast<int32_t>(0x0)
+static ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError const OK;
 
-  /// @brief Field Timeout value: static_cast<int32_t>(0xd)
-  static ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError const Timeout;
+/// @brief Field OKCached value: static_cast<int32_t>(0x1)
+static ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError const OKCached;
 
-  /// @brief Field TooManyRedirects value: static_cast<int32_t>(0x11)
-  static ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError const TooManyRedirects;
+/// @brief Field OutOfMemory value: static_cast<int32_t>(0xd)
+static ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError const OutOfMemory;
 
-  /// @brief Field Unknown value: static_cast<int32_t>(0x1)
-  static ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError const Unknown;
+/// @brief Field ReadError value: static_cast<int32_t>(0xc)
+static ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError const ReadError;
 
-  /// @brief Field UnrecognizedContentEncoding value: static_cast<int32_t>(0x19)
-  static ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError const UnrecognizedContentEncoding;
+/// @brief Field ReceivedNoData value: static_cast<int32_t>(0x13)
+static ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError const ReceivedNoData;
 
-  /// @brief Field UnsupportedProtocol value: static_cast<int32_t>(0x3)
-  static ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError const UnsupportedProtocol;
+/// @brief Field RedirectLimitInvalid value: static_cast<int32_t>(0x1d)
+static ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError const RedirectLimitInvalid;
 
-  /// @brief Field WriteError value: static_cast<int32_t>(0xa)
-  static ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError const WriteError;
+/// @brief Field SDKError value: static_cast<int32_t>(0x3)
+static ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError const SDKError;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+/// @brief Field SSLCACertError value: static_cast<int32_t>(0x19)
+static ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError const SSLCACertError;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+/// @brief Field SSLCannotConnect value: static_cast<int32_t>(0x10)
+static ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError const SSLCannotConnect;
+
+/// @brief Field SSLCertificateError value: static_cast<int32_t>(0x17)
+static ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError const SSLCertificateError;
+
+/// @brief Field SSLCipherNotAvailable value: static_cast<int32_t>(0x18)
+static ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError const SSLCipherNotAvailable;
+
+/// @brief Field SSLNotSupported value: static_cast<int32_t>(0x14)
+static ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError const SSLNotSupported;
+
+/// @brief Field SSLShutdownFailed value: static_cast<int32_t>(0x1c)
+static ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError const SSLShutdownFailed;
+
+/// @brief Field Timeout value: static_cast<int32_t>(0xe)
+static ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError const Timeout;
+
+/// @brief Field TooManyRedirects value: static_cast<int32_t>(0x12)
+static ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError const TooManyRedirects;
+
+/// @brief Field Unknown value: static_cast<int32_t>(0x2)
+static ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError const Unknown;
+
+/// @brief Field UnrecognizedContentEncoding value: static_cast<int32_t>(0x1a)
+static ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError const UnrecognizedContentEncoding;
+
+/// @brief Field UnsupportedProtocol value: static_cast<int32_t>(0x4)
+static ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError const UnsupportedProtocol;
+
+/// @brief Field WriteError value: static_cast<int32_t>(0xb)
+static ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError const WriteError;
+
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x4};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError, 0x4>, "Size mismatch!");
 
 static_assert(offsetof(::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError, value__) == 0x0, "Offset mismatch!");
 
-} // namespace UnityEngine::Networking
+} // namespace end def UnityEngine::Networking
 // Type: ::Result
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::Networking {
 // Is value type: true
 // CS Name: ::UnityWebRequest::Result
 struct CORDL_TYPE __UnityWebRequest__Result {
 public:
-  // Declarations
-  using __CORDL_BACKING_ENUM_TYPE = int32_t;
+// Declarations
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct ____UnityWebRequest__Result_Unwrapped
-  enum struct ____UnityWebRequest__Result_Unwrapped : int32_t {
-    __E_InProgress = static_cast<int32_t>(0x0),
-    __E_Success = static_cast<int32_t>(0x1),
-    __E_ConnectionError = static_cast<int32_t>(0x2),
-    __E_ProtocolError = static_cast<int32_t>(0x3),
-    __E_DataProcessingError = static_cast<int32_t>(0x4),
-  };
+/// @brief Nested struct ____UnityWebRequest__Result_Unwrapped
+enum struct ____UnityWebRequest__Result_Unwrapped : int32_t {
+__E_InProgress = static_cast<int32_t>(0x0),
+__E_Success = static_cast<int32_t>(0x1),
+__E_ConnectionError = static_cast<int32_t>(0x2),
+__E_ProtocolError = static_cast<int32_t>(0x3),
+__E_DataProcessingError = static_cast<int32_t>(0x4),
+};
 
-  /// @brief Conversion into unwrapped enum value
-  constexpr operator ____UnityWebRequest__Result_Unwrapped() const noexcept {
-    return static_cast<____UnityWebRequest__Result_Unwrapped>(this->value__);
-  }
+/// @brief Conversion into unwrapped enum value
+constexpr operator ____UnityWebRequest__Result_Unwrapped () const noexcept {
+return static_cast<____UnityWebRequest__Result_Unwrapped>(this->value__);
+}
 
-  /// @brief Conversion into unwrapped enum value
-  constexpr explicit operator int32_t() const noexcept {
-    return static_cast<int32_t>(this->value__);
-  }
+/// @brief Conversion into unwrapped enum value
+constexpr explicit operator int32_t () const noexcept {
+return static_cast<int32_t>(this->value__);
+}
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __UnityWebRequest__Result();
+// Ctor Parameters []
+// @brief default ctor
+constexpr __UnityWebRequest__Result() ;
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __UnityWebRequest__Result(int32_t value__) noexcept;
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr __UnityWebRequest__Result(int32_t  value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+/// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+ int32_t  value__;
 
-  /// @brief Field ConnectionError value: static_cast<int32_t>(0x2)
-  static ::UnityEngine::Networking::__UnityWebRequest__Result const ConnectionError;
+/// @brief Field ConnectionError value: static_cast<int32_t>(0x2)
+static ::UnityEngine::Networking::__UnityWebRequest__Result const ConnectionError;
 
-  /// @brief Field DataProcessingError value: static_cast<int32_t>(0x4)
-  static ::UnityEngine::Networking::__UnityWebRequest__Result const DataProcessingError;
+/// @brief Field DataProcessingError value: static_cast<int32_t>(0x4)
+static ::UnityEngine::Networking::__UnityWebRequest__Result const DataProcessingError;
 
-  /// @brief Field InProgress value: static_cast<int32_t>(0x0)
-  static ::UnityEngine::Networking::__UnityWebRequest__Result const InProgress;
+/// @brief Field InProgress value: static_cast<int32_t>(0x0)
+static ::UnityEngine::Networking::__UnityWebRequest__Result const InProgress;
 
-  /// @brief Field ProtocolError value: static_cast<int32_t>(0x3)
-  static ::UnityEngine::Networking::__UnityWebRequest__Result const ProtocolError;
+/// @brief Field ProtocolError value: static_cast<int32_t>(0x3)
+static ::UnityEngine::Networking::__UnityWebRequest__Result const ProtocolError;
 
-  /// @brief Field Success value: static_cast<int32_t>(0x1)
-  static ::UnityEngine::Networking::__UnityWebRequest__Result const Success;
+/// @brief Field Success value: static_cast<int32_t>(0x1)
+static ::UnityEngine::Networking::__UnityWebRequest__Result const Success;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x4};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Networking::__UnityWebRequest__Result, 0x4>, "Size mismatch!");
 
 static_assert(offsetof(::UnityEngine::Networking::__UnityWebRequest__Result, value__) == 0x0, "Offset mismatch!");
 
-} // namespace UnityEngine::Networking
+} // namespace end def UnityEngine::Networking
 // Type: UnityEngine.Networking::UnityWebRequest
-// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 59, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 64, native_size: -1, calculated_instance_size: 64, calculated_native_size: 59, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Networking {
 // Is value type: false
 // CS Name: ::UnityEngine.Networking::UnityWebRequest*
 class CORDL_TYPE UnityWebRequest : public ::System::Object {
 public:
-  // Declarations
-  using Result = ::UnityEngine::Networking::__UnityWebRequest__Result;
+// Declarations
+using Result = ::UnityEngine::Networking::__UnityWebRequest__Result;
 
-  using UnityWebRequestError = ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError;
+using UnityWebRequestError = ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError;
 
-  using UnityWebRequestMethod = ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestMethod;
+using UnityWebRequestMethod = ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestMethod;
 
-  /// @brief Field <disposeCertificateHandlerOnDispose>k__BackingField, offset 0x38, size 0x1
-  __declspec(property(get = __cordl_internal_get__disposeCertificateHandlerOnDispose_k__BackingField,
-                      put = __cordl_internal_set__disposeCertificateHandlerOnDispose_k__BackingField)) bool _disposeCertificateHandlerOnDispose_k__BackingField;
+/// @brief Field <disposeCertificateHandlerOnDispose>k__BackingField, offset 0x38, size 0x1 
+ __declspec(property(get=__cordl_internal_get__disposeCertificateHandlerOnDispose_k__BackingField, put=__cordl_internal_set__disposeCertificateHandlerOnDispose_k__BackingField)) bool  _disposeCertificateHandlerOnDispose_k__BackingField;
 
-  /// @brief Field <disposeDownloadHandlerOnDispose>k__BackingField, offset 0x39, size 0x1
-  __declspec(property(get = __cordl_internal_get__disposeDownloadHandlerOnDispose_k__BackingField,
-                      put = __cordl_internal_set__disposeDownloadHandlerOnDispose_k__BackingField)) bool _disposeDownloadHandlerOnDispose_k__BackingField;
+/// @brief Field <disposeDownloadHandlerOnDispose>k__BackingField, offset 0x39, size 0x1 
+ __declspec(property(get=__cordl_internal_get__disposeDownloadHandlerOnDispose_k__BackingField, put=__cordl_internal_set__disposeDownloadHandlerOnDispose_k__BackingField)) bool  _disposeDownloadHandlerOnDispose_k__BackingField;
 
-  /// @brief Field <disposeUploadHandlerOnDispose>k__BackingField, offset 0x3a, size 0x1
-  __declspec(property(get = __cordl_internal_get__disposeUploadHandlerOnDispose_k__BackingField,
-                      put = __cordl_internal_set__disposeUploadHandlerOnDispose_k__BackingField)) bool _disposeUploadHandlerOnDispose_k__BackingField;
+/// @brief Field <disposeUploadHandlerOnDispose>k__BackingField, offset 0x3a, size 0x1 
+ __declspec(property(get=__cordl_internal_get__disposeUploadHandlerOnDispose_k__BackingField, put=__cordl_internal_set__disposeUploadHandlerOnDispose_k__BackingField)) bool  _disposeUploadHandlerOnDispose_k__BackingField;
 
-  __declspec(property(get = get_certificateHandler, put = set_certificateHandler))::UnityEngine::Networking::CertificateHandler* certificateHandler;
+ __declspec(property(get=get_certificateHandler, put=set_certificateHandler)) ::UnityEngine::Networking::CertificateHandler*  certificateHandler;
 
-  __declspec(property(get = get_disposeCertificateHandlerOnDispose, put = set_disposeCertificateHandlerOnDispose)) bool disposeCertificateHandlerOnDispose;
+ __declspec(property(get=get_disposeCertificateHandlerOnDispose, put=set_disposeCertificateHandlerOnDispose)) bool  disposeCertificateHandlerOnDispose;
 
-  __declspec(property(get = get_disposeDownloadHandlerOnDispose, put = set_disposeDownloadHandlerOnDispose)) bool disposeDownloadHandlerOnDispose;
+ __declspec(property(get=get_disposeDownloadHandlerOnDispose, put=set_disposeDownloadHandlerOnDispose)) bool  disposeDownloadHandlerOnDispose;
 
-  __declspec(property(get = get_disposeUploadHandlerOnDispose, put = set_disposeUploadHandlerOnDispose)) bool disposeUploadHandlerOnDispose;
+ __declspec(property(get=get_disposeUploadHandlerOnDispose, put=set_disposeUploadHandlerOnDispose)) bool  disposeUploadHandlerOnDispose;
 
-  __declspec(property(get = get_downloadHandler, put = set_downloadHandler))::UnityEngine::Networking::DownloadHandler* downloadHandler;
+ __declspec(property(get=get_downloadHandler, put=set_downloadHandler)) ::UnityEngine::Networking::DownloadHandler*  downloadHandler;
 
-  __declspec(property(get = get_downloadedBytes)) uint64_t downloadedBytes;
+ __declspec(property(get=get_downloadedBytes)) uint64_t  downloadedBytes;
 
-  __declspec(property(get = get_error))::StringW error;
+ __declspec(property(get=get_error)) ::StringW  error;
 
-  __declspec(property(get = get_isDone)) bool isDone;
+ __declspec(property(get=get_isDone)) bool  isDone;
 
-  __declspec(property(get = get_isModifiable)) bool isModifiable;
+ __declspec(property(get=get_isModifiable)) bool  isModifiable;
 
-  /// @brief Field m_CertificateHandler, offset 0x28, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_CertificateHandler, put = __cordl_internal_set_m_CertificateHandler))::UnityEngine::Networking::CertificateHandler* m_CertificateHandler;
+/// @brief Field m_CertificateHandler, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_CertificateHandler, put=__cordl_internal_set_m_CertificateHandler)) ::UnityEngine::Networking::CertificateHandler*  m_CertificateHandler;
 
-  /// @brief Field m_DownloadHandler, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_DownloadHandler, put = __cordl_internal_set_m_DownloadHandler))::UnityEngine::Networking::DownloadHandler* m_DownloadHandler;
+/// @brief Field m_DownloadHandler, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_DownloadHandler, put=__cordl_internal_set_m_DownloadHandler)) ::UnityEngine::Networking::DownloadHandler*  m_DownloadHandler;
 
-  /// @brief Field m_Ptr, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Ptr, put = __cordl_internal_set_m_Ptr))::System::IntPtr m_Ptr;
+/// @brief Field m_Ptr, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_Ptr, put=__cordl_internal_set_m_Ptr)) ::System::IntPtr  m_Ptr;
 
-  /// @brief Field m_UploadHandler, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_UploadHandler, put = __cordl_internal_set_m_UploadHandler))::UnityEngine::Networking::UploadHandler* m_UploadHandler;
+/// @brief Field m_UploadHandler, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_UploadHandler, put=__cordl_internal_set_m_UploadHandler)) ::UnityEngine::Networking::UploadHandler*  m_UploadHandler;
 
-  /// @brief Field m_Uri, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Uri, put = __cordl_internal_set_m_Uri))::System::Uri* m_Uri;
+/// @brief Field m_Uri, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_Uri, put=__cordl_internal_set_m_Uri)) ::System::Uri*  m_Uri;
 
-  __declspec(property(get = get_method, put = set_method))::StringW method;
+ __declspec(property(get=get_method, put=set_method)) ::StringW  method;
 
-  __declspec(property(put = set_redirectLimit)) int32_t redirectLimit;
+ __declspec(property(put=set_redirectLimit)) int32_t  redirectLimit;
 
-  __declspec(property(get = get_responseCode)) int64_t responseCode;
+ __declspec(property(get=get_responseCode)) int64_t  responseCode;
 
-  __declspec(property(get = get_result))::UnityEngine::Networking::__UnityWebRequest__Result result;
+ __declspec(property(get=get_result)) ::UnityEngine::Networking::__UnityWebRequest__Result  result;
 
-  __declspec(property(put = set_timeout)) int32_t timeout;
+ __declspec(property(put=set_timeout)) int32_t  timeout;
 
-  __declspec(property(get = get_uploadHandler, put = set_uploadHandler))::UnityEngine::Networking::UploadHandler* uploadHandler;
+ __declspec(property(get=get_uploadHandler, put=set_uploadHandler)) ::UnityEngine::Networking::UploadHandler*  uploadHandler;
 
-  __declspec(property(get = get_url, put = set_url))::StringW url;
+ __declspec(property(put=set_uri)) ::System::Uri*  uri;
 
-  /// @brief Convert operator to "::System::IDisposable"
-  constexpr operator ::System::IDisposable*() noexcept;
+ __declspec(property(get=get_url, put=set_url)) ::StringW  url;
 
-  /// @brief Method Abort, addr 0x3643dd4, size 0x3c, virtual false, abstract: false, final false
-  inline void Abort();
+/// @brief Convert operator to "::System::IDisposable"
+constexpr operator  ::System::IDisposable*() noexcept;
 
-  /// @brief Method BeginWebRequest, addr 0x3644504, size 0x3c, virtual false, abstract: false, final false
-  inline ::UnityEngine::Networking::UnityWebRequestAsyncOperation* BeginWebRequest();
+/// @brief Method Abort, addr 0x4a4f890, size 0x3c, virtual false, abstract: false, final false
+inline void Abort() ;
 
-  /// @brief Method Create, addr 0x3643cb4, size 0x28, virtual false, abstract: false, final false
-  static inline ::System::IntPtr Create();
+/// @brief Method BeginWebRequest, addr 0x4a50118, size 0x3c, virtual false, abstract: false, final false
+inline ::UnityEngine::Networking::UnityWebRequestAsyncOperation* BeginWebRequest() ;
 
-  /// @brief Method Dispose, addr 0x36443f0, size 0x68, virtual true, abstract: false, final true
-  inline void Dispose();
+/// @brief Method Create, addr 0x4a4f7ac, size 0x28, virtual false, abstract: false, final false
+static inline ::System::IntPtr Create() ;
 
-  /// @brief Method DisposeHandlers, addr 0x3644390, size 0x60, virtual false, abstract: false, final false
-  inline void DisposeHandlers();
+/// @brief Method Dispose, addr 0x4a50098, size 0x68, virtual true, abstract: false, final true
+inline void Dispose() ;
 
-  /// @brief Method EscapeURL, addr 0x3645380, size 0x20, virtual false, abstract: false, final false
-  static inline ::StringW EscapeURL(::StringW s);
+/// @brief Method DisposeHandlers, addr 0x4a50038, size 0x60, virtual false, abstract: false, final false
+inline void DisposeHandlers() ;
 
-  /// @brief Method EscapeURL, addr 0x36453a0, size 0xd8, virtual false, abstract: false, final false
-  static inline ::StringW EscapeURL(::StringW s, ::System::Text::Encoding* e);
+/// @brief Method EscapeURL, addr 0x4a50f4c, size 0x20, virtual false, abstract: false, final false
+static inline ::StringW EscapeURL(::StringW  s) ;
 
-  /// @brief Method Finalize, addr 0x36442f4, size 0x9c, virtual true, abstract: false, final false
-  inline void Finalize();
+/// @brief Method EscapeURL, addr 0x4a50f6c, size 0xd8, virtual false, abstract: false, final false
+static inline ::StringW EscapeURL(::StringW  s, ::System::Text::Encoding*  e) ;
 
-  /// @brief Method Get, addr 0x364528c, size 0xa8, virtual false, abstract: false, final false
-  static inline ::UnityEngine::Networking::UnityWebRequest* Get(::StringW uri);
+/// @brief Method Finalize, addr 0x4a4ff9c, size 0x9c, virtual true, abstract: false, final false
+inline void Finalize() ;
 
-  /// @brief Method GetCustomMethod, addr 0x36448a0, size 0x3c, virtual false, abstract: false, final false
-  inline ::StringW GetCustomMethod();
+/// @brief Method Get, addr 0x4a50ea8, size 0xa4, virtual false, abstract: false, final false
+static inline ::UnityEngine::Networking::UnityWebRequest* Get(::StringW  uri) ;
 
-  /// @brief Method GetError, addr 0x36449e4, size 0x3c, virtual false, abstract: false, final false
-  inline ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError GetError();
+/// @brief Method GetCustomMethod, addr 0x4a5049c, size 0x3c, virtual false, abstract: false, final false
+inline ::StringW GetCustomMethod() ;
 
-  /// @brief Method GetHTTPStatusString, addr 0x3643c3c, size 0x3c, virtual false, abstract: false, final false
-  static inline ::StringW GetHTTPStatusString(int64_t responseCode);
+/// @brief Method GetError, addr 0x4a505e0, size 0x3c, virtual false, abstract: false, final false
+inline ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError GetError() ;
 
-  /// @brief Method GetMethod, addr 0x3644864, size 0x3c, virtual false, abstract: false, final false
-  inline ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestMethod GetMethod();
+/// @brief Method GetHTTPStatusString, addr 0x4a4f734, size 0x3c, virtual false, abstract: false, final false
+static inline ::StringW GetHTTPStatusString(int64_t  responseCode) ;
 
-  /// @brief Method GetUrl, addr 0x3644c78, size 0x3c, virtual false, abstract: false, final false
-  inline ::StringW GetUrl();
+/// @brief Method GetMethod, addr 0x4a50460, size 0x3c, virtual false, abstract: false, final false
+inline ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestMethod GetMethod() ;
 
-  /// @brief Method GetWebErrorString, addr 0x3643c00, size 0x3c, virtual false, abstract: false, final false
-  static inline ::StringW GetWebErrorString(::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError err);
+/// @brief Method GetResponseHeader, addr 0x4a50b00, size 0x44, virtual false, abstract: false, final false
+inline ::StringW GetResponseHeader(::StringW  name) ;
 
-  /// @brief Method InternalDestroy, addr 0x3643d18, size 0xbc, virtual false, abstract: false, final false
-  inline void InternalDestroy();
+/// @brief Method GetUrl, addr 0x4a50874, size 0x3c, virtual false, abstract: false, final false
+inline ::StringW GetUrl() ;
 
-  /// @brief Method InternalSetCustomMethod, addr 0x3644758, size 0x10c, virtual false, abstract: false, final false
-  inline void InternalSetCustomMethod(::StringW customMethodName);
+/// @brief Method GetWebErrorString, addr 0x4a4f6f8, size 0x3c, virtual false, abstract: false, final false
+static inline ::StringW GetWebErrorString(::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError  err) ;
 
-  /// @brief Method InternalSetDefaults, addr 0x3643e10, size 0x14, virtual false, abstract: false, final false
-  inline void InternalSetDefaults();
+/// @brief Method InternalDestroy, addr 0x4a4f810, size 0x80, virtual false, abstract: false, final false
+inline void InternalDestroy() ;
 
-  /// @brief Method InternalSetMethod, addr 0x36445cc, size 0x10c, virtual false, abstract: false, final false
-  inline void InternalSetMethod(::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestMethod methodType);
+/// @brief Method InternalSetCustomMethod, addr 0x4a50360, size 0x100, virtual false, abstract: false, final false
+inline void InternalSetCustomMethod(::StringW  customMethodName) ;
 
-  /// @brief Method InternalSetUrl, addr 0x3644cb4, size 0x10c, virtual false, abstract: false, final false
-  inline void InternalSetUrl(::StringW url);
+/// @brief Method InternalSetDefaults, addr 0x4a4f8cc, size 0x14, virtual false, abstract: false, final false
+inline void InternalSetDefaults() ;
 
-  static inline ::UnityEngine::Networking::UnityWebRequest* New_ctor(::StringW url, ::StringW method, ::UnityEngine::Networking::DownloadHandler* downloadHandler,
-                                                                     ::UnityEngine::Networking::UploadHandler* uploadHandler);
+/// @brief Method InternalSetMethod, addr 0x4a501e0, size 0x100, virtual false, abstract: false, final false
+inline void InternalSetMethod(::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestMethod  methodType) ;
 
-  /// @brief Method Release, addr 0x3643cdc, size 0x3c, virtual false, abstract: false, final false
-  inline void Release();
+/// @brief Method InternalSetUrl, addr 0x4a508b0, size 0x100, virtual false, abstract: false, final false
+inline void InternalSetUrl(::StringW  url) ;
 
-  /// @brief Method SendWebRequest, addr 0x3644540, size 0x48, virtual false, abstract: false, final false
-  inline ::UnityEngine::Networking::UnityWebRequestAsyncOperation* SendWebRequest();
+static inline ::UnityEngine::Networking::UnityWebRequest* New_ctor(::System::Uri*  uri, ::StringW  method, ::UnityEngine::Networking::DownloadHandler*  downloadHandler, ::UnityEngine::Networking::UploadHandler*  uploadHandler) ;
 
-  /// @brief Method SetCertificateHandler, addr 0x3644f98, size 0x44, virtual false, abstract: false, final false
-  inline ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError SetCertificateHandler(::UnityEngine::Networking::CertificateHandler* ch);
+static inline ::UnityEngine::Networking::UnityWebRequest* New_ctor(::StringW  url, ::StringW  method) ;
 
-  /// @brief Method SetCustomMethod, addr 0x3644714, size 0x44, virtual false, abstract: false, final false
-  inline ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError SetCustomMethod(::StringW customMethodName);
+static inline ::UnityEngine::Networking::UnityWebRequest* New_ctor(::StringW  url, ::StringW  method, ::UnityEngine::Networking::DownloadHandler*  downloadHandler, ::UnityEngine::Networking::UploadHandler*  uploadHandler) ;
 
-  /// @brief Method SetDownloadHandler, addr 0x3644f54, size 0x44, virtual false, abstract: false, final false
-  inline ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError SetDownloadHandler(::UnityEngine::Networking::DownloadHandler* dh);
+/// @brief Method Release, addr 0x4a4f7d4, size 0x3c, virtual false, abstract: false, final false
+inline void Release() ;
 
-  /// @brief Method SetMethod, addr 0x3644588, size 0x44, virtual false, abstract: false, final false
-  inline ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError SetMethod(::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestMethod methodType);
+/// @brief Method SendWebRequest, addr 0x4a50154, size 0x48, virtual false, abstract: false, final false
+inline ::UnityEngine::Networking::UnityWebRequestAsyncOperation* SendWebRequest() ;
 
-  /// @brief Method SetRedirectLimitFromScripting, addr 0x3644e88, size 0x44, virtual false, abstract: false, final false
-  inline void SetRedirectLimitFromScripting(int32_t limit);
+/// @brief Method SetCertificateHandler, addr 0x4a50bcc, size 0x44, virtual false, abstract: false, final false
+inline ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError SetCertificateHandler(::UnityEngine::Networking::CertificateHandler*  ch) ;
 
-  /// @brief Method SetTimeoutMsec, addr 0x36450ec, size 0x44, virtual false, abstract: false, final false
-  inline ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError SetTimeoutMsec(int32_t timeout);
+/// @brief Method SetCustomMethod, addr 0x4a5031c, size 0x44, virtual false, abstract: false, final false
+inline ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError SetCustomMethod(::StringW  customMethodName) ;
 
-  /// @brief Method SetUploadHandler, addr 0x3644f10, size 0x44, virtual false, abstract: false, final false
-  inline ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError SetUploadHandler(::UnityEngine::Networking::UploadHandler* uh);
+/// @brief Method SetDownloadHandler, addr 0x4a50b88, size 0x44, virtual false, abstract: false, final false
+inline ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError SetDownloadHandler(::UnityEngine::Networking::DownloadHandler*  dh) ;
 
-  /// @brief Method SetUrl, addr 0x3644dc0, size 0x44, virtual false, abstract: false, final false
-  inline ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError SetUrl(::StringW url);
+/// @brief Method SetMethod, addr 0x4a5019c, size 0x44, virtual false, abstract: false, final false
+inline ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError SetMethod(::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestMethod  methodType) ;
 
-  constexpr bool const& __cordl_internal_get__disposeCertificateHandlerOnDispose_k__BackingField() const;
+/// @brief Method SetRedirectLimitFromScripting, addr 0x4a50a78, size 0x44, virtual false, abstract: false, final false
+inline void SetRedirectLimitFromScripting(int32_t  limit) ;
 
-  constexpr bool& __cordl_internal_get__disposeCertificateHandlerOnDispose_k__BackingField();
+/// @brief Method SetTimeoutMsec, addr 0x4a50d14, size 0x44, virtual false, abstract: false, final false
+inline ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError SetTimeoutMsec(int32_t  timeout) ;
 
-  constexpr bool const& __cordl_internal_get__disposeDownloadHandlerOnDispose_k__BackingField() const;
+/// @brief Method SetUploadHandler, addr 0x4a50b44, size 0x44, virtual false, abstract: false, final false
+inline ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError SetUploadHandler(::UnityEngine::Networking::UploadHandler*  uh) ;
 
-  constexpr bool& __cordl_internal_get__disposeDownloadHandlerOnDispose_k__BackingField();
+/// @brief Method SetUrl, addr 0x4a509b0, size 0x44, virtual false, abstract: false, final false
+inline ::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError SetUrl(::StringW  url) ;
 
-  constexpr bool const& __cordl_internal_get__disposeUploadHandlerOnDispose_k__BackingField() const;
+constexpr bool const& __cordl_internal_get__disposeCertificateHandlerOnDispose_k__BackingField() const;
 
-  constexpr bool& __cordl_internal_get__disposeUploadHandlerOnDispose_k__BackingField();
+constexpr bool& __cordl_internal_get__disposeCertificateHandlerOnDispose_k__BackingField() ;
 
-  constexpr ::UnityEngine::Networking::CertificateHandler*& __cordl_internal_get_m_CertificateHandler();
+constexpr bool const& __cordl_internal_get__disposeDownloadHandlerOnDispose_k__BackingField() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Networking::CertificateHandler*> const& __cordl_internal_get_m_CertificateHandler() const;
+constexpr bool& __cordl_internal_get__disposeDownloadHandlerOnDispose_k__BackingField() ;
 
-  constexpr ::UnityEngine::Networking::DownloadHandler*& __cordl_internal_get_m_DownloadHandler();
+constexpr bool const& __cordl_internal_get__disposeUploadHandlerOnDispose_k__BackingField() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Networking::DownloadHandler*> const& __cordl_internal_get_m_DownloadHandler() const;
+constexpr bool& __cordl_internal_get__disposeUploadHandlerOnDispose_k__BackingField() ;
 
-  constexpr ::System::IntPtr const& __cordl_internal_get_m_Ptr() const;
+constexpr ::UnityEngine::Networking::CertificateHandler*& __cordl_internal_get_m_CertificateHandler() ;
 
-  constexpr ::System::IntPtr& __cordl_internal_get_m_Ptr();
+constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Networking::CertificateHandler*> const& __cordl_internal_get_m_CertificateHandler() const;
 
-  constexpr ::UnityEngine::Networking::UploadHandler*& __cordl_internal_get_m_UploadHandler();
+constexpr ::UnityEngine::Networking::DownloadHandler*& __cordl_internal_get_m_DownloadHandler() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Networking::UploadHandler*> const& __cordl_internal_get_m_UploadHandler() const;
+constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Networking::DownloadHandler*> const& __cordl_internal_get_m_DownloadHandler() const;
 
-  constexpr ::System::Uri*& __cordl_internal_get_m_Uri();
+constexpr ::System::IntPtr const& __cordl_internal_get_m_Ptr() const;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Uri*> const& __cordl_internal_get_m_Uri() const;
+constexpr ::System::IntPtr& __cordl_internal_get_m_Ptr() ;
 
-  constexpr void __cordl_internal_set__disposeCertificateHandlerOnDispose_k__BackingField(bool value);
+constexpr ::UnityEngine::Networking::UploadHandler*& __cordl_internal_get_m_UploadHandler() ;
 
-  constexpr void __cordl_internal_set__disposeDownloadHandlerOnDispose_k__BackingField(bool value);
+constexpr ::cordl_internals::to_const_pointer<::UnityEngine::Networking::UploadHandler*> const& __cordl_internal_get_m_UploadHandler() const;
 
-  constexpr void __cordl_internal_set__disposeUploadHandlerOnDispose_k__BackingField(bool value);
+constexpr ::System::Uri*& __cordl_internal_get_m_Uri() ;
 
-  constexpr void __cordl_internal_set_m_CertificateHandler(::UnityEngine::Networking::CertificateHandler* value);
+constexpr ::cordl_internals::to_const_pointer<::System::Uri*> const& __cordl_internal_get_m_Uri() const;
 
-  constexpr void __cordl_internal_set_m_DownloadHandler(::UnityEngine::Networking::DownloadHandler* value);
+constexpr void __cordl_internal_set__disposeCertificateHandlerOnDispose_k__BackingField(bool  value) ;
 
-  constexpr void __cordl_internal_set_m_Ptr(::System::IntPtr value);
+constexpr void __cordl_internal_set__disposeDownloadHandlerOnDispose_k__BackingField(bool  value) ;
 
-  constexpr void __cordl_internal_set_m_UploadHandler(::UnityEngine::Networking::UploadHandler* value);
+constexpr void __cordl_internal_set__disposeUploadHandlerOnDispose_k__BackingField(bool  value) ;
 
-  constexpr void __cordl_internal_set_m_Uri(::System::Uri* value);
+constexpr void __cordl_internal_set_m_CertificateHandler(::UnityEngine::Networking::CertificateHandler*  value) ;
 
-  /// @brief Method .ctor, addr 0x3643e24, size 0xa4, virtual false, abstract: false, final false
-  inline void _ctor(::StringW url, ::StringW method, ::UnityEngine::Networking::DownloadHandler* downloadHandler, ::UnityEngine::Networking::UploadHandler* uploadHandler);
+constexpr void __cordl_internal_set_m_DownloadHandler(::UnityEngine::Networking::DownloadHandler*  value) ;
 
-  /// @brief Method get_certificateHandler, addr 0x3644468, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::Networking::CertificateHandler* get_certificateHandler();
+constexpr void __cordl_internal_set_m_Ptr(::System::IntPtr  value) ;
 
-  /// @brief Method get_disposeCertificateHandlerOnDispose, addr 0x3643c78, size 0x8, virtual false, abstract: false, final false
-  inline bool get_disposeCertificateHandlerOnDispose();
+constexpr void __cordl_internal_set_m_UploadHandler(::UnityEngine::Networking::UploadHandler*  value) ;
 
-  /// @brief Method get_disposeDownloadHandlerOnDispose, addr 0x3643c8c, size 0x8, virtual false, abstract: false, final false
-  inline bool get_disposeDownloadHandlerOnDispose();
+constexpr void __cordl_internal_set_m_Uri(::System::Uri*  value) ;
 
-  /// @brief Method get_disposeUploadHandlerOnDispose, addr 0x3643ca0, size 0x8, virtual false, abstract: false, final false
-  inline bool get_disposeUploadHandlerOnDispose();
+/// @brief Method .ctor, addr 0x4a4fe10, size 0xa4, virtual false, abstract: false, final false
+inline void _ctor(::System::Uri*  uri, ::StringW  method, ::UnityEngine::Networking::DownloadHandler*  downloadHandler, ::UnityEngine::Networking::UploadHandler*  uploadHandler) ;
 
-  /// @brief Method get_downloadHandler, addr 0x3644458, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::Networking::DownloadHandler* get_downloadHandler();
+/// @brief Method .ctor, addr 0x4a4f8e0, size 0x7c, virtual false, abstract: false, final false
+inline void _ctor(::StringW  url, ::StringW  method) ;
 
-  /// @brief Method get_downloadedBytes, addr 0x3644e4c, size 0x3c, virtual false, abstract: false, final false
-  inline uint64_t get_downloadedBytes();
+/// @brief Method .ctor, addr 0x4a4fb64, size 0xa4, virtual false, abstract: false, final false
+inline void _ctor(::StringW  url, ::StringW  method, ::UnityEngine::Networking::DownloadHandler*  downloadHandler, ::UnityEngine::Networking::UploadHandler*  uploadHandler) ;
 
-  /// @brief Method get_error, addr 0x3644a20, size 0x1a4, virtual false, abstract: false, final false
-  inline ::StringW get_error();
+/// @brief Method get_certificateHandler, addr 0x4a50110, size 0x8, virtual false, abstract: false, final false
+inline ::UnityEngine::Networking::CertificateHandler* get_certificateHandler() ;
 
-  /// @brief Method get_isDone, addr 0x3644e04, size 0x48, virtual false, abstract: false, final false
-  inline bool get_isDone();
+/// @brief Method get_disposeCertificateHandlerOnDispose, addr 0x4a4f770, size 0x8, virtual false, abstract: false, final false
+inline bool get_disposeCertificateHandlerOnDispose() ;
 
-  /// @brief Method get_isModifiable, addr 0x36446d8, size 0x3c, virtual false, abstract: false, final false
-  inline bool get_isModifiable();
+/// @brief Method get_disposeDownloadHandlerOnDispose, addr 0x4a4f784, size 0x8, virtual false, abstract: false, final false
+inline bool get_disposeDownloadHandlerOnDispose() ;
 
-  /// @brief Method get_method, addr 0x36448dc, size 0x108, virtual false, abstract: false, final false
-  inline ::StringW get_method();
+/// @brief Method get_disposeUploadHandlerOnDispose, addr 0x4a4f798, size 0x8, virtual false, abstract: false, final false
+inline bool get_disposeUploadHandlerOnDispose() ;
 
-  /// @brief Method get_responseCode, addr 0x3644c00, size 0x3c, virtual false, abstract: false, final false
-  inline int64_t get_responseCode();
+/// @brief Method get_downloadHandler, addr 0x4a50100, size 0x8, virtual false, abstract: false, final false
+inline ::UnityEngine::Networking::DownloadHandler* get_downloadHandler() ;
 
-  /// @brief Method get_result, addr 0x3644bc4, size 0x3c, virtual false, abstract: false, final false
-  inline ::UnityEngine::Networking::__UnityWebRequest__Result get_result();
+/// @brief Method get_downloadedBytes, addr 0x4a50a3c, size 0x3c, virtual false, abstract: false, final false
+inline uint64_t get_downloadedBytes() ;
 
-  /// @brief Method get_uploadHandler, addr 0x3644460, size 0x8, virtual false, abstract: false, final false
-  inline ::UnityEngine::Networking::UploadHandler* get_uploadHandler();
+/// @brief Method get_error, addr 0x4a5061c, size 0x1a4, virtual false, abstract: false, final false
+inline ::StringW get_error() ;
 
-  /// @brief Method get_url, addr 0x3644c3c, size 0x3c, virtual false, abstract: false, final false
-  inline ::StringW get_url();
+/// @brief Method get_isDone, addr 0x4a509f4, size 0x48, virtual false, abstract: false, final false
+inline bool get_isDone() ;
 
-  /// @brief Convert to "::System::IDisposable"
-  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+/// @brief Method get_isModifiable, addr 0x4a502e0, size 0x3c, virtual false, abstract: false, final false
+inline bool get_isModifiable() ;
 
-  /// @brief Method set_certificateHandler, addr 0x3644fdc, size 0x110, virtual false, abstract: false, final false
-  inline void set_certificateHandler(::UnityEngine::Networking::CertificateHandler* value);
+/// @brief Method get_method, addr 0x4a504d8, size 0x108, virtual false, abstract: false, final false
+inline ::StringW get_method() ;
 
-  /// @brief Method set_disposeCertificateHandlerOnDispose, addr 0x3643c80, size 0xc, virtual false, abstract: false, final false
-  inline void set_disposeCertificateHandlerOnDispose(bool value);
+/// @brief Method get_responseCode, addr 0x4a507fc, size 0x3c, virtual false, abstract: false, final false
+inline int64_t get_responseCode() ;
 
-  /// @brief Method set_disposeDownloadHandlerOnDispose, addr 0x3643c94, size 0xc, virtual false, abstract: false, final false
-  inline void set_disposeDownloadHandlerOnDispose(bool value);
+/// @brief Method get_result, addr 0x4a507c0, size 0x3c, virtual false, abstract: false, final false
+inline ::UnityEngine::Networking::__UnityWebRequest__Result get_result() ;
 
-  /// @brief Method set_disposeUploadHandlerOnDispose, addr 0x3643ca8, size 0xc, virtual false, abstract: false, final false
-  inline void set_disposeUploadHandlerOnDispose(bool value);
+/// @brief Method get_uploadHandler, addr 0x4a50108, size 0x8, virtual false, abstract: false, final false
+inline ::UnityEngine::Networking::UploadHandler* get_uploadHandler() ;
 
-  /// @brief Method set_downloadHandler, addr 0x36440d4, size 0x110, virtual false, abstract: false, final false
-  inline void set_downloadHandler(::UnityEngine::Networking::DownloadHandler* value);
+/// @brief Method get_url, addr 0x4a50838, size 0x3c, virtual false, abstract: false, final false
+inline ::StringW get_url() ;
 
-  /// @brief Method set_method, addr 0x3643f50, size 0x184, virtual false, abstract: false, final false
-  inline void set_method(::StringW value);
+/// @brief Convert to "::System::IDisposable"
+constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
-  /// @brief Method set_redirectLimit, addr 0x3644ecc, size 0x44, virtual false, abstract: false, final false
-  inline void set_redirectLimit(int32_t value);
+/// @brief Method set_certificateHandler, addr 0x4a50c10, size 0x104, virtual false, abstract: false, final false
+inline void set_certificateHandler(::UnityEngine::Networking::CertificateHandler*  value) ;
 
-  /// @brief Method set_timeout, addr 0x3645130, size 0x15c, virtual false, abstract: false, final false
-  inline void set_timeout(int32_t value);
+/// @brief Method set_disposeCertificateHandlerOnDispose, addr 0x4a4f778, size 0xc, virtual false, abstract: false, final false
+inline void set_disposeCertificateHandlerOnDispose(bool  value) ;
 
-  /// @brief Method set_uploadHandler, addr 0x36441e4, size 0x110, virtual false, abstract: false, final false
-  inline void set_uploadHandler(::UnityEngine::Networking::UploadHandler* value);
+/// @brief Method set_disposeDownloadHandlerOnDispose, addr 0x4a4f78c, size 0xc, virtual false, abstract: false, final false
+inline void set_disposeDownloadHandlerOnDispose(bool  value) ;
 
-  /// @brief Method set_url, addr 0x3643ec8, size 0x88, virtual false, abstract: false, final false
-  inline void set_url(::StringW value);
+/// @brief Method set_disposeUploadHandlerOnDispose, addr 0x4a4f7a0, size 0xc, virtual false, abstract: false, final false
+inline void set_disposeUploadHandlerOnDispose(bool  value) ;
+
+/// @brief Method set_downloadHandler, addr 0x4a4fc08, size 0x104, virtual false, abstract: false, final false
+inline void set_downloadHandler(::UnityEngine::Networking::DownloadHandler*  value) ;
+
+/// @brief Method set_method, addr 0x4a4f9e4, size 0x180, virtual false, abstract: false, final false
+inline void set_method(::StringW  value) ;
+
+/// @brief Method set_redirectLimit, addr 0x4a50abc, size 0x44, virtual false, abstract: false, final false
+inline void set_redirectLimit(int32_t  value) ;
+
+/// @brief Method set_timeout, addr 0x4a50d58, size 0x150, virtual false, abstract: false, final false
+inline void set_timeout(int32_t  value) ;
+
+/// @brief Method set_uploadHandler, addr 0x4a4fd0c, size 0x104, virtual false, abstract: false, final false
+inline void set_uploadHandler(::UnityEngine::Networking::UploadHandler*  value) ;
+
+/// @brief Method set_uri, addr 0x4a4feb4, size 0xe8, virtual false, abstract: false, final false
+inline void set_uri(::System::Uri*  value) ;
+
+/// @brief Method set_url, addr 0x4a4f95c, size 0x88, virtual false, abstract: false, final false
+inline void set_url(::StringW  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr UnityWebRequest();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr UnityWebRequest() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "UnityWebRequest", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  UnityWebRequest(UnityWebRequest&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "UnityWebRequest", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  UnityWebRequest(UnityWebRequest const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "UnityWebRequest", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+UnityWebRequest(UnityWebRequest && ) = delete;
 
-  /// @brief Field m_Ptr, offset: 0x10, size: 0x8, def value: None
-  ::System::IntPtr ___m_Ptr;
+// Ctor Parameters [CppParam { name: "", ty: "UnityWebRequest", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+UnityWebRequest(UnityWebRequest const& ) = delete;
 
-  /// @brief Field m_DownloadHandler, offset: 0x18, size: 0x8, def value: None
-  ::UnityEngine::Networking::DownloadHandler* ___m_DownloadHandler;
+/// @brief Field m_Ptr, offset: 0x10, size: 0x8, def value: None
+ ::System::IntPtr  ___m_Ptr;
 
-  /// @brief Field m_UploadHandler, offset: 0x20, size: 0x8, def value: None
-  ::UnityEngine::Networking::UploadHandler* ___m_UploadHandler;
+/// @brief Field m_DownloadHandler, offset: 0x18, size: 0x8, def value: None
+ ::UnityEngine::Networking::DownloadHandler*  ___m_DownloadHandler;
 
-  /// @brief Field m_CertificateHandler, offset: 0x28, size: 0x8, def value: None
-  ::UnityEngine::Networking::CertificateHandler* ___m_CertificateHandler;
+/// @brief Field m_UploadHandler, offset: 0x20, size: 0x8, def value: None
+ ::UnityEngine::Networking::UploadHandler*  ___m_UploadHandler;
 
-  /// @brief Field m_Uri, offset: 0x30, size: 0x8, def value: None
-  ::System::Uri* ___m_Uri;
+/// @brief Field m_CertificateHandler, offset: 0x28, size: 0x8, def value: None
+ ::UnityEngine::Networking::CertificateHandler*  ___m_CertificateHandler;
 
-  /// @brief Field <disposeCertificateHandlerOnDispose>k__BackingField, offset: 0x38, size: 0x1, def value: None
-  bool ____disposeCertificateHandlerOnDispose_k__BackingField;
+/// @brief Field m_Uri, offset: 0x30, size: 0x8, def value: None
+ ::System::Uri*  ___m_Uri;
 
-  /// @brief Field <disposeDownloadHandlerOnDispose>k__BackingField, offset: 0x39, size: 0x1, def value: None
-  bool ____disposeDownloadHandlerOnDispose_k__BackingField;
+/// @brief Field <disposeCertificateHandlerOnDispose>k__BackingField, offset: 0x38, size: 0x1, def value: None
+ bool  ____disposeCertificateHandlerOnDispose_k__BackingField;
 
-  /// @brief Field <disposeUploadHandlerOnDispose>k__BackingField, offset: 0x3a, size: 0x1, def value: None
-  bool ____disposeUploadHandlerOnDispose_k__BackingField;
+/// @brief Field <disposeDownloadHandlerOnDispose>k__BackingField, offset: 0x39, size: 0x1, def value: None
+ bool  ____disposeDownloadHandlerOnDispose_k__BackingField;
 
-  /// @brief Field kHttpVerbCREATE offset 0xffffffff size 0x8
-  static constexpr ::ConstString kHttpVerbCREATE{ u"CREATE" };
+/// @brief Field <disposeUploadHandlerOnDispose>k__BackingField, offset: 0x3a, size: 0x1, def value: None
+ bool  ____disposeUploadHandlerOnDispose_k__BackingField;
 
-  /// @brief Field kHttpVerbDELETE offset 0xffffffff size 0x8
-  static constexpr ::ConstString kHttpVerbDELETE{ u"DELETE" };
+/// @brief Field kHttpVerbCREATE offset 0xffffffff size 0x8
+static constexpr ::ConstString  kHttpVerbCREATE{u"CREATE"};
 
-  /// @brief Field kHttpVerbGET offset 0xffffffff size 0x8
-  static constexpr ::ConstString kHttpVerbGET{ u"GET" };
+/// @brief Field kHttpVerbDELETE offset 0xffffffff size 0x8
+static constexpr ::ConstString  kHttpVerbDELETE{u"DELETE"};
 
-  /// @brief Field kHttpVerbHEAD offset 0xffffffff size 0x8
-  static constexpr ::ConstString kHttpVerbHEAD{ u"HEAD" };
+/// @brief Field kHttpVerbGET offset 0xffffffff size 0x8
+static constexpr ::ConstString  kHttpVerbGET{u"GET"};
 
-  /// @brief Field kHttpVerbPOST offset 0xffffffff size 0x8
-  static constexpr ::ConstString kHttpVerbPOST{ u"POST" };
+/// @brief Field kHttpVerbHEAD offset 0xffffffff size 0x8
+static constexpr ::ConstString  kHttpVerbHEAD{u"HEAD"};
 
-  /// @brief Field kHttpVerbPUT offset 0xffffffff size 0x8
-  static constexpr ::ConstString kHttpVerbPUT{ u"PUT" };
+/// @brief Field kHttpVerbPOST offset 0xffffffff size 0x8
+static constexpr ::ConstString  kHttpVerbPOST{u"POST"};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field kHttpVerbPUT offset 0xffffffff size 0x8
+static constexpr ::ConstString  kHttpVerbPUT{u"PUT"};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Networking::UnityWebRequest, 0x40>, "Size mismatch!");
@@ -723,7 +785,7 @@ static_assert(offsetof(::UnityEngine::Networking::UnityWebRequest, ____disposeDo
 
 static_assert(offsetof(::UnityEngine::Networking::UnityWebRequest, ____disposeUploadHandlerOnDispose_k__BackingField) == 0x3a, "Offset mismatch!");
 
-} // namespace UnityEngine::Networking
+} // namespace end def UnityEngine::Networking
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Networking::__UnityWebRequest__Result, "UnityEngine.Networking", "UnityWebRequest/Result");
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestError, "UnityEngine.Networking", "UnityWebRequest/UnityWebRequestError");
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Networking::__UnityWebRequest__UnityWebRequestMethod, "UnityEngine.Networking", "UnityWebRequest/UnityWebRequestMethod");

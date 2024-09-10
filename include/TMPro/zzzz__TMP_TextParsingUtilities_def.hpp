@@ -14,80 +14,80 @@ class TMP_TextParsingUtilities;
 // Write type traits
 MARK_REF_PTR_T(::TMPro::TMP_TextParsingUtilities);
 // Type: TMPro::TMP_TextParsingUtilities
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace TMPro {
 // Is value type: false
 // CS Name: ::TMPro::TMP_TextParsingUtilities*
 class CORDL_TYPE TMP_TextParsingUtilities : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field s_Instance, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_s_Instance, put = setStaticF_s_Instance))::TMPro::TMP_TextParsingUtilities* s_Instance;
+// Declarations
+/// @brief Field s_Instance, offset 0xffffffff, size 0x8 
+static __declspec(property(get=getStaticF_s_Instance, put=setStaticF_s_Instance)) ::TMPro::TMP_TextParsingUtilities*  s_Instance;
 
-  /// @brief Method ConvertToUTF32, addr 0x33b63c8, size 0x14, virtual false, abstract: false, final false
-  static inline uint32_t ConvertToUTF32(uint32_t highSurrogate, uint32_t lowSurrogate);
+/// @brief Method ConvertToUTF32, addr 0x4775360, size 0x14, virtual false, abstract: false, final false
+static inline uint32_t ConvertToUTF32(uint32_t  highSurrogate, uint32_t  lowSurrogate) ;
 
-  /// @brief Method GetHashCode, addr 0x33b227c, size 0xbc, virtual false, abstract: false, final false
-  static inline int32_t GetHashCode(::StringW s);
+/// @brief Method GetHashCode, addr 0x4771120, size 0xbc, virtual false, abstract: false, final false
+static inline int32_t GetHashCode(::StringW  s) ;
 
-  /// @brief Method GetHashCodeCaseSensitive, addr 0x33b1dc4, size 0x6c, virtual false, abstract: false, final false
-  static inline int32_t GetHashCodeCaseSensitive(::StringW s);
+/// @brief Method GetHashCodeCaseSensitive, addr 0x4770c70, size 0x6c, virtual false, abstract: false, final false
+static inline int32_t GetHashCodeCaseSensitive(::StringW  s) ;
 
-  /// @brief Method IsHighSurrogate, addr 0x33b63a0, size 0x14, virtual false, abstract: false, final false
-  static inline bool IsHighSurrogate(uint32_t c);
+/// @brief Method IsHighSurrogate, addr 0x4775338, size 0x14, virtual false, abstract: false, final false
+static inline bool IsHighSurrogate(uint32_t  c) ;
 
-  /// @brief Method IsLowSurrogate, addr 0x33b63b4, size 0x14, virtual false, abstract: false, final false
-  static inline bool IsLowSurrogate(uint32_t c);
+/// @brief Method IsLowSurrogate, addr 0x477534c, size 0x14, virtual false, abstract: false, final false
+static inline bool IsLowSurrogate(uint32_t  c) ;
 
-  static inline ::TMPro::TMP_TextParsingUtilities* New_ctor();
+static inline ::TMPro::TMP_TextParsingUtilities* New_ctor() ;
 
-  /// @brief Method ToLowerASCIIFast, addr 0x33b6244, size 0x74, virtual false, abstract: false, final false
-  static inline char16_t ToLowerASCIIFast(char16_t c);
+/// @brief Method ToLowerASCIIFast, addr 0x47751dc, size 0x74, virtual false, abstract: false, final false
+static inline char16_t ToLowerASCIIFast(char16_t  c) ;
 
-  /// @brief Method ToLowerASCIIFast, addr 0x33b632c, size 0x74, virtual false, abstract: false, final false
-  static inline uint32_t ToLowerASCIIFast(uint32_t c);
+/// @brief Method ToLowerASCIIFast, addr 0x47752c4, size 0x74, virtual false, abstract: false, final false
+static inline uint32_t ToLowerASCIIFast(uint32_t  c) ;
 
-  /// @brief Method ToUpperASCIIFast, addr 0x33b61d0, size 0x74, virtual false, abstract: false, final false
-  static inline char16_t ToUpperASCIIFast(char16_t c);
+/// @brief Method ToUpperASCIIFast, addr 0x4775168, size 0x74, virtual false, abstract: false, final false
+static inline char16_t ToUpperASCIIFast(char16_t  c) ;
 
-  /// @brief Method ToUpperASCIIFast, addr 0x33b62b8, size 0x74, virtual false, abstract: false, final false
-  static inline uint32_t ToUpperASCIIFast(uint32_t c);
+/// @brief Method ToUpperASCIIFast, addr 0x4775250, size 0x74, virtual false, abstract: false, final false
+static inline uint32_t ToUpperASCIIFast(uint32_t  c) ;
 
-  /// @brief Method .ctor, addr 0x33b6170, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x4775108, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  static inline ::TMPro::TMP_TextParsingUtilities* getStaticF_s_Instance();
+static inline ::TMPro::TMP_TextParsingUtilities* getStaticF_s_Instance() ;
 
-  /// @brief Method get_instance, addr 0x33b6178, size 0x58, virtual false, abstract: false, final false
-  static inline ::TMPro::TMP_TextParsingUtilities* get_instance();
+/// @brief Method get_instance, addr 0x4775110, size 0x58, virtual false, abstract: false, final false
+static inline ::TMPro::TMP_TextParsingUtilities* get_instance() ;
 
-  static inline void setStaticF_s_Instance(::TMPro::TMP_TextParsingUtilities* value);
+static inline void setStaticF_s_Instance(::TMPro::TMP_TextParsingUtilities*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TMP_TextParsingUtilities();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr TMP_TextParsingUtilities() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TMP_TextParsingUtilities", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  TMP_TextParsingUtilities(TMP_TextParsingUtilities&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TMP_TextParsingUtilities", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  TMP_TextParsingUtilities(TMP_TextParsingUtilities const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "TMP_TextParsingUtilities", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+TMP_TextParsingUtilities(TMP_TextParsingUtilities && ) = delete;
 
-  /// @brief Field k_LookupStringL offset 0xffffffff size 0x8
-  static constexpr ::ConstString k_LookupStringL{ u"-------------------------------- !-#$%&-()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[-]^_`abcdefghijklmnopqrstuvwxyz{|}~-" };
+// Ctor Parameters [CppParam { name: "", ty: "TMP_TextParsingUtilities", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+TMP_TextParsingUtilities(TMP_TextParsingUtilities const& ) = delete;
 
-  /// @brief Field k_LookupStringU offset 0xffffffff size 0x8
-  static constexpr ::ConstString k_LookupStringU{ u"-------------------------------- !-#$%&-()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[-]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~-" };
+/// @brief Field k_LookupStringL offset 0xffffffff size 0x8
+static constexpr ::ConstString  k_LookupStringL{u"-------------------------------- !-#$%&-()*+,-./0123456789:;<=>?@abcdefghijklmnopqrstuvwxyz[-]^_`abcdefghijklmnopqrstuvwxyz{|}~-"};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field k_LookupStringU offset 0xffffffff size 0x8
+static constexpr ::ConstString  k_LookupStringU{u"-------------------------------- !-#$%&-()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[-]^_`ABCDEFGHIJKLMNOPQRSTUVWXYZ{|}~-"};
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::TMPro::TMP_TextParsingUtilities, 0x10>, "Size mismatch!");
 
-} // namespace TMPro
+} // namespace end def TMPro
 NEED_NO_BOX(::TMPro::TMP_TextParsingUtilities);
 DEFINE_IL2CPP_ARG_TYPE(::TMPro::TMP_TextParsingUtilities*, "TMPro", "TMP_TextParsingUtilities");

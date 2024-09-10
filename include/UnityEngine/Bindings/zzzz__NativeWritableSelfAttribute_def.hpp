@@ -12,56 +12,56 @@ class NativeWritableSelfAttribute;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::Bindings::NativeWritableSelfAttribute);
 // Type: UnityEngine.Bindings::NativeWritableSelfAttribute
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 17, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::Bindings {
 // Is value type: false
 // CS Name: ::UnityEngine.Bindings::NativeWritableSelfAttribute*
 class CORDL_TYPE NativeWritableSelfAttribute : public ::System::Attribute {
 public:
-  // Declarations
-  __declspec(property(put = set_WritableSelf)) bool WritableSelf;
+// Declarations
+ __declspec(property(put=set_WritableSelf)) bool  WritableSelf;
 
-  /// @brief Field <WritableSelf>k__BackingField, offset 0x10, size 0x1
-  __declspec(property(get = __cordl_internal_get__WritableSelf_k__BackingField, put = __cordl_internal_set__WritableSelf_k__BackingField)) bool _WritableSelf_k__BackingField;
+/// @brief Field <WritableSelf>k__BackingField, offset 0x10, size 0x1 
+ __declspec(property(get=__cordl_internal_get__WritableSelf_k__BackingField, put=__cordl_internal_set__WritableSelf_k__BackingField)) bool  _WritableSelf_k__BackingField;
 
-  static inline ::UnityEngine::Bindings::NativeWritableSelfAttribute* New_ctor();
+static inline ::UnityEngine::Bindings::NativeWritableSelfAttribute* New_ctor() ;
 
-  constexpr bool const& __cordl_internal_get__WritableSelf_k__BackingField() const;
+constexpr bool const& __cordl_internal_get__WritableSelf_k__BackingField() const;
 
-  constexpr bool& __cordl_internal_get__WritableSelf_k__BackingField();
+constexpr bool& __cordl_internal_get__WritableSelf_k__BackingField() ;
 
-  constexpr void __cordl_internal_set__WritableSelf_k__BackingField(bool value);
+constexpr void __cordl_internal_set__WritableSelf_k__BackingField(bool  value) ;
 
-  /// @brief Method .ctor, addr 0x34aad70, size 0x20, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x4882970, size 0x20, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method set_WritableSelf, addr 0x34aad64, size 0xc, virtual true, abstract: false, final true
-  inline void set_WritableSelf(bool value);
+/// @brief Method set_WritableSelf, addr 0x4882964, size 0xc, virtual true, abstract: false, final true
+inline void set_WritableSelf(bool  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NativeWritableSelfAttribute();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr NativeWritableSelfAttribute() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NativeWritableSelfAttribute", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  NativeWritableSelfAttribute(NativeWritableSelfAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NativeWritableSelfAttribute", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  NativeWritableSelfAttribute(NativeWritableSelfAttribute const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "NativeWritableSelfAttribute", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+NativeWritableSelfAttribute(NativeWritableSelfAttribute && ) = delete;
 
-  /// @brief Field <WritableSelf>k__BackingField, offset: 0x10, size: 0x1, def value: None
-  bool ____WritableSelf_k__BackingField;
+// Ctor Parameters [CppParam { name: "", ty: "NativeWritableSelfAttribute", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+NativeWritableSelfAttribute(NativeWritableSelfAttribute const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field <WritableSelf>k__BackingField, offset: 0x10, size: 0x1, def value: None
+ bool  ____WritableSelf_k__BackingField;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::Bindings::NativeWritableSelfAttribute, 0x18>, "Size mismatch!");
 
 static_assert(offsetof(::UnityEngine::Bindings::NativeWritableSelfAttribute, ____WritableSelf_k__BackingField) == 0x10, "Offset mismatch!");
 
-} // namespace UnityEngine::Bindings
+} // namespace end def UnityEngine::Bindings
 NEED_NO_BOX(::UnityEngine::Bindings::NativeWritableSelfAttribute);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::Bindings::NativeWritableSelfAttribute*, "UnityEngine.Bindings", "NativeWritableSelfAttribute");

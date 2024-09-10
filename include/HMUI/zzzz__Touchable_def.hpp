@@ -16,59 +16,59 @@ class Touchable;
 // Write type traits
 MARK_REF_PTR_T(::HMUI::Touchable);
 // Type: HMUI::Touchable
-// SizeInfo { instance_size: 160, native_size: -1, calculated_instance_size: 160, calculated_native_size: 160, minimum_alignment: 8, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 168, native_size: -1, calculated_instance_size: 168, calculated_native_size: 168, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace HMUI {
 // Is value type: false
 // CS Name: ::HMUI::Touchable*
 class CORDL_TYPE Touchable : public ::UnityEngine::UI::Graphic {
 public:
-  // Declarations
-  /// @brief Field _skew, offset 0x9c, size 0x4
-  __declspec(property(get = __cordl_internal_get__skew, put = __cordl_internal_set__skew)) float_t _skew;
+// Declarations
+/// @brief Field _skew, offset 0xa4, size 0x4 
+ __declspec(property(get=__cordl_internal_get__skew, put=__cordl_internal_set__skew)) float_t  _skew;
 
-  __declspec(property(get = get_skew)) float_t skew;
+ __declspec(property(get=get_skew)) float_t  skew;
 
-  static inline ::HMUI::Touchable* New_ctor();
+static inline ::HMUI::Touchable* New_ctor() ;
 
-  /// @brief Method OnPopulateMesh, addr 0x2535460, size 0x18, virtual true, abstract: false, final false
-  inline void OnPopulateMesh(::UnityEngine::UI::VertexHelper* vh);
+/// @brief Method OnPopulateMesh, addr 0x39709e0, size 0x18, virtual true, abstract: false, final false
+inline void OnPopulateMesh(::UnityEngine::UI::VertexHelper*  vh) ;
 
-  constexpr float_t const& __cordl_internal_get__skew() const;
+constexpr float_t const& __cordl_internal_get__skew() const;
 
-  constexpr float_t& __cordl_internal_get__skew();
+constexpr float_t& __cordl_internal_get__skew() ;
 
-  constexpr void __cordl_internal_set__skew(float_t value);
+constexpr void __cordl_internal_set__skew(float_t  value) ;
 
-  /// @brief Method .ctor, addr 0x2534c5c, size 0x58, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x3970568, size 0x58, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_skew, addr 0x2535458, size 0x8, virtual false, abstract: false, final false
-  inline float_t get_skew();
+/// @brief Method get_skew, addr 0x39709d8, size 0x8, virtual false, abstract: false, final false
+inline float_t get_skew() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr Touchable();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr Touchable() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "Touchable", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  Touchable(Touchable&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "Touchable", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  Touchable(Touchable const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "Touchable", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+Touchable(Touchable && ) = delete;
 
-  /// @brief Field _skew, offset: 0x9c, size: 0x4, def value: None
-  float_t ____skew;
+// Ctor Parameters [CppParam { name: "", ty: "Touchable", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+Touchable(Touchable const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _skew, offset: 0xa4, size: 0x4, def value: None
+ float_t  ____skew;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::HMUI::Touchable, 0xa0>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::HMUI::Touchable, 0xa8>, "Size mismatch!");
 
-static_assert(offsetof(::HMUI::Touchable, ____skew) == 0x9c, "Offset mismatch!");
+static_assert(offsetof(::HMUI::Touchable, ____skew) == 0xa4, "Offset mismatch!");
 
-} // namespace HMUI
+} // namespace end def HMUI
 NEED_NO_BOX(::HMUI::Touchable);
 DEFINE_IL2CPP_ARG_TYPE(::HMUI::Touchable*, "HMUI", "Touchable");

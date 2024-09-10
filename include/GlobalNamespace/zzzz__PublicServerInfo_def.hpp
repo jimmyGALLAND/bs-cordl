@@ -20,39 +20,39 @@ struct PublicServerInfo;
 // Write type traits
 MARK_VAL_T(::GlobalNamespace::PublicServerInfo);
 // Type: ::PublicServerInfo
-// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 28, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: 16, calculated_instance_size: 16, calculated_native_size: 28, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::PublicServerInfo
 struct CORDL_TYPE PublicServerInfo {
 public:
-  // Declarations
-  /// @brief Method Deserialize, addr 0x10c56d4, size 0x40, virtual false, abstract: false, final false
-  static inline ::GlobalNamespace::PublicServerInfo Deserialize(::LiteNetLib::Utils::NetDataReader* reader);
+// Declarations
+/// @brief Method Deserialize, addr 0x2297e90, size 0x40, virtual false, abstract: false, final false
+static inline ::GlobalNamespace::PublicServerInfo Deserialize(::LiteNetLib::Utils::NetDataReader*  reader) ;
 
-  /// @brief Method Serialize, addr 0x10c5694, size 0x40, virtual false, abstract: false, final false
-  inline void Serialize(::LiteNetLib::Utils::NetDataWriter* writer);
+/// @brief Method Serialize, addr 0x2297e50, size 0x40, virtual false, abstract: false, final false
+inline void Serialize(::LiteNetLib::Utils::NetDataWriter*  writer) ;
 
-  /// @brief Method .ctor, addr 0x10c5688, size 0xc, virtual false, abstract: false, final false
-  inline void _ctor(::StringW code, int32_t currentPlayerCount);
+/// @brief Method .ctor, addr 0x2297e44, size 0xc, virtual false, abstract: false, final false
+inline void _ctor(::StringW  code, int32_t  currentPlayerCount) ;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr PublicServerInfo();
+// Ctor Parameters []
+// @brief default ctor
+constexpr PublicServerInfo() ;
 
-  // Ctor Parameters [CppParam { name: "code", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "currentPlayerCount", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr PublicServerInfo(::StringW code, int32_t currentPlayerCount) noexcept;
+// Ctor Parameters [CppParam { name: "code", ty: "::StringW", modifiers: "", def_value: None }, CppParam { name: "currentPlayerCount", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr PublicServerInfo(::StringW  code, int32_t  currentPlayerCount) noexcept;
 
-  /// @brief Field code, offset: 0x0, size: 0x8, def value: None
-  ::StringW code;
+/// @brief Field code, offset: 0x0, size: 0x8, def value: None
+ ::StringW  code;
 
-  /// @brief Field currentPlayerCount, offset: 0x8, size: 0x4, def value: None
-  int32_t currentPlayerCount;
+/// @brief Field currentPlayerCount, offset: 0x8, size: 0x4, def value: None
+ int32_t  currentPlayerCount;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x10 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x10};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::PublicServerInfo, 0x10>, "Size mismatch!");
@@ -61,5 +61,5 @@ static_assert(offsetof(::GlobalNamespace::PublicServerInfo, code) == 0x0, "Offse
 
 static_assert(offsetof(::GlobalNamespace::PublicServerInfo, currentPlayerCount) == 0x8, "Offset mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::PublicServerInfo, "", "PublicServerInfo");

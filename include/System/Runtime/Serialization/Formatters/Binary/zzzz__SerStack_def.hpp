@@ -18,87 +18,87 @@ class SerStack;
 // Write type traits
 MARK_REF_PTR_T(::System::Runtime::Serialization::Formatters::Binary::SerStack);
 // Type: System.Runtime.Serialization.Formatters.Binary::SerStack
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Runtime::Serialization::Formatters::Binary {
 // Is value type: false
 // CS Name: ::System.Runtime.Serialization.Formatters.Binary::SerStack*
 class CORDL_TYPE SerStack : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field objects, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_objects, put = __cordl_internal_set_objects))::ArrayW<::System::Object*, ::Array<::System::Object*>*> objects;
+// Declarations
+/// @brief Field objects, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_objects, put=__cordl_internal_set_objects)) ::ArrayW<::System::Object*,::Array<::System::Object*>*>  objects;
 
-  /// @brief Field stackId, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_stackId, put = __cordl_internal_set_stackId))::StringW stackId;
+/// @brief Field stackId, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_stackId, put=__cordl_internal_set_stackId)) ::StringW  stackId;
 
-  /// @brief Field top, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get_top, put = __cordl_internal_set_top)) int32_t top;
+/// @brief Field top, offset 0x20, size 0x4 
+ __declspec(property(get=__cordl_internal_get_top, put=__cordl_internal_set_top)) int32_t  top;
 
-  /// @brief Method IncreaseCapacity, addr 0x28835d8, size 0x88, virtual false, abstract: false, final false
-  inline void IncreaseCapacity();
+/// @brief Method IncreaseCapacity, addr 0x3c826fc, size 0x88, virtual false, abstract: false, final false
+inline void IncreaseCapacity() ;
 
-  /// @brief Method IsEmpty, addr 0x2877aac, size 0x10, virtual false, abstract: false, final false
-  inline bool IsEmpty();
+/// @brief Method IsEmpty, addr 0x3c76f24, size 0x10, virtual false, abstract: false, final false
+inline bool IsEmpty() ;
 
-  static inline ::System::Runtime::Serialization::Formatters::Binary::SerStack* New_ctor(::StringW stackId);
+static inline ::System::Runtime::Serialization::Formatters::Binary::SerStack* New_ctor(::StringW  stackId) ;
 
-  /// @brief Method Peek, addr 0x287b53c, size 0x40, virtual false, abstract: false, final false
-  inline ::System::Object* Peek();
+/// @brief Method Peek, addr 0x3c7a800, size 0x40, virtual false, abstract: false, final false
+inline ::System::Object* Peek() ;
 
-  /// @brief Method PeekPeek, addr 0x2882538, size 0x44, virtual false, abstract: false, final false
-  inline ::System::Object* PeekPeek();
+/// @brief Method PeekPeek, addr 0x3c81748, size 0x44, virtual false, abstract: false, final false
+inline ::System::Object* PeekPeek() ;
 
-  /// @brief Method Pop, addr 0x2877abc, size 0x50, virtual false, abstract: false, final false
-  inline ::System::Object* Pop();
+/// @brief Method Pop, addr 0x3c76f34, size 0x50, virtual false, abstract: false, final false
+inline ::System::Object* Pop() ;
 
-  /// @brief Method Push, addr 0x2877b0c, size 0xac, virtual false, abstract: false, final false
-  inline void Push(::System::Object* obj);
+/// @brief Method Push, addr 0x3c76f84, size 0xac, virtual false, abstract: false, final false
+inline void Push(::System::Object*  obj) ;
 
-  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*> const& __cordl_internal_get_objects() const;
+constexpr ::ArrayW<::System::Object*,::Array<::System::Object*>*> const& __cordl_internal_get_objects() const;
 
-  constexpr ::ArrayW<::System::Object*, ::Array<::System::Object*>*>& __cordl_internal_get_objects();
+constexpr ::ArrayW<::System::Object*,::Array<::System::Object*>*>& __cordl_internal_get_objects() ;
 
-  constexpr ::StringW const& __cordl_internal_get_stackId() const;
+constexpr ::StringW const& __cordl_internal_get_stackId() const;
 
-  constexpr ::StringW& __cordl_internal_get_stackId();
+constexpr ::StringW& __cordl_internal_get_stackId() ;
 
-  constexpr int32_t const& __cordl_internal_get_top() const;
+constexpr int32_t const& __cordl_internal_get_top() const;
 
-  constexpr int32_t& __cordl_internal_get_top();
+constexpr int32_t& __cordl_internal_get_top() ;
 
-  constexpr void __cordl_internal_set_objects(::ArrayW<::System::Object*, ::Array<::System::Object*>*> value);
+constexpr void __cordl_internal_set_objects(::ArrayW<::System::Object*,::Array<::System::Object*>*>  value) ;
 
-  constexpr void __cordl_internal_set_stackId(::StringW value);
+constexpr void __cordl_internal_set_stackId(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_top(int32_t value);
+constexpr void __cordl_internal_set_top(int32_t  value) ;
 
-  /// @brief Method .ctor, addr 0x2879098, size 0x74, virtual false, abstract: false, final false
-  inline void _ctor(::StringW stackId);
+/// @brief Method .ctor, addr 0x3c784b0, size 0x74, virtual false, abstract: false, final false
+inline void _ctor(::StringW  stackId) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr SerStack();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr SerStack() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "SerStack", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  SerStack(SerStack&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "SerStack", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  SerStack(SerStack const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "SerStack", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+SerStack(SerStack && ) = delete;
 
-  /// @brief Field objects, offset: 0x10, size: 0x8, def value: None
-  ::ArrayW<::System::Object*, ::Array<::System::Object*>*> ___objects;
+// Ctor Parameters [CppParam { name: "", ty: "SerStack", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+SerStack(SerStack const& ) = delete;
 
-  /// @brief Field stackId, offset: 0x18, size: 0x8, def value: None
-  ::StringW ___stackId;
+/// @brief Field objects, offset: 0x10, size: 0x8, def value: None
+ ::ArrayW<::System::Object*,::Array<::System::Object*>*>  ___objects;
 
-  /// @brief Field top, offset: 0x20, size: 0x4, def value: None
-  int32_t ___top;
+/// @brief Field stackId, offset: 0x18, size: 0x8, def value: None
+ ::StringW  ___stackId;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field top, offset: 0x20, size: 0x4, def value: None
+ int32_t  ___top;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Runtime::Serialization::Formatters::Binary::SerStack, 0x28>, "Size mismatch!");
@@ -109,6 +109,6 @@ static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::Ser
 
 static_assert(offsetof(::System::Runtime::Serialization::Formatters::Binary::SerStack, ___top) == 0x20, "Offset mismatch!");
 
-} // namespace System::Runtime::Serialization::Formatters::Binary
+} // namespace end def System::Runtime::Serialization::Formatters::Binary
 NEED_NO_BOX(::System::Runtime::Serialization::Formatters::Binary::SerStack);
 DEFINE_IL2CPP_ARG_TYPE(::System::Runtime::Serialization::Formatters::Binary::SerStack*, "System.Runtime.Serialization.Formatters.Binary", "SerStack");

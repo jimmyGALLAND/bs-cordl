@@ -16,35 +16,35 @@ class StyleValueFunctionExtension;
 // Write type traits
 MARK_REF_PTR_T(::UnityEngine::UIElements::StyleValueFunctionExtension);
 // Type: UnityEngine.UIElements::StyleValueFunctionExtension
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: ::UnityEngine.UIElements::StyleValueFunctionExtension*
 class CORDL_TYPE StyleValueFunctionExtension : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Method ToUssString, addr 0x3601654, size 0xf4, virtual false, abstract: false, final false
-  static inline ::StringW ToUssString(::UnityEngine::UIElements::StyleValueFunction svf);
+// Declarations
+/// @brief Method ToUssString, addr 0x49f853c, size 0xf0, virtual false, abstract: false, final false
+static inline ::StringW ToUssString(::UnityEngine::UIElements::StyleValueFunction  svf) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr StyleValueFunctionExtension();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr StyleValueFunctionExtension() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "StyleValueFunctionExtension", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  StyleValueFunctionExtension(StyleValueFunctionExtension&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "StyleValueFunctionExtension", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  StyleValueFunctionExtension(StyleValueFunctionExtension const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "StyleValueFunctionExtension", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+StyleValueFunctionExtension(StyleValueFunctionExtension && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "StyleValueFunctionExtension", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+StyleValueFunctionExtension(StyleValueFunctionExtension const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::StyleValueFunctionExtension, 0x10>, "Size mismatch!");
 
-} // namespace UnityEngine::UIElements
+} // namespace end def UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::StyleValueFunctionExtension);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::StyleValueFunctionExtension*, "UnityEngine.UIElements", "StyleValueFunctionExtension");

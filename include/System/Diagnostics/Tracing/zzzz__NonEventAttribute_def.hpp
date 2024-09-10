@@ -12,37 +12,37 @@ class NonEventAttribute;
 // Write type traits
 MARK_REF_PTR_T(::System::Diagnostics::Tracing::NonEventAttribute);
 // Type: System.Diagnostics.Tracing::NonEventAttribute
-// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 16, native_size: -1, calculated_instance_size: 16, calculated_native_size: 16, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Diagnostics::Tracing {
 // Is value type: false
 // CS Name: ::System.Diagnostics.Tracing::NonEventAttribute*
 class CORDL_TYPE NonEventAttribute : public ::System::Attribute {
 public:
-  // Declarations
-  static inline ::System::Diagnostics::Tracing::NonEventAttribute* New_ctor();
+// Declarations
+static inline ::System::Diagnostics::Tracing::NonEventAttribute* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x292f428, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x3d27f44, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr NonEventAttribute();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr NonEventAttribute() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "NonEventAttribute", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  NonEventAttribute(NonEventAttribute&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "NonEventAttribute", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  NonEventAttribute(NonEventAttribute const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "NonEventAttribute", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+NonEventAttribute(NonEventAttribute && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "NonEventAttribute", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+NonEventAttribute(NonEventAttribute const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Diagnostics::Tracing::NonEventAttribute, 0x10>, "Size mismatch!");
 
-} // namespace System::Diagnostics::Tracing
+} // namespace end def System::Diagnostics::Tracing
 NEED_NO_BOX(::System::Diagnostics::Tracing::NonEventAttribute);
 DEFINE_IL2CPP_ARG_TYPE(::System::Diagnostics::Tracing::NonEventAttribute*, "System.Diagnostics.Tracing", "NonEventAttribute");

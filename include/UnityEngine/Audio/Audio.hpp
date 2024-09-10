@@ -1,9 +1,10 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "UnityEngine/Audio/AudioClipPlayable.hpp"
+#include "UnityEngine/Audio/AudioManagerTestProxy.hpp"
 #include "UnityEngine/Audio/AudioMixer.hpp"
 #include "UnityEngine/Audio/AudioMixerGroup.hpp"
 #include "UnityEngine/Audio/AudioMixerPlayable.hpp"
@@ -13,5 +14,6 @@ module;
 #include "UnityEngine/Audio/AudioPlayableGraphExtensions.hpp"
 #include "UnityEngine/Audio/AudioPlayableOutput.hpp"
 #ifdef __cpp_modules
-export module Audio;
-#endif
+                    export module Audio;
+                    #endif
+                

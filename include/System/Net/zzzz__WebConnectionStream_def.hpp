@@ -48,233 +48,233 @@ class WebConnectionStream;
 // Write type traits
 MARK_REF_PTR_T(::System::Net::WebConnectionStream);
 // Type: System.Net::WebConnectionStream
-// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 88, native_size: -1, calculated_instance_size: 88, calculated_native_size: 88, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
 // CS Name: ::System.Net::WebConnectionStream*
 class CORDL_TYPE WebConnectionStream : public ::System::IO::Stream {
 public:
-  // Declarations
-  __declspec(property(get = get_CanSeek)) bool CanSeek;
+// Declarations
+ __declspec(property(get=get_CanSeek)) bool  CanSeek;
 
-  __declspec(property(get = get_CanTimeout)) bool CanTimeout;
+ __declspec(property(get=get_CanTimeout)) bool  CanTimeout;
 
-  __declspec(property(get = get_Connection))::System::Net::WebConnection* Connection;
+ __declspec(property(get=get_Connection)) ::System::Net::WebConnection*  Connection;
 
-  __declspec(property(get = get_Length)) int64_t Length;
+ __declspec(property(get=get_Length)) int64_t  Length;
 
-  __declspec(property(get = get_Operation))::System::Net::WebOperation* Operation;
+ __declspec(property(get=get_Operation)) ::System::Net::WebOperation*  Operation;
 
-  __declspec(property(get = get_Position, put = set_Position)) int64_t Position;
+ __declspec(property(get=get_Position, put=set_Position)) int64_t  Position;
 
-  __declspec(property(get = get_ReadTimeout, put = set_ReadTimeout)) int32_t ReadTimeout;
+ __declspec(property(get=get_ReadTimeout, put=set_ReadTimeout)) int32_t  ReadTimeout;
 
-  __declspec(property(get = get_Request))::System::Net::HttpWebRequest* Request;
+ __declspec(property(get=get_Request)) ::System::Net::HttpWebRequest*  Request;
 
-  __declspec(property(get = get_ServicePoint))::System::Net::ServicePoint* ServicePoint;
+ __declspec(property(get=get_ServicePoint)) ::System::Net::ServicePoint*  ServicePoint;
 
-  __declspec(property(get = get_WriteTimeout, put = set_WriteTimeout)) int32_t WriteTimeout;
+ __declspec(property(get=get_WriteTimeout, put=set_WriteTimeout)) int32_t  WriteTimeout;
 
-  /// @brief Field <Connection>k__BackingField, offset 0x48, size 0x8
-  __declspec(property(get = __cordl_internal_get__Connection_k__BackingField, put = __cordl_internal_set__Connection_k__BackingField))::System::Net::WebConnection* _Connection_k__BackingField;
+/// @brief Field <Connection>k__BackingField, offset 0x48, size 0x8 
+ __declspec(property(get=__cordl_internal_get__Connection_k__BackingField, put=__cordl_internal_set__Connection_k__BackingField)) ::System::Net::WebConnection*  _Connection_k__BackingField;
 
-  /// @brief Field <Operation>k__BackingField, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get__Operation_k__BackingField, put = __cordl_internal_set__Operation_k__BackingField))::System::Net::WebOperation* _Operation_k__BackingField;
+/// @brief Field <Operation>k__BackingField, offset 0x50, size 0x8 
+ __declspec(property(get=__cordl_internal_get__Operation_k__BackingField, put=__cordl_internal_set__Operation_k__BackingField)) ::System::Net::WebOperation*  _Operation_k__BackingField;
 
-  /// @brief Field <Request>k__BackingField, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get__Request_k__BackingField, put = __cordl_internal_set__Request_k__BackingField))::System::Net::HttpWebRequest* _Request_k__BackingField;
+/// @brief Field <Request>k__BackingField, offset 0x40, size 0x8 
+ __declspec(property(get=__cordl_internal_get__Request_k__BackingField, put=__cordl_internal_set__Request_k__BackingField)) ::System::Net::HttpWebRequest*  _Request_k__BackingField;
 
-  /// @brief Field closed, offset 0x28, size 0x1
-  __declspec(property(get = __cordl_internal_get_closed, put = __cordl_internal_set_closed)) bool closed;
+/// @brief Field closed, offset 0x28, size 0x1 
+ __declspec(property(get=__cordl_internal_get_closed, put=__cordl_internal_set_closed)) bool  closed;
 
-  /// @brief Field disposed, offset 0x29, size 0x1
-  __declspec(property(get = __cordl_internal_get_disposed, put = __cordl_internal_set_disposed)) bool disposed;
+/// @brief Field disposed, offset 0x29, size 0x1 
+ __declspec(property(get=__cordl_internal_get_disposed, put=__cordl_internal_set_disposed)) bool  disposed;
 
-  /// @brief Field locker, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_locker, put = __cordl_internal_set_locker))::System::Object* locker;
+/// @brief Field locker, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get_locker, put=__cordl_internal_set_locker)) ::System::Object*  locker;
 
-  /// @brief Field read_timeout, offset 0x38, size 0x4
-  __declspec(property(get = __cordl_internal_get_read_timeout, put = __cordl_internal_set_read_timeout)) int32_t read_timeout;
+/// @brief Field read_timeout, offset 0x38, size 0x4 
+ __declspec(property(get=__cordl_internal_get_read_timeout, put=__cordl_internal_set_read_timeout)) int32_t  read_timeout;
 
-  /// @brief Field write_timeout, offset 0x3c, size 0x4
-  __declspec(property(get = __cordl_internal_get_write_timeout, put = __cordl_internal_set_write_timeout)) int32_t write_timeout;
+/// @brief Field write_timeout, offset 0x3c, size 0x4 
+ __declspec(property(get=__cordl_internal_get_write_timeout, put=__cordl_internal_set_write_timeout)) int32_t  write_timeout;
 
-  /// @brief Method BeginRead, addr 0x3041f44, size 0x1d0, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginRead(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ::System::AsyncCallback* cb, ::System::Object* state);
+/// @brief Method BeginRead, addr 0x434b0b4, size 0x1c0, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginRead(::ArrayW<uint8_t,::Array<uint8_t>*>  buffer, int32_t  offset, int32_t  count, ::System::AsyncCallback*  cb, ::System::Object*  state) ;
 
-  /// @brief Method BeginWrite, addr 0x3042238, size 0x1d0, virtual true, abstract: false, final false
-  inline ::System::IAsyncResult* BeginWrite(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ::System::AsyncCallback* cb, ::System::Object* state);
+/// @brief Method BeginWrite, addr 0x434b394, size 0x1c0, virtual true, abstract: false, final false
+inline ::System::IAsyncResult* BeginWrite(::ArrayW<uint8_t,::Array<uint8_t>*>  buffer, int32_t  offset, int32_t  count, ::System::AsyncCallback*  cb, ::System::Object*  state) ;
 
-  /// @brief Method Close, addr 0x30427c8, size 0x14, virtual true, abstract: false, final false
-  inline void Close();
+/// @brief Method Close, addr 0x434b924, size 0x14, virtual true, abstract: false, final false
+inline void Close() ;
 
-  /// @brief Method Close_internal, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline void Close_internal(ByRef<bool> disposed);
+/// @brief Method Close_internal, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+inline void Close_internal(ByRef<bool>  disposed) ;
 
-  /// @brief Method EndRead, addr 0x3042114, size 0x124, virtual true, abstract: false, final false
-  inline int32_t EndRead(::System::IAsyncResult* r);
+/// @brief Method EndRead, addr 0x434b274, size 0x120, virtual true, abstract: false, final false
+inline int32_t EndRead(::System::IAsyncResult*  r) ;
 
-  /// @brief Method EndWrite, addr 0x3042408, size 0xf8, virtual true, abstract: false, final false
-  inline void EndWrite(::System::IAsyncResult* r);
+/// @brief Method EndWrite, addr 0x434b554, size 0xf4, virtual true, abstract: false, final false
+inline void EndWrite(::System::IAsyncResult*  r) ;
 
-  /// @brief Method Flush, addr 0x30426f8, size 0x4, virtual true, abstract: false, final false
-  inline void Flush();
+/// @brief Method Flush, addr 0x434b830, size 0x4, virtual true, abstract: false, final false
+inline void Flush() ;
 
-  /// @brief Method FlushAsync, addr 0x30426fc, size 0xc0, virtual true, abstract: false, final false
-  inline ::System::Threading::Tasks::Task* FlushAsync(::System::Threading::CancellationToken cancellationToken);
+/// @brief Method FlushAsync, addr 0x434b834, size 0xe4, virtual true, abstract: false, final false
+inline ::System::Threading::Tasks::Task* FlushAsync(::System::Threading::CancellationToken  cancellationToken) ;
 
-  /// @brief Method GetException, addr 0x3041ad8, size 0x168, virtual false, abstract: false, final false
-  inline ::System::Exception* GetException(::System::Exception* e);
+/// @brief Method GetException, addr 0x434ac08, size 0x168, virtual false, abstract: false, final false
+inline ::System::Exception* GetException(::System::Exception*  e) ;
 
-  /// @brief Method InternalClose, addr 0x30427bc, size 0xc, virtual false, abstract: false, final false
-  inline void InternalClose();
+/// @brief Method InternalClose, addr 0x434b918, size 0xc, virtual false, abstract: false, final false
+inline void InternalClose() ;
 
-  static inline ::System::Net::WebConnectionStream* New_ctor(::System::Net::WebConnection* cnc, ::System::Net::WebOperation* operation);
+static inline ::System::Net::WebConnectionStream* New_ctor(::System::Net::WebConnection*  cnc, ::System::Net::WebOperation*  operation) ;
 
-  /// @brief Method Read, addr 0x3041c40, size 0x2a4, virtual true, abstract: false, final false
-  inline int32_t Read(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count);
+/// @brief Method Read, addr 0x434adc0, size 0x294, virtual true, abstract: false, final false
+inline int32_t Read(::ArrayW<uint8_t,::Array<uint8_t>*>  buffer, int32_t  offset, int32_t  count) ;
 
-  /// @brief Method Seek, addr 0x30427dc, size 0x50, virtual true, abstract: false, final false
-  inline int64_t Seek(int64_t a, ::System::IO::SeekOrigin b);
+/// @brief Method Seek, addr 0x434b938, size 0x4c, virtual true, abstract: false, final false
+inline int64_t Seek(int64_t  a, ::System::IO::SeekOrigin  b) ;
 
-  /// @brief Method SetLength, addr 0x304282c, size 0x50, virtual true, abstract: false, final false
-  inline void SetLength(int64_t a);
+/// @brief Method SetLength, addr 0x434b984, size 0x4c, virtual true, abstract: false, final false
+inline void SetLength(int64_t  a) ;
 
-  /// @brief Method TryReadFromBufferedContent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
-  inline bool TryReadFromBufferedContent(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count, ByRef<int32_t> result);
+/// @brief Method TryReadFromBufferedContent, addr 0x0, size 0xffffffffffffffff, virtual true, abstract: true, final false
+inline bool TryReadFromBufferedContent(::ArrayW<uint8_t,::Array<uint8_t>*>  buffer, int32_t  offset, int32_t  count, ByRef<int32_t>  result) ;
 
-  /// @brief Method Write, addr 0x3042500, size 0x1f8, virtual true, abstract: false, final false
-  inline void Write(::ArrayW<uint8_t, ::Array<uint8_t>*> buffer, int32_t offset, int32_t count);
+/// @brief Method Write, addr 0x434b648, size 0x1e8, virtual true, abstract: false, final false
+inline void Write(::ArrayW<uint8_t,::Array<uint8_t>*>  buffer, int32_t  offset, int32_t  count) ;
 
-  constexpr ::System::Net::WebConnection*& __cordl_internal_get__Connection_k__BackingField();
+constexpr ::System::Net::WebConnection*& __cordl_internal_get__Connection_k__BackingField() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::WebConnection*> const& __cordl_internal_get__Connection_k__BackingField() const;
+constexpr ::cordl_internals::to_const_pointer<::System::Net::WebConnection*> const& __cordl_internal_get__Connection_k__BackingField() const;
 
-  constexpr ::System::Net::WebOperation*& __cordl_internal_get__Operation_k__BackingField();
+constexpr ::System::Net::WebOperation*& __cordl_internal_get__Operation_k__BackingField() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::WebOperation*> const& __cordl_internal_get__Operation_k__BackingField() const;
+constexpr ::cordl_internals::to_const_pointer<::System::Net::WebOperation*> const& __cordl_internal_get__Operation_k__BackingField() const;
 
-  constexpr ::System::Net::HttpWebRequest*& __cordl_internal_get__Request_k__BackingField();
+constexpr ::System::Net::HttpWebRequest*& __cordl_internal_get__Request_k__BackingField() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::HttpWebRequest*> const& __cordl_internal_get__Request_k__BackingField() const;
+constexpr ::cordl_internals::to_const_pointer<::System::Net::HttpWebRequest*> const& __cordl_internal_get__Request_k__BackingField() const;
 
-  constexpr bool const& __cordl_internal_get_closed() const;
+constexpr bool const& __cordl_internal_get_closed() const;
 
-  constexpr bool& __cordl_internal_get_closed();
+constexpr bool& __cordl_internal_get_closed() ;
 
-  constexpr bool const& __cordl_internal_get_disposed() const;
+constexpr bool const& __cordl_internal_get_disposed() const;
 
-  constexpr bool& __cordl_internal_get_disposed();
+constexpr bool& __cordl_internal_get_disposed() ;
 
-  constexpr ::System::Object*& __cordl_internal_get_locker();
+constexpr ::System::Object*& __cordl_internal_get_locker() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_locker() const;
+constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_locker() const;
 
-  constexpr int32_t const& __cordl_internal_get_read_timeout() const;
+constexpr int32_t const& __cordl_internal_get_read_timeout() const;
 
-  constexpr int32_t& __cordl_internal_get_read_timeout();
+constexpr int32_t& __cordl_internal_get_read_timeout() ;
 
-  constexpr int32_t const& __cordl_internal_get_write_timeout() const;
+constexpr int32_t const& __cordl_internal_get_write_timeout() const;
 
-  constexpr int32_t& __cordl_internal_get_write_timeout();
+constexpr int32_t& __cordl_internal_get_write_timeout() ;
 
-  constexpr void __cordl_internal_set__Connection_k__BackingField(::System::Net::WebConnection* value);
+constexpr void __cordl_internal_set__Connection_k__BackingField(::System::Net::WebConnection*  value) ;
 
-  constexpr void __cordl_internal_set__Operation_k__BackingField(::System::Net::WebOperation* value);
+constexpr void __cordl_internal_set__Operation_k__BackingField(::System::Net::WebOperation*  value) ;
 
-  constexpr void __cordl_internal_set__Request_k__BackingField(::System::Net::HttpWebRequest* value);
+constexpr void __cordl_internal_set__Request_k__BackingField(::System::Net::HttpWebRequest*  value) ;
 
-  constexpr void __cordl_internal_set_closed(bool value);
+constexpr void __cordl_internal_set_closed(bool  value) ;
 
-  constexpr void __cordl_internal_set_disposed(bool value);
+constexpr void __cordl_internal_set_disposed(bool  value) ;
 
-  constexpr void __cordl_internal_set_locker(::System::Object* value);
+constexpr void __cordl_internal_set_locker(::System::Object*  value) ;
 
-  constexpr void __cordl_internal_set_read_timeout(int32_t value);
+constexpr void __cordl_internal_set_read_timeout(int32_t  value) ;
 
-  constexpr void __cordl_internal_set_write_timeout(int32_t value);
+constexpr void __cordl_internal_set_write_timeout(int32_t  value) ;
 
-  /// @brief Method .ctor, addr 0x3041908, size 0xbc, virtual false, abstract: false, final false
-  inline void _ctor(::System::Net::WebConnection* cnc, ::System::Net::WebOperation* operation);
+/// @brief Method .ctor, addr 0x434aa3c, size 0xc0, virtual false, abstract: false, final false
+inline void _ctor(::System::Net::WebConnection*  cnc, ::System::Net::WebOperation*  operation) ;
 
-  /// @brief Method get_CanSeek, addr 0x304287c, size 0x8, virtual true, abstract: false, final false
-  inline bool get_CanSeek();
+/// @brief Method get_CanSeek, addr 0x434b9d0, size 0x8, virtual true, abstract: false, final false
+inline bool get_CanSeek() ;
 
-  /// @brief Method get_CanTimeout, addr 0x30419f8, size 0x8, virtual true, abstract: false, final false
-  inline bool get_CanTimeout();
+/// @brief Method get_CanTimeout, addr 0x434ab30, size 0x8, virtual true, abstract: false, final false
+inline bool get_CanTimeout() ;
 
-  /// @brief Method get_Connection, addr 0x30419cc, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Net::WebConnection* get_Connection();
+/// @brief Method get_Connection, addr 0x434ab04, size 0x8, virtual false, abstract: false, final false
+inline ::System::Net::WebConnection* get_Connection() ;
 
-  /// @brief Method get_Length, addr 0x3042884, size 0x50, virtual true, abstract: false, final false
-  inline int64_t get_Length();
+/// @brief Method get_Length, addr 0x434b9d8, size 0x4c, virtual true, abstract: false, final false
+inline int64_t get_Length() ;
 
-  /// @brief Method get_Operation, addr 0x30419d4, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Net::WebOperation* get_Operation();
+/// @brief Method get_Operation, addr 0x434ab0c, size 0x8, virtual false, abstract: false, final false
+inline ::System::Net::WebOperation* get_Operation() ;
 
-  /// @brief Method get_Position, addr 0x30428d4, size 0x50, virtual true, abstract: false, final false
-  inline int64_t get_Position();
+/// @brief Method get_Position, addr 0x434ba24, size 0x4c, virtual true, abstract: false, final false
+inline int64_t get_Position() ;
 
-  /// @brief Method get_ReadTimeout, addr 0x3041a00, size 0x8, virtual true, abstract: false, final false
-  inline int32_t get_ReadTimeout();
+/// @brief Method get_ReadTimeout, addr 0x434ab38, size 0x8, virtual true, abstract: false, final false
+inline int32_t get_ReadTimeout() ;
 
-  /// @brief Method get_Request, addr 0x30419c4, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Net::HttpWebRequest* get_Request();
+/// @brief Method get_Request, addr 0x434aafc, size 0x8, virtual false, abstract: false, final false
+inline ::System::Net::HttpWebRequest* get_Request() ;
 
-  /// @brief Method get_ServicePoint, addr 0x30419dc, size 0x1c, virtual false, abstract: false, final false
-  inline ::System::Net::ServicePoint* get_ServicePoint();
+/// @brief Method get_ServicePoint, addr 0x434ab14, size 0x1c, virtual false, abstract: false, final false
+inline ::System::Net::ServicePoint* get_ServicePoint() ;
 
-  /// @brief Method get_WriteTimeout, addr 0x3041a6c, size 0x8, virtual true, abstract: false, final false
-  inline int32_t get_WriteTimeout();
+/// @brief Method get_WriteTimeout, addr 0x434aba0, size 0x8, virtual true, abstract: false, final false
+inline int32_t get_WriteTimeout() ;
 
-  /// @brief Method set_Position, addr 0x3042924, size 0x50, virtual true, abstract: false, final false
-  inline void set_Position(int64_t value);
+/// @brief Method set_Position, addr 0x434ba70, size 0x4c, virtual true, abstract: false, final false
+inline void set_Position(int64_t  value) ;
 
-  /// @brief Method set_ReadTimeout, addr 0x3041a08, size 0x64, virtual true, abstract: false, final false
-  inline void set_ReadTimeout(int32_t value);
+/// @brief Method set_ReadTimeout, addr 0x434ab40, size 0x60, virtual true, abstract: false, final false
+inline void set_ReadTimeout(int32_t  value) ;
 
-  /// @brief Method set_WriteTimeout, addr 0x3041a74, size 0x64, virtual true, abstract: false, final false
-  inline void set_WriteTimeout(int32_t value);
+/// @brief Method set_WriteTimeout, addr 0x434aba8, size 0x60, virtual true, abstract: false, final false
+inline void set_WriteTimeout(int32_t  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr WebConnectionStream();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr WebConnectionStream() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "WebConnectionStream", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  WebConnectionStream(WebConnectionStream&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "WebConnectionStream", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  WebConnectionStream(WebConnectionStream const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "WebConnectionStream", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+WebConnectionStream(WebConnectionStream && ) = delete;
 
-  /// @brief Field closed, offset: 0x28, size: 0x1, def value: None
-  bool ___closed;
+// Ctor Parameters [CppParam { name: "", ty: "WebConnectionStream", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+WebConnectionStream(WebConnectionStream const& ) = delete;
 
-  /// @brief Field disposed, offset: 0x29, size: 0x1, def value: None
-  bool ___disposed;
+/// @brief Field closed, offset: 0x28, size: 0x1, def value: None
+ bool  ___closed;
 
-  /// @brief Field locker, offset: 0x30, size: 0x8, def value: None
-  ::System::Object* ___locker;
+/// @brief Field disposed, offset: 0x29, size: 0x1, def value: None
+ bool  ___disposed;
 
-  /// @brief Field read_timeout, offset: 0x38, size: 0x4, def value: None
-  int32_t ___read_timeout;
+/// @brief Field locker, offset: 0x30, size: 0x8, def value: None
+ ::System::Object*  ___locker;
 
-  /// @brief Field write_timeout, offset: 0x3c, size: 0x4, def value: None
-  int32_t ___write_timeout;
+/// @brief Field read_timeout, offset: 0x38, size: 0x4, def value: None
+ int32_t  ___read_timeout;
 
-  /// @brief Field <Request>k__BackingField, offset: 0x40, size: 0x8, def value: None
-  ::System::Net::HttpWebRequest* ____Request_k__BackingField;
+/// @brief Field write_timeout, offset: 0x3c, size: 0x4, def value: None
+ int32_t  ___write_timeout;
 
-  /// @brief Field <Connection>k__BackingField, offset: 0x48, size: 0x8, def value: None
-  ::System::Net::WebConnection* ____Connection_k__BackingField;
+/// @brief Field <Request>k__BackingField, offset: 0x40, size: 0x8, def value: None
+ ::System::Net::HttpWebRequest*  ____Request_k__BackingField;
 
-  /// @brief Field <Operation>k__BackingField, offset: 0x50, size: 0x8, def value: None
-  ::System::Net::WebOperation* ____Operation_k__BackingField;
+/// @brief Field <Connection>k__BackingField, offset: 0x48, size: 0x8, def value: None
+ ::System::Net::WebConnection*  ____Connection_k__BackingField;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field <Operation>k__BackingField, offset: 0x50, size: 0x8, def value: None
+ ::System::Net::WebOperation*  ____Operation_k__BackingField;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::WebConnectionStream, 0x58>, "Size mismatch!");
@@ -295,6 +295,6 @@ static_assert(offsetof(::System::Net::WebConnectionStream, ____Connection_k__Bac
 
 static_assert(offsetof(::System::Net::WebConnectionStream, ____Operation_k__BackingField) == 0x50, "Offset mismatch!");
 
-} // namespace System::Net
+} // namespace end def System::Net
 NEED_NO_BOX(::System::Net::WebConnectionStream);
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::WebConnectionStream*, "System.Net", "WebConnectionStream");

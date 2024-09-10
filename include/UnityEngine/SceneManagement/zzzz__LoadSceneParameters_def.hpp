@@ -20,39 +20,33 @@ struct LoadSceneParameters;
 // Write type traits
 MARK_VAL_T(::UnityEngine::SceneManagement::LoadSceneParameters);
 // Type: UnityEngine.SceneManagement::LoadSceneParameters
-// SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 8, native_size: 8, calculated_instance_size: 8, calculated_native_size: 24, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace UnityEngine::SceneManagement {
 // Is value type: true
 // CS Name: ::UnityEngine.SceneManagement::LoadSceneParameters
 struct CORDL_TYPE LoadSceneParameters {
 public:
-  // Declarations
-  __declspec(property(put = set_loadSceneMode))::UnityEngine::SceneManagement::LoadSceneMode loadSceneMode;
+// Declarations
+/// @brief Method .ctor, addr 0x482e58c, size 0x8, virtual false, abstract: false, final false
+inline void _ctor(::UnityEngine::SceneManagement::LoadSceneMode  mode) ;
 
-  /// @brief Method .ctor, addr 0x346af14, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor(::UnityEngine::SceneManagement::LoadSceneMode mode);
+// Ctor Parameters []
+// @brief default ctor
+constexpr LoadSceneParameters() ;
 
-  /// @brief Method set_loadSceneMode, addr 0x346af0c, size 0x8, virtual false, abstract: false, final false
-  inline void set_loadSceneMode(::UnityEngine::SceneManagement::LoadSceneMode value);
+// Ctor Parameters [CppParam { name: "m_LoadSceneMode", ty: "::UnityEngine::SceneManagement::LoadSceneMode", modifiers: "", def_value: None }, CppParam { name: "m_LocalPhysicsMode", ty: "::UnityEngine::SceneManagement::LocalPhysicsMode", modifiers: "", def_value: None }]
+constexpr LoadSceneParameters(::UnityEngine::SceneManagement::LoadSceneMode  m_LoadSceneMode, ::UnityEngine::SceneManagement::LocalPhysicsMode  m_LocalPhysicsMode) noexcept;
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LoadSceneParameters();
+/// @brief Field m_LoadSceneMode, offset: 0x0, size: 0x4, def value: None
+ ::UnityEngine::SceneManagement::LoadSceneMode  m_LoadSceneMode;
 
-  // Ctor Parameters [CppParam { name: "m_LoadSceneMode", ty: "::UnityEngine::SceneManagement::LoadSceneMode", modifiers: "", def_value: None }, CppParam { name: "m_LocalPhysicsMode", ty:
-  // "::UnityEngine::SceneManagement::LocalPhysicsMode", modifiers: "", def_value: None }]
-  constexpr LoadSceneParameters(::UnityEngine::SceneManagement::LoadSceneMode m_LoadSceneMode, ::UnityEngine::SceneManagement::LocalPhysicsMode m_LocalPhysicsMode) noexcept;
+/// @brief Field m_LocalPhysicsMode, offset: 0x4, size: 0x4, def value: None
+ ::UnityEngine::SceneManagement::LocalPhysicsMode  m_LocalPhysicsMode;
 
-  /// @brief Field m_LoadSceneMode, offset: 0x0, size: 0x4, def value: None
-  ::UnityEngine::SceneManagement::LoadSceneMode m_LoadSceneMode;
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x8};
 
-  /// @brief Field m_LocalPhysicsMode, offset: 0x4, size: 0x4, def value: None
-  ::UnityEngine::SceneManagement::LocalPhysicsMode m_LocalPhysicsMode;
-
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x8 };
-
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::SceneManagement::LoadSceneParameters, 0x8>, "Size mismatch!");
@@ -61,5 +55,5 @@ static_assert(offsetof(::UnityEngine::SceneManagement::LoadSceneParameters, m_Lo
 
 static_assert(offsetof(::UnityEngine::SceneManagement::LoadSceneParameters, m_LocalPhysicsMode) == 0x4, "Offset mismatch!");
 
-} // namespace UnityEngine::SceneManagement
+} // namespace end def UnityEngine::SceneManagement
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::SceneManagement::LoadSceneParameters, "UnityEngine.SceneManagement", "LoadSceneParameters");

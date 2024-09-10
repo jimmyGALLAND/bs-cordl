@@ -26,10 +26,12 @@ namespace GlobalNamespace {
 struct __BeatmapEventDataBox__DistributionParamType;
 }
 namespace System::Collections::Generic {
-template <typename T> class IReadOnlyList_1;
+template<typename T>
+class IReadOnlyList_1;
 }
 namespace System::Collections::Generic {
-template <typename T> class List_1;
+template<typename T>
+class List_1;
 }
 // Forward declare root types
 namespace GlobalNamespace {
@@ -38,103 +40,94 @@ class LightColorBeatmapEventDataBox;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::LightColorBeatmapEventDataBox);
 // Type: ::LightColorBeatmapEventDataBox
-// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 73, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 80, native_size: -1, calculated_instance_size: 80, calculated_native_size: 73, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::LightColorBeatmapEventDataBox*
 class CORDL_TYPE LightColorBeatmapEventDataBox : public ::GlobalNamespace::BeatmapEventDataBox {
 public:
-  // Declarations
-  /// @brief Field _beatStep, offset 0x44, size 0x4
-  __declspec(property(get = __cordl_internal_get__beatStep, put = __cordl_internal_set__beatStep)) float_t _beatStep;
+// Declarations
+/// @brief Field _beatStep, offset 0x44, size 0x4 
+ __declspec(property(get=__cordl_internal_get__beatStep, put=__cordl_internal_set__beatStep)) float_t  _beatStep;
 
-  /// @brief Field _brightnessDistributionShouldAffectFirstBaseEvent, offset 0x48, size 0x1
-  __declspec(property(get = __cordl_internal_get__brightnessDistributionShouldAffectFirstBaseEvent,
-                      put = __cordl_internal_set__brightnessDistributionShouldAffectFirstBaseEvent)) bool _brightnessDistributionShouldAffectFirstBaseEvent;
+/// @brief Field _brightnessDistributionShouldAffectFirstBaseEvent, offset 0x48, size 0x1 
+ __declspec(property(get=__cordl_internal_get__brightnessDistributionShouldAffectFirstBaseEvent, put=__cordl_internal_set__brightnessDistributionShouldAffectFirstBaseEvent)) bool  _brightnessDistributionShouldAffectFirstBaseEvent;
 
-  /// @brief Field _brightnessStep, offset 0x40, size 0x4
-  __declspec(property(get = __cordl_internal_get__brightnessStep, put = __cordl_internal_set__brightnessStep)) float_t _brightnessStep;
+/// @brief Field _brightnessStep, offset 0x40, size 0x4 
+ __declspec(property(get=__cordl_internal_get__brightnessStep, put=__cordl_internal_set__brightnessStep)) float_t  _brightnessStep;
 
-  /// @brief Field _lightColorBaseDataList, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get__lightColorBaseDataList,
-                      put = __cordl_internal_set__lightColorBaseDataList))::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightColorBaseData*>* _lightColorBaseDataList;
+/// @brief Field _lightColorBaseDataList, offset 0x38, size 0x8 
+ __declspec(property(get=__cordl_internal_get__lightColorBaseDataList, put=__cordl_internal_set__lightColorBaseDataList)) ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightColorBaseData*>*  _lightColorBaseDataList;
 
-  __declspec(property(get = get_beatStep)) float_t beatStep;
+ __declspec(property(get=get_beatStep)) float_t  beatStep;
 
-  __declspec(property(get = get_subtypeIdentifier)) int32_t subtypeIdentifier;
+ __declspec(property(get=get_subtypeIdentifier)) int32_t  subtypeIdentifier;
 
-  static inline ::GlobalNamespace::LightColorBeatmapEventDataBox*
-  New_ctor(::GlobalNamespace::IndexFilter* indexFilter, float_t beatDistributionParam, ::GlobalNamespace::__BeatmapEventDataBox__DistributionParamType beatDistributionParamType,
-           float_t brightnessDistributionParam, ::GlobalNamespace::__BeatmapEventDataBox__DistributionParamType brightnessDistributionParamType, bool brightnessDistributionShouldAffectFirstBaseEvent,
-           ::GlobalNamespace::EaseType brightnessDistributionEaseType, ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightColorBaseData*>* lightColorBaseDataList);
+static inline ::GlobalNamespace::LightColorBeatmapEventDataBox* New_ctor(::GlobalNamespace::IndexFilter*  indexFilter, float_t  beatDistributionParam, ::GlobalNamespace::__BeatmapEventDataBox__DistributionParamType  beatDistributionParamType, float_t  brightnessDistributionParam, ::GlobalNamespace::__BeatmapEventDataBox__DistributionParamType  brightnessDistributionParamType, bool  brightnessDistributionShouldAffectFirstBaseEvent, ::GlobalNamespace::EaseType  brightnessDistributionEaseType, ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightColorBaseData*>*  lightColorBaseDataList) ;
 
-  /// @brief Method Unpack, addr 0x14c37ec, size 0x4fc, virtual true, abstract: false, final false
-  inline void Unpack(float_t groupBoxBeat, int32_t groupId, int32_t elementId, int32_t durationOrderIndex, int32_t distributionOrderIndex, float_t maxBeat,
-                     ::GlobalNamespace::IBeatToTimeConverter* beatToTimeConverter, ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapEventData*>* output);
+/// @brief Method Unpack, addr 0x266ffa8, size 0x4e8, virtual true, abstract: false, final false
+inline void Unpack(float_t  groupBoxBeat, int32_t  groupId, int32_t  elementId, int32_t  durationOrderIndex, int32_t  distributionOrderIndex, float_t  maxBeat, ::GlobalNamespace::IBeatToTimeConverter*  beatToTimeConverter, ::System::Collections::Generic::List_1<::GlobalNamespace::BeatmapEventData*>*  output) ;
 
-  constexpr float_t const& __cordl_internal_get__beatStep() const;
+constexpr float_t const& __cordl_internal_get__beatStep() const;
 
-  constexpr float_t& __cordl_internal_get__beatStep();
+constexpr float_t& __cordl_internal_get__beatStep() ;
 
-  constexpr bool const& __cordl_internal_get__brightnessDistributionShouldAffectFirstBaseEvent() const;
+constexpr bool const& __cordl_internal_get__brightnessDistributionShouldAffectFirstBaseEvent() const;
 
-  constexpr bool& __cordl_internal_get__brightnessDistributionShouldAffectFirstBaseEvent();
+constexpr bool& __cordl_internal_get__brightnessDistributionShouldAffectFirstBaseEvent() ;
 
-  constexpr float_t const& __cordl_internal_get__brightnessStep() const;
+constexpr float_t const& __cordl_internal_get__brightnessStep() const;
 
-  constexpr float_t& __cordl_internal_get__brightnessStep();
+constexpr float_t& __cordl_internal_get__brightnessStep() ;
 
-  constexpr ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightColorBaseData*>*& __cordl_internal_get__lightColorBaseDataList();
+constexpr ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightColorBaseData*>*& __cordl_internal_get__lightColorBaseDataList() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightColorBaseData*>*> const& __cordl_internal_get__lightColorBaseDataList() const;
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightColorBaseData*>*> const& __cordl_internal_get__lightColorBaseDataList() const;
 
-  constexpr void __cordl_internal_set__beatStep(float_t value);
+constexpr void __cordl_internal_set__beatStep(float_t  value) ;
 
-  constexpr void __cordl_internal_set__brightnessDistributionShouldAffectFirstBaseEvent(bool value);
+constexpr void __cordl_internal_set__brightnessDistributionShouldAffectFirstBaseEvent(bool  value) ;
 
-  constexpr void __cordl_internal_set__brightnessStep(float_t value);
+constexpr void __cordl_internal_set__brightnessStep(float_t  value) ;
 
-  constexpr void __cordl_internal_set__lightColorBaseDataList(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightColorBaseData*>* value);
+constexpr void __cordl_internal_set__lightColorBaseDataList(::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightColorBaseData*>*  value) ;
 
-  /// @brief Method .ctor, addr 0x14c35e4, size 0x208, virtual false, abstract: false, final false
-  inline void _ctor(::GlobalNamespace::IndexFilter* indexFilter, float_t beatDistributionParam, ::GlobalNamespace::__BeatmapEventDataBox__DistributionParamType beatDistributionParamType,
-                    float_t brightnessDistributionParam, ::GlobalNamespace::__BeatmapEventDataBox__DistributionParamType brightnessDistributionParamType,
-                    bool brightnessDistributionShouldAffectFirstBaseEvent, ::GlobalNamespace::EaseType brightnessDistributionEaseType,
-                    ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightColorBaseData*>* lightColorBaseDataList);
+/// @brief Method .ctor, addr 0x266fda0, size 0x208, virtual false, abstract: false, final false
+inline void _ctor(::GlobalNamespace::IndexFilter*  indexFilter, float_t  beatDistributionParam, ::GlobalNamespace::__BeatmapEventDataBox__DistributionParamType  beatDistributionParamType, float_t  brightnessDistributionParam, ::GlobalNamespace::__BeatmapEventDataBox__DistributionParamType  brightnessDistributionParamType, bool  brightnessDistributionShouldAffectFirstBaseEvent, ::GlobalNamespace::EaseType  brightnessDistributionEaseType, ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightColorBaseData*>*  lightColorBaseDataList) ;
 
-  /// @brief Method get_beatStep, addr 0x14c35dc, size 0x8, virtual true, abstract: false, final false
-  inline float_t get_beatStep();
+/// @brief Method get_beatStep, addr 0x266fd98, size 0x8, virtual true, abstract: false, final false
+inline float_t get_beatStep() ;
 
-  /// @brief Method get_subtypeIdentifier, addr 0x14c35d4, size 0x8, virtual true, abstract: false, final false
-  inline int32_t get_subtypeIdentifier();
+/// @brief Method get_subtypeIdentifier, addr 0x266fd90, size 0x8, virtual true, abstract: false, final false
+inline int32_t get_subtypeIdentifier() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr LightColorBeatmapEventDataBox();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr LightColorBeatmapEventDataBox() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "LightColorBeatmapEventDataBox", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  LightColorBeatmapEventDataBox(LightColorBeatmapEventDataBox&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "LightColorBeatmapEventDataBox", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  LightColorBeatmapEventDataBox(LightColorBeatmapEventDataBox const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "LightColorBeatmapEventDataBox", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+LightColorBeatmapEventDataBox(LightColorBeatmapEventDataBox && ) = delete;
 
-  /// @brief Field _lightColorBaseDataList, offset: 0x38, size: 0x8, def value: None
-  ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightColorBaseData*>* ____lightColorBaseDataList;
+// Ctor Parameters [CppParam { name: "", ty: "LightColorBeatmapEventDataBox", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+LightColorBeatmapEventDataBox(LightColorBeatmapEventDataBox const& ) = delete;
 
-  /// @brief Field _brightnessStep, offset: 0x40, size: 0x4, def value: None
-  float_t ____brightnessStep;
+/// @brief Field _lightColorBaseDataList, offset: 0x38, size: 0x8, def value: None
+ ::System::Collections::Generic::IReadOnlyList_1<::GlobalNamespace::LightColorBaseData*>*  ____lightColorBaseDataList;
 
-  /// @brief Field _beatStep, offset: 0x44, size: 0x4, def value: None
-  float_t ____beatStep;
+/// @brief Field _brightnessStep, offset: 0x40, size: 0x4, def value: None
+ float_t  ____brightnessStep;
 
-  /// @brief Field _brightnessDistributionShouldAffectFirstBaseEvent, offset: 0x48, size: 0x1, def value: None
-  bool ____brightnessDistributionShouldAffectFirstBaseEvent;
+/// @brief Field _beatStep, offset: 0x44, size: 0x4, def value: None
+ float_t  ____beatStep;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _brightnessDistributionShouldAffectFirstBaseEvent, offset: 0x48, size: 0x1, def value: None
+ bool  ____brightnessDistributionShouldAffectFirstBaseEvent;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::LightColorBeatmapEventDataBox, 0x50>, "Size mismatch!");
@@ -147,6 +140,6 @@ static_assert(offsetof(::GlobalNamespace::LightColorBeatmapEventDataBox, ____bea
 
 static_assert(offsetof(::GlobalNamespace::LightColorBeatmapEventDataBox, ____brightnessDistributionShouldAffectFirstBaseEvent) == 0x48, "Offset mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::LightColorBeatmapEventDataBox);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::LightColorBeatmapEventDataBox*, "", "LightColorBeatmapEventDataBox");

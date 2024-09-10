@@ -19,69 +19,68 @@ class CustomTimelineTween;
 // Write type traits
 MARK_REF_PTR_T(::GlobalNamespace::CustomTimelineTween);
 // Type: ::CustomTimelineTween
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 48, native_size: -1, calculated_instance_size: 48, calculated_native_size: 48, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::CustomTimelineTween*
 class CORDL_TYPE CustomTimelineTween : public ::UnityEngine::MonoBehaviour {
 public:
-  // Declarations
-  /// @brief Field startPositions, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_startPositions, put = __cordl_internal_set_startPositions))::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> startPositions;
+// Declarations
+/// @brief Field startPositions, offset 0x28, size 0x8 
+ __declspec(property(get=__cordl_internal_get_startPositions, put=__cordl_internal_set_startPositions)) ::ArrayW<::UnityEngine::Vector3,::Array<::UnityEngine::Vector3>*>  startPositions;
 
-  /// @brief Field transforms, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_transforms,
-                      put = __cordl_internal_set_transforms))::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> transforms;
+/// @brief Field transforms, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get_transforms, put=__cordl_internal_set_transforms)) ::ArrayW<::UnityW<::UnityEngine::Transform>,::Array<::UnityW<::UnityEngine::Transform>>*>  transforms;
 
-  static inline ::GlobalNamespace::CustomTimelineTween* New_ctor();
+static inline ::GlobalNamespace::CustomTimelineTween* New_ctor() ;
 
-  /// @brief Method OnValidate, addr 0x26cb2d8, size 0xd4, virtual false, abstract: false, final false
-  inline void OnValidate();
+/// @brief Method OnValidate, addr 0x3aa7408, size 0xd4, virtual false, abstract: false, final false
+inline void OnValidate() ;
 
-  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> const& __cordl_internal_get_startPositions() const;
+constexpr ::ArrayW<::UnityEngine::Vector3,::Array<::UnityEngine::Vector3>*> const& __cordl_internal_get_startPositions() const;
 
-  constexpr ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*>& __cordl_internal_get_startPositions();
+constexpr ::ArrayW<::UnityEngine::Vector3,::Array<::UnityEngine::Vector3>*>& __cordl_internal_get_startPositions() ;
 
-  constexpr ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> const& __cordl_internal_get_transforms() const;
+constexpr ::ArrayW<::UnityW<::UnityEngine::Transform>,::Array<::UnityW<::UnityEngine::Transform>>*> const& __cordl_internal_get_transforms() const;
 
-  constexpr ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*>& __cordl_internal_get_transforms();
+constexpr ::ArrayW<::UnityW<::UnityEngine::Transform>,::Array<::UnityW<::UnityEngine::Transform>>*>& __cordl_internal_get_transforms() ;
 
-  constexpr void __cordl_internal_set_startPositions(::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> value);
+constexpr void __cordl_internal_set_startPositions(::ArrayW<::UnityEngine::Vector3,::Array<::UnityEngine::Vector3>*>  value) ;
 
-  constexpr void __cordl_internal_set_transforms(::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> value);
+constexpr void __cordl_internal_set_transforms(::ArrayW<::UnityW<::UnityEngine::Transform>,::Array<::UnityW<::UnityEngine::Transform>>*>  value) ;
 
-  /// @brief Method .ctor, addr 0x26cb3ac, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x3aa74dc, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CustomTimelineTween();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr CustomTimelineTween() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CustomTimelineTween", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  CustomTimelineTween(CustomTimelineTween&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CustomTimelineTween", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  CustomTimelineTween(CustomTimelineTween const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "CustomTimelineTween", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+CustomTimelineTween(CustomTimelineTween && ) = delete;
 
-  /// @brief Field transforms, offset: 0x18, size: 0x8, def value: None
-  ::ArrayW<::UnityW<::UnityEngine::Transform>, ::Array<::UnityW<::UnityEngine::Transform>>*> ___transforms;
+// Ctor Parameters [CppParam { name: "", ty: "CustomTimelineTween", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+CustomTimelineTween(CustomTimelineTween const& ) = delete;
 
-  /// @brief Field startPositions, offset: 0x20, size: 0x8, def value: None
-  ::ArrayW<::UnityEngine::Vector3, ::Array<::UnityEngine::Vector3>*> ___startPositions;
+/// @brief Field transforms, offset: 0x20, size: 0x8, def value: None
+ ::ArrayW<::UnityW<::UnityEngine::Transform>,::Array<::UnityW<::UnityEngine::Transform>>*>  ___transforms;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field startPositions, offset: 0x28, size: 0x8, def value: None
+ ::ArrayW<::UnityEngine::Vector3,::Array<::UnityEngine::Vector3>*>  ___startPositions;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::GlobalNamespace::CustomTimelineTween, 0x28>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::GlobalNamespace::CustomTimelineTween, 0x30>, "Size mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::CustomTimelineTween, ___transforms) == 0x18, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::CustomTimelineTween, ___transforms) == 0x20, "Offset mismatch!");
 
-static_assert(offsetof(::GlobalNamespace::CustomTimelineTween, ___startPositions) == 0x20, "Offset mismatch!");
+static_assert(offsetof(::GlobalNamespace::CustomTimelineTween, ___startPositions) == 0x28, "Offset mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 NEED_NO_BOX(::GlobalNamespace::CustomTimelineTween);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::CustomTimelineTween*, "", "CustomTimelineTween");

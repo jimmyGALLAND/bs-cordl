@@ -1,7 +1,7 @@
 #ifdef __cpp_modules
-module;
-#endif
-
+                    module;
+                    #endif
+                
 #pragma once
 #include "UnityEngine/Scripting/AlwaysLinkAssemblyAttribute.hpp"
 #include "UnityEngine/Scripting/GarbageCollector.hpp"
@@ -9,5 +9,6 @@ module;
 #include "UnityEngine/Scripting/RequiredByNativeCodeAttribute.hpp"
 #include "UnityEngine/Scripting/UsedByNativeCodeAttribute.hpp"
 #ifdef __cpp_modules
-export module Scripting;
-#endif
+                    export module Scripting;
+                    #endif
+                

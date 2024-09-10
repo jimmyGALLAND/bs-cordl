@@ -25,66 +25,66 @@ class CVRIOBuffer;
 // Write type traits
 MARK_REF_PTR_T(::OVR::OpenVR::CVRIOBuffer);
 // Type: OVR.OpenVR::CVRIOBuffer
-// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 56, native_size: -1, calculated_instance_size: 56, calculated_native_size: 56, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace OVR::OpenVR {
 // Is value type: false
 // CS Name: ::OVR.OpenVR::CVRIOBuffer*
 class CORDL_TYPE CVRIOBuffer : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field FnTable, offset 0x10, size 0x28
-  __declspec(property(get = __cordl_internal_get_FnTable, put = __cordl_internal_set_FnTable))::OVR::OpenVR::IVRIOBuffer FnTable;
+// Declarations
+/// @brief Field FnTable, offset 0x10, size 0x28 
+ __declspec(property(get=__cordl_internal_get_FnTable, put=__cordl_internal_set_FnTable)) ::OVR::OpenVR::IVRIOBuffer  FnTable;
 
-  /// @brief Method Close, addr 0x2bff004, size 0x24, virtual false, abstract: false, final false
-  inline ::OVR::OpenVR::EIOBufferError Close(uint64_t ulBuffer);
+/// @brief Method Close, addr 0x3fe5a84, size 0x24, virtual false, abstract: false, final false
+inline ::OVR::OpenVR::EIOBufferError Close(uint64_t  ulBuffer) ;
 
-  static inline ::OVR::OpenVR::CVRIOBuffer* New_ctor(::System::IntPtr pInterface);
+static inline ::OVR::OpenVR::CVRIOBuffer* New_ctor(::System::IntPtr  pInterface) ;
 
-  /// @brief Method Open, addr 0x2bfefdc, size 0x28, virtual false, abstract: false, final false
-  inline ::OVR::OpenVR::EIOBufferError Open(::StringW pchPath, ::OVR::OpenVR::EIOBufferMode mode, uint32_t unElementSize, uint32_t unElements, ByRef<uint64_t> pulBuffer);
+/// @brief Method Open, addr 0x3fe5a5c, size 0x28, virtual false, abstract: false, final false
+inline ::OVR::OpenVR::EIOBufferError Open(::StringW  pchPath, ::OVR::OpenVR::EIOBufferMode  mode, uint32_t  unElementSize, uint32_t  unElements, ByRef<uint64_t>  pulBuffer) ;
 
-  /// @brief Method PropertyContainer, addr 0x2bff074, size 0x24, virtual false, abstract: false, final false
-  inline uint64_t PropertyContainer(uint64_t ulBuffer);
+/// @brief Method PropertyContainer, addr 0x3fe5af4, size 0x24, virtual false, abstract: false, final false
+inline uint64_t PropertyContainer(uint64_t  ulBuffer) ;
 
-  /// @brief Method Read, addr 0x2bff028, size 0x28, virtual false, abstract: false, final false
-  inline ::OVR::OpenVR::EIOBufferError Read(uint64_t ulBuffer, ::System::IntPtr pDst, uint32_t unBytes, ByRef<uint32_t> punRead);
+/// @brief Method Read, addr 0x3fe5aa8, size 0x28, virtual false, abstract: false, final false
+inline ::OVR::OpenVR::EIOBufferError Read(uint64_t  ulBuffer, ::System::IntPtr  pDst, uint32_t  unBytes, ByRef<uint32_t>  punRead) ;
 
-  /// @brief Method Write, addr 0x2bff050, size 0x24, virtual false, abstract: false, final false
-  inline ::OVR::OpenVR::EIOBufferError Write(uint64_t ulBuffer, ::System::IntPtr pSrc, uint32_t unBytes);
+/// @brief Method Write, addr 0x3fe5ad0, size 0x24, virtual false, abstract: false, final false
+inline ::OVR::OpenVR::EIOBufferError Write(uint64_t  ulBuffer, ::System::IntPtr  pSrc, uint32_t  unBytes) ;
 
-  constexpr ::OVR::OpenVR::IVRIOBuffer const& __cordl_internal_get_FnTable() const;
+constexpr ::OVR::OpenVR::IVRIOBuffer const& __cordl_internal_get_FnTable() const;
 
-  constexpr ::OVR::OpenVR::IVRIOBuffer& __cordl_internal_get_FnTable();
+constexpr ::OVR::OpenVR::IVRIOBuffer& __cordl_internal_get_FnTable() ;
 
-  constexpr void __cordl_internal_set_FnTable(::OVR::OpenVR::IVRIOBuffer value);
+constexpr void __cordl_internal_set_FnTable(::OVR::OpenVR::IVRIOBuffer  value) ;
 
-  /// @brief Method .ctor, addr 0x2bfeec8, size 0x114, virtual false, abstract: false, final false
-  inline void _ctor(::System::IntPtr pInterface);
+/// @brief Method .ctor, addr 0x3fe5948, size 0x114, virtual false, abstract: false, final false
+inline void _ctor(::System::IntPtr  pInterface) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr CVRIOBuffer();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr CVRIOBuffer() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "CVRIOBuffer", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  CVRIOBuffer(CVRIOBuffer&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "CVRIOBuffer", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  CVRIOBuffer(CVRIOBuffer const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "CVRIOBuffer", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+CVRIOBuffer(CVRIOBuffer && ) = delete;
 
-  /// @brief Field FnTable, offset: 0x10, size: 0x28, def value: None
-  ::OVR::OpenVR::IVRIOBuffer ___FnTable;
+// Ctor Parameters [CppParam { name: "", ty: "CVRIOBuffer", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+CVRIOBuffer(CVRIOBuffer const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field FnTable, offset: 0x10, size: 0x28, def value: None
+ ::OVR::OpenVR::IVRIOBuffer  ___FnTable;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::OVR::OpenVR::CVRIOBuffer, 0x38>, "Size mismatch!");
 
 static_assert(offsetof(::OVR::OpenVR::CVRIOBuffer, ___FnTable) == 0x10, "Offset mismatch!");
 
-} // namespace OVR::OpenVR
+} // namespace end def OVR::OpenVR
 NEED_NO_BOX(::OVR::OpenVR::CVRIOBuffer);
 DEFINE_IL2CPP_ARG_TYPE(::OVR::OpenVR::CVRIOBuffer*, "OVR.OpenVR", "CVRIOBuffer");

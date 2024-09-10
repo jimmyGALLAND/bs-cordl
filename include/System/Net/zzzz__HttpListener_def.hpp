@@ -75,328 +75,327 @@ class HttpListener;
 // Write type traits
 MARK_REF_PTR_T(::System::Net::HttpListener);
 // Type: System.Net::HttpListener
-// SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 136, native_size: -1, calculated_instance_size: 136, calculated_native_size: 136, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Net {
 // Is value type: false
 // CS Name: ::System.Net::HttpListener*
 class CORDL_TYPE HttpListener : public ::System::Object {
 public:
-  // Declarations
-  __declspec(property(get = get_AuthenticationSchemeSelectorDelegate))::System::Net::AuthenticationSchemeSelector* AuthenticationSchemeSelectorDelegate;
+// Declarations
+ __declspec(property(get=get_AuthenticationSchemeSelectorDelegate)) ::System::Net::AuthenticationSchemeSelector*  AuthenticationSchemeSelectorDelegate;
 
-  __declspec(property(get = get_AuthenticationSchemes))::System::Net::AuthenticationSchemes AuthenticationSchemes;
+ __declspec(property(get=get_AuthenticationSchemes)) ::System::Net::AuthenticationSchemes  AuthenticationSchemes;
 
-  __declspec(property(get = get_IgnoreWriteExceptions)) bool IgnoreWriteExceptions;
+ __declspec(property(get=get_IgnoreWriteExceptions)) bool  IgnoreWriteExceptions;
 
-  __declspec(property(get = get_IsListening)) bool IsListening;
+ __declspec(property(get=get_IsListening)) bool  IsListening;
 
-  __declspec(property(get = get_Prefixes))::System::Net::HttpListenerPrefixCollection* Prefixes;
+ __declspec(property(get=get_Prefixes)) ::System::Net::HttpListenerPrefixCollection*  Prefixes;
 
-  __declspec(property(get = get_Realm))::StringW Realm;
+ __declspec(property(get=get_Realm)) ::StringW  Realm;
 
-  /// @brief Field _internalLock, offset 0x50, size 0x8
-  __declspec(property(get = __cordl_internal_get__internalLock, put = __cordl_internal_set__internalLock))::System::Object* _internalLock;
+/// @brief Field _internalLock, offset 0x50, size 0x8 
+ __declspec(property(get=__cordl_internal_get__internalLock, put=__cordl_internal_set__internalLock)) ::System::Object*  _internalLock;
 
-  /// @brief Field auth_schemes, offset 0x28, size 0x4
-  __declspec(property(get = __cordl_internal_get_auth_schemes, put = __cordl_internal_set_auth_schemes))::System::Net::AuthenticationSchemes auth_schemes;
+/// @brief Field auth_schemes, offset 0x28, size 0x4 
+ __declspec(property(get=__cordl_internal_get_auth_schemes, put=__cordl_internal_set_auth_schemes)) ::System::Net::AuthenticationSchemes  auth_schemes;
 
-  /// @brief Field auth_selector, offset 0x38, size 0x8
-  __declspec(property(get = __cordl_internal_get_auth_selector, put = __cordl_internal_set_auth_selector))::System::Net::AuthenticationSchemeSelector* auth_selector;
+/// @brief Field auth_selector, offset 0x38, size 0x8 
+ __declspec(property(get=__cordl_internal_get_auth_selector, put=__cordl_internal_set_auth_selector)) ::System::Net::AuthenticationSchemeSelector*  auth_selector;
 
-  /// @brief Field certificate, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_certificate, put = __cordl_internal_set_certificate))::System::Security::Cryptography::X509Certificates::X509Certificate* certificate;
+/// @brief Field certificate, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get_certificate, put=__cordl_internal_set_certificate)) ::System::Security::Cryptography::X509Certificates::X509Certificate*  certificate;
 
-  /// @brief Field connections, offset 0x70, size 0x8
-  __declspec(property(get = __cordl_internal_get_connections, put = __cordl_internal_set_connections))::System::Collections::Hashtable* connections;
+/// @brief Field connections, offset 0x70, size 0x8 
+ __declspec(property(get=__cordl_internal_get_connections, put=__cordl_internal_set_connections)) ::System::Collections::Hashtable*  connections;
 
-  /// @brief Field ctx_queue, offset 0x60, size 0x8
-  __declspec(property(get = __cordl_internal_get_ctx_queue, put = __cordl_internal_set_ctx_queue))::System::Collections::ArrayList* ctx_queue;
+/// @brief Field ctx_queue, offset 0x60, size 0x8 
+ __declspec(property(get=__cordl_internal_get_ctx_queue, put=__cordl_internal_set_ctx_queue)) ::System::Collections::ArrayList*  ctx_queue;
 
-  /// @brief Field defaultServiceNames, offset 0x78, size 0x8
-  __declspec(property(get = __cordl_internal_get_defaultServiceNames, put = __cordl_internal_set_defaultServiceNames))::System::Net::ServiceNameStore* defaultServiceNames;
+/// @brief Field defaultServiceNames, offset 0x78, size 0x8 
+ __declspec(property(get=__cordl_internal_get_defaultServiceNames, put=__cordl_internal_set_defaultServiceNames)) ::System::Net::ServiceNameStore*  defaultServiceNames;
 
-  /// @brief Field disposed, offset 0x4a, size 0x1
-  __declspec(property(get = __cordl_internal_get_disposed, put = __cordl_internal_set_disposed)) bool disposed;
+/// @brief Field disposed, offset 0x4a, size 0x1 
+ __declspec(property(get=__cordl_internal_get_disposed, put=__cordl_internal_set_disposed)) bool  disposed;
 
-  /// @brief Field extendedProtectionPolicy, offset 0x80, size 0x8
-  __declspec(property(get = __cordl_internal_get_extendedProtectionPolicy,
-                      put = __cordl_internal_set_extendedProtectionPolicy))::System::Security::Authentication::ExtendedProtection::ExtendedProtectionPolicy* extendedProtectionPolicy;
+/// @brief Field extendedProtectionPolicy, offset 0x80, size 0x8 
+ __declspec(property(get=__cordl_internal_get_extendedProtectionPolicy, put=__cordl_internal_set_extendedProtectionPolicy)) ::System::Security::Authentication::ExtendedProtection::ExtendedProtectionPolicy*  extendedProtectionPolicy;
 
-  /// @brief Field ignore_write_exceptions, offset 0x48, size 0x1
-  __declspec(property(get = __cordl_internal_get_ignore_write_exceptions, put = __cordl_internal_set_ignore_write_exceptions)) bool ignore_write_exceptions;
+/// @brief Field ignore_write_exceptions, offset 0x48, size 0x1 
+ __declspec(property(get=__cordl_internal_get_ignore_write_exceptions, put=__cordl_internal_set_ignore_write_exceptions)) bool  ignore_write_exceptions;
 
-  /// @brief Field listening, offset 0x49, size 0x1
-  __declspec(property(get = __cordl_internal_get_listening, put = __cordl_internal_set_listening)) bool listening;
+/// @brief Field listening, offset 0x49, size 0x1 
+ __declspec(property(get=__cordl_internal_get_listening, put=__cordl_internal_set_listening)) bool  listening;
 
-  /// @brief Field prefixes, offset 0x30, size 0x8
-  __declspec(property(get = __cordl_internal_get_prefixes, put = __cordl_internal_set_prefixes))::System::Net::HttpListenerPrefixCollection* prefixes;
+/// @brief Field prefixes, offset 0x30, size 0x8 
+ __declspec(property(get=__cordl_internal_get_prefixes, put=__cordl_internal_set_prefixes)) ::System::Net::HttpListenerPrefixCollection*  prefixes;
 
-  /// @brief Field realm, offset 0x40, size 0x8
-  __declspec(property(get = __cordl_internal_get_realm, put = __cordl_internal_set_realm))::StringW realm;
+/// @brief Field realm, offset 0x40, size 0x8 
+ __declspec(property(get=__cordl_internal_get_realm, put=__cordl_internal_set_realm)) ::StringW  realm;
 
-  /// @brief Field registry, offset 0x58, size 0x8
-  __declspec(property(get = __cordl_internal_get_registry, put = __cordl_internal_set_registry))::System::Collections::Hashtable* registry;
+/// @brief Field registry, offset 0x58, size 0x8 
+ __declspec(property(get=__cordl_internal_get_registry, put=__cordl_internal_set_registry)) ::System::Collections::Hashtable*  registry;
 
-  /// @brief Field tlsProvider, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get_tlsProvider, put = __cordl_internal_set_tlsProvider))::Mono::Security::Interface::MonoTlsProvider* tlsProvider;
+/// @brief Field tlsProvider, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get_tlsProvider, put=__cordl_internal_set_tlsProvider)) ::Mono::Security::Interface::MonoTlsProvider*  tlsProvider;
 
-  /// @brief Field tlsSettings, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_tlsSettings, put = __cordl_internal_set_tlsSettings))::Mono::Security::Interface::MonoTlsSettings* tlsSettings;
+/// @brief Field tlsSettings, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_tlsSettings, put=__cordl_internal_set_tlsSettings)) ::Mono::Security::Interface::MonoTlsSettings*  tlsSettings;
 
-  /// @brief Field wait_queue, offset 0x68, size 0x8
-  __declspec(property(get = __cordl_internal_get_wait_queue, put = __cordl_internal_set_wait_queue))::System::Collections::ArrayList* wait_queue;
+/// @brief Field wait_queue, offset 0x68, size 0x8 
+ __declspec(property(get=__cordl_internal_get_wait_queue, put=__cordl_internal_set_wait_queue)) ::System::Collections::ArrayList*  wait_queue;
 
-  /// @brief Convert operator to "::System::IDisposable"
-  constexpr operator ::System::IDisposable*() noexcept;
+/// @brief Convert operator to "::System::IDisposable"
+constexpr operator  ::System::IDisposable*() noexcept;
 
-  /// @brief Method AddConnection, addr 0x302858c, size 0x28, virtual false, abstract: false, final false
-  inline void AddConnection(::System::Net::HttpConnection* cnc);
+/// @brief Method AddConnection, addr 0x443405c, size 0x28, virtual false, abstract: false, final false
+inline void AddConnection(::System::Net::HttpConnection*  cnc) ;
 
-  /// @brief Method BeginGetContext, addr 0x302ad9c, size 0x2b4, virtual false, abstract: false, final false
-  inline ::System::IAsyncResult* BeginGetContext(::System::AsyncCallback* callback, ::System::Object* state);
+/// @brief Method BeginGetContext, addr 0x4436538, size 0x2bc, virtual false, abstract: false, final false
+inline ::System::IAsyncResult* BeginGetContext(::System::AsyncCallback*  callback, ::System::Object*  state) ;
 
-  /// @brief Method CheckDisposed, addr 0x302a1dc, size 0x80, virtual false, abstract: false, final false
-  inline void CheckDisposed();
+/// @brief Method CheckDisposed, addr 0x4435984, size 0x78, virtual false, abstract: false, final false
+inline void CheckDisposed() ;
 
-  /// @brief Method Cleanup, addr 0x302a30c, size 0xa90, virtual false, abstract: false, final false
-  inline void Cleanup(bool close_existing);
+/// @brief Method Cleanup, addr 0x4435aac, size 0xa8c, virtual false, abstract: false, final false
+inline void Cleanup(bool  close_existing) ;
 
-  /// @brief Method Close, addr 0x302a264, size 0x34, virtual false, abstract: false, final false
-  inline void Close();
+/// @brief Method Close, addr 0x4435a04, size 0x34, virtual false, abstract: false, final false
+inline void Close() ;
 
-  /// @brief Method Close, addr 0x302a298, size 0x74, virtual false, abstract: false, final false
-  inline void Close(bool force);
+/// @brief Method Close, addr 0x4435a38, size 0x74, virtual false, abstract: false, final false
+inline void Close(bool  force) ;
 
-  /// @brief Method CreateSslStream, addr 0x302703c, size 0x190, virtual false, abstract: false, final false
-  inline ::System::Net::Security::SslStream* CreateSslStream(::System::IO::Stream* innerStream, bool ownsStream, ::System::Net::Security::RemoteCertificateValidationCallback* callback);
+/// @brief Method CreateSslStream, addr 0x4432c04, size 0x184, virtual false, abstract: false, final false
+inline ::System::Net::Security::SslStream* CreateSslStream(::System::IO::Stream*  innerStream, bool  ownsStream, ::System::Net::Security::RemoteCertificateValidationCallback*  callback) ;
 
-  /// @brief Method EndGetContext, addr 0x302b114, size 0x2c8, virtual false, abstract: false, final false
-  inline ::System::Net::HttpListenerContext* EndGetContext(::System::IAsyncResult* asyncResult);
+/// @brief Method EndGetContext, addr 0x44368b8, size 0x2b8, virtual false, abstract: false, final false
+inline ::System::Net::HttpListenerContext* EndGetContext(::System::IAsyncResult*  asyncResult) ;
 
-  /// @brief Method GetContext, addr 0x302b534, size 0xfc, virtual false, abstract: false, final false
-  inline ::System::Net::HttpListenerContext* GetContext();
+/// @brief Method GetContext, addr 0x4436cc8, size 0xf8, virtual false, abstract: false, final false
+inline ::System::Net::HttpListenerContext* GetContext() ;
 
-  /// @brief Method GetContextFromQueue, addr 0x302b050, size 0xc4, virtual false, abstract: false, final false
-  inline ::System::Net::HttpListenerContext* GetContextFromQueue();
+/// @brief Method GetContextFromQueue, addr 0x44367f4, size 0xc4, virtual false, abstract: false, final false
+inline ::System::Net::HttpListenerContext* GetContextFromQueue() ;
 
-  /// @brief Method LoadCertificateAndKey, addr 0x3022c58, size 0x40c, virtual false, abstract: false, final false
-  inline ::System::Security::Cryptography::X509Certificates::X509Certificate* LoadCertificateAndKey(::System::Net::IPAddress* addr, int32_t port);
+/// @brief Method LoadCertificateAndKey, addr 0x442e7f4, size 0x400, virtual false, abstract: false, final false
+inline ::System::Security::Cryptography::X509Certificates::X509Certificate* LoadCertificateAndKey(::System::Net::IPAddress*  addr, int32_t  port) ;
 
-  static inline ::System::Net::HttpListener* New_ctor();
+static inline ::System::Net::HttpListener* New_ctor() ;
 
-  /// @brief Method RegisterContext, addr 0x30285b4, size 0x36c, virtual false, abstract: false, final false
-  inline void RegisterContext(::System::Net::HttpListenerContext* context);
+/// @brief Method RegisterContext, addr 0x4434084, size 0x374, virtual false, abstract: false, final false
+inline void RegisterContext(::System::Net::HttpListenerContext*  context) ;
 
-  /// @brief Method RemoveConnection, addr 0x3028920, size 0x24, virtual false, abstract: false, final false
-  inline void RemoveConnection(::System::Net::HttpConnection* cnc);
+/// @brief Method RemoveConnection, addr 0x44343f8, size 0x24, virtual false, abstract: false, final false
+inline void RemoveConnection(::System::Net::HttpConnection*  cnc) ;
 
-  /// @brief Method SelectAuthenticationScheme, addr 0x302b3dc, size 0x38, virtual false, abstract: false, final false
-  inline ::System::Net::AuthenticationSchemes SelectAuthenticationScheme(::System::Net::HttpListenerContext* context);
+/// @brief Method SelectAuthenticationScheme, addr 0x4436b70, size 0x38, virtual false, abstract: false, final false
+inline ::System::Net::AuthenticationSchemes SelectAuthenticationScheme(::System::Net::HttpListenerContext*  context) ;
 
-  /// @brief Method Start, addr 0x302b678, size 0x70, virtual false, abstract: false, final false
-  inline void Start();
+/// @brief Method Start, addr 0x4436e08, size 0x70, virtual false, abstract: false, final false
+inline void Start() ;
 
-  /// @brief Method Stop, addr 0x302b6e8, size 0x20, virtual false, abstract: false, final false
-  inline void Stop();
+/// @brief Method Stop, addr 0x4436e78, size 0x20, virtual false, abstract: false, final false
+inline void Stop() ;
 
-  /// @brief Method System.IDisposable.Dispose, addr 0x302b708, size 0x30, virtual true, abstract: false, final true
-  inline void System_IDisposable_Dispose();
+/// @brief Method System.IDisposable.Dispose, addr 0x4436e98, size 0x30, virtual true, abstract: false, final true
+inline void System_IDisposable_Dispose() ;
 
-  /// @brief Method UnregisterContext, addr 0x3023fe0, size 0x1c8, virtual false, abstract: false, final false
-  inline void UnregisterContext(::System::Net::HttpListenerContext* context);
+/// @brief Method UnregisterContext, addr 0x442fb58, size 0x1c8, virtual false, abstract: false, final false
+inline void UnregisterContext(::System::Net::HttpListenerContext*  context) ;
 
-  constexpr ::System::Object*& __cordl_internal_get__internalLock();
+constexpr ::System::Object*& __cordl_internal_get__internalLock() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__internalLock() const;
+constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__internalLock() const;
 
-  constexpr ::System::Net::AuthenticationSchemes const& __cordl_internal_get_auth_schemes() const;
+constexpr ::System::Net::AuthenticationSchemes const& __cordl_internal_get_auth_schemes() const;
 
-  constexpr ::System::Net::AuthenticationSchemes& __cordl_internal_get_auth_schemes();
+constexpr ::System::Net::AuthenticationSchemes& __cordl_internal_get_auth_schemes() ;
 
-  constexpr ::System::Net::AuthenticationSchemeSelector*& __cordl_internal_get_auth_selector();
+constexpr ::System::Net::AuthenticationSchemeSelector*& __cordl_internal_get_auth_selector() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::AuthenticationSchemeSelector*> const& __cordl_internal_get_auth_selector() const;
+constexpr ::cordl_internals::to_const_pointer<::System::Net::AuthenticationSchemeSelector*> const& __cordl_internal_get_auth_selector() const;
 
-  constexpr ::System::Security::Cryptography::X509Certificates::X509Certificate*& __cordl_internal_get_certificate();
+constexpr ::System::Security::Cryptography::X509Certificates::X509Certificate*& __cordl_internal_get_certificate() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::X509Certificates::X509Certificate*> const& __cordl_internal_get_certificate() const;
+constexpr ::cordl_internals::to_const_pointer<::System::Security::Cryptography::X509Certificates::X509Certificate*> const& __cordl_internal_get_certificate() const;
 
-  constexpr ::System::Collections::Hashtable*& __cordl_internal_get_connections();
+constexpr ::System::Collections::Hashtable*& __cordl_internal_get_connections() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __cordl_internal_get_connections() const;
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __cordl_internal_get_connections() const;
 
-  constexpr ::System::Collections::ArrayList*& __cordl_internal_get_ctx_queue();
+constexpr ::System::Collections::ArrayList*& __cordl_internal_get_ctx_queue() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& __cordl_internal_get_ctx_queue() const;
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& __cordl_internal_get_ctx_queue() const;
 
-  constexpr ::System::Net::ServiceNameStore*& __cordl_internal_get_defaultServiceNames();
+constexpr ::System::Net::ServiceNameStore*& __cordl_internal_get_defaultServiceNames() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::ServiceNameStore*> const& __cordl_internal_get_defaultServiceNames() const;
+constexpr ::cordl_internals::to_const_pointer<::System::Net::ServiceNameStore*> const& __cordl_internal_get_defaultServiceNames() const;
 
-  constexpr bool const& __cordl_internal_get_disposed() const;
+constexpr bool const& __cordl_internal_get_disposed() const;
 
-  constexpr bool& __cordl_internal_get_disposed();
+constexpr bool& __cordl_internal_get_disposed() ;
 
-  constexpr ::System::Security::Authentication::ExtendedProtection::ExtendedProtectionPolicy*& __cordl_internal_get_extendedProtectionPolicy();
+constexpr ::System::Security::Authentication::ExtendedProtection::ExtendedProtectionPolicy*& __cordl_internal_get_extendedProtectionPolicy() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Security::Authentication::ExtendedProtection::ExtendedProtectionPolicy*> const& __cordl_internal_get_extendedProtectionPolicy() const;
+constexpr ::cordl_internals::to_const_pointer<::System::Security::Authentication::ExtendedProtection::ExtendedProtectionPolicy*> const& __cordl_internal_get_extendedProtectionPolicy() const;
 
-  constexpr bool const& __cordl_internal_get_ignore_write_exceptions() const;
+constexpr bool const& __cordl_internal_get_ignore_write_exceptions() const;
 
-  constexpr bool& __cordl_internal_get_ignore_write_exceptions();
+constexpr bool& __cordl_internal_get_ignore_write_exceptions() ;
 
-  constexpr bool const& __cordl_internal_get_listening() const;
+constexpr bool const& __cordl_internal_get_listening() const;
 
-  constexpr bool& __cordl_internal_get_listening();
+constexpr bool& __cordl_internal_get_listening() ;
 
-  constexpr ::System::Net::HttpListenerPrefixCollection*& __cordl_internal_get_prefixes();
+constexpr ::System::Net::HttpListenerPrefixCollection*& __cordl_internal_get_prefixes() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Net::HttpListenerPrefixCollection*> const& __cordl_internal_get_prefixes() const;
+constexpr ::cordl_internals::to_const_pointer<::System::Net::HttpListenerPrefixCollection*> const& __cordl_internal_get_prefixes() const;
 
-  constexpr ::StringW const& __cordl_internal_get_realm() const;
+constexpr ::StringW const& __cordl_internal_get_realm() const;
 
-  constexpr ::StringW& __cordl_internal_get_realm();
+constexpr ::StringW& __cordl_internal_get_realm() ;
 
-  constexpr ::System::Collections::Hashtable*& __cordl_internal_get_registry();
+constexpr ::System::Collections::Hashtable*& __cordl_internal_get_registry() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __cordl_internal_get_registry() const;
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::Hashtable*> const& __cordl_internal_get_registry() const;
 
-  constexpr ::Mono::Security::Interface::MonoTlsProvider*& __cordl_internal_get_tlsProvider();
+constexpr ::Mono::Security::Interface::MonoTlsProvider*& __cordl_internal_get_tlsProvider() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::Mono::Security::Interface::MonoTlsProvider*> const& __cordl_internal_get_tlsProvider() const;
+constexpr ::cordl_internals::to_const_pointer<::Mono::Security::Interface::MonoTlsProvider*> const& __cordl_internal_get_tlsProvider() const;
 
-  constexpr ::Mono::Security::Interface::MonoTlsSettings*& __cordl_internal_get_tlsSettings();
+constexpr ::Mono::Security::Interface::MonoTlsSettings*& __cordl_internal_get_tlsSettings() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::Mono::Security::Interface::MonoTlsSettings*> const& __cordl_internal_get_tlsSettings() const;
+constexpr ::cordl_internals::to_const_pointer<::Mono::Security::Interface::MonoTlsSettings*> const& __cordl_internal_get_tlsSettings() const;
 
-  constexpr ::System::Collections::ArrayList*& __cordl_internal_get_wait_queue();
+constexpr ::System::Collections::ArrayList*& __cordl_internal_get_wait_queue() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& __cordl_internal_get_wait_queue() const;
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::ArrayList*> const& __cordl_internal_get_wait_queue() const;
 
-  constexpr void __cordl_internal_set__internalLock(::System::Object* value);
+constexpr void __cordl_internal_set__internalLock(::System::Object*  value) ;
 
-  constexpr void __cordl_internal_set_auth_schemes(::System::Net::AuthenticationSchemes value);
+constexpr void __cordl_internal_set_auth_schemes(::System::Net::AuthenticationSchemes  value) ;
 
-  constexpr void __cordl_internal_set_auth_selector(::System::Net::AuthenticationSchemeSelector* value);
+constexpr void __cordl_internal_set_auth_selector(::System::Net::AuthenticationSchemeSelector*  value) ;
 
-  constexpr void __cordl_internal_set_certificate(::System::Security::Cryptography::X509Certificates::X509Certificate* value);
+constexpr void __cordl_internal_set_certificate(::System::Security::Cryptography::X509Certificates::X509Certificate*  value) ;
 
-  constexpr void __cordl_internal_set_connections(::System::Collections::Hashtable* value);
+constexpr void __cordl_internal_set_connections(::System::Collections::Hashtable*  value) ;
 
-  constexpr void __cordl_internal_set_ctx_queue(::System::Collections::ArrayList* value);
+constexpr void __cordl_internal_set_ctx_queue(::System::Collections::ArrayList*  value) ;
 
-  constexpr void __cordl_internal_set_defaultServiceNames(::System::Net::ServiceNameStore* value);
+constexpr void __cordl_internal_set_defaultServiceNames(::System::Net::ServiceNameStore*  value) ;
 
-  constexpr void __cordl_internal_set_disposed(bool value);
+constexpr void __cordl_internal_set_disposed(bool  value) ;
 
-  constexpr void __cordl_internal_set_extendedProtectionPolicy(::System::Security::Authentication::ExtendedProtection::ExtendedProtectionPolicy* value);
+constexpr void __cordl_internal_set_extendedProtectionPolicy(::System::Security::Authentication::ExtendedProtection::ExtendedProtectionPolicy*  value) ;
 
-  constexpr void __cordl_internal_set_ignore_write_exceptions(bool value);
+constexpr void __cordl_internal_set_ignore_write_exceptions(bool  value) ;
 
-  constexpr void __cordl_internal_set_listening(bool value);
+constexpr void __cordl_internal_set_listening(bool  value) ;
 
-  constexpr void __cordl_internal_set_prefixes(::System::Net::HttpListenerPrefixCollection* value);
+constexpr void __cordl_internal_set_prefixes(::System::Net::HttpListenerPrefixCollection*  value) ;
 
-  constexpr void __cordl_internal_set_realm(::StringW value);
+constexpr void __cordl_internal_set_realm(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_registry(::System::Collections::Hashtable* value);
+constexpr void __cordl_internal_set_registry(::System::Collections::Hashtable*  value) ;
 
-  constexpr void __cordl_internal_set_tlsProvider(::Mono::Security::Interface::MonoTlsProvider* value);
+constexpr void __cordl_internal_set_tlsProvider(::Mono::Security::Interface::MonoTlsProvider*  value) ;
 
-  constexpr void __cordl_internal_set_tlsSettings(::Mono::Security::Interface::MonoTlsSettings* value);
+constexpr void __cordl_internal_set_tlsSettings(::Mono::Security::Interface::MonoTlsSettings*  value) ;
 
-  constexpr void __cordl_internal_set_wait_queue(::System::Collections::ArrayList* value);
+constexpr void __cordl_internal_set_wait_queue(::System::Collections::ArrayList*  value) ;
 
-  /// @brief Method .ctor, addr 0x3029f80, size 0x1ac, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x443573c, size 0x1a0, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_AuthenticationSchemeSelectorDelegate, addr 0x302a1c4, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Net::AuthenticationSchemeSelector* get_AuthenticationSchemeSelectorDelegate();
+/// @brief Method get_AuthenticationSchemeSelectorDelegate, addr 0x443596c, size 0x8, virtual false, abstract: false, final false
+inline ::System::Net::AuthenticationSchemeSelector* get_AuthenticationSchemeSelectorDelegate() ;
 
-  /// @brief Method get_AuthenticationSchemes, addr 0x302a1bc, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Net::AuthenticationSchemes get_AuthenticationSchemes();
+/// @brief Method get_AuthenticationSchemes, addr 0x4435964, size 0x8, virtual false, abstract: false, final false
+inline ::System::Net::AuthenticationSchemes get_AuthenticationSchemes() ;
 
-  /// @brief Method get_IgnoreWriteExceptions, addr 0x302a1cc, size 0x8, virtual false, abstract: false, final false
-  inline bool get_IgnoreWriteExceptions();
+/// @brief Method get_IgnoreWriteExceptions, addr 0x4435974, size 0x8, virtual false, abstract: false, final false
+inline bool get_IgnoreWriteExceptions() ;
 
-  /// @brief Method get_IsListening, addr 0x302a1d4, size 0x8, virtual false, abstract: false, final false
-  inline bool get_IsListening();
+/// @brief Method get_IsListening, addr 0x443597c, size 0x8, virtual false, abstract: false, final false
+inline bool get_IsListening() ;
 
-  /// @brief Method get_Prefixes, addr 0x3025ea8, size 0x18, virtual false, abstract: false, final false
-  inline ::System::Net::HttpListenerPrefixCollection* get_Prefixes();
+/// @brief Method get_Prefixes, addr 0x4431a04, size 0x18, virtual false, abstract: false, final false
+inline ::System::Net::HttpListenerPrefixCollection* get_Prefixes() ;
 
-  /// @brief Method get_Realm, addr 0x302a25c, size 0x8, virtual false, abstract: false, final false
-  inline ::StringW get_Realm();
+/// @brief Method get_Realm, addr 0x44359fc, size 0x8, virtual false, abstract: false, final false
+inline ::StringW get_Realm() ;
 
-  /// @brief Convert to "::System::IDisposable"
-  constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
+/// @brief Convert to "::System::IDisposable"
+constexpr ::System::IDisposable* i___System__IDisposable() noexcept;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr HttpListener();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr HttpListener() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "HttpListener", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  HttpListener(HttpListener&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "HttpListener", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  HttpListener(HttpListener const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "HttpListener", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+HttpListener(HttpListener && ) = delete;
 
-  /// @brief Field tlsProvider, offset: 0x10, size: 0x8, def value: None
-  ::Mono::Security::Interface::MonoTlsProvider* ___tlsProvider;
+// Ctor Parameters [CppParam { name: "", ty: "HttpListener", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+HttpListener(HttpListener const& ) = delete;
 
-  /// @brief Field tlsSettings, offset: 0x18, size: 0x8, def value: None
-  ::Mono::Security::Interface::MonoTlsSettings* ___tlsSettings;
+/// @brief Field tlsProvider, offset: 0x10, size: 0x8, def value: None
+ ::Mono::Security::Interface::MonoTlsProvider*  ___tlsProvider;
 
-  /// @brief Field certificate, offset: 0x20, size: 0x8, def value: None
-  ::System::Security::Cryptography::X509Certificates::X509Certificate* ___certificate;
+/// @brief Field tlsSettings, offset: 0x18, size: 0x8, def value: None
+ ::Mono::Security::Interface::MonoTlsSettings*  ___tlsSettings;
 
-  /// @brief Field auth_schemes, offset: 0x28, size: 0x4, def value: None
-  ::System::Net::AuthenticationSchemes ___auth_schemes;
+/// @brief Field certificate, offset: 0x20, size: 0x8, def value: None
+ ::System::Security::Cryptography::X509Certificates::X509Certificate*  ___certificate;
 
-  /// @brief Field prefixes, offset: 0x30, size: 0x8, def value: None
-  ::System::Net::HttpListenerPrefixCollection* ___prefixes;
+/// @brief Field auth_schemes, offset: 0x28, size: 0x4, def value: None
+ ::System::Net::AuthenticationSchemes  ___auth_schemes;
 
-  /// @brief Field auth_selector, offset: 0x38, size: 0x8, def value: None
-  ::System::Net::AuthenticationSchemeSelector* ___auth_selector;
+/// @brief Field prefixes, offset: 0x30, size: 0x8, def value: None
+ ::System::Net::HttpListenerPrefixCollection*  ___prefixes;
 
-  /// @brief Field realm, offset: 0x40, size: 0x8, def value: None
-  ::StringW ___realm;
+/// @brief Field auth_selector, offset: 0x38, size: 0x8, def value: None
+ ::System::Net::AuthenticationSchemeSelector*  ___auth_selector;
 
-  /// @brief Field ignore_write_exceptions, offset: 0x48, size: 0x1, def value: None
-  bool ___ignore_write_exceptions;
+/// @brief Field realm, offset: 0x40, size: 0x8, def value: None
+ ::StringW  ___realm;
 
-  /// @brief Field listening, offset: 0x49, size: 0x1, def value: None
-  bool ___listening;
+/// @brief Field ignore_write_exceptions, offset: 0x48, size: 0x1, def value: None
+ bool  ___ignore_write_exceptions;
 
-  /// @brief Field disposed, offset: 0x4a, size: 0x1, def value: None
-  bool ___disposed;
+/// @brief Field listening, offset: 0x49, size: 0x1, def value: None
+ bool  ___listening;
 
-  /// @brief Field _internalLock, offset: 0x50, size: 0x8, def value: None
-  ::System::Object* ____internalLock;
+/// @brief Field disposed, offset: 0x4a, size: 0x1, def value: None
+ bool  ___disposed;
 
-  /// @brief Field registry, offset: 0x58, size: 0x8, def value: None
-  ::System::Collections::Hashtable* ___registry;
+/// @brief Field _internalLock, offset: 0x50, size: 0x8, def value: None
+ ::System::Object*  ____internalLock;
 
-  /// @brief Field ctx_queue, offset: 0x60, size: 0x8, def value: None
-  ::System::Collections::ArrayList* ___ctx_queue;
+/// @brief Field registry, offset: 0x58, size: 0x8, def value: None
+ ::System::Collections::Hashtable*  ___registry;
 
-  /// @brief Field wait_queue, offset: 0x68, size: 0x8, def value: None
-  ::System::Collections::ArrayList* ___wait_queue;
+/// @brief Field ctx_queue, offset: 0x60, size: 0x8, def value: None
+ ::System::Collections::ArrayList*  ___ctx_queue;
 
-  /// @brief Field connections, offset: 0x70, size: 0x8, def value: None
-  ::System::Collections::Hashtable* ___connections;
+/// @brief Field wait_queue, offset: 0x68, size: 0x8, def value: None
+ ::System::Collections::ArrayList*  ___wait_queue;
 
-  /// @brief Field defaultServiceNames, offset: 0x78, size: 0x8, def value: None
-  ::System::Net::ServiceNameStore* ___defaultServiceNames;
+/// @brief Field connections, offset: 0x70, size: 0x8, def value: None
+ ::System::Collections::Hashtable*  ___connections;
 
-  /// @brief Field extendedProtectionPolicy, offset: 0x80, size: 0x8, def value: None
-  ::System::Security::Authentication::ExtendedProtection::ExtendedProtectionPolicy* ___extendedProtectionPolicy;
+/// @brief Field defaultServiceNames, offset: 0x78, size: 0x8, def value: None
+ ::System::Net::ServiceNameStore*  ___defaultServiceNames;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field extendedProtectionPolicy, offset: 0x80, size: 0x8, def value: None
+ ::System::Security::Authentication::ExtendedProtection::ExtendedProtectionPolicy*  ___extendedProtectionPolicy;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Net::HttpListener, 0x88>, "Size mismatch!");
@@ -435,6 +434,6 @@ static_assert(offsetof(::System::Net::HttpListener, ___defaultServiceNames) == 0
 
 static_assert(offsetof(::System::Net::HttpListener, ___extendedProtectionPolicy) == 0x80, "Offset mismatch!");
 
-} // namespace System::Net
+} // namespace end def System::Net
 NEED_NO_BOX(::System::Net::HttpListener);
 DEFINE_IL2CPP_ARG_TYPE(::System::Net::HttpListener*, "System.Net", "HttpListener");

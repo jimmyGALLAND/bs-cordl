@@ -19,7 +19,8 @@ namespace GlobalNamespace {
 struct __ListLogger__LogType;
 }
 namespace System::Collections::Generic {
-template <typename T> class List_1;
+template<typename T>
+class List_1;
 }
 namespace System {
 class Exception;
@@ -42,133 +43,133 @@ MARK_VAL_T(::GlobalNamespace::__ListLogger__LogType);
 MARK_REF_PTR_T(::GlobalNamespace::ListLogger);
 MARK_REF_PTR_T(::GlobalNamespace::__ListLogger__LogMessage);
 // Type: ::LogType
-// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, natural_alignment: 4, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 4, native_size: 4, calculated_instance_size: 4, calculated_native_size: 20, minimum_alignment: 4, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: true
 // CS Name: ::ListLogger::LogType
 struct CORDL_TYPE __ListLogger__LogType {
 public:
-  // Declarations
-  using __CORDL_BACKING_ENUM_TYPE = int32_t;
+// Declarations
+using __CORDL_BACKING_ENUM_TYPE = int32_t;
 
-  /// @brief Nested struct ____ListLogger__LogType_Unwrapped
-  enum struct ____ListLogger__LogType_Unwrapped : int32_t {
-    __E_Info = static_cast<int32_t>(0x0),
-    __E_Warning = static_cast<int32_t>(0x1),
-    __E_Error = static_cast<int32_t>(0x2),
-    __E_Exception = static_cast<int32_t>(0x3),
-  };
+/// @brief Nested struct ____ListLogger__LogType_Unwrapped
+enum struct ____ListLogger__LogType_Unwrapped : int32_t {
+__E_Info = static_cast<int32_t>(0x0),
+__E_Warning = static_cast<int32_t>(0x1),
+__E_Error = static_cast<int32_t>(0x2),
+__E_Exception = static_cast<int32_t>(0x3),
+};
 
-  /// @brief Conversion into unwrapped enum value
-  constexpr operator ____ListLogger__LogType_Unwrapped() const noexcept {
-    return static_cast<____ListLogger__LogType_Unwrapped>(this->value__);
-  }
+/// @brief Conversion into unwrapped enum value
+constexpr operator ____ListLogger__LogType_Unwrapped () const noexcept {
+return static_cast<____ListLogger__LogType_Unwrapped>(this->value__);
+}
 
-  /// @brief Conversion into unwrapped enum value
-  constexpr explicit operator int32_t() const noexcept {
-    return static_cast<int32_t>(this->value__);
-  }
+/// @brief Conversion into unwrapped enum value
+constexpr explicit operator int32_t () const noexcept {
+return static_cast<int32_t>(this->value__);
+}
 
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __ListLogger__LogType();
+// Ctor Parameters []
+// @brief default ctor
+constexpr __ListLogger__LogType() ;
 
-  // Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
-  constexpr __ListLogger__LogType(int32_t value__) noexcept;
+// Ctor Parameters [CppParam { name: "value__", ty: "int32_t", modifiers: "", def_value: None }]
+constexpr __ListLogger__LogType(int32_t  value__) noexcept;
 
-  /// @brief Field value__, offset: 0x0, size: 0x4, def value: None
-  int32_t value__;
+/// @brief Field value__, offset: 0x0, size: 0x4, def value: None
+ int32_t  value__;
 
-  /// @brief Field Error value: static_cast<int32_t>(0x2)
-  static ::GlobalNamespace::__ListLogger__LogType const Error;
+/// @brief Field Error value: static_cast<int32_t>(0x2)
+static ::GlobalNamespace::__ListLogger__LogType const Error;
 
-  /// @brief Field Exception value: static_cast<int32_t>(0x3)
-  static ::GlobalNamespace::__ListLogger__LogType const Exception;
+/// @brief Field Exception value: static_cast<int32_t>(0x3)
+static ::GlobalNamespace::__ListLogger__LogType const Exception;
 
-  /// @brief Field Info value: static_cast<int32_t>(0x0)
-  static ::GlobalNamespace::__ListLogger__LogType const Info;
+/// @brief Field Info value: static_cast<int32_t>(0x0)
+static ::GlobalNamespace::__ListLogger__LogType const Info;
 
-  /// @brief Field Warning value: static_cast<int32_t>(0x1)
-  static ::GlobalNamespace::__ListLogger__LogType const Warning;
+/// @brief Field Warning value: static_cast<int32_t>(0x1)
+static ::GlobalNamespace::__ListLogger__LogType const Warning;
 
-  /// @brief The size of the true value type
-  static constexpr auto __IL2CPP_VALUE_TYPE_SIZE{ 0x4 };
+/// @brief The size of the true value type
+static constexpr auto  __IL2CPP_VALUE_TYPE_SIZE{0x4};
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = true;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__ListLogger__LogType, 0x4>, "Size mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::__ListLogger__LogType, value__) == 0x0, "Offset mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 // Type: ::LogMessage
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 40, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::ListLogger::LogMessage*
 class CORDL_TYPE __ListLogger__LogMessage : public ::System::Object {
 public:
-  // Declarations
-  /// @brief Field context, offset 0x20, size 0x8
-  __declspec(property(get = __cordl_internal_get_context, put = __cordl_internal_set_context))::System::Object* context;
+// Declarations
+/// @brief Field context, offset 0x20, size 0x8 
+ __declspec(property(get=__cordl_internal_get_context, put=__cordl_internal_set_context)) ::System::Object*  context;
 
-  /// @brief Field message, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get_message, put = __cordl_internal_set_message))::StringW message;
+/// @brief Field message, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get_message, put=__cordl_internal_set_message)) ::StringW  message;
 
-  /// @brief Field type, offset 0x10, size 0x4
-  __declspec(property(get = __cordl_internal_get_type, put = __cordl_internal_set_type))::GlobalNamespace::__ListLogger__LogType type;
+/// @brief Field type, offset 0x10, size 0x4 
+ __declspec(property(get=__cordl_internal_get_type, put=__cordl_internal_set_type)) ::GlobalNamespace::__ListLogger__LogType  type;
 
-  static inline ::GlobalNamespace::__ListLogger__LogMessage* New_ctor(::GlobalNamespace::__ListLogger__LogType type, ::StringW message, ::System::Object* context);
+static inline ::GlobalNamespace::__ListLogger__LogMessage* New_ctor(::GlobalNamespace::__ListLogger__LogType  type, ::StringW  message, ::System::Object*  context) ;
 
-  /// @brief Method ToString, addr 0x26afd74, size 0x88, virtual true, abstract: false, final false
-  inline ::StringW ToString();
+/// @brief Method ToString, addr 0x3a8d774, size 0x88, virtual true, abstract: false, final false
+inline ::StringW ToString() ;
 
-  constexpr ::System::Object*& __cordl_internal_get_context();
+constexpr ::System::Object*& __cordl_internal_get_context() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_context() const;
+constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get_context() const;
 
-  constexpr ::StringW const& __cordl_internal_get_message() const;
+constexpr ::StringW const& __cordl_internal_get_message() const;
 
-  constexpr ::StringW& __cordl_internal_get_message();
+constexpr ::StringW& __cordl_internal_get_message() ;
 
-  constexpr ::GlobalNamespace::__ListLogger__LogType const& __cordl_internal_get_type() const;
+constexpr ::GlobalNamespace::__ListLogger__LogType const& __cordl_internal_get_type() const;
 
-  constexpr ::GlobalNamespace::__ListLogger__LogType& __cordl_internal_get_type();
+constexpr ::GlobalNamespace::__ListLogger__LogType& __cordl_internal_get_type() ;
 
-  constexpr void __cordl_internal_set_context(::System::Object* value);
+constexpr void __cordl_internal_set_context(::System::Object*  value) ;
 
-  constexpr void __cordl_internal_set_message(::StringW value);
+constexpr void __cordl_internal_set_message(::StringW  value) ;
 
-  constexpr void __cordl_internal_set_type(::GlobalNamespace::__ListLogger__LogType value);
+constexpr void __cordl_internal_set_type(::GlobalNamespace::__ListLogger__LogType  value) ;
 
-  /// @brief Method .ctor, addr 0x26afa28, size 0x3c, virtual false, abstract: false, final false
-  inline void _ctor(::GlobalNamespace::__ListLogger__LogType type, ::StringW message, ::System::Object* context);
+/// @brief Method .ctor, addr 0x3a8d440, size 0x3c, virtual false, abstract: false, final false
+inline void _ctor(::GlobalNamespace::__ListLogger__LogType  type, ::StringW  message, ::System::Object*  context) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __ListLogger__LogMessage();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __ListLogger__LogMessage() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__ListLogger__LogMessage", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __ListLogger__LogMessage(__ListLogger__LogMessage&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__ListLogger__LogMessage", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __ListLogger__LogMessage(__ListLogger__LogMessage const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__ListLogger__LogMessage", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__ListLogger__LogMessage(__ListLogger__LogMessage && ) = delete;
 
-  /// @brief Field type, offset: 0x10, size: 0x4, def value: None
-  ::GlobalNamespace::__ListLogger__LogType ___type;
+// Ctor Parameters [CppParam { name: "", ty: "__ListLogger__LogMessage", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__ListLogger__LogMessage(__ListLogger__LogMessage const& ) = delete;
 
-  /// @brief Field message, offset: 0x18, size: 0x8, def value: None
-  ::StringW ___message;
+/// @brief Field type, offset: 0x10, size: 0x4, def value: None
+ ::GlobalNamespace::__ListLogger__LogType  ___type;
 
-  /// @brief Field context, offset: 0x20, size: 0x8, def value: None
-  ::System::Object* ___context;
+/// @brief Field message, offset: 0x18, size: 0x8, def value: None
+ ::StringW  ___message;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field context, offset: 0x20, size: 0x8, def value: None
+ ::System::Object*  ___context;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::__ListLogger__LogMessage, 0x28>, "Size mismatch!");
@@ -179,93 +180,93 @@ static_assert(offsetof(::GlobalNamespace::__ListLogger__LogMessage, ___message) 
 
 static_assert(offsetof(::GlobalNamespace::__ListLogger__LogMessage, ___context) == 0x20, "Offset mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 // Type: ::ListLogger
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace GlobalNamespace {
 // Is value type: false
 // CS Name: ::ListLogger*
 class CORDL_TYPE ListLogger : public ::System::Object {
 public:
-  // Declarations
-  using LogMessage = ::GlobalNamespace::__ListLogger__LogMessage;
+// Declarations
+using LogMessage = ::GlobalNamespace::__ListLogger__LogMessage;
 
-  using LogType = ::GlobalNamespace::__ListLogger__LogType;
+using LogType = ::GlobalNamespace::__ListLogger__LogType;
 
-  /// @brief Field _messages, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__messages, put = __cordl_internal_set__messages))::System::Collections::Generic::List_1<::GlobalNamespace::__ListLogger__LogMessage*>* _messages;
+/// @brief Field _messages, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get__messages, put=__cordl_internal_set__messages)) ::System::Collections::Generic::List_1<::GlobalNamespace::__ListLogger__LogMessage*>*  _messages;
 
-  __declspec(property(get = get_messages))::System::Collections::Generic::List_1<::GlobalNamespace::__ListLogger__LogMessage*>* messages;
+ __declspec(property(get=get_messages)) ::System::Collections::Generic::List_1<::GlobalNamespace::__ListLogger__LogMessage*>*  messages;
 
-  /// @brief Convert operator to "::GlobalNamespace::IBeatSaberLogger"
-  constexpr operator ::GlobalNamespace::IBeatSaberLogger*() noexcept;
+/// @brief Convert operator to "::GlobalNamespace::IBeatSaberLogger"
+constexpr operator  ::GlobalNamespace::IBeatSaberLogger*() noexcept;
 
-  /// @brief Method Log, addr 0x26af930, size 0x8, virtual true, abstract: false, final true
-  inline void Log(::StringW message);
+/// @brief Method Log, addr 0x3a8d350, size 0x8, virtual true, abstract: false, final true
+inline void Log(::StringW  message) ;
 
-  /// @brief Method Log, addr 0x26af938, size 0xf0, virtual true, abstract: false, final true
-  inline void Log(::StringW message, ::System::Object* context);
+/// @brief Method Log, addr 0x3a8d358, size 0xe8, virtual true, abstract: false, final true
+inline void Log(::StringW  message, ::System::Object*  context) ;
 
-  /// @brief Method LogError, addr 0x26afb60, size 0x8, virtual true, abstract: false, final true
-  inline void LogError(::StringW message);
+/// @brief Method LogError, addr 0x3a8d570, size 0x8, virtual true, abstract: false, final true
+inline void LogError(::StringW  message) ;
 
-  /// @brief Method LogError, addr 0x26afb68, size 0xf4, virtual true, abstract: false, final true
-  inline void LogError(::StringW message, ::System::Object* context);
+/// @brief Method LogError, addr 0x3a8d578, size 0xec, virtual true, abstract: false, final true
+inline void LogError(::StringW  message, ::System::Object*  context) ;
 
-  /// @brief Method LogException, addr 0x26afc5c, size 0x8, virtual true, abstract: false, final true
-  inline void LogException(::System::Exception* exception);
+/// @brief Method LogException, addr 0x3a8d664, size 0x8, virtual true, abstract: false, final true
+inline void LogException(::System::Exception*  exception) ;
 
-  /// @brief Method LogException, addr 0x26afc64, size 0x110, virtual true, abstract: false, final true
-  inline void LogException(::System::Exception* exception, ::System::Object* context);
+/// @brief Method LogException, addr 0x3a8d66c, size 0x108, virtual true, abstract: false, final true
+inline void LogException(::System::Exception*  exception, ::System::Object*  context) ;
 
-  /// @brief Method LogWarning, addr 0x26afa64, size 0x8, virtual true, abstract: false, final true
-  inline void LogWarning(::StringW message);
+/// @brief Method LogWarning, addr 0x3a8d47c, size 0x8, virtual true, abstract: false, final true
+inline void LogWarning(::StringW  message) ;
 
-  /// @brief Method LogWarning, addr 0x26afa6c, size 0xf4, virtual true, abstract: false, final true
-  inline void LogWarning(::StringW message, ::System::Object* context);
+/// @brief Method LogWarning, addr 0x3a8d484, size 0xec, virtual true, abstract: false, final true
+inline void LogWarning(::StringW  message, ::System::Object*  context) ;
 
-  static inline ::GlobalNamespace::ListLogger* New_ctor();
+static inline ::GlobalNamespace::ListLogger* New_ctor() ;
 
-  constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__ListLogger__LogMessage*>*& __cordl_internal_get__messages();
+constexpr ::System::Collections::Generic::List_1<::GlobalNamespace::__ListLogger__LogMessage*>*& __cordl_internal_get__messages() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__ListLogger__LogMessage*>*> const& __cordl_internal_get__messages() const;
+constexpr ::cordl_internals::to_const_pointer<::System::Collections::Generic::List_1<::GlobalNamespace::__ListLogger__LogMessage*>*> const& __cordl_internal_get__messages() const;
 
-  constexpr void __cordl_internal_set__messages(::System::Collections::Generic::List_1<::GlobalNamespace::__ListLogger__LogMessage*>* value);
+constexpr void __cordl_internal_set__messages(::System::Collections::Generic::List_1<::GlobalNamespace::__ListLogger__LogMessage*>*  value) ;
 
-  /// @brief Method .ctor, addr 0x26af8b0, size 0x80, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x3a8d2d0, size 0x80, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_messages, addr 0x26af8a8, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Collections::Generic::List_1<::GlobalNamespace::__ListLogger__LogMessage*>* get_messages();
+/// @brief Method get_messages, addr 0x3a8d2c8, size 0x8, virtual false, abstract: false, final false
+inline ::System::Collections::Generic::List_1<::GlobalNamespace::__ListLogger__LogMessage*>* get_messages() ;
 
-  /// @brief Convert to "::GlobalNamespace::IBeatSaberLogger"
-  constexpr ::GlobalNamespace::IBeatSaberLogger* i___GlobalNamespace__IBeatSaberLogger() noexcept;
+/// @brief Convert to "::GlobalNamespace::IBeatSaberLogger"
+constexpr ::GlobalNamespace::IBeatSaberLogger* i___GlobalNamespace__IBeatSaberLogger() noexcept;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr ListLogger();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr ListLogger() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "ListLogger", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  ListLogger(ListLogger&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "ListLogger", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  ListLogger(ListLogger const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "ListLogger", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+ListLogger(ListLogger && ) = delete;
 
-  /// @brief Field _messages, offset: 0x10, size: 0x8, def value: None
-  ::System::Collections::Generic::List_1<::GlobalNamespace::__ListLogger__LogMessage*>* ____messages;
+// Ctor Parameters [CppParam { name: "", ty: "ListLogger", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+ListLogger(ListLogger const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _messages, offset: 0x10, size: 0x8, def value: None
+ ::System::Collections::Generic::List_1<::GlobalNamespace::__ListLogger__LogMessage*>*  ____messages;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::GlobalNamespace::ListLogger, 0x18>, "Size mismatch!");
 
 static_assert(offsetof(::GlobalNamespace::ListLogger, ____messages) == 0x10, "Offset mismatch!");
 
-} // namespace GlobalNamespace
+} // namespace end def GlobalNamespace
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::__ListLogger__LogType, "", "ListLogger/LogType");
 NEED_NO_BOX(::GlobalNamespace::ListLogger);
 DEFINE_IL2CPP_ARG_TYPE(::GlobalNamespace::ListLogger*, "", "ListLogger");

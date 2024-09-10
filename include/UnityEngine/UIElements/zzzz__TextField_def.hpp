@@ -21,6 +21,9 @@ namespace UnityEngine::UIElements {
 class UxmlBoolAttributeDescription;
 }
 namespace UnityEngine::UIElements {
+class UxmlStringAttributeDescription;
+}
+namespace UnityEngine::UIElements {
 class VisualElement;
 }
 namespace UnityEngine::UIElements {
@@ -51,262 +54,247 @@ MARK_REF_PTR_T(::UnityEngine::UIElements::__TextField__TextInput);
 MARK_REF_PTR_T(::UnityEngine::UIElements::__TextField__UxmlFactory);
 MARK_REF_PTR_T(::UnityEngine::UIElements::__TextField__UxmlTraits);
 // Type: ::UxmlFactory
-// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 24, native_size: -1, calculated_instance_size: 24, calculated_native_size: 24, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: ::TextField::UxmlFactory*
-class CORDL_TYPE __TextField__UxmlFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::TextField*, ::UnityEngine::UIElements::__TextField__UxmlTraits*> {
+class CORDL_TYPE __TextField__UxmlFactory : public ::UnityEngine::UIElements::UxmlFactory_2<::UnityEngine::UIElements::TextField*,::UnityEngine::UIElements::__TextField__UxmlTraits*> {
 public:
-  // Declarations
-  static inline ::UnityEngine::UIElements::__TextField__UxmlFactory* New_ctor();
+// Declarations
+static inline ::UnityEngine::UIElements::__TextField__UxmlFactory* New_ctor() ;
 
-  /// @brief Method .ctor, addr 0x35c050c, size 0x48, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x4959830, size 0x48, virtual false, abstract: false, final false
+inline void _ctor() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __TextField__UxmlFactory();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __TextField__UxmlFactory() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__TextField__UxmlFactory", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __TextField__UxmlFactory(__TextField__UxmlFactory&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__TextField__UxmlFactory", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __TextField__UxmlFactory(__TextField__UxmlFactory const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__TextField__UxmlFactory", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__TextField__UxmlFactory(__TextField__UxmlFactory && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "__TextField__UxmlFactory", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__TextField__UxmlFactory(__TextField__UxmlFactory const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__TextField__UxmlFactory, 0x18>, "Size mismatch!");
 
-} // namespace UnityEngine::UIElements
+} // namespace end def UnityEngine::UIElements
 // Type: ::UxmlTraits
-// SizeInfo { instance_size: 192, native_size: -1, calculated_instance_size: 192, calculated_native_size: 192, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 208, native_size: -1, calculated_instance_size: 208, calculated_native_size: 208, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: ::TextField::UxmlTraits*
 class CORDL_TYPE __TextField__UxmlTraits : public ::UnityEngine::UIElements::__TextInputBaseField_1__UxmlTraits<::StringW> {
 public:
-  // Declarations
-  /// @brief Field m_Multiline, offset 0xb8, size 0x8
-  __declspec(property(get = __cordl_internal_get_m_Multiline, put = __cordl_internal_set_m_Multiline))::UnityEngine::UIElements::UxmlBoolAttributeDescription* m_Multiline;
+// Declarations
+/// @brief Field k_Value, offset 0xffffffff, size 0x8 
+static __declspec(property(get=getStaticF_k_Value, put=setStaticF_k_Value)) ::UnityEngine::UIElements::UxmlStringAttributeDescription*  k_Value;
 
-  /// @brief Method Init, addr 0x35c0554, size 0x114, virtual true, abstract: false, final false
-  inline void Init(::UnityEngine::UIElements::VisualElement* ve, ::UnityEngine::UIElements::IUxmlAttributes* bag, ::UnityEngine::UIElements::CreationContext cc);
+/// @brief Field m_Multiline, offset 0xc8, size 0x8 
+ __declspec(property(get=__cordl_internal_get_m_Multiline, put=__cordl_internal_set_m_Multiline)) ::UnityEngine::UIElements::UxmlBoolAttributeDescription*  m_Multiline;
 
-  static inline ::UnityEngine::UIElements::__TextField__UxmlTraits* New_ctor();
+/// @brief Method Init, addr 0x4959878, size 0x1b8, virtual true, abstract: false, final false
+inline void Init(::UnityEngine::UIElements::VisualElement*  ve, ::UnityEngine::UIElements::IUxmlAttributes*  bag, ::UnityEngine::UIElements::CreationContext  cc) ;
 
-  constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription*& __cordl_internal_get_m_Multiline();
+static inline ::UnityEngine::UIElements::__TextField__UxmlTraits* New_ctor() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlBoolAttributeDescription*> const& __cordl_internal_get_m_Multiline() const;
+constexpr ::UnityEngine::UIElements::UxmlBoolAttributeDescription*& __cordl_internal_get_m_Multiline() ;
 
-  constexpr void __cordl_internal_set_m_Multiline(::UnityEngine::UIElements::UxmlBoolAttributeDescription* value);
+constexpr ::cordl_internals::to_const_pointer<::UnityEngine::UIElements::UxmlBoolAttributeDescription*> const& __cordl_internal_get_m_Multiline() const;
 
-  /// @brief Method .ctor, addr 0x35c0668, size 0xa0, virtual false, abstract: false, final false
-  inline void _ctor();
+constexpr void __cordl_internal_set_m_Multiline(::UnityEngine::UIElements::UxmlBoolAttributeDescription*  value) ;
+
+/// @brief Method .ctor, addr 0x4959a30, size 0x98, virtual false, abstract: false, final false
+inline void _ctor() ;
+
+static inline ::UnityEngine::UIElements::UxmlStringAttributeDescription* getStaticF_k_Value() ;
+
+static inline void setStaticF_k_Value(::UnityEngine::UIElements::UxmlStringAttributeDescription*  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __TextField__UxmlTraits();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __TextField__UxmlTraits() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__TextField__UxmlTraits", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __TextField__UxmlTraits(__TextField__UxmlTraits&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__TextField__UxmlTraits", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __TextField__UxmlTraits(__TextField__UxmlTraits const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__TextField__UxmlTraits", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__TextField__UxmlTraits(__TextField__UxmlTraits && ) = delete;
 
-  /// @brief Field m_Multiline, offset: 0xb8, size: 0x8, def value: None
-  ::UnityEngine::UIElements::UxmlBoolAttributeDescription* ___m_Multiline;
+// Ctor Parameters [CppParam { name: "", ty: "__TextField__UxmlTraits", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__TextField__UxmlTraits(__TextField__UxmlTraits const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field m_Multiline, offset: 0xc8, size: 0x8, def value: None
+ ::UnityEngine::UIElements::UxmlBoolAttributeDescription*  ___m_Multiline;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__TextField__UxmlTraits, 0xc0>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__TextField__UxmlTraits, 0xd0>, "Size mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::__TextField__UxmlTraits, ___m_Multiline) == 0xb8, "Offset mismatch!");
+static_assert(offsetof(::UnityEngine::UIElements::__TextField__UxmlTraits, ___m_Multiline) == 0xc8, "Offset mismatch!");
 
-} // namespace UnityEngine::UIElements
+} // namespace end def UnityEngine::UIElements
 // Type: ::TextInput
-// SizeInfo { instance_size: 1048, native_size: -1, calculated_instance_size: 1048, calculated_native_size: 1041, minimum_alignment: 8, natural_alignment: 1, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 1024, native_size: -1, calculated_instance_size: 1024, calculated_native_size: 1020, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: ::TextField::TextInput*
 class CORDL_TYPE __TextField__TextInput : public ::UnityEngine::UIElements::__TextInputBaseField_1__TextInputBase<::StringW> {
 public:
-  // Declarations
-  __declspec(property(put = set_isPasswordField)) bool isPasswordField;
+// Declarations
+ __declspec(property(put=set_isPasswordField)) bool  isPasswordField;
 
-  /// @brief Field m_Multiline, offset 0x410, size 0x1
-  __declspec(property(get = __cordl_internal_get_m_Multiline, put = __cordl_internal_set_m_Multiline)) bool m_Multiline;
+ __declspec(property(put=set_multiline)) bool  multiline;
 
-  __declspec(property(get = get_multiline, put = set_multiline)) bool multiline;
+static inline ::UnityEngine::UIElements::__TextField__TextInput* New_ctor() ;
 
-  __declspec(property(get = get_parentTextField))::UnityEngine::UIElements::TextField* parentTextField;
+/// @brief Method StringToValue, addr 0x4959c30, size 0x8, virtual true, abstract: false, final false
+inline ::StringW StringToValue(::StringW  str) ;
 
-  /// @brief Method ExecuteDefaultAction, addr 0x35c1054, size 0x18c, virtual true, abstract: false, final false
-  inline void ExecuteDefaultAction(::UnityEngine::UIElements::EventBase* evt);
+/// @brief Method .ctor, addr 0x49591f4, size 0x6c, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method ExecuteDefaultActionAtTarget, addr 0x35c0924, size 0x730, virtual true, abstract: false, final false
-  inline void ExecuteDefaultActionAtTarget(::UnityEngine::UIElements::EventBase* evt);
+/// @brief Method set_isPasswordField, addr 0x4959bb8, size 0x78, virtual true, abstract: false, final false
+inline void set_isPasswordField(bool  value) ;
 
-  static inline ::UnityEngine::UIElements::__TextField__TextInput* New_ctor();
-
-  /// @brief Method SetTextAlign, addr 0x35c0790, size 0xa0, virtual false, abstract: false, final false
-  inline void SetTextAlign();
-
-  /// @brief Method StringToValue, addr 0x35c088c, size 0x8, virtual true, abstract: false, final false
-  inline ::StringW StringToValue(::StringW str);
-
-  /// @brief Method SyncTextEngine, addr 0x35c0894, size 0x90, virtual true, abstract: false, final false
-  inline void SyncTextEngine();
-
-  constexpr bool const& __cordl_internal_get_m_Multiline() const;
-
-  constexpr bool& __cordl_internal_get_m_Multiline();
-
-  constexpr void __cordl_internal_set_m_Multiline(bool value);
-
-  /// @brief Method .ctor, addr 0x35c01b0, size 0x48, virtual false, abstract: false, final false
-  inline void _ctor();
-
-  /// @brief Method get_multiline, addr 0x35c0788, size 0x8, virtual false, abstract: false, final false
-  inline bool get_multiline();
-
-  /// @brief Method get_parentTextField, addr 0x35c0708, size 0x80, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::TextField* get_parentTextField();
-
-  /// @brief Method set_isPasswordField, addr 0x35c0830, size 0x5c, virtual true, abstract: false, final false
-  inline void set_isPasswordField(bool value);
-
-  /// @brief Method set_multiline, addr 0x35bfedc, size 0xcc, virtual false, abstract: false, final false
-  inline void set_multiline(bool value);
+/// @brief Method set_multiline, addr 0x4958db8, size 0x230, virtual false, abstract: false, final false
+inline void set_multiline(bool  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr __TextField__TextInput();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr __TextField__TextInput() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "__TextField__TextInput", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  __TextField__TextInput(__TextField__TextInput&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "__TextField__TextInput", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  __TextField__TextInput(__TextField__TextInput const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "__TextField__TextInput", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+__TextField__TextInput(__TextField__TextInput && ) = delete;
 
-  /// @brief Field m_Multiline, offset: 0x410, size: 0x1, def value: None
-  bool ___m_Multiline;
+// Ctor Parameters [CppParam { name: "", ty: "__TextField__TextInput", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+__TextField__TextInput(__TextField__TextInput const& ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__TextField__TextInput, 0x418>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::__TextField__TextInput, 0x400>, "Size mismatch!");
 
-static_assert(offsetof(::UnityEngine::UIElements::__TextField__TextInput, ___m_Multiline) == 0x410, "Offset mismatch!");
-
-} // namespace UnityEngine::UIElements
+} // namespace end def UnityEngine::UIElements
 // Type: UnityEngine.UIElements::TextField
-// SizeInfo { instance_size: 1056, native_size: -1, calculated_instance_size: 1056, calculated_native_size: 1056, minimum_alignment: 8, natural_alignment: 0, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 1112, native_size: -1, calculated_instance_size: 1112, calculated_native_size: 1112, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace UnityEngine::UIElements {
 // Is value type: false
 // CS Name: ::UnityEngine.UIElements::TextField*
 class CORDL_TYPE TextField : public ::UnityEngine::UIElements::TextInputBaseField_1<::StringW> {
 public:
-  // Declarations
-  using TextInput = ::UnityEngine::UIElements::__TextField__TextInput;
+// Declarations
+using TextInput = ::UnityEngine::UIElements::__TextField__TextInput;
 
-  using UxmlFactory = ::UnityEngine::UIElements::__TextField__UxmlFactory;
+using UxmlFactory = ::UnityEngine::UIElements::__TextField__UxmlFactory;
 
-  using UxmlTraits = ::UnityEngine::UIElements::__TextField__UxmlTraits;
+using UxmlTraits = ::UnityEngine::UIElements::__TextField__UxmlTraits;
 
-  /// @brief Field inputUssClassName, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_inputUssClassName, put = setStaticF_inputUssClassName))::StringW inputUssClassName;
+/// @brief Field inputUssClassName, offset 0xffffffff, size 0x8 
+static __declspec(property(get=getStaticF_inputUssClassName, put=setStaticF_inputUssClassName)) ::StringW  inputUssClassName;
 
-  /// @brief Field labelUssClassName, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_labelUssClassName, put = setStaticF_labelUssClassName))::StringW labelUssClassName;
+/// @brief Field labelUssClassName, offset 0xffffffff, size 0x8 
+static __declspec(property(get=getStaticF_labelUssClassName, put=setStaticF_labelUssClassName)) ::StringW  labelUssClassName;
 
-  __declspec(property(put = set_multiline)) bool multiline;
+ __declspec(property(put=set_multiline)) bool  multiline;
 
-  __declspec(property(get = get_textInput))::UnityEngine::UIElements::__TextField__TextInput* textInput;
+ __declspec(property(get=get_textInput)) ::UnityEngine::UIElements::__TextField__TextInput*  textInput;
 
-  /// @brief Field ussClassName, offset 0xffffffff, size 0x8
-  static __declspec(property(get = getStaticF_ussClassName, put = setStaticF_ussClassName))::StringW ussClassName;
+/// @brief Field ussClassName, offset 0xffffffff, size 0x8 
+static __declspec(property(get=getStaticF_ussClassName, put=setStaticF_ussClassName)) ::StringW  ussClassName;
 
-  __declspec(property(get = get_value, put = set_value))::StringW value;
+ __declspec(property(get=get_value, put=set_value)) ::StringW  value;
 
-  static inline ::UnityEngine::UIElements::TextField* New_ctor();
+/// @brief Method ExecuteDefaultAction, addr 0x4959540, size 0x15c, virtual true, abstract: false, final false
+inline void ExecuteDefaultAction(::UnityEngine::UIElements::EventBase*  evt) ;
 
-  static inline ::UnityEngine::UIElements::TextField* New_ctor(::StringW label);
+static inline ::UnityEngine::UIElements::TextField* New_ctor() ;
 
-  static inline ::UnityEngine::UIElements::TextField* New_ctor(::StringW label, int32_t maxLength, bool multiline, bool isPasswordField, char16_t maskChar);
+static inline ::UnityEngine::UIElements::TextField* New_ctor(::StringW  label) ;
 
-  /// @brief Method OnViewDataReady, addr 0x35c0388, size 0xb4, virtual true, abstract: false, final false
-  inline void OnViewDataReady();
+static inline ::UnityEngine::UIElements::TextField* New_ctor(::StringW  label, int32_t  maxLength, bool  multiline, bool  isPasswordField, char16_t  maskChar) ;
 
-  /// @brief Method SetValueWithoutNotify, addr 0x35c02e4, size 0xa4, virtual true, abstract: false, final false
-  inline void SetValueWithoutNotify(::StringW newValue);
+/// @brief Method OnViewDataReady, addr 0x495969c, size 0xb4, virtual true, abstract: false, final false
+inline void OnViewDataReady() ;
 
-  /// @brief Method .ctor, addr 0x35bffa8, size 0x18, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method SetValueWithoutNotify, addr 0x49593cc, size 0x114, virtual true, abstract: false, final false
+inline void SetValueWithoutNotify(::StringW  newValue) ;
 
-  /// @brief Method .ctor, addr 0x35bffc0, size 0x14, virtual false, abstract: false, final false
-  inline void _ctor(::StringW label);
+/// @brief Method StringToValue, addr 0x4959758, size 0x8, virtual true, abstract: false, final false
+inline ::StringW StringToValue(::StringW  str) ;
 
-  /// @brief Method .ctor, addr 0x35bffd4, size 0x1dc, virtual false, abstract: false, final false
-  inline void _ctor(::StringW label, int32_t maxLength, bool multiline, bool isPasswordField, char16_t maskChar);
+/// @brief Method UpdateTextFromValue, addr 0x49594e0, size 0x60, virtual true, abstract: false, final false
+inline void UpdateTextFromValue() ;
 
-  static inline ::StringW getStaticF_inputUssClassName();
+/// @brief Method ValueToString, addr 0x4959750, size 0x8, virtual true, abstract: false, final false
+inline ::StringW ValueToString(::StringW  value) ;
 
-  static inline ::StringW getStaticF_labelUssClassName();
+/// @brief Method .ctor, addr 0x4958fe8, size 0x18, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  static inline ::StringW getStaticF_ussClassName();
+/// @brief Method .ctor, addr 0x4959000, size 0x14, virtual false, abstract: false, final false
+inline void _ctor(::StringW  label) ;
 
-  /// @brief Method get_textInput, addr 0x35bfe38, size 0x84, virtual false, abstract: false, final false
-  inline ::UnityEngine::UIElements::__TextField__TextInput* get_textInput();
+/// @brief Method .ctor, addr 0x4959014, size 0x1e0, virtual false, abstract: false, final false
+inline void _ctor(::StringW  label, int32_t  maxLength, bool  multiline, bool  isPasswordField, char16_t  maskChar) ;
 
-  /// @brief Method get_value, addr 0x35c01f8, size 0x48, virtual true, abstract: false, final false
-  inline ::StringW get_value();
+static inline ::StringW getStaticF_inputUssClassName() ;
 
-  static inline void setStaticF_inputUssClassName(::StringW value);
+static inline ::StringW getStaticF_labelUssClassName() ;
 
-  static inline void setStaticF_labelUssClassName(::StringW value);
+static inline ::StringW getStaticF_ussClassName() ;
 
-  static inline void setStaticF_ussClassName(::StringW value);
+/// @brief Method get_textInput, addr 0x4958d14, size 0x84, virtual false, abstract: false, final false
+inline ::UnityEngine::UIElements::__TextField__TextInput* get_textInput() ;
 
-  /// @brief Method set_multiline, addr 0x35bfebc, size 0x20, virtual false, abstract: false, final false
-  inline void set_multiline(bool value);
+/// @brief Method get_value, addr 0x4959260, size 0x48, virtual true, abstract: false, final false
+inline ::StringW get_value() ;
 
-  /// @brief Method set_value, addr 0x35c0240, size 0xa4, virtual true, abstract: false, final false
-  inline void set_value(::StringW value);
+static inline void setStaticF_inputUssClassName(::StringW  value) ;
+
+static inline void setStaticF_labelUssClassName(::StringW  value) ;
+
+static inline void setStaticF_ussClassName(::StringW  value) ;
+
+/// @brief Method set_multiline, addr 0x4958d98, size 0x20, virtual false, abstract: false, final false
+inline void set_multiline(bool  value) ;
+
+/// @brief Method set_value, addr 0x49592a8, size 0x124, virtual true, abstract: false, final false
+inline void set_value(::StringW  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr TextField();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr TextField() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "TextField", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  TextField(TextField&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "TextField", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  TextField(TextField const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "TextField", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+TextField(TextField && ) = delete;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+// Ctor Parameters [CppParam { name: "", ty: "TextField", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+TextField(TextField const& ) = delete;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
-static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::TextField, 0x420>, "Size mismatch!");
+static_assert(::cordl_internals::size_check_v<::UnityEngine::UIElements::TextField, 0x458>, "Size mismatch!");
 
-} // namespace UnityEngine::UIElements
+} // namespace end def UnityEngine::UIElements
 NEED_NO_BOX(::UnityEngine::UIElements::TextField);
 DEFINE_IL2CPP_ARG_TYPE(::UnityEngine::UIElements::TextField*, "UnityEngine.UIElements", "TextField");
 NEED_NO_BOX(::UnityEngine::UIElements::__TextField__TextInput);

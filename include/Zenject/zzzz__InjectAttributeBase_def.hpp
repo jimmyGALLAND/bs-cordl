@@ -19,93 +19,93 @@ class InjectAttributeBase;
 // Write type traits
 MARK_REF_PTR_T(::Zenject::InjectAttributeBase);
 // Type: Zenject::InjectAttributeBase
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 36, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace Zenject {
 // Is value type: false
 // CS Name: ::Zenject::InjectAttributeBase*
 class CORDL_TYPE InjectAttributeBase : public ::Zenject::Internal::PreserveAttribute {
 public:
-  // Declarations
-  __declspec(property(get = get_Id, put = set_Id))::System::Object* Id;
+// Declarations
+ __declspec(property(get=get_Id, put=set_Id)) ::System::Object*  Id;
 
-  __declspec(property(get = get_Optional, put = set_Optional)) bool Optional;
+ __declspec(property(get=get_Optional, put=set_Optional)) bool  Optional;
 
-  __declspec(property(get = get_Source, put = set_Source))::Zenject::InjectSources Source;
+ __declspec(property(get=get_Source, put=set_Source)) ::Zenject::InjectSources  Source;
 
-  /// @brief Field <Id>k__BackingField, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__Id_k__BackingField, put = __cordl_internal_set__Id_k__BackingField))::System::Object* _Id_k__BackingField;
+/// @brief Field <Id>k__BackingField, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get__Id_k__BackingField, put=__cordl_internal_set__Id_k__BackingField)) ::System::Object*  _Id_k__BackingField;
 
-  /// @brief Field <Optional>k__BackingField, offset 0x10, size 0x1
-  __declspec(property(get = __cordl_internal_get__Optional_k__BackingField, put = __cordl_internal_set__Optional_k__BackingField)) bool _Optional_k__BackingField;
+/// @brief Field <Optional>k__BackingField, offset 0x10, size 0x1 
+ __declspec(property(get=__cordl_internal_get__Optional_k__BackingField, put=__cordl_internal_set__Optional_k__BackingField)) bool  _Optional_k__BackingField;
 
-  /// @brief Field <Source>k__BackingField, offset 0x20, size 0x4
-  __declspec(property(get = __cordl_internal_get__Source_k__BackingField, put = __cordl_internal_set__Source_k__BackingField))::Zenject::InjectSources _Source_k__BackingField;
+/// @brief Field <Source>k__BackingField, offset 0x20, size 0x4 
+ __declspec(property(get=__cordl_internal_get__Source_k__BackingField, put=__cordl_internal_set__Source_k__BackingField)) ::Zenject::InjectSources  _Source_k__BackingField;
 
-  static inline ::Zenject::InjectAttributeBase* New_ctor();
+static inline ::Zenject::InjectAttributeBase* New_ctor() ;
 
-  constexpr ::System::Object*& __cordl_internal_get__Id_k__BackingField();
+constexpr ::System::Object*& __cordl_internal_get__Id_k__BackingField() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__Id_k__BackingField() const;
+constexpr ::cordl_internals::to_const_pointer<::System::Object*> const& __cordl_internal_get__Id_k__BackingField() const;
 
-  constexpr bool const& __cordl_internal_get__Optional_k__BackingField() const;
+constexpr bool const& __cordl_internal_get__Optional_k__BackingField() const;
 
-  constexpr bool& __cordl_internal_get__Optional_k__BackingField();
+constexpr bool& __cordl_internal_get__Optional_k__BackingField() ;
 
-  constexpr ::Zenject::InjectSources const& __cordl_internal_get__Source_k__BackingField() const;
+constexpr ::Zenject::InjectSources const& __cordl_internal_get__Source_k__BackingField() const;
 
-  constexpr ::Zenject::InjectSources& __cordl_internal_get__Source_k__BackingField();
+constexpr ::Zenject::InjectSources& __cordl_internal_get__Source_k__BackingField() ;
 
-  constexpr void __cordl_internal_set__Id_k__BackingField(::System::Object* value);
+constexpr void __cordl_internal_set__Id_k__BackingField(::System::Object*  value) ;
 
-  constexpr void __cordl_internal_set__Optional_k__BackingField(bool value);
+constexpr void __cordl_internal_set__Optional_k__BackingField(bool  value) ;
 
-  constexpr void __cordl_internal_set__Source_k__BackingField(::Zenject::InjectSources value);
+constexpr void __cordl_internal_set__Source_k__BackingField(::Zenject::InjectSources  value) ;
 
-  /// @brief Method .ctor, addr 0x36507d0, size 0x8, virtual false, abstract: false, final false
-  inline void _ctor();
+/// @brief Method .ctor, addr 0x4a5c1d4, size 0x8, virtual false, abstract: false, final false
+inline void _ctor() ;
 
-  /// @brief Method get_Id, addr 0x36507b0, size 0x8, virtual false, abstract: false, final false
-  inline ::System::Object* get_Id();
+/// @brief Method get_Id, addr 0x4a5c1b4, size 0x8, virtual false, abstract: false, final false
+inline ::System::Object* get_Id() ;
 
-  /// @brief Method get_Optional, addr 0x365079c, size 0x8, virtual false, abstract: false, final false
-  inline bool get_Optional();
+/// @brief Method get_Optional, addr 0x4a5c1a0, size 0x8, virtual false, abstract: false, final false
+inline bool get_Optional() ;
 
-  /// @brief Method get_Source, addr 0x36507c0, size 0x8, virtual false, abstract: false, final false
-  inline ::Zenject::InjectSources get_Source();
+/// @brief Method get_Source, addr 0x4a5c1c4, size 0x8, virtual false, abstract: false, final false
+inline ::Zenject::InjectSources get_Source() ;
 
-  /// @brief Method set_Id, addr 0x36507b8, size 0x8, virtual false, abstract: false, final false
-  inline void set_Id(::System::Object* value);
+/// @brief Method set_Id, addr 0x4a5c1bc, size 0x8, virtual false, abstract: false, final false
+inline void set_Id(::System::Object*  value) ;
 
-  /// @brief Method set_Optional, addr 0x36507a4, size 0xc, virtual false, abstract: false, final false
-  inline void set_Optional(bool value);
+/// @brief Method set_Optional, addr 0x4a5c1a8, size 0xc, virtual false, abstract: false, final false
+inline void set_Optional(bool  value) ;
 
-  /// @brief Method set_Source, addr 0x36507c8, size 0x8, virtual false, abstract: false, final false
-  inline void set_Source(::Zenject::InjectSources value);
+/// @brief Method set_Source, addr 0x4a5c1cc, size 0x8, virtual false, abstract: false, final false
+inline void set_Source(::Zenject::InjectSources  value) ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr InjectAttributeBase();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr InjectAttributeBase() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InjectAttributeBase", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  InjectAttributeBase(InjectAttributeBase&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InjectAttributeBase", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  InjectAttributeBase(InjectAttributeBase const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "InjectAttributeBase", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+InjectAttributeBase(InjectAttributeBase && ) = delete;
 
-  /// @brief Field <Optional>k__BackingField, offset: 0x10, size: 0x1, def value: None
-  bool ____Optional_k__BackingField;
+// Ctor Parameters [CppParam { name: "", ty: "InjectAttributeBase", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+InjectAttributeBase(InjectAttributeBase const& ) = delete;
 
-  /// @brief Field <Id>k__BackingField, offset: 0x18, size: 0x8, def value: None
-  ::System::Object* ____Id_k__BackingField;
+/// @brief Field <Optional>k__BackingField, offset: 0x10, size: 0x1, def value: None
+ bool  ____Optional_k__BackingField;
 
-  /// @brief Field <Source>k__BackingField, offset: 0x20, size: 0x4, def value: None
-  ::Zenject::InjectSources ____Source_k__BackingField;
+/// @brief Field <Id>k__BackingField, offset: 0x18, size: 0x8, def value: None
+ ::System::Object*  ____Id_k__BackingField;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field <Source>k__BackingField, offset: 0x20, size: 0x4, def value: None
+ ::Zenject::InjectSources  ____Source_k__BackingField;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::Zenject::InjectAttributeBase, 0x28>, "Size mismatch!");
@@ -116,6 +116,6 @@ static_assert(offsetof(::Zenject::InjectAttributeBase, ____Id_k__BackingField) =
 
 static_assert(offsetof(::Zenject::InjectAttributeBase, ____Source_k__BackingField) == 0x20, "Offset mismatch!");
 
-} // namespace Zenject
+} // namespace end def Zenject
 NEED_NO_BOX(::Zenject::InjectAttributeBase);
 DEFINE_IL2CPP_ARG_TYPE(::Zenject::InjectAttributeBase*, "Zenject", "InjectAttributeBase");

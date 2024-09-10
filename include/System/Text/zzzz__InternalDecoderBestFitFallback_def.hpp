@@ -23,83 +23,83 @@ class InternalDecoderBestFitFallback;
 // Write type traits
 MARK_REF_PTR_T(::System::Text::InternalDecoderBestFitFallback);
 // Type: System.Text::InternalDecoderBestFitFallback
-// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 34, minimum_alignment: 8, natural_alignment: 8, packing: None, specified_packing: None }
+// SizeInfo { instance_size: 40, native_size: -1, calculated_instance_size: 40, calculated_native_size: 34, minimum_alignment: 8, packing: None, specified_packing: None }
 namespace System::Text {
 // Is value type: false
 // CS Name: ::System.Text::InternalDecoderBestFitFallback*
 class CORDL_TYPE InternalDecoderBestFitFallback : public ::System::Text::DecoderFallback {
 public:
-  // Declarations
-  __declspec(property(get = get_MaxCharCount)) int32_t MaxCharCount;
+// Declarations
+ __declspec(property(get=get_MaxCharCount)) int32_t  MaxCharCount;
 
-  /// @brief Field _arrayBestFit, offset 0x18, size 0x8
-  __declspec(property(get = __cordl_internal_get__arrayBestFit, put = __cordl_internal_set__arrayBestFit))::ArrayW<char16_t, ::Array<char16_t>*> _arrayBestFit;
+/// @brief Field _arrayBestFit, offset 0x18, size 0x8 
+ __declspec(property(get=__cordl_internal_get__arrayBestFit, put=__cordl_internal_set__arrayBestFit)) ::ArrayW<char16_t,::Array<char16_t>*>  _arrayBestFit;
 
-  /// @brief Field _cReplacement, offset 0x20, size 0x2
-  __declspec(property(get = __cordl_internal_get__cReplacement, put = __cordl_internal_set__cReplacement)) char16_t _cReplacement;
+/// @brief Field _cReplacement, offset 0x20, size 0x2 
+ __declspec(property(get=__cordl_internal_get__cReplacement, put=__cordl_internal_set__cReplacement)) char16_t  _cReplacement;
 
-  /// @brief Field _encoding, offset 0x10, size 0x8
-  __declspec(property(get = __cordl_internal_get__encoding, put = __cordl_internal_set__encoding))::System::Text::Encoding* _encoding;
+/// @brief Field _encoding, offset 0x10, size 0x8 
+ __declspec(property(get=__cordl_internal_get__encoding, put=__cordl_internal_set__encoding)) ::System::Text::Encoding*  _encoding;
 
-  /// @brief Method CreateFallbackBuffer, addr 0x29ea4e0, size 0x60, virtual true, abstract: false, final false
-  inline ::System::Text::DecoderFallbackBuffer* CreateFallbackBuffer();
+/// @brief Method CreateFallbackBuffer, addr 0x3dddf3c, size 0x58, virtual true, abstract: false, final false
+inline ::System::Text::DecoderFallbackBuffer* CreateFallbackBuffer() ;
 
-  /// @brief Method Equals, addr 0x29ea670, size 0xa8, virtual true, abstract: false, final false
-  inline bool Equals(::System::Object* value);
+/// @brief Method Equals, addr 0x3dde0c0, size 0xa8, virtual true, abstract: false, final false
+inline bool Equals(::System::Object*  value) ;
 
-  /// @brief Method GetHashCode, addr 0x29ea718, size 0x24, virtual true, abstract: false, final false
-  inline int32_t GetHashCode();
+/// @brief Method GetHashCode, addr 0x3dde168, size 0x24, virtual true, abstract: false, final false
+inline int32_t GetHashCode() ;
 
-  static inline ::System::Text::InternalDecoderBestFitFallback* New_ctor(::System::Text::Encoding* encoding);
+static inline ::System::Text::InternalDecoderBestFitFallback* New_ctor(::System::Text::Encoding*  encoding) ;
 
-  constexpr ::ArrayW<char16_t, ::Array<char16_t>*> const& __cordl_internal_get__arrayBestFit() const;
+constexpr ::ArrayW<char16_t,::Array<char16_t>*> const& __cordl_internal_get__arrayBestFit() const;
 
-  constexpr ::ArrayW<char16_t, ::Array<char16_t>*>& __cordl_internal_get__arrayBestFit();
+constexpr ::ArrayW<char16_t,::Array<char16_t>*>& __cordl_internal_get__arrayBestFit() ;
 
-  constexpr char16_t const& __cordl_internal_get__cReplacement() const;
+constexpr char16_t const& __cordl_internal_get__cReplacement() const;
 
-  constexpr char16_t& __cordl_internal_get__cReplacement();
+constexpr char16_t& __cordl_internal_get__cReplacement() ;
 
-  constexpr ::System::Text::Encoding*& __cordl_internal_get__encoding();
+constexpr ::System::Text::Encoding*& __cordl_internal_get__encoding() ;
 
-  constexpr ::cordl_internals::to_const_pointer<::System::Text::Encoding*> const& __cordl_internal_get__encoding() const;
+constexpr ::cordl_internals::to_const_pointer<::System::Text::Encoding*> const& __cordl_internal_get__encoding() const;
 
-  constexpr void __cordl_internal_set__arrayBestFit(::ArrayW<char16_t, ::Array<char16_t>*> value);
+constexpr void __cordl_internal_set__arrayBestFit(::ArrayW<char16_t,::Array<char16_t>*>  value) ;
 
-  constexpr void __cordl_internal_set__cReplacement(char16_t value);
+constexpr void __cordl_internal_set__cReplacement(char16_t  value) ;
 
-  constexpr void __cordl_internal_set__encoding(::System::Text::Encoding* value);
+constexpr void __cordl_internal_set__encoding(::System::Text::Encoding*  value) ;
 
-  /// @brief Method .ctor, addr 0x29ea4a8, size 0x30, virtual false, abstract: false, final false
-  inline void _ctor(::System::Text::Encoding* encoding);
+/// @brief Method .ctor, addr 0x3dddf04, size 0x30, virtual false, abstract: false, final false
+inline void _ctor(::System::Text::Encoding*  encoding) ;
 
-  /// @brief Method get_MaxCharCount, addr 0x29ea668, size 0x8, virtual true, abstract: false, final false
-  inline int32_t get_MaxCharCount();
+/// @brief Method get_MaxCharCount, addr 0x3dde0b8, size 0x8, virtual true, abstract: false, final false
+inline int32_t get_MaxCharCount() ;
 
 protected:
-  // Ctor Parameters []
-  // @brief default ctor
-  constexpr InternalDecoderBestFitFallback();
-
+// Ctor Parameters []
+// @brief default ctor
+constexpr InternalDecoderBestFitFallback() ;
 public:
-  // Ctor Parameters [CppParam { name: "", ty: "InternalDecoderBestFitFallback", modifiers: "&&", def_value: None }]
-  // @brief delete move ctor to prevent accidental deref moves
-  InternalDecoderBestFitFallback(InternalDecoderBestFitFallback&&) = delete;
 
-  // Ctor Parameters [CppParam { name: "", ty: "InternalDecoderBestFitFallback", modifiers: "const&", def_value: None }]
-  // @brief delete copy ctor to prevent accidental deref copies
-  InternalDecoderBestFitFallback(InternalDecoderBestFitFallback const&) = delete;
+// Ctor Parameters [CppParam { name: "", ty: "InternalDecoderBestFitFallback", modifiers: "&&", def_value: None }]
+// @brief delete move ctor to prevent accidental deref moves
+InternalDecoderBestFitFallback(InternalDecoderBestFitFallback && ) = delete;
 
-  /// @brief Field _encoding, offset: 0x10, size: 0x8, def value: None
-  ::System::Text::Encoding* ____encoding;
+// Ctor Parameters [CppParam { name: "", ty: "InternalDecoderBestFitFallback", modifiers: "const&", def_value: None }]
+// @brief delete copy ctor to prevent accidental deref copies
+InternalDecoderBestFitFallback(InternalDecoderBestFitFallback const& ) = delete;
 
-  /// @brief Field _arrayBestFit, offset: 0x18, size: 0x8, def value: None
-  ::ArrayW<char16_t, ::Array<char16_t>*> ____arrayBestFit;
+/// @brief Field _encoding, offset: 0x10, size: 0x8, def value: None
+ ::System::Text::Encoding*  ____encoding;
 
-  /// @brief Field _cReplacement, offset: 0x20, size: 0x2, def value: None
-  char16_t ____cReplacement;
+/// @brief Field _arrayBestFit, offset: 0x18, size: 0x8, def value: None
+ ::ArrayW<char16_t,::Array<char16_t>*>  ____arrayBestFit;
 
-  static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
+/// @brief Field _cReplacement, offset: 0x20, size: 0x2, def value: None
+ char16_t  ____cReplacement;
+
+static constexpr bool __IL2CPP_IS_VALUE_TYPE = false;
 };
 // Non member Declarations
 static_assert(::cordl_internals::size_check_v<::System::Text::InternalDecoderBestFitFallback, 0x28>, "Size mismatch!");
@@ -110,6 +110,6 @@ static_assert(offsetof(::System::Text::InternalDecoderBestFitFallback, ____array
 
 static_assert(offsetof(::System::Text::InternalDecoderBestFitFallback, ____cReplacement) == 0x20, "Offset mismatch!");
 
-} // namespace System::Text
+} // namespace end def System::Text
 NEED_NO_BOX(::System::Text::InternalDecoderBestFitFallback);
 DEFINE_IL2CPP_ARG_TYPE(::System::Text::InternalDecoderBestFitFallback*, "System.Text", "InternalDecoderBestFitFallback");
